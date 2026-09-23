@@ -1,0 +1,42 @@
+{
+  "role": "For Him trio website category lifestyle image",
+  "mode": "built-in image_gen",
+  "prompt": "Use case: product-mockup.\nAsset type: square 1:1 premium approachable lifestyle category photo for the DearBody perfume website, final photograph at least 1536x1536.\nPrimary request: Generate a NEW polished commercial editorial photo of this exact three-scent perfume collection displayed naturally at home.\nInput images: Reference 1 is physical product identity authority for the three bottles, labels, liquid colors and caps. Reference 2 is supporting physical identity authority. They are reference photographs ONLY: do not reproduce their office background, cushion, screen, clutter, casual lighting, or original camera composition.\nScene/backdrop: a contemporary home walnut console with visible tactile wood grain, a curved warm cream plaster wall behind it, soft sunny window-light crossing the wall, one small burnt-orange ceramic detail very far behind and softly blurred. Attainable stylish real home, bright, welcoming, warm, calm with playful color, not a shop display.\nSubjects: exactly THREE perfume bottles at equal real size and equal visual prominence, clear cylindrical glass with thick clear-glass bases, shoulder shape exactly as references, glossy black cylindrical caps and thin silver collar. Upright front-facing bottles in a shallow stagger on the walnut console, each label readable without overlap. No canisters are needed. Left bottle OUD MIRAGE with transparent pale blue/lilac liquid; middle bottle CHARME ENVOÛTANT with transparent amber-orange liquid; right bottle RTULLE & SATIN with transparent pale turquoise liquid. Maintain actual bottle, cap, label proportions, and realistic approximately 50ml scale.\nLabel text, verbatim, large white bold serif uppercase on black rectangular labels: \"OUD MIRAGE\", \"CHARME ENVOÛTANT\", \"RTULLE & SATIN\". Match the physical label layout from references including the small original intertwined monogram beside \"PARFUM\" and \"LONDON\" underneath, identical to reference. Do not replace that printed mark with DEAR BODY or new branding.\nComposition: square 1:1, editorial tabletop photo from slightly above bottle-mid-height, three separated bottles occupy central 70% of frame and are all sharp, bottle bases visible with convincing contact shadows. Moderate breathing room above caps and beneath bases. Natural depth and balanced commercial composition.\nLighting/mood: warm bright morning daylight and gentle soft fill, crisp but soft-edged shadows, clean specular glass edges, accurate transparent pale liquid colors, believable reflections, subtle luminous material detail. Welcoming, fun and light premium approachable style.\nConstraints: faithful real products and labels; do not redesign bottles, labels or caps; do not add unverified text, flowers, fruit or ingredient props; no humans, hands, faces or reflections of people; no overlay headline, text, badge, logo, watermark, border or UI. No computer, cushion, office objects. Not a collage, not a contact sheet. A single photorealistic finished commercial lifestyle photograph.",
+  "references": [
+    {
+      "path": "/Users/wetrade/Downloads/IMG_20260923_163159.jpg",
+      "role": "Product identity reference, not used as finished website photography"
+    },
+    {
+      "path": "/Users/wetrade/Downloads/IMG_20260923_162544.jpg",
+      "role": "Supporting product identity and packaging reference"
+    }
+  ],
+  "generation_source": "/Users/wetrade/.codex/generated_images/01a0cebc-6fcd-76f2-b47a-e624ba485af1/exec-95179dd6-9208-46cb-b713-62fb253adb73.png",
+  "master": "output/website/refined-reference-images/for-him-v1.png",
+  "web_export": "output/website/shopify-theme/dearbody/assets/db-lifestyle-for-him.jpg",
+  "qa": {
+    "inspected": "Generated master displayed inline at native dimensions before export; final 1200-square JPEG reopened and visually checked",
+    "result": "PASS for website category editorial use",
+    "checks": [
+      "Exactly three black-label bottles, equally prominent, no label overlap",
+      "Names OUD MIRAGE, CHARME ENVOÛTANT, RTULLE & SATIN are visible",
+      "Cylindrical clear glass, thick bases, black cylindrical caps, thin silver collars",
+      "Pale blue/lilac, amber-orange and pale turquoise liquid identities retained",
+      "Warm bright home walnut console and cream wall with restrained orange ceramic",
+      "No humans, overlaid copy, watermark, added claims, ingredient props or office background",
+      "Original PARFUM / LONDON label branding represented; no DearBody logo substituted"
+    ],
+    "limitations": "AI-generated lifestyle photography; tiny printed monogram details are represented visually, not a pixel-identical reproduction. Liquid color appearance varies under generated warm lighting."
+  },
+  "export": {
+    "tool": "sips",
+    "format": "JPEG",
+    "quality": 90,
+    "longest_edge": 1200,
+    "master_dimensions": [1254, 1254],
+    "web_dimensions": [1200, 1200],
+    "master_sha256": "4e19592fc0b044519a63cdd37304eb5d257fab115b930e45ff6ae20e38194a80",
+    "web_sha256": "75edc07474349fa85a0d9e2d3782abaa48ff65395140d140079babb9c5be081d"
+  }
+}

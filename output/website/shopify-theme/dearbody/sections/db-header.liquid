@@ -1,0 +1,23 @@
+<div class="db-announcement">{{ section.settings.announcement | escape }}</div>
+<header class="db-header">
+  <div class="db-container db-header-inner">
+    <a href="{{ routes.root_url }}" class="db-wordmark" aria-label="{{ shop.name | escape }} home">
+      {% if settings.logo %}{{ settings.logo | image_url: width: 440 | image_tag: width: 220, loading: 'eager', alt: shop.name }}{% else %}{% render 'db-logo' %}{% endif %}
+    </a>
+    <nav class="db-desktop-nav" aria-label="Main navigation">
+      {% render 'db-navigation', menu: section.settings.menu, settings: settings, collections: collections, routes: routes, request: request %}
+    </nav>
+    <div class="db-header-actions">
+      <a href="{{ routes.cart_url }}" class="db-bag" aria-label="Shopping bag, {{ cart.item_count }} items">Bag <span>{{ cart.item_count }}</span></a>
+      <details class="db-mobile-menu">
+        <summary aria-label="Open navigation">Menu <span aria-hidden="true">☰</span></summary>
+        <nav aria-label="Mobile navigation">
+          {% render 'db-navigation', menu: section.settings.menu, settings: settings, collections: collections, routes: routes, request: request %}
+        </nav>
+      </details>
+    </div>
+  </div>
+</header>
+{% schema %}
+{"name":"DearBody header","settings":[{"type":"text","id":"announcement","label":"Announcement","default":"A SCENT JOURNEY"},{"type":"link_list","id":"menu","label":"Main menu"}]}
+{% endschema %}

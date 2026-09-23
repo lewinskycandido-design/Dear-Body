@@ -1,0 +1,1353 @@
+Reading additional input from stdin...
+OpenAI Codex v0.155.1
+--------
+workdir: /Users/wetrade/Documents/ChatGPT/Dear Body
+model: gpt-6-astra
+provider: openai
+approval: never
+sandbox: workspace-write [workdir, /tmp, $TMPDIR]
+reasoning effort: medium
+reasoning summaries: none
+session id: 01a0cc0e-8166-7873-b088-59fb0c854944
+--------
+user
+You are Codex, the artwork owner for the Dear Body Shopify storefront. A previous attempt disconnected mid-run before generating anything, so start fresh. Read and FULLY execute the brief at ./output/website/CODEX_BANNER_DESIGN_PROMPT.md. Also read ./output/website/CLAUDE_TO_CODEX_BANNER_REQUEST.md — it is Claude's placement brief; where it differs, its dimensions and notes take precedence. Inspect the approved galleries and the original product photographs it lists before generating. Generate, inspect at full size, correct visible problems, and deliver all three assets (PNG master + WebP + JPEG derivatives) plus BANNER_ASSET_MANIFEST.md into ./output/website/banners/. Save each finished file to that folder IMMEDIATELY after it passes inspection, not all at the end. Add no headline, caption, button, logo, monogram, badge, or invented props. When finished, print one line per delivered file prefixed 'SAVED: ' with its absolute path, then a final line 'DONE'.
+codex
+I’ll read both briefs, inspect the approved references and product photos, then use the imagegen skill to create and check each asset before saving it.
+exec
+/bin/zsh -lc "pwd && rg --files -g 'AGENTS.md' -g '*BANNER*' -g '*SKILL*' . /Users/wetrade/.codex/skills/.system/imagegen 2>/dev/null" in /Users/wetrade/Documents/ChatGPT/Dear Body
+ succeeded in 0ms:
+/Users/wetrade/Documents/ChatGPT/Dear Body
+/Users/wetrade/.codex/skills/.system/imagegen/SKILL.md
+./output/website/CODEX_BANNER_DESIGN_PROMPT.md
+./output/website/CLAUDE_TO_CODEX_BANNER_REQUEST.md
+
+exec
+/bin/zsh -lc 'cat /Users/wetrade/.codex/skills/.system/imagegen/SKILL.md && cat output/website/CODEX_BANNER_DESIGN_PROMPT.md && cat output/website/CLAUDE_TO_CODEX_BANNER_REQUEST.md' in /Users/wetrade/Documents/ChatGPT/Dear Body
+ succeeded in 0ms:
+---
+name: "imagegen"
+description: "Generate or edit raster images when the task benefits from AI-created bitmap visuals such as photos, illustrations, textures, sprites, mockups, or transparent-background cutouts. Use when Codex should create a brand-new image, transform an existing image, or derive visual variants from references, and the output should be a bitmap asset rather than repo-native code or vector. Do not use when the task is better handled by editing existing SVG/vector/code-native assets, extending an established icon or logo system, or building the visual directly in HTML/CSS/canvas."
+---
+
+# Image Generation Skill
+
+Generates or edits images for the current project (for example website assets, game assets, UI mockups, product mockups, wireframes, logo design, photorealistic images, or infographics).
+
+## Top-level modes and rules
+
+This skill has exactly two top-level modes:
+
+- **Default built-in tool mode (preferred):** built-in `image_gen` tool for image generation, editing, and transparent-image requests. Does not require `OPENAI_API_KEY`.
+- **Fallback CLI mode:** `scripts/image_gen.py` CLI. Use when the user explicitly asks for or confirms the CLI/API/model path. Requires `OPENAI_API_KEY`.
+
+Within CLI fallback, the CLI exposes three subcommands:
+
+- `generate`
+- `edit`
+- `generate-batch`
+
+Rules:
+- Use the built-in `image_gen` tool by default for normal image generation and editing requests.
+- Do not switch to CLI fallback for ordinary quality, size, or file-path control.
+- For transparent images, ask built-in `image_gen` for a transparent background and preserve the generated alpha.
+- Never silently switch from built-in `image_gen` or CLI `gpt-image-2` to CLI `gpt-image-1.5`; ask the user first unless they explicitly requested `gpt-image-1.5`.
+- The word `batch` by itself does not mean CLI fallback. If the user asks for many assets or says to batch-generate assets without explicitly asking for CLI/API/model controls, stay on the built-in path and issue one built-in call per requested asset or variant.
+- If the built-in tool fails or is unavailable, tell the user the CLI fallback exists and that it requires `OPENAI_API_KEY`. Proceed only if the user explicitly asks for that fallback.
+- If the user explicitly asks for CLI mode, use the bundled `scripts/image_gen.py` workflow. Do not create one-off SDK runners.
+- Never modify `scripts/image_gen.py`. If something is missing, ask the user before doing anything else.
+
+Built-in save-path policy:
+- In built-in tool mode, Codex saves generated images under `$CODEX_HOME/*` by default.
+- Do not describe or rely on OS temp as the default built-in destination.
+- Do not describe or rely on a destination-path argument (if any) on the built-in `image_gen` tool. If a specific location is needed, generate first and then move or copy the selected output from `$CODEX_HOME/generated_images/...`.
+- Save-path precedence in built-in mode:
+  1. If the user names a destination, move or copy the selected output there.
+  2. If the image is meant for the current project, move or copy the final selected image into the workspace before finishing.
+  3. If the image is only for preview or brainstorming, render it inline; the underlying file can remain at the default `$CODEX_HOME/*` path.
+- Never leave a project-referenced asset only at the default `$CODEX_HOME/*` path.
+- Do not overwrite an existing asset unless the user explicitly asked for replacement; otherwise create a sibling versioned filename such as `hero-v2.png` or `item-icon-edited.png`.
+
+Shared prompt guidance for both modes lives in `references/prompting.md` and `references/sample-prompts.md`.
+
+Fallback-only docs/resources for CLI mode:
+- `references/cli.md`
+- `references/image-api.md`
+- `references/codex-network.md`
+- `scripts/image_gen.py`
+
+## When to use
+- Generate a new image (concept art, product shot, cover, website hero)
+- Generate a new image using one or more reference images for style, composition, or mood
+- Edit an existing image (inpainting, lighting or weather transformations, background replacement, object removal, compositing, transparent background)
+- Produce many assets or variants for one task
+
+## When not to use
+- Extending or matching an existing SVG/vector icon set, logo system, or illustration library inside the repo
+- Creating simple shapes, diagrams, wireframes, or icons that are better produced directly in SVG, HTML/CSS, or canvas
+- Making a small project-local asset edit when the source file already exists in an editable native format
+- Any task where the user clearly wants deterministic code-native output instead of a generated bitmap
+
+## Decision tree
+
+Think about two separate questions:
+
+1. **Intent:** is this a new image or an edit of an existing image?
+2. **Execution strategy:** is this one asset or many assets/variants?
+
+Intent:
+- If the user wants to modify an existing image while preserving parts of it, treat the request as **edit**.
+- If the user provides images only as references for style, composition, mood, or subject guidance, treat the request as **generate**.
+- If the user provides no images, treat the request as **generate**.
+
+Built-in edit semantics:
+- Built-in edit mode is for images already visible in the conversation context, such as attached images or images generated earlier in the thread.
+- If the user wants to edit a local image file with the built-in tool, first load it with built-in `view_image` tool so the image is visible in the conversation context, then proceed with the built-in edit flow.
+- Do not promise arbitrary filesystem-path editing through the built-in tool.
+- If a local file still needs direct file-path control, masks, or other explicit CLI-only parameters, use the explicit CLI fallback only when the user asks for it.
+- For edits, preserve invariants aggressively and save non-destructively by default.
+
+Execution strategy:
+- In the built-in default path, produce many assets or variants by issuing one `image_gen` call per requested asset or variant.
+- In the CLI fallback path, use the CLI `generate-batch` subcommand only when the user explicitly chose CLI mode and needs many prompts/assets.
+- For many distinct assets, do not use `n` as a substitute for separate prompts. `n` is for variants of one prompt; distinct assets need distinct built-in calls or distinct CLI `generate-batch` jobs.
+
+Assume the user wants a new image unless they clearly ask to change an existing one.
+
+## Workflow
+1. Decide the top-level mode: built-in by default, including transparent-output requests; fallback CLI only if explicitly requested or confirmed.
+2. Decide the intent: `generate` or `edit`.
+3. Decide whether the output is preview-only or meant to be consumed by the current project.
+4. Decide the execution strategy: single asset vs repeated built-in calls vs CLI `generate-batch`.
+5. Collect inputs up front: prompt(s), exact text (verbatim), constraints/avoid list, and any input images.
+6. For every input image, label its role explicitly:
+   - reference image
+   - edit target
+   - supporting insert/style/compositing input
+7. If the edit target is only on the local filesystem and you are staying on the built-in path, inspect it with `view_image` first so the image is available in conversation context.
+8. If the user asked for a photo, illustration, sprite, product image, banner, or other explicitly raster-style asset, use `image_gen` rather than substituting SVG/HTML/CSS placeholders. If the request is for an icon, logo, or UI graphic that should match existing repo-native SVG/vector/code assets, prefer editing those directly instead.
+9. Augment the prompt based on specificity:
+   - If the user's prompt is already specific and detailed, normalize it into a clear spec without adding creative requirements.
+   - If the user's prompt is generic, add tasteful augmentation only when it materially improves output quality.
+10. Use the built-in `image_gen` tool by default.
+11. For transparent-output requests, ask built-in `image_gen` for a transparent background and preserve the generated alpha channel.
+12. Inspect outputs and validate: subject, style, composition, text accuracy, and invariants/avoid items.
+13. Iterate with a single targeted change, then re-check.
+14. For preview-only work, render the image inline; the underlying file may remain at the default `$CODEX_HOME/generated_images/...` path.
+15. For project-bound work, move or copy the selected artifact into the workspace and update any consuming code or references. Never leave a project-referenced asset only at the default `$CODEX_HOME/generated_images/...` path.
+16. For batches or multi-asset requests, persist every requested deliverable final in the workspace unless the user explicitly asked to keep outputs preview-only. Discarded variants do not need to be kept unless requested.
+17. If the user explicitly chooses or confirms the CLI fallback, then use the fallback-only docs for model, quality, size, `input_fidelity`, masks, output format, output paths, and network setup.
+18. Always report the final saved path(s) for any workspace-bound asset(s), plus the final prompt or prompt set and whether the built-in tool or fallback CLI mode was used.
+
+## Transparent image requests
+
+Ask built-in `image_gen` for a genuinely transparent background and preserve its alpha.
+
+## Prompt augmentation
+
+Reformat user prompts into a structured, production-oriented spec. Make the user's goal clearer and more actionable, but do not blindly add detail.
+
+Treat this as prompt-shaping guidance, not a closed schema. Use only the lines that help, and add a short extra labeled line when it materially improves clarity.
+
+### Specificity policy
+
+Use the user's prompt specificity to decide how much augmentation is appropriate:
+
+- If the prompt is already specific and detailed, preserve that specificity and only normalize/structure it.
+- If the prompt is generic, you may add tasteful augmentation when it will materially improve the result.
+
+Allowed augmentations:
+- composition or framing hints
+- polish level or intended-use hints
+- practical layout guidance
+- reasonable scene concreteness that supports the stated request
+
+Not allowed augmentations:
+- extra characters or objects that are not implied by the request
+- brand names, slogans, palettes, or narrative beats that are not implied
+- arbitrary side-specific placement unless the surrounding layout supports it
+
+## Use-case taxonomy (exact slugs)
+
+Classify each request into one of these buckets and keep the slug consistent across prompts and references.
+
+Generate:
+- photorealistic-natural — candid/editorial lifestyle scenes with real texture and natural lighting.
+- product-mockup — product/packaging shots, catalog imagery, merch concepts.
+- ui-mockup — app/web interface mockups and wireframes; specify the desired fidelity.
+- infographic-diagram — diagrams/infographics with structured layout and text.
+- scientific-educational — classroom explainers, scientific diagrams, and learning visuals with required labels and accuracy constraints.
+- ads-marketing — campaign concepts and ad creatives with audience, brand position, scene, and exact tagline/copy.
+- productivity-visual — slide, chart, workflow, and data-heavy business visuals.
+- logo-brand — logo/mark exploration, vector-friendly.
+- illustration-story — comics, children’s book art, narrative scenes.
+- stylized-concept — style-driven concept art, 3D/stylized renders.
+- historical-scene — period-accurate/world-knowledge scenes.
+
+Edit:
+- text-localization — translate/replace in-image text, preserve layout.
+- identity-preserve — try-on, person-in-scene; lock face/body/pose.
+- precise-object-edit — remove/replace a specific element (including interior swaps).
+- lighting-weather — time-of-day/season/atmosphere changes only.
+- background-extraction — transparent background / clean cutout. Ask built-in `image_gen` for actual transparency.
+- style-transfer — apply reference style while changing subject/scene.
+- compositing — multi-image insert/merge with matched lighting/perspective.
+- sketch-to-render — drawing/line art to photoreal render.
+
+## Shared prompt schema
+
+Use the following labeled spec as shared prompt scaffolding for both top-level modes:
+
+```text
+Use case: <taxonomy slug>
+Asset type: <where the asset will be used>
+Primary request: <user's main prompt>
+Input images: <Image 1: role; Image 2: role> (optional)
+Scene/backdrop: <environment>
+Subject: <main subject>
+Style/medium: <photo/illustration/3D/etc>
+Composition/framing: <wide/close/top-down; placement>
+Lighting/mood: <lighting + mood>
+Color palette: <palette notes>
+Materials/textures: <surface details>
+Text (verbatim): "<exact text>"
+Constraints: <must keep/must avoid>
+Avoid: <negative constraints>
+```
+
+Notes:
+- `Asset type` and `Input images` are prompt scaffolding, not dedicated CLI flags.
+- `Scene/backdrop` refers to the visual setting. It is not the same as the fallback CLI `background` parameter, which controls output transparency behavior.
+- Fallback-only execution notes such as `Quality:`, `Input fidelity:`, masks, output format, and output paths belong in the CLI path only. Do not treat them as built-in `image_gen` tool arguments.
+
+Augmentation rules:
+- Keep it short.
+- Add only the details needed to improve the prompt materially.
+- For edits, explicitly list invariants (`change only X; keep Y unchanged`).
+- If any critical detail is missing and blocks success, ask a question; otherwise proceed.
+
+## Examples
+
+### Generation example (hero image)
+```text
+Use case: product-mockup
+Asset type: landing page hero
+Primary request: a minimal hero image of a ceramic coffee mug
+Style/medium: clean product photography
+Composition/framing: wide composition with usable negative space for page copy if needed
+Lighting/mood: soft studio lighting
+Constraints: no logos, no text, no watermark
+```
+
+### Edit example (invariants)
+```text
+Use case: precise-object-edit
+Asset type: product photo background replacement
+Primary request: replace only the background with a warm sunset gradient
+Constraints: change only the background; keep the product and its edges unchanged; no text; no watermark
+```
+
+## Prompting best practices
+- Structure prompt as scene/backdrop -> subject -> details -> constraints.
+- Include intended use (ad, UI mock, infographic) to set the mode and polish level.
+- Use camera/composition language for photorealism.
+- Only use SVG/vector stand-ins when the user explicitly asked for vector output or a non-image placeholder.
+- Quote exact text and specify typography + placement.
+- For tricky words, spell them letter-by-letter and require verbatim rendering.
+- For multi-image inputs, reference images by index and describe how they should be used.
+- For edits, repeat invariants every iteration to reduce drift.
+- Iterate with single-change follow-ups.
+- If the prompt is generic, add only the extra detail that will materially help.
+- If the prompt is already detailed, normalize it instead of expanding it.
+- For CLI fallback only, see `references/cli.md` and `references/image-api.md` for model, `quality`, `input_fidelity`, masks, output format, and output-path guidance.
+- For transparent images, ask built-in `image_gen` for actual transparency and preserve its alpha.
+
+More principles shared by both modes: `references/prompting.md`.
+Copy/paste specs shared by both modes: `references/sample-prompts.md`.
+
+## Guidance by asset type
+Asset-type templates (website assets, game assets, wireframes, logo) are consolidated in `references/sample-prompts.md`.
+
+## gpt-image-2 guidance for CLI fallback
+
+The fallback CLI defaults to `gpt-image-2`.
+
+- Use `gpt-image-2` for new CLI/API workflows unless the user confirms a different model.
+- CLI `gpt-image-2` does not support `background=transparent`; ask before using `gpt-image-1.5` unless the user explicitly requested that model.
+- `gpt-image-2` always uses high fidelity for image inputs; do not set `input_fidelity` with this model.
+- `gpt-image-2` supports `quality` values `low`, `medium`, `high`, and `auto`.
+- Use `quality low` for fast drafts, thumbnails, and quick iterations. Use `medium`, `high`, or `auto` for final assets, dense text, diagrams, identity-sensitive edits, or high-resolution outputs.
+- Square images are typically fastest to generate. Use `1024x1024` for fast square drafts.
+- If the user asks for 4K-style output, use `3840x2160` for landscape or `2160x3840` for portrait.
+- `gpt-image-2` size may be `auto` or `WIDTHxHEIGHT` if all constraints hold: max edge `<= 3840px`, both edges multiples of `16px`, long-to-short ratio `<= 3:1`, total pixels between `655,360` and `8,294,400`.
+
+Popular `gpt-image-2` sizes:
+- `1024x1024` square
+- `1536x1024` landscape
+- `1024x1536` portrait
+- `2048x2048` 2K square
+- `2048x1152` 2K landscape
+- `3840x2160` 4K landscape
+- `2160x3840` 4K portrait
+- `auto`
+
+## Fallback CLI mode only
+
+### Temp and output conventions
+These conventions apply only to the CLI fallback. They do not describe built-in `image_gen` output behavior.
+- Use `tmp/imagegen/` for intermediate files (for example JSONL batches); delete them when done.
+- Write final artifacts under `output/imagegen/`.
+- Use `--out` or `--out-dir` to control output paths; keep filenames stable and descriptive.
+
+### Dependencies
+Prefer `uv` for dependency management in this repo.
+
+Required Python package:
+```bash
+uv pip install openai
+```
+
+Optional for image inspection and downscaling:
+```bash
+uv pip install pillow
+```
+
+Portability note:
+- If you are using the installed skill outside this repo, install dependencies into that environment with its package manager.
+- In uv-managed environments, `uv pip install ...` remains the preferred path.
+
+### Environment
+- `OPENAI_API_KEY` must be set for live API calls.
+- Do not ask the user for `OPENAI_API_KEY` when using the built-in `image_gen` tool.
+- Never ask the user to paste the full key in chat. Ask them to set it locally and confirm when ready.
+
+If the key is missing, give the user these steps:
+1. Create an API key in the OpenAI platform UI: https://platform.openai.com/api-keys
+2. Set `OPENAI_API_KEY` as an environment variable in their system.
+3. Offer to guide them through setting the environment variable for their OS/shell if needed.
+
+If installation is not possible in this environment, tell the user which dependency is missing and how to install it into their active environment.
+
+### Script-mode notes
+- CLI commands + examples: `references/cli.md`
+- API parameter quick reference: `references/image-api.md`
+- Network approvals / sandbox settings for CLI mode: `references/codex-network.md`
+
+## Reference map
+- `references/prompting.md`: shared prompting principles for both modes.
+- `references/sample-prompts.md`: shared copy/paste prompt recipes for both modes.
+- `references/cli.md`: fallback-only CLI usage via `scripts/image_gen.py`.
+- `references/image-api.md`: fallback-only API/CLI parameter reference.
+- `references/codex-network.md`: fallback-only network/sandbox troubleshooting for CLI mode.
+- `scripts/image_gen.py`: fallback-only CLI implementation. Use only when the user explicitly chooses or confirms CLI mode.
+# Copy-paste prompt for Codex: Dear Body Shopify banners
+
+Create finished header/banner artwork for the Dear Body Shopify storefront. You are responsible for the visual assets; Claude is responsible for placing them and building the storefront through the browser or computer. Do not edit Shopify or generate a website. Generate the actual images, visually verify them, and deliver usable local files plus a placement manifest.
+
+## 1. Read the brand and product sources
+
+Project folder:
+`/Users/wetrade/Documents/ChatGPT/Dear Body`
+
+Read these through the local filesystem, or use Finder if that is the available access method:
+
+- `BRAND_GUIDE.md`
+- `brand.tokens.json`
+- `output/product-listing/UNIFIED_THREE_SCENT_GALLERY_STANDARD.md` — despite its filename, this is the approved four-scent standard.
+- The `GALLERY_MANIFEST.md` adjacent to each approved gallery below.
+
+Approved gallery folders, relative to the project:
+
+- `output/product-listing/citrus-wish/standardized-v01/final`
+- `output/product-listing/moonlight-velvet/standardized-v01/final`
+- `output/product-listing/charme-envoutant/generated-v01/final`
+- `output/product-listing/sunset-cocktail/standardized-v01/final`
+
+Inspect the approved packshots and architectural heroes for styling. For physical product identity, inspect the original supplied photographs under:
+
+- `handoff/assets/citrus-wish-sources`
+- `handoff/assets/moonlight-velvet-sources`
+- `handoff/assets/charme-envoutant-sources`
+- `handoff/assets/sunset-cocktail-sources`
+
+Use these photographs as the authority for bottle shape, cap, label, canister, liquid, material, and proportions. Ignore older gallery paths in `START_HERE_NEW_ACCOUNT.md` and the older product briefs when selecting finished reference artwork. Citrus Wish and Mojito Metallique had exchanged packaging in earlier references: never borrow Mojito labels or facts. The correct Citrus Wish bottom label is `handoff/assets/citrus-wish-sources/02-citrus-wish-packaging-bottom-label.jpg`.
+
+Read and apply the installed `imagegen` skill before generation. On this machine its source is `/Users/wetrade/.codex/skills/.system/imagegen/SKILL.md`; if unavailable, locate the installed skill. Use the image-generation tool for creating and editing artwork. Inspect every local reference before sending it to the tool. Do not substitute CSS, a mockup, a prompt-only answer, or an unrelated stock photograph for the requested images.
+
+## 2. Use Claude’s placement brief when supplied
+
+First use any brief from Claude naming the active Shopify theme, section type, desktop/mobile container ratios, overlay alignment, focal points, and intended heading/CTA. Check `/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/CLAUDE_TO_CODEX_BANNER_REQUEST.md` if present, or use the brief pasted by the user. Those actual placement requirements override the default dimensions below. If that brief is absent, continue with these defaults without blocking:
+
+| Deliverable | Default final size | Purpose |
+|---|---:|---|
+| Desktop homepage hero | 2400 × 1200 px | Wide image banner with live text on the left |
+| Mobile homepage hero | 1200 × 1500 px | Separately composed portrait artwork with live text above the product |
+| Brand-story banner | 1600 × 1200 px | Editorial image paired with a separate live text column |
+
+These are composition/export targets, not assumed native tool resolutions. If the image tool produces another resolution, preserve the intended ratio and subject layout, then make a high-quality export to the requested dimensions. Do not stretch the product.
+
+## 3. Art direction
+
+Make the brand warm, vibrant, confident, playful, premium, and approachable, reflecting contemporary Filipino fragrance culture. Use tactile editorial lighting, realistic shadows, cream stone/paper, warm color fields, and restrained sculptural staging.
+
+Core palette: burgundy `#5c0006`, red `#9a1106`, burnt orange `#d46601`, golden tan `#e9a250`, and soft cream `#f4e3cb`. Keep these dominant. Packaging colors can provide SKU accents; cobalt/chrome may appear sparingly as accents consistent with the approved galleries. Avoid cold clinical styling, gloomy nightclub scenes, excessive haze, and unrelated luxury props.
+
+Default hero concept: Citrus Wish bottle and bright-yellow canister as the unmistakable lead product in a warm cream, burgundy, and golden editorial setting. Desktop and mobile must feel like the same campaign while using different compositions suited to their containers. If Claude’s brief specifies another featured product, use that verified SKU instead.
+
+Default story concept: a cohesive still life featuring the four verified products, each with its matching canister: Citrus Wish/yellow, Moonlight Velvet/pale lilac, Charme Envoûtant/orange, and Sunset Cocktail/peach-pink. Make the product identities clear and avoid crowding. Do not present the grouping as a purchasable bundle or special offer.
+
+## 4. Composition and identity requirements
+
+- Desktop hero: reserve roughly the left 42% as calm, low-detail cream space for burgundy live text and a button. Keep products predominantly within the right half, away from outer edges.
+- Mobile hero: leave the upper 30–35% calm for live text; keep the main product grouping centered in the middle/lower area with breathing room at the bottom. Recompose rather than simply center-cropping the desktop banner.
+- Story banner: prioritize the four-product grouping, with comfortable margins and no dependency on text within the image. Claude will place story copy beside or below it.
+- Keep essential labels, caps, and package silhouettes within a central safe area. Record the actual safe cropping and focal coordinates for each finished file.
+- Preserve exact product names, logos already printed on the physical products, packaging colors, geometry, and scale. Never add or redraw a separate brand logo, monogram, certification, badge, or watermark.
+- Add no headline, caption, button, promotional text, or other overlay inside the artwork. Existing product-label printing must remain authentic and legible. “A Scent Journey” and all other storefront copy will be live Shopify text.
+- Do not invent fragrance-note props such as fruit, flowers, or spices. Product names and packaging colors do not establish ingredients or scent notes.
+- Prefer product-only imagery for these assets. If a requested concept includes people, these four SKUs are the approved men’s black-label line: follow the existing male Filipino casting direction and inspect anatomy and product grip.
+- Use opaque photographic backgrounds. Make transparent assets only if explicitly requested.
+
+## 5. Generate, verify, and deliver
+
+Create and inspect all three assets at full size and at realistic desktop/mobile display sizes. Check product fidelity, labels, artifacts, lighting, shadows, safe text zones, responsive cropping, and continuity. Correct visible problems before delivering. Do not claim completion for an ungenerated or uninspected image.
+
+Save under:
+`/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/banners`
+
+Use these final base names only for successfully generated and verified files:
+
+- `dear-body-home-hero-desktop-v01`
+- `dear-body-home-hero-mobile-v01`
+- `dear-body-brand-story-v01`
+
+Keep lossless PNG masters. Also export visually checked WebP and JPEG derivatives with the same base names. Faithful deterministic format conversion, resizing, and compression are authorized for export only; do not change product art, recolor, stretch, or invent detail during conversion. Aim for web derivatives around 250–600 KB where quality permits; preserve readable product labels over an arbitrary size target.
+
+Create `BANNER_ASSET_MANIFEST.md` after generation. For each actual file record absolute path, dimensions, format, bytes, intended Shopify placement, concise factual alt text, suggested focal point as percentages, safe crop boundaries, live-text-safe region, and any remaining limitations. Identify the preferred web derivative and separate mobile asset. Include a short instruction for Claude to upload the files and set the section’s overlay text/buttons in Shopify rather than baking them into artwork.
+
+Return clickable links to the finished assets and manifest, and show the banners for review. If generation or file access fails, state the concrete blocker and accurately identify any completed deliverables; never fabricate an output path or claim that a file exists.
+# Claude → Codex banner request (Dear Body Shopify)
+
+Prepared 2026-09-23 by Claude (storefront implementer). Codex owns the artwork; Claude places it.
+
+## Target
+
+- Store: `https://admin.shopify.com/store/erkayx-xy/` (displayed "My Store"), account alexmedina0030@gmail.com.
+- Theme: **Horizon** (Shopify first-party theme, 2025 generation). Original/live theme id `166989201473`. The build happens on a duplicate named **Dear Body — Website Build** (id assigned at duplication; Claude records it in the handoff).
+- Homepage hero section: Horizon **"Hero"** (observed in the template sidebar). Story section: the closest Horizon image-plus-text equivalent, confirmed once the working copy is open.
+- Image fields: desktop background image; a separate mobile image field is expected but **not yet verified** on Horizon's Hero. If absent, Claude falls back to a small custom section (build brief §10). Deliver the mobile asset regardless.
+
+## Measured / observed containers (approximate — eyeballed from editor previews, not DOM-measured)
+
+| Container | Observed | Ratio |
+|---|---|---|
+| Desktop hero @1440 px | ≈1440 × 540 px visible | ≈2.6:1 |
+| Mobile hero @390 px | ≈390 × 430 px visible | ≈0.9:1 |
+
+Deliver the defaults below; they cover these crops with focal-point positioning. Claude will inspect real crops after upload and request a re-export only if a label is cut.
+
+## Deliverables (text-free; existing packaging print stays authentic)
+
+| # | File base name | Size | Composition |
+|---|---|---|---|
+| 1 | `dear-body-home-hero-desktop-v01` | 2400 × 1200 | Citrus Wish bottle + bright-yellow canister as lead, predominantly in the **right half**, away from outer edges. **Left ~42 % calm, low-detail cream space** for live burgundy copy (eyebrow + H1 + one line + button). |
+| 2 | `dear-body-home-hero-mobile-v01` | 1200 × 1500 | Separately composed portrait. **Upper 30–35 % calm** for live text; product grouping centred in the middle/lower area with bottom breathing room. Same campaign, not a centre-crop of #1. |
+| 3 | `dear-body-brand-story-v01` | 1600 × 1200 | Still life of all four products with matching canisters — Citrus Wish/yellow, Moonlight Velvet/pale lilac, Charme Envoûtant/orange, Sunset Cocktail/peach-pink. No crowding, comfortable margins, no dependency on in-image text. Not presented as a bundle/offer. |
+
+Formats: lossless PNG master + WebP + JPEG derivatives, same base names, ~250–600 KB web derivatives where quality permits. Record focal point (%), safe-crop bounds, and live-text-safe region per file in `BANNER_ASSET_MANIFEST.md`.
+
+## Live copy Claude will place (so you know what the calm zones must hold)
+
+- Eyebrow: DEAR BODY PHILIPPINES · H1: A SCENT JOURNEY · Line: London-formulated fragrances, curated for the way you live. · Buttons: Shop the Collection / Discover Our Story.
+- Story heading: FROM LONDON, WITH FEELING. (placed beside the image, not on it).
+
+## Palette / mood
+
+Burgundy #5C0006, red #9A1106, burnt orange #D46601, golden tan #E9A250, cream #F4E3CB dominant. Warm editorial light, tactile cream stone/paper, restrained sculptural staging. Packaging colours as SKU accents; cobalt/chrome sparingly. No people required. No invented props implying notes (fruit, flowers, spice). No added logo, monogram, badge, or headline.
+
+## Product identity sources (authoritative)
+
+- Approved galleries: `output/product-listing/{citrus-wish/standardized-v01,moonlight-velvet/standardized-v01,charme-envoutant/generated-v01,sunset-cocktail/standardized-v01}/final`
+- Original photographs: `handoff/assets/{citrus-wish,moonlight-velvet,charme-envoutant,sunset-cocktail}-sources`
+- Correct Citrus Wish bottom label: `handoff/assets/citrus-wish-sources/02-citrus-wish-packaging-bottom-label.jpg`. Never borrow Mojito Metallique packaging/facts.
+
+## Superseded
+
+An earlier abstract silk/smoke hero (`hero-dearbody.png`, 2400×1200, no products) was generated before this brief and is **not** to be used; the storefront hero must feature the real product.
+
+## Delivery
+
+`/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/banners/` + `BANNER_ASSET_MANIFEST.md`. Claude uploads via Content → Files and sets overlay text/buttons as live Shopify controls.
+
+exec
+/bin/zsh -lc "cat BRAND_GUIDE.md brand.tokens.json output/product-listing/UNIFIED_THREE_SCENT_GALLERY_STANDARD.md; find output/product-listing handoff/assets -name GALLERY_MANIFEST.md -o -path '*sources/*' -o -path '*/final/*'" in /Users/wetrade/Documents/ChatGPT/Dear Body
+ succeeded in 0ms:
+# Dear Body Brand Guide
+
+Source: Canva design `DEARBODY PLAYBOOK`, 12 pages, analyzed September 22, 2026.
+
+## Brand Essence
+
+DearBody Philippines brings London's rich fragrance culture to the Philippines through London-formulated scents curated for the Filipino lifestyle.
+
+The brand position is premium but approachable: international fragrance craft, translated into vibrant, warm, playful, everyday Filipino self-expression.
+
+## Core Idea
+
+**Tagline:** A Scent Journey
+
+Use this idea to frame campaigns around movement, memory, personality, confidence, and the emotional transport of fragrance.
+
+## Mission
+
+To bring carefully curated fragrances from London to the Philippines, creating scents that complement Filipino tastes, lifestyle, and the tropical environment.
+
+## Vision
+
+To bring London's fragrance culture into every Filipino's everyday life.
+
+## Personality
+
+- Warm
+- Vibrant
+- Confident
+- Playful
+- Approachable
+- Sensory
+- Premium without feeling distant
+
+## Color Palette
+
+Use warm hues as the dominant visual signal. The palette should feel rich, fragrant, sunlit, and expressive.
+
+| Role | Hex | Use |
+| --- | --- | --- |
+| Deep burgundy | `#5c0006` | Primary brand anchor, premium backgrounds, high-impact headings |
+| Rich red | `#9a1106` | Headlines, buttons, active states, campaign emphasis |
+| Burnt orange | `#d46601` | Energy, product accents, social highlights |
+| Golden tan | `#e9a250` | Warm fields, secondary accents, lifestyle backgrounds |
+| Soft cream | `#f4e3cb` | Light backgrounds, text on dark fields, breathing room |
+
+Practical guidance:
+
+- Lead with burgundy, red, orange, tan, and cream.
+- Keep layouts warm-toned overall.
+- Avoid cool blue, neon, icy gray, and overly clinical beauty palettes.
+- Use cream for contrast rather than pure white when possible.
+- Use dark burgundy for a premium fragrance mood; use orange/tan for playful Filipino lifestyle energy.
+
+## Typography
+
+| Role | Typeface | Usage |
+| --- | --- | --- |
+| Display | Cenzo Flare Bold | Hero headings, campaign titles, large brand statements |
+| Body / support | Helvetica Now Display | Subheads, descriptions, UI labels, captions |
+
+Practical guidance:
+
+- Use uppercase display type for strong brand moments.
+- Keep headlines short and confident.
+- Use Helvetica Now Display for clean readability under bold display headings.
+- Keep text blocks concise; the brand should feel visual and sensory, not copy-heavy.
+
+Fallbacks when brand fonts are unavailable:
+
+- Display fallback: `Georgia`, `Cormorant Garamond`, or another high-contrast editorial serif.
+- Body fallback: `Helvetica Neue`, `Arial`, or another clean grotesk sans.
+
+## Logos
+
+Primary logo:
+
+- The `DEAR BODY` wordmark.
+- Use for covers, headers, core brand placements, and formal applications.
+
+Secondary logo:
+
+- The circular monogram mark.
+- Use for avatars, stamps, small placements, packaging seals, favicons, and social watermarks.
+
+Logo usage:
+
+- Give logos generous breathing room.
+- Use cream/light marks on dark burgundy, red, or olive-toned backgrounds.
+- Use dark marks on cream or light tan backgrounds.
+- Do not place the logo over busy imagery unless contrast is protected.
+
+## Visual Direction
+
+Dear Body should look like warm fragrance culture meeting everyday Filipino lifestyle.
+
+Use:
+
+- Product-led photography with bottles clearly visible.
+- Warm editorial lighting, tactile shadows, grain, smoke, paper, fabric, or skin-like texture.
+- Lifestyle scenes that feel local, confident, and attainable.
+- Vivid warm backgrounds and product color blocking.
+- Simple compositions with one clear headline and a small supporting line.
+- Social layouts that feel current, lively, and approachable.
+
+Avoid:
+
+- Cold, sterile, overly clinical beauty visuals.
+- Generic luxury minimalism that feels too distant.
+- Heavy cool gradients.
+- Overcrowded copy.
+- Product imagery that hides the bottle or scent identity.
+
+## Content Applications
+
+Social media:
+
+- Keep the warm palette dominant.
+- Mix product images with lifestyle shots and phone/social mockups.
+- Use short, confident copy.
+- Let one color or one product image carry each post.
+
+Publication materials:
+
+- Should be visually appealing, vibrant, approachable, and attention-grabbing.
+- Use product-forward image grids, editorial crops, and warm color fields.
+- Keep the layout clean enough that the product remains the hero.
+
+Video materials:
+
+- Highlight authentic Filipino lifestyle moments.
+- Show fragrances fitting naturally into daily life with confidence and style.
+- Build for vertical, social-first viewing with a clear subject in the center of frame.
+- Favor warm light, saturated but controlled color, tactile close-ups, and quick, loop-friendly movement.
+- Use playful product tableaux, such as a product surrounded by fruit or other sensory ingredients.
+- Mix polished beauty rituals with relaxed lifestyle scenes: getting ready, applying a product, commuting, listening to music, or moving through a familiar personal space.
+- Use top-down compositions and tightly framed details to make ordinary moments feel graphic and editorial.
+- Keep the product or ritual immediately readable even when the styling is expressive.
+- Treat the reference clips as motion-language inspiration; adapt the casting, setting, and product behavior to DearBody and contemporary Filipino life.
+
+## Inspiration References
+
+The brand deck points to these visual inspiration references:
+
+- Wone
+- Anino
+- Sol de Janeiro
+
+Interpretation:
+
+- Wone: modern, minimal, confident product/social rhythm.
+- Anino: local, artful, understated cultural texture.
+- Sol de Janeiro: warm, joyful, body/fragrance energy with strong color ownership.
+
+## Working Rule For Future Project Assets
+
+When creating anything for Dear Body, start with this checklist:
+
+1. Does it feel warm-toned and fragrance-led?
+2. Is the product or scent mood immediately clear?
+3. Does the layout balance premium craft with approachability?
+4. Are the brand colors, display/body font roles, and logo usage respected?
+5. Is the copy short, confident, and sensory?
+{
+  "brand": {
+    "name": "Dear Body",
+    "source": "Canva DEARBODY PLAYBOOK",
+    "analyzedAt": "2026-09-22",
+    "tagline": "A Scent Journey",
+    "positioning": "London-formulated fragrance culture curated for the Filipino lifestyle: premium, warm, vibrant, playful, and approachable."
+  },
+  "colors": {
+    "burgundy": "#5c0006",
+    "red": "#9a1106",
+    "orange": "#d46601",
+    "goldTan": "#e9a250",
+    "cream": "#f4e3cb"
+  },
+  "typography": {
+    "display": {
+      "name": "Cenzo Flare Bold",
+      "fallback": ["Georgia", "Cormorant Garamond", "serif"],
+      "usage": "Hero headings, campaign titles, major brand statements"
+    },
+    "body": {
+      "name": "Helvetica Now Display",
+      "fallback": ["Helvetica Neue", "Arial", "sans-serif"],
+      "usage": "Subheads, body copy, UI labels, captions"
+    }
+  },
+  "logos": {
+    "primary": "DEAR BODY wordmark",
+    "secondary": "Circular monogram mark"
+  },
+  "visualStyle": {
+    "keywords": [
+      "warm",
+      "vibrant",
+      "fragrance-led",
+      "premium",
+      "approachable",
+      "playful",
+      "Filipino lifestyle",
+      "London-formulated"
+    ],
+    "use": [
+      "Warm-toned product photography",
+      "Lifestyle moments with authentic Filipino context",
+      "Rich burgundy and red backgrounds",
+      "Cream contrast instead of stark white",
+      "Short sensory copy",
+      "Product-forward social and publication layouts"
+    ],
+    "avoid": [
+      "Cold clinical palettes",
+      "Generic luxury minimalism",
+      "Overcrowded copy",
+      "Cool blue-led visuals",
+      "Busy backgrounds behind logos"
+    ]
+  },
+  "motion": {
+    "format": "Vertical, social-first short-form video",
+    "pace": "Quick, loop-friendly, and easy to understand without exposition",
+    "composition": [
+      "Centered product or person",
+      "Tight ritual close-ups",
+      "Graphic top-down lifestyle scenes",
+      "Playful sensory product tableaux"
+    ],
+    "subjects": [
+      "Everyday beauty and fragrance rituals",
+      "Getting-ready and commuting moments",
+      "Relaxed personal spaces with music and movement",
+      "Contemporary Filipino lifestyle context"
+    ]
+  }
+}
+# Dear Body Four-Scent Gallery Standard
+
+## Non-Negotiable Publication Principle
+
+> The publication materials are thoughtfully designed to be visually appealing, vibrant, and approachable, capturing the attention of the target market while consistently reflecting DearBody Philippines' brand identity.
+
+This principle governs every image. A scent-specific concept must never make a publication dark, inaccessible, generic, visually dull, or inconsistent with DearBody Philippines.
+
+## Fixed 10-Image Pattern
+
+1. Featured bottle-and-canister packshot.
+2. Architectural brand hero.
+3. Open-canister packaging reveal.
+4. Cap, glass, label, and package macro.
+5. Scent-specific full-person lifestyle hero.
+6. Scent-specific product-in-hand lifestyle detail.
+7. Scent-specific social or editorial lifestyle scene.
+8. Product profile infographic: copy left, products right.
+9. Ingredients and care infographic: product left, cream copy panel right.
+10. Rooftop closing hero: headline upper-left, products lower-right.
+
+The content role, typography hierarchy, infographic geometry, product prominence, and overall quality remain fixed for every scent. Frames 5-7 must use different locations, poses, props, wardrobe stories, and social energy for each scent. Lifestyle narratives must not be duplicated across scents.
+
+## Shared Brand Language
+
+- Cream, oxblood/burgundy, black, warm coral/red, cobalt, and chrome are the common anchors.
+- Images must feel visually appealing, vibrant, approachable, contemporary, and premium.
+- On cream or beige backgrounds, all informational text must use near-black or oxblood. Yellow, lilac, and orange are reserved for large graphic fields, rules, dividers, packaging, or text placed over a sufficiently dark background.
+- Use Filipino male talent for the two full lifestyle portraits.
+- Keep models warm, confident, aspirational, and relatable to the Philippine target market.
+- Preserve realistic body position, hands, product grip, car geometry, glass, packaging, shadows, and reflections.
+- Keep the real bottle and packaging identity legible and consistent.
+- Infographic copy must come from verified packaging or owner-confirmed facts only.
+- Do not invent notes, scent family, longevity, projection, concentration, occasion, or performance claims.
+
+## Scent Codes
+
+- Citrus Wish: bright yellow, tropical daylight, coastal scooter, poolside detail, and outdoor basketball court.
+- Moonlight Velvet: pale lilac, coral warmth, cobalt blue hour, listening bar, city elevator detail, and art-gallery gathering.
+- Charme Envoûtant: vivid orange, oxblood, golden hour, red convertible, tropical-sky detail, and architectural steps.
+- Sunset Cocktail: peach, coral, oxblood, Manila Bay golden hour, a sunset product-in-hand detail, and a waterfront social picnic.
+
+## Delivery Standard
+
+- 10 PNG files per scent.
+- 2048 x 2048 pixels.
+- sRGB IEC61966-2.1.
+- Square ecommerce and social-ready format.
+- Built-in ImageGen for photographic bases; deterministic AppKit typesetting for frames 08-10.
+
+## Approved Sets
+
+- `citrus-wish/standardized-v01/final`
+- `moonlight-velvet/standardized-v01/final`
+- `charme-envoutant/generated-v01/final`
+- `sunset-cocktail/standardized-v01/final`
+output/product-listing/citrus-wish/standardized-v01/GALLERY_MANIFEST.md
+output/product-listing/citrus-wish/standardized-v01/final/08-product-profile-infographic.png
+output/product-listing/citrus-wish/standardized-v01/final/05-coastal-scooter-lifestyle.png
+output/product-listing/citrus-wish/standardized-v01/final/09-ingredients-and-care-infographic.png
+output/product-listing/citrus-wish/standardized-v01/final/10-closing-hero.png
+output/product-listing/citrus-wish/standardized-v01/final/07-basketball-court-lifestyle.png
+output/product-listing/citrus-wish/standardized-v01/final/01-featured-packshot.png
+output/product-listing/citrus-wish/standardized-v01/final/02-brand-hero.png
+output/product-listing/citrus-wish/standardized-v01/final/03-packaging-reveal.png
+output/product-listing/citrus-wish/standardized-v01/final/06-poolside-product-detail.png
+output/product-listing/citrus-wish/standardized-v01/final/04-material-cap-detail.png
+output/product-listing/citrus-wish/recreated-v2/GALLERY_MANIFEST.md
+output/product-listing/moonlight-velvet/standardized-v01/GALLERY_MANIFEST.md
+output/product-listing/moonlight-velvet/standardized-v01/final/08-product-profile-infographic.png
+output/product-listing/moonlight-velvet/standardized-v01/final/09-ingredients-and-care-infographic.png
+output/product-listing/moonlight-velvet/standardized-v01/final/10-closing-hero.png
+output/product-listing/moonlight-velvet/standardized-v01/final/05-listening-bar-lifestyle.png
+output/product-listing/moonlight-velvet/standardized-v01/final/06-city-elevator-product-detail.png
+output/product-listing/moonlight-velvet/standardized-v01/final/01-featured-packshot.png
+output/product-listing/moonlight-velvet/standardized-v01/final/02-brand-hero.png
+output/product-listing/moonlight-velvet/standardized-v01/final/03-packaging-reveal.png
+output/product-listing/moonlight-velvet/standardized-v01/final/07-gallery-social-lifestyle.png
+output/product-listing/moonlight-velvet/standardized-v01/final/04-material-cap-detail.png
+output/product-listing/moonlight-velvet/generated-v01/GALLERY_MANIFEST.md
+output/product-listing/moonlight-velvet/generated-v01/final/06-moonlight-velvet-tropical-sky-lifestyle.png
+output/product-listing/moonlight-velvet/generated-v01/final/07-moonlight-velvet-social-lifestyle.png
+output/product-listing/moonlight-velvet/generated-v01/final/03-moonlight-velvet-packaging-reveal.png
+output/product-listing/moonlight-velvet/generated-v01/final/10-moonlight-velvet-closing-hero.png
+output/product-listing/moonlight-velvet/generated-v01/final/04-moonlight-velvet-material-detail.png
+output/product-listing/moonlight-velvet/generated-v01/final/08-moonlight-velvet-product-profile.png
+output/product-listing/moonlight-velvet/generated-v01/final/09-moonlight-velvet-ingredients-and-care.png
+output/product-listing/moonlight-velvet/generated-v01/final/02-moonlight-velvet-brand-hero.png
+output/product-listing/moonlight-velvet/generated-v01/final/05-moonlight-velvet-red-vehicle-lifestyle.png
+output/product-listing/moonlight-velvet/generated-v01/final/01-moonlight-velvet-featured-packshot.png
+output/product-listing/sunset-cocktail/standardized-v01/GALLERY_MANIFEST.md
+output/product-listing/sunset-cocktail/standardized-v01/final/08-product-profile-infographic.png
+output/product-listing/sunset-cocktail/standardized-v01/final/09-ingredients-and-care-infographic.png
+output/product-listing/sunset-cocktail/standardized-v01/final/10-closing-hero.png
+output/product-listing/sunset-cocktail/standardized-v01/final/05-manila-bay-promenade-lifestyle.png
+output/product-listing/sunset-cocktail/standardized-v01/final/01-featured-packshot.png
+output/product-listing/sunset-cocktail/standardized-v01/final/06-sunset-product-in-hand.png
+output/product-listing/sunset-cocktail/standardized-v01/final/02-brand-hero.png
+output/product-listing/sunset-cocktail/standardized-v01/final/07-waterfront-picnic-lifestyle.png
+output/product-listing/sunset-cocktail/standardized-v01/final/03-packaging-reveal.png
+output/product-listing/sunset-cocktail/standardized-v01/final/04-material-cap-detail.png
+output/product-listing/sunset-cocktail/GALLERY_MANIFEST.md
+output/product-listing/sunset-cocktail/recreated-v02/GALLERY_MANIFEST.md
+output/product-listing/sunset-cocktail/recreated-v02/final/04-sunset-cocktail-product-details-v02.png
+output/product-listing/sunset-cocktail/recreated-v02/final/10-sunset-cocktail-closing-hero-v02.jpg
+output/product-listing/sunset-cocktail/recreated-v02/final/06-sunset-cocktail-lifestyle-poolside-v02.jpg
+output/product-listing/sunset-cocktail/recreated-v02/final/05-sunset-cocktail-lifestyle-red-car-v02.jpg
+output/product-listing/sunset-cocktail/recreated-v02/final/08-sunset-cocktail-product-at-a-glance-v02.png
+output/product-listing/sunset-cocktail/recreated-v02/final/03-sunset-cocktail-bottle-and-canister-v02.jpg
+output/product-listing/sunset-cocktail/recreated-v02/final/01-sunset-cocktail-primary-packshot-v02.jpg
+output/product-listing/sunset-cocktail/recreated-v02/final/07-sunset-cocktail-lifestyle-streetwear-v02.jpg
+output/product-listing/sunset-cocktail/recreated-v02/final/09-sunset-cocktail-ingredients-v02.png
+output/product-listing/sunset-cocktail/recreated-v02/final/02-sunset-cocktail-brand-hero-v02.jpg
+output/product-listing/sunset-cocktail/final/08-sunset-cocktail-product-profile-shopify-v01.png
+output/product-listing/sunset-cocktail/final/06-sunset-cocktail-lifestyle-tropical-sky-shopify-v01.jpg
+output/product-listing/sunset-cocktail/final/10-sunset-cocktail-closing-hero-shopify-v01.jpg
+output/product-listing/sunset-cocktail/final/07-sunset-cocktail-lifestyle-streetwear-shopify-v01.jpg
+output/product-listing/sunset-cocktail/final/02-sunset-cocktail-brand-hero-shopify-v01.jpg
+output/product-listing/sunset-cocktail/final/05-sunset-cocktail-lifestyle-red-vehicle-shopify-v01.jpg
+output/product-listing/sunset-cocktail/final/04-sunset-cocktail-cap-detail-shopify-v01.jpg
+output/product-listing/sunset-cocktail/final/01-sunset-cocktail-featured-packshot-shopify-v01.jpg
+output/product-listing/sunset-cocktail/final/09-sunset-cocktail-ingredients-pack-details-shopify-v01.png
+output/product-listing/sunset-cocktail/final/03-sunset-cocktail-packaging-reveal-shopify-v01.jpg
+output/product-listing/charme-envoutant/generated-v01/GALLERY_MANIFEST.md
+output/product-listing/charme-envoutant/generated-v01/final/08-product-profile-infographic.png
+output/product-listing/charme-envoutant/generated-v01/final/05-mens-red-convertible.png
+output/product-listing/charme-envoutant/generated-v01/final/09-ingredients-and-care-infographic.png
+output/product-listing/charme-envoutant/generated-v01/final/10-closing-hero.png
+output/product-listing/charme-envoutant/generated-v01/final/06-mens-tropical-handheld.png
+output/product-listing/charme-envoutant/generated-v01/final/01-featured-packshot.png
+output/product-listing/charme-envoutant/generated-v01/final/07-mens-social-lifestyle.png
+output/product-listing/charme-envoutant/generated-v01/final/02-brand-hero.png
+output/product-listing/charme-envoutant/generated-v01/final/03-packaging-reveal.png
+output/product-listing/charme-envoutant/generated-v01/final/04-material-cap-detail.png
+handoff/assets/sunset-cocktail-sources/09-sunset-cocktail-bottle-front-clean-reference.png
+handoff/assets/sunset-cocktail-sources/07-sunset-cocktail-cap-top-detail.jpg
+handoff/assets/sunset-cocktail-sources/02-sunset-cocktail-packaging-bottom-label.jpg
+handoff/assets/sunset-cocktail-sources/08-sunset-cocktail-bottle-back.jpg
+handoff/assets/sunset-cocktail-sources/05-sunset-cocktail-open-canister-and-bottle.jpg
+handoff/assets/sunset-cocktail-sources/01-sunset-cocktail-packaging-front.jpg
+handoff/assets/sunset-cocktail-sources/04-sunset-cocktail-packaging-top.jpg
+handoff/assets/sunset-cocktail-sources/03-sunset-cocktail-packaging-back.jpg
+handoff/assets/sunset-cocktail-sources/06-sunset-cocktail-bottle-front.jpg
+handoff/assets/citrus-wish-sources/02-citrus-wish-packaging-bottom-label.jpg
+handoff/assets/citrus-wish-sources/04-citrus-wish-bottle-front.jpg
+handoff/assets/citrus-wish-sources/03-citrus-wish-unboxing-open-canister.jpg
+handoff/assets/citrus-wish-sources/05-citrus-wish-bottle-back.jpg
+handoff/assets/citrus-wish-sources/01-citrus-wish-packaging-front.jpg
+handoff/assets/citrus-wish-sources/06-citrus-wish-cap-top-detail.jpg
+handoff/assets/moonlight-velvet-sources/07-cap-top.jpg
+handoff/assets/moonlight-velvet-sources/04-packaging-back.jpg
+handoff/assets/moonlight-velvet-sources/01-packaging-front.jpg
+handoff/assets/moonlight-velvet-sources/02-packaging-top.jpg
+handoff/assets/moonlight-velvet-sources/08-bottle-back.jpg
+handoff/assets/moonlight-velvet-sources/03-packaging-bottom-label.jpg
+handoff/assets/moonlight-velvet-sources/05-open-canister-and-bottle.jpg
+handoff/assets/moonlight-velvet-sources/06-bottle-front.jpg
+handoff/assets/charme-envoutant-sources/04-open-canister-and-bottle.jpg
+handoff/assets/charme-envoutant-sources/05-canister-back.jpg
+handoff/assets/charme-envoutant-sources/02-cap-top.jpg
+handoff/assets/charme-envoutant-sources/03-bottle-front.jpg
+handoff/assets/charme-envoutant-sources/01-bottle-back.jpg
+handoff/assets/charme-envoutant-sources/06-canister-bottom-label.jpg
+handoff/assets/charme-envoutant-sources/07-canister-front.jpg
+
+exec
+/bin/zsh -lc 'cat output/product-listing/{citrus-wish/standardized-v01,moonlight-velvet/standardized-v01,charme-envoutant/generated-v01,sunset-cocktail/standardized-v01}/GALLERY_MANIFEST.md; ls -la output/website/banners; find .. -name AGENTS.md' in /Users/wetrade/Documents/ChatGPT/Dear Body
+ succeeded in 0ms:
+# Citrus Wish - Standardized 10-Image Gallery
+
+## Delivery
+
+- Format: PNG
+- Dimensions: 2048 x 2048 px
+- Color profile: sRGB IEC61966-2.1
+- Generation mode: built-in ImageGen, followed by deterministic AppKit typesetting for frames 08-10
+- Product identity: Dear Body / Parfum London, men's black-label line
+
+## Gallery Order
+
+1. `final/01-featured-packshot.png` - Cream studio packshot with bottle and bright-yellow canister.
+2. `final/02-brand-hero.png` - Yellow, oxblood, chrome, cobalt, and limestone architectural hero.
+3. `final/03-packaging-reveal.png` - Open cylindrical canister and bottle composition.
+4. `final/04-material-cap-detail.png` - Embossed-cap, glass, liquid, label, and package macro.
+5. `final/05-coastal-scooter-lifestyle.png` - Filipino male model beside a yellow scooter on a bright coastal promenade.
+6. `final/06-poolside-product-detail.png` - Poolside handheld detail with cobalt water, yellow stripes, coral, and chrome.
+7. `final/07-basketball-court-lifestyle.png` - Filipino male model with a red basketball on a vibrant outdoor court.
+8. `final/08-product-profile-infographic.png` - Verified product profile.
+9. `final/09-ingredients-and-care-infographic.png` - Printed ingredients, pack details, and flammability care.
+10. `final/10-closing-hero.png` - Rooftop closing image with "A SCENT JOURNEY."
+
+## Verified Facts Used
+
+- Product: Citrus Wish
+- Volume: 50 ml / 1.69 fl. oz.
+- Product code: P10638
+- Barcode: 5056795407291
+- Clear cylindrical glass bottle
+- Golden-yellow liquid
+- Glossy dark cylindrical cap
+- Bright-yellow cylindrical canister with black trim
+- Men's line under the owner-confirmed black-label rule
+- Flammable; keep away from heat and open flame
+
+## Printed Ingredients
+
+Alcohol; Water (Aqua); Fragrance (Parfum); PEG-40 Hydrogenated Castor Oil; Propylene Glycol; Linalool; Limonene; Hydroxycitronellal; Citral; Cinnamal; Geraniol.
+
+## Prompt Set
+
+The gallery follows the fixed structure in `../../UNIFIED_THREE_SCENT_GALLERY_STANDARD.md`, with bright yellow, tropical daylight, a coastal scooter, poolside styling, an outdoor basketball court, cobalt, cream, coral, and chrome as the Citrus Wish treatment.
+
+No fragrance notes, scent family, concentration, longevity, projection, occasion, performance, or usage claims were invented.
+# Moonlight Velvet - Standardized 10-Image Gallery
+
+## Delivery
+
+- Format: PNG
+- Dimensions: 2048 x 2048 px
+- Color profile: sRGB IEC61966-2.1
+- Generation mode: built-in ImageGen, followed by deterministic AppKit typesetting for frames 08-10
+- Product identity: Dear Body / Parfum London, men's black-label line
+
+## Gallery Order
+
+1. `final/01-featured-packshot.png` - Cream studio packshot with bottle and pale-lilac canister.
+2. `final/02-brand-hero.png` - Lilac, oxblood, chrome, cobalt, and limestone architectural hero.
+3. `final/03-packaging-reveal.png` - Open cylindrical canister and bottle composition.
+4. `final/04-material-cap-detail.png` - Embossed-cap, glass, label, and package macro.
+5. `final/05-listening-bar-lifestyle.png` - Filipino male model in a bright contemporary listening bar.
+6. `final/06-city-elevator-product-detail.png` - Product-in-hand detail inside a chrome city elevator at blue hour.
+7. `final/07-gallery-social-lifestyle.png` - Approachable Filipino social scene at a contemporary gallery opening.
+8. `final/08-product-profile-infographic.png` - Verified product profile.
+9. `final/09-ingredients-and-care-infographic.png` - Printed ingredients, pack details, and flammability care.
+10. `final/10-closing-hero.png` - Rooftop closing image with "A SCENT JOURNEY."
+
+## Verified Facts Used
+
+- Product: Moonlight Velvet
+- Volume: 50 ml / 1.69 fl. oz.
+- Product code: P10338
+- Barcode: 5056795407260
+- Clear cylindrical glass bottle
+- Colorless liquid
+- Glossy black cylindrical cap
+- Pale-lilac cylindrical canister with black trim
+- Men's line under the owner-confirmed black-label rule
+- Flammable; keep away from heat and open flame
+
+## Printed Ingredients
+
+Alcohol; Water (Aqua); Fragrance (Parfum); PEG-40 Hydrogenated Castor Oil; Propylene Glycol; Coumarin; Citronellol; Limonene; Eugenol; Alpha-Isomethyl Ionone; Linalool; Geraniol; Benzyl Benzoate; Cinnamyl Alcohol; Citral.
+
+## Prompt Set
+
+The gallery follows the fixed structure in `../../UNIFIED_THREE_SCENT_GALLERY_STANDARD.md`, with pale lilac, coral warmth, cobalt blue hour, a listening bar, a chrome city detail, an art-gallery gathering, cream, oxblood, and chrome as the Moonlight Velvet treatment.
+
+No fragrance notes, scent family, concentration, longevity, projection, occasion, performance, or usage claims were invented.
+# Charme Envoûtant — 10-Image Gallery
+
+## Delivery
+
+- Format: PNG
+- Dimensions: 2048 x 2048 px
+- Color profile: sRGB IEC61966-2.1
+- Generation mode: built-in ImageGen, followed by deterministic AppKit typesetting for frames 08–10
+- Product identity: Dear Body / Parfum London, men's black-label line
+
+## Gallery Order
+
+1. `final/01-featured-packshot.png` — Cream studio packshot with bottle and vivid-orange canister.
+2. `final/02-brand-hero.png` — Architectural orange, oxblood, chrome, cobalt, and limestone campaign hero.
+3. `final/03-packaging-reveal.png` — Open cylindrical canister and bottle unboxing composition.
+4. `final/04-material-cap-detail.png` — Embossed-cap, glass, liquid, label, and packaging macro.
+5. `final/05-mens-red-convertible.png` — Filipino male model with the bottle in a red vintage convertible.
+6. `final/06-mens-tropical-handheld.png` — Masculine handheld product image against a tropical cobalt sky.
+7. `final/07-mens-social-lifestyle.png` — Filipino male model on bright architectural steps.
+8. `final/08-product-profile-infographic.png` — Verified product profile infographic.
+9. `final/09-ingredients-and-care-infographic.png` — Printed ingredients, pack details, and flammability care.
+10. `final/10-closing-hero.png` — Manila rooftop closing image with “A SCENT JOURNEY.”
+
+## Verified Facts Used
+
+- Product name: Charme Envoûtant
+- Brand shown on pack: Parfum London / Dear Body
+- Volume: 50 ml / 1.69 fl. oz.
+- Product code: P10738
+- Barcode: 5056795407307
+- Clear cylindrical glass bottle
+- Amber-orange liquid
+- Glossy black cylindrical cap with silver collar
+- Black front label
+- Vivid-orange cylindrical canister with black trim
+- Men's line under the owner-confirmed black-label rule
+- Flammable; keep away from heat and open flame
+
+## Printed Ingredients
+
+Alcohol; Water (Aqua); Fragrance (Parfum); PEG-40 Hydrogenated Castor Oil; Propylene Glycol; Coumarin; Limonene; Linalool; Cinnamal; Eugenol; Benzyl Benzoate.
+
+## Prompt Set
+
+1. Exact bottle-and-canister cream studio packshot with restrained oxblood and chrome accents.
+2. Bold architectural hero using burnt orange, oxblood, cream limestone, chrome, and cobalt.
+3. Tactile packaging reveal showing the real cylindrical unboxing construction.
+4. Luxury macro emphasizing the embossed cap monogram, black label, amber liquid, and orange texture.
+5. Men's red-convertible campaign portrait at Manila golden hour.
+6. Men's tropical-sky handheld product image with orange, cobalt, black, and chrome styling.
+7. Men's street-fashion lifestyle scene on cobalt-and-cream architectural steps.
+8. Text-free product-profile base with products grouped right and calm cream copy space left.
+9. Text-free split base with bottle on black velvet and an empty cream information panel.
+10. Text-free Manila rooftop closing base with products lower-right and headline space upper-left.
+
+No fragrance notes, scent family, concentration, longevity, projection, occasion, performance, or usage claims were invented.
+# Sunset Cocktail - Standardized 10-Image Gallery
+
+## Delivery
+
+- Format: PNG
+- Dimensions: 2048 x 2048 px
+- Color profile: sRGB IEC61966-2.1
+- Generation mode: built-in ImageGen product-photography bases and deterministic Pillow typesetting for frames 08-10
+- Product identity: Dear Body / Parfum London, men's black-label line
+
+## Gallery Order
+
+1. `final/01-featured-packshot.png` - Cream studio bottle-and-canister packshot with oxblood plinth and chrome ribbon.
+2. `final/02-brand-hero.png` - Bottle-and-canister architectural hero in peach, oxblood, coral, limestone, cobalt, and chrome.
+3. `final/03-packaging-reveal.png` - Bottle seated in the open canister base, upright sleeve, and separate lid.
+4. `final/04-material-cap-detail.png` - Embossed cap, glass, label, liquid, and canister macro.
+5. `final/05-manila-bay-promenade-lifestyle.png` - Filipino male model on a coral Manila Bay promenade at sunset.
+6. `final/06-sunset-product-in-hand.png` - Product-in-hand detail against a warm bay sunset and striped canopy.
+7. `final/07-waterfront-picnic-lifestyle.png` - Approachable Filipino social scene at a waterfront sunset picnic.
+8. `final/08-product-profile-infographic.png` - Verified product profile.
+9. `final/09-ingredients-and-care-infographic.png` - Printed ingredients, pack details, and flammability care.
+10. `final/10-closing-hero.png` - Sunset rooftop closing image with "A SCENT JOURNEY."
+
+## Verified Facts Used
+
+- Product: Sunset Cocktail
+- Volume: 50 ml / 1.69 fl. oz.
+- Product code: P10538
+- Barcode: 5056795407284
+- Clear cylindrical glass bottle
+- Pale-peach liquid
+- Glossy black cylindrical cap
+- Blush-pink cylindrical canister with black trim
+- Men's line under the owner-confirmed black-label rule
+- Flammable; keep away from heat and open flame
+
+## Printed Ingredients
+
+Alcohol; Water (Aqua); Fragrance (Parfum); PEG-40 Hydrogenated Castor Oil; Propylene Glycol; Alpha-Isomethyl Ionone; Benzyl Salicylate; Linalool; Citronellol; Geraniol; Limonene; Eugenol.
+
+## Prompt Set
+
+The gallery follows the fixed structure in `../../UNIFIED_THREE_SCENT_GALLERY_STANDARD.md`, with peach, coral, oxblood, cream, cobalt, a Manila Bay promenade, a warm sunset handheld detail, and a waterfront picnic as the Sunset Cocktail treatment.
+
+No fragrance notes, scent family, concentration, longevity, projection, occasion, performance, or usage claims were invented.
+
+## Final QA
+
+- All ten images were reviewed at full resolution against the fixed gallery pattern.
+- Frames 01, 02, 03, 04, and 08 were regenerated after the audit to correct structure, product grounding, packaging visibility, and edge quality.
+- Lifestyle anatomy, product grip, product placement, text contrast, label legibility, and Philippine relevance were checked across the full set.
+total 0
+drwxr-xr-x@  2 wetrade  staff   64 Sep 23 10:13 .
+drwxr-xr-x@ 10 wetrade  staff  320 Sep 23 10:18 ..
+
+exec
+/bin/zsh -lc "python - <<'PY'
+from PIL import Image,ImageOps,ImageDraw
+from pathlib import Path
+out=Path('tmp/banner-qa');out.mkdir(parents=True,exist_ok=True)
+for sku,ver in [('citrus-wish','standardized-v01'),('moonlight-velvet','standardized-v01'),('charme-envoutant','generated-v01'),('sunset-cocktail','standardized-v01')]:
+ files=list(sorted(Path(f'handoff/assets/{sku}-sources').glob('*')))+[Path(f'output/product-listing/{sku}/{ver}/final/{n}') for n in ['01-featured-packshot.png','02-brand-hero.png']]
+ sheet=Image.new('RGB',(1600,((len(files)+3)//4)*540),'white');d=ImageDraw.Draw(sheet)
+ for i,p in enumerate(files):
+  im=ImageOps.exif_transpose(Image.open(p));im.thumbnail((390,500));x=(i%4)*400;y=(i//4)*540;sheet.paste(im,(x+(400-im.width)//2,y));d.text((x+5,y+505),p.name[:49],fill='black')
+ sheet.save(out/f'{sku}-references.jpg')
+PY" in /Users/wetrade/Documents/ChatGPT/Dear Body
+ exited 127 in 0ms:
+zsh:1: command not found: python
+
+2026-09-23T02:18:55.067851Z ERROR codex_core::tools::router: error=unable to locate image at `/Users/wetrade/Documents/ChatGPT/Dear Body/tmp/banner-qa/citrus-wish-references.jpg`: No such file or directory (os error 2)
+exec
+/bin/zsh -lc "python3 - <<'PY'
+from PIL import Image,ImageOps,ImageDraw
+from pathlib import Path
+out=Path('tmp/banner-qa');out.mkdir(parents=True,exist_ok=True)
+for sku,ver in [('citrus-wish','standardized-v01'),('moonlight-velvet','standardized-v01'),('charme-envoutant','generated-v01'),('sunset-cocktail','standardized-v01')]:
+ files=list(sorted(Path(f'handoff/assets/{sku}-sources').glob('*')))+[Path(f'output/product-listing/{sku}/{ver}/final/{n}') for n in ['01-featured-packshot.png','02-brand-hero.png']]
+ sheet=Image.new('RGB',(1600,((len(files)+3)//4)*540),'white');d=ImageDraw.Draw(sheet)
+ for i,p in enumerate(files):
+  im=ImageOps.exif_transpose(Image.open(p));im.thumbnail((390,500));x=(i%4)*400;y=(i//4)*540;sheet.paste(im,(x+(400-im.width)//2,y));d.text((x+5,y+505),p.name[:49],fill='black')
+ sheet.save(out/f'{sku}-references.jpg')
+PY" in /Users/wetrade/Documents/ChatGPT/Dear Body
+ succeeded in 3345ms:
+codex
+The references confirm all four black-label products and their packaging colors. I’ll keep the hero pair within the desktop’s shallow crop and use a separate mobile composition with a clear text area above it.
+codex
+The first desktop composition placed the canister too close to the top crop. I’ve reduced the pair and added headroom; I’m checking the corrected export and its 1440 × 540 crop before saving.
+exec
+/bin/zsh -lc "cat > tmp/banner-qa/export.py <<'PY'
+from PIL import Image,ImageCms,ImageOps
+from pathlib import Path
+import sys
+source,base,w,h=sys.argv[1:];w,h=int(w),int(h)
+im=Image.open(source).convert('RGB');im=ImageOps.fit(im,(w,h),method=Image.Resampling.LANCZOS)
+p=Path('tmp/banner-qa')/base
+icc=ImageCms.ImageCmsProfile(ImageCms.createProfile('sRGB')).tobytes()
+im.save(str(p)+'.png',icc_profile=icc)
+im.save(str(p)+'.webp',quality=94,method=6,icc_profile=icc)
+im.save(str(p)+'.jpg',quality=94,subsampling=0,optimize=True,icc_profile=icc)
+if 'desktop' in base: ImageOps.fit(im,(1440,540),method=Image.Resampling.LANCZOS).save(str(p)+'-display.png')
+elif 'mobile' in base: ImageOps.fit(im,(390,430),method=Image.Resampling.LANCZOS,centering=(.5,0)).save(str(p)+'-display.png')
+else: im.resize((640,480),Image.Resampling.LANCZOS).save(str(p)+'-display.png')
+for ext in ['png','webp','jpg']: print(str(p)+'.'+ext,Path(str(p)+'.'+ext).stat().st_size)
+PY
+python3 tmp/banner-qa/export.py /Users/wetrade/.codex/generated_images/01a0cc0e-8166-7873-b088-59fb0c854944/exec-ddfa18dc-2681-4549-b6bc-bf9529a06bb9.png dear-body-home-hero-desktop-v01 2400 1200" in /Users/wetrade/Documents/ChatGPT/Dear Body
+ succeeded in 918ms:
+tmp/banner-qa/dear-body-home-hero-desktop-v01.png 2753339
+tmp/banner-qa/dear-body-home-hero-desktop-v01.webp 211664
+tmp/banner-qa/dear-body-home-hero-desktop-v01.jpg 545313
+
+exec
+/bin/zsh -lc 'cp tmp/banner-qa/dear-body-home-hero-desktop-v01.{png,webp,jpg} output/website/banners/' in /Users/wetrade/Documents/ChatGPT/Dear Body
+ succeeded in 0ms:
+exec
+/bin/zsh -lc 'python3 tmp/banner-qa/export.py /Users/wetrade/.codex/generated_images/01a0cc0e-8166-7873-b088-59fb0c854944/exec-aaba2949-f6a1-4e9c-8d12-222eae8c9c39.png dear-body-home-hero-mobile-v01 1200 1500' in /Users/wetrade/Documents/ChatGPT/Dear Body
+ succeeded in 733ms:
+tmp/banner-qa/dear-body-home-hero-mobile-v01.png 1943410
+tmp/banner-qa/dear-body-home-hero-mobile-v01.webp 168246
+tmp/banner-qa/dear-body-home-hero-mobile-v01.jpg 393294
+
+exec
+/bin/zsh -lc 'cp tmp/banner-qa/dear-body-home-hero-mobile-v01.{png,webp,jpg} output/website/banners/' in /Users/wetrade/Documents/ChatGPT/Dear Body
+ succeeded in 0ms:
+codex
+The desktop and mobile files have passed inspection and are saved in all three formats. I’m now creating the four-scent story image, with each bottle beside its matching canister and all labels facing forward.
+codex
+The story image has all four matching pairs with unobstructed scent names. I’m checking its full-size exports and smaller display preview, then recording crop limits and Shopify placement instructions in the manifest.
+exec
+/bin/zsh -lc 'python3 tmp/banner-qa/export.py /Users/wetrade/.codex/generated_images/01a0cc0e-8166-7873-b088-59fb0c854944/exec-e0871dfe-b9b9-48e8-8a5e-ba3dc98686f1.png dear-body-brand-story-v01 1600 1200' in /Users/wetrade/Documents/ChatGPT/Dear Body
+ succeeded in 701ms:
+tmp/banner-qa/dear-body-brand-story-v01.png 2301589
+tmp/banner-qa/dear-body-brand-story-v01.webp 297164
+tmp/banner-qa/dear-body-brand-story-v01.jpg 539343
+
+codex
+The full-size check caught distorted small “LONDON” printing in the story image. I’ve corrected it and am checking the revised derivatives before saving them.
+exec
+/bin/zsh -lc 'python3 tmp/banner-qa/export.py /Users/wetrade/.codex/generated_images/01a0cc0e-8166-7873-b088-59fb0c854944/exec-e89ad03f-d23b-4f64-8c6f-c9cfd41fd867.png dear-body-brand-story-v01 1600 1200' in /Users/wetrade/Documents/ChatGPT/Dear Body
+ succeeded in 715ms:
+tmp/banner-qa/dear-body-brand-story-v01.png 2138244
+tmp/banner-qa/dear-body-brand-story-v01.webp 267558
+tmp/banner-qa/dear-body-brand-story-v01.jpg 506748
+
+exec
+/bin/zsh -lc 'cp tmp/banner-qa/dear-body-brand-story-v01.{png,webp,jpg} output/website/banners/' in /Users/wetrade/Documents/ChatGPT/Dear Body
+ succeeded in 0ms:
+apply patch
+patch: completed
+/Users/wetrade/Documents/ChatGPT/Dear Body/tmp/banner-qa/PROMPTS.md
+diff --git a/tmp/banner-qa/PROMPTS.md b/tmp/banner-qa/PROMPTS.md
+new file mode 100644
+index 0000000000000000000000000000000000000000..d2482511ecebc97741b2a5b07336484654a37e7f
+--- /dev/null
++++ b/tmp/banner-qa/PROMPTS.md
+@@ -0,0 +1,20 @@
++### desktopPrompt
++
++Use case: product-mockup. Create a finished photorealistic Dear Body Shopify desktop banner, wide 2:1 composition, target 2400x1200. Reference 1 and 2 are authoritative original Citrus Wish bottle and canister photographs; reference 3 is approved studio lighting/material style only. Preserve exact real product geometry, glossy black cylindrical cap, silver collar, cylindrical clear glass, golden yellow liquid, bright yellow cylindrical canister with black rims and low sleeve seam. Preserve authentic black labels reading CITRUS WISH and original small PARFUM / LONDON printing and existing mark only. New scene: warm cream #f4e3cb seamless tactile paper/stone studio with burgundy #5c0006 low architectural platform beneath pair and a restrained warm golden light field at far right. No chrome ribbon or other props. Calm subtly textured cream across entire left 46%; no shadows or objects in left text zone. Pair predominantly right: bottle front-left of matching canister, all product silhouettes confined to x=59–85%, y=21–79%, with realistic proportions, front-facing readable labels and convincing contact shadows. Medium-wide editorial product photograph, warm sunlit highlights, generous margin, confident premium approachable feel. Entire product must survive centered 2.667:1 crop removing top/bottom 12.5%. No headline, caption, button, separate logo, monogram, badge, watermark, people, fruit, flowers, spices or invented props. Opaque background. Render just ONE banner image.
++
++### desktopCorrection
++
++Edit this banner with one targeted composition correction: reduce the bottle and canister grouping together to 83% of current size with identical proportions, preserving all exact labels, material, colors, lighting and relative placement. Place their combined silhouette entirely within x=56–82% and y=22–79% of canvas, upright resting naturally on the same burgundy platform (adjust platform height/position only enough to support them). Keep 2:1 wide aspect, all left 42% calm cream, no added text, logos or objects. This correction needs substantial clear space above canister so a centered shallow 2.667:1 crop preserves every product edge.
++
++### mobilePrompt
++
++Use case: product-mockup. Generate the MOBILE portrait companion of reference 1 desktop campaign, 4:5 ratio target 1200x1500. Reference 1 is approved campaign style; references 2 and 3 are authoritative original product identity. Recompose independently: same warm cream tactile wall and tabletop, burgundy low rectangular architectural platform, warm golden editorial light. Entire upper 35% is calm low-detail cream for live Shopify copy; NO text there. One exact Citrus Wish clear cylindrical bottle with golden liquid, glossy black cylindrical cap and silver collar in front-left of one matching bright yellow cylindrical canister with thin black rims. Authentic black labels, white CITRUS WISH and original small PARFUM LONDON mark. Group centered horizontally, silhouettes within x=24–77%, y=42–80%, platform lower, generous cream bottom margin. Physically realistic photographic glass, faithful proportions, crisp front-facing labels, natural contact shadows. No additional props, chrome ribbon, fruits, flowers, people, headline, caption, buttons, logo overlay, monogram overlay, badge or watermark. Products and package identical to desktop; opaque cream background. ONE portrait image.
++
++### storyPrompt
++
++Use case: product-mockup. Create ONE finished photorealistic 4:3 landscape Dear Body brand-story still life, target 1600x1200. References 1–4 are inspected identity/style contact sheets for Citrus Wish, Moonlight Velvet, Charme Envoûtant, Sunset Cocktail respectively; original phone photos are physical identity authority, studio packshots at bottom are approved styling. Reference 5 is this campaign's desktop for continuity. Do not render a contact sheet. Scene: warm cream #f4e3cb tactile studio, cream stone tabletop and restrained low burgundy #5c0006 architectural step, golden daylight and soft realistic shadows, premium approachable warm editorial still life. Exactly FOUR bottles and FOUR CLOSED matching canisters, one pair per scent. Arrange four comfortably spaced pairs across a shallow staggered arc with a single low step, all eight front labels fully visible, no product overlap obscuring labels, entire grouping inside x=10–90%, y=20–82%, generous air. Similar real scale across all four identical cylindrical bottle designs and matching cylindrical packages. From left: CITRUS WISH (golden yellow liquid, bright yellow canister), MOONLIGHT VELVET (colorless liquid, pale lilac canister), CHARME ENVOÛTANT (amber orange liquid, vivid orange canister), SUNSET COCKTAIL (pale peach liquid, peach pink canister). All clear cylindrical glass, thick glass base, black glossy cylindrical cap, narrow silver collar. Exact black front labels with white scent names as spelled, and authentic small PARFUM LONDON printed marks as references. Each bottle slightly in front and to side of its own taller canister. Photo at product eye level, crisp bottle edges and text, convincing reflections and contact shadows, rich real materials. No invented props, chrome ribbons, fruit, flowers, spices or people. NO headline, caption, buttons, separate logo, monogram, badge, watermark, pricing, bundle offer or text outside existing packaging. Opaque photographic background.
++
++### storyCorrection
++
++Targeted correction to this exact four-product story photograph. Keep the entire composition, bottles, packages, lighting, colors, all scent names, and surfaces unchanged. Correct only small existing packaging print on all eight black front labels: below the original small mark and PARFUM it must cleanly read LONDON, straight and legible, not scrambled or misspelled, using authentic compact white uppercase as original packaging. Preserve existing correctly spelled CITRUS WISH, MOONLIGHT VELVET, CHARME ENVOÛTANT, SUNSET COCKTAIL. No new text outside labels. Render high-resolution 4:3 image with sharp printing.
++
+
+diff --git a/tmp/banner-qa/PROMPTS.md b/tmp/banner-qa/PROMPTS.md
+new file mode 100644
+index 0000000000000000000000000000000000000000..d2482511ecebc97741b2a5b07336484654a37e7f
+--- /dev/null
++++ b/tmp/banner-qa/PROMPTS.md
+@@ -0,0 +1,20 @@
++### desktopPrompt
++
++Use case: product-mockup. Create a finished photorealistic Dear Body Shopify desktop banner, wide 2:1 composition, target 2400x1200. Reference 1 and 2 are authoritative original Citrus Wish bottle and canister photographs; reference 3 is approved studio lighting/material style only. Preserve exact real product geometry, glossy black cylindrical cap, silver collar, cylindrical clear glass, golden yellow liquid, bright yellow cylindrical canister with black rims and low sleeve seam. Preserve authentic black labels reading CITRUS WISH and original small PARFUM / LONDON printing and existing mark only. New scene: warm cream #f4e3cb seamless tactile paper/stone studio with burgundy #5c0006 low architectural platform beneath pair and a restrained warm golden light field at far right. No chrome ribbon or other props. Calm subtly textured cream across entire left 46%; no shadows or objects in left text zone. Pair predominantly right: bottle front-left of matching canister, all product silhouettes confined to x=59–85%, y=21–79%, with realistic proportions, front-facing readable labels and convincing contact shadows. Medium-wide editorial product photograph, warm sunlit highlights, generous margin, confident premium approachable feel. Entire product must survive centered 2.667:1 crop removing top/bottom 12.5%. No headline, caption, button, separate logo, monogram, badge, watermark, people, fruit, flowers, spices or invented props. Opaque background. Render just ONE banner image.
++
++### desktopCorrection
++
++Edit this banner with one targeted composition correction: reduce the bottle and canister grouping together to 83% of current size with identical proportions, preserving all exact labels, material, colors, lighting and relative placement. Place their combined silhouette entirely within x=56–82% and y=22–79% of canvas, upright resting naturally on the same burgundy platform (adjust platform height/position only enough to support them). Keep 2:1 wide aspect, all left 42% calm cream, no added text, logos or objects. This correction needs substantial clear space above canister so a centered shallow 2.667:1 crop preserves every product edge.
++
++### mobilePrompt
++
++Use case: product-mockup. Generate the MOBILE portrait companion of reference 1 desktop campaign, 4:5 ratio target 1200x1500. Reference 1 is approved campaign style; references 2 and 3 are authoritative original product identity. Recompose independently: same warm cream tactile wall and tabletop, burgundy low rectangular architectural platform, warm golden editorial light. Entire upper 35% is calm low-detail cream for live Shopify copy; NO text there. One exact Citrus Wish clear cylindrical bottle with golden liquid, glossy black cylindrical cap and silver collar in front-left of one matching bright yellow cylindrical canister with thin black rims. Authentic black labels, white CITRUS WISH and original small PARFUM LONDON mark. Group centered horizontally, silhouettes within x=24–77%, y=42–80%, platform lower, generous cream bottom margin. Physically realistic photographic glass, faithful proportions, crisp front-facing labels, natural contact shadows. No additional props, chrome ribbon, fruits, flowers, people, headline, caption, buttons, logo overlay, monogram overlay, badge or watermark. Products and package identical to desktop; opaque cream background. ONE portrait image.
++
++### storyPrompt
++
++Use case: product-mockup. Create ONE finished photorealistic 4:3 landscape Dear Body brand-story still life, target 1600x1200. References 1–4 are inspected identity/style contact sheets for Citrus Wish, Moonlight Velvet, Charme Envoûtant, Sunset Cocktail respectively; original phone photos are physical identity authority, studio packshots at bottom are approved styling. Reference 5 is this campaign's desktop for continuity. Do not render a contact sheet. Scene: warm cream #f4e3cb tactile studio, cream stone tabletop and restrained low burgundy #5c0006 architectural step, golden daylight and soft realistic shadows, premium approachable warm editorial still life. Exactly FOUR bottles and FOUR CLOSED matching canisters, one pair per scent. Arrange four comfortably spaced pairs across a shallow staggered arc with a single low step, all eight front labels fully visible, no product overlap obscuring labels, entire grouping inside x=10–90%, y=20–82%, generous air. Similar real scale across all four identical cylindrical bottle designs and matching cylindrical packages. From left: CITRUS WISH (golden yellow liquid, bright yellow canister), MOONLIGHT VELVET (colorless liquid, pale lilac canister), CHARME ENVOÛTANT (amber orange liquid, vivid orange canister), SUNSET COCKTAIL (pale peach liquid, peach pink canister). All clear cylindrical glass, thick glass base, black glossy cylindrical cap, narrow silver collar. Exact black front labels with white scent names as spelled, and authentic small PARFUM LONDON printed marks as references. Each bottle slightly in front and to side of its own taller canister. Photo at product eye level, crisp bottle edges and text, convincing reflections and contact shadows, rich real materials. No invented props, chrome ribbons, fruit, flowers, spices or people. NO headline, caption, buttons, separate logo, monogram, badge, watermark, pricing, bundle offer or text outside existing packaging. Opaque photographic background.
++
++### storyCorrection
++
++Targeted correction to this exact four-product story photograph. Keep the entire composition, bottles, packages, lighting, colors, all scent names, and surfaces unchanged. Correct only small existing packaging print on all eight black front labels: below the original small mark and PARFUM it must cleanly read LONDON, straight and legible, not scrambled or misspelled, using authentic compact white uppercase as original packaging. Preserve existing correctly spelled CITRUS WISH, MOONLIGHT VELVET, CHARME ENVOÛTANT, SUNSET COCKTAIL. No new text outside labels. Render high-resolution 4:3 image with sharp printing.
++
+
+exec
+/bin/zsh -lc "python3 - <<'PY'
+from pathlib import Path
+from PIL import Image
+out=Path('output/website/banners').resolve()
+specs=[('dear-body-home-hero-desktop-v01','Horizon Hero desktop background','Citrus Wish perfume bottle and yellow canister on a burgundy platform against warm cream.','72%, 50%','Retain x=58–86%, y=23–84% for products and margin. Tested crop: x=0–100%, y=12.5–87.5% (1440 × 540).','x=4–42%, y=25–70%; calm cream, burgundy live copy.','Use separate mobile image. Product focal point 72%, 50%; object-position 72% 50% works for the tested wide crop.'),('dear-body-home-hero-mobile-v01','Horizon Hero separate mobile background; custom responsive section if mobile field unavailable','Citrus Wish bottle beside its yellow canister on a burgundy platform in warm light.','53%, 56%','Retain x=29–78%, y=33–79%. Tested 390 × 430 top-aligned crop retains x=0–100%, y=0–88.21%.','x=6–94%, y=4–33%; upper cream region.','For 390 × 430 use object-position 50% 0% to preserve the full upper text zone. Subject focal point is separate from this layout positioning. Keep live copy compact; verify its fit in the theme.'),('dear-body-brand-story-v01','Horizon image-plus-text story section; copy beside or below image','Citrus Wish, Moonlight Velvet, Charme Envoûtant and Sunset Cocktail bottles with yellow, lilac, orange and peach-pink canisters.','50%, 54%','Retain x=2–98%, y=25–80%. Preferred full 4:3 frame; avoid square or portrait cover crops, which cut outer products.','No overlay intended. Calm top x=5–65%, y=3–23% exists, but story copy belongs beside or below.','Use full 4:3 aspect at all breakpoints. Small packaging print is naturally too small to read in the 640 × 480 preview; scent names remain identifiable. Not a bundle offer.')]
+parts=['# Dear Body banner asset manifest\\n\\nGenerated and inspected 2026-09-23. Artwork: built-in ImageGen; no CLI fallback. Brief precedence: CLAUDE_TO_CODEX_BANNER_REQUEST.md. Nine image files delivered; no Shopify changes made.\\n\\n## Export and QA\\n\\nOpaque RGB with embedded sRGB profile. Lossless PNG masters; WebP quality 94 (preferred web files); JPEG quality 94, 4:4:4. Lanczos export preserves proportions: desktop native 1774 × 887 to 2400 × 1200; mobile native 1122 × 1402 to 1200 × 1500 with subpixel aspect fit; story native 1448 × 1086 to 1600 × 1200. No deterministic product retouching or recoloring.\\n\\nAll nine final exports visually inspected at full dimensions. Display checks: desktop 1440 × 540, mobile 390 × 430, story 640 × 480. Desktop corrected for canister headroom; story corrected for small LONDON printing. Checked names, package colors, silhouettes, glass, shadows, absence of overlays and props, and campaign continuity. Each finished asset set was copied immediately after passing inspection. WebP heroes are below the approximate 250 KB target because quality 94 already preserves visual quality.\\n\\nCrop coordinates below are percentages from top-left. Retain bounds describe the region that must stay visible, including a small product margin; they are not instructions to crop tightly. Live Shopify crops and actual overlay typography remain for Claude to verify after upload.\\n']
+for base,placement,alt,focal,crop,text,limit in specs:
+ parts.append(f'## {base}\\n\\n- Placement: {placement}.\\n- Alt text (all three formats): {alt}\\n- Suggested subject focal point (all three formats): {focal}.\\n- Safe crop (all three formats): {crop}\\n- Live-text-safe region (all three formats): {text}\\n- Placement limitations (all three formats): {limit}\\n\\n| Absolute file path | Dimensions | Format | Bytes | Role |\\n| --- | --- | --- | ---: | --- |')
+ for ext,role in [('png','Lossless master'),('webp','Preferred web derivative'),('jpg','JPEG fallback')]:
+  p=out/(base+'.'+ext)
+  with Image.open(p) as im:
+   assert im.mode=='RGB' and im.info.get('icc_profile')
+   size=f'{im.width} × {im.height}';fmt=im.format
+  parts.append(f'| {p} | {size} | {fmt} | {p.stat().st_size} | {role} |')
+ parts.append('')
+parts.append('## Claude upload instructions\\n\\nUpload the preferred WebP files through Content → Files in the Dear Body — Website Build duplicate. Assign the desktop and separate mobile images to Horizon Hero; if no mobile image field exists, use the planned custom responsive section. Keep the desktop left 42% and mobile upper 30–35% for live burgundy copy. Add DEAR BODY PHILIPPINES, A SCENT JOURNEY, the supplied supporting line and buttons using Shopify controls. Do not bake any copy or logos into artwork. Place FROM LONDON, WITH FEELING beside or below the full 4:3 story image. Inspect actual theme crops after upload.\\n\\n## Reference audit\\n\\nRead BRAND_GUIDE.md, brand.tokens.json, UNIFIED_THREE_SCENT_GALLERY_STANDARD.md and all four adjacent approved GALLERY_MANIFEST.md files. Inspected all original source photographs and each approved packshot and architectural hero using labeled reference sheets; inspected Citrus Wish front bottle and packaging at native size. Correct Citrus Wish bottom label was reviewed (P10638); no Mojito references used. Contact sheets and QA previews remain in tmp/banner-qa for audit, outside the delivered asset set.\\n\\n## Generation prompt set\\n\\nThe following prompts were used with built-in ImageGen. Original photos are product identity references; approved galleries and completed desktop are styling references.\\n')
+parts.append(Path('tmp/banner-qa/PROMPTS.md').read_text())
+p=out/'BANNER_ASSET_MANIFEST.md';p.write_text('\\n'.join(parts))
+for p in sorted(out.iterdir()): print(p.name,p.stat().st_size)
+PY" in /Users/wetrade/Documents/ChatGPT/Dear Body
+ succeeded in 297ms:
+BANNER_ASSET_MANIFEST.md 12789
+candidates-attempt1 128
+dear-body-brand-story-v01.jpg 506748
+dear-body-brand-story-v01.png 2138244
+dear-body-brand-story-v01.webp 267558
+dear-body-home-hero-desktop-v01.jpg 545313
+dear-body-home-hero-desktop-v01.png 2753339
+dear-body-home-hero-desktop-v01.webp 211664
+dear-body-home-hero-mobile-v01.jpg 393294
+dear-body-home-hero-mobile-v01.png 1943410
+dear-body-home-hero-mobile-v01.webp 168246
+
+diff --git a/tmp/banner-qa/PROMPTS.md b/tmp/banner-qa/PROMPTS.md
+new file mode 100644
+index 0000000000000000000000000000000000000000..d2482511ecebc97741b2a5b07336484654a37e7f
+--- /dev/null
++++ b/tmp/banner-qa/PROMPTS.md
+@@ -0,0 +1,20 @@
++### desktopPrompt
++
++Use case: product-mockup. Create a finished photorealistic Dear Body Shopify desktop banner, wide 2:1 composition, target 2400x1200. Reference 1 and 2 are authoritative original Citrus Wish bottle and canister photographs; reference 3 is approved studio lighting/material style only. Preserve exact real product geometry, glossy black cylindrical cap, silver collar, cylindrical clear glass, golden yellow liquid, bright yellow cylindrical canister with black rims and low sleeve seam. Preserve authentic black labels reading CITRUS WISH and original small PARFUM / LONDON printing and existing mark only. New scene: warm cream #f4e3cb seamless tactile paper/stone studio with burgundy #5c0006 low architectural platform beneath pair and a restrained warm golden light field at far right. No chrome ribbon or other props. Calm subtly textured cream across entire left 46%; no shadows or objects in left text zone. Pair predominantly right: bottle front-left of matching canister, all product silhouettes confined to x=59–85%, y=21–79%, with realistic proportions, front-facing readable labels and convincing contact shadows. Medium-wide editorial product photograph, warm sunlit highlights, generous margin, confident premium approachable feel. Entire product must survive centered 2.667:1 crop removing top/bottom 12.5%. No headline, caption, button, separate logo, monogram, badge, watermark, people, fruit, flowers, spices or invented props. Opaque background. Render just ONE banner image.
++
++### desktopCorrection
++
++Edit this banner with one targeted composition correction: reduce the bottle and canister grouping together to 83% of current size with identical proportions, preserving all exact labels, material, colors, lighting and relative placement. Place their combined silhouette entirely within x=56–82% and y=22–79% of canvas, upright resting naturally on the same burgundy platform (adjust platform height/position only enough to support them). Keep 2:1 wide aspect, all left 42% calm cream, no added text, logos or objects. This correction needs substantial clear space above canister so a centered shallow 2.667:1 crop preserves every product edge.
++
++### mobilePrompt
++
++Use case: product-mockup. Generate the MOBILE portrait companion of reference 1 desktop campaign, 4:5 ratio target 1200x1500. Reference 1 is approved campaign style; references 2 and 3 are authoritative original product identity. Recompose independently: same warm cream tactile wall and tabletop, burgundy low rectangular architectural platform, warm golden editorial light. Entire upper 35% is calm low-detail cream for live Shopify copy; NO text there. One exact Citrus Wish clear cylindrical bottle with golden liquid, glossy black cylindrical cap and silver collar in front-left of one matching bright yellow cylindrical canister with thin black rims. Authentic black labels, white CITRUS WISH and original small PARFUM LONDON mark. Group centered horizontally, silhouettes within x=24–77%, y=42–80%, platform lower, generous cream bottom margin. Physically realistic photographic glass, faithful proportions, crisp front-facing labels, natural contact shadows. No additional props, chrome ribbon, fruits, flowers, people, headline, caption, buttons, logo overlay, monogram overlay, badge or watermark. Products and package identical to desktop; opaque cream background. ONE portrait image.
++
++### storyPrompt
++
++Use case: product-mockup. Create ONE finished photorealistic 4:3 landscape Dear Body brand-story still life, target 1600x1200. References 1–4 are inspected identity/style contact sheets for Citrus Wish, Moonlight Velvet, Charme Envoûtant, Sunset Cocktail respectively; original phone photos are physical identity authority, studio packshots at bottom are approved styling. Reference 5 is this campaign's desktop for continuity. Do not render a contact sheet. Scene: warm cream #f4e3cb tactile studio, cream stone tabletop and restrained low burgundy #5c0006 architectural step, golden daylight and soft realistic shadows, premium approachable warm editorial still life. Exactly FOUR bottles and FOUR CLOSED matching canisters, one pair per scent. Arrange four comfortably spaced pairs across a shallow staggered arc with a single low step, all eight front labels fully visible, no product overlap obscuring labels, entire grouping inside x=10–90%, y=20–82%, generous air. Similar real scale across all four identical cylindrical bottle designs and matching cylindrical packages. From left: CITRUS WISH (golden yellow liquid, bright yellow canister), MOONLIGHT VELVET (colorless liquid, pale lilac canister), CHARME ENVOÛTANT (amber orange liquid, vivid orange canister), SUNSET COCKTAIL (pale peach liquid, peach pink canister). All clear cylindrical glass, thick glass base, black glossy cylindrical cap, narrow silver collar. Exact black front labels with white scent names as spelled, and authentic small PARFUM LONDON printed marks as references. Each bottle slightly in front and to side of its own taller canister. Photo at product eye level, crisp bottle edges and text, convincing reflections and contact shadows, rich real materials. No invented props, chrome ribbons, fruit, flowers, spices or people. NO headline, caption, buttons, separate logo, monogram, badge, watermark, pricing, bundle offer or text outside existing packaging. Opaque photographic background.
++
++### storyCorrection
++
++Targeted correction to this exact four-product story photograph. Keep the entire composition, bottles, packages, lighting, colors, all scent names, and surfaces unchanged. Correct only small existing packaging print on all eight black front labels: below the original small mark and PARFUM it must cleanly read LONDON, straight and legible, not scrambled or misspelled, using authentic compact white uppercase as original packaging. Preserve existing correctly spelled CITRUS WISH, MOONLIGHT VELVET, CHARME ENVOÛTANT, SUNSET COCKTAIL. No new text outside labels. Render high-resolution 4:3 image with sharp printing.
++
+
+codex
+SAVED: /Users/wetrade/Documents/ChatGPT/Dear Body/output/website/banners/dear-body-home-hero-desktop-v01.png
+SAVED: /Users/wetrade/Documents/ChatGPT/Dear Body/output/website/banners/dear-body-home-hero-desktop-v01.webp
+SAVED: /Users/wetrade/Documents/ChatGPT/Dear Body/output/website/banners/dear-body-home-hero-desktop-v01.jpg
+SAVED: /Users/wetrade/Documents/ChatGPT/Dear Body/output/website/banners/dear-body-home-hero-mobile-v01.png
+SAVED: /Users/wetrade/Documents/ChatGPT/Dear Body/output/website/banners/dear-body-home-hero-mobile-v01.webp
+SAVED: /Users/wetrade/Documents/ChatGPT/Dear Body/output/website/banners/dear-body-home-hero-mobile-v01.jpg
+SAVED: /Users/wetrade/Documents/ChatGPT/Dear Body/output/website/banners/dear-body-brand-story-v01.png
+SAVED: /Users/wetrade/Documents/ChatGPT/Dear Body/output/website/banners/dear-body-brand-story-v01.webp
+SAVED: /Users/wetrade/Documents/ChatGPT/Dear Body/output/website/banners/dear-body-brand-story-v01.jpg
+SAVED: /Users/wetrade/Documents/ChatGPT/Dear Body/output/website/banners/BANNER_ASSET_MANIFEST.md
+DONE
+diff --git a/tmp/banner-qa/PROMPTS.md b/tmp/banner-qa/PROMPTS.md
+new file mode 100644
+index 0000000000000000000000000000000000000000..d2482511ecebc97741b2a5b07336484654a37e7f
+--- /dev/null
++++ b/tmp/banner-qa/PROMPTS.md
+@@ -0,0 +1,20 @@
++### desktopPrompt
++
++Use case: product-mockup. Create a finished photorealistic Dear Body Shopify desktop banner, wide 2:1 composition, target 2400x1200. Reference 1 and 2 are authoritative original Citrus Wish bottle and canister photographs; reference 3 is approved studio lighting/material style only. Preserve exact real product geometry, glossy black cylindrical cap, silver collar, cylindrical clear glass, golden yellow liquid, bright yellow cylindrical canister with black rims and low sleeve seam. Preserve authentic black labels reading CITRUS WISH and original small PARFUM / LONDON printing and existing mark only. New scene: warm cream #f4e3cb seamless tactile paper/stone studio with burgundy #5c0006 low architectural platform beneath pair and a restrained warm golden light field at far right. No chrome ribbon or other props. Calm subtly textured cream across entire left 46%; no shadows or objects in left text zone. Pair predominantly right: bottle front-left of matching canister, all product silhouettes confined to x=59–85%, y=21–79%, with realistic proportions, front-facing readable labels and convincing contact shadows. Medium-wide editorial product photograph, warm sunlit highlights, generous margin, confident premium approachable feel. Entire product must survive centered 2.667:1 crop removing top/bottom 12.5%. No headline, caption, button, separate logo, monogram, badge, watermark, people, fruit, flowers, spices or invented props. Opaque background. Render just ONE banner image.
++
++### desktopCorrection
++
++Edit this banner with one targeted composition correction: reduce the bottle and canister grouping together to 83% of current size with identical proportions, preserving all exact labels, material, colors, lighting and relative placement. Place their combined silhouette entirely within x=56–82% and y=22–79% of canvas, upright resting naturally on the same burgundy platform (adjust platform height/position only enough to support them). Keep 2:1 wide aspect, all left 42% calm cream, no added text, logos or objects. This correction needs substantial clear space above canister so a centered shallow 2.667:1 crop preserves every product edge.
++
++### mobilePrompt
++
++Use case: product-mockup. Generate the MOBILE portrait companion of reference 1 desktop campaign, 4:5 ratio target 1200x1500. Reference 1 is approved campaign style; references 2 and 3 are authoritative original product identity. Recompose independently: same warm cream tactile wall and tabletop, burgundy low rectangular architectural platform, warm golden editorial light. Entire upper 35% is calm low-detail cream for live Shopify copy; NO text there. One exact Citrus Wish clear cylindrical bottle with golden liquid, glossy black cylindrical cap and silver collar in front-left of one matching bright yellow cylindrical canister with thin black rims. Authentic black labels, white CITRUS WISH and original small PARFUM LONDON mark. Group centered horizontally, silhouettes within x=24–77%, y=42–80%, platform lower, generous cream bottom margin. Physically realistic photographic glass, faithful proportions, crisp front-facing labels, natural contact shadows. No additional props, chrome ribbon, fruits, flowers, people, headline, caption, buttons, logo overlay, monogram overlay, badge or watermark. Products and package identical to desktop; opaque cream background. ONE portrait image.
++
++### storyPrompt
++
++Use case: product-mockup. Create ONE finished photorealistic 4:3 landscape Dear Body brand-story still life, target 1600x1200. References 1–4 are inspected identity/style contact sheets for Citrus Wish, Moonlight Velvet, Charme Envoûtant, Sunset Cocktail respectively; original phone photos are physical identity authority, studio packshots at bottom are approved styling. Reference 5 is this campaign's desktop for continuity. Do not render a contact sheet. Scene: warm cream #f4e3cb tactile studio, cream stone tabletop and restrained low burgundy #5c0006 architectural step, golden daylight and soft realistic shadows, premium approachable warm editorial still life. Exactly FOUR bottles and FOUR CLOSED matching canisters, one pair per scent. Arrange four comfortably spaced pairs across a shallow staggered arc with a single low step, all eight front labels fully visible, no product overlap obscuring labels, entire grouping inside x=10–90%, y=20–82%, generous air. Similar real scale across all four identical cylindrical bottle designs and matching cylindrical packages. From left: CITRUS WISH (golden yellow liquid, bright yellow canister), MOONLIGHT VELVET (colorless liquid, pale lilac canister), CHARME ENVOÛTANT (amber orange liquid, vivid orange canister), SUNSET COCKTAIL (pale peach liquid, peach pink canister). All clear cylindrical glass, thick glass base, black glossy cylindrical cap, narrow silver collar. Exact black front labels with white scent names as spelled, and authentic small PARFUM LONDON printed marks as references. Each bottle slightly in front and to side of its own taller canister. Photo at product eye level, crisp bottle edges and text, convincing reflections and contact shadows, rich real materials. No invented props, chrome ribbons, fruit, flowers, spices or people. NO headline, caption, buttons, separate logo, monogram, badge, watermark, pricing, bundle offer or text outside existing packaging. Opaque photographic background.
++
++### storyCorrection
++
++Targeted correction to this exact four-product story photograph. Keep the entire composition, bottles, packages, lighting, colors, all scent names, and surfaces unchanged. Correct only small existing packaging print on all eight black front labels: below the original small mark and PARFUM it must cleanly read LONDON, straight and legible, not scrambled or misspelled, using authentic compact white uppercase as original packaging. Preserve existing correctly spelled CITRUS WISH, MOONLIGHT VELVET, CHARME ENVOÛTANT, SUNSET COCKTAIL. No new text outside labels. Render high-resolution 4:3 image with sharp printing.
++
+
+tokens used
+169,582
+SAVED: /Users/wetrade/Documents/ChatGPT/Dear Body/output/website/banners/dear-body-home-hero-desktop-v01.png
+SAVED: /Users/wetrade/Documents/ChatGPT/Dear Body/output/website/banners/dear-body-home-hero-desktop-v01.webp
+SAVED: /Users/wetrade/Documents/ChatGPT/Dear Body/output/website/banners/dear-body-home-hero-desktop-v01.jpg
+SAVED: /Users/wetrade/Documents/ChatGPT/Dear Body/output/website/banners/dear-body-home-hero-mobile-v01.png
+SAVED: /Users/wetrade/Documents/ChatGPT/Dear Body/output/website/banners/dear-body-home-hero-mobile-v01.webp
+SAVED: /Users/wetrade/Documents/ChatGPT/Dear Body/output/website/banners/dear-body-home-hero-mobile-v01.jpg
+SAVED: /Users/wetrade/Documents/ChatGPT/Dear Body/output/website/banners/dear-body-brand-story-v01.png
+SAVED: /Users/wetrade/Documents/ChatGPT/Dear Body/output/website/banners/dear-body-brand-story-v01.webp
+SAVED: /Users/wetrade/Documents/ChatGPT/Dear Body/output/website/banners/dear-body-brand-story-v01.jpg
+SAVED: /Users/wetrade/Documents/ChatGPT/Dear Body/output/website/banners/BANNER_ASSET_MANIFEST.md
+DONE

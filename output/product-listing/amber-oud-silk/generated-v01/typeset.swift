@@ -1,0 +1,205 @@
+import AppKit
+import Foundation
+
+let canvasSize = NSSize(width: 2048, height: 2048)
+let root = URL(fileURLWithPath: CommandLine.arguments[1], isDirectory: true)
+
+let ink = NSColor(calibratedRed: 0.075, green: 0.070, blue: 0.065, alpha: 1)
+let coral = NSColor(calibratedRed: 0.760, green: 0.115, blue: 0.090, alpha: 1)
+let coralLight = NSColor(calibratedRed: 0.975, green: 0.420, blue: 0.315, alpha: 1)
+let cream = NSColor(calibratedRed: 0.975, green: 0.944, blue: 0.886, alpha: 1)
+let white = NSColor.white
+
+func font(_ size: CGFloat, weight: NSFont.Weight = .regular) -> NSFont {
+    NSFont.systemFont(ofSize: size, weight: weight)
+}
+
+func rectFromTop(x: CGFloat, y: CGFloat, width: CGFloat, height: CGFloat) -> NSRect {
+    NSRect(x: x, y: canvasSize.height - y - height, width: width, height: height)
+}
+
+func drawText(
+    _ text: String,
+    x: CGFloat,
+    y: CGFloat,
+    width: CGFloat,
+    height: CGFloat,
+    size: CGFloat,
+    weight: NSFont.Weight = .regular,
+    color: NSColor = ink,
+    lineHeight: CGFloat? = nil,
+    shadow: NSShadow? = nil
+) {
+    let style = NSMutableParagraphStyle()
+    style.alignment = .left
+    if let lineHeight {
+        style.minimumLineHeight = lineHeight
+        style.maximumLineHeight = lineHeight
+    }
+    var attributes: [NSAttributedString.Key: Any] = [
+        .font: font(size, weight: weight),
+        .foregroundColor: color,
+        .paragraphStyle: style,
+        .kern: 0
+    ]
+    if let shadow {
+        attributes[.shadow] = shadow
+    }
+    (text as NSString).draw(
+        with: rectFromTop(x: x, y: y, width: width, height: height),
+        options: [.usesLineFragmentOrigin, .usesFontLeading],
+        attributes: attributes
+    )
+}
+
+func fillRect(x: CGFloat, y: CGFloat, width: CGFloat, height: CGFloat, color: NSColor) {
+    color.setFill()
+    NSBezierPath(rect: rectFromTop(x: x, y: y, width: width, height: height)).fill()
+}
+
+func render(base: String, output: String, overlay: () -> Void) throws {
+    let baseURL = root.appendingPathComponent("working").appendingPathComponent(base)
+    guard let source = NSImage(contentsOf: baseURL) else {
+        throw NSError(domain: "Typeset", code: 1, userInfo: [NSLocalizedDescriptionKey: "Cannot load \(baseURL.path)"])
+    }
+
+    guard let bitmap = NSBitmapImageRep(
+        bitmapDataPlanes: nil,
+        pixelsWide: Int(canvasSize.width),
+        pixelsHigh: Int(canvasSize.height),
+        bitsPerSample: 8,
+        samplesPerPixel: 4,
+        hasAlpha: true,
+        isPlanar: false,
+        colorSpaceName: .calibratedRGB,
+        bytesPerRow: 0,
+        bitsPerPixel: 0
+    ), let context = NSGraphicsContext(bitmapImageRep: bitmap) else {
+        throw NSError(domain: "Typeset", code: 2, userInfo: [NSLocalizedDescriptionKey: "Cannot create bitmap context"])
+    }
+
+    bitmap.size = canvasSize
+    NSGraphicsContext.saveGraphicsState()
+    NSGraphicsContext.current = context
+    context.imageInterpolation = .high
+    source.draw(in: NSRect(origin: .zero, size: canvasSize), from: .zero, operation: .copy, fraction: 1)
+    overlay()
+    context.flushGraphics()
+    NSGraphicsContext.restoreGraphicsState()
+
+    guard let data = bitmap.representation(using: .png, properties: [:]) else {
+        throw NSError(domain: "Typeset", code: 3, userInfo: [NSLocalizedDescriptionKey: "Cannot encode PNG"])
+    }
+    try data.write(to: root.appendingPathComponent("final").appendingPathComponent(output))
+}
+
+try render(base: "08-product-profile-base.png", output: "08-product-profile-infographic.png") {
+    drawText("AMBER OUD SILK", x: 112, y: 122, width: 700, height: 36, size: 23, weight: .bold, color: coral)
+    drawText("PRODUCT\nPROFILE", x: 112, y: 178, width: 720, height: 190, size: 76, weight: .bold, lineHeight: 76)
+    fillRect(x: 112, y: 385, width: 176, height: 6, color: coral)
+
+    drawText("50 ML / 1.69 FL. OZ.", x: 112, y: 446, width: 700, height: 40, size: 27, weight: .bold)
+    drawText("WOMEN'S LINE", x: 112, y: 512, width: 700, height: 40, size: 27, weight: .bold)
+
+    drawText("VERIFIED DETAILS", x: 112, y: 612, width: 700, height: 30, size: 20, weight: .bold, color: coral)
+    drawText(
+        "CLEAR GLASS BOTTLE\nPALE BLUSH-PEACH LIQUID\nGLOSSY BLACK CAP\nSILVER COLLAR\nWHITE FRONT LABEL\nBLUSH-PEACH CANISTER",
+        x: 112,
+        y: 658,
+        width: 760,
+        height: 360,
+        size: 27,
+        weight: .semibold,
+        lineHeight: 51
+    )
+
+    drawText("PRODUCT CODE", x: 112, y: 1085, width: 270, height: 28, size: 19, weight: .bold, color: coral)
+    drawText("P11038", x: 112, y: 1123, width: 500, height: 48, size: 31, weight: .bold)
+}
+
+try render(base: "09-ingredients-care-base.png", output: "09-ingredients-and-care-infographic.png") {
+    let startX: CGFloat = 1180
+    drawText("AMBER OUD SILK", x: startX, y: 118, width: 740, height: 36, size: 23, weight: .bold, color: coral)
+    drawText("INGREDIENTS", x: startX, y: 176, width: 760, height: 70, size: 52, weight: .bold)
+    fillRect(x: startX, y: 262, width: 176, height: 6, color: coral)
+    drawText("AS PRINTED ON THE PACKAGE", x: startX, y: 298, width: 740, height: 30, size: 18, weight: .bold, color: coral)
+
+    let leftIngredients = "Alcohol\nWater (Aqua)\nFragrance (Parfum)\nPEG-40 Hydrogenated\nCastor Oil\nPropylene Glycol\nLinalool\nLimonene"
+    let rightIngredients = "Citronellol\nEugenol\nCoumarin\nCinnamal\nCitral\nGeraniol"
+    drawText(leftIngredients, x: startX, y: 356, width: 350, height: 500, size: 21, weight: .medium, lineHeight: 47)
+    drawText(rightIngredients, x: 1570, y: 356, width: 350, height: 500, size: 21, weight: .medium, lineHeight: 47)
+
+    fillRect(x: startX, y: 830, width: 750, height: 2, color: NSColor(calibratedWhite: 0.80, alpha: 1))
+    drawText("PACK DETAILS", x: startX, y: 880, width: 700, height: 30, size: 20, weight: .bold, color: coral)
+    drawText(
+        "50 ML / 1.69 FL. OZ.\nPRODUCT CODE  P11038\nBARCODE  5056795407338",
+        x: startX,
+        y: 928,
+        width: 740,
+        height: 190,
+        size: 23,
+        weight: .bold,
+        lineHeight: 49
+    )
+
+    fillRect(x: startX, y: 1178, width: 184, height: 48, color: coral)
+    drawText("FLAMMABLE", x: startX + 17, y: 1187, width: 160, height: 28, size: 17, weight: .bold, color: white)
+    drawText("Keep away from heat and open flame.", x: startX, y: 1260, width: 740, height: 78, size: 22, weight: .semibold, lineHeight: 31)
+}
+
+try render(base: "10-closing-hero-base.png", output: "10-closing-hero.png") {
+    let shadow = NSShadow()
+    shadow.shadowColor = NSColor.black.withAlphaComponent(0.28)
+    shadow.shadowBlurRadius = 11
+    shadow.shadowOffset = NSSize(width: 0, height: -2)
+    drawText("A SCENT\nJOURNEY", x: 92, y: 94, width: 900, height: 190, size: 74, weight: .bold, color: ink, lineHeight: 76, shadow: shadow)
+    drawText("AMBER OUD SILK", x: 96, y: 292, width: 650, height: 38, size: 24, weight: .bold, color: coral, shadow: shadow)
+    fillRect(x: 96, y: 350, width: 154, height: 6, color: coral)
+}
+
+try render(base: "11-scent-description-base.png", output: "11-scent-description-infographic.png") {
+    fillRect(x: 0, y: 0, width: 900, height: 2048, color: cream)
+    fillRect(x: 900, y: 0, width: 18, height: 2048, color: coral)
+
+    drawText("AMBER OUD SILK", x: 112, y: 128, width: 680, height: 36, size: 23, weight: .bold, color: coral)
+    drawText("SCENT\nDESCRIPTION", x: 112, y: 188, width: 680, height: 185, size: 68, weight: .bold, lineHeight: 70)
+    fillRect(x: 112, y: 404, width: 176, height: 6, color: coral)
+
+    drawText("APPROVED SCENT DESCRIPTION", x: 112, y: 480, width: 680, height: 34, size: 19, weight: .bold, color: coral)
+    drawText(
+        "Dark spice and smoke with a warm, addictive edge.",
+        x: 112,
+        y: 554,
+        width: 680,
+        height: 500,
+        size: 52,
+        weight: .semibold,
+        lineHeight: 66
+    )
+
+    drawText("SOURCE", x: 112, y: 1120, width: 220, height: 28, size: 18, weight: .bold, color: coral)
+    drawText("DEARBODY BRAND DEEP DIVE / CANVA", x: 112, y: 1160, width: 650, height: 110, size: 23, weight: .bold, lineHeight: 33)
+}
+
+try render(base: "12-who-it-fits-base.png", output: "12-who-it-fits-infographic.png") {
+    fillRect(x: 0, y: 0, width: 850, height: 2048, color: NSColor(calibratedRed: 0.105, green: 0.022, blue: 0.028, alpha: 0.97))
+    fillRect(x: 850, y: 0, width: 16, height: 2048, color: coralLight)
+
+    drawText("AMBER OUD SILK", x: 92, y: 118, width: 650, height: 36, size: 23, weight: .bold, color: coralLight)
+    drawText("WHO\nIT FITS", x: 92, y: 178, width: 650, height: 190, size: 74, weight: .bold, color: white, lineHeight: 75)
+    fillRect(x: 92, y: 404, width: 176, height: 6, color: coralLight)
+
+    drawText(
+        "For someone drawn to warm depth, smoky spice, and an expressive, addictive edge.",
+        x: 92,
+        y: 492,
+        width: 650,
+        height: 590,
+        size: 42,
+        weight: .semibold,
+        color: white,
+        lineHeight: 55
+    )
+
+    drawText("WARM\nSMOKY\nEXPRESSIVE", x: 92, y: 1175, width: 650, height: 220, size: 27, weight: .bold, color: coralLight, lineHeight: 50)
+}

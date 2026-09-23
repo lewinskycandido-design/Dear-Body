@@ -1,0 +1,98 @@
+{
+  "status": "production_ready_for_verified_physical_details_pending_supplier_scent_confirmation",
+  "sku": "",
+  "productName": "Sunset Cocktail",
+  "category": "Fragrance / perfume; concentration pending confirmation",
+  "volume": "50 ml / 1.69 fl. oz.",
+  "dimensions": {
+    "height": "",
+    "width": "",
+    "depth": "",
+    "unit": ""
+  },
+  "salesChannels": ["Shopify"],
+  "shopify": {
+    "themeName": "",
+    "productGalleryLayout": "10-image square gallery",
+    "featuredImageAspectRatio": "1:1",
+    "productVideoSupported": null
+  },
+  "listingImageCount": 10,
+  "galleryVersion": "recreated-v02",
+  "language": "English",
+  "targetCustomer": "Men; visual styling is informed by Dear Body's broader contemporary 22-35 audience research",
+  "scent": {
+    "family": "Pending supplier confirmation",
+    "topNotes": [],
+    "heartNotes": [],
+    "baseNotes": [],
+    "mood": "Bold, vibrant, playful visual direction; olfactive mood pending supplier confirmation",
+    "occasions": []
+  },
+  "approvedClaims": [
+    "50 ml / 1.69 fl. oz.",
+    "Men's line under the owner's black-label rule",
+    "Glossy black cap with embossed monogram",
+    "Peach-coral cylindrical presentation canister"
+  ],
+  "ingredients": [
+    "Alcohol",
+    "Water (Aqua)",
+    "Fragrance (Parfum)",
+    "PEG-40 Hydrogenated Castor Oil",
+    "Propylene Glycol",
+    "Alpha-Isomethyl Ionone",
+    "Benzyl Salicylate",
+    "Linalool",
+    "Citronellol",
+    "Geraniol",
+    "Limonene",
+    "Eugenol"
+  ],
+  "usageInstructions": "Pending supplier confirmation",
+  "warningsOrLegalCopy": [
+    "Package displays a flammability pictogram",
+    "Gallery care line: Keep away from heat and open flame"
+  ],
+  "packaging": {
+    "outer": "Peach-coral cylindrical canister with black trim and black front label",
+    "bottle": "Clear cylindrical glass with pale peach liquid",
+    "cap": "Glossy black cylindrical cap with embossed monogram",
+    "label": "Black label with white Sunset Cocktail and Parfum London lettering"
+  },
+  "barcode": "5056795407284",
+  "productCode": "P10538",
+  "primaryBackgroundRule": "Clean Dear Body soft cream background, no promotional copy",
+  "modelUsage": {
+    "allowed": true,
+    "assetsAvailable": false,
+    "notes": "Use male-presenting models only for this black-label men's product. Generated lifestyle environments may be used, but the product must remain source-photo accurate."
+  },
+  "productPhotoFiles": {
+    "frontPackaging": "/Users/wetrade/Documents/ChatGPT/Dear Body/handoff/assets/sunset-cocktail-sources/01-sunset-cocktail-packaging-front.jpg",
+    "bottomLabel": "/Users/wetrade/Documents/ChatGPT/Dear Body/handoff/assets/sunset-cocktail-sources/02-sunset-cocktail-packaging-bottom-label.jpg",
+    "backPackaging": "/Users/wetrade/Documents/ChatGPT/Dear Body/handoff/assets/sunset-cocktail-sources/03-sunset-cocktail-packaging-back.jpg",
+    "topPackaging": "/Users/wetrade/Documents/ChatGPT/Dear Body/handoff/assets/sunset-cocktail-sources/04-sunset-cocktail-packaging-top.jpg",
+    "openedPackaging": "/Users/wetrade/Documents/ChatGPT/Dear Body/handoff/assets/sunset-cocktail-sources/05-sunset-cocktail-open-canister-and-bottle.jpg",
+    "bottleFront": "/Users/wetrade/Documents/ChatGPT/Dear Body/handoff/assets/sunset-cocktail-sources/06-sunset-cocktail-bottle-front.jpg",
+    "bottleFrontCleanMaster": "/Users/wetrade/Documents/ChatGPT/Dear Body/handoff/assets/sunset-cocktail-sources/09-sunset-cocktail-bottle-front-clean-reference.png",
+    "bottleTop": "/Users/wetrade/Documents/ChatGPT/Dear Body/handoff/assets/sunset-cocktail-sources/07-sunset-cocktail-cap-top-detail.jpg",
+    "bottleBack": "/Users/wetrade/Documents/ChatGPT/Dear Body/handoff/assets/sunset-cocktail-sources/08-sunset-cocktail-bottle-back.jpg"
+  },
+  "galleryDirectory": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/sunset-cocktail/recreated-v02/final",
+  "creativeNotes": "Rebuilt v02 uses the supplied clean bottle master throughout. Use the publication image for energy, saturation, and product-forward framing only. Do not duplicate its layout. Favor burgundy, red, peach, yellow, cream, black, and selective sky blue or green accents.",
+  "mustInclude": [
+    "Exact supplied bottle and front label wherever the bottle is featured",
+    "Pale peach liquid",
+    "Glossy black embossed cap",
+    "Peach-coral cylindrical canister",
+    "50 ml volume"
+  ],
+  "mustAvoid": [
+    "Unverified fragrance notes or concentration",
+    "Invented longevity, projection, or benefit claims",
+    "Changing the bottle label, liquid color, packaging geometry, or product name",
+    "Female models for this black-label men's product",
+    "Recreating the supplied moodboard layout exactly"
+  ]
+}

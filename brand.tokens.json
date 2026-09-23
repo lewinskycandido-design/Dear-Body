@@ -1,0 +1,75 @@
+{
+  "brand": {
+    "name": "Dear Body",
+    "source": "Canva DEARBODY PLAYBOOK",
+    "analyzedAt": "2026-09-22",
+    "tagline": "A Scent Journey",
+    "positioning": "London-formulated fragrance culture curated for the Filipino lifestyle: premium, warm, vibrant, playful, and approachable."
+  },
+  "colors": {
+    "burgundy": "#5c0006",
+    "red": "#9a1106",
+    "orange": "#d46601",
+    "goldTan": "#e9a250",
+    "cream": "#f4e3cb"
+  },
+  "typography": {
+    "display": {
+      "name": "Cenzo Flare Bold",
+      "fallback": ["Helvetica Neue", "Arial", "sans-serif"],
+      "usage": "Hero headings, campaign titles, major brand statements"
+    },
+    "body": {
+      "name": "Helvetica Now Display",
+      "fallback": ["Helvetica Neue", "Arial", "sans-serif"],
+      "usage": "Subheads, body copy, UI labels, captions"
+    }
+  },
+  "logos": {
+    "primary": "DEAR BODY wordmark",
+    "secondary": "Circular monogram mark"
+  },
+  "visualStyle": {
+    "keywords": [
+      "warm",
+      "vibrant",
+      "fragrance-led",
+      "premium",
+      "approachable",
+      "playful",
+      "Filipino lifestyle",
+      "London-formulated"
+    ],
+    "use": [
+      "Warm-toned product photography",
+      "Lifestyle moments with authentic Filipino context",
+      "Rich burgundy and red backgrounds",
+      "Cream contrast instead of stark white",
+      "Short sensory copy",
+      "Product-forward social and publication layouts"
+    ],
+    "avoid": [
+      "Cold clinical palettes",
+      "Generic luxury minimalism",
+      "Overcrowded copy",
+      "Cool blue-led visuals",
+      "Busy backgrounds behind logos"
+    ]
+  },
+  "motion": {
+    "format": "Vertical, social-first short-form video",
+    "pace": "Quick, loop-friendly, and easy to understand without exposition",
+    "composition": [
+      "Centered product or person",
+      "Tight ritual close-ups",
+      "Graphic top-down lifestyle scenes",
+      "Playful sensory product tableaux"
+    ],
+    "subjects": [
+      "Everyday beauty and fragrance rituals",
+      "Getting-ready and commuting moments",
+      "Relaxed personal spaces with music and movement",
+      "Contemporary Filipino lifestyle context"
+    ]
+  }
+}

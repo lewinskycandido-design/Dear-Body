@@ -1,0 +1,74 @@
+{
+  "status": "provisional_pending_correct_citrus_wish_packaging_and_supplier_confirmation",
+  "sku": "",
+  "productName": "Citrus Wish",
+  "category": "Eau de Parfum",
+  "volume": "50 ml / 1.69 fl. oz.",
+  "dimensions": {
+    "height": "",
+    "width": "",
+    "depth": "",
+    "unit": ""
+  },
+  "salesChannels": ["Shopify"],
+  "shopify": {
+    "themeName": "",
+    "productGalleryLayout": "",
+    "featuredImageAspectRatio": "1:1",
+    "productVideoSupported": null
+  },
+  "listingImageCount": 8,
+  "language": "English",
+  "targetCustomer": "Pending confirmation",
+  "scent": {
+    "family": "Pending confirmation",
+    "topNotes": [],
+    "heartNotes": [],
+    "baseNotes": [],
+    "mood": "Bright and playful visual direction; olfactive mood pending confirmation",
+    "occasions": []
+  },
+  "approvedClaims": [],
+  "ingredients": [],
+  "usageInstructions": "Pending supplier confirmation",
+  "warningsOrLegalCopy": [],
+  "packaging": {
+    "outer": "Cylindrical tin canister with vivid yellow paper wrap",
+    "topAndBottom": "Smooth leather-like finish",
+    "bottle": "Clear cylindrical glass with golden-yellow liquid",
+    "cap": "Glossy black embossed magnetic cap",
+    "label": "Black label with white lettering"
+  },
+  "barcode": "Pending correct Citrus Wish packaging",
+  "productCode": "Pending correct Citrus Wish packaging",
+  "manufacturerAddress": "Pending correct Citrus Wish packaging",
+  "primaryBackgroundRule": "Clean Dear Body soft cream background, no promotional copy",
+  "modelUsage": {
+    "allowed": null,
+    "assetsAvailable": null,
+    "notes": ""
+  },
+  "productPhotoFiles": {
+    "frontPackaging": "/Users/wetrade/Downloads/Citrus Wish Product Photos/01-citrus-wish-packaging-front.jpg",
+    "bottomLabel": "/Users/wetrade/Downloads/Citrus Wish Product Photos/02-citrus-wish-packaging-bottom-label.jpg",
+    "openedPackaging": "/Users/wetrade/Downloads/Citrus Wish Product Photos/03-citrus-wish-unboxing-open-canister.jpg",
+    "bottleFront": "/Users/wetrade/Downloads/Citrus Wish Product Photos/04-citrus-wish-bottle-front.jpg",
+    "bottleBack": "/Users/wetrade/Downloads/Citrus Wish Product Photos/05-citrus-wish-bottle-back.jpg",
+    "bottleTop": "/Users/wetrade/Downloads/Citrus Wish Product Photos/06-citrus-wish-cap-top-detail.jpg",
+    "detail": []
+  },
+  "creativeNotes": "Use bright citrus-inspired color language without naming specific fragrance notes until the official Citrus Wish note pyramid is supplied. Ignore all Mojito Metallique product-specific information.",
+  "mustInclude": [
+    "Exact supplied product shape and label",
+    "Golden-yellow liquid",
+    "Magnetic cap",
+    "Yellow cylindrical canister",
+    "50 ml volume"
+  ],
+  "mustAvoid": [
+    "Unverified fragrance-note claims",
+    "Any Mojito Metallique product details",
+    "Invented longevity or oil concentration claims",
+    "Changing the product label or packaging geometry"
+  ]
+}

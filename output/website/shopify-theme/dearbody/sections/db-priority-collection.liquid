@@ -1,0 +1,13 @@
+<section class="db-priority db-section db-container" id="collection-{{ section.id }}" aria-labelledby="collection-title-{{ section.id }}">
+  {% render 'db-memphis-motif', shape: 'zigzag' %}
+  <div class="db-section-heading"><div><p class="db-kicker">{{ section.settings.eyebrow | escape }}</p><h2 id="collection-title-{{ section.id }}">{{ section.settings.heading | escape }}</h2></div><a class="db-text-link" href="{{ routes.all_products_collection_url }}">View all fragrances <span aria-hidden="true">↗</span></a></div>
+  <div class="db-product-grid">{% for block in section.blocks %}{% liquid
+    assign selected_product = block.settings.product
+    if selected_product == blank and block.settings.handle != blank
+      assign selected_product = all_products[block.settings.handle]
+    endif
+  %}<div {{ block.shopify_attributes }}>{% render 'db-product-card', product: selected_product, fallback_name: block.settings.name, fallback_image: block.settings.image_file %}</div>{% endfor %}</div>
+</section>
+{% schema %}
+{"name":"DearBody priority scents","max_blocks":12,"settings":[{"type":"text","id":"eyebrow","label":"Eyebrow","default":"THE COLLECTION"},{"type":"text","id":"heading","label":"Heading","default":"MEET YOUR NEXT SCENT."}],"blocks":[{"type":"scent","name":"Priority scent","settings":[{"type":"product","id":"product","label":"Shopify product"},{"type":"text","id":"handle","label":"Fallback product handle"},{"type":"text","id":"name","label":"Name before product is ready"},{"type":"text","id":"image_file","label":"Bundled image filename"}]}],"presets":[{"name":"DearBody priority scents","blocks":[{"type":"scent","settings":{"name":"Mojito Metallique","handle":"mojito-metallique","image_file":"db-mojito-metallique.jpg"}},{"type":"scent","settings":{"name":"Amber Oud Silk","handle":"amber-oud-silk","image_file":"db-amber-oud-silk.jpg"}},{"type":"scent","settings":{"name":"Mistened Narcissus","handle":"mistened-narcissus","image_file":"db-mistened-narcissus.jpg"}},{"type":"scent","settings":{"name":"Oud Mirage","handle":"oud-mirage","image_file":"db-oud-mirage.jpg"}},{"type":"scent","settings":{"name":"Charme Envoûtant","handle":"charme-envoutant","image_file":"db-charme-envoutant.jpg"}},{"type":"scent","settings":{"name":"Rtulle & Satin","handle":"rtulle-and-satin","image_file":"db-rtulle-and-satin.jpg"}}]}]}
+{% endschema %}

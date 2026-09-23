@@ -1,0 +1,28 @@
+{
+  "asset": "For Her lifestyle trio",
+  "master": "output/website/refined-reference-images/for-her-v1.png",
+  "web": "output/website/shopify-theme/dearbody/assets/db-lifestyle-for-her.jpg",
+  "mode": "Built-in image_gen",
+  "intent": "New image generated using raw photos as identity references only",
+  "prompt": "Use case: product-mockup.\nAsset type: square 1:1 premium but approachable DearBody Philippines website collection photograph, high-resolution final commercial photography.\nPrimary request: Generate a NEW polished photograph of the three women's priority fragrances displayed as a collection in a real, warm, airy home. The two reference images are IDENTITY REFERENCES ONLY, not backgrounds to reproduce.\nImage 1 (IMG_20260923_163311.jpg): exact bottle silhouettes, relative proportions, ivory labels, scent names, glossy black cylinder caps, thin silver collars, glass bases, actual monogram and PARFUM / LONDON label logo.\nImage 2 (IMG_20260923_162432.jpg): confirms bottle colors and packaging identity; do not reproduce the office scene.\n\nScene/backdrop: a contemporary cream stone vanity in a sunny home. Place a small shallow burgundy lacquer tray on the vanity. A softly folded cream linen cloth rests beside and partly under the tray; warm wood edge and softly blurred cream plaster wall beyond. Warm gentle window light, serene everyday warmth, approachable and light, subtly joyful through rich color and tactile material.\nSubject and composition: exactly THREE physical perfume bottles, all upright and capped, displayed on the tray with subtle natural spacing in a loose shallow arc. Each bottle is equally prominent and the SAME real-world size. Show each entire bottle and cap with breathing room. Photograph from near bottle level, slight elevated angle, natural 70mm product-photo perspective, all three front labels crisply in focus. No bottle blocking another label. Arrange left to right MOJITO METALLIQUE, AMBER OUD SILK, MISTENED NARCISSUS. The grouping occupies about 70% of the square frame width and 55% of its height. Do not place them on artificial tall podiums. No boxes or canisters, just the bottles and restrained home materials.\nProduct fidelity: these are clear cylindrical glass perfume bottles with gently rounded shoulders, tall glossy BLACK CYLINDRICAL caps, very thin SILVER collars below caps, clear thick glass bases. Never rectangular bottles, never faceted caps, never gold caps. Ivory rectangular paper labels with black uppercase serif scent names. Use reference bottle proportions exactly. Mojito has transparent golden amber liquid; Amber Oud Silk has transparent very pale peach/champagne liquid; Mistened Narcissus is nearly clear with a very slight lilac tint. Natural honest glass transparency, highlights and reflections; physically believable shadows.\n\nExact label text, large name above small logo:\nLeft bottle: \"MOJITO\" then \"METALLIQUE\".\nMiddle bottle: \"AMBER OUD\" then \"SILK\".\nRight bottle: \"MISTENED\" then \"NARCISSUS\".\nBottom of each label: reproduce the small actual linked monogram from the reference followed by \"PARFUM\" with \"LONDON\" on a smaller line under it between fine horizontal rules. Keep the actual photographed label branding, do NOT replace it with DEAR BODY. Match the references closely. Text must be spelled exactly, not invented or abbreviated.\nPalette around products: soft cream #f4e3cb, deep burgundy #5c0006 tray, subtle golden tan #e9a250 light/wood. Real product liquid colors stay faithful. Balanced exposure with beautiful soft natural light, no harsh spotlight or gloomy shadows.\nAvoid: extra bottles, other scents, overlaid headlines, buttons, floating logos, any promotional copy outside labels, watermark, computers, televisions, desks, office clutter, velvet pillow, people, hands, flowers, fruit, jewelry, bathroom clutter, theatrical smoke, glossy 3D-render look, excessive haze, distorted letters, cap geometry changes.\nSquare 1:1 output. Photorealistic, refined, tactile, ready for a fragrance ecommerce website.",
+  "references": [
+    "/Users/wetrade/Downloads/IMG_20260923_163311.jpg",
+    "/Users/wetrade/Downloads/IMG_20260923_162432.jpg"
+  ],
+  "qa": {
+    "inspected": true,
+    "verdict": "Selected for website use",
+    "checks": [
+      "Exactly three women's priority bottles, no extra scents",
+      "Correct readable scent names: MOJITO METALLIQUE, AMBER OUD SILK, MISTENED NARCISSUS",
+      "Ivory labels; actual PARFUM / LONDON and linked monogram retained rather than replacing with DearBody",
+      "Round clear glass bottles, black cylindrical caps, thin silver collars and differentiated liquids",
+      "Warm cream vanity, burgundy tray and cream linen; all three products unobstructed and equally prominent",
+      "No copy overlay, office or raw-reference background"
+    ],
+    "limits": [
+      "AI-generated product depiction, not an exact photographic composite; fine monogram and glass details may vary slightly from source.",
+      "Soft-focus decor includes a vase/greenery and mirror outside the product area."
+    ]
+  }
+}

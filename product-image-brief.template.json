@@ -1,0 +1,55 @@
+{
+  "sku": "",
+  "productName": "",
+  "variantName": "",
+  "category": "",
+  "volume": "",
+  "dimensions": {
+    "height": "",
+    "width": "",
+    "depth": "",
+    "unit": ""
+  },
+  "salesChannels": ["Shopify"],
+  "shopify": {
+    "themeName": "",
+    "productGalleryLayout": "",
+    "featuredImageAspectRatio": "1:1",
+    "productVideoSupported": null
+  },
+  "listingImageCount": 8,
+  "language": "English",
+  "targetCustomer": "",
+  "scent": {
+    "family": "",
+    "topNotes": [],
+    "heartNotes": [],
+    "baseNotes": [],
+    "mood": "",
+    "occasions": []
+  },
+  "approvedClaims": [],
+  "ingredients": [],
+  "usageInstructions": "",
+  "warningsOrLegalCopy": [],
+  "bundleContents": [],
+  "primaryBackgroundRule": "Clean Dear Body soft cream background, no promotional copy; pure-white alternate if requested",
+  "modelUsage": {
+    "allowed": null,
+    "assetsAvailable": null,
+    "notes": ""
+  },
+  "productPhotoFiles": {
+    "front": "",
+    "back": "",
+    "left": "",
+    "right": "",
+    "top": "",
+    "bottom": "",
+    "box": "",
+    "detail": []
+  },
+  "creativeNotes": "",
+  "mustInclude": [],
+  "mustAvoid": []
+}

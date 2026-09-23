@@ -1,0 +1,34 @@
+{
+  "role": "Contact page top banner photograph",
+  "mode": "built-in image_gen",
+  "use_case": "photorealistic-natural",
+  "prompt": "Use case: photorealistic-natural.\nAsset type: a wide landscape 3:2 photograph for the contact page banner of the DearBody fragrance website, target 1536x1024.\nPrimary request: Create an inviting home correspondence corner in a warm, fun, light, premium but approachable style. This single finished photo will sit beside a live LET'S TALK heading, so include no overlay text.\nScene: sunlit cream plaster wall and warm walnut table in a stylish contemporary home. A softly sculptural vintage cream telephone has a deep burgundy handset correctly seated on its cradle and a matching burgundy coiled cord, shown at a natural three-quarter angle. Its understated dial or buttons have no legible letters or numbers. Beside it lie one blank cream note card, a slim warm-metal pen resting diagonally on the card, and a small closed burgundy notebook without any writing. Farther back is one restrained burnt-orange curved ceramic home accessory, softly out of focus.\nComposition: landscape 3:2, editorial still life, all main objects fully contained with comfortable margins, telephone as the focal point, layered table depth, subtle geometric window light and shadow on the cream wall. Intimate home scale, uncluttered and polished, a small playful geometry detail without looking like a shop or office. Products not needed.\nLight and materials: bright warm daylight with soft fill, tactile cream plaster, natural wood grain, realistic glossy telephone enamel, precise coil geometry, gentle warm metal pen highlights, inviting controlled color and crisp natural textures.\nBrand palette dominates: deep burgundy #5c0006, rich red #9a1106, burnt orange #d46601, golden tan #e9a250, soft cream #f4e3cb.\nConstraints: No people, hands, faces, face reflections, perfume bottles, computer or office equipment. No words, lettering, address, phone number, logos, badges, watermark, headline, border, UI or copy overlay anywhere. The note card must be completely blank. No dark, sterile or brooding mood. Photorealistic premium commercial interior editorial image, not an illustration, not a collage.",
+  "references": [],
+  "generation_source": "/Users/wetrade/.codex/generated_images/01a0cebc-6fcd-76f2-b47a-e624ba485af1/exec-7a081912-728a-4d35-bb20-038dd0405294.png",
+  "master": "output/website/nav-banner-images/contact-v1.png",
+  "web_export": "output/website/shopify-theme/dearbody/assets/db-banner-contact.jpg",
+  "qa": {
+    "inspected": "Generated master displayed inline at native dimensions; final 1536x1024 JPEG reopened and visually checked",
+    "result": "PASS for Contact page editorial use",
+    "checks": [
+      "Cream vintage telephone, burgundy handset and coiled cord fully framed",
+      "Completely blank cream note card, warm-metal pen, closed burgundy notebook",
+      "Warm walnut surface, cream plaster wall, sunny geometric shadows and burnt-orange arch ceramic",
+      "Warm, fun and light commercial photograph with approachable home character",
+      "No people, faces, perfume bottles, computer, office equipment or watermark",
+      "No legible words, telephone number, address, logo or copy overlay",
+      "Main objects fit comfortably within landscape composition"
+    ],
+    "notes": "Generated scene includes small supporting flowers and ceramics at the margins. These are home decoration on a contact page, not a fragrance-note claim. Telephone is a stylized prop; no working telephone or actual contact number is depicted."
+  },
+  "export": {
+    "tool": "sips",
+    "format": "JPEG",
+    "quality": 90,
+    "longest_edge": 1536,
+    "master_dimensions": [1536, 1024],
+    "web_dimensions": [1536, 1024],
+    "master_sha256": "2acd1005985f4e33e8af52352c8e5042a75532757503a9977bdf459f68069d52",
+    "web_sha256": "61dad5b802c722cf8310c9377d8ba3b8c8404ab26e5e84a94f46a909fd8f7d58"
+  }
+}

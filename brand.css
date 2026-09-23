@@ -1,0 +1,50 @@
+:root {
+  --db-burgundy: #5c0006;
+  --db-red: #9a1106;
+  --db-orange: #d46601;
+  --db-gold-tan: #e9a250;
+  --db-cream: #f4e3cb;
+
+  --db-color-background: var(--db-cream);
+  --db-color-surface: #fff8ef;
+  --db-color-text: var(--db-burgundy);
+  --db-color-heading: var(--db-red);
+  --db-color-accent: var(--db-orange);
+
+  --db-font-display: "Cenzo Flare Bold", Georgia, "Cormorant Garamond", serif;
+  --db-font-body: "Helvetica Now Display", "Helvetica Neue", Arial, sans-serif;
+}
+
+body {
+  background: var(--db-color-background);
+  color: var(--db-color-text);
+  font-family: var(--db-font-body);
+}
+
+h1,
+h2,
+h3,
+.db-display {
+  color: var(--db-color-heading);
+  font-family: var(--db-font-display);
+  font-weight: 700;
+  letter-spacing: 0;
+  text-transform: uppercase;
+}
+
+.db-button {
+  background: var(--db-red);
+  color: var(--db-cream);
+  font-family: var(--db-font-body);
+}
+
+.db-panel-dark {
+  background: var(--db-burgundy);
+  color: var(--db-cream);
+}
+
+.db-panel-warm {
+  background: var(--db-gold-tan);
+  color: var(--db-burgundy);
+}
+

@@ -1,0 +1,9 @@
+{% capture banner_title %}FROM LONDON,
+WITH FEELING.{% endcapture %}
+{% liquid
+  assign banner_title = section.settings.banner_heading | default: banner_title
+  assign banner_kicker = section.settings.banner_kicker | default: 'OUR STORY'
+  assign banner_text = section.settings.banner_text | default: 'London-formulated fragrances, curated for everyday Filipino life.'
+%}
+{% render 'db-page-banner', title: banner_title, kicker: banner_kicker, text: banner_text, variant: 'story', image: section.settings.banner_image, asset: 'db-banner-story.jpg', image_alt: 'DearBody fragrances in a warm, sunlit home setting', width: 1536, height: 1024, section_id: section.id, root_url: routes.root_url %}
+<section class="db-container db-section db-about"><div class="db-about-grid"><div><h2 class="db-lead">We believe scent should feel personal, not precious.</h2><div class="db-richtext">{% if page.content != blank %}{{ page.content }}{% else %}<p>Dear Body brings London's fragrance culture into everyday Filipino life. Our fragrances are London-formulated and curated for the way you live here.</p><p>Warm, vibrant, and full of personality, each fragrance is a small daily ritual that says something about who you are.</p><p>This is a scent journey. Start wherever you like.</p>{% endif %}</div><a class="db-button" href="{{ routes.all_products_collection_url }}">Explore the collection <span aria-hidden="true">↗</span></a></div><img src="{{ 'db-hero-mobile.jpg' | asset_url }}" width="1122" height="1402" alt="The DearBody collection displayed in a welcoming home" loading="lazy"></div></section>

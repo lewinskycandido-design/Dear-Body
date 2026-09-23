@@ -1,0 +1,739 @@
+{
+  "store": "erkayx-xy",
+  "preparedAt": "2026-09-23",
+  "sourceLedger": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/SCENT_DESCRIPTION_SOURCE_LEDGER.md",
+  "featuredImageOrder": 1,
+  "status": "All six products saved as DRAFT. Seventy images and all seventy alt texts saved; packshots first, sequence verified, no unsaved changes. Mistened frames11–12 excluded pending source-copy correction.",
+  "productCount": 6,
+  "uploadableImageCount": 70,
+  "checksumVerification": [
+    {
+      "slug": "rtulle-and-satin",
+      "lockedFilesVerified": 12,
+      "result": "pass"
+    },
+    {
+      "slug": "oud-mirage",
+      "lockedFilesVerified": 12,
+      "result": "pass"
+    },
+    {
+      "slug": "midnight-elixir",
+      "lockedFilesVerified": 12,
+      "result": "pass"
+    },
+    {
+      "slug": "amber-oud-silk",
+      "lockedFilesVerified": 12,
+      "result": "pass"
+    },
+    {
+      "slug": "mistened-narcissus",
+      "lockedFilesVerified": 12,
+      "result": "pass"
+    },
+    {
+      "slug": "mojito-metallique",
+      "lockedFilesVerified": 12,
+      "result": "pass"
+    }
+  ],
+  "products": [
+    {
+      "title": "Rtulle & Satin",
+      "slug": "rtulle-and-satin",
+      "handle": "rtulle-and-satin",
+      "status": "DRAFT",
+      "descriptionHtml": "<p>Airy sweetness with a warm, glowing trail.</p><p>Rtulle &amp; Satin is a 50 ml fragrance from the men’s line, presented in a clear cylindrical glass bottle with vivid turquoise liquid, a glossy black cap and silver collar, and a turquoise cylindrical presentation canister.</p><p><strong>Size:</strong> 50 ml / 1.69 fl. oz.</p><p><strong>Ingredients:</strong> Alcohol; Water (Aqua); Fragrance (Parfum); PEG-40 Hydrogenated Castor Oil; Propylene Glycol; Linalool; Alpha-Isomethyl Ionone; Citronellol; Geraniol; Coumarin; Benzyl Benzoate; Benzyl Alcohol; Limonene; Citral; Eugenol.</p><p><strong>Care:</strong> Flammable; keep away from heat and open flame.</p>",
+      "descriptionText": "Airy sweetness with a warm, glowing trail.\n\nRtulle & Satin is a 50 ml fragrance from the men’s line, presented in a clear cylindrical glass bottle with vivid turquoise liquid, a glossy black cap and silver collar, and a turquoise cylindrical presentation canister.\n\nSize: 50 ml / 1.69 fl. oz.\n\nIngredients: Alcohol; Water (Aqua); Fragrance (Parfum); PEG-40 Hydrogenated Castor Oil; Propylene Glycol; Linalool; Alpha-Isomethyl Ionone; Citronellol; Geraniol; Coumarin; Benzyl Benzoate; Benzyl Alcohol; Limonene; Citral; Eugenol.\n\nCare: Flammable; keep away from heat and open flame.",
+      "vendor": "DearBody",
+      "productType": "Fragrance",
+      "productCode": "P10038",
+      "barcode": "5056795407239",
+      "size": "50 ml / 1.69 fl. oz.",
+      "line": "Men’s line",
+      "ingredients": [
+        "Alcohol",
+        "Water (Aqua)",
+        "Fragrance (Parfum)",
+        "PEG-40 Hydrogenated Castor Oil",
+        "Propylene Glycol",
+        "Linalool",
+        "Alpha-Isomethyl Ionone",
+        "Citronellol",
+        "Geraniol",
+        "Coumarin",
+        "Benzyl Benzoate",
+        "Benzyl Alcohol",
+        "Limonene",
+        "Citral",
+        "Eugenol"
+      ],
+      "approvedScentDescription": "Airy sweetness with a warm, glowing trail.",
+      "scentDescriptionSource": "Canva `DAHIB2UjgJM`, Dear Body Brand Deep Dive, page 4",
+      "factsSources": [
+        "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/rtulle-and-satin/generated-v01/QA-REPORT.md",
+        "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/rtulle-and-satin/generated-v01/typeset.swift"
+      ],
+      "images": [
+        {
+          "order": 1,
+          "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/rtulle-and-satin/generated-v01/final/01-featured-packshot.png",
+          "alt": "Rtulle & Satin 50 ml fragrance bottle and turquoise presentation canister",
+          "sha256": "dce23b1a708c038d090cdb43eb4adfb05fe872ed69124f161edf580ea55a3c01"
+        },
+        {
+          "order": 2,
+          "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/rtulle-and-satin/generated-v01/final/02-brand-hero.png",
+          "alt": "Rtulle & Satin bottle and turquoise canister in a bright architectural setting",
+          "sha256": "1bebe74baa7ce20a0637b8ff9fa43fe89408dc507ebd3dd8713082a888f1676b"
+        },
+        {
+          "order": 3,
+          "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/rtulle-and-satin/generated-v01/final/03-packaging-reveal.png",
+          "alt": "Rtulle & Satin bottle seated in the short canister base beside the tall removable upper section",
+          "sha256": "310da1d08c9900ef86735272d2bcad83deeca57e41a78037505c828596878080"
+        },
+        {
+          "order": 4,
+          "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/rtulle-and-satin/generated-v01/final/04-material-cap-detail.png",
+          "alt": "Close-up of the Rtulle & Satin embossed cap, silver collar, glass bottle and canister",
+          "sha256": "38188cfa8df8c30af83f0818711d128c57a4f8ad6ad669e2b6e2620dcbb4d7f8"
+        },
+        {
+          "order": 5,
+          "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/rtulle-and-satin/generated-v01/final/05-fashion-atelier-lifestyle.png",
+          "alt": "Man carrying Rtulle & Satin through a fashion atelier courtyard",
+          "sha256": "1dabd02e93c4280ee33713debf0bf1ce1d6d4c616b51c133e5ad127f92c19562"
+        },
+        {
+          "order": 6,
+          "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/rtulle-and-satin/generated-v01/final/06-tailoring-handheld.png",
+          "alt": "Rtulle & Satin bottle held over a tailoring table",
+          "sha256": "56a8d5b245ca060282a150759d0b65d077a0f9948f68c1dc99042f9df94ad6d7"
+        },
+        {
+          "order": 7,
+          "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/rtulle-and-satin/generated-v01/final/07-creative-studio-social.png",
+          "alt": "Three men in a creative studio with one Rtulle & Satin bottle",
+          "sha256": "a8eb259977a860d032129cb13a81f17d38baf42e04bfb8040bbbcea59928412c"
+        },
+        {
+          "order": 8,
+          "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/rtulle-and-satin/generated-v01/final/08-product-profile-infographic.png",
+          "alt": "Rtulle & Satin product profile: 50 ml / 1.69 fl. oz., product code P10038",
+          "sha256": "b162dde86889757d26c988656a9d5604459dc0f98735fd04ba94cc49c759a09f"
+        },
+        {
+          "order": 9,
+          "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/rtulle-and-satin/generated-v01/final/09-ingredients-and-care-infographic.png",
+          "alt": "Rtulle & Satin printed ingredients, barcode 5056795407239 and flammable care information",
+          "sha256": "deac16f2a12cc0bca305f445c822e12acd7285d0622a11e3179ced5ba9794958"
+        },
+        {
+          "order": 10,
+          "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/rtulle-and-satin/generated-v01/final/10-closing-hero.png",
+          "alt": "Rtulle & Satin bottle and canister with the headline A Scent Journey",
+          "sha256": "84938e9c326ec2698a67307bd7515e444b5c175da11d2496433db6848d0c55c8"
+        },
+        {
+          "order": 11,
+          "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/rtulle-and-satin/generated-v01/final/11-scent-description-infographic.png",
+          "alt": "Rtulle & Satin scent description: Airy sweetness with a warm, glowing trail.",
+          "sha256": "0e4e2e9a8f12f6282b8e36bc45afa70f3e04ae354a7616472ff3be42c594bb2e"
+        },
+        {
+          "order": 12,
+          "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/rtulle-and-satin/generated-v01/final/12-who-it-fits-infographic.png",
+          "alt": "Rtulle & Satin person-fit guide: For someone drawn to lightness, warm detail, and an easy, expressive sense of style.",
+          "sha256": "e820a26e1e6eedc026561e130cda20ff306ace03c871b647a219eab557448dda"
+        }
+      ],
+      "excludedImages": [],
+      "pending": [],
+      "price": null,
+      "inventoryQuantity": null,
+      "shopifyProductId": "10314853449793",
+      "savedMediaCount": 12,
+      "altTextsSaved": 12,
+      "shopifyStatusVerified": "DRAFT"
+    },
+    {
+      "title": "Oud Mirage",
+      "slug": "oud-mirage",
+      "handle": "oud-mirage",
+      "status": "DRAFT",
+      "descriptionHtml": "<p>Dark rose wrapped in smoky, woody depth.</p><p>Oud Mirage is a 50 ml fragrance from the men’s line, presented in a clear cylindrical glass bottle with vivid blue liquid, a glossy black cap and silver collar, and a blue cylindrical presentation canister.</p><p><strong>Size:</strong> 50 ml / 1.69 fl. oz.</p><p><strong>Ingredients:</strong> Alcohol; Water (Aqua); Fragrance (Parfum); PEG-40 Hydrogenated Castor Oil; Propylene Glycol; Benzyl Salicylate; Linalool; Benzyl Benzoate; Citronellol; Geraniol; Coumarin; Benzyl Alcohol; Limonene.</p><p><strong>Care:</strong> Flammable; keep away from heat and open flame.</p>",
+      "descriptionText": "Dark rose wrapped in smoky, woody depth.\n\nOud Mirage is a 50 ml fragrance from the men’s line, presented in a clear cylindrical glass bottle with vivid blue liquid, a glossy black cap and silver collar, and a blue cylindrical presentation canister.\n\nSize: 50 ml / 1.69 fl. oz.\n\nIngredients: Alcohol; Water (Aqua); Fragrance (Parfum); PEG-40 Hydrogenated Castor Oil; Propylene Glycol; Benzyl Salicylate; Linalool; Benzyl Benzoate; Citronellol; Geraniol; Coumarin; Benzyl Alcohol; Limonene.\n\nCare: Flammable; keep away from heat and open flame.",
+      "vendor": "DearBody",
+      "productType": "Fragrance",
+      "productCode": "P10238",
+      "barcode": "5056795407253",
+      "size": "50 ml / 1.69 fl. oz.",
+      "line": "Men’s line",
+      "ingredients": [
+        "Alcohol",
+        "Water (Aqua)",
+        "Fragrance (Parfum)",
+        "PEG-40 Hydrogenated Castor Oil",
+        "Propylene Glycol",
+        "Benzyl Salicylate",
+        "Linalool",
+        "Benzyl Benzoate",
+        "Citronellol",
+        "Geraniol",
+        "Coumarin",
+        "Benzyl Alcohol",
+        "Limonene"
+      ],
+      "approvedScentDescription": "Dark rose wrapped in smoky, woody depth.",
+      "scentDescriptionSource": "Canva `DAHIB2UjgJM`, Dear Body Brand Deep Dive, page 4",
+      "factsSources": [
+        "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/oud-mirage/generated-v01/QA-REPORT.md",
+        "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/oud-mirage/generated-v01/typeset.swift"
+      ],
+      "images": [
+        {
+          "order": 1,
+          "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/oud-mirage/generated-v01/final/01-featured-packshot.png",
+          "alt": "Oud Mirage 50 ml fragrance bottle and blue presentation canister",
+          "sha256": "4e67cd95035aa7d75cb29c24ac5f9bad6605e7526155feba93c2548e5aeed04e"
+        },
+        {
+          "order": 2,
+          "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/oud-mirage/generated-v01/final/02-brand-hero.png",
+          "alt": "Oud Mirage bottle and blue canister in a bright architectural setting",
+          "sha256": "d29fb241f0d06af029bf299bd8c7eafaf2565715e951d2d2ec1fbcae02f8a9a1"
+        },
+        {
+          "order": 3,
+          "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/oud-mirage/generated-v01/final/03-packaging-reveal.png",
+          "alt": "Oud Mirage bottle seated in the short canister base beside the tall removable upper section",
+          "sha256": "76b6769810261b120bd06d425f711649a964e249bc5edb58174f16e96ca0b1f7"
+        },
+        {
+          "order": 4,
+          "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/oud-mirage/generated-v01/final/04-material-cap-detail.png",
+          "alt": "Close-up of the Oud Mirage embossed cap, silver collar, glass bottle and canister",
+          "sha256": "38f1bcc3b9c857036a8f75102e7dcb6fb447fb7802a94f1b18eb615d1501dd02"
+        },
+        {
+          "order": 5,
+          "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/oud-mirage/generated-v01/final/05-architect-plaza-lifestyle.png",
+          "alt": "Man holding Oud Mirage in a bright architectural plaza",
+          "sha256": "c8042f046a675a19f45e39235a59df34016d790a61e20db372e07b129592cd1a"
+        },
+        {
+          "order": 6,
+          "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/oud-mirage/generated-v01/final/06-drafting-table-handheld.png",
+          "alt": "Oud Mirage bottle held over an architectural drafting table",
+          "sha256": "a3663825735332aaff3453ab41fb9512f26447c7c7e005cff7520350f2baa12d"
+        },
+        {
+          "order": 7,
+          "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/oud-mirage/generated-v01/final/07-model-studio-social.png",
+          "alt": "Three men working on a scale model with one Oud Mirage bottle",
+          "sha256": "0e39b6f1ee21abe7ad94c23b32a3a4b85ab1bc3e32cb70af1f8dc300bc6eaa9a"
+        },
+        {
+          "order": 8,
+          "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/oud-mirage/generated-v01/final/08-product-profile-infographic.png",
+          "alt": "Oud Mirage product profile: 50 ml / 1.69 fl. oz., product code P10238",
+          "sha256": "f5d920d2fc0f527b0c9463acae98f5f7707db2ff1f65b1ab7ded60d8eb48202e"
+        },
+        {
+          "order": 9,
+          "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/oud-mirage/generated-v01/final/09-ingredients-and-care-infographic.png",
+          "alt": "Oud Mirage printed ingredients, barcode 5056795407253 and flammable care information",
+          "sha256": "800de5d0583156c932171c1994364a22dec1354cb06db67c564344dca0922a4f"
+        },
+        {
+          "order": 10,
+          "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/oud-mirage/generated-v01/final/10-closing-hero.png",
+          "alt": "Oud Mirage bottle and canister with the headline A Scent Journey",
+          "sha256": "7bd56b6db4ffda8a923d1cad7d6ea984383a9581b74e0d1d64dee01b1875eddf"
+        },
+        {
+          "order": 11,
+          "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/oud-mirage/generated-v01/final/11-scent-description-infographic.png",
+          "alt": "Oud Mirage scent description: Dark rose wrapped in smoky, woody depth.",
+          "sha256": "98e95430b411b33266aeafda9e091110bddab89e3ab6c0aab505a73cf1726671"
+        },
+        {
+          "order": 12,
+          "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/oud-mirage/generated-v01/final/12-who-it-fits-infographic.png",
+          "alt": "Oud Mirage person-fit guide: For someone drawn to expressive style, deep contrasts, and a quietly bold presence.",
+          "sha256": "a240f04178e140b89b88076eaff46d4043879314230db09b1a1554909f877068"
+        }
+      ],
+      "excludedImages": [],
+      "pending": [],
+      "price": null,
+      "inventoryQuantity": null,
+      "shopifyProductId": "10314853515329",
+      "savedMediaCount": 12,
+      "altTextsSaved": 12,
+      "shopifyStatusVerified": "DRAFT"
+    },
+    {
+      "title": "Midnight Elixir",
+      "slug": "midnight-elixir",
+      "handle": "midnight-elixir",
+      "status": "DRAFT",
+      "descriptionHtml": "<p>Midnight Elixir is fresh, powerful, and sophisticated, with a refined trail that moves naturally from sparkling citrus to aromatic woods.</p><p>Midnight Elixir is a 50 ml fragrance from the men’s line, presented in a clear cylindrical glass bottle with very pale ice-blue liquid, a glossy black cap and silver collar, and a slate-periwinkle cylindrical presentation canister.</p><p><strong>Size:</strong> 50 ml / 1.69 fl. oz.</p><p><strong>Ingredients:</strong> Alcohol; Water (Aqua); Fragrance (Parfum); PEG-40 Hydrogenated Castor Oil; Propylene Glycol; Linalool; Limonene; Coumarin; Citronellol; Citral; Geraniol.</p><p><strong>Care:</strong> Flammable; keep away from heat and open flame.</p>",
+      "descriptionText": "Midnight Elixir is fresh, powerful, and sophisticated, with a refined trail that moves naturally from sparkling citrus to aromatic woods.\n\nMidnight Elixir is a 50 ml fragrance from the men’s line, presented in a clear cylindrical glass bottle with very pale ice-blue liquid, a glossy black cap and silver collar, and a slate-periwinkle cylindrical presentation canister.\n\nSize: 50 ml / 1.69 fl. oz.\n\nIngredients: Alcohol; Water (Aqua); Fragrance (Parfum); PEG-40 Hydrogenated Castor Oil; Propylene Glycol; Linalool; Limonene; Coumarin; Citronellol; Citral; Geraniol.\n\nCare: Flammable; keep away from heat and open flame.",
+      "vendor": "DearBody",
+      "productType": "Fragrance",
+      "productCode": "P10138",
+      "barcode": "5056795407246",
+      "size": "50 ml / 1.69 fl. oz.",
+      "line": "Men’s line",
+      "ingredients": [
+        "Alcohol",
+        "Water (Aqua)",
+        "Fragrance (Parfum)",
+        "PEG-40 Hydrogenated Castor Oil",
+        "Propylene Glycol",
+        "Linalool",
+        "Limonene",
+        "Coumarin",
+        "Citronellol",
+        "Citral",
+        "Geraniol"
+      ],
+      "approvedScentDescription": "Midnight Elixir is fresh, powerful, and sophisticated, with a refined trail that moves naturally from sparkling citrus to aromatic woods.",
+      "scentDescriptionSource": "DearBody official product publication, 2026-08-10",
+      "factsSources": [
+        "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/midnight-elixir/generated-v01/QA-REPORT.md",
+        "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/midnight-elixir/generated-v01/typeset.swift"
+      ],
+      "images": [
+        {
+          "order": 1,
+          "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/midnight-elixir/generated-v01/final/01-featured-packshot.png",
+          "alt": "Midnight Elixir 50 ml fragrance bottle and slate-periwinkle presentation canister",
+          "sha256": "d83e9d60df707937dc0ffa02c98ff455d146887ba6aa25990517008087d1e284"
+        },
+        {
+          "order": 2,
+          "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/midnight-elixir/generated-v01/final/02-brand-hero.png",
+          "alt": "Midnight Elixir bottle and slate-periwinkle canister in a bright architectural setting",
+          "sha256": "8976ff46e1fdcab9e253718cf601f29acd734fdc80f6988a64e3e6f214339480"
+        },
+        {
+          "order": 3,
+          "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/midnight-elixir/generated-v01/final/03-packaging-reveal.png",
+          "alt": "Midnight Elixir bottle seated in the short canister base beside the tall removable upper section",
+          "sha256": "cb39482d91fb154ff54858a62a1c8097e8f6fd2f5f0673f8b763a377d5ed4209"
+        },
+        {
+          "order": 4,
+          "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/midnight-elixir/generated-v01/final/04-material-cap-detail.png",
+          "alt": "Close-up of the Midnight Elixir embossed cap, silver collar, glass bottle and canister",
+          "sha256": "ed2e7edc7cab67dc809e96daeacc8036de729b0722af5be86d71d19b6094a463"
+        },
+        {
+          "order": 5,
+          "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/midnight-elixir/generated-v01/final/05-arcade-lifestyle.png",
+          "alt": "Man carrying Midnight Elixir through a colorful arcade",
+          "sha256": "8578079fe42aaf1dbf8a4901d25fe4dea59232296804bbe3782fdbcd5b825a2c"
+        },
+        {
+          "order": 6,
+          "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/midnight-elixir/generated-v01/final/06-arcade-handheld.png",
+          "alt": "Midnight Elixir bottle held beside illuminated arcade controls",
+          "sha256": "9e24f6f6ab91d562bda2e628e918204d8ae7b015519449cb9f4bcc803bed825d"
+        },
+        {
+          "order": 7,
+          "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/midnight-elixir/generated-v01/final/07-photobooth-social.png",
+          "alt": "Three men enjoying a photobooth with one Midnight Elixir bottle",
+          "sha256": "bcf265dbdc1505b60b9d0996d4222c69d30b06c4d593e15a13cdbff8060ec4b7"
+        },
+        {
+          "order": 8,
+          "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/midnight-elixir/generated-v01/final/08-product-profile-infographic.png",
+          "alt": "Midnight Elixir product profile: 50 ml / 1.69 fl. oz., product code P10138",
+          "sha256": "64de75e662169d92cfb834791f9d043ac150f1d126a328b8537ff39eb9e43622"
+        },
+        {
+          "order": 9,
+          "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/midnight-elixir/generated-v01/final/09-ingredients-and-care-infographic.png",
+          "alt": "Midnight Elixir printed ingredients, barcode 5056795407246 and flammable care information",
+          "sha256": "654ac0770cee9cbc43018c1d94be356c254cdc73412f630f794ca05989126ee9"
+        },
+        {
+          "order": 10,
+          "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/midnight-elixir/generated-v01/final/10-closing-hero.png",
+          "alt": "Midnight Elixir bottle and canister with the headline A Scent Journey",
+          "sha256": "1e12dfed6ecffde4a6dbae5f9fa45bf505dfe7fa704725476b64ee8a19b787c8"
+        },
+        {
+          "order": 11,
+          "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/midnight-elixir/generated-v01/final/11-scent-description-infographic.png",
+          "alt": "Midnight Elixir scent description: Midnight Elixir is fresh, powerful, and sophisticated, with a refined trail that moves naturally from sparkling citrus to aromatic woods.",
+          "sha256": "7869d01d8c26d7c79953fcfe25d159d7a90faed885a8348d1ef7b324eaefd668"
+        },
+        {
+          "order": 12,
+          "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/midnight-elixir/generated-v01/final/12-who-it-fits-infographic.png",
+          "alt": "Midnight Elixir person-fit guide: For someone drawn to crisp energy, refined confidence, and a clean yet intense aromatic-woody profile.",
+          "sha256": "25d83204dfc984a231b4c9a228c121a2e677f21d8333819cd931f5a9782d3329"
+        }
+      ],
+      "excludedImages": [],
+      "pending": [],
+      "price": null,
+      "inventoryQuantity": null,
+      "shopifyProductId": "10314858397761",
+      "savedMediaCount": 12,
+      "altTextsSaved": 12,
+      "shopifyStatusVerified": "DRAFT"
+    },
+    {
+      "title": "Amber Oud Silk",
+      "slug": "amber-oud-silk",
+      "handle": "amber-oud-silk",
+      "status": "DRAFT",
+      "descriptionHtml": "<p>Dark spice and smoke with a warm, addictive edge.</p><p>Amber Oud Silk is a 50 ml fragrance from the women’s line, presented in a clear cylindrical glass bottle with pale blush-peach liquid, a glossy black cap and silver collar, and a blush-peach cylindrical presentation canister.</p><p><strong>Size:</strong> 50 ml / 1.69 fl. oz.</p><p><strong>Ingredients:</strong> Alcohol; Water (Aqua); Fragrance (Parfum); PEG-40 Hydrogenated Castor Oil; Propylene Glycol; Linalool; Limonene; Citronellol; Eugenol; Coumarin; Cinnamal; Citral; Geraniol.</p><p><strong>Care:</strong> Flammable; keep away from heat and open flame.</p>",
+      "descriptionText": "Dark spice and smoke with a warm, addictive edge.\n\nAmber Oud Silk is a 50 ml fragrance from the women’s line, presented in a clear cylindrical glass bottle with pale blush-peach liquid, a glossy black cap and silver collar, and a blush-peach cylindrical presentation canister.\n\nSize: 50 ml / 1.69 fl. oz.\n\nIngredients: Alcohol; Water (Aqua); Fragrance (Parfum); PEG-40 Hydrogenated Castor Oil; Propylene Glycol; Linalool; Limonene; Citronellol; Eugenol; Coumarin; Cinnamal; Citral; Geraniol.\n\nCare: Flammable; keep away from heat and open flame.",
+      "vendor": "DearBody",
+      "productType": "Fragrance",
+      "productCode": "P11038",
+      "barcode": "5056795407338",
+      "size": "50 ml / 1.69 fl. oz.",
+      "line": "Women’s line",
+      "ingredients": [
+        "Alcohol",
+        "Water (Aqua)",
+        "Fragrance (Parfum)",
+        "PEG-40 Hydrogenated Castor Oil",
+        "Propylene Glycol",
+        "Linalool",
+        "Limonene",
+        "Citronellol",
+        "Eugenol",
+        "Coumarin",
+        "Cinnamal",
+        "Citral",
+        "Geraniol"
+      ],
+      "approvedScentDescription": "Dark spice and smoke with a warm, addictive edge.",
+      "scentDescriptionSource": "Canva `DAHIB2UjgJM`, Dear Body Brand Deep Dive, page 2",
+      "factsSources": [
+        "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/amber-oud-silk/SOURCE-FACTS.md"
+      ],
+      "images": [
+        {
+          "order": 1,
+          "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/amber-oud-silk/generated-v01/final/01-featured-packshot.png",
+          "alt": "Amber Oud Silk 50 ml fragrance bottle and blush-peach presentation canister",
+          "sha256": "2a79e6596c4ef8dc678d54b7ef52add0291e944db8c0759856e5988e2bc9e14b"
+        },
+        {
+          "order": 2,
+          "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/amber-oud-silk/generated-v01/final/02-brand-hero.png",
+          "alt": "Amber Oud Silk bottle and blush-peach canister in a bright architectural setting",
+          "sha256": "a5fac737ced43b4c5b50d837a4e7352641fe7fa1835c37a312b9b2f9dfd42f7a"
+        },
+        {
+          "order": 3,
+          "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/amber-oud-silk/generated-v01/final/03-packaging-reveal.png",
+          "alt": "Amber Oud Silk bottle seated in the short canister base beside the tall removable upper section",
+          "sha256": "11c550293273e6cebbd4162351eb960ca4e44c2d109a57ad845fcdc740636b86"
+        },
+        {
+          "order": 4,
+          "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/amber-oud-silk/generated-v01/final/04-material-cap-detail.png",
+          "alt": "Close-up of the Amber Oud Silk embossed cap, silver collar, glass bottle and canister",
+          "sha256": "cadf25e8f53c9d139639bdde61bc7bbf927c0bb64dae94f6f1e61e34d0d213c7"
+        },
+        {
+          "order": 5,
+          "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/amber-oud-silk/generated-v01/final/05-karaoke-arrival-lifestyle.png",
+          "alt": "Woman carrying Amber Oud Silk into a bright karaoke lounge",
+          "sha256": "77253bba7886f6424b5581113659b7015bb1eff44860ab6ab49a26d6930fc8ea"
+        },
+        {
+          "order": 6,
+          "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/amber-oud-silk/generated-v01/final/06-karaoke-handheld.png",
+          "alt": "Amber Oud Silk bottle held beside a microphone and karaoke controls",
+          "sha256": "cff9d29f87f649f3908877e686e3c6e0273648108f9721f91ebfe228a19015a7"
+        },
+        {
+          "order": 7,
+          "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/amber-oud-silk/generated-v01/final/07-karaoke-social.png",
+          "alt": "Three women singing and laughing with one Amber Oud Silk bottle",
+          "sha256": "ddcc5b3e50ad7da30fc4ac21b2bf39dce503066fb838a5bdf9aa58b6f7a2f35d"
+        },
+        {
+          "order": 8,
+          "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/amber-oud-silk/generated-v01/final/08-product-profile-infographic.png",
+          "alt": "Amber Oud Silk product profile: 50 ml / 1.69 fl. oz., product code P11038",
+          "sha256": "c027403bdf5b592cfa1595435cb508f6146c5148df4226011b60d30153f6c2ae"
+        },
+        {
+          "order": 9,
+          "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/amber-oud-silk/generated-v01/final/09-ingredients-and-care-infographic.png",
+          "alt": "Amber Oud Silk printed ingredients, barcode 5056795407338 and flammable care information",
+          "sha256": "581b5832b308b3462f97dd246dcbf42e4ec466d2dab13502856428fd28200eaf"
+        },
+        {
+          "order": 10,
+          "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/amber-oud-silk/generated-v01/final/10-closing-hero.png",
+          "alt": "Amber Oud Silk bottle and canister with the headline A Scent Journey",
+          "sha256": "446aed2f9076c852c49473e10faf6958b6d7a2b6db203a10ee050ebbe206adf1"
+        },
+        {
+          "order": 11,
+          "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/amber-oud-silk/generated-v01/final/11-scent-description-infographic.png",
+          "alt": "Amber Oud Silk scent description: Dark spice and smoke with a warm, addictive edge.",
+          "sha256": "732d1286860553eb25b654af349c9896053b9db23af67076af7c1986318659c0"
+        },
+        {
+          "order": 12,
+          "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/amber-oud-silk/generated-v01/final/12-who-it-fits-infographic.png",
+          "alt": "Amber Oud Silk person-fit guide: For someone drawn to warm depth, smoky spice, and an expressive, addictive edge.",
+          "sha256": "6d2ab39691c220d9da34f464db6e411d22634966ace4a6f9df4d220af0b0f78b"
+        }
+      ],
+      "excludedImages": [],
+      "pending": [],
+      "price": null,
+      "inventoryQuantity": null,
+      "shopifyProductId": "10314853417025",
+      "savedMediaCount": 12,
+      "altTextsSaved": 12,
+      "shopifyStatusVerified": "DRAFT"
+    },
+    {
+      "title": "Mistened Narcissus",
+      "slug": "mistened-narcissus",
+      "handle": "mistened-narcissus",
+      "status": "DRAFT",
+      "descriptionHtml": "<p>Juicy berries softened by a smooth, sweet finish.</p><p>Mistened Narcissus is a 50 ml fragrance from the women’s line, presented in a clear cylindrical glass bottle with clear liquid, a glossy black cap and silver collar, and a pale-lavender cylindrical presentation canister.</p><p><strong>Size:</strong> 50 ml / 1.69 fl. oz.</p><p><strong>Ingredients:</strong> Alcohol; Water (Aqua); Fragrance (Parfum); PEG-40 Hydrogenated Castor Oil; Propylene Glycol; Benzyl Salicylate; Hexyl Cinnamal; Limonene; Linalool; Citronellol; Alpha-Isomethyl Ionone.</p><p><strong>Care:</strong> Flammable; keep away from heat and open flame.</p>",
+      "descriptionText": "Juicy berries softened by a smooth, sweet finish.\n\nMistened Narcissus is a 50 ml fragrance from the women’s line, presented in a clear cylindrical glass bottle with clear liquid, a glossy black cap and silver collar, and a pale-lavender cylindrical presentation canister.\n\nSize: 50 ml / 1.69 fl. oz.\n\nIngredients: Alcohol; Water (Aqua); Fragrance (Parfum); PEG-40 Hydrogenated Castor Oil; Propylene Glycol; Benzyl Salicylate; Hexyl Cinnamal; Limonene; Linalool; Citronellol; Alpha-Isomethyl Ionone.\n\nCare: Flammable; keep away from heat and open flame.",
+      "vendor": "DearBody",
+      "productType": "Fragrance",
+      "productCode": "P11438",
+      "barcode": "5056795407376",
+      "size": "50 ml / 1.69 fl. oz.",
+      "line": "Women’s line",
+      "ingredients": [
+        "Alcohol",
+        "Water (Aqua)",
+        "Fragrance (Parfum)",
+        "PEG-40 Hydrogenated Castor Oil",
+        "Propylene Glycol",
+        "Benzyl Salicylate",
+        "Hexyl Cinnamal",
+        "Limonene",
+        "Linalool",
+        "Citronellol",
+        "Alpha-Isomethyl Ionone"
+      ],
+      "approvedScentDescription": "Juicy berries softened by a smooth, sweet finish.",
+      "scentDescriptionSource": "Canva `DAHIB2UjgJM`, Dear Body Brand Deep Dive, page 3",
+      "factsSources": [
+        "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/mistened-narcissus/SOURCE-FACTS.md"
+      ],
+      "images": [
+        {
+          "order": 1,
+          "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/mistened-narcissus/generated-v01/final/01-featured-packshot.png",
+          "alt": "Mistened Narcissus 50 ml fragrance bottle and pale-lavender presentation canister",
+          "sha256": "0b0b5d7377781f87835b3d31926f68d04e2c0e59bd997390b1e2bd2a0ecc1c8c"
+        },
+        {
+          "order": 2,
+          "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/mistened-narcissus/generated-v01/final/02-brand-hero.png",
+          "alt": "Mistened Narcissus bottle and pale-lavender canister in a bright architectural setting",
+          "sha256": "b41a48358e82cc45939ab3ee259e47201c8b9c557ef9964123f6482f03edcc25"
+        },
+        {
+          "order": 3,
+          "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/mistened-narcissus/generated-v01/final/03-packaging-reveal.png",
+          "alt": "Mistened Narcissus bottle seated in the short canister base beside the tall removable upper section",
+          "sha256": "5218a1226e3d4ea8956fbd40075fb908fe37674382a4f77ebd6889045a765a10"
+        },
+        {
+          "order": 4,
+          "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/mistened-narcissus/generated-v01/final/04-material-cap-detail.png",
+          "alt": "Close-up of the Mistened Narcissus embossed cap, silver collar, glass bottle and canister",
+          "sha256": "08932b6a94a03d9f84ec6b53beea3ae7f68842566785d31f1b9f21160e33b362"
+        },
+        {
+          "order": 5,
+          "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/mistened-narcissus/generated-v01/final/05-roller-rink-arrival-lifestyle.png",
+          "alt": "Woman carrying skates and Mistened Narcissus at a pastel roller rink",
+          "sha256": "a5e82ed1df9f80663377a6fbe70fe057d8a2057583618a743e095a2233e8c2d5"
+        },
+        {
+          "order": 6,
+          "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/mistened-narcissus/generated-v01/final/06-roller-rink-handheld.png",
+          "alt": "Mistened Narcissus bottle held beside a chrome rink rail and skates",
+          "sha256": "e4343d3dce39bc65c12b974dbc9630b8a658575c02cfc7087f15feb529e17b04"
+        },
+        {
+          "order": 7,
+          "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/mistened-narcissus/generated-v01/final/07-roller-rink-social.png",
+          "alt": "Three women preparing to skate with one Mistened Narcissus bottle",
+          "sha256": "b505dcbf51019a94b716533d5bf384e995562c42d18cea99b20edf395ee50443"
+        },
+        {
+          "order": 8,
+          "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/mistened-narcissus/generated-v01/final/08-product-profile-infographic.png",
+          "alt": "Mistened Narcissus product profile: 50 ml / 1.69 fl. oz., product code P11438",
+          "sha256": "2d52b95000bceba0ed54868d18fb1b599b48fa3e3f6aea34f36a86670fd3a17e"
+        },
+        {
+          "order": 9,
+          "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/mistened-narcissus/generated-v01/final/09-ingredients-and-care-infographic.png",
+          "alt": "Mistened Narcissus printed ingredients, barcode 5056795407376 and flammable care information",
+          "sha256": "1a9ac658d4c495b822ce60e776ce75c00aeb6c6ebe1e4450ac1bd8a4679b7d7c"
+        },
+        {
+          "order": 10,
+          "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/mistened-narcissus/generated-v01/final/10-closing-hero.png",
+          "alt": "Mistened Narcissus bottle and canister with the headline A Scent Journey",
+          "sha256": "032bfa07093166a4dc55553dab699cf1acd7cd13068739af043a9af577fa3526"
+        }
+      ],
+      "excludedImages": [
+        {
+          "order": 11,
+          "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/mistened-narcissus/generated-v01/final/11-scent-description-infographic.png",
+          "sha256": "4942023bfb62b0a2b69a4ba7115d20b78bf22e3351e6902602e3314e66da49f5",
+          "reason": "Stale scent copy; correct to latest source ledger and re-lock before uploading."
+        },
+        {
+          "order": 12,
+          "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/mistened-narcissus/generated-v01/final/12-who-it-fits-infographic.png",
+          "sha256": "34b9b8c26d36b84a09cf1355ba249ebdd29c9372de1354c9c680f471e1073530",
+          "reason": "Stale scent copy; correct to latest source ledger and re-lock before uploading."
+        }
+      ],
+      "pending": [
+        "Frames 11–12 require scent-copy correction and a refreshed QA/checksum lock. Latest scent sentence: Juicy berries softened by a smooth, sweet finish."
+      ],
+      "price": null,
+      "inventoryQuantity": null,
+      "shopifyProductId": "10314865016897",
+      "savedMediaCount": 10,
+      "altTextsSaved": 10,
+      "shopifyStatusVerified": "DRAFT"
+    },
+    {
+      "title": "Mojito Metallique",
+      "slug": "mojito-metallique",
+      "handle": "mojito-metallique",
+      "status": "DRAFT",
+      "descriptionHtml": "<p>Soft, creamy sweetness with a light fruity glow.</p><p>Mojito Metallique is a 50 ml fragrance from the women’s line, presented in a clear cylindrical glass bottle with golden-yellow liquid, a glossy black cap and silver collar, and a bright-yellow cylindrical presentation canister.</p><p><strong>Size:</strong> 50 ml / 1.69 fl. oz.</p><p><strong>Ingredients:</strong> Alcohol; Water (Aqua); Fragrance (Parfum); PEG-40 Hydrogenated Castor Oil; Propylene Glycol; Linalool; Limonene; Coumarin; Anise Alcohol.</p><p><strong>Safety:</strong> Flammable pictogram on packaging.</p>",
+      "descriptionText": "Soft, creamy sweetness with a light fruity glow.\n\nMojito Metallique is a 50 ml fragrance from the women’s line, presented in a clear cylindrical glass bottle with golden-yellow liquid, a glossy black cap and silver collar, and a bright-yellow cylindrical presentation canister.\n\nSize: 50 ml / 1.69 fl. oz.\n\nIngredients: Alcohol; Water (Aqua); Fragrance (Parfum); PEG-40 Hydrogenated Castor Oil; Propylene Glycol; Linalool; Limonene; Coumarin; Anise Alcohol.\n\nSafety: Flammable pictogram on packaging.",
+      "vendor": "DearBody",
+      "productType": "Fragrance",
+      "productCode": "P11138",
+      "barcode": "5056795407345",
+      "size": "50 ml / 1.69 fl. oz.",
+      "line": "Women’s line",
+      "ingredients": [
+        "Alcohol",
+        "Water (Aqua)",
+        "Fragrance (Parfum)",
+        "PEG-40 Hydrogenated Castor Oil",
+        "Propylene Glycol",
+        "Linalool",
+        "Limonene",
+        "Coumarin",
+        "Anise Alcohol"
+      ],
+      "approvedScentDescription": "Soft, creamy sweetness with a light fruity glow.",
+      "scentDescriptionSource": "Canva `DAHIB2UjgJM`, Dear Body Brand Deep Dive, page 2",
+      "factsSources": [
+        "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/mojito-metallique/SOURCE-FACTS.md"
+      ],
+      "images": [
+        {
+          "order": 1,
+          "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/mojito-metallique/generated-v01/final/01-featured-packshot.png",
+          "alt": "Mojito Metallique 50 ml fragrance bottle with its bright-yellow presentation canister",
+          "sha256": "0e3088de8e21fccd4ebb55c99f09894a20614a5b811f975e2b6c6ea8d9099000"
+        },
+        {
+          "order": 2,
+          "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/mojito-metallique/generated-v01/final/02-brand-hero.png",
+          "alt": "Mojito Metallique bottle and yellow canister in a bright architectural setting",
+          "sha256": "6334a16910b77f92815926552d3b38a514095936c46226851f987ab688bdda5d"
+        },
+        {
+          "order": 3,
+          "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/mojito-metallique/generated-v01/final/03-packaging-reveal.png",
+          "alt": "Mojito Metallique bottle seated in the short canister base beside the tall removable upper section",
+          "sha256": "21a4274c41a44929abc557583894f3227de1cea1f336dda8162abf0f708f899e"
+        },
+        {
+          "order": 4,
+          "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/mojito-metallique/generated-v01/final/04-material-cap-detail.png",
+          "alt": "Close-up of the Mojito Metallique embossed cap, silver collar, glass bottle and yellow canister",
+          "sha256": "03ca970f31eb1c9ebfd91659c8d983d651c5519536f1792de6e97ef5da00c87f"
+        },
+        {
+          "order": 5,
+          "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/mojito-metallique/generated-v01/final/05-dance-studio-arrival-lifestyle.png",
+          "alt": "Woman carrying Mojito Metallique while arriving at a bright dance studio",
+          "sha256": "424c18932cac0deb469b1533c4fd8d4b46f7ba20517490a33cc7b07938fc73ab"
+        },
+        {
+          "order": 6,
+          "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/mojito-metallique/generated-v01/final/06-dance-studio-handheld.png",
+          "alt": "Mojito Metallique bottle held beside yellow headphones and dance rehearsal accessories",
+          "sha256": "2c1cea7de3264abbe8aa46745d046d14efa617a5db04bcb4d0b0e049c76d84f1"
+        },
+        {
+          "order": 7,
+          "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/mojito-metallique/generated-v01/final/07-dance-studio-social.png",
+          "alt": "Three women sharing a rehearsal break with one Mojito Metallique bottle",
+          "sha256": "11d6e00cc5fa28bf0b8bad0c2118a8ef2eeac73f9aef5ab2381b72177709cc7b"
+        },
+        {
+          "order": 8,
+          "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/mojito-metallique/generated-v01/final/08-product-profile-infographic.png",
+          "alt": "Mojito Metallique product profile: 50 ml / 1.69 fl. oz., product code P11138",
+          "sha256": "f4593c32a05ebcab7f4744b813c583f06988fcea154b1f4f919f0f5c5b1ae1db"
+        },
+        {
+          "order": 9,
+          "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/mojito-metallique/generated-v01/final/09-ingredients-and-care-infographic.png",
+          "alt": "Mojito Metallique printed ingredients, barcode 5056795407345 and flammable pictogram information",
+          "sha256": "bd474b48f490d6ed098f277ff0e578bedd39ac592a6948790b17fb74d1e1839b"
+        },
+        {
+          "order": 10,
+          "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/mojito-metallique/generated-v01/final/10-closing-hero.png",
+          "alt": "Mojito Metallique bottle and canister with the headline A Scent Journey",
+          "sha256": "ea3a8b3f32e46ca216d7671cd94226087e60017321b2ee6d61e4c19824b6239f"
+        },
+        {
+          "order": 11,
+          "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/mojito-metallique/generated-v01/final/11-scent-description-infographic.png",
+          "alt": "Mojito Metallique scent description: Soft, creamy sweetness with a light fruity glow.",
+          "sha256": "0e54b062b9d7b84e7ca7e42b9114fe321e094031e598443c13362585f9263630"
+        },
+        {
+          "order": 12,
+          "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/mojito-metallique/generated-v01/final/12-who-it-fits-infographic.png",
+          "alt": "Mojito Metallique person-fit guide: For someone drawn to soft, creamy sweetness and a light fruity glow.",
+          "sha256": "f8a1b00d98989e054b86b788f9a69a66a79160df5edf20197d5ffab848a9006d"
+        }
+      ],
+      "excludedImages": [],
+      "pending": [],
+      "price": null,
+      "inventoryQuantity": null,
+      "shopifyProductId": "10314869571649",
+      "savedMediaCount": 12,
+      "altTextsSaved": 12,
+      "shopifyStatusVerified": "DRAFT"
+    }
+  ]
+}

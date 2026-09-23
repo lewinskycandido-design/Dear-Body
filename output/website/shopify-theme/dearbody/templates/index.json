@@ -1,0 +1,89 @@
+{
+  "sections": {
+    "hero": {
+      "type": "db-hero",
+      "settings": {}
+    },
+    "collection": {
+      "type": "db-priority-collection",
+      "settings": {},
+      "blocks": {
+        "scent1": {
+          "type": "scent",
+          "settings": {
+            "handle": "mojito-metallique",
+            "name": "Mojito Metallique",
+            "image_file": "db-mojito-metallique.jpg"
+          }
+        },
+        "scent2": {
+          "type": "scent",
+          "settings": {
+            "handle": "amber-oud-silk",
+            "name": "Amber Oud Silk",
+            "image_file": "db-amber-oud-silk.jpg"
+          }
+        },
+        "scent3": {
+          "type": "scent",
+          "settings": {
+            "handle": "mistened-narcissus",
+            "name": "Mistened Narcissus",
+            "image_file": "db-mistened-narcissus.jpg"
+          }
+        },
+        "scent4": {
+          "type": "scent",
+          "settings": {
+            "handle": "oud-mirage",
+            "name": "Oud Mirage",
+            "image_file": "db-oud-mirage.jpg"
+          }
+        },
+        "scent5": {
+          "type": "scent",
+          "settings": {
+            "handle": "charme-envoutant",
+            "name": "Charme Envoûtant",
+            "image_file": "db-charme-envoutant.jpg"
+          }
+        },
+        "scent6": {
+          "type": "scent",
+          "settings": {
+            "handle": "rtulle-and-satin",
+            "name": "Rtulle & Satin",
+            "image_file": "db-rtulle-and-satin.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "scent1",
+        "scent2",
+        "scent3",
+        "scent4",
+        "scent5",
+        "scent6"
+      ]
+    },
+    "everyday": {
+      "type": "db-editorial",
+      "settings": {}
+    },
+    "story": {
+      "type": "db-story",
+      "settings": {}
+    },
+    "newsletter": {
+      "type": "db-newsletter",
+      "settings": {}
+    }
+  },
+  "order": [
+    "hero",
+    "collection",
+    "everyday",
+    "story",
+    "newsletter"
+  ]
+}

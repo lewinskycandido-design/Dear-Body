@@ -1,0 +1,74 @@
+[
+  {
+    "scent": "oud-mirage",
+    "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/redesign-assets/oud-mirage-website-packshot-v02.png",
+    "width": 1254,
+    "height": 1254,
+    "bytes": 1638091,
+    "sha256": "4ad52f3811b8f0a8d4f8b1dfc70aa73bdfef83ba832c0209dd924bbb2eaede2c"
+  },
+  {
+    "scent": "oud-mirage",
+    "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/redesign-assets/oud-mirage-website-packshot-v02.webp",
+    "width": 1254,
+    "height": 1254,
+    "bytes": 132124,
+    "sha256": "8e88d15bdfa8dcea6aaed8e74d7625837db5141202d53d90579c27dcf466e282"
+  },
+  {
+    "scent": "oud-mirage",
+    "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/redesign-assets/oud-mirage-website-packshot-v02-theme.jpg",
+    "width": 900,
+    "height": 900,
+    "bytes": 89695,
+    "sha256": "b2c455e3ac247d1c3c00fc2c2fe39781e08b82b7ad5c6f67418d564c58f57a41"
+  },
+  {
+    "scent": "charme-envoutant",
+    "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/redesign-assets/charme-envoutant-website-packshot-v02.png",
+    "width": 1254,
+    "height": 1254,
+    "bytes": 1619455,
+    "sha256": "89469a0a1e16f5015fa826ebb79204b402784154fd2eb547026f2ba8b329ab47"
+  },
+  {
+    "scent": "charme-envoutant",
+    "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/redesign-assets/charme-envoutant-website-packshot-v02.webp",
+    "width": 1254,
+    "height": 1254,
+    "bytes": 145112,
+    "sha256": "d0cc84978b5f9485fec32e0790ed4430341abe901c4636d9b804875426a7d52f"
+  },
+  {
+    "scent": "charme-envoutant",
+    "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/redesign-assets/charme-envoutant-website-packshot-v02-theme.jpg",
+    "width": 900,
+    "height": 900,
+    "bytes": 102667,
+    "sha256": "37e13ce4ebeeeff09a918092c56da707576b7b403c6b264795c55657234830a5"
+  },
+  {
+    "scent": "rtulle-and-satin",
+    "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/redesign-assets/rtulle-and-satin-website-packshot-v02.png",
+    "width": 1254,
+    "height": 1254,
+    "bytes": 1716195,
+    "sha256": "bf33c7484b11d99dccd4ca78d2483ce082da5c8efeb89163fc40407b6cfc0437"
+  },
+  {
+    "scent": "rtulle-and-satin",
+    "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/redesign-assets/rtulle-and-satin-website-packshot-v02.webp",
+    "width": 1254,
+    "height": 1254,
+    "bytes": 166004,
+    "sha256": "993a4bc669b10ac13ae7a662b1041fb63470e48da7e8427b009e2f8d5eb97560"
+  },
+  {
+    "scent": "rtulle-and-satin",
+    "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/redesign-assets/rtulle-and-satin-website-packshot-v02-theme.jpg",
+    "width": 900,
+    "height": 900,
+    "bytes": 99997,
+    "sha256": "fe748323753093e9fe94ecf6155e9a781fbebf54f6feb890abbe160c16ded173"
+  }
+]

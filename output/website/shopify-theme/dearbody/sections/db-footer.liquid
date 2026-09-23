@@ -1,0 +1,15 @@
+<footer class="db-footer">
+  <div class="db-container">
+    <div class="db-footer-top"><a href="{{ routes.root_url }}" class="db-wordmark" aria-label="{{ shop.name | escape }} home">{% if settings.footer_logo %}{{ settings.footer_logo | image_url: width: 440 | image_tag: width: 220, loading: 'lazy', alt: shop.name }}{% else %}{% render 'db-logo' %}{% endif %}</a><p>London-formulated fragrances.<br>A personal journey, every day.</p></div>
+    <div class="db-footer-columns">
+      <div><p class="db-kicker">Explore</p><nav aria-label="Footer navigation">{% render 'db-navigation', menu: section.settings.menu, settings: settings, collections: collections, routes: routes, request: request %}</nav></div>
+      {% if shop.policies.size > 0 %}<div><p class="db-kicker">Here to help</p><nav aria-label="Store policies">{% for policy in shop.policies %}{% if policy.body != blank %}<a href="{{ policy.url }}">{{ policy.title | escape }}</a>{% endif %}{% endfor %}</nav></div>{% endif %}
+      <div class="db-footer-note"><p class="db-kicker">Your own scent journey</p><p>Start wherever you like.<br>Make it part of your day.</p></div>
+    </div>
+    <p class="db-footer-statement" aria-hidden="true">A SCENT JOURNEY.</p>
+    <div class="db-footer-bottom"><small>© {{ 'now' | date: '%Y' }} {{ shop.name | escape }}</small><a href="#MainContent">Back to top ↑</a></div>
+  </div>
+</footer>
+{% schema %}
+{"name":"DearBody footer","settings":[{"type":"link_list","id":"menu","label":"Footer menu"}]}
+{% endschema %}

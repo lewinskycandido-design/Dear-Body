@@ -1,0 +1,70 @@
+{% liquid
+  assign for_her_collection = settings.for_her_collection
+  assign for_him_collection = settings.for_him_collection
+  for candidate in collections
+    assign candidate_title = candidate.title | downcase | strip
+    if for_her_collection == blank
+      if candidate_title == "women's perfume" or candidate_title == 'for her'
+        assign for_her_collection = candidate
+      endif
+    endif
+    if for_him_collection == blank
+      if candidate_title == "men's perfume" or candidate_title == 'for him'
+        assign for_him_collection = candidate
+      endif
+    endif
+  endfor
+  assign for_her_url = for_her_collection.url
+  assign for_him_url = for_him_collection.url
+  for link in menu.links
+    assign link_title = link.title | downcase | strip
+    if for_her_url == blank and link.url != blank
+      if link_title == 'for her' or link_title == "women's perfume"
+        assign for_her_url = link.url
+      endif
+    endif
+    if for_him_url == blank and link.url != blank
+      if link_title == 'for him' or link_title == "men's perfume"
+        assign for_him_url = link.url
+      endif
+    endif
+  endfor
+  assign story_url = routes.root_url | append: '/pages/our-story' | replace: '//', '/'
+  assign contact_url = routes.root_url | append: '/pages/contact' | replace: '//', '/'
+  assign has_story_link = false
+  assign has_contact_link = false
+%}
+{% if for_her_url != blank %}<a href="{{ for_her_url | escape }}"{% if request.path == for_her_url %} aria-current="page"{% endif %}>For Her</a>{% else %}<span class="db-nav-unavailable" aria-disabled="true">For Her</span>{% endif %}
+{% if for_him_url != blank %}<a href="{{ for_him_url | escape }}"{% if request.path == for_him_url %} aria-current="page"{% endif %}>For Him</a>{% else %}<span class="db-nav-unavailable" aria-disabled="true">For Him</span>{% endif %}
+{% for link in menu.links %}
+  {% liquid
+    assign link_title = link.title | downcase | strip
+    assign skip_link = false
+    if link_title == 'shop all' or link_title == 'shop all fragrances' or link_title == 'all fragrances' or link.url == routes.all_products_collection_url
+      assign skip_link = true
+    endif
+    if link_title == 'for her' or link_title == 'for him' or link_title == "women's perfume" or link_title == "men's perfume"
+      assign skip_link = true
+    endif
+    if for_her_url != blank and link.url == for_her_url
+      assign skip_link = true
+    endif
+    if for_him_url != blank and link.url == for_him_url
+      assign skip_link = true
+    endif
+    if link.url == blank
+      assign skip_link = true
+    endif
+    if skip_link == false
+      if link_title == 'our story' or link.url == story_url
+        assign has_story_link = true
+      endif
+      if link_title == 'contact' or link.url == contact_url
+        assign has_contact_link = true
+      endif
+    endif
+  %}
+  {% unless skip_link %}<a href="{{ link.url | escape }}"{% if link.current %} aria-current="page"{% endif %}>{{ link.title | escape }}</a>{% endunless %}
+{% endfor %}
+{% unless has_story_link %}<a href="{{ story_url }}"{% if request.path == story_url %} aria-current="page"{% endif %}>Our story</a>{% endunless %}
+{% unless has_contact_link %}<a href="{{ contact_url }}"{% if request.path == contact_url %} aria-current="page"{% endif %}>Contact</a>{% endunless %}

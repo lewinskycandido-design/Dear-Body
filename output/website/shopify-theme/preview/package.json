@@ -1,0 +1,14 @@
+{
+  "name": "dearbody-theme-preview",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node render-preview.mjs",
+    "preview": "node render-preview.mjs --serve"
+  },
+  "devDependencies": {
+    "@shopify/liquid-html-parser": "^2.10.0",
+    "jsdom": "^30.1.1",
+    "liquidjs": "^10.29.0"
+  }
+}
