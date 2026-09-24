@@ -1,0 +1,62 @@
+{% liquid
+ assign heading = collection.title
+ assign eyebrow = 'THE DEARBODY COLLECTION'
+ assign body = 'Discover a fragrance that feels like you.'
+ assign campaign_asset = 'db-hero-desktop.jpg'
+ if collection.handle == settings.for_her_collection.handle
+  assign heading = 'A SCENT FOR|EVERY VERSION OF YOU.'
+  assign eyebrow = 'DEARBODY FOR HER'
+  assign body = 'From effortless everyday scents to fragrances made for unforgettable nights, discover a DearBody perfume that matches your mood and style.'
+  assign campaign_asset = 'db-master-women.jpg'
+ elsif collection.handle == settings.for_him_collection.handle
+  assign heading = 'MAKE YOUR SCENT|PART OF YOUR STORY.'
+  assign eyebrow = 'DEARBODY FOR HIM'
+  assign body = 'Discover expressive DearBody fragrances created to move naturally from everyday moments to nights worth remembering.'
+  assign campaign_asset = 'db-master-men.jpg'
+ endif
+ assign heading = section.settings.heading | default: heading
+ assign eyebrow = section.settings.eyebrow | default: eyebrow
+ assign body = section.settings.text | default: body
+ assign campaign_image = section.settings.image | default: collection.image
+%}
+<section class="db-collection-hero"><div class="db-collection-hero-copy"><p class="db-kicker">{{ eyebrow | escape }}</p><h1>{{ heading | escape | replace: '|', '<br>' | newline_to_br }}</h1><p>{{ body | escape }}</p><a class="db-text-link" href="#CollectionProducts">Discover the fragrances <span aria-hidden="true">↓</span></a></div><picture>{% if section.settings.mobile_image %}<source media="(max-width:700px)" srcset="{{ section.settings.mobile_image | image_url: width: 1100 }}">{% endif %}{% if campaign_image %}{{ campaign_image | image_url: width: 1600 | image_tag: loading: 'eager', alt: collection.title }}{% else %}<img src="{{ campaign_asset | asset_url }}" width="1200" height="1200" alt="DearBody collection in warm editorial light" loading="eager">{% endif %}</picture></section>
+<section class="db-container db-section" id="CollectionProducts">{% if collection.description != blank %}<div class="db-richtext db-collection-description">{{ collection.description }}</div>{% endif %}
+<form class="db-collection-controls" method="get" action="{{ collection.url }}"><p>{{ collection.products_count }} fragrances</p><div><label for="SortBy-{{ section.id }}">Sort by</label><select id="SortBy-{{ section.id }}" name="sort_by">{% assign sort_by = collection.sort_by | default: collection.default_sort_by %}{% for option in collection.sort_options %}<option value="{{ option.value | escape }}"{% if option.value == sort_by %} selected{% endif %}>{{ option.name | escape }}</option>{% endfor %}</select><button class="db-button db-button--outline" type="submit">Apply</button></div></form>
+{% paginate collection.products by 24 %}<div class="db-product-grid">{% for product in collection.products %}{% render 'db-product-card', product: product %}{% else %}<div class="db-empty"><h2>Your next chapter is on its way.</h2><p>Discover more of the DearBody collection.</p><a class="db-text-link" href="{{ routes.all_products_collection_url }}">Explore all fragrances →</a></div>{% endfor %}</div>{% if paginate.pages > 1 %}<nav class="db-pagination" aria-label="Collection pages">{{ paginate | default_pagination }}</nav>{% endif %}{% endpaginate %}</section>
+{% schema %}
+{
+  "name": "DearBody collection",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Desktop campaign image"
+    },
+    {
+      "type": "image_picker",
+      "id": "mobile_image",
+      "label": "Mobile campaign image"
+    },
+    {
+      "type": "text",
+      "id": "image_alt",
+      "label": "Image description"
+    },
+    {
+      "type": "textarea",
+      "id": "heading",
+      "label": "Heading override"
+    },
+    {
+      "type": "text",
+      "id": "eyebrow",
+      "label": "Eyebrow override"
+    },
+    {
+      "type": "textarea",
+      "id": "text",
+      "label": "Body override"
+    }
+  ]
+}
+{% endschema %}

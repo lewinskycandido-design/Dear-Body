@@ -1,0 +1,116 @@
+<section class="db-section">
+  <div class="db-container">
+    <nav class="db-breadcrumbs" aria-label="Breadcrumb">
+      <a href="{{ routes.root_url }}">Home</a>
+      <span aria-hidden="true">/</span>
+      <span aria-current="page">Your bag</span>
+    </nav>
+    <h1 class="db-title">Your bag</h1>
+
+    {% if cart.item_count > 0 %}
+      {% assign cart_has_unavailable_items = false %}
+      <form action="{{ routes.cart_url }}" method="post" class="db-cart-form" id="db-cart-form-{{ section.id }}">
+        <div class="db-cart-table-wrap">
+          <table class="db-cart-table">
+            <caption class="db-visually-hidden">Items in your bag</caption>
+            <thead>
+              <tr>
+                <th scope="col">Fragrance</th>
+                <th scope="col">Quantity</th>
+                <th scope="col">Total</th>
+              </tr>
+            </thead>
+            <tbody>
+              {% for item in cart.items %}
+                {% liquid
+                  if item.original_price <= 0 or item.variant.price <= 0 or item.variant.available == false
+                    assign cart_has_unavailable_items = true
+                  endif
+                %}
+                <tr class="db-cart-table__row">
+                  <td>
+                    <div class="db-cart-item">
+                      {% if item.image %}
+                        <a class="db-cart-item__image" href="{{ item.url }}" aria-label="View {{ item.product.title | escape }}">
+                          {% assign cart_image_alt = item.image.alt | default: item.product.title %}
+                          {{ item.image | image_url: width: 240 | image_tag: widths: '120, 240', sizes: '120px', loading: 'lazy', alt: cart_image_alt }}
+                        </a>
+                      {% endif %}
+                      <div class="db-cart-item__details">
+                        <a class="db-cart-item__title" href="{{ item.url }}">{{ item.product.title | escape }}</a>
+                        {% unless item.product.has_only_default_variant %}<p>{{ item.variant.title | escape }}</p>{% endunless %}
+                        {% if item.selling_plan_allocation %}<p>{{ item.selling_plan_allocation.selling_plan.name | escape }}</p>{% endif %}
+                        {% for property in item.properties %}
+                          {% assign property_first_character = property.first | slice: 0 %}
+                          {% if property.last != blank and property_first_character != '_' %}
+                            <p>{{ property.first | escape }}: {{ property.last | escape }}</p>
+                          {% endif %}
+                        {% endfor %}
+                        {% if item.original_price <= 0 or item.variant.price <= 0 %}
+                          <p class="db-cart-item__status">Available soon</p>
+                        {% elsif item.variant.available == false %}
+                          <p class="db-cart-item__status">Sold out</p>
+                        {% else %}
+                          <p class="db-cart-item__unit-price">{% if item.original_price > item.final_price %}<span class="db-visually-hidden">Original price</span> <s>{{ item.original_price | money_with_currency }}</s> <span class="db-visually-hidden">Discounted price</span> {% endif %}{{ item.final_price | money_with_currency }} each</p>
+                        {% endif %}
+                        {% if item.line_level_discount_allocations.size > 0 %}
+                          <ul class="db-cart-item__discounts" aria-label="Item discounts">
+                            {% for allocation in item.line_level_discount_allocations %}<li>{{ allocation.discount_application.title | escape }}: −{{ allocation.amount | money_with_currency }}</li>{% endfor %}
+                          </ul>
+                        {% endif %}
+                        {% if item.error_message != blank %}<p class="db-cart-item__status" role="alert">{{ item.error_message | escape }}</p>{% endif %}
+                        <a class="db-cart-item__remove" href="{{ item.url_to_remove }}" aria-label="Remove {{ item.product.title | escape }} from your bag">Remove</a>
+                      </div>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="db-field db-field--quantity">
+                      <label for="db-cart-quantity-{{ section.id }}-{{ forloop.index }}" class="db-visually-hidden">Quantity for {{ item.product.title | escape }}{% unless item.product.has_only_default_variant %}, {{ item.variant.title | escape }}{% endunless %}</label>
+                      <input id="db-cart-quantity-{{ section.id }}-{{ forloop.index }}" type="number" name="updates[]" value="{{ item.quantity }}" min="0" step="{{ item.variant.quantity_rule.increment | default: 1 }}" {% if item.variant.quantity_rule.max != blank %}max="{{ item.variant.quantity_rule.max }}"{% endif %} data-db-cart-quantity data-min="{{ item.variant.quantity_rule.min | default: 1 }}" inputmode="numeric" aria-label="Quantity for {{ item.title | escape }}" aria-describedby="db-cart-quantity-rules-{{ section.id }}-{{ forloop.index }}">
+                      <span id="db-cart-quantity-rules-{{ section.id }}-{{ forloop.index }}" class="db-cart-quantity-rules">{% if item.variant.quantity_rule.min > 1 or item.variant.quantity_rule.increment > 1 or item.variant.quantity_rule.max != blank %}Minimum {{ item.variant.quantity_rule.min | default: 1 }}; increments of {{ item.variant.quantity_rule.increment | default: 1 }}{% if item.variant.quantity_rule.max != blank %}; maximum {{ item.variant.quantity_rule.max }}{% endif %}. Enter 0 to remove.{% endif %}</span>
+                    </div>
+                  </td>
+                  <td class="db-cart-table__total">
+                    {% if item.original_price <= 0 or item.variant.price <= 0 %}Unavailable{% else %}{% if item.original_line_price > item.final_line_price %}<span class="db-visually-hidden">Original total</span><s class="db-cart-original-total">{{ item.original_line_price | money_with_currency }}</s><span class="db-visually-hidden">Discounted total</span>{% endif %}{{ item.final_line_price | money_with_currency }}{% endif %}
+                  </td>
+                </tr>
+              {% endfor %}
+            </tbody>
+          </table>
+        </div>
+
+        <div class="db-cart-actions">
+          <a class="db-button db-button--outline" href="{{ routes.all_products_collection_url }}">Continue exploring</a>
+          <button type="submit" name="update" class="db-button db-button--outline">Update bag</button>
+        </div>
+
+        <div class="db-cart-summary">
+          <p class="db-cart-summary__subtotal"><span>Subtotal</span> <span>{{ cart.items_subtotal_price | money_with_currency }}</span></p>
+          {% for discount in cart.cart_level_discount_applications %}
+            <p class="db-cart-summary__discount"><span>{{ discount.title | escape }}</span> <span>−{{ discount.total_allocated_amount | money_with_currency }}</span></p>
+          {% endfor %}
+          <p class="db-cart-summary__subtotal"><span>Total</span> <span class="db-price">{{ cart.total_price | money_with_currency }}</span></p>
+          <p class="db-cart-summary__note">Final total and available delivery options are shown at checkout.</p>
+          {% if shop.shipping_policy.body != blank %}<p><a href="{{ shop.shipping_policy.url }}">Shipping information</a></p>{% endif %}
+          {% if cart_has_unavailable_items %}
+            <p class="db-cart-summary__notice" role="status">One or more fragrances in your bag are currently unavailable. Remove them to continue to checkout.</p>
+          {% endif %}
+          <button type="submit" name="checkout" class="db-button" {% if cart_has_unavailable_items %}disabled{% endif %}>Checkout</button>
+        </div>
+      </form>
+    {% else %}
+      <div class="db-empty">
+        <h2>Your scent journey starts here.</h2>
+        <p>Your bag is empty. Explore the collection and find your next fragrance.</p>
+        <a class="db-button" href="{{ routes.all_products_collection_url }}">Explore the collection</a>
+      </div>
+    {% endif %}
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Dear Body cart",
+  "settings": []
+}
+{% endschema %}

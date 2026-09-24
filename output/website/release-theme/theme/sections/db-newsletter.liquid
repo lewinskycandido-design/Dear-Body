@@ -1,0 +1,45 @@
+{% if section.settings.enabled %}
+<section class="db-newsletter"><div class="db-container db-newsletter-inner"><div><p class="db-kicker">{{ section.settings.eyebrow | escape }}</p><h2>{{ section.settings.heading | escape }}</h2><p>{{ section.settings.text | escape }}</p></div><div>{% assign form_id = 'Newsletter-' | append: section.id %}{% form 'customer', id: form_id %}<input type="hidden" name="contact[tags]" value="newsletter">{% if form.posted_successfully? %}<p role="status">You're on the list. Welcome to Dear Body.</p>{% else %}<label for="NewsletterEmail-{{ section.id }}">Email address</label><div class="db-inline-form"><input id="NewsletterEmail-{{ section.id }}" type="email" name="contact[email]" autocomplete="email" required placeholder="Your email address"><button class="db-button" type="submit">{{ section.settings.label | escape }} <span aria-hidden="true">↗</span></button></div>{{ form.errors | default_errors }}<p class="db-form-note">By subscribing, you agree to receive marketing emails. You can unsubscribe at any time.{% if shop.privacy_policy.body != blank %} <a href="{{ shop.privacy_policy.url }}">Privacy policy</a>.{% endif %}</p>{% endif %}{% endform %}</div></div></section>
+{% endif %}
+{% schema %}
+{
+  "name": "DearBody newsletter",
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "YOUR NEXT SCENT JOURNEY."
+    },
+    {
+      "type": "text",
+      "id": "eyebrow",
+      "label": "Eyebrow",
+      "default": "STAY IN THE STORY"
+    },
+    {
+      "type": "textarea",
+      "id": "text",
+      "label": "Description",
+      "default": "New arrivals and stories from DearBody."
+    },
+    {
+      "type": "text",
+      "id": "label",
+      "label": "Button label",
+      "default": "Join us"
+    },
+    {
+      "type": "checkbox",
+      "id": "enabled",
+      "label": "Show section",
+      "default": true
+    }
+  ],
+  "presets": [
+    {
+      "name": "DearBody newsletter"
+    }
+  ]
+}
+{% endschema %}

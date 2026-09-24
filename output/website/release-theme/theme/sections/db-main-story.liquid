@@ -1,0 +1,103 @@
+{{ 'dearbody-quiz.css' | asset_url | stylesheet_tag }}
+<section class="db-story-page db-discovery-scheme--{{ section.settings.color_scheme }}" style="--db-discovery-space: {{ section.settings.spacing }}px" aria-labelledby="story-title-{{ section.id }}">
+  <div class="db-container">
+    {% if section.settings.eyebrow != blank %}<p class="db-kicker">{{ section.settings.eyebrow | escape }}</p>{% endif %}
+    <h1 id="story-title-{{ section.id }}">{{ section.settings.heading | escape | newline_to_br }}</h1>
+    {% render 'db-story-content', section: section, page: page %}
+  </div>
+  <picture>
+    {% if section.settings.mobile_image != blank %}<source media="(max-width:700px)" srcset="{{ section.settings.mobile_image | image_url: width: 1100 }}">{% endif %}
+    {% if section.settings.image != blank %}
+      {% assign image_alt = section.settings.image_alt | default: section.settings.image.alt %}
+      {{ section.settings.image | image_url: width: 2000 | image_tag: widths: '500, 800, 1100, 1500, 2000', sizes: '100vw', loading: 'lazy', alt: image_alt }}
+    {% else %}<img src="{{ 'db-banner-story.jpg' | asset_url }}" width="1536" height="1024" alt="The DearBody collection in warm sunlight" loading="lazy">{% endif %}
+  </picture>
+</section>
+
+{% schema %}
+{
+  "name": "DearBody Our Story",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Desktop campaign image"
+    },
+    {
+      "type": "image_picker",
+      "id": "mobile_image",
+      "label": "Mobile campaign image"
+    },
+    {
+      "type": "text",
+      "id": "image_alt",
+      "label": "Image description"
+    },
+    {
+      "type": "text",
+      "id": "eyebrow",
+      "label": "Eyebrow",
+      "default": "OUR STORY"
+    },
+    {
+      "type": "textarea",
+      "id": "heading",
+      "label": "Heading",
+      "default": "A SCENT JOURNEY\nFROM LONDON\nTO THE PHILIPPINES."
+    },
+    {
+      "type": "checkbox",
+      "id": "use_page_content",
+      "label": "Use content from the page",
+      "default": true
+    },
+    {
+      "type": "richtext",
+      "id": "body",
+      "label": "Story text",
+      "default": "<p>DearBody Philippines brings London's fragrance culture to the Philippines through London-formulated scents thoughtfully curated for Filipino tastes, lifestyles, personalities and everyday moments.</p><p>Warm, vibrant and full of personality, fragrance becomes part of your own story: getting ready, meeting friends, making memories and finding your everyday style.</p><p>A scent journey from London to everyday Filipino life. Begin wherever you feel most like yourself.</p>"
+    },
+    {
+      "type": "text",
+      "id": "button_label",
+      "label": "Button label",
+      "default": "EXPLORE THE COLLECTION"
+    },
+    {
+      "type": "collection",
+      "id": "collection",
+      "label": "Button collection"
+    },
+    {
+      "type": "select",
+      "id": "color_scheme",
+      "label": "Color scheme",
+      "options": [
+        {
+          "value": "cream",
+          "label": "Warm cream"
+        },
+        {
+          "value": "gold",
+          "label": "Warm gold"
+        },
+        {
+          "value": "burgundy",
+          "label": "Burgundy"
+        }
+      ],
+      "default": "cream"
+    },
+    {
+      "type": "range",
+      "id": "spacing",
+      "label": "Vertical spacing",
+      "min": 24,
+      "max": 120,
+      "step": 8,
+      "unit": "px",
+      "default": 72
+    }
+  ]
+}
+{% endschema %}

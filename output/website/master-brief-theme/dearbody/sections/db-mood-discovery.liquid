@@ -1,0 +1,51 @@
+{% liquid
+  assign mood_count = 0
+  for block in section.blocks
+    assign mood = block.settings.mood
+    if mood.title.value != blank and mood.collection.value != blank
+      assign mood_count = mood_count | plus: 1
+    endif
+  endfor
+%}
+{% if mood_count > 0 or request.design_mode %}
+  {{ 'dearbody-quiz.css' | asset_url | stylesheet_tag }}
+  <section class="db-mood-discovery db-section" aria-labelledby="mood-title-{{ section.id }}">
+    <div class="db-container">
+      <header class="db-section-heading"><div>
+        <p class="db-kicker">{{ section.settings.eyebrow | escape }}</p>
+        <h2 id="mood-title-{{ section.id }}">{{ section.settings.heading | escape }}</h2>
+      </div></header>
+      {% if mood_count > 0 %}
+        <div class="db-mood-grid">
+          {% for block in section.blocks %}
+            {% assign mood = block.settings.mood %}
+            {% if mood.title.value != blank and mood.collection.value != blank %}
+              <a class="db-mood-card" href="{{ mood.collection.value.url }}" {{ block.shopify_attributes }}>
+                {% if mood.image.value != blank %}
+                  {{ mood.image.value | image_url: width: 900 | image_tag: widths: '300, 500, 700, 900', sizes: '(max-width:700px) 100vw, 33vw', loading: 'lazy', alt: mood.title.value }}
+                {% endif %}
+                <div class="db-mood-card__copy"><span class="db-kicker">{{ forloop.index | prepend: '0' }} / A SCENT JOURNEY</span><h3>{{ mood.title.value | escape }}</h3>{% if mood.description.value != blank %}<p class="db-mood-card__description">{{ mood.description.value | escape }}</p>{% endif %}<span class="db-mood-card__link">Explore this feeling <span aria-hidden="true">↗</span></span></div>
+              </a>
+            {% endif %}
+          {% endfor %}
+        </div>
+      {% endif %}
+      {% if request.design_mode %}
+        <aside class="db-discovery-setup"><strong>Shop by feeling setup</strong><p>Assign confirmed moods to the blocks below. Create a storefront-accessible <code>scent_mood</code> metaobject with <code>title</code> (single line text), <code>description</code> (multi-line text), <code>collection</code> (collection reference) and <code>image</code> (image file reference). A card appears only with a title and an assigned collection. Curate collection products from confirmed scent profiles; no mood or product assignment is inferred.</p></aside>
+      {% endif %}
+    </div>
+  </section>
+{% endif %}
+{% schema %}
+{
+  "name":"DearBody shop by feeling",
+  "max_blocks":6,
+  "settings":[
+    {"type":"text","id":"eyebrow","label":"Eyebrow","default":"SHOP BY FEELING"},
+    {"type":"text","id":"heading","label":"Heading","default":"WHERE WILL YOUR SCENT TAKE YOU?"},
+    {"type":"paragraph","content":"Cards use approved scent_mood metaobjects and their curated collections. Unassigned cards are hidden. Create the metaobject definition before assigning entries."}
+  ],
+  "blocks":[{"type":"mood","name":"Confirmed mood","settings":[{"type":"metaobject","id":"mood","label":"Scent mood","metaobject_type":"scent_mood"}]}],
+  "presets":[{"name":"DearBody shop by feeling","blocks":[{"type":"mood"},{"type":"mood"},{"type":"mood"},{"type":"mood"},{"type":"mood"},{"type":"mood"}]}]
+}
+{% endschema %}

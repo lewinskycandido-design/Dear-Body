@@ -1,25 +1,23 @@
-<section class="db-hero" aria-labelledby="hero-title-{{ section.id }}">
-  {% render 'db-memphis-motif', shape: 'wave' %}
-  {% render 'db-memphis-motif', shape: 'ring' %}
-  <div class="db-hero-copy">
-    <p class="db-kicker">{{ section.settings.eyebrow | escape }}</p>
-    <h1 id="hero-title-{{ section.id }}">{{ section.settings.heading | escape | newline_to_br }}</h1>
-    <p>{{ section.settings.text | escape }}</p>
-    <a class="db-button" href="{{ section.settings.link | default: routes.all_products_collection_url }}">{{ section.settings.button | escape }} <span aria-hidden="true">↗</span></a>
-  </div>
+<section class="db-hero db-hero--lifestyle" aria-labelledby="hero-title-{{ section.id }}">
   <div class="db-hero-photo">
     <picture>
       {% if section.settings.mobile_image %}<source media="(max-width:700px)" srcset="{{ section.settings.mobile_image | image_url: width: 1200 }}">{% endif %}
       {% if section.settings.image %}
-        {{ section.settings.image | image_url: width: 1400 | image_tag: widths: '500, 800, 1122, 1400', sizes: '(max-width:700px) 90vw, 540px', loading: 'eager', fetchpriority: 'high', alt: 'Six DearBody fragrances displayed together in a sunlit home' }}
+        {{ section.settings.image | image_url: width: 2000 | image_tag: widths: '600, 1000, 1500, 2000', sizes: '100vw', loading: 'eager', fetchpriority: 'high', alt: section.settings.image_alt }}
       {% else %}
-        <img src="{{ 'db-hero-mobile.jpg' | asset_url }}" width="1122" height="1402" alt="Six DearBody fragrances displayed together in a sunlit home" fetchpriority="high">
+        <img src="{{ 'db-home-spray-v1.jpg' | asset_url }}" width="1536" height="1024" alt="{{ section.settings.image_alt | escape }}" fetchpriority="high">
       {% endif %}
     </picture>
-    <span class="db-hero-sticker" aria-hidden="true"><span>MAKE IT<br>YOURS.</span></span>
+  </div>
+  <div class="db-hero-copy">
+    {% render 'db-memphis-motif', shape: 'wave' %}
+    <p class="db-kicker">{{ section.settings.eyebrow | escape }}</p>
+    <h1 id="hero-title-{{ section.id }}">{{ section.settings.heading | escape | newline_to_br }}</h1>
+    <p>{{ section.settings.text | escape }}</p>
+    <div class="db-hero-links"><a class="db-button" href="{{ section.settings.link | default: routes.all_products_collection_url | escape }}"{% if section.settings.link == blank %} data-scent-quiz-open aria-haspopup="dialog" aria-controls="DearBodyScentQuiz"{% endif %}>{{ section.settings.button | escape }} <span aria-hidden="true">↗</span></a><a class="db-button db-button--outline" href="#EverydayCollection">Explore the scents <span aria-hidden="true">↗</span></a></div>
   </div>
 </section>
-<div class="db-brand-line"><span>London-formulated</span><span class="db-brand-line-mark" aria-hidden="true">✳</span><span>For everyday self-expression</span><span class="db-brand-line-mark" aria-hidden="true">✳</span><span>Dear Body Philippines</span></div>
+<div class="db-brand-line"><span><i class="db-shape db-shape--circle" aria-hidden="true"></i> London-formulated</span><span><i class="db-shape db-shape--square" aria-hidden="true"></i> Everyday self-expression</span><span><i class="db-shape db-shape--triangle" aria-hidden="true"></i> A scent journey</span></div>
 {% schema %}
-{"name":"DearBody collection hero","settings":[{"type":"image_picker","id":"image","label":"Hero photo (4:5 recommended)"},{"type":"image_picker","id":"mobile_image","label":"Optional mobile photo"},{"type":"text","id":"eyebrow","label":"Eyebrow","default":"DEAR BODY PHILIPPINES"},{"type":"textarea","id":"heading","label":"Heading","default":"A SCENT\nJOURNEY."},{"type":"textarea","id":"text","label":"Text","default":"London-formulated fragrances, curated for the way you live."},{"type":"text","id":"button","label":"Button label","default":"Explore the collection"},{"type":"url","id":"link","label":"Button link","default":"/collections/all"}],"presets":[{"name":"DearBody collection hero"}]}
+{"name": "DearBody lifestyle hero", "settings": [{"type": "image_picker", "id": "image", "label": "Lifestyle hero photo", "info": "Landscape 3:2 recommended. Keep the perfume on the right and quiet space at the lower left for the headline."}, {"type": "image_picker", "id": "mobile_image", "label": "Optional mobile photo", "info": "The full image is shown above the text on mobile."}, {"type": "text", "id": "image_alt", "label": "Photo description", "default": "A hand sprays Charme Envoûtant perfume, with a fine mist catching the warm light"}, {"type": "text", "id": "eyebrow", "label": "Eyebrow", "default": "DEAR BODY PHILIPPINES"}, {"type": "textarea", "id": "heading", "label": "Heading", "default": "SCENT.\nIN REAL LIFE."}, {"type": "textarea", "id": "text", "label": "Text", "default": "A moment for yourself. A scent that goes with you."}, {"type": "text", "id": "button", "label": "Button label", "default": "Find your scent"}, {"type": "url", "id": "link", "label": "Optional button link", "info": "Leave empty to open the scent quiz. Set a URL to override it."}], "presets": [{"name": "DearBody lifestyle hero"}]}
 {% endschema %}

@@ -1,0 +1,60 @@
+{% liquid
+  assign banner_title = collection.title
+  assign banner_variant = 'collection'
+  assign banner_asset = 'db-banner-story.jpg'
+  assign banner_width = 1536
+  assign banner_height = 1024
+  assign banner_alt = 'All six DearBody priority fragrances displayed together on a warm home console'
+  assign collection_name = collection.title | downcase | strip
+  assign is_for_her = false
+  assign is_for_him = false
+  if collection.handle == 'womens-perfume' or collection_name == "women's perfume" or collection_name == 'for her'
+    assign is_for_her = true
+  endif
+  if collection.handle == 'mens-perfume' or collection_name == "men's perfume" or collection_name == 'for him'
+    assign is_for_him = true
+  endif
+  if settings.for_her_collection != blank and collection.handle == settings.for_her_collection.handle
+    assign is_for_her = true
+  endif
+  if settings.for_him_collection != blank and collection.handle == settings.for_him_collection.handle
+    assign is_for_him = true
+  endif
+  if is_for_her
+    assign banner_title = 'For Her'
+    assign banner_variant = 'her'
+    assign banner_asset = 'db-lifestyle-for-her.jpg'
+    assign banner_width = 1200
+    assign banner_height = 1200
+    assign banner_alt = 'Mojito Metallique, Amber Oud Silk and Mistened Narcissus on a burgundy tray at a sunlit vanity'
+  elsif is_for_him
+    assign banner_title = 'For Him'
+    assign banner_variant = 'him'
+    assign banner_asset = 'db-lifestyle-for-him.jpg'
+    assign banner_width = 1200
+    assign banner_height = 1200
+    assign banner_alt = 'Oud Mirage, Charme Envoûtant and Rtulle & Satin displayed on a warm home console'
+  endif
+  assign banner_title = section.settings.banner_heading | default: banner_title
+  assign banner_image = section.settings.banner_image | default: collection.image
+  assign banner_kicker = section.settings.banner_kicker | default: 'YOUR OWN SCENT JOURNEY'
+  assign banner_text = section.settings.banner_text | default: 'A little self-expression. A fragrance that feels like you.'
+%}
+{% render 'db-page-banner', title: banner_title, kicker: banner_kicker, text: banner_text, variant: banner_variant, image: banner_image, asset: banner_asset, image_alt: banner_alt, width: banner_width, height: banner_height, section_id: section.id, root_url: routes.root_url, breadcrumb_label: collection.title %}
+<section class="db-collection-editorial" aria-label="{{ banner_title | escape }} fragrances">
+  <div class="db-collection-intro">
+    <p class="db-kicker">{{ collection.products_count }} SCENTS. YOUR OWN EXPRESSION.</p>
+    <h2>{% if is_for_her %}A little softness.<br>A little boldness. All you.{% elsif is_for_him %}Make it your signature.{% else %}Find a scent that feels like you.{% endif %}</h2>
+    {% if collection.description != blank %}<div class="db-richtext db-collection-description">{{ collection.description }}</div>{% else %}<p>Get to know each fragrance. Follow the character that draws you in.</p>{% endif %}
+  </div>
+  {% paginate collection.products by 24 %}
+    <div class="db-fragrance-rows">
+      {% for product in collection.products %}{% render 'db-fragrance-row', product: product, index: forloop.index, section_id: section.id %}{% else %}<div class="db-empty"><h2>The collection is on its way.</h2><p>Come back soon to begin your scent journey.</p><a class="db-button" href="{{ routes.root_url }}">Back home</a></div>{% endfor %}
+    </div>
+    {% if paginate.pages > 1 %}<nav class="db-pagination" aria-label="Collection pages">{{ paginate | default_pagination }}</nav>{% endif %}
+  {% endpaginate %}
+</section>
+<section class="db-collection-finder"><p class="db-kicker">LET YOUR TASTE LEAD</p><h2>Need a little direction?</h2><p>Tell us what you like. Your scent journey starts here.</p><a class="db-button" href="{{ routes.all_products_collection_url }}" data-scent-quiz-open aria-haspopup="dialog" aria-controls="DearBodyScentQuiz">Find your scent <span aria-hidden="true">↗</span></a></section>
+{% schema %}
+{"name":"DearBody collection","settings":[{"type":"image_picker","id":"banner_image","label":"Banner image override"},{"type":"textarea","id":"banner_heading","label":"Banner heading override"},{"type":"text","id":"banner_kicker","label":"Banner eyebrow","default":"YOUR OWN SCENT JOURNEY"},{"type":"textarea","id":"banner_text","label":"Banner text","default":"A little self-expression. A fragrance that feels like you."}]}
+{% endschema %}

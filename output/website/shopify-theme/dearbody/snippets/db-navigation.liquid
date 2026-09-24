@@ -34,37 +34,14 @@
   assign has_story_link = false
   assign has_contact_link = false
 %}
+<a href="{{ routes.root_url }}"{% if request.path == routes.root_url %} aria-current="page"{% endif %}>Home</a>
+<a href="{{ routes.all_products_collection_url }}" data-scent-quiz-open aria-haspopup="dialog" aria-controls="DearBodyScentQuiz">Scent Finder</a>
 {% if for_her_url != blank %}<a href="{{ for_her_url | escape }}"{% if request.path == for_her_url %} aria-current="page"{% endif %}>For Her</a>{% else %}<span class="db-nav-unavailable" aria-disabled="true">For Her</span>{% endif %}
 {% if for_him_url != blank %}<a href="{{ for_him_url | escape }}"{% if request.path == for_him_url %} aria-current="page"{% endif %}>For Him</a>{% else %}<span class="db-nav-unavailable" aria-disabled="true">For Him</span>{% endif %}
 {% for link in menu.links %}
-  {% liquid
-    assign link_title = link.title | downcase | strip
-    assign skip_link = false
-    if link_title == 'shop all' or link_title == 'shop all fragrances' or link_title == 'all fragrances' or link.url == routes.all_products_collection_url
-      assign skip_link = true
-    endif
-    if link_title == 'for her' or link_title == 'for him' or link_title == "women's perfume" or link_title == "men's perfume"
-      assign skip_link = true
-    endif
-    if for_her_url != blank and link.url == for_her_url
-      assign skip_link = true
-    endif
-    if for_him_url != blank and link.url == for_him_url
-      assign skip_link = true
-    endif
-    if link.url == blank
-      assign skip_link = true
-    endif
-    if skip_link == false
-      if link_title == 'our story' or link.url == story_url
-        assign has_story_link = true
-      endif
-      if link_title == 'contact' or link.url == contact_url
-        assign has_contact_link = true
-      endif
-    endif
-  %}
-  {% unless skip_link %}<a href="{{ link.url | escape }}"{% if link.current %} aria-current="page"{% endif %}>{{ link.title | escape }}</a>{% endunless %}
+  {% assign link_title = link.title | downcase | strip %}
+  {% if link_title == 'our story' or link_title == 'about us' %}{% assign story_url = link.url %}{% endif %}
+  {% if link_title == 'contact' %}{% assign contact_url = link.url %}{% endif %}
 {% endfor %}
-{% unless has_story_link %}<a href="{{ story_url }}"{% if request.path == story_url %} aria-current="page"{% endif %}>Our story</a>{% endunless %}
-{% unless has_contact_link %}<a href="{{ contact_url }}"{% if request.path == contact_url %} aria-current="page"{% endif %}>Contact</a>{% endunless %}
+<a href="{{ story_url }}"{% if request.path == story_url %} aria-current="page"{% endif %}>Our Story</a>
+<a href="{{ contact_url }}"{% if request.path == contact_url %} aria-current="page"{% endif %}>Contact</a>

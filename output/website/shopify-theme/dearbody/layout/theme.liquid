@@ -16,13 +16,16 @@
     {% if settings.favicon %}<link rel="icon" href="{{ settings.favicon | image_url: width: 32 }}">{% endif %}
     {{ content_for_header }}
     {{ 'dearbody.css' | asset_url | stylesheet_tag }}
+    {{ 'dearbody-quiz.css' | asset_url | stylesheet_tag }}
     {{ 'dearbody-memphis.css' | asset_url | stylesheet_tag }}
     <script src="{{ 'dearbody.js' | asset_url }}" defer></script>
+    <script src="{{ 'dearbody-quiz.js' | asset_url }}" defer></script>
   </head>
-  <body class="db-site db-template-{{ template.name }}">
+  <body class="db-site db-memphis db-template-{{ template.name }}">
     <a class="db-skip-link" href="#MainContent">Skip to content</a>
     {% sections 'header-group' %}
     <main id="MainContent" tabindex="-1">{{ content_for_layout }}</main>
     {% sections 'footer-group' %}
+    {% section 'db-scent-quiz' %}
   </body>
 </html>

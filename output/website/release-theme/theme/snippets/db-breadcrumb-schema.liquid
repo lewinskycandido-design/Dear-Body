@@ -1,0 +1,7 @@
+{%- if template.name == 'product' or template.name == 'collection' or template.name == 'page' -%}
+{%- capture escaped_less_than -%}\u003c{%- endcapture -%}
+{%- assign home_url = shop.url | append: routes.root_url -%}
+{%- assign item_title = product.title | default: collection.title | default: page.title -%}
+{%- if template.name == 'page' -%}{%- assign item_title = page.title -%}{%- endif -%}
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":{{ home_url | json | replace: '<', escaped_less_than }}},{"@type":"ListItem","position":2,"name":{{ item_title | json | replace: '<', escaped_less_than }},"item":{{ canonical_url | json | replace: '<', escaped_less_than }}}]}</script>
+{%- endif -%}

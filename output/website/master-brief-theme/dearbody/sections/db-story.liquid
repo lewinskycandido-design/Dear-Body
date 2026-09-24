@@ -1,0 +1,46 @@
+<section class="db-brand-story"><div class="db-brand-story-photo"><picture>{% if section.settings.mobile_image %}<source media="(max-width:700px)" srcset="{{ section.settings.mobile_image | image_url: width: 1000 }}">{% endif %}{% if section.settings.image %}{{ section.settings.image | image_url: width: 1600 | image_tag: loading: 'lazy', alt: section.settings.image_alt }}{% else %}<img src="{{ 'db-master-story.jpg' | asset_url }}" width="1200" height="1200" alt="DearBody fragrances styled on warm cream, burgundy and burnt orange" loading="lazy">{% endif %}</picture></div><div class="db-brand-story-copy"><p class="db-kicker">{{ section.settings.eyebrow | escape }}</p><h2>{{ section.settings.heading | escape | newline_to_br }}</h2><p>{{ section.settings.text | escape }}</p><a class="db-text-link" href="{{ settings.story_page.url | default: '/pages/our-story' }}">Discover our story <span aria-hidden="true">→</span></a></div></section>
+{% schema %}
+{
+  "name": "DearBody brand introduction",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Desktop campaign image"
+    },
+    {
+      "type": "image_picker",
+      "id": "mobile_image",
+      "label": "Mobile campaign image"
+    },
+    {
+      "type": "text",
+      "id": "image_alt",
+      "label": "Image description"
+    },
+    {
+      "type": "text",
+      "id": "eyebrow",
+      "label": "Eyebrow",
+      "default": "FROM LONDON TO THE PHILIPPINES"
+    },
+    {
+      "type": "textarea",
+      "id": "heading",
+      "label": "Heading",
+      "default": "MORE THAN A FRAGRANCE.\nIT’S A SCENT JOURNEY."
+    },
+    {
+      "type": "textarea",
+      "id": "text",
+      "label": "Body",
+      "default": "DearBody brings London's fragrance culture closer to Filipino life through thoughtfully curated scents made to complement your personality, your moments and your everyday style."
+    }
+  ],
+  "presets": [
+    {
+      "name": "DearBody brand introduction"
+    }
+  ]
+}
+{% endschema %}

@@ -1,0 +1,69 @@
+{% if section.settings.enabled %}
+<section class="db-editorial{% unless section.settings.image %} db-editorial--lifestyle{% endunless %}">
+  <div class="db-editorial-image"><picture>{% if section.settings.mobile_image %}<source media="(max-width:700px)" srcset="{{ section.settings.mobile_image | image_url: width: 1000 }}">{% endif %}{% if section.settings.image %}{{ section.settings.image | image_url: width: 1400 | image_tag: widths: '600, 1000, 1400', sizes: '(max-width:700px) 100vw, 50vw', loading: 'lazy', alt: section.settings.image_alt }}{% else %}<img src="{{ 'db-lifestyle-collection.jpg' | asset_url }}" width="1086" height="1448" alt="All six DearBody fragrance bottles displayed together on a warm home console" loading="lazy">{% endif %}</picture></div>
+  <div class="db-editorial-copy"><p class="db-kicker">{{ section.settings.eyebrow | escape }}</p><h2>{{ section.settings.heading | escape | newline_to_br }}</h2><p>{{ section.settings.text | escape }}</p><a class="db-button db-button--cream" href="{{ section.settings.link | default: routes.all_products_collection_url }}">{{ section.settings.button | escape }} <span aria-hidden="true">↗</span></a></div>
+</section>
+{% endif %}
+{% schema %}
+{
+  "name": "Editorial brand moment",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Collection photograph"
+    },
+    {
+      "type": "text",
+      "id": "eyebrow",
+      "label": "Eyebrow",
+      "default": "THE COLLECTION, UP CLOSE"
+    },
+    {
+      "type": "textarea",
+      "id": "heading",
+      "label": "Heading",
+      "default": "SIX SCENTS.\nYOUR COLLECTION."
+    },
+    {
+      "type": "textarea",
+      "id": "text",
+      "label": "Text",
+      "default": "Six distinct bottles. One personal scent wardrobe. Discover the collection, from the first look to the finishing details."
+    },
+    {
+      "type": "text",
+      "id": "button",
+      "label": "Button label",
+      "default": "Find your fragrance"
+    },
+    {
+      "type": "url",
+      "id": "link",
+      "label": "Link",
+      "default": "/collections/all"
+    },
+    {
+      "type": "image_picker",
+      "id": "mobile_image",
+      "label": "Mobile photograph"
+    },
+    {
+      "type": "text",
+      "id": "image_alt",
+      "label": "Image description"
+    },
+    {
+      "type": "checkbox",
+      "id": "enabled",
+      "label": "Show section",
+      "default": true
+    }
+  ],
+  "presets": [
+    {
+      "name": "Editorial brand moment"
+    }
+  ]
+}
+{% endschema %}

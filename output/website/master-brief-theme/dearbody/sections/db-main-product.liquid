@@ -1,0 +1,184 @@
+{% liquid
+  assign current_variant = product.selected_or_first_available_variant
+  assign active_media = current_variant.featured_media | default: product.featured_media
+  assign product_form_id = 'db-product-form-' | append: section.id
+  assign current_cart_quantity = cart | item_count_for_variant: current_variant.id
+  assign quantity_increment = current_variant.quantity_rule.increment | default: 1
+  assign quantity_min = current_variant.quantity_rule.min | default: 1
+  if current_cart_quantity < quantity_min
+    assign quantity_min = quantity_min | minus: current_cart_quantity
+  else
+    assign quantity_remainder = current_cart_quantity | modulo: quantity_increment
+    assign quantity_min = quantity_increment | minus: quantity_remainder
+  endif
+  assign quantity_max = current_variant.quantity_rule.max
+  assign quantity_limit_reached = false
+  if quantity_max != blank
+    assign quantity_max = quantity_max | minus: current_cart_quantity
+    if quantity_max < quantity_min
+      assign quantity_limit_reached = true
+    endif
+  endif
+  assign can_purchase = false
+  if current_variant.available and current_variant.price > 0 and quantity_limit_reached == false
+    assign can_purchase = true
+  endif
+  assign bullet_count = 0
+  for index in (1..5)
+    assign bullet_key = 'bullet_' | append: index
+    if product.metafields.custom[bullet_key].value != blank
+      assign bullet_count = bullet_count | plus: 1
+    endif
+  endfor
+%}
+
+<section class="db-section" data-db-product data-section-id="{{ section.id }}">
+  <div class="db-container">
+    <nav class="db-breadcrumbs" aria-label="Breadcrumb">
+      <a href="{{ routes.root_url }}">Home</a><span aria-hidden="true">/</span>
+      <a href="{{ routes.all_products_collection_url }}">All fragrances</a><span aria-hidden="true">/</span>
+      <span aria-current="page">{{ product.title | escape }}</span>
+    </nav>
+    <div class="db-product-layout">
+      <div class="db-gallery" aria-label="{{ product.title | escape }} media">
+        <div class="db-gallery__panels">
+          {% for media in product.media %}
+            <div id="db-media-{{ section.id }}-{{ media.id }}" class="db-gallery__panel" data-db-media-panel data-db-media-id="{{ media.id }}" role="group" aria-label="Media {{ forloop.index }} of {{ product.media.size }}" {% unless media.id == active_media.id %}hidden{% endunless %}>
+              {% if media.media_type == 'image' %}
+                {% liquid
+                  assign image_alt = media.alt | default: product.title
+                  assign image_loading = 'lazy'
+                  if media.id == active_media.id
+                    assign image_loading = 'eager'
+                  endif
+                %}
+                {{ media | image_url: width: 1800 | image_tag: widths: '360, 540, 720, 960, 1200, 1800', sizes: '(min-width: 990px) 55vw, 100vw', loading: image_loading, alt: image_alt, class: 'db-gallery__image' }}
+              {% else %}
+                {{ media | media_tag: controls: true }}
+              {% endif %}
+            </div>
+          {% else %}
+            <div class="db-gallery__placeholder"><span>{{ product.title | escape }}</span></div>
+          {% endfor %}
+        </div>
+        {% if product.media.size > 1 %}
+          <div class="db-gallery__thumbnails" aria-label="Choose product media">
+            {% for media in product.media %}
+              <button class="db-gallery__thumbnail" type="button" data-db-media-target="db-media-{{ section.id }}-{{ media.id }}" aria-controls="db-media-{{ section.id }}-{{ media.id }}" aria-label="View media {{ forloop.index }} of {{ product.media.size }} for {{ product.title | escape }}" aria-pressed="{% if media.id == active_media.id %}true{% else %}false{% endif %}">
+                {% if media.preview_image %}
+                  {{ media.preview_image | image_url: width: 180 | image_tag: widths: '90, 180', sizes: '72px', loading: 'lazy', alt: '', class: 'db-gallery__thumbnail-image' }}
+                {% else %}<span>{{ forloop.index }}</span>{% endif %}
+                {% if media.media_type != 'image' %}<span class="db-gallery__media-type">{% if media.media_type == 'model' %}3D{% else %}Video{% endif %}</span>{% endif %}
+              </button>
+            {% endfor %}
+          </div>
+        {% endif %}
+        <noscript><style>.db-gallery__panel[hidden]{display:block!important}.db-gallery__thumbnails{display:none}</style></noscript>
+      </div>
+
+      <div class="db-product-info">
+        <h1 class="db-title">{{ product.title | escape }}</h1>
+        {% if product.metafields.custom.hero_statement.value != blank %}
+          <p class="db-product-hero-statement">{{ product.metafields.custom.hero_statement.value | escape }}</p>
+        {% endif %}
+        <p class="db-price" data-db-price aria-live="polite">{% if current_variant.price > 0 %}{{ current_variant.price | money_with_currency }}{% else %}Available soon{% endif %}</p>
+
+        {% comment %}Install a genuine reviews app and add its rating block here. No fabricated rating or review count.{% endcomment %}
+        {% for block in section.blocks %}
+          {% if block.type == '@app' %}{% render block %}{% endif %}
+        {% endfor %}
+
+        {% form 'product', product, id: product_form_id, class: 'db-product-form' %}
+          {{ form.errors | default_errors }}
+          {% unless product.has_only_default_variant %}
+            <div class="db-field">
+              <label for="db-variant-{{ section.id }}">{{ product.options | join: ' / ' | escape }}</label>
+              <select id="db-variant-{{ section.id }}" name="id" data-db-variant>
+                {% for variant in product.variants %}
+                  <option value="{{ variant.id }}" {% if variant.id == current_variant.id %}selected{% endif %} {% if variant.price <= 0 or variant.available == false %}disabled{% endif %}>
+                    {{ variant.title | escape }}{% if variant.price <= 0 %} — Available soon{% elsif variant.available == false %} — Sold out{% endif %}
+                  </option>
+                {% endfor %}
+              </select>
+            </div>
+          {% else %}
+            <input type="hidden" name="id" value="{{ current_variant.id }}" data-db-variant>
+          {% endunless %}
+          <div class="db-field db-field--quantity">
+            <label for="db-quantity-{{ section.id }}">Quantity</label>
+            <input id="db-quantity-{{ section.id }}" type="number" name="quantity" value="{{ quantity_min }}" min="{{ quantity_min }}" step="{{ quantity_increment }}" {% if quantity_max != blank %}max="{{ quantity_max }}"{% endif %} inputmode="numeric" data-db-quantity aria-describedby="db-quantity-rules-{{ section.id }}">
+          </div>
+          <p id="db-quantity-rules-{{ section.id }}" class="db-quantity-rules" data-db-quantity-rules {% if current_variant.quantity_rule.min <= 1 and current_variant.quantity_rule.increment <= 1 and current_variant.quantity_rule.max == blank %}hidden{% endif %}>Minimum {{ current_variant.quantity_rule.min | default: 1 }}. Increments of {{ quantity_increment }}.{% if current_variant.quantity_rule.max != blank %} Maximum {{ current_variant.quantity_rule.max }} per order.{% endif %}{% if current_cart_quantity > 0 %} {{ current_cart_quantity }} already in your bag.{% endif %}</p>
+          <button type="submit" name="add" class="db-button db-product-info__add" data-db-add {% unless can_purchase %}disabled{% endunless %}>
+            {% if current_variant.price <= 0 %}Available soon{% elsif current_variant.available == false %}Sold out{% elsif quantity_limit_reached %}Maximum quantity in bag{% else %}Add to bag{% endif %}
+          </button>
+          {% if section.settings.show_dynamic_checkout %}
+            <div class="db-product-payment" data-db-payment {% unless can_purchase %}hidden{% endunless %}>{{ form | payment_button }}</div>
+          {% endif %}
+        {% endform %}
+
+        {% if bullet_count > 0 %}
+          <section class="db-product-copy" aria-labelledby="db-love-{{ section.id }}">
+            <h2 id="db-love-{{ section.id }}">Why you'll love it</h2>
+            <ol class="db-product-benefits">
+              {% for index in (1..5) %}
+                {% assign bullet_key = 'bullet_' | append: index %}
+                {% if product.metafields.custom[bullet_key].value != blank %}<li>{{ product.metafields.custom[bullet_key] | metafield_tag }}</li>{% endif %}
+              {% endfor %}
+            </ol>
+          </section>
+        {% endif %}
+        {% if product.metafields.custom.scent_description.value != blank or product.description != blank %}
+          <section class="db-product-copy" aria-labelledby="db-scent-{{ section.id }}">
+            <h2 id="db-scent-{{ section.id }}">The scent</h2>
+            <div class="db-richtext">{% if product.metafields.custom.scent_description.value != blank %}{{ product.metafields.custom.scent_description | metafield_tag }}{% else %}{{ product.description }}{% endif %}</div>
+          </section>
+        {% endif %}
+        {% if product.metafields.custom.scent_character.value != blank %}
+          <section class="db-product-copy" aria-labelledby="db-character-{{ section.id }}">
+            <h2 id="db-character-{{ section.id }}">Scent character</h2>
+            {% if product.metafields.custom.scent_character.type contains 'list.' %}
+              <ul class="db-scent-chips">{% for character in product.metafields.custom.scent_character.value %}<li>{{ character | escape }}</li>{% endfor %}</ul>
+            {% else %}<div class="db-richtext">{{ product.metafields.custom.scent_character | metafield_tag }}</div>{% endif %}
+          </section>
+        {% endif %}
+        {% if product.metafields.custom.occasion.value != blank %}
+          <section class="db-product-copy" aria-labelledby="db-occasion-{{ section.id }}">
+            <h2 id="db-occasion-{{ section.id }}">Perfect for</h2>
+            <div class="db-richtext">{{ product.metafields.custom.occasion | metafield_tag }}</div>
+          </section>
+        {% endif %}
+        {% if product.metafields.custom.top_notes.value != blank or product.metafields.custom.heart_notes.value != blank or product.metafields.custom.base_notes.value != blank %}
+          <section class="db-product-copy" aria-labelledby="db-notes-{{ section.id }}">
+            <h2 id="db-notes-{{ section.id }}">The fragrance notes</h2>
+            <dl class="db-scent-notes">
+              {% if product.metafields.custom.top_notes.value != blank %}<div><dt>Top</dt><dd>{{ product.metafields.custom.top_notes | metafield_tag }}</dd></div>{% endif %}
+              {% if product.metafields.custom.heart_notes.value != blank %}<div><dt>Heart</dt><dd>{{ product.metafields.custom.heart_notes | metafield_tag }}</dd></div>{% endif %}
+              {% if product.metafields.custom.base_notes.value != blank %}<div><dt>Base</dt><dd>{{ product.metafields.custom.base_notes | metafield_tag }}</dd></div>{% endif %}
+            </dl>
+          </section>
+        {% endif %}
+        {% if shop.shipping_policy.body != blank or shop.refund_policy.body != blank %}
+          <div class="db-product-info__policies">
+            {% if shop.shipping_policy.body != blank %}<a href="{{ shop.shipping_policy.url }}">Shipping information</a>{% endif %}
+            {% if shop.refund_policy.body != blank %}<a href="{{ shop.refund_policy.url }}">Returns policy</a>{% endif %}
+          </div>
+        {% endif %}
+        {% if product.metafields.custom.ingredients.value != blank %}<details class="db-product-info__detail"><summary>Ingredients</summary><div class="db-richtext">{{ product.metafields.custom.ingredients | metafield_tag }}</div></details>{% endif %}
+        {% if product.metafields.custom.care.value != blank %}<details class="db-product-info__detail"><summary>Care</summary><div class="db-richtext">{{ product.metafields.custom.care | metafield_tag }}</div></details>{% endif %}
+      </div>
+    </div>
+  </div>
+  <script type="application/json" data-db-variants>{{ product.variants | json }}</script>
+  <script type="application/json" data-db-variant-prices>{ {% for variant in product.variants %}{{ variant.id | append: '' | json }}: {{ variant.price | money_with_currency | json }}{% unless forloop.last %},{% endunless %}{% endfor %} }</script>
+  <script type="application/json" data-db-variant-rules>{ {% for variant in product.variants %}{{ variant.id | append: '' | json }}: {"min":{{ variant.quantity_rule.min | default: 1 | json }},"max":{{ variant.quantity_rule.max | json }},"increment":{{ variant.quantity_rule.increment | default: 1 | json }},"in_cart":{{ cart | item_count_for_variant: variant.id | json }}}{% unless forloop.last %},{% endunless %}{% endfor %} }</script>
+  <script type="application/ld+json">{{ product | structured_data }}</script>
+</section>
+
+{% schema %}
+{
+  "name": "DearBody product",
+  "settings": [{"type":"checkbox","id":"show_dynamic_checkout","label":"Show accelerated checkout","default":true}],
+  "blocks": [{"type":"@app"}]
+}
+{% endschema %}

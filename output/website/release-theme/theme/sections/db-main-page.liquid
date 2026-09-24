@@ -1,0 +1,2 @@
+<section class="db-container db-section"><h1 class="db-title">{{ page.title | escape }}</h1><div class="db-richtext">{{ page.content }}</div>{% for block in section.blocks %}{% render block %}{% endfor %}</section>
+{% schema %}{"name":"DearBody page","settings":[],"blocks":[{"type":"@app"}]}{% endschema %}

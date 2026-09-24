@@ -1,0 +1,27 @@
+<section class="db-section db-search-page">
+  <div class="db-container">
+    <p class="db-kicker">Your scent journey</p>
+    <h1 class="db-title">Find your fragrance.</h1>
+    <form action="{{ routes.search_url }}" method="get" role="search" class="db-search-form" data-db-search data-predictive-url="{{ routes.predictive_search_url }}">
+      <label for="db-search-page-{{ section.id }}">Search DearBody</label>
+      <div class="db-search-field"><input id="db-search-page-{{ section.id }}" type="search" name="q" value="{{ search.terms | escape }}" placeholder="Search fragrances" autocomplete="off"><button class="db-button" type="submit">Search</button></div>
+      <input type="hidden" name="type" value="product"><input type="hidden" name="options[prefix]" value="last">
+      <div data-db-search-results class="db-search-suggestions" hidden></div>
+      <p class="db-visually-hidden" data-db-search-status role="status" aria-live="polite"></p>
+    </form>
+    {% if search.performed %}
+      <p class="db-search-summary">{{ search.results_count }} {% if search.results_count == 1 %}result{% else %}results{% endif %} for “{{ search.terms | escape }}”</p>
+      {% paginate search.results by section.settings.products_per_page %}
+        <div class="db-product-grid">
+          {% for item in search.results %}
+            {% if item.object_type == 'product' %}{% render 'db-product-card', product: item %}{% else %}<article><h2><a href="{{ item.url }}">{{ item.title | escape }}</a></h2></article>{% endif %}
+          {% else %}<p class="db-search-empty">Your next scent might be a search away. Try another fragrance name or explore <a href="{{ routes.all_products_collection_url }}">all fragrances</a>.</p>{% endfor %}
+        </div>
+        {% if paginate.pages > 1 %}<nav class="db-pagination" aria-label="Search result pages">{{ paginate | default_pagination }}</nav>{% endif %}
+      {% endpaginate %}
+    {% endif %}
+  </div>
+</section>
+{% schema %}
+{"name":"Search results","settings":[{"type":"range","id":"products_per_page","label":"Results per page","min":6,"max":36,"step":6,"default":12}]}
+{% endschema %}

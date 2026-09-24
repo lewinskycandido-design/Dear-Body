@@ -1,0 +1,95 @@
+{% capture escaped_less_than %}\u003c{% endcapture %}
+{{ 'dearbody-quiz.css' | asset_url | stylesheet_tag }}
+<script src="{{ 'dearbody-quiz.js' | asset_url }}" defer></script>
+{% liquid
+  assign finder_id = 'DearBodyScentFinder-' | append: section.id
+  assign attribute_keys = 'scent_character,mood,occasion,intensity,gender' | split: ','
+  assign emitted_count = 0
+  assign emitted_ids = '|'
+%}
+<section id="{{ finder_id }}" class="db-scent-quiz db-section" data-scent-finder aria-labelledby="{{ finder_id }}-title">
+  <div class="db-container db-quiz-shell">
+    <header class="db-quiz-header">
+      <p class="db-kicker">{{ section.settings.eyebrow | escape }}</p>
+      <h2 id="{{ finder_id }}-title">{{ section.settings.heading | escape }}</h2>
+      <p>Choose the scent qualities that speak to you. You can leave any question open.</p>
+    </header>
+    <div data-quiz-content>
+      <p>Explore the collection to find the fragrance that feels like you.</p>
+      <a class="db-button" href="{{ routes.all_products_collection_url }}">Explore all fragrances</a>
+      <noscript><p class="db-quiz-hint">Enable JavaScript to use the scent finder.</p></noscript>
+    </div>
+    <p class="db-quiz-status db-visually-hidden" data-quiz-status role="status" aria-live="polite" aria-atomic="true"></p>
+    {% if request.design_mode %}
+      <aside class="db-discovery-setup">
+        <strong>Scent finder setup</strong>
+        <p>Select a collection (up to its first 50 products) or use the six product pickers. Products appear only when <code>custom.scent_finder_enabled</code> is a Boolean set to true. Add confirmed <code>custom.scent_character</code>, <code>custom.mood</code>, <code>custom.occasion</code>, <code>custom.intensity</code> or <code>custom.gender</code> as single line text or a list of single line text. Questions appear only for supplied fields. Product names, photos, prices and availability come from Shopify.</p>
+      </aside>
+    {% endif %}
+  </div>
+  <script type="application/json" data-quiz-catalog>
+    {
+      "allProductsUrl": {{ routes.all_products_collection_url | json | replace: '<', escaped_less_than }},
+      "products": [
+        {% for index in (0..49) %}
+          {% liquid
+            if section.settings.collection != blank
+              assign quiz_product = section.settings.collection.products[index]
+            else
+              if index > 5
+                break
+              endif
+              assign picker_number = index | plus: 1
+              assign picker_key = 'product_' | append: picker_number
+              assign quiz_product = section.settings[picker_key]
+            endif
+            assign product_key = quiz_product.id | prepend: '|' | append: '|'
+          %}
+          {% if quiz_product != blank and quiz_product.metafields.custom.scent_finder_enabled.type == 'boolean' and quiz_product.metafields.custom.scent_finder_enabled.value == true %}
+            {% unless emitted_ids contains product_key %}
+              {% if emitted_count > 0 %},{% endif %}
+              {
+                "id": {{ quiz_product.id | append: '' | json }},
+                "enabled": true,
+                "name": {{ quiz_product.title | json | replace: '<', escaped_less_than }},
+                "url": {{ quiz_product.url | json | replace: '<', escaped_less_than }},
+                "image": {% if quiz_product.featured_image %}{{ quiz_product.featured_image | image_url: width: 600 | json | replace: '<', escaped_less_than }}{% else %}null{% endif %},
+                "imageAlt": {{ quiz_product.featured_image.alt | default: quiz_product.title | json | replace: '<', escaped_less_than }},
+                "description": {{ quiz_product.metafields.custom.short_description.value | default: '' | strip_html | json | replace: '<', escaped_less_than }},
+                "price": {{ quiz_product.price | money_with_currency | json | replace: '<', escaped_less_than }},
+                "priceVaries": {{ quiz_product.price_varies | json }},
+                "available": {{ quiz_product.available | json }},
+                "attributes": {
+                  {% for attribute_key in attribute_keys %}
+                    {% assign attribute = quiz_product.metafields.custom[attribute_key] %}
+                    {{ attribute_key | json }}: {% if attribute.type == 'list.single_line_text_field' or attribute.type == 'single_line_text_field' %}{{ attribute.value | json | replace: '<', escaped_less_than }}{% else %}null{% endif %}{% unless forloop.last %},{% endunless %}
+                  {% endfor %}
+                }
+              }
+              {% assign emitted_count = emitted_count | plus: 1 %}
+              {% assign emitted_ids = emitted_ids | append: product_key %}
+            {% endunless %}
+          {% endif %}
+        {% endfor %}
+      ]
+    }
+  </script>
+</section>
+{% schema %}
+{
+  "name": "DearBody scent quiz",
+  "settings": [
+    {"type":"text","id":"eyebrow","label":"Eyebrow","default":"FOLLOW YOUR FEELING"},
+    {"type":"text","id":"heading","label":"Heading","default":"A little closer to your scent."},
+    {"type":"paragraph","content":"Only enabled products with confirmed scent metafields are used. No fragrance attributes or collection assignments are inferred."},
+    {"type":"collection","id":"collection","label":"Product collection","info":"Uses the first 50 products. When selected, this takes priority over the product pickers."},
+    {"type":"product","id":"product_1","label":"Mojito Metallique"},
+    {"type":"product","id":"product_2","label":"Amber Oud Silk"},
+    {"type":"product","id":"product_3","label":"Mistened Narcissus"},
+    {"type":"product","id":"product_4","label":"Charme Envoûtant"},
+    {"type":"product","id":"product_5","label":"Oud Mirage"},
+    {"type":"product","id":"product_6","label":"Rtulle & Satin"}
+  ],
+  "presets":[{"name":"DearBody scent quiz"}]
+}
+{% endschema %}

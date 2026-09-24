@@ -1,0 +1,30 @@
+<div class="db-announcement">{{ section.settings.announcement | escape }}</div>
+<header class="db-header">
+  <div class="db-container db-header-inner">
+    <a href="{{ routes.root_url }}" class="db-wordmark" aria-label="{{ shop.name | escape }} home">
+      {% if settings.logo %}{{ settings.logo | image_url: width: 440 | image_tag: width: 220, loading: 'eager', alt: shop.name }}{% else %}{% render 'db-logo' %}{% endif %}
+    </a>
+    <nav class="db-desktop-nav" aria-label="Main navigation">
+      {% render 'db-navigation', menu: section.settings.menu, settings: settings, collections: collections, routes: routes, request: request %}
+    </nav>
+    <div class="db-header-actions">
+      <a href="{{ routes.cart_url }}" class="db-bag db-bag--icon" aria-label="Shopping cart, {{ cart.item_count }} {% if cart.item_count == 1 %}item{% else %}items{% endif %}" title="Shopping cart">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
+          <path d="M3 3h2l2.4 11.6a2 2 0 0 0 2 1.6h8.2a2 2 0 0 0 2-1.6L21 7H6"/>
+          <circle cx="10" cy="20" r="1.3"/>
+          <circle cx="18" cy="20" r="1.3"/>
+        </svg>
+        {% if cart.item_count > 0 %}<span class="db-cart-count" aria-hidden="true">{{ cart.item_count }}</span>{% endif %}
+      </a>
+      <details class="db-mobile-menu">
+        <summary>Menu <span aria-hidden="true">☰</span></summary>
+        <nav aria-label="Mobile navigation">
+          {% render 'db-navigation', menu: section.settings.menu, settings: settings, collections: collections, routes: routes, request: request %}
+        </nav>
+      </details>
+    </div>
+  </div>
+</header>
+{% schema %}
+{"name":"DearBody header","settings":[{"type":"text","id":"announcement","label":"Announcement","default":"A SCENT JOURNEY"},{"type":"link_list","id":"menu","label":"Main menu"}]}
+{% endschema %}

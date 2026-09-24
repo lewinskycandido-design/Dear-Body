@@ -1,0 +1,25 @@
+{
+  "source": "../SHOPIFY_PRODUCT_DRAFT_PROGRESS.md, collection connection and six-scent publication tables (2026-09-24); corroborated by local product source facts/manifests",
+  "collections": [
+    {
+      "id": 101,
+      "title": "Women's fragrances",
+      "handle": "womens-perfume",
+      "products": [
+        "mojito-metallique",
+        "amber-oud-silk",
+        "mistened-narcissus"
+      ]
+    },
+    {
+      "id": 102,
+      "title": "Men's fragrances",
+      "handle": "mens-perfume",
+      "products": [
+        "oud-mirage",
+        "charme-envoutant",
+        "rtulle-satin"
+      ]
+    }
+  ]
+}

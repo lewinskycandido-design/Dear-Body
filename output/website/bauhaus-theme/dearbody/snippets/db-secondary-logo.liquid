@@ -1,0 +1,7 @@
+{% comment %}Secondary circular DearBody mark. Alpha masking adapts the same artwork to each brand-color field.{% endcomment %}
+{% if settings.secondary_logo %}
+  {% assign secondary_artwork = settings.secondary_logo | image_url: width: 480 %}
+{% else %}
+  {% assign secondary_artwork = 'db-logo-secondary.svg' | asset_url %}
+{% endif %}
+<span class="db-secondary-logo-art" role="img" aria-label="DearBody PH circular monogram" style="--db-secondary-artwork: url('{{ secondary_artwork | escape }}')"></span>

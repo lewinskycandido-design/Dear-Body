@@ -1,0 +1,16 @@
+{% if predictive_search.performed %}
+  <div data-db-predictive-content>
+    <ul role="listbox" aria-label="Suggested fragrances" data-db-predictive-list>
+      {% for product in predictive_search.resources.products %}
+        <li role="presentation">
+          <a href="{{ product.url }}" role="option" aria-selected="false" tabindex="-1" data-db-search-option>
+            {% if product.featured_image %}{{ product.featured_image | image_url: width: 120 | image_tag: widths: '60, 120', sizes: '60px', loading: 'lazy', alt: '' }}{% endif %}
+            <span><span class="db-search-result-title">{{ product.title | escape }}</span><span class="db-search-result-price">{% if product.price > 0 %}{% if product.price_varies %}From {% endif %}{{ product.price | money_with_currency }}{% else %}Available soon{% endif %}</span></span>
+          </a>
+        </li>
+      {% endfor %}
+      <li role="presentation"><a href="{{ routes.search_url }}?q={{ predictive_search.terms | url_encode }}&amp;type=product&amp;options%5Bprefix%5D=last" role="option" aria-selected="false" tabindex="-1" data-db-search-option class="db-search-all">Search for “{{ predictive_search.terms | escape }}” <span aria-hidden="true">↗</span></a></li>
+    </ul>
+    <span data-db-predictive-count hidden>{{ predictive_search.resources.products.size }}</span>
+  </div>
+{% endif %}

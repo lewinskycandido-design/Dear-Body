@@ -1,0 +1,37 @@
+{
+  "date": "2026-09-24",
+  "tool": "Codex in-app browser / CUA",
+  "widths": [
+    375,
+    390,
+    430,
+    768,
+    1024,
+    1280,
+    1440,
+    1728
+  ],
+  "routes": [
+    "/",
+    "/collections/all",
+    "/collections/womens-perfume",
+    "/collections/mens-perfume",
+    "/products/mojito-metallique",
+    "/products/amber-oud-silk",
+    "/products/mistened-narcissus",
+    "/products/charme-envoutant",
+    "/products/oud-mirage",
+    "/products/rtulle-satin",
+    "/cart",
+    "/preview/empty-cart",
+    "/pages/scent-finder",
+    "/pages/our-story",
+    "/pages/contact",
+    "/search",
+    "/404"
+  ],
+  "checks": 136,
+  "failures": [],
+  "captured_console_errors": [],
+  "notes": "Read-only DOM checks for document width, one H1, and broken loaded images. Browser screenshots visually reviewed; no store involved."
+}

@@ -1,0 +1,191 @@
+[
+  {
+    "tool": "Built-in image_gen",
+    "prompt": "Use case: product-mockup.\nAsset type: a polished photographic website editorial image for DearBody Philippines. Portrait 3:4 format, maximum available resolution.\nPrimary request: Use the attached raw product photographs ONLY as identity references and create a substantially more polished photograph of the entire six-scent collection thoughtfully displayed inside a warm, light contemporary home. Do not recreate the raw office setting, monitor, laptop, bag, hand, cushion or phone flash.\n\nInput roles: reference image 1 shows all six real canister labels/names; reference image 2 shows the exact real bottles and their colors across the six-scent collection; references 3 and 4 show clearer upright bottle-label details for the three ivory and three black labels. Physical products are the source of truth.\nSubject: exactly six cylindrical clear-glass perfume bottles, all the same real-size family, thick flat glass bases, glossy black cylindrical tall caps, thin silver neck collars. All six capped, standing naturally on a warm walnut home console. No product dominates and no duplicates. Show the full silhouette, cap, label and base of every bottle.\nArrange in two relaxed staggered rows of three on a low cream stone riser and the walnut surface with a neatly folded burgundy velvet runner at one edge. Make this feel like someone's beautiful personal fragrance collection. Tall cream plaster wall and softly lit linen curtain in background, tiny out-of-focus curved burnt-orange home accessory at a far edge. Plenty of breathing room. Camera at bottle-label height with a slight downward angle; controlled perspective, sharp labels, natural grounded shadows. Product group occupies roughly 65-75% of image width and 65% of image height. Warm bright morning window light, soft highlights, real glass refraction; professional commercial product photography, approachable and colorful, not gloomy or ostentatious.\n\nExact six identities, each once:\n1 MOJITO METALLIQUE: pale ivory rectangular label, black bold serif uppercase title on two lines, golden yellow transparent liquid.\n2 AMBER OUD SILK: pale ivory label, black bold serif uppercase on two lines, pale peach/champagne transparent liquid.\n3 MISTENED NARCISSUS: pale ivory label, black bold serif uppercase on two lines, nearly clear subtly lilac liquid.\n4 OUD MIRAGE: black rectangular label with white bold serif uppercase title, very pale blue/lilac transparent liquid.\n5 CHARME ENVOÛTANT: black rectangular label, white bold serif uppercase on two lines including exact Û accent, warm transparent amber-orange liquid.\n6 RTULLE & SATIN: black rectangular label, white bold serif uppercase title (initial R is intentional), pale transparent turquoise liquid.\nAll labels retain the small original monogram + PARFUM / LONDON lettering exactly as seen in the references. Do NOT replace that product label mark with DEAR BODY. Preserve original label hierarchy and bottle proportions. Do not add volume, claims or notes. Do not add extra products or packaging.\n\nOverall setting palette: DearBody cream #f4e3cb, burgundy #5c0006, natural golden tan wood and a restrained burnt-orange #d46601 accent. Preserve the cool blue/lilac/turquoise liquid hues of the real products without a cold cast. High photographic realism, precise commercial lighting and subtle natural texture.\nAvoid: office surroundings, red round cushion, tilted labels, missing scent, invented spelling, altered product geometry, labels obscured by reflection, excess clutter, flowers/fruit/ingredients, overlay headlines, badges, decorative text, unrelated brand logos, watermarks, people or faces.",
+    "reference_paths": [
+      "/Users/wetrade/Downloads/IMG_20260923_162213.jpg",
+      "/Users/wetrade/Downloads/IMG_20260923_163426.jpg",
+      "/Users/wetrade/Downloads/IMG_20260923_163311.jpg",
+      "/Users/wetrade/Downloads/IMG_20260923_163159.jpg"
+    ],
+    "master": "collection-v1.png",
+    "website_asset": "../shopify-theme/dearbody/assets/db-lifestyle-collection.jpg",
+    "dimensions": [
+      1086,
+      1448
+    ],
+    "qa": "All six full bottles, correct scent names including CHARME ENVOÛTANT and RTULLE & SATIN; correct 3 ivory / 3 black label families; warm home staging. Glass and small monograms are AI representations rather than pixel-identical reproductions.",
+    "status": "visually reviewed"
+  },
+  {
+    "asset": "For Her lifestyle trio",
+    "master": "output/website/refined-reference-images/for-her-v1.png",
+    "web": "output/website/shopify-theme/dearbody/assets/db-lifestyle-for-her.jpg",
+    "mode": "Built-in image_gen",
+    "intent": "New image generated using raw photos as identity references only",
+    "prompt": "Use case: product-mockup.\nAsset type: square 1:1 premium but approachable DearBody Philippines website collection photograph, high-resolution final commercial photography.\nPrimary request: Generate a NEW polished photograph of the three women's priority fragrances displayed as a collection in a real, warm, airy home. The two reference images are IDENTITY REFERENCES ONLY, not backgrounds to reproduce.\nImage 1 (IMG_20260923_163311.jpg): exact bottle silhouettes, relative proportions, ivory labels, scent names, glossy black cylinder caps, thin silver collars, glass bases, actual monogram and PARFUM / LONDON label logo.\nImage 2 (IMG_20260923_162432.jpg): confirms bottle colors and packaging identity; do not reproduce the office scene.\n\nScene/backdrop: a contemporary cream stone vanity in a sunny home. Place a small shallow burgundy lacquer tray on the vanity. A softly folded cream linen cloth rests beside and partly under the tray; warm wood edge and softly blurred cream plaster wall beyond. Warm gentle window light, serene everyday warmth, approachable and light, subtly joyful through rich color and tactile material.\nSubject and composition: exactly THREE physical perfume bottles, all upright and capped, displayed on the tray with subtle natural spacing in a loose shallow arc. Each bottle is equally prominent and the SAME real-world size. Show each entire bottle and cap with breathing room. Photograph from near bottle level, slight elevated angle, natural 70mm product-photo perspective, all three front labels crisply in focus. No bottle blocking another label. Arrange left to right MOJITO METALLIQUE, AMBER OUD SILK, MISTENED NARCISSUS. The grouping occupies about 70% of the square frame width and 55% of its height. Do not place them on artificial tall podiums. No boxes or canisters, just the bottles and restrained home materials.\nProduct fidelity: these are clear cylindrical glass perfume bottles with gently rounded shoulders, tall glossy BLACK CYLINDRICAL caps, very thin SILVER collars below caps, clear thick glass bases. Never rectangular bottles, never faceted caps, never gold caps. Ivory rectangular paper labels with black uppercase serif scent names. Use reference bottle proportions exactly. Mojito has transparent golden amber liquid; Amber Oud Silk has transparent very pale peach/champagne liquid; Mistened Narcissus is nearly clear with a very slight lilac tint. Natural honest glass transparency, highlights and reflections; physically believable shadows.\n\nExact label text, large name above small logo:\nLeft bottle: \"MOJITO\" then \"METALLIQUE\".\nMiddle bottle: \"AMBER OUD\" then \"SILK\".\nRight bottle: \"MISTENED\" then \"NARCISSUS\".\nBottom of each label: reproduce the small actual linked monogram from the reference followed by \"PARFUM\" with \"LONDON\" on a smaller line under it between fine horizontal rules. Keep the actual photographed label branding, do NOT replace it with DEAR BODY. Match the references closely. Text must be spelled exactly, not invented or abbreviated.\nPalette around products: soft cream #f4e3cb, deep burgundy #5c0006 tray, subtle golden tan #e9a250 light/wood. Real product liquid colors stay faithful. Balanced exposure with beautiful soft natural light, no harsh spotlight or gloomy shadows.\nAvoid: extra bottles, other scents, overlaid headlines, buttons, floating logos, any promotional copy outside labels, watermark, computers, televisions, desks, office clutter, velvet pillow, people, hands, flowers, fruit, jewelry, bathroom clutter, theatrical smoke, glossy 3D-render look, excessive haze, distorted letters, cap geometry changes.\nSquare 1:1 output. Photorealistic, refined, tactile, ready for a fragrance ecommerce website.",
+    "references": [
+      "/Users/wetrade/Downloads/IMG_20260923_163311.jpg",
+      "/Users/wetrade/Downloads/IMG_20260923_162432.jpg"
+    ],
+    "qa": {
+      "inspected": true,
+      "verdict": "Selected for website use",
+      "checks": [
+        "Exactly three women's priority bottles, no extra scents",
+        "Correct readable scent names: MOJITO METALLIQUE, AMBER OUD SILK, MISTENED NARCISSUS",
+        "Ivory labels; actual PARFUM / LONDON and linked monogram retained rather than replacing with DearBody",
+        "Round clear glass bottles, black cylindrical caps, thin silver collars and differentiated liquids",
+        "Warm cream vanity, burgundy tray and cream linen; all three products unobstructed and equally prominent",
+        "No copy overlay, office or raw-reference background"
+      ],
+      "limits": [
+        "AI-generated product depiction, not an exact photographic composite; fine monogram and glass details may vary slightly from source.",
+        "Soft-focus decor includes a vase/greenery and mirror outside the product area."
+      ]
+    }
+  },
+  {
+    "role": "For Him trio website category lifestyle image",
+    "mode": "built-in image_gen",
+    "prompt": "Use case: product-mockup.\nAsset type: square 1:1 premium approachable lifestyle category photo for the DearBody perfume website, final photograph at least 1536x1536.\nPrimary request: Generate a NEW polished commercial editorial photo of this exact three-scent perfume collection displayed naturally at home.\nInput images: Reference 1 is physical product identity authority for the three bottles, labels, liquid colors and caps. Reference 2 is supporting physical identity authority. They are reference photographs ONLY: do not reproduce their office background, cushion, screen, clutter, casual lighting, or original camera composition.\nScene/backdrop: a contemporary home walnut console with visible tactile wood grain, a curved warm cream plaster wall behind it, soft sunny window-light crossing the wall, one small burnt-orange ceramic detail very far behind and softly blurred. Attainable stylish real home, bright, welcoming, warm, calm with playful color, not a shop display.\nSubjects: exactly THREE perfume bottles at equal real size and equal visual prominence, clear cylindrical glass with thick clear-glass bases, shoulder shape exactly as references, glossy black cylindrical caps and thin silver collar. Upright front-facing bottles in a shallow stagger on the walnut console, each label readable without overlap. No canisters are needed. Left bottle OUD MIRAGE with transparent pale blue/lilac liquid; middle bottle CHARME ENVOÛTANT with transparent amber-orange liquid; right bottle RTULLE & SATIN with transparent pale turquoise liquid. Maintain actual bottle, cap, label proportions, and realistic approximately 50ml scale.\nLabel text, verbatim, large white bold serif uppercase on black rectangular labels: \"OUD MIRAGE\", \"CHARME ENVOÛTANT\", \"RTULLE & SATIN\". Match the physical label layout from references including the small original intertwined monogram beside \"PARFUM\" and \"LONDON\" underneath, identical to reference. Do not replace that printed mark with DEAR BODY or new branding.\nComposition: square 1:1, editorial tabletop photo from slightly above bottle-mid-height, three separated bottles occupy central 70% of frame and are all sharp, bottle bases visible with convincing contact shadows. Moderate breathing room above caps and beneath bases. Natural depth and balanced commercial composition.\nLighting/mood: warm bright morning daylight and gentle soft fill, crisp but soft-edged shadows, clean specular glass edges, accurate transparent pale liquid colors, believable reflections, subtle luminous material detail. Welcoming, fun and light premium approachable style.\nConstraints: faithful real products and labels; do not redesign bottles, labels or caps; do not add unverified text, flowers, fruit or ingredient props; no humans, hands, faces or reflections of people; no overlay headline, text, badge, logo, watermark, border or UI. No computer, cushion, office objects. Not a collage, not a contact sheet. A single photorealistic finished commercial lifestyle photograph.",
+    "references": [
+      {
+        "path": "/Users/wetrade/Downloads/IMG_20260923_163159.jpg",
+        "role": "Product identity reference, not used as finished website photography"
+      },
+      {
+        "path": "/Users/wetrade/Downloads/IMG_20260923_162544.jpg",
+        "role": "Supporting product identity and packaging reference"
+      }
+    ],
+    "generation_source": "/Users/wetrade/.codex/generated_images/01a0cebc-6fcd-76f2-b47a-e624ba485af1/exec-95179dd6-9208-46cb-b713-62fb253adb73.png",
+    "master": "output/website/refined-reference-images/for-him-v1.png",
+    "web_export": "output/website/shopify-theme/dearbody/assets/db-lifestyle-for-him.jpg",
+    "qa": {
+      "inspected": "Generated master displayed inline at native dimensions before export; final 1200-square JPEG reopened and visually checked",
+      "result": "PASS for website category editorial use",
+      "checks": [
+        "Exactly three black-label bottles, equally prominent, no label overlap",
+        "Names OUD MIRAGE, CHARME ENVOÛTANT, RTULLE & SATIN are visible",
+        "Cylindrical clear glass, thick bases, black cylindrical caps, thin silver collars",
+        "Pale blue/lilac, amber-orange and pale turquoise liquid identities retained",
+        "Warm bright home walnut console and cream wall with restrained orange ceramic",
+        "No humans, overlaid copy, watermark, added claims, ingredient props or office background",
+        "Original PARFUM / LONDON label branding represented; no DearBody logo substituted"
+      ],
+      "limitations": "AI-generated lifestyle photography; tiny printed monogram details are represented visually, not a pixel-identical reproduction. Liquid color appearance varies under generated warm lighting."
+    },
+    "export": {
+      "tool": "sips",
+      "format": "JPEG",
+      "quality": 90,
+      "longest_edge": 1200,
+      "master_dimensions": [
+        1254,
+        1254
+      ],
+      "web_dimensions": [
+        1200,
+        1200
+      ],
+      "master_sha256": "4e19592fc0b044519a63cdd37304eb5d257fab115b930e45ff6ae20e38194a80",
+      "web_sha256": "75edc07474349fa85a0d9e2d3782abaa48ff65395140d140079babb9c5be081d"
+    }
+  },
+  {
+    "role": "Contact page top banner photograph",
+    "mode": "built-in image_gen",
+    "use_case": "photorealistic-natural",
+    "prompt": "Use case: photorealistic-natural.\nAsset type: a wide landscape 3:2 photograph for the contact page banner of the DearBody fragrance website, target 1536x1024.\nPrimary request: Create an inviting home correspondence corner in a warm, fun, light, premium but approachable style. This single finished photo will sit beside a live LET'S TALK heading, so include no overlay text.\nScene: sunlit cream plaster wall and warm walnut table in a stylish contemporary home. A softly sculptural vintage cream telephone has a deep burgundy handset correctly seated on its cradle and a matching burgundy coiled cord, shown at a natural three-quarter angle. Its understated dial or buttons have no legible letters or numbers. Beside it lie one blank cream note card, a slim warm-metal pen resting diagonally on the card, and a small closed burgundy notebook without any writing. Farther back is one restrained burnt-orange curved ceramic home accessory, softly out of focus.\nComposition: landscape 3:2, editorial still life, all main objects fully contained with comfortable margins, telephone as the focal point, layered table depth, subtle geometric window light and shadow on the cream wall. Intimate home scale, uncluttered and polished, a small playful geometry detail without looking like a shop or office. Products not needed.\nLight and materials: bright warm daylight with soft fill, tactile cream plaster, natural wood grain, realistic glossy telephone enamel, precise coil geometry, gentle warm metal pen highlights, inviting controlled color and crisp natural textures.\nBrand palette dominates: deep burgundy #5c0006, rich red #9a1106, burnt orange #d46601, golden tan #e9a250, soft cream #f4e3cb.\nConstraints: No people, hands, faces, face reflections, perfume bottles, computer or office equipment. No words, lettering, address, phone number, logos, badges, watermark, headline, border, UI or copy overlay anywhere. The note card must be completely blank. No dark, sterile or brooding mood. Photorealistic premium commercial interior editorial image, not an illustration, not a collage.",
+    "references": [],
+    "generation_source": "/Users/wetrade/.codex/generated_images/01a0cebc-6fcd-76f2-b47a-e624ba485af1/exec-7a081912-728a-4d35-bb20-038dd0405294.png",
+    "master": "output/website/nav-banner-images/contact-v1.png",
+    "web_export": "output/website/shopify-theme/dearbody/assets/db-banner-contact.jpg",
+    "qa": {
+      "inspected": "Generated master displayed inline at native dimensions; final 1536x1024 JPEG reopened and visually checked",
+      "result": "PASS for Contact page editorial use",
+      "checks": [
+        "Cream vintage telephone, burgundy handset and coiled cord fully framed",
+        "Completely blank cream note card, warm-metal pen, closed burgundy notebook",
+        "Warm walnut surface, cream plaster wall, sunny geometric shadows and burnt-orange arch ceramic",
+        "Warm, fun and light commercial photograph with approachable home character",
+        "No people, faces, perfume bottles, computer, office equipment or watermark",
+        "No legible words, telephone number, address, logo or copy overlay",
+        "Main objects fit comfortably within landscape composition"
+      ],
+      "notes": "Generated scene includes small supporting flowers and ceramics at the margins. These are home decoration on a contact page, not a fragrance-note claim. Telephone is a stylized prop; no working telephone or actual contact number is depicted."
+    },
+    "export": {
+      "tool": "sips",
+      "format": "JPEG",
+      "quality": 90,
+      "longest_edge": 1536,
+      "master_dimensions": [
+        1536,
+        1024
+      ],
+      "web_dimensions": [
+        1536,
+        1024
+      ],
+      "master_sha256": "2acd1005985f4e33e8af52352c8e5042a75532757503a9977bdf459f68069d52",
+      "web_sha256": "61dad5b802c722cf8310c9377d8ba3b8c8404ab26e5e84a94f46a909fd8f7d58"
+    },
+    "banner_role": "contact"
+  },
+  {
+    "asset": "Our Story navigation page banner",
+    "generation_mode": "Built-in image_gen tool",
+    "intent": "Generate a new polished website image from identity and style references",
+    "generated_source": "/Users/wetrade/.codex/generated_images/01a0cebd-df93-7302-bbbc-929ad63df860/exec-d98a1e05-9429-4f18-90b5-680e5a26e987.png",
+    "prompt": "Use case: product-mockup.\nAsset type: landscape 3:2 premium fragrance ecommerce Our Story banner for DearBody Philippines. Generate one new photorealistic editorial product-in-home image. Output landscape width to height 3:2, not square or portrait. No headlines or copy overlaid on the photo.\n\nReference roles:\nImage 1 is identity evidence of the SIX exact scent names and ivory/black label families; ignore its office backdrop.\nImage 2 is women's bottle identity: ivory labels, clear cylindrical glass bottles, glossy black cylindrical caps, thin silver collars, transparent golden/pale peach/nearly clear lilac liquids.\nImage 3 is men's bottle identity: black labels, same glass and caps, transparent blue-lilac/amber/aqua liquids.\nImage 4 is an already approved generated website photo. Match its refined warm photographic quality, recognizable bottle proportions and accurate typography, but create a DIFFERENT horizontal composition and setting, not its two-tier three-by-two arrangement.\n\nScene: a bright, attainable contemporary apartment. A broad warm walnut vanity/console surface beneath a softly curved cream plaster alcove. Afternoon window light creates gentle diagonal shadows across the cream wall. One small fold of deep burgundy linen rests at the far left edge of the wood surface; restrained, tactile styling. No flowers, no fruit, no ingredients, no extra objects, no mirror reflections that duplicate bottles.\nComposition: exactly SIX complete capped perfume bottles in a SINGLE wide, gently staggered row centered on the console, all on the same wood surface, no step platform. Subtle depth variation only, equally sized and equally prominent. ALL labels face the viewer and remain completely unobstructed. The entire group occupies about 72% of image width and 55% of image height, leaving useful calm cream space above and margins on both sides. Eye-level product photography with a slight elevated angle and natural 70mm perspective. Focus sufficiently deep for every label to be sharp. Show entire caps and clear bases, never crop bottles. No extra bottles, no canisters.\nLeft to right:\n1. MOJITO METALLIQUE: ivory label with BLACK bold serif uppercase title on two lines \"MOJITO\" / \"METALLIQUE\"; golden transparent liquid.\n2. AMBER OUD SILK: ivory label, BLACK serif uppercase \"AMBER OUD\" / \"SILK\"; pale transparent peach champagne liquid.\n3. MISTENED NARCISSUS: ivory label, BLACK serif uppercase \"MISTENED\" / \"NARCISSUS\"; nearly clear with very slight lilac tint.\n4. OUD MIRAGE: BLACK label with IVORY bold serif uppercase \"OUD MIRAGE\"; soft transparent blue-lilac liquid.\n5. CHARME ENVOÛTANT: BLACK label, IVORY serif uppercase \"CHARME\" / \"ENVOÛTANT\"; warm transparent amber liquid.\n6. RTULLE & SATIN: BLACK label, IVORY serif uppercase \"RTULLE & SATIN\"; transparent pale aqua turquoise liquid.\nSmall bottom brand text on ALL six labels: the actual linked monogram from the supplied photographs beside \"PARFUM\", with smaller \"LONDON\" underneath between thin horizontal rules. Preserve the source packaging mark. Do NOT substitute \"DEAR BODY\", do NOT add invented text, and do NOT render blank labels.\n\nFidelity constraints: cylindrical clear glass bodies, softly rounded shoulders, substantial clear glass bases, narrow silver collar rings, glossy BLACK cylindrical caps like the source. Same physical bottle design and scale across all six scents. Ivory label family only for the first three, black label family only for the last three. Realistic glass thickness, reflection and refraction, subtle natural liquid menisci and fine dip tubes. Clean readable scent names spelled exactly. Keep liquid colors distinct, but no opaque colored bottles. Reference photography is only for identity; do not copy the office, computer screens or velvet pillow.\nMood and environment palette: warm, vibrant, approachable, softly sunlit, not austere luxury. Cream #f4e3cb and wood warmth dominant, burgundy #5c0006 accent; natural golden tan light. Product's own colors stay faithful. Polished professional advertising photo with gentle photographic texture, physically believable materials and shadows.\nAvoid: people, hands, landmarks, London skyline, Union Jack, factories, manufacturing claims, ingredients, promotional words, text outside the physical bottle labels, watermark, excessive haze, shallow focus hiding labels, floating products, fake rectangular bottles, square caps, gold collars, artifacts, duplicated scent names, additional fragrance products.\nDeliver landscape 3:2 high-resolution image.",
+    "references": [
+      "/Users/wetrade/Downloads/IMG_20260923_162213.jpg",
+      "/Users/wetrade/Downloads/IMG_20260923_163311.jpg",
+      "/Users/wetrade/Downloads/IMG_20260923_163159.jpg",
+      "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/refined-reference-images/collection-v1.png"
+    ],
+    "files": {
+      "output/website/nav-banner-images/story-v1.png": {
+        "width": 1536,
+        "height": 1024,
+        "bytes": 2026186,
+        "sha256": "69f170f2dd6812d0ee9c15f37458eb338e446a3ae4826f7e9cb41104acbc0652"
+      },
+      "output/website/shopify-theme/dearbody/assets/db-banner-story.jpg": {
+        "width": 1536,
+        "height": 1024,
+        "bytes": 408583,
+        "sha256": "4b75ad50dfabb7db71e121b667d19dd8b841967f8ff1e6349f740799880c8c40"
+      }
+    },
+    "web_export": {
+      "tool": "sips",
+      "operation": "JPEG format conversion; aspect ratio preserved",
+      "max_long_edge": 1536,
+      "jpeg_quality": 85,
+      "retouching": false
+    },
+    "qa": {
+      "inspected": true,
+      "status": "selected",
+      "attempts": 1,
+      "checks": [
+        "Landscape 1536x1024, exact 3:2 aspect ratio",
+        "Exactly six complete capped bottles, equally prominent, full bases and caps inside frame",
+        "One horizontal row on a warm wood console; composition distinct from the homepage's two-tier display",
+        "All six scent names readable and correct: MOJITO METALLIQUE; AMBER OUD SILK; MISTENED NARCISSUS; OUD MIRAGE; CHARME ENVOÛTANT; RTULLE & SATIN",
+        "First three ivory labels with dark type; last three black labels with light type",
+        "PARFUM / LONDON mark appears on all six labels; no replacement DearBody text added to packaging",
+        "Clear cylindrical glass bodies, black cylindrical caps, silver collar rings, distinct transparent scent liquid colors",
+        "Warm cream interior, natural sunlight and burgundy fabric accent, no office clutter",
+        "No overlaid copy, people, landmarks, production claims or ingredients"
+      ],
+      "limits": [
+        "Generated editorial image; fine monogram and glass-reflection details are AI-rendered, not an exact pixel-preserving product composite."
+      ]
+    },
+    "banner_role": "story"
+  }
+]

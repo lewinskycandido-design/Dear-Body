@@ -1,0 +1,172 @@
+{% if section.settings.enabled %}
+{{ 'dearbody-quiz.css' | asset_url | stylesheet_tag }}
+<section class="db-mood-discovery db-section db-discovery-scheme--{{ section.settings.color_scheme }}" style="--db-discovery-space: {{ section.settings.spacing }}px" aria-labelledby="mood-title-{{ section.id }}">
+  <div class="db-container">
+    <header class="db-section-heading"><div>
+      {% if section.settings.eyebrow != blank %}<p class="db-kicker">{{ section.settings.eyebrow | escape }}</p>{% endif %}
+      <h2 id="mood-title-{{ section.id }}">{{ section.settings.heading | escape }}</h2>
+      {% if section.settings.text != blank %}<p class="db-section-description">{{ section.settings.text | escape }}</p>{% endif %}
+    </div></header>
+    <div class="db-mood-grid">
+      {% for block in section.blocks %}
+        {% if block.settings.title != blank %}
+          {% if block.settings.collection != blank %}<a class="db-mood-card" href="{{ block.settings.collection.url }}" {{ block.shopify_attributes }}>{% else %}<article class="db-mood-card" {{ block.shopify_attributes }}>{% endif %}
+            {% if block.settings.image != blank %}
+              {% assign image_alt = block.settings.image.alt | default: block.settings.title %}
+              {{ block.settings.image | image_url: width: 900 | image_tag: widths: '300, 500, 700, 900', sizes: '(max-width:700px) 100vw, 33vw', loading: 'lazy', alt: image_alt }}
+            {% endif %}
+            <div class="db-mood-card__copy">
+              <span class="db-kicker">{{ forloop.index | prepend: '0' }} / A SCENT JOURNEY</span>
+              <h3>{{ block.settings.title | escape }}</h3>
+              {% if block.settings.description != blank %}<p class="db-mood-card__description">{{ block.settings.description | escape }}</p>{% endif %}
+              {% if block.settings.collection != blank %}<span class="db-mood-card__link">{{ section.settings.link_label | escape }} <span aria-hidden="true">↗</span></span>{% endif %}
+            </div>
+          {% if block.settings.collection != blank %}</a>{% else %}</article>{% endif %}
+        {% endif %}
+      {% endfor %}
+    </div>
+    {% if request.design_mode %}<aside class="db-discovery-setup"><strong>Shop by feeling setup</strong><p>Give each mood a title and select its collection. Only assign products to a mood collection using confirmed scent information. Cards without a collection remain editorial mood cards; they do not imply any product association.</p></aside>{% endif %}
+  </div>
+</section>
+{% endif %}
+
+{% schema %}
+{
+  "name": "DearBody shop by feeling",
+  "max_blocks": 6,
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "enabled",
+      "label": "Show section",
+      "default": true
+    },
+    {
+      "type": "text",
+      "id": "eyebrow",
+      "label": "Eyebrow",
+      "default": "SHOP BY FEELING"
+    },
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "WHERE WILL YOUR SCENT TAKE YOU?"
+    },
+    {
+      "type": "textarea",
+      "id": "text",
+      "label": "Body copy"
+    },
+    {
+      "type": "text",
+      "id": "link_label",
+      "label": "Collection link label",
+      "default": "Explore this feeling"
+    },
+    {
+      "type": "select",
+      "id": "color_scheme",
+      "label": "Color scheme",
+      "options": [
+        {
+          "value": "cream",
+          "label": "Warm cream"
+        },
+        {
+          "value": "gold",
+          "label": "Warm gold"
+        },
+        {
+          "value": "burgundy",
+          "label": "Burgundy"
+        }
+      ],
+      "default": "gold"
+    },
+    {
+      "type": "range",
+      "id": "spacing",
+      "label": "Vertical spacing",
+      "min": 24,
+      "max": 120,
+      "step": 8,
+      "unit": "px",
+      "default": 72
+    }
+  ],
+  "blocks": [
+    {
+      "type": "mood",
+      "name": "Scent mood",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Mood title",
+          "default": "YOUR SCENT MOOD"
+        },
+        {
+          "type": "textarea",
+          "id": "description",
+          "label": "Mood description"
+        },
+        {
+          "type": "collection",
+          "id": "collection",
+          "label": "Curated mood collection",
+          "info": "Choose products based on confirmed scent profiles."
+        },
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Mood image"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "DearBody shop by feeling",
+      "blocks": [
+        {
+          "type": "mood",
+          "settings": {
+            "title": "FRESH & BRIGHT"
+          }
+        },
+        {
+          "type": "mood",
+          "settings": {
+            "title": "SOFT & DREAMY"
+          }
+        },
+        {
+          "type": "mood",
+          "settings": {
+            "title": "DARK & ADDICTIVE"
+          }
+        },
+        {
+          "type": "mood",
+          "settings": {
+            "title": "RICH & INDULGENT"
+          }
+        },
+        {
+          "type": "mood",
+          "settings": {
+            "title": "WARM & GLOWING"
+          }
+        },
+        {
+          "type": "mood",
+          "settings": {
+            "title": "BOLD & MYSTERIOUS"
+          }
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

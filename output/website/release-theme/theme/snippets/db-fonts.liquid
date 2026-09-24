@@ -1,0 +1,6 @@
+<style>
+{% if settings.display_font_url != blank %}@font-face{font-family:"Cenzo Flare Bold";src:url({{ settings.display_font_url | json }}) format("woff2");font-weight:700 900;font-display:swap}{% endif %}
+{% if settings.body_font_url != blank %}@font-face{font-family:"Helvetica Now Display";src:url({{ settings.body_font_url | json }}) format("woff2");font-weight:400;font-display:swap}{% endif %}
+:root{--db-display:{% if settings.display_font_url != blank %}"Cenzo Flare Bold",{% endif %}"Helvetica Neue",Arial,sans-serif;--db-body:{% if settings.body_font_url != blank %}"Helvetica Now Display",{% endif %}"Helvetica Neue",Arial,sans-serif}
+</style>
+{% if request.design_mode and settings.display_font_url == blank or request.design_mode and settings.body_font_url == blank %}<meta name="dearbody-font-status" content="Official DearBody font file required.">{% endif %}

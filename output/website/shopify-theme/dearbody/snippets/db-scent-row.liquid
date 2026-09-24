@@ -1,0 +1,57 @@
+{% liquid
+  assign scent_title = product.title | downcase | strip
+  assign scent_character = ''
+  assign scent_description = ''
+  if product.handle == 'mojito-metallique' or scent_title == 'mojito metallique'
+    assign scent_character = 'Soft & creamy'
+    assign scent_description = 'Soft, creamy sweetness with a light fruity glow.'
+  elsif product.handle == 'amber-oud-silk' or scent_title == 'amber oud silk'
+    assign scent_character = 'Dark & warm'
+    assign scent_description = 'Dark spice and smoke with a warm, addictive edge.'
+  elsif product.handle == 'mistened-narcissus' or scent_title == 'mistened narcissus'
+    assign scent_character = 'Juicy & smooth'
+    assign scent_description = 'Juicy berries softened by a smooth, sweet finish.'
+  elsif product.handle == 'oud-mirage' or scent_title == 'oud mirage'
+    assign scent_character = 'Rose & smoky woods'
+    assign scent_description = 'Dark rose wrapped in smoky, woody depth.'
+  elsif product.handle == 'charme-envoutant' or scent_title == 'charme envoûtant' or scent_title == 'charme envoutant'
+    assign scent_character = 'Rich & spiced'
+    assign scent_description = 'Rich, spiced sweetness that feels deep and indulgent.'
+  elsif product.handle == 'rtulle-satin' or product.handle == 'rtulle-and-satin' or scent_title == 'rtulle & satin'
+    assign scent_character = 'Airy & warm'
+    assign scent_description = 'Airy sweetness with a warm, glowing trail.'
+  endif
+  assign row_price = 0
+  assign row_max_price = 0
+  assign row_purchasable = false
+  for variant in product.variants
+    if variant.price > 0
+      if row_price == 0 or variant.price < row_price
+        assign row_price = variant.price
+      endif
+      if variant.price > row_max_price
+        assign row_max_price = variant.price
+      endif
+      if variant.available
+        assign row_purchasable = true
+      endif
+    endif
+  endfor
+%}
+<article class="db-scent-row" aria-labelledby="scent-{{ product.id }}">
+  <div class="db-scent-row__copy">
+    <p class="db-kicker">DEAR BODY PHILIPPINES <span aria-hidden="true">/ {{ index | prepend: '0' }}</span></p>
+    <h3 id="scent-{{ product.id }}">{{ product.title | escape }}</h3>
+    {% if scent_character != blank %}<p class="db-scent-row__character">{{ scent_character }}</p>{% endif %}
+    {% if scent_description != blank %}<p class="db-scent-row__description">{{ scent_description }}</p>{% elsif product.description != blank %}<div class="db-richtext db-scent-row__description">{{ product.description }}</div>{% endif %}
+    {% if product.metafields.custom.scent_notes != blank %}<div class="db-scent-row__notes"><p class="db-kicker">SCENT NOTES</p>{{ product.metafields.custom.scent_notes | metafield_tag }}</div>{% endif %}
+    <p class="db-scent-row__price">{% if row_price > 0 %}{% if row_max_price > row_price %}From {% endif %}{{ row_price | money_with_currency }}{% else %}Available soon{% endif %}</p>
+    <div class="db-scent-row__actions">
+      {% if product.url != blank %}<a class="db-button" href="{{ product.url }}">{% if row_purchasable %}{% if product.has_only_default_variant %}Shop this scent{% else %}Choose your option{% endif %}{% else %}View fragrance{% endif %}<span aria-hidden="true">↗</span></a>{% endif %}
+      {% if row_price > 0 and row_purchasable == false %}<span class="db-scent-row__status">Sold out</span>{% endif %}
+    </div>
+  </div>
+  {% if product.url != blank %}<a class="db-scent-row__image" href="{{ product.url }}" aria-label="Explore {{ product.title | escape }}">{% else %}<div class="db-scent-row__image">{% endif %}
+    {% if product.featured_image %}{{ product.featured_image | image_url: width: 1400 | image_tag: widths: '400, 700, 1000, 1400', sizes: '(max-width:700px) 100vw, 50vw', loading: 'lazy', alt: product.title }}{% else %}<div class="db-no-image">{{ product.title | escape }}</div>{% endif %}
+  {% if product.url != blank %}</a>{% else %}</div>{% endif %}
+</article>

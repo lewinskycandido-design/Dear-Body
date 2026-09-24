@@ -1,0 +1,72 @@
+<section class="db-hero db-campaign-hero" aria-labelledby="hero-title-{{ section.id }}">
+<picture class="db-campaign-photo">{% if section.settings.mobile_image %}<source media="(max-width:700px)" srcset="{{ section.settings.mobile_image | image_url: width: 1100 }}">{% else %}<source media="(max-width:700px)" srcset="{{ 'db-master-hero-mobile.jpg' | asset_url }}">{% endif %}{% if section.settings.image %}{{ section.settings.image | image_url: width: 2400 | image_tag: widths: '750, 1200, 1600, 2400', sizes: '100vw', loading: 'eager', fetchpriority: 'high', alt: section.settings.image_alt }}{% else %}<img src="{{ 'db-master-hero-desktop.jpg' | asset_url }}" width="1774" height="887" alt="Six DearBody fragrances displayed in warm golden light" fetchpriority="high">{% endif %}</picture>
+<div class="db-hero-copy"><p class="db-kicker">{{ section.settings.eyebrow | escape }}</p><h1 id="hero-title-{{ section.id }}">{{ section.settings.heading | escape | newline_to_br }}</h1><p>{{ section.settings.text | escape }}</p><div class="db-hero-links"><a class="db-button" href="{{ section.settings.primary_link | default: settings.for_her_collection.url | default: routes.all_products_collection_url }}">{{ section.settings.primary_label | escape }} <span aria-hidden="true">↗</span></a><a class="db-button db-button--outline" href="{{ section.settings.secondary_link | default: settings.for_him_collection.url | default: routes.all_products_collection_url }}">{{ section.settings.secondary_label | escape }} <span aria-hidden="true">↗</span></a></div><a class="db-text-link" href="{{ settings.scent_finder_page.url | default: '/pages/scent-finder' }}">Find my scent <span aria-hidden="true">→</span></a></div>
+<div class="db-hero-caption"><span>01 / THE FIRST CHAPTER</span><span>SIX SCENTS. ENDLESS POSSIBILITIES.</span></div></section>
+<div class="db-brand-line"><span>LONDON-FORMULATED</span><span aria-hidden="true">✳</span><span>CURATED FOR FILIPINO LIFE</span><span aria-hidden="true">✳</span><span>YOUR EVERYDAY SELF-EXPRESSION</span></div>
+{% schema %}
+{
+  "name": "DearBody campaign hero",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Desktop campaign image"
+    },
+    {
+      "type": "image_picker",
+      "id": "mobile_image",
+      "label": "Mobile campaign image"
+    },
+    {
+      "type": "text",
+      "id": "image_alt",
+      "label": "Image description"
+    },
+    {
+      "type": "text",
+      "id": "eyebrow",
+      "label": "Eyebrow",
+      "default": "DEARBODY PHILIPPINES"
+    },
+    {
+      "type": "textarea",
+      "id": "heading",
+      "label": "Headline",
+      "default": "BEGIN YOUR\nSCENT JOURNEY."
+    },
+    {
+      "type": "textarea",
+      "id": "text",
+      "label": "Body",
+      "default": "London-formulated fragrances thoughtfully curated for Filipino tastes, lifestyles and everyday moments."
+    },
+    {
+      "type": "text",
+      "id": "primary_label",
+      "label": "Primary button",
+      "default": "Shop women"
+    },
+    {
+      "type": "url",
+      "id": "primary_link",
+      "label": "Primary link override"
+    },
+    {
+      "type": "text",
+      "id": "secondary_label",
+      "label": "Secondary button",
+      "default": "Shop men"
+    },
+    {
+      "type": "url",
+      "id": "secondary_link",
+      "label": "Secondary link override"
+    }
+  ],
+  "presets": [
+    {
+      "name": "DearBody campaign hero"
+    }
+  ]
+}
+{% endschema %}

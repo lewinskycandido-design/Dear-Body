@@ -1,0 +1,13 @@
+{% if menu != blank %}
+  {% for link in menu.links %}
+    {% if link.links != blank %}<details class="db-nav-group"><summary>{{ link.title | escape }}</summary><div class="db-nav-submenu"><a href="{{ link.url }}">{{ link.title | escape }}</a>{% for child in link.links %}<a href="{{ child.url }}"{% if child.current %} aria-current="page"{% endif %}>{{ child.title | escape }}</a>{% for grandchild in child.links %}<a class="db-nav-grandchild" href="{{ grandchild.url }}">{{ grandchild.title | escape }}</a>{% endfor %}{% endfor %}</div></details>
+    {% else %}<a href="{{ link.url }}"{% if link.current %} aria-current="page"{% endif %}>{{ link.title | escape }}</a>{% endif %}
+  {% endfor %}
+{% else %}
+  {% assign women_url = settings.for_her_collection.url | default: routes.all_products_collection_url %}
+  {% assign men_url = settings.for_him_collection.url | default: routes.all_products_collection_url %}
+  <a href="{{ women_url }}"{% if settings.for_her_collection != blank and request.path == women_url %} aria-current="page"{% endif %}>Women</a>
+  <a href="{{ men_url }}"{% if settings.for_him_collection != blank and request.path == men_url %} aria-current="page"{% endif %}>Men</a>
+  <a href="{{ settings.scent_finder_page.url | default: '/pages/scent-finder' }}">Scent Finder</a>
+  <a href="{{ settings.story_page.url | default: '/pages/our-story' }}">Our Story</a>
+{% endif %}

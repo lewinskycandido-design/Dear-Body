@@ -1,0 +1,102 @@
+{
+  "shopify-theme": {
+    "connectedProducts": [
+      "mojito-metallique",
+      "amber-oud-silk",
+      "mistened-narcissus",
+      "oud-mirage",
+      "charme-envoutant",
+      "rtulle-satin"
+    ],
+    "collections": [
+      "womens-perfume",
+      "mens-perfume"
+    ],
+    "themeFileCount": 66,
+    "archives": {
+      "DearBody-Shopify-Theme.zip": {
+        "bytes": 5410547,
+        "sha256": "ab67418b2633f925a92d7e26d671e98b2ba1deadcb4b7032c426be8e562d9da1"
+      },
+      "DearBody-Website-Source.zip": {
+        "bytes": 10915361,
+        "sha256": "460e9a4a5ee35352daf2ef6ed1f8fa3e28c6daea185fe31ff122516d97ac781f"
+      }
+    }
+  },
+  "liquid-glass-theme": {
+    "connectedProducts": [
+      "mojito-metallique",
+      "amber-oud-silk",
+      "mistened-narcissus",
+      "oud-mirage",
+      "charme-envoutant",
+      "rtulle-satin"
+    ],
+    "collections": [
+      "womens-perfume",
+      "mens-perfume"
+    ],
+    "themeFileCount": 64,
+    "archives": {
+      "DearBody-Liquid-Glass-Shopify-Theme.zip": {
+        "bytes": 5412887,
+        "sha256": "1040868bac14be9637e18bd4d391aa02f067251a512a1133c9bd188e3c6de5ba"
+      },
+      "DearBody-Liquid-Glass-Website-Source.zip": {
+        "bytes": 10922027,
+        "sha256": "9d51dddae56a38426a6afc952b5f4297154b06928106e03ef8f284671fc8c164"
+      }
+    }
+  },
+  "bauhaus-theme": {
+    "connectedProducts": [
+      "mojito-metallique",
+      "amber-oud-silk",
+      "mistened-narcissus",
+      "oud-mirage",
+      "charme-envoutant",
+      "rtulle-satin"
+    ],
+    "collections": [
+      "womens-perfume",
+      "mens-perfume"
+    ],
+    "themeFileCount": 65,
+    "archives": {
+      "DearBody-Bauhaus-Shopify-Theme.zip": {
+        "bytes": 5411063,
+        "sha256": "7fd2ada19f2c2abc74f367fef0cb54982be60777356035bd64b78338cf45ce35"
+      },
+      "DearBody-Bauhaus-Website-Source.zip": {
+        "bytes": 10920418,
+        "sha256": "7770f2dd286add6bcd0bc0531c03c6be255bcc4ac3aeb24052113f7c5750df6e"
+      }
+    }
+  },
+  "vaporwave-theme": {
+    "connectedProducts": [
+      "mojito-metallique",
+      "amber-oud-silk",
+      "mistened-narcissus",
+      "oud-mirage",
+      "charme-envoutant",
+      "rtulle-satin"
+    ],
+    "collections": [
+      "womens-perfume",
+      "mens-perfume"
+    ],
+    "themeFileCount": 65,
+    "archives": {
+      "DearBody-Vaporwave-Shopify-Theme.zip": {
+        "bytes": 5414827,
+        "sha256": "1938dbc364917d41b9f1bfbc9c0fa0081299eda894daed06c4c06ee736a60769"
+      },
+      "DearBody-Vaporwave-Website-Source.zip": {
+        "bytes": 10931760,
+        "sha256": "58f2f2050265e44e191313f1fb3100eb9460f0c200c7f8f8f16ce4cf17fed72b"
+      }
+    }
+  }
+}

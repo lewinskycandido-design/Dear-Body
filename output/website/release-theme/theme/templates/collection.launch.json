@@ -1,0 +1,15 @@
+{
+  "sections": {
+    "main": {
+      "type": "db-main-collection",
+      "settings": {
+        "eyebrow": "THE FIRST CHAPTER",
+        "heading": "DISCOVER THE COLLECTION",
+        "text": "Six distinctive scents. Six different moods. Find the one that begins your DearBody journey."
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

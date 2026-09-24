@@ -1,0 +1,152 @@
+<section class="db-priority db-section db-container" aria-labelledby="collection-title-{{ section.id }}"><div class="db-section-heading"><div><p class="db-kicker">{{ section.settings.eyebrow | escape }}</p><h2 id="collection-title-{{ section.id }}">{{ section.settings.heading | escape }}</h2><p class="db-section-description">{{ section.settings.text | escape }}</p></div><a class="db-text-link" href="{{ section.settings.link | default: routes.all_products_collection_url }}">{{ section.settings.link_label | escape }} <span aria-hidden="true">↗</span></a></div><div class="db-product-grid">{% for block in section.blocks %}<div {{ block.shopify_attributes }}>{% if block.settings.product != blank %}{% render 'db-product-card', product: block.settings.product %}{% else %}<article class="db-card db-reference-card"><div class="db-card-image">{% if block.settings.image %}{{ block.settings.image | image_url: width: 800 | image_tag: widths: '240, 400, 600, 800', sizes: '(max-width:700px) 45vw, 30vw', loading: 'lazy', alt: block.settings.name }}{% elsif block.settings.reference_image != blank %}<img src="{{ block.settings.reference_image | asset_url }}" width="900" height="900" alt="{{ block.settings.name | escape }} reference photograph" loading="lazy">{% else %}<div class="db-gallery__placeholder" aria-hidden="true">{{ 'product-1' | placeholder_svg_tag }}</div>{% endif %}</div><div class="db-card-meta"><h3>{{ block.settings.name | escape }}</h3><p>{{ block.settings.character | escape }}</p><p class="db-reference-status">Collection preview</p></div>{% if request.design_mode %}<p class="db-editor-note">Select this scent’s Shopify product. Price and availability will come from Shopify.</p>{% endif %}</article>{% endif %}</div>{% endfor %}</div></section>
+{% schema %}
+{
+  "name": "Launch collection",
+  "max_blocks": 6,
+  "settings": [
+    {
+      "type": "text",
+      "id": "eyebrow",
+      "label": "Eyebrow",
+      "default": "SIX SCENTS. YOUR STORY."
+    },
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "THE FIRST CHAPTER."
+    },
+    {
+      "type": "textarea",
+      "id": "text",
+      "label": "Description",
+      "default": "Six distinctive scents. Six different moods. Find the one that begins your DearBody journey."
+    },
+    {
+      "type": "text",
+      "id": "link_label",
+      "label": "Link label",
+      "default": "Explore the collection"
+    },
+    {
+      "type": "url",
+      "id": "link",
+      "label": "Link"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "scent",
+      "name": "Launch scent",
+      "settings": [
+        {
+          "type": "product",
+          "id": "product",
+          "label": "Shopify product"
+        },
+        {
+          "type": "text",
+          "id": "name",
+          "label": "Preview name"
+        },
+        {
+          "type": "text",
+          "id": "character",
+          "label": "Preview scent character"
+        },
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Preview image override"
+        },
+        {
+          "type": "select",
+          "id": "reference_image",
+          "label": "Bundled reference image",
+          "options": [
+            {
+              "value": "db-mojito-metallique.jpg",
+              "label": "Mojito Metallique"
+            },
+            {
+              "value": "db-amber-oud-silk.jpg",
+              "label": "Amber Oud Silk"
+            },
+            {
+              "value": "db-mistened-narcissus.jpg",
+              "label": "Mistened Narcissus"
+            },
+            {
+              "value": "db-charme-envoutant.jpg",
+              "label": "Charme Envoûtant"
+            },
+            {
+              "value": "db-oud-mirage.jpg",
+              "label": "Oud Mirage"
+            },
+            {
+              "value": "db-rtulle-and-satin.jpg",
+              "label": "Rtulle & Satin"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Launch collection",
+      "blocks": [
+        {
+          "type": "scent",
+          "settings": {
+            "name": "Mojito Metallique",
+            "character": "Soft, creamy & fruity",
+            "reference_image": "db-mojito-metallique.jpg"
+          }
+        },
+        {
+          "type": "scent",
+          "settings": {
+            "name": "Amber Oud Silk",
+            "character": "Dark spice & smoky warmth",
+            "reference_image": "db-amber-oud-silk.jpg"
+          }
+        },
+        {
+          "type": "scent",
+          "settings": {
+            "name": "Mistened Narcissus",
+            "character": "Juicy berries & smooth sweetness",
+            "reference_image": "db-mistened-narcissus.jpg"
+          }
+        },
+        {
+          "type": "scent",
+          "settings": {
+            "name": "Charme Envoûtant",
+            "character": "Rich, spiced & indulgent",
+            "reference_image": "db-charme-envoutant.jpg"
+          }
+        },
+        {
+          "type": "scent",
+          "settings": {
+            "name": "Oud Mirage",
+            "character": "Dark rose & smoky woods",
+            "reference_image": "db-oud-mirage.jpg"
+          }
+        },
+        {
+          "type": "scent",
+          "settings": {
+            "name": "Rtulle & Satin",
+            "character": "Airy sweetness & a warm trail",
+            "reference_image": "db-rtulle-and-satin.jpg"
+          }
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

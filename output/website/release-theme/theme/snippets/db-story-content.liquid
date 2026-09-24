@@ -1,0 +1,4 @@
+<div class="db-story-page-body db-richtext">
+  {% if section.settings.use_page_content and page.content != blank %}{{ page.content }}{% else %}{{ section.settings.body }}{% endif %}
+  {% if section.settings.button_label != blank %}<a class="db-button" href="{{ section.settings.collection.url | default: routes.all_products_collection_url }}">{{ section.settings.button_label | escape }} <span aria-hidden="true">↗</span></a>{% endif %}
+</div>

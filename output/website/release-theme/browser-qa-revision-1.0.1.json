@@ -1,0 +1,26 @@
+{
+  "revision": "1.0.1",
+  "product_viewport_checks": 48,
+  "collection_viewport_checks": 16,
+  "widths": [
+    375,
+    390,
+    430,
+    768,
+    1024,
+    1280,
+    1440,
+    1728
+  ],
+  "failures": [],
+  "gallery_scroll_test": {
+    "detail_scroll_before": 0,
+    "detail_scroll_after": 354.5,
+    "gallery_top_before": 183,
+    "gallery_top_after": 183,
+    "document_scroll_before": 60.5,
+    "document_scroll_after": 60.5
+  },
+  "mobile_navigation": "Women link opens /collections/womens-perfume with three source-confirmed products",
+  "console_errors": []
+}

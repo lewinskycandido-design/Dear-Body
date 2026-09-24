@@ -1,0 +1,46 @@
+{% liquid
+  assign photo_id = 'db-lifestyle-' | append: section_id | append: '-' | append: photo_index
+  assign photo_is_active = false
+  assign photo_loading = 'lazy'
+  if product.media.size == 0 and photo_index == 1
+    assign photo_is_active = true
+    assign photo_loading = 'eager'
+  endif
+  assign photo_width = 1200
+  assign photo_height = 1200
+  assign photo_alt = 'DearBody fragrances displayed on a warm home console'
+  case photo
+    when 'db-lifestyle-for-her.jpg'
+      assign photo_alt = 'Mojito Metallique, Amber Oud Silk and Mistened Narcissus displayed on a burgundy tray at a sunlit home vanity'
+    when 'db-lifestyle-for-him.jpg'
+      assign photo_alt = 'Oud Mirage, Charme Envoûtant and Rtulle & Satin displayed on a warm home console'
+    when 'db-lifestyle-collection.jpg'
+      assign photo_alt = 'All six DearBody priority fragrances displayed together on a warm home console'
+      assign photo_width = 1086
+      assign photo_height = 1448
+  endcase
+%}
+{% if mode == 'thumbnail' %}
+  <button
+    class="db-gallery__thumbnail"
+    type="button"
+    data-db-media-target="{{ photo_id }}"
+    aria-controls="{{ photo_id }}"
+    aria-label="View lifestyle image: {{ photo_alt | escape }}"
+    aria-pressed="{{ photo_is_active }}"
+  >
+    <img src="{{ photo | asset_url }}" alt="" width="{{ photo_width }}" height="{{ photo_height }}" loading="lazy" decoding="async" class="db-gallery__thumbnail-image">
+  </button>
+{% else %}
+  <div
+    id="{{ photo_id }}"
+    class="db-gallery__panel db-gallery__panel--lifestyle"
+    data-db-media-panel
+    data-db-media-panels
+    role="group"
+    aria-label="Lifestyle image: {{ photo_alt | escape }}"
+    {% unless photo_is_active %}hidden{% endunless %}
+  >
+    <img src="{{ photo | asset_url }}" alt="{{ photo_alt | escape }}" width="{{ photo_width }}" height="{{ photo_height }}" loading="{{ photo_loading }}" decoding="async" class="db-gallery__image">
+  </div>
+{% endif %}

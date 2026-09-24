@@ -1,0 +1,26 @@
+{
+  "sections": {
+    "hero": {
+      "type": "db-hero",
+      "settings": {}
+    },
+    "lifestyle": {
+      "type": "db-lifestyle-scenes",
+      "settings": {}
+    },
+    "story": {
+      "type": "db-story",
+      "settings": {}
+    },
+    "newsletter": {
+      "type": "db-newsletter",
+      "settings": {}
+    }
+  },
+  "order": [
+    "hero",
+    "lifestyle",
+    "story",
+    "newsletter"
+  ]
+}

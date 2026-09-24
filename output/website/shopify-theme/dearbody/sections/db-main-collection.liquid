@@ -1,9 +1,9 @@
 {% liquid
   assign banner_title = collection.title
   assign banner_variant = 'collection'
-  assign banner_asset = 'db-lifestyle-collection.jpg'
-  assign banner_width = 1086
-  assign banner_height = 1448
+  assign banner_asset = 'db-banner-story.jpg'
+  assign banner_width = 1536
+  assign banner_height = 1024
   assign banner_alt = 'All six DearBody priority fragrances displayed together on a warm home console'
   assign collection_name = collection.title | downcase | strip
   assign is_for_her = false
@@ -41,10 +41,9 @@
   assign banner_text = section.settings.banner_text | default: 'A little self-expression. A fragrance that feels like you.'
 %}
 {% render 'db-page-banner', title: banner_title, kicker: banner_kicker, text: banner_text, variant: banner_variant, image: banner_image, asset: banner_asset, image_alt: banner_alt, width: banner_width, height: banner_height, section_id: section.id, root_url: routes.root_url, breadcrumb_label: collection.title %}
-<section class="db-container db-section db-collection-content">
-  <div class="db-section-heading"><h2>Explore the collection.</h2><p>{{ collection.products_count }} fragrances</p></div>
-  {% if collection.description != blank %}<div class="db-richtext db-collection-description">{{ collection.description }}</div>{% endif %}
-  {% paginate collection.products by 24 %}<div class="db-product-grid">{% for product in collection.products %}{% render 'db-product-card', product: product %}{% else %}<div class="db-empty"><h2>The collection is on its way.</h2><p>Come back soon to begin your scent journey.</p><a class="db-button" href="{{ routes.root_url }}">Back home</a></div>{% endfor %}</div>{% if paginate.pages > 1 %}<nav class="db-pagination" aria-label="Collection pages">{{ paginate | default_pagination }}</nav>{% endif %}{% endpaginate %}
+<section class="db-collection-content" aria-labelledby="collection-intro-{{ section.id }}">
+  <div class="db-collection-intro db-container"><p class="db-kicker">{{ collection.products_count }} SCENTS. YOUR OWN EXPRESSION.</p><h2 id="collection-intro-{{ section.id }}">Meet your next scent.</h2>{% if collection.description != blank %}<div class="db-richtext db-collection-description">{{ collection.description }}</div>{% else %}<p>Get to know each fragrance. Follow the feeling that feels like you.</p>{% endif %}</div>
+  {% paginate collection.products by 24 %}<div class="db-scent-rows">{% for product in collection.products %}{% render 'db-scent-row', product: product, index: forloop.index %}{% else %}<div class="db-empty db-container"><h2>The collection is on its way.</h2><p>Come back soon to begin your scent journey.</p><a class="db-button" href="{{ routes.root_url }}">Back home</a></div>{% endfor %}</div>{% if paginate.pages > 1 %}<nav class="db-pagination db-container" aria-label="Collection pages">{{ paginate | default_pagination }}</nav>{% endif %}{% endpaginate %}
 </section>
 {% schema %}
 {"name":"DearBody collection","settings":[{"type":"image_picker","id":"banner_image","label":"Banner image override"},{"type":"textarea","id":"banner_heading","label":"Banner heading override"},{"type":"text","id":"banner_kicker","label":"Banner eyebrow","default":"YOUR OWN SCENT JOURNEY"},{"type":"textarea","id":"banner_text","label":"Banner text","default":"A little self-expression. A fragrance that feels like you."}]}

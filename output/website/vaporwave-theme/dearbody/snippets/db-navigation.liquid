@@ -1,0 +1,48 @@
+{% liquid
+  assign for_her_collection = settings.for_her_collection
+  assign for_him_collection = settings.for_him_collection
+  for candidate in collections
+    assign candidate_title = candidate.title | downcase | strip
+    if for_her_collection == blank
+      if candidate_title == "women's perfume" or candidate_title == 'for her'
+        assign for_her_collection = candidate
+      endif
+    endif
+    if for_him_collection == blank
+      if candidate_title == "men's perfume" or candidate_title == 'for him'
+        assign for_him_collection = candidate
+      endif
+    endif
+  endfor
+  assign for_her_url = for_her_collection.url
+  assign for_him_url = for_him_collection.url
+  for link in menu.links
+    assign link_title = link.title | downcase | strip
+    if for_her_url == blank and link.url != blank
+      if link_title == 'for her' or link_title == "women's perfume"
+        assign for_her_url = link.url
+      endif
+    endif
+    if for_him_url == blank and link.url != blank
+      if link_title == 'for him' or link_title == "men's perfume"
+        assign for_him_url = link.url
+      endif
+    endif
+  endfor
+  assign story_url = routes.root_url | append: '/pages/our-story' | replace: '//', '/'
+  assign contact_url = routes.root_url | append: '/pages/contact' | replace: '//', '/'
+  for link in menu.links
+    assign link_title = link.title | downcase | strip
+    if link_title == 'our story' or link_title == 'about us'
+      assign story_url = link.url | default: story_url
+    elsif link_title == 'contact'
+      assign contact_url = link.url | default: contact_url
+    endif
+  endfor
+%}
+<a href="{{ routes.root_url }}"{% if request.path == routes.root_url %} aria-current="page"{% endif %}>Home</a>
+<a href="{{ routes.all_products_collection_url }}" data-scent-quiz-open aria-haspopup="dialog" aria-controls="DearBodyScentQuiz">Scent Finder</a>
+{% if for_her_url != blank %}<a href="{{ for_her_url | escape }}"{% if request.path == for_her_url %} aria-current="page"{% endif %}>For Her</a>{% else %}<span class="db-nav-unavailable" aria-disabled="true">For Her</span>{% endif %}
+{% if for_him_url != blank %}<a href="{{ for_him_url | escape }}"{% if request.path == for_him_url %} aria-current="page"{% endif %}>For Him</a>{% else %}<span class="db-nav-unavailable" aria-disabled="true">For Him</span>{% endif %}
+<a href="{{ story_url | escape }}"{% if request.path == story_url %} aria-current="page"{% endif %}>Our Story</a>
+<a href="{{ contact_url | escape }}"{% if request.path == contact_url %} aria-current="page"{% endif %}>Contact</a>

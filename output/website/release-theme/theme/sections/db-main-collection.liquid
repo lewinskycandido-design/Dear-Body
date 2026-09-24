@@ -1,0 +1,134 @@
+{% liquid
+ assign heading = collection.title
+ assign eyebrow = 'THE DEARBODY COLLECTION'
+ assign body = 'Discover a fragrance that feels like you.'
+ assign campaign_asset = 'db-hero-desktop.jpg'
+ assign collection_audience = 'all'
+ if settings.for_her_collection != blank and collection.id == settings.for_her_collection.id
+  assign collection_audience = 'women'
+ elsif settings.for_him_collection != blank and collection.id == settings.for_him_collection.id
+  assign collection_audience = 'men'
+ endif
+ if template.suffix == 'women'
+  assign collection_audience = 'women'
+ elsif template.suffix == 'men'
+  assign collection_audience = 'men'
+ endif
+ if collection_audience == 'women'
+  assign heading = 'A SCENT FOR|EVERY VERSION OF YOU.'
+  assign eyebrow = 'DEARBODY FOR HER'
+  assign body = 'From effortless everyday scents to fragrances made for unforgettable nights, discover a DearBody perfume that matches your mood and style.'
+  assign campaign_asset = 'db-master-women.jpg'
+ elsif collection_audience == 'men'
+  assign heading = 'MAKE YOUR SCENT|PART OF YOUR STORY.'
+  assign eyebrow = 'DEARBODY FOR HIM'
+  assign body = 'Discover expressive DearBody fragrances created to move naturally from everyday moments to nights worth remembering.'
+  assign campaign_asset = 'db-master-men.jpg'
+ endif
+ assign heading = section.settings.heading | default: heading
+ assign eyebrow = section.settings.eyebrow | default: eyebrow
+ assign body = section.settings.text | default: body
+ assign campaign_image = section.settings.image | default: collection.image
+ assign image_alt = section.settings.image_alt | default: campaign_image.alt | default: collection.title
+ assign jump_label = section.settings.button_label | default: 'Discover the fragrances'
+%}
+{{ 'dearbody-quiz.css' | asset_url | stylesheet_tag }}
+<section class="db-collection-hero db-discovery-scheme--{{ section.settings.color_scheme }}"><div class="db-collection-hero-copy"><p class="db-kicker">{{ eyebrow | escape }}</p><h1>{{ heading | escape | replace: '|', '<br>' | newline_to_br }}</h1><p>{{ body | escape }}</p><a class="db-text-link" href="#CollectionProducts-{{ section.id }}">{{ jump_label | escape }} <span aria-hidden="true">↓</span></a></div><picture>{% if section.settings.mobile_image %}<source media="(max-width:700px)" srcset="{{ section.settings.mobile_image | image_url: width: 1100 }}">{% endif %}{% if campaign_image %}{{ campaign_image | image_url: width: 1600 | image_tag: widths: '500, 800, 1100, 1600', sizes: '(max-width:700px) 100vw, 50vw', loading: 'eager', alt: image_alt }}{% else %}<img src="{{ campaign_asset | asset_url }}" width="1200" height="1200" alt="DearBody collection in warm editorial light" loading="eager">{% endif %}</picture></section>
+<section class="db-container db-section db-discovery-products" style="--db-discovery-space: {{ section.settings.spacing }}px" id="CollectionProducts-{{ section.id }}">{% if section.settings.show_description and collection.description != blank %}<div class="db-richtext db-collection-description">{{ collection.description }}</div>{% endif %}
+{% if section.settings.enable_sorting %}<form class="db-collection-controls" method="get" action="{{ collection.url }}"><p>{{ collection.products_count }} fragrances</p><div><label for="SortBy-{{ section.id }}">Sort by</label><select id="SortBy-{{ section.id }}" name="sort_by">{% assign sort_by = collection.sort_by | default: collection.default_sort_by %}{% for option in collection.sort_options %}<option value="{{ option.value | escape }}"{% if option.value == sort_by %} selected{% endif %}>{{ option.name | escape }}</option>{% endfor %}</select><button class="db-button db-button--outline" type="submit">Apply</button></div></form>{% else %}<p>{{ collection.products_count }} fragrances</p>{% endif %}
+{% paginate collection.products by section.settings.products_per_page %}<div class="db-product-grid">{% for product in collection.products %}{% render 'db-product-card', product: product %}{% else %}<div class="db-empty"><h2>Your next chapter is on its way.</h2><p>Discover more of the DearBody collection.</p><a class="db-text-link" href="{{ routes.all_products_collection_url }}">Explore all fragrances →</a></div>{% endfor %}</div>{% if paginate.pages > 1 %}<nav class="db-pagination" aria-label="Collection pages">{{ paginate | default_pagination }}</nav>{% endif %}{% endpaginate %}</section>
+
+{% schema %}
+{
+  "name": "DearBody collection",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Desktop campaign image"
+    },
+    {
+      "type": "image_picker",
+      "id": "mobile_image",
+      "label": "Mobile campaign image"
+    },
+    {
+      "type": "text",
+      "id": "image_alt",
+      "label": "Image description"
+    },
+    {
+      "type": "textarea",
+      "id": "heading",
+      "label": "Heading override"
+    },
+    {
+      "type": "text",
+      "id": "eyebrow",
+      "label": "Eyebrow override"
+    },
+    {
+      "type": "textarea",
+      "id": "text",
+      "label": "Body override"
+    },
+    {
+      "type": "text",
+      "id": "button_label",
+      "label": "Jump link label",
+      "default": "Discover the fragrances"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_description",
+      "label": "Show collection description",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_sorting",
+      "label": "Show sorting",
+      "default": true
+    },
+    {
+      "type": "range",
+      "id": "products_per_page",
+      "label": "Products per page",
+      "min": 12,
+      "max": 48,
+      "step": 6,
+      "default": 24
+    },
+    {
+      "type": "select",
+      "id": "color_scheme",
+      "label": "Color scheme",
+      "options": [
+        {
+          "value": "cream",
+          "label": "Warm cream"
+        },
+        {
+          "value": "gold",
+          "label": "Warm gold"
+        },
+        {
+          "value": "burgundy",
+          "label": "Burgundy"
+        }
+      ],
+      "default": "gold"
+    },
+    {
+      "type": "range",
+      "id": "spacing",
+      "label": "Vertical spacing",
+      "min": 24,
+      "max": 120,
+      "step": 8,
+      "unit": "px",
+      "default": 72
+    }
+  ]
+}
+{% endschema %}

@@ -1,0 +1,61 @@
+{% liquid
+  assign scent_name = product.title | downcase | strip
+  if product.handle == 'rtulle-satin' or product.handle == 'rtulle-and-satin'
+    assign scent_name = 'rtulle & satin'
+  endif
+  assign scent_description = ''
+  assign scent_character = ''
+  case scent_name
+    when 'mojito metallique'
+      assign scent_description = 'Soft, creamy sweetness with a light fruity glow.'
+      assign scent_character = 'Soft · Creamy · Fruity'
+    when 'amber oud silk'
+      assign scent_description = 'Dark spice and smoke with a warm, addictive edge.'
+      assign scent_character = 'Dark spice · Smoke · Warmth'
+    when 'mistened narcissus'
+      assign scent_description = 'Juicy berries softened by a smooth, sweet finish.'
+      assign scent_character = 'Juicy berries · Smooth sweetness'
+    when 'oud mirage'
+      assign scent_description = 'Dark rose wrapped in smoky, woody depth.'
+      assign scent_character = 'Dark rose · Smoke · Woods'
+    when 'charme envoûtant', 'charme envoutant'
+      assign scent_description = 'Rich, spiced sweetness that feels deep and indulgent.'
+      assign scent_character = 'Rich · Spiced · Sweet'
+    when 'rtulle & satin', 'rtulle and satin'
+      assign scent_description = 'Airy sweetness with a warm, glowing trail.'
+      assign scent_character = 'Airy sweetness · Warmth'
+  endcase
+  assign row_price = 0
+  assign row_price_max = 0
+  assign can_choose = false
+  for variant in product.variants
+    if variant.price > 0
+      if row_price == 0 or variant.price < row_price
+        assign row_price = variant.price
+      endif
+      if variant.price > row_price_max
+        assign row_price_max = variant.price
+      endif
+      if variant.available
+        assign can_choose = true
+      endif
+    endif
+  endfor
+%}
+<article class="db-fragrance-row" aria-labelledby="fragrance-{{ section_id }}-{{ product.id }}" data-fragrance-row>
+  <div class="db-fragrance-row__copy">
+    <div class="db-fragrance-row__glass">
+      <p class="db-kicker">{{ collection_title | escape }} · {{ index | prepend: '0' }}</p>
+      <h2 id="fragrance-{{ section_id }}-{{ product.id }}">{{ product.title | escape }}</h2>
+      {% if scent_character != blank %}<p class="db-fragrance-row__character">{{ scent_character | escape }}</p>{% endif %}
+      {% if scent_description != blank %}<p class="db-fragrance-row__description">{{ scent_description | escape }}</p>{% elsif product.description != blank %}<div class="db-richtext db-fragrance-row__description">{{ product.description }}</div>{% endif %}
+      <p class="db-fragrance-row__price">{% if row_price > 0 %}{% if row_price_max > row_price %}From {% endif %}{{ row_price | money_with_currency }}{% unless can_choose %}<span class="db-fragrance-row__availability">Sold out</span>{% endunless %}{% else %}Available soon{% endif %}</p>
+      {% if product.url != blank %}<div class="db-fragrance-row__actions"><a class="db-button" href="{{ product.url | escape }}">{% if can_choose %}Choose options{% else %}View fragrance{% endif %}<span aria-hidden="true">↗</span></a><a class="db-text-link" href="{{ product.url | escape }}">Fragrance details</a></div>{% endif %}
+    </div>
+  </div>
+  <div class="db-fragrance-row__media">
+    {% if product.url != blank %}<a href="{{ product.url | escape }}" aria-label="Explore {{ product.title | escape }}">{% endif %}
+      {% if product.featured_image %}{{ product.featured_image | image_url: width: 1500 | image_tag: widths: '500, 800, 1100, 1500', sizes: '(max-width: 700px) 100vw, 50vw', loading: 'lazy', alt: product.title }}{% else %}<div class="db-no-image">{{ product.title | escape }}</div>{% endif %}
+    {% if product.url != blank %}</a>{% endif %}
+  </div>
+</article>

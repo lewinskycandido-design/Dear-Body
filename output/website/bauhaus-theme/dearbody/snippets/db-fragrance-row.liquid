@@ -1,0 +1,91 @@
+{% liquid
+  assign identity = product.title | downcase | strip
+  if product.handle == 'rtulle-satin' or product.handle == 'rtulle-and-satin'
+    assign identity = 'rtulle & satin'
+  endif
+  assign character = ''
+  assign scent_description = ''
+  assign scent_facets = ''
+  assign fallback_photo = ''
+  case identity
+    when 'mojito metallique', 'mojito métallique'
+      assign character = 'Soft & creamy'
+      assign scent_description = 'Soft, creamy sweetness with a light fruity glow.'
+      assign scent_facets = 'Creamy sweetness|Light fruitiness'
+      assign fallback_photo = 'db-mojito-metallique.jpg'
+    when 'amber oud silk'
+      assign character = 'Dark & warm'
+      assign scent_description = 'Dark spice and smoke with a warm, addictive edge.'
+      assign scent_facets = 'Dark spice|Smoke|Warmth'
+      assign fallback_photo = 'db-amber-oud-silk.jpg'
+    when 'mistened narcissus'
+      assign character = 'Juicy & smooth'
+      assign scent_description = 'Juicy berries softened by a smooth, sweet finish.'
+      assign scent_facets = 'Juicy berries|Smooth sweetness'
+      assign fallback_photo = 'db-mistened-narcissus.jpg'
+    when 'oud mirage'
+      assign character = 'Rose & smoky woods'
+      assign scent_description = 'Dark rose wrapped in smoky, woody depth.'
+      assign scent_facets = 'Dark rose|Smoke|Woody depth'
+      assign fallback_photo = 'db-oud-mirage.jpg'
+    when 'charme envoûtant', 'charme envoutant'
+      assign character = 'Rich & spiced'
+      assign scent_description = 'Rich, spiced sweetness that feels deep and indulgent.'
+      assign scent_facets = 'Rich sweetness|Spice|Depth'
+      assign fallback_photo = 'db-charme-envoutant.jpg'
+    when 'rtulle & satin', 'rtulle and satin'
+      assign character = 'Airy & warm'
+      assign scent_description = 'Airy sweetness with a warm, glowing trail.'
+      assign scent_facets = 'Airy sweetness|Warmth'
+      assign fallback_photo = 'db-rtulle-and-satin.jpg'
+  endcase
+  assign character = product.metafields.custom.editorial_character.value | default: character
+  assign scent_description = product.metafields.custom.short_description.value | default: scent_description
+  if scent_description == blank
+    assign scent_description = product.description | strip_html | truncatewords: 45
+  endif
+  assign minimum_price = 0
+  assign maximum_price = 0
+  for variant in product.variants
+    if variant.price > 0
+      if minimum_price == 0 or variant.price < minimum_price
+        assign minimum_price = variant.price
+      endif
+      if variant.price > maximum_price
+        assign maximum_price = variant.price
+      endif
+    endif
+  endfor
+  assign current_variant = product.selected_or_first_available_variant
+  assign form_id = 'db-editorial-form-' | append: section_id | append: '-' | append: product.id
+  assign facets = scent_facets | split: '|'
+%}
+<article class="db-fragrance-row" aria-labelledby="fragrance-{{ section_id }}-{{ product.id }}">
+  <div class="db-fragrance-row__copy">
+    <p class="db-kicker">DEAR BODY / {% if index < 10 %}0{% endif %}{{ index }}</p>
+    <h2 id="fragrance-{{ section_id }}-{{ product.id }}">{{ product.title | escape }}</h2>
+    {% if character != blank %}<p class="db-fragrance-row__character">{{ character | escape }}</p>{% endif %}
+    {% if scent_description != blank %}<p class="db-fragrance-row__description">{{ scent_description | escape }}</p>{% endif %}
+    {% if scent_facets != blank %}<div class="db-fragrance-row__facets"><span class="db-kicker">THE CHARACTER</span><ul>{% for facet in facets %}<li>{{ facet | escape }}</li>{% endfor %}</ul></div>{% endif %}
+    <p class="db-fragrance-row__price">{% if minimum_price > 0 %}{% if maximum_price > minimum_price %}From {% endif %}{{ minimum_price | money_with_currency }}{% else %}Available soon{% endif %}</p>
+    {% if product.type != blank %}<p class="db-fragrance-row__type">{{ product.type | escape }}</p>{% endif %}
+    <div class="db-fragrance-row__actions">
+      {% if product.url != blank %}
+        {% if product.has_only_default_variant and current_variant.available and current_variant.price > 0 %}
+          {% form 'product', product, id: form_id, class: 'db-editorial-product-form' %}
+            <input type="hidden" name="id" value="{{ current_variant.id }}"><input type="hidden" name="quantity" value="1">
+            <button class="db-button" type="submit" name="add">Add to bag <span aria-hidden="true">↗</span></button>
+          {% endform %}
+        {% elsif product.available and minimum_price > 0 %}
+          <a class="db-button" href="{{ product.url | escape }}">Choose options <span aria-hidden="true">↗</span></a>
+        {% else %}<span class="db-fragrance-row__availability">{% if minimum_price == 0 %}Coming soon{% else %}Sold out{% endif %}</span>{% endif %}
+        <a class="db-text-link" href="{{ product.url | escape }}">View full details <span aria-hidden="true">↗</span></a>
+      {% endif %}
+    </div>
+  </div>
+  <div class="db-fragrance-row__media">
+    {% if product.url != blank %}<a href="{{ product.url | escape }}" aria-label="Explore {{ product.title | escape }}">{% endif %}
+    {% if product.featured_image %}{{ product.featured_image | image_url: width: 1500 | image_tag: widths: '400, 700, 1000, 1500', sizes: '(max-width: 760px) 100vw, 50vw', loading: 'lazy', alt: product.title }}{% elsif fallback_photo != blank %}<img src="{{ fallback_photo | asset_url }}" alt="{{ product.title | escape }} bottle and presentation canister" width="900" height="900" loading="lazy">{% else %}<div class="db-fragrance-row__placeholder">{{ product.title | escape }}</div>{% endif %}
+    {% if product.url != blank %}</a>{% endif %}
+  </div>
+</article>

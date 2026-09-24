@@ -5,7 +5,13 @@
       {
         "type": "image_picker",
         "id": "logo",
-        "label": "Official wordmark"
+        "label": "Primary DearBody wordmark"
+      },
+      {
+        "type": "image_picker",
+        "id": "secondary_logo",
+        "label": "Secondary circular DearBody logo",
+        "info": "Use a transparent PNG. Its silhouette is adapted to the burgundy or cream brand color."
       },
       {
         "type": "image_picker",
@@ -19,7 +25,7 @@
       },
       {
         "type": "paragraph",
-        "content": "This theme uses the DearBody cream, burgundy, rich red, orange and golden tan palette. Helvetica Neue is the fallback until licensed brand webfonts are installed."
+        "content": "Approved DearBody palette: burgundy #5c0006, red #9a1106, orange #d46601, golden tan #e9a250 and cream #f4e3cb. Memphis shapes, borders and shadows use these colors. Helvetica Neue is the fallback until licensed brand webfonts are installed."
       }
     ]
   },

@@ -1,0 +1,45 @@
+{% assign selected_collection = section.settings.collection %}{% if selected_collection != blank and selected_collection.products_count > 0 %}<section class="db-section db-container"><div class="db-section-heading"><div><p class="db-kicker">{{ section.settings.eyebrow | escape }}</p><h2>{{ section.settings.heading | escape }}</h2></div><a class="db-text-link" href="{{ selected_collection.url }}">{{ section.settings.link_label | escape }} ↗</a></div><div class="db-product-grid">{% for product in selected_collection.products limit: section.settings.limit %}{% render 'db-product-card', product: product %}{% endfor %}</div></section>{% elsif request.design_mode %}<div class="db-editor-note">Choose a collection for Featured fragrance discovery. This section stays hidden until products are available.</div>{% endif %}
+{% schema %}
+{
+  "name": "Featured fragrances",
+  "settings": [
+    {
+      "type": "collection",
+      "id": "collection",
+      "label": "Collection"
+    },
+    {
+      "type": "text",
+      "id": "eyebrow",
+      "label": "Eyebrow",
+      "default": "KEEP EXPLORING"
+    },
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "YOUR NEXT CHAPTER."
+    },
+    {
+      "type": "text",
+      "id": "link_label",
+      "label": "Link label",
+      "default": "Discover more"
+    },
+    {
+      "type": "range",
+      "id": "limit",
+      "label": "Products",
+      "min": 3,
+      "max": 12,
+      "step": 3,
+      "default": 6
+    }
+  ],
+  "presets": [
+    {
+      "name": "Featured fragrances"
+    }
+  ]
+}
+{% endschema %}

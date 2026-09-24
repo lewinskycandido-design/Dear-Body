@@ -1,0 +1,35 @@
+{
+  "tool": "image_gen built-in",
+  "desktop": "Use case: ads-marketing. ASSET: DearBody Philippines six-scent homepage desktop campaign. PURPOSE: begin a warm premium playful fragrance journey from London to Filipino everyday life. PRODUCT: all SIX exact bottles from two supplied original photographs. Image 1 is Mistened Narcissus (clear/lilac), Mojito Metallique (gold), Amber Oud Silk (light amber), all ivory labels. Image 2 is Charme Envoûtant (orange), Rtulle & Satin (turquoise), Oud Mirage (blue/lilac), all black labels. Preserve the exact cylindrical glass shapes, cap heights and ribbing, liquid colors, label typography, product names, tiny original monogram and PARFUM LONDON detail, relative proportions. MODEL: no people. COMPOSITION: commercial studio photograph, six full bottles staged at different heights on tactile warm cream architectural pedestals concentrated on the RIGHT 60 percent, natural asymmetric grouping, no overlap obscuring labels. Layered burnt orange and burgundy architectural surfaces near far right. Soft gold highlights, one subtle translucent gauze textile. BACKGROUND: warm cream #F4E3CB with burgundy #5C0006, warm red #9A1106, burnt orange #D46601 and peach gold #E9A250 accents. LIGHT: golden directional studio light and dimensional editorial shadows. MOOD: warm, bold, premium, modern, approachable. NEGATIVE SPACE: left 40 percent clean pale warm cream for live HTML heading. RATIO: landscape approximately 1.8:1, high resolution. STRICT PRODUCT LOCK: reproduce packaging exactly from supplied original bottle reference photos; no redesigned labels, recolored bottles, changed caps or fake marks. No website headlines, no marketing copy, no added decorative letters or text, no flags. Bottles upright, editorial photographic realism, not illustration.",
+  "campaigns": [
+    {
+      "name": "hero-mobile",
+      "refs": [
+        "/Users/wetrade/.codex/generated_images/01a0d0d3-d90e-7fc2-988e-6ea9c1d4fa7b/exec-c275d8ba-4851-4a6f-83a8-18e291e7bd0e.png"
+      ],
+      "prompt": "ASSET: DearBody mobile campaign image, 4:5 portrait. PURPOSE: express the same six-scent collection as this exact approved desktop composition. PRODUCT: all six bottles, preserving each exact name, label, cap, shape, liquid color, proportions and PARFUM LONDON details as in supplied image. MODEL: none. COMPOSITION: reframe the same warm cream pedestals, layered burgundy and orange sculptural surfaces, subtle translucent textile for vertical mobile composition. All six full bottles visible on staggered pedestals, no label obscured. BACKGROUND: #F4E3CB, #5C0006, #D46601, #E9A250. LIGHT: same warm golden studio editorial. MOOD: warm bold premium playful. NEGATIVE SPACE: 10% top margin only; HTML text will sit outside image. RATIO: 4:5 portrait. STRICT PRODUCT LOCK: no bottle redesign/recolor, no changed words/labels, no invented logo, no extra scents. No marketing typography or interface."
+    },
+    {
+      "name": "story",
+      "refs": [
+        "/Users/wetrade/Downloads/IMG_20260923_163311.jpg",
+        "/Users/wetrade/Downloads/IMG_20260923_163159.jpg"
+      ],
+      "prompt": "ASSET: DearBody brand-introduction editorial fragrance flat lay, square. PURPOSE: premium approachable everyday self-expression. PRODUCT: exact reference Mojito Metallique, Amber Oud Silk, Charme Envoûtant and Rtulle & Satin bottles from supplied photos; EXACT preserve shape caps labels original small monogram PARFUM LONDON and product typography, liquid colors. MODEL: none. COMPOSITION: overhead editorial flat lay of these FOUR bottles angled naturally across warm cream textured surface with deep burgundy textile draped diagonally, one burnt orange architectural slab, subtle tactile golden light/shadow play. Generous spacing to read each label. BACKGROUND: #F4E3CB burgundy #5C0006 and burnt orange #D46601, small #E9A250 detail. LIGHT: golden directional sunlight. MOOD: warm bold premium playful. NEGATIVE SPACE: no text overlay, keep all bottles unobscured. RATIO: 1:1 for desktop and mobile layout. STRICT PRODUCT LOCK: exact reference packaging no changed bottles caps product names liquid colors typography. No additional words/marketing copy."
+    },
+    {
+      "name": "women",
+      "refs": [
+        "/Users/wetrade/Downloads/IMG_20260923_163311.jpg"
+      ],
+      "prompt": "ASSET: DearBody women's collection lifestyle campaign. PURPOSE: scent for every version of yourself; relaxed everyday Filipino confidence. PRODUCT: exact reference Mojito Metallique bottle, gold liquid ivory label ribbed black cap, exact original product type and PARFUM LONDON, no redesign. MODEL: stylish adult Filipina woman age 27, natural expression, casually adjusting an earring at a sunlit cafe mirror, cream textured top with burgundy detail. COMPOSITION: warm relatable editorial photograph, model at right two thirds, actual reference perfume bottle resting naturally in her hand, visible accurate hand anatomy, bottle palm-sized 50ml and label toward viewer. Warm cream architectural cafe background with burnt-orange detail. Not sexualized or excessively luxury. LIGHT: warm tropical sunlight with rich soft shadows. MOOD: approachable expressive confident. NEGATIVE SPACE: left third cream environment, no baked text. RATIO: 16:9 landscape with model and bottle in center-right safe area for 4:5 crop. STRICT PRODUCT LOCK: exact reference bottle shape, cap, ivory label, name, gold liquid, proportions and printed details. No fake logos, extra words, no cool blue palette."
+    },
+    {
+      "name": "men",
+      "refs": [
+        "/Users/wetrade/Downloads/IMG_20260923_163159.jpg"
+      ],
+      "prompt": "ASSET: DearBody men's collection lifestyle campaign. PURPOSE: scent as a natural part of Filipino everyday story. PRODUCT: exact Charme Envoûtant reference bottle, original orange liquid black label ribbed black cap, exact printed name and small PARFUM LONDON monogram details. MODEL: stylish adult Filipino man age 29 with natural relaxed smile, cream casual overshirt, burgundy tee, walking out of sunlit warm city cafe and holding the fragrance naturally at waist height with label facing viewer. COMPOSITION: editorial relatable daily-life photograph, model at right two thirds, actual perfume bottle palm-sized 50ml, visible accurate hand. Cream architecture, burnt-orange doorway, golden tones. LIGHT: warm golden tropical daylight. MOOD: confident relaxed warm premium approachable. NEGATIVE SPACE: left third environment, no text. RATIO: 16:9 landscape; person and bottle in center-right safe region for portrait crop. STRICT PRODUCT LOCK: exact reference bottle shape cap original black label product name typography liquid orange and printed details; no redesign fake logo altered product, no dark blue/black advertising cliché, no sexualized posing."
+    }
+  ]
+}

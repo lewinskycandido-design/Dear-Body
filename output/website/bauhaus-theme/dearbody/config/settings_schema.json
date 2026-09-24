@@ -1,0 +1,51 @@
+[
+  {
+    "name": "Brand artwork",
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "logo",
+        "label": "Primary DearBody wordmark"
+      },
+      {
+        "type": "image_picker",
+        "id": "secondary_logo",
+        "label": "Secondary circular monogram",
+        "info": "Upload the official circular DearBody PH mark as a transparent PNG. Its silhouette adapts to burgundy or cream for contrast. Leave empty for the bundled vector recreation."
+      },
+      {
+        "type": "image_picker",
+        "id": "footer_logo",
+        "label": "Footer logo (light version)"
+      },
+      {
+        "type": "image_picker",
+        "id": "favicon",
+        "label": "Favicon"
+      },
+      {
+        "type": "paragraph",
+        "content": "Bauhaus edition. Approved palette: burgundy #5c0006, red #9a1106, orange #d46601, golden tan #e9a250 and cream #f4e3cb. The primary wordmark appears in the header; the secondary circular monogram appears in the story and footer. Helvetica Neue is the fallback until licensed brand webfonts are installed."
+      }
+    ]
+  },
+  {
+    "name": "Fragrance collections",
+    "settings": [
+      {
+        "type": "collection",
+        "id": "for_her_collection",
+        "label": "For Her collection"
+      },
+      {
+        "type": "collection",
+        "id": "for_him_collection",
+        "label": "For Him collection"
+      },
+      {
+        "type": "paragraph",
+        "content": "Select the existing women\u2019s and men\u2019s collections. If unset, navigation looks for collections titled Women's Perfume / Men's Perfume or For Her / For Him."
+      }
+    ]
+  }
+]

@@ -1,0 +1,104 @@
+{% assign campaign_image = section.settings.desktop_image | default: section.settings.mobile_image %}
+{% if section.settings.enabled %}
+{% assign finder_page = section.settings.finder_page | default: settings.scent_finder_page %}
+{{ 'dearbody-quiz.css' | asset_url | stylesheet_tag }}
+<section class="db-discovery-callout" style="--db-discovery-space: {{ section.settings.spacing }}px" aria-labelledby="finder-title-{{ section.id }}">
+  <div class="db-container db-discovery-callout__inner">
+    <div class="db-discovery-callout__copy">
+      <p class="db-kicker">{{ section.settings.eyebrow | escape }}</p>
+      <h2 id="finder-title-{{ section.id }}">{{ section.settings.heading | escape }}</h2>
+      <p>{{ section.settings.text | escape }}</p>
+      <a href="{{ finder_page.url | default: routes.all_products_collection_url }}" class="db-button db-button--cream">{% if finder_page != blank %}{{ section.settings.button_label | escape }}{% else %}{{ section.settings.browse_label | escape }}{% endif %} <span aria-hidden="true">↗</span></a>
+    </div>
+    {% if campaign_image != blank %}
+      <picture class="db-discovery-callout__image">
+        {% if section.settings.mobile_image != blank %}<source media="(max-width: 700px)" srcset="{{ section.settings.mobile_image | image_url: width: 900 }}">{% endif %}
+        {{ campaign_image | image_url: width: 1400 | image_tag: widths: '500, 800, 1100, 1400', sizes: '(max-width: 700px) 100vw, 50vw', loading: 'lazy', alt: section.settings.image_alt }}
+      </picture>
+    {% else %}
+      <div class="db-scent-trails" aria-hidden="true"><span></span><span></span><span></span><span></span></div>
+    {% endif %}
+  </div>
+</section>
+{% endif %}
+
+{% schema %}
+{
+  "name": "DearBody scent finder",
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "enabled",
+      "label": "Show section",
+      "default": true
+    },
+    {
+      "type": "text",
+      "id": "eyebrow",
+      "label": "Eyebrow",
+      "default": "LET YOUR FEELING LEAD"
+    },
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "YOUR NEXT SCENT IS WAITING."
+    },
+    {
+      "type": "textarea",
+      "id": "text",
+      "label": "Text",
+      "default": "Tell us what you're drawn to and we'll help you discover a DearBody fragrance that matches your mood and style."
+    },
+    {
+      "type": "text",
+      "id": "button_label",
+      "label": "Button label",
+      "default": "START YOUR SCENT JOURNEY"
+    },
+    {
+      "type": "page",
+      "id": "finder_page",
+      "label": "Scent finder page",
+      "info": "Select a page using the scent-finder template, or use the global Scent Finder page setting. Until assigned, this button opens all products."
+    },
+    {
+      "type": "image_picker",
+      "id": "desktop_image",
+      "label": "Desktop campaign image"
+    },
+    {
+      "type": "image_picker",
+      "id": "mobile_image",
+      "label": "Mobile campaign image"
+    },
+    {
+      "type": "text",
+      "id": "image_alt",
+      "label": "Image description",
+      "default": "A DearBody scent journey"
+    },
+    {
+      "type": "range",
+      "id": "spacing",
+      "label": "Vertical spacing",
+      "min": 24,
+      "max": 120,
+      "step": 8,
+      "unit": "px",
+      "default": 72
+    },
+    {
+      "type": "text",
+      "id": "browse_label",
+      "label": "Button before page is selected",
+      "default": "EXPLORE THE COLLECTION"
+    }
+  ],
+  "presets": [
+    {
+      "name": "DearBody scent finder"
+    }
+  ]
+}
+{% endschema %}

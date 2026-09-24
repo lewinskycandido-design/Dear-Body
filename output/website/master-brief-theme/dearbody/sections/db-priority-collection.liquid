@@ -1,0 +1,94 @@
+<section class="db-priority db-section db-container" aria-labelledby="collection-title-{{ section.id }}"><div class="db-section-heading"><div><p class="db-kicker">{{ section.settings.eyebrow | escape }}</p><h2 id="collection-title-{{ section.id }}">{{ section.settings.heading | escape }}</h2><p class="db-section-description">{{ section.settings.text | escape }}</p></div><a class="db-text-link" href="{{ routes.all_products_collection_url }}">Explore the collection <span aria-hidden="true">↗</span></a></div><div class="db-product-grid">{% for block in section.blocks %}{% assign selected_product = block.settings.product %}{% if selected_product != blank %}<div {{ block.shopify_attributes }}>{% render 'db-product-card', product: selected_product %}</div>{% elsif request.design_mode %}<p class="db-editor-note" {{ block.shopify_attributes }}>Connect {{ block.settings.name | escape }} to its Shopify product.</p>{% endif %}{% endfor %}</div></section>
+{% schema %}
+{
+  "name": "DearBody launch collection",
+  "max_blocks": 6,
+  "settings": [
+    {
+      "type": "text",
+      "id": "eyebrow",
+      "label": "Eyebrow",
+      "default": "SIX SCENTS. YOUR STORY."
+    },
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "THE FIRST CHAPTER."
+    },
+    {
+      "type": "textarea",
+      "id": "text",
+      "label": "Description",
+      "default": "Six distinctive scents. Six different moods. Find the one that begins your DearBody journey."
+    }
+  ],
+  "blocks": [
+    {
+      "type": "scent",
+      "name": "Launch scent",
+      "settings": [
+        {
+          "type": "product",
+          "id": "product",
+          "label": "Shopify product"
+        },
+        {
+          "type": "text",
+          "id": "name",
+          "label": "Setup label"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "DearBody launch collection",
+      "blocks": [
+        {
+          "type": "scent",
+          "settings": {
+            "product": "mojito-metallique",
+            "name": "Mojito Metallique"
+          }
+        },
+        {
+          "type": "scent",
+          "settings": {
+            "product": "amber-oud-silk",
+            "name": "Amber Oud Silk"
+          }
+        },
+        {
+          "type": "scent",
+          "settings": {
+            "product": "mistened-narcissus",
+            "name": "Mistened Narcissus"
+          }
+        },
+        {
+          "type": "scent",
+          "settings": {
+            "product": "charme-envoutant",
+            "name": "Charme Envoûtant"
+          }
+        },
+        {
+          "type": "scent",
+          "settings": {
+            "product": "oud-mirage",
+            "name": "Oud Mirage"
+          }
+        },
+        {
+          "type": "scent",
+          "settings": {
+            "product": "rtulle-satin",
+            "name": "Rtulle & Satin"
+          }
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

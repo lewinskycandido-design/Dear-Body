@@ -1,0 +1,35 @@
+<section class="db-story-page"><div class="db-container"><p class="db-kicker">{{ section.settings.eyebrow | escape }}</p><h1>{{ section.settings.heading | escape | newline_to_br }}</h1><div class="db-story-page-body">{% if page.content != blank %}{{ page.content }}{% else %}<p>DearBody Philippines brings London's rich fragrance culture to the Philippines through London-formulated scents thoughtfully curated for the Filipino lifestyle.</p><p>More than a fragrance brand, DearBody bridges premium international craftsmanship with the vibrant, approachable and playful spirit of the Philippine market.</p><p>Each fragrance is selected with Filipino preferences, lifestyle and tropical conditions in mind—creating lively scents that inspire confidence, self-expression and a fun sense of style.</p>{% endif %}</div></div><picture>{% if section.settings.mobile_image %}<source media="(max-width:700px)" srcset="{{ section.settings.mobile_image | image_url: width: 1100 }}">{% endif %}{% if section.settings.image %}{{ section.settings.image | image_url: width: 2000 | image_tag: loading: 'lazy', alt: section.settings.image_alt }}{% else %}<img src="{{ 'db-banner-story.jpg' | asset_url }}" width="1536" height="1024" alt="The DearBody collection in warm sunlight" loading="lazy">{% endif %}</picture></section>
+{% schema %}
+{
+  "name": "DearBody Our Story",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Desktop campaign image"
+    },
+    {
+      "type": "image_picker",
+      "id": "mobile_image",
+      "label": "Mobile campaign image"
+    },
+    {
+      "type": "text",
+      "id": "image_alt",
+      "label": "Image description"
+    },
+    {
+      "type": "text",
+      "id": "eyebrow",
+      "label": "Eyebrow",
+      "default": "OUR STORY"
+    },
+    {
+      "type": "textarea",
+      "id": "heading",
+      "label": "Heading",
+      "default": "A SCENT JOURNEY\nFROM LONDON\nTO THE PHILIPPINES."
+    }
+  ]
+}
+{% endschema %}

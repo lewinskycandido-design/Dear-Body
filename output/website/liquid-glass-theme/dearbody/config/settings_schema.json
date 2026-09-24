@@ -1,0 +1,51 @@
+[
+  {
+    "name": "Brand artwork",
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "logo",
+        "label": "Official wordmark"
+      },
+      {
+        "type": "image_picker",
+        "id": "secondary_logo",
+        "label": "Secondary circular DearBody mark",
+        "info": "Upload transparent artwork. Its silhouette adopts the burgundy or cream of the surface."
+      },
+      {
+        "type": "image_picker",
+        "id": "footer_logo",
+        "label": "Footer logo (light version)"
+      },
+      {
+        "type": "image_picker",
+        "id": "favicon",
+        "label": "Favicon"
+      },
+      {
+        "type": "paragraph",
+        "content": "Approved DearBody palette: burgundy #5c0006, red #9a1106, orange #d46601, golden tan #e9a250 and cream #f4e3cb. Glass highlights, translucent panels and shadows use these same colors with opacity. Helvetica Neue is the fallback until licensed brand webfonts are installed."
+      }
+    ]
+  },
+  {
+    "name": "Fragrance collections",
+    "settings": [
+      {
+        "type": "collection",
+        "id": "for_her_collection",
+        "label": "For Her collection"
+      },
+      {
+        "type": "collection",
+        "id": "for_him_collection",
+        "label": "For Him collection"
+      },
+      {
+        "type": "paragraph",
+        "content": "Select the existing women\u2019s and men\u2019s collections. If unset, navigation looks for collections titled Women's Perfume / Men's Perfume or For Her / For Him."
+      }
+    ]
+  }
+]

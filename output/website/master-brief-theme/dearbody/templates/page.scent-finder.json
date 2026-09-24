@@ -1,0 +1,7 @@
+{
+  "sections": {
+    "main": {"type": "db-main-scent-finder", "settings": {}},
+    "quiz": {"type": "db-scent-quiz", "settings": {}}
+  },
+  "order": ["main", "quiz"]
+}

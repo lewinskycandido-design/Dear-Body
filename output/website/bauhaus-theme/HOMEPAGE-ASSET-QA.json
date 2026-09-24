@@ -1,0 +1,66 @@
+{
+  "date": "2026-09-24",
+  "generator": "Built-in image_gen.imagegen",
+  "prompt_file": "HOMEPAGE-PROMPTS.json",
+  "scope": "Three homepage lifestyle images, not a 12-frame fragrance gallery. User raw photographs used as identity references. No raw photographs altered.",
+  "export": "PNG originals copied unchanged into workspace; same-dimension JPG exports with sips quality88. No crop or retouch applied after generation.",
+  "assets": [
+    {
+      "scene": "spray",
+      "products": [
+        "Charme Envoûtant"
+      ],
+      "web_asset": "dearbody/assets/db-home-spray-v1.jpg",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 400773,
+      "sha256": "9484f29826617611559a9cf3ff6ce29af8a8df73bc45ff566d627100d21b8fab",
+      "original_workspace_path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/lifestyle-home-assets/dearbody-home-spray-v1.png",
+      "original_sha256": "f592dfe2f6475b3be690f9fd7c118a32d20d2901cd8155fc55750eaea7fd9e99",
+      "review": "pass",
+      "review_notes": "Visible fine spray originates at the silver nozzle; natural hand grip; complete bottle and label; quiet lower-left area for live web copy."
+    },
+    {
+      "scene": "bag",
+      "products": [
+        "Amber Oud Silk",
+        "Mojito Metallique"
+      ],
+      "web_asset": "dearbody/assets/db-home-bag-v1.jpg",
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "bytes": 495489,
+      "sha256": "a75d49d5c00705ce2016d38eee234ea6b7138187de5a74cf7f6855e7af57c290",
+      "original_workspace_path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/lifestyle-home-assets/dearbody-home-bag-v1.png",
+      "original_sha256": "bd1a5258ee67038b1ad131f8144c1ebcbf20a964d745c8c9e1df96b3273ae8bb",
+      "review": "pass",
+      "review_notes": "Two distinct ivory labels visible above the burgundy bag pockets; natural hand grip; warm cream/wine palette."
+    },
+    {
+      "scene": "vanity",
+      "products": [
+        "Mistened Narcissus",
+        "Oud Mirage",
+        "Rtulle & Satin"
+      ],
+      "web_asset": "dearbody/assets/db-home-vanity-v1.jpg",
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "bytes": 452846,
+      "sha256": "4e242024c43e6bd6a205ec2d6e439667f549a92be75aed54f4d7e3f24e35a54d",
+      "original_workspace_path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/lifestyle-home-assets/dearbody-home-vanity-v1.png",
+      "original_sha256": "532067d659033d7d3bbd10407d1611f0fb3c398c6e982055bc775fe08189e6ae",
+      "review": "pass",
+      "review_notes": "Three distinct labels and liquid colors retained; full caps/bases; bathroom sink edge and tray establish the scene; no text overlays."
+    }
+  ],
+  "display_asset": "dearbody/assets/db-banner-story.jpg",
+  "display_note": "Existing six-fragrance home display reused unchanged.",
+  "limits": "AI-rendered product photography; printed scent names, label families, liquid colors, silhouettes, setting and anatomy visually reviewed. Fine monogram and typography are approximations, not pixel-identical product art."
+}

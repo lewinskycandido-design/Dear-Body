@@ -1,0 +1,32 @@
+{{ 'dearbody-quiz.css' | asset_url | stylesheet_tag }}
+<section class="db-discovery-hero" aria-labelledby="finder-page-title-{{ section.id }}">
+  <div class="db-container db-discovery-hero__inner">
+    <div class="db-discovery-hero__copy">
+      <p class="db-kicker">{{ section.settings.eyebrow | escape }}</p>
+      <h1 id="finder-page-title-{{ section.id }}">{{ section.settings.heading | escape | newline_to_br }}</h1>
+      <p>{{ section.settings.text | escape }}</p>
+      <button type="button" class="db-button db-button--cream" data-scent-finder-start hidden>START THE QUIZ <span aria-hidden="true">↘</span></button>
+    </div>
+    {% if section.settings.desktop_image != blank %}
+      <picture class="db-discovery-hero__image">
+        {% if section.settings.mobile_image != blank %}<source media="(max-width: 700px)" srcset="{{ section.settings.mobile_image | image_url: width: 1000 }}">{% endif %}
+        {{ section.settings.desktop_image | image_url: width: 1800 | image_tag: widths: '600, 1000, 1400, 1800', sizes: '(max-width:700px) 100vw, 50vw', loading: 'eager', alt: section.settings.image_alt }}
+      </picture>
+    {% else %}
+      <div class="db-scent-trails" aria-hidden="true"><span></span><span></span><span></span><span></span></div>
+    {% endif %}
+  </div>
+</section>
+{% schema %}
+{
+  "name":"Scent finder page hero",
+  "settings":[
+    {"type":"text","id":"eyebrow","label":"Eyebrow","default":"DEARBODY SCENT FINDER"},
+    {"type":"textarea","id":"heading","label":"Heading","default":"FIND THE NEXT CHAPTER\nOF YOUR SCENT JOURNEY."},
+    {"type":"textarea","id":"text","label":"Text","default":"Answer a few quick questions and discover the DearBody fragrances that fit your personality, mood and everyday moments."},
+    {"type":"image_picker","id":"desktop_image","label":"Desktop campaign image"},
+    {"type":"image_picker","id":"mobile_image","label":"Mobile campaign image"},
+    {"type":"text","id":"image_alt","label":"Image description","default":"DearBody fragrances for your scent journey"}
+  ]
+}
+{% endschema %}

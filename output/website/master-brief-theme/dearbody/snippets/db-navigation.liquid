@@ -1,0 +1,10 @@
+{% liquid
+ assign women = settings.for_her_collection
+ assign men = settings.for_him_collection
+ assign finder_url = settings.scent_finder_page.url | default: '/pages/scent-finder'
+ assign story_url = settings.story_page.url | default: '/pages/our-story'
+%}
+{% if women != blank %}<a href="{{ women.url }}"{% if request.path == women.url %} aria-current="page"{% endif %}>Women</a>{% endif %}
+{% if men != blank %}<a href="{{ men.url }}"{% if request.path == men.url %} aria-current="page"{% endif %}>Men</a>{% endif %}
+<a href="{{ finder_url }}"{% if request.path == finder_url %} aria-current="page"{% endif %}>Scent Finder</a>
+<a href="{{ story_url }}"{% if request.path == story_url %} aria-current="page"{% endif %}>Our Story</a>

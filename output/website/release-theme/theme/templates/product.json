@@ -1,0 +1,7 @@
+{
+  "sections": {
+    "main": {"type": "db-main-product", "settings": {"show_dynamic_checkout": true}},
+    "recommendations": {"type": "db-product-recommendations", "settings": {"heading": "Your next chapter", "limit": 3}}
+  },
+  "order": ["main", "recommendations"]
+}

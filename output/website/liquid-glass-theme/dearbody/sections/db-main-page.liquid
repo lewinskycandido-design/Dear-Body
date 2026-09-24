@@ -1,0 +1,8 @@
+{% if page.handle == 'contact' %}
+{% render 'db-contact-content', section: section, page: page, routes: routes, form: form %}
+{% elsif page.handle == 'our-story' %}
+{% render 'db-story-content', section: section, page: page, routes: routes %}
+{% else %}
+<section class="db-container db-section db-page"><p class="db-kicker">DEAR BODY PHILIPPINES</p><h1 class="db-title">{{ page.title | escape }}</h1><div class="db-richtext">{{ page.content }}</div></section>
+{% endif %}
+{% schema %}{"name":"DearBody page","settings":[{"type":"paragraph","content":"Banner settings apply to pages with the contact or our-story handle. Each page uses its designed default image and text when these are unset."},{"type":"image_picker","id":"banner_image","label":"Banner image override"},{"type":"textarea","id":"banner_heading","label":"Banner heading override"},{"type":"text","id":"banner_kicker","label":"Banner eyebrow override"},{"type":"textarea","id":"banner_text","label":"Banner text override"}]}{% endschema %}

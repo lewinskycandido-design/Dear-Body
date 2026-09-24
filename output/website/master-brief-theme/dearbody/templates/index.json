@@ -1,0 +1,83 @@
+{
+  "sections": {
+    "hero": {
+      "type": "db-hero",
+      "settings": {}
+    },
+    "launch": {
+      "type": "db-priority-collection",
+      "settings": {},
+      "blocks": {
+        "scent0": {
+          "type": "scent",
+          "settings": {
+            "product": "mojito-metallique",
+            "name": "Mojito Metallique"
+          }
+        },
+        "scent1": {
+          "type": "scent",
+          "settings": {
+            "product": "amber-oud-silk",
+            "name": "Amber Oud Silk"
+          }
+        },
+        "scent2": {
+          "type": "scent",
+          "settings": {
+            "product": "mistened-narcissus",
+            "name": "Mistened Narcissus"
+          }
+        },
+        "scent3": {
+          "type": "scent",
+          "settings": {
+            "product": "charme-envoutant",
+            "name": "Charme Envoûtant"
+          }
+        },
+        "scent4": {
+          "type": "scent",
+          "settings": {
+            "product": "oud-mirage",
+            "name": "Oud Mirage"
+          }
+        },
+        "scent5": {
+          "type": "scent",
+          "settings": {
+            "product": "rtulle-satin",
+            "name": "Rtulle & Satin"
+          }
+        }
+      },
+      "block_order": [
+        "scent0",
+        "scent1",
+        "scent2",
+        "scent3",
+        "scent4",
+        "scent5"
+      ]
+    },
+    "story": {
+      "type": "db-story",
+      "settings": {}
+    },
+    "moods": {
+      "type": "db-mood-discovery",
+      "settings": {}
+    },
+    "finder": {
+      "type": "db-scent-finder",
+      "settings": {}
+    }
+  },
+  "order": [
+    "hero",
+    "launch",
+    "story",
+    "moods",
+    "finder"
+  ]
+}

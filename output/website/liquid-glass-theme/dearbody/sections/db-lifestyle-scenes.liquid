@@ -1,0 +1,78 @@
+{% liquid
+  assign for_her_collection = settings.for_her_collection
+  assign for_him_collection = settings.for_him_collection
+  for candidate in collections
+    assign candidate_title = candidate.title | downcase | strip
+    if for_her_collection == blank
+      if candidate_title == "women's perfume" or candidate_title == 'for her'
+        assign for_her_collection = candidate
+      endif
+    endif
+    if for_him_collection == blank
+      if candidate_title == "men's perfume" or candidate_title == 'for him'
+        assign for_him_collection = candidate
+      endif
+    endif
+  endfor
+  assign bag_url = section.settings.bag_link | default: for_her_collection.url
+  assign vanity_url = section.settings.vanity_link | default: for_him_collection.url
+  assign display_her_url = for_her_collection.url
+  assign display_him_url = for_him_collection.url
+%}
+<section id="DearBodyFragranceWorld" class="db-lifestyle-scenes db-section db-container" aria-labelledby="lifestyle-title-{{ section.id }}">
+  <div class="db-lifestyle-scenes__heading">
+    <p class="db-kicker">{{ section.settings.eyebrow | escape }}</p>
+    <h2 id="lifestyle-title-{{ section.id }}">{{ section.settings.heading | escape | newline_to_br }}</h2>
+  </div>
+  <div class="db-lifestyle-scenes__pair">
+    <figure class="db-lifestyle-scene db-lifestyle-scene--bag">
+      <div class="db-lifestyle-scene__photo">
+        {% if section.settings.bag_image %}
+          {{ section.settings.bag_image | image_url: width: 1400 | image_tag: widths: '500, 800, 1100, 1400', sizes: '(max-width:700px) 90vw, 46vw', loading: 'lazy', alt: section.settings.bag_alt }}
+        {% else %}
+          <img src="{{ 'db-home-bag-v1.jpg' | asset_url }}" width="1122" height="1402" alt="{{ section.settings.bag_alt | escape }}" loading="lazy">
+        {% endif %}
+      </div>
+      <figcaption>
+        <p class="db-kicker">FOR HER</p>
+        <h3>{{ section.settings.bag_heading | escape }}</h3>
+        <p>{{ section.settings.bag_text | escape }}</p>
+        {% if bag_url != blank %}<a class="db-text-link" href="{{ bag_url | escape }}">{{ section.settings.bag_button | escape }} <span aria-hidden="true">↗</span></a>{% endif %}
+      </figcaption>
+    </figure>
+    <figure class="db-lifestyle-scene db-lifestyle-scene--vanity">
+      <div class="db-lifestyle-scene__photo">
+        {% if section.settings.vanity_image %}
+          {{ section.settings.vanity_image | image_url: width: 1400 | image_tag: widths: '500, 800, 1100, 1400', sizes: '(max-width:700px) 90vw, 46vw', loading: 'lazy', alt: section.settings.vanity_alt }}
+        {% else %}
+          <img src="{{ 'db-home-vanity-v1.jpg' | asset_url }}" width="1122" height="1402" alt="{{ section.settings.vanity_alt | escape }}" loading="lazy">
+        {% endif %}
+      </div>
+      <figcaption>
+        <p class="db-kicker">FOR HIM</p>
+        <h3>{{ section.settings.vanity_heading | escape }}</h3>
+        <p>{{ section.settings.vanity_text | escape }}</p>
+        {% if vanity_url != blank %}<a class="db-text-link" href="{{ vanity_url | escape }}">{{ section.settings.vanity_button | escape }} <span aria-hidden="true">↗</span></a>{% endif %}
+      </figcaption>
+    </figure>
+  </div>
+  <figure class="db-lifestyle-display">
+    <div class="db-lifestyle-display__photo">
+      {% if section.settings.display_image %}
+        {{ section.settings.display_image | image_url: width: 2000 | image_tag: widths: '600, 1000, 1500, 2000', sizes: '(max-width:700px) 90vw, 92vw', loading: 'lazy', alt: section.settings.display_alt }}
+      {% else %}
+        <img src="{{ 'db-banner-story.jpg' | asset_url }}" width="1536" height="1024" alt="{{ section.settings.display_alt | escape }}" loading="lazy">
+      {% endif %}
+    </div>
+    <figcaption>
+      <div><p class="db-kicker">{{ section.settings.display_eyebrow | escape }}</p><h2>{{ section.settings.display_heading | escape }}</h2><p>{{ section.settings.display_text | escape }}</p></div>
+      <div class="db-lifestyle-display__links"><button class="db-button" type="button" data-scent-quiz-open aria-haspopup="dialog" aria-controls="DearBodyScentQuiz">Find your scent <span aria-hidden="true">↗</span></button>
+        {% if display_her_url != blank %}<a class="db-button" href="{{ display_her_url | escape }}">For Her <span aria-hidden="true">↗</span></a>{% endif %}
+        {% if display_him_url != blank %}<a class="db-button db-button--outline" href="{{ display_him_url | escape }}">For Him <span aria-hidden="true">↗</span></a>{% endif %}
+      </div>
+    </figcaption>
+  </figure>
+</section>
+{% schema %}
+{"name":"DearBody lifestyle scenes","settings":[{"type":"text","id":"eyebrow","label":"Eyebrow","default":"SCENT, LIVED IN"},{"type":"textarea","id":"heading","label":"Heading","default":"Little rituals.\nEverywhere you go."},{"type":"header","content":"A scent to take with you"},{"type":"image_picker","id":"bag_image","label":"Bag lifestyle photo","info":"Portrait 4:5 recommended. The full image is shown."},{"type":"text","id":"bag_alt","label":"Bag photo description","default":"Amber Oud Silk lifted from a burgundy tote, with Mojito Metallique in the adjacent pocket"},{"type":"text","id":"bag_heading","label":"Bag caption heading","default":"Along for the day."},{"type":"textarea","id":"bag_text","label":"Bag caption text","default":"Your favourite finishing touch, close at hand."},{"type":"text","id":"bag_button","label":"Bag link label","default":"Discover For Her"},{"type":"url","id":"bag_link","label":"Bag link","info":"Defaults to the For Her collection selected in theme settings."},{"type":"header","content":"An everyday ritual"},{"type":"image_picker","id":"vanity_image","label":"Vanity lifestyle photo","info":"Portrait 4:5 recommended. The full image is shown."},{"type":"text","id":"vanity_alt","label":"Vanity photo description","default":"Mistened Narcissus, Oud Mirage and Rtulle & Satin on a warm bathroom vanity"},{"type":"text","id":"vanity_heading","label":"Vanity caption heading","default":"A moment, just for you."},{"type":"textarea","id":"vanity_text","label":"Vanity caption text","default":"Make a little room for your daily scent ritual."},{"type":"text","id":"vanity_button","label":"For Him link label","default":"Discover For Him"},{"type":"url","id":"vanity_link","label":"For Him link override"},{"type":"header","content":"Your personal fragrance display"},{"type":"image_picker","id":"display_image","label":"Home display photo","info":"Landscape 3:2 recommended. The full image is shown."},{"type":"text","id":"display_alt","label":"Display photo description","default":"All six DearBody priority fragrances displayed together on a sunlit home console"},{"type":"text","id":"display_eyebrow","label":"Display eyebrow","default":"AT HOME WITH DEAR BODY"},{"type":"text","id":"display_heading","label":"Display heading","default":"Which scent feels like you?"},{"type":"textarea","id":"display_text","label":"Display text","default":"Three simple questions. A personal starting point for your scent journey."},{"type":"paragraph","content":"For Her and For Him buttons use the collections selected in theme settings."}],"presets":[{"name":"DearBody lifestyle scenes"}]}
+{% endschema %}

@@ -8,7 +8,7 @@
       {% render 'db-navigation', menu: section.settings.menu, settings: settings, collections: collections, routes: routes, request: request %}
     </nav>
     <div class="db-header-actions">
-      <a href="{{ routes.cart_url }}" class="db-bag" aria-label="Shopping bag, {{ cart.item_count }} items">Bag <span>{{ cart.item_count }}</span></a>
+      <a href="{{ routes.cart_url }}" class="db-bag" aria-label="Shopping bag, {{ cart.item_count }} items"><svg viewBox="0 0 32 32" width="27" height="27" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M4 5h3l3 16h14l3-11H8"/><circle cx="12" cy="26" r="1.7"/><circle cx="23" cy="26" r="1.7"/></svg><span>{{ cart.item_count }}</span></a>
       <details class="db-mobile-menu">
         <summary aria-label="Open navigation">Menu <span aria-hidden="true">☰</span></summary>
         <nav aria-label="Mobile navigation">

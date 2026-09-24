@@ -1,0 +1,100 @@
+[
+  {
+    "name": "theme_info",
+    "theme_name": "DearBody Scent Journey",
+    "theme_version": "1.0.1",
+    "theme_author": "DearBody Philippines",
+    "theme_documentation_url": "https://help.shopify.com/en/manual/online-store/themes",
+    "theme_support_url": "https://help.shopify.com/en/manual/online-store/themes"
+  },
+  {
+    "name": "Official brand assets",
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "logo",
+        "label": "Official primary logo"
+      },
+      {
+        "type": "image_picker",
+        "id": "footer_logo",
+        "label": "Official primary logo \u2014 light version"
+      },
+      {
+        "type": "image_picker",
+        "id": "secondary_logo",
+        "label": "Official secondary logo"
+      },
+      {
+        "type": "image_picker",
+        "id": "favicon",
+        "label": "Official favicon"
+      },
+      {
+        "type": "paragraph",
+        "content": "Use original DearBody artwork. No redrawing, masking, recoloring or approximations. Official DearBody font file required."
+      },
+      {
+        "type": "url",
+        "id": "display_font_url",
+        "label": "Cenzo Flare Bold licensed WOFF2 URL"
+      },
+      {
+        "type": "url",
+        "id": "body_font_url",
+        "label": "Helvetica Now Display licensed WOFF2 URL"
+      },
+      {
+        "type": "paragraph",
+        "content": "Upload licensed webfont files to Shopify Content \u2192 Files and paste their CDN URLs. Until supplied, this draft uses the documented Helvetica Neue / Arial fallback."
+      }
+    ]
+  },
+  {
+    "name": "Collections and pages",
+    "settings": [
+      {
+        "type": "collection",
+        "id": "for_her_collection",
+        "label": "Women\u2019s collection"
+      },
+      {
+        "type": "collection",
+        "id": "for_him_collection",
+        "label": "Men\u2019s collection"
+      },
+      {
+        "type": "page",
+        "id": "scent_finder_page",
+        "label": "Scent Finder page"
+      },
+      {
+        "type": "page",
+        "id": "story_page",
+        "label": "Our Story page"
+      },
+      {
+        "type": "collection",
+        "id": "launch_collection",
+        "label": "Launch collection"
+      }
+    ]
+  },
+  {
+    "name": "Search engine defaults",
+    "settings": [
+      {
+        "type": "text",
+        "id": "home_seo_title",
+        "label": "Homepage SEO title",
+        "default": "DearBody Philippines | London-Formulated Perfumes & Fragrances"
+      },
+      {
+        "type": "textarea",
+        "id": "home_seo_description",
+        "label": "Homepage description",
+        "default": "Discover DearBody Philippines and begin your scent journey. Shop London-formulated perfumes thoughtfully curated for Filipino tastes, lifestyles and tropical everyday living."
+      }
+    ]
+  }
+]

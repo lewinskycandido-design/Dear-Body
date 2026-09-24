@@ -1,0 +1,33 @@
+{%- liquid
+ assign seo_title = page_title
+ assign seo_description = page_description
+ if template.name == 'index'
+  assign seo_title = settings.home_seo_title
+  assign seo_description = settings.home_seo_description
+ elsif template.name == 'collection'
+  if collection.handle == settings.for_her_collection.handle
+   assign seo_title = "DearBody Women's Perfume Philippines | London-Formulated Fragrances"
+   assign seo_description = "Discover DearBody women's perfumes in the Philippines. Explore London-formulated fragrances curated for Filipino style, everyday moments and tropical living. Find a scent that expresses you."
+  elsif collection.handle == settings.for_him_collection.handle
+   assign seo_title = "DearBody Men's Perfume Philippines | London-Formulated Fragrances"
+   assign seo_description = "Explore DearBody men's perfumes in the Philippines. Discover London-formulated scents curated for Filipino lifestyles, from fresh everyday fragrance to deeper evening profiles."
+  elsif collection.handle == 'all'
+   assign seo_title = 'DearBody Perfumes Philippines | Shop the Fragrance Collection'
+   assign seo_description = 'Shop DearBody perfumes in the Philippines. Discover London-formulated fragrances with fresh, sweet, warm, smoky and indulgent scent profiles curated for everyday Filipino life.'
+  endif
+ elsif page.handle == 'scent-finder'
+  assign seo_title = 'DearBody Scent Finder Philippines | Find Your Perfume Match'
+  assign seo_description = 'Find your DearBody fragrance match. Take our quick scent quiz and discover London-formulated perfumes selected around your mood, preferred scent style and everyday lifestyle.'
+ elsif page.handle == 'our-story'
+  assign seo_title = 'About DearBody Philippines | A Scent Journey from London'
+  assign seo_description = "Discover DearBody Philippines, bringing London's fragrance culture into Filipino everyday life through carefully curated scents created for local tastes, lifestyles and tropical living."
+ endif
+ if template.name != 'index' and page_description != blank
+  assign seo_description = page_description
+ endif
+ if field == 'title'
+  echo seo_title
+ else
+  echo seo_description
+ endif
+-%}

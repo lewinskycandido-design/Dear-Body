@@ -11,6 +11,7 @@ const previewRoot = path.dirname(fileURLToPath(import.meta.url));
 const themeRoot = path.resolve(previewRoot, '../dearbody');
 const publicRoot = path.join(previewRoot, 'public');
 const assetRoot = path.join(themeRoot, 'assets');
+const previewPort = Number(process.env.PORT || 4173);
 const engine = new Liquid({
   root: [path.join(themeRoot, 'snippets'), path.join(themeRoot, 'sections')],
   extname: '.liquid',
@@ -63,16 +64,19 @@ const catalog = [
   ['Mistened Narcissus', 'mistened-narcissus', 'women'],
   ['Oud Mirage', 'oud-mirage', 'men'],
   ['Charme Envoûtant', 'charme-envoutant', 'men'],
-  ['Rtulle & Satin', 'rtulle-and-satin', 'men'],
+  ['Rtulle & Satin', 'rtulle-satin', 'men'],
 ];
 // Category assignments follow the owner-approved source facts/gallery manifests.
+// Owner-approved selling price. Availability remains false until inventory is confirmed.
+const priorityPrice = 79900;
 const products = catalog.map(([title, handle, category], index) => {
-  const featuredImage = image(`/assets/db-${handle}.jpg`, `${title} bottle and presentation canister`);
+  const photoHandle = handle === 'rtulle-satin' ? 'rtulle-and-satin' : handle;
+  const featuredImage = image(`/assets/db-${photoHandle}.jpg`, `${title} bottle and presentation canister`);
   const collectionImage = image('/assets/db-hero-desktop.jpg', 'Six DearBody fragrances displayed together in a sunlit home', 1774, 887);
   const media = [featuredImage, collectionImage].map((item, mediaIndex) => ({ ...item, id: (index + 1) * 100 + mediaIndex, media_type: 'image', preview_image: item }));
-  const variant = { id: 1000 + index, title: 'Default Title', available: false, price: 0, compare_at_price: null, options: ['Default Title'], featured_media: media[0], featured_image: featuredImage };
+  const variant = { id: 1000 + index, title: 'Default Title', available: false, price: priorityPrice, compare_at_price: null, options: ['Default Title'], featured_media: media[0], featured_image: featuredImage };
   return {
-    id: index + 1, title, handle, url: `/products/${handle}`, type: '', price: 0, tags: [category],
+    id: index + 1, title, handle, url: `/products/${handle}`, type: '', price: priorityPrice, tags: [category],
     price_varies: false, available: false, has_only_default_variant: true,
     options: ['Title'], variants: [variant], selected_or_first_available_variant: variant,
     featured_image: featuredImage, featured_media: media[0], media, images: [featuredImage, collectionImage],
@@ -97,11 +101,11 @@ const collections = Object.assign([collection, ...categoryCollections], {
 });
 const emptyCart = { item_count: 0, items: [], total_price: 0, cart_level_discount_applications: [] };
 const mockCart = {
-  item_count: 1, total_price: 0, cart_level_discount_applications: [],
+  item_count: 1, total_price: priorityPrice, cart_level_discount_applications: [],
   items: [{
     key: 'preview-unavailable-item', product: products[0], variant: products[0].variants[0],
     title: products[0].title, url: products[0].url, image: products[0].featured_image,
-    quantity: 1, original_price: 0, final_price: 0, final_line_price: 0,
+    quantity: 1, original_price: priorityPrice, final_price: priorityPrice, final_line_price: priorityPrice,
     url_to_remove: '/preview/empty-cart', properties: [],
   }],
 };
@@ -116,7 +120,7 @@ const baseContext = {
   content_for_header: '', page_description: '',
 };
 const fallbackTemplates = {
-  index: ['db-hero', 'db-priority-collection', 'db-editorial', 'db-story', 'db-newsletter'],
+  index: ['db-hero', 'db-lifestyle-scenes', 'db-story', 'db-newsletter'],
   collection: ['db-main-collection'], product: ['db-main-product'], cart: ['db-main-cart'],
   'page.our-story': ['db-main-story'], 'page.contact': ['db-main-contact'],
   page: ['db-main-page'],
@@ -126,6 +130,18 @@ const fallbackUsed = [];
 const schemaRegex = /{%[-\s]*schema\s*[-]?%}([\s\S]*?){%[-\s]*endschema\s*[-]?%}/;
 function schemaFrom(source) { const match = source.match(schemaRegex); return match ? JSON.parse(match[1]) : { settings: [] }; }
 const defaultsFor = (settings = []) => Object.fromEntries(settings.filter((item) => item.id && item.default !== undefined).map((item) => [item.id, item.default]));
+
+
+function resolvePickerSettings(schemaSettings, values, context) {
+  const resolved = { ...defaultsFor(schemaSettings), ...values };
+  for (const item of schemaSettings || []) {
+    const value = resolved[item.id];
+    if (typeof value !== 'string') continue;
+    if (item.type === 'product') resolved[item.id] = context.all_products[value] || null;
+    if (item.type === 'collection') resolved[item.id] = context.collections[value] || null;
+  }
+  return resolved;
+}
 
 // Shopify-only form/section/paginate tags are translated around unchanged section
 // markup. Liquid expressions, conditionals, loops, and snippet renders use LiquidJS.
@@ -151,7 +167,7 @@ async function preprocess(source, context) {
   for (const match of [...source.matchAll(/{%[-\s]*(sections|section)\s+['"]([^'"]+)['"]\s*[-]?%}/g)]) {
     const rendered = match[1] === 'sections'
       ? await renderGroup(match[2], context)
-      : await renderSection(match[2], { type: match[2], settings: {} }, context);
+      : await renderSection(match[2], context.settings.sections?.[match[2]] || { type: match[2], settings: {} }, context);
     source = source.replace(match[0], rendered);
   }
   return source;
@@ -163,9 +179,9 @@ async function renderSection(id, config, context) {
   const blocks = (config.block_order || Object.keys(rawBlocks)).map((blockId) => {
     const block = rawBlocks[blockId];
     const blockSchema = schema.blocks?.find((item) => item.type === block.type);
-    return { id: blockId, type: block.type, settings: { ...defaultsFor(blockSchema?.settings), ...block.settings }, shopify_attributes: '' };
+    return { id: blockId, type: block.type, settings: resolvePickerSettings(blockSchema?.settings, block.settings, context), shopify_attributes: '' };
   });
-  const section = { id, settings: { ...defaultsFor(schema.settings), ...config.settings }, blocks };
+  const section = { id, settings: resolvePickerSettings(schema.settings, config.settings, context), blocks };
   const scoped = { ...context, section };
   const rendered = await engine.parseAndRender(await preprocess(source, scoped), scoped);
   return `<div id="shopify-section-${escape(id)}" class="shopify-section">${rendered}</div>`;
@@ -185,12 +201,12 @@ async function templateConfig(name) {
     return { sections, order: Object.keys(sections) };
   }
 }
-const previewBanner = `<aside class="db-preview-notice" aria-label="Local preview notice"><strong>LOCAL THEME PREVIEW</strong><span>Mock catalog; prices and availability are unconfirmed. No orders, messages or subscriptions are sent.</span><nav aria-label="Preview pages"><a href="/">Home</a><a href="/collections/womens-perfume">For Her</a><a href="/collections/mens-perfume">For Him</a><a href="/products/mojito-metallique">Product</a><a href="/cart">Cart</a><a href="/preview/empty-cart">Empty cart</a><a href="/pages/our-story">Story</a><a href="/pages/contact">Contact</a></nav></aside>`;
-const previewStyle = `<style>.db-preview-notice{position:relative;z-index:100;background:#fff5e5;color:#5c0006;padding:10px 20px;font:12px/1.5 Arial,sans-serif;border-bottom:1px solid #5c0006;display:flex;gap:6px 16px;flex-wrap:wrap}.db-preview-notice span{flex:1 1 300px}.db-preview-notice nav{display:flex;gap:12px;flex-wrap:wrap}.db-preview-notice a{color:inherit;text-decoration:underline}.db-preview-feedback{position:fixed;bottom:16px;left:16px;right:16px;z-index:1000;background:#5c0006;color:#f4e3cb;padding:16px;font:16px/1.5 Arial,sans-serif;box-shadow:0 4px 24px #0003}.db-preview-feedback button{float:right;background:#f4e3cb;color:#5c0006;border:0;padding:8px;cursor:pointer}</style>`;
+const previewBanner = `<aside class="db-preview-notice" aria-label="Local preview notice"><strong>MEMPHIS · LOCAL PREVIEW</strong><span>Mock catalog; ₱799 selling price approved, stock availability awaiting confirmation. No orders, messages or subscriptions are sent.</span><nav aria-label="Preview pages"><a href="/">Home</a><a href="/collections/womens-perfume">For Her</a><a href="/collections/mens-perfume">For Him</a><a href="/products/mojito-metallique">Product</a><a href="/cart">Cart</a><a href="/preview/empty-cart">Empty cart</a><a href="/pages/our-story">Story</a><a href="/pages/contact">Contact</a></nav></aside>`;
+const previewStyle = `<style>.db-preview-notice{position:relative;z-index:100;background:#f4e3cb;color:#5c0006;padding:10px 20px;font:12px/1.5 Arial,sans-serif;border-bottom:1px solid #5c0006;display:flex;gap:6px 16px;flex-wrap:wrap}.db-preview-notice span{flex:1 1 300px}.db-preview-notice nav{display:flex;gap:12px;flex-wrap:wrap}.db-preview-notice a{color:inherit;text-decoration:underline}.db-preview-feedback{position:fixed;bottom:16px;left:16px;right:16px;z-index:1000;background:#5c0006;color:#f4e3cb;padding:16px;font:16px/1.5 Arial,sans-serif;border:2px solid #e9a250}.db-preview-feedback button{float:right;background:#f4e3cb;color:#5c0006;border:0;padding:8px;cursor:pointer}</style>`;
 const previewScript = `<script>document.addEventListener('submit',function(event){event.preventDefault();event.stopImmediatePropagation();var old=document.querySelector('.db-preview-feedback');if(old)old.remove();var box=document.createElement('div');box.className='db-preview-feedback';box.setAttribute('role','status');var close=document.createElement('button');close.type='button';close.textContent='Dismiss';close.onclick=function(){box.remove()};box.append(close,document.createTextNode('Preview only. No order, message or subscription was sent. Shopify handles this form in the installed theme.'));document.body.append(box);},true);</script>`;
 
 async function renderPage(templateName, route, extraContext = {}) {
-  const context = { ...baseContext, request: { ...baseContext.request, path: route }, canonical_url: `http://localhost:4173${route}`, page_title: 'Dear Body Philippines', template: { name: templateName.split('.')[0] }, ...extraContext };
+  const context = { ...baseContext, request: { ...baseContext.request, path: route }, canonical_url: `http://127.0.0.1:${previewPort}${route}`, page_title: 'Dear Body Philippines', template: { name: templateName.split('.')[0] }, ...extraContext };
   const config = await templateConfig(templateName);
   const sections = [];
   for (const id of config.order) {
@@ -253,7 +269,7 @@ async function verifyPageBanners() {
   const cases = [
     { route: '/collections/womens-perfume', title: 'For Her', variant: 'her', asset: 'db-lifestyle-for-her.jpg', width: 1200, height: 1200 },
     { route: '/collections/mens-perfume', title: 'For Him', variant: 'him', asset: 'db-lifestyle-for-him.jpg', width: 1200, height: 1200 },
-    { route: '/collections/all', title: 'All fragrances', variant: 'collection', asset: 'db-lifestyle-collection.jpg', width: 1086, height: 1448 },
+    { route: '/collections/all', title: 'All fragrances', variant: 'collection', asset: 'db-banner-story.jpg', width: 1536, height: 1024 },
     ...['/pages/our-story', '/preview/generic-story'].map((route) => ({ route, title: 'FROM LONDON, WITH FEELING.', variant: 'story', asset: 'db-banner-story.jpg', width: 1536, height: 1024 })),
     ...['/pages/contact', '/preview/generic-contact'].map((route) => ({ route, title: "LET'S TALK.", variant: 'contact', asset: 'db-banner-contact.jpg', width: 1536, height: 1024, contact: true })),
   ];
@@ -280,6 +296,68 @@ async function verifyPageBanners() {
   checks.push('Generic contact page honors heading/image settings and retains its contact form');
   return checks;
 }
+async function verifyLifestyleHomepage() {
+  const document = new JSDOM(await fs.readFile(path.join(publicRoot, 'index.html'), 'utf8')).window.document;
+  const hero = document.querySelector('.db-hero--lifestyle');
+  const heading = hero?.querySelector('h1');
+  if (!hero || !heading || document.querySelectorAll('h1').length !== 1 || hero.getAttribute('aria-labelledby') !== heading.id) throw new Error('Lifestyle homepage must have one hero H1 with its accessible section association.');
+  const heroPhoto = hero.querySelector('.db-hero-photo img');
+  if (!heroPhoto || heroPhoto.getAttribute('src') !== '/assets/db-home-spray-v1.jpg' || heroPhoto.getAttribute('fetchpriority') !== 'high' || heroPhoto.getAttribute('loading') === 'lazy') throw new Error('Lifestyle homepage must prioritize the spray photograph rather than the old collection portrait.');
+  if (document.querySelector('.db-card') || document.querySelector('#shopify-section-collection')) throw new Error('The lifestyle homepage must not render the former collection product grid.');
+  const checks = ['Homepage has a single accessible hero H1, prioritized spray photo and no product grid'];
+  const scenes = document.querySelector('.db-lifestyle-scenes');
+  const sceneCases = [
+    ['.db-lifestyle-scene--bag', 'db-home-bag-v1.jpg'],
+    ['.db-lifestyle-scene--vanity', 'db-home-vanity-v1.jpg'],
+    ['.db-lifestyle-display', 'db-banner-story.jpg'],
+  ];
+  if (!scenes) throw new Error('Lifestyle homepage is missing its everyday scenes section.');
+  const photos = [heroPhoto];
+  for (const [selector, asset] of sceneCases) {
+    const scene = scenes.querySelector(selector);
+    const photo = scene?.querySelector('img');
+    if (!scene || !photo || photo.getAttribute('src') !== `/assets/${asset}`) throw new Error(`Lifestyle homepage is missing the ${selector} photograph.`);
+    if (!scene.querySelector('figcaption')?.textContent.trim()) throw new Error(`Lifestyle ${selector} needs a readable caption.`);
+    if (photo.getAttribute('loading') !== 'lazy') throw new Error(`Below-fold lifestyle photograph ${asset} must lazy-load.`);
+    photos.push(photo);
+  }
+  for (const photo of photos) {
+    if (!photo.getAttribute('alt')?.trim() || Number(photo.getAttribute('width')) <= 0 || Number(photo.getAttribute('height')) <= 0) throw new Error('Every lifestyle photograph needs meaningful alternative text and intrinsic dimensions.');
+    await fs.access(path.join(assetRoot, path.basename(photo.getAttribute('src'))));
+  }
+  checks.push('Bag, vanity and home-display scenes have distinct existing assets, captions, lazy loading and accessible image metadata');
+  for (const category of categoryCollections) {
+    const link = document.querySelector(`.db-header a[href="${category.url}"]`);
+    const categoryDocument = new JSDOM(await fs.readFile(path.join(publicRoot, category.url, 'index.html'), 'utf8')).window.document;
+    if (!link || categoryDocument.querySelectorAll('.db-scent-row').length !== category.products.length) throw new Error(`Lifestyle homepage lost access to the ${category.title} catalog.`);
+    for (const product of category.products) {
+      if (!categoryDocument.querySelector(`.db-scent-row a[href="${product.url}"]`)) throw new Error(`${category.title} lost the ${product.title} detail-page link.`);
+    }
+  }
+  checks.push('For Her and For Him navigation still reaches all six fragrance detail pages through their category catalogs');
+  const heroAlt = 'Perfume <detail> & warm light';
+  const customHero = new JSDOM(await renderSection('lifestyle-hero-check', { type: 'db-hero', settings: {
+    image: image('/assets/merchant-hero.jpg', 'Merchant photograph', 1800, 1200),
+    mobile_image: image('/assets/merchant-mobile.jpg', 'Merchant mobile photograph', 1000, 1400),
+    image_alt: heroAlt, heading: 'Your <everyday>\nritual', button: 'For Her', link: '/collections/womens-perfume',
+  } }, baseContext)).window.document;
+  if (customHero.querySelector('.db-hero-photo img')?.getAttribute('src') !== '/assets/merchant-hero.jpg' || customHero.querySelector('.db-hero-photo img')?.getAttribute('alt') !== heroAlt || customHero.querySelector('source')?.getAttribute('srcset') !== '/assets/merchant-mobile.jpg' || customHero.querySelector('h1 everyday') || !customHero.querySelector('h1 br') || customHero.querySelector('.db-hero-copy a')?.getAttribute('href') !== '/collections/womens-perfume') throw new Error('Lifestyle hero must retain merchant desktop/mobile images, escaped copy and the selected destination.');
+  checks.push('Merchant hero desktop/mobile images, alternative text, escaped multiline heading and CTA destination remain editable');
+  const customSettings = {};
+  for (const key of ['bag', 'vanity', 'display']) {
+    customSettings[`${key}_image`] = image(`/assets/merchant-${key}.jpg`, 'Merchant scene', 1200, 1500);
+    customSettings[`${key}_alt`] = `Your ${key} <photo> & fragrance`;
+    customSettings[`${key}_heading`] = `Your <${key}> ritual`;
+  }
+  const customScenes = new JSDOM(await renderSection('lifestyle-scenes-check', { type: 'db-lifestyle-scenes', settings: customSettings }, baseContext)).window.document;
+  for (const [index, key] of ['bag', 'vanity', 'display'].entries()) {
+    const scene = customScenes.querySelector(sceneCases[index][0]);
+    const photo = scene?.querySelector('img');
+    if (photo?.getAttribute('src') !== `/assets/merchant-${key}.jpg` || photo.getAttribute('alt') !== customSettings[`${key}_alt`] || !scene.querySelector('figcaption')?.textContent.includes(customSettings[`${key}_heading`]) || scene.querySelector(`figcaption ${key}`)) throw new Error(`Lifestyle ${key} must honor merchant image, alternative text and escaped caption settings.`);
+  }
+  checks.push('All three lifestyle scenes honor merchant photo, alternative-text and escaped caption overrides');
+  return checks;
+}
 async function build() {
   const validation = await validateTheme();
   const settingsData = JSON.parse(await fs.readFile(path.join(themeRoot, 'config/settings_data.json'), 'utf8'));
@@ -302,16 +380,19 @@ async function build() {
   routes.push(await renderPage('page', '/preview/generic-contact', { page: { title: 'Contact', handle: 'contact', content: '' }, page_title: 'Contact — generic page template' }));
   routes.push(await renderPage('page', '/preview/generic-story', { page: { title: 'Our story', handle: 'our-story', content: '' }, page_title: 'Our story — generic page template' }));
   const pageBannerChecks = await verifyPageBanners();
+  const lifestyleHomepageChecks = await verifyLifestyleHomepage();
   const report = {
-    generatedAt: new Date().toISOString(), themeRoot, routes, validation,
+    generatedAt: new Date().toISOString(), edition: 'DearBody Memphis', previewPort, themeRoot, routes, validation,
     fallbackTemplates: [...new Set(fallbackUsed)],
     genericPageChecks: ['contact handle renders shared contact H1 and form', 'our-story handle renders shared story H1'],
     pageBannerChecks,
-    gaps: ['Mock catalog is not Shopify admin data; all six products have price 0 and availability false.', 'Shopify-only form, section/group, and single-page pagination behavior is emulated around the actual Liquid markup.', 'Image CDN resizing/srcset and Shopify media players are not emulated.', 'No checkout, payment, email, customer session, inventory or theme-editor behavior is tested.', 'Official parser validates syntax, not complete Shopify theme-store requirements or runtime semantics.'],
+    lifestyleHomepageChecks,
+    gaps: ['Mock catalog is not Shopify admin data; all six products use the approved PHP 799 selling price, with availability false pending inventory confirmation.', 'Shopify-only form, section/group, and single-page pagination behavior is emulated around the actual Liquid markup.', 'Image CDN resizing/srcset and Shopify media players are not emulated.', 'No checkout, payment, email, customer session, inventory or theme-editor behavior is tested.', 'Official parser validates syntax, not complete Shopify theme-store requirements or runtime semantics.'],
   };
   await fs.writeFile(path.join(publicRoot, 'preview-report.json'), JSON.stringify(report, null, 2));
   console.log(`Validated ${validation.length} theme files; rendered ${routes.length} routes.`);
   console.log(`Passed ${pageBannerChecks.length} page-banner checks.`);
+  console.log(`Passed ${lifestyleHomepageChecks.length} lifestyle-homepage checks.`);
   if (fallbackUsed.length) console.log(`Templates not yet present; schema-derived preview fallback used: ${[...new Set(fallbackUsed)].join(', ')}`);
   console.log(`Preview output: ${publicRoot}`);
   return report;
@@ -319,7 +400,7 @@ async function build() {
 
 const mimeTypes = { '.html': 'text/html; charset=utf-8', '.css': 'text/css; charset=utf-8', '.js': 'text/javascript; charset=utf-8', '.json': 'application/json', '.jpg': 'image/jpeg', '.jpeg': 'image/jpeg', '.png': 'image/png', '.webp': 'image/webp', '.svg': 'image/svg+xml', '.woff': 'font/woff', '.woff2': 'font/woff2' };
 function serve() {
-  const port = Number(process.env.PORT || 4173);
+  const port = previewPort;
   http.createServer(async (request, response) => {
     try {
       const pathname = decodeURIComponent(new URL(request.url, 'http://localhost').pathname);

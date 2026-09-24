@@ -1,0 +1,44 @@
+{% if section.settings.enabled %}
+<section class="db-story-cta"><div class="db-container"><p class="db-kicker">{{ section.settings.eyebrow | escape }}</p><h2>{{ section.settings.heading | escape | newline_to_br }}</h2><a class="db-button db-button--cream" href="{{ section.settings.link | default: settings.story_page.url | default: '/pages/our-story' }}">{{ section.settings.label | escape }} ↗</a></div></section>
+{% endif %}
+{% schema %}
+{
+  "name": "Brand story invitation",
+  "settings": [
+    {
+      "type": "text",
+      "id": "eyebrow",
+      "label": "Eyebrow",
+      "default": "LONDON ROOTS. FILIPINO SPIRIT."
+    },
+    {
+      "type": "textarea",
+      "id": "heading",
+      "label": "Heading",
+      "default": "FROM LONDON,\nINTO YOUR EVERYDAY."
+    },
+    {
+      "type": "text",
+      "id": "label",
+      "label": "Button label",
+      "default": "Meet DearBody"
+    },
+    {
+      "type": "url",
+      "id": "link",
+      "label": "Link"
+    },
+    {
+      "type": "checkbox",
+      "id": "enabled",
+      "label": "Show section",
+      "default": true
+    }
+  ],
+  "presets": [
+    {
+      "name": "Brand story invitation"
+    }
+  ]
+}
+{% endschema %}

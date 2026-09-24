@@ -1,0 +1,18 @@
+{
+  "type": "header",
+  "name": "Header",
+  "sections": {
+    "announcement": {
+      "type": "announcement-bar",
+      "settings": {}
+    },
+    "header": {
+      "type": "db-header",
+      "settings": {}
+    }
+  },
+  "order": [
+    "announcement",
+    "header"
+  ]
+}

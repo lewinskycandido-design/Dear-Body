@@ -1,0 +1,35 @@
+{% liquid
+  assign banner_id = 'db-page-banner-' | append: section_id
+  assign banner_variant = variant | default: 'collection'
+  assign banner_alt = image.alt | default: image_alt
+  assign banner_breadcrumb = breadcrumb_label | default: title
+  case banner_variant
+    when 'her'
+      assign banner_breadcrumb = 'For Her'
+    when 'him'
+      assign banner_breadcrumb = 'For Him'
+    when 'story'
+      assign banner_breadcrumb = 'Our story'
+    when 'contact'
+      assign banner_breadcrumb = 'Contact'
+  endcase
+%}
+<section class="db-page-banner db-page-banner--{{ banner_variant | escape }}" aria-labelledby="{{ banner_id }}">
+  <div class="db-page-banner__inner db-container">
+    <div class="db-page-banner__copy">
+      <nav class="db-breadcrumbs" aria-label="Breadcrumb"><a href="{{ root_url | default: '/' }}">Home</a><span aria-hidden="true">/</span><span aria-current="page">{{ banner_breadcrumb | escape }}</span></nav>
+      {% if kicker != blank %}<p class="db-kicker db-page-banner__kicker">{{ kicker | escape }}</p>{% endif %}
+      <h1 id="{{ banner_id }}" class="db-page-banner__title">{{ title | escape | newline_to_br }}</h1>
+      {% if text != blank %}<p class="db-page-banner__text">{{ text | escape | newline_to_br }}</p>{% endif %}
+    </div>
+    {% if image != blank or asset != blank %}
+      <div class="db-page-banner__media">
+        {% if image != blank %}
+          {{ image | image_url: width: 1600 | image_tag: widths: '400, 640, 960, 1200, 1600', sizes: '(max-width:700px) 90vw, 50vw', loading: 'eager', fetchpriority: 'high', alt: banner_alt }}
+        {% else %}
+          <img src="{{ asset | asset_url }}" alt="{{ image_alt | escape }}" width="{{ width }}" height="{{ height }}" loading="eager" fetchpriority="high" decoding="async">
+        {% endif %}
+      </div>
+    {% endif %}
+  </div>
+</section>

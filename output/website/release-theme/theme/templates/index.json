@@ -1,0 +1,160 @@
+{
+  "sections": {
+    "hero": {
+      "type": "db-hero",
+      "settings": {}
+    },
+    "intro": {
+      "type": "db-story",
+      "settings": {}
+    },
+    "launch": {
+      "type": "db-priority-collection",
+      "settings": {},
+      "blocks": {
+        "scent0": {
+          "type": "scent",
+          "settings": {
+            "name": "Mojito Metallique",
+            "character": "Soft, creamy & fruity",
+            "reference_image": "db-mojito-metallique.jpg"
+          }
+        },
+        "scent1": {
+          "type": "scent",
+          "settings": {
+            "name": "Amber Oud Silk",
+            "character": "Dark spice & smoky warmth",
+            "reference_image": "db-amber-oud-silk.jpg"
+          }
+        },
+        "scent2": {
+          "type": "scent",
+          "settings": {
+            "name": "Mistened Narcissus",
+            "character": "Juicy berries & smooth sweetness",
+            "reference_image": "db-mistened-narcissus.jpg"
+          }
+        },
+        "scent3": {
+          "type": "scent",
+          "settings": {
+            "name": "Charme Envoûtant",
+            "character": "Rich, spiced & indulgent",
+            "reference_image": "db-charme-envoutant.jpg"
+          }
+        },
+        "scent4": {
+          "type": "scent",
+          "settings": {
+            "name": "Oud Mirage",
+            "character": "Dark rose & smoky woods",
+            "reference_image": "db-oud-mirage.jpg"
+          }
+        },
+        "scent5": {
+          "type": "scent",
+          "settings": {
+            "name": "Rtulle & Satin",
+            "character": "Airy sweetness & a warm trail",
+            "reference_image": "db-rtulle-and-satin.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "scent0",
+        "scent1",
+        "scent2",
+        "scent3",
+        "scent4",
+        "scent5"
+      ]
+    },
+    "moods": {
+      "type": "db-mood-discovery",
+      "settings": {},
+      "blocks": {
+        "mood0": {
+          "type": "mood",
+          "settings": {
+            "title": "FRESH & BRIGHT"
+          }
+        },
+        "mood1": {
+          "type": "mood",
+          "settings": {
+            "title": "SOFT & DREAMY"
+          }
+        },
+        "mood2": {
+          "type": "mood",
+          "settings": {
+            "title": "DARK & ADDICTIVE"
+          }
+        },
+        "mood3": {
+          "type": "mood",
+          "settings": {
+            "title": "RICH & INDULGENT"
+          }
+        },
+        "mood4": {
+          "type": "mood",
+          "settings": {
+            "title": "WARM & GLOWING"
+          }
+        },
+        "mood5": {
+          "type": "mood",
+          "settings": {
+            "title": "BOLD & MYSTERIOUS"
+          }
+        }
+      },
+      "block_order": [
+        "mood0",
+        "mood1",
+        "mood2",
+        "mood3",
+        "mood4",
+        "mood5"
+      ]
+    },
+    "finder": {
+      "type": "db-scent-finder",
+      "settings": {}
+    },
+    "editorial": {
+      "type": "db-editorial",
+      "settings": {
+        "eyebrow": "YOUR EVERYDAY RITUAL",
+        "heading": "A LITTLE SCENT.\nA LOT OF YOU.",
+        "text": "Getting ready. Heading out. Meeting your people. Make fragrance part of the moments that feel like you.",
+        "button": "Explore the fragrances"
+      }
+    },
+    "featured": {
+      "type": "db-featured-products",
+      "settings": {}
+    },
+    "story": {
+      "type": "db-story-cta",
+      "settings": {}
+    },
+    "newsletter": {
+      "type": "db-newsletter",
+      "settings": {}
+    }
+  },
+  "order": [
+    "hero",
+    "intro",
+    "launch",
+    "moods",
+    "finder",
+    "editorial",
+    "featured",
+    "story",
+    "newsletter"
+  ]
+}

@@ -1,0 +1,8 @@
+<section class="db-finder-callout" aria-labelledby="finder-title-{{ section.id }}">
+  <span class="db-finder-symbol" aria-hidden="true"><i></i><i></i><i></i></span>
+  <div><p class="db-kicker">YOUR MOOD. YOUR MOMENT.</p><h2 id="finder-title-{{ section.id }}">{{ section.settings.heading | escape }}</h2><p>{{ section.settings.text | escape }}</p></div>
+  <a class="db-button" href="{{ routes.all_products_collection_url }}" data-scent-quiz-open aria-haspopup="dialog" aria-controls="DearBodyScentQuiz">Start the scent finder <span aria-hidden="true">↗</span></a>
+</section>
+{% schema %}
+{"name":"DearBody scent finder","settings":[{"type":"text","id":"heading","label":"Heading","default":"WHICH SCENT FEELS LIKE YOU?"},{"type":"textarea","id":"text","label":"Text","default":"Three quick questions. Six possibilities. Meet a fragrance that suits your taste."}],"presets":[{"name":"DearBody scent finder"}]}
+{% endschema %}

@@ -1,0 +1,50 @@
+{% assign quiz_handles = 'mojito-metallique,amber-oud-silk,mistened-narcissus,oud-mirage,charme-envoutant,rtulle-and-satin' | split: ',' %}
+{% assign her_collection = settings.for_her_collection | default: collections['womens-perfume'] %}
+{% assign him_collection = settings.for_him_collection | default: collections['mens-perfume'] %}
+<dialog id="DearBodyScentQuiz" class="db-scent-quiz" data-scent-quiz aria-labelledby="db-quiz-title" aria-describedby="db-quiz-intro">
+  <button type="button" class="db-quiz-close" data-quiz-close aria-label="Close scent quiz"><span aria-hidden="true">×</span></button>
+  <div class="db-quiz-shell">
+    <header class="db-quiz-header">
+      <p class="db-kicker">A LITTLE DISCOVERY</p>
+      <h2 class="db-quiz-title" id="db-quiz-title">Find your scent.</h2>
+      <p class="db-quiz-intro" id="db-quiz-intro">Three questions. Six scents. A little closer to your favourite.</p>
+    </header>
+    <div data-quiz-content></div>
+  </div>
+  <script type="application/json" data-quiz-catalog>
+    {
+      "collections": {
+        "her": {{ her_collection.url | default: routes.all_products_collection_url | json | replace: '<', '\u003c' }},
+        "him": {{ him_collection.url | default: routes.all_products_collection_url | json | replace: '<', '\u003c' }},
+        "all": {{ routes.all_products_collection_url | json | replace: '<', '\u003c' }}
+      },
+      "products": {
+        {% for handle in quiz_handles %}
+          {% assign setting_key = handle | replace: '-', '_' %}
+          {% assign quiz_product = section.settings[setting_key] %}
+          {% if quiz_product == blank and handle == 'rtulle-and-satin' %}{% assign quiz_product = all_products['rtulle-satin'] %}{% endif %}
+          {% if quiz_product == blank %}{% assign quiz_product = all_products[handle] %}{% endif %}
+          {% assign image_file = 'db-' | append: handle | append: '.jpg' %}
+          {{ handle | json }}: {
+            "url": {% if quiz_product != blank and quiz_product.url != blank %}{{ quiz_product.url | json | replace: '<', '\u003c' }}{% else %}null{% endif %},
+            "image": {{ image_file | asset_url | json | replace: '<', '\u003c' }}
+          }{% unless forloop.last %},{% endunless %}
+        {% endfor %}
+      }
+    }
+  </script>
+</dialog>
+{% schema %}
+{
+  "name": "DearBody scent quiz",
+  "settings": [
+    {"type": "paragraph", "content": "Find your scent opens a three-question quiz when the lifestyle hero's Button link is empty. Match each picker to the named fragrance if its product handle differs from the default. Products must be available to the Online Store to open a detail page."},
+    {"type": "product", "id": "mojito_metallique", "label": "Mojito Metallique"},
+    {"type": "product", "id": "amber_oud_silk", "label": "Amber Oud Silk"},
+    {"type": "product", "id": "mistened_narcissus", "label": "Mistened Narcissus"},
+    {"type": "product", "id": "oud_mirage", "label": "Oud Mirage"},
+    {"type": "product", "id": "charme_envoutant", "label": "Charme Envoûtant"},
+    {"type": "product", "id": "rtulle_and_satin", "label": "Rtulle & Satin"}
+  ]
+}
+{% endschema %}
