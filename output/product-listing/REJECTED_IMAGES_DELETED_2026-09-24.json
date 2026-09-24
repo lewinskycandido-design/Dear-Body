@@ -1,0 +1,920 @@
+{
+  "deleted_files": 167,
+  "duplicate_copies_removed": 8,
+  "scope": "Confirmed rejected originals and failed candidates from this review, plus byte-identical gallery-workspace copies. Raw source references and approved finals excluded.",
+  "files": [
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/seaside-cotton/generated-v01/pre-full-review-2026-09-24/03-uncapped-reveal.png",
+      "reason": "Rejected pre-review final replaced by approved repair.",
+      "deleted": true
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/seaside-cotton/generated-v01/pre-full-review-2026-09-24/05-boardwalk-lifestyle.png",
+      "reason": "Rejected pre-review final replaced by approved repair.",
+      "deleted": true
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/seaside-cotton/generated-v01/pre-full-review-2026-09-24/08-product-profile-infographic.png",
+      "reason": "Rejected pre-review final replaced by approved repair.",
+      "deleted": true
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/seaside-cotton/generated-v01/pre-full-review-2026-09-24/09-ingredients-and-care-infographic.png",
+      "reason": "Rejected pre-review final replaced by approved repair.",
+      "deleted": true
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/seaside-cotton/generated-v01/pre-full-review-2026-09-24/10-closing-hero.png",
+      "reason": "Rejected pre-review final replaced by approved repair.",
+      "deleted": true
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/seaside-cotton/generated-v01/pre-full-review-2026-09-24/11-scent-description-infographic.png",
+      "reason": "Rejected pre-review final replaced by approved repair.",
+      "deleted": true
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/seaside-cotton/generated-v01/pre-full-review-2026-09-24/12-who-it-fits-infographic.png",
+      "reason": "Rejected pre-review final replaced by approved repair.",
+      "deleted": true
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/sunset-cocktail/standardized-v01/pre-full-review-2026-09-24/03-packaging-reveal.png",
+      "reason": "Rejected pre-review final replaced by approved repair.",
+      "deleted": true
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/sunset-cocktail/standardized-v01/pre-full-review-2026-09-24/05-manila-bay-promenade-lifestyle.png",
+      "reason": "Rejected pre-review final replaced by approved repair.",
+      "deleted": true
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/sunset-cocktail/standardized-v01/pre-full-review-2026-09-24/06-sunset-product-in-hand.png",
+      "reason": "Rejected pre-review final replaced by approved repair.",
+      "deleted": true
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/sunset-cocktail/standardized-v01/pre-full-review-2026-09-24/08-product-profile-infographic.png",
+      "reason": "Rejected pre-review final replaced by approved repair.",
+      "deleted": true
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/sunset-cocktail/standardized-v01/pre-full-review-2026-09-24/09-ingredients-and-care-infographic.png",
+      "reason": "Rejected pre-review final replaced by approved repair.",
+      "deleted": true
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/sunset-cocktail/standardized-v01/pre-full-review-2026-09-24/10-closing-hero.png",
+      "reason": "Rejected pre-review final replaced by approved repair.",
+      "deleted": true
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/sunset-cocktail/standardized-v01/pre-full-review-2026-09-24/11-scent-description-infographic.png",
+      "reason": "Rejected pre-review final replaced by approved repair.",
+      "deleted": true
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/sunset-cocktail/standardized-v01/pre-full-review-2026-09-24/12-who-it-fits-infographic.png",
+      "reason": "Rejected pre-review final replaced by approved repair.",
+      "deleted": true
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/working/full-gallery-review-2026-09-24/root/seaside-cotton-03-uncapped-reveal.png",
+      "reason": "Intermediate packaging repair omitted visible cap embossing.",
+      "deleted": true
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/working/full-gallery-review-2026-09-24/root/sunset-cocktail-03-packaging-reveal.png",
+      "reason": "Intermediate packaging repair omitted visible cap embossing.",
+      "deleted": true
+    },
+    {
+      "path": "/Users/wetrade/.codex/generated_images/01a0d15f-2057-7983-9ab8-d62b89775200/exec-1ecaeae5-9e39-4103-9cdd-8d1d42db83ed.png",
+      "reason": "Seaside first repair: blank cap top.",
+      "deleted": true,
+      "sha256": "8680ad9f0923058568c7b3231eff3f223611ea95f6e16680850299106740268c",
+      "bytes": 2013260
+    },
+    {
+      "path": "/Users/wetrade/.codex/generated_images/01a0d15f-2057-7983-9ab8-d62b89775200/exec-5517bd4b-9a89-4d5f-ba4e-9403c191a575.png",
+      "reason": "Seaside cap edit: removed photographic background.",
+      "deleted": true,
+      "sha256": "e02d7c0e7584077769bf04e569eb5b3e7674bcf4de30eb04bf68da171dfaf0f7",
+      "bytes": 1245092
+    },
+    {
+      "path": "/Users/wetrade/.codex/generated_images/01a0d15f-2057-7983-9ab8-d62b89775200/exec-af866ab2-186d-41c3-a212-afaacb7427da.png",
+      "reason": "Sunset first repair: blank cap top.",
+      "deleted": true,
+      "sha256": "a0e330aa67edbcb74ebe77f2ff2e38231d269f504fc7ab8b5d8cdead1ddb4cc0",
+      "bytes": 2060339
+    },
+    {
+      "path": "/Users/wetrade/.codex/generated_images/01a0d15f-2057-7983-9ab8-d62b89775200/exec-76337dc5-2f3b-4efb-854b-89d9e889b698.png",
+      "reason": "Sunset lifestyle: extra invented bottle in tote.",
+      "deleted": true,
+      "sha256": "1515eb5660fa95e74d2ea090027aa5039b808b7c0151306d757592fde1f30f74",
+      "bytes": 2472975
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/alpine-rosemary-mint/generated-v01/archive/2026-09-24-gallery-audit/contact-sheet.png",
+      "reason": "Outdated contact sheet contains rejected originals.",
+      "deleted": true
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/alpine-rosemary-mint/generated-v01/archive/2026-09-24-gallery-audit/final/08-product-profile-infographic.png",
+      "reason": "Confirmed duplicate of rejected frame08-product-profile-infographic.png; superseded by passing repair.",
+      "deleted": true
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/alpine-rosemary-mint/generated-v01/archive/2026-09-24-gallery-audit/final/09-ingredients-and-care-infographic.png",
+      "reason": "Confirmed duplicate of rejected frame09-ingredients-and-care-infographic.png; superseded by passing repair.",
+      "deleted": true
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/alpine-rosemary-mint/generated-v01/archive/2026-09-24-gallery-audit/final/10-closing-hero.png",
+      "reason": "Confirmed duplicate of rejected frame10-closing-hero.png; superseded by passing repair.",
+      "deleted": true
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/alpine-rosemary-mint/generated-v01/archive/2026-09-24-gallery-audit/final/05-badminton-lifestyle.png",
+      "reason": "Confirmed duplicate of rejected frame05-badminton-lifestyle.png; superseded by passing repair.",
+      "deleted": true
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/alpine-rosemary-mint/generated-v01/archive/2026-09-24-gallery-audit/final/02-spray-motion.png",
+      "reason": "Confirmed duplicate of rejected frame02-spray-motion.png; superseded by passing repair.",
+      "deleted": true
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/alpine-rosemary-mint/generated-v01/archive/2026-09-24-gallery-audit/final/12-who-it-fits-infographic.png",
+      "reason": "Confirmed duplicate of rejected frame12-who-it-fits-infographic.png; superseded by passing repair.",
+      "deleted": true
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/alpine-rosemary-mint/generated-v01/archive/2026-09-24-gallery-audit/final/11-scent-description-infographic.png",
+      "reason": "Confirmed duplicate of rejected frame11-scent-description-infographic.png; superseded by passing repair.",
+      "deleted": true
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/alpine-rosemary-mint/generated-v01/archive/2026-09-24-gallery-audit/final/03-uncapped-reveal.png",
+      "reason": "Confirmed duplicate of rejected frame03-uncapped-reveal.png; superseded by passing repair.",
+      "deleted": true
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/alpine-rosemary-mint/generated-v01/working/05-badminton-lifestyle.png",
+      "reason": "Confirmed duplicate of rejected frame05-badminton-lifestyle.png; superseded by passing repair.",
+      "deleted": true
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/amber-oud-silk/generated-v01/archive/2026-09-24-gallery-audit/contact-sheet.png",
+      "reason": "Outdated contact sheet contains rejected originals.",
+      "deleted": true
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/amber-oud-silk/generated-v01/archive/2026-09-24-gallery-audit/final/08-product-profile-infographic.png",
+      "reason": "Confirmed duplicate of rejected frame08-product-profile-infographic.png; superseded by passing repair.",
+      "deleted": true
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/amber-oud-silk/generated-v01/archive/2026-09-24-gallery-audit/final/09-ingredients-and-care-infographic.png",
+      "reason": "Confirmed duplicate of rejected frame09-ingredients-and-care-infographic.png; superseded by passing repair.",
+      "deleted": true
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/amber-oud-silk/generated-v01/archive/2026-09-24-gallery-audit/final/10-closing-hero.png",
+      "reason": "Confirmed duplicate of rejected frame10-closing-hero.png; superseded by passing repair.",
+      "deleted": true
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/amber-oud-silk/generated-v01/archive/2026-09-24-gallery-audit/final/02-brand-hero.png",
+      "reason": "Confirmed duplicate of rejected frame02-brand-hero.png; superseded by passing repair.",
+      "deleted": true
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/amber-oud-silk/generated-v01/archive/2026-09-24-gallery-audit/final/03-packaging-reveal.png",
+      "reason": "Confirmed duplicate of rejected frame03-packaging-reveal.png; superseded by passing repair.",
+      "deleted": true
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/amber-oud-silk/generated-v01/archive/2026-09-24-gallery-audit/final/12-who-it-fits-infographic.png",
+      "reason": "Confirmed duplicate of rejected frame12-who-it-fits-infographic.png; superseded by passing repair.",
+      "deleted": true
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/amber-oud-silk/generated-v01/archive/2026-09-24-gallery-audit/final/11-scent-description-infographic.png",
+      "reason": "Confirmed duplicate of rejected frame11-scent-description-infographic.png; superseded by passing repair.",
+      "deleted": true
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/amber-oud-silk/generated-v01/archive/2026-09-24-gallery-audit/final/04-material-cap-detail.png",
+      "reason": "Confirmed duplicate of rejected frame04-material-cap-detail.png; superseded by passing repair.",
+      "deleted": true
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/amber-oud-silk/generated-v01/pre-single-face-backup/08-product-profile-infographic.png",
+      "reason": "Confirmed duplicate of rejected frame08-product-profile-infographic.png; superseded by passing repair.",
+      "deleted": true
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/amber-oud-silk/generated-v01/pre-single-face-backup/09-ingredients-and-care-infographic.png",
+      "reason": "Confirmed duplicate of rejected frame09-ingredients-and-care-infographic.png; superseded by passing repair.",
+      "deleted": true
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/amber-oud-silk/generated-v01/pre-single-face-backup/10-closing-hero.png",
+      "reason": "Confirmed duplicate of rejected frame10-closing-hero.png; superseded by passing repair.",
+      "deleted": true
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/amber-oud-silk/generated-v01/pre-single-face-backup/11-scent-description-infographic.png",
+      "reason": "Confirmed duplicate of rejected frame11-scent-description-infographic.png; superseded by passing repair.",
+      "deleted": true
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/charme-envoutant/generated-v01/archive/2026-09-24-gallery-audit/contact-sheet.png",
+      "reason": "Outdated contact sheet contains rejected originals.",
+      "deleted": true
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/charme-envoutant/generated-v01/archive/2026-09-24-gallery-audit/final/08-product-profile-infographic.png",
+      "reason": "Confirmed duplicate of rejected frame08-product-profile-infographic.png; superseded by passing repair.",
+      "deleted": true
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/charme-envoutant/generated-v01/archive/2026-09-24-gallery-audit/final/05-mens-red-convertible.png",
+      "reason": "Confirmed duplicate of rejected frame05-mens-red-convertible.png; superseded by passing repair.",
+      "deleted": true
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/charme-envoutant/generated-v01/archive/2026-09-24-gallery-audit/final/09-ingredients-and-care-infographic.png",
+      "reason": "Confirmed duplicate of rejected frame09-ingredients-and-care-infographic.png; superseded by passing repair.",
+      "deleted": true
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/charme-envoutant/generated-v01/archive/2026-09-24-gallery-audit/final/10-closing-hero.png",
+      "reason": "Confirmed duplicate of rejected frame10-closing-hero.png; superseded by passing repair.",
+      "deleted": true
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/charme-envoutant/generated-v01/archive/2026-09-24-gallery-audit/final/02-brand-hero.png",
+      "reason": "Confirmed duplicate of rejected frame02-brand-hero.png; superseded by passing repair.",
+      "deleted": true
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/charme-envoutant/generated-v01/archive/2026-09-24-gallery-audit/final/12-who-it-fits-infographic.png",
+      "reason": "Confirmed duplicate of rejected frame12-who-it-fits-infographic.png; superseded by passing repair.",
+      "deleted": true
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/charme-envoutant/generated-v01/archive/2026-09-24-gallery-audit/final/11-scent-description-infographic.png",
+      "reason": "Confirmed duplicate of rejected frame11-scent-description-infographic.png; superseded by passing repair.",
+      "deleted": true
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/charme-envoutant/generated-v01/working/05-mens-red-convertible-original.png",
+      "reason": "Confirmed duplicate of rejected frame05-mens-red-convertible.png; superseded by passing repair.",
+      "deleted": true
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/charme-envoutant/generated-v01/working/11-scent-description-base.png",
+      "reason": "Confirmed duplicate of rejected frame08-product-profile-infographic.png; superseded by passing repair.",
+      "deleted": true
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/charme-envoutant/generated-v01/working/rejected-brand-audit/07-mens-social-lifestyle-pre-audit.png",
+      "reason": "Previously rejected brand-audit candidate, kept in explicit rejected folder.",
+      "deleted": true
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/charme-envoutant/generated-v01/pre-single-face-backup/08-product-profile-infographic.png",
+      "reason": "Confirmed duplicate of rejected frame08-product-profile-infographic.png; superseded by passing repair.",
+      "deleted": true
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/charme-envoutant/generated-v01/pre-single-face-backup/09-ingredients-and-care-infographic.png",
+      "reason": "Confirmed duplicate of rejected frame09-ingredients-and-care-infographic.png; superseded by passing repair.",
+      "deleted": true
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/charme-envoutant/generated-v01/pre-single-face-backup/10-closing-hero.png",
+      "reason": "Confirmed duplicate of rejected frame10-closing-hero.png; superseded by passing repair.",
+      "deleted": true
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/charme-envoutant/generated-v01/pre-single-face-backup/11-scent-description-infographic.png",
+      "reason": "Confirmed duplicate of rejected frame11-scent-description-infographic.png; superseded by passing repair.",
+      "deleted": true
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/citrus-wish/standardized-v01/archive/2026-09-24-gallery-audit/contact-sheet.png",
+      "reason": "Outdated contact sheet contains rejected originals.",
+      "deleted": true
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/citrus-wish/standardized-v01/archive/2026-09-24-gallery-audit/final/08-product-profile-infographic.png",
+      "reason": "Confirmed duplicate of rejected frame08-product-profile-infographic.png; superseded by passing repair.",
+      "deleted": true
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/citrus-wish/standardized-v01/archive/2026-09-24-gallery-audit/final/05-coastal-scooter-lifestyle.png",
+      "reason": "Confirmed duplicate of rejected frame05-coastal-scooter-lifestyle.png; superseded by passing repair.",
+      "deleted": true
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/citrus-wish/standardized-v01/archive/2026-09-24-gallery-audit/final/09-ingredients-and-care-infographic.png",
+      "reason": "Confirmed duplicate of rejected frame09-ingredients-and-care-infographic.png; superseded by passing repair.",
+      "deleted": true
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/citrus-wish/standardized-v01/archive/2026-09-24-gallery-audit/final/10-closing-hero.png",
+      "reason": "Confirmed duplicate of rejected frame10-closing-hero.png; superseded by passing repair.",
+      "deleted": true
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/citrus-wish/standardized-v01/archive/2026-09-24-gallery-audit/final/02-brand-hero.png",
+      "reason": "Confirmed duplicate of rejected frame02-brand-hero.png; superseded by passing repair.",
+      "deleted": true
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/citrus-wish/standardized-v01/archive/2026-09-24-gallery-audit/final/12-who-it-fits-infographic.png",
+      "reason": "Confirmed duplicate of rejected frame12-who-it-fits-infographic.png; superseded by passing repair.",
+      "deleted": true
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/citrus-wish/standardized-v01/archive/2026-09-24-gallery-audit/final/06-poolside-product-detail.png",
+      "reason": "Confirmed duplicate of rejected frame06-poolside-product-detail.png; superseded by passing repair.",
+      "deleted": true
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/citrus-wish/standardized-v01/archive/2026-09-24-gallery-audit/final/11-scent-description-infographic.png",
+      "reason": "Confirmed duplicate of rejected frame11-scent-description-infographic.png; superseded by passing repair.",
+      "deleted": true
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/citrus-wish/standardized-v01/pre-single-face-backup/08-product-profile-infographic.png",
+      "reason": "Confirmed duplicate of rejected frame08-product-profile-infographic.png; superseded by passing repair.",
+      "deleted": true
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/citrus-wish/standardized-v01/pre-single-face-backup/09-ingredients-and-care-infographic.png",
+      "reason": "Confirmed duplicate of rejected frame09-ingredients-and-care-infographic.png; superseded by passing repair.",
+      "deleted": true
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/citrus-wish/standardized-v01/pre-single-face-backup/10-closing-hero.png",
+      "reason": "Confirmed duplicate of rejected frame10-closing-hero.png; superseded by passing repair.",
+      "deleted": true
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/alpine-rosemary-mint/generated-v01/working/10-closing-hero-base.png",
+      "reason": "Rejected Alpine closing-photo base omits matching canister; accepted regenerated source retained.",
+      "deleted": true
+    },
+    {
+      "path": "/Users/wetrade/.codex/generated_images/01a0d160-4590-7e81-8609-d0bfb54b0c6e/exec-a134a7d4-66fd-429a-8f45-01b813562d69.png",
+      "reason": "Rejected first Amber04 correction: cap still too shallow to contain pump.",
+      "deleted": true,
+      "sha256": "6f59f53e1a9f97815df674e4e0f9669e3dbc6d5384d371d321778ea89197ac1a",
+      "bytes": 1730822
+    },
+    {
+      "path": "/Users/wetrade/.codex/generated_images/01a0d160-4590-7e81-8609-d0bfb54b0c6e/exec-ac65e7b4-08cd-45e6-b00b-b9e7f569e585.png",
+      "reason": "Rejected first Citrus05 correction: third-party scooter logos remained.",
+      "deleted": true,
+      "sha256": "3ed152f515f0dcf3de4d0b453154883dfec41738dce302f534241740d3dcf275",
+      "bytes": 2460958
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/citrus-wish/standardized-v01/working/previous-shared-lifestyle/05-mens-red-convertible.png",
+      "reason": "Independently rejected archived Citrus05: static seated chest-up model instead of full-body candid movement; duplicates Charme red-convertible lifestyle direction.",
+      "deleted": true
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/citrus-wish/standardized-v01/working/previous-shared-lifestyle/07-mens-social-lifestyle.png",
+      "reason": "Independently rejected archived Citrus07: additional visible face violates single-face gallery limit and zero-face contextual still-life role.",
+      "deleted": true
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/citrus-wish/standardized-v01/working/previous-shared-lifestyle/07-basketball-court-yellow-ball.png",
+      "reason": "Independently rejected archived Citrus07: additional visible face violates single-face gallery limit and zero-face contextual still-life role; visible third-party sock/shoe branding.",
+      "deleted": true
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/working/full-gallery-review-2026-09-24/group-b/originals/ivory-reverie/05-city-concourse-lifestyle.png",
+      "reason": "Static waist-up bottle-holding pose did not meet the full-person active lifestyle gate.",
+      "deleted": true
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/working/full-gallery-review-2026-09-24/group-b/originals/ivory-reverie/08-product-profile-infographic.png",
+      "reason": "Small typography and turquoise informational copy on cream reduced mobile legibility.",
+      "deleted": true
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/working/full-gallery-review-2026-09-24/group-b/originals/ivory-reverie/09-ingredients-and-care-infographic.png",
+      "reason": "Tiny ingredient typography and low-contrast information on cream; generic warning exceeded physical-label evidence.",
+      "deleted": true
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/working/full-gallery-review-2026-09-24/group-b/originals/ivory-reverie/10-closing-hero.png",
+      "reason": "Small low-contrast turquoise scent name on the background.",
+      "deleted": true
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/working/full-gallery-review-2026-09-24/group-b/originals/ivory-reverie/11-scent-description-infographic.png",
+      "reason": "Turquoise informational copy on cream and small internal source/approval captions.",
+      "deleted": true
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/working/full-gallery-review-2026-09-24/group-b/originals/ivory-reverie/12-who-it-fits-infographic.png",
+      "reason": "Small fit copy and low-contrast turquoise traits.",
+      "deleted": true
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/working/full-gallery-review-2026-09-24/group-b/originals/midnight-elixir/08-product-profile-infographic.png",
+      "reason": "Small 24\u201327 px informational text and orange-on-cream subheads.",
+      "deleted": true
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/working/full-gallery-review-2026-09-24/group-b/originals/midnight-elixir/09-ingredients-and-care-infographic.png",
+      "reason": "Tiny ingredient text, low-contrast orange subheads and generic warning beyond source-label evidence.",
+      "deleted": true
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/working/full-gallery-review-2026-09-24/group-b/originals/midnight-elixir/10-closing-hero.png",
+      "reason": "Tiny orange scent name against the sunset sky.",
+      "deleted": true
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/working/full-gallery-review-2026-09-24/group-b/originals/midnight-elixir/11-scent-description-infographic.png",
+      "reason": "Orange informational copy on cream and small internal metadata.",
+      "deleted": true
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/working/full-gallery-review-2026-09-24/group-b/originals/midnight-elixir/12-who-it-fits-infographic.png",
+      "reason": "Small fit copy and low-contrast coral trait labels.",
+      "deleted": true
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/working/full-gallery-review-2026-09-24/group-b/originals/mistened-narcissus/01-featured-packshot.png",
+      "reason": "Bottle body was conspicuously squat/wide relative to canonical geometry, with an oversized cap.",
+      "deleted": true
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/working/full-gallery-review-2026-09-24/group-b/originals/mistened-narcissus/02-brand-hero.png",
+      "reason": "Uncapped glass bottle was squat, around 1.5\u00d7body width.",
+      "deleted": true
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/working/full-gallery-review-2026-09-24/group-b/originals/mistened-narcissus/05-roller-rink-arrival-lifestyle.png",
+      "reason": "Held bottle was squat, around 1.4\u00d7body width, despite passing full-person active skating action.",
+      "deleted": true
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/working/full-gallery-review-2026-09-24/group-b/originals/mistened-narcissus/06-roller-rink-handheld.png",
+      "reason": "Held bottle was conspicuously squat, around 1.3\u00d7body width.",
+      "deleted": true
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/working/full-gallery-review-2026-09-24/group-b/originals/mistened-narcissus/08-product-profile-infographic.png",
+      "reason": "Squat bottle photo plus tiny/low-contrast information.",
+      "deleted": true
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/working/full-gallery-review-2026-09-24/group-b/originals/mistened-narcissus/09-ingredients-and-care-infographic.png",
+      "reason": "Squat bottle photo, tiny ingredient typography, missing raw-label hyphen in Alpha-Isomethyl-Ionone, generic warning beyond label evidence.",
+      "deleted": true
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/working/full-gallery-review-2026-09-24/group-b/originals/mistened-narcissus/10-closing-hero.png",
+      "reason": "Squat bottle photo plus tiny low-contrast scent name.",
+      "deleted": true
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/working/full-gallery-review-2026-09-24/group-b/originals/mistened-narcissus/11-scent-description-infographic.png",
+      "reason": "Squat bottle photo and small/low-contrast informational typography.",
+      "deleted": true
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/working/full-gallery-review-2026-09-24/group-b/originals/mistened-narcissus/12-who-it-fits-infographic.png",
+      "reason": "Small fit copy and insufficiently prominent trait labels.",
+      "deleted": true
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/working/full-gallery-review-2026-09-24/group-b/originals/mojito-metallique/02-brand-hero.png",
+      "reason": "Unwanted accent over E changed the physical label spelling; raw front photograph162332 prints METALLIQUE without accent.",
+      "deleted": true
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/working/full-gallery-review-2026-09-24/group-b/originals/mojito-metallique/08-product-profile-infographic.png",
+      "reason": "Tiny 21\u201327 px information and red-on-cream subheads.",
+      "deleted": true
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/working/full-gallery-review-2026-09-24/group-b/originals/mojito-metallique/09-ingredients-and-care-infographic.png",
+      "reason": "Tiny ordered ingredients, red-on-cream information and generic warning beyond physical-label evidence.",
+      "deleted": true
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/working/full-gallery-review-2026-09-24/group-b/originals/mojito-metallique/10-closing-hero.png",
+      "reason": "Tiny red scent name on pale sky.",
+      "deleted": true
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/working/full-gallery-review-2026-09-24/group-b/originals/mojito-metallique/11-scent-description-infographic.png",
+      "reason": "Red informational copy on cream and small metadata.",
+      "deleted": true
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/working/full-gallery-review-2026-09-24/group-b/originals/mojito-metallique/12-who-it-fits-infographic.png",
+      "reason": "Small person-fit text and low-contrast trait labels.",
+      "deleted": true
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/working/full-gallery-review-2026-09-24/group-b/mojito-label-qa.png",
+      "reason": "QA crop of rejected Mojito02 candidate showing retained unwanted accent.",
+      "deleted": true
+    },
+    {
+      "path": "/Users/wetrade/.codex/generated_images/01a0d160-6b7d-7da1-81da-9dd0545e1176/exec-bc72cc94-eae7-4bc1-9af3-aee7685c37be.png",
+      "reason": "Rejected Mojito02 edit retained an unwanted accent over E in METALLIQUE.",
+      "deleted": true,
+      "sha256": "c35ec25a69cc40349290eeb1ebef87583b5172b1480dba6900d953cc872582f1",
+      "bytes": 2039228
+    },
+    {
+      "path": "/Users/wetrade/.codex/generated_images/01a0d160-6b7d-7da1-81da-9dd0545e1176/exec-6818d902-fae8-48a3-b002-4127878774a4.png",
+      "reason": "Rejected Mojito02 edit retained an unwanted accent over E in METALLIQUE.",
+      "deleted": true,
+      "sha256": "13c94495cc24042f33687299ffb9dec14cb24e7a069dbc62c46b95ad16c0ef53",
+      "bytes": 2079421
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/moonlight-velvet/standardized-v01/revision-realistic-lifestyle/06-record-bag-handheld.png",
+      "reason": "Byte-identical duplicate of rejected frame: Recognizable Audio-Technica headphone logo was unrelated branding.",
+      "sha256": "6c80959e91c996ecfdcc5768e5d6687445ea6387e5675af897aa014a4d65c9f6",
+      "deleted": true
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/moonlight-velvet/standardized-v01/revision-realistic-lifestyle/05-record-shop-lifestyle.png",
+      "reason": "Byte-identical duplicate of rejected frame: Lifestyle hero cropped at torso instead of showing the full person.",
+      "sha256": "85e636e2e0feeb14beab92894b2872319aa93e017f7645f479f668fb51229700",
+      "deleted": true
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/moonlight-velvet/standardized-v01/revision-realistic-lifestyle/07-record-cafe-bag-still-life.png",
+      "reason": "Byte-identical duplicate of rejected frame: Printed album portrait faces violated the zero-face gate.",
+      "sha256": "c1e4dec61f18960cd99803cf2e2d57657c4e5a58746c962d30fc0ae586456cdf",
+      "deleted": true
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/moonlight-velvet/standardized-v01/working/rejected-brand-audit/05-listening-bar-lifestyle-pre-audit.png",
+      "reason": "Previously explicitly classified as rejected in rejected-image directory.",
+      "sha256": "aed865cb054d62e5498eeb82af98579f76f3c8f098ee00f359e4999ef7d734e7",
+      "deleted": true
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/moonlight-velvet/standardized-v01/working/rejected-brand-audit/07-gallery-social-lifestyle-pre-audit.png",
+      "reason": "Previously explicitly classified as rejected in rejected-image directory.",
+      "sha256": "e0f7768567db5213777e352370c400beda52d43b31be8edc8876ffaac0b7266f",
+      "deleted": true
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/moonlight-velvet/standardized-v01/pre-single-face-backup/08-product-profile-infographic.png",
+      "reason": "Byte-identical duplicate of rejected frame: Supporting product facts were too small for comfortable mobile reading.",
+      "sha256": "89fd3cf40935a46fb94391521c922aff9cd19498e182dd8ed04d7fc5b880490a",
+      "deleted": true
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/moonlight-velvet/standardized-v01/pre-single-face-backup/09-ingredients-and-care-infographic.png",
+      "reason": "Byte-identical duplicate of rejected frame: Ingredients used 22px type with large unused space.",
+      "sha256": "5c044f13cc64c118d21488cece8fccb3dc963198993e9fc4b86978ce91c9858c",
+      "deleted": true
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/moonlight-velvet/standardized-v01/pre-single-face-backup/10-closing-hero.png",
+      "reason": "Byte-identical duplicate of rejected frame: Small lilac scent subheading had insufficient contrast against blue sky.",
+      "sha256": "573169d7e40ee8ab33c5f4e8771b328e2788733a4520714ccc85489a4521a366",
+      "deleted": true
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/oud-mirage/generated-v01/revision-realistic-lifestyle/05-weekend-park-lifestyle.png",
+      "reason": "Byte-identical duplicate of rejected frame: Lifestyle hero was a torso crop instead of a full-person scene.",
+      "sha256": "ab7f4bcf3aa57b2cba4eb72fd95b0f45d1e377ee396058542c5dc8a482b340fb",
+      "deleted": true
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/oud-mirage/generated-v01/working/rejected/07-model-studio-social-v1-similar-faces.png",
+      "reason": "Previously explicitly classified as rejected in rejected-image directory.",
+      "sha256": "27b44ffe4d6fadfef3f63e776e37970c36826bbe75522686d6513412f4b39c38",
+      "deleted": true
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/oud-mirage/generated-v01/pre-single-face-backup/09-ingredients-and-care-infographic.png",
+      "reason": "Byte-identical duplicate of rejected frame: Ingredients were approximately24px with orange informational copy on cream.",
+      "sha256": "800de5d0583156c932171c1994364a22dec1354cb06db67c564344dca0922a4f",
+      "deleted": true
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/oud-mirage/generated-v01/pre-single-face-backup/10-closing-hero.png",
+      "reason": "Byte-identical duplicate of rejected frame: Tiny orange scent subheading was low contrast against the blue sky.",
+      "sha256": "7bd56b6db4ffda8a923d1cad7d6ea984383a9581b74e0d1d64dee01b1875eddf",
+      "deleted": true
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/oud-mirage/generated-v01/pre-single-face-backup/11-scent-description-infographic.png",
+      "reason": "Byte-identical duplicate of rejected frame: Orange informational subheads on cream failed the required dark-ink rule.",
+      "sha256": "98e95430b411b33266aeafda9e091110bddab89e3ab6c0aab505a73cf1726671",
+      "deleted": true
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/rtulle-and-satin/generated-v01/revision-realistic-lifestyle/05-pottery-cafe-lifestyle.png",
+      "reason": "Byte-identical duplicate of rejected frame: Lifestyle hero was a chest crop instead of a full-person scene.",
+      "sha256": "06e07a5cdc1b7950166a632c0809e0b7ded75badbad5caa5bec2aebe4b73bf30",
+      "deleted": true
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/rtulle-and-satin/generated-v01/pre-single-face-backup/08-product-profile-infographic.png",
+      "reason": "Byte-identical duplicate of rejected frame: Small product facts and orange informational copy on cream failed readability.",
+      "sha256": "b162dde86889757d26c988656a9d5604459dc0f98735fd04ba94cc49c759a09f",
+      "deleted": true
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/rtulle-and-satin/generated-v01/pre-single-face-backup/09-ingredients-and-care-infographic.png",
+      "reason": "Byte-identical duplicate of rejected frame: Tiny ingredient type and orange informational copy on cream failed readability.",
+      "sha256": "deac16f2a12cc0bca305f445c822e12acd7285d0622a11e3179ced5ba9794958",
+      "deleted": true
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/rtulle-and-satin/generated-v01/pre-single-face-backup/10-closing-hero.png",
+      "reason": "Byte-identical duplicate of rejected frame: Tiny orange scent subheading lacked contrast against blue sky.",
+      "sha256": "84938e9c326ec2698a67307bd7515e444b5c175da11d2496433db6848d0c55c8",
+      "deleted": true
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/rtulle-and-satin/generated-v01/pre-single-face-backup/11-scent-description-infographic.png",
+      "reason": "Byte-identical duplicate of rejected frame: Orange informational subheads on cream failed the required dark-ink rule.",
+      "sha256": "0e4e2e9a8f12f6282b8e36bc45afa70f3e04ae354a7616472ff3be42c594bb2e",
+      "deleted": true
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/working/full-gallery-review-2026-09-24/group-c/originals/moonlight-velvet/03-packaging-reveal.png",
+      "reason": "Detached tall shell incorrectly retained a second lower-base seam and black bottom band.",
+      "sha256": "b6aafb8cfd53d846ecc77009a9270d48f08ac470f321b542a5cfae947540bdd3",
+      "deleted": true
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/working/full-gallery-review-2026-09-24/group-c/originals/moonlight-velvet/05-record-shop-lifestyle.png",
+      "reason": "Lifestyle hero cropped at torso instead of showing the full person.",
+      "sha256": "85e636e2e0feeb14beab92894b2872319aa93e017f7645f479f668fb51229700",
+      "deleted": true
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/working/full-gallery-review-2026-09-24/group-c/originals/moonlight-velvet/06-record-bag-handheld.png",
+      "reason": "Recognizable Audio-Technica headphone logo was unrelated branding.",
+      "sha256": "6c80959e91c996ecfdcc5768e5d6687445ea6387e5675af897aa014a4d65c9f6",
+      "deleted": true
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/working/full-gallery-review-2026-09-24/group-c/originals/moonlight-velvet/07-record-cafe-bag-still-life.png",
+      "reason": "Printed album portrait faces violated the zero-face gate.",
+      "sha256": "c1e4dec61f18960cd99803cf2e2d57657c4e5a58746c962d30fc0ae586456cdf",
+      "deleted": true
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/working/full-gallery-review-2026-09-24/group-c/originals/moonlight-velvet/08-product-profile-infographic.png",
+      "reason": "Supporting product facts were too small for comfortable mobile reading.",
+      "sha256": "89fd3cf40935a46fb94391521c922aff9cd19498e182dd8ed04d7fc5b880490a",
+      "deleted": true
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/working/full-gallery-review-2026-09-24/group-c/originals/moonlight-velvet/09-ingredients-and-care-infographic.png",
+      "reason": "Ingredients used 22px type with large unused space.",
+      "sha256": "5c044f13cc64c118d21488cece8fccb3dc963198993e9fc4b86978ce91c9858c",
+      "deleted": true
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/working/full-gallery-review-2026-09-24/group-c/originals/moonlight-velvet/10-closing-hero.png",
+      "reason": "Small lilac scent subheading had insufficient contrast against blue sky.",
+      "sha256": "573169d7e40ee8ab33c5f4e8771b328e2788733a4520714ccc85489a4521a366",
+      "deleted": true
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/working/full-gallery-review-2026-09-24/group-c/originals/moonlight-velvet/12-who-it-fits-infographic.png",
+      "reason": "Background album portraits and red-on-purple accents failed face and contrast checks.",
+      "sha256": "9a57d9b32e8c8b132399acf09415802f869e205b83c9cb7011c7078af0b5586d",
+      "deleted": true
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/working/full-gallery-review-2026-09-24/group-c/originals/noir-cedar/03-uncapped-reveal.png",
+      "reason": "Clearly visible detached cap top omitted the embossed db monogram seen in the raw photo.",
+      "sha256": "da5adb89336495653bc358d9c2dcc17ecd6be33126c96c5ee4b19380d3f798c6",
+      "deleted": true
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/working/full-gallery-review-2026-09-24/group-c/originals/noir-cedar/08-product-profile-infographic.png",
+      "reason": "Product-left layout reversed the standard; translucent right panel covered canister and orange subheads had weak contrast.",
+      "sha256": "4163f1245d30a294372684a48683a1eb61c2dc00f412e76754baac56f5abf43e",
+      "deleted": true
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/working/full-gallery-review-2026-09-24/group-c/originals/noir-cedar/09-ingredients-and-care-infographic.png",
+      "reason": "Text-left layout reversed the standard; tiny ingredients and orange-on-cream supporting copy.",
+      "sha256": "5097f45cd239024bb22c6c80aa9d481c2216ced082aa3e2467a74dca28bbb831",
+      "deleted": true
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/working/full-gallery-review-2026-09-24/group-c/originals/noir-cedar/10-closing-hero.png",
+      "reason": "Closing photograph omitted the canister; pale heading and tiny scent subheading lacked contrast.",
+      "sha256": "9f810a5e93e374be42ecd5b8c35fcb0e30ba5aef022ef2abe28942e7616ae3ae",
+      "deleted": true
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/working/full-gallery-review-2026-09-24/group-c/originals/noir-cedar/11-scent-description-infographic.png",
+      "reason": "Orange informational subheads on cream failed the required dark-ink color rule.",
+      "sha256": "1ca765ae8e0a1733032918484238cedb2e313fe106c6791b666c645d560fe1fd",
+      "deleted": true
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/working/full-gallery-review-2026-09-24/group-c/originals/noir-cedar/12-who-it-fits-infographic.png",
+      "reason": "Lively evenings introduced an occasion outside the approved concise scent description.",
+      "sha256": "00f29c7cbf745fa9a66cd0a4ed1ae2db7999498d876f081e94122e3f700ee3a0",
+      "deleted": true
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/working/full-gallery-review-2026-09-24/group-c/originals/oud-mirage/03-packaging-reveal.png",
+      "reason": "Detached upper shell incorrectly included a lower-base seam and black base band; visible cap top lacked monogram.",
+      "sha256": "51cd56a5a1f97ced262f4cc1838f023e89fb807af4ff63c52de0c508fb503d7f",
+      "deleted": true
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/working/full-gallery-review-2026-09-24/group-c/originals/oud-mirage/04-material-cap-detail.png",
+      "reason": "Lifted cap was visibly off-axis from the atomizer.",
+      "sha256": "0c2b29f51ca4fe2016a5c9d9936f20d4374b9b93da217867a91db83313b2809d",
+      "deleted": true
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/working/full-gallery-review-2026-09-24/group-c/originals/oud-mirage/05-weekend-park-lifestyle.png",
+      "reason": "Lifestyle hero was a torso crop instead of a full-person scene.",
+      "sha256": "ab7f4bcf3aa57b2cba4eb72fd95b0f45d1e377ee396058542c5dc8a482b340fb",
+      "deleted": true
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/working/full-gallery-review-2026-09-24/group-c/originals/oud-mirage/08-product-profile-infographic.png",
+      "reason": "Product facts were approximately27px with orange informational copy on cream.",
+      "sha256": "a47f5af8b865a9c078749d6d8de9ab317a7362adbd47e57851002d2c16bda9b9",
+      "deleted": true
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/working/full-gallery-review-2026-09-24/group-c/originals/oud-mirage/09-ingredients-and-care-infographic.png",
+      "reason": "Ingredients were approximately24px with orange informational copy on cream.",
+      "sha256": "800de5d0583156c932171c1994364a22dec1354cb06db67c564344dca0922a4f",
+      "deleted": true
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/working/full-gallery-review-2026-09-24/group-c/originals/oud-mirage/10-closing-hero.png",
+      "reason": "Tiny orange scent subheading was low contrast against the blue sky.",
+      "sha256": "7bd56b6db4ffda8a923d1cad7d6ea984383a9581b74e0d1d64dee01b1875eddf",
+      "deleted": true
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/working/full-gallery-review-2026-09-24/group-c/originals/oud-mirage/11-scent-description-infographic.png",
+      "reason": "Orange informational subheads on cream failed the required dark-ink rule.",
+      "sha256": "98e95430b411b33266aeafda9e091110bddab89e3ab6c0aab505a73cf1726671",
+      "deleted": true
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/working/full-gallery-review-2026-09-24/group-c/originals/oud-mirage/12-who-it-fits-infographic.png",
+      "reason": "The retained blazer and briefcase scene contradicted the prior explicit rejection of working-professional positioning.",
+      "sha256": "0c09fda8eb81c88b1376c482aaf9e80e74b4580974257a373c55da8366bba46b",
+      "deleted": true
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/working/full-gallery-review-2026-09-24/group-c/originals/rtulle-and-satin/02-brand-hero.png",
+      "reason": "Clearly visible cap top was blank instead of the raw embossed db mark.",
+      "sha256": "372e220b6235b85565ae338d1821286b1f37d4983ee9322581023f93605cfab2",
+      "deleted": true
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/working/full-gallery-review-2026-09-24/group-c/originals/rtulle-and-satin/03-packaging-reveal.png",
+      "reason": "Uncapped bottle was beside a closed canister instead of showing the supported packaging reveal.",
+      "sha256": "1e77b5933fdf986ebec8432a22a4185ba65906a3975d02bfcd406105fa1cf968",
+      "deleted": true
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/working/full-gallery-review-2026-09-24/group-c/originals/rtulle-and-satin/05-pottery-cafe-lifestyle.png",
+      "reason": "Lifestyle hero was a chest crop instead of a full-person scene.",
+      "sha256": "06e07a5cdc1b7950166a632c0809e0b7ded75badbad5caa5bec2aebe4b73bf30",
+      "deleted": true
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/working/full-gallery-review-2026-09-24/group-c/originals/rtulle-and-satin/08-product-profile-infographic.png",
+      "reason": "Small product facts and orange informational copy on cream failed readability.",
+      "sha256": "b162dde86889757d26c988656a9d5604459dc0f98735fd04ba94cc49c759a09f",
+      "deleted": true
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/working/full-gallery-review-2026-09-24/group-c/originals/rtulle-and-satin/09-ingredients-and-care-infographic.png",
+      "reason": "Tiny ingredient type and orange informational copy on cream failed readability.",
+      "sha256": "deac16f2a12cc0bca305f445c822e12acd7285d0622a11e3179ced5ba9794958",
+      "deleted": true
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/working/full-gallery-review-2026-09-24/group-c/originals/rtulle-and-satin/10-closing-hero.png",
+      "reason": "Tiny orange scent subheading lacked contrast against blue sky.",
+      "sha256": "84938e9c326ec2698a67307bd7515e444b5c175da11d2496433db6848d0c55c8",
+      "deleted": true
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/working/full-gallery-review-2026-09-24/group-c/originals/rtulle-and-satin/11-scent-description-infographic.png",
+      "reason": "Orange informational subheads on cream failed the required dark-ink rule.",
+      "sha256": "0e4e2e9a8f12f6282b8e36bc45afa70f3e04ae354a7616472ff3be42c594bb2e",
+      "deleted": true
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/working/full-gallery-review-2026-09-24/group-c/originals/rtulle-and-satin/12-who-it-fits-infographic.png",
+      "reason": "Old fabric-swatch atelier context retained the literal satin story the user had rejected.",
+      "sha256": "49e5d07e3c9150c8d4d2fa6928ff7a797b3cae2b1fed58b0dfbdcdaa15dc7af7",
+      "deleted": true
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/working/full-gallery-review-2026-09-24/group-c/additional-rejected/moonlight-velvet/11-scent-description-infographic.png",
+      "reason": "Low-contrast coral metadata and small description typography failed current hierarchy and readability rules.",
+      "sha256": "55a8a5466fe7f3d1d1ec4f6e938f585ea8d5d78a613074affe8aeb23d5563a6f",
+      "deleted": true
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/working/full-gallery-review-2026-09-24/group-c/additional-rejected/noir-cedar/05-terrace-game-night-lifestyle.png",
+      "reason": "Static product pose and foot cropped at the bottom failed active full-person framing.",
+      "sha256": "b3843420885649edffe26356fca303fe5b9f492b62f7b23012c01a4b2d4de098",
+      "deleted": true
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/working/full-gallery-review-2026-09-24/group-c/additional-rejected/moonlight-velvet/03-packaging-reveal.png",
+      "reason": "First revised detached cap had an ambiguous blank camera-facing disk; replacement explicitly shows authentic db embossing.",
+      "sha256": "f639252b7e578b7ec50a9ac5239737f871d567a723484287b5aca19e554fed37",
+      "deleted": true
+    },
+    {
+      "path": "/Users/wetrade/.codex/generated_images/01a0d160-854c-7d51-bffb-321768549d6b/exec-048958c6-d494-492e-b1ec-7f4ce51fc3ef.png",
+      "reason": "First Moonlight03 correction retained ambiguous blank camera-facing cap disk; superseded by explicit db-embossed top correction.",
+      "deleted": true,
+      "sha256": "9fb048b58bb7dcdedf364a1a83b9c19a9791941f3d6b0d7f1168e2ab351eb5c7",
+      "bytes": 2138516
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/noir-cedar/generated-v01/working/05-terrace-game-night-lifestyle.png",
+      "reason": "Byte-identical duplicate of rejected image: Static product pose and foot cropped at the bottom failed active full-person framing.",
+      "sha256": "b3843420885649edffe26356fca303fe5b9f492b62f7b23012c01a4b2d4de098",
+      "deleted": true
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/seaside-cotton/generated-v01/working/05-boardwalk-lifestyle.png",
+      "sha256": "e5b825377f919ab4dd23ab8e408486a08b0ed4b74757422a0cbdad01f05c2563",
+      "reason": "Duplicate of a rejected pre-review image.",
+      "deleted": true
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/mistened-narcissus/generated-v01/working/06-roller-rink-handheld.png",
+      "sha256": "2821107ff12a23a9b526f3036377fe82e64d25e5f580fcbb6b3befaad21fe8c7",
+      "reason": "Duplicate of a rejected pre-review image.",
+      "deleted": true
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/mistened-narcissus/generated-v01/working/05-roller-rink-arrival-lifestyle.png",
+      "sha256": "5e3b44c2e480b1202491137e62145af805b6dd4db2e8ebabafe7ecd477d79ba2",
+      "reason": "Duplicate of a rejected pre-review image.",
+      "deleted": true
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/mistened-narcissus/generated-v01/pre-single-face-backup/01-featured-packshot.png",
+      "sha256": "0b0b5d7377781f87835b3d31926f68d04e2c0e59bd997390b1e2bd2a0ecc1c8c",
+      "reason": "Duplicate of a rejected pre-review image.",
+      "deleted": true
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/sunset-cocktail/standardized-v01/pre-single-face-backup/08-product-profile-infographic.png",
+      "sha256": "166f28a4cf56603c0892ddfdb7225da7dec1193df7419d0cf528804054277551",
+      "reason": "Duplicate of a rejected pre-review image.",
+      "deleted": true
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/sunset-cocktail/standardized-v01/pre-single-face-backup/09-ingredients-and-care-infographic.png",
+      "sha256": "c02b9336c857999b9b482ffe72b3d8852d3df48d22ccf2b3c2b3fd4144145dac",
+      "reason": "Duplicate of a rejected pre-review image.",
+      "deleted": true
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/sunset-cocktail/standardized-v01/pre-single-face-backup/10-closing-hero.png",
+      "sha256": "3fa4cdb57edf1282bd53f57bb2e3871646ec81547a1747e624527406b2d11dd9",
+      "reason": "Duplicate of a rejected pre-review image.",
+      "deleted": true
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/rtulle-and-satin/generated-v01/working/11-scent-description-base.png",
+      "sha256": "b162dde86889757d26c988656a9d5604459dc0f98735fd04ba94cc49c759a09f",
+      "reason": "Duplicate of a rejected pre-review image.",
+      "deleted": true
+    }
+  ]
+}

@@ -13,7 +13,7 @@
 1. `final/01-featured-packshot.png` — Cream studio packshot with bottle and vivid-orange canister.
 2. `final/02-brand-hero.png` — Architectural orange, oxblood, chrome, cobalt, and limestone campaign hero.
 3. `final/03-packaging-reveal.png` — Open cylindrical canister and bottle unboxing composition.
-4. `final/04-material-cap-detail.png` — Embossed-cap, glass, liquid, label, and packaging macro.
+4. `final/04-material-cap-detail.png` — Magnetic-cap macro with the detached all-black cap aligned above the separate silver atomizer.
 5. `final/05-mens-red-convertible.png` — Filipino male model with the bottle in a red vintage convertible.
 6. `final/06-mens-tropical-handheld.png` — Masculine handheld product image against a tropical cobalt sky.
 7. `final/07-mens-social-lifestyle.png` — Filipino male street-fashion editorial on bright architectural steps, with the bottle naturally held and no sports cues.
@@ -32,7 +32,7 @@
 - Barcode: 5056795407307
 - Clear cylindrical glass bottle
 - Amber-orange liquid
-- Glossy black cylindrical cap with silver collar
+- Glossy black cylindrical magnetic cap with a continuous black lower edge and underside; the silver atomizer collar is a separate bottle component
 - Black front label
 - Vivid-orange cylindrical canister with black trim
 - Men's line under the owner-confirmed black-label rule
@@ -49,7 +49,7 @@ Alcohol; Water (Aqua); Fragrance (Parfum); PEG-40 Hydrogenated Castor Oil; Propy
 1. Exact bottle-and-canister cream studio packshot with restrained oxblood and chrome accents.
 2. Bold architectural hero using burnt orange, oxblood, cream limestone, chrome, and cobalt.
 3. Tactile packaging reveal showing the real cylindrical unboxing construction.
-4. Luxury macro emphasizing the embossed cap monogram, black label, amber liquid, and orange texture.
+4. Luxury macro emphasizing the embossed all-black magnetic cap, separate stepped silver atomizer, black label, amber liquid, and orange texture.
 5. Men's red-convertible campaign portrait at Manila golden hour.
 6. Men's tropical-sky handheld product image with orange, cobalt, black, and chrome styling.
 7. Men's street-fashion lifestyle scene on cobalt-and-cream architectural steps, using a burnt-orange overshirt and black tailoring rather than sports styling.
@@ -65,5 +65,6 @@ No fragrance notes, scent family, concentration, longevity, projection, occasion
 
 - Frame 07 was regenerated after the cross-scent brand audit to remove the basketball-coded jersey that duplicated Citrus Wish's sports narrative.
 - The revised image preserves the architectural setting while using distinct orange-and-black street fashion and a natural product interaction.
+- Frame 04 was regenerated against the supplied product photos to remove an invented silver band beneath the detached cap. The cap is now uninterrupted glossy black; silver appears only on the bottle atomizer.
 - Frames 11 and 12 were reviewed at full size for exact source copy, readable contrast, title fidelity, natural anatomy, unobstructed product visibility, and scent-specific lifestyle differentiation.
 - Twelve unique 2048 × 2048 PNG files pass the gallery guard, explicit sRGB validation, and checksum lock in `gallery-lock.sha256`.

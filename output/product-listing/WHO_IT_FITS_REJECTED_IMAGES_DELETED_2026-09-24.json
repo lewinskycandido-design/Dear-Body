@@ -1,0 +1,163 @@
+{
+  "date": "2026-09-24",
+  "replaced_active_images": 14,
+  "deleted_redundant_rejected_copies": 26,
+  "deleted": [
+    {
+      "file": "/Users/wetrade/Documents/ChatGPT/Dear Body/working/full-gallery-review-2026-09-24/group-b/selected/mistened-narcissus/12-who-it-fits-infographic.png",
+      "sha256": "71c91f22b28c6f5b4ad177dc410d7b6712f18f9b151c4c2007de3d178d857d35",
+      "scent": "mistened-narcissus",
+      "reason": "Superseded scent-based Who It Fits copy replaced with personality description."
+    },
+    {
+      "file": "/Users/wetrade/Documents/ChatGPT/Dear Body/working/full-gallery-review-2026-09-24/group-b/selected/midnight-elixir/12-who-it-fits-infographic.png",
+      "sha256": "2ffef6eb16ed2b3ceeb6c2af1b72d8ffaec30c1290223f8fb2e5eeda4b7bf4da",
+      "scent": "midnight-elixir",
+      "reason": "Superseded scent-based Who It Fits copy replaced with personality description."
+    },
+    {
+      "file": "/Users/wetrade/Documents/ChatGPT/Dear Body/working/full-gallery-review-2026-09-24/group-b/selected/mojito-metallique/12-who-it-fits-infographic.png",
+      "sha256": "c891a733b882b892a5e0afae581acf7a08e2b0be33a3783c9c4a9fba63d89c26",
+      "scent": "mojito-metallique",
+      "reason": "Superseded scent-based Who It Fits copy replaced with personality description."
+    },
+    {
+      "file": "/Users/wetrade/Documents/ChatGPT/Dear Body/working/full-gallery-review-2026-09-24/group-b/selected/ivory-reverie/12-who-it-fits-infographic.png",
+      "sha256": "2d262a409893e6554988dd94f305ef6b7980da57214d1a25386317255ac9fc8b",
+      "scent": "ivory-reverie",
+      "reason": "Superseded scent-based Who It Fits copy replaced with personality description."
+    },
+    {
+      "file": "/Users/wetrade/Documents/ChatGPT/Dear Body/working/full-gallery-review-2026-09-24/group-c/candidates/noir-cedar/12-who-it-fits-infographic.png",
+      "sha256": "a92eaf17067f6f5b7ee73ba6f3ceca406ce7f57ce0a7be76220367d191aff69c",
+      "scent": "noir-cedar",
+      "reason": "Superseded scent-based Who It Fits copy replaced with personality description."
+    },
+    {
+      "file": "/Users/wetrade/Documents/ChatGPT/Dear Body/working/full-gallery-review-2026-09-24/group-c/candidates/moonlight-velvet/12-who-it-fits-infographic.png",
+      "sha256": "8b3e634f5721d1765afd19c888b232d640f4385264956a566a22d4c332f17416",
+      "scent": "moonlight-velvet",
+      "reason": "Superseded scent-based Who It Fits copy replaced with personality description."
+    },
+    {
+      "file": "/Users/wetrade/Documents/ChatGPT/Dear Body/working/full-gallery-review-2026-09-24/group-c/candidates/rtulle-and-satin/12-who-it-fits-infographic.png",
+      "sha256": "04a397bc322035df497d3b210ec7b885a8da85e579b5d9d244b66c9b6d8303e5",
+      "scent": "rtulle-and-satin",
+      "reason": "Superseded scent-based Who It Fits copy replaced with personality description."
+    },
+    {
+      "file": "/Users/wetrade/Documents/ChatGPT/Dear Body/working/full-gallery-review-2026-09-24/group-c/candidates/oud-mirage/12-who-it-fits-infographic.png",
+      "sha256": "f44f1c9df1ebb4c10715b7628808ecf517296fa16522b3ea5ca3a0df080c5671",
+      "scent": "oud-mirage",
+      "reason": "Superseded scent-based Who It Fits copy replaced with personality description."
+    },
+    {
+      "file": "/Users/wetrade/Documents/ChatGPT/Dear Body/working/full-gallery-review-2026-09-24/group-a/approved-type-bases/citrus-wish/12-who-it-fits-infographic.png",
+      "sha256": "b44c57b90bb11bf4abfecd20148527ba2616eae00e366657764e3c0858622aa9",
+      "scent": "citrus-wish",
+      "reason": "Superseded scent-based Who It Fits copy replaced with personality description."
+    },
+    {
+      "file": "/Users/wetrade/Documents/ChatGPT/Dear Body/working/full-gallery-review-2026-09-24/group-a/approved-type-bases/amber-oud-silk/12-who-it-fits-infographic.png",
+      "sha256": "045f48b5c4ed186803664bdb038e73fa5381038b0b316205f88aa593696c7993",
+      "scent": "amber-oud-silk",
+      "reason": "Superseded scent-based Who It Fits copy replaced with personality description."
+    },
+    {
+      "file": "/Users/wetrade/Documents/ChatGPT/Dear Body/working/full-gallery-review-2026-09-24/group-a/approved-type-bases/charme-envoutant/12-who-it-fits-infographic.png",
+      "sha256": "cef822746d68c48fe962ba25abc2428e389aad6be5298efc6d31dc4066602b15",
+      "scent": "charme-envoutant",
+      "reason": "Superseded scent-based Who It Fits copy replaced with personality description."
+    },
+    {
+      "file": "/Users/wetrade/Documents/ChatGPT/Dear Body/working/full-gallery-review-2026-09-24/group-a/approved-type-bases/alpine-rosemary-mint/12-who-it-fits-infographic.png",
+      "sha256": "d22eeb061c8e1fe737051f8f3276db8ca268190571a05427cd2e8b1ddd10a83b",
+      "scent": "alpine-rosemary-mint",
+      "reason": "Superseded scent-based Who It Fits copy replaced with personality description."
+    },
+    {
+      "file": "/Users/wetrade/Documents/ChatGPT/Dear Body/working/who-it-fits-personality-2026-09-24/inputs/citrus-wish.png",
+      "sha256": "b44c57b90bb11bf4abfecd20148527ba2616eae00e366657764e3c0858622aa9",
+      "scent": "citrus-wish",
+      "reason": "Superseded scent-based Who It Fits copy replaced with personality description."
+    },
+    {
+      "file": "/Users/wetrade/Documents/ChatGPT/Dear Body/working/who-it-fits-personality-2026-09-24/inputs/seaside-cotton.png",
+      "sha256": "5cf4424af7f3a1362718558150a816843c179d755943482d000114c9416752d0",
+      "scent": "seaside-cotton",
+      "reason": "Superseded scent-based Who It Fits copy replaced with personality description."
+    },
+    {
+      "file": "/Users/wetrade/Documents/ChatGPT/Dear Body/working/who-it-fits-personality-2026-09-24/inputs/alpine-rosemary-mint.png",
+      "sha256": "d22eeb061c8e1fe737051f8f3276db8ca268190571a05427cd2e8b1ddd10a83b",
+      "scent": "alpine-rosemary-mint",
+      "reason": "Superseded scent-based Who It Fits copy replaced with personality description."
+    },
+    {
+      "file": "/Users/wetrade/Documents/ChatGPT/Dear Body/working/who-it-fits-personality-2026-09-24/inputs/sunset-cocktail.png",
+      "sha256": "0f1a13a986cb1e545e5eb781def3aff8e38f9de60736533f15789e0458549f75",
+      "scent": "sunset-cocktail",
+      "reason": "Superseded scent-based Who It Fits copy replaced with personality description."
+    },
+    {
+      "file": "/Users/wetrade/Documents/ChatGPT/Dear Body/working/who-it-fits-personality-2026-09-24/inputs/oud-mirage.png",
+      "sha256": "f44f1c9df1ebb4c10715b7628808ecf517296fa16522b3ea5ca3a0df080c5671",
+      "scent": "oud-mirage",
+      "reason": "Superseded scent-based Who It Fits copy replaced with personality description."
+    },
+    {
+      "file": "/Users/wetrade/Documents/ChatGPT/Dear Body/working/who-it-fits-personality-2026-09-24/inputs/moonlight-velvet.png",
+      "sha256": "8b3e634f5721d1765afd19c888b232d640f4385264956a566a22d4c332f17416",
+      "scent": "moonlight-velvet",
+      "reason": "Superseded scent-based Who It Fits copy replaced with personality description."
+    },
+    {
+      "file": "/Users/wetrade/Documents/ChatGPT/Dear Body/working/who-it-fits-personality-2026-09-24/inputs/mojito-metallique.png",
+      "sha256": "c891a733b882b892a5e0afae581acf7a08e2b0be33a3783c9c4a9fba63d89c26",
+      "scent": "mojito-metallique",
+      "reason": "Superseded scent-based Who It Fits copy replaced with personality description."
+    },
+    {
+      "file": "/Users/wetrade/Documents/ChatGPT/Dear Body/working/who-it-fits-personality-2026-09-24/inputs/noir-cedar.png",
+      "sha256": "a92eaf17067f6f5b7ee73ba6f3ceca406ce7f57ce0a7be76220367d191aff69c",
+      "scent": "noir-cedar",
+      "reason": "Superseded scent-based Who It Fits copy replaced with personality description."
+    },
+    {
+      "file": "/Users/wetrade/Documents/ChatGPT/Dear Body/working/who-it-fits-personality-2026-09-24/inputs/ivory-reverie.png",
+      "sha256": "2d262a409893e6554988dd94f305ef6b7980da57214d1a25386317255ac9fc8b",
+      "scent": "ivory-reverie",
+      "reason": "Superseded scent-based Who It Fits copy replaced with personality description."
+    },
+    {
+      "file": "/Users/wetrade/Documents/ChatGPT/Dear Body/working/who-it-fits-personality-2026-09-24/inputs/charme-envoutant.png",
+      "sha256": "cef822746d68c48fe962ba25abc2428e389aad6be5298efc6d31dc4066602b15",
+      "scent": "charme-envoutant",
+      "reason": "Superseded scent-based Who It Fits copy replaced with personality description."
+    },
+    {
+      "file": "/Users/wetrade/Documents/ChatGPT/Dear Body/working/who-it-fits-personality-2026-09-24/inputs/mistened-narcissus.png",
+      "sha256": "71c91f22b28c6f5b4ad177dc410d7b6712f18f9b151c4c2007de3d178d857d35",
+      "scent": "mistened-narcissus",
+      "reason": "Superseded scent-based Who It Fits copy replaced with personality description."
+    },
+    {
+      "file": "/Users/wetrade/Documents/ChatGPT/Dear Body/working/who-it-fits-personality-2026-09-24/inputs/amber-oud-silk.png",
+      "sha256": "045f48b5c4ed186803664bdb038e73fa5381038b0b316205f88aa593696c7993",
+      "scent": "amber-oud-silk",
+      "reason": "Superseded scent-based Who It Fits copy replaced with personality description."
+    },
+    {
+      "file": "/Users/wetrade/Documents/ChatGPT/Dear Body/working/who-it-fits-personality-2026-09-24/inputs/rtulle-and-satin.png",
+      "sha256": "04a397bc322035df497d3b210ec7b885a8da85e579b5d9d244b66c9b6d8303e5",
+      "scent": "rtulle-and-satin",
+      "reason": "Superseded scent-based Who It Fits copy replaced with personality description."
+    },
+    {
+      "file": "/Users/wetrade/Documents/ChatGPT/Dear Body/working/who-it-fits-personality-2026-09-24/inputs/midnight-elixir.png",
+      "sha256": "2ffef6eb16ed2b3ceeb6c2af1b72d8ffaec30c1290223f8fb2e5eeda4b7bf4da",
+      "scent": "midnight-elixir",
+      "reason": "Superseded scent-based Who It Fits copy replaced with personality description."
+    }
+  ]
+}

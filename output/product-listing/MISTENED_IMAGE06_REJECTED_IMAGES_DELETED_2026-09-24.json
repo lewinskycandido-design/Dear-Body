@@ -1,0 +1,20 @@
+{
+  "deleted_copies": 2,
+  "replaced_active_frame": 6,
+  "files": [
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/working/full-gallery-review-2026-09-24/group-b/selected/mistened-narcissus/06-roller-rink-handheld.png",
+      "hash": "5b2a59ca3ce648ea49d27d24affb0c1184c688c398d9302c52a9f751b53ccd01",
+      "size": 4968437,
+      "reason": "Exact SHA-256 duplicate of rejected current Mistened frame06 with disconnected/ambiguous arm ownership.",
+      "external": false
+    },
+    {
+      "path": "/Users/wetrade/.codex/generated_images/01a0d160-6b7d-7da1-81da-9dd0545e1176/exec-986b8542-9637-44fb-b759-f9628b297adb.png",
+      "hash": "4b66a9c7f77f3f36dc67af790315ae6920e3d8126fecf841e5ef557d15592567",
+      "size": 2123780,
+      "reason": "Native ImageGen source explicitly recorded as mistened-06 in group-b/generation-manifest.json; visually same rejected pose with disconnected/ambiguous arm ownership.",
+      "external": true
+    }
+  ]
+}

@@ -37,13 +37,14 @@ These facts are locked from the seven supplied physical-product photographs and 
 
 - Exact description: “Dark spice and smoke with a warm, addictive edge.”
 - Source: Canva design `DAHIB2UjgJM`, Dear Body Brand Deep Dive, page 2
-- Frame 12 interpretation: “For someone drawn to warm depth, smoky spice, and an expressive, addictive edge.”
-- Traits: WARM / SMOKY / EXPRESSIVE
+- Frame 12 personality copy: “For someone bold and self-assured, who brings warmth to their relationships and enjoys expressing their individuality.”
+- Traits: BOLD / WARM / SELF-ASSURED
 
-## Lifestyle Story
+## Lifestyle Story — owner revision 2026-09-24
 
-- Frame 05: full-person Filipino woman arriving at a bright modern karaoke lounge, moving naturally with the bottle in hand
-- Frame 06: tactile close handheld with the bottle, microphone, coral satin, and glowing karaoke controls
-- Frame 07: three Filipino women laughing and singing together in a colorful private karaoke room, with one bottle naturally placed in the action
+- Frame05: adult Filipina woman packing her small fragrance into a cobalt/navy canvas bag in a real apartment entryway; full person, cheerful expression, coral cotton shirt, exactly one face.
+- Frame06: face-free hands detail of the same packing routine, authentic small bottle scale and natural window light.
+- Frame07: face-free bottle and canvas bag on a slightly worn wooden entry console, key dish and coral cotton detail.
+- Frame12: the same home still life with the approved personality copy and traits retained exactly.
 
-All people frames must remain women-only, warm, fun, light, active, and distinct from every existing scent gallery.
+Keep the publication warm, fun, vibrant and light. Use credible home construction, natural directional daylight, real cotton/canvas textures and plausible body/product interaction. The former karaoke scenes are rejected and superseded.

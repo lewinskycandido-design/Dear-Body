@@ -168,7 +168,7 @@ try render(base: "11-scent-description-base.png", output: "11-scent-description-
 
     drawText("APPROVED SCENT DESCRIPTION", x: 112, y: 480, width: 680, height: 34, size: 19, weight: .bold, color: coral)
     drawText(
-        "Soft, creamy sweetness with a light fruity glow.",
+        "Juicy berries softened by a smooth, sweet finish.",
         x: 112,
         y: 554,
         width: 680,
@@ -191,7 +191,7 @@ try render(base: "12-who-it-fits-base.png", output: "12-who-it-fits-infographic.
     fillRect(x: 92, y: 404, width: 176, height: 6, color: coralLight)
 
     drawText(
-        "For someone drawn to soft sweetness, creamy comfort, and a light, playful glow.",
+        "For someone drawn to juicy brightness, smooth sweetness, and an easy, playful finish.",
         x: 92,
         y: 492,
         width: 650,
@@ -202,5 +202,5 @@ try render(base: "12-who-it-fits-base.png", output: "12-who-it-fits-infographic.
         lineHeight: 55
     )
 
-    drawText("SOFT\nCREAMY\nPLAYFUL", x: 92, y: 1175, width: 650, height: 220, size: 27, weight: .bold, color: coralLight, lineHeight: 50)
+    drawText("JUICY\nSMOOTH\nPLAYFUL", x: 92, y: 1175, width: 650, height: 220, size: 27, weight: .bold, color: coralLight, lineHeight: 50)
 }

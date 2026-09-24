@@ -1,0 +1,41 @@
+{
+  "deleted_copies": 5,
+  "replaced_active_frame": 5,
+  "files": [
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/working/full-gallery-review-2026-09-24/group-b/selected/mistened-narcissus/05-roller-rink-arrival-lifestyle.png",
+      "hash": "d036c14379163a8f76974066faeb3c5920a2ff3b82ce4d668de5d069827d3fe6",
+      "size": 4599884,
+      "reason": "Exact SHA-256 duplicate of the user-rejected Mistened frame05; superseded by a more realistic hero.",
+      "external": false
+    },
+    {
+      "path": "/Users/wetrade/.codex/generated_images/01a0d160-6b7d-7da1-81da-9dd0545e1176/exec-41ad1a76-3fb4-4bbf-bdbc-ad7d6b2b84a7.png",
+      "hash": "24c2a05642bc13087ee148389bc55df3438b85626444a6c10596591639afb854",
+      "size": 1908502,
+      "reason": "Native generation source explicitly recorded as mistened-05 in group-b/generation-manifest.json, producing the user-rejected stylized hero.",
+      "external": true
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/working/mistened-real-hero-2026-09-24/05-native.png",
+      "hash": "95fcf558f563fcc7479f4865f8a6c97a7da6cf008bc0846b8b99a8fd1397e273",
+      "size": 2094992,
+      "reason": "Superseded draft with soft product lettering; final uses corrected physical-source label artwork.",
+      "external": false
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/working/mistened-real-hero-2026-09-24/label-qa.png",
+      "hash": "ce7275f9dc73fc73451253990c66932302c0e1f1219e767d91d6d9746a136a61",
+      "size": 51336,
+      "reason": "Superseded draft with soft product lettering; final uses corrected physical-source label artwork.",
+      "external": false
+    },
+    {
+      "path": "/Users/wetrade/.codex/generated_images/01a0d15f-2057-7983-9ab8-d62b89775200/exec-b99cb549-6df6-431d-b35f-a8da9fc6b5ba.png",
+      "hash": "95fcf558f563fcc7479f4865f8a6c97a7da6cf008bc0846b8b99a8fd1397e273",
+      "size": 2094992,
+      "reason": "Superseded draft with soft product lettering; final uses corrected physical-source label artwork.",
+      "external": true
+    }
+  ]
+}

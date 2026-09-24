@@ -1,0 +1,139 @@
+{
+  "deleted_file_count": 18,
+  "deleted_bytes": 58623736,
+  "replaced_active_frames": [
+    5,
+    6,
+    7,
+    12
+  ],
+  "final_gallery_hashes_verified": 168,
+  "files": [
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/amber-oud-silk/generated-v01/pre-single-face-backup/05-karaoke-arrival-lifestyle.png",
+      "reason": "Visually confirmed earlier Amber karaoke variant; superseded by approved realistic home gallery and current one-face rule.",
+      "sha256": "77253bba7886f6424b5581113659b7015bb1eff44860ab6ab49a26d6930fc8ea",
+      "size": 4693200,
+      "external": false
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/amber-oud-silk/generated-v01/pre-single-face-backup/06-karaoke-handheld.png",
+      "reason": "Visually confirmed earlier Amber karaoke variant; superseded by approved realistic home gallery and current one-face rule.",
+      "sha256": "cff9d29f87f649f3908877e686e3c6e0273648108f9721f91ebfe228a19015a7",
+      "size": 4510727,
+      "external": false
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/amber-oud-silk/generated-v01/pre-single-face-backup/07-karaoke-social.png",
+      "reason": "Visually confirmed earlier Amber karaoke variant; superseded by approved realistic home gallery and current one-face rule.",
+      "sha256": "ddcc5b3e50ad7da30fc4ac21b2bf39dce503066fb838a5bdf9aa58b6f7a2f35d",
+      "size": 4920443,
+      "external": false
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/amber-oud-silk/generated-v01/pre-single-face-backup/12-who-it-fits-infographic.png",
+      "reason": "Visually confirmed earlier Amber karaoke variant; superseded by approved realistic home gallery and current one-face rule.",
+      "sha256": "6d2ab39691c220d9da34f464db6e411d22634966ace4a6f9df4d220af0b0f78b",
+      "size": 4010366,
+      "external": false
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/amber-oud-silk/generated-v01/working/05-karaoke-arrival-lifestyle.png",
+      "reason": "Exact SHA-256 duplicate of rejected prior Amber 05-karaoke-arrival-lifestyle.png. Superseded by approved realistic home scene.",
+      "sha256": "8a0b626828027a9d86dc7fde20352c01dd2a932f65210d740cfccc1f61b4baf9",
+      "size": 4689244,
+      "external": false
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/amber-oud-silk/generated-v01/working/06-karaoke-handheld.png",
+      "reason": "Exact SHA-256 duplicate of rejected prior Amber 06-karaoke-handheld.png. Superseded by approved realistic home scene.",
+      "sha256": "c4cdbc3de2d5ff0c6508945e239fc383a028fb2abfc9f5b96d9b0415751c178d",
+      "size": 4668941,
+      "external": false
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/amber-oud-silk/generated-v01/working/07-karaoke-social.png",
+      "reason": "Exact SHA-256 duplicate of rejected prior Amber 07-karaoke-social.png. Superseded by approved realistic home scene.",
+      "sha256": "8dfa3f037487a3e00dec6c31d07e55d1161d3976e0a41b58cf2c76bee14bcd58",
+      "size": 4847107,
+      "external": false
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/amber-oud-silk/generated-v01/working/12-who-it-fits-base.png",
+      "reason": "Visually confirmed superseded Amber karaoke frame12 photo base; microphone, blue karaoke seating and red handbag.",
+      "sha256": "00ce9c378eb18a56bee52ff29bd036f8624abb9f96d2081dc08ae6650d3379ff",
+      "size": 1912347,
+      "external": false
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/working/amber-real-scene-2026-09-24/12-type-input.png",
+      "reason": "Exact SHA-256 duplicate of rejected prior Amber frame12 using karaoke photography; current home frame12 installed.",
+      "sha256": "9d8823e9176db2b4b23a4d71529cfde9fc9972254b7c0a78f643904edff55fa4",
+      "size": 3659713,
+      "external": false
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/working/amber-real-scene-2026-09-24/work/06-first-geometry-revise.png",
+      "reason": "Initial glass body too short/wide; corrected in subsequent version.",
+      "sha256": "8e822f1c20060642cc6923ca9b06fbc385303dc524c8cdd4b7923a5dc50c558f",
+      "size": 2211362,
+      "external": false
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/working/amber-real-scene-2026-09-24/work/06-geometry-correct.png",
+      "reason": "Geometry correct, but muted light/colors superseded by user-requested brighter warm vibrant version.",
+      "sha256": "e11bfdf907f833545c429e1567d799993450d53c510001b4ae6e5d12a62a4709",
+      "size": 2100317,
+      "external": false
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/working/who-it-fits-personality-2026-09-24/candidates/amber-oud-silk.png",
+      "reason": "Exact SHA-256 duplicate of rejected prior Amber frame12 using karaoke photography; current home frame12 installed.",
+      "sha256": "9d8823e9176db2b4b23a4d71529cfde9fc9972254b7c0a78f643904edff55fa4",
+      "size": 3659713,
+      "external": false
+    },
+    {
+      "path": "/Users/wetrade/.codex/generated_images/01a0d15f-2057-7983-9ab8-d62b89775200/exec-2c3fd667-4c58-4e44-90f2-a2c34a78189c.png",
+      "reason": "Rejected home hero draft explicitly listed in plan.json; superseded by approved brighter cheerful 05v3.",
+      "sha256": "c3e1b1ea5bc16a65556a09ca5b2d246e3461af8b8e29ddcd5f42b297236f73fd",
+      "size": 2116919,
+      "external": true
+    },
+    {
+      "path": "/Users/wetrade/.codex/generated_images/01a0d15f-2057-7983-9ab8-d62b89775200/exec-e10cc7a8-f9fa-455c-8a86-1d9304d5838b.png",
+      "reason": "Rejected home hero draft explicitly listed in plan.json; superseded by approved brighter cheerful 05v3.",
+      "sha256": "4f2ef18c17d28540c9bfe0062cf4937362b012d10b96fb06466413555cd4eb89",
+      "size": 2111944,
+      "external": true
+    },
+    {
+      "path": "/Users/wetrade/.codex/generated_images/01a0d160-6b7d-7da1-81da-9dd0545e1176/exec-c3b03355-f093-4b69-8696-c996f937665b.png",
+      "reason": "Geometry correct, but muted light/colors superseded by user-requested brighter warm vibrant version.",
+      "sha256": "e11bfdf907f833545c429e1567d799993450d53c510001b4ae6e5d12a62a4709",
+      "size": 2100317,
+      "external": true
+    },
+    {
+      "path": "/Users/wetrade/.codex/generated_images/01a0d160-6b7d-7da1-81da-9dd0545e1176/exec-ea596c29-16d4-498c-af9f-003d74cde1b9.png",
+      "reason": "Initial glass body too short/wide; corrected in subsequent version.",
+      "sha256": "8e822f1c20060642cc6923ca9b06fbc385303dc524c8cdd4b7923a5dc50c558f",
+      "size": 2211362,
+      "external": true
+    },
+    {
+      "path": "/Users/wetrade/.codex/generated_images/01a0d160-854c-7d51-bffb-321768549d6b/exec-a833aa69-8f24-4b43-9e12-8e7ce3748006.png",
+      "reason": "Scale improved but muted coral/navy styling superseded by explicit warmer, brighter, vibrant owner direction.",
+      "sha256": "943a42e1469bea241472150729a4f81a096b22836d9f25d1e6a93512f16bafde",
+      "size": 2049223,
+      "external": true
+    },
+    {
+      "path": "/Users/wetrade/.codex/generated_images/01a0d160-854c-7d51-bffb-321768549d6b/exec-ee78ae8b-8d3d-4e0a-aa18-435f86fd5027.png",
+      "reason": "Bottle oversized against bag; first draft superseded by scale correction.",
+      "sha256": "45a776c0ef043b1be9aee9b1dae23f11e9715c4ab89cd1060b73ee4e6f21df8c",
+      "size": 2150491,
+      "external": true
+    }
+  ]
+}

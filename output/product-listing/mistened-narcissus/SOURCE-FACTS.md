@@ -29,19 +29,19 @@ These facts are locked from the six supplied physical-product photographs and th
 8. Limonene
 9. Linalool
 10. Citronellol
-11. Alpha-Isomethyl Ionone
+11. Alpha-Isomethyl-Ionone
 
 ## Approved Scent Copy
 
-- Exact description: "Soft, creamy sweetness with a light fruity glow."
-- Source: Canva design `DAHIB2UjgJM`, Dear Body Brand Deep Dive, page 2
-- Frame 12 interpretation: "For someone drawn to soft sweetness, creamy comfort, and a light, playful glow."
-- Traits: SOFT / CREAMY / PLAYFUL
+- Exact description: "Juicy berries softened by a smooth, sweet finish."
+- Source: Canva design `DAHIB2UjgJM`, Dear Body Brand Deep Dive, page 3
+- Frame 12 interpretation: "For someone cheerful and playful, who shows their affection openly and finds joy in little moments."
+- Traits: CHEERFUL / PLAYFUL / OPENHEARTED
 
 ## Lifestyle Story
 
-- Frame 05: full-person Filipino woman arriving at a bright pastel roller rink, moving naturally with skates and bottle
-- Frame 06: tactile close handheld with the bottle, coral sleeve, chrome rink rail, quad skates, and colorful floor markings
-- Frame 07: three Filipino women laughing and lacing up together beside the rink, with one bottle integrated into the action
+- Frame 05: realistic full-person adult woman preparing to skate beside a simple safety rail in an ordinary community rink. Cream cardigan, lilac top, coral trousers, small bottle held near her body, warm natural smile, both skates grounded and visible, one face; window daylight and worn wood floor.
+- Frame 06: seated woman, framed below the neck, with both arms visibly connected to the same torso; right hand holding perfume beside her knee and left hand adjusting her own lavender skate tongue; cream cardigan, coral trousers, warm daylight.
+- Frame 07: face-free roller-bag still life with the bottle, lavender skates, towel, and rink-side accessories integrated into the action
 
-All people frames must remain women-only, warm, fun, light, active, and distinct from every existing scent gallery.
+Frame 05 contains the gallery's one visible face. Frames 06, 07, and 12 contain no visible faces. All people frames must remain women-only, warm, fun, light, active, and distinct from every existing scent gallery.

@@ -1,62 +1,35 @@
-# AMBER OUD SILK Gallery QA
+# Amber Oud Silk — current final QA
 
-Final status: **PASS**
+Latest owner layout update, 24 September 2026: image10 uses the unified box-free closing template. Exact A SCENT JOURNEY heading, subtitle and coral rule share fixed geometry across all14 scents. Only the14 closing heroes changed; all154 other gallery files remain byte-identical. Accepted photography retained. Independent visual review: PASS.
 
-## Verified Product Facts
 
-- Scent: AMBER OUD SILK, preserved exactly as printed
-- Line: women's line, indicated by the white label
-- Format: 50 ml / 1.69 fl. oz.
-- Product code: P11038
-- Barcode: 5056795407338
-- Bottle: clear cylindrical glass with pale blush-peach liquid and a heavy clear base
-- Cap: glossy black cylinder with an embossed DearBody mark and narrow silver collar
-- Packaging: blush-peach cylindrical two-piece paper canister with a white label and black rims
-- Safety: flammable; keep away from heat and open flame
+PASS · 24 September 2026 · 12 of 12 final frames reviewed.
 
-## Gallery Architecture
+Latest owner revision replaces frames 05–07 and the frame 12 photo with warm, vibrant, light and realistic apartment scenes. The other eight Amber frames and all 156 images from the other thirteen scents remain byte-identical. Frame 12’s approved personality text panel is pixel-identical.
 
-| Frame | File | QA result |
+| Frame | Status | Current review |
 | --- | --- | --- |
-| 01 | `01-featured-packshot.png` | Pass: exact bottle-and-canister identity, readable labels, polished product hierarchy, and balanced peach, coral, cream, cherry, and cobalt color. |
-| 02 | `02-brand-hero.png` | Pass: exact products in a distinct contemporary architectural setting with warm, bright, approachable light. |
-| 03 | `03-packaging-reveal.png` | Pass: bottle sits in the real short lower canister base; the tall removable upper section is open beside it, with no invented loose lid or disk. |
-| 04 | `04-material-cap-detail.png` | Pass: embossed cap mark, silver collar, clear glass, blush liquid, white labels, canister texture, and silk styling are sharply represented. |
-| 05 | `05-karaoke-arrival-lifestyle.png` | Pass: full-person Filipino woman, natural motion and bottle interaction, women-only casting, and a bright karaoke-lounge arrival story. |
-| 06 | `06-karaoke-handheld.png` | Pass: one exact bottle, readable label, realistic five-finger grip, plausible scale, microphone, and colorful karaoke controls. |
-| 07 | `07-karaoke-social.png` | Pass: three Filipino women singing and laughing, believable anatomy, one integrated hero bottle, and a warm, fun, light social scene. |
-| 08 | `08-product-profile-infographic.png` | Pass: exact volume, line, physical details, and product code with deterministic high-contrast typography. |
-| 09 | `09-ingredients-and-care-infographic.png` | Pass: all package ingredients, product code, barcode, volume, and safety statement are exact, readable, and typeset deterministically. |
-| 10 | `10-closing-hero.png` | Pass: exact closing headline, readable product name, bright elevated Manila setting, and clear product hierarchy. |
-| 11 | `11-scent-description-infographic.png` | Pass: exact Canva-approved scent sentence, high-contrast deterministic typography, source line, and unobstructed product identity. |
-| 12 | `12-who-it-fits-infographic.png` | Pass: person-fit copy is derived only from the approved sentence, the product remains accurate, and the women-only karaoke portrait is warm and expressive. |
+| 01 | PASS | Accurate capped cylindrical bottle and matching canister; correct liquid and label color; bright tactile packshot; zero faces. |
+| 02 | PASS | Single visible nozzle faces continuous fine mist; natural finger press; correct tall cylinder, thick base, substantial three-stage atomizer; zero faces. |
+| 03 | PASS | Authentic separate lower packaging base with raised sleeve/rim and foam, upper canister closed flat black top; uncapped three-stage pump and all-black cap; zero faces. |
+| 04 | PASS | Detached all-black cap physically fits compact three-stage atomizer; clear MAGNETIC CAP caption; natural hand; zero faces. |
+| 05 | PASS | Owner rejected the synthetic karaoke scene. Rebuilt as a candid full-person home departure moment: natural smile, coral cotton shirt, cobalt canvas bag, ordinary apartment, believable daylight and bottle grip/scale. Exactly one face; both shoes visible. |
+| 06 | PASS | Replaced karaoke controls with a face-free hands detail packing the capped bottle into a canvas bag in the same real apartment setting. Corrected bottle geometry, natural grip, readable label and brighter coral/cobalt accents. |
+| 07 | PASS | Replaced the staged karaoke still life with a small capped bottle on a worn wooden entry console beside a canvas bag and key dish. Realistic object scale, natural daylight, tactile cotton and canvas; zero faces. |
+| 08 | PASS | Clear facts in 58–65px type, black/oxblood on cream; copy left/product right; volume, product code and visible pack details verified. Display heading uses registered CenzoFlare-Bold. |
+| 09 | PASS | Exact package ingredient spellings plus volume, product code/barcode and package flammability pictogram interpretation; primary type 44–48px; product left/cream copy right. Display heading uses registered CenzoFlare-Bold. The printed base label shows only the flammable pictogram; no heat/open-flame sentence is printed. The added sentence was removed; FLAMMABLE remains an interpretation of the package pictogram. |
+| 10 | `10-closing-hero.png` | Pass: Unified box-free closing hero: identical two-line A SCENT JOURNEY heading, scent-name subtitle, upper-left alignment, type sizes, spacing and coral rule. Dark text chosen for photo contrast. Accepted scent-specific product-and-canister photograph retained; zero faces. |
+| 11 | PASS | Approved scent sentence reproduced exactly in deterministic type, dark text on cream, no added notes/claims; zero faces. Display heading uses registered CenzoFlare-Bold. |
+| 12 | PASS | Replaced the rejected karaoke photograph with the matching bright home still life. Approved personality paragraph, three traits, heading and left text panel remain pixel-identical; zero faces. |
 
-## Brand Alignment
+## Set and export checks
 
-- Visually appealing: polished commercial lighting, exact product identity, clear hierarchy, and disciplined material styling.
-- Vibrant: blush peach is balanced with coral, cherry red, cobalt, cream, black, chrome, warm light, and natural skin tones.
-- Approachable: expressive Filipino women, active movement, casual karaoke interactions, and bright everyday leisure settings.
-- Warm, fun, and light: frames 05-07 and 12 feel like energetic moments from a friendly lifestyle video rather than static fragrance portraits.
-- DearBody Philippines: Filipino casting, Manila cues, contemporary styling, and the shared twelve-frame publication architecture.
-- Cross-scent distinction: AMBER OUD SILK owns a women-only private-karaoke narrative, coral satin styling, microphone details, and a peach/cherry/cobalt palette.
+- Reopened and audited the complete contact sheet: coherent color, product identity, scene and typography.
+- Exactly one visible adult face, in frame 05; all other frames contain zero faces.
+- All twelve PNGs: 2048 × 2048, explicit sRGB, unique images; checksum locks refreshed and verified.
+- Approved scent description and personality copy retained.
+- Final imagery independently reviewed with no blocking product, anatomy, lighting or scene issues.
 
-## Approved Scent Copy
+![All 12 final frames](contact-sheet.png)
 
-- Scent description: "Dark spice and smoke with a warm, addictive edge."
-- Source: Canva design `DAHIB2UjgJM`, Dear Body Brand Deep Dive, page 2
-- Person-fit interpretation: "For someone drawn to warm depth, smoky spice, and an expressive, addictive edge."
-- Interpretation guardrail: this is editorial audience-fit language derived from the approved description; it does not add fragrance notes, performance, longevity, occasion, age, status, season, popularity, or gender claims.
-
-## Technical Validation
-
-- Twelve unique numbered PNG files: pass
-- Dimensions: 2048 x 2048 for all twelve files
-- Color profile: explicit sRGB/ICC marker for all twelve files
-- Infographic typography: deterministic AppKit typesetting for frames 08-12, not image-model copy
-- Final contact sheet: `contact-sheet.png`
-- Gallery guard: pass
-- Locked checksums: `gallery-lock.sha256`
-
-## Final Re-Audit
-
-The final contact sheet and all twelve individual files were reopened after typesetting and color-profile normalization. Product labels, bottle proportions, canister construction, hands, casting, copy contrast, duplication, and frame roles were checked at full resolution. No blocking visual, factual, anatomical, packaging-fidelity, typography, or brand-architecture issues remain.
+[Detailed lifestyle revision](REALISTIC_LIFESTYLE_REVIEW_2026-09-24.md)

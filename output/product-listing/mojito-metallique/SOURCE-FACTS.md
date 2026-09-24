@@ -47,8 +47,8 @@
 | --- | --- | --- | --- | --- |
 | 05 | Bright contemporary dance rehearsal studio | One woman crosses the floor mid-step while carrying the fragrance | Yellow headphones and a coral dance bag echo the pack palette | One adult Filipino woman, full body |
 | 06 | Chrome barre and rehearsal bench | A woman's hand lifts the bottle from beside her headphones | Chrome, cobalt, and yellow details create a crisp handheld rhythm | One visible female hand only |
-| 07 | Sunlit rehearsal break | Three women laugh while teaching one another a simple step | Loose ribbons and colorful dance layers add movement | Exactly three adult Filipino women |
-| 12 | Same dance world, portrait crop | One woman turns toward camera with the bottle naturally in hand | Warm movement and bright styling keep the portrait approachable | One adult Filipino woman |
+| 07 | Sunlit rehearsal break | Waist-and-hand crop places the bottle into a cobalt dance bag | Yellow headphones, coral towel and cream rehearsal clothes | No heads or faces |
+| 12 | Same dance world, bag still life | The bottle rests in a cobalt bag pocket beside rehearsal accessories | Yellow headphones, coral towel and cream clothes keep the frame warm | No people or faces |
 
 The dance-rehearsal narrative is reserved for MOJITO METALLIQUE and does not repeat the scooter, listening lounge, convertible, waterfront picnic, concourse, atelier, architecture studio, arcade, karaoke, or roller-rink stories already assigned to other scents.
 

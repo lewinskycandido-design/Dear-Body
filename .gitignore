@@ -1,6 +1,6 @@
 # Local dependencies, caches, and rendered previews
 .DS_Store
-**/node_modules/
+**/node_modules
 **/__pycache__/
 *.py[cod]
 **/preview/public/
