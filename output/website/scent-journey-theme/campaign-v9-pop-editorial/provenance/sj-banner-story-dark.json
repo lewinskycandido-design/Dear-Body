@@ -1,0 +1,29 @@
+{
+  "asset": "sj-banner-story-dark",
+  "tool": "built-in image_gen",
+  "sourceOutputPath": "/Users/wetrade/.codex/generated_images/01a0d0f8-8d24-7131-8c77-de85e96f8179/exec-7884c3f6-15bf-4591-8c59-b68906d48956.png",
+  "dimensions": [
+    1774,
+    887
+  ],
+  "original_sha256": "1488118bceb81d6980fa3372e036d5bff367db72a38910a97106bfe7b288db20",
+  "prompts": [
+    "prompts/sj-banner-story-dark.txt",
+    "prompts/sj-banner-story-dark-reframe.txt"
+  ],
+  "reference": "references/publication-materials-reference.png",
+  "rejectedCandidate": {
+    "path": "/Users/wetrade/.codex/generated_images/01a0d0f8-8d24-7131-8c77-de85e96f8179/exec-faa941c5-0de5-4e78-800e-84513df9c6c6.png",
+    "reason": "Insufficient headroom for responsive banner crop"
+  },
+  "alt": "A Filipino man in cobalt and cream lifts his sunglasses in a colourful sunlit courtyard.",
+  "qa": {
+    "native_image_inspected": true,
+    "realistic_anatomy": "PASS",
+    "people": 1,
+    "product_free": true,
+    "headroom": "PASS: full head with generous margin",
+    "left_copy_space": "PASS",
+    "style": "PASS: sunlit scarlet, cobalt and lemon editorial styling"
+  }
+}

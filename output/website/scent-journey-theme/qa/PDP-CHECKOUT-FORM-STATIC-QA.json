@@ -1,0 +1,518 @@
+{
+  "generatedAt": "2026-09-24T11:01:26.571Z",
+  "checks": [
+    {
+      "pass": true,
+      "label": "Native locale-safe direct checkout action encodes one primary bottle",
+      "fixture": "available-php"
+    },
+    {
+      "pass": true,
+      "label": "Only supported Shopify shipping-prefill fields are named",
+      "fixture": "available-php"
+    },
+    {
+      "pass": true,
+      "label": "Every control label resolves",
+      "fixture": "available-php"
+    },
+    {
+      "pass": true,
+      "label": "No duplicate form IDs",
+      "fixture": "available-php"
+    },
+    {
+      "pass": true,
+      "label": "Six required address fields, optional address2 and Philippines hidden country",
+      "fixture": "available-php"
+    },
+    {
+      "pass": true,
+      "label": "Shipping autocomplete tokens present",
+      "fixture": "available-php"
+    },
+    {
+      "pass": true,
+      "label": "Empty address is invalid using native constraints",
+      "fixture": "available-php"
+    },
+    {
+      "pass": true,
+      "label": "Complete synthetic address passes native constraints",
+      "fixture": "available-php"
+    },
+    {
+      "pass": true,
+      "label": "Non-four-digit postal code rejected",
+      "fixture": "available-php"
+    },
+    {
+      "pass": true,
+      "label": "One purchase submit with correct availability state",
+      "fixture": "available-php"
+    },
+    {
+      "pass": true,
+      "label": "Optional second scent hidden and disabled until JS, none selected by default",
+      "fixture": "available-php"
+    },
+    {
+      "pass": true,
+      "label": "Exactly one native default variant per available catalogue fixture; no duplicate IDs",
+      "fixture": "available-php"
+    },
+    {
+      "pass": true,
+      "label": "Native second-scent price and availability metadata; unavailable choices disabled",
+      "fixture": "available-php"
+    },
+    {
+      "pass": true,
+      "label": "Same scent can be selected as a second bottle when available",
+      "fixture": "available-php"
+    },
+    {
+      "pass": true,
+      "label": "Primary native variant is unnamed, initially disabled until JS and has current native price cents",
+      "fixture": "available-php"
+    },
+    {
+      "pass": true,
+      "label": "Totals hooks, currency and verified single-item shipping amount present",
+      "fixture": "available-php"
+    },
+    {
+      "pass": true,
+      "label": "Native single-item estimate is guarded by currency",
+      "fixture": "available-php"
+    },
+    {
+      "pass": true,
+      "label": "No-JS fallback keeps direct form visible and quantity/reveal controls inactive",
+      "fixture": "available-php"
+    },
+    {
+      "pass": true,
+      "label": "No named quantity, bag/toast action or unsupported product-form query metadata",
+      "fixture": "available-php"
+    },
+    {
+      "pass": true,
+      "label": "Native locale-safe direct checkout action encodes one primary bottle",
+      "fixture": "sold-out-php"
+    },
+    {
+      "pass": true,
+      "label": "Only supported Shopify shipping-prefill fields are named",
+      "fixture": "sold-out-php"
+    },
+    {
+      "pass": true,
+      "label": "Every control label resolves",
+      "fixture": "sold-out-php"
+    },
+    {
+      "pass": true,
+      "label": "No duplicate form IDs",
+      "fixture": "sold-out-php"
+    },
+    {
+      "pass": true,
+      "label": "Six required address fields, optional address2 and Philippines hidden country",
+      "fixture": "sold-out-php"
+    },
+    {
+      "pass": true,
+      "label": "Shipping autocomplete tokens present",
+      "fixture": "sold-out-php"
+    },
+    {
+      "pass": true,
+      "label": "Empty address is invalid using native constraints",
+      "fixture": "sold-out-php"
+    },
+    {
+      "pass": true,
+      "label": "Complete synthetic address passes native constraints",
+      "fixture": "sold-out-php"
+    },
+    {
+      "pass": true,
+      "label": "Non-four-digit postal code rejected",
+      "fixture": "sold-out-php"
+    },
+    {
+      "pass": true,
+      "label": "One purchase submit with correct availability state",
+      "fixture": "sold-out-php"
+    },
+    {
+      "pass": true,
+      "label": "Optional second scent hidden and disabled until JS, none selected by default",
+      "fixture": "sold-out-php"
+    },
+    {
+      "pass": true,
+      "label": "Exactly one native default variant per available catalogue fixture; no duplicate IDs",
+      "fixture": "sold-out-php"
+    },
+    {
+      "pass": true,
+      "label": "Native second-scent price and availability metadata; unavailable choices disabled",
+      "fixture": "sold-out-php"
+    },
+    {
+      "pass": true,
+      "label": "Same scent can be selected as a second bottle when available",
+      "fixture": "sold-out-php"
+    },
+    {
+      "pass": true,
+      "label": "Primary native variant is unnamed, initially disabled until JS and has current native price cents",
+      "fixture": "sold-out-php"
+    },
+    {
+      "pass": true,
+      "label": "Totals hooks, currency and verified single-item shipping amount present",
+      "fixture": "sold-out-php"
+    },
+    {
+      "pass": true,
+      "label": "Native single-item estimate is guarded by currency",
+      "fixture": "sold-out-php"
+    },
+    {
+      "pass": true,
+      "label": "No-JS fallback keeps direct form visible and quantity/reveal controls inactive",
+      "fixture": "sold-out-php"
+    },
+    {
+      "pass": true,
+      "label": "No named quantity, bag/toast action or unsupported product-form query metadata",
+      "fixture": "sold-out-php"
+    },
+    {
+      "pass": true,
+      "label": "Native locale-safe direct checkout action encodes one primary bottle",
+      "fixture": "locale-cart"
+    },
+    {
+      "pass": true,
+      "label": "Only supported Shopify shipping-prefill fields are named",
+      "fixture": "locale-cart"
+    },
+    {
+      "pass": true,
+      "label": "Every control label resolves",
+      "fixture": "locale-cart"
+    },
+    {
+      "pass": true,
+      "label": "No duplicate form IDs",
+      "fixture": "locale-cart"
+    },
+    {
+      "pass": true,
+      "label": "Six required address fields, optional address2 and Philippines hidden country",
+      "fixture": "locale-cart"
+    },
+    {
+      "pass": true,
+      "label": "Shipping autocomplete tokens present",
+      "fixture": "locale-cart"
+    },
+    {
+      "pass": true,
+      "label": "Empty address is invalid using native constraints",
+      "fixture": "locale-cart"
+    },
+    {
+      "pass": true,
+      "label": "Complete synthetic address passes native constraints",
+      "fixture": "locale-cart"
+    },
+    {
+      "pass": true,
+      "label": "Non-four-digit postal code rejected",
+      "fixture": "locale-cart"
+    },
+    {
+      "pass": true,
+      "label": "One purchase submit with correct availability state",
+      "fixture": "locale-cart"
+    },
+    {
+      "pass": true,
+      "label": "Optional second scent hidden and disabled until JS, none selected by default",
+      "fixture": "locale-cart"
+    },
+    {
+      "pass": true,
+      "label": "Exactly one native default variant per available catalogue fixture; no duplicate IDs",
+      "fixture": "locale-cart"
+    },
+    {
+      "pass": true,
+      "label": "Native second-scent price and availability metadata; unavailable choices disabled",
+      "fixture": "locale-cart"
+    },
+    {
+      "pass": true,
+      "label": "Same scent can be selected as a second bottle when available",
+      "fixture": "locale-cart"
+    },
+    {
+      "pass": true,
+      "label": "Primary native variant is unnamed, initially disabled until JS and has current native price cents",
+      "fixture": "locale-cart"
+    },
+    {
+      "pass": true,
+      "label": "Totals hooks, currency and verified single-item shipping amount present",
+      "fixture": "locale-cart"
+    },
+    {
+      "pass": true,
+      "label": "Native single-item estimate is guarded by currency",
+      "fixture": "locale-cart"
+    },
+    {
+      "pass": true,
+      "label": "No-JS fallback keeps direct form visible and quantity/reveal controls inactive",
+      "fixture": "locale-cart"
+    },
+    {
+      "pass": true,
+      "label": "No named quantity, bag/toast action or unsupported product-form query metadata",
+      "fixture": "locale-cart"
+    },
+    {
+      "pass": true,
+      "label": "Native locale-safe direct checkout action encodes one primary bottle",
+      "fixture": "other-currency"
+    },
+    {
+      "pass": true,
+      "label": "Only supported Shopify shipping-prefill fields are named",
+      "fixture": "other-currency"
+    },
+    {
+      "pass": true,
+      "label": "Every control label resolves",
+      "fixture": "other-currency"
+    },
+    {
+      "pass": true,
+      "label": "No duplicate form IDs",
+      "fixture": "other-currency"
+    },
+    {
+      "pass": true,
+      "label": "Six required address fields, optional address2 and Philippines hidden country",
+      "fixture": "other-currency"
+    },
+    {
+      "pass": true,
+      "label": "Shipping autocomplete tokens present",
+      "fixture": "other-currency"
+    },
+    {
+      "pass": true,
+      "label": "Empty address is invalid using native constraints",
+      "fixture": "other-currency"
+    },
+    {
+      "pass": true,
+      "label": "Complete synthetic address passes native constraints",
+      "fixture": "other-currency"
+    },
+    {
+      "pass": true,
+      "label": "Non-four-digit postal code rejected",
+      "fixture": "other-currency"
+    },
+    {
+      "pass": true,
+      "label": "One purchase submit with correct availability state",
+      "fixture": "other-currency"
+    },
+    {
+      "pass": true,
+      "label": "Optional second scent hidden and disabled until JS, none selected by default",
+      "fixture": "other-currency"
+    },
+    {
+      "pass": true,
+      "label": "Exactly one native default variant per available catalogue fixture; no duplicate IDs",
+      "fixture": "other-currency"
+    },
+    {
+      "pass": true,
+      "label": "Native second-scent price and availability metadata; unavailable choices disabled",
+      "fixture": "other-currency"
+    },
+    {
+      "pass": true,
+      "label": "Same scent can be selected as a second bottle when available",
+      "fixture": "other-currency"
+    },
+    {
+      "pass": true,
+      "label": "Primary native variant is unnamed, initially disabled until JS and has current native price cents",
+      "fixture": "other-currency"
+    },
+    {
+      "pass": true,
+      "label": "Totals hooks, currency and verified single-item shipping amount present",
+      "fixture": "other-currency"
+    },
+    {
+      "pass": true,
+      "label": "Native single-item estimate is guarded by currency",
+      "fixture": "other-currency"
+    },
+    {
+      "pass": true,
+      "label": "No-JS fallback keeps direct form visible and quantity/reveal controls inactive",
+      "fixture": "other-currency"
+    },
+    {
+      "pass": true,
+      "label": "No named quantity, bag/toast action or unsupported product-form query metadata",
+      "fixture": "other-currency"
+    },
+    {
+      "pass": true,
+      "label": "Native locale-safe direct checkout action encodes one primary bottle",
+      "fixture": "missing-native-product"
+    },
+    {
+      "pass": true,
+      "label": "Only supported Shopify shipping-prefill fields are named",
+      "fixture": "missing-native-product"
+    },
+    {
+      "pass": true,
+      "label": "Every control label resolves",
+      "fixture": "missing-native-product"
+    },
+    {
+      "pass": true,
+      "label": "No duplicate form IDs",
+      "fixture": "missing-native-product"
+    },
+    {
+      "pass": true,
+      "label": "Six required address fields, optional address2 and Philippines hidden country",
+      "fixture": "missing-native-product"
+    },
+    {
+      "pass": true,
+      "label": "Shipping autocomplete tokens present",
+      "fixture": "missing-native-product"
+    },
+    {
+      "pass": true,
+      "label": "Empty address is invalid using native constraints",
+      "fixture": "missing-native-product"
+    },
+    {
+      "pass": true,
+      "label": "Complete synthetic address passes native constraints",
+      "fixture": "missing-native-product"
+    },
+    {
+      "pass": true,
+      "label": "Non-four-digit postal code rejected",
+      "fixture": "missing-native-product"
+    },
+    {
+      "pass": true,
+      "label": "One purchase submit with correct availability state",
+      "fixture": "missing-native-product"
+    },
+    {
+      "pass": true,
+      "label": "Optional second scent hidden and disabled until JS, none selected by default",
+      "fixture": "missing-native-product"
+    },
+    {
+      "pass": true,
+      "label": "Exactly one native default variant per available catalogue fixture; no duplicate IDs",
+      "fixture": "missing-native-product"
+    },
+    {
+      "pass": true,
+      "label": "Native second-scent price and availability metadata; unavailable choices disabled",
+      "fixture": "missing-native-product"
+    },
+    {
+      "pass": true,
+      "label": "Same scent can be selected as a second bottle when available",
+      "fixture": "missing-native-product"
+    },
+    {
+      "pass": true,
+      "label": "Primary native variant is unnamed, initially disabled until JS and has current native price cents",
+      "fixture": "missing-native-product"
+    },
+    {
+      "pass": true,
+      "label": "Totals hooks, currency and verified single-item shipping amount present",
+      "fixture": "missing-native-product"
+    },
+    {
+      "pass": true,
+      "label": "Native single-item estimate is guarded by currency",
+      "fixture": "missing-native-product"
+    },
+    {
+      "pass": true,
+      "label": "No-JS fallback keeps direct form visible and quantity/reveal controls inactive",
+      "fixture": "missing-native-product"
+    },
+    {
+      "pass": true,
+      "label": "No named quantity, bag/toast action or unsupported product-form query metadata",
+      "fixture": "missing-native-product"
+    },
+    {
+      "pass": true,
+      "label": "Extra dynamic/sticky purchase buttons removed",
+      "fixture": "source"
+    },
+    {
+      "pass": true,
+      "label": "Rating summary preserved beside purchase",
+      "fixture": "source"
+    },
+    {
+      "pass": true,
+      "label": "Template preserves reviews and removes unused express-purchase setting",
+      "fixture": "source"
+    },
+    {
+      "pass": true,
+      "label": "Responsive address grid and readable input styling declared",
+      "fixture": "source"
+    },
+    {
+      "pass": true,
+      "label": "Unused toast and sticky purchase styling absent",
+      "fixture": "source"
+    }
+  ],
+  "issues": [],
+  "boundaries": [
+    "Renders actual checkout Liquid form with synthetic available/unavailable native product fixtures; no production availability changes.",
+    "JSDOM constraint validation and source structure only. No browser layout, network request, order or address submission.",
+    "Commerce/product JS transport and totals are independently tested by commerce_discovery. Shipping/payment/address validation remains native Shopify checkout.",
+    "No personal addresses are used or persisted. Native subtotal is an estimate before any further checkout adjustments."
+  ],
+  "summary": {
+    "status": "PASS",
+    "passed": 100,
+    "checks": 100,
+    "failures": 0
+  }
+}

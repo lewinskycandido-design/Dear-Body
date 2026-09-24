@@ -1,0 +1,2874 @@
+{
+  "generatedAt": "2026-09-24T07:34:54.372Z",
+  "base": "http://127.0.0.1:4208",
+  "runs": [
+    {
+      "id": "faq-light-320",
+      "kind": "faq",
+      "width": 320,
+      "theme": "light",
+      "errors": [],
+      "layout": {
+        "width": 320,
+        "documentWidth": 320,
+        "theme": "light",
+        "h1": 1,
+        "title": "A LITTLE CLARITY.",
+        "eyebrow": "FAQ",
+        "cta": 0,
+        "banner": {
+          "left": 0,
+          "right": 320,
+          "top": 152.1875,
+          "bottom": 752.1875,
+          "width": 320,
+          "height": 600
+        },
+        "image": {
+          "left": 0,
+          "right": 320,
+          "top": 152.1875,
+          "bottom": 752.1875,
+          "src": "/assets/sj-faq-banner.jpg",
+          "complete": true,
+          "naturalWidth": 1774,
+          "naturalHeight": 887,
+          "position": "81% 0%"
+        },
+        "text": [
+          {
+            "text": "FAQ",
+            "rects": [
+              {
+                "left": 22,
+                "right": 41.171875,
+                "top": 643.96875,
+                "bottom": 656.96875
+              }
+            ],
+            "font": "\"Helvetica Now Display\", \"Helvetica Neue\", Arial, sans-serif"
+          },
+          {
+            "text": "A LITTLE CLARITY.",
+            "rects": [
+              {
+                "left": 22,
+                "right": 246.25,
+                "top": 673.5625,
+                "bottom": 705.5625
+              }
+            ],
+            "font": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif"
+          }
+        ]
+      },
+      "status": "PASS"
+    },
+    {
+      "id": "shipping-light-320",
+      "kind": "shipping",
+      "width": 320,
+      "theme": "light",
+      "errors": [],
+      "layout": {
+        "width": 320,
+        "documentWidth": 320,
+        "theme": "light",
+        "h1": 1,
+        "title": "ON ITS WAY.",
+        "eyebrow": "Shipping",
+        "cta": 0,
+        "banner": {
+          "left": 0,
+          "right": 320,
+          "top": 152.1875,
+          "bottom": 752.1875,
+          "width": 320,
+          "height": 600
+        },
+        "image": {
+          "left": 0,
+          "right": 320,
+          "top": 152.1875,
+          "bottom": 752.1875,
+          "src": "/assets/sj-shipping-banner.jpg",
+          "complete": true,
+          "naturalWidth": 1774,
+          "naturalHeight": 887,
+          "position": "75% 0%"
+        },
+        "text": [
+          {
+            "text": "Shipping",
+            "rects": [
+              {
+                "left": 22,
+                "right": 68.734375,
+                "top": 584.375,
+                "bottom": 597.375
+              }
+            ],
+            "font": "\"Helvetica Now Display\", \"Helvetica Neue\", Arial, sans-serif"
+          },
+          {
+            "text": "ON ITS WAY.",
+            "rects": [
+              {
+                "left": 22,
+                "right": 174.0625,
+                "top": 613.96875,
+                "bottom": 645.96875
+              }
+            ],
+            "font": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif"
+          },
+          {
+            "text": "Free shipping on 2 or more items. Shipping fee applies to 1 item.",
+            "rects": [
+              {
+                "left": 22,
+                "right": 275.34375,
+                "top": 662.59375,
+                "bottom": 681.59375
+              },
+              {
+                "left": 22,
+                "right": 110.96875,
+                "top": 683.390625,
+                "bottom": 702.390625
+              }
+            ],
+            "font": "\"Helvetica Now Display\", \"Helvetica Neue\", Arial, sans-serif"
+          }
+        ]
+      },
+      "status": "PASS"
+    },
+    {
+      "id": "faq-dark-320",
+      "kind": "faq",
+      "width": 320,
+      "theme": "dark",
+      "errors": [],
+      "layout": {
+        "width": 320,
+        "documentWidth": 320,
+        "theme": "dark",
+        "h1": 1,
+        "title": "A LITTLE CLARITY.",
+        "eyebrow": "FAQ",
+        "cta": 0,
+        "banner": {
+          "left": 0,
+          "right": 320,
+          "top": 152.1875,
+          "bottom": 752.1875,
+          "width": 320,
+          "height": 600
+        },
+        "image": {
+          "left": 0,
+          "right": 320,
+          "top": 152.1875,
+          "bottom": 752.1875,
+          "src": "/assets/sj-faq-banner.jpg",
+          "complete": true,
+          "naturalWidth": 1774,
+          "naturalHeight": 887,
+          "position": "81% 0%"
+        },
+        "text": [
+          {
+            "text": "FAQ",
+            "rects": [
+              {
+                "left": 22,
+                "right": 41.171875,
+                "top": 643.96875,
+                "bottom": 656.96875
+              }
+            ],
+            "font": "\"Helvetica Now Display\", \"Helvetica Neue\", Arial, sans-serif"
+          },
+          {
+            "text": "A LITTLE CLARITY.",
+            "rects": [
+              {
+                "left": 22,
+                "right": 246.25,
+                "top": 673.5625,
+                "bottom": 705.5625
+              }
+            ],
+            "font": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif"
+          }
+        ]
+      },
+      "status": "PASS"
+    },
+    {
+      "id": "shipping-dark-320",
+      "kind": "shipping",
+      "width": 320,
+      "theme": "dark",
+      "errors": [],
+      "layout": {
+        "width": 320,
+        "documentWidth": 320,
+        "theme": "dark",
+        "h1": 1,
+        "title": "ON ITS WAY.",
+        "eyebrow": "Shipping",
+        "cta": 0,
+        "banner": {
+          "left": 0,
+          "right": 320,
+          "top": 152.1875,
+          "bottom": 752.1875,
+          "width": 320,
+          "height": 600
+        },
+        "image": {
+          "left": 0,
+          "right": 320,
+          "top": 152.1875,
+          "bottom": 752.1875,
+          "src": "/assets/sj-shipping-banner.jpg",
+          "complete": true,
+          "naturalWidth": 1774,
+          "naturalHeight": 887,
+          "position": "75% 0%"
+        },
+        "text": [
+          {
+            "text": "Shipping",
+            "rects": [
+              {
+                "left": 22,
+                "right": 68.734375,
+                "top": 584.375,
+                "bottom": 597.375
+              }
+            ],
+            "font": "\"Helvetica Now Display\", \"Helvetica Neue\", Arial, sans-serif"
+          },
+          {
+            "text": "ON ITS WAY.",
+            "rects": [
+              {
+                "left": 22,
+                "right": 174.0625,
+                "top": 613.96875,
+                "bottom": 645.96875
+              }
+            ],
+            "font": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif"
+          },
+          {
+            "text": "Free shipping on 2 or more items. Shipping fee applies to 1 item.",
+            "rects": [
+              {
+                "left": 22,
+                "right": 275.34375,
+                "top": 662.59375,
+                "bottom": 681.59375
+              },
+              {
+                "left": 22,
+                "right": 110.96875,
+                "top": 683.390625,
+                "bottom": 702.390625
+              }
+            ],
+            "font": "\"Helvetica Now Display\", \"Helvetica Neue\", Arial, sans-serif"
+          }
+        ]
+      },
+      "status": "PASS"
+    },
+    {
+      "id": "faq-light-390",
+      "kind": "faq",
+      "width": 390,
+      "theme": "light",
+      "errors": [],
+      "layout": {
+        "width": 390,
+        "documentWidth": 390,
+        "theme": "light",
+        "h1": 1,
+        "title": "A LITTLE CLARITY.",
+        "eyebrow": "FAQ",
+        "cta": 0,
+        "banner": {
+          "left": 0,
+          "right": 390,
+          "top": 152.1875,
+          "bottom": 752.1875,
+          "width": 390,
+          "height": 600
+        },
+        "image": {
+          "left": 0,
+          "right": 390,
+          "top": 152.1875,
+          "bottom": 752.1875,
+          "src": "/assets/sj-faq-banner.jpg",
+          "complete": true,
+          "naturalWidth": 1774,
+          "naturalHeight": 887,
+          "position": "81% 0%"
+        },
+        "text": [
+          {
+            "text": "FAQ",
+            "rects": [
+              {
+                "left": 22,
+                "right": 41.171875,
+                "top": 641.609375,
+                "bottom": 654.609375
+              }
+            ],
+            "font": "\"Helvetica Now Display\", \"Helvetica Neue\", Arial, sans-serif"
+          },
+          {
+            "text": "A LITTLE CLARITY.",
+            "rects": [
+              {
+                "left": 22,
+                "right": 262.5,
+                "top": 671.203125,
+                "bottom": 706.203125
+              }
+            ],
+            "font": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif"
+          }
+        ]
+      },
+      "status": "PASS"
+    },
+    {
+      "id": "shipping-light-390",
+      "kind": "shipping",
+      "width": 390,
+      "theme": "light",
+      "errors": [],
+      "layout": {
+        "width": 390,
+        "documentWidth": 390,
+        "theme": "light",
+        "h1": 1,
+        "title": "ON ITS WAY.",
+        "eyebrow": "Shipping",
+        "cta": 0,
+        "banner": {
+          "left": 0,
+          "right": 390,
+          "top": 152.1875,
+          "bottom": 752.1875,
+          "width": 390,
+          "height": 600
+        },
+        "image": {
+          "left": 0,
+          "right": 390,
+          "top": 152.1875,
+          "bottom": 752.1875,
+          "src": "/assets/sj-shipping-banner.jpg",
+          "complete": true,
+          "naturalWidth": 1774,
+          "naturalHeight": 887,
+          "position": "75% 0%"
+        },
+        "text": [
+          {
+            "text": "Shipping",
+            "rects": [
+              {
+                "left": 22,
+                "right": 68.734375,
+                "top": 582.015625,
+                "bottom": 595.015625
+              }
+            ],
+            "font": "\"Helvetica Now Display\", \"Helvetica Neue\", Arial, sans-serif"
+          },
+          {
+            "text": "ON ITS WAY.",
+            "rects": [
+              {
+                "left": 22,
+                "right": 185.078125,
+                "top": 611.609375,
+                "bottom": 646.609375
+              }
+            ],
+            "font": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif"
+          },
+          {
+            "text": "Free shipping on 2 or more items. Shipping fee applies to 1 item.",
+            "rects": [
+              {
+                "left": 22,
+                "right": 275.34375,
+                "top": 662.59375,
+                "bottom": 681.59375
+              },
+              {
+                "left": 22,
+                "right": 110.96875,
+                "top": 683.390625,
+                "bottom": 702.390625
+              }
+            ],
+            "font": "\"Helvetica Now Display\", \"Helvetica Neue\", Arial, sans-serif"
+          }
+        ]
+      },
+      "status": "PASS"
+    },
+    {
+      "id": "faq-dark-390",
+      "kind": "faq",
+      "width": 390,
+      "theme": "dark",
+      "errors": [],
+      "layout": {
+        "width": 390,
+        "documentWidth": 390,
+        "theme": "dark",
+        "h1": 1,
+        "title": "A LITTLE CLARITY.",
+        "eyebrow": "FAQ",
+        "cta": 0,
+        "banner": {
+          "left": 0,
+          "right": 390,
+          "top": 152.1875,
+          "bottom": 752.1875,
+          "width": 390,
+          "height": 600
+        },
+        "image": {
+          "left": 0,
+          "right": 390,
+          "top": 152.1875,
+          "bottom": 752.1875,
+          "src": "/assets/sj-faq-banner.jpg",
+          "complete": true,
+          "naturalWidth": 1774,
+          "naturalHeight": 887,
+          "position": "81% 0%"
+        },
+        "text": [
+          {
+            "text": "FAQ",
+            "rects": [
+              {
+                "left": 22,
+                "right": 41.171875,
+                "top": 641.609375,
+                "bottom": 654.609375
+              }
+            ],
+            "font": "\"Helvetica Now Display\", \"Helvetica Neue\", Arial, sans-serif"
+          },
+          {
+            "text": "A LITTLE CLARITY.",
+            "rects": [
+              {
+                "left": 22,
+                "right": 262.5,
+                "top": 671.203125,
+                "bottom": 706.203125
+              }
+            ],
+            "font": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif"
+          }
+        ]
+      },
+      "status": "PASS"
+    },
+    {
+      "id": "shipping-dark-390",
+      "kind": "shipping",
+      "width": 390,
+      "theme": "dark",
+      "errors": [],
+      "layout": {
+        "width": 390,
+        "documentWidth": 390,
+        "theme": "dark",
+        "h1": 1,
+        "title": "ON ITS WAY.",
+        "eyebrow": "Shipping",
+        "cta": 0,
+        "banner": {
+          "left": 0,
+          "right": 390,
+          "top": 152.1875,
+          "bottom": 752.1875,
+          "width": 390,
+          "height": 600
+        },
+        "image": {
+          "left": 0,
+          "right": 390,
+          "top": 152.1875,
+          "bottom": 752.1875,
+          "src": "/assets/sj-shipping-banner.jpg",
+          "complete": true,
+          "naturalWidth": 1774,
+          "naturalHeight": 887,
+          "position": "75% 0%"
+        },
+        "text": [
+          {
+            "text": "Shipping",
+            "rects": [
+              {
+                "left": 22,
+                "right": 68.734375,
+                "top": 582.015625,
+                "bottom": 595.015625
+              }
+            ],
+            "font": "\"Helvetica Now Display\", \"Helvetica Neue\", Arial, sans-serif"
+          },
+          {
+            "text": "ON ITS WAY.",
+            "rects": [
+              {
+                "left": 22,
+                "right": 185.078125,
+                "top": 611.609375,
+                "bottom": 646.609375
+              }
+            ],
+            "font": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif"
+          },
+          {
+            "text": "Free shipping on 2 or more items. Shipping fee applies to 1 item.",
+            "rects": [
+              {
+                "left": 22,
+                "right": 275.34375,
+                "top": 662.59375,
+                "bottom": 681.59375
+              },
+              {
+                "left": 22,
+                "right": 110.96875,
+                "top": 683.390625,
+                "bottom": 702.390625
+              }
+            ],
+            "font": "\"Helvetica Now Display\", \"Helvetica Neue\", Arial, sans-serif"
+          }
+        ]
+      },
+      "status": "PASS"
+    },
+    {
+      "id": "faq-light-820",
+      "kind": "faq",
+      "width": 820,
+      "theme": "light",
+      "errors": [],
+      "layout": {
+        "width": 820,
+        "documentWidth": 820,
+        "theme": "light",
+        "h1": 1,
+        "title": "A LITTLE CLARITY.",
+        "eyebrow": "FAQ",
+        "cta": 0,
+        "banner": {
+          "left": 0,
+          "right": 820,
+          "top": 147,
+          "bottom": 687,
+          "width": 820,
+          "height": 540
+        },
+        "image": {
+          "left": 0,
+          "right": 820,
+          "top": 147,
+          "bottom": 687,
+          "src": "/assets/sj-faq-banner.jpg",
+          "complete": true,
+          "naturalWidth": 1774,
+          "naturalHeight": 887,
+          "position": "50% 0%"
+        },
+        "text": [
+          {
+            "text": "FAQ",
+            "rects": [
+              {
+                "left": 35.25,
+                "right": 60,
+                "top": 364.703125,
+                "bottom": 380.703125
+              }
+            ],
+            "font": "\"Helvetica Now Display\", \"Helvetica Neue\", Arial, sans-serif"
+          },
+          {
+            "text": "A LITTLE CLARITY.",
+            "rects": [
+              {
+                "left": 35.25,
+                "right": 315.5625,
+                "top": 404.09375,
+                "bottom": 444.09375
+              }
+            ],
+            "font": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif"
+          }
+        ]
+      },
+      "status": "PASS"
+    },
+    {
+      "id": "shipping-light-820",
+      "kind": "shipping",
+      "width": 820,
+      "theme": "light",
+      "errors": [],
+      "layout": {
+        "width": 820,
+        "documentWidth": 820,
+        "theme": "light",
+        "h1": 1,
+        "title": "ON ITS WAY.",
+        "eyebrow": "Shipping",
+        "cta": 0,
+        "banner": {
+          "left": 0,
+          "right": 820,
+          "top": 147,
+          "bottom": 687,
+          "width": 820,
+          "height": 540
+        },
+        "image": {
+          "left": 0,
+          "right": 820,
+          "top": 147,
+          "bottom": 687,
+          "src": "/assets/sj-shipping-banner.jpg",
+          "complete": true,
+          "naturalWidth": 1774,
+          "naturalHeight": 887,
+          "position": "50% 0%"
+        },
+        "text": [
+          {
+            "text": "Shipping",
+            "rects": [
+              {
+                "left": 35.25,
+                "right": 95.875,
+                "top": 331.3125,
+                "bottom": 347.3125
+              }
+            ],
+            "font": "\"Helvetica Now Display\", \"Helvetica Neue\", Arial, sans-serif"
+          },
+          {
+            "text": "ON ITS WAY.",
+            "rects": [
+              {
+                "left": 35.25,
+                "right": 225.328125,
+                "top": 370.703125,
+                "bottom": 410.703125
+              }
+            ],
+            "font": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif"
+          },
+          {
+            "text": "Free shipping on 2 or more items. Shipping fee applies to 1 item.",
+            "rects": [
+              {
+                "left": 35.25,
+                "right": 375.734375,
+                "top": 434.890625,
+                "bottom": 455.890625
+              },
+              {
+                "left": 35.25,
+                "right": 63.390625,
+                "top": 457.28125,
+                "bottom": 478.28125
+              }
+            ],
+            "font": "\"Helvetica Now Display\", \"Helvetica Neue\", Arial, sans-serif"
+          }
+        ]
+      },
+      "status": "PASS"
+    },
+    {
+      "id": "faq-dark-820",
+      "kind": "faq",
+      "width": 820,
+      "theme": "dark",
+      "errors": [],
+      "layout": {
+        "width": 820,
+        "documentWidth": 820,
+        "theme": "dark",
+        "h1": 1,
+        "title": "A LITTLE CLARITY.",
+        "eyebrow": "FAQ",
+        "cta": 0,
+        "banner": {
+          "left": 0,
+          "right": 820,
+          "top": 147,
+          "bottom": 687,
+          "width": 820,
+          "height": 540
+        },
+        "image": {
+          "left": 0,
+          "right": 820,
+          "top": 147,
+          "bottom": 687,
+          "src": "/assets/sj-faq-banner.jpg",
+          "complete": true,
+          "naturalWidth": 1774,
+          "naturalHeight": 887,
+          "position": "50% 0%"
+        },
+        "text": [
+          {
+            "text": "FAQ",
+            "rects": [
+              {
+                "left": 35.25,
+                "right": 60,
+                "top": 364.703125,
+                "bottom": 380.703125
+              }
+            ],
+            "font": "\"Helvetica Now Display\", \"Helvetica Neue\", Arial, sans-serif"
+          },
+          {
+            "text": "A LITTLE CLARITY.",
+            "rects": [
+              {
+                "left": 35.25,
+                "right": 315.5625,
+                "top": 404.09375,
+                "bottom": 444.09375
+              }
+            ],
+            "font": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif"
+          }
+        ]
+      },
+      "status": "PASS"
+    },
+    {
+      "id": "shipping-dark-820",
+      "kind": "shipping",
+      "width": 820,
+      "theme": "dark",
+      "errors": [],
+      "layout": {
+        "width": 820,
+        "documentWidth": 820,
+        "theme": "dark",
+        "h1": 1,
+        "title": "ON ITS WAY.",
+        "eyebrow": "Shipping",
+        "cta": 0,
+        "banner": {
+          "left": 0,
+          "right": 820,
+          "top": 147,
+          "bottom": 687,
+          "width": 820,
+          "height": 540
+        },
+        "image": {
+          "left": 0,
+          "right": 820,
+          "top": 147,
+          "bottom": 687,
+          "src": "/assets/sj-shipping-banner.jpg",
+          "complete": true,
+          "naturalWidth": 1774,
+          "naturalHeight": 887,
+          "position": "50% 0%"
+        },
+        "text": [
+          {
+            "text": "Shipping",
+            "rects": [
+              {
+                "left": 35.25,
+                "right": 95.875,
+                "top": 331.3125,
+                "bottom": 347.3125
+              }
+            ],
+            "font": "\"Helvetica Now Display\", \"Helvetica Neue\", Arial, sans-serif"
+          },
+          {
+            "text": "ON ITS WAY.",
+            "rects": [
+              {
+                "left": 35.25,
+                "right": 225.328125,
+                "top": 370.703125,
+                "bottom": 410.703125
+              }
+            ],
+            "font": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif"
+          },
+          {
+            "text": "Free shipping on 2 or more items. Shipping fee applies to 1 item.",
+            "rects": [
+              {
+                "left": 35.25,
+                "right": 375.734375,
+                "top": 434.890625,
+                "bottom": 455.890625
+              },
+              {
+                "left": 35.25,
+                "right": 63.390625,
+                "top": 457.28125,
+                "bottom": 478.28125
+              }
+            ],
+            "font": "\"Helvetica Now Display\", \"Helvetica Neue\", Arial, sans-serif"
+          }
+        ]
+      },
+      "status": "PASS"
+    },
+    {
+      "id": "faq-light-1440",
+      "kind": "faq",
+      "width": 1440,
+      "theme": "light",
+      "errors": [],
+      "layout": {
+        "width": 1440,
+        "documentWidth": 1440,
+        "theme": "light",
+        "h1": 1,
+        "title": "A LITTLE CLARITY.",
+        "eyebrow": "FAQ",
+        "cta": 0,
+        "banner": {
+          "left": 0,
+          "right": 1440,
+          "top": 147,
+          "bottom": 766.1875,
+          "width": 1440,
+          "height": 619.1875
+        },
+        "image": {
+          "left": 0,
+          "right": 1440,
+          "top": 147,
+          "bottom": 766.1875,
+          "src": "/assets/sj-faq-banner.jpg",
+          "complete": true,
+          "naturalWidth": 1774,
+          "naturalHeight": 887,
+          "position": "50% 0%"
+        },
+        "text": [
+          {
+            "text": "FAQ",
+            "rects": [
+              {
+                "left": 61.90625,
+                "right": 86.65625,
+                "top": 390.03125,
+                "bottom": 406.03125
+              }
+            ],
+            "font": "\"Helvetica Now Display\", \"Helvetica Neue\", Arial, sans-serif"
+          },
+          {
+            "text": "A LITTLE CLARITY.",
+            "rects": [
+              {
+                "left": 61.90625,
+                "right": 546.265625,
+                "top": 429.421875,
+                "bottom": 498.421875
+              }
+            ],
+            "font": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif"
+          }
+        ]
+      },
+      "status": "PASS"
+    },
+    {
+      "id": "shipping-light-1440",
+      "kind": "shipping",
+      "width": 1440,
+      "theme": "light",
+      "errors": [],
+      "layout": {
+        "width": 1440,
+        "documentWidth": 1440,
+        "theme": "light",
+        "h1": 1,
+        "title": "ON ITS WAY.",
+        "eyebrow": "Shipping",
+        "cta": 0,
+        "banner": {
+          "left": 0,
+          "right": 1440,
+          "top": 147,
+          "bottom": 766.1875,
+          "width": 1440,
+          "height": 619.1875
+        },
+        "image": {
+          "left": 0,
+          "right": 1440,
+          "top": 147,
+          "bottom": 766.1875,
+          "src": "/assets/sj-shipping-banner.jpg",
+          "complete": true,
+          "naturalWidth": 1774,
+          "naturalHeight": 887,
+          "position": "50% 0%"
+        },
+        "text": [
+          {
+            "text": "Shipping",
+            "rects": [
+              {
+                "left": 61.90625,
+                "right": 122.53125,
+                "top": 367.828125,
+                "bottom": 383.828125
+              }
+            ],
+            "font": "\"Helvetica Now Display\", \"Helvetica Neue\", Arial, sans-serif"
+          },
+          {
+            "text": "ON ITS WAY.",
+            "rects": [
+              {
+                "left": 61.90625,
+                "right": 390.34375,
+                "top": 407.21875,
+                "bottom": 476.21875
+              }
+            ],
+            "font": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif"
+          },
+          {
+            "text": "Free shipping on 2 or more items. Shipping fee applies to 1 item.",
+            "rects": [
+              {
+                "left": 61.90625,
+                "right": 433.484375,
+                "top": 499.953125,
+                "bottom": 520.953125
+              }
+            ],
+            "font": "\"Helvetica Now Display\", \"Helvetica Neue\", Arial, sans-serif"
+          }
+        ]
+      },
+      "status": "PASS"
+    },
+    {
+      "id": "faq-dark-1440",
+      "kind": "faq",
+      "width": 1440,
+      "theme": "dark",
+      "errors": [],
+      "layout": {
+        "width": 1440,
+        "documentWidth": 1440,
+        "theme": "dark",
+        "h1": 1,
+        "title": "A LITTLE CLARITY.",
+        "eyebrow": "FAQ",
+        "cta": 0,
+        "banner": {
+          "left": 0,
+          "right": 1440,
+          "top": 147,
+          "bottom": 766.1875,
+          "width": 1440,
+          "height": 619.1875
+        },
+        "image": {
+          "left": 0,
+          "right": 1440,
+          "top": 147,
+          "bottom": 766.1875,
+          "src": "/assets/sj-faq-banner.jpg",
+          "complete": true,
+          "naturalWidth": 1774,
+          "naturalHeight": 887,
+          "position": "50% 0%"
+        },
+        "text": [
+          {
+            "text": "FAQ",
+            "rects": [
+              {
+                "left": 61.90625,
+                "right": 86.65625,
+                "top": 390.03125,
+                "bottom": 406.03125
+              }
+            ],
+            "font": "\"Helvetica Now Display\", \"Helvetica Neue\", Arial, sans-serif"
+          },
+          {
+            "text": "A LITTLE CLARITY.",
+            "rects": [
+              {
+                "left": 61.90625,
+                "right": 546.265625,
+                "top": 429.421875,
+                "bottom": 498.421875
+              }
+            ],
+            "font": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif"
+          }
+        ]
+      },
+      "status": "PASS"
+    },
+    {
+      "id": "shipping-dark-1440",
+      "kind": "shipping",
+      "width": 1440,
+      "theme": "dark",
+      "errors": [],
+      "layout": {
+        "width": 1440,
+        "documentWidth": 1440,
+        "theme": "dark",
+        "h1": 1,
+        "title": "ON ITS WAY.",
+        "eyebrow": "Shipping",
+        "cta": 0,
+        "banner": {
+          "left": 0,
+          "right": 1440,
+          "top": 147,
+          "bottom": 766.1875,
+          "width": 1440,
+          "height": 619.1875
+        },
+        "image": {
+          "left": 0,
+          "right": 1440,
+          "top": 147,
+          "bottom": 766.1875,
+          "src": "/assets/sj-shipping-banner.jpg",
+          "complete": true,
+          "naturalWidth": 1774,
+          "naturalHeight": 887,
+          "position": "50% 0%"
+        },
+        "text": [
+          {
+            "text": "Shipping",
+            "rects": [
+              {
+                "left": 61.90625,
+                "right": 122.53125,
+                "top": 367.828125,
+                "bottom": 383.828125
+              }
+            ],
+            "font": "\"Helvetica Now Display\", \"Helvetica Neue\", Arial, sans-serif"
+          },
+          {
+            "text": "ON ITS WAY.",
+            "rects": [
+              {
+                "left": 61.90625,
+                "right": 390.34375,
+                "top": 407.21875,
+                "bottom": 476.21875
+              }
+            ],
+            "font": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif"
+          },
+          {
+            "text": "Free shipping on 2 or more items. Shipping fee applies to 1 item.",
+            "rects": [
+              {
+                "left": 61.90625,
+                "right": 433.484375,
+                "top": 499.953125,
+                "bottom": 520.953125
+              }
+            ],
+            "font": "\"Helvetica Now Display\", \"Helvetica Neue\", Arial, sans-serif"
+          }
+        ]
+      },
+      "status": "PASS"
+    }
+  ],
+  "checks": [
+    {
+      "pass": true,
+      "label": "FAQ has one correct live heading",
+      "id": "native-render"
+    },
+    {
+      "pass": true,
+      "label": "All four FAQ accordions retained",
+      "id": "native-render"
+    },
+    {
+      "pass": true,
+      "label": "FAQ bundled image and no CTA",
+      "id": "native-render"
+    },
+    {
+      "pass": true,
+      "label": "Dark header falls back to custom Light picker",
+      "id": "native-render"
+    },
+    {
+      "pass": true,
+      "label": "Shipping handle/template has one correct H1",
+      "id": "native-render"
+    },
+    {
+      "pass": true,
+      "label": "Shipping photo, terms and no CTA",
+      "id": "native-render"
+    },
+    {
+      "pass": true,
+      "label": "Delivery facts retained",
+      "id": "native-render"
+    },
+    {
+      "pass": true,
+      "label": "Shipping handle/template has one correct H1",
+      "id": "native-render"
+    },
+    {
+      "pass": true,
+      "label": "Shipping photo, terms and no CTA",
+      "id": "native-render"
+    },
+    {
+      "pass": true,
+      "label": "Delivery facts retained",
+      "id": "native-render"
+    },
+    {
+      "pass": true,
+      "label": "Existing privacy policy unchanged",
+      "id": "native-render"
+    },
+    {
+      "pass": true,
+      "label": "Existing terms policy unchanged",
+      "id": "native-render"
+    },
+    {
+      "pass": true,
+      "label": "faq-light-320 loads in requested theme",
+      "id": "faq-light-320"
+    },
+    {
+      "pass": true,
+      "label": "One correct live page heading",
+      "id": "faq-light-320"
+    },
+    {
+      "pass": true,
+      "label": "Header contains no links or buttons",
+      "id": "faq-light-320"
+    },
+    {
+      "pass": true,
+      "label": "Full width and shared desktop/mobile height",
+      "id": "faq-light-320",
+      "actual": {
+        "left": 0,
+        "right": 320,
+        "top": 152.1875,
+        "bottom": 752.1875,
+        "width": 320,
+        "height": 600
+      },
+      "expectedHeight": 600
+    },
+    {
+      "pass": true,
+      "label": "Live copy stays over image inside banner without overflow",
+      "id": "faq-light-320",
+      "text": [
+        {
+          "text": "FAQ",
+          "rects": [
+            {
+              "left": 22,
+              "right": 41.171875,
+              "top": 643.96875,
+              "bottom": 656.96875
+            }
+          ],
+          "font": "\"Helvetica Now Display\", \"Helvetica Neue\", Arial, sans-serif"
+        },
+        {
+          "text": "A LITTLE CLARITY.",
+          "rects": [
+            {
+              "left": 22,
+              "right": 246.25,
+              "top": 673.5625,
+              "bottom": 705.5625
+            }
+          ],
+          "font": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif"
+        }
+      ]
+    },
+    {
+      "pass": true,
+      "label": "Correct photograph fills banner",
+      "id": "faq-light-320",
+      "image": {
+        "left": 0,
+        "right": 320,
+        "top": 152.1875,
+        "bottom": 752.1875,
+        "src": "/assets/sj-faq-banner.jpg",
+        "complete": true,
+        "naturalWidth": 1774,
+        "naturalHeight": 887,
+        "position": "81% 0%"
+      }
+    },
+    {
+      "pass": true,
+      "label": "Live title uses supplied Cenzo font",
+      "id": "faq-light-320"
+    },
+    {
+      "pass": true,
+      "label": "FAQ accordions retain content and open",
+      "id": "faq-light-320"
+    },
+    {
+      "pass": true,
+      "label": "No browser JavaScript errors",
+      "id": "faq-light-320",
+      "errors": []
+    },
+    {
+      "pass": true,
+      "label": "shipping-light-320 loads in requested theme",
+      "id": "shipping-light-320"
+    },
+    {
+      "pass": true,
+      "label": "One correct live page heading",
+      "id": "shipping-light-320"
+    },
+    {
+      "pass": true,
+      "label": "Header contains no links or buttons",
+      "id": "shipping-light-320"
+    },
+    {
+      "pass": true,
+      "label": "Full width and shared desktop/mobile height",
+      "id": "shipping-light-320",
+      "actual": {
+        "left": 0,
+        "right": 320,
+        "top": 152.1875,
+        "bottom": 752.1875,
+        "width": 320,
+        "height": 600
+      },
+      "expectedHeight": 600
+    },
+    {
+      "pass": true,
+      "label": "Live copy stays over image inside banner without overflow",
+      "id": "shipping-light-320",
+      "text": [
+        {
+          "text": "Shipping",
+          "rects": [
+            {
+              "left": 22,
+              "right": 68.734375,
+              "top": 584.375,
+              "bottom": 597.375
+            }
+          ],
+          "font": "\"Helvetica Now Display\", \"Helvetica Neue\", Arial, sans-serif"
+        },
+        {
+          "text": "ON ITS WAY.",
+          "rects": [
+            {
+              "left": 22,
+              "right": 174.0625,
+              "top": 613.96875,
+              "bottom": 645.96875
+            }
+          ],
+          "font": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif"
+        },
+        {
+          "text": "Free shipping on 2 or more items. Shipping fee applies to 1 item.",
+          "rects": [
+            {
+              "left": 22,
+              "right": 275.34375,
+              "top": 662.59375,
+              "bottom": 681.59375
+            },
+            {
+              "left": 22,
+              "right": 110.96875,
+              "top": 683.390625,
+              "bottom": 702.390625
+            }
+          ],
+          "font": "\"Helvetica Now Display\", \"Helvetica Neue\", Arial, sans-serif"
+        }
+      ]
+    },
+    {
+      "pass": true,
+      "label": "Correct photograph fills banner",
+      "id": "shipping-light-320",
+      "image": {
+        "left": 0,
+        "right": 320,
+        "top": 152.1875,
+        "bottom": 752.1875,
+        "src": "/assets/sj-shipping-banner.jpg",
+        "complete": true,
+        "naturalWidth": 1774,
+        "naturalHeight": 887,
+        "position": "75% 0%"
+      }
+    },
+    {
+      "pass": true,
+      "label": "Live title uses supplied Cenzo font",
+      "id": "shipping-light-320"
+    },
+    {
+      "pass": true,
+      "label": "Shipping body and header preserve exact offer/delivery facts",
+      "id": "shipping-light-320"
+    },
+    {
+      "pass": true,
+      "label": "No browser JavaScript errors",
+      "id": "shipping-light-320",
+      "errors": []
+    },
+    {
+      "pass": true,
+      "label": "faq-dark-320 loads in requested theme",
+      "id": "faq-dark-320"
+    },
+    {
+      "pass": true,
+      "label": "One correct live page heading",
+      "id": "faq-dark-320"
+    },
+    {
+      "pass": true,
+      "label": "Header contains no links or buttons",
+      "id": "faq-dark-320"
+    },
+    {
+      "pass": true,
+      "label": "Full width and shared desktop/mobile height",
+      "id": "faq-dark-320",
+      "actual": {
+        "left": 0,
+        "right": 320,
+        "top": 152.1875,
+        "bottom": 752.1875,
+        "width": 320,
+        "height": 600
+      },
+      "expectedHeight": 600
+    },
+    {
+      "pass": true,
+      "label": "Live copy stays over image inside banner without overflow",
+      "id": "faq-dark-320",
+      "text": [
+        {
+          "text": "FAQ",
+          "rects": [
+            {
+              "left": 22,
+              "right": 41.171875,
+              "top": 643.96875,
+              "bottom": 656.96875
+            }
+          ],
+          "font": "\"Helvetica Now Display\", \"Helvetica Neue\", Arial, sans-serif"
+        },
+        {
+          "text": "A LITTLE CLARITY.",
+          "rects": [
+            {
+              "left": 22,
+              "right": 246.25,
+              "top": 673.5625,
+              "bottom": 705.5625
+            }
+          ],
+          "font": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif"
+        }
+      ]
+    },
+    {
+      "pass": true,
+      "label": "Correct photograph fills banner",
+      "id": "faq-dark-320",
+      "image": {
+        "left": 0,
+        "right": 320,
+        "top": 152.1875,
+        "bottom": 752.1875,
+        "src": "/assets/sj-faq-banner.jpg",
+        "complete": true,
+        "naturalWidth": 1774,
+        "naturalHeight": 887,
+        "position": "81% 0%"
+      }
+    },
+    {
+      "pass": true,
+      "label": "Live title uses supplied Cenzo font",
+      "id": "faq-dark-320"
+    },
+    {
+      "pass": true,
+      "label": "FAQ accordions retain content and open",
+      "id": "faq-dark-320"
+    },
+    {
+      "pass": true,
+      "label": "No browser JavaScript errors",
+      "id": "faq-dark-320",
+      "errors": []
+    },
+    {
+      "pass": true,
+      "label": "shipping-dark-320 loads in requested theme",
+      "id": "shipping-dark-320"
+    },
+    {
+      "pass": true,
+      "label": "One correct live page heading",
+      "id": "shipping-dark-320"
+    },
+    {
+      "pass": true,
+      "label": "Header contains no links or buttons",
+      "id": "shipping-dark-320"
+    },
+    {
+      "pass": true,
+      "label": "Full width and shared desktop/mobile height",
+      "id": "shipping-dark-320",
+      "actual": {
+        "left": 0,
+        "right": 320,
+        "top": 152.1875,
+        "bottom": 752.1875,
+        "width": 320,
+        "height": 600
+      },
+      "expectedHeight": 600
+    },
+    {
+      "pass": true,
+      "label": "Live copy stays over image inside banner without overflow",
+      "id": "shipping-dark-320",
+      "text": [
+        {
+          "text": "Shipping",
+          "rects": [
+            {
+              "left": 22,
+              "right": 68.734375,
+              "top": 584.375,
+              "bottom": 597.375
+            }
+          ],
+          "font": "\"Helvetica Now Display\", \"Helvetica Neue\", Arial, sans-serif"
+        },
+        {
+          "text": "ON ITS WAY.",
+          "rects": [
+            {
+              "left": 22,
+              "right": 174.0625,
+              "top": 613.96875,
+              "bottom": 645.96875
+            }
+          ],
+          "font": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif"
+        },
+        {
+          "text": "Free shipping on 2 or more items. Shipping fee applies to 1 item.",
+          "rects": [
+            {
+              "left": 22,
+              "right": 275.34375,
+              "top": 662.59375,
+              "bottom": 681.59375
+            },
+            {
+              "left": 22,
+              "right": 110.96875,
+              "top": 683.390625,
+              "bottom": 702.390625
+            }
+          ],
+          "font": "\"Helvetica Now Display\", \"Helvetica Neue\", Arial, sans-serif"
+        }
+      ]
+    },
+    {
+      "pass": true,
+      "label": "Correct photograph fills banner",
+      "id": "shipping-dark-320",
+      "image": {
+        "left": 0,
+        "right": 320,
+        "top": 152.1875,
+        "bottom": 752.1875,
+        "src": "/assets/sj-shipping-banner.jpg",
+        "complete": true,
+        "naturalWidth": 1774,
+        "naturalHeight": 887,
+        "position": "75% 0%"
+      }
+    },
+    {
+      "pass": true,
+      "label": "Live title uses supplied Cenzo font",
+      "id": "shipping-dark-320"
+    },
+    {
+      "pass": true,
+      "label": "Shipping body and header preserve exact offer/delivery facts",
+      "id": "shipping-dark-320"
+    },
+    {
+      "pass": true,
+      "label": "No browser JavaScript errors",
+      "id": "shipping-dark-320",
+      "errors": []
+    },
+    {
+      "pass": true,
+      "label": "faq-light-390 loads in requested theme",
+      "id": "faq-light-390"
+    },
+    {
+      "pass": true,
+      "label": "One correct live page heading",
+      "id": "faq-light-390"
+    },
+    {
+      "pass": true,
+      "label": "Header contains no links or buttons",
+      "id": "faq-light-390"
+    },
+    {
+      "pass": true,
+      "label": "Full width and shared desktop/mobile height",
+      "id": "faq-light-390",
+      "actual": {
+        "left": 0,
+        "right": 390,
+        "top": 152.1875,
+        "bottom": 752.1875,
+        "width": 390,
+        "height": 600
+      },
+      "expectedHeight": 600
+    },
+    {
+      "pass": true,
+      "label": "Live copy stays over image inside banner without overflow",
+      "id": "faq-light-390",
+      "text": [
+        {
+          "text": "FAQ",
+          "rects": [
+            {
+              "left": 22,
+              "right": 41.171875,
+              "top": 641.609375,
+              "bottom": 654.609375
+            }
+          ],
+          "font": "\"Helvetica Now Display\", \"Helvetica Neue\", Arial, sans-serif"
+        },
+        {
+          "text": "A LITTLE CLARITY.",
+          "rects": [
+            {
+              "left": 22,
+              "right": 262.5,
+              "top": 671.203125,
+              "bottom": 706.203125
+            }
+          ],
+          "font": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif"
+        }
+      ]
+    },
+    {
+      "pass": true,
+      "label": "Correct photograph fills banner",
+      "id": "faq-light-390",
+      "image": {
+        "left": 0,
+        "right": 390,
+        "top": 152.1875,
+        "bottom": 752.1875,
+        "src": "/assets/sj-faq-banner.jpg",
+        "complete": true,
+        "naturalWidth": 1774,
+        "naturalHeight": 887,
+        "position": "81% 0%"
+      }
+    },
+    {
+      "pass": true,
+      "label": "Live title uses supplied Cenzo font",
+      "id": "faq-light-390"
+    },
+    {
+      "pass": true,
+      "label": "FAQ accordions retain content and open",
+      "id": "faq-light-390"
+    },
+    {
+      "pass": true,
+      "label": "No browser JavaScript errors",
+      "id": "faq-light-390",
+      "errors": []
+    },
+    {
+      "pass": true,
+      "label": "shipping-light-390 loads in requested theme",
+      "id": "shipping-light-390"
+    },
+    {
+      "pass": true,
+      "label": "One correct live page heading",
+      "id": "shipping-light-390"
+    },
+    {
+      "pass": true,
+      "label": "Header contains no links or buttons",
+      "id": "shipping-light-390"
+    },
+    {
+      "pass": true,
+      "label": "Full width and shared desktop/mobile height",
+      "id": "shipping-light-390",
+      "actual": {
+        "left": 0,
+        "right": 390,
+        "top": 152.1875,
+        "bottom": 752.1875,
+        "width": 390,
+        "height": 600
+      },
+      "expectedHeight": 600
+    },
+    {
+      "pass": true,
+      "label": "Live copy stays over image inside banner without overflow",
+      "id": "shipping-light-390",
+      "text": [
+        {
+          "text": "Shipping",
+          "rects": [
+            {
+              "left": 22,
+              "right": 68.734375,
+              "top": 582.015625,
+              "bottom": 595.015625
+            }
+          ],
+          "font": "\"Helvetica Now Display\", \"Helvetica Neue\", Arial, sans-serif"
+        },
+        {
+          "text": "ON ITS WAY.",
+          "rects": [
+            {
+              "left": 22,
+              "right": 185.078125,
+              "top": 611.609375,
+              "bottom": 646.609375
+            }
+          ],
+          "font": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif"
+        },
+        {
+          "text": "Free shipping on 2 or more items. Shipping fee applies to 1 item.",
+          "rects": [
+            {
+              "left": 22,
+              "right": 275.34375,
+              "top": 662.59375,
+              "bottom": 681.59375
+            },
+            {
+              "left": 22,
+              "right": 110.96875,
+              "top": 683.390625,
+              "bottom": 702.390625
+            }
+          ],
+          "font": "\"Helvetica Now Display\", \"Helvetica Neue\", Arial, sans-serif"
+        }
+      ]
+    },
+    {
+      "pass": true,
+      "label": "Correct photograph fills banner",
+      "id": "shipping-light-390",
+      "image": {
+        "left": 0,
+        "right": 390,
+        "top": 152.1875,
+        "bottom": 752.1875,
+        "src": "/assets/sj-shipping-banner.jpg",
+        "complete": true,
+        "naturalWidth": 1774,
+        "naturalHeight": 887,
+        "position": "75% 0%"
+      }
+    },
+    {
+      "pass": true,
+      "label": "Live title uses supplied Cenzo font",
+      "id": "shipping-light-390"
+    },
+    {
+      "pass": true,
+      "label": "Shipping body and header preserve exact offer/delivery facts",
+      "id": "shipping-light-390"
+    },
+    {
+      "pass": true,
+      "label": "No browser JavaScript errors",
+      "id": "shipping-light-390",
+      "errors": []
+    },
+    {
+      "pass": true,
+      "label": "faq-dark-390 loads in requested theme",
+      "id": "faq-dark-390"
+    },
+    {
+      "pass": true,
+      "label": "One correct live page heading",
+      "id": "faq-dark-390"
+    },
+    {
+      "pass": true,
+      "label": "Header contains no links or buttons",
+      "id": "faq-dark-390"
+    },
+    {
+      "pass": true,
+      "label": "Full width and shared desktop/mobile height",
+      "id": "faq-dark-390",
+      "actual": {
+        "left": 0,
+        "right": 390,
+        "top": 152.1875,
+        "bottom": 752.1875,
+        "width": 390,
+        "height": 600
+      },
+      "expectedHeight": 600
+    },
+    {
+      "pass": true,
+      "label": "Live copy stays over image inside banner without overflow",
+      "id": "faq-dark-390",
+      "text": [
+        {
+          "text": "FAQ",
+          "rects": [
+            {
+              "left": 22,
+              "right": 41.171875,
+              "top": 641.609375,
+              "bottom": 654.609375
+            }
+          ],
+          "font": "\"Helvetica Now Display\", \"Helvetica Neue\", Arial, sans-serif"
+        },
+        {
+          "text": "A LITTLE CLARITY.",
+          "rects": [
+            {
+              "left": 22,
+              "right": 262.5,
+              "top": 671.203125,
+              "bottom": 706.203125
+            }
+          ],
+          "font": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif"
+        }
+      ]
+    },
+    {
+      "pass": true,
+      "label": "Correct photograph fills banner",
+      "id": "faq-dark-390",
+      "image": {
+        "left": 0,
+        "right": 390,
+        "top": 152.1875,
+        "bottom": 752.1875,
+        "src": "/assets/sj-faq-banner.jpg",
+        "complete": true,
+        "naturalWidth": 1774,
+        "naturalHeight": 887,
+        "position": "81% 0%"
+      }
+    },
+    {
+      "pass": true,
+      "label": "Live title uses supplied Cenzo font",
+      "id": "faq-dark-390"
+    },
+    {
+      "pass": true,
+      "label": "FAQ accordions retain content and open",
+      "id": "faq-dark-390"
+    },
+    {
+      "pass": true,
+      "label": "No browser JavaScript errors",
+      "id": "faq-dark-390",
+      "errors": []
+    },
+    {
+      "pass": true,
+      "label": "shipping-dark-390 loads in requested theme",
+      "id": "shipping-dark-390"
+    },
+    {
+      "pass": true,
+      "label": "One correct live page heading",
+      "id": "shipping-dark-390"
+    },
+    {
+      "pass": true,
+      "label": "Header contains no links or buttons",
+      "id": "shipping-dark-390"
+    },
+    {
+      "pass": true,
+      "label": "Full width and shared desktop/mobile height",
+      "id": "shipping-dark-390",
+      "actual": {
+        "left": 0,
+        "right": 390,
+        "top": 152.1875,
+        "bottom": 752.1875,
+        "width": 390,
+        "height": 600
+      },
+      "expectedHeight": 600
+    },
+    {
+      "pass": true,
+      "label": "Live copy stays over image inside banner without overflow",
+      "id": "shipping-dark-390",
+      "text": [
+        {
+          "text": "Shipping",
+          "rects": [
+            {
+              "left": 22,
+              "right": 68.734375,
+              "top": 582.015625,
+              "bottom": 595.015625
+            }
+          ],
+          "font": "\"Helvetica Now Display\", \"Helvetica Neue\", Arial, sans-serif"
+        },
+        {
+          "text": "ON ITS WAY.",
+          "rects": [
+            {
+              "left": 22,
+              "right": 185.078125,
+              "top": 611.609375,
+              "bottom": 646.609375
+            }
+          ],
+          "font": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif"
+        },
+        {
+          "text": "Free shipping on 2 or more items. Shipping fee applies to 1 item.",
+          "rects": [
+            {
+              "left": 22,
+              "right": 275.34375,
+              "top": 662.59375,
+              "bottom": 681.59375
+            },
+            {
+              "left": 22,
+              "right": 110.96875,
+              "top": 683.390625,
+              "bottom": 702.390625
+            }
+          ],
+          "font": "\"Helvetica Now Display\", \"Helvetica Neue\", Arial, sans-serif"
+        }
+      ]
+    },
+    {
+      "pass": true,
+      "label": "Correct photograph fills banner",
+      "id": "shipping-dark-390",
+      "image": {
+        "left": 0,
+        "right": 390,
+        "top": 152.1875,
+        "bottom": 752.1875,
+        "src": "/assets/sj-shipping-banner.jpg",
+        "complete": true,
+        "naturalWidth": 1774,
+        "naturalHeight": 887,
+        "position": "75% 0%"
+      }
+    },
+    {
+      "pass": true,
+      "label": "Live title uses supplied Cenzo font",
+      "id": "shipping-dark-390"
+    },
+    {
+      "pass": true,
+      "label": "Shipping body and header preserve exact offer/delivery facts",
+      "id": "shipping-dark-390"
+    },
+    {
+      "pass": true,
+      "label": "No browser JavaScript errors",
+      "id": "shipping-dark-390",
+      "errors": []
+    },
+    {
+      "pass": true,
+      "label": "faq-light-820 loads in requested theme",
+      "id": "faq-light-820"
+    },
+    {
+      "pass": true,
+      "label": "One correct live page heading",
+      "id": "faq-light-820"
+    },
+    {
+      "pass": true,
+      "label": "Header contains no links or buttons",
+      "id": "faq-light-820"
+    },
+    {
+      "pass": true,
+      "label": "Full width and shared desktop/mobile height",
+      "id": "faq-light-820",
+      "actual": {
+        "left": 0,
+        "right": 820,
+        "top": 147,
+        "bottom": 687,
+        "width": 820,
+        "height": 540
+      },
+      "expectedHeight": 540
+    },
+    {
+      "pass": true,
+      "label": "Live copy stays over image inside banner without overflow",
+      "id": "faq-light-820",
+      "text": [
+        {
+          "text": "FAQ",
+          "rects": [
+            {
+              "left": 35.25,
+              "right": 60,
+              "top": 364.703125,
+              "bottom": 380.703125
+            }
+          ],
+          "font": "\"Helvetica Now Display\", \"Helvetica Neue\", Arial, sans-serif"
+        },
+        {
+          "text": "A LITTLE CLARITY.",
+          "rects": [
+            {
+              "left": 35.25,
+              "right": 315.5625,
+              "top": 404.09375,
+              "bottom": 444.09375
+            }
+          ],
+          "font": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif"
+        }
+      ]
+    },
+    {
+      "pass": true,
+      "label": "Correct photograph fills banner",
+      "id": "faq-light-820",
+      "image": {
+        "left": 0,
+        "right": 820,
+        "top": 147,
+        "bottom": 687,
+        "src": "/assets/sj-faq-banner.jpg",
+        "complete": true,
+        "naturalWidth": 1774,
+        "naturalHeight": 887,
+        "position": "50% 0%"
+      }
+    },
+    {
+      "pass": true,
+      "label": "Live title uses supplied Cenzo font",
+      "id": "faq-light-820"
+    },
+    {
+      "pass": true,
+      "label": "FAQ accordions retain content and open",
+      "id": "faq-light-820"
+    },
+    {
+      "pass": true,
+      "label": "No browser JavaScript errors",
+      "id": "faq-light-820",
+      "errors": []
+    },
+    {
+      "pass": true,
+      "label": "shipping-light-820 loads in requested theme",
+      "id": "shipping-light-820"
+    },
+    {
+      "pass": true,
+      "label": "One correct live page heading",
+      "id": "shipping-light-820"
+    },
+    {
+      "pass": true,
+      "label": "Header contains no links or buttons",
+      "id": "shipping-light-820"
+    },
+    {
+      "pass": true,
+      "label": "Full width and shared desktop/mobile height",
+      "id": "shipping-light-820",
+      "actual": {
+        "left": 0,
+        "right": 820,
+        "top": 147,
+        "bottom": 687,
+        "width": 820,
+        "height": 540
+      },
+      "expectedHeight": 540
+    },
+    {
+      "pass": true,
+      "label": "Live copy stays over image inside banner without overflow",
+      "id": "shipping-light-820",
+      "text": [
+        {
+          "text": "Shipping",
+          "rects": [
+            {
+              "left": 35.25,
+              "right": 95.875,
+              "top": 331.3125,
+              "bottom": 347.3125
+            }
+          ],
+          "font": "\"Helvetica Now Display\", \"Helvetica Neue\", Arial, sans-serif"
+        },
+        {
+          "text": "ON ITS WAY.",
+          "rects": [
+            {
+              "left": 35.25,
+              "right": 225.328125,
+              "top": 370.703125,
+              "bottom": 410.703125
+            }
+          ],
+          "font": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif"
+        },
+        {
+          "text": "Free shipping on 2 or more items. Shipping fee applies to 1 item.",
+          "rects": [
+            {
+              "left": 35.25,
+              "right": 375.734375,
+              "top": 434.890625,
+              "bottom": 455.890625
+            },
+            {
+              "left": 35.25,
+              "right": 63.390625,
+              "top": 457.28125,
+              "bottom": 478.28125
+            }
+          ],
+          "font": "\"Helvetica Now Display\", \"Helvetica Neue\", Arial, sans-serif"
+        }
+      ]
+    },
+    {
+      "pass": true,
+      "label": "Correct photograph fills banner",
+      "id": "shipping-light-820",
+      "image": {
+        "left": 0,
+        "right": 820,
+        "top": 147,
+        "bottom": 687,
+        "src": "/assets/sj-shipping-banner.jpg",
+        "complete": true,
+        "naturalWidth": 1774,
+        "naturalHeight": 887,
+        "position": "50% 0%"
+      }
+    },
+    {
+      "pass": true,
+      "label": "Live title uses supplied Cenzo font",
+      "id": "shipping-light-820"
+    },
+    {
+      "pass": true,
+      "label": "Shipping body and header preserve exact offer/delivery facts",
+      "id": "shipping-light-820"
+    },
+    {
+      "pass": true,
+      "label": "No browser JavaScript errors",
+      "id": "shipping-light-820",
+      "errors": []
+    },
+    {
+      "pass": true,
+      "label": "faq-dark-820 loads in requested theme",
+      "id": "faq-dark-820"
+    },
+    {
+      "pass": true,
+      "label": "One correct live page heading",
+      "id": "faq-dark-820"
+    },
+    {
+      "pass": true,
+      "label": "Header contains no links or buttons",
+      "id": "faq-dark-820"
+    },
+    {
+      "pass": true,
+      "label": "Full width and shared desktop/mobile height",
+      "id": "faq-dark-820",
+      "actual": {
+        "left": 0,
+        "right": 820,
+        "top": 147,
+        "bottom": 687,
+        "width": 820,
+        "height": 540
+      },
+      "expectedHeight": 540
+    },
+    {
+      "pass": true,
+      "label": "Live copy stays over image inside banner without overflow",
+      "id": "faq-dark-820",
+      "text": [
+        {
+          "text": "FAQ",
+          "rects": [
+            {
+              "left": 35.25,
+              "right": 60,
+              "top": 364.703125,
+              "bottom": 380.703125
+            }
+          ],
+          "font": "\"Helvetica Now Display\", \"Helvetica Neue\", Arial, sans-serif"
+        },
+        {
+          "text": "A LITTLE CLARITY.",
+          "rects": [
+            {
+              "left": 35.25,
+              "right": 315.5625,
+              "top": 404.09375,
+              "bottom": 444.09375
+            }
+          ],
+          "font": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif"
+        }
+      ]
+    },
+    {
+      "pass": true,
+      "label": "Correct photograph fills banner",
+      "id": "faq-dark-820",
+      "image": {
+        "left": 0,
+        "right": 820,
+        "top": 147,
+        "bottom": 687,
+        "src": "/assets/sj-faq-banner.jpg",
+        "complete": true,
+        "naturalWidth": 1774,
+        "naturalHeight": 887,
+        "position": "50% 0%"
+      }
+    },
+    {
+      "pass": true,
+      "label": "Live title uses supplied Cenzo font",
+      "id": "faq-dark-820"
+    },
+    {
+      "pass": true,
+      "label": "FAQ accordions retain content and open",
+      "id": "faq-dark-820"
+    },
+    {
+      "pass": true,
+      "label": "No browser JavaScript errors",
+      "id": "faq-dark-820",
+      "errors": []
+    },
+    {
+      "pass": true,
+      "label": "shipping-dark-820 loads in requested theme",
+      "id": "shipping-dark-820"
+    },
+    {
+      "pass": true,
+      "label": "One correct live page heading",
+      "id": "shipping-dark-820"
+    },
+    {
+      "pass": true,
+      "label": "Header contains no links or buttons",
+      "id": "shipping-dark-820"
+    },
+    {
+      "pass": true,
+      "label": "Full width and shared desktop/mobile height",
+      "id": "shipping-dark-820",
+      "actual": {
+        "left": 0,
+        "right": 820,
+        "top": 147,
+        "bottom": 687,
+        "width": 820,
+        "height": 540
+      },
+      "expectedHeight": 540
+    },
+    {
+      "pass": true,
+      "label": "Live copy stays over image inside banner without overflow",
+      "id": "shipping-dark-820",
+      "text": [
+        {
+          "text": "Shipping",
+          "rects": [
+            {
+              "left": 35.25,
+              "right": 95.875,
+              "top": 331.3125,
+              "bottom": 347.3125
+            }
+          ],
+          "font": "\"Helvetica Now Display\", \"Helvetica Neue\", Arial, sans-serif"
+        },
+        {
+          "text": "ON ITS WAY.",
+          "rects": [
+            {
+              "left": 35.25,
+              "right": 225.328125,
+              "top": 370.703125,
+              "bottom": 410.703125
+            }
+          ],
+          "font": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif"
+        },
+        {
+          "text": "Free shipping on 2 or more items. Shipping fee applies to 1 item.",
+          "rects": [
+            {
+              "left": 35.25,
+              "right": 375.734375,
+              "top": 434.890625,
+              "bottom": 455.890625
+            },
+            {
+              "left": 35.25,
+              "right": 63.390625,
+              "top": 457.28125,
+              "bottom": 478.28125
+            }
+          ],
+          "font": "\"Helvetica Now Display\", \"Helvetica Neue\", Arial, sans-serif"
+        }
+      ]
+    },
+    {
+      "pass": true,
+      "label": "Correct photograph fills banner",
+      "id": "shipping-dark-820",
+      "image": {
+        "left": 0,
+        "right": 820,
+        "top": 147,
+        "bottom": 687,
+        "src": "/assets/sj-shipping-banner.jpg",
+        "complete": true,
+        "naturalWidth": 1774,
+        "naturalHeight": 887,
+        "position": "50% 0%"
+      }
+    },
+    {
+      "pass": true,
+      "label": "Live title uses supplied Cenzo font",
+      "id": "shipping-dark-820"
+    },
+    {
+      "pass": true,
+      "label": "Shipping body and header preserve exact offer/delivery facts",
+      "id": "shipping-dark-820"
+    },
+    {
+      "pass": true,
+      "label": "No browser JavaScript errors",
+      "id": "shipping-dark-820",
+      "errors": []
+    },
+    {
+      "pass": true,
+      "label": "faq-light-1440 loads in requested theme",
+      "id": "faq-light-1440"
+    },
+    {
+      "pass": true,
+      "label": "One correct live page heading",
+      "id": "faq-light-1440"
+    },
+    {
+      "pass": true,
+      "label": "Header contains no links or buttons",
+      "id": "faq-light-1440"
+    },
+    {
+      "pass": true,
+      "label": "Full width and shared desktop/mobile height",
+      "id": "faq-light-1440",
+      "actual": {
+        "left": 0,
+        "right": 1440,
+        "top": 147,
+        "bottom": 766.1875,
+        "width": 1440,
+        "height": 619.1875
+      },
+      "expectedHeight": 619.2
+    },
+    {
+      "pass": true,
+      "label": "Live copy stays over image inside banner without overflow",
+      "id": "faq-light-1440",
+      "text": [
+        {
+          "text": "FAQ",
+          "rects": [
+            {
+              "left": 61.90625,
+              "right": 86.65625,
+              "top": 390.03125,
+              "bottom": 406.03125
+            }
+          ],
+          "font": "\"Helvetica Now Display\", \"Helvetica Neue\", Arial, sans-serif"
+        },
+        {
+          "text": "A LITTLE CLARITY.",
+          "rects": [
+            {
+              "left": 61.90625,
+              "right": 546.265625,
+              "top": 429.421875,
+              "bottom": 498.421875
+            }
+          ],
+          "font": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif"
+        }
+      ]
+    },
+    {
+      "pass": true,
+      "label": "Correct photograph fills banner",
+      "id": "faq-light-1440",
+      "image": {
+        "left": 0,
+        "right": 1440,
+        "top": 147,
+        "bottom": 766.1875,
+        "src": "/assets/sj-faq-banner.jpg",
+        "complete": true,
+        "naturalWidth": 1774,
+        "naturalHeight": 887,
+        "position": "50% 0%"
+      }
+    },
+    {
+      "pass": true,
+      "label": "Live title uses supplied Cenzo font",
+      "id": "faq-light-1440"
+    },
+    {
+      "pass": true,
+      "label": "FAQ accordions retain content and open",
+      "id": "faq-light-1440"
+    },
+    {
+      "pass": true,
+      "label": "No browser JavaScript errors",
+      "id": "faq-light-1440",
+      "errors": []
+    },
+    {
+      "pass": true,
+      "label": "shipping-light-1440 loads in requested theme",
+      "id": "shipping-light-1440"
+    },
+    {
+      "pass": true,
+      "label": "One correct live page heading",
+      "id": "shipping-light-1440"
+    },
+    {
+      "pass": true,
+      "label": "Header contains no links or buttons",
+      "id": "shipping-light-1440"
+    },
+    {
+      "pass": true,
+      "label": "Full width and shared desktop/mobile height",
+      "id": "shipping-light-1440",
+      "actual": {
+        "left": 0,
+        "right": 1440,
+        "top": 147,
+        "bottom": 766.1875,
+        "width": 1440,
+        "height": 619.1875
+      },
+      "expectedHeight": 619.2
+    },
+    {
+      "pass": true,
+      "label": "Live copy stays over image inside banner without overflow",
+      "id": "shipping-light-1440",
+      "text": [
+        {
+          "text": "Shipping",
+          "rects": [
+            {
+              "left": 61.90625,
+              "right": 122.53125,
+              "top": 367.828125,
+              "bottom": 383.828125
+            }
+          ],
+          "font": "\"Helvetica Now Display\", \"Helvetica Neue\", Arial, sans-serif"
+        },
+        {
+          "text": "ON ITS WAY.",
+          "rects": [
+            {
+              "left": 61.90625,
+              "right": 390.34375,
+              "top": 407.21875,
+              "bottom": 476.21875
+            }
+          ],
+          "font": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif"
+        },
+        {
+          "text": "Free shipping on 2 or more items. Shipping fee applies to 1 item.",
+          "rects": [
+            {
+              "left": 61.90625,
+              "right": 433.484375,
+              "top": 499.953125,
+              "bottom": 520.953125
+            }
+          ],
+          "font": "\"Helvetica Now Display\", \"Helvetica Neue\", Arial, sans-serif"
+        }
+      ]
+    },
+    {
+      "pass": true,
+      "label": "Correct photograph fills banner",
+      "id": "shipping-light-1440",
+      "image": {
+        "left": 0,
+        "right": 1440,
+        "top": 147,
+        "bottom": 766.1875,
+        "src": "/assets/sj-shipping-banner.jpg",
+        "complete": true,
+        "naturalWidth": 1774,
+        "naturalHeight": 887,
+        "position": "50% 0%"
+      }
+    },
+    {
+      "pass": true,
+      "label": "Live title uses supplied Cenzo font",
+      "id": "shipping-light-1440"
+    },
+    {
+      "pass": true,
+      "label": "Shipping body and header preserve exact offer/delivery facts",
+      "id": "shipping-light-1440"
+    },
+    {
+      "pass": true,
+      "label": "No browser JavaScript errors",
+      "id": "shipping-light-1440",
+      "errors": []
+    },
+    {
+      "pass": true,
+      "label": "faq-dark-1440 loads in requested theme",
+      "id": "faq-dark-1440"
+    },
+    {
+      "pass": true,
+      "label": "One correct live page heading",
+      "id": "faq-dark-1440"
+    },
+    {
+      "pass": true,
+      "label": "Header contains no links or buttons",
+      "id": "faq-dark-1440"
+    },
+    {
+      "pass": true,
+      "label": "Full width and shared desktop/mobile height",
+      "id": "faq-dark-1440",
+      "actual": {
+        "left": 0,
+        "right": 1440,
+        "top": 147,
+        "bottom": 766.1875,
+        "width": 1440,
+        "height": 619.1875
+      },
+      "expectedHeight": 619.2
+    },
+    {
+      "pass": true,
+      "label": "Live copy stays over image inside banner without overflow",
+      "id": "faq-dark-1440",
+      "text": [
+        {
+          "text": "FAQ",
+          "rects": [
+            {
+              "left": 61.90625,
+              "right": 86.65625,
+              "top": 390.03125,
+              "bottom": 406.03125
+            }
+          ],
+          "font": "\"Helvetica Now Display\", \"Helvetica Neue\", Arial, sans-serif"
+        },
+        {
+          "text": "A LITTLE CLARITY.",
+          "rects": [
+            {
+              "left": 61.90625,
+              "right": 546.265625,
+              "top": 429.421875,
+              "bottom": 498.421875
+            }
+          ],
+          "font": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif"
+        }
+      ]
+    },
+    {
+      "pass": true,
+      "label": "Correct photograph fills banner",
+      "id": "faq-dark-1440",
+      "image": {
+        "left": 0,
+        "right": 1440,
+        "top": 147,
+        "bottom": 766.1875,
+        "src": "/assets/sj-faq-banner.jpg",
+        "complete": true,
+        "naturalWidth": 1774,
+        "naturalHeight": 887,
+        "position": "50% 0%"
+      }
+    },
+    {
+      "pass": true,
+      "label": "Live title uses supplied Cenzo font",
+      "id": "faq-dark-1440"
+    },
+    {
+      "pass": true,
+      "label": "FAQ accordions retain content and open",
+      "id": "faq-dark-1440"
+    },
+    {
+      "pass": true,
+      "label": "No browser JavaScript errors",
+      "id": "faq-dark-1440",
+      "errors": []
+    },
+    {
+      "pass": true,
+      "label": "shipping-dark-1440 loads in requested theme",
+      "id": "shipping-dark-1440"
+    },
+    {
+      "pass": true,
+      "label": "One correct live page heading",
+      "id": "shipping-dark-1440"
+    },
+    {
+      "pass": true,
+      "label": "Header contains no links or buttons",
+      "id": "shipping-dark-1440"
+    },
+    {
+      "pass": true,
+      "label": "Full width and shared desktop/mobile height",
+      "id": "shipping-dark-1440",
+      "actual": {
+        "left": 0,
+        "right": 1440,
+        "top": 147,
+        "bottom": 766.1875,
+        "width": 1440,
+        "height": 619.1875
+      },
+      "expectedHeight": 619.2
+    },
+    {
+      "pass": true,
+      "label": "Live copy stays over image inside banner without overflow",
+      "id": "shipping-dark-1440",
+      "text": [
+        {
+          "text": "Shipping",
+          "rects": [
+            {
+              "left": 61.90625,
+              "right": 122.53125,
+              "top": 367.828125,
+              "bottom": 383.828125
+            }
+          ],
+          "font": "\"Helvetica Now Display\", \"Helvetica Neue\", Arial, sans-serif"
+        },
+        {
+          "text": "ON ITS WAY.",
+          "rects": [
+            {
+              "left": 61.90625,
+              "right": 390.34375,
+              "top": 407.21875,
+              "bottom": 476.21875
+            }
+          ],
+          "font": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif"
+        },
+        {
+          "text": "Free shipping on 2 or more items. Shipping fee applies to 1 item.",
+          "rects": [
+            {
+              "left": 61.90625,
+              "right": 433.484375,
+              "top": 499.953125,
+              "bottom": 520.953125
+            }
+          ],
+          "font": "\"Helvetica Now Display\", \"Helvetica Neue\", Arial, sans-serif"
+        }
+      ]
+    },
+    {
+      "pass": true,
+      "label": "Correct photograph fills banner",
+      "id": "shipping-dark-1440",
+      "image": {
+        "left": 0,
+        "right": 1440,
+        "top": 147,
+        "bottom": 766.1875,
+        "src": "/assets/sj-shipping-banner.jpg",
+        "complete": true,
+        "naturalWidth": 1774,
+        "naturalHeight": 887,
+        "position": "50% 0%"
+      }
+    },
+    {
+      "pass": true,
+      "label": "Live title uses supplied Cenzo font",
+      "id": "shipping-dark-1440"
+    },
+    {
+      "pass": true,
+      "label": "Shipping body and header preserve exact offer/delivery facts",
+      "id": "shipping-dark-1440"
+    },
+    {
+      "pass": true,
+      "label": "No browser JavaScript errors",
+      "id": "shipping-dark-1440",
+      "errors": []
+    },
+    {
+      "pass": true,
+      "label": "One original heading and no care banner on privacy",
+      "id": "policy-privacy"
+    },
+    {
+      "pass": true,
+      "label": "One original heading and no care banner on terms",
+      "id": "policy-terms"
+    }
+  ],
+  "issues": [],
+  "screenshots": [
+    "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/qa/screenshots/customer-care-banners/faq-light-320.png",
+    "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/qa/screenshots/customer-care-banners/shipping-light-320.png",
+    "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/qa/screenshots/customer-care-banners/faq-dark-320.png",
+    "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/qa/screenshots/customer-care-banners/shipping-dark-320.png",
+    "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/qa/screenshots/customer-care-banners/faq-light-390.png",
+    "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/qa/screenshots/customer-care-banners/shipping-light-390.png",
+    "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/qa/screenshots/customer-care-banners/faq-dark-390.png",
+    "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/qa/screenshots/customer-care-banners/shipping-dark-390.png",
+    "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/qa/screenshots/customer-care-banners/faq-light-820.png",
+    "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/qa/screenshots/customer-care-banners/shipping-light-820.png",
+    "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/qa/screenshots/customer-care-banners/faq-dark-820.png",
+    "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/qa/screenshots/customer-care-banners/shipping-dark-820.png",
+    "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/qa/screenshots/customer-care-banners/faq-light-1440.png",
+    "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/qa/screenshots/customer-care-banners/shipping-light-1440.png",
+    "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/qa/screenshots/customer-care-banners/faq-dark-1440.png",
+    "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/qa/screenshots/customer-care-banners/shipping-dark-1440.png"
+  ],
+  "boundaries": [
+    "Only FAQ, Shipping and unchanged Privacy/Terms pages are checked. No forms, cart or external services are modified.",
+    "Native Liquid checks validate editable images and policy preservation; browser screenshots require separate human visual review for face/phone/canister crop."
+  ],
+  "summary": {
+    "status": "PASS",
+    "nativeChecks": 12,
+    "bannerScenarios": 16,
+    "checks": 158,
+    "passed": 158,
+    "failures": 0
+  },
+  "visualReview": {
+    "status": "PASS",
+    "screenshotsReviewed": 16,
+    "widths": [
+      320,
+      390,
+      820,
+      1440
+    ],
+    "themes": [
+      "light",
+      "dark"
+    ],
+    "findings": [
+      "FAQ face, natural smile and blue phone remain clearly visible; live heading does not overlap the face or phone.",
+      "Shipping mobile75%top crop keeps MOJITO METALLIQUE and AMBER OUD SILK readable above the live copy at320 and390. Outer packaging edges may crop at320; both canister identities and bubblewrap remain clear.",
+      "Text contrast, full-width image coverage and crop are clear in all16 screenshots. Desktop and tablet live copy remains to the left of the main subjects."
+    ],
+    "files": [
+      "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/qa/screenshots/customer-care-banners/faq-light-320.png",
+      "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/qa/screenshots/customer-care-banners/shipping-light-320.png",
+      "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/qa/screenshots/customer-care-banners/faq-dark-320.png",
+      "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/qa/screenshots/customer-care-banners/shipping-dark-320.png",
+      "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/qa/screenshots/customer-care-banners/faq-light-390.png",
+      "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/qa/screenshots/customer-care-banners/shipping-light-390.png",
+      "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/qa/screenshots/customer-care-banners/faq-dark-390.png",
+      "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/qa/screenshots/customer-care-banners/shipping-dark-390.png",
+      "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/qa/screenshots/customer-care-banners/faq-light-820.png",
+      "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/qa/screenshots/customer-care-banners/shipping-light-820.png",
+      "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/qa/screenshots/customer-care-banners/faq-dark-820.png",
+      "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/qa/screenshots/customer-care-banners/shipping-dark-820.png",
+      "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/qa/screenshots/customer-care-banners/faq-light-1440.png",
+      "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/qa/screenshots/customer-care-banners/shipping-light-1440.png",
+      "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/qa/screenshots/customer-care-banners/faq-dark-1440.png",
+      "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/qa/screenshots/customer-care-banners/shipping-dark-1440.png"
+    ]
+  }
+}

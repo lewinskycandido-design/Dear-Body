@@ -1,0 +1,31 @@
+<footer class="sj-footer">
+{% render 'sj-shipping-offer', variant: 'footer' %}
+<div class="sj-footer-banner"><div class="sj-footer-banner__media">{% render 'sj-themed-photo', light_asset: 'sj-banner-footer-light.jpg', dark_asset: 'sj-banner-footer-dark.jpg', light_image: section.settings.banner_light, dark_image: section.settings.banner_dark, alt: '', width: 1774, height: 887 %}</div><div class="sj-footer-statement">{{ section.settings.statement | escape | newline_to_br }}</div></div>
+<div class="sj-footer-top"><p class="sj-eyebrow">DEARBODY PHILIPPINES</p><a class="sj-text-link" href="{{ routes.all_products_collection_url }}">Discover the collection</a></div>
+
+<div class="sj-footer-grid"><div>{% if settings.secondary_logo != blank %}{{ settings.secondary_logo | image_url: width: 160 | image_tag: loading: 'lazy', class: 'sj-secondary-logo' }}{% else %}<img class="sj-footer-logo" src="{{ 'sj-logo-official-footer.png' | asset_url }}" width="306" height="49" alt="DearBody" loading="lazy">{% endif %}<p>Wear what feels like you.</p></div><nav aria-label="Shop"><h2>Explore</h2><a href="{% render 'sj-nav-url', url: settings.women_collection.url, fallback: '/collections/womens-perfume' %}">Women</a><a href="{% render 'sj-nav-url', url: settings.men_collection.url, fallback: '/collections/mens-perfume' %}">Men</a><a href="{% render 'sj-nav-url', url: settings.finder_url, fallback: '/pages/scent-finder' %}">Scent Finder</a><a href="{% render 'sj-nav-url', url: settings.story_url, fallback: '/pages/our-story' %}">Our Story</a></nav><nav aria-label="Customer care"><h2>Here for you</h2><a href="{% render 'sj-nav-url', fallback: '/pages/faq' %}">FAQ</a><a href="{% render 'sj-nav-url', fallback: '/pages/shipping' %}">Shipping</a><a href="{% render 'sj-nav-url', url: settings.contact_url, fallback: '/pages/contact' %}">Contact</a></nav><div><h2>Follow your curiosity</h2><p>Meet the collection, compare your favourites, and choose at your own pace.</p></div></div>
+<div class="sj-footer-bottom"><small>© {{ 'now' | date: '%Y' }} {{ shop.name | escape }}</small>{% render 'sj-legal-links' %}</div>
+</footer>
+{% schema %}
+{
+  "name": "Site footer",
+  "settings": [
+    {
+      "type": "textarea",
+      "id": "statement",
+      "label": "Brand statement",
+      "default": "A LITTLE MORE\nYOU, EVERY DAY."
+    },
+    {
+      "type": "image_picker",
+      "id": "banner_light",
+      "label": "Footer banner — Light"
+    },
+    {
+      "type": "image_picker",
+      "id": "banner_dark",
+      "label": "Footer banner — Dark"
+    }
+  ]
+}
+{% endschema %}

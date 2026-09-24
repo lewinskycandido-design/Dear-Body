@@ -1,0 +1,54 @@
+{
+  "asset": "sj-banner-footer-light",
+  "status": "accepted_for_root_integration",
+  "createdAt": "2026-09-24T05:13:03.992758+00:00",
+  "tool": "built-in image_gen; one call per asset or targeted revision",
+  "sourceOutputPath": "/Users/wetrade/.codex/generated_images/01a0d0f9-afdf-7412-a990-cf7a45f1c2b6/exec-61eb4af0-48d2-4d92-8584-18f2f8794444.png",
+  "originalPath": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/campaign-v8-warm-vibrant/originals/sj-banner-footer-light.png",
+  "webPath": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/campaign-v8-warm-vibrant/final-web/sj-banner-footer-light.jpg",
+  "sourceDimensions": [
+    1774,
+    887
+  ],
+  "webDimensions": [
+    1774,
+    887
+  ],
+  "originalSha256": "19a45492c339d8a4bb5e1e74558cfc53896f3234e560edae654946dc441577c3",
+  "webSha256": "31e8ea912ed1210d343cbf3d57690b44d9e763d778803991836ebdd208d57f7b",
+  "webBytes": 447246,
+  "conversion": {
+    "tool": "sips",
+    "format": "JPEG",
+    "quality": 91,
+    "resized": false,
+    "cropped": false,
+    "retouched": false,
+    "profileRequested": "sRGB IEC61966-2.1",
+    "sipsProfileReport": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/campaign-v8-warm-vibrant/final-web/sj-banner-footer-light.jpg\n  profile: sRGB IEC61966-2.1\n  space: RGB",
+    "exifColorSpace": 1,
+    "embeddedIccByteCount": 0
+  },
+  "prompts": [
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/campaign-v8-warm-vibrant/prompts/sj-banner-footer-light.txt",
+      "text": "Use case: photorealistic-natural. Asset type: DearBody Philippines website footer photograph, native landscape 2:1 approximately 1774x887.\nCreate a new vibrant, warm, inviting real covered Philippine terrace seating corner in clear bright daytime, with no people and no products. A broad softly textured warm-cream plaster wall fills the central and upper composition. Beautiful natural tropical leaf shadows cross only the edges, leaving the central 55% quiet and readable for live website closing copy. Sunlight falls across a low natural raffia/cane bench seat in the lower fifth. A coral-orange painted wall return and a warm-red/burgundy cushion are visible only at the left corner; a small cobalt-blue glazed side-table edge and an orange cushion make a restrained playful accent at the far right. These are normal practical furnishings at believable scale, not giant abstract props. A simple local steel-frame terrace window at one edge catches warm daylight. The setting feels attainable, contemporary Filipino, cheerful and tactile, not an empty gloomy hotel or sterile luxury showroom.\nThe middle remains calm cream negative space, while the bright warm color accents and sunlight make the whole photograph feel fun and lived-in. Keep the seating edges low and off-center so a centered portrait mobile crop still shows an attractive cream wall, sunlight and woven texture. Dominant palette warm cream #f4e3cb, warm red #9a1106, burnt orange #d46601, golden tan #e9a250 with a little deep burgundy #5c0006. The tiny cobalt accent is secondary only.\nHigh-quality editorial photograph with real material texture, natural lens perspective, clean lively color and soft lifted daylight shadows. No night, sunset, gloom, sepia, heavy vignettes or graphic gradients. No people, body parts, animals, bottles, fragrance, packages, plants blocking the center, typography, logos, signage, posters, watermarks or digital abstract shapes.\n",
+      "sha256": "86844914ad06ce5cea98c150515266e596045373b3d35cd30130178381c3a38b"
+    }
+  ],
+  "referenceSourceOutputs": [],
+  "brandGuide": "/Users/wetrade/Documents/ChatGPT/Dear Body/BRAND_GUIDE.md",
+  "altText": "Sunlight and tropical leaf shadows brighten a cream terrace wall above a woven bench with warm colorful cushions.",
+  "recommendedMobileObjectPosition": "50% center",
+  "qa": {
+    "nativeImageInspected": true,
+    "warmFunBrightDaylight": true,
+    "darkVariantUsesPhysicalAccentColorsNotNightLighting": true,
+    "peopleCount": 0,
+    "naturalAnatomyAndSetting": "PASS",
+    "headroom": "Not applicable: no people; central cream copy space is clear.",
+    "noEmbeddedCopyLogosProducts": "PASS",
+    "negativeSpace": "Left45% quiet cream wall for Home/Story; central55% cream for Footer",
+    "mobileCropAdvice": "Source-based recommendation; root will verify in rendered theme with final CSS."
+  }
+}

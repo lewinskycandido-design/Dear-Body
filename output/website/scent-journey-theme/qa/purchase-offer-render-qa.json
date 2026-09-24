@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "record_type": "Retrospective record of the completed native Liquid and DOM render run; no rerun",
+  "method": "LiquidJS rendered the current native sections and shared snippets; JSDOM assertions inspected the resulting markup. Script ran through node stdin and was not saved.",
+  "scenario_count": 9,
+  "cases": [
+    { "name": "Cart page, empty bag (0 items)", "result": "PASS", "checks": ["Generic free shipping offer visible", "Exact 2-or-more-item condition and one-item fee", "No qualification message", "Locale-safe /fr/pages/shipping link"] },
+    { "name": "Cart page, 1 item", "result": "PASS", "checks": ["Add 1 more item to qualify for free shipping", "Exact offer and fee", "Correct cart-count data", "Subtotal and checkout retained", "Locale-safe shipping link"] },
+    { "name": "Cart page, 2 items", "result": "PASS", "checks": ["Your bag qualifies for free shipping", "Exact offer and fee", "Correct cart-count data", "Subtotal and checkout retained", "Locale-safe shipping link"] },
+    { "name": "Cart page, 5 items", "result": "PASS", "checks": ["Your bag qualifies for free shipping", "Exact offer and fee", "Correct cart-count data", "Subtotal and checkout retained", "Locale-safe shipping link"] },
+    { "name": "Cart drawer, empty bag (0 items)", "result": "PASS", "checks": ["Generic free shipping offer visible", "Exact 2-or-more-item condition and one-item fee", "No qualification message", "Locale-safe /fr/pages/shipping link"] },
+    { "name": "Cart drawer, 1 item", "result": "PASS", "checks": ["Add 1 more item to qualify for free shipping", "Exact offer and fee", "Correct cart-count data", "Subtotal and checkout retained", "Locale-safe shipping link"] },
+    { "name": "Cart drawer, 2 items", "result": "PASS", "checks": ["Your bag qualifies for free shipping", "Exact offer and fee", "Correct cart-count data", "Subtotal and checkout retained", "Locale-safe shipping link"] },
+    { "name": "Cart drawer, 5 items", "result": "PASS", "checks": ["Your bag qualifies for free shipping", "Exact offer and fee", "Correct cart-count data", "Subtotal and checkout retained", "Locale-safe shipping link"] },
+    { "name": "Mojito product purchase area with PHP 799 sold-out variant", "result": "PASS", "checks": ["Shared compact shipping callout visible", "PHP 799.00 selling price", "PHP 998.75 compare price", "20% OFF saving", "Variant option compare and savings data match display", "Sold-out text and disabled add button preserved", "Taxes included sentence preserved"] }
+  ],
+  "limitations": "Isolated markup checks use synthetic cart quantities without modifying the store, inventory, totals or rates. Browser layout, interactions and current integration are covered by root and the separate offers QA."
+}

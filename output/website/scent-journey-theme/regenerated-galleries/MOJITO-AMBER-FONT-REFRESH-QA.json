@@ -1,0 +1,232 @@
+{
+  "date": "2026-09-24T02:39:58.553542+00:00",
+  "changedFramesPerScent": [
+    "04",
+    "08",
+    "09",
+    "10",
+    "11",
+    "12"
+  ],
+  "photographicPixelsPreserved": [
+    {
+      "handle": "mojito-metallique",
+      "frame": "04",
+      "checkedRegion": [
+        800,
+        0,
+        2048,
+        2048
+      ],
+      "identical": true
+    },
+    {
+      "handle": "mojito-metallique",
+      "frame": "08",
+      "checkedRegion": [
+        930,
+        0,
+        2048,
+        2048
+      ],
+      "identical": true
+    },
+    {
+      "handle": "mojito-metallique",
+      "frame": "09",
+      "checkedRegion": [
+        0,
+        0,
+        1010,
+        2048
+      ],
+      "identical": true
+    },
+    {
+      "handle": "mojito-metallique",
+      "frame": "10",
+      "checkedRegion": [
+        0,
+        430,
+        2048,
+        2048
+      ],
+      "identical": true
+    },
+    {
+      "handle": "mojito-metallique",
+      "frame": "11",
+      "checkedRegion": [
+        1070,
+        0,
+        2048,
+        2048
+      ],
+      "identical": true
+    },
+    {
+      "handle": "mojito-metallique",
+      "frame": "12",
+      "checkedRegion": [
+        1070,
+        0,
+        2048,
+        2048
+      ],
+      "identical": true
+    },
+    {
+      "handle": "amber-oud-silk",
+      "frame": "04",
+      "checkedRegion": [
+        800,
+        0,
+        2048,
+        2048
+      ],
+      "identical": true
+    },
+    {
+      "handle": "amber-oud-silk",
+      "frame": "08",
+      "checkedRegion": [
+        930,
+        0,
+        2048,
+        2048
+      ],
+      "identical": true
+    },
+    {
+      "handle": "amber-oud-silk",
+      "frame": "09",
+      "checkedRegion": [
+        0,
+        0,
+        1010,
+        2048
+      ],
+      "identical": true
+    },
+    {
+      "handle": "amber-oud-silk",
+      "frame": "10",
+      "checkedRegion": [
+        0,
+        430,
+        2048,
+        2048
+      ],
+      "identical": true
+    },
+    {
+      "handle": "amber-oud-silk",
+      "frame": "11",
+      "checkedRegion": [
+        1070,
+        0,
+        2048,
+        2048
+      ],
+      "identical": true
+    },
+    {
+      "handle": "amber-oud-silk",
+      "frame": "12",
+      "checkedRegion": [
+        1070,
+        0,
+        2048,
+        2048
+      ],
+      "identical": true
+    }
+  ],
+  "untouchedFiles": [
+    "mojito-metallique/final/06-handheld-detail.png",
+    "mojito-metallique/final/02-spray-in-motion.png",
+    "mojito-metallique/final/05-lifestyle-hero.png",
+    "mojito-metallique/final/01-featured-packshot.png",
+    "mojito-metallique/final/07-editorial-lifestyle.png",
+    "mojito-metallique/final/03-uncapped-reveal.png",
+    "mojito-metallique/final-web/01.jpg",
+    "mojito-metallique/final-web/03.jpg",
+    "mojito-metallique/final-web/02.jpg",
+    "mojito-metallique/final-web/06.jpg",
+    "mojito-metallique/final-web/07.jpg",
+    "mojito-metallique/final-web/05.jpg",
+    "amber-oud-silk/final/06-handheld-detail.png",
+    "amber-oud-silk/final/02-spray-in-motion.png",
+    "amber-oud-silk/final/05-lifestyle-hero.png",
+    "amber-oud-silk/final/01-featured-packshot.png",
+    "amber-oud-silk/final/07-editorial-lifestyle.png",
+    "amber-oud-silk/final/03-uncapped-reveal.png",
+    "amber-oud-silk/final-web/01.jpg",
+    "amber-oud-silk/final-web/03.jpg",
+    "amber-oud-silk/final-web/02.jpg",
+    "amber-oud-silk/final-web/06.jpg",
+    "amber-oud-silk/final-web/07.jpg",
+    "amber-oud-silk/final-web/05.jpg"
+  ],
+  "guards": [
+    {
+      "handle": "mojito-metallique",
+      "args": [],
+      "output": "PASS: 12 unique numbered PNG files validated in /Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/regenerated-galleries/mojito-metallique/final"
+    },
+    {
+      "handle": "mojito-metallique",
+      "args": [
+        "--write-lock",
+        "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/regenerated-galleries/mojito-metallique/gallery-lock.sha256"
+      ],
+      "output": "Wrote SHA-256 lock: /Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/regenerated-galleries/mojito-metallique/gallery-lock.sha256\nPASS: 12 unique numbered PNG files validated in /Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/regenerated-galleries/mojito-metallique/final"
+    },
+    {
+      "handle": "mojito-metallique",
+      "args": [
+        "--verify-lock",
+        "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/regenerated-galleries/mojito-metallique/gallery-lock.sha256"
+      ],
+      "output": "PASS: 12 unique numbered PNG files validated in /Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/regenerated-galleries/mojito-metallique/final"
+    },
+    {
+      "handle": "amber-oud-silk",
+      "args": [],
+      "output": "PASS: 12 unique numbered PNG files validated in /Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/regenerated-galleries/amber-oud-silk/final"
+    },
+    {
+      "handle": "amber-oud-silk",
+      "args": [
+        "--write-lock",
+        "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/regenerated-galleries/amber-oud-silk/gallery-lock.sha256"
+      ],
+      "output": "Wrote SHA-256 lock: /Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/regenerated-galleries/amber-oud-silk/gallery-lock.sha256\nPASS: 12 unique numbered PNG files validated in /Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/regenerated-galleries/amber-oud-silk/final"
+    },
+    {
+      "handle": "amber-oud-silk",
+      "args": [
+        "--verify-lock",
+        "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/regenerated-galleries/amber-oud-silk/gallery-lock.sha256"
+      ],
+      "output": "PASS: 12 unique numbered PNG files validated in /Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/regenerated-galleries/amber-oud-silk/final"
+    }
+  ],
+  "webKiB": {
+    "mojito-metallique": 2614,
+    "amber-oud-silk": 2404
+  },
+  "fonts": [
+    {
+      "role": "headings",
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/source-assets/fonts/CenzoFlare-Bold/CenzoFlare-Bold.ttf",
+      "sha256": "aca8e9615c3342f7b6619c35ec6bc430464ef1a2334ef73cc8bc65244ee0407a"
+    },
+    {
+      "role": "body",
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/source-assets/fonts/HelveticaNowText-Regular/HelveticaNowText-Regular.ttf",
+      "sha256": "be4dc86107b81ffd40ff070256f986fc244069f7abc66cc71e397d2b3b332254"
+    }
+  ],
+  "status": "PASS"
+}

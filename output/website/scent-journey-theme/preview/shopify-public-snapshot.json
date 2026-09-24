@@ -1,0 +1,2270 @@
+{
+  "fetched_at": "2026-09-24T01:17:02.489204+00:00",
+  "source": "https://erkayx-xy.myshopify.com",
+  "method": "Public Shopify JSON endpoints (GET only)",
+  "products": [
+    {
+      "id": 10314865016897,
+      "title": "Mistened Narcissus",
+      "handle": "mistened-narcissus",
+      "body_html": "  <p>Juicy berries softened by a smooth, sweet finish.</p><p>Mistened Narcissus is a 50 ml fragrance from the women’s line, presented in a clear cylindrical glass bottle with clear liquid, a glossy black cap and silver collar, and a pale-lavender cylindrical presentation canister.</p><p><strong>Size:</strong> 50 ml / 1.69 fl. oz.</p><p><strong>Ingredients:</strong> Alcohol; Water (Aqua); Fragrance (Parfum); PEG-40 Hydrogenated Castor Oil; Propylene Glycol; Benzyl Salicylate; Hexyl Cinnamal; Limonene; Linalool; Citronellol; Alpha-Isomethyl Ionone.</p><p><strong>Care:</strong> Flammable; keep away from heat and open flame.</p>",
+      "published_at": "2026-09-24T06:10:41+08:00",
+      "created_at": "2026-09-23T23:02:39+08:00",
+      "updated_at": "2026-09-24T09:15:05+08:00",
+      "vendor": "Dear Body",
+      "product_type": "",
+      "tags": [
+        "women"
+      ],
+      "variants": [
+        {
+          "id": 50526771118145,
+          "title": "Default Title",
+          "option1": "Default Title",
+          "option2": null,
+          "option3": null,
+          "sku": "P11438",
+          "requires_shipping": true,
+          "taxable": true,
+          "featured_image": null,
+          "available": true,
+          "price": "799.00",
+          "grams": 0,
+          "compare_at_price": null,
+          "position": 1,
+          "product_id": 10314865016897,
+          "created_at": "2026-09-23T23:02:40+08:00",
+          "updated_at": "2026-09-24T09:15:05+08:00"
+        }
+      ],
+      "images": [
+        {
+          "id": 52722585862209,
+          "created_at": "2026-09-23T23:03:05+08:00",
+          "position": 1,
+          "updated_at": "2026-09-23T23:03:07+08:00",
+          "product_id": 10314865016897,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/01-featured-packshot_37a7297b-fc99-4ff9-9694-c387011a47d7.png?v=1790175787",
+          "width": 2048,
+          "height": 2048
+        },
+        {
+          "id": 52722585894977,
+          "created_at": "2026-09-23T23:03:05+08:00",
+          "position": 2,
+          "updated_at": "2026-09-23T23:03:07+08:00",
+          "product_id": 10314865016897,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/02-brand-hero_e96b152e-3132-4f75-a9a5-7d06926af6a2.png?v=1790175787",
+          "width": 2048,
+          "height": 2048
+        },
+        {
+          "id": 52722585927745,
+          "created_at": "2026-09-23T23:03:05+08:00",
+          "position": 3,
+          "updated_at": "2026-09-23T23:03:07+08:00",
+          "product_id": 10314865016897,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/03-packaging-reveal_3e9c763b-3903-4665-bf5f-15b3b921bf47.png?v=1790175787",
+          "width": 2048,
+          "height": 2048
+        },
+        {
+          "id": 52722585960513,
+          "created_at": "2026-09-23T23:03:05+08:00",
+          "position": 4,
+          "updated_at": "2026-09-23T23:03:07+08:00",
+          "product_id": 10314865016897,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/04-material-cap-detail_20371d0b-32a7-4e41-a878-078b93a9f9d3.png?v=1790175787",
+          "width": 2048,
+          "height": 2048
+        },
+        {
+          "id": 52722585993281,
+          "created_at": "2026-09-23T23:03:05+08:00",
+          "position": 5,
+          "updated_at": "2026-09-23T23:03:07+08:00",
+          "product_id": 10314865016897,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/05-roller-rink-arrival-lifestyle.png?v=1790175787",
+          "width": 2048,
+          "height": 2048
+        },
+        {
+          "id": 52722586026049,
+          "created_at": "2026-09-23T23:03:05+08:00",
+          "position": 6,
+          "updated_at": "2026-09-23T23:03:07+08:00",
+          "product_id": 10314865016897,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/06-roller-rink-handheld.png?v=1790175787",
+          "width": 2048,
+          "height": 2048
+        },
+        {
+          "id": 52722586058817,
+          "created_at": "2026-09-23T23:03:05+08:00",
+          "position": 7,
+          "updated_at": "2026-09-23T23:03:07+08:00",
+          "product_id": 10314865016897,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/07-roller-rink-social.png?v=1790175787",
+          "width": 2048,
+          "height": 2048
+        },
+        {
+          "id": 52722586091585,
+          "created_at": "2026-09-23T23:03:05+08:00",
+          "position": 8,
+          "updated_at": "2026-09-23T23:03:07+08:00",
+          "product_id": 10314865016897,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/08-product-profile-infographic_0f3b5228-3bb9-4ec4-8a48-a907374612a0.png?v=1790175787",
+          "width": 2048,
+          "height": 2048
+        },
+        {
+          "id": 52722586124353,
+          "created_at": "2026-09-23T23:03:05+08:00",
+          "position": 9,
+          "updated_at": "2026-09-23T23:03:07+08:00",
+          "product_id": 10314865016897,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/09-ingredients-and-care-infographic_b172245e-9ff1-4ea8-ae80-5b8e8f4d8267.png?v=1790175787",
+          "width": 2048,
+          "height": 2048
+        },
+        {
+          "id": 52722586157121,
+          "created_at": "2026-09-23T23:03:05+08:00",
+          "position": 10,
+          "updated_at": "2026-09-23T23:03:07+08:00",
+          "product_id": 10314865016897,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/10-closing-hero_c706e163-c4f2-40f0-be9d-c2fd01596fd0.png?v=1790175787",
+          "width": 2048,
+          "height": 2048
+        }
+      ],
+      "options": [
+        {
+          "name": "Title",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "public_detail": {
+        "media": [
+          {
+            "alt": "Mistened Narcissus 50 ml fragrance bottle and pale-lavender presentation canister",
+            "id": 46166663135297,
+            "position": 1,
+            "preview_image": {
+              "aspect_ratio": 1.0,
+              "height": 2048,
+              "width": 2048,
+              "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/01-featured-packshot_37a7297b-fc99-4ff9-9694-c387011a47d7.png?v=1790175787"
+            },
+            "aspect_ratio": 1.0,
+            "height": 2048,
+            "media_type": "image",
+            "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/01-featured-packshot_37a7297b-fc99-4ff9-9694-c387011a47d7.png?v=1790175787",
+            "width": 2048
+          },
+          {
+            "alt": "Mistened Narcissus bottle and pale-lavender canister in a bright architectural setting",
+            "id": 46166663168065,
+            "position": 2,
+            "preview_image": {
+              "aspect_ratio": 1.0,
+              "height": 2048,
+              "width": 2048,
+              "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/02-brand-hero_e96b152e-3132-4f75-a9a5-7d06926af6a2.png?v=1790175787"
+            },
+            "aspect_ratio": 1.0,
+            "height": 2048,
+            "media_type": "image",
+            "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/02-brand-hero_e96b152e-3132-4f75-a9a5-7d06926af6a2.png?v=1790175787",
+            "width": 2048
+          },
+          {
+            "alt": "Mistened Narcissus bottle seated in the short canister base beside the tall removable upper section",
+            "id": 46166663200833,
+            "position": 3,
+            "preview_image": {
+              "aspect_ratio": 1.0,
+              "height": 2048,
+              "width": 2048,
+              "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/03-packaging-reveal_3e9c763b-3903-4665-bf5f-15b3b921bf47.png?v=1790175787"
+            },
+            "aspect_ratio": 1.0,
+            "height": 2048,
+            "media_type": "image",
+            "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/03-packaging-reveal_3e9c763b-3903-4665-bf5f-15b3b921bf47.png?v=1790175787",
+            "width": 2048
+          },
+          {
+            "alt": "Close-up of the Mistened Narcissus embossed cap, silver collar, glass bottle and canister",
+            "id": 46166663233601,
+            "position": 4,
+            "preview_image": {
+              "aspect_ratio": 1.0,
+              "height": 2048,
+              "width": 2048,
+              "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/04-material-cap-detail_20371d0b-32a7-4e41-a878-078b93a9f9d3.png?v=1790175787"
+            },
+            "aspect_ratio": 1.0,
+            "height": 2048,
+            "media_type": "image",
+            "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/04-material-cap-detail_20371d0b-32a7-4e41-a878-078b93a9f9d3.png?v=1790175787",
+            "width": 2048
+          },
+          {
+            "alt": "Woman carrying skates and Mistened Narcissus at a pastel roller rink",
+            "id": 46166663266369,
+            "position": 5,
+            "preview_image": {
+              "aspect_ratio": 1.0,
+              "height": 2048,
+              "width": 2048,
+              "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/05-roller-rink-arrival-lifestyle.png?v=1790175787"
+            },
+            "aspect_ratio": 1.0,
+            "height": 2048,
+            "media_type": "image",
+            "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/05-roller-rink-arrival-lifestyle.png?v=1790175787",
+            "width": 2048
+          },
+          {
+            "alt": "Mistened Narcissus bottle held beside a chrome rink rail and skates",
+            "id": 46166663299137,
+            "position": 6,
+            "preview_image": {
+              "aspect_ratio": 1.0,
+              "height": 2048,
+              "width": 2048,
+              "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/06-roller-rink-handheld.png?v=1790175787"
+            },
+            "aspect_ratio": 1.0,
+            "height": 2048,
+            "media_type": "image",
+            "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/06-roller-rink-handheld.png?v=1790175787",
+            "width": 2048
+          },
+          {
+            "alt": "Three women preparing to skate with one Mistened Narcissus bottle",
+            "id": 46166663331905,
+            "position": 7,
+            "preview_image": {
+              "aspect_ratio": 1.0,
+              "height": 2048,
+              "width": 2048,
+              "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/07-roller-rink-social.png?v=1790175787"
+            },
+            "aspect_ratio": 1.0,
+            "height": 2048,
+            "media_type": "image",
+            "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/07-roller-rink-social.png?v=1790175787",
+            "width": 2048
+          },
+          {
+            "alt": "Mistened Narcissus product profile: 50 ml / 1.69 fl. oz., product code P11438",
+            "id": 46166663364673,
+            "position": 8,
+            "preview_image": {
+              "aspect_ratio": 1.0,
+              "height": 2048,
+              "width": 2048,
+              "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/08-product-profile-infographic_0f3b5228-3bb9-4ec4-8a48-a907374612a0.png?v=1790175787"
+            },
+            "aspect_ratio": 1.0,
+            "height": 2048,
+            "media_type": "image",
+            "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/08-product-profile-infographic_0f3b5228-3bb9-4ec4-8a48-a907374612a0.png?v=1790175787",
+            "width": 2048
+          },
+          {
+            "alt": "Mistened Narcissus printed ingredients, barcode 5056795407376 and flammable care information",
+            "id": 46166663397441,
+            "position": 9,
+            "preview_image": {
+              "aspect_ratio": 1.0,
+              "height": 2048,
+              "width": 2048,
+              "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/09-ingredients-and-care-infographic_b172245e-9ff1-4ea8-ae80-5b8e8f4d8267.png?v=1790175787"
+            },
+            "aspect_ratio": 1.0,
+            "height": 2048,
+            "media_type": "image",
+            "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/09-ingredients-and-care-infographic_b172245e-9ff1-4ea8-ae80-5b8e8f4d8267.png?v=1790175787",
+            "width": 2048
+          },
+          {
+            "alt": "Mistened Narcissus bottle and canister with the headline A Scent Journey",
+            "id": 46166663430209,
+            "position": 10,
+            "preview_image": {
+              "aspect_ratio": 1.0,
+              "height": 2048,
+              "width": 2048,
+              "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/10-closing-hero_c706e163-c4f2-40f0-be9d-c2fd01596fd0.png?v=1790175787"
+            },
+            "aspect_ratio": 1.0,
+            "height": 2048,
+            "media_type": "image",
+            "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/10-closing-hero_c706e163-c4f2-40f0-be9d-c2fd01596fd0.png?v=1790175787",
+            "width": 2048
+          }
+        ],
+        "description": "  <p>Juicy berries softened by a smooth, sweet finish.</p><p>Mistened Narcissus is a 50 ml fragrance from the women’s line, presented in a clear cylindrical glass bottle with clear liquid, a glossy black cap and silver collar, and a pale-lavender cylindrical presentation canister.</p><p><strong>Size:</strong> 50 ml / 1.69 fl. oz.</p><p><strong>Ingredients:</strong> Alcohol; Water (Aqua); Fragrance (Parfum); PEG-40 Hydrogenated Castor Oil; Propylene Glycol; Benzyl Salicylate; Hexyl Cinnamal; Limonene; Linalool; Citronellol; Alpha-Isomethyl Ionone.</p><p><strong>Care:</strong> Flammable; keep away from heat and open flame.</p>",
+        "options": [
+          {
+            "name": "Title",
+            "position": 1,
+            "values": [
+              "Default Title"
+            ]
+          }
+        ],
+        "available": true
+      }
+    },
+    {
+      "id": 10314853515329,
+      "title": "Oud Mirage",
+      "handle": "oud-mirage",
+      "body_html": "  <p>Dark rose wrapped in smoky, woody depth.</p><p>Oud Mirage is a 50 ml fragrance from the men’s line, presented in a clear cylindrical glass bottle with vivid blue liquid, a glossy black cap and silver collar, and a blue cylindrical presentation canister.</p><p><strong>Size:</strong> 50 ml / 1.69 fl. oz.</p><p><strong>Ingredients:</strong> Alcohol; Water (Aqua); Fragrance (Parfum); PEG-40 Hydrogenated Castor Oil; Propylene Glycol; Benzyl Salicylate; Linalool; Benzyl Benzoate; Citronellol; Geraniol; Coumarin; Benzyl Alcohol; Limonene.</p><p><strong>Care:</strong> Flammable; keep away from heat and open flame.</p>",
+      "published_at": "2026-09-24T06:10:41+08:00",
+      "created_at": "2026-09-23T22:52:05+08:00",
+      "updated_at": "2026-09-24T09:15:05+08:00",
+      "vendor": "Dear Body",
+      "product_type": "",
+      "tags": [
+        "men"
+      ],
+      "variants": [
+        {
+          "id": 50526695686209,
+          "title": "Default Title",
+          "option1": "Default Title",
+          "option2": null,
+          "option3": null,
+          "sku": "P10238",
+          "requires_shipping": true,
+          "taxable": true,
+          "featured_image": null,
+          "available": true,
+          "price": "799.00",
+          "grams": 0,
+          "compare_at_price": null,
+          "position": 1,
+          "product_id": 10314853515329,
+          "created_at": "2026-09-23T22:52:05+08:00",
+          "updated_at": "2026-09-24T09:15:05+08:00"
+        }
+      ],
+      "images": [
+        {
+          "id": 52722573377601,
+          "created_at": "2026-09-23T22:52:49+08:00",
+          "position": 1,
+          "updated_at": "2026-09-23T22:52:51+08:00",
+          "product_id": 10314853515329,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/01-featured-packshot.png?v=1790175171",
+          "width": 2048,
+          "height": 2048
+        },
+        {
+          "id": 52722573410369,
+          "created_at": "2026-09-23T22:52:49+08:00",
+          "position": 2,
+          "updated_at": "2026-09-23T22:52:51+08:00",
+          "product_id": 10314853515329,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/02-brand-hero.png?v=1790175171",
+          "width": 2048,
+          "height": 2048
+        },
+        {
+          "id": 52722573443137,
+          "created_at": "2026-09-23T22:52:49+08:00",
+          "position": 3,
+          "updated_at": "2026-09-23T22:52:51+08:00",
+          "product_id": 10314853515329,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/03-packaging-reveal.png?v=1790175171",
+          "width": 2048,
+          "height": 2048
+        },
+        {
+          "id": 52722573475905,
+          "created_at": "2026-09-23T22:52:49+08:00",
+          "position": 4,
+          "updated_at": "2026-09-23T22:52:51+08:00",
+          "product_id": 10314853515329,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/04-material-cap-detail.png?v=1790175171",
+          "width": 2048,
+          "height": 2048
+        },
+        {
+          "id": 52722573508673,
+          "created_at": "2026-09-23T22:52:49+08:00",
+          "position": 5,
+          "updated_at": "2026-09-23T22:52:51+08:00",
+          "product_id": 10314853515329,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/05-architect-plaza-lifestyle.png?v=1790175171",
+          "width": 2048,
+          "height": 2048
+        },
+        {
+          "id": 52722573541441,
+          "created_at": "2026-09-23T22:52:49+08:00",
+          "position": 6,
+          "updated_at": "2026-09-23T22:52:51+08:00",
+          "product_id": 10314853515329,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/06-drafting-table-handheld.png?v=1790175171",
+          "width": 2048,
+          "height": 2048
+        },
+        {
+          "id": 52722573574209,
+          "created_at": "2026-09-23T22:52:49+08:00",
+          "position": 7,
+          "updated_at": "2026-09-23T22:52:51+08:00",
+          "product_id": 10314853515329,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/07-model-studio-social.png?v=1790175171",
+          "width": 2048,
+          "height": 2048
+        },
+        {
+          "id": 52722573606977,
+          "created_at": "2026-09-23T22:52:49+08:00",
+          "position": 8,
+          "updated_at": "2026-09-23T22:52:51+08:00",
+          "product_id": 10314853515329,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/08-product-profile-infographic.png?v=1790175171",
+          "width": 2048,
+          "height": 2048
+        },
+        {
+          "id": 52722573639745,
+          "created_at": "2026-09-23T22:52:49+08:00",
+          "position": 9,
+          "updated_at": "2026-09-23T22:52:51+08:00",
+          "product_id": 10314853515329,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/09-ingredients-and-care-infographic.png?v=1790175171",
+          "width": 2048,
+          "height": 2048
+        },
+        {
+          "id": 52722573672513,
+          "created_at": "2026-09-23T22:52:49+08:00",
+          "position": 10,
+          "updated_at": "2026-09-23T22:52:51+08:00",
+          "product_id": 10314853515329,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/10-closing-hero.png?v=1790175171",
+          "width": 2048,
+          "height": 2048
+        },
+        {
+          "id": 52722573705281,
+          "created_at": "2026-09-23T22:52:49+08:00",
+          "position": 11,
+          "updated_at": "2026-09-23T22:52:51+08:00",
+          "product_id": 10314853515329,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/11-scent-description-infographic.png?v=1790175171",
+          "width": 2048,
+          "height": 2048
+        },
+        {
+          "id": 52722573738049,
+          "created_at": "2026-09-23T22:52:49+08:00",
+          "position": 12,
+          "updated_at": "2026-09-23T22:52:51+08:00",
+          "product_id": 10314853515329,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/12-who-it-fits-infographic.png?v=1790175171",
+          "width": 2048,
+          "height": 2048
+        }
+      ],
+      "options": [
+        {
+          "name": "Title",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "public_detail": {
+        "media": [
+          {
+            "alt": "Oud Mirage 50 ml fragrance bottle and blue presentation canister",
+            "id": 46166650716225,
+            "position": 1,
+            "preview_image": {
+              "aspect_ratio": 1.0,
+              "height": 2048,
+              "width": 2048,
+              "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/01-featured-packshot.png?v=1790175171"
+            },
+            "aspect_ratio": 1.0,
+            "height": 2048,
+            "media_type": "image",
+            "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/01-featured-packshot.png?v=1790175171",
+            "width": 2048
+          },
+          {
+            "alt": "Oud Mirage bottle and blue canister in a bright architectural setting",
+            "id": 46166650748993,
+            "position": 2,
+            "preview_image": {
+              "aspect_ratio": 1.0,
+              "height": 2048,
+              "width": 2048,
+              "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/02-brand-hero.png?v=1790175171"
+            },
+            "aspect_ratio": 1.0,
+            "height": 2048,
+            "media_type": "image",
+            "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/02-brand-hero.png?v=1790175171",
+            "width": 2048
+          },
+          {
+            "alt": "Oud Mirage bottle seated in the short canister base beside the tall removable upper section",
+            "id": 46166650781761,
+            "position": 3,
+            "preview_image": {
+              "aspect_ratio": 1.0,
+              "height": 2048,
+              "width": 2048,
+              "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/03-packaging-reveal.png?v=1790175171"
+            },
+            "aspect_ratio": 1.0,
+            "height": 2048,
+            "media_type": "image",
+            "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/03-packaging-reveal.png?v=1790175171",
+            "width": 2048
+          },
+          {
+            "alt": "Close-up of the Oud Mirage embossed cap, silver collar, glass bottle and canister",
+            "id": 46166650814529,
+            "position": 4,
+            "preview_image": {
+              "aspect_ratio": 1.0,
+              "height": 2048,
+              "width": 2048,
+              "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/04-material-cap-detail.png?v=1790175171"
+            },
+            "aspect_ratio": 1.0,
+            "height": 2048,
+            "media_type": "image",
+            "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/04-material-cap-detail.png?v=1790175171",
+            "width": 2048
+          },
+          {
+            "alt": "Man holding Oud Mirage in a bright architectural plaza",
+            "id": 46166650847297,
+            "position": 5,
+            "preview_image": {
+              "aspect_ratio": 1.0,
+              "height": 2048,
+              "width": 2048,
+              "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/05-architect-plaza-lifestyle.png?v=1790175171"
+            },
+            "aspect_ratio": 1.0,
+            "height": 2048,
+            "media_type": "image",
+            "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/05-architect-plaza-lifestyle.png?v=1790175171",
+            "width": 2048
+          },
+          {
+            "alt": "Oud Mirage bottle held over an architectural drafting table",
+            "id": 46166650880065,
+            "position": 6,
+            "preview_image": {
+              "aspect_ratio": 1.0,
+              "height": 2048,
+              "width": 2048,
+              "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/06-drafting-table-handheld.png?v=1790175171"
+            },
+            "aspect_ratio": 1.0,
+            "height": 2048,
+            "media_type": "image",
+            "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/06-drafting-table-handheld.png?v=1790175171",
+            "width": 2048
+          },
+          {
+            "alt": "Three men working on a scale model with one Oud Mirage bottle",
+            "id": 46166650912833,
+            "position": 7,
+            "preview_image": {
+              "aspect_ratio": 1.0,
+              "height": 2048,
+              "width": 2048,
+              "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/07-model-studio-social.png?v=1790175171"
+            },
+            "aspect_ratio": 1.0,
+            "height": 2048,
+            "media_type": "image",
+            "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/07-model-studio-social.png?v=1790175171",
+            "width": 2048
+          },
+          {
+            "alt": "Oud Mirage product profile: 50 ml / 1.69 fl. oz., product code P10238",
+            "id": 46166650945601,
+            "position": 8,
+            "preview_image": {
+              "aspect_ratio": 1.0,
+              "height": 2048,
+              "width": 2048,
+              "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/08-product-profile-infographic.png?v=1790175171"
+            },
+            "aspect_ratio": 1.0,
+            "height": 2048,
+            "media_type": "image",
+            "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/08-product-profile-infographic.png?v=1790175171",
+            "width": 2048
+          },
+          {
+            "alt": "Oud Mirage printed ingredients, barcode 5056795407253 and flammable care information",
+            "id": 46166650978369,
+            "position": 9,
+            "preview_image": {
+              "aspect_ratio": 1.0,
+              "height": 2048,
+              "width": 2048,
+              "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/09-ingredients-and-care-infographic.png?v=1790175171"
+            },
+            "aspect_ratio": 1.0,
+            "height": 2048,
+            "media_type": "image",
+            "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/09-ingredients-and-care-infographic.png?v=1790175171",
+            "width": 2048
+          },
+          {
+            "alt": "Oud Mirage bottle and canister with the headline A Scent Journey",
+            "id": 46166651011137,
+            "position": 10,
+            "preview_image": {
+              "aspect_ratio": 1.0,
+              "height": 2048,
+              "width": 2048,
+              "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/10-closing-hero.png?v=1790175171"
+            },
+            "aspect_ratio": 1.0,
+            "height": 2048,
+            "media_type": "image",
+            "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/10-closing-hero.png?v=1790175171",
+            "width": 2048
+          },
+          {
+            "alt": "Oud Mirage scent description: Dark rose wrapped in smoky, woody depth.",
+            "id": 46166651043905,
+            "position": 11,
+            "preview_image": {
+              "aspect_ratio": 1.0,
+              "height": 2048,
+              "width": 2048,
+              "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/11-scent-description-infographic.png?v=1790175171"
+            },
+            "aspect_ratio": 1.0,
+            "height": 2048,
+            "media_type": "image",
+            "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/11-scent-description-infographic.png?v=1790175171",
+            "width": 2048
+          },
+          {
+            "alt": "Oud Mirage person-fit guide: For someone drawn to expressive style, deep contrasts, and a quietly bold presence.",
+            "id": 46166651076673,
+            "position": 12,
+            "preview_image": {
+              "aspect_ratio": 1.0,
+              "height": 2048,
+              "width": 2048,
+              "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/12-who-it-fits-infographic.png?v=1790175171"
+            },
+            "aspect_ratio": 1.0,
+            "height": 2048,
+            "media_type": "image",
+            "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/12-who-it-fits-infographic.png?v=1790175171",
+            "width": 2048
+          }
+        ],
+        "description": "  <p>Dark rose wrapped in smoky, woody depth.</p><p>Oud Mirage is a 50 ml fragrance from the men’s line, presented in a clear cylindrical glass bottle with vivid blue liquid, a glossy black cap and silver collar, and a blue cylindrical presentation canister.</p><p><strong>Size:</strong> 50 ml / 1.69 fl. oz.</p><p><strong>Ingredients:</strong> Alcohol; Water (Aqua); Fragrance (Parfum); PEG-40 Hydrogenated Castor Oil; Propylene Glycol; Benzyl Salicylate; Linalool; Benzyl Benzoate; Citronellol; Geraniol; Coumarin; Benzyl Alcohol; Limonene.</p><p><strong>Care:</strong> Flammable; keep away from heat and open flame.</p>",
+        "options": [
+          {
+            "name": "Title",
+            "position": 1,
+            "values": [
+              "Default Title"
+            ]
+          }
+        ],
+        "available": true
+      }
+    },
+    {
+      "id": 10314853449793,
+      "title": "Rtulle & Satin",
+      "handle": "rtulle-satin",
+      "body_html": "  <p>Airy sweetness with a warm, glowing trail.</p><p>Rtulle &amp; Satin is a 50 ml fragrance from the men’s line, presented in a clear cylindrical glass bottle with vivid turquoise liquid, a glossy black cap and silver collar, and a turquoise cylindrical presentation canister.</p><p><strong>Size:</strong> 50 ml / 1.69 fl. oz.</p><p><strong>Ingredients:</strong> Alcohol; Water (Aqua); Fragrance (Parfum); PEG-40 Hydrogenated Castor Oil; Propylene Glycol; Linalool; Alpha-Isomethyl Ionone; Citronellol; Geraniol; Coumarin; Benzyl Benzoate; Benzyl Alcohol; Limonene; Citral; Eugenol.</p><p><strong>Care:</strong> Flammable; keep away from heat and open flame.</p>",
+      "published_at": "2026-09-24T06:10:40+08:00",
+      "created_at": "2026-09-23T22:51:39+08:00",
+      "updated_at": "2026-09-24T09:15:05+08:00",
+      "vendor": "Dear Body",
+      "product_type": "",
+      "tags": [
+        "men"
+      ],
+      "variants": [
+        {
+          "id": 50526695587905,
+          "title": "Default Title",
+          "option1": "Default Title",
+          "option2": null,
+          "option3": null,
+          "sku": null,
+          "requires_shipping": true,
+          "taxable": true,
+          "featured_image": null,
+          "available": true,
+          "price": "799.00",
+          "grams": 0,
+          "compare_at_price": null,
+          "position": 1,
+          "product_id": 10314853449793,
+          "created_at": "2026-09-23T22:51:39+08:00",
+          "updated_at": "2026-09-24T09:15:05+08:00"
+        }
+      ],
+      "images": [
+        {
+          "id": 52722582618177,
+          "created_at": "2026-09-23T22:58:39+08:00",
+          "position": 1,
+          "updated_at": "2026-09-23T22:58:41+08:00",
+          "product_id": 10314853449793,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/01-featured-packshot_32efa298-e686-4b59-9346-88dc7c5a857b.png?v=1790175521",
+          "width": 2048,
+          "height": 2048
+        },
+        {
+          "id": 52722582650945,
+          "created_at": "2026-09-23T22:58:39+08:00",
+          "position": 2,
+          "updated_at": "2026-09-23T22:58:41+08:00",
+          "product_id": 10314853449793,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/02-brand-hero_e957c3c9-386b-4d48-ac75-6e4e2398320f.png?v=1790175521",
+          "width": 2048,
+          "height": 2048
+        },
+        {
+          "id": 52722582683713,
+          "created_at": "2026-09-23T22:58:39+08:00",
+          "position": 3,
+          "updated_at": "2026-09-23T22:58:41+08:00",
+          "product_id": 10314853449793,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/03-packaging-reveal_564a37e8-1a59-43d4-8551-9f98382f9a92.png?v=1790175521",
+          "width": 2048,
+          "height": 2048
+        },
+        {
+          "id": 52722582716481,
+          "created_at": "2026-09-23T22:58:39+08:00",
+          "position": 4,
+          "updated_at": "2026-09-23T22:58:41+08:00",
+          "product_id": 10314853449793,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/04-material-cap-detail_59f22427-2fac-4a61-8f82-5b415c53577e.png?v=1790175521",
+          "width": 2048,
+          "height": 2048
+        },
+        {
+          "id": 52722582749249,
+          "created_at": "2026-09-23T22:58:39+08:00",
+          "position": 5,
+          "updated_at": "2026-09-23T22:58:41+08:00",
+          "product_id": 10314853449793,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/05-fashion-atelier-lifestyle.png?v=1790175521",
+          "width": 2048,
+          "height": 2048
+        },
+        {
+          "id": 52722582782017,
+          "created_at": "2026-09-23T22:58:39+08:00",
+          "position": 6,
+          "updated_at": "2026-09-23T22:58:41+08:00",
+          "product_id": 10314853449793,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/06-tailoring-handheld.png?v=1790175521",
+          "width": 2048,
+          "height": 2048
+        },
+        {
+          "id": 52722582814785,
+          "created_at": "2026-09-23T22:58:39+08:00",
+          "position": 7,
+          "updated_at": "2026-09-23T22:58:41+08:00",
+          "product_id": 10314853449793,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/07-creative-studio-social.png?v=1790175521",
+          "width": 2048,
+          "height": 2048
+        },
+        {
+          "id": 52722582847553,
+          "created_at": "2026-09-23T22:58:39+08:00",
+          "position": 8,
+          "updated_at": "2026-09-23T22:58:41+08:00",
+          "product_id": 10314853449793,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/08-product-profile-infographic_afb720ae-d593-4835-a639-f418b69e85c6.png?v=1790175521",
+          "width": 2048,
+          "height": 2048
+        },
+        {
+          "id": 52722582880321,
+          "created_at": "2026-09-23T22:58:39+08:00",
+          "position": 9,
+          "updated_at": "2026-09-23T22:58:41+08:00",
+          "product_id": 10314853449793,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/09-ingredients-and-care-infographic_966bcbf1-5643-4837-bc38-6fe14b3b2c6a.png?v=1790175521",
+          "width": 2048,
+          "height": 2048
+        },
+        {
+          "id": 52722582913089,
+          "created_at": "2026-09-23T22:58:39+08:00",
+          "position": 10,
+          "updated_at": "2026-09-23T22:58:41+08:00",
+          "product_id": 10314853449793,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/10-closing-hero_f6fb91b2-c4f9-4850-850a-3f4b9757bfdd.png?v=1790175521",
+          "width": 2048,
+          "height": 2048
+        },
+        {
+          "id": 52722582945857,
+          "created_at": "2026-09-23T22:58:39+08:00",
+          "position": 11,
+          "updated_at": "2026-09-23T22:58:41+08:00",
+          "product_id": 10314853449793,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/11-scent-description-infographic_da2b6685-5c30-46c4-a8f2-0e1368f21fff.png?v=1790175521",
+          "width": 2048,
+          "height": 2048
+        },
+        {
+          "id": 52722582978625,
+          "created_at": "2026-09-23T22:58:39+08:00",
+          "position": 12,
+          "updated_at": "2026-09-23T22:58:41+08:00",
+          "product_id": 10314853449793,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/12-who-it-fits-infographic_08282d84-2c8f-4434-a138-b85b92e1ed32.png?v=1790175521",
+          "width": 2048,
+          "height": 2048
+        }
+      ],
+      "options": [
+        {
+          "name": "Title",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "public_detail": {
+        "media": [
+          {
+            "alt": "Rtulle & Satin 50 ml fragrance bottle and turquoise presentation canister",
+            "id": 46166659924033,
+            "position": 1,
+            "preview_image": {
+              "aspect_ratio": 1.0,
+              "height": 2048,
+              "width": 2048,
+              "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/01-featured-packshot_32efa298-e686-4b59-9346-88dc7c5a857b.png?v=1790175521"
+            },
+            "aspect_ratio": 1.0,
+            "height": 2048,
+            "media_type": "image",
+            "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/01-featured-packshot_32efa298-e686-4b59-9346-88dc7c5a857b.png?v=1790175521",
+            "width": 2048
+          },
+          {
+            "alt": "Rtulle & Satin bottle and turquoise canister in a bright architectural setting",
+            "id": 46166659956801,
+            "position": 2,
+            "preview_image": {
+              "aspect_ratio": 1.0,
+              "height": 2048,
+              "width": 2048,
+              "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/02-brand-hero_e957c3c9-386b-4d48-ac75-6e4e2398320f.png?v=1790175521"
+            },
+            "aspect_ratio": 1.0,
+            "height": 2048,
+            "media_type": "image",
+            "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/02-brand-hero_e957c3c9-386b-4d48-ac75-6e4e2398320f.png?v=1790175521",
+            "width": 2048
+          },
+          {
+            "alt": "Rtulle & Satin bottle seated in the short canister base beside the tall removable upper section",
+            "id": 46166659989569,
+            "position": 3,
+            "preview_image": {
+              "aspect_ratio": 1.0,
+              "height": 2048,
+              "width": 2048,
+              "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/03-packaging-reveal_564a37e8-1a59-43d4-8551-9f98382f9a92.png?v=1790175521"
+            },
+            "aspect_ratio": 1.0,
+            "height": 2048,
+            "media_type": "image",
+            "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/03-packaging-reveal_564a37e8-1a59-43d4-8551-9f98382f9a92.png?v=1790175521",
+            "width": 2048
+          },
+          {
+            "alt": "Close-up of the Rtulle & Satin embossed cap, silver collar, glass bottle and canister",
+            "id": 46166660022337,
+            "position": 4,
+            "preview_image": {
+              "aspect_ratio": 1.0,
+              "height": 2048,
+              "width": 2048,
+              "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/04-material-cap-detail_59f22427-2fac-4a61-8f82-5b415c53577e.png?v=1790175521"
+            },
+            "aspect_ratio": 1.0,
+            "height": 2048,
+            "media_type": "image",
+            "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/04-material-cap-detail_59f22427-2fac-4a61-8f82-5b415c53577e.png?v=1790175521",
+            "width": 2048
+          },
+          {
+            "alt": "Man carrying Rtulle & Satin through a fashion atelier courtyard",
+            "id": 46166660055105,
+            "position": 5,
+            "preview_image": {
+              "aspect_ratio": 1.0,
+              "height": 2048,
+              "width": 2048,
+              "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/05-fashion-atelier-lifestyle.png?v=1790175521"
+            },
+            "aspect_ratio": 1.0,
+            "height": 2048,
+            "media_type": "image",
+            "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/05-fashion-atelier-lifestyle.png?v=1790175521",
+            "width": 2048
+          },
+          {
+            "alt": "Rtulle & Satin bottle held over a tailoring table",
+            "id": 46166660087873,
+            "position": 6,
+            "preview_image": {
+              "aspect_ratio": 1.0,
+              "height": 2048,
+              "width": 2048,
+              "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/06-tailoring-handheld.png?v=1790175521"
+            },
+            "aspect_ratio": 1.0,
+            "height": 2048,
+            "media_type": "image",
+            "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/06-tailoring-handheld.png?v=1790175521",
+            "width": 2048
+          },
+          {
+            "alt": "Three men in a creative studio with one Rtulle & Satin bottle",
+            "id": 46166660120641,
+            "position": 7,
+            "preview_image": {
+              "aspect_ratio": 1.0,
+              "height": 2048,
+              "width": 2048,
+              "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/07-creative-studio-social.png?v=1790175521"
+            },
+            "aspect_ratio": 1.0,
+            "height": 2048,
+            "media_type": "image",
+            "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/07-creative-studio-social.png?v=1790175521",
+            "width": 2048
+          },
+          {
+            "alt": "Rtulle & Satin product profile: 50 ml / 1.69 fl. oz., product code P10038",
+            "id": 46166660153409,
+            "position": 8,
+            "preview_image": {
+              "aspect_ratio": 1.0,
+              "height": 2048,
+              "width": 2048,
+              "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/08-product-profile-infographic_afb720ae-d593-4835-a639-f418b69e85c6.png?v=1790175521"
+            },
+            "aspect_ratio": 1.0,
+            "height": 2048,
+            "media_type": "image",
+            "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/08-product-profile-infographic_afb720ae-d593-4835-a639-f418b69e85c6.png?v=1790175521",
+            "width": 2048
+          },
+          {
+            "alt": "Rtulle & Satin printed ingredients, barcode 5056795407239 and flammable care information",
+            "id": 46166660186177,
+            "position": 9,
+            "preview_image": {
+              "aspect_ratio": 1.0,
+              "height": 2048,
+              "width": 2048,
+              "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/09-ingredients-and-care-infographic_966bcbf1-5643-4837-bc38-6fe14b3b2c6a.png?v=1790175521"
+            },
+            "aspect_ratio": 1.0,
+            "height": 2048,
+            "media_type": "image",
+            "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/09-ingredients-and-care-infographic_966bcbf1-5643-4837-bc38-6fe14b3b2c6a.png?v=1790175521",
+            "width": 2048
+          },
+          {
+            "alt": "Rtulle & Satin bottle and canister with the headline A Scent Journey",
+            "id": 46166660218945,
+            "position": 10,
+            "preview_image": {
+              "aspect_ratio": 1.0,
+              "height": 2048,
+              "width": 2048,
+              "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/10-closing-hero_f6fb91b2-c4f9-4850-850a-3f4b9757bfdd.png?v=1790175521"
+            },
+            "aspect_ratio": 1.0,
+            "height": 2048,
+            "media_type": "image",
+            "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/10-closing-hero_f6fb91b2-c4f9-4850-850a-3f4b9757bfdd.png?v=1790175521",
+            "width": 2048
+          },
+          {
+            "alt": "Rtulle & Satin scent description: Airy sweetness with a warm, glowing trail.",
+            "id": 46166660251713,
+            "position": 11,
+            "preview_image": {
+              "aspect_ratio": 1.0,
+              "height": 2048,
+              "width": 2048,
+              "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/11-scent-description-infographic_da2b6685-5c30-46c4-a8f2-0e1368f21fff.png?v=1790175521"
+            },
+            "aspect_ratio": 1.0,
+            "height": 2048,
+            "media_type": "image",
+            "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/11-scent-description-infographic_da2b6685-5c30-46c4-a8f2-0e1368f21fff.png?v=1790175521",
+            "width": 2048
+          },
+          {
+            "alt": "Rtulle & Satin person-fit guide: For someone drawn to lightness, warm detail, and an easy, expressive sense of style.",
+            "id": 46166660284481,
+            "position": 12,
+            "preview_image": {
+              "aspect_ratio": 1.0,
+              "height": 2048,
+              "width": 2048,
+              "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/12-who-it-fits-infographic_08282d84-2c8f-4434-a138-b85b92e1ed32.png?v=1790175521"
+            },
+            "aspect_ratio": 1.0,
+            "height": 2048,
+            "media_type": "image",
+            "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/12-who-it-fits-infographic_08282d84-2c8f-4434-a138-b85b92e1ed32.png?v=1790175521",
+            "width": 2048
+          }
+        ],
+        "description": "  <p>Airy sweetness with a warm, glowing trail.</p><p>Rtulle &amp; Satin is a 50 ml fragrance from the men’s line, presented in a clear cylindrical glass bottle with vivid turquoise liquid, a glossy black cap and silver collar, and a turquoise cylindrical presentation canister.</p><p><strong>Size:</strong> 50 ml / 1.69 fl. oz.</p><p><strong>Ingredients:</strong> Alcohol; Water (Aqua); Fragrance (Parfum); PEG-40 Hydrogenated Castor Oil; Propylene Glycol; Linalool; Alpha-Isomethyl Ionone; Citronellol; Geraniol; Coumarin; Benzyl Benzoate; Benzyl Alcohol; Limonene; Citral; Eugenol.</p><p><strong>Care:</strong> Flammable; keep away from heat and open flame.</p>",
+        "options": [
+          {
+            "name": "Title",
+            "position": 1,
+            "values": [
+              "Default Title"
+            ]
+          }
+        ],
+        "available": true
+      }
+    },
+    {
+      "id": 10314853417025,
+      "title": "Amber Oud Silk",
+      "handle": "amber-oud-silk",
+      "body_html": "  <p>Dark spice and smoke with a warm, addictive edge.</p><p>Amber Oud Silk is a 50 ml fragrance from the women’s line, presented in a clear cylindrical glass bottle with pale blush-peach liquid, a glossy black cap and silver collar, and a blush-peach cylindrical presentation canister.</p><p><strong>Size:</strong> 50 ml / 1.69 fl. oz.</p><p><strong>Ingredients:</strong> Alcohol; Water (Aqua); Fragrance (Parfum); PEG-40 Hydrogenated Castor Oil; Propylene Glycol; Linalool; Limonene; Citronellol; Eugenol; Coumarin; Cinnamal; Citral; Geraniol.</p><p><strong>Care:</strong> Flammable; keep away from heat and open flame.</p>",
+      "published_at": "2026-09-24T06:10:40+08:00",
+      "created_at": "2026-09-23T22:51:38+08:00",
+      "updated_at": "2026-09-24T09:15:05+08:00",
+      "vendor": "Dear Body",
+      "product_type": "",
+      "tags": [
+        "women"
+      ],
+      "variants": [
+        {
+          "id": 50526695555137,
+          "title": "Default Title",
+          "option1": "Default Title",
+          "option2": null,
+          "option3": null,
+          "sku": "P11038",
+          "requires_shipping": true,
+          "taxable": true,
+          "featured_image": null,
+          "available": true,
+          "price": "799.00",
+          "grams": 0,
+          "compare_at_price": null,
+          "position": 1,
+          "product_id": 10314853417025,
+          "created_at": "2026-09-23T22:51:38+08:00",
+          "updated_at": "2026-09-24T09:15:05+08:00"
+        }
+      ],
+      "images": [
+        {
+          "id": 52722573934657,
+          "created_at": "2026-09-23T22:52:52+08:00",
+          "position": 1,
+          "updated_at": "2026-09-23T22:52:54+08:00",
+          "product_id": 10314853417025,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/01-featured-packshot_988c6213-a167-4a37-801d-a28e2cd27c84.png?v=1790175174",
+          "width": 2048,
+          "height": 2048
+        },
+        {
+          "id": 52722573967425,
+          "created_at": "2026-09-23T22:52:52+08:00",
+          "position": 2,
+          "updated_at": "2026-09-23T22:52:54+08:00",
+          "product_id": 10314853417025,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/02-brand-hero_62f04ac9-6ae5-4452-8c3e-99980d493ea5.png?v=1790175174",
+          "width": 2048,
+          "height": 2048
+        },
+        {
+          "id": 52722574000193,
+          "created_at": "2026-09-23T22:52:52+08:00",
+          "position": 3,
+          "updated_at": "2026-09-23T22:52:54+08:00",
+          "product_id": 10314853417025,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/03-packaging-reveal_5d4c56d5-74fc-43da-9e81-4bbf86da6cd5.png?v=1790175174",
+          "width": 2048,
+          "height": 2048
+        },
+        {
+          "id": 52722574032961,
+          "created_at": "2026-09-23T22:52:52+08:00",
+          "position": 4,
+          "updated_at": "2026-09-23T22:52:54+08:00",
+          "product_id": 10314853417025,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/04-material-cap-detail_6c713b0c-e76c-4d24-80a6-5d488fcaf69e.png?v=1790175174",
+          "width": 2048,
+          "height": 2048
+        },
+        {
+          "id": 52722574065729,
+          "created_at": "2026-09-23T22:52:52+08:00",
+          "position": 5,
+          "updated_at": "2026-09-23T22:52:54+08:00",
+          "product_id": 10314853417025,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/05-karaoke-arrival-lifestyle.png?v=1790175174",
+          "width": 2048,
+          "height": 2048
+        },
+        {
+          "id": 52722574098497,
+          "created_at": "2026-09-23T22:52:52+08:00",
+          "position": 6,
+          "updated_at": "2026-09-23T22:52:54+08:00",
+          "product_id": 10314853417025,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/06-karaoke-handheld.png?v=1790175174",
+          "width": 2048,
+          "height": 2048
+        },
+        {
+          "id": 52722574131265,
+          "created_at": "2026-09-23T22:52:52+08:00",
+          "position": 7,
+          "updated_at": "2026-09-23T22:52:54+08:00",
+          "product_id": 10314853417025,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/07-karaoke-social.png?v=1790175174",
+          "width": 2048,
+          "height": 2048
+        },
+        {
+          "id": 52722574164033,
+          "created_at": "2026-09-23T22:52:52+08:00",
+          "position": 8,
+          "updated_at": "2026-09-23T22:52:54+08:00",
+          "product_id": 10314853417025,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/08-product-profile-infographic_88be2822-54f8-44be-84c0-0fd729d7a022.png?v=1790175174",
+          "width": 2048,
+          "height": 2048
+        },
+        {
+          "id": 52722574196801,
+          "created_at": "2026-09-23T22:52:52+08:00",
+          "position": 9,
+          "updated_at": "2026-09-23T22:52:54+08:00",
+          "product_id": 10314853417025,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/09-ingredients-and-care-infographic_7c27fc2d-928f-4db2-8ae8-ec6b94d537be.png?v=1790175174",
+          "width": 2048,
+          "height": 2048
+        },
+        {
+          "id": 52722574229569,
+          "created_at": "2026-09-23T22:52:52+08:00",
+          "position": 10,
+          "updated_at": "2026-09-23T22:52:54+08:00",
+          "product_id": 10314853417025,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/10-closing-hero_d11fbd93-747f-4e4e-91a7-ba13d36c5169.png?v=1790175174",
+          "width": 2048,
+          "height": 2048
+        },
+        {
+          "id": 52722574262337,
+          "created_at": "2026-09-23T22:52:52+08:00",
+          "position": 11,
+          "updated_at": "2026-09-23T22:52:54+08:00",
+          "product_id": 10314853417025,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/11-scent-description-infographic_3af3f675-c1c5-431d-9dd0-d2f32c55bcbd.png?v=1790175174",
+          "width": 2048,
+          "height": 2048
+        },
+        {
+          "id": 52722574295105,
+          "created_at": "2026-09-23T22:52:52+08:00",
+          "position": 12,
+          "updated_at": "2026-09-23T22:52:54+08:00",
+          "product_id": 10314853417025,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/12-who-it-fits-infographic_88db6f80-505a-4056-b25f-e57f48ae176f.png?v=1790175174",
+          "width": 2048,
+          "height": 2048
+        }
+      ],
+      "options": [
+        {
+          "name": "Title",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "public_detail": {
+        "media": [
+          {
+            "alt": "Amber Oud Silk 50 ml fragrance bottle and blush-peach presentation canister",
+            "id": 46166651273281,
+            "position": 1,
+            "preview_image": {
+              "aspect_ratio": 1.0,
+              "height": 2048,
+              "width": 2048,
+              "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/01-featured-packshot_988c6213-a167-4a37-801d-a28e2cd27c84.png?v=1790175174"
+            },
+            "aspect_ratio": 1.0,
+            "height": 2048,
+            "media_type": "image",
+            "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/01-featured-packshot_988c6213-a167-4a37-801d-a28e2cd27c84.png?v=1790175174",
+            "width": 2048
+          },
+          {
+            "alt": "Amber Oud Silk bottle and blush-peach canister in a bright architectural setting",
+            "id": 46166651306049,
+            "position": 2,
+            "preview_image": {
+              "aspect_ratio": 1.0,
+              "height": 2048,
+              "width": 2048,
+              "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/02-brand-hero_62f04ac9-6ae5-4452-8c3e-99980d493ea5.png?v=1790175174"
+            },
+            "aspect_ratio": 1.0,
+            "height": 2048,
+            "media_type": "image",
+            "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/02-brand-hero_62f04ac9-6ae5-4452-8c3e-99980d493ea5.png?v=1790175174",
+            "width": 2048
+          },
+          {
+            "alt": "Amber Oud Silk bottle seated in the short canister base beside the tall removable upper section",
+            "id": 46166651338817,
+            "position": 3,
+            "preview_image": {
+              "aspect_ratio": 1.0,
+              "height": 2048,
+              "width": 2048,
+              "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/03-packaging-reveal_5d4c56d5-74fc-43da-9e81-4bbf86da6cd5.png?v=1790175174"
+            },
+            "aspect_ratio": 1.0,
+            "height": 2048,
+            "media_type": "image",
+            "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/03-packaging-reveal_5d4c56d5-74fc-43da-9e81-4bbf86da6cd5.png?v=1790175174",
+            "width": 2048
+          },
+          {
+            "alt": "Close-up of the Amber Oud Silk embossed cap, silver collar, glass bottle and canister",
+            "id": 46166651371585,
+            "position": 4,
+            "preview_image": {
+              "aspect_ratio": 1.0,
+              "height": 2048,
+              "width": 2048,
+              "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/04-material-cap-detail_6c713b0c-e76c-4d24-80a6-5d488fcaf69e.png?v=1790175174"
+            },
+            "aspect_ratio": 1.0,
+            "height": 2048,
+            "media_type": "image",
+            "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/04-material-cap-detail_6c713b0c-e76c-4d24-80a6-5d488fcaf69e.png?v=1790175174",
+            "width": 2048
+          },
+          {
+            "alt": "Woman carrying Amber Oud Silk into a bright karaoke lounge",
+            "id": 46166651404353,
+            "position": 5,
+            "preview_image": {
+              "aspect_ratio": 1.0,
+              "height": 2048,
+              "width": 2048,
+              "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/05-karaoke-arrival-lifestyle.png?v=1790175174"
+            },
+            "aspect_ratio": 1.0,
+            "height": 2048,
+            "media_type": "image",
+            "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/05-karaoke-arrival-lifestyle.png?v=1790175174",
+            "width": 2048
+          },
+          {
+            "alt": "Amber Oud Silk bottle held beside a microphone and karaoke controls",
+            "id": 46166651437121,
+            "position": 6,
+            "preview_image": {
+              "aspect_ratio": 1.0,
+              "height": 2048,
+              "width": 2048,
+              "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/06-karaoke-handheld.png?v=1790175174"
+            },
+            "aspect_ratio": 1.0,
+            "height": 2048,
+            "media_type": "image",
+            "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/06-karaoke-handheld.png?v=1790175174",
+            "width": 2048
+          },
+          {
+            "alt": "Three women singing and laughing with one Amber Oud Silk bottle",
+            "id": 46166651469889,
+            "position": 7,
+            "preview_image": {
+              "aspect_ratio": 1.0,
+              "height": 2048,
+              "width": 2048,
+              "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/07-karaoke-social.png?v=1790175174"
+            },
+            "aspect_ratio": 1.0,
+            "height": 2048,
+            "media_type": "image",
+            "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/07-karaoke-social.png?v=1790175174",
+            "width": 2048
+          },
+          {
+            "alt": "Amber Oud Silk product profile: 50 ml / 1.69 fl. oz., product code P11038",
+            "id": 46166651502657,
+            "position": 8,
+            "preview_image": {
+              "aspect_ratio": 1.0,
+              "height": 2048,
+              "width": 2048,
+              "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/08-product-profile-infographic_88be2822-54f8-44be-84c0-0fd729d7a022.png?v=1790175174"
+            },
+            "aspect_ratio": 1.0,
+            "height": 2048,
+            "media_type": "image",
+            "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/08-product-profile-infographic_88be2822-54f8-44be-84c0-0fd729d7a022.png?v=1790175174",
+            "width": 2048
+          },
+          {
+            "alt": "Amber Oud Silk printed ingredients, barcode 5056795407338 and flammable care information",
+            "id": 46166651535425,
+            "position": 9,
+            "preview_image": {
+              "aspect_ratio": 1.0,
+              "height": 2048,
+              "width": 2048,
+              "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/09-ingredients-and-care-infographic_7c27fc2d-928f-4db2-8ae8-ec6b94d537be.png?v=1790175174"
+            },
+            "aspect_ratio": 1.0,
+            "height": 2048,
+            "media_type": "image",
+            "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/09-ingredients-and-care-infographic_7c27fc2d-928f-4db2-8ae8-ec6b94d537be.png?v=1790175174",
+            "width": 2048
+          },
+          {
+            "alt": "Amber Oud Silk bottle and canister with the headline A Scent Journey",
+            "id": 46166651568193,
+            "position": 10,
+            "preview_image": {
+              "aspect_ratio": 1.0,
+              "height": 2048,
+              "width": 2048,
+              "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/10-closing-hero_d11fbd93-747f-4e4e-91a7-ba13d36c5169.png?v=1790175174"
+            },
+            "aspect_ratio": 1.0,
+            "height": 2048,
+            "media_type": "image",
+            "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/10-closing-hero_d11fbd93-747f-4e4e-91a7-ba13d36c5169.png?v=1790175174",
+            "width": 2048
+          },
+          {
+            "alt": "Amber Oud Silk scent description: Dark spice and smoke with a warm, addictive edge.",
+            "id": 46166651600961,
+            "position": 11,
+            "preview_image": {
+              "aspect_ratio": 1.0,
+              "height": 2048,
+              "width": 2048,
+              "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/11-scent-description-infographic_3af3f675-c1c5-431d-9dd0-d2f32c55bcbd.png?v=1790175174"
+            },
+            "aspect_ratio": 1.0,
+            "height": 2048,
+            "media_type": "image",
+            "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/11-scent-description-infographic_3af3f675-c1c5-431d-9dd0-d2f32c55bcbd.png?v=1790175174",
+            "width": 2048
+          },
+          {
+            "alt": "Amber Oud Silk person-fit guide: For someone drawn to warm depth, smoky spice, and an expressive, addictive edge.",
+            "id": 46166651633729,
+            "position": 12,
+            "preview_image": {
+              "aspect_ratio": 1.0,
+              "height": 2048,
+              "width": 2048,
+              "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/12-who-it-fits-infographic_88db6f80-505a-4056-b25f-e57f48ae176f.png?v=1790175174"
+            },
+            "aspect_ratio": 1.0,
+            "height": 2048,
+            "media_type": "image",
+            "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/12-who-it-fits-infographic_88db6f80-505a-4056-b25f-e57f48ae176f.png?v=1790175174",
+            "width": 2048
+          }
+        ],
+        "description": "  <p>Dark spice and smoke with a warm, addictive edge.</p><p>Amber Oud Silk is a 50 ml fragrance from the women’s line, presented in a clear cylindrical glass bottle with pale blush-peach liquid, a glossy black cap and silver collar, and a blush-peach cylindrical presentation canister.</p><p><strong>Size:</strong> 50 ml / 1.69 fl. oz.</p><p><strong>Ingredients:</strong> Alcohol; Water (Aqua); Fragrance (Parfum); PEG-40 Hydrogenated Castor Oil; Propylene Glycol; Linalool; Limonene; Citronellol; Eugenol; Coumarin; Cinnamal; Citral; Geraniol.</p><p><strong>Care:</strong> Flammable; keep away from heat and open flame.</p>",
+        "options": [
+          {
+            "name": "Title",
+            "position": 1,
+            "values": [
+              "Default Title"
+            ]
+          }
+        ],
+        "available": true
+      }
+    },
+    {
+      "id": 10314005020737,
+      "title": "Charme Envoûtant",
+      "handle": "charme-envoutant",
+      "body_html": "<p>Meet Charme Envoûtant: a 50 ml men's fragrance in a clear glass bottle with amber-orange liquid, a glossy black cap with a silver collar, a black front label, and a vivid-orange cylindrical canister trimmed in black. Bold, warm, and unmistakably yours.</p>",
+      "published_at": "2026-09-24T06:10:39+08:00",
+      "created_at": "2026-09-23T10:56:29+08:00",
+      "updated_at": "2026-09-24T09:15:05+08:00",
+      "vendor": "My Store",
+      "product_type": "",
+      "tags": [
+        "men"
+      ],
+      "variants": [
+        {
+          "id": 50521654067265,
+          "title": "Default Title",
+          "option1": "Default Title",
+          "option2": null,
+          "option3": null,
+          "sku": null,
+          "requires_shipping": true,
+          "taxable": true,
+          "featured_image": null,
+          "available": true,
+          "price": "799.00",
+          "grams": 0,
+          "compare_at_price": null,
+          "position": 1,
+          "product_id": 10314005020737,
+          "created_at": "2026-09-23T10:56:29+08:00",
+          "updated_at": "2026-09-24T09:15:05+08:00"
+        }
+      ],
+      "images": [
+        {
+          "id": 52716009783361,
+          "created_at": "2026-09-23T15:15:11+08:00",
+          "position": 1,
+          "updated_at": "2026-09-23T15:15:13+08:00",
+          "product_id": 10314005020737,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/dear-body-charme-envoutant-01-featured-packshot.png?v=1790147713",
+          "width": 2048,
+          "height": 2048
+        },
+        {
+          "id": 52716009816129,
+          "created_at": "2026-09-23T15:15:11+08:00",
+          "position": 2,
+          "updated_at": "2026-09-23T15:15:13+08:00",
+          "product_id": 10314005020737,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/dear-body-charme-envoutant-02-brand-hero.png?v=1790147713",
+          "width": 2048,
+          "height": 2048
+        },
+        {
+          "id": 52716009848897,
+          "created_at": "2026-09-23T15:15:11+08:00",
+          "position": 3,
+          "updated_at": "2026-09-23T15:15:13+08:00",
+          "product_id": 10314005020737,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/dear-body-charme-envoutant-03-packaging-reveal.png?v=1790147713",
+          "width": 2048,
+          "height": 2048
+        },
+        {
+          "id": 52716009881665,
+          "created_at": "2026-09-23T15:15:11+08:00",
+          "position": 4,
+          "updated_at": "2026-09-23T15:15:13+08:00",
+          "product_id": 10314005020737,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/dear-body-charme-envoutant-04-material-cap-detail.png?v=1790147713",
+          "width": 2048,
+          "height": 2048
+        },
+        {
+          "id": 52716009914433,
+          "created_at": "2026-09-23T15:15:11+08:00",
+          "position": 5,
+          "updated_at": "2026-09-23T15:15:13+08:00",
+          "product_id": 10314005020737,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/dear-body-charme-envoutant-05-mens-red-convertible.png?v=1790147713",
+          "width": 2048,
+          "height": 2048
+        },
+        {
+          "id": 52716009947201,
+          "created_at": "2026-09-23T15:15:11+08:00",
+          "position": 6,
+          "updated_at": "2026-09-23T15:15:13+08:00",
+          "product_id": 10314005020737,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/dear-body-charme-envoutant-06-mens-tropical-handheld.png?v=1790147713",
+          "width": 2048,
+          "height": 2048
+        },
+        {
+          "id": 52716009979969,
+          "created_at": "2026-09-23T15:15:11+08:00",
+          "position": 7,
+          "updated_at": "2026-09-23T15:15:13+08:00",
+          "product_id": 10314005020737,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/dear-body-charme-envoutant-07-mens-social-lifestyle.png?v=1790147713",
+          "width": 2048,
+          "height": 2048
+        },
+        {
+          "id": 52716010012737,
+          "created_at": "2026-09-23T15:15:11+08:00",
+          "position": 8,
+          "updated_at": "2026-09-23T15:15:13+08:00",
+          "product_id": 10314005020737,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/dear-body-charme-envoutant-08-product-profile-infographic.png?v=1790147713",
+          "width": 2048,
+          "height": 2048
+        },
+        {
+          "id": 52716010045505,
+          "created_at": "2026-09-23T15:15:11+08:00",
+          "position": 9,
+          "updated_at": "2026-09-23T15:15:13+08:00",
+          "product_id": 10314005020737,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/dear-body-charme-envoutant-09-ingredients-and-care-infographic.png?v=1790147713",
+          "width": 2048,
+          "height": 2048
+        },
+        {
+          "id": 52716010078273,
+          "created_at": "2026-09-23T15:15:11+08:00",
+          "position": 10,
+          "updated_at": "2026-09-23T15:15:13+08:00",
+          "product_id": 10314005020737,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/dear-body-charme-envoutant-10-closing-hero.png?v=1790147713",
+          "width": 2048,
+          "height": 2048
+        }
+      ],
+      "options": [
+        {
+          "name": "Title",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "public_detail": {
+        "media": [
+          {
+            "alt": "Charme Envoûtant 50 ml fragrance bottle and orange presentation canister on a cream studio background",
+            "id": 46160380067905,
+            "position": 1,
+            "preview_image": {
+              "aspect_ratio": 1.0,
+              "height": 2048,
+              "width": 2048,
+              "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/dear-body-charme-envoutant-01-featured-packshot.png?v=1790147713"
+            },
+            "aspect_ratio": 1.0,
+            "height": 2048,
+            "media_type": "image",
+            "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/dear-body-charme-envoutant-01-featured-packshot.png?v=1790147713",
+            "width": 2048
+          },
+          {
+            "alt": "Charme Envoûtant bottle and orange canister in a warm architectural setting",
+            "id": 46160380100673,
+            "position": 2,
+            "preview_image": {
+              "aspect_ratio": 1.0,
+              "height": 2048,
+              "width": 2048,
+              "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/dear-body-charme-envoutant-02-brand-hero.png?v=1790147713"
+            },
+            "aspect_ratio": 1.0,
+            "height": 2048,
+            "media_type": "image",
+            "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/dear-body-charme-envoutant-02-brand-hero.png?v=1790147713",
+            "width": 2048
+          },
+          {
+            "alt": "Charme Envoûtant open orange canister with the glass bottle beside it",
+            "id": 46160380133441,
+            "position": 3,
+            "preview_image": {
+              "aspect_ratio": 1.0,
+              "height": 2048,
+              "width": 2048,
+              "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/dear-body-charme-envoutant-03-packaging-reveal.png?v=1790147713"
+            },
+            "aspect_ratio": 1.0,
+            "height": 2048,
+            "media_type": "image",
+            "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/dear-body-charme-envoutant-03-packaging-reveal.png?v=1790147713",
+            "width": 2048
+          },
+          {
+            "alt": "Close-up of the Charme Envoûtant embossed cap, black label, amber liquid and orange canister",
+            "id": 46160380166209,
+            "position": 4,
+            "preview_image": {
+              "aspect_ratio": 1.0,
+              "height": 2048,
+              "width": 2048,
+              "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/dear-body-charme-envoutant-04-material-cap-detail.png?v=1790147713"
+            },
+            "aspect_ratio": 1.0,
+            "height": 2048,
+            "media_type": "image",
+            "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/dear-body-charme-envoutant-04-material-cap-detail.png?v=1790147713",
+            "width": 2048
+          },
+          {
+            "alt": "Man holding Charme Envoûtant in a red vintage convertible",
+            "id": 46160380198977,
+            "position": 5,
+            "preview_image": {
+              "aspect_ratio": 1.0,
+              "height": 2048,
+              "width": 2048,
+              "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/dear-body-charme-envoutant-05-mens-red-convertible.png?v=1790147713"
+            },
+            "aspect_ratio": 1.0,
+            "height": 2048,
+            "media_type": "image",
+            "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/dear-body-charme-envoutant-05-mens-red-convertible.png?v=1790147713",
+            "width": 2048
+          },
+          {
+            "alt": "Charme Envoûtant bottle held against a tropical blue sky",
+            "id": 46160380231745,
+            "position": 6,
+            "preview_image": {
+              "aspect_ratio": 1.0,
+              "height": 2048,
+              "width": 2048,
+              "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/dear-body-charme-envoutant-06-mens-tropical-handheld.png?v=1790147713"
+            },
+            "aspect_ratio": 1.0,
+            "height": 2048,
+            "media_type": "image",
+            "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/dear-body-charme-envoutant-06-mens-tropical-handheld.png?v=1790147713",
+            "width": 2048
+          },
+          {
+            "alt": "Man holding Charme Envoûtant on bright architectural steps",
+            "id": 46160380264513,
+            "position": 7,
+            "preview_image": {
+              "aspect_ratio": 1.0,
+              "height": 2048,
+              "width": 2048,
+              "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/dear-body-charme-envoutant-07-mens-social-lifestyle.png?v=1790147713"
+            },
+            "aspect_ratio": 1.0,
+            "height": 2048,
+            "media_type": "image",
+            "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/dear-body-charme-envoutant-07-mens-social-lifestyle.png?v=1790147713",
+            "width": 2048
+          },
+          {
+            "alt": "Charme Envoûtant product profile: 50 ml / 1.69 fl. oz., product code P10738, barcode 5056795407307",
+            "id": 46160380297281,
+            "position": 8,
+            "preview_image": {
+              "aspect_ratio": 1.0,
+              "height": 2048,
+              "width": 2048,
+              "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/dear-body-charme-envoutant-08-product-profile-infographic.png?v=1790147713"
+            },
+            "aspect_ratio": 1.0,
+            "height": 2048,
+            "media_type": "image",
+            "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/dear-body-charme-envoutant-08-product-profile-infographic.png?v=1790147713",
+            "width": 2048
+          },
+          {
+            "alt": "Charme Envoûtant printed ingredients and care information",
+            "id": 46160380330049,
+            "position": 9,
+            "preview_image": {
+              "aspect_ratio": 1.0,
+              "height": 2048,
+              "width": 2048,
+              "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/dear-body-charme-envoutant-09-ingredients-and-care-infographic.png?v=1790147713"
+            },
+            "aspect_ratio": 1.0,
+            "height": 2048,
+            "media_type": "image",
+            "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/dear-body-charme-envoutant-09-ingredients-and-care-infographic.png?v=1790147713",
+            "width": 2048
+          },
+          {
+            "alt": "Charme Envoûtant bottle and canister on a Manila rooftop with the headline A Scent Journey",
+            "id": 46160380362817,
+            "position": 10,
+            "preview_image": {
+              "aspect_ratio": 1.0,
+              "height": 2048,
+              "width": 2048,
+              "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/dear-body-charme-envoutant-10-closing-hero.png?v=1790147713"
+            },
+            "aspect_ratio": 1.0,
+            "height": 2048,
+            "media_type": "image",
+            "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/dear-body-charme-envoutant-10-closing-hero.png?v=1790147713",
+            "width": 2048
+          }
+        ],
+        "description": "<p>Meet Charme Envoûtant: a 50 ml men's fragrance in a clear glass bottle with amber-orange liquid, a glossy black cap with a silver collar, a black front label, and a vivid-orange cylindrical canister trimmed in black. Bold, warm, and unmistakably yours.</p>",
+        "options": [
+          {
+            "name": "Title",
+            "position": 1,
+            "values": [
+              "Default Title"
+            ]
+          }
+        ],
+        "available": true
+      }
+    },
+    {
+      "id": 10314869571649,
+      "title": "Mojito Metallique",
+      "handle": "mojito-metallique",
+      "body_html": "  <p>Soft, creamy sweetness with a light fruity glow.</p><p>Mojito Metallique is a 50 ml fragrance from the women’s line, presented in a clear cylindrical glass bottle with golden-yellow liquid, a glossy black cap and silver collar, and a bright-yellow cylindrical presentation canister.</p><p><strong>Size:</strong> 50 ml / 1.69 fl. oz.</p><p><strong>Ingredients:</strong> Alcohol; Water (Aqua); Fragrance (Parfum); PEG-40 Hydrogenated Castor Oil; Propylene Glycol; Linalool; Limonene; Coumarin; Anise Alcohol.</p><p><strong>Safety:</strong> Flammable pictogram on packaging.</p>",
+      "published_at": "2026-09-24T06:04:03+08:00",
+      "created_at": "2026-09-23T23:03:47+08:00",
+      "updated_at": "2026-09-24T09:15:05+08:00",
+      "vendor": "Dear Body",
+      "product_type": "",
+      "tags": [
+        "women"
+      ],
+      "variants": [
+        {
+          "id": 50526792056897,
+          "title": "Default Title",
+          "option1": "Default Title",
+          "option2": null,
+          "option3": null,
+          "sku": null,
+          "requires_shipping": true,
+          "taxable": false,
+          "featured_image": null,
+          "available": true,
+          "price": "799.00",
+          "grams": 150,
+          "compare_at_price": "1099.00",
+          "position": 1,
+          "product_id": 10314869571649,
+          "created_at": "2026-09-23T23:03:47+08:00",
+          "updated_at": "2026-09-24T09:15:05+08:00"
+        }
+      ],
+      "images": [
+        {
+          "id": 52722587795521,
+          "created_at": "2026-09-23T23:05:22+08:00",
+          "position": 1,
+          "updated_at": "2026-09-23T23:05:24+08:00",
+          "product_id": 10314869571649,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/01-featured-packshot_b919f76b-b0a0-484d-8293-4d51a78a6830.png?v=1790175924",
+          "width": 2048,
+          "height": 2048
+        },
+        {
+          "id": 52722587828289,
+          "created_at": "2026-09-23T23:05:22+08:00",
+          "position": 2,
+          "updated_at": "2026-09-23T23:05:24+08:00",
+          "product_id": 10314869571649,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/02-brand-hero_539f5060-902d-4587-b84a-b06bdc31c1c7.png?v=1790175924",
+          "width": 2048,
+          "height": 2048
+        },
+        {
+          "id": 52722587861057,
+          "created_at": "2026-09-23T23:05:22+08:00",
+          "position": 3,
+          "updated_at": "2026-09-23T23:05:24+08:00",
+          "product_id": 10314869571649,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/03-packaging-reveal_c78fb98f-3177-4202-87d9-5921bc18cd8b.png?v=1790175924",
+          "width": 2048,
+          "height": 2048
+        },
+        {
+          "id": 52722587893825,
+          "created_at": "2026-09-23T23:05:22+08:00",
+          "position": 4,
+          "updated_at": "2026-09-23T23:05:24+08:00",
+          "product_id": 10314869571649,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/04-material-cap-detail_18bfa9cc-8f22-41bf-8116-1c7cd26526be.png?v=1790175924",
+          "width": 2048,
+          "height": 2048
+        },
+        {
+          "id": 52722587926593,
+          "created_at": "2026-09-23T23:05:22+08:00",
+          "position": 5,
+          "updated_at": "2026-09-23T23:05:24+08:00",
+          "product_id": 10314869571649,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/05-dance-studio-arrival-lifestyle.png?v=1790175924",
+          "width": 2048,
+          "height": 2048
+        },
+        {
+          "id": 52722587959361,
+          "created_at": "2026-09-23T23:05:22+08:00",
+          "position": 6,
+          "updated_at": "2026-09-23T23:05:24+08:00",
+          "product_id": 10314869571649,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/06-dance-studio-handheld.png?v=1790175924",
+          "width": 2048,
+          "height": 2048
+        },
+        {
+          "id": 52722587992129,
+          "created_at": "2026-09-23T23:05:22+08:00",
+          "position": 7,
+          "updated_at": "2026-09-23T23:05:24+08:00",
+          "product_id": 10314869571649,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/07-dance-studio-social.png?v=1790175924",
+          "width": 2048,
+          "height": 2048
+        },
+        {
+          "id": 52722588024897,
+          "created_at": "2026-09-23T23:05:22+08:00",
+          "position": 8,
+          "updated_at": "2026-09-23T23:05:24+08:00",
+          "product_id": 10314869571649,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/08-product-profile-infographic_c3bbf387-e661-44b7-92d6-2e3d586df44f.png?v=1790175924",
+          "width": 2048,
+          "height": 2048
+        },
+        {
+          "id": 52722588057665,
+          "created_at": "2026-09-23T23:05:22+08:00",
+          "position": 9,
+          "updated_at": "2026-09-23T23:05:24+08:00",
+          "product_id": 10314869571649,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/09-ingredients-and-care-infographic_d8ff2cbb-6720-48c4-8ca8-4123ee313ac7.png?v=1790175924",
+          "width": 2048,
+          "height": 2048
+        },
+        {
+          "id": 52722588090433,
+          "created_at": "2026-09-23T23:05:22+08:00",
+          "position": 10,
+          "updated_at": "2026-09-23T23:05:24+08:00",
+          "product_id": 10314869571649,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/10-closing-hero_73581175-dbcd-4b1d-b1b1-7e32edd5b197.png?v=1790175924",
+          "width": 2048,
+          "height": 2048
+        },
+        {
+          "id": 52722588123201,
+          "created_at": "2026-09-23T23:05:22+08:00",
+          "position": 11,
+          "updated_at": "2026-09-23T23:05:24+08:00",
+          "product_id": 10314869571649,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/11-scent-description-infographic_8db10b89-30ee-42f7-895e-28193e195730.png?v=1790175924",
+          "width": 2048,
+          "height": 2048
+        },
+        {
+          "id": 52722588155969,
+          "created_at": "2026-09-23T23:05:22+08:00",
+          "position": 12,
+          "updated_at": "2026-09-23T23:05:24+08:00",
+          "product_id": 10314869571649,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/12-who-it-fits-infographic_3365157e-71f0-4030-b121-3b2653aeefad.png?v=1790175924",
+          "width": 2048,
+          "height": 2048
+        }
+      ],
+      "options": [
+        {
+          "name": "Title",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "public_detail": {
+        "media": [
+          {
+            "alt": "Mojito Metallique 50 ml fragrance bottle with its bright-yellow presentation canister",
+            "id": 46166664773697,
+            "position": 1,
+            "preview_image": {
+              "aspect_ratio": 1.0,
+              "height": 2048,
+              "width": 2048,
+              "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/01-featured-packshot_b919f76b-b0a0-484d-8293-4d51a78a6830.png?v=1790175924"
+            },
+            "aspect_ratio": 1.0,
+            "height": 2048,
+            "media_type": "image",
+            "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/01-featured-packshot_b919f76b-b0a0-484d-8293-4d51a78a6830.png?v=1790175924",
+            "width": 2048
+          },
+          {
+            "alt": "Mojito Metallique bottle and yellow canister in a bright architectural setting",
+            "id": 46166664806465,
+            "position": 2,
+            "preview_image": {
+              "aspect_ratio": 1.0,
+              "height": 2048,
+              "width": 2048,
+              "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/02-brand-hero_539f5060-902d-4587-b84a-b06bdc31c1c7.png?v=1790175924"
+            },
+            "aspect_ratio": 1.0,
+            "height": 2048,
+            "media_type": "image",
+            "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/02-brand-hero_539f5060-902d-4587-b84a-b06bdc31c1c7.png?v=1790175924",
+            "width": 2048
+          },
+          {
+            "alt": "Mojito Metallique bottle seated in the short canister base beside the tall removable upper section",
+            "id": 46166664839233,
+            "position": 3,
+            "preview_image": {
+              "aspect_ratio": 1.0,
+              "height": 2048,
+              "width": 2048,
+              "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/03-packaging-reveal_c78fb98f-3177-4202-87d9-5921bc18cd8b.png?v=1790175924"
+            },
+            "aspect_ratio": 1.0,
+            "height": 2048,
+            "media_type": "image",
+            "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/03-packaging-reveal_c78fb98f-3177-4202-87d9-5921bc18cd8b.png?v=1790175924",
+            "width": 2048
+          },
+          {
+            "alt": "Close-up of the Mojito Metallique embossed cap, silver collar, glass bottle and yellow canister",
+            "id": 46166664872001,
+            "position": 4,
+            "preview_image": {
+              "aspect_ratio": 1.0,
+              "height": 2048,
+              "width": 2048,
+              "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/04-material-cap-detail_18bfa9cc-8f22-41bf-8116-1c7cd26526be.png?v=1790175924"
+            },
+            "aspect_ratio": 1.0,
+            "height": 2048,
+            "media_type": "image",
+            "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/04-material-cap-detail_18bfa9cc-8f22-41bf-8116-1c7cd26526be.png?v=1790175924",
+            "width": 2048
+          },
+          {
+            "alt": "Woman carrying Mojito Metallique while arriving at a bright dance studio",
+            "id": 46166664904769,
+            "position": 5,
+            "preview_image": {
+              "aspect_ratio": 1.0,
+              "height": 2048,
+              "width": 2048,
+              "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/05-dance-studio-arrival-lifestyle.png?v=1790175924"
+            },
+            "aspect_ratio": 1.0,
+            "height": 2048,
+            "media_type": "image",
+            "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/05-dance-studio-arrival-lifestyle.png?v=1790175924",
+            "width": 2048
+          },
+          {
+            "alt": "Mojito Metallique bottle held beside yellow headphones and dance rehearsal accessories",
+            "id": 46166664937537,
+            "position": 6,
+            "preview_image": {
+              "aspect_ratio": 1.0,
+              "height": 2048,
+              "width": 2048,
+              "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/06-dance-studio-handheld.png?v=1790175924"
+            },
+            "aspect_ratio": 1.0,
+            "height": 2048,
+            "media_type": "image",
+            "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/06-dance-studio-handheld.png?v=1790175924",
+            "width": 2048
+          },
+          {
+            "alt": "Three women sharing a rehearsal break with one Mojito Metallique bottle",
+            "id": 46166664970305,
+            "position": 7,
+            "preview_image": {
+              "aspect_ratio": 1.0,
+              "height": 2048,
+              "width": 2048,
+              "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/07-dance-studio-social.png?v=1790175924"
+            },
+            "aspect_ratio": 1.0,
+            "height": 2048,
+            "media_type": "image",
+            "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/07-dance-studio-social.png?v=1790175924",
+            "width": 2048
+          },
+          {
+            "alt": "Mojito Metallique product profile: 50 ml / 1.69 fl. oz., product code P11138",
+            "id": 46166665003073,
+            "position": 8,
+            "preview_image": {
+              "aspect_ratio": 1.0,
+              "height": 2048,
+              "width": 2048,
+              "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/08-product-profile-infographic_c3bbf387-e661-44b7-92d6-2e3d586df44f.png?v=1790175924"
+            },
+            "aspect_ratio": 1.0,
+            "height": 2048,
+            "media_type": "image",
+            "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/08-product-profile-infographic_c3bbf387-e661-44b7-92d6-2e3d586df44f.png?v=1790175924",
+            "width": 2048
+          },
+          {
+            "alt": "Mojito Metallique printed ingredients, barcode 5056795407345 and flammable pictogram information",
+            "id": 46166665035841,
+            "position": 9,
+            "preview_image": {
+              "aspect_ratio": 1.0,
+              "height": 2048,
+              "width": 2048,
+              "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/09-ingredients-and-care-infographic_d8ff2cbb-6720-48c4-8ca8-4123ee313ac7.png?v=1790175924"
+            },
+            "aspect_ratio": 1.0,
+            "height": 2048,
+            "media_type": "image",
+            "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/09-ingredients-and-care-infographic_d8ff2cbb-6720-48c4-8ca8-4123ee313ac7.png?v=1790175924",
+            "width": 2048
+          },
+          {
+            "alt": "Mojito Metallique bottle and canister with the headline A Scent Journey",
+            "id": 46166665068609,
+            "position": 10,
+            "preview_image": {
+              "aspect_ratio": 1.0,
+              "height": 2048,
+              "width": 2048,
+              "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/10-closing-hero_73581175-dbcd-4b1d-b1b1-7e32edd5b197.png?v=1790175924"
+            },
+            "aspect_ratio": 1.0,
+            "height": 2048,
+            "media_type": "image",
+            "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/10-closing-hero_73581175-dbcd-4b1d-b1b1-7e32edd5b197.png?v=1790175924",
+            "width": 2048
+          },
+          {
+            "alt": "Mojito Metallique scent description: Soft, creamy sweetness with a light fruity glow.",
+            "id": 46166665101377,
+            "position": 11,
+            "preview_image": {
+              "aspect_ratio": 1.0,
+              "height": 2048,
+              "width": 2048,
+              "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/11-scent-description-infographic_8db10b89-30ee-42f7-895e-28193e195730.png?v=1790175924"
+            },
+            "aspect_ratio": 1.0,
+            "height": 2048,
+            "media_type": "image",
+            "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/11-scent-description-infographic_8db10b89-30ee-42f7-895e-28193e195730.png?v=1790175924",
+            "width": 2048
+          },
+          {
+            "alt": "Mojito Metallique person-fit guide: For someone drawn to soft, creamy sweetness and a light fruity glow.",
+            "id": 46166665134145,
+            "position": 12,
+            "preview_image": {
+              "aspect_ratio": 1.0,
+              "height": 2048,
+              "width": 2048,
+              "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/12-who-it-fits-infographic_3365157e-71f0-4030-b121-3b2653aeefad.png?v=1790175924"
+            },
+            "aspect_ratio": 1.0,
+            "height": 2048,
+            "media_type": "image",
+            "src": "https://cdn.shopify.com/s/files/1/0856/9428/3841/files/12-who-it-fits-infographic_3365157e-71f0-4030-b121-3b2653aeefad.png?v=1790175924",
+            "width": 2048
+          }
+        ],
+        "description": "  <p>Soft, creamy sweetness with a light fruity glow.</p><p>Mojito Metallique is a 50 ml fragrance from the women’s line, presented in a clear cylindrical glass bottle with golden-yellow liquid, a glossy black cap and silver collar, and a bright-yellow cylindrical presentation canister.</p><p><strong>Size:</strong> 50 ml / 1.69 fl. oz.</p><p><strong>Ingredients:</strong> Alcohol; Water (Aqua); Fragrance (Parfum); PEG-40 Hydrogenated Castor Oil; Propylene Glycol; Linalool; Limonene; Coumarin; Anise Alcohol.</p><p><strong>Safety:</strong> Flammable pictogram on packaging.</p>",
+        "options": [
+          {
+            "name": "Title",
+            "position": 1,
+            "values": [
+              "Default Title"
+            ]
+          }
+        ],
+        "available": true
+      }
+    }
+  ],
+  "collections": [
+    {
+      "id": 490485317697,
+      "title": "All Fragrances",
+      "handle": "all-fragrances",
+      "description": null,
+      "published_at": "2026-09-23T10:58:29+08:00",
+      "updated_at": "2026-09-24T06:10:41+08:00",
+      "image": null,
+      "products_count": 4
+    },
+    {
+      "id": 490394058817,
+      "title": "Home page",
+      "handle": "frontpage",
+      "description": null,
+      "published_at": "2026-09-22T13:15:12+08:00",
+      "updated_at": "2026-09-23T10:53:55+08:00",
+      "image": null,
+      "products_count": 1
+    },
+    {
+      "id": 490398613569,
+      "title": "Men's Perfume",
+      "handle": "mens-perfume",
+      "description": "<p>London-formulated scents with depth and warmth. Confident, clean, and made for everyday wear.</p>",
+      "published_at": "2026-09-22T14:48:12+08:00",
+      "updated_at": "2026-09-24T06:14:06+08:00",
+      "image": null,
+      "products_count": 3
+    },
+    {
+      "id": 490398548033,
+      "title": "Women's Perfume",
+      "handle": "womens-perfume",
+      "description": "<p>London-formulated scents with warmth and lift. Expressive, easy to wear, and made to feel personal.</p>",
+      "published_at": "2026-09-22T14:47:06+08:00",
+      "updated_at": "2026-09-24T06:13:04+08:00",
+      "image": null,
+      "products_count": 3
+    }
+  ],
+  "memberships": {
+    "womens-perfume": [
+      "mistened-narcissus",
+      "amber-oud-silk",
+      "mojito-metallique"
+    ],
+    "mens-perfume": [
+      "rtulle-satin",
+      "charme-envoutant",
+      "oud-mirage"
+    ]
+  },
+  "limitations": [
+    "Public endpoint does not expose product metafields, metaobjects, policies, or payment/inventory management settings.",
+    "availability is the current storefront available boolean; actual stock quantity is not public."
+  ],
+  "media_detail_fetched_at": "2026-09-24T01:22:10.587755+00:00",
+  "availability_refreshed_at": "2026-09-24T09:58:18.547091+00:00",
+  "availability_source": "Public read-only https://dearbody.ph/products/{handle}.js"
+}

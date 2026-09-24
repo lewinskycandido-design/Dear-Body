@@ -1,0 +1,871 @@
+{
+  "generatedAt": "2026-09-24T02:38:20.030Z",
+  "results": [
+    {
+      "name": "home",
+      "route": "/",
+      "width": 1440,
+      "mode": "light",
+      "displayLoaded": true,
+      "bodyLoaded": true,
+      "displayFamily": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif",
+      "bodyFamily": "\"Helvetica Now Text\", \"Helvetica Neue\", Arial, sans-serif",
+      "overflow": false,
+      "headingOverflow": false,
+      "faces": [
+        {
+          "family": "Cenzo Flare Bold",
+          "status": "loaded",
+          "weight": "700"
+        },
+        {
+          "family": "Helvetica Now Text",
+          "status": "loaded",
+          "weight": "400"
+        }
+      ]
+    },
+    {
+      "name": "women",
+      "route": "/collections/womens-perfume",
+      "width": 1440,
+      "mode": "light",
+      "displayLoaded": true,
+      "bodyLoaded": true,
+      "displayFamily": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif",
+      "bodyFamily": "\"Helvetica Now Text\", \"Helvetica Neue\", Arial, sans-serif",
+      "overflow": false,
+      "headingOverflow": false,
+      "faces": [
+        {
+          "family": "Cenzo Flare Bold",
+          "status": "loaded",
+          "weight": "700"
+        },
+        {
+          "family": "Helvetica Now Text",
+          "status": "loaded",
+          "weight": "400"
+        }
+      ]
+    },
+    {
+      "name": "men",
+      "route": "/collections/mens-perfume",
+      "width": 1440,
+      "mode": "light",
+      "displayLoaded": true,
+      "bodyLoaded": true,
+      "displayFamily": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif",
+      "bodyFamily": "\"Helvetica Now Text\", \"Helvetica Neue\", Arial, sans-serif",
+      "overflow": false,
+      "headingOverflow": false,
+      "faces": [
+        {
+          "family": "Cenzo Flare Bold",
+          "status": "loaded",
+          "weight": "700"
+        },
+        {
+          "family": "Helvetica Now Text",
+          "status": "loaded",
+          "weight": "400"
+        }
+      ]
+    },
+    {
+      "name": "finder",
+      "route": "/pages/scent-finder",
+      "width": 1440,
+      "mode": "light",
+      "displayLoaded": true,
+      "bodyLoaded": true,
+      "displayFamily": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif",
+      "bodyFamily": "\"Helvetica Now Text\", \"Helvetica Neue\", Arial, sans-serif",
+      "overflow": false,
+      "headingOverflow": false,
+      "faces": [
+        {
+          "family": "Cenzo Flare Bold",
+          "status": "loaded",
+          "weight": "700"
+        },
+        {
+          "family": "Helvetica Now Text",
+          "status": "loaded",
+          "weight": "400"
+        }
+      ]
+    },
+    {
+      "name": "story",
+      "route": "/pages/our-story",
+      "width": 1440,
+      "mode": "light",
+      "displayLoaded": true,
+      "bodyLoaded": true,
+      "displayFamily": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif",
+      "bodyFamily": "\"Helvetica Now Text\", \"Helvetica Neue\", Arial, sans-serif",
+      "overflow": false,
+      "headingOverflow": false,
+      "faces": [
+        {
+          "family": "Cenzo Flare Bold",
+          "status": "loaded",
+          "weight": "700"
+        },
+        {
+          "family": "Helvetica Now Text",
+          "status": "loaded",
+          "weight": "400"
+        }
+      ]
+    },
+    {
+      "name": "product",
+      "route": "/products/mojito-metallique",
+      "width": 1440,
+      "mode": "light",
+      "displayLoaded": true,
+      "bodyLoaded": true,
+      "displayFamily": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif",
+      "bodyFamily": "\"Helvetica Now Text\", \"Helvetica Neue\", Arial, sans-serif",
+      "overflow": false,
+      "headingOverflow": false,
+      "faces": [
+        {
+          "family": "Cenzo Flare Bold",
+          "status": "loaded",
+          "weight": "700"
+        },
+        {
+          "family": "Helvetica Now Text",
+          "status": "loaded",
+          "weight": "400"
+        }
+      ]
+    },
+    {
+      "name": "home",
+      "route": "/",
+      "width": 1440,
+      "mode": "dark",
+      "displayLoaded": true,
+      "bodyLoaded": true,
+      "displayFamily": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif",
+      "bodyFamily": "\"Helvetica Now Text\", \"Helvetica Neue\", Arial, sans-serif",
+      "overflow": false,
+      "headingOverflow": false,
+      "faces": [
+        {
+          "family": "Cenzo Flare Bold",
+          "status": "loaded",
+          "weight": "700"
+        },
+        {
+          "family": "Helvetica Now Text",
+          "status": "loaded",
+          "weight": "400"
+        }
+      ]
+    },
+    {
+      "name": "women",
+      "route": "/collections/womens-perfume",
+      "width": 1440,
+      "mode": "dark",
+      "displayLoaded": true,
+      "bodyLoaded": true,
+      "displayFamily": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif",
+      "bodyFamily": "\"Helvetica Now Text\", \"Helvetica Neue\", Arial, sans-serif",
+      "overflow": false,
+      "headingOverflow": false,
+      "faces": [
+        {
+          "family": "Cenzo Flare Bold",
+          "status": "loaded",
+          "weight": "700"
+        },
+        {
+          "family": "Helvetica Now Text",
+          "status": "loaded",
+          "weight": "400"
+        }
+      ]
+    },
+    {
+      "name": "men",
+      "route": "/collections/mens-perfume",
+      "width": 1440,
+      "mode": "dark",
+      "displayLoaded": true,
+      "bodyLoaded": true,
+      "displayFamily": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif",
+      "bodyFamily": "\"Helvetica Now Text\", \"Helvetica Neue\", Arial, sans-serif",
+      "overflow": false,
+      "headingOverflow": false,
+      "faces": [
+        {
+          "family": "Cenzo Flare Bold",
+          "status": "loaded",
+          "weight": "700"
+        },
+        {
+          "family": "Helvetica Now Text",
+          "status": "loaded",
+          "weight": "400"
+        }
+      ]
+    },
+    {
+      "name": "finder",
+      "route": "/pages/scent-finder",
+      "width": 1440,
+      "mode": "dark",
+      "displayLoaded": true,
+      "bodyLoaded": true,
+      "displayFamily": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif",
+      "bodyFamily": "\"Helvetica Now Text\", \"Helvetica Neue\", Arial, sans-serif",
+      "overflow": false,
+      "headingOverflow": false,
+      "faces": [
+        {
+          "family": "Cenzo Flare Bold",
+          "status": "loaded",
+          "weight": "700"
+        },
+        {
+          "family": "Helvetica Now Text",
+          "status": "loaded",
+          "weight": "400"
+        }
+      ]
+    },
+    {
+      "name": "story",
+      "route": "/pages/our-story",
+      "width": 1440,
+      "mode": "dark",
+      "displayLoaded": true,
+      "bodyLoaded": true,
+      "displayFamily": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif",
+      "bodyFamily": "\"Helvetica Now Text\", \"Helvetica Neue\", Arial, sans-serif",
+      "overflow": false,
+      "headingOverflow": false,
+      "faces": [
+        {
+          "family": "Cenzo Flare Bold",
+          "status": "loaded",
+          "weight": "700"
+        },
+        {
+          "family": "Helvetica Now Text",
+          "status": "loaded",
+          "weight": "400"
+        }
+      ]
+    },
+    {
+      "name": "product",
+      "route": "/products/mojito-metallique",
+      "width": 1440,
+      "mode": "dark",
+      "displayLoaded": true,
+      "bodyLoaded": true,
+      "displayFamily": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif",
+      "bodyFamily": "\"Helvetica Now Text\", \"Helvetica Neue\", Arial, sans-serif",
+      "overflow": false,
+      "headingOverflow": false,
+      "faces": [
+        {
+          "family": "Cenzo Flare Bold",
+          "status": "loaded",
+          "weight": "700"
+        },
+        {
+          "family": "Helvetica Now Text",
+          "status": "loaded",
+          "weight": "400"
+        }
+      ]
+    },
+    {
+      "name": "home",
+      "route": "/",
+      "width": 390,
+      "mode": "light",
+      "displayLoaded": true,
+      "bodyLoaded": true,
+      "displayFamily": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif",
+      "bodyFamily": "\"Helvetica Now Text\", \"Helvetica Neue\", Arial, sans-serif",
+      "overflow": false,
+      "headingOverflow": false,
+      "faces": [
+        {
+          "family": "Cenzo Flare Bold",
+          "status": "loaded",
+          "weight": "700"
+        },
+        {
+          "family": "Helvetica Now Text",
+          "status": "loaded",
+          "weight": "400"
+        }
+      ]
+    },
+    {
+      "name": "women",
+      "route": "/collections/womens-perfume",
+      "width": 390,
+      "mode": "light",
+      "displayLoaded": true,
+      "bodyLoaded": true,
+      "displayFamily": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif",
+      "bodyFamily": "\"Helvetica Now Text\", \"Helvetica Neue\", Arial, sans-serif",
+      "overflow": false,
+      "headingOverflow": false,
+      "faces": [
+        {
+          "family": "Cenzo Flare Bold",
+          "status": "loaded",
+          "weight": "700"
+        },
+        {
+          "family": "Helvetica Now Text",
+          "status": "loaded",
+          "weight": "400"
+        }
+      ]
+    },
+    {
+      "name": "men",
+      "route": "/collections/mens-perfume",
+      "width": 390,
+      "mode": "light",
+      "displayLoaded": true,
+      "bodyLoaded": true,
+      "displayFamily": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif",
+      "bodyFamily": "\"Helvetica Now Text\", \"Helvetica Neue\", Arial, sans-serif",
+      "overflow": false,
+      "headingOverflow": false,
+      "faces": [
+        {
+          "family": "Cenzo Flare Bold",
+          "status": "loaded",
+          "weight": "700"
+        },
+        {
+          "family": "Helvetica Now Text",
+          "status": "loaded",
+          "weight": "400"
+        }
+      ]
+    },
+    {
+      "name": "finder",
+      "route": "/pages/scent-finder",
+      "width": 390,
+      "mode": "light",
+      "displayLoaded": true,
+      "bodyLoaded": true,
+      "displayFamily": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif",
+      "bodyFamily": "\"Helvetica Now Text\", \"Helvetica Neue\", Arial, sans-serif",
+      "overflow": false,
+      "headingOverflow": false,
+      "faces": [
+        {
+          "family": "Cenzo Flare Bold",
+          "status": "loaded",
+          "weight": "700"
+        },
+        {
+          "family": "Helvetica Now Text",
+          "status": "loaded",
+          "weight": "400"
+        }
+      ]
+    },
+    {
+      "name": "story",
+      "route": "/pages/our-story",
+      "width": 390,
+      "mode": "light",
+      "displayLoaded": true,
+      "bodyLoaded": true,
+      "displayFamily": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif",
+      "bodyFamily": "\"Helvetica Now Text\", \"Helvetica Neue\", Arial, sans-serif",
+      "overflow": false,
+      "headingOverflow": false,
+      "faces": [
+        {
+          "family": "Cenzo Flare Bold",
+          "status": "loaded",
+          "weight": "700"
+        },
+        {
+          "family": "Helvetica Now Text",
+          "status": "loaded",
+          "weight": "400"
+        }
+      ]
+    },
+    {
+      "name": "product",
+      "route": "/products/mojito-metallique",
+      "width": 390,
+      "mode": "light",
+      "displayLoaded": true,
+      "bodyLoaded": true,
+      "displayFamily": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif",
+      "bodyFamily": "\"Helvetica Now Text\", \"Helvetica Neue\", Arial, sans-serif",
+      "overflow": false,
+      "headingOverflow": false,
+      "faces": [
+        {
+          "family": "Cenzo Flare Bold",
+          "status": "loaded",
+          "weight": "700"
+        },
+        {
+          "family": "Helvetica Now Text",
+          "status": "loaded",
+          "weight": "400"
+        }
+      ]
+    },
+    {
+      "name": "home",
+      "route": "/",
+      "width": 390,
+      "mode": "dark",
+      "displayLoaded": true,
+      "bodyLoaded": true,
+      "displayFamily": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif",
+      "bodyFamily": "\"Helvetica Now Text\", \"Helvetica Neue\", Arial, sans-serif",
+      "overflow": false,
+      "headingOverflow": false,
+      "faces": [
+        {
+          "family": "Cenzo Flare Bold",
+          "status": "loaded",
+          "weight": "700"
+        },
+        {
+          "family": "Helvetica Now Text",
+          "status": "loaded",
+          "weight": "400"
+        }
+      ]
+    },
+    {
+      "name": "women",
+      "route": "/collections/womens-perfume",
+      "width": 390,
+      "mode": "dark",
+      "displayLoaded": true,
+      "bodyLoaded": true,
+      "displayFamily": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif",
+      "bodyFamily": "\"Helvetica Now Text\", \"Helvetica Neue\", Arial, sans-serif",
+      "overflow": false,
+      "headingOverflow": false,
+      "faces": [
+        {
+          "family": "Cenzo Flare Bold",
+          "status": "loaded",
+          "weight": "700"
+        },
+        {
+          "family": "Helvetica Now Text",
+          "status": "loaded",
+          "weight": "400"
+        }
+      ]
+    },
+    {
+      "name": "men",
+      "route": "/collections/mens-perfume",
+      "width": 390,
+      "mode": "dark",
+      "displayLoaded": true,
+      "bodyLoaded": true,
+      "displayFamily": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif",
+      "bodyFamily": "\"Helvetica Now Text\", \"Helvetica Neue\", Arial, sans-serif",
+      "overflow": false,
+      "headingOverflow": false,
+      "faces": [
+        {
+          "family": "Cenzo Flare Bold",
+          "status": "loaded",
+          "weight": "700"
+        },
+        {
+          "family": "Helvetica Now Text",
+          "status": "loaded",
+          "weight": "400"
+        }
+      ]
+    },
+    {
+      "name": "finder",
+      "route": "/pages/scent-finder",
+      "width": 390,
+      "mode": "dark",
+      "displayLoaded": true,
+      "bodyLoaded": true,
+      "displayFamily": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif",
+      "bodyFamily": "\"Helvetica Now Text\", \"Helvetica Neue\", Arial, sans-serif",
+      "overflow": false,
+      "headingOverflow": false,
+      "faces": [
+        {
+          "family": "Cenzo Flare Bold",
+          "status": "loaded",
+          "weight": "700"
+        },
+        {
+          "family": "Helvetica Now Text",
+          "status": "loaded",
+          "weight": "400"
+        }
+      ]
+    },
+    {
+      "name": "story",
+      "route": "/pages/our-story",
+      "width": 390,
+      "mode": "dark",
+      "displayLoaded": true,
+      "bodyLoaded": true,
+      "displayFamily": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif",
+      "bodyFamily": "\"Helvetica Now Text\", \"Helvetica Neue\", Arial, sans-serif",
+      "overflow": false,
+      "headingOverflow": false,
+      "faces": [
+        {
+          "family": "Cenzo Flare Bold",
+          "status": "loaded",
+          "weight": "700"
+        },
+        {
+          "family": "Helvetica Now Text",
+          "status": "loaded",
+          "weight": "400"
+        }
+      ]
+    },
+    {
+      "name": "product",
+      "route": "/products/mojito-metallique",
+      "width": 390,
+      "mode": "dark",
+      "displayLoaded": true,
+      "bodyLoaded": true,
+      "displayFamily": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif",
+      "bodyFamily": "\"Helvetica Now Text\", \"Helvetica Neue\", Arial, sans-serif",
+      "overflow": false,
+      "headingOverflow": false,
+      "faces": [
+        {
+          "family": "Cenzo Flare Bold",
+          "status": "loaded",
+          "weight": "700"
+        },
+        {
+          "family": "Helvetica Now Text",
+          "status": "loaded",
+          "weight": "400"
+        }
+      ]
+    },
+    {
+      "name": "home",
+      "route": "/",
+      "width": 360,
+      "mode": "light",
+      "displayLoaded": true,
+      "bodyLoaded": true,
+      "displayFamily": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif",
+      "bodyFamily": "\"Helvetica Now Text\", \"Helvetica Neue\", Arial, sans-serif",
+      "overflow": false,
+      "headingOverflow": false,
+      "faces": [
+        {
+          "family": "Cenzo Flare Bold",
+          "status": "loaded",
+          "weight": "700"
+        },
+        {
+          "family": "Helvetica Now Text",
+          "status": "loaded",
+          "weight": "400"
+        }
+      ]
+    },
+    {
+      "name": "women",
+      "route": "/collections/womens-perfume",
+      "width": 360,
+      "mode": "light",
+      "displayLoaded": true,
+      "bodyLoaded": true,
+      "displayFamily": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif",
+      "bodyFamily": "\"Helvetica Now Text\", \"Helvetica Neue\", Arial, sans-serif",
+      "overflow": false,
+      "headingOverflow": false,
+      "faces": [
+        {
+          "family": "Cenzo Flare Bold",
+          "status": "loaded",
+          "weight": "700"
+        },
+        {
+          "family": "Helvetica Now Text",
+          "status": "loaded",
+          "weight": "400"
+        }
+      ]
+    },
+    {
+      "name": "men",
+      "route": "/collections/mens-perfume",
+      "width": 360,
+      "mode": "light",
+      "displayLoaded": true,
+      "bodyLoaded": true,
+      "displayFamily": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif",
+      "bodyFamily": "\"Helvetica Now Text\", \"Helvetica Neue\", Arial, sans-serif",
+      "overflow": false,
+      "headingOverflow": false,
+      "faces": [
+        {
+          "family": "Cenzo Flare Bold",
+          "status": "loaded",
+          "weight": "700"
+        },
+        {
+          "family": "Helvetica Now Text",
+          "status": "loaded",
+          "weight": "400"
+        }
+      ]
+    },
+    {
+      "name": "finder",
+      "route": "/pages/scent-finder",
+      "width": 360,
+      "mode": "light",
+      "displayLoaded": true,
+      "bodyLoaded": true,
+      "displayFamily": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif",
+      "bodyFamily": "\"Helvetica Now Text\", \"Helvetica Neue\", Arial, sans-serif",
+      "overflow": false,
+      "headingOverflow": false,
+      "faces": [
+        {
+          "family": "Cenzo Flare Bold",
+          "status": "loaded",
+          "weight": "700"
+        },
+        {
+          "family": "Helvetica Now Text",
+          "status": "loaded",
+          "weight": "400"
+        }
+      ]
+    },
+    {
+      "name": "story",
+      "route": "/pages/our-story",
+      "width": 360,
+      "mode": "light",
+      "displayLoaded": true,
+      "bodyLoaded": true,
+      "displayFamily": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif",
+      "bodyFamily": "\"Helvetica Now Text\", \"Helvetica Neue\", Arial, sans-serif",
+      "overflow": false,
+      "headingOverflow": false,
+      "faces": [
+        {
+          "family": "Cenzo Flare Bold",
+          "status": "loaded",
+          "weight": "700"
+        },
+        {
+          "family": "Helvetica Now Text",
+          "status": "loaded",
+          "weight": "400"
+        }
+      ]
+    },
+    {
+      "name": "product",
+      "route": "/products/mojito-metallique",
+      "width": 360,
+      "mode": "light",
+      "displayLoaded": true,
+      "bodyLoaded": true,
+      "displayFamily": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif",
+      "bodyFamily": "\"Helvetica Now Text\", \"Helvetica Neue\", Arial, sans-serif",
+      "overflow": false,
+      "headingOverflow": false,
+      "faces": [
+        {
+          "family": "Cenzo Flare Bold",
+          "status": "loaded",
+          "weight": "700"
+        },
+        {
+          "family": "Helvetica Now Text",
+          "status": "loaded",
+          "weight": "400"
+        }
+      ]
+    },
+    {
+      "name": "home",
+      "route": "/",
+      "width": 360,
+      "mode": "dark",
+      "displayLoaded": true,
+      "bodyLoaded": true,
+      "displayFamily": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif",
+      "bodyFamily": "\"Helvetica Now Text\", \"Helvetica Neue\", Arial, sans-serif",
+      "overflow": false,
+      "headingOverflow": false,
+      "faces": [
+        {
+          "family": "Cenzo Flare Bold",
+          "status": "loaded",
+          "weight": "700"
+        },
+        {
+          "family": "Helvetica Now Text",
+          "status": "loaded",
+          "weight": "400"
+        }
+      ]
+    },
+    {
+      "name": "women",
+      "route": "/collections/womens-perfume",
+      "width": 360,
+      "mode": "dark",
+      "displayLoaded": true,
+      "bodyLoaded": true,
+      "displayFamily": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif",
+      "bodyFamily": "\"Helvetica Now Text\", \"Helvetica Neue\", Arial, sans-serif",
+      "overflow": false,
+      "headingOverflow": false,
+      "faces": [
+        {
+          "family": "Cenzo Flare Bold",
+          "status": "loaded",
+          "weight": "700"
+        },
+        {
+          "family": "Helvetica Now Text",
+          "status": "loaded",
+          "weight": "400"
+        }
+      ]
+    },
+    {
+      "name": "men",
+      "route": "/collections/mens-perfume",
+      "width": 360,
+      "mode": "dark",
+      "displayLoaded": true,
+      "bodyLoaded": true,
+      "displayFamily": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif",
+      "bodyFamily": "\"Helvetica Now Text\", \"Helvetica Neue\", Arial, sans-serif",
+      "overflow": false,
+      "headingOverflow": false,
+      "faces": [
+        {
+          "family": "Cenzo Flare Bold",
+          "status": "loaded",
+          "weight": "700"
+        },
+        {
+          "family": "Helvetica Now Text",
+          "status": "loaded",
+          "weight": "400"
+        }
+      ]
+    },
+    {
+      "name": "finder",
+      "route": "/pages/scent-finder",
+      "width": 360,
+      "mode": "dark",
+      "displayLoaded": true,
+      "bodyLoaded": true,
+      "displayFamily": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif",
+      "bodyFamily": "\"Helvetica Now Text\", \"Helvetica Neue\", Arial, sans-serif",
+      "overflow": false,
+      "headingOverflow": false,
+      "faces": [
+        {
+          "family": "Cenzo Flare Bold",
+          "status": "loaded",
+          "weight": "700"
+        },
+        {
+          "family": "Helvetica Now Text",
+          "status": "loaded",
+          "weight": "400"
+        }
+      ]
+    },
+    {
+      "name": "story",
+      "route": "/pages/our-story",
+      "width": 360,
+      "mode": "dark",
+      "displayLoaded": true,
+      "bodyLoaded": true,
+      "displayFamily": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif",
+      "bodyFamily": "\"Helvetica Now Text\", \"Helvetica Neue\", Arial, sans-serif",
+      "overflow": false,
+      "headingOverflow": false,
+      "faces": [
+        {
+          "family": "Cenzo Flare Bold",
+          "status": "loaded",
+          "weight": "700"
+        },
+        {
+          "family": "Helvetica Now Text",
+          "status": "loaded",
+          "weight": "400"
+        }
+      ]
+    },
+    {
+      "name": "product",
+      "route": "/products/mojito-metallique",
+      "width": 360,
+      "mode": "dark",
+      "displayLoaded": true,
+      "bodyLoaded": true,
+      "displayFamily": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif",
+      "bodyFamily": "\"Helvetica Now Text\", \"Helvetica Neue\", Arial, sans-serif",
+      "overflow": false,
+      "headingOverflow": false,
+      "faces": [
+        {
+          "family": "Cenzo Flare Bold",
+          "status": "loaded",
+          "weight": "700"
+        },
+        {
+          "family": "Helvetica Now Text",
+          "status": "loaded",
+          "weight": "400"
+        }
+      ]
+    }
+  ],
+  "failures": [],
+  "errors": []
+}

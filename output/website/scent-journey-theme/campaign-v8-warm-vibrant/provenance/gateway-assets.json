@@ -1,0 +1,54 @@
+[
+  {
+    "file": "sj-women-light.jpg",
+    "tool": "built-in image_gen",
+    "source": "/Users/wetrade/.codex/generated_images/01a0d0f8-8d24-7131-8c77-de85e96f8179/exec-f1f0c58f-9dea-4159-a586-b26449408a3f.png",
+    "original": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/campaign-v8-warm-vibrant/originals/sj-women-light.png",
+    "web": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/campaign-v8-warm-vibrant/final-web/sj-women-light.jpg",
+    "width": 1073,
+    "height": 1466,
+    "sha256": "99cf19915afac89a3326303827641613a3bb1af7e3f07edaa7866e703987e34c",
+    "prompt": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/campaign-v8-warm-vibrant/prompts/sj-women-light.txt",
+    "edit_reference": null,
+    "native_visual_qa": "PASS \u2014 one adult Filipino person, complete head, natural expression and hands, warm sunny everyday setting, no perfume or duplicate people"
+  },
+  {
+    "file": "sj-men-light.jpg",
+    "tool": "built-in image_gen",
+    "source": "/Users/wetrade/.codex/generated_images/01a0d0f8-8d24-7131-8c77-de85e96f8179/exec-2baaf280-6d07-4621-9a07-40a174968a2e.png",
+    "original": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/campaign-v8-warm-vibrant/originals/sj-men-light.png",
+    "web": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/campaign-v8-warm-vibrant/final-web/sj-men-light.jpg",
+    "width": 1073,
+    "height": 1466,
+    "sha256": "039bc0ac25d7106e05c0647b78bb01ff3501fd43e732899dc76716e2501e0f22",
+    "prompt": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/campaign-v8-warm-vibrant/prompts/sj-men-light.txt",
+    "edit_reference": null,
+    "native_visual_qa": "PASS \u2014 one adult Filipino person, complete head, natural expression and hands, warm sunny everyday setting, no perfume or duplicate people"
+  },
+  {
+    "file": "sj-women-dark.jpg",
+    "tool": "built-in image_gen",
+    "source": "/Users/wetrade/.codex/generated_images/01a0d0f8-8d24-7131-8c77-de85e96f8179/exec-33040b61-af3a-4693-b26a-607f49656bc5.png",
+    "original": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/campaign-v8-warm-vibrant/originals/sj-women-dark.png",
+    "web": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/campaign-v8-warm-vibrant/final-web/sj-women-dark.jpg",
+    "width": 1073,
+    "height": 1466,
+    "sha256": "2fd4ee24658c1b678a68bad9c885a4bbfc3e138a7084d2cc47027565836f17cf",
+    "prompt": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/campaign-v8-warm-vibrant/prompts/sj-women-dark.txt",
+    "edit_reference": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/campaign-v8-warm-vibrant/originals/sj-women-light.png",
+    "native_visual_qa": "PASS \u2014 one adult Filipino person, complete head, natural expression and hands, warm sunny everyday setting, no perfume or duplicate people"
+  },
+  {
+    "file": "sj-men-dark.jpg",
+    "tool": "built-in image_gen",
+    "source": "/Users/wetrade/.codex/generated_images/01a0d0f8-8d24-7131-8c77-de85e96f8179/exec-bf8b9c28-3a9e-4302-8988-87437054846a.png",
+    "original": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/campaign-v8-warm-vibrant/originals/sj-men-dark.png",
+    "web": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/campaign-v8-warm-vibrant/final-web/sj-men-dark.jpg",
+    "width": 1073,
+    "height": 1466,
+    "sha256": "6be410940781fc156bc3daae97261f697bb096048b0ec2670768d58263338b1a",
+    "prompt": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/campaign-v8-warm-vibrant/prompts/sj-men-dark.txt",
+    "edit_reference": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/campaign-v8-warm-vibrant/originals/sj-men-light.png",
+    "native_visual_qa": "PASS \u2014 one adult Filipino person, complete head, natural expression and hands, warm sunny everyday setting, no perfume or duplicate people"
+  }
+]

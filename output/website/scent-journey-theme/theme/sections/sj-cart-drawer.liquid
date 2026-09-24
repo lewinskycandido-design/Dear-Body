@@ -1,0 +1,43 @@
+{{ 'sj-purchase-offers.css' | asset_url | stylesheet_tag }}
+{{ 'sj-cart-shipping.css' | asset_url | stylesheet_tag }}
+{{ 'sj-shipping-cards.css' | asset_url | stylesheet_tag }}
+{%- liquid
+  assign shipping_offer_message = ''
+  assign shipping_offer_currency = cart.currency.iso_code | default: cart.currency
+  if shipping_offer_currency == 'PHP' and localization.country.iso_code == 'PH'
+    if cart.item_count == 1
+      assign shipping_offer_message = 'Add 1 more item to qualify for free shipping.'
+    elsif cart.item_count >= 2
+      assign shipping_offer_message = 'Your bag qualifies for free shipping.'
+    endif
+  endif
+-%}
+<dialog class="sj-cart-drawer" id="sj-cart-drawer" aria-labelledby="CartDrawerTitle" data-section-id="{{ section.id }}"><div data-sj-drawer-content><div class="sj-dialog-heading"><h2 id="CartDrawerTitle">YOUR BAG <span>({{ cart.item_count }})</span></h2><button type="button" class="sj-icon-button" data-sj-close-dialog aria-label="Close bag">{% render 'sj-icon', name: 'close' %}</button></div><div class="sj-cart-feedback" role="alert" data-sj-cart-error></div>
+{% if cart.item_count > 0 %}
+  <form action="{{ routes.cart_url }}" method="post" class="sj-cart-form" data-sj-cart-form>
+    <div class="sj-cart-items">{% for item in cart.items %}
+      <article class="sj-cart-item" data-sj-line-key="{{ item.key | escape }}">
+        <a class="sj-cart-item__image" href="{{ item.url }}">{% assign item_alt = item.image.alt | default: item.product.title %}{% render 'sj-product-image', product: item.product, thumbnail: true, alt: item_alt, native_image: item.image %}</a>
+        <div class="sj-cart-item__details"><h3><a href="{{ item.url }}">{{ item.product.title | escape }}</a></h3>{% unless item.product.has_only_default_variant %}<p>{{ item.variant.title | escape }}</p>{% endunless %}
+          {% if item.selling_plan_allocation %}<p>{{ item.selling_plan_allocation.selling_plan.name | escape }}</p>{% endif %}
+          {% for property in item.properties %}{% assign first_character = property.first | slice: 0 %}{% unless property.last == blank or first_character == '_' %}<p class="sj-cart-property">{{ property.first | escape }}: {% if property.last contains '/uploads/' %}<a href="{{ property.last }}">View attachment</a>{% else %}{{ property.last | escape }}{% endif %}</p>{% endunless %}{% endfor %}
+          <p class="sj-cart-item__price">{{ item.final_line_price | money }}{% if item.original_line_price > item.final_line_price %} <s>{{ item.original_line_price | money }}</s>{% endif %}</p>
+          {% if item.unit_price_measurement %}<p class="sj-cart-unit-price">{{ item.unit_price | money }} / {% if item.unit_price_measurement.reference_value != 1 %}{{ item.unit_price_measurement.reference_value }}{% endif %}{{ item.unit_price_measurement.reference_unit }}</p>{% endif %}
+          {% for discount in item.line_level_discount_allocations %}<p class="sj-cart-discount">{{ discount.discount_application.title | escape }} (−{{ discount.amount | money }})</p>{% endfor %}
+          <div class="sj-cart-item__actions"><div class="sj-quantity"><button hidden type="button" data-sj-step="-1" aria-label="Decrease quantity of {{ item.product.title | escape }}">{% render 'sj-icon', name: 'minus' %}</button><label class="sj-visually-hidden" for="Quantity-Drawer-{{ forloop.index }}">Quantity of {{ item.product.title | escape }}</label><input id="Quantity-Drawer-{{ forloop.index }}" type="number" name="updates[]" value="{{ item.quantity }}" min="0" step="1" inputmode="numeric" data-sj-cart-quantity data-line-key="{{ item.key | escape }}"><button hidden type="button" data-sj-step="1" aria-label="Increase quantity of {{ item.product.title | escape }}">{% render 'sj-icon', name: 'plus' %}</button></div><a class="sj-cart-remove" href="{{ item.url_to_remove }}" data-sj-remove="{{ item.key | escape }}" aria-label="Remove {{ item.product.title | escape }}">Remove</a></div>
+        </div>
+      </article>
+    {% endfor %}</div>
+    <div class="sj-cart-summary">
+      <div class="sj-cart-offer" data-sj-shipping-cart-count="{{ cart.item_count }}">{% render 'sj-shipping-offer', variant: 'compact', message: shipping_offer_message %}</div>
+      {% for discount in cart.cart_level_discount_applications %}<p class="sj-cart-discount">{{ discount.title | escape }} <span>−{{ discount.total_allocated_amount | money }}</span></p>{% endfor %}
+      <p class="sj-cart-subtotal"><span>Subtotal</span><strong>{{ cart.total_price | money_with_currency }}</strong></p>
+      {% render 'sj-cart-shipping-summary', cart: cart %}
+      <p class="sj-cart-tax-note">{% if cart.taxes_included %}Taxes included.{% else %}Taxes calculated at checkout.{% endif %}</p>
+      <button class="sj-button sj-cart-checkout" type="submit" name="checkout">Continue to checkout</button>
+      <button class="sj-text-link sj-cart-update" type="submit" name="update" data-sj-native-update>Update bag</button>
+    </div>
+  </form>
+{% else %}<div class="sj-cart-offer sj-cart-offer--empty" data-sj-shipping-cart-count="{{ cart.item_count }}">{% render 'sj-shipping-offer', variant: 'compact' %}</div><div class="sj-empty-state"><p class="sj-cart-empty-mark" aria-hidden="true">01 /</p><h2>Your story<br>starts here.</h2><p>Your bag is waiting for its first chapter.</p><a href="{{ routes.all_products_collection_url }}" class="sj-button">Discover the fragrances</a></div>{% endif %}
+</div><p class="sj-visually-hidden" data-sj-cart-status role="status" aria-live="polite"></p></dialog><p class="sj-visually-hidden" data-sj-cart-status role="status" aria-live="polite"></p>
+{% schema %}{"name":"Cart drawer","settings":[]}{% endschema %}

@@ -1,0 +1,61 @@
+{
+  "handle": "mistened-narcissus",
+  "created_utc": "2026-09-24T04:21:43.724879+00:00",
+  "status": "PASS for local integration",
+  "scope": "One unique product lifestyle header, superseding v5 still-life direction. Existing12-frame galleries and native theme files untouched.",
+  "tool": "Built-in image_gen.imagegen, one generation plus one targeted framing edit; noCLI",
+  "native_source_output": "/Users/wetrade/.codex/generated_images/01a0d0f9-afdf-7412-a990-cf7a45f1c2b6/exec-ee02d2cd-f7af-44cb-9420-edcf337e0a4e.png",
+  "initial_source_output": "/Users/wetrade/.codex/generated_images/01a0d0f9-afdf-7412-a990-cf7a45f1c2b6/exec-aa2b657b-4280-4772-a46a-6d3254545879.png",
+  "original": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/campaign-v6-product-lifestyle/originals/sj-product-banner-mistened-narcissus.png",
+  "web": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/campaign-v6-product-lifestyle/final-web/sj-product-banner-mistened-narcissus.jpg",
+  "dimensions": [
+    1774,
+    887
+  ],
+  "aspect_ratio": "2:1",
+  "original_sha256": "5963cc52b9c0efb34adedc55ca0e1fc6c5c841b831ef93e7ad39f52a8dc5b7a1",
+  "web_sha256": "bb673313dc75f454d06e67c7334ef05b9ae856960ff1faea49670bddd256dd62",
+  "web_bytes": 333772,
+  "format_export": "sips JPEG quality91 at native dimensions, followed by sRGB profile embedding command. No image compositing, retouching, recolouring, cropping, resizing or raster text editing.",
+  "profile_verified_by_sips": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/campaign-v6-product-lifestyle/final-web/sj-product-banner-mistened-narcissus.jpg\n  profile: sRGB IEC61966-2.1\n  space: RGB",
+  "exif_color_space": 1,
+  "references": [
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/theme/assets/sj-mistened-narcissus-01.jpg",
+      "role": "Scent-specific physical identity and capped-bottle label reference",
+      "sha256": "744eff500fb1019469fb841704e04e3329db3f78dc62ad2d9e54fef7df1b434b"
+    },
+    {
+      "path": "/Users/wetrade/.codex/skills/dearbody-scent-gallery/assets/canonical-bottle-proportions.png",
+      "role": "Canonical bottle geometry and50ml scale only",
+      "sha256": "e9a78f20b045b791e1ebd1795a340f1d0804e9f3be7fd06ef971fdc36ddc9399"
+    }
+  ],
+  "approved_copy_source": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/approved-product-copy.json",
+  "approved_scent_direction": "Juicy berry character softened by a smooth sweet finish.",
+  "personality": "Playful expressive Filipina creative enjoying her weekend",
+  "scene": "Attainable independent Manila record/listening shop, berry-pink blouse, cream trousers and canvas bag, ordinary counter, turntable, plain record sleeves and steel-framed window.",
+  "action": "Spontaneous smile while lifting her small capped50ml perfume from the open bag before heading out.",
+  "prompt_files": [
+    "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/campaign-v6-product-lifestyle/prompts/mistened-narcissus.txt",
+    "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/campaign-v6-product-lifestyle/prompts/mistened-narcissus-framing-revision.txt"
+  ],
+  "exact_prompts": [
+    "Use case: photorealistic-natural\nAsset type: new2:1 horizontal lifestyle photograph for a perfume product-page header, native landscape around1774x887. No advertising typography.\nInput image1: authoritative MISTENED NARCISSUS capped scent bottle identity. Image2: canonical50ml bottle shape/scale ONLY. Exact scent identity remains white paper frontlabel with black words MISTENED / NARCISSUS, reference monogram and PARFUM / LONDON, very pale clear/blush liquid, tall cylindrical clearglass, restrained shoulder, substantial clearbase, compact glossyblack seated cylindricalcap. Never import SunsetCocktail text, blacklabel, spray, props or hand from image2. No package canister needed.\nScene: a small warm independent recordshop/listening counter in the Philippines, cozy and physically believable. One adult Filipina woman around27 with shoulder-length darkhair, wearing a berry-pink casual blouse and cream trousers, gives a spontaneous playful smile while lifting her small capped50ml perfume from an open cream canvas crossbodybag on the listening counter before heading out. A simple recordturntable and a few abstract solidcolour vinyl sleeves may sit in softfocus at the far right; no album portraits, text, recordspines with inventedwords or backgroundfaces. She is mid-action, not posing for a fashioncatalog.\nComposition: LEFT45% is an uninterrupted real warmcream plaster wall, quietly lit and empty for live website title. Entire woman/action remains inRIGHT55–95%; face centered approximatelyx75%,y25%, bottlearoundx74%,y65%. Complete head withsafeheadroom, natural medium environmental waist/tablecrop. Only one visible person. The table/counter ends or recedes to the right without crossing the left copyzone; believable shop architecture, lightingand shadows.\nBottleaction: one natural hand lifts the cappedbottle fully clear of openbag while otherhand lightly touches bagstrap. Gripnear bottle neck/cap, fingers do not obscure authentic frontlabel. Bottle is true small50ml scale relative to normal hand, visibleandsharp enough to read name, not enormous or miniature. Capped bottle held generally upright with modest natural tilt, no spray or loosecap. Keep blackcapallblack; thin silverlinebelow seatedcap belongs to bottlecollar. No extra fingers or mergedhands, no floatingobject.\nArt direction: polished natural photographic detail, warmapproachable bright mood, softamber shop daylight, warmcream#F4E3CB wall and woodycounter, controlledberry-pink/burgundy accents; preserve subtleliquid colour. Coherent reflections and shadows, real attainable recordshop, no impossible glowingwalls, no artificialCGset.\nConstraints: exactlyone adultFilipinaface, nootherfacesincluding reflections/photos/posters/screens. No promoheadline, slogan, watermark, additionalbrandmarks or advertisingtext; only truephysicalbottle label. No literalberries, flowers, drinks, ingredientsornewnotes. This scene expresses only approved juicyberry/smoothsweet personality through warmplayful styling. Preserve clearleft45%.\nLocal identity refinement: explicitly an attainable Metro Manila independent OPM vinyl listening shop, ordinary steel-framed storefront window at the far right and simple real shelves, no luxury European boutique. She reads as a playful expressive Filipina creative enjoying her weekend, with natural Filipino facial features and believable medium brown skin texture. Keep album sleeves abstract/plain with no printed people or invented words. No costumes, flags or stereotyped décor. EXACTLY ONE PERSON TOTAL: no background bodies, partial people, silhouettes, reflections or people printed on objects. One woman only.\nCamera framing is deliberately a wider environmental view from mid-thigh or waist upwards, not a tight beauty portrait. Keep the COMPLETE HEAD including all hair visibly below the topedge, with at least10% imageheight of clear wall/architecture ABOVE the hair. Keep entire woman, arms, bag and bottle within right52–94%, not intruding into left45% copywall. The bottle is small relative to adult hand; do not make it giant. Natural comfortable everyday clothing, real modest shop, exactlyoneperson total.\n",
+    "Use case: precise-object-edit\nInput1 is the Mistened lifestyle banner edit target. Input2 is the exact perfume identity reference; input3 is canonical50ml geometry ONLY.\nKeep this same natural adult Filipina, face, spontaneous smile, berry-pink blouse, cream trousers/canvasbag, perfume and believable Manila recordshop. Fix only the camera framing so the complete head has a comfortable visible margin ABOVE the hair and the left elbow does not intrude into the blank wall for copy.\nUse a slightly wider view, shifting her complete figure and bag/action a little farther right. Complete hair should begin around8–10% of canvasheight; all woman/arms/bag should stay beyond50% of canvaswidth. Keep perfume true small50ml handscale; do not enlarge it. Left45% must remain uninterrupted warmcream wall, no figure/arm or objects. Keep the ordinary counter, turntable, plain abstract record sleeves and steelwindow credible and at right. Same exact2:1 aspect ratio and warm light.\nPreserve her anatomy, pose, clothing and skintexture; no additional or duplicated person, no backgroundbody, reflectionface, photos/posterportrait or invented signage. The bottle is fully visible with exactwhite MISTENED NARCISSUS label, authentic lower PARFUM / LONDON brandmark, pale clear blushliquid, black seatedcap, thick clearbase and cylindrical canonicalshape. No extra canister, no headline/promo text, no extra logos or watermark. This is a framing correction only; do not change the scene into a luxuryset or an impossible space.\n"
+  ],
+  "revision_history": "One targeted framing edit added headroom and cleared the elbow from the left copy wall. Full head and naturally scaled bottle are visible, with the person entirely on the right.",
+  "qa": {
+    "individual_full_native_resolution_review": "PASS",
+    "exactly_one_person_total": "PASS; no background body, reflection, poster, photo or screen people",
+    "natural_filipina_casting_and_everyday_wardrobe": "PASS",
+    "ordinary_physically_believable_location": "PASS",
+    "hand_anatomy_grip_product_scale": "PASS",
+    "tall_cylindrical_small50ml_bottle_black_cap_and_scent_identity": "PASS",
+    "complete_head_and_product_visible": "PASS",
+    "quiet_left45_percent_for_live_headline": "PASS",
+    "no_embedded_promotional_type_or_claims": "PASS",
+    "colour_and_native_dimensions": "PASS",
+    "note": "Photographic label is reference-guided generated detail at realistic small50ml scale. Banner is not a substitute for dedicated packshot/PDP label inspection."
+  }
+}

@@ -1,0 +1,1653 @@
+{
+  "scope": "Read-only integration QA of owner-selected, previously audited artwork. No redesign or regeneration.",
+  "generatedAt": "2026-09-24T06:51:42.080507+00:00",
+  "order": [
+    1,
+    11,
+    12,
+    8,
+    9,
+    5,
+    6,
+    7,
+    2,
+    3,
+    4,
+    10
+  ],
+  "checks": [
+    {
+      "pass": true,
+      "label": "Source manifest matches storefront order"
+    },
+    {
+      "pass": true,
+      "label": "72 web exports present"
+    },
+    {
+      "pass": true,
+      "label": "Six scent handles"
+    },
+    {
+      "pass": true,
+      "label": "Original path agrees with owner review manifest",
+      "detail": "reviewed-product-galleries/mojito-metallique/final-web/01.jpg"
+    },
+    {
+      "pass": true,
+      "label": "Original hash matches both manifests",
+      "detail": "reviewed-product-galleries/mojito-metallique/final-web/01.jpg"
+    },
+    {
+      "pass": true,
+      "label": "JPEG derivative hash matches export manifest",
+      "detail": "reviewed-product-galleries/mojito-metallique/final-web/01.jpg"
+    },
+    {
+      "pass": true,
+      "label": "1200px square RGB JPEG",
+      "detail": "reviewed-product-galleries/mojito-metallique/final-web/01.jpg"
+    },
+    {
+      "pass": true,
+      "label": "Original path agrees with owner review manifest",
+      "detail": "reviewed-product-galleries/mojito-metallique/final-web/11.jpg"
+    },
+    {
+      "pass": true,
+      "label": "Original hash matches both manifests",
+      "detail": "reviewed-product-galleries/mojito-metallique/final-web/11.jpg"
+    },
+    {
+      "pass": true,
+      "label": "JPEG derivative hash matches export manifest",
+      "detail": "reviewed-product-galleries/mojito-metallique/final-web/11.jpg"
+    },
+    {
+      "pass": true,
+      "label": "1200px square RGB JPEG",
+      "detail": "reviewed-product-galleries/mojito-metallique/final-web/11.jpg"
+    },
+    {
+      "pass": true,
+      "label": "Original path agrees with owner review manifest",
+      "detail": "reviewed-product-galleries/mojito-metallique/final-web/12.jpg"
+    },
+    {
+      "pass": true,
+      "label": "Original hash matches both manifests",
+      "detail": "reviewed-product-galleries/mojito-metallique/final-web/12.jpg"
+    },
+    {
+      "pass": true,
+      "label": "JPEG derivative hash matches export manifest",
+      "detail": "reviewed-product-galleries/mojito-metallique/final-web/12.jpg"
+    },
+    {
+      "pass": true,
+      "label": "1200px square RGB JPEG",
+      "detail": "reviewed-product-galleries/mojito-metallique/final-web/12.jpg"
+    },
+    {
+      "pass": true,
+      "label": "Original path agrees with owner review manifest",
+      "detail": "reviewed-product-galleries/mojito-metallique/final-web/08.jpg"
+    },
+    {
+      "pass": true,
+      "label": "Original hash matches both manifests",
+      "detail": "reviewed-product-galleries/mojito-metallique/final-web/08.jpg"
+    },
+    {
+      "pass": true,
+      "label": "JPEG derivative hash matches export manifest",
+      "detail": "reviewed-product-galleries/mojito-metallique/final-web/08.jpg"
+    },
+    {
+      "pass": true,
+      "label": "1200px square RGB JPEG",
+      "detail": "reviewed-product-galleries/mojito-metallique/final-web/08.jpg"
+    },
+    {
+      "pass": true,
+      "label": "Original path agrees with owner review manifest",
+      "detail": "reviewed-product-galleries/mojito-metallique/final-web/09.jpg"
+    },
+    {
+      "pass": true,
+      "label": "Original hash matches both manifests",
+      "detail": "reviewed-product-galleries/mojito-metallique/final-web/09.jpg"
+    },
+    {
+      "pass": true,
+      "label": "JPEG derivative hash matches export manifest",
+      "detail": "reviewed-product-galleries/mojito-metallique/final-web/09.jpg"
+    },
+    {
+      "pass": true,
+      "label": "1200px square RGB JPEG",
+      "detail": "reviewed-product-galleries/mojito-metallique/final-web/09.jpg"
+    },
+    {
+      "pass": true,
+      "label": "Original path agrees with owner review manifest",
+      "detail": "reviewed-product-galleries/mojito-metallique/final-web/05.jpg"
+    },
+    {
+      "pass": true,
+      "label": "Original hash matches both manifests",
+      "detail": "reviewed-product-galleries/mojito-metallique/final-web/05.jpg"
+    },
+    {
+      "pass": true,
+      "label": "JPEG derivative hash matches export manifest",
+      "detail": "reviewed-product-galleries/mojito-metallique/final-web/05.jpg"
+    },
+    {
+      "pass": true,
+      "label": "1200px square RGB JPEG",
+      "detail": "reviewed-product-galleries/mojito-metallique/final-web/05.jpg"
+    },
+    {
+      "pass": true,
+      "label": "Original path agrees with owner review manifest",
+      "detail": "reviewed-product-galleries/mojito-metallique/final-web/06.jpg"
+    },
+    {
+      "pass": true,
+      "label": "Original hash matches both manifests",
+      "detail": "reviewed-product-galleries/mojito-metallique/final-web/06.jpg"
+    },
+    {
+      "pass": true,
+      "label": "JPEG derivative hash matches export manifest",
+      "detail": "reviewed-product-galleries/mojito-metallique/final-web/06.jpg"
+    },
+    {
+      "pass": true,
+      "label": "1200px square RGB JPEG",
+      "detail": "reviewed-product-galleries/mojito-metallique/final-web/06.jpg"
+    },
+    {
+      "pass": true,
+      "label": "Original path agrees with owner review manifest",
+      "detail": "reviewed-product-galleries/mojito-metallique/final-web/07.jpg"
+    },
+    {
+      "pass": true,
+      "label": "Original hash matches both manifests",
+      "detail": "reviewed-product-galleries/mojito-metallique/final-web/07.jpg"
+    },
+    {
+      "pass": true,
+      "label": "JPEG derivative hash matches export manifest",
+      "detail": "reviewed-product-galleries/mojito-metallique/final-web/07.jpg"
+    },
+    {
+      "pass": true,
+      "label": "1200px square RGB JPEG",
+      "detail": "reviewed-product-galleries/mojito-metallique/final-web/07.jpg"
+    },
+    {
+      "pass": true,
+      "label": "Original path agrees with owner review manifest",
+      "detail": "reviewed-product-galleries/mojito-metallique/final-web/02.jpg"
+    },
+    {
+      "pass": true,
+      "label": "Original hash matches both manifests",
+      "detail": "reviewed-product-galleries/mojito-metallique/final-web/02.jpg"
+    },
+    {
+      "pass": true,
+      "label": "JPEG derivative hash matches export manifest",
+      "detail": "reviewed-product-galleries/mojito-metallique/final-web/02.jpg"
+    },
+    {
+      "pass": true,
+      "label": "1200px square RGB JPEG",
+      "detail": "reviewed-product-galleries/mojito-metallique/final-web/02.jpg"
+    },
+    {
+      "pass": true,
+      "label": "Original path agrees with owner review manifest",
+      "detail": "reviewed-product-galleries/mojito-metallique/final-web/03.jpg"
+    },
+    {
+      "pass": true,
+      "label": "Original hash matches both manifests",
+      "detail": "reviewed-product-galleries/mojito-metallique/final-web/03.jpg"
+    },
+    {
+      "pass": true,
+      "label": "JPEG derivative hash matches export manifest",
+      "detail": "reviewed-product-galleries/mojito-metallique/final-web/03.jpg"
+    },
+    {
+      "pass": true,
+      "label": "1200px square RGB JPEG",
+      "detail": "reviewed-product-galleries/mojito-metallique/final-web/03.jpg"
+    },
+    {
+      "pass": true,
+      "label": "Original path agrees with owner review manifest",
+      "detail": "reviewed-product-galleries/mojito-metallique/final-web/04.jpg"
+    },
+    {
+      "pass": true,
+      "label": "Original hash matches both manifests",
+      "detail": "reviewed-product-galleries/mojito-metallique/final-web/04.jpg"
+    },
+    {
+      "pass": true,
+      "label": "JPEG derivative hash matches export manifest",
+      "detail": "reviewed-product-galleries/mojito-metallique/final-web/04.jpg"
+    },
+    {
+      "pass": true,
+      "label": "1200px square RGB JPEG",
+      "detail": "reviewed-product-galleries/mojito-metallique/final-web/04.jpg"
+    },
+    {
+      "pass": true,
+      "label": "Original path agrees with owner review manifest",
+      "detail": "reviewed-product-galleries/mojito-metallique/final-web/10.jpg"
+    },
+    {
+      "pass": true,
+      "label": "Original hash matches both manifests",
+      "detail": "reviewed-product-galleries/mojito-metallique/final-web/10.jpg"
+    },
+    {
+      "pass": true,
+      "label": "JPEG derivative hash matches export manifest",
+      "detail": "reviewed-product-galleries/mojito-metallique/final-web/10.jpg"
+    },
+    {
+      "pass": true,
+      "label": "1200px square RGB JPEG",
+      "detail": "reviewed-product-galleries/mojito-metallique/final-web/10.jpg"
+    },
+    {
+      "pass": true,
+      "label": "Original path agrees with owner review manifest",
+      "detail": "reviewed-product-galleries/amber-oud-silk/final-web/01.jpg"
+    },
+    {
+      "pass": true,
+      "label": "Original hash matches both manifests",
+      "detail": "reviewed-product-galleries/amber-oud-silk/final-web/01.jpg"
+    },
+    {
+      "pass": true,
+      "label": "JPEG derivative hash matches export manifest",
+      "detail": "reviewed-product-galleries/amber-oud-silk/final-web/01.jpg"
+    },
+    {
+      "pass": true,
+      "label": "1200px square RGB JPEG",
+      "detail": "reviewed-product-galleries/amber-oud-silk/final-web/01.jpg"
+    },
+    {
+      "pass": true,
+      "label": "Original path agrees with owner review manifest",
+      "detail": "reviewed-product-galleries/amber-oud-silk/final-web/11.jpg"
+    },
+    {
+      "pass": true,
+      "label": "Original hash matches both manifests",
+      "detail": "reviewed-product-galleries/amber-oud-silk/final-web/11.jpg"
+    },
+    {
+      "pass": true,
+      "label": "JPEG derivative hash matches export manifest",
+      "detail": "reviewed-product-galleries/amber-oud-silk/final-web/11.jpg"
+    },
+    {
+      "pass": true,
+      "label": "1200px square RGB JPEG",
+      "detail": "reviewed-product-galleries/amber-oud-silk/final-web/11.jpg"
+    },
+    {
+      "pass": true,
+      "label": "Original path agrees with owner review manifest",
+      "detail": "reviewed-product-galleries/amber-oud-silk/final-web/12.jpg"
+    },
+    {
+      "pass": true,
+      "label": "Original hash matches both manifests",
+      "detail": "reviewed-product-galleries/amber-oud-silk/final-web/12.jpg"
+    },
+    {
+      "pass": true,
+      "label": "JPEG derivative hash matches export manifest",
+      "detail": "reviewed-product-galleries/amber-oud-silk/final-web/12.jpg"
+    },
+    {
+      "pass": true,
+      "label": "1200px square RGB JPEG",
+      "detail": "reviewed-product-galleries/amber-oud-silk/final-web/12.jpg"
+    },
+    {
+      "pass": true,
+      "label": "Original path agrees with owner review manifest",
+      "detail": "reviewed-product-galleries/amber-oud-silk/final-web/08.jpg"
+    },
+    {
+      "pass": true,
+      "label": "Original hash matches both manifests",
+      "detail": "reviewed-product-galleries/amber-oud-silk/final-web/08.jpg"
+    },
+    {
+      "pass": true,
+      "label": "JPEG derivative hash matches export manifest",
+      "detail": "reviewed-product-galleries/amber-oud-silk/final-web/08.jpg"
+    },
+    {
+      "pass": true,
+      "label": "1200px square RGB JPEG",
+      "detail": "reviewed-product-galleries/amber-oud-silk/final-web/08.jpg"
+    },
+    {
+      "pass": true,
+      "label": "Original path agrees with owner review manifest",
+      "detail": "reviewed-product-galleries/amber-oud-silk/final-web/09.jpg"
+    },
+    {
+      "pass": true,
+      "label": "Original hash matches both manifests",
+      "detail": "reviewed-product-galleries/amber-oud-silk/final-web/09.jpg"
+    },
+    {
+      "pass": true,
+      "label": "JPEG derivative hash matches export manifest",
+      "detail": "reviewed-product-galleries/amber-oud-silk/final-web/09.jpg"
+    },
+    {
+      "pass": true,
+      "label": "1200px square RGB JPEG",
+      "detail": "reviewed-product-galleries/amber-oud-silk/final-web/09.jpg"
+    },
+    {
+      "pass": true,
+      "label": "Original path agrees with owner review manifest",
+      "detail": "reviewed-product-galleries/amber-oud-silk/final-web/05.jpg"
+    },
+    {
+      "pass": true,
+      "label": "Original hash matches both manifests",
+      "detail": "reviewed-product-galleries/amber-oud-silk/final-web/05.jpg"
+    },
+    {
+      "pass": true,
+      "label": "JPEG derivative hash matches export manifest",
+      "detail": "reviewed-product-galleries/amber-oud-silk/final-web/05.jpg"
+    },
+    {
+      "pass": true,
+      "label": "1200px square RGB JPEG",
+      "detail": "reviewed-product-galleries/amber-oud-silk/final-web/05.jpg"
+    },
+    {
+      "pass": true,
+      "label": "Original path agrees with owner review manifest",
+      "detail": "reviewed-product-galleries/amber-oud-silk/final-web/06.jpg"
+    },
+    {
+      "pass": true,
+      "label": "Original hash matches both manifests",
+      "detail": "reviewed-product-galleries/amber-oud-silk/final-web/06.jpg"
+    },
+    {
+      "pass": true,
+      "label": "JPEG derivative hash matches export manifest",
+      "detail": "reviewed-product-galleries/amber-oud-silk/final-web/06.jpg"
+    },
+    {
+      "pass": true,
+      "label": "1200px square RGB JPEG",
+      "detail": "reviewed-product-galleries/amber-oud-silk/final-web/06.jpg"
+    },
+    {
+      "pass": true,
+      "label": "Original path agrees with owner review manifest",
+      "detail": "reviewed-product-galleries/amber-oud-silk/final-web/07.jpg"
+    },
+    {
+      "pass": true,
+      "label": "Original hash matches both manifests",
+      "detail": "reviewed-product-galleries/amber-oud-silk/final-web/07.jpg"
+    },
+    {
+      "pass": true,
+      "label": "JPEG derivative hash matches export manifest",
+      "detail": "reviewed-product-galleries/amber-oud-silk/final-web/07.jpg"
+    },
+    {
+      "pass": true,
+      "label": "1200px square RGB JPEG",
+      "detail": "reviewed-product-galleries/amber-oud-silk/final-web/07.jpg"
+    },
+    {
+      "pass": true,
+      "label": "Original path agrees with owner review manifest",
+      "detail": "reviewed-product-galleries/amber-oud-silk/final-web/02.jpg"
+    },
+    {
+      "pass": true,
+      "label": "Original hash matches both manifests",
+      "detail": "reviewed-product-galleries/amber-oud-silk/final-web/02.jpg"
+    },
+    {
+      "pass": true,
+      "label": "JPEG derivative hash matches export manifest",
+      "detail": "reviewed-product-galleries/amber-oud-silk/final-web/02.jpg"
+    },
+    {
+      "pass": true,
+      "label": "1200px square RGB JPEG",
+      "detail": "reviewed-product-galleries/amber-oud-silk/final-web/02.jpg"
+    },
+    {
+      "pass": true,
+      "label": "Original path agrees with owner review manifest",
+      "detail": "reviewed-product-galleries/amber-oud-silk/final-web/03.jpg"
+    },
+    {
+      "pass": true,
+      "label": "Original hash matches both manifests",
+      "detail": "reviewed-product-galleries/amber-oud-silk/final-web/03.jpg"
+    },
+    {
+      "pass": true,
+      "label": "JPEG derivative hash matches export manifest",
+      "detail": "reviewed-product-galleries/amber-oud-silk/final-web/03.jpg"
+    },
+    {
+      "pass": true,
+      "label": "1200px square RGB JPEG",
+      "detail": "reviewed-product-galleries/amber-oud-silk/final-web/03.jpg"
+    },
+    {
+      "pass": true,
+      "label": "Original path agrees with owner review manifest",
+      "detail": "reviewed-product-galleries/amber-oud-silk/final-web/04.jpg"
+    },
+    {
+      "pass": true,
+      "label": "Original hash matches both manifests",
+      "detail": "reviewed-product-galleries/amber-oud-silk/final-web/04.jpg"
+    },
+    {
+      "pass": true,
+      "label": "JPEG derivative hash matches export manifest",
+      "detail": "reviewed-product-galleries/amber-oud-silk/final-web/04.jpg"
+    },
+    {
+      "pass": true,
+      "label": "1200px square RGB JPEG",
+      "detail": "reviewed-product-galleries/amber-oud-silk/final-web/04.jpg"
+    },
+    {
+      "pass": true,
+      "label": "Original path agrees with owner review manifest",
+      "detail": "reviewed-product-galleries/amber-oud-silk/final-web/10.jpg"
+    },
+    {
+      "pass": true,
+      "label": "Original hash matches both manifests",
+      "detail": "reviewed-product-galleries/amber-oud-silk/final-web/10.jpg"
+    },
+    {
+      "pass": true,
+      "label": "JPEG derivative hash matches export manifest",
+      "detail": "reviewed-product-galleries/amber-oud-silk/final-web/10.jpg"
+    },
+    {
+      "pass": true,
+      "label": "1200px square RGB JPEG",
+      "detail": "reviewed-product-galleries/amber-oud-silk/final-web/10.jpg"
+    },
+    {
+      "pass": true,
+      "label": "Original path agrees with owner review manifest",
+      "detail": "reviewed-product-galleries/mistened-narcissus/final-web/01.jpg"
+    },
+    {
+      "pass": true,
+      "label": "Original hash matches both manifests",
+      "detail": "reviewed-product-galleries/mistened-narcissus/final-web/01.jpg"
+    },
+    {
+      "pass": true,
+      "label": "JPEG derivative hash matches export manifest",
+      "detail": "reviewed-product-galleries/mistened-narcissus/final-web/01.jpg"
+    },
+    {
+      "pass": true,
+      "label": "1200px square RGB JPEG",
+      "detail": "reviewed-product-galleries/mistened-narcissus/final-web/01.jpg"
+    },
+    {
+      "pass": true,
+      "label": "Original path agrees with owner review manifest",
+      "detail": "reviewed-product-galleries/mistened-narcissus/final-web/11.jpg"
+    },
+    {
+      "pass": true,
+      "label": "Original hash matches both manifests",
+      "detail": "reviewed-product-galleries/mistened-narcissus/final-web/11.jpg"
+    },
+    {
+      "pass": true,
+      "label": "JPEG derivative hash matches export manifest",
+      "detail": "reviewed-product-galleries/mistened-narcissus/final-web/11.jpg"
+    },
+    {
+      "pass": true,
+      "label": "1200px square RGB JPEG",
+      "detail": "reviewed-product-galleries/mistened-narcissus/final-web/11.jpg"
+    },
+    {
+      "pass": true,
+      "label": "Original path agrees with owner review manifest",
+      "detail": "reviewed-product-galleries/mistened-narcissus/final-web/12.jpg"
+    },
+    {
+      "pass": true,
+      "label": "Original hash matches both manifests",
+      "detail": "reviewed-product-galleries/mistened-narcissus/final-web/12.jpg"
+    },
+    {
+      "pass": true,
+      "label": "JPEG derivative hash matches export manifest",
+      "detail": "reviewed-product-galleries/mistened-narcissus/final-web/12.jpg"
+    },
+    {
+      "pass": true,
+      "label": "1200px square RGB JPEG",
+      "detail": "reviewed-product-galleries/mistened-narcissus/final-web/12.jpg"
+    },
+    {
+      "pass": true,
+      "label": "Original path agrees with owner review manifest",
+      "detail": "reviewed-product-galleries/mistened-narcissus/final-web/08.jpg"
+    },
+    {
+      "pass": true,
+      "label": "Original hash matches both manifests",
+      "detail": "reviewed-product-galleries/mistened-narcissus/final-web/08.jpg"
+    },
+    {
+      "pass": true,
+      "label": "JPEG derivative hash matches export manifest",
+      "detail": "reviewed-product-galleries/mistened-narcissus/final-web/08.jpg"
+    },
+    {
+      "pass": true,
+      "label": "1200px square RGB JPEG",
+      "detail": "reviewed-product-galleries/mistened-narcissus/final-web/08.jpg"
+    },
+    {
+      "pass": true,
+      "label": "Original path agrees with owner review manifest",
+      "detail": "reviewed-product-galleries/mistened-narcissus/final-web/09.jpg"
+    },
+    {
+      "pass": true,
+      "label": "Original hash matches both manifests",
+      "detail": "reviewed-product-galleries/mistened-narcissus/final-web/09.jpg"
+    },
+    {
+      "pass": true,
+      "label": "JPEG derivative hash matches export manifest",
+      "detail": "reviewed-product-galleries/mistened-narcissus/final-web/09.jpg"
+    },
+    {
+      "pass": true,
+      "label": "1200px square RGB JPEG",
+      "detail": "reviewed-product-galleries/mistened-narcissus/final-web/09.jpg"
+    },
+    {
+      "pass": true,
+      "label": "Original path agrees with owner review manifest",
+      "detail": "reviewed-product-galleries/mistened-narcissus/final-web/05.jpg"
+    },
+    {
+      "pass": true,
+      "label": "Original hash matches both manifests",
+      "detail": "reviewed-product-galleries/mistened-narcissus/final-web/05.jpg"
+    },
+    {
+      "pass": true,
+      "label": "JPEG derivative hash matches export manifest",
+      "detail": "reviewed-product-galleries/mistened-narcissus/final-web/05.jpg"
+    },
+    {
+      "pass": true,
+      "label": "1200px square RGB JPEG",
+      "detail": "reviewed-product-galleries/mistened-narcissus/final-web/05.jpg"
+    },
+    {
+      "pass": true,
+      "label": "Original path agrees with owner review manifest",
+      "detail": "reviewed-product-galleries/mistened-narcissus/final-web/06.jpg"
+    },
+    {
+      "pass": true,
+      "label": "Original hash matches both manifests",
+      "detail": "reviewed-product-galleries/mistened-narcissus/final-web/06.jpg"
+    },
+    {
+      "pass": true,
+      "label": "JPEG derivative hash matches export manifest",
+      "detail": "reviewed-product-galleries/mistened-narcissus/final-web/06.jpg"
+    },
+    {
+      "pass": true,
+      "label": "1200px square RGB JPEG",
+      "detail": "reviewed-product-galleries/mistened-narcissus/final-web/06.jpg"
+    },
+    {
+      "pass": true,
+      "label": "Original path agrees with owner review manifest",
+      "detail": "reviewed-product-galleries/mistened-narcissus/final-web/07.jpg"
+    },
+    {
+      "pass": true,
+      "label": "Original hash matches both manifests",
+      "detail": "reviewed-product-galleries/mistened-narcissus/final-web/07.jpg"
+    },
+    {
+      "pass": true,
+      "label": "JPEG derivative hash matches export manifest",
+      "detail": "reviewed-product-galleries/mistened-narcissus/final-web/07.jpg"
+    },
+    {
+      "pass": true,
+      "label": "1200px square RGB JPEG",
+      "detail": "reviewed-product-galleries/mistened-narcissus/final-web/07.jpg"
+    },
+    {
+      "pass": true,
+      "label": "Original path agrees with owner review manifest",
+      "detail": "reviewed-product-galleries/mistened-narcissus/final-web/02.jpg"
+    },
+    {
+      "pass": true,
+      "label": "Original hash matches both manifests",
+      "detail": "reviewed-product-galleries/mistened-narcissus/final-web/02.jpg"
+    },
+    {
+      "pass": true,
+      "label": "JPEG derivative hash matches export manifest",
+      "detail": "reviewed-product-galleries/mistened-narcissus/final-web/02.jpg"
+    },
+    {
+      "pass": true,
+      "label": "1200px square RGB JPEG",
+      "detail": "reviewed-product-galleries/mistened-narcissus/final-web/02.jpg"
+    },
+    {
+      "pass": true,
+      "label": "Original path agrees with owner review manifest",
+      "detail": "reviewed-product-galleries/mistened-narcissus/final-web/03.jpg"
+    },
+    {
+      "pass": true,
+      "label": "Original hash matches both manifests",
+      "detail": "reviewed-product-galleries/mistened-narcissus/final-web/03.jpg"
+    },
+    {
+      "pass": true,
+      "label": "JPEG derivative hash matches export manifest",
+      "detail": "reviewed-product-galleries/mistened-narcissus/final-web/03.jpg"
+    },
+    {
+      "pass": true,
+      "label": "1200px square RGB JPEG",
+      "detail": "reviewed-product-galleries/mistened-narcissus/final-web/03.jpg"
+    },
+    {
+      "pass": true,
+      "label": "Original path agrees with owner review manifest",
+      "detail": "reviewed-product-galleries/mistened-narcissus/final-web/04.jpg"
+    },
+    {
+      "pass": true,
+      "label": "Original hash matches both manifests",
+      "detail": "reviewed-product-galleries/mistened-narcissus/final-web/04.jpg"
+    },
+    {
+      "pass": true,
+      "label": "JPEG derivative hash matches export manifest",
+      "detail": "reviewed-product-galleries/mistened-narcissus/final-web/04.jpg"
+    },
+    {
+      "pass": true,
+      "label": "1200px square RGB JPEG",
+      "detail": "reviewed-product-galleries/mistened-narcissus/final-web/04.jpg"
+    },
+    {
+      "pass": true,
+      "label": "Original path agrees with owner review manifest",
+      "detail": "reviewed-product-galleries/mistened-narcissus/final-web/10.jpg"
+    },
+    {
+      "pass": true,
+      "label": "Original hash matches both manifests",
+      "detail": "reviewed-product-galleries/mistened-narcissus/final-web/10.jpg"
+    },
+    {
+      "pass": true,
+      "label": "JPEG derivative hash matches export manifest",
+      "detail": "reviewed-product-galleries/mistened-narcissus/final-web/10.jpg"
+    },
+    {
+      "pass": true,
+      "label": "1200px square RGB JPEG",
+      "detail": "reviewed-product-galleries/mistened-narcissus/final-web/10.jpg"
+    },
+    {
+      "pass": true,
+      "label": "Original path agrees with owner review manifest",
+      "detail": "reviewed-product-galleries/charme-envoutant/final-web/01.jpg"
+    },
+    {
+      "pass": true,
+      "label": "Original hash matches both manifests",
+      "detail": "reviewed-product-galleries/charme-envoutant/final-web/01.jpg"
+    },
+    {
+      "pass": true,
+      "label": "JPEG derivative hash matches export manifest",
+      "detail": "reviewed-product-galleries/charme-envoutant/final-web/01.jpg"
+    },
+    {
+      "pass": true,
+      "label": "1200px square RGB JPEG",
+      "detail": "reviewed-product-galleries/charme-envoutant/final-web/01.jpg"
+    },
+    {
+      "pass": true,
+      "label": "Original path agrees with owner review manifest",
+      "detail": "reviewed-product-galleries/charme-envoutant/final-web/11.jpg"
+    },
+    {
+      "pass": true,
+      "label": "Original hash matches both manifests",
+      "detail": "reviewed-product-galleries/charme-envoutant/final-web/11.jpg"
+    },
+    {
+      "pass": true,
+      "label": "JPEG derivative hash matches export manifest",
+      "detail": "reviewed-product-galleries/charme-envoutant/final-web/11.jpg"
+    },
+    {
+      "pass": true,
+      "label": "1200px square RGB JPEG",
+      "detail": "reviewed-product-galleries/charme-envoutant/final-web/11.jpg"
+    },
+    {
+      "pass": true,
+      "label": "Original path agrees with owner review manifest",
+      "detail": "reviewed-product-galleries/charme-envoutant/final-web/12.jpg"
+    },
+    {
+      "pass": true,
+      "label": "Original hash matches both manifests",
+      "detail": "reviewed-product-galleries/charme-envoutant/final-web/12.jpg"
+    },
+    {
+      "pass": true,
+      "label": "JPEG derivative hash matches export manifest",
+      "detail": "reviewed-product-galleries/charme-envoutant/final-web/12.jpg"
+    },
+    {
+      "pass": true,
+      "label": "1200px square RGB JPEG",
+      "detail": "reviewed-product-galleries/charme-envoutant/final-web/12.jpg"
+    },
+    {
+      "pass": true,
+      "label": "Original path agrees with owner review manifest",
+      "detail": "reviewed-product-galleries/charme-envoutant/final-web/08.jpg"
+    },
+    {
+      "pass": true,
+      "label": "Original hash matches both manifests",
+      "detail": "reviewed-product-galleries/charme-envoutant/final-web/08.jpg"
+    },
+    {
+      "pass": true,
+      "label": "JPEG derivative hash matches export manifest",
+      "detail": "reviewed-product-galleries/charme-envoutant/final-web/08.jpg"
+    },
+    {
+      "pass": true,
+      "label": "1200px square RGB JPEG",
+      "detail": "reviewed-product-galleries/charme-envoutant/final-web/08.jpg"
+    },
+    {
+      "pass": true,
+      "label": "Original path agrees with owner review manifest",
+      "detail": "reviewed-product-galleries/charme-envoutant/final-web/09.jpg"
+    },
+    {
+      "pass": true,
+      "label": "Original hash matches both manifests",
+      "detail": "reviewed-product-galleries/charme-envoutant/final-web/09.jpg"
+    },
+    {
+      "pass": true,
+      "label": "JPEG derivative hash matches export manifest",
+      "detail": "reviewed-product-galleries/charme-envoutant/final-web/09.jpg"
+    },
+    {
+      "pass": true,
+      "label": "1200px square RGB JPEG",
+      "detail": "reviewed-product-galleries/charme-envoutant/final-web/09.jpg"
+    },
+    {
+      "pass": true,
+      "label": "Original path agrees with owner review manifest",
+      "detail": "reviewed-product-galleries/charme-envoutant/final-web/05.jpg"
+    },
+    {
+      "pass": true,
+      "label": "Original hash matches both manifests",
+      "detail": "reviewed-product-galleries/charme-envoutant/final-web/05.jpg"
+    },
+    {
+      "pass": true,
+      "label": "JPEG derivative hash matches export manifest",
+      "detail": "reviewed-product-galleries/charme-envoutant/final-web/05.jpg"
+    },
+    {
+      "pass": true,
+      "label": "1200px square RGB JPEG",
+      "detail": "reviewed-product-galleries/charme-envoutant/final-web/05.jpg"
+    },
+    {
+      "pass": true,
+      "label": "Original path agrees with owner review manifest",
+      "detail": "reviewed-product-galleries/charme-envoutant/final-web/06.jpg"
+    },
+    {
+      "pass": true,
+      "label": "Original hash matches both manifests",
+      "detail": "reviewed-product-galleries/charme-envoutant/final-web/06.jpg"
+    },
+    {
+      "pass": true,
+      "label": "JPEG derivative hash matches export manifest",
+      "detail": "reviewed-product-galleries/charme-envoutant/final-web/06.jpg"
+    },
+    {
+      "pass": true,
+      "label": "1200px square RGB JPEG",
+      "detail": "reviewed-product-galleries/charme-envoutant/final-web/06.jpg"
+    },
+    {
+      "pass": true,
+      "label": "Original path agrees with owner review manifest",
+      "detail": "reviewed-product-galleries/charme-envoutant/final-web/07.jpg"
+    },
+    {
+      "pass": true,
+      "label": "Original hash matches both manifests",
+      "detail": "reviewed-product-galleries/charme-envoutant/final-web/07.jpg"
+    },
+    {
+      "pass": true,
+      "label": "JPEG derivative hash matches export manifest",
+      "detail": "reviewed-product-galleries/charme-envoutant/final-web/07.jpg"
+    },
+    {
+      "pass": true,
+      "label": "1200px square RGB JPEG",
+      "detail": "reviewed-product-galleries/charme-envoutant/final-web/07.jpg"
+    },
+    {
+      "pass": true,
+      "label": "Original path agrees with owner review manifest",
+      "detail": "reviewed-product-galleries/charme-envoutant/final-web/02.jpg"
+    },
+    {
+      "pass": true,
+      "label": "Original hash matches both manifests",
+      "detail": "reviewed-product-galleries/charme-envoutant/final-web/02.jpg"
+    },
+    {
+      "pass": true,
+      "label": "JPEG derivative hash matches export manifest",
+      "detail": "reviewed-product-galleries/charme-envoutant/final-web/02.jpg"
+    },
+    {
+      "pass": true,
+      "label": "1200px square RGB JPEG",
+      "detail": "reviewed-product-galleries/charme-envoutant/final-web/02.jpg"
+    },
+    {
+      "pass": true,
+      "label": "Original path agrees with owner review manifest",
+      "detail": "reviewed-product-galleries/charme-envoutant/final-web/03.jpg"
+    },
+    {
+      "pass": true,
+      "label": "Original hash matches both manifests",
+      "detail": "reviewed-product-galleries/charme-envoutant/final-web/03.jpg"
+    },
+    {
+      "pass": true,
+      "label": "JPEG derivative hash matches export manifest",
+      "detail": "reviewed-product-galleries/charme-envoutant/final-web/03.jpg"
+    },
+    {
+      "pass": true,
+      "label": "1200px square RGB JPEG",
+      "detail": "reviewed-product-galleries/charme-envoutant/final-web/03.jpg"
+    },
+    {
+      "pass": true,
+      "label": "Original path agrees with owner review manifest",
+      "detail": "reviewed-product-galleries/charme-envoutant/final-web/04.jpg"
+    },
+    {
+      "pass": true,
+      "label": "Original hash matches both manifests",
+      "detail": "reviewed-product-galleries/charme-envoutant/final-web/04.jpg"
+    },
+    {
+      "pass": true,
+      "label": "JPEG derivative hash matches export manifest",
+      "detail": "reviewed-product-galleries/charme-envoutant/final-web/04.jpg"
+    },
+    {
+      "pass": true,
+      "label": "1200px square RGB JPEG",
+      "detail": "reviewed-product-galleries/charme-envoutant/final-web/04.jpg"
+    },
+    {
+      "pass": true,
+      "label": "Original path agrees with owner review manifest",
+      "detail": "reviewed-product-galleries/charme-envoutant/final-web/10.jpg"
+    },
+    {
+      "pass": true,
+      "label": "Original hash matches both manifests",
+      "detail": "reviewed-product-galleries/charme-envoutant/final-web/10.jpg"
+    },
+    {
+      "pass": true,
+      "label": "JPEG derivative hash matches export manifest",
+      "detail": "reviewed-product-galleries/charme-envoutant/final-web/10.jpg"
+    },
+    {
+      "pass": true,
+      "label": "1200px square RGB JPEG",
+      "detail": "reviewed-product-galleries/charme-envoutant/final-web/10.jpg"
+    },
+    {
+      "pass": true,
+      "label": "Original path agrees with owner review manifest",
+      "detail": "reviewed-product-galleries/oud-mirage/final-web/01.jpg"
+    },
+    {
+      "pass": true,
+      "label": "Original hash matches both manifests",
+      "detail": "reviewed-product-galleries/oud-mirage/final-web/01.jpg"
+    },
+    {
+      "pass": true,
+      "label": "JPEG derivative hash matches export manifest",
+      "detail": "reviewed-product-galleries/oud-mirage/final-web/01.jpg"
+    },
+    {
+      "pass": true,
+      "label": "1200px square RGB JPEG",
+      "detail": "reviewed-product-galleries/oud-mirage/final-web/01.jpg"
+    },
+    {
+      "pass": true,
+      "label": "Original path agrees with owner review manifest",
+      "detail": "reviewed-product-galleries/oud-mirage/final-web/11.jpg"
+    },
+    {
+      "pass": true,
+      "label": "Original hash matches both manifests",
+      "detail": "reviewed-product-galleries/oud-mirage/final-web/11.jpg"
+    },
+    {
+      "pass": true,
+      "label": "JPEG derivative hash matches export manifest",
+      "detail": "reviewed-product-galleries/oud-mirage/final-web/11.jpg"
+    },
+    {
+      "pass": true,
+      "label": "1200px square RGB JPEG",
+      "detail": "reviewed-product-galleries/oud-mirage/final-web/11.jpg"
+    },
+    {
+      "pass": true,
+      "label": "Original path agrees with owner review manifest",
+      "detail": "reviewed-product-galleries/oud-mirage/final-web/12.jpg"
+    },
+    {
+      "pass": true,
+      "label": "Original hash matches both manifests",
+      "detail": "reviewed-product-galleries/oud-mirage/final-web/12.jpg"
+    },
+    {
+      "pass": true,
+      "label": "JPEG derivative hash matches export manifest",
+      "detail": "reviewed-product-galleries/oud-mirage/final-web/12.jpg"
+    },
+    {
+      "pass": true,
+      "label": "1200px square RGB JPEG",
+      "detail": "reviewed-product-galleries/oud-mirage/final-web/12.jpg"
+    },
+    {
+      "pass": true,
+      "label": "Original path agrees with owner review manifest",
+      "detail": "reviewed-product-galleries/oud-mirage/final-web/08.jpg"
+    },
+    {
+      "pass": true,
+      "label": "Original hash matches both manifests",
+      "detail": "reviewed-product-galleries/oud-mirage/final-web/08.jpg"
+    },
+    {
+      "pass": true,
+      "label": "JPEG derivative hash matches export manifest",
+      "detail": "reviewed-product-galleries/oud-mirage/final-web/08.jpg"
+    },
+    {
+      "pass": true,
+      "label": "1200px square RGB JPEG",
+      "detail": "reviewed-product-galleries/oud-mirage/final-web/08.jpg"
+    },
+    {
+      "pass": true,
+      "label": "Original path agrees with owner review manifest",
+      "detail": "reviewed-product-galleries/oud-mirage/final-web/09.jpg"
+    },
+    {
+      "pass": true,
+      "label": "Original hash matches both manifests",
+      "detail": "reviewed-product-galleries/oud-mirage/final-web/09.jpg"
+    },
+    {
+      "pass": true,
+      "label": "JPEG derivative hash matches export manifest",
+      "detail": "reviewed-product-galleries/oud-mirage/final-web/09.jpg"
+    },
+    {
+      "pass": true,
+      "label": "1200px square RGB JPEG",
+      "detail": "reviewed-product-galleries/oud-mirage/final-web/09.jpg"
+    },
+    {
+      "pass": true,
+      "label": "Original path agrees with owner review manifest",
+      "detail": "reviewed-product-galleries/oud-mirage/final-web/05.jpg"
+    },
+    {
+      "pass": true,
+      "label": "Original hash matches both manifests",
+      "detail": "reviewed-product-galleries/oud-mirage/final-web/05.jpg"
+    },
+    {
+      "pass": true,
+      "label": "JPEG derivative hash matches export manifest",
+      "detail": "reviewed-product-galleries/oud-mirage/final-web/05.jpg"
+    },
+    {
+      "pass": true,
+      "label": "1200px square RGB JPEG",
+      "detail": "reviewed-product-galleries/oud-mirage/final-web/05.jpg"
+    },
+    {
+      "pass": true,
+      "label": "Original path agrees with owner review manifest",
+      "detail": "reviewed-product-galleries/oud-mirage/final-web/06.jpg"
+    },
+    {
+      "pass": true,
+      "label": "Original hash matches both manifests",
+      "detail": "reviewed-product-galleries/oud-mirage/final-web/06.jpg"
+    },
+    {
+      "pass": true,
+      "label": "JPEG derivative hash matches export manifest",
+      "detail": "reviewed-product-galleries/oud-mirage/final-web/06.jpg"
+    },
+    {
+      "pass": true,
+      "label": "1200px square RGB JPEG",
+      "detail": "reviewed-product-galleries/oud-mirage/final-web/06.jpg"
+    },
+    {
+      "pass": true,
+      "label": "Original path agrees with owner review manifest",
+      "detail": "reviewed-product-galleries/oud-mirage/final-web/07.jpg"
+    },
+    {
+      "pass": true,
+      "label": "Original hash matches both manifests",
+      "detail": "reviewed-product-galleries/oud-mirage/final-web/07.jpg"
+    },
+    {
+      "pass": true,
+      "label": "JPEG derivative hash matches export manifest",
+      "detail": "reviewed-product-galleries/oud-mirage/final-web/07.jpg"
+    },
+    {
+      "pass": true,
+      "label": "1200px square RGB JPEG",
+      "detail": "reviewed-product-galleries/oud-mirage/final-web/07.jpg"
+    },
+    {
+      "pass": true,
+      "label": "Original path agrees with owner review manifest",
+      "detail": "reviewed-product-galleries/oud-mirage/final-web/02.jpg"
+    },
+    {
+      "pass": true,
+      "label": "Original hash matches both manifests",
+      "detail": "reviewed-product-galleries/oud-mirage/final-web/02.jpg"
+    },
+    {
+      "pass": true,
+      "label": "JPEG derivative hash matches export manifest",
+      "detail": "reviewed-product-galleries/oud-mirage/final-web/02.jpg"
+    },
+    {
+      "pass": true,
+      "label": "1200px square RGB JPEG",
+      "detail": "reviewed-product-galleries/oud-mirage/final-web/02.jpg"
+    },
+    {
+      "pass": true,
+      "label": "Original path agrees with owner review manifest",
+      "detail": "reviewed-product-galleries/oud-mirage/final-web/03.jpg"
+    },
+    {
+      "pass": true,
+      "label": "Original hash matches both manifests",
+      "detail": "reviewed-product-galleries/oud-mirage/final-web/03.jpg"
+    },
+    {
+      "pass": true,
+      "label": "JPEG derivative hash matches export manifest",
+      "detail": "reviewed-product-galleries/oud-mirage/final-web/03.jpg"
+    },
+    {
+      "pass": true,
+      "label": "1200px square RGB JPEG",
+      "detail": "reviewed-product-galleries/oud-mirage/final-web/03.jpg"
+    },
+    {
+      "pass": true,
+      "label": "Original path agrees with owner review manifest",
+      "detail": "reviewed-product-galleries/oud-mirage/final-web/04.jpg"
+    },
+    {
+      "pass": true,
+      "label": "Original hash matches both manifests",
+      "detail": "reviewed-product-galleries/oud-mirage/final-web/04.jpg"
+    },
+    {
+      "pass": true,
+      "label": "JPEG derivative hash matches export manifest",
+      "detail": "reviewed-product-galleries/oud-mirage/final-web/04.jpg"
+    },
+    {
+      "pass": true,
+      "label": "1200px square RGB JPEG",
+      "detail": "reviewed-product-galleries/oud-mirage/final-web/04.jpg"
+    },
+    {
+      "pass": true,
+      "label": "Original path agrees with owner review manifest",
+      "detail": "reviewed-product-galleries/oud-mirage/final-web/10.jpg"
+    },
+    {
+      "pass": true,
+      "label": "Original hash matches both manifests",
+      "detail": "reviewed-product-galleries/oud-mirage/final-web/10.jpg"
+    },
+    {
+      "pass": true,
+      "label": "JPEG derivative hash matches export manifest",
+      "detail": "reviewed-product-galleries/oud-mirage/final-web/10.jpg"
+    },
+    {
+      "pass": true,
+      "label": "1200px square RGB JPEG",
+      "detail": "reviewed-product-galleries/oud-mirage/final-web/10.jpg"
+    },
+    {
+      "pass": true,
+      "label": "Original path agrees with owner review manifest",
+      "detail": "reviewed-product-galleries/rtulle-satin/final-web/01.jpg"
+    },
+    {
+      "pass": true,
+      "label": "Original hash matches both manifests",
+      "detail": "reviewed-product-galleries/rtulle-satin/final-web/01.jpg"
+    },
+    {
+      "pass": true,
+      "label": "JPEG derivative hash matches export manifest",
+      "detail": "reviewed-product-galleries/rtulle-satin/final-web/01.jpg"
+    },
+    {
+      "pass": true,
+      "label": "1200px square RGB JPEG",
+      "detail": "reviewed-product-galleries/rtulle-satin/final-web/01.jpg"
+    },
+    {
+      "pass": true,
+      "label": "Original path agrees with owner review manifest",
+      "detail": "reviewed-product-galleries/rtulle-satin/final-web/11.jpg"
+    },
+    {
+      "pass": true,
+      "label": "Original hash matches both manifests",
+      "detail": "reviewed-product-galleries/rtulle-satin/final-web/11.jpg"
+    },
+    {
+      "pass": true,
+      "label": "JPEG derivative hash matches export manifest",
+      "detail": "reviewed-product-galleries/rtulle-satin/final-web/11.jpg"
+    },
+    {
+      "pass": true,
+      "label": "1200px square RGB JPEG",
+      "detail": "reviewed-product-galleries/rtulle-satin/final-web/11.jpg"
+    },
+    {
+      "pass": true,
+      "label": "Original path agrees with owner review manifest",
+      "detail": "reviewed-product-galleries/rtulle-satin/final-web/12.jpg"
+    },
+    {
+      "pass": true,
+      "label": "Original hash matches both manifests",
+      "detail": "reviewed-product-galleries/rtulle-satin/final-web/12.jpg"
+    },
+    {
+      "pass": true,
+      "label": "JPEG derivative hash matches export manifest",
+      "detail": "reviewed-product-galleries/rtulle-satin/final-web/12.jpg"
+    },
+    {
+      "pass": true,
+      "label": "1200px square RGB JPEG",
+      "detail": "reviewed-product-galleries/rtulle-satin/final-web/12.jpg"
+    },
+    {
+      "pass": true,
+      "label": "Original path agrees with owner review manifest",
+      "detail": "reviewed-product-galleries/rtulle-satin/final-web/08.jpg"
+    },
+    {
+      "pass": true,
+      "label": "Original hash matches both manifests",
+      "detail": "reviewed-product-galleries/rtulle-satin/final-web/08.jpg"
+    },
+    {
+      "pass": true,
+      "label": "JPEG derivative hash matches export manifest",
+      "detail": "reviewed-product-galleries/rtulle-satin/final-web/08.jpg"
+    },
+    {
+      "pass": true,
+      "label": "1200px square RGB JPEG",
+      "detail": "reviewed-product-galleries/rtulle-satin/final-web/08.jpg"
+    },
+    {
+      "pass": true,
+      "label": "Original path agrees with owner review manifest",
+      "detail": "reviewed-product-galleries/rtulle-satin/final-web/09.jpg"
+    },
+    {
+      "pass": true,
+      "label": "Original hash matches both manifests",
+      "detail": "reviewed-product-galleries/rtulle-satin/final-web/09.jpg"
+    },
+    {
+      "pass": true,
+      "label": "JPEG derivative hash matches export manifest",
+      "detail": "reviewed-product-galleries/rtulle-satin/final-web/09.jpg"
+    },
+    {
+      "pass": true,
+      "label": "1200px square RGB JPEG",
+      "detail": "reviewed-product-galleries/rtulle-satin/final-web/09.jpg"
+    },
+    {
+      "pass": true,
+      "label": "Original path agrees with owner review manifest",
+      "detail": "reviewed-product-galleries/rtulle-satin/final-web/05.jpg"
+    },
+    {
+      "pass": true,
+      "label": "Original hash matches both manifests",
+      "detail": "reviewed-product-galleries/rtulle-satin/final-web/05.jpg"
+    },
+    {
+      "pass": true,
+      "label": "JPEG derivative hash matches export manifest",
+      "detail": "reviewed-product-galleries/rtulle-satin/final-web/05.jpg"
+    },
+    {
+      "pass": true,
+      "label": "1200px square RGB JPEG",
+      "detail": "reviewed-product-galleries/rtulle-satin/final-web/05.jpg"
+    },
+    {
+      "pass": true,
+      "label": "Original path agrees with owner review manifest",
+      "detail": "reviewed-product-galleries/rtulle-satin/final-web/06.jpg"
+    },
+    {
+      "pass": true,
+      "label": "Original hash matches both manifests",
+      "detail": "reviewed-product-galleries/rtulle-satin/final-web/06.jpg"
+    },
+    {
+      "pass": true,
+      "label": "JPEG derivative hash matches export manifest",
+      "detail": "reviewed-product-galleries/rtulle-satin/final-web/06.jpg"
+    },
+    {
+      "pass": true,
+      "label": "1200px square RGB JPEG",
+      "detail": "reviewed-product-galleries/rtulle-satin/final-web/06.jpg"
+    },
+    {
+      "pass": true,
+      "label": "Original path agrees with owner review manifest",
+      "detail": "reviewed-product-galleries/rtulle-satin/final-web/07.jpg"
+    },
+    {
+      "pass": true,
+      "label": "Original hash matches both manifests",
+      "detail": "reviewed-product-galleries/rtulle-satin/final-web/07.jpg"
+    },
+    {
+      "pass": true,
+      "label": "JPEG derivative hash matches export manifest",
+      "detail": "reviewed-product-galleries/rtulle-satin/final-web/07.jpg"
+    },
+    {
+      "pass": true,
+      "label": "1200px square RGB JPEG",
+      "detail": "reviewed-product-galleries/rtulle-satin/final-web/07.jpg"
+    },
+    {
+      "pass": true,
+      "label": "Original path agrees with owner review manifest",
+      "detail": "reviewed-product-galleries/rtulle-satin/final-web/02.jpg"
+    },
+    {
+      "pass": true,
+      "label": "Original hash matches both manifests",
+      "detail": "reviewed-product-galleries/rtulle-satin/final-web/02.jpg"
+    },
+    {
+      "pass": true,
+      "label": "JPEG derivative hash matches export manifest",
+      "detail": "reviewed-product-galleries/rtulle-satin/final-web/02.jpg"
+    },
+    {
+      "pass": true,
+      "label": "1200px square RGB JPEG",
+      "detail": "reviewed-product-galleries/rtulle-satin/final-web/02.jpg"
+    },
+    {
+      "pass": true,
+      "label": "Original path agrees with owner review manifest",
+      "detail": "reviewed-product-galleries/rtulle-satin/final-web/03.jpg"
+    },
+    {
+      "pass": true,
+      "label": "Original hash matches both manifests",
+      "detail": "reviewed-product-galleries/rtulle-satin/final-web/03.jpg"
+    },
+    {
+      "pass": true,
+      "label": "JPEG derivative hash matches export manifest",
+      "detail": "reviewed-product-galleries/rtulle-satin/final-web/03.jpg"
+    },
+    {
+      "pass": true,
+      "label": "1200px square RGB JPEG",
+      "detail": "reviewed-product-galleries/rtulle-satin/final-web/03.jpg"
+    },
+    {
+      "pass": true,
+      "label": "Original path agrees with owner review manifest",
+      "detail": "reviewed-product-galleries/rtulle-satin/final-web/04.jpg"
+    },
+    {
+      "pass": true,
+      "label": "Original hash matches both manifests",
+      "detail": "reviewed-product-galleries/rtulle-satin/final-web/04.jpg"
+    },
+    {
+      "pass": true,
+      "label": "JPEG derivative hash matches export manifest",
+      "detail": "reviewed-product-galleries/rtulle-satin/final-web/04.jpg"
+    },
+    {
+      "pass": true,
+      "label": "1200px square RGB JPEG",
+      "detail": "reviewed-product-galleries/rtulle-satin/final-web/04.jpg"
+    },
+    {
+      "pass": true,
+      "label": "Original path agrees with owner review manifest",
+      "detail": "reviewed-product-galleries/rtulle-satin/final-web/10.jpg"
+    },
+    {
+      "pass": true,
+      "label": "Original hash matches both manifests",
+      "detail": "reviewed-product-galleries/rtulle-satin/final-web/10.jpg"
+    },
+    {
+      "pass": true,
+      "label": "JPEG derivative hash matches export manifest",
+      "detail": "reviewed-product-galleries/rtulle-satin/final-web/10.jpg"
+    },
+    {
+      "pass": true,
+      "label": "1200px square RGB JPEG",
+      "detail": "reviewed-product-galleries/rtulle-satin/final-web/10.jpg"
+    },
+    {
+      "pass": true,
+      "label": "Original gallery guard passes",
+      "detail": "mojito-metallique"
+    },
+    {
+      "pass": true,
+      "label": "Original gallery guard passes",
+      "detail": "amber-oud-silk"
+    },
+    {
+      "pass": true,
+      "label": "Original gallery guard passes",
+      "detail": "mistened-narcissus"
+    },
+    {
+      "pass": true,
+      "label": "Original gallery guard passes",
+      "detail": "charme-envoutant"
+    },
+    {
+      "pass": true,
+      "label": "Original gallery guard passes",
+      "detail": "oud-mirage"
+    },
+    {
+      "pass": true,
+      "label": "Original gallery guard passes",
+      "detail": "rtulle-satin"
+    },
+    {
+      "pass": true,
+      "label": "All twelve roles in actual storefront order",
+      "detail": "mojito-metallique"
+    },
+    {
+      "pass": true,
+      "label": "All twelve roles in actual storefront order",
+      "detail": "amber-oud-silk"
+    },
+    {
+      "pass": true,
+      "label": "All twelve roles in actual storefront order",
+      "detail": "mistened-narcissus"
+    },
+    {
+      "pass": true,
+      "label": "All twelve roles in actual storefront order",
+      "detail": "charme-envoutant"
+    },
+    {
+      "pass": true,
+      "label": "All twelve roles in actual storefront order",
+      "detail": "oud-mirage"
+    },
+    {
+      "pass": true,
+      "label": "All twelve roles in actual storefront order",
+      "detail": "rtulle-satin"
+    }
+  ],
+  "guards": [
+    {
+      "handle": "mojito-metallique",
+      "directory": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/mojito-metallique/generated-v01/final",
+      "exitCode": 0,
+      "stdout": "PASS: 12 unique numbered PNG files validated in /Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/mojito-metallique/generated-v01/final\n",
+      "stderr": "",
+      "warningCount": 0
+    },
+    {
+      "handle": "amber-oud-silk",
+      "directory": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/amber-oud-silk/generated-v01/final",
+      "exitCode": 0,
+      "stdout": "PASS: 12 unique numbered PNG files validated in /Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/amber-oud-silk/generated-v01/final\n",
+      "stderr": "",
+      "warningCount": 0
+    },
+    {
+      "handle": "mistened-narcissus",
+      "directory": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/mistened-narcissus/generated-v01/final",
+      "exitCode": 0,
+      "stdout": "PASS: 12 unique numbered PNG files validated in /Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/mistened-narcissus/generated-v01/final\n",
+      "stderr": "",
+      "warningCount": 0
+    },
+    {
+      "handle": "charme-envoutant",
+      "directory": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/charme-envoutant/generated-v01/final",
+      "exitCode": 0,
+      "stdout": "PASS: 12 unique numbered PNG files validated in /Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/charme-envoutant/generated-v01/final\n",
+      "stderr": "",
+      "warningCount": 0
+    },
+    {
+      "handle": "oud-mirage",
+      "directory": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/oud-mirage/generated-v01/final",
+      "exitCode": 0,
+      "stdout": "PASS: 12 unique numbered PNG files validated in /Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/oud-mirage/generated-v01/final\n",
+      "stderr": "",
+      "warningCount": 0
+    },
+    {
+      "handle": "rtulle-satin",
+      "directory": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/rtulle-and-satin/generated-v01/final",
+      "exitCode": 0,
+      "stdout": "PASS: 12 unique numbered PNG files validated in /Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/rtulle-and-satin/generated-v01/final\n",
+      "stderr": "",
+      "warningCount": 0
+    }
+  ],
+  "visualReview": {
+    "status": "PASS",
+    "reviewedAt": "2026-09-24T06:53:35.277405+00:00",
+    "method": "Inspected all six contact sheets assembled from the actual 1200px JPEG derivatives in storefront position order; this is integration QA of owner-selected previously audited artwork, not a new content/fact audit.",
+    "results": [
+      {
+        "handle": "mojito-metallique",
+        "status": "PASS",
+        "contactSheet": "contact-mojito-metallique.png",
+        "roles": 12,
+        "note": "Correct golden liquid/white label/yellow package. Description, fit, profile and care panels are intact; dance-studio lifestyle trio and product-role frames map correctly."
+      },
+      {
+        "handle": "amber-oud-silk",
+        "status": "PASS",
+        "contactSheet": "contact-amber-oud-silk.png",
+        "roles": 12,
+        "note": "Correct pale peach liquid/white label/blush package. Home-entry lifestyle trio, exact scent-named panels and all four technical/product roles are present without export cropping."
+      },
+      {
+        "handle": "mistened-narcissus",
+        "status": "PASS",
+        "contactSheet": "contact-mistened-narcissus.png",
+        "roles": 12,
+        "note": "Correct clear liquid/white label/lavender package. Roller-rink lifestyle trio and face-free detail crops match the selected set; all text panels and closing artwork remain intact."
+      },
+      {
+        "handle": "charme-envoutant",
+        "status": "PASS",
+        "contactSheet": "contact-charme-envoutant.png",
+        "roles": 12,
+        "note": "Correct amber liquid/black label/orange package. Convertible lifestyle trio and scent-named information panels match the selected artwork; every role is visible in the intended order."
+      },
+      {
+        "handle": "oud-mirage",
+        "status": "PASS",
+        "contactSheet": "contact-oud-mirage.png",
+        "roles": 12,
+        "note": "Correct blue liquid/black label/blue package. Park/bicycle/picnic artwork and all information and technical-role frames match; no scent swap or cut-off panel."
+      },
+      {
+        "handle": "rtulle-satin",
+        "status": "PASS",
+        "contactSheet": "contact-rtulle-satin.png",
+        "roles": 12,
+        "note": "Store handle rtulle-satin correctly maps to source scent directory rtulle-and-satin and RTULLE & SATIN label. Aqua liquid/turquoise package, pottery-cafe lifestyle trio and all information panels are intact."
+      }
+    ],
+    "legibility": "Scent names, description/fit copy, profile and care layouts retain their contrast and complete composition. Fine care text is present and benefits from the existing product-image zoom at narrow display sizes. No derivative-specific crop, clipping or visible compression damage was found."
+  },
+  "summary": {
+    "status": "PASS",
+    "automatedChecks": 303,
+    "automatedPassed": 303,
+    "failures": 0,
+    "originalGuardsPassed": 6,
+    "originalGuardWarnings": 0,
+    "mappedOriginals": 72,
+    "verifiedJpegExports": 72,
+    "visualContactSheetsPassed": 6,
+    "metadataObservations": 1
+  },
+  "observations": [
+    {
+      "subject": "JPEG metadata",
+      "count": 72,
+      "embeddedICC": false,
+      "severity": "informational",
+      "note": "All derivatives omit embedded ICC metadata. This is recorded separately from source mapping and visual integration acceptance; standard browser rendering treats untagged RGB web images as sRGB. No source or derivative was changed."
+    }
+  ]
+}

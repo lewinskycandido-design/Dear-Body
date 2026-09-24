@@ -1,0 +1,78 @@
+{{ 'sj-finder-cards.css' | asset_url | stylesheet_tag }}
+{% liquid
+  assign finder_collection = section.settings.collection | default: collections.all
+  assign configured_count = 0
+%}
+<section class="sj-finder" data-sj-finder>
+  <header class="sj-page-banner sj-page-banner--finder"><div class="sj-page-banner__media">{% render 'sj-themed-photo', light_asset: 'sj-banner-finder-light.jpg', dark_asset: 'sj-banner-finder-dark.jpg', light_image: section.settings.banner_light, dark_image: section.settings.banner_dark, alt: '', loading: 'eager', width: 1774, height: 887 %}</div><div class="sj-page-banner__inner sj-container"><div class="sj-page-banner__copy"><p class="sj-eyebrow">A LITTLE CURIOSITY. A NEW CONNECTION.</p><h1>{{ section.settings.heading | escape | newline_to_br }}</h1><p>{{ section.settings.description | escape }}</p><a class="sj-text-link" href="#ScentFinderQuiz-{{ section.id }}">Find my scent</a></div></div></header>
+  <div class="sj-container">
+  {% paginate finder_collection.products by 250 %}
+    <script type="application/json" data-sj-finder-data>[
+      {% for product in finder_collection.products %}
+        {% capture finder_profile %}{% render 'sj-finder-profile', product: product, available_only: section.settings.available_only %}{% endcapture %}
+        {% assign finder_profile = finder_profile | strip %}
+        {% if finder_profile != blank %}
+          {% if configured_count > 0 %},{% endif %}{{ finder_profile }}
+          {% assign configured_count = configured_count | plus: 1 %}
+        {% endif %}
+      {% endfor %}
+    ]</script>
+    {% if configured_count > 0 %}
+      <div id="ScentFinderQuiz-{{ section.id }}" class="sj-finder-experience" hidden data-sj-finder-experience>
+        <div class="sj-finder-progress"><span data-sj-finder-step></span><progress data-sj-finder-progress value="0" max="1" aria-label="Scent Finder progress"></progress><button class="sj-text-link" type="button" data-sj-finder-reset>Start again</button></div>
+        <div data-sj-finder-form><p class="sj-finder-instruction">{% render 'sj-icon', name: 'compass' %}<span>Choose an answer. We’ll take you straight to the next question.</span></p><fieldset class="sj-finder-question" aria-describedby="FinderHint-{{ section.id }}"><legend data-sj-finder-question></legend><p id="FinderHint-{{ section.id }}" data-sj-finder-hint></p><div class="sj-finder-choices" data-sj-finder-choices></div></fieldset><div class="sj-finder-controls"><button class="sj-text-link" type="button" data-sj-finder-back>{% render 'sj-icon', name: 'chevron-left' %}Back</button></div></div>
+        <div data-sj-finder-results hidden><p class="sj-eyebrow">YOUR SCENT</p><h2 data-sj-finder-results-title>MEET YOUR<br>SCENT MATCH.</h2><p data-sj-finder-result-summary></p><div class="sj-product-grid" data-sj-finder-result-grid></div><div class="sj-finder-results-footer"><button class="sj-button sj-button--secondary" type="button" data-sj-finder-reset>Try different answers</button><a class="sj-text-link" href="{{ routes.all_products_collection_url }}">Meet every fragrance</a></div></div>
+        <p class="sj-visually-hidden" data-sj-finder-status role="status" aria-live="polite"></p>
+        <div hidden data-sj-finder-icons>{% assign finder_icons = 'compass,sun,moon,bag,heart,cloud,leaf,hanger' | split: ',' %}{% for finder_icon in finder_icons %}<template data-sj-finder-icon="{{ finder_icon }}">{% render 'sj-icon', name: finder_icon %}</template>{% endfor %}</div>
+      </div>
+      <div hidden data-sj-finder-card-bank>{% for product in finder_collection.products %}{% capture finder_profile %}{% render 'sj-finder-profile', product: product, available_only: section.settings.available_only %}{% endcapture %}{% assign finder_profile = finder_profile | strip %}{% if finder_profile != blank %}<div class="sj-finder-result" data-sj-finder-product="{{ product.id }}"><p class="sj-eyebrow sj-finder-match-label" data-sj-match-label></p>{% render 'sj-product-card', product: product, index: forloop.index %}<p class="sj-finder-profile-description" data-sj-profile-description></p><p class="sj-finder-match-reason" data-sj-match-reason></p></div>{% endif %}{% endfor %}</div>
+      <noscript><div class="sj-empty-state"><p>Enable JavaScript to discover your scent match, or explore the collection at your own pace.</p><a class="sj-button" href="{{ finder_collection.url | default: routes.all_products_collection_url }}">Explore the fragrances</a></div></noscript>
+    {% else %}
+      <div id="ScentFinderQuiz-{{ section.id }}" class="sj-empty-state"><p class="sj-eyebrow">GET TO KNOW THE COLLECTION</p><h2>Follow your curiosity.</h2><p>There are no fragrances to match in this collection right now. Explore the full collection to find your next scent.</p><a class="sj-button" href="{{ routes.all_products_collection_url }}">Meet the fragrances</a>{% if request.design_mode %}<p class="sj-finder-editor-note">Theme Editor: select a collection containing the launch fragrance handles. Built-in profiles work automatically; custom scent metafields override each trait. Set custom.scent_finder_enabled to false to exclude a fragrance. Sold-out fragrances are included unless “Available products only” is enabled.</p>{% endif %}</div>
+    {% endif %}
+  {% endpaginate %}
+  </div>
+</section>
+<script src="{{ 'sj-finder.js' | asset_url }}" defer></script>
+{% schema %}
+{
+  "name": "Scent Finder",
+  "settings": [
+    {
+      "type": "textarea",
+      "id": "heading",
+      "label": "Heading",
+      "default": "FOLLOW YOUR MOOD.\nFIND YOUR FRAGRANCE."
+    },
+    {
+      "type": "textarea",
+      "id": "description",
+      "label": "Introduction",
+      "default": "Five quick questions. A fragrance that feels like you. Discover your match from our fragrance collection."
+    },
+    {
+      "type": "collection",
+      "id": "collection",
+      "label": "Fragrance collection",
+      "info": "The launch fragrances have built-in profiles. Leave blank to include them from all products; select a collection to narrow the selection."
+    },
+    {
+      "type": "checkbox",
+      "id": "available_only",
+      "label": "Available products only",
+      "default": false,
+      "info": "When off, customers can discover sold-out fragrances with their current availability clearly shown."
+    },
+    {
+      "type": "image_picker",
+      "id": "banner_light",
+      "label": "Header banner — Light"
+    },
+    {
+      "type": "image_picker",
+      "id": "banner_dark",
+      "label": "Header banner — Dark"
+    }
+  ]
+}
+{% endschema %}

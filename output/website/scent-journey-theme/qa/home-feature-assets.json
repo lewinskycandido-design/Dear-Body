@@ -1,0 +1,32 @@
+[
+  {
+    "file": "sj-home-magnetic-cap.jpg",
+    "source": "campaign-v10-home-features/final-web/sj-home-magnetic-cap.jpg",
+    "sha256": "71d7e433857117673febb0542907ffad512daa2c974c9f2f66d0c9ce51eeec71",
+    "original": "campaign-v10-home-features/originals/sj-home-magnetic-cap.png",
+    "original_sha256": "b0f1d98d8bd36dfc1bbb89446f9e20a6f9c69c37a97ab0df1c5fb9ee6ff1c5ed",
+    "width": 1774,
+    "height": 887,
+    "bytes": 273014
+  },
+  {
+    "file": "sj-home-collectible.jpg",
+    "source": "campaign-v10-home-features/final-web/sj-home-collectible.jpg",
+    "sha256": "3dca9993249f99eb59d03a83e5f2ceb31b4dddf87d84c721ce254cc89c3bb94e",
+    "original": "campaign-v10-home-features/originals/sj-home-collectible.png",
+    "original_sha256": "4f78c7ca0d2b716bb6ef277e3bf42318705933244cefd6a10f6c435fec741bc2",
+    "width": 1774,
+    "height": 887,
+    "bytes": 411172
+  },
+  {
+    "file": "sj-home-free-shipping.jpg",
+    "source": "campaign-v10-home-features/final-web/sj-home-free-shipping.jpg",
+    "sha256": "2d108d3bd6906df9fd8887dd2e3e708113dfb4847098a024573186500af96b68",
+    "original": "campaign-v10-home-features/originals/sj-home-free-shipping.png",
+    "original_sha256": "7b16aa1c1869658e600520bac29c05b4721536de20a31ebc80fd29aa8d36f3f9",
+    "width": 1774,
+    "height": 887,
+    "bytes": 494126
+  }
+]

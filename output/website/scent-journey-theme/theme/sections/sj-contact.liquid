@@ -1,0 +1,25 @@
+<section class="sj-container"><div class="sj-page-intro"><p class="sj-eyebrow">LET’S TALK SCENTS</p><h1>{{ section.settings.heading | escape }}</h1></div><div class="sj-contact-layout"><div><h2>A little help<br>for your journey.</h2><p>{{ section.settings.description | escape }}</p>{% if section.settings.email != blank %}<p><a href="mailto:{{ section.settings.email | escape }}">{{ section.settings.email | escape }}</a></p>{% endif %}</div><div>{% form 'contact', id: 'JourneyContact' %}{% if form.posted_successfully? %}<div class="sj-form-feedback" role="status">Thank you. Your message has been sent to DearBody Philippines.</div>{% endif %}{% if form.errors %}<div class="sj-form-feedback" role="alert">{{ form.errors | default_errors }}</div>{% endif %}<div class="sj-form-field"><label for="ContactName">Name</label><input type="text" id="ContactName" name="contact[name]" autocomplete="name" value="{{ form.name | escape }}" required></div><div class="sj-form-field"><label for="ContactEmail">Email address</label><input type="email" id="ContactEmail" name="contact[email]" autocomplete="email" value="{{ form.email | escape }}" required></div><div class="sj-form-field"><label for="ContactOrder">Order number (optional)</label><input type="text" id="ContactOrder" name="contact[order_number]"></div><div class="sj-form-field"><label for="ContactMessage">How can we help?</label><textarea id="ContactMessage" name="contact[body]" required>{{ form.body | escape }}</textarea></div><button class="sj-button" type="submit">Send message</button>{% endform %}</div></div></section>
+{% schema %}
+{
+  "name": "Contact",
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "HERE FOR YOUR NEXT CHAPTER."
+    },
+    {
+      "type": "textarea",
+      "id": "description",
+      "label": "Description",
+      "default": "Have a question about a scent or your order? Send us a message and our team will help you along the way."
+    },
+    {
+      "type": "text",
+      "id": "email",
+      "label": "Verified support email"
+    }
+  ]
+}
+{% endschema %}

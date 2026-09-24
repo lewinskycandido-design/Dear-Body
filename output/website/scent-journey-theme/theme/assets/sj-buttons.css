@@ -1,0 +1,110 @@
+/* Shared action buttons. Component navigation, answer cards and text links keep their own styles. */
+:root {
+  --sj-action-fill: #bb251c;
+  --sj-action-ink: #fff6e9;
+  --sj-action-edge: #811812;
+  --sj-action-shadow: #194acb;
+  --sj-action-hover: #9a1106;
+  --sj-action-secondary-fill: #fff6e9;
+  --sj-action-secondary-ink: #194acb;
+  --sj-action-secondary-shadow: #eaaa3d;
+  --sj-action-disabled-fill: #e5d7ce;
+  --sj-action-disabled-ink: #70564d;
+}
+[data-theme="dark"] {
+  --sj-action-fill: #f7cd42;
+  --sj-action-ink: #3e070b;
+  --sj-action-edge: #f4e3cb;
+  --sj-action-shadow: #bb251c;
+  --sj-action-hover: #ffe298;
+  --sj-action-secondary-fill: #f4e3cb;
+  --sj-action-secondary-ink: #194acb;
+  --sj-action-secondary-shadow: #bb251c;
+  --sj-action-disabled-fill: #58343a;
+  --sj-action-disabled-ink: #d6bdad;
+}
+:root .sj-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  min-width: 44px;
+  min-height: 50px;
+  max-width: 100%;
+  padding: 14px 23px;
+  border: 1px solid var(--sj-action-edge);
+  border-radius: 9px;
+  background: var(--sj-action-fill);
+  color: var(--sj-action-ink);
+  box-shadow: 4px 4px 0 var(--sj-action-shadow);
+  font-family: var(--font-body);
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1.4;
+  letter-spacing: .065em;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  white-space: normal;
+  overflow-wrap: anywhere;
+  vertical-align: middle;
+  cursor: pointer;
+  transform: none;
+  transition: background-color .16s ease, color .16s ease, box-shadow .16s ease, transform .16s ease;
+  -webkit-tap-highlight-color: transparent;
+}
+:root .sj-button.sj-button--secondary {
+  border-color: var(--sj-action-secondary-ink);
+  background: var(--sj-action-secondary-fill);
+  color: var(--sj-action-secondary-ink);
+  box-shadow: 4px 4px 0 var(--sj-action-secondary-shadow);
+}
+@media (hover: hover) {
+  :root .sj-button:not(:disabled):not([aria-disabled="true"]):hover {
+    background: var(--sj-action-hover);
+    color: var(--sj-action-ink);
+    transform: translate(-1px, -1px);
+    box-shadow: 5px 5px 0 var(--sj-action-shadow);
+  }
+  :root .sj-button.sj-button--secondary:not(:disabled):not([aria-disabled="true"]):hover {
+    background: #194acb;
+    color: #fff6e9;
+    box-shadow: 5px 5px 0 var(--sj-action-secondary-shadow);
+  }
+}
+:root .sj-button:not(:disabled):not([aria-disabled="true"]):active {
+  transform: translate(3px, 3px);
+  box-shadow: 1px 1px 0 var(--sj-action-shadow);
+}
+:root .sj-button.sj-button--secondary:not(:disabled):not([aria-disabled="true"]):active {
+  box-shadow: 1px 1px 0 var(--sj-action-secondary-shadow);
+}
+:root .sj-button:focus-visible {
+  outline: 3px solid var(--color-heading);
+  outline-offset: 5px;
+}
+:root .sj-button:disabled,
+:root .sj-button[aria-disabled="true"] {
+  border-color: var(--color-border);
+  background: var(--sj-action-disabled-fill);
+  color: var(--sj-action-disabled-ink);
+  box-shadow: none;
+  opacity: 1;
+  cursor: not-allowed;
+  transform: none;
+  transition: none;
+}
+/* The purchase label is a single line of button text, not a decorative trailing icon. */
+.sj-button.sj-product__add [data-sj-add-label] { min-width: 0; font: inherit; line-height: inherit; }
+@media (max-width: 760px) {
+  :root .sj-button { min-height: 48px; padding: 13px 18px; font-size: 11px; gap: 8px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  :root .sj-button,
+  :root .sj-button:not(:disabled):not([aria-disabled="true"]):hover,
+  :root .sj-button:not(:disabled):not([aria-disabled="true"]):active { transition: none; transform: none; }
+}
+@media (forced-colors: active) {
+  :root .sj-button { border: 2px solid ButtonText; box-shadow: none; }
+  :root .sj-button:focus-visible { outline-color: Highlight; }
+}

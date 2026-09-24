@@ -1,0 +1,1373 @@
+{
+  "generatedAt": "2026-09-24T06:27:05.081Z",
+  "scope": "Uniform full-width campaign header and footer banners; category tiles excluded. Desktop clamp(540px,43vw,650px), mobile 600px.",
+  "cases": [
+    {
+      "name": "home",
+      "route": "/",
+      "kind": "home",
+      "theme": "light",
+      "width": 320,
+      "viewportHeight": 844,
+      "checks": [
+        {
+          "pass": true,
+          "label": "header banner spans viewport",
+          "data": {
+            "x": 0,
+            "y": 99,
+            "width": 320,
+            "height": 600,
+            "right": 320,
+            "bottom": 699
+          }
+        },
+        {
+          "pass": true,
+          "label": "header height matches shared contract",
+          "data": {
+            "expected": 600,
+            "actual": 600,
+            "token": "600px"
+          }
+        },
+        {
+          "pass": true,
+          "label": "header image fills banner",
+          "data": {
+            "banner": {
+              "x": 0,
+              "y": 99,
+              "width": 320,
+              "height": 600,
+              "right": 320,
+              "bottom": 699
+            },
+            "image": {
+              "x": 0,
+              "y": 99,
+              "width": 320,
+              "height": 600,
+              "right": 320,
+              "bottom": 699,
+              "src": "http://127.0.0.1:4208/assets/sj-home-hero-light.jpg",
+              "loaded": true,
+              "naturalWidth": 1774,
+              "naturalHeight": 887,
+              "objectFit": "cover",
+              "objectPosition": "83% 0%"
+            }
+          }
+        },
+        {
+          "pass": true,
+          "label": "header copy stays inside banner",
+          "data": {
+            "copy": {
+              "x": 22,
+              "y": 405.8125,
+              "width": 276,
+              "height": 293.1875,
+              "right": 298,
+              "bottom": 699
+            },
+            "banner": {
+              "x": 0,
+              "y": 99,
+              "width": 320,
+              "height": 600,
+              "right": 320,
+              "bottom": 699
+            }
+          }
+        },
+        {
+          "pass": true,
+          "label": "header heading and controls stay inside banner"
+        },
+        {
+          "pass": true,
+          "label": "header has no horizontal or clipped text overflow",
+          "data": []
+        },
+        {
+          "pass": true,
+          "label": "header correct artwork loads",
+          "data": {
+            "src": "http://127.0.0.1:4208/assets/sj-home-hero-light.jpg",
+            "loaded": true
+          }
+        },
+        {
+          "pass": true,
+          "label": "header requested visual mode applied",
+          "data": "light"
+        },
+        {
+          "pass": true,
+          "label": "header mobile copy overlays photo"
+        },
+        {
+          "pass": true,
+          "label": "footer banner spans viewport",
+          "data": {
+            "x": 0,
+            "y": 183.15625,
+            "width": 320,
+            "height": 600,
+            "right": 320,
+            "bottom": 783.15625
+          }
+        },
+        {
+          "pass": true,
+          "label": "footer height matches shared contract",
+          "data": {
+            "expected": 600,
+            "actual": 600,
+            "token": "600px"
+          }
+        },
+        {
+          "pass": true,
+          "label": "footer image fills banner",
+          "data": {
+            "banner": {
+              "x": 0,
+              "y": 183.15625,
+              "width": 320,
+              "height": 600,
+              "right": 320,
+              "bottom": 783.15625
+            },
+            "image": {
+              "x": 0,
+              "y": 183.15625,
+              "width": 320,
+              "height": 600,
+              "right": 320,
+              "bottom": 783.15625,
+              "src": "http://127.0.0.1:4208/assets/sj-banner-footer-light.jpg",
+              "loaded": true,
+              "naturalWidth": 1774,
+              "naturalHeight": 887,
+              "objectFit": "cover",
+              "objectPosition": "70% 50%"
+            }
+          }
+        },
+        {
+          "pass": true,
+          "label": "footer copy stays inside banner",
+          "data": {
+            "copy": {
+              "x": 32.875,
+              "y": 411.796875,
+              "width": 254.25,
+              "height": 142.71875,
+              "right": 287.125,
+              "bottom": 554.515625
+            },
+            "banner": {
+              "x": 0,
+              "y": 183.15625,
+              "width": 320,
+              "height": 600,
+              "right": 320,
+              "bottom": 783.15625
+            }
+          }
+        },
+        {
+          "pass": true,
+          "label": "footer heading and controls stay inside banner"
+        },
+        {
+          "pass": true,
+          "label": "footer has no horizontal or clipped text overflow",
+          "data": []
+        },
+        {
+          "pass": true,
+          "label": "footer correct artwork loads",
+          "data": {
+            "src": "http://127.0.0.1:4208/assets/sj-banner-footer-light.jpg",
+            "loaded": true
+          }
+        },
+        {
+          "pass": true,
+          "label": "footer requested visual mode applied",
+          "data": "light"
+        },
+        {
+          "pass": true,
+          "label": "footer mobile copy overlays photo"
+        },
+        {
+          "pass": true,
+          "label": "Header and footer share identical rendered height",
+          "data": {
+            "header": 600,
+            "footer": 600
+          }
+        },
+        {
+          "pass": true,
+          "label": "No JavaScript errors",
+          "data": []
+        }
+      ],
+      "errors": [],
+      "header": {
+        "banner": {
+          "x": 0,
+          "y": 99,
+          "width": 320,
+          "height": 600,
+          "right": 320,
+          "bottom": 699
+        },
+        "copy": {
+          "x": 22,
+          "y": 405.8125,
+          "width": 276,
+          "height": 293.1875,
+          "right": 298,
+          "bottom": 699
+        },
+        "image": {
+          "x": 0,
+          "y": 99,
+          "width": 320,
+          "height": 600,
+          "right": 320,
+          "bottom": 699,
+          "src": "http://127.0.0.1:4208/assets/sj-home-hero-light.jpg",
+          "loaded": true,
+          "naturalWidth": 1774,
+          "naturalHeight": 887,
+          "objectFit": "cover",
+          "objectPosition": "83% 0%"
+        },
+        "text": "DEARBODY PHILIPPINES\n\nMAKE IT\nPERSONAL.\n\nFragrance with personality. Find the one that feels like you.\n\nEXPLORE THE COLLECTIONS",
+        "textOverflow": [],
+        "elements": [
+          {
+            "tag": "P",
+            "text": "DEARBODY PHILIPPINES",
+            "box": {
+              "x": 22,
+              "y": 429.8125,
+              "width": 276,
+              "height": 12.59375,
+              "right": 298,
+              "bottom": 442.40625
+            }
+          },
+          {
+            "tag": "H1",
+            "text": "MAKE IT\nPERSONAL.",
+            "box": {
+              "x": 22,
+              "y": 458.40625,
+              "width": 276,
+              "height": 88,
+              "right": 298,
+              "bottom": 546.40625
+            }
+          },
+          {
+            "tag": "P",
+            "text": "Fragrance with personality. Find the one that feels like you.",
+            "box": {
+              "x": 22,
+              "y": 562.40625,
+              "width": 276,
+              "height": 41.59375,
+              "right": 298,
+              "bottom": 604
+            }
+          },
+          {
+            "tag": "A",
+            "text": "EXPLORE THE COLLECTIONS",
+            "box": {
+              "x": 22,
+              "y": 622,
+              "width": 182.15625,
+              "height": 47,
+              "right": 204.15625,
+              "bottom": 669
+            }
+          }
+        ],
+        "overflow": false,
+        "mode": "light",
+        "token": "600px"
+      },
+      "footer": {
+        "banner": {
+          "x": 0,
+          "y": 183.15625,
+          "width": 320,
+          "height": 600,
+          "right": 320,
+          "bottom": 783.15625
+        },
+        "copy": {
+          "x": 32.875,
+          "y": 411.796875,
+          "width": 254.25,
+          "height": 142.71875,
+          "right": 287.125,
+          "bottom": 554.515625
+        },
+        "image": {
+          "x": 0,
+          "y": 183.15625,
+          "width": 320,
+          "height": 600,
+          "right": 320,
+          "bottom": 783.15625,
+          "src": "http://127.0.0.1:4208/assets/sj-banner-footer-light.jpg",
+          "loaded": true,
+          "naturalWidth": 1774,
+          "naturalHeight": 887,
+          "objectFit": "cover",
+          "objectPosition": "70% 50%"
+        },
+        "text": "A LITTLE MORE\nYOU, EVERY DAY.",
+        "textOverflow": [],
+        "elements": [],
+        "overflow": false,
+        "mode": "light",
+        "token": "600px"
+      },
+      "status": "PASS"
+    },
+    {
+      "name": "home",
+      "route": "/",
+      "kind": "home",
+      "theme": "dark",
+      "width": 320,
+      "viewportHeight": 844,
+      "checks": [
+        {
+          "pass": true,
+          "label": "header banner spans viewport",
+          "data": {
+            "x": 0,
+            "y": 99,
+            "width": 320,
+            "height": 600,
+            "right": 320,
+            "bottom": 699
+          }
+        },
+        {
+          "pass": true,
+          "label": "header height matches shared contract",
+          "data": {
+            "expected": 600,
+            "actual": 600,
+            "token": "600px"
+          }
+        },
+        {
+          "pass": true,
+          "label": "header image fills banner",
+          "data": {
+            "banner": {
+              "x": 0,
+              "y": 99,
+              "width": 320,
+              "height": 600,
+              "right": 320,
+              "bottom": 699
+            },
+            "image": {
+              "x": 0,
+              "y": 99,
+              "width": 320,
+              "height": 600,
+              "right": 320,
+              "bottom": 699,
+              "src": "http://127.0.0.1:4208/assets/sj-home-hero-dark.jpg",
+              "loaded": true,
+              "naturalWidth": 1774,
+              "naturalHeight": 887,
+              "objectFit": "cover",
+              "objectPosition": "83% 0%"
+            }
+          }
+        },
+        {
+          "pass": true,
+          "label": "header copy stays inside banner",
+          "data": {
+            "copy": {
+              "x": 22,
+              "y": 405.8125,
+              "width": 276,
+              "height": 293.1875,
+              "right": 298,
+              "bottom": 699
+            },
+            "banner": {
+              "x": 0,
+              "y": 99,
+              "width": 320,
+              "height": 600,
+              "right": 320,
+              "bottom": 699
+            }
+          }
+        },
+        {
+          "pass": true,
+          "label": "header heading and controls stay inside banner"
+        },
+        {
+          "pass": true,
+          "label": "header has no horizontal or clipped text overflow",
+          "data": []
+        },
+        {
+          "pass": true,
+          "label": "header correct artwork loads",
+          "data": {
+            "src": "http://127.0.0.1:4208/assets/sj-home-hero-dark.jpg",
+            "loaded": true
+          }
+        },
+        {
+          "pass": true,
+          "label": "header requested visual mode applied",
+          "data": "dark"
+        },
+        {
+          "pass": true,
+          "label": "header mobile copy overlays photo"
+        },
+        {
+          "pass": true,
+          "label": "footer banner spans viewport",
+          "data": {
+            "x": 0,
+            "y": 183.15625,
+            "width": 320,
+            "height": 600,
+            "right": 320,
+            "bottom": 783.15625
+          }
+        },
+        {
+          "pass": true,
+          "label": "footer height matches shared contract",
+          "data": {
+            "expected": 600,
+            "actual": 600,
+            "token": "600px"
+          }
+        },
+        {
+          "pass": true,
+          "label": "footer image fills banner",
+          "data": {
+            "banner": {
+              "x": 0,
+              "y": 183.15625,
+              "width": 320,
+              "height": 600,
+              "right": 320,
+              "bottom": 783.15625
+            },
+            "image": {
+              "x": 0,
+              "y": 183.15625,
+              "width": 320,
+              "height": 600,
+              "right": 320,
+              "bottom": 783.15625,
+              "src": "http://127.0.0.1:4208/assets/sj-banner-footer-dark.jpg",
+              "loaded": true,
+              "naturalWidth": 1774,
+              "naturalHeight": 887,
+              "objectFit": "cover",
+              "objectPosition": "70% 50%"
+            }
+          }
+        },
+        {
+          "pass": true,
+          "label": "footer copy stays inside banner",
+          "data": {
+            "copy": {
+              "x": 32.875,
+              "y": 411.796875,
+              "width": 254.25,
+              "height": 142.71875,
+              "right": 287.125,
+              "bottom": 554.515625
+            },
+            "banner": {
+              "x": 0,
+              "y": 183.15625,
+              "width": 320,
+              "height": 600,
+              "right": 320,
+              "bottom": 783.15625
+            }
+          }
+        },
+        {
+          "pass": true,
+          "label": "footer heading and controls stay inside banner"
+        },
+        {
+          "pass": true,
+          "label": "footer has no horizontal or clipped text overflow",
+          "data": []
+        },
+        {
+          "pass": true,
+          "label": "footer correct artwork loads",
+          "data": {
+            "src": "http://127.0.0.1:4208/assets/sj-banner-footer-dark.jpg",
+            "loaded": true
+          }
+        },
+        {
+          "pass": true,
+          "label": "footer requested visual mode applied",
+          "data": "dark"
+        },
+        {
+          "pass": true,
+          "label": "footer mobile copy overlays photo"
+        },
+        {
+          "pass": true,
+          "label": "Header and footer share identical rendered height",
+          "data": {
+            "header": 600,
+            "footer": 600
+          }
+        },
+        {
+          "pass": true,
+          "label": "No JavaScript errors",
+          "data": []
+        }
+      ],
+      "errors": [],
+      "header": {
+        "banner": {
+          "x": 0,
+          "y": 99,
+          "width": 320,
+          "height": 600,
+          "right": 320,
+          "bottom": 699
+        },
+        "copy": {
+          "x": 22,
+          "y": 405.8125,
+          "width": 276,
+          "height": 293.1875,
+          "right": 298,
+          "bottom": 699
+        },
+        "image": {
+          "x": 0,
+          "y": 99,
+          "width": 320,
+          "height": 600,
+          "right": 320,
+          "bottom": 699,
+          "src": "http://127.0.0.1:4208/assets/sj-home-hero-dark.jpg",
+          "loaded": true,
+          "naturalWidth": 1774,
+          "naturalHeight": 887,
+          "objectFit": "cover",
+          "objectPosition": "83% 0%"
+        },
+        "text": "DEARBODY PHILIPPINES\n\nMAKE IT\nPERSONAL.\n\nFragrance with personality. Find the one that feels like you.\n\nEXPLORE THE COLLECTIONS",
+        "textOverflow": [],
+        "elements": [
+          {
+            "tag": "P",
+            "text": "DEARBODY PHILIPPINES",
+            "box": {
+              "x": 22,
+              "y": 429.8125,
+              "width": 276,
+              "height": 12.59375,
+              "right": 298,
+              "bottom": 442.40625
+            }
+          },
+          {
+            "tag": "H1",
+            "text": "MAKE IT\nPERSONAL.",
+            "box": {
+              "x": 22,
+              "y": 458.40625,
+              "width": 276,
+              "height": 88,
+              "right": 298,
+              "bottom": 546.40625
+            }
+          },
+          {
+            "tag": "P",
+            "text": "Fragrance with personality. Find the one that feels like you.",
+            "box": {
+              "x": 22,
+              "y": 562.40625,
+              "width": 276,
+              "height": 41.59375,
+              "right": 298,
+              "bottom": 604
+            }
+          },
+          {
+            "tag": "A",
+            "text": "EXPLORE THE COLLECTIONS",
+            "box": {
+              "x": 22,
+              "y": 622,
+              "width": 182.15625,
+              "height": 47,
+              "right": 204.15625,
+              "bottom": 669
+            }
+          }
+        ],
+        "overflow": false,
+        "mode": "dark",
+        "token": "600px"
+      },
+      "footer": {
+        "banner": {
+          "x": 0,
+          "y": 183.15625,
+          "width": 320,
+          "height": 600,
+          "right": 320,
+          "bottom": 783.15625
+        },
+        "copy": {
+          "x": 32.875,
+          "y": 411.796875,
+          "width": 254.25,
+          "height": 142.71875,
+          "right": 287.125,
+          "bottom": 554.515625
+        },
+        "image": {
+          "x": 0,
+          "y": 183.15625,
+          "width": 320,
+          "height": 600,
+          "right": 320,
+          "bottom": 783.15625,
+          "src": "http://127.0.0.1:4208/assets/sj-banner-footer-dark.jpg",
+          "loaded": true,
+          "naturalWidth": 1774,
+          "naturalHeight": 887,
+          "objectFit": "cover",
+          "objectPosition": "70% 50%"
+        },
+        "text": "A LITTLE MORE\nYOU, EVERY DAY.",
+        "textOverflow": [],
+        "elements": [],
+        "overflow": false,
+        "mode": "dark",
+        "token": "600px"
+      },
+      "status": "PASS"
+    },
+    {
+      "name": "home",
+      "route": "/",
+      "kind": "home",
+      "theme": "light",
+      "width": 1440,
+      "viewportHeight": 1000,
+      "checks": [
+        {
+          "pass": true,
+          "label": "header banner spans viewport",
+          "data": {
+            "x": 0,
+            "y": 110.5,
+            "width": 1440,
+            "height": 619.1875,
+            "right": 1440,
+            "bottom": 729.6875
+          }
+        },
+        {
+          "pass": true,
+          "label": "header height matches shared contract",
+          "data": {
+            "expected": 619.2,
+            "actual": 619.1875,
+            "token": "clamp(540px,43vw,650px)"
+          }
+        },
+        {
+          "pass": true,
+          "label": "header image fills banner",
+          "data": {
+            "banner": {
+              "x": 0,
+              "y": 110.5,
+              "width": 1440,
+              "height": 619.1875,
+              "right": 1440,
+              "bottom": 729.6875
+            },
+            "image": {
+              "x": 0,
+              "y": 110.5,
+              "width": 1440,
+              "height": 619.1875,
+              "right": 1440,
+              "bottom": 729.6875,
+              "src": "http://127.0.0.1:4208/assets/sj-home-hero-light.jpg",
+              "loaded": true,
+              "naturalWidth": 1774,
+              "naturalHeight": 887,
+              "objectFit": "cover",
+              "objectPosition": "50% 0%"
+            }
+          }
+        },
+        {
+          "pass": true,
+          "label": "header copy stays inside banner",
+          "data": {
+            "copy": {
+              "x": 61.90625,
+              "y": 171.0625,
+              "width": 684.40625,
+              "height": 498.046875,
+              "right": 746.3125,
+              "bottom": 669.109375
+            },
+            "banner": {
+              "x": 0,
+              "y": 110.5,
+              "width": 1440,
+              "height": 619.1875,
+              "right": 1440,
+              "bottom": 729.6875
+            }
+          }
+        },
+        {
+          "pass": true,
+          "label": "header heading and controls stay inside banner"
+        },
+        {
+          "pass": true,
+          "label": "header has no horizontal or clipped text overflow",
+          "data": []
+        },
+        {
+          "pass": true,
+          "label": "header correct artwork loads",
+          "data": {
+            "src": "http://127.0.0.1:4208/assets/sj-home-hero-light.jpg",
+            "loaded": true
+          }
+        },
+        {
+          "pass": true,
+          "label": "header requested visual mode applied",
+          "data": "light"
+        },
+        {
+          "pass": true,
+          "label": "footer banner spans viewport",
+          "data": {
+            "x": 0,
+            "y": 257.46875,
+            "width": 1440,
+            "height": 619.1875,
+            "right": 1440,
+            "bottom": 876.65625
+          }
+        },
+        {
+          "pass": true,
+          "label": "footer height matches shared contract",
+          "data": {
+            "expected": 619.2,
+            "actual": 619.1875,
+            "token": "clamp(540px,43vw,650px)"
+          }
+        },
+        {
+          "pass": true,
+          "label": "footer image fills banner",
+          "data": {
+            "banner": {
+              "x": 0,
+              "y": 257.46875,
+              "width": 1440,
+              "height": 619.1875,
+              "right": 1440,
+              "bottom": 876.65625
+            },
+            "image": {
+              "x": 0,
+              "y": 257.46875,
+              "width": 1440,
+              "height": 619.1875,
+              "right": 1440,
+              "bottom": 876.65625,
+              "src": "http://127.0.0.1:4208/assets/sj-banner-footer-light.jpg",
+              "loaded": true,
+              "naturalWidth": 1774,
+              "naturalHeight": 887,
+              "objectFit": "cover",
+              "objectPosition": "50% 50%"
+            }
+          }
+        },
+        {
+          "pass": true,
+          "label": "footer copy stays inside banner",
+          "data": {
+            "copy": {
+              "x": 406.171875,
+              "y": 422.390625,
+              "width": 627.65625,
+              "height": 289.34375,
+              "right": 1033.828125,
+              "bottom": 711.734375
+            },
+            "banner": {
+              "x": 0,
+              "y": 257.46875,
+              "width": 1440,
+              "height": 619.1875,
+              "right": 1440,
+              "bottom": 876.65625
+            }
+          }
+        },
+        {
+          "pass": true,
+          "label": "footer heading and controls stay inside banner"
+        },
+        {
+          "pass": true,
+          "label": "footer has no horizontal or clipped text overflow",
+          "data": []
+        },
+        {
+          "pass": true,
+          "label": "footer correct artwork loads",
+          "data": {
+            "src": "http://127.0.0.1:4208/assets/sj-banner-footer-light.jpg",
+            "loaded": true
+          }
+        },
+        {
+          "pass": true,
+          "label": "footer requested visual mode applied",
+          "data": "light"
+        },
+        {
+          "pass": true,
+          "label": "Header and footer share identical rendered height",
+          "data": {
+            "header": 619.1875,
+            "footer": 619.1875
+          }
+        },
+        {
+          "pass": true,
+          "label": "No JavaScript errors",
+          "data": []
+        }
+      ],
+      "errors": [],
+      "header": {
+        "banner": {
+          "x": 0,
+          "y": 110.5,
+          "width": 1440,
+          "height": 619.1875,
+          "right": 1440,
+          "bottom": 729.6875
+        },
+        "copy": {
+          "x": 61.90625,
+          "y": 171.0625,
+          "width": 684.40625,
+          "height": 498.046875,
+          "right": 746.3125,
+          "bottom": 669.109375
+        },
+        "image": {
+          "x": 0,
+          "y": 110.5,
+          "width": 1440,
+          "height": 619.1875,
+          "right": 1440,
+          "bottom": 729.6875,
+          "src": "http://127.0.0.1:4208/assets/sj-home-hero-light.jpg",
+          "loaded": true,
+          "naturalWidth": 1774,
+          "naturalHeight": 887,
+          "objectFit": "cover",
+          "objectPosition": "50% 0%"
+        },
+        "text": "DEARBODY PHILIPPINES\n\nMAKE IT\nPERSONAL.\n\nFragrance with personality. Find the one that feels like you.\n\nEXPLORE THE COLLECTIONS",
+        "textOverflow": [],
+        "elements": [
+          {
+            "tag": "P",
+            "text": "DEARBODY PHILIPPINES",
+            "box": {
+              "x": 61.90625,
+              "y": 228.65625,
+              "width": 626.8125,
+              "height": 15.390625,
+              "right": 688.71875,
+              "bottom": 244.046875
+            }
+          },
+          {
+            "tag": "H1",
+            "text": "MAKE IT\nPERSONAL.",
+            "box": {
+              "x": 61.90625,
+              "y": 270.046875,
+              "width": 626.8125,
+              "height": 182.46875,
+              "right": 688.71875,
+              "bottom": 452.515625
+            }
+          },
+          {
+            "tag": "P",
+            "text": "Fragrance with personality. Find the one that feels like you.",
+            "box": {
+              "x": 61.90625,
+              "y": 478.515625,
+              "width": 340,
+              "height": 51,
+              "right": 401.90625,
+              "bottom": 529.515625
+            }
+          },
+          {
+            "tag": "A",
+            "text": "EXPLORE THE COLLECTIONS",
+            "box": {
+              "x": 61.90625,
+              "y": 559.515625,
+              "width": 222.984375,
+              "height": 52,
+              "right": 284.890625,
+              "bottom": 611.515625
+            }
+          }
+        ],
+        "overflow": false,
+        "mode": "light",
+        "token": "clamp(540px,43vw,650px)"
+      },
+      "footer": {
+        "banner": {
+          "x": 0,
+          "y": 257.46875,
+          "width": 1440,
+          "height": 619.1875,
+          "right": 1440,
+          "bottom": 876.65625
+        },
+        "copy": {
+          "x": 406.171875,
+          "y": 422.390625,
+          "width": 627.65625,
+          "height": 289.34375,
+          "right": 1033.828125,
+          "bottom": 711.734375
+        },
+        "image": {
+          "x": 0,
+          "y": 257.46875,
+          "width": 1440,
+          "height": 619.1875,
+          "right": 1440,
+          "bottom": 876.65625,
+          "src": "http://127.0.0.1:4208/assets/sj-banner-footer-light.jpg",
+          "loaded": true,
+          "naturalWidth": 1774,
+          "naturalHeight": 887,
+          "objectFit": "cover",
+          "objectPosition": "50% 50%"
+        },
+        "text": "A LITTLE MORE\nYOU, EVERY DAY.",
+        "textOverflow": [],
+        "elements": [],
+        "overflow": false,
+        "mode": "light",
+        "token": "clamp(540px,43vw,650px)"
+      },
+      "status": "PASS"
+    },
+    {
+      "name": "home",
+      "route": "/",
+      "kind": "home",
+      "theme": "dark",
+      "width": 1440,
+      "viewportHeight": 1000,
+      "checks": [
+        {
+          "pass": true,
+          "label": "header banner spans viewport",
+          "data": {
+            "x": 0,
+            "y": 110.5,
+            "width": 1440,
+            "height": 619.1875,
+            "right": 1440,
+            "bottom": 729.6875
+          }
+        },
+        {
+          "pass": true,
+          "label": "header height matches shared contract",
+          "data": {
+            "expected": 619.2,
+            "actual": 619.1875,
+            "token": "clamp(540px,43vw,650px)"
+          }
+        },
+        {
+          "pass": true,
+          "label": "header image fills banner",
+          "data": {
+            "banner": {
+              "x": 0,
+              "y": 110.5,
+              "width": 1440,
+              "height": 619.1875,
+              "right": 1440,
+              "bottom": 729.6875
+            },
+            "image": {
+              "x": 0,
+              "y": 110.5,
+              "width": 1440,
+              "height": 619.1875,
+              "right": 1440,
+              "bottom": 729.6875,
+              "src": "http://127.0.0.1:4208/assets/sj-home-hero-dark.jpg",
+              "loaded": true,
+              "naturalWidth": 1774,
+              "naturalHeight": 887,
+              "objectFit": "cover",
+              "objectPosition": "50% 0%"
+            }
+          }
+        },
+        {
+          "pass": true,
+          "label": "header copy stays inside banner",
+          "data": {
+            "copy": {
+              "x": 61.90625,
+              "y": 171.0625,
+              "width": 684.40625,
+              "height": 498.046875,
+              "right": 746.3125,
+              "bottom": 669.109375
+            },
+            "banner": {
+              "x": 0,
+              "y": 110.5,
+              "width": 1440,
+              "height": 619.1875,
+              "right": 1440,
+              "bottom": 729.6875
+            }
+          }
+        },
+        {
+          "pass": true,
+          "label": "header heading and controls stay inside banner"
+        },
+        {
+          "pass": true,
+          "label": "header has no horizontal or clipped text overflow",
+          "data": []
+        },
+        {
+          "pass": true,
+          "label": "header correct artwork loads",
+          "data": {
+            "src": "http://127.0.0.1:4208/assets/sj-home-hero-dark.jpg",
+            "loaded": true
+          }
+        },
+        {
+          "pass": true,
+          "label": "header requested visual mode applied",
+          "data": "dark"
+        },
+        {
+          "pass": true,
+          "label": "footer banner spans viewport",
+          "data": {
+            "x": 0,
+            "y": 257.46875,
+            "width": 1440,
+            "height": 619.1875,
+            "right": 1440,
+            "bottom": 876.65625
+          }
+        },
+        {
+          "pass": true,
+          "label": "footer height matches shared contract",
+          "data": {
+            "expected": 619.2,
+            "actual": 619.1875,
+            "token": "clamp(540px,43vw,650px)"
+          }
+        },
+        {
+          "pass": true,
+          "label": "footer image fills banner",
+          "data": {
+            "banner": {
+              "x": 0,
+              "y": 257.46875,
+              "width": 1440,
+              "height": 619.1875,
+              "right": 1440,
+              "bottom": 876.65625
+            },
+            "image": {
+              "x": 0,
+              "y": 257.46875,
+              "width": 1440,
+              "height": 619.1875,
+              "right": 1440,
+              "bottom": 876.65625,
+              "src": "http://127.0.0.1:4208/assets/sj-banner-footer-dark.jpg",
+              "loaded": true,
+              "naturalWidth": 1774,
+              "naturalHeight": 887,
+              "objectFit": "cover",
+              "objectPosition": "50% 50%"
+            }
+          }
+        },
+        {
+          "pass": true,
+          "label": "footer copy stays inside banner",
+          "data": {
+            "copy": {
+              "x": 406.171875,
+              "y": 422.390625,
+              "width": 627.65625,
+              "height": 289.34375,
+              "right": 1033.828125,
+              "bottom": 711.734375
+            },
+            "banner": {
+              "x": 0,
+              "y": 257.46875,
+              "width": 1440,
+              "height": 619.1875,
+              "right": 1440,
+              "bottom": 876.65625
+            }
+          }
+        },
+        {
+          "pass": true,
+          "label": "footer heading and controls stay inside banner"
+        },
+        {
+          "pass": true,
+          "label": "footer has no horizontal or clipped text overflow",
+          "data": []
+        },
+        {
+          "pass": true,
+          "label": "footer correct artwork loads",
+          "data": {
+            "src": "http://127.0.0.1:4208/assets/sj-banner-footer-dark.jpg",
+            "loaded": true
+          }
+        },
+        {
+          "pass": true,
+          "label": "footer requested visual mode applied",
+          "data": "dark"
+        },
+        {
+          "pass": true,
+          "label": "Header and footer share identical rendered height",
+          "data": {
+            "header": 619.1875,
+            "footer": 619.1875
+          }
+        },
+        {
+          "pass": true,
+          "label": "No JavaScript errors",
+          "data": []
+        }
+      ],
+      "errors": [],
+      "header": {
+        "banner": {
+          "x": 0,
+          "y": 110.5,
+          "width": 1440,
+          "height": 619.1875,
+          "right": 1440,
+          "bottom": 729.6875
+        },
+        "copy": {
+          "x": 61.90625,
+          "y": 171.0625,
+          "width": 684.40625,
+          "height": 498.046875,
+          "right": 746.3125,
+          "bottom": 669.109375
+        },
+        "image": {
+          "x": 0,
+          "y": 110.5,
+          "width": 1440,
+          "height": 619.1875,
+          "right": 1440,
+          "bottom": 729.6875,
+          "src": "http://127.0.0.1:4208/assets/sj-home-hero-dark.jpg",
+          "loaded": true,
+          "naturalWidth": 1774,
+          "naturalHeight": 887,
+          "objectFit": "cover",
+          "objectPosition": "50% 0%"
+        },
+        "text": "DEARBODY PHILIPPINES\n\nMAKE IT\nPERSONAL.\n\nFragrance with personality. Find the one that feels like you.\n\nEXPLORE THE COLLECTIONS",
+        "textOverflow": [],
+        "elements": [
+          {
+            "tag": "P",
+            "text": "DEARBODY PHILIPPINES",
+            "box": {
+              "x": 61.90625,
+              "y": 228.65625,
+              "width": 626.8125,
+              "height": 15.390625,
+              "right": 688.71875,
+              "bottom": 244.046875
+            }
+          },
+          {
+            "tag": "H1",
+            "text": "MAKE IT\nPERSONAL.",
+            "box": {
+              "x": 61.90625,
+              "y": 270.046875,
+              "width": 626.8125,
+              "height": 182.46875,
+              "right": 688.71875,
+              "bottom": 452.515625
+            }
+          },
+          {
+            "tag": "P",
+            "text": "Fragrance with personality. Find the one that feels like you.",
+            "box": {
+              "x": 61.90625,
+              "y": 478.515625,
+              "width": 340,
+              "height": 51,
+              "right": 401.90625,
+              "bottom": 529.515625
+            }
+          },
+          {
+            "tag": "A",
+            "text": "EXPLORE THE COLLECTIONS",
+            "box": {
+              "x": 61.90625,
+              "y": 559.515625,
+              "width": 222.984375,
+              "height": 52,
+              "right": 284.890625,
+              "bottom": 611.515625
+            }
+          }
+        ],
+        "overflow": false,
+        "mode": "dark",
+        "token": "clamp(540px,43vw,650px)"
+      },
+      "footer": {
+        "banner": {
+          "x": 0,
+          "y": 257.46875,
+          "width": 1440,
+          "height": 619.1875,
+          "right": 1440,
+          "bottom": 876.65625
+        },
+        "copy": {
+          "x": 406.171875,
+          "y": 422.390625,
+          "width": 627.65625,
+          "height": 289.34375,
+          "right": 1033.828125,
+          "bottom": 711.734375
+        },
+        "image": {
+          "x": 0,
+          "y": 257.46875,
+          "width": 1440,
+          "height": 619.1875,
+          "right": 1440,
+          "bottom": 876.65625,
+          "src": "http://127.0.0.1:4208/assets/sj-banner-footer-dark.jpg",
+          "loaded": true,
+          "naturalWidth": 1774,
+          "naturalHeight": 887,
+          "objectFit": "cover",
+          "objectPosition": "50% 50%"
+        },
+        "text": "A LITTLE MORE\nYOU, EVERY DAY.",
+        "textOverflow": [],
+        "elements": [],
+        "overflow": false,
+        "mode": "dark",
+        "token": "clamp(540px,43vw,650px)"
+      },
+      "status": "PASS"
+    }
+  ],
+  "failures": [],
+  "summary": {
+    "status": "PASS",
+    "cases": 4,
+    "checks": 76,
+    "failures": 0
+  }
+}

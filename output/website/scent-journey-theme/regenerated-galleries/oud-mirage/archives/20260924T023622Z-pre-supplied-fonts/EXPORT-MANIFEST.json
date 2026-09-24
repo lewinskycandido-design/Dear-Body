@@ -1,0 +1,235 @@
+{
+  "colour": "sRGB embedded ICC",
+  "photos": "New imagegen native1254 square photographs normalized/upscaled to2048; web1200 downsampled",
+  "type": "Helvetica Neue and Helvetica Neue Bold fallback; licensed Cenzo/Helvetica Now unavailable",
+  "files": [
+    {
+      "frame": 1,
+      "source": "01-featured-packshot.png",
+      "source_size": [
+        1254,
+        1254
+      ],
+      "final": "01-featured-packshot.png",
+      "web": "01.jpg",
+      "final_size": [
+        2048,
+        2048
+      ],
+      "web_size": [
+        1200,
+        1200
+      ],
+      "sha256": "c8efeefbe133b555d26677af29f5939fa334bb4d6fd62945b91cb174fdaffffd"
+    },
+    {
+      "frame": 2,
+      "source": "02-spray-in-motion.png",
+      "source_size": [
+        1254,
+        1254
+      ],
+      "final": "02-spray-in-motion.png",
+      "web": "02.jpg",
+      "final_size": [
+        2048,
+        2048
+      ],
+      "web_size": [
+        1200,
+        1200
+      ],
+      "sha256": "8957dc6539a5261d7076948fcd38a90bf404b17016acb77466961cf2b166b4a5"
+    },
+    {
+      "frame": 3,
+      "source": "03-packaging-reveal-corrected.png",
+      "source_size": [
+        1254,
+        1254
+      ],
+      "final": "03-packaging-reveal.png",
+      "web": "03.jpg",
+      "final_size": [
+        2048,
+        2048
+      ],
+      "web_size": [
+        1200,
+        1200
+      ],
+      "sha256": "ba482ad7a1a5da6ea1a28a4c02d8ed6904cfa4e6502a86e4b3937b64fbb854fd"
+    },
+    {
+      "frame": 4,
+      "source": "04-magnetic-cap-detail.png",
+      "source_size": [
+        1254,
+        1254
+      ],
+      "final": "04-magnetic-cap-detail.png",
+      "web": "04.jpg",
+      "final_size": [
+        2048,
+        2048
+      ],
+      "web_size": [
+        1200,
+        1200
+      ],
+      "sha256": "261ff4733630fc11161e99edd81702fa26bd363abf122147c656e5be36b7f46a"
+    },
+    {
+      "frame": 5,
+      "source": "05-record-shop-lifestyle.png",
+      "source_size": [
+        1254,
+        1254
+      ],
+      "final": "05-lifestyle-hero.png",
+      "web": "05.jpg",
+      "final_size": [
+        2048,
+        2048
+      ],
+      "web_size": [
+        1200,
+        1200
+      ],
+      "sha256": "0d82e05030d4c4ddf0f6c577a62845870f2480fa23e08d293c39f967efca1d3e"
+    },
+    {
+      "frame": 6,
+      "source": "06-street-coffee-handheld.png",
+      "source_size": [
+        1254,
+        1254
+      ],
+      "final": "06-handheld-lifestyle.png",
+      "web": "06.jpg",
+      "final_size": [
+        2048,
+        2048
+      ],
+      "web_size": [
+        1200,
+        1200
+      ],
+      "sha256": "6edc62dd5e3db5745299ab7e4698f2d4b03f7adebff678c82ee607b8e5a07edb"
+    },
+    {
+      "frame": 7,
+      "source": "07-record-day-context.png",
+      "source_size": [
+        1254,
+        1254
+      ],
+      "final": "07-personal-context.png",
+      "web": "07.jpg",
+      "final_size": [
+        2048,
+        2048
+      ],
+      "web_size": [
+        1200,
+        1200
+      ],
+      "sha256": "b18bd54e74ca52037c36b34235d1dd012ec4b3bf103e0293b2a3ac5e63d83c40"
+    },
+    {
+      "frame": 8,
+      "source": "08-profile-base.png",
+      "source_size": [
+        1254,
+        1254
+      ],
+      "final": "08-product-profile-infographic.png",
+      "web": "08.jpg",
+      "final_size": [
+        2048,
+        2048
+      ],
+      "web_size": [
+        1200,
+        1200
+      ],
+      "sha256": "8e52f3a7be848e037edbfe329eefdb40f7572c5f4105ab414f2a1c1410f8afee"
+    },
+    {
+      "frame": 9,
+      "source": "09-ingredients-base.png",
+      "source_size": [
+        1254,
+        1254
+      ],
+      "final": "09-ingredients-and-care-infographic.png",
+      "web": "09.jpg",
+      "final_size": [
+        2048,
+        2048
+      ],
+      "web_size": [
+        1200,
+        1200
+      ],
+      "sha256": "a7897228f5da10f2d706beec5cac23e5aaef312af1b061018208b7ba7bca001d"
+    },
+    {
+      "frame": 10,
+      "source": "10-rooftop-closing-base.png",
+      "source_size": [
+        1254,
+        1254
+      ],
+      "final": "10-closing-hero.png",
+      "web": "10.jpg",
+      "final_size": [
+        2048,
+        2048
+      ],
+      "web_size": [
+        1200,
+        1200
+      ],
+      "sha256": "c05165cd349d413c17d885d65d7a4422447b718681e2657d74481cc6efe3a7b7"
+    },
+    {
+      "frame": 11,
+      "source": "11-scent-description-base.png",
+      "source_size": [
+        1254,
+        1254
+      ],
+      "final": "11-scent-description-infographic.png",
+      "web": "11.jpg",
+      "final_size": [
+        2048,
+        2048
+      ],
+      "web_size": [
+        1200,
+        1200
+      ],
+      "sha256": "776b5ec6f1cbaef93495fa643914a0b40f99b8779757585e4c738212d8e4e8e1"
+    },
+    {
+      "frame": 12,
+      "source": "12-who-it-fits-base.png",
+      "source_size": [
+        1254,
+        1254
+      ],
+      "final": "12-who-it-fits-infographic.png",
+      "web": "12.jpg",
+      "final_size": [
+        2048,
+        2048
+      ],
+      "web_size": [
+        1200,
+        1200
+      ],
+      "sha256": "09cb79534c5d05fa7113a26da4c6483e35861b63df0345b20597812b769a1f46"
+    }
+  ]
+}

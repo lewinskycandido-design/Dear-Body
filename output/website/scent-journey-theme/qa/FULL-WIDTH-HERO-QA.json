@@ -1,0 +1,332 @@
+{
+  "generatedAt": "2026-09-24T03:39:40.128Z",
+  "scope": "Focused full-width homepage hero verification only",
+  "cases": [
+    {
+      "theme": "light",
+      "width": 1440,
+      "stage": {
+        "x": 0,
+        "y": 110.5,
+        "width": 1440,
+        "height": 619.1875,
+        "right": 1440,
+        "bottom": 729.6875
+      },
+      "media": {
+        "x": 0,
+        "y": 110.5,
+        "width": 1440,
+        "height": 619.1875,
+        "right": 1440,
+        "bottom": 729.6875
+      },
+      "image": {
+        "x": 0,
+        "y": 110.5,
+        "width": 1440,
+        "height": 619.1875,
+        "right": 1440,
+        "bottom": 729.6875
+      },
+      "loaded": true,
+      "src": "http://127.0.0.1:4208/assets/sj-home-hero-light.jpg",
+      "h1": "MAKE IT\nPERSONAL.",
+      "h1Count": 1,
+      "horizontalOverflow": false,
+      "headingOverflow": false,
+      "edgeToEdge": true,
+      "cta": {
+        "hash": "#ShopCollections",
+        "title": 222.6875,
+        "titleBottom": 282.578125,
+        "headerHeight": 110.5,
+        "clear": true,
+        "titleInView": true
+      },
+      "errors": [],
+      "pass": true
+    },
+    {
+      "theme": "dark",
+      "width": 1440,
+      "stage": {
+        "x": 0,
+        "y": 110.5,
+        "width": 1440,
+        "height": 619.1875,
+        "right": 1440,
+        "bottom": 729.6875
+      },
+      "media": {
+        "x": 0,
+        "y": 110.5,
+        "width": 1440,
+        "height": 619.1875,
+        "right": 1440,
+        "bottom": 729.6875
+      },
+      "image": {
+        "x": 0,
+        "y": 110.5,
+        "width": 1440,
+        "height": 619.1875,
+        "right": 1440,
+        "bottom": 729.6875
+      },
+      "loaded": true,
+      "src": "http://127.0.0.1:4208/assets/sj-home-hero-dark.jpg",
+      "h1": "MAKE IT\nPERSONAL.",
+      "h1Count": 1,
+      "horizontalOverflow": false,
+      "headingOverflow": false,
+      "edgeToEdge": true,
+      "cta": {
+        "hash": "#ShopCollections",
+        "title": 222.6875,
+        "titleBottom": 282.578125,
+        "headerHeight": 110.5,
+        "clear": true,
+        "titleInView": true
+      },
+      "errors": [],
+      "pass": true
+    },
+    {
+      "theme": "light",
+      "width": 820,
+      "stage": {
+        "x": 0,
+        "y": 110.5,
+        "width": 820,
+        "height": 490,
+        "right": 820,
+        "bottom": 600.5
+      },
+      "media": {
+        "x": 0,
+        "y": 110.5,
+        "width": 820,
+        "height": 490,
+        "right": 820,
+        "bottom": 600.5
+      },
+      "image": {
+        "x": 0,
+        "y": 110.5,
+        "width": 820,
+        "height": 490,
+        "right": 820,
+        "bottom": 600.5
+      },
+      "loaded": true,
+      "src": "http://127.0.0.1:4208/assets/sj-home-hero-light.jpg",
+      "h1": "MAKE IT\nPERSONAL.",
+      "h1Count": 1,
+      "horizontalOverflow": false,
+      "headingOverflow": false,
+      "edgeToEdge": true,
+      "cta": {
+        "hash": "#ShopCollections",
+        "title": 234.84375,
+        "titleBottom": 272.28125,
+        "headerHeight": 110.5,
+        "clear": true,
+        "titleInView": true
+      },
+      "errors": [],
+      "pass": true
+    },
+    {
+      "theme": "dark",
+      "width": 820,
+      "stage": {
+        "x": 0,
+        "y": 110.5,
+        "width": 820,
+        "height": 490,
+        "right": 820,
+        "bottom": 600.5
+      },
+      "media": {
+        "x": 0,
+        "y": 110.5,
+        "width": 820,
+        "height": 490,
+        "right": 820,
+        "bottom": 600.5
+      },
+      "image": {
+        "x": 0,
+        "y": 110.5,
+        "width": 820,
+        "height": 490,
+        "right": 820,
+        "bottom": 600.5
+      },
+      "loaded": true,
+      "src": "http://127.0.0.1:4208/assets/sj-home-hero-dark.jpg",
+      "h1": "MAKE IT\nPERSONAL.",
+      "h1Count": 1,
+      "horizontalOverflow": false,
+      "headingOverflow": false,
+      "edgeToEdge": true,
+      "cta": {
+        "hash": "#ShopCollections",
+        "title": 234.84375,
+        "titleBottom": 272.28125,
+        "headerHeight": 110.5,
+        "clear": true,
+        "titleInView": true
+      },
+      "errors": [],
+      "pass": true
+    },
+    {
+      "theme": "light",
+      "width": 390,
+      "stage": {
+        "x": 0,
+        "y": 99,
+        "width": 390,
+        "height": 641.21875,
+        "right": 390,
+        "bottom": 740.21875
+      },
+      "media": {
+        "x": 0,
+        "y": 99,
+        "width": 390,
+        "height": 296.390625,
+        "right": 390,
+        "bottom": 395.390625
+      },
+      "image": {
+        "x": 0,
+        "y": 99,
+        "width": 390,
+        "height": 296.390625,
+        "right": 390,
+        "bottom": 395.390625
+      },
+      "loaded": true,
+      "src": "http://127.0.0.1:4208/assets/sj-home-hero-light.jpg",
+      "h1": "MAKE IT\nPERSONAL.",
+      "h1Count": 1,
+      "horizontalOverflow": false,
+      "headingOverflow": false,
+      "edgeToEdge": true,
+      "cta": {
+        "hash": "#ShopCollections",
+        "title": 189.21875,
+        "titleBottom": 225.703125,
+        "headerHeight": 99,
+        "clear": true,
+        "titleInView": true
+      },
+      "errors": [],
+      "pass": true
+    },
+    {
+      "theme": "dark",
+      "width": 390,
+      "stage": {
+        "x": 0,
+        "y": 99,
+        "width": 390,
+        "height": 641.21875,
+        "right": 390,
+        "bottom": 740.21875
+      },
+      "media": {
+        "x": 0,
+        "y": 99,
+        "width": 390,
+        "height": 296.390625,
+        "right": 390,
+        "bottom": 395.390625
+      },
+      "image": {
+        "x": 0,
+        "y": 99,
+        "width": 390,
+        "height": 296.390625,
+        "right": 390,
+        "bottom": 395.390625
+      },
+      "loaded": true,
+      "src": "http://127.0.0.1:4208/assets/sj-home-hero-dark.jpg",
+      "h1": "MAKE IT\nPERSONAL.",
+      "h1Count": 1,
+      "horizontalOverflow": false,
+      "headingOverflow": false,
+      "edgeToEdge": true,
+      "cta": {
+        "hash": "#ShopCollections",
+        "title": 189.21875,
+        "titleBottom": 225.703125,
+        "headerHeight": 99,
+        "clear": true,
+        "titleInView": true
+      },
+      "errors": [],
+      "pass": true
+    },
+    {
+      "theme": "light",
+      "width": 1920,
+      "stage": {
+        "x": 0,
+        "y": 110.5,
+        "width": 1920,
+        "height": 650,
+        "right": 1920,
+        "bottom": 760.5
+      },
+      "media": {
+        "x": 0,
+        "y": 110.5,
+        "width": 1920,
+        "height": 650,
+        "right": 1920,
+        "bottom": 760.5
+      },
+      "image": {
+        "x": 0,
+        "y": 110.5,
+        "width": 1920,
+        "height": 650,
+        "right": 1920,
+        "bottom": 760.5
+      },
+      "loaded": true,
+      "src": "http://127.0.0.1:4208/assets/sj-home-hero-light.jpg",
+      "h1": "MAKE IT\nPERSONAL.",
+      "h1Count": 1,
+      "horizontalOverflow": false,
+      "headingOverflow": false,
+      "edgeToEdge": true,
+      "cta": {
+        "hash": "#ShopCollections",
+        "title": 222.5,
+        "titleBottom": 286.96875,
+        "headerHeight": 110.5,
+        "clear": true,
+        "titleInView": true
+      },
+      "errors": [],
+      "pass": true
+    }
+  ],
+  "status": "PASS",
+  "visualReview": {
+    "status": "PASS",
+    "inspectedHeroCaptures": 7,
+    "inspectedMobileFullPage": 1,
+    "notes": [
+      "Both faces fully visible in every crop.",
+      "Headline, description, and CTA remain readable and separated from subjects.",
+      "Desktop hero and mobile image reach both viewport edges; copy retains inner padding."
+    ]
+  }
+}

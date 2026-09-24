@@ -1,0 +1,21 @@
+{
+  "assets": [
+    {
+      "contentType": "image/png",
+      "id": "dcf8a5fc480d222d",
+      "kind": "image",
+      "name": "width:1600",
+      "path": "/var/folders/fs/cfmmqqcd64d9nj5bm6bypjj40000gn/T/browser-use/assets/2e479b9d-0f7d-42e8-8684-7d019be820ec/dcf8a5fc480d222d",
+      "url": "https://media.canva.com/v2/image-resize/format:PNG/height:1066/quality:100/uri:ifs%3A%2F%2FM%2Ff6564673-6a62-4cef-85cf-12b054878e98/watermark:F/width:1600?csig=AAAAAAAAAAAAAAAAAAAAAJp79YR7W0-cciTPJyGS4DZkYVAc_8Dfa_aTEQWm8Imq&exp=1790230124&osig=AAAAAAAAAAAAAAAAAAAAADyrqWSvyRwk0_KNg7WNLF8zpPA3EHtS76-TGki8zIss&signer=media-rpc&x-canva-quality=screen_2x"
+    },
+    {
+      "contentType": "image/webp",
+      "id": "294e1118f3c2f257",
+      "kind": "image",
+      "name": "width:2400",
+      "path": "/var/folders/fs/cfmmqqcd64d9nj5bm6bypjj40000gn/T/browser-use/assets/2e479b9d-0f7d-42e8-8684-7d019be820ec/294e1118f3c2f257",
+      "url": "https://media.canva.com/v2/image-resize/format:PNG/height:1600/quality:100/uri:ifs%3A%2F%2FM%2F73402d8a-509d-4d10-9a18-ebc3b827c6bd/watermark:F/width:2400?csig=AAAAAAAAAAAAAAAAAAAAANUBY-SjA9xtMQWy5ZC5eWZDnc8jeOQKljiVBre2r8jh&exp=1790227938&osig=AAAAAAAAAAAAAAAAAAAAAIMDxBWxobFw7Zfs0eaa9_ycg5fkesMPfPp1RQHg1-pH&signer=media-rpc&x-canva-quality=screen_3x"
+    }
+  ],
+  "failures": []
+}

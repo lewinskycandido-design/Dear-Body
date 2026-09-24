@@ -1,0 +1,59 @@
+{
+  "store": "dearbody.ph",
+  "verified_date": "2026-09-24",
+  "method": "Authenticated Shopify admin UI via CUA",
+  "cash_on_delivery": {
+    "active": true,
+    "details": "Pay in cash when your order is delivered.",
+    "instructions": "Please prepare the total amount shown on your order confirmation and pay the courier upon delivery."
+  },
+  "shipping": {
+    "profile_id": "117002240065",
+    "country": "Philippines",
+    "base_rate_PHP": 80,
+    "price_threshold_removed": true,
+    "automatic_discount": {
+      "id": "1488158097473",
+      "title": "Free shipping on 2 or more items",
+      "status": "Active",
+      "minimum_items": 2,
+      "combines_with": [
+        "product discounts",
+        "order discounts"
+      ]
+    }
+  },
+  "checkout": {
+    "layout": "One-page",
+    "guest_checkout": true,
+    "customer_contact": "Phone number or email",
+    "shipping_phone": "Required",
+    "company": "Not included",
+    "address_line_2": "Optional"
+  },
+  "verification_limits": [
+    "No order was placed. No real contact details were entered.",
+    "Local fixture availability was stale; the uploaded Shopify draft now has available native variants."
+  ],
+  "native_checkout_handoff": {
+    "method": "CUA on uploaded draft167083311169 with fictional Theme Preview address; stopped before Complete order",
+    "address_prefill": "Verified first/last name, street,city,province,postalcode,Philippines",
+    "two_scents": {
+      "products": [
+        "Oud Mirage",
+        "Amber Oud Silk"
+      ],
+      "subtotal_PHP": 1598,
+      "shipping_PHP": 0,
+      "total_PHP": 1598,
+      "automatic_discount_visible": true,
+      "COD_visible": true
+    },
+    "one_scent": {
+      "product": "Oud Mirage",
+      "shipping_PHP": 80,
+      "total_PHP": 879,
+      "COD_visible": true
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "MISTENED NARCISSUS",
+  "title": "MISTENED\nNARCISSUS",
+  "accent": "#B5A4CB",
+  "code": "P11438",
+  "barcode": "5056795407376",
+  "liquid": "Clear liquid",
+  "pack": "Pale lavender canister",
+  "description": "Juicy berries softened by a smooth, sweet finish.",
+  "fit": "For someone drawn to juicy brightness, smooth sweetness, and an easy, playful finish.",
+  "traits": [
+    "JUICY",
+    "SMOOTH",
+    "PLAYFUL"
+  ],
+  "ingredients": [
+    "Alcohol",
+    "Water (Aqua)",
+    "Fragrance (Parfum)",
+    "PEG-40 Hydrogenated Castor Oil",
+    "Propylene Glycol",
+    "Benzyl Salicylate",
+    "Hexyl Cinnamal",
+    "Limonene",
+    "Linalool",
+    "Citronellol",
+    "Alpha-Isomethyl Ionone"
+  ],
+  "care": "FLAMMABLE"
+}

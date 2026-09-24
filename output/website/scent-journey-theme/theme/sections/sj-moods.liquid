@@ -1,0 +1,54 @@
+<section class="sj-container sj-section"><div class="sj-section-heading"><div><p class="sj-eyebrow">03 — FOLLOW A FEELING</p><h2>{{ section.settings.heading | escape }}</h2></div><p>Start with the feeling.<br>See where it takes you.</p></div><div class="sj-mood-list">{% if section.settings.moods != blank %}{% for mood in section.settings.moods %}<a class="sj-mood-row" href="{{ mood.collection.value.url | default: settings.finder_url | default: '/pages/scent-finder' }}"><span class="sj-mood-number">0{{ forloop.index }}</span><h3>{{ mood.title.value | escape }}</h3><p>{{ mood.description.value | escape }}</p></a>{% endfor %}{% else %}{% for block in section.blocks %}<a class="sj-mood-row" href="{{ block.settings.link | default: settings.finder_url | default: '/pages/scent-finder' }}" {{ block.shopify_attributes }}><span class="sj-mood-number">0{{ forloop.index }}</span><h3>{{ block.settings.title | escape }}</h3><p>{{ block.settings.description | escape }}</p></a>{% endfor %}{% endif %}</div></section>
+{% schema %}
+{
+  "name": "Mood discovery",
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "WHERE WILL YOUR SCENT TAKE YOU?"
+    },
+    {
+      "type": "metaobject_list",
+      "id": "moods",
+      "label": "Curated scent moods",
+      "metaobject_type": "scent_mood"
+    },
+    {
+      "type": "paragraph",
+      "content": "Optional metaobjects override the editable mood invitations below. Mood invitations link to discovery; no product classifications are inferred."
+    }
+  ],
+  "blocks": [
+    {
+      "type": "mood",
+      "name": "Mood invitation",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title",
+          "default": "FRESH & BRIGHT"
+        },
+        {
+          "type": "textarea",
+          "id": "description",
+          "label": "Description",
+          "default": "For a little lift in your everyday."
+        },
+        {
+          "type": "url",
+          "id": "link",
+          "label": "Destination"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Mood discovery"
+    }
+  ]
+}
+{% endschema %}

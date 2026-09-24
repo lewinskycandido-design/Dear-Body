@@ -1,0 +1,84 @@
+{% liquid
+  assign seo_title = page_title
+  assign seo_description = page_description
+  if request.page_type == 'index'
+    assign seo_title = 'DearBody Philippines | London-Formulated Perfumes & Fragrances'
+    assign seo_description = 'Discover DearBody Philippines and begin your scent journey. Shop London-formulated perfumes thoughtfully curated for Filipino tastes, lifestyles, and tropical everyday living.'
+  elsif request.page_type == 'product'
+    case product.handle
+    when 'mojito-metallique'
+      assign seo_title = "DearBody Mojito Metallique Perfume | Soft, Creamy & Fruity Fragrance"
+      assign seo_description = "Discover DearBody Mojito Metallique, a London-formulated fragrance with soft creamy sweetness and a light fruity glow. A smooth, inviting scent for effortless everyday style."
+    when 'amber-oud-silk'
+      assign seo_title = "DearBody Amber Oud Silk Perfume | Dark Spicy & Smoky Fragrance"
+      assign seo_description = "Discover DearBody Amber Oud Silk, a dark spicy fragrance with smoky warmth and an addictive edge. A bold London-formulated scent from DearBody Philippines."
+    when 'mistened-narcissus'
+      assign seo_title = "DearBody Mistened Narcissus Perfume | Juicy Berry & Sweet Fragrance"
+      assign seo_description = "Discover DearBody Mistened Narcissus, a juicy berry fragrance softened by a smooth sweet finish. A playful London-formulated scent by DearBody Philippines."
+    when 'charme-envoutant'
+      assign seo_title = "DearBody Charme Envoûtant Perfume | Rich Spiced Sweet Fragrance"
+      assign seo_description = "Discover DearBody Charme Envoûtant, a rich spiced fragrance with deep indulgent sweetness. A warm and expressive London-formulated perfume by DearBody Philippines."
+    when 'oud-mirage'
+      assign seo_title = "DearBody Oud Mirage Perfume | Dark Rose, Smoky & Woody Fragrance"
+      assign seo_description = "Discover DearBody Oud Mirage, a dark rose fragrance wrapped in smoky woody depth. A bold London-formulated scent from the DearBody Philippines collection."
+    when 'rtulle-satin'
+      assign seo_title = "DearBody Rtulle & Satin Perfume | Airy Sweet & Warm Fragrance"
+      assign seo_description = "Discover DearBody Rtulle & Satin, an airy sweet fragrance with a warm glowing trail. A soft, expressive London-formulated scent by DearBody Philippines."
+    endcase
+  elsif collection.handle == 'womens-perfume'
+    assign seo_title = "DearBody Women's Perfume Philippines | London-Formulated Fragrances"
+    assign seo_description = "Discover DearBody women's perfumes in the Philippines. Explore London-formulated fragrances curated for Filipino style, everyday moments, and tropical living. Find a scent that expresses you."
+  elsif collection.handle == 'mens-perfume'
+    assign seo_title = "DearBody Men's Perfume Philippines | London-Formulated Fragrances"
+    assign seo_description = "Explore DearBody men's perfumes in the Philippines. Discover London-formulated fragrances curated for Filipino lifestyles, from fresh everyday profiles to deeper evening scents."
+  elsif page.handle == 'scent-finder'
+    assign seo_title = 'DearBody Scent Finder Philippines | Find Your Perfume Match'
+    assign seo_description = 'Find your DearBody fragrance match. Take our quick scent quiz and discover London-formulated perfumes selected around your mood, scent preferences, and everyday lifestyle.'
+  elsif page.handle == 'our-story'
+    assign seo_title = 'About DearBody Philippines | A Scent Journey from London'
+    assign seo_description = "Discover DearBody Philippines, bringing London's fragrance culture into Filipino everyday life through carefully curated scents made for local tastes, lifestyles, and tropical living."
+  endif
+%}
+<title>{{ seo_title | escape }}{% if current_page > 1 %} — Page {{ current_page }}{% endif %}</title>
+{% if seo_description != blank %}<meta name="description" content="{{ seo_description | escape }}">{% endif %}
+<link rel="canonical" href="{{ canonical_url }}">
+<meta property="og:site_name" content="{{ shop.name | escape }}"><meta property="og:url" content="{{ canonical_url }}"><meta property="og:title" content="{{ seo_title | escape }}"><meta property="og:description" content="{{ seo_description | escape }}"><meta property="og:type" content="{% if request.page_type == 'product' %}product{% else %}website{% endif %}">
+{% liquid
+  assign social_image = blank
+  if page_image
+    assign social_image = page_image | image_url: width: 1200
+  endif
+  if request.page_type == 'product'
+    capture social_gallery
+      render 'sj-gallery-prefix', product: product
+    endcapture
+    assign social_gallery = social_gallery | strip
+    if social_gallery != blank
+      assign social_asset = social_gallery | append: '-01.jpg'
+      assign social_image = social_asset | asset_url
+    endif
+  elsif request.page_type == 'index' or collection.handle == 'womens-perfume' or collection.handle == 'mens-perfume'
+    assign social_direction = 'women'
+    if collection.handle == 'mens-perfume'
+      assign social_direction = 'men'
+    endif
+    assign social_prefix = 'sj-banner-'
+    if request.page_type == 'index'
+      assign social_prefix = 'sj-'
+    endif
+    assign social_asset = social_prefix | append: social_direction | append: '-' | append: settings.visual_theme | append: '.jpg'
+    assign social_image = social_asset | asset_url
+  endif
+  assign image_start = social_image | slice: 0, 2
+  if image_start == '//'
+    assign social_image = social_image | prepend: 'https:'
+  elsif social_image != blank
+    unless social_image contains '://'
+      assign social_image = social_image | prepend: shop.url
+    endunless
+  endif
+%}
+{% if social_image != blank %}<meta property="og:image" content="{{ social_image | escape }}"><meta name="twitter:image" content="{{ social_image | escape }}">{% endif %}
+<meta name="twitter:card" content="summary_large_image">
+{% if request.page_type == 'search' %}<meta name="robots" content="noindex,follow">{% endif %}
+{% if request.page_type == 'index' %}<script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":{{ shop.name | json }},"url":{{ shop.url | json }}}</script>{% endif %}

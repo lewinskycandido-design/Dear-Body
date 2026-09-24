@@ -1,0 +1,50 @@
+/* Shared pop-editorial icons. Accessible names belong to their controls. */
+:root {
+  --sj-icon-scarlet: #d72b27;
+  --sj-icon-cobalt: #2456d8;
+  --sj-icon-lemon: #ffe164;
+}
+
+[data-theme="dark"] {
+  --sj-icon-scarlet: #ff6855;
+  --sj-icon-cobalt: #82a4ff;
+}
+
+.sj-icon {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+  color: inherit;
+  flex-shrink: 0;
+}
+
+.sj-icon .sj-icon-fill--scarlet { fill: var(--sj-icon-scarlet); }
+.sj-icon .sj-icon-fill--cobalt { fill: var(--sj-icon-cobalt); }
+.sj-icon .sj-icon-fill--lemon { fill: var(--sj-icon-lemon); }
+.sj-icon .sj-icon-stroke--scarlet { stroke: var(--sj-icon-scarlet); }
+.sj-icon .sj-icon-stroke--cobalt { stroke: var(--sj-icon-cobalt); }
+.sj-icon .sj-icon-stroke--lemon { stroke: var(--sj-icon-lemon); }
+
+.sj-faq-list summary { display: flex; align-items: center; justify-content: space-between; gap: 20px; list-style: none; }
+.sj-faq-list summary::-webkit-details-marker { display: none; }
+.sj-faq-list summary::marker { content: ''; }
+details[open] > summary .sj-disclosure-icon .sj-icon__vertical { display: none; }
+.sj-active-filters a > .sj-icon { width: 14px; height: 14px; margin-inline-start: 8px; }
+.sj-shipping-offer__link { gap: 8px; }
+.sj-shipping-information-icon { margin-inline-end: 8px; }
+.sj-orbit > .sj-icon { width: 46%; height: 46%; }
+.sj-finder .sj-finder-choice span::after { border: 2px solid #2456d8; background: #ffe164; }
+.sj-finder .sj-finder-choice input:checked + span::after { background: #2456d8; border-color: #2456d8; box-shadow: inset 0 0 0 3px #ffe164; }
+
+@media (forced-colors: active) {
+  :root,
+  [data-theme] {
+    --sj-icon-scarlet: CanvasText;
+    --sj-icon-cobalt: CanvasText;
+    --sj-icon-lemon: Canvas;
+  }
+  .sj-icon { color: CanvasText; }
+  .sj-finder .sj-finder-choice span::after { background: Canvas; border-color: CanvasText; }
+  .sj-finder .sj-finder-choice input:checked + span::after { background: Highlight; border-color: CanvasText; box-shadow: inset 0 0 0 3px Canvas; }
+}

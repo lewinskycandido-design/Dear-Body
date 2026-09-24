@@ -1,0 +1,133 @@
+{
+  "recordedAt": "2026-09-24T10:48:20.209590+00:00",
+  "status": "PASS",
+  "evidenceSource": "Release owner /root reported authenticated CUA browser observations; this report does not claim an independent browser rerun.",
+  "theme": {
+    "id": 167085146177,
+    "name": "DearBody Order Quantities Update",
+    "browserCheckoutScope": "Uploaded draft before publication",
+    "publicationStatus": "Published; release-owner Shopify CLI confirmation and independent no-cookie public audit agree on main theme 167085146177."
+  },
+  "checks": [
+    {
+      "id": "native-pdp-quantity-two",
+      "scope": "Shopify native checkout from Oud Mirage PDP on uploaded theme",
+      "lines": [
+        {
+          "product": "Oud Mirage",
+          "quantity": 2
+        }
+      ],
+      "itemCount": 2,
+      "currency": "PHP",
+      "total": 1598,
+      "shipping": 0,
+      "freeShippingDisplayed": true,
+      "cashOnDeliveryVisible": true,
+      "fictionalAddressPrefillVerified": true,
+      "fictionalAddressName": "Theme Preview",
+      "outcome": "PASS",
+      "stoppedBefore": "Complete order"
+    },
+    {
+      "id": "native-mixed-collection-quantities",
+      "scope": "Shopify native checkout from Women collection on uploaded theme",
+      "lines": [
+        {
+          "product": "Mistened Narcissus",
+          "quantity": 2
+        },
+        {
+          "product": "Oud Mirage",
+          "quantity": 1
+        }
+      ],
+      "nativeLineQuantitiesVerified": true,
+      "itemCount": 3,
+      "currency": "PHP",
+      "total": 2397,
+      "shipping": 0,
+      "freeShippingDisplayed": true,
+      "cashOnDeliveryVisible": true,
+      "outcome": "PASS",
+      "stoppedBefore": "Complete order"
+    },
+    {
+      "id": "collection-mobile",
+      "scope": "Release-owner browser DOM and screenshot inspection",
+      "viewportWidth": 320,
+      "scrollWidth": 320,
+      "quantityControlGroupWidth": 134,
+      "horizontalOverflow": false,
+      "controlsReadable": true,
+      "outcome": "PASS"
+    },
+    {
+      "id": "pdp-mobile",
+      "scope": "Release-owner browser DOM and screenshot inspection",
+      "reportedMeasuredWidth": 354,
+      "horizontalOverflow": false,
+      "controlsReadable": true,
+      "measurementNote": "Release owner reported a 354px PDP measurement; a separate viewport/content-width pair was not supplied.",
+      "outcome": "PASS"
+    },
+    {
+      "id": "collection-invalid-zero",
+      "scope": "Release-owner collection browser interaction",
+      "quantity": 0,
+      "checkoutBlocked": true,
+      "outcome": "PASS"
+    },
+    {
+      "id": "how-to-order-instructions",
+      "scope": "Release owner confirmed uploaded source; independent public source audit verified all eight affected routes.",
+      "expectedRoutes": 8,
+      "collectionLocation": "Above the collection grid",
+      "productLocation": "Below the initial Add to order button",
+      "steps": [
+        "Add to order",
+        "Choose quantities",
+        "Enter delivery address",
+        "Check out"
+      ],
+      "outcome": "PASS"
+    }
+  ],
+  "ordersCompleted": 0,
+  "limitations": [
+    "No order was completed or payment taken. Fictional Theme Preview address data was used.",
+    "Browser observations were supplied by the release owner. No screenshot file paths were supplied or invented.",
+    "Public HTTP verification checks native markup and exact deployed source/assets; it does not execute interactive controls or certify shipping by itself.",
+    "The verified purchase flow still redirects to native Shopify checkout. The later same-page COD request is a separate investigation and is not implemented by this release."
+  ],
+  "archive": {
+    "file": "DearBody-Theme-Update-Order-Quantities.zip",
+    "nativeFiles": 273,
+    "bytes": 39793842,
+    "sha256": "f6e6f16d54e59a7595643e98db3960cb362c2aa3ed0fee1b5021fec2654da8c5",
+    "evidenceSource": "Release owner reported completed build; independent read confirmed Downloads copy size and SHA-256.",
+    "locations": [
+      "Project root",
+      "/Users/wetrade/Downloads"
+    ]
+  },
+  "publicAudit": {
+    "path": "qa/order-quantities-live-audit.json",
+    "status": "PASS",
+    "themeId": "167085146177",
+    "pages": 18,
+    "productPages": 6,
+    "artworkFiles": 100,
+    "thumbnailFiles": 72,
+    "fontFiles": 2,
+    "assetContentMatches": 174,
+    "observedAssetRequests": 177,
+    "currentScriptSourcesMatched": 5,
+    "findings": 0,
+    "finishedAt": "2026-09-24T10:48:15.353291+00:00",
+    "collectionOrderPages": 2,
+    "quantityProductPages": 6,
+    "howToOrderPages": 8,
+    "ordersPlaced": 0
+  }
+}

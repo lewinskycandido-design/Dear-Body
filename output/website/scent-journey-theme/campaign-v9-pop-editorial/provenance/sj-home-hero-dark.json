@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "asset": "sj-home-hero-dark",
+  "createdAt": "2026-09-24T06:12:57.778Z",
+  "generator": "Built-in image_gen__imagegen",
+  "mode": "Generation",
+  "status": "accepted visual candidate; final responsive integration QA belongs to root",
+  "sourceOutputPath": "/Users/wetrade/.codex/generated_images/01a0d0f9-afdf-7412-a990-cf7a45f1c2b6/exec-caaf87a1-6711-4ab1-ab45-04e5babe3300.png",
+  "workspaceOutputPath": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/campaign-v9-pop-editorial/originals/sj-home-hero-dark.png",
+  "outputTransformation": "None: exact generated PNG copied byte-for-byte. No raster editing, recoloring, crops, resizing or text added.",
+  "styleReference": {
+    "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/campaign-v9-pop-editorial/references/publication-materials-reference.png",
+    "role": "Style-only reference; new scene and product-free composition",
+    "sha256": "a3f73cc66cf983a1150e3b5c65ef6acc2f18b8a1f5e857dcd5c17e5d71c479ac"
+  },
+  "requestedCopy": "No baked text, logos or UI. Live website copy rendered independently.",
+  "prompts": {
+    "initial": {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/campaign-v9-pop-editorial/prompts/sj-home-hero-dark.txt",
+      "text": "Use case: ads-marketing / photorealistic-natural.\nAsset type: DearBody Philippines website photographic background, no baked copy.\nInput image 1 is STYLE REFERENCE ONLY: adopt its sunny, saturated scarlet/cobalt/lemon fashion-ad punch, tactile accessories, direct confident approachable energy and realistic skin. Create a wholly NEW photograph. Do not copy its car, lipstick, raised-bottle, pocket-camera or hand-only compositions; do not reproduce any wording, logo or product.\nOutput: wide 2:1 landscape, approximately 1774 x 887 pixels.\nScene and subject: A confident adult Filipino man with warm brown skin and natural wavy dark hair shares an amused spontaneous smile while leaning lightly against a sunny outdoor basketball-court perimeter wall, an ordinary contemporary Philippine urban spot with no other people. Rich scarlet open short-sleeve shirt over cobalt knitted tank, dark indigo denim and simple silver wristwatch. He casually hooks one thumb in the shoulder strap of a plain lemon canvas tote; no sports equipment. Warm pale lemon plaster wall left, a narrow cobalt-painted wall corner right. Saturated wardrobe and hard sunny shadows give bold publication-material fashion energy, still warm and friendly bright DAYLIGHT.\nComposition: Wide full-bleed landscape: ONLY ONE person on the right. Face centered x76%, y28%; complete hair top12\u201315% below image top. Head and gesture inside x66\u201388%; hand at chest aroundy52%. Left45% is quiet real pale lemon plaster wall for live headline. Mid-thigh-up crop, natural stance, no moody nighttime treatment.\nLighting/style: professional real editorial location fashion photograph with warm clear sunlight, strong naturally directional shadows, vibrant but credible colors, realistic anatomy and fabric, no fantastical environment. One ADULT Filipino model total, no other people, bodies, reflections, posters or printed faces.\nText: NONE. Absolutely no typography, signage, logos, watermark, frame, border, collage or UI. PRODUCT-FREE: absolutely no perfume, bottles, canisters, cosmetics, drinks or product packaging anywhere. No cars, lipstick, cameras, giant props. Do not dull the exposure; all modes are sunny bright daylight. Preserve generous headroom and requested text-safe areas.\nCritical framing: medium-long shot, take the picture from farther away. For 1774x887 output, leave the top110\u2013130 pixels free of all hair: complete hair begins at y125, face aroundy260. Do not fill the frame with the model; place his face near x1330. Left45% untouched quiet wall. This intentional extra headroom is mandatory.",
+      "sha256": "197db787ced0c0bcaf81495876f3240d27f78f4ce922fe1612e7553ab9577b63",
+      "savedTextMatchesToolPrompt": true
+    },
+    "final": {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/campaign-v9-pop-editorial/prompts/sj-home-hero-dark.txt",
+      "text": "Use case: ads-marketing / photorealistic-natural.\nAsset type: DearBody Philippines website photographic background, no baked copy.\nInput image 1 is STYLE REFERENCE ONLY: adopt its sunny, saturated scarlet/cobalt/lemon fashion-ad punch, tactile accessories, direct confident approachable energy and realistic skin. Create a wholly NEW photograph. Do not copy its car, lipstick, raised-bottle, pocket-camera or hand-only compositions; do not reproduce any wording, logo or product.\nOutput: wide 2:1 landscape, approximately 1774 x 887 pixels.\nScene and subject: A confident adult Filipino man with warm brown skin and natural wavy dark hair shares an amused spontaneous smile while leaning lightly against a sunny outdoor basketball-court perimeter wall, an ordinary contemporary Philippine urban spot with no other people. Rich scarlet open short-sleeve shirt over cobalt knitted tank, dark indigo denim and simple silver wristwatch. He casually hooks one thumb in the shoulder strap of a plain lemon canvas tote; no sports equipment. Warm pale lemon plaster wall left, a narrow cobalt-painted wall corner right. Saturated wardrobe and hard sunny shadows give bold publication-material fashion energy, still warm and friendly bright DAYLIGHT.\nComposition: Wide full-bleed landscape: ONLY ONE person on the right. Face centered x76%, y28%; complete hair top12\u201315% below image top. Head and gesture inside x66\u201388%; hand at chest aroundy52%. Left45% is quiet real pale lemon plaster wall for live headline. Mid-thigh-up crop, natural stance, no moody nighttime treatment.\nLighting/style: professional real editorial location fashion photograph with warm clear sunlight, strong naturally directional shadows, vibrant but credible colors, realistic anatomy and fabric, no fantastical environment. One ADULT Filipino model total, no other people, bodies, reflections, posters or printed faces.\nText: NONE. Absolutely no typography, signage, logos, watermark, frame, border, collage or UI. PRODUCT-FREE: absolutely no perfume, bottles, canisters, cosmetics, drinks or product packaging anywhere. No cars, lipstick, cameras, giant props. Do not dull the exposure; all modes are sunny bright daylight. Preserve generous headroom and requested text-safe areas.\nCritical framing: medium-long shot, take the picture from farther away. For 1774x887 output, leave the top110\u2013130 pixels free of all hair: complete hair begins at y125, face aroundy260. Do not fill the frame with the model; place his face near x1330. Left45% untouched quiet wall. This intentional extra headroom is mandatory.",
+      "sha256": "197db787ced0c0bcaf81495876f3240d27f78f4ce922fe1612e7553ab9577b63",
+      "savedTextMatchesToolPrompt": true
+    }
+  },
+  "generationHistory": [
+    {
+      "sourceOutputPath": "/Users/wetrade/.codex/generated_images/01a0d0f9-afdf-7412-a990-cf7a45f1c2b6/exec-caaf87a1-6711-4ab1-ab45-04e5babe3300.png",
+      "status": "Accepted first generation"
+    }
+  ],
+  "qa": {
+    "reviewMethod": "Visual inspection of native generated image at full resolution",
+    "personCount": 1,
+    "adultsOnly": true,
+    "productFree": true,
+    "noPerfumeOrBottles": true,
+    "noBackgroundPeopleOrPrintedFaces": true,
+    "noBakedTextOrLogo": true,
+    "noAnatomyDefectObserved": true,
+    "noClippedHead": true,
+    "brightDaylightBothModes": true,
+    "alt": "A Filipino man in a scarlet shirt over a cobalt knit smiles against a sunny lemon-yellow wall, holding a lemon canvas tote strap.",
+    "focal": "80% top",
+    "faceCenterPercent": [
+      72,
+      28
+    ],
+    "headroomPercent": 13,
+    "notes": "Single adult male; natural shoulder-bag grip and pocket hand; scarlet/cobalt wardrobe, strong daylight shadows and clean left45% wall. Bright exposure retained for Dark mode."
+  },
+  "scope": "Source PNGs, exact prompts and per-asset provenance only. Root owns JPEG export, theme integration and responsive QA.",
+  "nativeDimensions": {
+    "width": 1774,
+    "height": 887
+  },
+  "bytes": 2685279,
+  "sha256": "ad50fb5c2f6136d03822a2c8754103890c7cb47fd050ad269d00238f805ebc7b",
+  "sourceSha256": "ad50fb5c2f6136d03822a2c8754103890c7cb47fd050ad269d00238f805ebc7b",
+  "sourceEqualsWorkspace": true
+}

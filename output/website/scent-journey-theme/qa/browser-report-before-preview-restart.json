@@ -1,0 +1,1004 @@
+{
+  "timestamp": "2026-09-24T02:41:13.109Z",
+  "base": "http://127.0.0.1:4208",
+  "checks": [
+    {
+      "label": "light /: HTTP success"
+    },
+    {
+      "label": "light /: correct theme",
+      "detail": "light"
+    },
+    {
+      "label": "light /: one H1",
+      "detail": "1"
+    },
+    {
+      "label": "light /: no desktop horizontal overflow"
+    },
+    {
+      "label": "light /: image alt attributes",
+      "detail": "0"
+    },
+    {
+      "label": "light /collections/all: HTTP success"
+    },
+    {
+      "label": "light /collections/all: correct theme",
+      "detail": "light"
+    },
+    {
+      "label": "light /collections/all: one H1",
+      "detail": "1"
+    },
+    {
+      "label": "light /collections/all: no desktop horizontal overflow"
+    },
+    {
+      "label": "light /collections/all: image alt attributes",
+      "detail": "0"
+    },
+    {
+      "label": "light /collections/mens-perfume: HTTP success"
+    },
+    {
+      "label": "light /collections/mens-perfume: correct theme",
+      "detail": "light"
+    },
+    {
+      "label": "light /collections/mens-perfume: one H1",
+      "detail": "1"
+    },
+    {
+      "label": "light /collections/mens-perfume: no desktop horizontal overflow"
+    },
+    {
+      "label": "light /collections/mens-perfume: image alt attributes",
+      "detail": "0"
+    },
+    {
+      "label": "light /collections/womens-perfume: HTTP success"
+    },
+    {
+      "label": "light /collections/womens-perfume: correct theme",
+      "detail": "light"
+    },
+    {
+      "label": "light /collections/womens-perfume: one H1",
+      "detail": "1"
+    },
+    {
+      "label": "light /collections/womens-perfume: no desktop horizontal overflow"
+    },
+    {
+      "label": "light /collections/womens-perfume: image alt attributes",
+      "detail": "0"
+    },
+    {
+      "label": "light /products/mistened-narcissus: HTTP success"
+    },
+    {
+      "label": "light /products/mistened-narcissus: correct theme",
+      "detail": "light"
+    },
+    {
+      "label": "light /products/mistened-narcissus: one H1",
+      "detail": "1"
+    },
+    {
+      "label": "light /products/mistened-narcissus: no desktop horizontal overflow"
+    },
+    {
+      "label": "light /products/mistened-narcissus: image alt attributes",
+      "detail": "0"
+    },
+    {
+      "label": "light /products/oud-mirage: HTTP success"
+    },
+    {
+      "label": "light /products/oud-mirage: correct theme",
+      "detail": "light"
+    },
+    {
+      "label": "light /products/oud-mirage: one H1",
+      "detail": "1"
+    },
+    {
+      "label": "light /products/oud-mirage: no desktop horizontal overflow"
+    },
+    {
+      "label": "light /products/oud-mirage: image alt attributes",
+      "detail": "0"
+    },
+    {
+      "label": "light /products/rtulle-satin: HTTP success"
+    },
+    {
+      "label": "light /products/rtulle-satin: correct theme",
+      "detail": "light"
+    },
+    {
+      "label": "light /products/rtulle-satin: one H1",
+      "detail": "1"
+    },
+    {
+      "label": "light /products/rtulle-satin: no desktop horizontal overflow"
+    },
+    {
+      "label": "light /products/rtulle-satin: image alt attributes",
+      "detail": "0"
+    },
+    {
+      "label": "light /products/amber-oud-silk: HTTP success"
+    },
+    {
+      "label": "light /products/amber-oud-silk: correct theme",
+      "detail": "light"
+    },
+    {
+      "label": "light /products/amber-oud-silk: one H1",
+      "detail": "1"
+    },
+    {
+      "label": "light /products/amber-oud-silk: no desktop horizontal overflow"
+    },
+    {
+      "label": "light /products/amber-oud-silk: image alt attributes",
+      "detail": "0"
+    },
+    {
+      "label": "light /products/charme-envoutant: HTTP success"
+    },
+    {
+      "label": "light /products/charme-envoutant: correct theme",
+      "detail": "light"
+    },
+    {
+      "label": "light /products/charme-envoutant: one H1",
+      "detail": "1"
+    },
+    {
+      "label": "light /products/charme-envoutant: no desktop horizontal overflow"
+    },
+    {
+      "label": "light /products/charme-envoutant: image alt attributes",
+      "detail": "0"
+    },
+    {
+      "label": "light /products/mojito-metallique: HTTP success"
+    },
+    {
+      "label": "light /products/mojito-metallique: correct theme",
+      "detail": "light"
+    },
+    {
+      "label": "light /products/mojito-metallique: one H1",
+      "detail": "1"
+    },
+    {
+      "label": "light /products/mojito-metallique: no desktop horizontal overflow"
+    },
+    {
+      "label": "light /products/mojito-metallique: image alt attributes",
+      "detail": "0"
+    },
+    {
+      "label": "light /cart: HTTP success"
+    },
+    {
+      "label": "light /cart: correct theme",
+      "detail": "light"
+    },
+    {
+      "label": "light /cart: one H1",
+      "detail": "1"
+    },
+    {
+      "label": "light /cart: no desktop horizontal overflow"
+    },
+    {
+      "label": "light /cart: image alt attributes",
+      "detail": "0"
+    },
+    {
+      "label": "light /pages/scent-finder: HTTP success"
+    },
+    {
+      "label": "light /pages/scent-finder: correct theme",
+      "detail": "light"
+    },
+    {
+      "label": "light /pages/scent-finder: one H1",
+      "detail": "1"
+    },
+    {
+      "label": "light /pages/scent-finder: no desktop horizontal overflow"
+    },
+    {
+      "label": "light /pages/scent-finder: image alt attributes",
+      "detail": "0"
+    },
+    {
+      "label": "light /pages/our-story: HTTP success"
+    },
+    {
+      "label": "light /pages/our-story: correct theme",
+      "detail": "light"
+    },
+    {
+      "label": "light /pages/our-story: one H1",
+      "detail": "1"
+    },
+    {
+      "label": "light /pages/our-story: no desktop horizontal overflow"
+    },
+    {
+      "label": "light /pages/our-story: image alt attributes",
+      "detail": "0"
+    },
+    {
+      "label": "light /pages/contact: HTTP success"
+    },
+    {
+      "label": "light /pages/contact: correct theme",
+      "detail": "light"
+    },
+    {
+      "label": "light /pages/contact: one H1",
+      "detail": "1"
+    },
+    {
+      "label": "light /pages/contact: no desktop horizontal overflow"
+    },
+    {
+      "label": "light /pages/contact: image alt attributes",
+      "detail": "0"
+    },
+    {
+      "label": "light /pages/faq: HTTP success"
+    },
+    {
+      "label": "light /pages/faq: correct theme",
+      "detail": "light"
+    },
+    {
+      "label": "light /pages/faq: one H1",
+      "detail": "1"
+    },
+    {
+      "label": "light /pages/faq: no desktop horizontal overflow"
+    },
+    {
+      "label": "light /pages/faq: image alt attributes",
+      "detail": "0"
+    },
+    {
+      "label": "light /search: no desktop horizontal overflow"
+    },
+    {
+      "label": "light /search: image alt attributes",
+      "detail": "0"
+    },
+    {
+      "label": "light /404: HTTP success"
+    },
+    {
+      "label": "light /404: correct theme",
+      "detail": "light"
+    },
+    {
+      "label": "light /404: one H1",
+      "detail": "1"
+    },
+    {
+      "label": "light /404: no desktop horizontal overflow"
+    },
+    {
+      "label": "light /404: image alt attributes",
+      "detail": "0"
+    },
+    {
+      "label": "light /password: HTTP success"
+    },
+    {
+      "label": "light /password: correct theme",
+      "detail": "light"
+    },
+    {
+      "label": "light /password: one H1",
+      "detail": "1"
+    },
+    {
+      "label": "light /password: no desktop horizontal overflow"
+    },
+    {
+      "label": "light /password: image alt attributes",
+      "detail": "0"
+    },
+    {
+      "label": "light /pages/shipping: HTTP success"
+    },
+    {
+      "label": "light /pages/shipping: correct theme",
+      "detail": "light"
+    },
+    {
+      "label": "light /pages/shipping: one H1",
+      "detail": "1"
+    },
+    {
+      "label": "light /pages/shipping: no desktop horizontal overflow"
+    },
+    {
+      "label": "light /pages/shipping: image alt attributes",
+      "detail": "0"
+    },
+    {
+      "label": "light /pages/returns: HTTP success"
+    },
+    {
+      "label": "light /pages/returns: correct theme",
+      "detail": "light"
+    },
+    {
+      "label": "light /pages/returns: one H1",
+      "detail": "1"
+    },
+    {
+      "label": "light /pages/returns: no desktop horizontal overflow"
+    },
+    {
+      "label": "light /pages/returns: image alt attributes",
+      "detail": "0"
+    },
+    {
+      "label": "light /pages/privacy: HTTP success"
+    },
+    {
+      "label": "light /pages/privacy: correct theme",
+      "detail": "light"
+    },
+    {
+      "label": "light /pages/privacy: one H1",
+      "detail": "1"
+    },
+    {
+      "label": "light /pages/privacy: no desktop horizontal overflow"
+    },
+    {
+      "label": "light /pages/privacy: image alt attributes",
+      "detail": "0"
+    },
+    {
+      "label": "light /pages/terms: HTTP success"
+    },
+    {
+      "label": "light /pages/terms: correct theme",
+      "detail": "light"
+    },
+    {
+      "label": "light /pages/terms: one H1",
+      "detail": "1"
+    },
+    {
+      "label": "light /pages/terms: no desktop horizontal overflow"
+    },
+    {
+      "label": "light /pages/terms: image alt attributes",
+      "detail": "0"
+    },
+    {
+      "label": "light /pages/customer-care: HTTP success"
+    },
+    {
+      "label": "light /pages/customer-care: correct theme",
+      "detail": "light"
+    },
+    {
+      "label": "light /pages/customer-care: one H1",
+      "detail": "1"
+    },
+    {
+      "label": "light /pages/customer-care: no desktop horizontal overflow"
+    },
+    {
+      "label": "light /pages/customer-care: image alt attributes",
+      "detail": "0"
+    },
+    {
+      "label": "light: search dialog opens"
+    },
+    {
+      "label": "light: predictive search finds real products"
+    },
+    {
+      "label": "light: predictive search keyboard selection"
+    },
+    {
+      "label": "light: first Escape clears search suggestions"
+    },
+    {
+      "label": "light: search Escape closes dialog"
+    },
+    {
+      "label": "light: bag dialog opens"
+    },
+    {
+      "label": "light: current cart correctly empty"
+    },
+    {
+      "label": "light: bag Escape closes dialog"
+    },
+    {
+      "label": "light: desktop information scroll container",
+      "detail": "{\"overflow\":\"auto\",\"client\":890,\"height\":2837}"
+    },
+    {
+      "label": "light: gallery fixed while information scrolls"
+    },
+    {
+      "label": "light: panel keyboard focusable"
+    },
+    {
+      "label": "light: next gallery media"
+    },
+    {
+      "label": "light: keyboard gallery media"
+    },
+    {
+      "label": "light: verified sold out state"
+    },
+    {
+      "label": "light: image zoom opens"
+    },
+    {
+      "label": "light: escape closes zoom"
+    },
+    {
+      "label": "light: finder does not invent available catalog"
+    },
+    {
+      "label": "light /: no mobile horizontal overflow"
+    },
+    {
+      "label": "light /collections/womens-perfume: no mobile horizontal overflow"
+    },
+    {
+      "label": "light /products/mojito-metallique: no mobile horizontal overflow"
+    },
+    {
+      "label": "light /cart: no mobile horizontal overflow"
+    },
+    {
+      "label": "light /pages/scent-finder: no mobile horizontal overflow"
+    },
+    {
+      "label": "light /search: no mobile horizontal overflow"
+    },
+    {
+      "label": "light: mobile product info uses natural scrolling",
+      "detail": "{\"overflow\":\"visible\",\"height\":2735,\"scroll\":2735}"
+    },
+    {
+      "label": "dark /: HTTP success"
+    },
+    {
+      "label": "dark /: correct theme",
+      "detail": "dark"
+    },
+    {
+      "label": "dark /: one H1",
+      "detail": "1"
+    },
+    {
+      "label": "dark /: no desktop horizontal overflow"
+    },
+    {
+      "label": "dark /: image alt attributes",
+      "detail": "0"
+    },
+    {
+      "label": "dark /collections/all: HTTP success"
+    },
+    {
+      "label": "dark /collections/all: correct theme",
+      "detail": "dark"
+    },
+    {
+      "label": "dark /collections/all: one H1",
+      "detail": "1"
+    },
+    {
+      "label": "dark /collections/all: no desktop horizontal overflow"
+    },
+    {
+      "label": "dark /collections/all: image alt attributes",
+      "detail": "0"
+    },
+    {
+      "label": "dark /collections/mens-perfume: HTTP success"
+    },
+    {
+      "label": "dark /collections/mens-perfume: correct theme",
+      "detail": "dark"
+    },
+    {
+      "label": "dark /collections/mens-perfume: one H1",
+      "detail": "1"
+    },
+    {
+      "label": "dark /collections/mens-perfume: no desktop horizontal overflow"
+    },
+    {
+      "label": "dark /collections/mens-perfume: image alt attributes",
+      "detail": "0"
+    },
+    {
+      "label": "dark /collections/womens-perfume: HTTP success"
+    },
+    {
+      "label": "dark /collections/womens-perfume: correct theme",
+      "detail": "dark"
+    },
+    {
+      "label": "dark /collections/womens-perfume: one H1",
+      "detail": "1"
+    },
+    {
+      "label": "dark /collections/womens-perfume: no desktop horizontal overflow"
+    },
+    {
+      "label": "dark /collections/womens-perfume: image alt attributes",
+      "detail": "0"
+    },
+    {
+      "label": "dark /products/mistened-narcissus: HTTP success"
+    },
+    {
+      "label": "dark /products/mistened-narcissus: correct theme",
+      "detail": "dark"
+    },
+    {
+      "label": "dark /products/mistened-narcissus: one H1",
+      "detail": "1"
+    },
+    {
+      "label": "dark /products/mistened-narcissus: no desktop horizontal overflow"
+    },
+    {
+      "label": "dark /products/mistened-narcissus: image alt attributes",
+      "detail": "0"
+    },
+    {
+      "label": "dark /products/oud-mirage: HTTP success"
+    },
+    {
+      "label": "dark /products/oud-mirage: correct theme",
+      "detail": "dark"
+    },
+    {
+      "label": "dark /products/oud-mirage: one H1",
+      "detail": "1"
+    },
+    {
+      "label": "dark /products/oud-mirage: no desktop horizontal overflow"
+    },
+    {
+      "label": "dark /products/oud-mirage: image alt attributes",
+      "detail": "0"
+    },
+    {
+      "label": "dark /products/rtulle-satin: HTTP success"
+    },
+    {
+      "label": "dark /products/rtulle-satin: correct theme",
+      "detail": "dark"
+    },
+    {
+      "label": "dark /products/rtulle-satin: one H1",
+      "detail": "1"
+    },
+    {
+      "label": "dark /products/rtulle-satin: no desktop horizontal overflow"
+    },
+    {
+      "label": "dark /products/rtulle-satin: image alt attributes",
+      "detail": "0"
+    },
+    {
+      "label": "dark /products/amber-oud-silk: HTTP success"
+    },
+    {
+      "label": "dark /products/amber-oud-silk: correct theme",
+      "detail": "dark"
+    },
+    {
+      "label": "dark /products/amber-oud-silk: one H1",
+      "detail": "1"
+    },
+    {
+      "label": "dark /products/amber-oud-silk: no desktop horizontal overflow"
+    },
+    {
+      "label": "dark /products/amber-oud-silk: image alt attributes",
+      "detail": "0"
+    },
+    {
+      "label": "dark /products/charme-envoutant: HTTP success"
+    },
+    {
+      "label": "dark /products/charme-envoutant: correct theme",
+      "detail": "dark"
+    },
+    {
+      "label": "dark /products/charme-envoutant: one H1",
+      "detail": "1"
+    },
+    {
+      "label": "dark /products/charme-envoutant: no desktop horizontal overflow"
+    },
+    {
+      "label": "dark /products/charme-envoutant: image alt attributes",
+      "detail": "0"
+    },
+    {
+      "label": "dark /products/mojito-metallique: HTTP success"
+    },
+    {
+      "label": "dark /products/mojito-metallique: correct theme",
+      "detail": "dark"
+    },
+    {
+      "label": "dark /products/mojito-metallique: one H1",
+      "detail": "1"
+    },
+    {
+      "label": "dark /products/mojito-metallique: no desktop horizontal overflow"
+    },
+    {
+      "label": "dark /products/mojito-metallique: image alt attributes",
+      "detail": "0"
+    },
+    {
+      "label": "dark /cart: HTTP success"
+    },
+    {
+      "label": "dark /cart: correct theme",
+      "detail": "dark"
+    },
+    {
+      "label": "dark /cart: one H1",
+      "detail": "1"
+    },
+    {
+      "label": "dark /cart: no desktop horizontal overflow"
+    },
+    {
+      "label": "dark /cart: image alt attributes",
+      "detail": "0"
+    },
+    {
+      "label": "dark /pages/scent-finder: HTTP success"
+    },
+    {
+      "label": "dark /pages/scent-finder: correct theme",
+      "detail": "dark"
+    },
+    {
+      "label": "dark /pages/scent-finder: one H1",
+      "detail": "1"
+    },
+    {
+      "label": "dark /pages/scent-finder: no desktop horizontal overflow"
+    },
+    {
+      "label": "dark /pages/scent-finder: image alt attributes",
+      "detail": "0"
+    },
+    {
+      "label": "dark /pages/our-story: HTTP success"
+    },
+    {
+      "label": "dark /pages/our-story: correct theme",
+      "detail": "dark"
+    },
+    {
+      "label": "dark /pages/our-story: one H1",
+      "detail": "1"
+    },
+    {
+      "label": "dark /pages/our-story: no desktop horizontal overflow"
+    },
+    {
+      "label": "dark /pages/our-story: image alt attributes",
+      "detail": "0"
+    },
+    {
+      "label": "dark /pages/contact: HTTP success"
+    },
+    {
+      "label": "dark /pages/contact: correct theme",
+      "detail": "dark"
+    },
+    {
+      "label": "dark /pages/contact: one H1",
+      "detail": "1"
+    },
+    {
+      "label": "dark /pages/contact: no desktop horizontal overflow"
+    },
+    {
+      "label": "dark /pages/contact: image alt attributes",
+      "detail": "0"
+    },
+    {
+      "label": "dark /pages/faq: HTTP success"
+    },
+    {
+      "label": "dark /pages/faq: correct theme",
+      "detail": "dark"
+    },
+    {
+      "label": "dark /pages/faq: one H1",
+      "detail": "1"
+    },
+    {
+      "label": "dark /pages/faq: no desktop horizontal overflow"
+    },
+    {
+      "label": "dark /pages/faq: image alt attributes",
+      "detail": "0"
+    },
+    {
+      "label": "dark /search: no desktop horizontal overflow"
+    },
+    {
+      "label": "dark /search: image alt attributes",
+      "detail": "0"
+    },
+    {
+      "label": "dark /404: HTTP success"
+    },
+    {
+      "label": "dark /404: correct theme",
+      "detail": "dark"
+    },
+    {
+      "label": "dark /404: one H1",
+      "detail": "1"
+    },
+    {
+      "label": "dark /404: no desktop horizontal overflow"
+    },
+    {
+      "label": "dark /404: image alt attributes",
+      "detail": "0"
+    },
+    {
+      "label": "dark /password: HTTP success"
+    },
+    {
+      "label": "dark /password: correct theme",
+      "detail": "dark"
+    },
+    {
+      "label": "dark /password: one H1",
+      "detail": "1"
+    },
+    {
+      "label": "dark /password: no desktop horizontal overflow"
+    },
+    {
+      "label": "dark /password: image alt attributes",
+      "detail": "0"
+    },
+    {
+      "label": "dark /pages/shipping: HTTP success"
+    },
+    {
+      "label": "dark /pages/shipping: correct theme",
+      "detail": "dark"
+    },
+    {
+      "label": "dark /pages/shipping: one H1",
+      "detail": "1"
+    },
+    {
+      "label": "dark /pages/shipping: no desktop horizontal overflow"
+    },
+    {
+      "label": "dark /pages/shipping: image alt attributes",
+      "detail": "0"
+    },
+    {
+      "label": "dark /pages/returns: HTTP success"
+    },
+    {
+      "label": "dark /pages/returns: correct theme",
+      "detail": "dark"
+    },
+    {
+      "label": "dark /pages/returns: one H1",
+      "detail": "1"
+    },
+    {
+      "label": "dark /pages/returns: no desktop horizontal overflow"
+    },
+    {
+      "label": "dark /pages/returns: image alt attributes",
+      "detail": "0"
+    },
+    {
+      "label": "dark /pages/privacy: HTTP success"
+    },
+    {
+      "label": "dark /pages/privacy: correct theme",
+      "detail": "dark"
+    },
+    {
+      "label": "dark /pages/privacy: one H1",
+      "detail": "1"
+    },
+    {
+      "label": "dark /pages/privacy: no desktop horizontal overflow"
+    },
+    {
+      "label": "dark /pages/privacy: image alt attributes",
+      "detail": "0"
+    },
+    {
+      "label": "dark /pages/terms: HTTP success"
+    },
+    {
+      "label": "dark /pages/terms: correct theme",
+      "detail": "dark"
+    },
+    {
+      "label": "dark /pages/terms: one H1",
+      "detail": "1"
+    },
+    {
+      "label": "dark /pages/terms: no desktop horizontal overflow"
+    },
+    {
+      "label": "dark /pages/terms: image alt attributes",
+      "detail": "0"
+    },
+    {
+      "label": "dark /pages/customer-care: HTTP success"
+    },
+    {
+      "label": "dark /pages/customer-care: correct theme",
+      "detail": "dark"
+    },
+    {
+      "label": "dark /pages/customer-care: one H1",
+      "detail": "1"
+    },
+    {
+      "label": "dark /pages/customer-care: no desktop horizontal overflow"
+    },
+    {
+      "label": "dark /pages/customer-care: image alt attributes",
+      "detail": "0"
+    },
+    {
+      "label": "dark: search dialog opens"
+    },
+    {
+      "label": "dark: predictive search finds real products"
+    },
+    {
+      "label": "dark: predictive search keyboard selection"
+    },
+    {
+      "label": "dark: first Escape clears search suggestions"
+    },
+    {
+      "label": "dark: search Escape closes dialog"
+    },
+    {
+      "label": "dark: bag dialog opens"
+    },
+    {
+      "label": "dark: current cart correctly empty"
+    },
+    {
+      "label": "dark: bag Escape closes dialog"
+    },
+    {
+      "label": "dark: desktop information scroll container",
+      "detail": "{\"overflow\":\"auto\",\"client\":890,\"height\":2837}"
+    },
+    {
+      "label": "dark: gallery fixed while information scrolls"
+    },
+    {
+      "label": "dark: panel keyboard focusable"
+    },
+    {
+      "label": "dark: next gallery media"
+    },
+    {
+      "label": "dark: keyboard gallery media"
+    },
+    {
+      "label": "dark: verified sold out state"
+    },
+    {
+      "label": "dark: image zoom opens"
+    },
+    {
+      "label": "dark: escape closes zoom"
+    },
+    {
+      "label": "dark: finder does not invent available catalog"
+    },
+    {
+      "label": "dark /: no mobile horizontal overflow"
+    },
+    {
+      "label": "dark /collections/womens-perfume: no mobile horizontal overflow"
+    },
+    {
+      "label": "dark /products/mojito-metallique: no mobile horizontal overflow"
+    },
+    {
+      "label": "dark /cart: no mobile horizontal overflow"
+    },
+    {
+      "label": "dark /pages/scent-finder: no mobile horizontal overflow"
+    },
+    {
+      "label": "dark /search: no mobile horizontal overflow"
+    },
+    {
+      "label": "dark: mobile product info uses natural scrolling",
+      "detail": "{\"overflow\":\"visible\",\"height\":2735,\"scroll\":2735}"
+    },
+    {
+      "label": "No uncaught browser JS errors",
+      "detail": "[]"
+    }
+  ],
+  "failures": [
+    {
+      "label": "light /search: HTTP success"
+    },
+    {
+      "label": "light /search: correct theme"
+    },
+    {
+      "label": "light /search: one H1",
+      "detail": "0"
+    },
+    {
+      "label": "dark /search: HTTP success"
+    },
+    {
+      "label": "dark /search: correct theme"
+    },
+    {
+      "label": "dark /search: one H1",
+      "detail": "0"
+    }
+  ],
+  "consoleErrors": [],
+  "screenshots": [
+    "screenshots/home-light-desktop.png",
+    "screenshots/product-light-desktop.png",
+    "screenshots/finder-light-desktop.png",
+    "screenshots/product-light-mobile.png",
+    "screenshots/home-light-mobile.png",
+    "screenshots/home-dark-desktop.png",
+    "screenshots/product-dark-desktop.png",
+    "screenshots/finder-dark-desktop.png",
+    "screenshots/product-dark-mobile.png",
+    "screenshots/home-dark-mobile.png"
+  ],
+  "limits": [
+    "Local LiquidJS preview; no checkout or live writes.",
+    "Public metafields are not exposed; actual theme supplied-copy fallback is used. Finder metadata is unavailable in the read-only public snapshot; eligibility and scoring are separately exercised with fixtures.",
+    "Original transparent logos and supplied Cenzo Flare Bold / Helvetica Now Text Regular fonts are tracked in ASSET-AUDIT.md."
+  ]
+}

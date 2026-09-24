@@ -1,0 +1,9 @@
+{
+  "sections": {
+    "banner": { "type": "sj-product-banner", "settings": {} },
+    "main": { "type": "sj-product", "settings": { "show_title": false, "show_hero_statement": false } },
+    "reviews": { "type": "sj-product-reviews", "settings": { "heading": "Customer reviews" } },
+    "recommendations": { "type": "sj-recommendations", "settings": { "heading": "You may also love", "product_limit": 4 } }
+  },
+  "order": ["banner", "main", "reviews", "recommendations"]
+}

@@ -1,0 +1,32 @@
+{
+  "date": "2026-09-24",
+  "status": "SAVED_AND_VERIFIED",
+  "store": "dearbody.ph",
+  "app": "EasySell COD Form",
+  "configuration": "Settings > General > No redirection (Show thank you message only)",
+  "saved_html": "easysell-confirmation-saved.html",
+  "custom_css": "easysell-confirmation.css",
+  "verification": {
+    "save_toast": "Changes saved successfully",
+    "reload_preserved_html": true,
+    "reload_preserved_css_characters": 3457,
+    "css_input_characters_including_trailing_newline": 3458,
+    "no_redirection_checked_after_reload": true,
+    "live_store_style_element": "es-css",
+    "live_store_style_contains_confirmation_rules": true,
+    "mobile_sample_preview": {
+      "viewport": 320,
+      "document_scroll_width": 320,
+      "card_width": 288
+    },
+    "larger_sample_preview": {
+      "viewport": 600,
+      "document_scroll_width": 600,
+      "card_width": 520
+    },
+    "display_font": "Cenzo Flare Bold",
+    "viewport_reset": true
+  },
+  "scope_note": "This follow-up saved appearance and copy only. No additional orders were placed. The prior authorized real COD test #1001 was canceled and inventory restocked. The new layout was visually checked with clearly labeled sample data; no new end-to-end order was submitted after styling.",
+  "packaging_note": "Confirmation HTML and CSS are EasySell store settings, separate from the unchanged theme ZIP."
+}

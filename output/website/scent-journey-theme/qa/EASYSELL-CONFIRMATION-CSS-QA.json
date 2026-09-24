@@ -1,0 +1,17 @@
+{
+  "scope": "Static sanitized TinyMCE structure and exact CSS declaration parity; no new browser rendering. Root will perform CUA visual verification after save.",
+  "cssCharacters": 3458,
+  "styleRules": 17,
+  "matchedDeclarations": 91,
+  "allSelectorsScoped": true,
+  "inlineStyles": 0,
+  "scripts": 0,
+  "directParagraphs": 4,
+  "directDivs": 3,
+  "dynamicVariables": [
+    "{{customer.first_name}}",
+    "{{order.number}}",
+    "{{order.products}}",
+    "{{order.total}}"
+  ]
+}

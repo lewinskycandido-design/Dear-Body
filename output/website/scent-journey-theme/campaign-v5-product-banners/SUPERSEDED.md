@@ -1,0 +1,1 @@
+This still-life direction was superseded by the user's subsequent request for lifestyle product banners before delivery. The accepted visual source candidates are retained for provenance only. No final v5 integration or export readiness is claimed; the initial JPEG export validation did not complete. Current banner deliverables are in campaign-v6-product-lifestyle/.

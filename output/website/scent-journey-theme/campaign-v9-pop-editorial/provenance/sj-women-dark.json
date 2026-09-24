@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "asset": "sj-women-dark",
+  "createdAt": "2026-09-24T06:12:58.203Z",
+  "generator": "Built-in image_gen__imagegen",
+  "mode": "Generation",
+  "status": "accepted visual candidate; final responsive integration QA belongs to root",
+  "sourceOutputPath": "/Users/wetrade/.codex/generated_images/01a0d0f9-afdf-7412-a990-cf7a45f1c2b6/exec-5532bef0-a760-49e2-b967-49f353686b22.png",
+  "workspaceOutputPath": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/campaign-v9-pop-editorial/originals/sj-women-dark.png",
+  "outputTransformation": "None: exact generated PNG copied byte-for-byte. No raster editing, recoloring, crops, resizing or text added.",
+  "styleReference": {
+    "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/campaign-v9-pop-editorial/references/publication-materials-reference.png",
+    "role": "Style-only reference; new scene and product-free composition",
+    "sha256": "a3f73cc66cf983a1150e3b5c65ef6acc2f18b8a1f5e857dcd5c17e5d71c479ac"
+  },
+  "requestedCopy": "No baked text, logos or UI. Live website copy rendered independently.",
+  "prompts": {
+    "initial": {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/campaign-v9-pop-editorial/prompts/sj-women-dark.txt",
+      "text": "Use case: ads-marketing / photorealistic-natural.\nAsset type: DearBody Philippines website photographic background, no baked copy.\nInput image 1 is STYLE REFERENCE ONLY: adopt its sunny, saturated scarlet/cobalt/lemon fashion-ad punch, tactile accessories, direct confident approachable energy and realistic skin. Create a wholly NEW photograph. Do not copy its car, lipstick, raised-bottle, pocket-camera or hand-only compositions; do not reproduce any wording, logo or product.\nOutput: portrait approximately 3:4, native 1073 x 1466 or 1024 x 1400 pixels.\nScene and subject: An adult Filipina with naturally curly dark bob and warm brown skin laughing spontaneously in bright sunshine against a real cobalt-blue painted urban wall. She wears a rich scarlet textured cropped cardigan over a cream tank and clean dark-indigo relaxed jeans. A small lemon-yellow unbranded canvas shoulder bag, fine silver hoops and dark cherry sunglasses resting on top of her head. She holds the bag strap comfortably near her shoulder with one hand while the other arm hangs naturally. Fun confident contemporary Filipino personality, bold sunny fashion publication photo, saturated tangible clothing, crisp physical shadows. Bright daylight despite dark-mode name.\nComposition: Portrait full-bleed composition, ONLY ONE person. Face centered x50%,y25%; complete hair and sunglasses top at12% below top edge. Top12% quiet cobalt wall. Body/strap gesture in top65%; lower30% uncluttered dark denim and wall for live category copy. Mid-thigh crop. Hands plausible, no raised objects, all facial features visible.\nLighting/style: professional real editorial location fashion photograph with warm clear sunlight, strong naturally directional shadows, vibrant but credible colors, realistic anatomy and fabric, no fantastical environment. One ADULT Filipino model total, no other people, bodies, reflections, posters or printed faces.\nText: NONE. Absolutely no typography, signage, logos, watermark, frame, border, collage or UI. PRODUCT-FREE: absolutely no perfume, bottles, canisters, cosmetics, drinks or product packaging anywhere. No cars, lipstick, cameras, giant props. Do not dull the exposure; all modes are sunny bright daylight. Preserve generous headroom and requested text-safe areas.\nCritical headroom for website: medium-long editorial photograph, not tight headshot. On a 1466-pixel-tall canvas the uppermost hair/sunglasses must start at y=190px (13%). Top170px is completely clear painted wall. Face center aroundy380px. Show down to upper thighs and keep hands/gesture above65% height. Pull camera back, do not zoom to fill frame.",
+      "sha256": "9b6a2caaeca638981d1b5c7ef50b3966b63eb381f64f4ac5719b23da0302ab93",
+      "savedTextMatchesToolPrompt": true
+    },
+    "final": {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/campaign-v9-pop-editorial/prompts/sj-women-dark.txt",
+      "text": "Use case: ads-marketing / photorealistic-natural.\nAsset type: DearBody Philippines website photographic background, no baked copy.\nInput image 1 is STYLE REFERENCE ONLY: adopt its sunny, saturated scarlet/cobalt/lemon fashion-ad punch, tactile accessories, direct confident approachable energy and realistic skin. Create a wholly NEW photograph. Do not copy its car, lipstick, raised-bottle, pocket-camera or hand-only compositions; do not reproduce any wording, logo or product.\nOutput: portrait approximately 3:4, native 1073 x 1466 or 1024 x 1400 pixels.\nScene and subject: An adult Filipina with naturally curly dark bob and warm brown skin laughing spontaneously in bright sunshine against a real cobalt-blue painted urban wall. She wears a rich scarlet textured cropped cardigan over a cream tank and clean dark-indigo relaxed jeans. A small lemon-yellow unbranded canvas shoulder bag, fine silver hoops and dark cherry sunglasses resting on top of her head. She holds the bag strap comfortably near her shoulder with one hand while the other arm hangs naturally. Fun confident contemporary Filipino personality, bold sunny fashion publication photo, saturated tangible clothing, crisp physical shadows. Bright daylight despite dark-mode name.\nComposition: Portrait full-bleed composition, ONLY ONE person. Face centered x50%,y25%; complete hair and sunglasses top at12% below top edge. Top12% quiet cobalt wall. Body/strap gesture in top65%; lower30% uncluttered dark denim and wall for live category copy. Mid-thigh crop. Hands plausible, no raised objects, all facial features visible.\nLighting/style: professional real editorial location fashion photograph with warm clear sunlight, strong naturally directional shadows, vibrant but credible colors, realistic anatomy and fabric, no fantastical environment. One ADULT Filipino model total, no other people, bodies, reflections, posters or printed faces.\nText: NONE. Absolutely no typography, signage, logos, watermark, frame, border, collage or UI. PRODUCT-FREE: absolutely no perfume, bottles, canisters, cosmetics, drinks or product packaging anywhere. No cars, lipstick, cameras, giant props. Do not dull the exposure; all modes are sunny bright daylight. Preserve generous headroom and requested text-safe areas.\nCritical headroom for website: medium-long editorial photograph, not tight headshot. On a 1466-pixel-tall canvas the uppermost hair/sunglasses must start at y=190px (13%). Top170px is completely clear painted wall. Face center aroundy380px. Show down to upper thighs and keep hands/gesture above65% height. Pull camera back, do not zoom to fill frame.",
+      "sha256": "9b6a2caaeca638981d1b5c7ef50b3966b63eb381f64f4ac5719b23da0302ab93",
+      "savedTextMatchesToolPrompt": true
+    }
+  },
+  "generationHistory": [
+    {
+      "sourceOutputPath": "/Users/wetrade/.codex/generated_images/01a0d0f9-afdf-7412-a990-cf7a45f1c2b6/exec-5532bef0-a760-49e2-b967-49f353686b22.png",
+      "status": "Accepted first generation"
+    }
+  ],
+  "qa": {
+    "reviewMethod": "Visual inspection of native generated image at full resolution",
+    "personCount": 1,
+    "adultsOnly": true,
+    "productFree": true,
+    "noPerfumeOrBottles": true,
+    "noBackgroundPeopleOrPrintedFaces": true,
+    "noBakedTextOrLogo": true,
+    "noAnatomyDefectObserved": true,
+    "noClippedHead": true,
+    "brightDaylightBothModes": true,
+    "alt": "A curly-haired Filipina in a scarlet cardigan and dark denim laughs in sunlight, carrying a lemon-yellow bag against a cobalt wall.",
+    "focal": "50% top",
+    "faceCenterPercent": [
+      49,
+      20
+    ],
+    "headroomPercent": 8,
+    "notes": "Single adult female; sunglasses above full hair remain completely within frame; natural hand gripping strap and relaxed other hand. Upper wall is ~8%, shorter than requested12%, but no hair clipping. Lower denim/wall remains simple. Crop should preserve top."
+  },
+  "scope": "Source PNGs, exact prompts and per-asset provenance only. Root owns JPEG export, theme integration and responsive QA.",
+  "nativeDimensions": {
+    "width": 1073,
+    "height": 1466
+  },
+  "bytes": 2976314,
+  "sha256": "655bd8122ecc6ca4e230453a7d5c547e773579e68af54c6fdf776f8ec426b187",
+  "sourceSha256": "655bd8122ecc6ca4e230453a7d5c547e773579e68af54c6fdf776f8ec426b187",
+  "sourceEqualsWorkspace": true
+}

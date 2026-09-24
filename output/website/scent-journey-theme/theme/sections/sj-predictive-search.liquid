@@ -1,0 +1,21 @@
+{% if predictive_search.performed %}
+  <div data-sj-predictive-results>
+    {% if predictive_search.resources.products.size > 0 %}
+      <p class="sj-eyebrow" id="PredictiveProductsLabel">FRAGRANCES</p>
+      <ul class="sj-predictive-list" id="PredictiveSearchList" role="listbox" aria-labelledby="PredictiveProductsLabel">
+        {% for product in predictive_search.resources.products %}<li role="option" id="PredictiveOption-{{ forloop.index }}" aria-selected="false"><a href="{{ product.url }}" tabindex="-1" data-sj-search-option>{% render 'sj-product-image', product: product, thumbnail: true, alt: product.title %}<span><strong>{{ product.title | escape }}</strong><small>{% render 'sj-price', product: product %}{% unless product.available %} · Sold out{% endunless %}</small></span></a></li>{% endfor %}
+      </ul>
+      <p class="sj-predictive-more"><a href="{{ routes.search_url }}?q={{ predictive_search.terms | url_encode }}&type=product">View all results for “{{ predictive_search.terms | escape }}”</a></p>
+    {% else %}<ul id="PredictiveSearchList" role="listbox" aria-label="Fragrance suggestions"></ul><p>No fragrances found. Try “sweet”, “woody”, or a product name.</p>{% endif %}
+    <span class="sj-visually-hidden" data-sj-result-count>{{ predictive_search.resources.products.size }} suggestions found.</span>
+  </div>
+{% else %}
+  <dialog class="sj-search-dialog" id="sj-search-dialog" aria-labelledby="SearchDialogTitle" data-sj-predictive-url="{{ routes.predictive_search_url }}">
+    <div class="sj-dialog-heading"><p class="sj-eyebrow" id="SearchDialogTitle">YOUR NEXT SCENT STARTS HERE</p><button type="button" class="sj-icon-button" data-sj-close-dialog aria-label="Close search">{% render 'sj-icon', name: 'close' %}</button></div>
+    <form action="{{ routes.search_url }}" method="get" role="search" class="sj-search-form" data-sj-predictive-form><label class="sj-visually-hidden" for="PredictiveSearchInput">Search fragrances</label><input type="search" id="PredictiveSearchInput" name="q" placeholder="A scent, a mood, a moment…" autocomplete="off" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="PredictiveSearchList" data-sj-predictive-input><input type="hidden" name="type" value="product"><input type="hidden" name="options[prefix]" value="last"><button type="submit" class="sj-button" aria-label="Search">Search</button></form>
+    <div class="sj-predictive-results" data-sj-predictive-container><ul id="PredictiveSearchList" role="listbox" aria-label="Fragrance suggestions"></ul></div>
+    <p class="sj-visually-hidden" role="status" aria-live="polite" data-sj-search-status></p>
+    <div class="sj-search-suggestions" data-sj-search-inspiration><p class="sj-eyebrow">FOLLOW A FEELING</p>{% assign words = 'Fresh,Sweet,Smoky,Woody,Warm,Berry,Rose,Oud' | split: ',' %}{% for word in words %}<a href="{{ routes.search_url }}?q={{ word | url_encode }}&type=product">{{ word }}</a>{% endfor %}</div>
+  </dialog>
+{% endif %}
+{% schema %}{"name":"Predictive search","settings":[]}{% endschema %}

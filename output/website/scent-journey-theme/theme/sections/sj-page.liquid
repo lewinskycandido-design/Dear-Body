@@ -1,0 +1,75 @@
+{%- liquid
+  assign is_shipping_page = false
+  if page.handle == 'shipping' or template.suffix == 'shipping'
+    assign is_shipping_page = true
+  endif
+  assign policy_body = blank
+  case page.handle
+    when 'privacy'
+      assign policy_body = shop.privacy_policy.body
+    when 'terms'
+      assign policy_body = shop.terms_of_service.body
+  endcase
+-%}
+<section class="sj-customer-care-page">
+  {% if is_shipping_page %}
+    {% render 'sj-care-banner', kind: 'shipping', section_id: section.id, asset: 'sj-shipping-banner.jpg', light_image: section.settings.shipping_banner_light, dark_image: section.settings.shipping_banner_dark, eyebrow: section.settings.shipping_eyebrow, heading: section.settings.shipping_heading, description: section.settings.shipping_description %}
+  {% endif %}
+  <div class="sj-container">
+    {% unless is_shipping_page %}<div class="sj-page-intro"><p class="sj-eyebrow">DEARBODY / CUSTOMER CARE</p><h1>{{ page.title | default: section.settings.title | escape }}</h1></div>{% endunless %}
+    <div class="sj-page-content">
+      {% if is_shipping_page %}{% render 'sj-shipping-information' %}{% elsif policy_body != blank %}{{ policy_body }}{% elsif page.content != blank %}{{ page.content }}{% else %}<p>For current {{ page.title | default: section.settings.title | downcase | escape }} information, please contact DearBody Philippines.</p><a class="sj-button sj-button--secondary" href="{{ settings.contact_url | default: '/pages/contact' }}">Contact us</a>{% endif %}
+    </div>
+  </div>
+</section>
+{% schema %}
+{
+  "name": "Page content and policies",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Fallback title",
+      "default": "Customer care"
+    },
+    {
+      "type": "header",
+      "content": "Shipping page header"
+    },
+    {
+      "type": "paragraph",
+      "content": "These settings apply only to the Shipping page or Shipping template. Privacy and Terms retain their existing headings."
+    },
+    {
+      "type": "text",
+      "id": "shipping_eyebrow",
+      "label": "Eyebrow",
+      "default": "Shipping"
+    },
+    {
+      "type": "text",
+      "id": "shipping_heading",
+      "label": "Heading",
+      "default": "ON ITS WAY."
+    },
+    {
+      "type": "textarea",
+      "id": "shipping_description",
+      "label": "Supporting copy",
+      "default": "Free shipping on 2 or more items. Shipping fee applies to 1 item."
+    },
+    {
+      "type": "image_picker",
+      "id": "shipping_banner_light",
+      "label": "Header photo — Light",
+      "info": "Uses the included Shipping campaign photo when empty."
+    },
+    {
+      "type": "image_picker",
+      "id": "shipping_banner_dark",
+      "label": "Header photo — Dark",
+      "info": "Uses the Light photo when empty."
+    }
+  ]
+}
+{% endschema %}

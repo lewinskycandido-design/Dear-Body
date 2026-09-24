@@ -1,0 +1,18 @@
+{%- liquid
+ assign display_font_source = settings.display_font_url
+ if display_font_source == blank
+  assign display_font_source = 'CenzoFlare-Bold.woff2' | asset_url
+ endif
+ assign body_font_source = settings.body_font_url
+ if body_font_source == blank
+  assign body_font_source = 'HelveticaNowDisplay-Light.woff2' | asset_url
+ endif
+-%}
+{% if settings.display_font_url == blank %}{{ 'CenzoFlare-Bold.woff2' | asset_url | preload_tag: as: 'font', type: 'font/woff2', crossorigin: 'anonymous' }}{% endif %}
+{% if settings.body_font_url == blank %}{{ 'HelveticaNowDisplay-Light.woff2' | asset_url | preload_tag: as: 'font', type: 'font/woff2', crossorigin: 'anonymous' }}{% endif %}
+<style>
+@font-face{font-family:'Cenzo Flare Bold';src:url({{ display_font_source | json }}) format('woff2');font-style:normal;font-weight:700;font-display:swap}
+@font-face{font-family:'Helvetica Now Display';src:url({{ body_font_source | json }}) format('woff2');font-style:normal;font-weight:300;font-display:swap}
+{% if settings.body_bold_font_url != blank %}@font-face{font-family:'Helvetica Now Display';src:url({{ settings.body_bold_font_url | json }}) format('woff2');font-style:normal;font-weight:700;font-display:swap}{% endif %}
+:root{--font-display:'Cenzo Flare Bold','Helvetica Neue',Arial,sans-serif;--font-body:'Helvetica Now Display','Helvetica Neue',Arial,sans-serif}
+</style>

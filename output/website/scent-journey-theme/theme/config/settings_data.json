@@ -1,0 +1,27 @@
+{
+  "current": {
+    "visual_theme": "light",
+    "compare_mode": true,
+    "women_collection": "womens-perfume",
+    "men_collection": "mens-perfume",
+    "finder_url": "/pages/scent-finder",
+    "story_url": "/pages/our-story",
+    "contact_url": "/pages/contact",
+    "regenerated_product_media": true,
+    "blocks": {
+      "17754088914158789468": {
+        "type": "shopify://apps/easysell-cod-form/blocks/app-embed/7bfd0a95-6839-4f02-b2ee-896832dbe67e",
+        "disabled": false,
+        "settings": {}
+      }
+    }
+  },
+  "presets": {
+    "DearBody Light": {
+      "visual_theme": "light"
+    },
+    "DearBody Dark": {
+      "visual_theme": "dark"
+    }
+  }
+}

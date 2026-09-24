@@ -1,0 +1,262 @@
+{
+  "tool": "built-in image_gen.imagegen",
+  "assets": [
+    {
+      "stem": "sj-banner-women-light",
+      "source": "/Users/wetrade/.codex/generated_images/01a0d0f9-88d3-7d82-84d9-c31b20b30821/exec-187bfe08-cd1d-4dae-abcf-73cad431c586.png",
+      "headroom": "approximately25%; more than requested minimum",
+      "face": "approximately73%/34%",
+      "note": "Reframed via ImageGen for safe headroom; one person; warm flower-market moment, empty cream left wall.",
+      "revision_input": "/Users/wetrade/.codex/generated_images/01a0d0f9-88d3-7d82-84d9-c31b20b30821/exec-b38b870c-4d81-4141-bd91-96db5527e0fc.png",
+      "original": {
+        "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/campaign-v8-warm-vibrant/originals/sj-banner-women-light.png",
+        "width": 1774,
+        "height": 887,
+        "profile": "<nil>",
+        "bytes": 2430968,
+        "sha256": "cb68a97e7fdea594b4789640a00f0c41f3f89301c2175353131076e22885f4df"
+      },
+      "web": {
+        "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/campaign-v8-warm-vibrant/final-web/sj-banner-women-light.jpg",
+        "width": 1774,
+        "height": 887,
+        "profile": "sRGB IEC61966-2.1",
+        "bytes": 548821,
+        "sha256": "3b614eab8c074cfe8eba1de477ab3f95e3f89a9f61179a4e496962458701d8b7"
+      },
+      "prompts": [
+        {
+          "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/campaign-v8-warm-vibrant/prompts/sj-banner-women-light.txt",
+          "text": "Use case: photorealistic-natural.\nAsset type: full-width DearBody Philippines lifestyle website header banner, a completely NEW photograph.\nFormat: one native landscape raster, exact 2:1 wide composition, about 1774\u00d7887 pixels. No panels, montage or split screen.\nComposition is critical: wide environmental medium-long photograph with exactly ONE adult person total. Place the person's face center at x75%, y28%; the top of all hair must begin at y12\u201315% so there is generous real headroom. Keep the complete face above y45%. Show a natural action on the right, x55\u201395%, framed from at least mid-thigh upward with entire head and hair visible. Keep the left45% a quiet genuine sunlit warm cream plaster wall, connected plausibly to the setting, clean enough for live website heading text. Do not draw text. The subject at x75% must also read well in a narrow mobile crop about390\u00d7600, with face and action near that vertical crop. Avoid enlarged beauty portrait framing.\nMood: unmistakably warm, fun, vibrant, LIGHT, candid, friendly, attainable contemporary Filipino everyday life. Healthy naturally textured skin, natural smile, coherent warm daylight, realistic hands, fingers, limbs, fabric and perspective. Polished approachable commercial photography with a lively personal gesture, never stiff glamour posing.\nBrand palette authority: warm cream #F4E3CB, burgundy #5C0006, rich red #91100D, burnt-orange #A2490B, warm gold #EAAA3D, with restrained coral/berry accents. Rich colour comes from wardrobe and one playful prop, not gloom or heavy shadows.\nAbsolute constraints: no perfume or cosmetic product, no bottle of any kind, no logos, signage, written words, headlines, watermark, posters, mirrors, extra people, partial bodies, reflections of people, crowds or distant silhouettes. Exactly one person in the entire frame. Real photographable construction and contact shadows; no fantasy architecture, impossible fixtures, floating props, plastic skin or melted anatomy.\nScene: a sunlit neighborhood flower-market side lane in Metro Manila, with a real cream rendered wall across the left and a small cropped flower stall only at far right. Exactly one adult Filipina, warm morena skin, playful sunny smile, wearing a vibrant warm coral-red casual cotton blouse and cream wide-leg trousers, carries a small paper-wrapped bunch of coral, gold and muted lilac flowers at waist height while taking a relaxed step. She glances happily at the flowers. Flowers are atmosphere only, no fragrance note claim. Everyday flower errand, no sellers or other people. Bright late-morning tropical daylight softened by the awning.\n",
+          "sha256": "7180f312852e1a26819ce1bb6b97019f010aba37f1e52a363a349569e4f5a1a6"
+        },
+        {
+          "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/campaign-v8-warm-vibrant/prompts/sj-banner-women-light-framing-revision.txt",
+          "text": "Edit this exact photograph. Keep the same single Filipina, face, natural cheerful flower-buying action, clothing, vibrant flowers, realistic warm daylight, cream-wall market, image quality, no writing, and exact 2:1 landscape format. Change ONLY framing and camera distance: pull the camera back so the woman is smaller in this wide environmental photograph, with the HIGHEST HAIR at y=125 pixels or lower within an 887-pixel-high frame (14% quiet background above all hair). Keep face center at x=75%, y=28%, and the entire face above 45% image height; lower body may continue below frame. Reconstruct a little real cream wall and market environment above/below as needed for the wider shot. Left45% remains quiet cream wall. Do not extend the canvas with solid bars, do not merge photos, do not stretch her or move only the head. Keep one person total, natural hands, no added people or perfume. Final 2:1 native about1774\u00d7887.\n",
+          "sha256": "515f8a9bd16cff9eba1e0868f6ea187d2b9bf9dd679481d024ae1c67ad34b4c1"
+        }
+      ],
+      "revision_input_preserved": {
+        "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/campaign-v8-warm-vibrant/provenance/revision-inputs/sj-banner-women-light.png",
+        "width": 1774,
+        "height": 887,
+        "profile": "<nil>",
+        "bytes": 2319961,
+        "sha256": "66dbd96d1bea4b23eebd300811cb0abcebe5b8a100b3e1658ed99a65b409037c"
+      },
+      "qa_status": "PASS native visual inspection"
+    },
+    {
+      "stem": "sj-banner-women-dark",
+      "source": "/Users/wetrade/.codex/generated_images/01a0d0f9-88d3-7d82-84d9-c31b20b30821/exec-113ef0a5-a2cf-448f-b137-8d5b77abcf95.png",
+      "headroom": "approximately11\u201312%",
+      "face": "approximately75%/24%",
+      "note": "Bright daylight maintained; rich berry shirt; one person; quiet cream wall; natural bouquet grip.",
+      "original": {
+        "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/campaign-v8-warm-vibrant/originals/sj-banner-women-dark.png",
+        "width": 1774,
+        "height": 887,
+        "profile": "<nil>",
+        "bytes": 2469413,
+        "sha256": "62cdbcb40cc2ae1a14c6ed5f008b815ccd23bdb433ba1d4b8bcacfa5cd90d701"
+      },
+      "web": {
+        "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/campaign-v8-warm-vibrant/final-web/sj-banner-women-dark.jpg",
+        "width": 1774,
+        "height": 887,
+        "profile": "sRGB IEC61966-2.1",
+        "bytes": 546923,
+        "sha256": "0c31d79fade549f2e3a96a74d81cc46ba85715a5b18ae78d321371fef9065a1f"
+      },
+      "prompts": [
+        {
+          "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/campaign-v8-warm-vibrant/prompts/sj-banner-women-dark.txt",
+          "text": "Use case: photorealistic-natural.\nAsset type: full-width DearBody Philippines lifestyle website header banner, a completely NEW photograph.\nFormat: one native landscape raster, exact 2:1 wide composition, about 1774\u00d7887 pixels. No panels, montage or split screen.\nComposition is critical: wide environmental medium-long photograph with exactly ONE adult person total. Place the person's face center at x75%, y28%; the top of all hair must begin at y12\u201315% so there is generous real headroom. Keep the complete face above y45%. Show a natural action on the right, x55\u201395%, framed from at least mid-thigh upward with entire head and hair visible. Keep the left45% a quiet genuine sunlit warm cream plaster wall, connected plausibly to the setting, clean enough for live website heading text. Do not draw text. The subject at x75% must also read well in a narrow mobile crop about390\u00d7600, with face and action near that vertical crop. Avoid enlarged beauty portrait framing.\nMood: unmistakably warm, fun, vibrant, LIGHT, candid, friendly, attainable contemporary Filipino everyday life. Healthy naturally textured skin, natural smile, coherent warm daylight, realistic hands, fingers, limbs, fabric and perspective. Polished approachable commercial photography with a lively personal gesture, never stiff glamour posing.\nBrand palette authority: warm cream #F4E3CB, burgundy #5C0006, rich red #91100D, burnt-orange #A2490B, warm gold #EAAA3D, with restrained coral/berry accents. Rich colour comes from wardrobe and one playful prop, not gloom or heavy shadows.\nAbsolute constraints: no perfume or cosmetic product, no bottle of any kind, no logos, signage, written words, headlines, watermark, posters, mirrors, extra people, partial bodies, reflections of people, crowds or distant silhouettes. Exactly one person in the entire frame. Real photographable construction and contact shadows; no fantasy architecture, impossible fixtures, floating props, plastic skin or melted anatomy.\nScene: a fresh different angle on a neighborhood flower-market side lane in Metro Manila, real sunlit cream wall across the left, a small wooden flower stand at far right. Exactly one adult Filipina with naturally textured morena skin and an easy open smile, wearing a rich berry-red short-sleeved linen shirt tucked into cream trousers. She is mid-step, playfully lifting a small paper-wrapped bunch of warm coral/golden flowers slightly toward her chest while a simple cream tote hangs at her side. Vivid real everyday moment. This is the DARK-theme asset but the PHOTOGRAPH MUST REMAIN BRIGHT, SUNLIT, LIGHT AND JOYFUL; dark refers only to the richer berry clothing accent, not night or moody exposure. No stall seller, other people or signage. FINAL FRAMING HARD REQUIREMENT: Stand the camera farther back. Reserve a visible horizontal strip of background at least 120 pixels tall above the person's highest hair in an 887px-high image. Hair must start below y=120px, face center around y=250px; keep the person slightly smaller in the overall wide frame. Never place the head close to the top edge. This headroom takes priority over enlarging the model.\n",
+          "sha256": "0fadcc099fb55d96edc9e586491ea5ae58655a4c7a6a0150d2acbce0e7f2a497"
+        }
+      ],
+      "qa_status": "PASS native visual inspection"
+    },
+    {
+      "stem": "sj-banner-men-light",
+      "source": "/Users/wetrade/.codex/generated_images/01a0d0f9-88d3-7d82-84d9-c31b20b30821/exec-171dc460-9856-447c-8259-e475bee8ee5f.png",
+      "headroom": "approximately14%",
+      "face": "approximately74%/25%",
+      "note": "Single man walking with basketball in warm-gold overshirt; realistic empty court, natural smile/grip, quiet left cream wall.",
+      "original": {
+        "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/campaign-v8-warm-vibrant/originals/sj-banner-men-light.png",
+        "width": 1774,
+        "height": 887,
+        "profile": "<nil>",
+        "bytes": 1951878,
+        "sha256": "a9b22540770d2450a6bd6d9b57a614aa65965442fd07a30dc60bf6d6aefdf93b"
+      },
+      "web": {
+        "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/campaign-v8-warm-vibrant/final-web/sj-banner-men-light.jpg",
+        "width": 1774,
+        "height": 887,
+        "profile": "sRGB IEC61966-2.1",
+        "bytes": 364267,
+        "sha256": "80f560f5304144583f7f16de465e9bb9d61592db4aaa0eb6f379ac15355e7f0c"
+      },
+      "prompts": [
+        {
+          "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/campaign-v8-warm-vibrant/prompts/sj-banner-men-light.txt",
+          "text": "Use case: photorealistic-natural.\nAsset type: full-width DearBody Philippines lifestyle website header banner, a completely NEW photograph.\nFormat: one native landscape raster, exact 2:1 wide composition, about 1774\u00d7887 pixels. No panels, montage or split screen.\nComposition is critical: wide environmental medium-long photograph with exactly ONE adult person total. Place the person's face center at x75%, y28%; the top of all hair must begin at y12\u201315% so there is generous real headroom. Keep the complete face above y45%. Show a natural action on the right, x55\u201395%, framed from at least mid-thigh upward with entire head and hair visible. Keep the left45% a quiet genuine sunlit warm cream plaster wall, connected plausibly to the setting, clean enough for live website heading text. Do not draw text. The subject at x75% must also read well in a narrow mobile crop about390\u00d7600, with face and action near that vertical crop. Avoid enlarged beauty portrait framing.\nMood: unmistakably warm, fun, vibrant, LIGHT, candid, friendly, attainable contemporary Filipino everyday life. Healthy naturally textured skin, natural smile, coherent warm daylight, realistic hands, fingers, limbs, fabric and perspective. Polished approachable commercial photography with a lively personal gesture, never stiff glamour posing.\nBrand palette authority: warm cream #F4E3CB, burgundy #5C0006, rich red #91100D, burnt-orange #A2490B, warm gold #EAAA3D, with restrained coral/berry accents. Rich colour comes from wardrobe and one playful prop, not gloom or heavy shadows.\nAbsolute constraints: no perfume or cosmetic product, no bottle of any kind, no logos, signage, written words, headlines, watermark, posters, mirrors, extra people, partial bodies, reflections of people, crowds or distant silhouettes. Exactly one person in the entire frame. Real photographable construction and contact shadows; no fantasy architecture, impossible fixtures, floating props, plastic skin or melted anatomy.\nScene: an attainable outdoor neighborhood leisure/basketball area in Metro Manila, a real cream boundary wall across the left, hint of empty court with red rails far right, bright sunny morning. Exactly one adult Filipino man with naturally textured warm skin, in a warm-gold lightweight open cotton overshirt over a cream tee and relaxed deep rust shorts. He walks away from a casual solo practice carrying one plain orange basketball tucked against his right hip, turning with a natural broad smile, alive and relaxed rather than athletic posing. Entire head at prescribed coordinates. Court visibly empty, no lettering on basketball, no branding, no extra people. FINAL FRAMING HARD REQUIREMENT: Stand the camera farther back. Reserve a visible horizontal strip of background at least 120 pixels tall above the person's highest hair in an 887px-high image. Hair must start below y=120px, face center around y=250px; keep the person slightly smaller in the overall wide frame. Never place the head close to the top edge. This headroom takes priority over enlarging the model.\n",
+          "sha256": "971f1c99379ffb969b9be39151e99aeba782e856e320c2365fa88e67dbe76b7c"
+        }
+      ],
+      "qa_status": "PASS native visual inspection"
+    },
+    {
+      "stem": "sj-banner-men-dark",
+      "source": "/Users/wetrade/.codex/generated_images/01a0d0f9-88d3-7d82-84d9-c31b20b30821/exec-1bdd4ddd-9100-4fca-9db1-b41b2a55541c.png",
+      "headroom": "approximately12%",
+      "face": "approximately73%/24%",
+      "note": "Bright warm daylight, berry shirt, one man transferring basketball naturally; coherent empty neighborhood court.",
+      "original": {
+        "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/campaign-v8-warm-vibrant/originals/sj-banner-men-dark.png",
+        "width": 1774,
+        "height": 887,
+        "profile": "<nil>",
+        "bytes": 2120630,
+        "sha256": "a36a285f49dacb153d2342cb790fdc6e2971c807e22aeb651137abd41c7cd14e"
+      },
+      "web": {
+        "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/campaign-v8-warm-vibrant/final-web/sj-banner-men-dark.jpg",
+        "width": 1774,
+        "height": 887,
+        "profile": "sRGB IEC61966-2.1",
+        "bytes": 416843,
+        "sha256": "fce0a2ecb0fdd24269a5aa0f295c4e69c3be70140892b7db8dfb4c132cb06f3b"
+      },
+      "prompts": [
+        {
+          "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/campaign-v8-warm-vibrant/prompts/sj-banner-men-dark.txt",
+          "text": "Use case: photorealistic-natural.\nAsset type: full-width DearBody Philippines lifestyle website header banner, a completely NEW photograph.\nFormat: one native landscape raster, exact 2:1 wide composition, about 1774\u00d7887 pixels. No panels, montage or split screen.\nComposition is critical: wide environmental medium-long photograph with exactly ONE adult person total. Place the person's face center at x75%, y28%; the top of all hair must begin at y12\u201315% so there is generous real headroom. Keep the complete face above y45%. Show a natural action on the right, x55\u201395%, framed from at least mid-thigh upward with entire head and hair visible. Keep the left45% a quiet genuine sunlit warm cream plaster wall, connected plausibly to the setting, clean enough for live website heading text. Do not draw text. The subject at x75% must also read well in a narrow mobile crop about390\u00d7600, with face and action near that vertical crop. Avoid enlarged beauty portrait framing.\nMood: unmistakably warm, fun, vibrant, LIGHT, candid, friendly, attainable contemporary Filipino everyday life. Healthy naturally textured skin, natural smile, coherent warm daylight, realistic hands, fingers, limbs, fabric and perspective. Polished approachable commercial photography with a lively personal gesture, never stiff glamour posing.\nBrand palette authority: warm cream #F4E3CB, burgundy #5C0006, rich red #91100D, burnt-orange #A2490B, warm gold #EAAA3D, with restrained coral/berry accents. Rich colour comes from wardrobe and one playful prop, not gloom or heavy shadows.\nAbsolute constraints: no perfume or cosmetic product, no bottle of any kind, no logos, signage, written words, headlines, watermark, posters, mirrors, extra people, partial bodies, reflections of people, crowds or distant silhouettes. Exactly one person in the entire frame. Real photographable construction and contact shadows; no fantasy architecture, impossible fixtures, floating props, plastic skin or melted anatomy.\nScene: a fresh angle along a sunlit neighborhood basketball/leisure court in Metro Manila, warm cream plaster boundary wall across the left, simple red court rail and tropical greenery at far right. Exactly one adult Filipino man with natural warm skin, relaxed strong smile, wearing a rich berry-red cotton T-shirt and cream casual shorts. In a candid walking pause he transfers a single plain warm-orange basketball between his hands at waist height, a physically natural playful movement. Both hands anatomically normal with secure contact on the ball. This is the DARK-theme asset but the PHOTOGRAPH MUST STAY BRIGHT WARM DAYLIGHT, LIGHT AND JOYFUL; only clothing has the deeper red tone, never night or gloom. Empty court, no logos, numbers, lettering or other people. FINAL FRAMING HARD REQUIREMENT: Stand the camera farther back. Reserve a visible horizontal strip of background at least 120 pixels tall above the person's highest hair in an 887px-high image. Hair must start below y=120px, face center around y=250px; keep the person slightly smaller in the overall wide frame. Never place the head close to the top edge. This headroom takes priority over enlarging the model.\n",
+          "sha256": "64e2aadda8199f6b6b2880fd7f066708a0ed44011e6259a3f6c16f293176f7a4"
+        }
+      ],
+      "qa_status": "PASS native visual inspection"
+    },
+    {
+      "stem": "sj-banner-finder-light",
+      "source": "/Users/wetrade/.codex/generated_images/01a0d0f9-88d3-7d82-84d9-c31b20b30821/exec-5f179fc6-a3e1-4153-a3d3-3c7e63f857c7.png",
+      "headroom": "approximately17%",
+      "face": "approximately66%/29%",
+      "note": "One adult Filipina slipping into coral jacket in believable sunlit apartment entryway; natural anatomy, bright smile, plain left wall. Existing70% mobile horizontal focal keeps face central. Reframed via ImageGen for more headroom.",
+      "revision_input": "/Users/wetrade/.codex/generated_images/01a0d0f9-88d3-7d82-84d9-c31b20b30821/exec-6990605a-4ca7-4952-b784-3632e80e3ec8.png",
+      "original": {
+        "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/campaign-v8-warm-vibrant/originals/sj-banner-finder-light.png",
+        "width": 1774,
+        "height": 887,
+        "profile": "<nil>",
+        "bytes": 1798342,
+        "sha256": "f256432a65d3e72706b6799e8f063b7d29d21ea70e038f39d08bce9e45148e2c"
+      },
+      "web": {
+        "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/campaign-v8-warm-vibrant/final-web/sj-banner-finder-light.jpg",
+        "width": 1774,
+        "height": 887,
+        "profile": "sRGB IEC61966-2.1",
+        "bytes": 296841,
+        "sha256": "e2c355f587c68625b387cd11810cf2300e13421d4c74a370c3e183ff0c6b0661"
+      },
+      "prompts": [
+        {
+          "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/campaign-v8-warm-vibrant/prompts/sj-banner-finder-light.txt",
+          "text": "Use case: photorealistic-natural.\nAsset type: full-width DearBody Philippines lifestyle website header banner, a completely NEW photograph.\nFormat: one native landscape raster, exact 2:1 wide composition, about 1774\u00d7887 pixels. No panels, montage or split screen.\nComposition is critical: wide environmental medium-long photograph with exactly ONE adult person total. Place the person's face center at x75%, y28%; the top of all hair must begin at y12\u201315% so there is generous real headroom. Keep the complete face above y45%. Show a natural action on the right, x55\u201395%, framed from at least mid-thigh upward with entire head and hair visible. Keep the left45% a quiet genuine sunlit warm cream plaster wall, connected plausibly to the setting, clean enough for live website heading text. Do not draw text. The subject at x75% must also read well in a narrow mobile crop about390\u00d7600, with face and action near that vertical crop. Avoid enlarged beauty portrait framing.\nMood: unmistakably warm, fun, vibrant, LIGHT, candid, friendly, attainable contemporary Filipino everyday life. Healthy naturally textured skin, natural smile, coherent warm daylight, realistic hands, fingers, limbs, fabric and perspective. Polished approachable commercial photography with a lively personal gesture, never stiff glamour posing.\nBrand palette authority: warm cream #F4E3CB, burgundy #5C0006, rich red #91100D, burnt-orange #A2490B, warm gold #EAAA3D, with restrained coral/berry accents. Rich colour comes from wardrobe and one playful prop, not gloom or heavy shadows.\nAbsolute constraints: no perfume or cosmetic product, no bottle of any kind, no logos, signage, written words, headlines, watermark, posters, mirrors, extra people, partial bodies, reflections of people, crowds or distant silhouettes. Exactly one person in the entire frame. Real photographable construction and contact shadows; no fantasy architecture, impossible fixtures, floating props, plastic skin or melted anatomy.\nScene: a sunny ordinary small Metro Manila apartment entryway, genuine warm cream plaster wall across the left, a plain wooden door and simple cane chair only at far right. Exactly one adult Filipina young adult with natural warm textured skin, a bright spontaneous smile. She wears a cream cotton top and warm-gold relaxed trousers and is in the natural act of slipping into a vibrant coral casual jacket, one hand guiding the open front while the other finishes an ordinary sleeve movement. Keep arms/fingers completely plausible and jacket construction conventional. A getting-ready moment of choosing her own style, fun expressive energy without glamour posing. Bright soft window daylight; no mirror, pictures, decoration with faces, extra garments that look like people, bottles, posters or text. FINAL FRAMING HARD REQUIREMENT: Stand the camera farther back. Reserve a visible horizontal strip of background at least 120 pixels tall above the person's highest hair in an 887px-high image. Hair must start below y=120px, face center around y=250px; keep the person slightly smaller in the overall wide frame. Never place the head close to the top edge. This headroom takes priority over enlarging the model.\n",
+          "sha256": "14bade8103bd728cce00e604e1f40ac9a9f515d4a885a3761a7e8b71dd37a6f8"
+        },
+        {
+          "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/campaign-v8-warm-vibrant/prompts/sj-banner-finder-light-framing-revision.txt",
+          "text": "Precise framing-only edit of this photograph. Keep this exact ONE Filipina woman, face, expression, clothing, coral jacket action, natural anatomy and warm bright ordinary apartment scene. Keep the subject's horizontal position and approximate size unchanged. We need a little more background ABOVE the head: tilt the virtual camera upward slightly and shift the whole pictured subject/scene DOWN by approximately35pixels within the same1774\u00d7887 landscape frame, revealing a little more real cream wall/door at the top, with a little more of the lower legs naturally outside the bottom edge. Highest hair must now start at y=125\u2013135pixels, about14\u201315%fromtop. Do not enlarge the person, do not turn this into a portrait or move/stretch her head independently. Keep all face above y45%, keep entire head/hair visible. Keep left45%quietcreamwall. Natural coherent perspective, exactoneperson, no bottles, writing, people or new props. Same bright warm vibrant LIGHT mood. Preserve 2:1native1774\u00d7887. No solid added canvas border.\n",
+          "sha256": "0742580b27856da2051fc21845a184419069c0794261c00856e590b7ae05c5e5"
+        }
+      ],
+      "revision_input_preserved": {
+        "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/campaign-v8-warm-vibrant/provenance/revision-inputs/sj-banner-finder-light.png",
+        "width": 1774,
+        "height": 887,
+        "profile": "<nil>",
+        "bytes": 1807093,
+        "sha256": "6ece7fc68e7ea25fa15dfddc630779c133f0f7e96f69caeb668940b6dc0dca2e"
+      },
+      "qa_status": "PASS native visual inspection"
+    },
+    {
+      "stem": "sj-banner-finder-dark",
+      "source": "/Users/wetrade/.codex/generated_images/01a0d0f9-88d3-7d82-84d9-c31b20b30821/exec-e946f884-d0a4-4836-be64-83ddf16b7085.png",
+      "headroom": "approximately16%",
+      "face": "approximately71%/29%",
+      "note": "One adult Filipina draping a gold scarf over berry blouse; sunlit ordinary entryway, natural hand contact and fabric, cream left copy zone. Reframed via ImageGen for more headroom.",
+      "revision_input": "/Users/wetrade/.codex/generated_images/01a0d0f9-88d3-7d82-84d9-c31b20b30821/exec-cb4a91ea-2fea-43d1-8c8d-3e4a24f69308.png",
+      "original": {
+        "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/campaign-v8-warm-vibrant/originals/sj-banner-finder-dark.png",
+        "width": 1774,
+        "height": 887,
+        "profile": "<nil>",
+        "bytes": 1811992,
+        "sha256": "24d66767e3b2eab35bbd9a51b82ca7455172190d4cc967872ecf8b1793346e7a"
+      },
+      "web": {
+        "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/campaign-v8-warm-vibrant/final-web/sj-banner-finder-dark.jpg",
+        "width": 1774,
+        "height": 887,
+        "profile": "sRGB IEC61966-2.1",
+        "bytes": 313285,
+        "sha256": "fbca92734d9e237764aeac2bbeb98a09dc8d9d359e2d6adadf0b8abe6dd302a5"
+      },
+      "prompts": [
+        {
+          "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/campaign-v8-warm-vibrant/prompts/sj-banner-finder-dark.txt",
+          "text": "Use case: photorealistic-natural.\nAsset type: full-width DearBody Philippines lifestyle website header banner, a completely NEW photograph.\nFormat: one native landscape raster, exact 2:1 wide composition, about 1774\u00d7887 pixels. No panels, montage or split screen.\nComposition is critical: wide environmental medium-long photograph with exactly ONE adult person total. Place the person's face center at x75%, y28%; the top of all hair must begin at y12\u201315% so there is generous real headroom. Keep the complete face above y45%. Show a natural action on the right, x55\u201395%, framed from at least mid-thigh upward with entire head and hair visible. Keep the left45% a quiet genuine sunlit warm cream plaster wall, connected plausibly to the setting, clean enough for live website heading text. Do not draw text. The subject at x75% must also read well in a narrow mobile crop about390\u00d7600, with face and action near that vertical crop. Avoid enlarged beauty portrait framing.\nMood: unmistakably warm, fun, vibrant, LIGHT, candid, friendly, attainable contemporary Filipino everyday life. Healthy naturally textured skin, natural smile, coherent warm daylight, realistic hands, fingers, limbs, fabric and perspective. Polished approachable commercial photography with a lively personal gesture, never stiff glamour posing.\nBrand palette authority: warm cream #F4E3CB, burgundy #5C0006, rich red #91100D, burnt-orange #A2490B, warm gold #EAAA3D, with restrained coral/berry accents. Rich colour comes from wardrobe and one playful prop, not gloom or heavy shadows.\nAbsolute constraints: no perfume or cosmetic product, no bottle of any kind, no logos, signage, written words, headlines, watermark, posters, mirrors, extra people, partial bodies, reflections of people, crowds or distant silhouettes. Exactly one person in the entire frame. Real photographable construction and contact shadows; no fantasy architecture, impossible fixtures, floating props, plastic skin or melted anatomy.\nScene: another warm sunlit angle of an ordinary small Metro Manila apartment entryway, real cream wall across the left, simple wooden door and cane chair far right. Exactly one adult Filipina young adult with naturally textured warm skin and an open delighted smile, wearing a rich berry-red casual cotton blouse with cream trousers. She is playfully choosing a favourite warm-gold light scarf, holding the two ends naturally just below her shoulders as she prepares to drape it; face stays completely clear. One simple expressive accessory, everyday getting-ready action, physically plausible fabric and hands. This DARK-theme photograph stays BRIGHT, VIBRANT, WARM DAYLIGHT AND LIGHTHEARTED; rich berry wardrobe replaces darkness, no night or gloomy treatment. No mirrors, posters, bottles, other people, signage or text. FINAL FRAMING HARD REQUIREMENT: Stand the camera farther back. Reserve a visible horizontal strip of background at least 120 pixels tall above the person's highest hair in an 887px-high image. Hair must start below y=120px, face center around y=250px; keep the person slightly smaller in the overall wide frame. Never place the head close to the top edge. This headroom takes priority over enlarging the model.\n",
+          "sha256": "ee2a14304d8b88e9d6df455e33d18b10a81f550ebedd9b84b8a979f45c8b5a9a"
+        },
+        {
+          "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/campaign-v8-warm-vibrant/prompts/sj-banner-finder-dark-framing-revision.txt",
+          "text": "Precise framing-only edit of this photograph. Keep this exact ONE Filipina woman, face, expression, clothing, gold scarf action, natural anatomy and warm bright ordinary apartment scene. Keep the subject's horizontal position and approximate size unchanged. We need a little more background ABOVE the head: tilt the virtual camera upward slightly and shift the whole pictured subject/scene DOWN by approximately35pixels within the same1774\u00d7887 landscape frame, revealing a little more real cream wall/door at the top, with a little more of the lower legs naturally outside the bottom edge. Highest hair must now start at y=125\u2013135pixels, about14\u201315%fromtop. Do not enlarge the person, do not turn this into a portrait or move/stretch her head independently. Keep all face above y45%, keep entire head/hair visible. Keep left45%quietcreamwall. Natural coherent perspective, exactoneperson, no bottles, writing, people or new props. Same bright warm vibrant LIGHT mood. Preserve 2:1native1774\u00d7887. No solid added canvas border.\n",
+          "sha256": "476a74baceb0af386f8b898d65da1f826fc569baefd0b061dce461bd704a2a9d"
+        }
+      ],
+      "revision_input_preserved": {
+        "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/campaign-v8-warm-vibrant/provenance/revision-inputs/sj-banner-finder-dark.png",
+        "width": 1774,
+        "height": 887,
+        "profile": "<nil>",
+        "bytes": 1863029,
+        "sha256": "2aeb8170e1d6d00ab6951279e9f37a4ff42369e471f6207a0a53d814c75800f5"
+      },
+      "qa_status": "PASS native visual inspection"
+    }
+  ],
+  "scope": "Six new Women/Men/Finder Light/Dark category/page lifestyle header rasters; no perfume product, no theme edits.",
+  "source_refs": [],
+  "guide": "/Users/wetrade/Documents/ChatGPT/Dear Body/BRAND_GUIDE.md",
+  "palette_authority": [
+    "#F4E3CB",
+    "#5C0006",
+    "#91100D",
+    "#A2490B",
+    "#EAAA3D"
+  ],
+  "export": "sips JPEG quality91, native dimensions, matched to system sRGB Profile.icc. No crop, compositing, resizing or artificial raster editing.",
+  "qa": {
+    "status": "PASS native visual inspection",
+    "person_count_each": 1,
+    "photographic_mood": "Both themes remain bright, warm, fun, vibrant daytime; berry accents distinguish Dark.",
+    "no_bottles": true,
+    "no_headline_or_signage": true,
+    "headroom_note": "Actual approximate headroom/face centers are recorded per asset. Three images received ImageGen framing-only revisions; all full hair and face are inside native images, with faces above45% height. Rendered responsive crops remain separate integration QA.",
+    "crop_recommendation": "Existing Women/Men81%, Finder70% horizontal mobile focal works for these compositions. Use top-biased vertical object positioning on very wide desktop crops to preserve full hair."
+  },
+  "generated_at": "2026-09-24T05:12:28.775922+00:00",
+  "verification": {
+    "assets": 6,
+    "native_dimensions": "1774x887",
+    "web_profile": "sRGB",
+    "originals_match_tool_outputs": true,
+    "web_files_unique": true,
+    "scope": "Native-file audit only; root handles layout/crop integration QA."
+  }
+}

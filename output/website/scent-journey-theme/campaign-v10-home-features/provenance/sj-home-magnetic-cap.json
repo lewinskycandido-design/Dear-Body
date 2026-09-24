@@ -1,0 +1,17 @@
+{
+  "tool": "built-in image_gen",
+  "source": "/Users/wetrade/.codex/generated_images/01a0d0f8-8d24-7131-8c77-de85e96f8179/exec-6c7fb127-3b74-4798-9a6b-93cb7571405b.png",
+  "original": "campaign-v10-home-features/originals/sj-home-magnetic-cap.png",
+  "original_sha256": "b0f1d98d8bd36dfc1bbb89446f9e20a6f9c69c37a97ab0df1c5fb9ee6ff1c5ed",
+  "asset": "sj-home-magnetic-cap.jpg",
+  "sha256": "71d7e433857117673febb0542907ffad512daa2c974c9f2f66d0c9ce51eeec71",
+  "width": 1774,
+  "height": 887,
+  "prompt": "campaign-v10-home-features/prompts/sj-home-magnetic-cap.txt",
+  "copy": "Live Cenzo/Helvetica website text, not baked into image.",
+  "qa": "Black detached cap, silver stepped atomizer with round side nozzle, held by realistic fingertips, golden bottle, exact visible label, quiet left copy area.",
+  "shipping_rejection": {
+    "source": "/Users/wetrade/.codex/generated_images/01a0d0f8-8d24-7131-8c77-de85e96f8179/exec-2ba50dae-a426-4de0-a1f0-14e076dde6ae.png",
+    "reason": "Owner rejected bare bottles in shipping box: perfumes ship with canisters. Not installed."
+  }
+}

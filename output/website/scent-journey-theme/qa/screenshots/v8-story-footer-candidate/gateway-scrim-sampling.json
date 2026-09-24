@@ -1,0 +1,397 @@
+{
+  "css": ".sj-doorway-link::after{background:linear-gradient(180deg,rgba(43,8,14,.78),rgba(43,8,14,.68) 8%,transparent 18%,transparent 36%,rgba(43,8,14,.72) 62%,rgba(43,8,14,.92))}",
+  "rows": [
+    {
+      "kind": "women",
+      "width": 320,
+      "phase": "proposed",
+      "stem": "gateway-women-light-320-proposed",
+      "elements": [
+        {
+          "tag": "SPAN",
+          "text": "THE WOMEN\u2019S COLLECTION",
+          "color": "rgb(244, 227, 203)",
+          "fontSize": "9px",
+          "fontWeight": "700",
+          "box": {
+            "x": 24,
+            "y": 23,
+            "width": 135.53125,
+            "height": 13.5
+          },
+          "samples": 23,
+          "sampling": "glyph pixels",
+          "minimumContrast": 5.811514792903635,
+          "threshold": 4.5,
+          "passes": true
+        },
+        {
+          "tag": "SPAN",
+          "text": "01",
+          "color": "rgb(244, 227, 203)",
+          "fontSize": "9px",
+          "fontWeight": "700",
+          "box": {
+            "x": 241.828125,
+            "y": 23,
+            "width": 10.171875,
+            "height": 13.5
+          },
+          "samples": 154,
+          "sampling": "conservative whole text box",
+          "minimumContrast": 9.618997660209164,
+          "threshold": 4.5,
+          "passes": true
+        },
+        {
+          "tag": "P",
+          "text": "A scent for every\nversion of you.",
+          "color": "rgb(244, 227, 203)",
+          "fontSize": "17px",
+          "fontWeight": "400",
+          "box": {
+            "x": 24,
+            "y": 328.8125,
+            "width": 228,
+            "height": 44.1875
+          },
+          "samples": 49,
+          "sampling": "glyph pixels",
+          "minimumContrast": 7.021636778269642,
+          "threshold": 4.5,
+          "passes": true
+        },
+        {
+          "tag": "H2",
+          "text": "WOMEN",
+          "color": "rgb(244, 227, 203)",
+          "fontSize": "70px",
+          "fontWeight": "700",
+          "box": {
+            "x": 24,
+            "y": 389,
+            "width": 228.203125,
+            "height": 63
+          },
+          "samples": 5911,
+          "sampling": "glyph pixels",
+          "minimumContrast": 8.247238744595546,
+          "threshold": 3,
+          "passes": true
+        },
+        {
+          "tag": "SPAN",
+          "text": "EXPLORE WOMEN",
+          "color": "rgb(244, 227, 203)",
+          "fontSize": "10px",
+          "fontWeight": "700",
+          "box": {
+            "x": 24,
+            "y": 472,
+            "width": 228,
+            "height": 31
+          },
+          "samples": 37,
+          "sampling": "glyph pixels",
+          "minimumContrast": 11.120995635957124,
+          "threshold": 4.5,
+          "passes": true
+        }
+      ]
+    },
+    {
+      "kind": "men",
+      "width": 320,
+      "phase": "proposed",
+      "stem": "gateway-men-light-320-proposed",
+      "elements": [
+        {
+          "tag": "SPAN",
+          "text": "THE MEN\u2019S COLLECTION",
+          "color": "rgb(244, 227, 203)",
+          "fontSize": "9px",
+          "fontWeight": "700",
+          "box": {
+            "x": 24,
+            "y": 23,
+            "width": 118.5,
+            "height": 13.5
+          },
+          "samples": 12,
+          "sampling": "glyph pixels",
+          "minimumContrast": 6.735677535599646,
+          "threshold": 4.5,
+          "passes": true
+        },
+        {
+          "tag": "SPAN",
+          "text": "02",
+          "color": "rgb(244, 227, 203)",
+          "fontSize": "9px",
+          "fontWeight": "700",
+          "box": {
+            "x": 239.890625,
+            "y": 23,
+            "width": 12.109375,
+            "height": 13.5
+          },
+          "samples": 182,
+          "sampling": "conservative whole text box",
+          "minimumContrast": 8.07178559315018,
+          "threshold": 4.5,
+          "passes": true
+        },
+        {
+          "tag": "P",
+          "text": "Make your scent\npart of your story.",
+          "color": "rgb(244, 227, 203)",
+          "fontSize": "17px",
+          "fontWeight": "400",
+          "box": {
+            "x": 24,
+            "y": 328.8125,
+            "width": 228,
+            "height": 44.1875
+          },
+          "samples": 59,
+          "sampling": "glyph pixels",
+          "minimumContrast": 7.9409004869042175,
+          "threshold": 4.5,
+          "passes": true
+        },
+        {
+          "tag": "H2",
+          "text": "MEN",
+          "color": "rgb(244, 227, 203)",
+          "fontSize": "70px",
+          "fontWeight": "700",
+          "box": {
+            "x": 24,
+            "y": 389,
+            "width": 128.921875,
+            "height": 63
+          },
+          "samples": 3409,
+          "sampling": "glyph pixels",
+          "minimumContrast": 8.224939491054645,
+          "threshold": 3,
+          "passes": true
+        },
+        {
+          "tag": "SPAN",
+          "text": "EXPLORE MEN",
+          "color": "rgb(244, 227, 203)",
+          "fontSize": "10px",
+          "fontWeight": "700",
+          "box": {
+            "x": 24,
+            "y": 472,
+            "width": 228,
+            "height": 31
+          },
+          "samples": 20,
+          "sampling": "glyph pixels",
+          "minimumContrast": 11.791302608202303,
+          "threshold": 4.5,
+          "passes": true
+        }
+      ]
+    },
+    {
+      "kind": "women",
+      "width": 1440,
+      "phase": "proposed",
+      "stem": "gateway-women-light-1440-proposed",
+      "elements": [
+        {
+          "tag": "SPAN",
+          "text": "THE WOMEN\u2019S COLLECTION",
+          "color": "rgb(244, 227, 203)",
+          "fontSize": "10px",
+          "fontWeight": "700",
+          "box": {
+            "x": 30,
+            "y": 26,
+            "width": 150.59375,
+            "height": 15
+          },
+          "samples": 41,
+          "sampling": "glyph pixels",
+          "minimumContrast": 6.0689213426903414,
+          "threshold": 4.5,
+          "passes": true
+        },
+        {
+          "tag": "SPAN",
+          "text": "01",
+          "color": "rgb(244, 227, 203)",
+          "fontSize": "10px",
+          "fontWeight": "700",
+          "box": {
+            "x": 606.796875,
+            "y": 26,
+            "width": 11.296875,
+            "height": 15
+          },
+          "samples": 2,
+          "sampling": "glyph pixels",
+          "minimumContrast": 9.765590340398418,
+          "threshold": 4.5,
+          "passes": true
+        },
+        {
+          "tag": "P",
+          "text": "A scent for every\nversion of you.",
+          "color": "rgb(244, 227, 203)",
+          "fontSize": "18px",
+          "fontWeight": "400",
+          "box": {
+            "x": 34,
+            "y": 414.40625,
+            "width": 580.09375,
+            "height": 46.78125
+          },
+          "samples": 60,
+          "sampling": "glyph pixels",
+          "minimumContrast": 8.059893374946942,
+          "threshold": 4.5,
+          "passes": true
+        },
+        {
+          "tag": "H2",
+          "text": "WOMEN",
+          "color": "rgb(244, 227, 203)",
+          "fontSize": "100.8px",
+          "fontWeight": "700",
+          "box": {
+            "x": 34,
+            "y": 479.1875,
+            "width": 328.609375,
+            "height": 90.703125
+          },
+          "samples": 12689,
+          "sampling": "glyph pixels",
+          "minimumContrast": 8.29428574348075,
+          "threshold": 3,
+          "passes": true
+        },
+        {
+          "tag": "SPAN",
+          "text": "EXPLORE WOMEN",
+          "color": "rgb(244, 227, 203)",
+          "fontSize": "11px",
+          "fontWeight": "700",
+          "box": {
+            "x": 34,
+            "y": 593.890625,
+            "width": 580.09375,
+            "height": 34.5
+          },
+          "samples": 76,
+          "sampling": "glyph pixels",
+          "minimumContrast": 11.059473939588381,
+          "threshold": 4.5,
+          "passes": true
+        }
+      ]
+    },
+    {
+      "kind": "men",
+      "width": 1440,
+      "phase": "proposed",
+      "stem": "gateway-men-light-1440-proposed",
+      "elements": [
+        {
+          "tag": "SPAN",
+          "text": "THE MEN\u2019S COLLECTION",
+          "color": "rgb(244, 227, 203)",
+          "fontSize": "10px",
+          "fontWeight": "700",
+          "box": {
+            "x": 30,
+            "y": 26,
+            "width": 131.65625,
+            "height": 15
+          },
+          "samples": 36,
+          "sampling": "glyph pixels",
+          "minimumContrast": 5.895882331045265,
+          "threshold": 4.5,
+          "passes": true
+        },
+        {
+          "tag": "SPAN",
+          "text": "02",
+          "color": "rgb(244, 227, 203)",
+          "fontSize": "10px",
+          "fontWeight": "700",
+          "box": {
+            "x": 604.640625,
+            "y": 26,
+            "width": 13.453125,
+            "height": 15
+          },
+          "samples": 2,
+          "sampling": "glyph pixels",
+          "minimumContrast": 8.912725014311476,
+          "threshold": 4.5,
+          "passes": true
+        },
+        {
+          "tag": "P",
+          "text": "Make your scent\npart of your story.",
+          "color": "rgb(244, 227, 203)",
+          "fontSize": "18px",
+          "fontWeight": "400",
+          "box": {
+            "x": 34,
+            "y": 414.40625,
+            "width": 580.09375,
+            "height": 46.78125
+          },
+          "samples": 95,
+          "sampling": "glyph pixels",
+          "minimumContrast": 8.446679548200601,
+          "threshold": 4.5,
+          "passes": true
+        },
+        {
+          "tag": "H2",
+          "text": "MEN",
+          "color": "rgb(244, 227, 203)",
+          "fontSize": "100.8px",
+          "fontWeight": "700",
+          "box": {
+            "x": 34,
+            "y": 479.1875,
+            "width": 185.640625,
+            "height": 90.703125
+          },
+          "samples": 7281,
+          "sampling": "glyph pixels",
+          "minimumContrast": 8.479342865576093,
+          "threshold": 3,
+          "passes": true
+        },
+        {
+          "tag": "SPAN",
+          "text": "EXPLORE MEN",
+          "color": "rgb(244, 227, 203)",
+          "fontSize": "11px",
+          "fontWeight": "700",
+          "box": {
+            "x": 34,
+            "y": 593.890625,
+            "width": 580.09375,
+            "height": 34.5
+          },
+          "samples": 69,
+          "sampling": "glyph pixels",
+          "minimumContrast": 11.078936394714905,
+          "threshold": 4.5,
+          "passes": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "updated_at": "2026-09-24T05:23:52.068758+00:00",
+  "status": "PASS \u2014 original canonical retained; both repairs unshipped",
+  "canonical_png": {
+    "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/campaign-v8-warm-vibrant/originals/sj-product-banner-amber-oud-silk.png",
+    "sha256": "fff922db85da1ec54be1ba1f9e51bb28b4a980a94701d91f2dabbefbc645bdfd",
+    "bytes": 2080141,
+    "width": 1774,
+    "height": 887
+  },
+  "canonical_jpg": {
+    "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/campaign-v8-warm-vibrant/final-web/sj-product-banner-amber-oud-silk.jpg",
+    "sha256": "8b83086b44fc6e6ca3b02e99fe654d83f74814a0932f79d32033f43c34d13f3c",
+    "bytes": 397720,
+    "width": 1774,
+    "height": 887
+  },
+  "canonical_files_unchanged": true,
+  "archive_png": {
+    "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/campaign-v8-warm-vibrant/provenance/amber-record-sleeve-fix/archive/sj-product-banner-amber-oud-silk-before-record-sleeve-fix.png",
+    "sha256": "fff922db85da1ec54be1ba1f9e51bb28b4a980a94701d91f2dabbefbc645bdfd",
+    "bytes": 2080141,
+    "width": 1774,
+    "height": 887
+  },
+  "archive_jpg": {
+    "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/campaign-v8-warm-vibrant/provenance/amber-record-sleeve-fix/archive/sj-product-banner-amber-oud-silk-before-record-sleeve-fix.jpg",
+    "sha256": "8b83086b44fc6e6ca3b02e99fe654d83f74814a0932f79d32033f43c34d13f3c",
+    "bytes": 397720,
+    "width": 1774,
+    "height": 887
+  },
+  "final_decision": {
+    "authority": "Root task final instruction, independently corroborated by close inspection",
+    "reason": "The original lower-right album sleeve resolves as abstract/floral colour marks with no recognizable face, head, body or person. Initial extra-person concern was unsubstantiated. Original bottle lettering is preferred, so the accepted original remains canonical.",
+    "visual_status": "Original canonical PASS",
+    "no_further_generation": true,
+    "tiny_print_note": "Original and repair candidates contain naturally small, soft label print at native banner scale; no pixel-identical generative restoration was claimed."
+  },
+  "correction_chain": [
+    {
+      "sequence": 1,
+      "status": "UNSHIPPED",
+      "tool": "built-in image_gen.imagegen",
+      "tool_output_path": "/Users/wetrade/.codex/generated_images/01a0d0f9-88d3-7d82-84d9-c31b20b30821/exec-ad79c0fa-d558-470e-b603-0c47a4fd4fea.png",
+      "candidate": {
+        "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/campaign-v8-warm-vibrant/provenance/amber-record-sleeve-fix/sj-product-banner-amber-oud-silk-record-sleeve-candidate-REVISE.png",
+        "sha256": "e5984a7b02304f19cdd52d7e03f07d18d36d6da0e55a4118e80132b6d69fc21a",
+        "bytes": 1940084,
+        "width": 1774,
+        "height": 887
+      },
+      "prompt": {
+        "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/campaign-v8-warm-vibrant/prompts/sj-product-banner-amber-oud-silk-record-sleeve-fix.txt",
+        "text": "Use case: precise-object-edit. Edit this exact accepted DearBody Amber Oud Silk lifestyle banner. ONE small localized correction ONLY: replace all visible record-sleeve/album-cover artwork inside the LOWER-RIGHT wooden record cabinet with simple plain solid-colour or nonfigurative abstract geometric sleeves in warm coral, cream, burgundy and gold. Also remove any writing on those record sleeves, including their spines. Every sleeve must have ZERO faces, people, silhouettes, photographs of people, logos or readable text. Preserve their existing physical shapes, stacking angles, cabinet, shadows and depth. Do not alter the yellow record player or its black vinyl record, the books elsewhere, or any other scene content.\nSTRICT INVARIANTS: preserve exactly this ONE smiling adult Filipina, her face, hair, head scarf, warm coral top, cream trousers, pose, all hands/fingers and product grip. Preserve the authentic capped Amber Oud Silk bottle pixel-faithfully in identity: clear tall cylindrical glass, pale blush-peach liquid, compact glossy black cap, white AMBER OUD SILK label with original Parfum London mark, thick clear base, exact believable50ml scale and original held position. Preserve warm bright sunlight, joyful mood, room construction, pink bougainvillea, all furniture, quiet cream LEFT copy area, shadows, original camera position and exact2:1landscape1774\u00d7887 framing/headroom. No other people, no new objects, no headline or watermark. Do not zoom, crop, resize the composition, recolour the woman/product or redesign anything. Treat only the cabinet's visible record-sleeve surfaces as the editable region. All other regions stay unchanged.\n",
+        "sha256": "bc8200dd8b55c283b0dce81a519a4aa890ea55b9fb959b6e92aee572086a1483"
+      },
+      "reference": {
+        "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/campaign-v8-warm-vibrant/provenance/amber-record-sleeve-fix/archive/sj-product-banner-amber-oud-silk-before-record-sleeve-fix.png",
+        "sha256": "fff922db85da1ec54be1ba1f9e51bb28b4a980a94701d91f2dabbefbc645bdfd",
+        "bytes": 2080141,
+        "width": 1774,
+        "height": 887
+      },
+      "review": "Album sleeves became clearly abstract; reviewer flagged collateral tiny-label drift. Candidate not installed."
+    },
+    {
+      "sequence": 2,
+      "status": "UNSHIPPED",
+      "tool": "built-in image_gen.imagegen",
+      "tool_output_path": "/Users/wetrade/.codex/generated_images/01a0d0f9-88d3-7d82-84d9-c31b20b30821/exec-af7db480-db01-42bd-85b2-21ad70388075.png",
+      "candidate": {
+        "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/campaign-v8-warm-vibrant/provenance/amber-record-sleeve-fix/sj-product-banner-amber-oud-silk-label-repair-UNSHIPPED.png",
+        "sha256": "f1af0564f39b9e15beafea9383f09214e2980bed502073c1d084d391c9e96362",
+        "bytes": 1879600,
+        "width": 1774,
+        "height": 887
+      },
+      "prompt": {
+        "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/campaign-v8-warm-vibrant/prompts/sj-product-banner-amber-oud-silk-label-restore.txt",
+        "text": "Use case: precise-object-edit. This is ONE localized bottle-restoration repair, not a new photograph.\nImage1 is the EDIT TARGET: the Amber lifestyle photograph with already-corrected abstract record sleeves. Keep image1 everywhere except the small held perfume bottle.\nImage2 is the accepted PREVIOUS complete photograph: copy its exact original held bottle appearance back into image1. Image5 is an unaltered close inspection crop of that same original bottle, supplied to clarify the correct white label and product geometry.\nImage3 is the physical raw Amber Oud Silk SKU photograph: authoritative wording, white label and pale blush-peach liquid. It is uncapped ONLY as reference; the final bottle stays capped exactly like image2.\nImage4 is canonical geometry only; do not transfer its Sunset Cocktail branding, colour or setting.\nThe ONLY editable region is the held bottle, approximately x1140\u20131200,y360\u2013490 in a1774\u00d7887canvas. Restore the original bottle from image2 with clear tall straight cylindrical glass, restrained shoulders, thick clear glass base, pale blush-peach liquid and compact glossy-black seated cap. Keep exact original 50ml scale, tilt, location, hand overlap and contact shadow; do not enlarge the bottle or touch fingers.\nWHITE LABEL MUST BE EXACT and as legible as in image2: first line \u201cAMBER OUD\u201d; second line \u201cSILK\u201d. Spell exactly A M B E R / O U D / S I L K. Beneath, preserve the original db PARFUM mark and small LONDON line from the raw/reference bottle, no rewording or invented letters. Preserve the original font, spacing, rectangular white label shape and alignment. Do not add other words, capacity or decorative text. Label identity is the purpose of this repair.\nSTRICTLY PRESERVE the corrected solid/abstract colorful record sleeves from image1, with zero faces/people/text on them. Preserve the entire ONE smiling woman, every hand/finger, face, body, outfit, all other objects, framing, left cream copy wall, shadows, joyful sunny light and photographic textures. No new people or props. Same native2:1landscape1774\u00d7887. This should look like image1 with only the faithful pre-edit bottle restored, no changes elsewhere.\n",
+        "sha256": "71e576e6ac38a45b08c22250e90cbf3ad1e14c975f0483b19205693eb464b349"
+      },
+      "references": [
+        {
+          "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/campaign-v8-warm-vibrant/provenance/amber-record-sleeve-fix/sj-product-banner-amber-oud-silk-record-sleeve-candidate-REVISE.png",
+          "sha256": "e5984a7b02304f19cdd52d7e03f07d18d36d6da0e55a4118e80132b6d69fc21a",
+          "bytes": 1940084,
+          "width": 1774,
+          "height": 887
+        },
+        {
+          "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/campaign-v8-warm-vibrant/provenance/amber-record-sleeve-fix/archive/sj-product-banner-amber-oud-silk-before-record-sleeve-fix.png",
+          "sha256": "fff922db85da1ec54be1ba1f9e51bb28b4a980a94701d91f2dabbefbc645bdfd",
+          "bytes": 2080141,
+          "width": 1774,
+          "height": 887
+        },
+        {
+          "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/refined-reference-images/raw-reference-archive/db-original-amber-oud-silk.jpg",
+          "sha256": "cc0e22b65e4e5eb68266be0aa31724289f20fa9a5dce91fbdf50fdb09c9bd2a3",
+          "bytes": 473739,
+          "width": 1200,
+          "height": 1600
+        },
+        {
+          "path": "/Users/wetrade/.codex/skills/dearbody-scent-gallery/assets/canonical-bottle-proportions.png",
+          "sha256": "e9a78f20b045b791e1ebd1795a340f1d0804e9f3be7fd06ef971fdc36ddc9399",
+          "bytes": 2101291,
+          "width": 1254,
+          "height": 1254
+        },
+        {
+          "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/campaign-v8-warm-vibrant/provenance/amber-record-sleeve-fix/label-before-inspection-only.png",
+          "sha256": "c89d15700909ed1eea9079aff1a1cd602d8342604ab1a5e8c35c887751c709f6",
+          "bytes": 59422,
+          "width": 180,
+          "height": 200
+        }
+      ],
+      "review": "Bottle-only repair retained abstract sleeves and scene. Root could read intended lettering, while independent reviewer remained concerned about small-scale softness. No pixel-identical restoration was claimed. Superseded by final decision to retain original."
+    }
+  ],
+  "inspection_evidence": [
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/campaign-v8-warm-vibrant/provenance/amber-record-sleeve-fix/original-record-sleeves-inspection-only.png",
+      "sha256": "fdc7a5854f333a81499a631134df7a78f88a719968b1d02ca4ddee21d233e87c",
+      "bytes": 115383,
+      "width": 294,
+      "height": 245
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/campaign-v8-warm-vibrant/provenance/amber-record-sleeve-fix/original-record-sleeves-zoom-inspection-only.png",
+      "sha256": "0ae2990e4e60a54aa4b974b6696819612dbe1a5615f23b45a51c6068f908893d",
+      "bytes": 666849,
+      "width": 882,
+      "height": 735
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/campaign-v8-warm-vibrant/provenance/amber-record-sleeve-fix/label-second-repair-inspection-only.png",
+      "sha256": "b55761e273fc0fa3dc2cece06756459be8d605908d7fe558c0ef3ade70905554",
+      "bytes": 58013,
+      "width": 180,
+      "height": 200
+    }
+  ],
+  "inspection_method": "sips analysis-only crops/zoom in separate files; canonical raster content never changed. No theme or shared manifest edits."
+}

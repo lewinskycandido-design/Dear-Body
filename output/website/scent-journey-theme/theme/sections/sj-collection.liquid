@@ -1,0 +1,101 @@
+  {% liquid
+    assign collection_order = false
+    if collection.handle == 'womens-perfume' or collection.handle == 'mens-perfume'
+      assign collection_order = true
+    endif
+    assign order_panel_id = 'CollectionOrder-' | append: section.id
+    assign banner_kind = 'women'
+    if collection.handle == 'mens-perfume'
+      assign banner_kind = 'men'
+    endif
+    assign light_banner = 'sj-banner-' | append: banner_kind | append: '-light.jpg'
+    assign dark_banner = 'sj-banner-' | append: banner_kind | append: '-dark.jpg'
+  %}
+  {% if collection_order %}{{ 'sj-collection-order.css' | asset_url | stylesheet_tag }}<script src="{{ 'sj-collection-order.js' | asset_url }}" defer="defer"></script>{% endif %}
+<section class="sj-collection" data-sj-collection {% if collection_order %}data-sj-collection-order data-collection="{{ banner_kind }}"{% endif %}>
+  <header class="sj-page-banner sj-page-banner--collection">
+    <div class="sj-page-banner__media">{% render 'sj-themed-photo', light_asset: light_banner, dark_asset: dark_banner, light_image: section.settings.banner_light, dark_image: section.settings.banner_dark, alt: '', loading: 'eager', width: 1774, height: 887 %}</div>
+    <div class="sj-page-banner__inner sj-container">
+    <div class="sj-page-banner__copy">
+    <p class="sj-eyebrow">DEARBODY / {{ collection.title | escape }}</p>
+    <h1>{{ section.settings.heading | default: collection.title | escape | newline_to_br }}</h1>
+    {% if section.settings.description != blank %}<p>{{ section.settings.description | escape }}</p>{% elsif collection.description != blank %}<div class="sj-collection__description">{{ collection.description }}</div>{% endif %}
+    <a class="sj-text-link" href="{% render 'sj-nav-url', url: settings.finder_url, fallback: '/pages/scent-finder' %}">Let your mood lead the way</a>
+    </div>
+    </div>
+  </header>
+  <div class="sj-container">
+  {% paginate collection.products by section.settings.products_per_page %}
+    <div class="sj-collection__toolbar">
+      <p>{{ collection.products_count }} {% if collection.products_count == 1 %}fragrance{% else %}fragrances{% endif %}<span> / {{ collection.title | escape }}</span></p>
+      <details class="sj-filters">
+        <summary>Filter & sort {% render 'sj-icon', name: 'plus', class: 'sj-disclosure-icon' %}</summary>
+        <form class="sj-filters__form" method="get" action="{{ collection.url }}">
+          {% for filter in collection.filters %}
+            <fieldset><legend>{{ filter.label | escape }}</legend>
+              {% case filter.type %}
+                {% when 'boolean', 'list' %}
+                  {% for value in filter.values %}
+                    <label class="sj-filter-choice"><input type="checkbox" name="{{ value.param_name }}" value="{{ value.value | escape }}" {% if value.active %}checked{% endif %} {% if value.count == 0 and value.active == false %}disabled{% endif %}><span>{{ value.label | escape }} <small>({{ value.count }})</small></span></label>
+                  {% endfor %}
+                {% when 'price_range' %}
+                  <div class="sj-price-range"><label>Minimum {{ cart.currency.symbol }}<input type="number" name="{{ filter.min_value.param_name }}" min="0" max="{{ filter.range_max | divided_by: 100.0 }}" step="0.01" {% if filter.min_value.value %}value="{{ filter.min_value.value | divided_by: 100.0 }}"{% endif %}></label><label>Maximum {{ cart.currency.symbol }}<input type="number" name="{{ filter.max_value.param_name }}" min="0" max="{{ filter.range_max | divided_by: 100.0 }}" step="0.01" {% if filter.max_value.value %}value="{{ filter.max_value.value | divided_by: 100.0 }}"{% endif %}></label></div>
+              {% endcase %}
+            </fieldset>
+          {% endfor %}
+          <label class="sj-sort">Sort by<select name="sort_by">{% assign selected_sort = collection.sort_by | default: collection.default_sort_by %}{% for option in collection.sort_options %}<option value="{{ option.value | escape }}" {% if option.value == selected_sort %}selected{% endif %}>{{ option.name | escape }}</option>{% endfor %}</select></label>
+          <div class="sj-filters__actions"><button class="sj-button" type="submit">Apply</button><a class="sj-text-link" href="{{ collection.url }}">Clear all</a></div>
+        </form>
+      </details>
+    </div>
+    <div class="sj-active-filters">
+      {% for filter in collection.filters %}
+        {% for value in filter.active_values %}<a href="{{ value.url_to_remove }}">{{ filter.label | escape }}: {{ value.label | escape }} <span class="sj-visually-hidden">Remove filter</span>{% render 'sj-icon', name: 'close' %}</a>{% endfor %}
+        {% if filter.type == 'price_range' %}{% if filter.min_value.value != nil or filter.max_value.value != nil %}<a href="{{ filter.url_to_remove }}">Price: {{ filter.min_value.value | default: 0 | money }} – {{ filter.max_value.value | default: filter.range_max | money }} <span class="sj-visually-hidden">Remove filter</span>{% render 'sj-icon', name: 'close' %}</a>{% endif %}{% endif %}
+      {% endfor %}
+    </div>
+    {% if collection_order %}<p class="sj-collection__order-instructions"><strong>How to order:</strong> Select <strong>Add to order</strong> and choose your quantities. Then select <strong>Check out</strong> to enter your delivery details and place your cash-on-delivery order.</p>{% endif %}
+    <div class="sj-product-grid" {% if collection_order %}data-sj-order-grid{% endif %}>
+      {% for product in collection.products %}{% render 'sj-product-card', product: product, index: forloop.index, collection_order: collection_order, order_panel_id: order_panel_id %}{% else %}<div class="sj-empty-state"><h2>A new chapter is on its way.</h2><p>{% if collection.all_products_count > 0 %}No fragrances match these filters. Try a different combination.{% else %}There are no fragrances in this collection yet.{% endif %}</p><a class="sj-button sj-button--secondary" href="{% if collection.all_products_count > 0 %}{{ collection.url }}{% else %}{{ routes.all_products_collection_url }}{% endif %}">{% if collection.all_products_count > 0 %}Clear filters{% else %}Explore all fragrances{% endif %}</a></div>{% endfor %}
+    </div>
+    {% if collection_order %}{% render 'sj-collection-order' %}{% endif %}
+    {% if paginate.pages > 1 %}<nav class="sj-pagination" aria-label="Collection pages">{{ paginate | default_pagination }}</nav>{% endif %}
+  {% endpaginate %}
+  </div>
+</section>
+{% schema %}
+{
+  "name": "Scent collection",
+  "settings": [
+    {
+      "type": "textarea",
+      "id": "heading",
+      "label": "Editorial heading"
+    },
+    {
+      "type": "textarea",
+      "id": "description",
+      "label": "Introduction"
+    },
+    {
+      "type": "range",
+      "id": "products_per_page",
+      "label": "Products per page",
+      "min": 6,
+      "max": 36,
+      "step": 3,
+      "default": 12
+    },
+    {
+      "type": "image_picker",
+      "id": "banner_light",
+      "label": "Header banner — Light"
+    },
+    {
+      "type": "image_picker",
+      "id": "banner_dark",
+      "label": "Header banner — Dark"
+    }
+  ]
+}
+{% endschema %}

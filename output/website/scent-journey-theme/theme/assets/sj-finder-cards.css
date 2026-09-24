@@ -1,0 +1,42 @@
+/* Answer cards are native buttons: every deliberate choice advances one question. */
+.sj-finder-experience { margin-block: 44px; padding: clamp(18px, 3.5vw, 52px); border: 2px solid var(--color-heading); background: var(--color-surface); box-shadow: 7px 7px 0 var(--sj-icon-cobalt, #2456d8); }
+.sj-finder-progress { flex-wrap: wrap; gap: 12px 20px; }
+.sj-finder-progress > span { padding: 8px 11px; color: #fbf2e6; background: #2456d8; font-weight: 700; }
+.sj-finder-progress progress { min-width: 60px; accent-color: #d72b27; }
+.sj-finder-progress progress::-webkit-progress-value { background: #d72b27; }
+.sj-finder-instruction { display: flex; align-items: center; gap: 10px; margin-top: 28px; color: var(--color-muted); font-size: 13px; line-height: 1.5; }
+.sj-finder .sj-finder-question { margin-top: 24px; }
+.sj-finder .sj-finder-question legend { font-size: clamp(30px, 3.5vw, 52px); max-width: 900px; }
+.sj-finder .sj-finder-question > p { margin-top: 14px; }
+.sj-finder .sj-finder-choices { gap: 16px; margin: 26px 0 0; }
+.sj-finder-answer { --answer-accent: #2456d8; --answer-paper: #ffe164; position: relative; display: flex; align-items: center; gap: 16px; min-width: 0; min-height: 116px; padding: 20px; text-align: left; color: var(--color-heading); background: var(--color-page-background); border: 2px solid var(--answer-accent); box-shadow: 4px 4px 0 var(--answer-accent); transition: transform 120ms ease, box-shadow 120ms ease; }
+.sj-finder-answer:nth-child(3n + 2) { --answer-accent: #d72b27; --answer-paper: #f4c6bd; }
+.sj-finder-answer:nth-child(3n) { --answer-accent: #8c6514; --answer-paper: #ffe164; }
+.sj-finder-answer::after { content: ''; position: absolute; right: 0; top: 0; width: 18px; height: 18px; background: var(--answer-accent); clip-path: polygon(100% 0, 100% 100%, 0 0); pointer-events: none; }
+.sj-finder-answer__icon { display: grid; place-items: center; flex: 0 0 48px; width: 48px; height: 48px; border-radius: 50%; background: var(--answer-paper); color: #5c0006; }
+.sj-finder-answer__icon .sj-icon { width: 29px; height: 29px; }
+.sj-finder-answer__label { font-size: clamp(16px, 1.35vw, 20px); line-height: 1.3; font-weight: 400; overflow-wrap: anywhere; }
+.sj-finder-answer:hover:not(:disabled), .sj-finder-answer:focus-visible { transform: translate(-2px, -2px); box-shadow: 6px 6px 0 var(--answer-accent); }
+.sj-finder-answer:focus-visible { outline: 3px solid var(--color-heading); outline-offset: 6px; }
+.sj-finder-answer[aria-pressed="true"] { background: #ffe164; color: #5c0006; border-color: #5c0006; box-shadow: 4px 4px 0 #5c0006; }
+.sj-finder-answer:disabled { opacity: 1; cursor: default; }
+.sj-finder .sj-finder-controls { margin-top: 24px; }
+.sj-finder-controls [data-sj-finder-back] { display: inline-flex; align-items: center; gap: 7px; min-height: 44px; }
+[data-theme="dark"] .sj-finder-answer { --answer-accent: #82a4ff; }
+[data-theme="dark"] .sj-finder-answer:nth-child(3n + 2) { --answer-accent: #ff6855; }
+[data-theme="dark"] .sj-finder-answer:nth-child(3n) { --answer-accent: #ffe164; }
+@media (max-width: 599px) {
+  .sj-finder-experience { margin-block: 30px; padding: 20px 16px; box-shadow: 5px 5px 0 var(--sj-icon-cobalt, #2456d8); }
+  .sj-finder-progress { gap: 10px; }
+  .sj-finder-progress > span { padding: 7px; }
+  .sj-finder-progress .sj-text-link { min-height: 44px; display: inline-flex; align-items: center; }
+  .sj-finder-instruction { margin-top: 18px; font-size: 12px; align-items: flex-start; }
+  .sj-finder-answer { min-height: 88px; padding: 15px 14px; gap: 13px; }
+  .sj-finder-answer__icon { flex-basis: 42px; width: 42px; height: 42px; }
+}
+@media (prefers-reduced-motion: reduce) { .sj-finder-answer { transition: none; } .sj-finder-answer:hover:not(:disabled), .sj-finder-answer:focus-visible { transform: none; } }
+@media (forced-colors: active) {
+  .sj-finder-experience, .sj-finder-answer { border-color: CanvasText; box-shadow: none; }
+  .sj-finder-answer::after { display: none; }
+  .sj-finder-answer[aria-pressed="true"] { outline: 3px solid Highlight; }
+}

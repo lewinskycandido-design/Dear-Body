@@ -1,0 +1,309 @@
+[
+  {
+    "asset": "sj-banner-finder-light.png",
+    "sha256": "41e43bf132684405ee6b5bd65cedeadae7851b220e1b7a1b9d8a1f4d98b17985",
+    "reviewer": "root",
+    "nativeVisualReview": "PASS",
+    "checks": [
+      "reference-inspired bright fashion styling",
+      "natural scene and anatomy",
+      "single adult or single-person cropped hands",
+      "copy space",
+      "full heads where present"
+    ],
+    "notes": ""
+  },
+  {
+    "asset": "sj-banner-footer-dark.png",
+    "sha256": "04c0751f7715dcf6b0eccb7a17c9ea492ca79a88cb8ea9e7f6014259d697ea38",
+    "reviewer": "root",
+    "nativeVisualReview": "PASS",
+    "checks": [
+      "reference-inspired bright fashion styling",
+      "natural scene and anatomy",
+      "single adult or single-person cropped hands",
+      "copy space",
+      "full heads where present"
+    ],
+    "notes": ""
+  },
+  {
+    "asset": "sj-banner-footer-light.png",
+    "sha256": "6e85a5ce5767883495c563d97a67ef0562718ff6c0ff1003bfbef6edc1eb1a2b",
+    "reviewer": "root",
+    "nativeVisualReview": "PASS",
+    "checks": [
+      "reference-inspired bright fashion styling",
+      "natural scene and anatomy",
+      "single adult or single-person cropped hands",
+      "copy space",
+      "full heads where present"
+    ],
+    "notes": ""
+  },
+  {
+    "asset": "sj-banner-men-dark.png",
+    "sha256": "fdd0fe3eb929f09d4fc01abe74a9bc0acebc22e44bef698218487608f3568bda",
+    "reviewer": "root",
+    "nativeVisualReview": "PASS",
+    "checks": [
+      "reference-inspired bright fashion styling",
+      "natural scene and anatomy",
+      "single adult or single-person cropped hands",
+      "copy space",
+      "full heads where present"
+    ],
+    "notes": ""
+  },
+  {
+    "asset": "sj-banner-men-light.png",
+    "sha256": "fffdef78462a50e6e1362b53eefb1a46e54c3d24cfceeb088b198f6d34daa7b1",
+    "reviewer": "root",
+    "nativeVisualReview": "PASS",
+    "checks": [
+      "reference-inspired bright fashion styling",
+      "natural scene and anatomy",
+      "single adult or single-person cropped hands",
+      "copy space",
+      "full heads where present"
+    ],
+    "notes": ""
+  },
+  {
+    "asset": "sj-banner-story-dark.png",
+    "sha256": "1488118bceb81d6980fa3372e036d5bff367db72a38910a97106bfe7b288db20",
+    "reviewer": "root",
+    "nativeVisualReview": "PASS",
+    "checks": [
+      "reference-inspired bright fashion styling",
+      "natural scene and anatomy",
+      "single adult or single-person cropped hands",
+      "copy space",
+      "full heads where present"
+    ],
+    "notes": ""
+  },
+  {
+    "asset": "sj-banner-story-light.png",
+    "sha256": "fb0073045cbaf9a1ec66a55f57609fcdd90d8007e8041e26984132df91d67d57",
+    "reviewer": "root",
+    "nativeVisualReview": "PASS",
+    "checks": [
+      "reference-inspired bright fashion styling",
+      "natural scene and anatomy",
+      "single adult or single-person cropped hands",
+      "copy space",
+      "full heads where present"
+    ],
+    "notes": ""
+  },
+  {
+    "asset": "sj-banner-women-dark.png",
+    "sha256": "a919ab887923b0b66973bd1eb0de33dbfab982766ffa2be19876eef51de9add5",
+    "reviewer": "root",
+    "nativeVisualReview": "PASS",
+    "checks": [
+      "reference-inspired bright fashion styling",
+      "natural scene and anatomy",
+      "single adult or single-person cropped hands",
+      "copy space",
+      "full heads where present"
+    ],
+    "notes": ""
+  },
+  {
+    "asset": "sj-banner-women-light.png",
+    "sha256": "3eb881bbfcdd77dcf99abac47755922561842de8189a5088664cf84afbd55b19",
+    "reviewer": "root",
+    "nativeVisualReview": "PASS",
+    "checks": [
+      "reference-inspired bright fashion styling",
+      "natural scene and anatomy",
+      "single adult or single-person cropped hands",
+      "copy space",
+      "full heads where present"
+    ],
+    "notes": ""
+  },
+  {
+    "asset": "sj-home-hero-dark.png",
+    "sha256": "ad50fb5c2f6136d03822a2c8754103890c7cb47fd050ad269d00238f805ebc7b",
+    "reviewer": "root",
+    "nativeVisualReview": "PASS",
+    "checks": [
+      "reference-inspired bright fashion styling",
+      "natural scene and anatomy",
+      "single adult or single-person cropped hands",
+      "copy space",
+      "full heads where present"
+    ],
+    "notes": ""
+  },
+  {
+    "asset": "sj-home-hero-light.png",
+    "sha256": "cc0bf65dc3b8e6c32bec2ed376ef81a6d3ab92f2754a04df47e422c78ea4e95d",
+    "reviewer": "root",
+    "nativeVisualReview": "PASS",
+    "checks": [
+      "reference-inspired bright fashion styling",
+      "natural scene and anatomy",
+      "single adult or single-person cropped hands",
+      "copy space",
+      "full heads where present"
+    ],
+    "notes": ""
+  },
+  {
+    "asset": "sj-men-dark.png",
+    "sha256": "d3bbc30f91e9c585940d328ec6902548a8e398d3404eb3109a36b3aadfaddca5",
+    "reviewer": "root",
+    "nativeVisualReview": "PASS",
+    "checks": [
+      "reference-inspired bright fashion styling",
+      "natural scene and anatomy",
+      "single adult or single-person cropped hands",
+      "copy space",
+      "full heads where present"
+    ],
+    "notes": ""
+  },
+  {
+    "asset": "sj-men-light.png",
+    "sha256": "b69865ed19d37eea38459d32226cfef1f96597b7563b35e4ec9709038c1b69e1",
+    "reviewer": "root",
+    "nativeVisualReview": "PASS",
+    "checks": [
+      "reference-inspired bright fashion styling",
+      "natural scene and anatomy",
+      "single adult or single-person cropped hands",
+      "copy space",
+      "full heads where present"
+    ],
+    "notes": ""
+  },
+  {
+    "asset": "sj-product-banner-amber-oud-silk.png",
+    "sha256": "681a2cdc6397aaaf2f8e387169d9dbe89865e3d12fb4ed0c1fcfb6a7acdd5767",
+    "reviewer": "root",
+    "nativeVisualReview": "PASS",
+    "checks": [
+      "reference-inspired bright fashion styling",
+      "natural scene and anatomy",
+      "single adult or single-person cropped hands",
+      "copy space",
+      "full heads where present"
+    ],
+    "notes": "Accepted composition after built-in ImageGen physical-name correction. Small packaging print is limited by native pixel density, especially Mistened; live website heading carries the fully legible name. Full frame and magnified label inspected; scene, anatomy and product scale retained."
+  },
+  {
+    "asset": "sj-product-banner-charme-envoutant.png",
+    "sha256": "f50a646861406f58bc5b186c7ad7396d18fa437c80f96ee5c8862a87882442f8",
+    "reviewer": "root",
+    "nativeVisualReview": "PASS",
+    "checks": [
+      "reference-inspired bright fashion styling",
+      "natural scene and anatomy",
+      "single adult or single-person cropped hands",
+      "copy space",
+      "full heads where present"
+    ],
+    "notes": "Accepted after built-in ImageGen name-label correction. Names resolve at intended banner scale; small physical lettering remains limited by native pixel density. Root inspected full frame and magnified native label; single-person anatomy and crop retained."
+  },
+  {
+    "asset": "sj-product-banner-mistened-narcissus.png",
+    "sha256": "272ca177472f234fe5648dc3c7443c90954aadbfc1806869976de23fe83b90ae",
+    "reviewer": "root",
+    "nativeVisualReview": "PASS",
+    "checks": [
+      "reference-inspired bright fashion styling",
+      "natural scene and anatomy",
+      "single adult or single-person cropped hands",
+      "copy space",
+      "full heads where present"
+    ],
+    "notes": "Accepted composition after built-in ImageGen physical-name correction. Small packaging print is limited by native pixel density, especially Mistened; live website heading carries the fully legible name. Full frame and magnified label inspected; scene, anatomy and product scale retained."
+  },
+  {
+    "asset": "sj-product-banner-mojito-metallique.png",
+    "sha256": "19d4e37a00843fe8162a571f0c7e9eddffab6ba8540707f4951ecec7a1109a45",
+    "reviewer": "root",
+    "nativeVisualReview": "PASS",
+    "checks": [
+      "reference-inspired bright fashion styling",
+      "natural scene and anatomy",
+      "single adult or single-person cropped hands",
+      "copy space",
+      "full heads where present"
+    ],
+    "notes": "Accepted after built-in ImageGen name-label correction. Names resolve at intended banner scale; small physical lettering remains limited by native pixel density. Root inspected full frame and magnified native label; single-person anatomy and crop retained."
+  },
+  {
+    "asset": "sj-product-banner-oud-mirage.png",
+    "sha256": "f272b2b9ef44aacd7621ae71f5a3ea95725b9d9d2aba4edaf5f4e3bbb7d88890",
+    "reviewer": "root",
+    "nativeVisualReview": "PASS",
+    "checks": [
+      "reference-inspired bright fashion styling",
+      "natural scene and anatomy",
+      "single adult or single-person cropped hands",
+      "copy space",
+      "full heads where present"
+    ],
+    "notes": "Accepted after built-in ImageGen name-label correction. Root inspected full composition and magnified native label; scene, single-person anatomy and crop retained."
+  },
+  {
+    "asset": "sj-product-banner-rtulle-satin.png",
+    "sha256": "1e7bce82e8bb1b6b5bf725d72bc7c276b92455439f753ba448515d99aa70af47",
+    "reviewer": "root",
+    "nativeVisualReview": "PASS",
+    "checks": [
+      "reference-inspired bright fashion styling",
+      "natural scene and anatomy",
+      "single adult or single-person cropped hands",
+      "copy space",
+      "full heads where present"
+    ],
+    "notes": "Accepted after built-in ImageGen name-label correction. Root inspected full composition and magnified native label; scene, single-person anatomy and crop retained."
+  },
+  {
+    "asset": "sj-women-dark.png",
+    "sha256": "655bd8122ecc6ca4e230453a7d5c547e773579e68af54c6fdf776f8ec426b187",
+    "reviewer": "root",
+    "nativeVisualReview": "PASS",
+    "checks": [
+      "reference-inspired bright fashion styling",
+      "natural scene and anatomy",
+      "single adult or single-person cropped hands",
+      "copy space",
+      "full heads where present"
+    ],
+    "notes": ""
+  },
+  {
+    "asset": "sj-women-light.png",
+    "sha256": "e86b5e1b1aae4bf6a0887631a1ef40c508fafb3a555888266af9312b6725aebf",
+    "reviewer": "root",
+    "nativeVisualReview": "PASS",
+    "checks": [
+      "reference-inspired bright fashion styling",
+      "natural scene and anatomy",
+      "single adult or single-person cropped hands",
+      "copy space",
+      "full heads where present"
+    ],
+    "notes": ""
+  },
+  {
+    "asset": "sj-banner-finder-dark.png",
+    "sha256": "2e0bf7a617ecf63a127c5200525d23f008af9c716f6ad007feedfc797a3b1574",
+    "reviewer": "root",
+    "nativeVisualReview": "PASS",
+    "checks": [
+      "reference-inspired bright fashion styling",
+      "natural scene and anatomy",
+      "one adult",
+      "full head and left copy space"
+    ],
+    "notes": "Realistic colourful wardrobe choice; no bottles or baked copy."
+  }
+]

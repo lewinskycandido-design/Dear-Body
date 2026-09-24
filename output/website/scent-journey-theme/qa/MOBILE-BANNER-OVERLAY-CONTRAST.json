@@ -1,0 +1,30 @@
+{
+  "selector": ".sj-home-hero__copy .sj-eyebrow",
+  "viewport": {
+    "width": 760,
+    "height": 1000
+  },
+  "text": "DEARBODY PHILIPPINES",
+  "color": "rgb(255, 246, 233)",
+  "fontSize": "9px",
+  "fontWeight": "700",
+  "clip": {
+    "x": 32,
+    "y": 422,
+    "width": 118,
+    "height": 14
+  },
+  "contrast": {
+    "method": "minimum of foreground contrast against every actual background pixel in the text Range bounding rectangle, captured with only eyebrow visibility hidden and layout unchanged",
+    "foreground": [
+      255,
+      246,
+      233
+    ],
+    "pixels": 1652,
+    "minimum": 7.1920628298355656,
+    "maximum": 9.513278644733578,
+    "threshold": 4.5,
+    "pass": true
+  }
+}

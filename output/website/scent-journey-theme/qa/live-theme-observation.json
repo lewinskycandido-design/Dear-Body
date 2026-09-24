@@ -1,0 +1,27 @@
+{
+  "checkedAt": "2026-09-24T08:07:24.815315+00:00",
+  "requestedUrl": "https://dearbody.ph/",
+  "finalUrl": "https://dearbody.ph/",
+  "status": 200,
+  "cookieHandlerUsed": false,
+  "previewParametersUsed": false,
+  "responseDate": "Thu, 24 Sep 2026 08:07:24 GMT",
+  "age": null,
+  "theme": {
+    "name": "dearbody-theme-update-shopify-navigation",
+    "id": 167080427585,
+    "schema_name": "DearBody Scent Journey",
+    "schema_version": "1.0.0",
+    "theme_store_id": null,
+    "role": "main"
+  },
+  "title": [
+    "DearBody Philippines | London-Formulated Perfumes &amp; Fragrances"
+  ],
+  "homepageFeatureMarkers": {
+    "sj-home-feature--magnetic": true,
+    "sj-home-feature--collectible": true,
+    "sj-home-feature--shipping": true
+  },
+  "scope": "Fresh public homepage GET only. No Cookie header or cookie handler; no preview query. No store mutation."
+}

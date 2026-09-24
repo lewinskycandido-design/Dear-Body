@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "asset": "sj-men-light",
+  "createdAt": "2026-09-24T06:12:58.429Z",
+  "generator": "Built-in image_gen__imagegen",
+  "mode": "Generation",
+  "status": "accepted visual candidate; final responsive integration QA belongs to root",
+  "sourceOutputPath": "/Users/wetrade/.codex/generated_images/01a0d0f9-afdf-7412-a990-cf7a45f1c2b6/exec-f342d0ef-5f3c-4650-bf2f-aa698fd62e28.png",
+  "workspaceOutputPath": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/campaign-v9-pop-editorial/originals/sj-men-light.png",
+  "outputTransformation": "None: exact generated PNG copied byte-for-byte. No raster editing, recoloring, crops, resizing or text added.",
+  "styleReference": {
+    "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/campaign-v9-pop-editorial/references/publication-materials-reference.png",
+    "role": "Style-only reference; new scene and product-free composition",
+    "sha256": "a3f73cc66cf983a1150e3b5c65ef6acc2f18b8a1f5e857dcd5c17e5d71c479ac"
+  },
+  "requestedCopy": "No baked text, logos or UI. Live website copy rendered independently.",
+  "prompts": {
+    "initial": {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/campaign-v9-pop-editorial/prompts/sj-men-light.txt",
+      "text": "Use case: ads-marketing / photorealistic-natural.\nAsset type: DearBody Philippines website photographic background, no baked copy.\nInput image 1 is STYLE REFERENCE ONLY: adopt its sunny, saturated scarlet/cobalt/lemon fashion-ad punch, tactile accessories, direct confident approachable energy and realistic skin. Create a wholly NEW photograph. Do not copy its car, lipstick, raised-bottle, pocket-camera or hand-only compositions; do not reproduce any wording, logo or product.\nOutput: portrait approximately 3:4, native 1073 x 1466 or 1024 x 1400 pixels.\nScene and subject: A cheerful adult Filipino man with warm brown skin and softly wavy black hair in a cobalt-blue textured knit polo with a cream collar, relaxed indigo denim and a simple silver watch. At a sunny real lemon-yellow neighborhood court wall, he tilts his head a little and grins, casually holding folded scarlet sunglasses loosely at chest height with one natural hand; other arm relaxed. Contemporary attainable style, confident warm editorial fashion photo, hard physical sunlight, vivid cobalt/lemon/scarlet palette, tactile knit and natural skin texture. No sport props or equipment.\nComposition: Portrait full-bleed composition, ONLY ONE person. Full hair top12\u201314% below frame top, facecenterx50%y25%; quiet top12% wall. Upper-thigh crop. Both shoulders and sunglasses gesture comfortably centered in upper65%; bottom30% is calm denim and plain wall for live white category text. Natural modest scale of sunglasses and hands, no face or hair clipping.\nLighting/style: professional real editorial location fashion photograph with warm clear sunlight, strong naturally directional shadows, vibrant but credible colors, realistic anatomy and fabric, no fantastical environment. One ADULT Filipino model total, no other people, bodies, reflections, posters or printed faces.\nText: NONE. Absolutely no typography, signage, logos, watermark, frame, border, collage or UI. PRODUCT-FREE: absolutely no perfume, bottles, canisters, cosmetics, drinks or product packaging anywhere. No cars, lipstick, cameras, giant props. Do not dull the exposure; all modes are sunny bright daylight. Preserve generous headroom and requested text-safe areas.\nCritical headroom for website: medium-long editorial photograph, not tight headshot. On a 1466-pixel-tall canvas the uppermost hair/sunglasses must start at y=190px (13%). Top170px is completely clear painted wall. Face center aroundy380px. Show down to upper thighs and keep hands/gesture above65% height. Pull camera back, do not zoom to fill frame.",
+      "sha256": "3fe4cbc826e05461603ef5f421493d55d68e4106a93da36c7732ab61cdcde274",
+      "savedTextMatchesToolPrompt": true
+    },
+    "final": {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/campaign-v9-pop-editorial/prompts/sj-men-light.txt",
+      "text": "Use case: ads-marketing / photorealistic-natural.\nAsset type: DearBody Philippines website photographic background, no baked copy.\nInput image 1 is STYLE REFERENCE ONLY: adopt its sunny, saturated scarlet/cobalt/lemon fashion-ad punch, tactile accessories, direct confident approachable energy and realistic skin. Create a wholly NEW photograph. Do not copy its car, lipstick, raised-bottle, pocket-camera or hand-only compositions; do not reproduce any wording, logo or product.\nOutput: portrait approximately 3:4, native 1073 x 1466 or 1024 x 1400 pixels.\nScene and subject: A cheerful adult Filipino man with warm brown skin and softly wavy black hair in a cobalt-blue textured knit polo with a cream collar, relaxed indigo denim and a simple silver watch. At a sunny real lemon-yellow neighborhood court wall, he tilts his head a little and grins, casually holding folded scarlet sunglasses loosely at chest height with one natural hand; other arm relaxed. Contemporary attainable style, confident warm editorial fashion photo, hard physical sunlight, vivid cobalt/lemon/scarlet palette, tactile knit and natural skin texture. No sport props or equipment.\nComposition: Portrait full-bleed composition, ONLY ONE person. Full hair top12\u201314% below frame top, facecenterx50%y25%; quiet top12% wall. Upper-thigh crop. Both shoulders and sunglasses gesture comfortably centered in upper65%; bottom30% is calm denim and plain wall for live white category text. Natural modest scale of sunglasses and hands, no face or hair clipping.\nLighting/style: professional real editorial location fashion photograph with warm clear sunlight, strong naturally directional shadows, vibrant but credible colors, realistic anatomy and fabric, no fantastical environment. One ADULT Filipino model total, no other people, bodies, reflections, posters or printed faces.\nText: NONE. Absolutely no typography, signage, logos, watermark, frame, border, collage or UI. PRODUCT-FREE: absolutely no perfume, bottles, canisters, cosmetics, drinks or product packaging anywhere. No cars, lipstick, cameras, giant props. Do not dull the exposure; all modes are sunny bright daylight. Preserve generous headroom and requested text-safe areas.\nCritical headroom for website: medium-long editorial photograph, not tight headshot. On a 1466-pixel-tall canvas the uppermost hair/sunglasses must start at y=190px (13%). Top170px is completely clear painted wall. Face center aroundy380px. Show down to upper thighs and keep hands/gesture above65% height. Pull camera back, do not zoom to fill frame.",
+      "sha256": "3fe4cbc826e05461603ef5f421493d55d68e4106a93da36c7732ab61cdcde274",
+      "savedTextMatchesToolPrompt": true
+    }
+  },
+  "generationHistory": [
+    {
+      "sourceOutputPath": "/Users/wetrade/.codex/generated_images/01a0d0f9-afdf-7412-a990-cf7a45f1c2b6/exec-f342d0ef-5f3c-4650-bf2f-aa698fd62e28.png",
+      "status": "Accepted first generation"
+    }
+  ],
+  "qa": {
+    "reviewMethod": "Visual inspection of native generated image at full resolution",
+    "personCount": 1,
+    "adultsOnly": true,
+    "productFree": true,
+    "noPerfumeOrBottles": true,
+    "noBackgroundPeopleOrPrintedFaces": true,
+    "noBakedTextOrLogo": true,
+    "noAnatomyDefectObserved": true,
+    "noClippedHead": true,
+    "brightDaylightBothModes": true,
+    "alt": "A Filipino man in a cobalt knit polo smiles in sunshine, holding folded red sunglasses against a lemon-yellow wall.",
+    "focal": "50% top",
+    "faceCenterPercent": [
+      52,
+      23
+    ],
+    "headroomPercent": 10,
+    "notes": "Single adult male; folded sunglasses held at plausible scale with coherent fingers; full hair, natural expression and quiet wall. Upper wall is~10%, lower than target12%; complete head and generous face clearance retained."
+  },
+  "scope": "Source PNGs, exact prompts and per-asset provenance only. Root owns JPEG export, theme integration and responsive QA.",
+  "nativeDimensions": {
+    "width": 1073,
+    "height": 1465
+  },
+  "bytes": 2765462,
+  "sha256": "b69865ed19d37eea38459d32226cfef1f96597b7563b35e4ec9709038c1b69e1",
+  "sourceSha256": "b69865ed19d37eea38459d32226cfef1f96597b7563b35e4ec9709038c1b69e1",
+  "sourceEqualsWorkspace": true
+}

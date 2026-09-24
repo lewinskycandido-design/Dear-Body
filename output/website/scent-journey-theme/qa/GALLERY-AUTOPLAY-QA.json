@@ -1,0 +1,3583 @@
+{
+  "generatedAt": "2026-09-24T05:42:30.369Z",
+  "base": "http://127.0.0.1:4208",
+  "order": [
+    "11",
+    "12",
+    "08",
+    "09",
+    "10",
+    "01",
+    "02",
+    "03",
+    "04",
+    "05",
+    "06",
+    "07"
+  ],
+  "runs": [
+    {
+      "id": "behavior-1440-light",
+      "width": 1440,
+      "theme": "light",
+      "errors": [],
+      "layout": {
+        "width": 1440,
+        "documentWidth": 1440,
+        "h1Count": 1,
+        "theme": "light",
+        "controls": {
+          "left": 0,
+          "right": 806.390625,
+          "width": 806.390625
+        },
+        "buttons": [
+          {
+            "selector": "[data-sj-gallery-autoplay]",
+            "left": 107.1875,
+            "right": 151.1875,
+            "width": 44,
+            "height": 44,
+            "visible": true
+          },
+          {
+            "selector": "[data-sj-gallery-prev]",
+            "left": 163.1875,
+            "right": 199.1875,
+            "width": 36,
+            "height": 44,
+            "visible": true
+          },
+          {
+            "selector": "[data-sj-gallery-next]",
+            "left": 663.1875,
+            "right": 699.1875,
+            "width": 36,
+            "height": 44,
+            "visible": true
+          }
+        ]
+      },
+      "status": "PASS"
+    },
+    {
+      "id": "behavior-1440-dark",
+      "width": 1440,
+      "theme": "dark",
+      "errors": [],
+      "layout": {
+        "width": 1440,
+        "documentWidth": 1440,
+        "h1Count": 1,
+        "theme": "dark",
+        "controls": {
+          "left": 0,
+          "right": 806.390625,
+          "width": 806.390625
+        },
+        "buttons": [
+          {
+            "selector": "[data-sj-gallery-autoplay]",
+            "left": 107.1875,
+            "right": 151.1875,
+            "width": 44,
+            "height": 44,
+            "visible": true
+          },
+          {
+            "selector": "[data-sj-gallery-prev]",
+            "left": 163.1875,
+            "right": 199.1875,
+            "width": 36,
+            "height": 44,
+            "visible": true
+          },
+          {
+            "selector": "[data-sj-gallery-next]",
+            "left": 663.1875,
+            "right": 699.1875,
+            "width": 36,
+            "height": 44,
+            "visible": true
+          }
+        ]
+      },
+      "status": "PASS"
+    },
+    {
+      "id": "swipe-mobile",
+      "theme": "dark",
+      "width": 390,
+      "errors": [],
+      "layout": {
+        "width": 390,
+        "documentWidth": 390,
+        "h1Count": 1,
+        "theme": "dark",
+        "controls": {
+          "left": 0,
+          "right": 390,
+          "width": 390
+        },
+        "buttons": [
+          {
+            "selector": "[data-sj-gallery-autoplay]",
+            "left": 23.390625,
+            "right": 67.390625,
+            "width": 44,
+            "height": 44,
+            "visible": true
+          },
+          {
+            "selector": "[data-sj-gallery-prev]",
+            "left": 79.390625,
+            "right": 115.390625,
+            "width": 36,
+            "height": 44,
+            "visible": true
+          },
+          {
+            "selector": "[data-sj-gallery-next]",
+            "left": 330.609375,
+            "right": 366.609375,
+            "width": 36,
+            "height": 44,
+            "visible": true
+          }
+        ]
+      },
+      "status": "PASS"
+    },
+    {
+      "id": "reduced-motion-mobile",
+      "theme": "light",
+      "width": 390,
+      "reduced": true,
+      "errors": [],
+      "layout": {
+        "width": 390,
+        "documentWidth": 390,
+        "h1Count": 1,
+        "theme": "light",
+        "controls": {
+          "left": 0,
+          "right": 390,
+          "width": 390
+        },
+        "buttons": [
+          {
+            "selector": "[data-sj-gallery-autoplay]",
+            "left": 23.390625,
+            "right": 67.390625,
+            "width": 44,
+            "height": 44,
+            "visible": true
+          },
+          {
+            "selector": "[data-sj-gallery-prev]",
+            "left": 79.390625,
+            "right": 115.390625,
+            "width": 36,
+            "height": 44,
+            "visible": true
+          },
+          {
+            "selector": "[data-sj-gallery-next]",
+            "left": 330.609375,
+            "right": 366.609375,
+            "width": 36,
+            "height": 44,
+            "visible": true
+          }
+        ]
+      },
+      "status": "PASS"
+    },
+    {
+      "id": "controls-320-light",
+      "width": 320,
+      "theme": "light",
+      "errors": [],
+      "layout": {
+        "width": 320,
+        "documentWidth": 320,
+        "h1Count": 1,
+        "theme": "light",
+        "controls": {
+          "left": 0,
+          "right": 320,
+          "width": 320
+        },
+        "buttons": [
+          {
+            "selector": "[data-sj-gallery-autoplay]",
+            "left": 19.1875,
+            "right": 63.1875,
+            "width": 44,
+            "height": 44,
+            "visible": true
+          },
+          {
+            "selector": "[data-sj-gallery-prev]",
+            "left": 75.1875,
+            "right": 111.1875,
+            "width": 36,
+            "height": 44,
+            "visible": true
+          },
+          {
+            "selector": "[data-sj-gallery-next]",
+            "left": 264.8125,
+            "right": 300.8125,
+            "width": 36,
+            "height": 44,
+            "visible": true
+          }
+        ]
+      },
+      "status": "PASS"
+    },
+    {
+      "id": "controls-320-dark",
+      "width": 320,
+      "theme": "dark",
+      "errors": [],
+      "layout": {
+        "width": 320,
+        "documentWidth": 320,
+        "h1Count": 1,
+        "theme": "dark",
+        "controls": {
+          "left": 0,
+          "right": 320,
+          "width": 320
+        },
+        "buttons": [
+          {
+            "selector": "[data-sj-gallery-autoplay]",
+            "left": 19.1875,
+            "right": 63.1875,
+            "width": 44,
+            "height": 44,
+            "visible": true
+          },
+          {
+            "selector": "[data-sj-gallery-prev]",
+            "left": 75.1875,
+            "right": 111.1875,
+            "width": 36,
+            "height": 44,
+            "visible": true
+          },
+          {
+            "selector": "[data-sj-gallery-next]",
+            "left": 264.8125,
+            "right": 300.8125,
+            "width": 36,
+            "height": 44,
+            "visible": true
+          }
+        ]
+      },
+      "status": "PASS"
+    },
+    {
+      "id": "native-video-fixture",
+      "width": 1440,
+      "theme": "light",
+      "fixture": "video",
+      "errors": [],
+      "status": "PASS"
+    },
+    {
+      "id": "native-model-fixture",
+      "width": 1440,
+      "theme": "light",
+      "fixture": "model",
+      "errors": [],
+      "status": "PASS"
+    },
+    {
+      "id": "native-single-fixture",
+      "width": 1440,
+      "theme": "light",
+      "fixture": "single",
+      "errors": [],
+      "status": "PASS"
+    },
+    {
+      "id": "order-mojito-metallique",
+      "handle": "mojito-metallique",
+      "theme": "light",
+      "width": 1440,
+      "errors": [],
+      "gallery": {
+        "slides": [
+          {
+            "id": "studio-11",
+            "label": "1 of 12",
+            "src": "/assets/sj-mojito-metallique-11.jpg",
+            "loading": "eager",
+            "priority": "high",
+            "active": true
+          },
+          {
+            "id": "studio-12",
+            "label": "2 of 12",
+            "src": "/assets/sj-mojito-metallique-12.jpg",
+            "loading": "eager",
+            "priority": "auto",
+            "active": false
+          },
+          {
+            "id": "studio-08",
+            "label": "3 of 12",
+            "src": "/assets/sj-mojito-metallique-08.jpg",
+            "loading": "lazy",
+            "priority": "auto",
+            "active": false
+          },
+          {
+            "id": "studio-09",
+            "label": "4 of 12",
+            "src": "/assets/sj-mojito-metallique-09.jpg",
+            "loading": "lazy",
+            "priority": "auto",
+            "active": false
+          },
+          {
+            "id": "studio-10",
+            "label": "5 of 12",
+            "src": "/assets/sj-mojito-metallique-10.jpg",
+            "loading": "lazy",
+            "priority": "auto",
+            "active": false
+          },
+          {
+            "id": "studio-01",
+            "label": "6 of 12",
+            "src": "/assets/sj-mojito-metallique-01.jpg",
+            "loading": "lazy",
+            "priority": "auto",
+            "active": false
+          },
+          {
+            "id": "studio-02",
+            "label": "7 of 12",
+            "src": "/assets/sj-mojito-metallique-02.jpg",
+            "loading": "lazy",
+            "priority": "auto",
+            "active": false
+          },
+          {
+            "id": "studio-03",
+            "label": "8 of 12",
+            "src": "/assets/sj-mojito-metallique-03.jpg",
+            "loading": "lazy",
+            "priority": "auto",
+            "active": false
+          },
+          {
+            "id": "studio-04",
+            "label": "9 of 12",
+            "src": "/assets/sj-mojito-metallique-04.jpg",
+            "loading": "lazy",
+            "priority": "auto",
+            "active": false
+          },
+          {
+            "id": "studio-05",
+            "label": "10 of 12",
+            "src": "/assets/sj-mojito-metallique-05.jpg",
+            "loading": "lazy",
+            "priority": "auto",
+            "active": false
+          },
+          {
+            "id": "studio-06",
+            "label": "11 of 12",
+            "src": "/assets/sj-mojito-metallique-06.jpg",
+            "loading": "lazy",
+            "priority": "auto",
+            "active": false
+          },
+          {
+            "id": "studio-07",
+            "label": "12 of 12",
+            "src": "/assets/sj-mojito-metallique-07.jpg",
+            "loading": "lazy",
+            "priority": "auto",
+            "active": false
+          }
+        ],
+        "thumbs": [
+          {
+            "id": "studio-11",
+            "label": "Show media 1: Scent description",
+            "pressed": "true"
+          },
+          {
+            "id": "studio-12",
+            "label": "Show media 2: Who it fits",
+            "pressed": "false"
+          },
+          {
+            "id": "studio-08",
+            "label": "Show media 3: Product profile",
+            "pressed": "false"
+          },
+          {
+            "id": "studio-09",
+            "label": "Show media 4: Ingredients and care",
+            "pressed": "false"
+          },
+          {
+            "id": "studio-10",
+            "label": "Show media 5: A scent journey",
+            "pressed": "false"
+          },
+          {
+            "id": "studio-01",
+            "label": "Show media 6: Bottle and canister",
+            "pressed": "false"
+          },
+          {
+            "id": "studio-02",
+            "label": "Show media 7: Spray in motion",
+            "pressed": "false"
+          },
+          {
+            "id": "studio-03",
+            "label": "Show media 8: Packaging reveal",
+            "pressed": "false"
+          },
+          {
+            "id": "studio-04",
+            "label": "Show media 9: Magnetic cap detail",
+            "pressed": "false"
+          },
+          {
+            "id": "studio-05",
+            "label": "Show media 10: Lifestyle portrait",
+            "pressed": "false"
+          },
+          {
+            "id": "studio-06",
+            "label": "Show media 11: Product in hand",
+            "pressed": "false"
+          },
+          {
+            "id": "studio-07",
+            "label": "Show media 12: Everyday fragrance moment",
+            "pressed": "false"
+          }
+        ],
+        "galleryId": "ProductGallery-main",
+        "controlsId": "ProductGallery-main"
+      },
+      "status": "PASS"
+    },
+    {
+      "id": "order-amber-oud-silk",
+      "handle": "amber-oud-silk",
+      "theme": "light",
+      "width": 1440,
+      "errors": [],
+      "gallery": {
+        "slides": [
+          {
+            "id": "studio-11",
+            "label": "1 of 12",
+            "src": "/assets/sj-amber-oud-silk-11.jpg",
+            "loading": "eager",
+            "priority": "high",
+            "active": true
+          },
+          {
+            "id": "studio-12",
+            "label": "2 of 12",
+            "src": "/assets/sj-amber-oud-silk-12.jpg",
+            "loading": "eager",
+            "priority": "auto",
+            "active": false
+          },
+          {
+            "id": "studio-08",
+            "label": "3 of 12",
+            "src": "/assets/sj-amber-oud-silk-08.jpg",
+            "loading": "lazy",
+            "priority": "auto",
+            "active": false
+          },
+          {
+            "id": "studio-09",
+            "label": "4 of 12",
+            "src": "/assets/sj-amber-oud-silk-09.jpg",
+            "loading": "lazy",
+            "priority": "auto",
+            "active": false
+          },
+          {
+            "id": "studio-10",
+            "label": "5 of 12",
+            "src": "/assets/sj-amber-oud-silk-10.jpg",
+            "loading": "lazy",
+            "priority": "auto",
+            "active": false
+          },
+          {
+            "id": "studio-01",
+            "label": "6 of 12",
+            "src": "/assets/sj-amber-oud-silk-01.jpg",
+            "loading": "lazy",
+            "priority": "auto",
+            "active": false
+          },
+          {
+            "id": "studio-02",
+            "label": "7 of 12",
+            "src": "/assets/sj-amber-oud-silk-02.jpg",
+            "loading": "lazy",
+            "priority": "auto",
+            "active": false
+          },
+          {
+            "id": "studio-03",
+            "label": "8 of 12",
+            "src": "/assets/sj-amber-oud-silk-03.jpg",
+            "loading": "lazy",
+            "priority": "auto",
+            "active": false
+          },
+          {
+            "id": "studio-04",
+            "label": "9 of 12",
+            "src": "/assets/sj-amber-oud-silk-04.jpg",
+            "loading": "lazy",
+            "priority": "auto",
+            "active": false
+          },
+          {
+            "id": "studio-05",
+            "label": "10 of 12",
+            "src": "/assets/sj-amber-oud-silk-05.jpg",
+            "loading": "lazy",
+            "priority": "auto",
+            "active": false
+          },
+          {
+            "id": "studio-06",
+            "label": "11 of 12",
+            "src": "/assets/sj-amber-oud-silk-06.jpg",
+            "loading": "lazy",
+            "priority": "auto",
+            "active": false
+          },
+          {
+            "id": "studio-07",
+            "label": "12 of 12",
+            "src": "/assets/sj-amber-oud-silk-07.jpg",
+            "loading": "lazy",
+            "priority": "auto",
+            "active": false
+          }
+        ],
+        "thumbs": [
+          {
+            "id": "studio-11",
+            "label": "Show media 1: Scent description",
+            "pressed": "true"
+          },
+          {
+            "id": "studio-12",
+            "label": "Show media 2: Who it fits",
+            "pressed": "false"
+          },
+          {
+            "id": "studio-08",
+            "label": "Show media 3: Product profile",
+            "pressed": "false"
+          },
+          {
+            "id": "studio-09",
+            "label": "Show media 4: Ingredients and care",
+            "pressed": "false"
+          },
+          {
+            "id": "studio-10",
+            "label": "Show media 5: A scent journey",
+            "pressed": "false"
+          },
+          {
+            "id": "studio-01",
+            "label": "Show media 6: Bottle and canister",
+            "pressed": "false"
+          },
+          {
+            "id": "studio-02",
+            "label": "Show media 7: Spray in motion",
+            "pressed": "false"
+          },
+          {
+            "id": "studio-03",
+            "label": "Show media 8: Packaging reveal",
+            "pressed": "false"
+          },
+          {
+            "id": "studio-04",
+            "label": "Show media 9: Magnetic cap detail",
+            "pressed": "false"
+          },
+          {
+            "id": "studio-05",
+            "label": "Show media 10: Lifestyle portrait",
+            "pressed": "false"
+          },
+          {
+            "id": "studio-06",
+            "label": "Show media 11: Product in hand",
+            "pressed": "false"
+          },
+          {
+            "id": "studio-07",
+            "label": "Show media 12: Everyday fragrance moment",
+            "pressed": "false"
+          }
+        ],
+        "galleryId": "ProductGallery-main",
+        "controlsId": "ProductGallery-main"
+      },
+      "status": "PASS"
+    },
+    {
+      "id": "order-mistened-narcissus",
+      "handle": "mistened-narcissus",
+      "theme": "light",
+      "width": 1440,
+      "errors": [],
+      "gallery": {
+        "slides": [
+          {
+            "id": "studio-11",
+            "label": "1 of 12",
+            "src": "/assets/sj-mistened-narcissus-11.jpg",
+            "loading": "eager",
+            "priority": "high",
+            "active": true
+          },
+          {
+            "id": "studio-12",
+            "label": "2 of 12",
+            "src": "/assets/sj-mistened-narcissus-12.jpg",
+            "loading": "eager",
+            "priority": "auto",
+            "active": false
+          },
+          {
+            "id": "studio-08",
+            "label": "3 of 12",
+            "src": "/assets/sj-mistened-narcissus-08.jpg",
+            "loading": "lazy",
+            "priority": "auto",
+            "active": false
+          },
+          {
+            "id": "studio-09",
+            "label": "4 of 12",
+            "src": "/assets/sj-mistened-narcissus-09.jpg",
+            "loading": "lazy",
+            "priority": "auto",
+            "active": false
+          },
+          {
+            "id": "studio-10",
+            "label": "5 of 12",
+            "src": "/assets/sj-mistened-narcissus-10.jpg",
+            "loading": "lazy",
+            "priority": "auto",
+            "active": false
+          },
+          {
+            "id": "studio-01",
+            "label": "6 of 12",
+            "src": "/assets/sj-mistened-narcissus-01.jpg",
+            "loading": "lazy",
+            "priority": "auto",
+            "active": false
+          },
+          {
+            "id": "studio-02",
+            "label": "7 of 12",
+            "src": "/assets/sj-mistened-narcissus-02.jpg",
+            "loading": "lazy",
+            "priority": "auto",
+            "active": false
+          },
+          {
+            "id": "studio-03",
+            "label": "8 of 12",
+            "src": "/assets/sj-mistened-narcissus-03.jpg",
+            "loading": "lazy",
+            "priority": "auto",
+            "active": false
+          },
+          {
+            "id": "studio-04",
+            "label": "9 of 12",
+            "src": "/assets/sj-mistened-narcissus-04.jpg",
+            "loading": "lazy",
+            "priority": "auto",
+            "active": false
+          },
+          {
+            "id": "studio-05",
+            "label": "10 of 12",
+            "src": "/assets/sj-mistened-narcissus-05.jpg",
+            "loading": "lazy",
+            "priority": "auto",
+            "active": false
+          },
+          {
+            "id": "studio-06",
+            "label": "11 of 12",
+            "src": "/assets/sj-mistened-narcissus-06.jpg",
+            "loading": "lazy",
+            "priority": "auto",
+            "active": false
+          },
+          {
+            "id": "studio-07",
+            "label": "12 of 12",
+            "src": "/assets/sj-mistened-narcissus-07.jpg",
+            "loading": "lazy",
+            "priority": "auto",
+            "active": false
+          }
+        ],
+        "thumbs": [
+          {
+            "id": "studio-11",
+            "label": "Show media 1: Scent description",
+            "pressed": "true"
+          },
+          {
+            "id": "studio-12",
+            "label": "Show media 2: Who it fits",
+            "pressed": "false"
+          },
+          {
+            "id": "studio-08",
+            "label": "Show media 3: Product profile",
+            "pressed": "false"
+          },
+          {
+            "id": "studio-09",
+            "label": "Show media 4: Ingredients and care",
+            "pressed": "false"
+          },
+          {
+            "id": "studio-10",
+            "label": "Show media 5: A scent journey",
+            "pressed": "false"
+          },
+          {
+            "id": "studio-01",
+            "label": "Show media 6: Bottle and canister",
+            "pressed": "false"
+          },
+          {
+            "id": "studio-02",
+            "label": "Show media 7: Spray in motion",
+            "pressed": "false"
+          },
+          {
+            "id": "studio-03",
+            "label": "Show media 8: Packaging reveal",
+            "pressed": "false"
+          },
+          {
+            "id": "studio-04",
+            "label": "Show media 9: Magnetic cap detail",
+            "pressed": "false"
+          },
+          {
+            "id": "studio-05",
+            "label": "Show media 10: Lifestyle portrait",
+            "pressed": "false"
+          },
+          {
+            "id": "studio-06",
+            "label": "Show media 11: Product in hand",
+            "pressed": "false"
+          },
+          {
+            "id": "studio-07",
+            "label": "Show media 12: Everyday fragrance moment",
+            "pressed": "false"
+          }
+        ],
+        "galleryId": "ProductGallery-main",
+        "controlsId": "ProductGallery-main"
+      },
+      "status": "PASS"
+    },
+    {
+      "id": "order-charme-envoutant",
+      "handle": "charme-envoutant",
+      "theme": "light",
+      "width": 1440,
+      "errors": [],
+      "gallery": {
+        "slides": [
+          {
+            "id": "studio-11",
+            "label": "1 of 12",
+            "src": "/assets/sj-charme-envoutant-11.jpg",
+            "loading": "eager",
+            "priority": "high",
+            "active": true
+          },
+          {
+            "id": "studio-12",
+            "label": "2 of 12",
+            "src": "/assets/sj-charme-envoutant-12.jpg",
+            "loading": "eager",
+            "priority": "auto",
+            "active": false
+          },
+          {
+            "id": "studio-08",
+            "label": "3 of 12",
+            "src": "/assets/sj-charme-envoutant-08.jpg",
+            "loading": "lazy",
+            "priority": "auto",
+            "active": false
+          },
+          {
+            "id": "studio-09",
+            "label": "4 of 12",
+            "src": "/assets/sj-charme-envoutant-09.jpg",
+            "loading": "lazy",
+            "priority": "auto",
+            "active": false
+          },
+          {
+            "id": "studio-10",
+            "label": "5 of 12",
+            "src": "/assets/sj-charme-envoutant-10.jpg",
+            "loading": "lazy",
+            "priority": "auto",
+            "active": false
+          },
+          {
+            "id": "studio-01",
+            "label": "6 of 12",
+            "src": "/assets/sj-charme-envoutant-01.jpg",
+            "loading": "lazy",
+            "priority": "auto",
+            "active": false
+          },
+          {
+            "id": "studio-02",
+            "label": "7 of 12",
+            "src": "/assets/sj-charme-envoutant-02.jpg",
+            "loading": "lazy",
+            "priority": "auto",
+            "active": false
+          },
+          {
+            "id": "studio-03",
+            "label": "8 of 12",
+            "src": "/assets/sj-charme-envoutant-03.jpg",
+            "loading": "lazy",
+            "priority": "auto",
+            "active": false
+          },
+          {
+            "id": "studio-04",
+            "label": "9 of 12",
+            "src": "/assets/sj-charme-envoutant-04.jpg",
+            "loading": "lazy",
+            "priority": "auto",
+            "active": false
+          },
+          {
+            "id": "studio-05",
+            "label": "10 of 12",
+            "src": "/assets/sj-charme-envoutant-05.jpg",
+            "loading": "lazy",
+            "priority": "auto",
+            "active": false
+          },
+          {
+            "id": "studio-06",
+            "label": "11 of 12",
+            "src": "/assets/sj-charme-envoutant-06.jpg",
+            "loading": "lazy",
+            "priority": "auto",
+            "active": false
+          },
+          {
+            "id": "studio-07",
+            "label": "12 of 12",
+            "src": "/assets/sj-charme-envoutant-07.jpg",
+            "loading": "lazy",
+            "priority": "auto",
+            "active": false
+          }
+        ],
+        "thumbs": [
+          {
+            "id": "studio-11",
+            "label": "Show media 1: Scent description",
+            "pressed": "true"
+          },
+          {
+            "id": "studio-12",
+            "label": "Show media 2: Who it fits",
+            "pressed": "false"
+          },
+          {
+            "id": "studio-08",
+            "label": "Show media 3: Product profile",
+            "pressed": "false"
+          },
+          {
+            "id": "studio-09",
+            "label": "Show media 4: Ingredients and care",
+            "pressed": "false"
+          },
+          {
+            "id": "studio-10",
+            "label": "Show media 5: A scent journey",
+            "pressed": "false"
+          },
+          {
+            "id": "studio-01",
+            "label": "Show media 6: Bottle and canister",
+            "pressed": "false"
+          },
+          {
+            "id": "studio-02",
+            "label": "Show media 7: Spray in motion",
+            "pressed": "false"
+          },
+          {
+            "id": "studio-03",
+            "label": "Show media 8: Packaging reveal",
+            "pressed": "false"
+          },
+          {
+            "id": "studio-04",
+            "label": "Show media 9: Magnetic cap detail",
+            "pressed": "false"
+          },
+          {
+            "id": "studio-05",
+            "label": "Show media 10: Lifestyle portrait",
+            "pressed": "false"
+          },
+          {
+            "id": "studio-06",
+            "label": "Show media 11: Product in hand",
+            "pressed": "false"
+          },
+          {
+            "id": "studio-07",
+            "label": "Show media 12: Everyday fragrance moment",
+            "pressed": "false"
+          }
+        ],
+        "galleryId": "ProductGallery-main",
+        "controlsId": "ProductGallery-main"
+      },
+      "status": "PASS"
+    },
+    {
+      "id": "order-oud-mirage",
+      "handle": "oud-mirage",
+      "theme": "light",
+      "width": 1440,
+      "errors": [],
+      "gallery": {
+        "slides": [
+          {
+            "id": "studio-11",
+            "label": "1 of 12",
+            "src": "/assets/sj-oud-mirage-11.jpg",
+            "loading": "eager",
+            "priority": "high",
+            "active": true
+          },
+          {
+            "id": "studio-12",
+            "label": "2 of 12",
+            "src": "/assets/sj-oud-mirage-12.jpg",
+            "loading": "eager",
+            "priority": "auto",
+            "active": false
+          },
+          {
+            "id": "studio-08",
+            "label": "3 of 12",
+            "src": "/assets/sj-oud-mirage-08.jpg",
+            "loading": "lazy",
+            "priority": "auto",
+            "active": false
+          },
+          {
+            "id": "studio-09",
+            "label": "4 of 12",
+            "src": "/assets/sj-oud-mirage-09.jpg",
+            "loading": "lazy",
+            "priority": "auto",
+            "active": false
+          },
+          {
+            "id": "studio-10",
+            "label": "5 of 12",
+            "src": "/assets/sj-oud-mirage-10.jpg",
+            "loading": "lazy",
+            "priority": "auto",
+            "active": false
+          },
+          {
+            "id": "studio-01",
+            "label": "6 of 12",
+            "src": "/assets/sj-oud-mirage-01.jpg",
+            "loading": "lazy",
+            "priority": "auto",
+            "active": false
+          },
+          {
+            "id": "studio-02",
+            "label": "7 of 12",
+            "src": "/assets/sj-oud-mirage-02.jpg",
+            "loading": "lazy",
+            "priority": "auto",
+            "active": false
+          },
+          {
+            "id": "studio-03",
+            "label": "8 of 12",
+            "src": "/assets/sj-oud-mirage-03.jpg",
+            "loading": "lazy",
+            "priority": "auto",
+            "active": false
+          },
+          {
+            "id": "studio-04",
+            "label": "9 of 12",
+            "src": "/assets/sj-oud-mirage-04.jpg",
+            "loading": "lazy",
+            "priority": "auto",
+            "active": false
+          },
+          {
+            "id": "studio-05",
+            "label": "10 of 12",
+            "src": "/assets/sj-oud-mirage-05.jpg",
+            "loading": "lazy",
+            "priority": "auto",
+            "active": false
+          },
+          {
+            "id": "studio-06",
+            "label": "11 of 12",
+            "src": "/assets/sj-oud-mirage-06.jpg",
+            "loading": "lazy",
+            "priority": "auto",
+            "active": false
+          },
+          {
+            "id": "studio-07",
+            "label": "12 of 12",
+            "src": "/assets/sj-oud-mirage-07.jpg",
+            "loading": "lazy",
+            "priority": "auto",
+            "active": false
+          }
+        ],
+        "thumbs": [
+          {
+            "id": "studio-11",
+            "label": "Show media 1: Scent description",
+            "pressed": "true"
+          },
+          {
+            "id": "studio-12",
+            "label": "Show media 2: Who it fits",
+            "pressed": "false"
+          },
+          {
+            "id": "studio-08",
+            "label": "Show media 3: Product profile",
+            "pressed": "false"
+          },
+          {
+            "id": "studio-09",
+            "label": "Show media 4: Ingredients and care",
+            "pressed": "false"
+          },
+          {
+            "id": "studio-10",
+            "label": "Show media 5: A scent journey",
+            "pressed": "false"
+          },
+          {
+            "id": "studio-01",
+            "label": "Show media 6: Bottle and canister",
+            "pressed": "false"
+          },
+          {
+            "id": "studio-02",
+            "label": "Show media 7: Spray in motion",
+            "pressed": "false"
+          },
+          {
+            "id": "studio-03",
+            "label": "Show media 8: Packaging reveal",
+            "pressed": "false"
+          },
+          {
+            "id": "studio-04",
+            "label": "Show media 9: Magnetic cap detail",
+            "pressed": "false"
+          },
+          {
+            "id": "studio-05",
+            "label": "Show media 10: Lifestyle portrait",
+            "pressed": "false"
+          },
+          {
+            "id": "studio-06",
+            "label": "Show media 11: Product in hand",
+            "pressed": "false"
+          },
+          {
+            "id": "studio-07",
+            "label": "Show media 12: Everyday fragrance moment",
+            "pressed": "false"
+          }
+        ],
+        "galleryId": "ProductGallery-main",
+        "controlsId": "ProductGallery-main"
+      },
+      "status": "PASS"
+    },
+    {
+      "id": "order-rtulle-satin",
+      "handle": "rtulle-satin",
+      "theme": "light",
+      "width": 1440,
+      "errors": [],
+      "gallery": {
+        "slides": [
+          {
+            "id": "studio-11",
+            "label": "1 of 12",
+            "src": "/assets/sj-rtulle-satin-11.jpg",
+            "loading": "eager",
+            "priority": "high",
+            "active": true
+          },
+          {
+            "id": "studio-12",
+            "label": "2 of 12",
+            "src": "/assets/sj-rtulle-satin-12.jpg",
+            "loading": "eager",
+            "priority": "auto",
+            "active": false
+          },
+          {
+            "id": "studio-08",
+            "label": "3 of 12",
+            "src": "/assets/sj-rtulle-satin-08.jpg",
+            "loading": "lazy",
+            "priority": "auto",
+            "active": false
+          },
+          {
+            "id": "studio-09",
+            "label": "4 of 12",
+            "src": "/assets/sj-rtulle-satin-09.jpg",
+            "loading": "lazy",
+            "priority": "auto",
+            "active": false
+          },
+          {
+            "id": "studio-10",
+            "label": "5 of 12",
+            "src": "/assets/sj-rtulle-satin-10.jpg",
+            "loading": "lazy",
+            "priority": "auto",
+            "active": false
+          },
+          {
+            "id": "studio-01",
+            "label": "6 of 12",
+            "src": "/assets/sj-rtulle-satin-01.jpg",
+            "loading": "lazy",
+            "priority": "auto",
+            "active": false
+          },
+          {
+            "id": "studio-02",
+            "label": "7 of 12",
+            "src": "/assets/sj-rtulle-satin-02.jpg",
+            "loading": "lazy",
+            "priority": "auto",
+            "active": false
+          },
+          {
+            "id": "studio-03",
+            "label": "8 of 12",
+            "src": "/assets/sj-rtulle-satin-03.jpg",
+            "loading": "lazy",
+            "priority": "auto",
+            "active": false
+          },
+          {
+            "id": "studio-04",
+            "label": "9 of 12",
+            "src": "/assets/sj-rtulle-satin-04.jpg",
+            "loading": "lazy",
+            "priority": "auto",
+            "active": false
+          },
+          {
+            "id": "studio-05",
+            "label": "10 of 12",
+            "src": "/assets/sj-rtulle-satin-05.jpg",
+            "loading": "lazy",
+            "priority": "auto",
+            "active": false
+          },
+          {
+            "id": "studio-06",
+            "label": "11 of 12",
+            "src": "/assets/sj-rtulle-satin-06.jpg",
+            "loading": "lazy",
+            "priority": "auto",
+            "active": false
+          },
+          {
+            "id": "studio-07",
+            "label": "12 of 12",
+            "src": "/assets/sj-rtulle-satin-07.jpg",
+            "loading": "lazy",
+            "priority": "auto",
+            "active": false
+          }
+        ],
+        "thumbs": [
+          {
+            "id": "studio-11",
+            "label": "Show media 1: Scent description",
+            "pressed": "true"
+          },
+          {
+            "id": "studio-12",
+            "label": "Show media 2: Who it fits",
+            "pressed": "false"
+          },
+          {
+            "id": "studio-08",
+            "label": "Show media 3: Product profile",
+            "pressed": "false"
+          },
+          {
+            "id": "studio-09",
+            "label": "Show media 4: Ingredients and care",
+            "pressed": "false"
+          },
+          {
+            "id": "studio-10",
+            "label": "Show media 5: A scent journey",
+            "pressed": "false"
+          },
+          {
+            "id": "studio-01",
+            "label": "Show media 6: Bottle and canister",
+            "pressed": "false"
+          },
+          {
+            "id": "studio-02",
+            "label": "Show media 7: Spray in motion",
+            "pressed": "false"
+          },
+          {
+            "id": "studio-03",
+            "label": "Show media 8: Packaging reveal",
+            "pressed": "false"
+          },
+          {
+            "id": "studio-04",
+            "label": "Show media 9: Magnetic cap detail",
+            "pressed": "false"
+          },
+          {
+            "id": "studio-05",
+            "label": "Show media 10: Lifestyle portrait",
+            "pressed": "false"
+          },
+          {
+            "id": "studio-06",
+            "label": "Show media 11: Product in hand",
+            "pressed": "false"
+          },
+          {
+            "id": "studio-07",
+            "label": "Show media 12: Everyday fragrance moment",
+            "pressed": "false"
+          }
+        ],
+        "galleryId": "ProductGallery-main",
+        "controlsId": "ProductGallery-main"
+      },
+      "status": "PASS"
+    },
+    {
+      "id": "behavior-390-light",
+      "width": 390,
+      "theme": "light",
+      "errors": [],
+      "layout": {
+        "width": 390,
+        "documentWidth": 390,
+        "h1Count": 1,
+        "theme": "light",
+        "controls": {
+          "left": 0,
+          "right": 390,
+          "width": 390
+        },
+        "buttons": [
+          {
+            "selector": "[data-sj-gallery-autoplay]",
+            "left": 23.390625,
+            "right": 67.390625,
+            "width": 44,
+            "height": 44,
+            "visible": true
+          },
+          {
+            "selector": "[data-sj-gallery-prev]",
+            "left": 79.390625,
+            "right": 115.390625,
+            "width": 36,
+            "height": 44,
+            "visible": true
+          },
+          {
+            "selector": "[data-sj-gallery-next]",
+            "left": 330.609375,
+            "right": 366.609375,
+            "width": 36,
+            "height": 44,
+            "visible": true
+          }
+        ]
+      },
+      "status": "PASS"
+    },
+    {
+      "id": "behavior-390-dark",
+      "width": 390,
+      "theme": "dark",
+      "errors": [],
+      "layout": {
+        "width": 390,
+        "documentWidth": 390,
+        "h1Count": 1,
+        "theme": "dark",
+        "controls": {
+          "left": 0,
+          "right": 390,
+          "width": 390
+        },
+        "buttons": [
+          {
+            "selector": "[data-sj-gallery-autoplay]",
+            "left": 23.390625,
+            "right": 67.390625,
+            "width": 44,
+            "height": 44,
+            "visible": true
+          },
+          {
+            "selector": "[data-sj-gallery-prev]",
+            "left": 79.390625,
+            "right": 115.390625,
+            "width": 36,
+            "height": 44,
+            "visible": true
+          },
+          {
+            "selector": "[data-sj-gallery-next]",
+            "left": 330.609375,
+            "right": 366.609375,
+            "width": 36,
+            "height": 44,
+            "visible": true
+          }
+        ]
+      },
+      "status": "PASS"
+    },
+    {
+      "id": "lifecycle-desktop",
+      "theme": "light",
+      "width": 1440,
+      "errors": [],
+      "status": "PASS"
+    }
+  ],
+  "checks": [
+    {
+      "pass": true,
+      "label": "PDP responds successfully",
+      "id": "behavior-1440-light",
+      "status": 200
+    },
+    {
+      "pass": true,
+      "label": "Pause slideshow",
+      "id": "behavior-1440-light",
+      "index": 0,
+      "state": "playing",
+      "buttonHidden": false,
+      "live": "off",
+      "status": "",
+      "visibleRatio": 1,
+      "gallery": {
+        "top": 162.1875,
+        "height": 726.5,
+        "width": 806.390625
+      },
+      "scrollLeft": 0,
+      "hidden": false
+    },
+    {
+      "pass": true,
+      "label": "No automatic advance before eight seconds",
+      "id": "behavior-1440-light"
+    },
+    {
+      "pass": true,
+      "label": "Eight-second advance changes image without live announcement",
+      "id": "behavior-1440-light",
+      "before": {
+        "index": 0,
+        "state": "playing",
+        "label": "Pause slideshow",
+        "buttonHidden": false,
+        "live": "off",
+        "status": "",
+        "visibleRatio": 1,
+        "gallery": {
+          "top": 162.1875,
+          "height": 726.5,
+          "width": 806.390625
+        },
+        "scrollLeft": 0,
+        "hidden": false
+      },
+      "after": {
+        "index": 1,
+        "state": "playing",
+        "label": "Pause slideshow",
+        "buttonHidden": false,
+        "live": "off",
+        "status": "",
+        "visibleRatio": 1,
+        "gallery": {
+          "top": 162.1875,
+          "height": 726.5,
+          "width": 806.390625
+        },
+        "scrollLeft": 0,
+        "hidden": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Pause button stops rotation and exposes explicit Play",
+      "id": "behavior-1440-light"
+    },
+    {
+      "pass": true,
+      "label": "Explicit Play resumes automatic advances",
+      "id": "behavior-1440-light"
+    },
+    {
+      "pass": true,
+      "label": "Manual next arrow pauses and politely announces selection",
+      "id": "behavior-1440-light"
+    },
+    {
+      "pass": true,
+      "label": "Manual browsing stays paused until explicit Play",
+      "id": "behavior-1440-light"
+    },
+    {
+      "pass": true,
+      "label": "Previous arrow browses backward while paused",
+      "id": "behavior-1440-light"
+    },
+    {
+      "pass": true,
+      "label": "End key selects last source frame and pauses",
+      "id": "behavior-1440-light"
+    },
+    {
+      "pass": true,
+      "label": "Autoplay wraps last image to first",
+      "id": "behavior-1440-light"
+    },
+    {
+      "pass": true,
+      "label": "Keyboard arrow browses and pauses rotation",
+      "id": "behavior-1440-light"
+    },
+    {
+      "pass": true,
+      "label": "Home key returns to first infographic",
+      "id": "behavior-1440-light"
+    },
+    {
+      "pass": true,
+      "label": "Thumbnail selects its reordered source and pauses",
+      "id": "behavior-1440-light"
+    },
+    {
+      "pass": true,
+      "label": "Opening the image zoom pauses rotation",
+      "id": "behavior-1440-light"
+    },
+    {
+      "pass": true,
+      "label": "Zoomed image stays stable",
+      "id": "behavior-1440-light"
+    },
+    {
+      "pass": true,
+      "label": "Closing zoom preserves pause and returns focus",
+      "id": "behavior-1440-light"
+    },
+    {
+      "pass": true,
+      "label": "Pause slideshow",
+      "id": "behavior-1440-light",
+      "index": 2,
+      "state": "waiting",
+      "buttonHidden": false,
+      "live": "off",
+      "status": "Media 3 of 12",
+      "visibleRatio": 0.3576221610461115,
+      "gallery": {
+        "top": 790.1875,
+        "height": 726.5,
+        "width": 806.390625
+      },
+      "scrollLeft": 0,
+      "hidden": false
+    },
+    {
+      "pass": true,
+      "label": "Offscreen gallery does not advance",
+      "id": "behavior-1440-light"
+    },
+    {
+      "pass": true,
+      "label": "Returning on screen waits a fresh full interval",
+      "id": "behavior-1440-light"
+    },
+    {
+      "pass": true,
+      "label": "Visible gallery resumes after the fresh interval",
+      "id": "behavior-1440-light"
+    },
+    {
+      "pass": true,
+      "label": "One H1 and no page horizontal overflow",
+      "id": "behavior-1440-light",
+      "width": 1440,
+      "documentWidth": 1440,
+      "h1Count": 1,
+      "theme": "light",
+      "controls": {
+        "left": 0,
+        "right": 806.390625,
+        "width": 806.390625
+      },
+      "buttons": [
+        {
+          "selector": "[data-sj-gallery-autoplay]",
+          "left": 107.1875,
+          "right": 151.1875,
+          "width": 44,
+          "height": 44,
+          "visible": true
+        },
+        {
+          "selector": "[data-sj-gallery-prev]",
+          "left": 163.1875,
+          "right": 199.1875,
+          "width": 36,
+          "height": 44,
+          "visible": true
+        },
+        {
+          "selector": "[data-sj-gallery-next]",
+          "left": 663.1875,
+          "right": 699.1875,
+          "width": 36,
+          "height": 44,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "pass": true,
+      "label": "Requested theme is active",
+      "id": "behavior-1440-light"
+    },
+    {
+      "pass": true,
+      "label": "Rotation and arrow controls remain visible and usable",
+      "id": "behavior-1440-light",
+      "buttons": [
+        {
+          "selector": "[data-sj-gallery-autoplay]",
+          "left": 107.1875,
+          "right": 151.1875,
+          "width": 44,
+          "height": 44,
+          "visible": true
+        },
+        {
+          "selector": "[data-sj-gallery-prev]",
+          "left": 163.1875,
+          "right": 199.1875,
+          "width": 36,
+          "height": 44,
+          "visible": true
+        },
+        {
+          "selector": "[data-sj-gallery-next]",
+          "left": 663.1875,
+          "right": 699.1875,
+          "width": 36,
+          "height": 44,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "pass": true,
+      "label": "No browser JavaScript errors",
+      "id": "behavior-1440-light",
+      "errors": []
+    },
+    {
+      "pass": true,
+      "label": "PDP responds successfully",
+      "id": "behavior-1440-dark",
+      "status": 200
+    },
+    {
+      "pass": true,
+      "label": "Pause slideshow",
+      "id": "behavior-1440-dark",
+      "index": 0,
+      "state": "playing",
+      "buttonHidden": false,
+      "live": "off",
+      "status": "",
+      "visibleRatio": 1,
+      "gallery": {
+        "top": 162.1875,
+        "height": 726.5,
+        "width": 806.390625
+      },
+      "scrollLeft": 0,
+      "hidden": false
+    },
+    {
+      "pass": true,
+      "label": "No automatic advance before eight seconds",
+      "id": "behavior-1440-dark"
+    },
+    {
+      "pass": true,
+      "label": "Eight-second advance changes image without live announcement",
+      "id": "behavior-1440-dark",
+      "before": {
+        "index": 0,
+        "state": "playing",
+        "label": "Pause slideshow",
+        "buttonHidden": false,
+        "live": "off",
+        "status": "",
+        "visibleRatio": 1,
+        "gallery": {
+          "top": 162.1875,
+          "height": 726.5,
+          "width": 806.390625
+        },
+        "scrollLeft": 0,
+        "hidden": false
+      },
+      "after": {
+        "index": 1,
+        "state": "playing",
+        "label": "Pause slideshow",
+        "buttonHidden": false,
+        "live": "off",
+        "status": "",
+        "visibleRatio": 1,
+        "gallery": {
+          "top": 162.1875,
+          "height": 726.5,
+          "width": 806.390625
+        },
+        "scrollLeft": 0,
+        "hidden": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Pause button stops rotation and exposes explicit Play",
+      "id": "behavior-1440-dark"
+    },
+    {
+      "pass": true,
+      "label": "Explicit Play resumes automatic advances",
+      "id": "behavior-1440-dark"
+    },
+    {
+      "pass": true,
+      "label": "Manual next arrow pauses and politely announces selection",
+      "id": "behavior-1440-dark"
+    },
+    {
+      "pass": true,
+      "label": "Manual browsing stays paused until explicit Play",
+      "id": "behavior-1440-dark"
+    },
+    {
+      "pass": true,
+      "label": "Previous arrow browses backward while paused",
+      "id": "behavior-1440-dark"
+    },
+    {
+      "pass": true,
+      "label": "End key selects last source frame and pauses",
+      "id": "behavior-1440-dark"
+    },
+    {
+      "pass": true,
+      "label": "Autoplay wraps last image to first",
+      "id": "behavior-1440-dark"
+    },
+    {
+      "pass": true,
+      "label": "Keyboard arrow browses and pauses rotation",
+      "id": "behavior-1440-dark"
+    },
+    {
+      "pass": true,
+      "label": "Home key returns to first infographic",
+      "id": "behavior-1440-dark"
+    },
+    {
+      "pass": true,
+      "label": "Thumbnail selects its reordered source and pauses",
+      "id": "behavior-1440-dark"
+    },
+    {
+      "pass": true,
+      "label": "Opening the image zoom pauses rotation",
+      "id": "behavior-1440-dark"
+    },
+    {
+      "pass": true,
+      "label": "Zoomed image stays stable",
+      "id": "behavior-1440-dark"
+    },
+    {
+      "pass": true,
+      "label": "Closing zoom preserves pause and returns focus",
+      "id": "behavior-1440-dark"
+    },
+    {
+      "pass": true,
+      "label": "Pause slideshow",
+      "id": "behavior-1440-dark",
+      "index": 2,
+      "state": "waiting",
+      "buttonHidden": false,
+      "live": "off",
+      "status": "Media 3 of 12",
+      "visibleRatio": 0.3576221610461115,
+      "gallery": {
+        "top": 790.1875,
+        "height": 726.5,
+        "width": 806.390625
+      },
+      "scrollLeft": 0,
+      "hidden": false
+    },
+    {
+      "pass": true,
+      "label": "Offscreen gallery does not advance",
+      "id": "behavior-1440-dark"
+    },
+    {
+      "pass": true,
+      "label": "Returning on screen waits a fresh full interval",
+      "id": "behavior-1440-dark"
+    },
+    {
+      "pass": true,
+      "label": "Visible gallery resumes after the fresh interval",
+      "id": "behavior-1440-dark"
+    },
+    {
+      "pass": true,
+      "label": "One H1 and no page horizontal overflow",
+      "id": "behavior-1440-dark",
+      "width": 1440,
+      "documentWidth": 1440,
+      "h1Count": 1,
+      "theme": "dark",
+      "controls": {
+        "left": 0,
+        "right": 806.390625,
+        "width": 806.390625
+      },
+      "buttons": [
+        {
+          "selector": "[data-sj-gallery-autoplay]",
+          "left": 107.1875,
+          "right": 151.1875,
+          "width": 44,
+          "height": 44,
+          "visible": true
+        },
+        {
+          "selector": "[data-sj-gallery-prev]",
+          "left": 163.1875,
+          "right": 199.1875,
+          "width": 36,
+          "height": 44,
+          "visible": true
+        },
+        {
+          "selector": "[data-sj-gallery-next]",
+          "left": 663.1875,
+          "right": 699.1875,
+          "width": 36,
+          "height": 44,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "pass": true,
+      "label": "Requested theme is active",
+      "id": "behavior-1440-dark"
+    },
+    {
+      "pass": true,
+      "label": "Rotation and arrow controls remain visible and usable",
+      "id": "behavior-1440-dark",
+      "buttons": [
+        {
+          "selector": "[data-sj-gallery-autoplay]",
+          "left": 107.1875,
+          "right": 151.1875,
+          "width": 44,
+          "height": 44,
+          "visible": true
+        },
+        {
+          "selector": "[data-sj-gallery-prev]",
+          "left": 163.1875,
+          "right": 199.1875,
+          "width": 36,
+          "height": 44,
+          "visible": true
+        },
+        {
+          "selector": "[data-sj-gallery-next]",
+          "left": 663.1875,
+          "right": 699.1875,
+          "width": 36,
+          "height": 44,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "pass": true,
+      "label": "No browser JavaScript errors",
+      "id": "behavior-1440-dark",
+      "errors": []
+    },
+    {
+      "pass": true,
+      "label": "PDP responds successfully",
+      "id": "swipe-mobile",
+      "status": 200
+    },
+    {
+      "pass": true,
+      "label": "Real touch swipe changes image and pauses automatic rotation",
+      "id": "swipe-mobile",
+      "before": {
+        "index": 1,
+        "state": "playing",
+        "label": "Pause slideshow",
+        "buttonHidden": false,
+        "live": "off",
+        "status": "Media 1 of 12",
+        "visibleRatio": 1,
+        "gallery": {
+          "top": 226.5,
+          "height": 390,
+          "width": 390
+        },
+        "scrollLeft": 0,
+        "hidden": false
+      },
+      "after": {
+        "index": 1,
+        "state": "paused",
+        "label": "Play slideshow",
+        "buttonHidden": false,
+        "live": "polite",
+        "status": "Media 2 of 12",
+        "visibleRatio": 1,
+        "gallery": {
+          "top": 226.5,
+          "height": 390,
+          "width": 390
+        },
+        "scrollLeft": 347,
+        "hidden": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Touch browsing stays paused after the gesture",
+      "id": "swipe-mobile"
+    },
+    {
+      "pass": true,
+      "label": "One H1 and no page horizontal overflow",
+      "id": "swipe-mobile",
+      "width": 390,
+      "documentWidth": 390,
+      "h1Count": 1,
+      "theme": "dark",
+      "controls": {
+        "left": 0,
+        "right": 390,
+        "width": 390
+      },
+      "buttons": [
+        {
+          "selector": "[data-sj-gallery-autoplay]",
+          "left": 23.390625,
+          "right": 67.390625,
+          "width": 44,
+          "height": 44,
+          "visible": true
+        },
+        {
+          "selector": "[data-sj-gallery-prev]",
+          "left": 79.390625,
+          "right": 115.390625,
+          "width": 36,
+          "height": 44,
+          "visible": true
+        },
+        {
+          "selector": "[data-sj-gallery-next]",
+          "left": 330.609375,
+          "right": 366.609375,
+          "width": 36,
+          "height": 44,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "pass": true,
+      "label": "Requested theme is active",
+      "id": "swipe-mobile"
+    },
+    {
+      "pass": true,
+      "label": "Rotation and arrow controls remain visible and usable",
+      "id": "swipe-mobile",
+      "buttons": [
+        {
+          "selector": "[data-sj-gallery-autoplay]",
+          "left": 23.390625,
+          "right": 67.390625,
+          "width": 44,
+          "height": 44,
+          "visible": true
+        },
+        {
+          "selector": "[data-sj-gallery-prev]",
+          "left": 79.390625,
+          "right": 115.390625,
+          "width": 36,
+          "height": 44,
+          "visible": true
+        },
+        {
+          "selector": "[data-sj-gallery-next]",
+          "left": 330.609375,
+          "right": 366.609375,
+          "width": 36,
+          "height": 44,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "pass": true,
+      "label": "No browser JavaScript errors",
+      "id": "swipe-mobile",
+      "errors": []
+    },
+    {
+      "pass": true,
+      "label": "PDP responds successfully",
+      "id": "reduced-motion-mobile",
+      "status": 200
+    },
+    {
+      "pass": true,
+      "label": "Reduced-motion preference defaults to a paused gallery",
+      "id": "reduced-motion-mobile"
+    },
+    {
+      "pass": true,
+      "label": "Explicit Play opts in under reduced motion",
+      "id": "reduced-motion-mobile"
+    },
+    {
+      "pass": true,
+      "label": "Changing preference to reduced motion pauses ongoing rotation",
+      "id": "reduced-motion-mobile"
+    },
+    {
+      "pass": true,
+      "label": "One H1 and no page horizontal overflow",
+      "id": "reduced-motion-mobile",
+      "width": 390,
+      "documentWidth": 390,
+      "h1Count": 1,
+      "theme": "light",
+      "controls": {
+        "left": 0,
+        "right": 390,
+        "width": 390
+      },
+      "buttons": [
+        {
+          "selector": "[data-sj-gallery-autoplay]",
+          "left": 23.390625,
+          "right": 67.390625,
+          "width": 44,
+          "height": 44,
+          "visible": true
+        },
+        {
+          "selector": "[data-sj-gallery-prev]",
+          "left": 79.390625,
+          "right": 115.390625,
+          "width": 36,
+          "height": 44,
+          "visible": true
+        },
+        {
+          "selector": "[data-sj-gallery-next]",
+          "left": 330.609375,
+          "right": 366.609375,
+          "width": 36,
+          "height": 44,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "pass": true,
+      "label": "Requested theme is active",
+      "id": "reduced-motion-mobile"
+    },
+    {
+      "pass": true,
+      "label": "Rotation and arrow controls remain visible and usable",
+      "id": "reduced-motion-mobile",
+      "buttons": [
+        {
+          "selector": "[data-sj-gallery-autoplay]",
+          "left": 23.390625,
+          "right": 67.390625,
+          "width": 44,
+          "height": 44,
+          "visible": true
+        },
+        {
+          "selector": "[data-sj-gallery-prev]",
+          "left": 79.390625,
+          "right": 115.390625,
+          "width": 36,
+          "height": 44,
+          "visible": true
+        },
+        {
+          "selector": "[data-sj-gallery-next]",
+          "left": 330.609375,
+          "right": 366.609375,
+          "width": 36,
+          "height": 44,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "pass": true,
+      "label": "No browser JavaScript errors",
+      "id": "reduced-motion-mobile",
+      "errors": []
+    },
+    {
+      "pass": true,
+      "label": "PDP responds successfully",
+      "id": "controls-320-light",
+      "status": 200
+    },
+    {
+      "pass": true,
+      "label": "One H1 and no page horizontal overflow",
+      "id": "controls-320-light",
+      "width": 320,
+      "documentWidth": 320,
+      "h1Count": 1,
+      "theme": "light",
+      "controls": {
+        "left": 0,
+        "right": 320,
+        "width": 320
+      },
+      "buttons": [
+        {
+          "selector": "[data-sj-gallery-autoplay]",
+          "left": 19.1875,
+          "right": 63.1875,
+          "width": 44,
+          "height": 44,
+          "visible": true
+        },
+        {
+          "selector": "[data-sj-gallery-prev]",
+          "left": 75.1875,
+          "right": 111.1875,
+          "width": 36,
+          "height": 44,
+          "visible": true
+        },
+        {
+          "selector": "[data-sj-gallery-next]",
+          "left": 264.8125,
+          "right": 300.8125,
+          "width": 36,
+          "height": 44,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "pass": true,
+      "label": "Requested theme is active",
+      "id": "controls-320-light"
+    },
+    {
+      "pass": true,
+      "label": "Rotation and arrow controls remain visible and usable",
+      "id": "controls-320-light",
+      "buttons": [
+        {
+          "selector": "[data-sj-gallery-autoplay]",
+          "left": 19.1875,
+          "right": 63.1875,
+          "width": 44,
+          "height": 44,
+          "visible": true
+        },
+        {
+          "selector": "[data-sj-gallery-prev]",
+          "left": 75.1875,
+          "right": 111.1875,
+          "width": 36,
+          "height": 44,
+          "visible": true
+        },
+        {
+          "selector": "[data-sj-gallery-next]",
+          "left": 264.8125,
+          "right": 300.8125,
+          "width": 36,
+          "height": 44,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "pass": true,
+      "label": "No browser JavaScript errors",
+      "id": "controls-320-light",
+      "errors": []
+    },
+    {
+      "pass": true,
+      "label": "PDP responds successfully",
+      "id": "controls-320-dark",
+      "status": 200
+    },
+    {
+      "pass": true,
+      "label": "One H1 and no page horizontal overflow",
+      "id": "controls-320-dark",
+      "width": 320,
+      "documentWidth": 320,
+      "h1Count": 1,
+      "theme": "dark",
+      "controls": {
+        "left": 0,
+        "right": 320,
+        "width": 320
+      },
+      "buttons": [
+        {
+          "selector": "[data-sj-gallery-autoplay]",
+          "left": 19.1875,
+          "right": 63.1875,
+          "width": 44,
+          "height": 44,
+          "visible": true
+        },
+        {
+          "selector": "[data-sj-gallery-prev]",
+          "left": 75.1875,
+          "right": 111.1875,
+          "width": 36,
+          "height": 44,
+          "visible": true
+        },
+        {
+          "selector": "[data-sj-gallery-next]",
+          "left": 264.8125,
+          "right": 300.8125,
+          "width": 36,
+          "height": 44,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "pass": true,
+      "label": "Requested theme is active",
+      "id": "controls-320-dark"
+    },
+    {
+      "pass": true,
+      "label": "Rotation and arrow controls remain visible and usable",
+      "id": "controls-320-dark",
+      "buttons": [
+        {
+          "selector": "[data-sj-gallery-autoplay]",
+          "left": 19.1875,
+          "right": 63.1875,
+          "width": 44,
+          "height": 44,
+          "visible": true
+        },
+        {
+          "selector": "[data-sj-gallery-prev]",
+          "left": 75.1875,
+          "right": 111.1875,
+          "width": 36,
+          "height": 44,
+          "visible": true
+        },
+        {
+          "selector": "[data-sj-gallery-next]",
+          "left": 264.8125,
+          "right": 300.8125,
+          "width": 36,
+          "height": 44,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "pass": true,
+      "label": "No browser JavaScript errors",
+      "id": "controls-320-dark",
+      "errors": []
+    },
+    {
+      "pass": true,
+      "label": "PDP responds successfully",
+      "id": "native-video-fixture",
+      "status": 200
+    },
+    {
+      "pass": true,
+      "label": "video fixture has no visible rotation control and never autoplays",
+      "id": "native-video-fixture",
+      "before": {
+        "index": 0,
+        "state": "unavailable",
+        "label": "Pause slideshow",
+        "buttonHidden": true,
+        "live": "polite",
+        "status": "",
+        "visibleRatio": 1,
+        "gallery": {
+          "top": 162.1875,
+          "height": 726.5,
+          "width": 806.390625
+        },
+        "scrollLeft": 0,
+        "hidden": false
+      },
+      "after": {
+        "index": 0,
+        "state": "unavailable",
+        "label": "Pause slideshow",
+        "buttonHidden": true,
+        "live": "polite",
+        "status": "",
+        "visibleRatio": 1,
+        "gallery": {
+          "top": 162.1875,
+          "height": 726.5,
+          "width": 806.390625
+        },
+        "scrollLeft": 0,
+        "hidden": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Play slideshow",
+      "id": "native-video-fixture",
+      "index": 1,
+      "state": "unavailable",
+      "buttonHidden": true,
+      "live": "polite",
+      "status": "Media 2 of 2",
+      "visibleRatio": 1,
+      "gallery": {
+        "top": 162.1875,
+        "height": 726.5,
+        "width": 806.390625
+      },
+      "scrollLeft": 0,
+      "hidden": false
+    },
+    {
+      "pass": true,
+      "label": "No browser JavaScript errors",
+      "id": "native-video-fixture",
+      "errors": []
+    },
+    {
+      "pass": true,
+      "label": "PDP responds successfully",
+      "id": "native-model-fixture",
+      "status": 200
+    },
+    {
+      "pass": true,
+      "label": "model fixture has no visible rotation control and never autoplays",
+      "id": "native-model-fixture",
+      "before": {
+        "index": 0,
+        "state": "unavailable",
+        "label": "Pause slideshow",
+        "buttonHidden": true,
+        "live": "polite",
+        "status": "",
+        "visibleRatio": 1,
+        "gallery": {
+          "top": 162.1875,
+          "height": 726.5,
+          "width": 806.390625
+        },
+        "scrollLeft": 0,
+        "hidden": false
+      },
+      "after": {
+        "index": 0,
+        "state": "unavailable",
+        "label": "Pause slideshow",
+        "buttonHidden": true,
+        "live": "polite",
+        "status": "",
+        "visibleRatio": 1,
+        "gallery": {
+          "top": 162.1875,
+          "height": 726.5,
+          "width": 806.390625
+        },
+        "scrollLeft": 0,
+        "hidden": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Play slideshow",
+      "id": "native-model-fixture",
+      "index": 1,
+      "state": "unavailable",
+      "buttonHidden": true,
+      "live": "polite",
+      "status": "Media 2 of 2",
+      "visibleRatio": 1,
+      "gallery": {
+        "top": 162.1875,
+        "height": 726.5,
+        "width": 806.390625
+      },
+      "scrollLeft": 0,
+      "hidden": false
+    },
+    {
+      "pass": true,
+      "label": "No browser JavaScript errors",
+      "id": "native-model-fixture",
+      "errors": []
+    },
+    {
+      "pass": true,
+      "label": "PDP responds successfully",
+      "id": "native-single-fixture",
+      "status": 200
+    },
+    {
+      "pass": true,
+      "label": "single fixture has no visible rotation control and never autoplays",
+      "id": "native-single-fixture",
+      "before": {
+        "index": 0,
+        "state": "unavailable",
+        "buttonHidden": true,
+        "live": "polite",
+        "status": "",
+        "visibleRatio": 1,
+        "gallery": {
+          "top": 111.1875,
+          "height": 828.5,
+          "width": 806.390625
+        },
+        "scrollLeft": 0,
+        "hidden": false
+      },
+      "after": {
+        "index": 0,
+        "state": "unavailable",
+        "buttonHidden": true,
+        "live": "polite",
+        "status": "",
+        "visibleRatio": 1,
+        "gallery": {
+          "top": 111.1875,
+          "height": 828.5,
+          "width": 806.390625
+        },
+        "scrollLeft": 0,
+        "hidden": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "No browser JavaScript errors",
+      "id": "native-single-fixture",
+      "errors": []
+    },
+    {
+      "pass": true,
+      "label": "PDP responds successfully",
+      "id": "order-mojito-metallique",
+      "status": 200
+    },
+    {
+      "pass": true,
+      "label": "Existing twelve slides and thumbnails retained",
+      "id": "order-mojito-metallique"
+    },
+    {
+      "pass": true,
+      "label": "Slides follow infographic-first source order",
+      "id": "order-mojito-metallique"
+    },
+    {
+      "pass": true,
+      "label": "Thumbnails follow the identical source order",
+      "id": "order-mojito-metallique"
+    },
+    {
+      "pass": true,
+      "label": "Gallery reuses all twelve unique existing image assets",
+      "id": "order-mojito-metallique"
+    },
+    {
+      "pass": true,
+      "label": "Accessible positions are sequential despite source reordering",
+      "id": "order-mojito-metallique"
+    },
+    {
+      "pass": true,
+      "label": "First infographic is active and prioritized; control targets its gallery",
+      "id": "order-mojito-metallique"
+    },
+    {
+      "pass": true,
+      "label": "No browser JavaScript errors",
+      "id": "order-mojito-metallique",
+      "errors": []
+    },
+    {
+      "pass": true,
+      "label": "PDP responds successfully",
+      "id": "order-amber-oud-silk",
+      "status": 200
+    },
+    {
+      "pass": true,
+      "label": "Existing twelve slides and thumbnails retained",
+      "id": "order-amber-oud-silk"
+    },
+    {
+      "pass": true,
+      "label": "Slides follow infographic-first source order",
+      "id": "order-amber-oud-silk"
+    },
+    {
+      "pass": true,
+      "label": "Thumbnails follow the identical source order",
+      "id": "order-amber-oud-silk"
+    },
+    {
+      "pass": true,
+      "label": "Gallery reuses all twelve unique existing image assets",
+      "id": "order-amber-oud-silk"
+    },
+    {
+      "pass": true,
+      "label": "Accessible positions are sequential despite source reordering",
+      "id": "order-amber-oud-silk"
+    },
+    {
+      "pass": true,
+      "label": "First infographic is active and prioritized; control targets its gallery",
+      "id": "order-amber-oud-silk"
+    },
+    {
+      "pass": true,
+      "label": "No browser JavaScript errors",
+      "id": "order-amber-oud-silk",
+      "errors": []
+    },
+    {
+      "pass": true,
+      "label": "PDP responds successfully",
+      "id": "order-mistened-narcissus",
+      "status": 200
+    },
+    {
+      "pass": true,
+      "label": "Existing twelve slides and thumbnails retained",
+      "id": "order-mistened-narcissus"
+    },
+    {
+      "pass": true,
+      "label": "Slides follow infographic-first source order",
+      "id": "order-mistened-narcissus"
+    },
+    {
+      "pass": true,
+      "label": "Thumbnails follow the identical source order",
+      "id": "order-mistened-narcissus"
+    },
+    {
+      "pass": true,
+      "label": "Gallery reuses all twelve unique existing image assets",
+      "id": "order-mistened-narcissus"
+    },
+    {
+      "pass": true,
+      "label": "Accessible positions are sequential despite source reordering",
+      "id": "order-mistened-narcissus"
+    },
+    {
+      "pass": true,
+      "label": "First infographic is active and prioritized; control targets its gallery",
+      "id": "order-mistened-narcissus"
+    },
+    {
+      "pass": true,
+      "label": "No browser JavaScript errors",
+      "id": "order-mistened-narcissus",
+      "errors": []
+    },
+    {
+      "pass": true,
+      "label": "PDP responds successfully",
+      "id": "order-charme-envoutant",
+      "status": 200
+    },
+    {
+      "pass": true,
+      "label": "Existing twelve slides and thumbnails retained",
+      "id": "order-charme-envoutant"
+    },
+    {
+      "pass": true,
+      "label": "Slides follow infographic-first source order",
+      "id": "order-charme-envoutant"
+    },
+    {
+      "pass": true,
+      "label": "Thumbnails follow the identical source order",
+      "id": "order-charme-envoutant"
+    },
+    {
+      "pass": true,
+      "label": "Gallery reuses all twelve unique existing image assets",
+      "id": "order-charme-envoutant"
+    },
+    {
+      "pass": true,
+      "label": "Accessible positions are sequential despite source reordering",
+      "id": "order-charme-envoutant"
+    },
+    {
+      "pass": true,
+      "label": "First infographic is active and prioritized; control targets its gallery",
+      "id": "order-charme-envoutant"
+    },
+    {
+      "pass": true,
+      "label": "No browser JavaScript errors",
+      "id": "order-charme-envoutant",
+      "errors": []
+    },
+    {
+      "pass": true,
+      "label": "PDP responds successfully",
+      "id": "order-oud-mirage",
+      "status": 200
+    },
+    {
+      "pass": true,
+      "label": "Existing twelve slides and thumbnails retained",
+      "id": "order-oud-mirage"
+    },
+    {
+      "pass": true,
+      "label": "Slides follow infographic-first source order",
+      "id": "order-oud-mirage"
+    },
+    {
+      "pass": true,
+      "label": "Thumbnails follow the identical source order",
+      "id": "order-oud-mirage"
+    },
+    {
+      "pass": true,
+      "label": "Gallery reuses all twelve unique existing image assets",
+      "id": "order-oud-mirage"
+    },
+    {
+      "pass": true,
+      "label": "Accessible positions are sequential despite source reordering",
+      "id": "order-oud-mirage"
+    },
+    {
+      "pass": true,
+      "label": "First infographic is active and prioritized; control targets its gallery",
+      "id": "order-oud-mirage"
+    },
+    {
+      "pass": true,
+      "label": "No browser JavaScript errors",
+      "id": "order-oud-mirage",
+      "errors": []
+    },
+    {
+      "pass": true,
+      "label": "PDP responds successfully",
+      "id": "order-rtulle-satin",
+      "status": 200
+    },
+    {
+      "pass": true,
+      "label": "Existing twelve slides and thumbnails retained",
+      "id": "order-rtulle-satin"
+    },
+    {
+      "pass": true,
+      "label": "Slides follow infographic-first source order",
+      "id": "order-rtulle-satin"
+    },
+    {
+      "pass": true,
+      "label": "Thumbnails follow the identical source order",
+      "id": "order-rtulle-satin"
+    },
+    {
+      "pass": true,
+      "label": "Gallery reuses all twelve unique existing image assets",
+      "id": "order-rtulle-satin"
+    },
+    {
+      "pass": true,
+      "label": "Accessible positions are sequential despite source reordering",
+      "id": "order-rtulle-satin"
+    },
+    {
+      "pass": true,
+      "label": "First infographic is active and prioritized; control targets its gallery",
+      "id": "order-rtulle-satin"
+    },
+    {
+      "pass": true,
+      "label": "No browser JavaScript errors",
+      "id": "order-rtulle-satin",
+      "errors": []
+    },
+    {
+      "status": 200,
+      "pass": true,
+      "label": "PDP responds successfully",
+      "id": "behavior-390-light"
+    },
+    {
+      "index": 0,
+      "state": "playing",
+      "label": "Visible image gallery starts rotating silently",
+      "buttonHidden": false,
+      "live": "off",
+      "status": "Media 1 of 12",
+      "visibleRatio": 1,
+      "gallery": {
+        "top": 226.5,
+        "height": 390,
+        "width": 390
+      },
+      "scrollLeft": 0,
+      "hidden": false,
+      "pass": true,
+      "id": "behavior-390-light"
+    },
+    {
+      "pass": true,
+      "label": "No automatic advance before eight seconds",
+      "id": "behavior-390-light"
+    },
+    {
+      "before": {
+        "index": 0,
+        "state": "playing",
+        "label": "Pause slideshow",
+        "buttonHidden": false,
+        "live": "off",
+        "status": "Media 1 of 12",
+        "visibleRatio": 1,
+        "gallery": {
+          "top": 226.5,
+          "height": 390,
+          "width": 390
+        },
+        "scrollLeft": 0,
+        "hidden": false
+      },
+      "after": {
+        "index": 1,
+        "state": "playing",
+        "label": "Pause slideshow",
+        "buttonHidden": false,
+        "live": "off",
+        "status": "Media 1 of 12",
+        "visibleRatio": 1,
+        "gallery": {
+          "top": 226.5,
+          "height": 390,
+          "width": 390
+        },
+        "scrollLeft": 390,
+        "hidden": false
+      },
+      "pass": true,
+      "label": "Eight-second advance changes image without live announcement",
+      "id": "behavior-390-light"
+    },
+    {
+      "pass": true,
+      "label": "Pause button stops rotation and exposes explicit Play",
+      "id": "behavior-390-light"
+    },
+    {
+      "pass": true,
+      "label": "Explicit Play resumes automatic advances",
+      "id": "behavior-390-light"
+    },
+    {
+      "pass": true,
+      "label": "Manual next arrow pauses and politely announces selection",
+      "id": "behavior-390-light"
+    },
+    {
+      "before": {
+        "index": 3,
+        "state": "paused",
+        "label": "Play slideshow",
+        "buttonHidden": false,
+        "live": "polite",
+        "status": "Media 4 of 12",
+        "visibleRatio": 1,
+        "gallery": {
+          "top": 226.5,
+          "height": 390,
+          "width": 390
+        },
+        "scrollLeft": 1170,
+        "hidden": false
+      },
+      "after": {
+        "index": 3,
+        "state": "paused",
+        "label": "Play slideshow",
+        "buttonHidden": false,
+        "live": "polite",
+        "status": "Media 4 of 12",
+        "visibleRatio": 1,
+        "gallery": {
+          "top": 226.5,
+          "height": 390,
+          "width": 390
+        },
+        "scrollLeft": 1170,
+        "hidden": false
+      },
+      "pass": true,
+      "label": "Manual browsing stays paused until explicit Play",
+      "id": "behavior-390-light"
+    },
+    {
+      "before": {
+        "index": 3,
+        "state": "paused",
+        "label": "Play slideshow",
+        "buttonHidden": false,
+        "live": "polite",
+        "status": "Media 4 of 12",
+        "visibleRatio": 1,
+        "gallery": {
+          "top": 226.5,
+          "height": 390,
+          "width": 390
+        },
+        "scrollLeft": 1170,
+        "hidden": false
+      },
+      "after": {
+        "index": 2,
+        "state": "paused",
+        "label": "Play slideshow",
+        "buttonHidden": false,
+        "live": "polite",
+        "status": "Media 3 of 12",
+        "visibleRatio": 1,
+        "gallery": {
+          "top": 226.5,
+          "height": 390,
+          "width": 390
+        },
+        "scrollLeft": 780,
+        "hidden": false
+      },
+      "pass": true,
+      "label": "Previous arrow browses backward while paused",
+      "id": "behavior-390-light"
+    },
+    {
+      "index": 11,
+      "state": "paused",
+      "label": "End key selects last source frame and pauses",
+      "buttonHidden": false,
+      "live": "polite",
+      "status": "Media 12 of 12",
+      "visibleRatio": 1,
+      "gallery": {
+        "top": 226.5,
+        "height": 390,
+        "width": 390
+      },
+      "scrollLeft": 4290,
+      "hidden": false,
+      "pass": true,
+      "id": "behavior-390-light"
+    },
+    {
+      "pass": true,
+      "label": "Autoplay wraps last image to first",
+      "id": "behavior-390-light"
+    },
+    {
+      "index": 1,
+      "state": "paused",
+      "label": "Keyboard arrow browses and pauses rotation",
+      "buttonHidden": false,
+      "live": "polite",
+      "status": "Media 2 of 12",
+      "visibleRatio": 1,
+      "gallery": {
+        "top": 226.5,
+        "height": 390,
+        "width": 390
+      },
+      "scrollLeft": 390,
+      "hidden": false,
+      "pass": true,
+      "id": "behavior-390-light"
+    },
+    {
+      "index": 0,
+      "state": "paused",
+      "label": "Home key returns to first infographic",
+      "buttonHidden": false,
+      "live": "polite",
+      "status": "Media 1 of 12",
+      "visibleRatio": 1,
+      "gallery": {
+        "top": 226.5,
+        "height": 390,
+        "width": 390
+      },
+      "scrollLeft": 0,
+      "hidden": false,
+      "pass": true,
+      "id": "behavior-390-light"
+    },
+    {
+      "index": 2,
+      "state": "paused",
+      "label": "Thumbnail selects its reordered source and pauses",
+      "buttonHidden": false,
+      "live": "polite",
+      "status": "Media 3 of 12",
+      "visibleRatio": 1,
+      "gallery": {
+        "top": 226.5,
+        "height": 390,
+        "width": 390
+      },
+      "scrollLeft": 780,
+      "hidden": false,
+      "pass": true,
+      "id": "behavior-390-light"
+    },
+    {
+      "pass": true,
+      "label": "Opening the image zoom pauses rotation",
+      "id": "behavior-390-light"
+    },
+    {
+      "pass": true,
+      "label": "Zoomed image stays stable",
+      "id": "behavior-390-light"
+    },
+    {
+      "pass": true,
+      "label": "Closing zoom preserves pause and returns focus",
+      "id": "behavior-390-light"
+    },
+    {
+      "index": 2,
+      "state": "waiting",
+      "label": "Below 50% visibility suspends the gallery timer",
+      "buttonHidden": false,
+      "live": "off",
+      "status": "Media 3 of 12",
+      "visibleRatio": 0.21666666666666667,
+      "gallery": {
+        "top": 759.5,
+        "height": 390,
+        "width": 390
+      },
+      "scrollLeft": 780,
+      "hidden": false,
+      "pass": true,
+      "id": "behavior-390-light"
+    },
+    {
+      "pass": true,
+      "label": "Offscreen gallery does not advance",
+      "id": "behavior-390-light"
+    },
+    {
+      "pass": true,
+      "label": "Returning on screen waits a fresh full interval",
+      "id": "behavior-390-light"
+    },
+    {
+      "pass": true,
+      "label": "Visible gallery resumes after the fresh interval",
+      "id": "behavior-390-light"
+    },
+    {
+      "width": 390,
+      "documentWidth": 390,
+      "h1Count": 1,
+      "theme": "light",
+      "controls": {
+        "left": 0,
+        "right": 390,
+        "width": 390
+      },
+      "buttons": [
+        {
+          "selector": "[data-sj-gallery-autoplay]",
+          "left": 23.390625,
+          "right": 67.390625,
+          "width": 44,
+          "height": 44,
+          "visible": true
+        },
+        {
+          "selector": "[data-sj-gallery-prev]",
+          "left": 79.390625,
+          "right": 115.390625,
+          "width": 36,
+          "height": 44,
+          "visible": true
+        },
+        {
+          "selector": "[data-sj-gallery-next]",
+          "left": 330.609375,
+          "right": 366.609375,
+          "width": 36,
+          "height": 44,
+          "visible": true
+        }
+      ],
+      "pass": true,
+      "label": "One H1 and no page horizontal overflow",
+      "id": "behavior-390-light"
+    },
+    {
+      "pass": true,
+      "label": "Requested theme is active",
+      "id": "behavior-390-light"
+    },
+    {
+      "buttons": [
+        {
+          "selector": "[data-sj-gallery-autoplay]",
+          "left": 23.390625,
+          "right": 67.390625,
+          "width": 44,
+          "height": 44,
+          "visible": true
+        },
+        {
+          "selector": "[data-sj-gallery-prev]",
+          "left": 79.390625,
+          "right": 115.390625,
+          "width": 36,
+          "height": 44,
+          "visible": true
+        },
+        {
+          "selector": "[data-sj-gallery-next]",
+          "left": 330.609375,
+          "right": 366.609375,
+          "width": 36,
+          "height": 44,
+          "visible": true
+        }
+      ],
+      "pass": true,
+      "label": "Rotation and arrow controls remain visible and usable",
+      "id": "behavior-390-light"
+    },
+    {
+      "errors": [],
+      "pass": true,
+      "label": "No browser JavaScript errors",
+      "id": "behavior-390-light"
+    },
+    {
+      "status": 200,
+      "pass": true,
+      "label": "PDP responds successfully",
+      "id": "behavior-390-dark"
+    },
+    {
+      "index": 0,
+      "state": "playing",
+      "label": "Visible image gallery starts rotating silently",
+      "buttonHidden": false,
+      "live": "off",
+      "status": "Media 1 of 12",
+      "visibleRatio": 1,
+      "gallery": {
+        "top": 226.5,
+        "height": 390,
+        "width": 390
+      },
+      "scrollLeft": 0,
+      "hidden": false,
+      "pass": true,
+      "id": "behavior-390-dark"
+    },
+    {
+      "pass": true,
+      "label": "No automatic advance before eight seconds",
+      "id": "behavior-390-dark"
+    },
+    {
+      "before": {
+        "index": 0,
+        "state": "playing",
+        "label": "Pause slideshow",
+        "buttonHidden": false,
+        "live": "off",
+        "status": "Media 1 of 12",
+        "visibleRatio": 1,
+        "gallery": {
+          "top": 226.5,
+          "height": 390,
+          "width": 390
+        },
+        "scrollLeft": 0,
+        "hidden": false
+      },
+      "after": {
+        "index": 1,
+        "state": "playing",
+        "label": "Pause slideshow",
+        "buttonHidden": false,
+        "live": "off",
+        "status": "Media 1 of 12",
+        "visibleRatio": 1,
+        "gallery": {
+          "top": 226.5,
+          "height": 390,
+          "width": 390
+        },
+        "scrollLeft": 390,
+        "hidden": false
+      },
+      "pass": true,
+      "label": "Eight-second advance changes image without live announcement",
+      "id": "behavior-390-dark"
+    },
+    {
+      "pass": true,
+      "label": "Pause button stops rotation and exposes explicit Play",
+      "id": "behavior-390-dark"
+    },
+    {
+      "pass": true,
+      "label": "Explicit Play resumes automatic advances",
+      "id": "behavior-390-dark"
+    },
+    {
+      "pass": true,
+      "label": "Manual next arrow pauses and politely announces selection",
+      "id": "behavior-390-dark"
+    },
+    {
+      "before": {
+        "index": 3,
+        "state": "paused",
+        "label": "Play slideshow",
+        "buttonHidden": false,
+        "live": "polite",
+        "status": "Media 4 of 12",
+        "visibleRatio": 1,
+        "gallery": {
+          "top": 226.5,
+          "height": 390,
+          "width": 390
+        },
+        "scrollLeft": 1170,
+        "hidden": false
+      },
+      "after": {
+        "index": 3,
+        "state": "paused",
+        "label": "Play slideshow",
+        "buttonHidden": false,
+        "live": "polite",
+        "status": "Media 4 of 12",
+        "visibleRatio": 1,
+        "gallery": {
+          "top": 226.5,
+          "height": 390,
+          "width": 390
+        },
+        "scrollLeft": 1170,
+        "hidden": false
+      },
+      "pass": true,
+      "label": "Manual browsing stays paused until explicit Play",
+      "id": "behavior-390-dark"
+    },
+    {
+      "before": {
+        "index": 3,
+        "state": "paused",
+        "label": "Play slideshow",
+        "buttonHidden": false,
+        "live": "polite",
+        "status": "Media 4 of 12",
+        "visibleRatio": 1,
+        "gallery": {
+          "top": 226.5,
+          "height": 390,
+          "width": 390
+        },
+        "scrollLeft": 1170,
+        "hidden": false
+      },
+      "after": {
+        "index": 2,
+        "state": "paused",
+        "label": "Play slideshow",
+        "buttonHidden": false,
+        "live": "polite",
+        "status": "Media 3 of 12",
+        "visibleRatio": 1,
+        "gallery": {
+          "top": 226.5,
+          "height": 390,
+          "width": 390
+        },
+        "scrollLeft": 780,
+        "hidden": false
+      },
+      "pass": true,
+      "label": "Previous arrow browses backward while paused",
+      "id": "behavior-390-dark"
+    },
+    {
+      "index": 11,
+      "state": "paused",
+      "label": "End key selects last source frame and pauses",
+      "buttonHidden": false,
+      "live": "polite",
+      "status": "Media 12 of 12",
+      "visibleRatio": 1,
+      "gallery": {
+        "top": 226.5,
+        "height": 390,
+        "width": 390
+      },
+      "scrollLeft": 4290,
+      "hidden": false,
+      "pass": true,
+      "id": "behavior-390-dark"
+    },
+    {
+      "pass": true,
+      "label": "Autoplay wraps last image to first",
+      "id": "behavior-390-dark"
+    },
+    {
+      "index": 1,
+      "state": "paused",
+      "label": "Keyboard arrow browses and pauses rotation",
+      "buttonHidden": false,
+      "live": "polite",
+      "status": "Media 2 of 12",
+      "visibleRatio": 1,
+      "gallery": {
+        "top": 226.5,
+        "height": 390,
+        "width": 390
+      },
+      "scrollLeft": 390,
+      "hidden": false,
+      "pass": true,
+      "id": "behavior-390-dark"
+    },
+    {
+      "index": 0,
+      "state": "paused",
+      "label": "Home key returns to first infographic",
+      "buttonHidden": false,
+      "live": "polite",
+      "status": "Media 1 of 12",
+      "visibleRatio": 1,
+      "gallery": {
+        "top": 226.5,
+        "height": 390,
+        "width": 390
+      },
+      "scrollLeft": 0,
+      "hidden": false,
+      "pass": true,
+      "id": "behavior-390-dark"
+    },
+    {
+      "index": 2,
+      "state": "paused",
+      "label": "Thumbnail selects its reordered source and pauses",
+      "buttonHidden": false,
+      "live": "polite",
+      "status": "Media 3 of 12",
+      "visibleRatio": 1,
+      "gallery": {
+        "top": 226.5,
+        "height": 390,
+        "width": 390
+      },
+      "scrollLeft": 780,
+      "hidden": false,
+      "pass": true,
+      "id": "behavior-390-dark"
+    },
+    {
+      "pass": true,
+      "label": "Opening the image zoom pauses rotation",
+      "id": "behavior-390-dark"
+    },
+    {
+      "pass": true,
+      "label": "Zoomed image stays stable",
+      "id": "behavior-390-dark"
+    },
+    {
+      "pass": true,
+      "label": "Closing zoom preserves pause and returns focus",
+      "id": "behavior-390-dark"
+    },
+    {
+      "index": 2,
+      "state": "waiting",
+      "label": "Below 50% visibility suspends the gallery timer",
+      "buttonHidden": false,
+      "live": "off",
+      "status": "Media 3 of 12",
+      "visibleRatio": 0.21666666666666667,
+      "gallery": {
+        "top": 759.5,
+        "height": 390,
+        "width": 390
+      },
+      "scrollLeft": 780,
+      "hidden": false,
+      "pass": true,
+      "id": "behavior-390-dark"
+    },
+    {
+      "pass": true,
+      "label": "Offscreen gallery does not advance",
+      "id": "behavior-390-dark"
+    },
+    {
+      "pass": true,
+      "label": "Returning on screen waits a fresh full interval",
+      "id": "behavior-390-dark"
+    },
+    {
+      "pass": true,
+      "label": "Visible gallery resumes after the fresh interval",
+      "id": "behavior-390-dark"
+    },
+    {
+      "width": 390,
+      "documentWidth": 390,
+      "h1Count": 1,
+      "theme": "dark",
+      "controls": {
+        "left": 0,
+        "right": 390,
+        "width": 390
+      },
+      "buttons": [
+        {
+          "selector": "[data-sj-gallery-autoplay]",
+          "left": 23.390625,
+          "right": 67.390625,
+          "width": 44,
+          "height": 44,
+          "visible": true
+        },
+        {
+          "selector": "[data-sj-gallery-prev]",
+          "left": 79.390625,
+          "right": 115.390625,
+          "width": 36,
+          "height": 44,
+          "visible": true
+        },
+        {
+          "selector": "[data-sj-gallery-next]",
+          "left": 330.609375,
+          "right": 366.609375,
+          "width": 36,
+          "height": 44,
+          "visible": true
+        }
+      ],
+      "pass": true,
+      "label": "One H1 and no page horizontal overflow",
+      "id": "behavior-390-dark"
+    },
+    {
+      "pass": true,
+      "label": "Requested theme is active",
+      "id": "behavior-390-dark"
+    },
+    {
+      "buttons": [
+        {
+          "selector": "[data-sj-gallery-autoplay]",
+          "left": 23.390625,
+          "right": 67.390625,
+          "width": 44,
+          "height": 44,
+          "visible": true
+        },
+        {
+          "selector": "[data-sj-gallery-prev]",
+          "left": 79.390625,
+          "right": 115.390625,
+          "width": 36,
+          "height": 44,
+          "visible": true
+        },
+        {
+          "selector": "[data-sj-gallery-next]",
+          "left": 330.609375,
+          "right": 366.609375,
+          "width": 36,
+          "height": 44,
+          "visible": true
+        }
+      ],
+      "pass": true,
+      "label": "Rotation and arrow controls remain visible and usable",
+      "id": "behavior-390-dark"
+    },
+    {
+      "errors": [],
+      "pass": true,
+      "label": "No browser JavaScript errors",
+      "id": "behavior-390-dark"
+    },
+    {
+      "status": 200,
+      "pass": true,
+      "label": "PDP responds successfully",
+      "id": "lifecycle-desktop"
+    },
+    {
+      "pass": true,
+      "label": "Simulated hidden-document event suspends native timer",
+      "id": "lifecycle-desktop"
+    },
+    {
+      "pass": true,
+      "label": "Hidden-document fixture does not advance",
+      "id": "lifecycle-desktop"
+    },
+    {
+      "pass": true,
+      "label": "Visible-document event starts a fresh eight-second interval",
+      "id": "lifecycle-desktop"
+    },
+    {
+      "pass": true,
+      "label": "Visible-document fixture resumes native rotation",
+      "id": "lifecycle-desktop"
+    },
+    {
+      "pass": true,
+      "label": "Horizontal thumbnail-rail wheel interaction pauses rotation",
+      "id": "lifecycle-desktop"
+    },
+    {
+      "pass": true,
+      "label": "Shift-wheel thumbnail-rail interaction pauses rotation",
+      "id": "lifecycle-desktop"
+    },
+    {
+      "pass": true,
+      "label": "Variant selection pauses gallery rotation",
+      "id": "lifecycle-desktop"
+    },
+    {
+      "pass": true,
+      "label": "Keyboard focus into gallery media pauses rotation",
+      "id": "lifecycle-desktop"
+    },
+    {
+      "index": 1,
+      "connected": false,
+      "ready": false,
+      "pass": true,
+      "label": "Disconnected section stops its timer and tears down lifecycle",
+      "id": "lifecycle-desktop"
+    },
+    {
+      "errors": [],
+      "pass": true,
+      "label": "No browser JavaScript errors",
+      "id": "lifecycle-desktop"
+    }
+  ],
+  "issues": [],
+  "limits": [
+    "Browser timing uses Playwright Clock; IntersectionObserver and layout remain native.",
+    "Hidden-document behavior uses explicitly labelled visibility properties and the real visibilitychange handler. It does not claim an OS background-tab test.",
+    "Video/model/single-image eligibility uses labelled in-memory response fixtures constructed from the real rendered PDP. No source, catalog, or product data is changed."
+  ],
+  "retainedEvidenceFrom": "2026-09-24T05:41:12.605Z",
+  "summary": {
+    "status": "PASS",
+    "scenarios": 18,
+    "checks": 195,
+    "passed": 195,
+    "failures": 0
+  },
+  "visualReview": {
+    "status": "PASS",
+    "reviewedScreenshots": [
+      "behavior-1440-light.png",
+      "behavior-1440-dark.png",
+      "behavior-390-light.png",
+      "behavior-390-dark.png",
+      "controls-320-light.png",
+      "controls-320-dark.png"
+    ],
+    "findings": "Images retain their full square composition; active thumbnail, pause button and arrows remain clear and contained in both themes. Controls fit at 320px with a horizontally scrollable thumbnail rail."
+  },
+  "rerunNote": "Retained passing browser evidence; reran only assertions affected by the harness correction from image to native media labels, longer settling for long-distance smooth scrolling, and moving the real wheel pointer back over the thumbnail rail. No product code changes were required by these test corrections."
+}

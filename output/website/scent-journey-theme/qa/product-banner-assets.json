@@ -1,0 +1,68 @@
+[
+  {
+    "handle": "mojito-metallique",
+    "file": "sj-product-banner-mojito-metallique.jpg",
+    "source": "campaign-v9-pop-editorial/final-web/sj-product-banner-mojito-metallique.jpg",
+    "sha256": "9966a433665c1688a6e079efb5c0c6ecc9ec863c13305295fae352735f3e6cea",
+    "bytes": 598058,
+    "width": 1774,
+    "height": 887,
+    "original": "campaign-v9-pop-editorial/originals/sj-product-banner-mojito-metallique.png",
+    "original_sha256": "19d4e37a00843fe8162a571f0c7e9eddffab6ba8540707f4951ecec7a1109a45"
+  },
+  {
+    "handle": "amber-oud-silk",
+    "file": "sj-product-banner-amber-oud-silk.jpg",
+    "source": "campaign-v9-pop-editorial/final-web/sj-product-banner-amber-oud-silk.jpg",
+    "sha256": "97e37ce9cffe7e6f8d282fe074a6922347477f9b51cb3308dae9ecd98b10a25b",
+    "bytes": 471302,
+    "width": 1774,
+    "height": 887,
+    "original": "campaign-v9-pop-editorial/originals/sj-product-banner-amber-oud-silk.png",
+    "original_sha256": "681a2cdc6397aaaf2f8e387169d9dbe89865e3d12fb4ed0c1fcfb6a7acdd5767"
+  },
+  {
+    "handle": "mistened-narcissus",
+    "file": "sj-product-banner-mistened-narcissus.jpg",
+    "source": "campaign-v9-pop-editorial/final-web/sj-product-banner-mistened-narcissus.jpg",
+    "sha256": "2683d15bec13df958fbe989c7e25432f0dad5d5421eda5020a237609476253b6",
+    "bytes": 579769,
+    "width": 1774,
+    "height": 887,
+    "original": "campaign-v9-pop-editorial/originals/sj-product-banner-mistened-narcissus.png",
+    "original_sha256": "272ca177472f234fe5648dc3c7443c90954aadbfc1806869976de23fe83b90ae"
+  },
+  {
+    "handle": "charme-envoutant",
+    "file": "sj-product-banner-charme-envoutant.jpg",
+    "source": "campaign-v9-pop-editorial/final-web/sj-product-banner-charme-envoutant.jpg",
+    "sha256": "7c0d028d86898808c9e81cd7e44a66cf2ea605d8c3d996e1487f163e6b325988",
+    "bytes": 418427,
+    "width": 1774,
+    "height": 887,
+    "original": "campaign-v9-pop-editorial/originals/sj-product-banner-charme-envoutant.png",
+    "original_sha256": "f50a646861406f58bc5b186c7ad7396d18fa437c80f96ee5c8862a87882442f8"
+  },
+  {
+    "handle": "oud-mirage",
+    "file": "sj-product-banner-oud-mirage.jpg",
+    "source": "campaign-v9-pop-editorial/final-web/sj-product-banner-oud-mirage.jpg",
+    "sha256": "b5316a86c3d1b225695b824cdea4b11d7fac92e200d0cff1b24b011096b5bdc0",
+    "bytes": 526428,
+    "width": 1774,
+    "height": 887,
+    "original": "campaign-v9-pop-editorial/originals/sj-product-banner-oud-mirage.png",
+    "original_sha256": "f272b2b9ef44aacd7621ae71f5a3ea95725b9d9d2aba4edaf5f4e3bbb7d88890"
+  },
+  {
+    "handle": "rtulle-satin",
+    "file": "sj-product-banner-rtulle-satin.jpg",
+    "source": "campaign-v9-pop-editorial/final-web/sj-product-banner-rtulle-satin.jpg",
+    "sha256": "629d43b023799ac33dce65a5e61965437b6fb6408be60f8cc97d13541cedc8ea",
+    "bytes": 439431,
+    "width": 1774,
+    "height": 887,
+    "original": "campaign-v9-pop-editorial/originals/sj-product-banner-rtulle-satin.png",
+    "original_sha256": "1e7bce82e8bb1b6b5bf725d72bc7c276b92455439f753ba448515d99aa70af47"
+  }
+]

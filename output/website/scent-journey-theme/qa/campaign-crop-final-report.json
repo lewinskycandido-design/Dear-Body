@@ -1,0 +1,103 @@
+{
+  "at": "2026-09-24T02:31:40.586Z",
+  "injectedCSS": false,
+  "cases": [
+    {
+      "name": "women",
+      "route": "/collections/womens-perfume",
+      "width": 1440,
+      "mode": "light",
+      "expected": "50% 0%",
+      "position": "50% 0%",
+      "src": "http://127.0.0.1:4208/assets/sj-banner-women-light.jpg",
+      "loaded": true,
+      "overflow": false,
+      "pass": true
+    },
+    {
+      "name": "women",
+      "route": "/collections/womens-perfume",
+      "width": 1440,
+      "mode": "dark",
+      "expected": "50% 0%",
+      "position": "50% 0%",
+      "src": "http://127.0.0.1:4208/assets/sj-banner-women-dark.jpg",
+      "loaded": true,
+      "overflow": false,
+      "pass": true
+    },
+    {
+      "name": "men",
+      "route": "/collections/mens-perfume",
+      "width": 1440,
+      "mode": "light",
+      "expected": "50% 0%",
+      "position": "50% 0%",
+      "src": "http://127.0.0.1:4208/assets/sj-banner-men-light.jpg",
+      "loaded": true,
+      "overflow": false,
+      "pass": true
+    },
+    {
+      "name": "men",
+      "route": "/collections/mens-perfume",
+      "width": 1440,
+      "mode": "dark",
+      "expected": "50% 0%",
+      "position": "50% 0%",
+      "src": "http://127.0.0.1:4208/assets/sj-banner-men-dark.jpg",
+      "loaded": true,
+      "overflow": false,
+      "pass": true
+    },
+    {
+      "name": "story",
+      "route": "/pages/our-story",
+      "width": 390,
+      "mode": "light",
+      "expected": "100% 50%",
+      "position": "100% 50%",
+      "src": "http://127.0.0.1:4208/assets/sj-banner-story-light.jpg",
+      "loaded": true,
+      "overflow": false,
+      "pass": true
+    },
+    {
+      "name": "story",
+      "route": "/pages/our-story",
+      "width": 390,
+      "mode": "dark",
+      "expected": "100% 50%",
+      "position": "100% 50%",
+      "src": "http://127.0.0.1:4208/assets/sj-banner-story-dark.jpg",
+      "loaded": true,
+      "overflow": false,
+      "pass": true
+    },
+    {
+      "name": "story",
+      "route": "/pages/our-story",
+      "width": 360,
+      "mode": "light",
+      "expected": "100% 50%",
+      "position": "100% 50%",
+      "src": "http://127.0.0.1:4208/assets/sj-banner-story-light.jpg",
+      "loaded": true,
+      "overflow": false,
+      "pass": true
+    },
+    {
+      "name": "story",
+      "route": "/pages/our-story",
+      "width": 360,
+      "mode": "dark",
+      "expected": "100% 50%",
+      "position": "100% 50%",
+      "src": "http://127.0.0.1:4208/assets/sj-banner-story-dark.jpg",
+      "loaded": true,
+      "overflow": false,
+      "pass": true
+    }
+  ],
+  "errors": []
+}

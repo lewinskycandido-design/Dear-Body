@@ -1,0 +1,14 @@
+{
+  "sections": {
+    "main": {
+      "type": "sj-collection",
+      "settings": {
+        "heading": "LEAVE A LITTLE YOU\nIN THE AIR.",
+        "description": "London-formulated fragrances for your many moods, everyday moments, and the chapters still to come."
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

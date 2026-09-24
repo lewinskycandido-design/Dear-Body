@@ -1,0 +1,30 @@
+{
+  "name": "CHARME ENVOÛTANT",
+  "title": "CHARME\nENVOÛTANT",
+  "accent": "#D46601",
+  "code": "P10738",
+  "barcode": "5056795407307",
+  "liquid": "Amber-orange liquid",
+  "pack": "Vivid orange canister",
+  "description": "Rich, spiced sweetness that feels deep and indulgent.",
+  "fit": "For someone drawn to rich spice, deep sweetness, and an indulgent finish.",
+  "traits": [
+    "RICH",
+    "SPICED",
+    "INDULGENT"
+  ],
+  "ingredients": [
+    "Alcohol",
+    "Water (Aqua)",
+    "Fragrance (Parfum)",
+    "PEG-40 Hydrogenated Castor Oil",
+    "Propylene Glycol",
+    "Coumarin",
+    "Limonene",
+    "Linalool",
+    "Cinnamal",
+    "Eugenol",
+    "Benzyl Benzoate"
+  ],
+  "care": "FLAMMABLE\nKeep away from heat and open flame."
+}

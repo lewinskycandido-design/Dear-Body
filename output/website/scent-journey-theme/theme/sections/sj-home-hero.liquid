@@ -1,0 +1,31 @@
+<section class="sj-home-hero" aria-labelledby="HomeHeroTitle-{{ section.id }}">
+  <div class="sj-home-hero__stage">
+    <div class="sj-home-hero__media">
+      {% render 'sj-themed-photo', light_asset: 'sj-home-hero-light.jpg', dark_asset: 'sj-home-hero-dark.jpg', light_image: section.settings.image_light, dark_image: section.settings.image_dark, alt: section.settings.image_alt, width: 1774, height: 887, loading: 'eager', priority: 'high' %}
+    </div>
+    <div class="sj-home-hero__inner sj-container">
+      <div class="sj-home-hero__copy">
+        <p class="sj-eyebrow">{{ section.settings.eyebrow | escape }}</p>
+        <h1 id="HomeHeroTitle-{{ section.id }}">{{ section.settings.heading | escape | newline_to_br }}</h1>
+        <p class="sj-home-hero__description">{{ section.settings.description | escape }}</p>
+        <a class="sj-button" href="#ShopCollections">{{ section.settings.button_label | escape }}</a>
+      </div>
+    </div>
+  </div>
+</section>
+{% schema %}
+{
+  "name": "Homepage hero banner",
+  "limit": 1,
+  "settings": [
+    {"type":"text","id":"eyebrow","label":"Eyebrow","default":"DEARBODY PHILIPPINES"},
+    {"type":"textarea","id":"heading","label":"Heading","default":"MAKE IT\nPERSONAL."},
+    {"type":"textarea","id":"description","label":"Description","default":"Fragrance with personality. Find the one that feels like you."},
+    {"type":"text","id":"button_label","label":"Button label","default":"Explore the collections"},
+    {"type":"image_picker","id":"image_light","label":"Hero image — Light"},
+    {"type":"image_picker","id":"image_dark","label":"Hero image — Dark"},
+    {"type":"text","id":"image_alt","label":"Image description","default":"A Filipino model in bold red and blue streetwear enjoys a sunny day beside a yellow wall"}
+  ],
+  "presets": [{"name":"Homepage hero banner"}]
+}
+{% endschema %}

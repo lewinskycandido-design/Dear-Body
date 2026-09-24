@@ -1,0 +1,13 @@
+{
+  "sections": {
+    "main": {
+      "type": "sj-page",
+      "settings": {
+        "title": "Shipping"
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

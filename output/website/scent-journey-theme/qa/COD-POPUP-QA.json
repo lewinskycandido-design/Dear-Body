@@ -1,0 +1,81 @@
+{
+  "createdAt": "2026-09-24T11:19:34.456Z",
+  "source": "theme/assets/sj-cod-popup.js",
+  "sourceSHA256": "156e1804b98204399f6ef4751ad277be2d0c42cd7f470ce056fff02098ba12dc",
+  "scope": "JSDOM, mocked prepare/verify and deterministic timer; no browser, Shopify requests, deployment or orders",
+  "total": 17,
+  "passed": 17,
+  "failed": 0,
+  "networkAttempts": 0,
+  "storageAttempts": 0,
+  "results": [
+    {
+      "label": "Missing EasySell form rejects before prepare or any mutation",
+      "pass": true
+    },
+    {
+      "label": "Missing official EasySell opener rejects before prepare or any mutation",
+      "pass": true
+    },
+    {
+      "label": "Existing commerce operation rejects before prepare or any mutation",
+      "pass": true
+    },
+    {
+      "label": "Existing shared bridge operation rejects before prepare or any mutation",
+      "pass": true
+    },
+    {
+      "label": "Exact selection is prepared before official opener; verification follows visible popup",
+      "pass": true
+    },
+    {
+      "label": "Same native variant quantities 2 + 1 coalesce to 3 before EasySell opens",
+      "pass": true
+    },
+    {
+      "label": "Concurrent calls remain blocked through preparation and post-open verification",
+      "pass": true
+    },
+    {
+      "label": "Collection handoff without a primary variant does not rewrite native PDP quantity",
+      "pass": true
+    },
+    {
+      "label": "Verification waits for popup geometry instead of merely waiting for opener click",
+      "pass": true
+    },
+    {
+      "label": "Post-open cart mismatch closes EasySell and propagates the original failure",
+      "pass": true
+    },
+    {
+      "label": "Prepare failure cannot open or verify and releases handoff for a retry",
+      "pass": true
+    },
+    {
+      "label": "Popup not opening times out at 8 seconds without verification or order success",
+      "pass": true
+    },
+    {
+      "label": "Readiness recheck after prepare fails closed when opener removed",
+      "pass": true
+    },
+    {
+      "label": "Readiness recheck after prepare fails closed when form removed",
+      "pass": true
+    },
+    {
+      "label": "Readiness recheck after prepare fails closed when commerce becomes busy",
+      "pass": true
+    },
+    {
+      "label": "Missing shared namespace leaves script inert",
+      "pass": true
+    },
+    {
+      "label": "All cases remain isolated with zero network and storage attempts",
+      "pass": true
+    }
+  ]
+}

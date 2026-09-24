@@ -1,0 +1,129 @@
+{
+  "date": "2026-09-24",
+  "status": "PASS",
+  "scope": "Typography refresh only; original photography, physical label typography and verified copy preserved.",
+  "fonts": [
+    {
+      "path": "source-assets/fonts/CenzoFlare-Bold/CenzoFlare-Bold.ttf",
+      "family": [
+        "Cenzo Flare",
+        "Bold"
+      ],
+      "sha256": "aca8e9615c3342f7b6619c35ec6bc430464ef1a2334ef73cc8bc65244ee0407a"
+    },
+    {
+      "path": "source-assets/fonts/HelveticaNowText-Regular/HelveticaNowText-Regular.ttf",
+      "family": [
+        "Helvetica Now Text ",
+        "Regular"
+      ],
+      "sha256": "be4dc86107b81ffd40ff070256f986fc244069f7abc66cc71e397d2b3b332254"
+    }
+  ],
+  "method": "Re-rendered original clean photographs and deterministic layout overlays; no photographic patching, inpainting or ImageGen edit required.",
+  "archive": "archive/2026-09-24-system-font-version",
+  "changed_frames": [
+    4,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "modified_files": [
+    "final-web/04.jpg",
+    "final-web/08.jpg",
+    "final-web/09.jpg",
+    "final-web/10.jpg",
+    "final-web/11.jpg",
+    "final-web/12.jpg",
+    "final/04-magnetic-cap.png",
+    "final/08-product-profile-infographic.png",
+    "final/09-ingredients-and-care-infographic.png",
+    "final/10-closing-hero.png",
+    "final/11-scent-description-infographic.png",
+    "final/12-who-it-fits-infographic.png"
+  ],
+  "untouched_files_sha256_verified": [
+    "final-web/01.jpg",
+    "final-web/02.jpg",
+    "final-web/03.jpg",
+    "final-web/05.jpg",
+    "final-web/06.jpg",
+    "final-web/07.jpg",
+    "final/01-featured-packshot.png",
+    "final/02-spray-in-motion.png",
+    "final/03-packaging-reveal.png",
+    "final/05-lifestyle-hero.png",
+    "final/06-lifestyle-handheld.png",
+    "final/07-lifestyle-editorial.png"
+  ],
+  "archive_files_sha256_verified": 24,
+  "exact_copy_preserved": true,
+  "photo_preservation": [
+    {
+      "frame": 4,
+      "photograph_preserved": true,
+      "changed_pixel_bounds": [
+        110,
+        146,
+        568,
+        312
+      ],
+      "only_caption_region_changed": true
+    },
+    {
+      "frame": 8,
+      "photograph_preserved": true,
+      "byte_identical_pixel_region": [
+        1046,
+        519,
+        2012,
+        1485
+      ]
+    },
+    {
+      "frame": 9,
+      "photograph_preserved": true,
+      "byte_identical_pixel_region": [
+        50,
+        375,
+        688,
+        1013
+      ]
+    },
+    {
+      "frame": 10,
+      "photograph_preserved": true,
+      "changed_pixel_bounds": [
+        99,
+        104,
+        705,
+        422
+      ],
+      "only_caption_region_changed": true
+    },
+    {
+      "frame": 11,
+      "photograph_preserved": true,
+      "byte_identical_pixel_region": [
+        1015,
+        593,
+        1975,
+        1553
+      ]
+    },
+    {
+      "frame": 12,
+      "photograph_preserved": true,
+      "byte_identical_pixel_region": [
+        80,
+        588,
+        1020,
+        1528
+      ]
+    }
+  ],
+  "visual_qa": "All 6 changed final PNG frames individually reopened and inspected: correct supplied fonts, accent and punctuation rendering, fit, margins, contrast and legibility pass. Full 12-frame contact sheet rebuilt and reviewed.",
+  "export": "2048×2048 sRGB PNG masters; 1200×1200 progressive sRGB JPEG derivatives."
+}

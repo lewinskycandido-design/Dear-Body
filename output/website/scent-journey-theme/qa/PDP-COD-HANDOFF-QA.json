@@ -1,0 +1,195 @@
+{
+  "generatedAt": "2026-09-24T11:18:42.635Z",
+  "status": "PASS",
+  "checks": 45,
+  "results": [
+    {
+      "name": "No-JS fallback retains a locale-aware native GET action for minimum quantity",
+      "pass": true
+    },
+    {
+      "name": "No-JS fallback address visible, required and initially invalid",
+      "pass": true
+    },
+    {
+      "name": "No-JS quantities and variant selection stay disabled while direct form is visible",
+      "pass": true
+    },
+    {
+      "name": "Future native minimum2 fallback renders quantity2 and Free shipping",
+      "pass": true
+    },
+    {
+      "name": "JS keeps Add to order initial action and collapses order details",
+      "pass": true
+    },
+    {
+      "name": "JS removes duplicate delivery typing through hidden disabled fieldset",
+      "pass": true
+    },
+    {
+      "name": "Address data is not a successful JS form field",
+      "pass": true
+    },
+    {
+      "name": "COD instruction explains quantity, popup delivery details and COD order",
+      "pass": true
+    },
+    {
+      "name": "Implicit submit before reveal opens selection panel without navigation",
+      "pass": true
+    },
+    {
+      "name": "Add to order focuses existing order heading and retains quantities",
+      "pass": true
+    },
+    {
+      "name": "JS form is valid without typing an address twice",
+      "pass": true
+    },
+    {
+      "name": "Default extractor contains only native ID and quantity",
+      "pass": true
+    },
+    {
+      "name": "Single-bottle estimate retains799 plus80 shipping",
+      "pass": true
+    },
+    {
+      "name": "Main scent quantity2 yields1598 with Free shipping",
+      "pass": true
+    },
+    {
+      "name": "Plus obeys quantity control",
+      "pass": true
+    },
+    {
+      "name": "Minus obeys quantity control",
+      "pass": true
+    },
+    {
+      "name": "Independent quantities preserve exact two-product order",
+      "pass": true
+    },
+    {
+      "name": "Same native variant coalesces2plus3 to5",
+      "pass": true
+    },
+    {
+      "name": "Combined maximum rejects individually valid quantities",
+      "pass": true
+    },
+    {
+      "name": "Combined native increment rule is revalidated",
+      "pass": true
+    },
+    {
+      "name": "Removing second scent disables its input and restores valid order",
+      "pass": true
+    },
+    {
+      "name": "Invalid integer quantity rejected: \"\"",
+      "pass": true
+    },
+    {
+      "name": "Invalid integer quantity rejected: 0",
+      "pass": true
+    },
+    {
+      "name": "Invalid integer quantity rejected: -1",
+      "pass": true
+    },
+    {
+      "name": "Invalid integer quantity rejected: 1.5",
+      "pass": true
+    },
+    {
+      "name": "Invalid integer quantity rejected: 9007199254740992",
+      "pass": true
+    },
+    {
+      "name": "Native min/increment/max copied into editable control",
+      "pass": true
+    },
+    {
+      "name": "Plus follows increment2",
+      "pass": true
+    },
+    {
+      "name": "Manual off-step amount invalid",
+      "pass": true
+    },
+    {
+      "name": "Plus disabled at native maximum",
+      "pass": true
+    },
+    {
+      "name": "Missing COD adapter fails visibly without redirect and focuses error",
+      "pass": true
+    },
+    {
+      "name": "Pending handoff receives one exact payload and original form reference",
+      "pass": true
+    },
+    {
+      "name": "Pending controls freeze with busy status and no order-success claim",
+      "pass": true
+    },
+    {
+      "name": "Opening popup restores inline controls while keeping app focus",
+      "pass": true
+    },
+    {
+      "name": "No duplicate address validation returns after popup opening",
+      "pass": true
+    },
+    {
+      "name": "Real adapter failure is shown with retryable controls and error focus",
+      "pass": true
+    },
+    {
+      "name": "COD global mutex blocks repeated cross-flow handoff",
+      "pass": true
+    },
+    {
+      "name": "Legacy cart add/change/native checkout respect COD mutex",
+      "pass": true
+    },
+    {
+      "name": "Legacy cart busy state is a read-only getter",
+      "pass": true
+    },
+    {
+      "name": "Sold-out primary never reaches COD adapter",
+      "pass": true
+    },
+    {
+      "name": "Unavailable second scent rejected by pure extractor",
+      "pass": true
+    },
+    {
+      "name": "Malformed variant IDs rejected",
+      "pass": true
+    },
+    {
+      "name": "PDP handoff does not serialize address or create native checkout URL",
+      "pass": true
+    },
+    {
+      "name": "Handoff does not produce a local success popup or order confirmation",
+      "pass": true
+    },
+    {
+      "name": "No network, storage, navigation or unexpected script exception",
+      "pass": true
+    }
+  ],
+  "networkRequests": 0,
+  "storageWrites": 0,
+  "navigationAttempts": 0,
+  "boundaries": [
+    "Actual Liquid form with synthetic products and no personal addresses.",
+    "EasySell adapter is replaced by a deferred promise representing popup opening or failure; no order success is simulated.",
+    "No real EasySell/Shopify order, external request or checkout navigation occurs. Live opener, cart preparation and order persistence are outside this PDP-only test."
+  ]
+}

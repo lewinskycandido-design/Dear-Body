@@ -1,0 +1,11 @@
+{
+  "sections": {
+    "main": {
+      "type": "sj-scent-finder",
+      "settings": {}
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

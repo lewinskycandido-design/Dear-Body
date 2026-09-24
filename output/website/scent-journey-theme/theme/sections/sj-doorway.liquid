@@ -1,0 +1,139 @@
+<section id="ShopCollections" class="sj-doorway sj-container" aria-labelledby="DoorwayTitle-{{ section.id }}">
+  <header class="sj-doorway-intro"><p class="sj-eyebrow">{{ section.settings.eyebrow | escape }}</p><h2 id="DoorwayTitle-{{ section.id }}">{{ section.settings.heading | escape | newline_to_br }}</h2><p>{{ section.settings.description | escape }}</p></header>
+  <div class="sj-doorway-grid">
+  {% for block in section.blocks %}
+  {% liquid
+    assign light_name = 'sj-' | append: block.settings.direction | append: '-light.jpg'
+    assign dark_name = 'sj-' | append: block.settings.direction | append: '-dark.jpg'
+    assign light_src = light_name | asset_url
+    assign dark_src = dark_name | asset_url
+    if block.settings.image_light != blank
+      assign light_src = block.settings.image_light | image_url: width: 1400
+    endif
+    if block.settings.image_dark != blank
+      assign dark_src = block.settings.image_dark | image_url: width: 1400
+    endif
+    assign current_src = light_src
+    if settings.visual_theme == 'dark'
+      assign current_src = dark_src
+    endif
+    assign destination = block.settings.collection.url | default: routes.all_products_collection_url
+  %}
+  <a class="sj-doorway-link sj-doorway-link--{{ block.settings.direction }}" href="{{ destination }}" aria-label="Shop {{ block.settings.title | downcase | escape }} perfumes" {{ block.shopify_attributes }}>
+    <div class="sj-doorway-photo">
+    {% if settings.compare_mode %}<template data-sj-theme-template><img data-sj-themed-image data-light-src="{{ light_src }}" data-dark-src="{{ dark_src }}" data-src="{{ current_src }}" alt="{{ block.settings.image_alt | escape }}" width="1073" height="1466" loading="lazy" fetchpriority="auto"></template><script>(()=>{const t=document.currentScript.previousElementSibling,f=t.content.cloneNode(true),m=document.documentElement.dataset.theme;f.querySelectorAll('img').forEach(i=>i.src=i.dataset[m+'Src']||i.dataset.src);t.replaceWith(f)})();</script><noscript><img src="{{ current_src }}" alt="{{ block.settings.image_alt | escape }}" width="1073" height="1466"></noscript>{% else %}<img src="{{ current_src }}" alt="{{ block.settings.image_alt | escape }}" width="1073" height="1466" loading="lazy" fetchpriority="auto">{% endif %}
+    </div>
+    <div class="sj-doorway-top"><span>{{ block.settings.eyebrow | escape }}</span><span>0{{ forloop.index }}</span></div>
+    <div class="sj-doorway-copy"><p>{{ block.settings.line | escape | newline_to_br }}</p><div><h2>{{ block.settings.title | escape }}</h2></div><span class="sj-doorway-cta">Explore {{ block.settings.title | capitalize | escape }}</span></div>
+  </a>
+  {% endfor %}
+  </div>
+  <div class="sj-doorway-footer"><span>Not sure where to begin?</span><a href="{{ settings.finder_url | default: '/pages/scent-finder' }}">Find my scent</a></div>
+</section>
+{% schema %}
+{
+  "name": "Women and Men gateways",
+  "limit": 1,
+  "max_blocks": 2,
+  "settings": [
+    {
+      "type": "text",
+      "id": "eyebrow",
+      "label": "Eyebrow",
+      "default": "THE COLLECTIONS"
+    },
+    {
+      "type": "textarea",
+      "id": "heading",
+      "label": "Heading",
+      "default": "FIND YOUR SIDE."
+    },
+    {
+      "type": "textarea",
+      "id": "description",
+      "label": "Description",
+      "default": "Explore our fragrances for women and men."
+    }
+  ],
+  "blocks": [
+    {
+      "type": "collection",
+      "name": "Collection gateway",
+      "settings": [
+        {
+          "type": "select",
+          "id": "direction",
+          "label": "Campaign image set",
+          "options": [
+            {
+              "value": "women",
+              "label": "Women"
+            },
+            {
+              "value": "men",
+              "label": "Men"
+            }
+          ],
+          "default": "women"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title",
+          "default": "WOMEN"
+        },
+        {
+          "type": "text",
+          "id": "eyebrow",
+          "label": "Eyebrow",
+          "default": "EVERYDAY, A LITTLE MORE YOU."
+        },
+        {
+          "type": "textarea",
+          "id": "line",
+          "label": "Campaign line",
+          "default": "Leave a little you in the air."
+        },
+        {
+          "type": "collection",
+          "id": "collection",
+          "label": "Destination collection"
+        },
+        {
+          "type": "image_picker",
+          "id": "image_light",
+          "label": "Light campaign image"
+        },
+        {
+          "type": "image_picker",
+          "id": "image_dark",
+          "label": "Dark campaign image"
+        },
+        {
+          "type": "text",
+          "id": "image_alt",
+          "label": "Image description",
+          "default": "A warm, expressive everyday moment in the Philippines"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Women and Men gateways",
+      "blocks": [
+        {
+          "type": "collection"
+        },
+        {
+          "type": "collection",
+          "settings": {
+            "direction": "men",
+            "title": "MEN"
+          }
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

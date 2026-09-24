@@ -1,0 +1,107 @@
+{
+  "title": "Same-page COD orders — focused draft browser evidence",
+  "recordedDate": "2026-09-24",
+  "status": "PASS",
+  "evidenceSource": "Release owner's direct browser observations, recorded by product-detail agent",
+  "theme": {
+    "id": "167085703233",
+    "roleAtVerification": "draft",
+    "publication": "confirmed live by Shopify CLI after these draft checks",
+    "finalZip": "DearBody-Theme-Update-COD-Orders.zip",
+    "independentPublicAudit": "pending"
+  },
+  "privacy": {
+    "customerContactIncluded": false,
+    "addressIncluded": false,
+    "ipIncluded": false,
+    "cartTokenIncluded": false
+  },
+  "cases": [
+    {
+      "name": "PDP exact quantities and genuine same-page COD order",
+      "status": "PASS",
+      "pathnameBeforeAndAfter": "/products/oud-mirage",
+      "items": [
+        { "handle": "oud-mirage", "quantity": 2 },
+        { "handle": "amber-oud-silk", "quantity": 1 }
+      ],
+      "itemCount": 3,
+      "currency": "PHP",
+      "subtotal": 2397,
+      "shipping": 0,
+      "total": 2397,
+      "paymentMethod": "Cash on Delivery",
+      "paymentStatusBeforeCancellation": "pending",
+      "confirmationText": "Order placed",
+      "redirected": false,
+      "persistedOrder": {
+        "number": "1001",
+        "shopifyId": "7184480272449",
+        "explicitlyAuthorizedTest": true,
+        "exactLinesAndQuantitiesConfirmed": true,
+        "finalStatus": ["Canceled", "Voided", "Archived"],
+        "removedQuantity": 3,
+        "restockChecked": true,
+        "restockedQuantity": 3,
+        "sendNotificationChecked": false,
+        "fulfilled": false
+      }
+    },
+    {
+      "name": "Women mobile first-card selection and single-bottle shipping",
+      "status": "PASS",
+      "viewportWidth": 390,
+      "documentWidth": 390,
+      "documentScrollWidth": 390,
+      "selectedCard": "first",
+      "gridOrderAfterSelection": ["PRODUCT", "PRODUCT", "PRODUCT", "FORM"],
+      "lastProductBottom": 945.8047,
+      "panelTop": 991.8047,
+      "panelBelowAllProducts": true,
+      "items": [{ "handle": "mistened-narcissus", "quantity": 1 }],
+      "currency": "PHP",
+      "popupSubtotal": 799,
+      "popupShipping": 80,
+      "popupTotal": 879,
+      "orderSubmitted": false
+    },
+    {
+      "name": "Men narrow mobile mixed-collection selection and free shipping",
+      "status": "PASS",
+      "viewportWidth": 320,
+      "documentWidth": 320,
+      "documentScrollWidth": 320,
+      "gridOrderAfterSelection": ["PRODUCT", "PRODUCT", "PRODUCT", "FORM"],
+      "lastProductBottom": 848.1953,
+      "panelTop": 894.1953,
+      "panelBelowAllProducts": true,
+      "items": [
+        { "handle": "rtulle-satin", "quantity": 1 },
+        { "handle": "mojito-metallique", "quantity": 1 }
+      ],
+      "currency": "PHP",
+      "popupSubtotal": 1598,
+      "popupShipping": 0,
+      "popupTotal": 1598,
+      "popupWidth": 300.797,
+      "popupFitsViewport": true,
+      "orderSubmitted": false
+    }
+  ],
+  "messaging": {
+    "servicesRechecked": 4,
+    "allServicesStatus": "Deactivated",
+    "paidSmsEnabled": false,
+    "paidWhatsAppEnabled": false
+  },
+  "remaining": [
+    "Independent public-store audit",
+    "Release-owner verification of the Downloads archive copy"
+  ],
+  "limitations": [
+    "This evidence covers the recorded draft cases, not a later published theme.",
+    "Only one authorized test order was placed; collection checks stopped at the popup.",
+    "PDP viewport dimensions were not supplied and are not inferred.",
+    "No personal contact information, address, IP or cart token is retained in this report."
+  ]
+}

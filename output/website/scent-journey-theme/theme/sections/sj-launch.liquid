@@ -1,0 +1,64 @@
+<section class="sj-container sj-section" aria-labelledby="launch-{{ section.id }}"><div class="sj-section-heading"><div><p class="sj-eyebrow">01 — THE COLLECTION</p><h2 id="launch-{{ section.id }}">{{ section.settings.heading | escape }}</h2></div><p>{{ section.settings.description | escape }}</p></div><div class="sj-launch-grid">{% for block in section.blocks %}{% assign launch_product = block.settings.product %}{% if launch_product != blank %}<div {{ block.shopify_attributes }}>{% render 'sj-product-card', product: launch_product, index: forloop.index %}</div>{% endif %}{% endfor %}</div><div class="sj-launch-tail"><a class="sj-button sj-button--secondary" href="{{ section.settings.collection.url | default: routes.all_products_collection_url }}">Explore all fragrances</a></div></section>
+{% schema %}
+{
+  "name": "The first chapter",
+  "max_blocks": 12,
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "THE FIRST CHAPTER"
+    },
+    {
+      "type": "textarea",
+      "id": "description",
+      "label": "Description",
+      "default": "Distinct fragrance personalities. Find the one that starts your DearBody scent journey."
+    },
+    {
+      "type": "collection",
+      "id": "collection",
+      "label": "View all collection"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "product",
+      "name": "Launch fragrance",
+      "settings": [
+        {
+          "type": "product",
+          "id": "product",
+          "label": "Product"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "The first chapter",
+      "blocks": [
+        {
+          "type": "product"
+        },
+        {
+          "type": "product"
+        },
+        {
+          "type": "product"
+        },
+        {
+          "type": "product"
+        },
+        {
+          "type": "product"
+        },
+        {
+          "type": "product"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

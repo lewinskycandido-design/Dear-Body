@@ -1,0 +1,46 @@
+{
+  "timestamp": "2026-09-24T02:49:03.948Z",
+  "cause": "The prior preview server predated the new preload_tag adapter filter. Restarting loaded the updated adapter. The local search adapter also now supplies the native product object_type marker so matching products render as product cards; no theme workaround was needed.",
+  "checks": [
+    {
+      "label": "light /search: HTTP success"
+    },
+    {
+      "label": "light /search: correct theme"
+    },
+    {
+      "label": "light /search: one H1"
+    },
+    {
+      "label": "light: both supplied fonts load on dynamic search"
+    },
+    {
+      "label": "light: real Oud results"
+    },
+    {
+      "label": "light: no search overflow"
+    },
+    {
+      "label": "dark /search: HTTP success"
+    },
+    {
+      "label": "dark /search: correct theme"
+    },
+    {
+      "label": "dark /search: one H1"
+    },
+    {
+      "label": "dark: both supplied fonts load on dynamic search"
+    },
+    {
+      "label": "dark: real Oud results"
+    },
+    {
+      "label": "dark: no search overflow"
+    },
+    {
+      "label": "Image review includes all 86 loaded images"
+    }
+  ],
+  "failures": []
+}

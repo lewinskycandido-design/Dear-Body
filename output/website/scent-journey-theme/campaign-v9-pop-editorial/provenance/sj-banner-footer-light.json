@@ -1,0 +1,22 @@
+{
+  "asset": "sj-banner-footer-light",
+  "tool": "built-in image_gen",
+  "sourceOutputPath": "/Users/wetrade/.codex/generated_images/01a0d0f8-8d24-7131-8c77-de85e96f8179/exec-7e7f836e-44a2-4ad6-bbc4-7a49abb3c926.png",
+  "dimensions": [
+    1774,
+    887
+  ],
+  "original_sha256": "6e85a5ce5767883495c563d97a67ef0562718ff6c0ff1003bfbef6edc1eb1a2b",
+  "prompt": "prompts/sj-banner-footer-light.txt",
+  "reference": "references/publication-materials-reference.png",
+  "alt": "A red bag, green sunglasses and colourful knitwear frame a sunny cream stone bench.",
+  "qa": {
+    "realistic_anatomy": "PASS: one cropped natural hand",
+    "faces": 0,
+    "product_free": true,
+    "reference_style": "PASS: scarlet/cobalt/lemon/green, hard sunny texture",
+    "center_copy_space": "PASS",
+    "native_image_inspected": true,
+    "recommended_mobile_object_position": "70% center"
+  }
+}

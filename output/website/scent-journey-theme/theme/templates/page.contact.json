@@ -1,0 +1,11 @@
+{
+  "sections": {
+    "main": {
+      "type": "sj-contact",
+      "settings": {}
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

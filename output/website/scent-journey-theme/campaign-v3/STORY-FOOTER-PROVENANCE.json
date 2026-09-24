@@ -1,0 +1,36 @@
+{
+  "generated_by": "Built-in imagegen",
+  "date": "2026-09-24",
+  "scope": "New Our Story and footer banners, local files only; no theme or Shopify changes",
+  "palette": [
+    "#F4E3CB",
+    "#5C0006",
+    "#91100D",
+    "#A2490B",
+    "#EAAA3D"
+  ],
+  "assets": [
+    {
+      "file": "sj-banner-story-light",
+      "path": "/Users/wetrade/.codex/generated_images/01a0d0f9-afdf-7412-a990-cf7a45f1c2b6/exec-80b548a1-56ba-4e9f-a9c0-4d14de8ea32d.png",
+      "prompt": "Create a NEW verywide panoramic PHOTOGRAPHIC website Our Story header, landscape aspect ratio approximately2.4:1 (1792x768 or closestwide). Premium approachable contemporary Filipino lifestyle campaign, genuinewarmfunlight mood. On RIGHT55% ofimage, THREE adult Filipino friends (two women and one man, late20s/30s) casuallysharingaspontaneous happy moment on real modern sunnyterrace. Natural smilingconversation, one passes plaincreamcup, realisticfingers/arms, candidrelaxedmovementnotpose. Stylishattainable linenwardrobe in cream #F4E3CB, warmred #91100D and muted burntOrange #A2490B, burgundy #5C0006 wovenchairandgolden #EAAA3D sunlightaccents. Filipinoarchitecturecontext throughrealterracottapavers/woodshutters and greenery; believablelow-risetropicalurbanterrace. LEFT45% mostlyempty sunlitwarmcreamplasterwall withverysubtleplantshadow, clearheadlinespace. No people onleft; composeallfacesbeyondx55%, faces away fromtopedge. Beautifulnaturaldaylightskin, physicallyplausiblecontactandfurniture, gracefulbalancedshot. No perfume, bottles, canisters, fragranceproducts, logos, signs, writing, watermark or addedtext. Photorealactualphotograph notCG, notillustration. Widewebsitebanner."
+    },
+    {
+      "file": "sj-banner-story-dark",
+      "path": "/Users/wetrade/.codex/generated_images/01a0d0f9-afdf-7412-a990-cf7a45f1c2b6/exec-884b721e-d6b2-4459-aea1-0d88d4752091.png",
+      "prompt": "Edit this exact wide OurStory photograph into warmAMBER EVENING version. Preserve exactscene composition, 3adultFilipinofriends, faces, smiles, hand/cupinteraction, outfits, seatingpositions, realistic anatomy, allterracearchitecture and largeemptyLEFT45%headlinewall. ChangeONLY illumination/timeofday/colorcast: latewarmblue-hour outside with goldenamber practicalterracelight fromright, softwarm bounceonfaces/skin. Leftwall in richwarmburgundy #5C0006 tones through twilight/warmcolourlighting, stilltexturevisibleandcleannegativecopyspace; avoidany blackopaqueveil. Wardrobe stayscream #F4E3CB warmred #91100D burntOrange #A2490B with gold #EAAA3D highlights. Humanmoment should remain FUN WARM LIGHT and approachable, allpeopleclearlyseen, warmrefinedevening notgloomy, notnightclub. No addedlightsimpossiblegeometry, noextrapeople, no newobjects, no perfumeorproducts, nolettering/logos/watermarks. Same verywideaspect~2.4:1, actualphotographicnaturalrender.",
+      "reference": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/campaign-v3/originals/sj-banner-story-light.png"
+    },
+    {
+      "file": "sj-banner-footer-light",
+      "path": "/Users/wetrade/.codex/generated_images/01a0d0f9-afdf-7412-a990-cf7a45f1c2b6/exec-e2230e85-cfa1-41c6-920c-0e52c6c7653d.png",
+      "prompt": "Create NEW verywide panoramic PHOTOGRAPHIC footer websitebanner, landscape aspectapproximately2.4:1 (1792x768 or closestwide). A quiet inviting contemporary Filipinoterrace corner, authentic photograph of warmgoldenafternoon SUNLIGHT fallingacross softtexturedwarmcream linen #F4E3CB and a singleburgundy #5C0006 fabric edge on lowwoodwindowseat byactualterracewindow. Warmred #91100D and mutedburntOrange #A2490B sliverterracottatile, gold #EAAA3D sunbeam, lushnaturalplantshadow castfromoutside. Believablematerials/construction, tactilefabricfoldsrealistic notCGsculpture. BroadMIDDLE70% calm lightcreamlinen/wall surface withgentleshading and verylittlevisualclutter suitablefor largeclosingcopylater, decorativewindow/fabrics clusteredonleftandrightedges. Photographic warmapproachablelifestylequietmoment. NO PEOPLE, hands, faces, productbottles, perfume, canisters, logos, objectswithwriting, text,watermark. NoabstractCG or surrealgeometry. Widewebsitefooterimage."
+    },
+    {
+      "file": "sj-banner-footer-dark",
+      "path": "/Users/wetrade/.codex/generated_images/01a0d0f9-afdf-7412-a990-cf7a45f1c2b6/exec-d8ce01f6-cc60-48f5-a34f-1e84c9a1a812.png",
+      "prompt": "Edit this exact wide footerphotograph into matchingWARM AMBER EVENING version. Preserve originalcomposition, windowleft, texturedcreamlinenwindowseat, burgundyfabricedges/pillows, terracottaplantpotright, lushplantshadowand broademptyMIDDLE70% forcopy. ChangeONLY lighting/timeofday: warmamberpracticalterraceillumination at earlyevening, mutedblue-hour outsideleftwindow, golden#EAAA3D highlights onlinen and texturedwall. Wallandshadows gain warmdeepburgundy #5C0006/cinnamonundertones while physicalmaterialdetail remainsclear, cream #F4E3CB linenstayscreamy and inviting; notblack,gloomy or muddy. Balancedlegiblenegativecopyspace, genuinephotographicquietcontemporaryFilipinoterracemoment. Nopeople/hands/faces, bottles, products, scent props, typography, logos, watermark. Sameexactwideaspect~2.4:1 and framing; noobjectadditions.",
+      "reference": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/campaign-v3/originals/sj-banner-footer-light.png"
+    }
+  ]
+}

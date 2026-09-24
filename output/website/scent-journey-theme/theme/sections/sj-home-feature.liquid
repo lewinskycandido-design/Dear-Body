@@ -1,0 +1,111 @@
+{{ 'sj-home-feature.css' | asset_url | stylesheet_tag }}
+{%- liquid
+  assign feature_kind = section.settings.feature | default: 'magnetic'
+  assign feature_asset = 'sj-home-magnetic-cap.jpg'
+  if feature_kind == 'collectible'
+    assign feature_asset = 'sj-home-collectible.jpg'
+  elsif feature_kind == 'shipping'
+    assign feature_asset = 'sj-home-free-shipping.jpg'
+  endif
+  assign feature_heading = section.settings.heading | default: 'MAGNETIC CAP'
+  assign feature_alt = section.settings.image_alt | default: section.settings.image.alt
+-%}
+<section class="sj-home-feature sj-home-feature--{{ feature_kind | escape }}" aria-labelledby="HomeFeatureTitle-{{ section.id }}" style="--feature-mobile-focus:{{ section.settings.mobile_image_position | default: 80 }}%;">
+  <div class="sj-home-feature__media">
+    {% if section.settings.image != blank %}
+      {{ section.settings.image | image_url: width: 2400 | image_tag: widths: '540, 750, 1100, 1500, 1800, 2400', sizes: '100vw', loading: 'lazy', alt: feature_alt }}
+    {% else %}
+      <img src="{{ feature_asset | asset_url }}" width="1774" height="887" alt="{{ feature_alt | escape }}" loading="lazy">
+    {% endif %}
+  </div>
+  <div class="sj-home-feature__inner sj-container">
+    <div class="sj-home-feature__copy">
+      {% if section.settings.eyebrow != blank %}<p class="sj-eyebrow">{{ section.settings.eyebrow | escape }}</p>{% endif %}
+      <h2 id="HomeFeatureTitle-{{ section.id }}">{{ feature_heading | escape | newline_to_br }}</h2>
+      {% if section.settings.subheading != blank %}<p class="sj-home-feature__subheading">{{ section.settings.subheading | escape }}</p>{% endif %}
+      {% if section.settings.description != blank %}<p class="sj-home-feature__description">{{ section.settings.description | escape }}</p>{% endif %}
+    </div>
+  </div>
+</section>
+{% schema %}
+{
+  "name": "Homepage photo feature",
+  "enabled_on": {
+    "templates": [
+      "index"
+    ]
+  },
+  "settings": [
+    {
+      "type": "select",
+      "id": "feature",
+      "label": "Default artwork",
+      "default": "magnetic",
+      "options": [
+        {
+          "value": "magnetic",
+          "label": "Magnetic cap"
+        },
+        {
+          "value": "collectible",
+          "label": "Made to collect"
+        },
+        {
+          "value": "shipping",
+          "label": "Free shipping"
+        }
+      ]
+    },
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image override",
+      "info": "Use a 2:1 photograph with quiet space on the left. Keep the important detail on the right and in the upper half for mobile."
+    },
+    {
+      "type": "text",
+      "id": "image_alt",
+      "label": "Image description",
+      "default": "A DearBody fragrance bottle with its black magnetic cap lifted above the neck"
+    },
+    {
+      "type": "range",
+      "id": "mobile_image_position",
+      "label": "Mobile horizontal image focus",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "%",
+      "default": 80
+    },
+    {
+      "type": "text",
+      "id": "eyebrow",
+      "label": "Eyebrow",
+      "default": "A LITTLE DETAIL. A LOVELY FINISH."
+    },
+    {
+      "type": "textarea",
+      "id": "heading",
+      "label": "Heading",
+      "default": "MAGNETIC CAP"
+    },
+    {
+      "type": "text",
+      "id": "subheading",
+      "label": "Supporting headline"
+    },
+    {
+      "type": "textarea",
+      "id": "description",
+      "label": "Description",
+      "default": "The magnetic cap clicks neatly into place. A satisfying finishing touch to your everyday fragrance."
+    }
+  ],
+  "presets": [
+    {
+      "name": "Homepage photo feature"
+    }
+  ]
+}
+{% endschema %}

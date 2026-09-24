@@ -1,0 +1,1436 @@
+{
+  "generatedAt": "2026-09-24T09:26:36.368Z",
+  "scope": "Local isolated native Liquid fixtures. Verified PHP80 base rate and active automatic free shipping at quantity >=2 in Philippines; cart.total_price includes discounts. Native cart retained only as a fallback after direct PDP checkout steering.",
+  "checks": [
+    {
+      "pass": true,
+      "name": "Strict Shopify Liquid parse: sections/sj-cart.liquid"
+    },
+    {
+      "pass": true,
+      "name": "Strict Shopify Liquid parse: sections/sj-cart-drawer.liquid"
+    },
+    {
+      "pass": true,
+      "name": "Strict Shopify Liquid parse: snippets/sj-cart-shipping-summary.liquid"
+    },
+    {
+      "pass": true,
+      "name": "empty / sj-cart: no invented fee or total"
+    },
+    {
+      "pass": true,
+      "name": "empty / sj-cart: verified COD statement scoped to Philippines estimate"
+    },
+    {
+      "pass": true,
+      "name": "empty / sj-cart: component stylesheet included"
+    },
+    {
+      "pass": true,
+      "name": "empty / sj-cart-drawer: no invented fee or total"
+    },
+    {
+      "pass": true,
+      "name": "empty / sj-cart-drawer: verified COD statement scoped to Philippines estimate"
+    },
+    {
+      "pass": true,
+      "name": "empty / sj-cart-drawer: component stylesheet included"
+    },
+    {
+      "pass": true,
+      "name": "empty: shared close icon keeps accessible label"
+    },
+    {
+      "pass": true,
+      "name": "one item / sj-cart: shipping row exists"
+    },
+    {
+      "pass": true,
+      "name": "one item / sj-cart: verified fee or unknown fallback",
+      "detail": {
+        "case": "one item",
+        "type": "sj-cart",
+        "fee": "8000",
+        "shippingText": "₱80.00",
+        "total": "₱879.00 PHP"
+      }
+    },
+    {
+      "pass": true,
+      "name": "one item / sj-cart: estimated total",
+      "detail": {
+        "case": "one item",
+        "type": "sj-cart",
+        "fee": "8000",
+        "shippingText": "₱80.00",
+        "total": "₱879.00 PHP"
+      }
+    },
+    {
+      "pass": true,
+      "name": "one item / sj-cart: truthful rate label",
+      "detail": {
+        "case": "one item",
+        "type": "sj-cart",
+        "fee": "8000",
+        "shippingText": "₱80.00",
+        "total": "₱879.00 PHP"
+      }
+    },
+    {
+      "pass": true,
+      "name": "one item / sj-cart: concise estimate qualification"
+    },
+    {
+      "pass": true,
+      "name": "one item / sj-cart: shared quantity icons retain hooks"
+    },
+    {
+      "pass": true,
+      "name": "one item / sj-cart: accessible no-JS controls preserved"
+    },
+    {
+      "pass": true,
+      "name": "one item / sj-cart: verified COD statement scoped to Philippines estimate"
+    },
+    {
+      "pass": true,
+      "name": "one item / sj-cart: component stylesheet included"
+    },
+    {
+      "pass": true,
+      "name": "one item / sj-cart-drawer: shipping row exists"
+    },
+    {
+      "pass": true,
+      "name": "one item / sj-cart-drawer: verified fee or unknown fallback",
+      "detail": {
+        "case": "one item",
+        "type": "sj-cart-drawer",
+        "fee": "8000",
+        "shippingText": "₱80.00",
+        "total": "₱879.00 PHP"
+      }
+    },
+    {
+      "pass": true,
+      "name": "one item / sj-cart-drawer: estimated total",
+      "detail": {
+        "case": "one item",
+        "type": "sj-cart-drawer",
+        "fee": "8000",
+        "shippingText": "₱80.00",
+        "total": "₱879.00 PHP"
+      }
+    },
+    {
+      "pass": true,
+      "name": "one item / sj-cart-drawer: truthful rate label",
+      "detail": {
+        "case": "one item",
+        "type": "sj-cart-drawer",
+        "fee": "8000",
+        "shippingText": "₱80.00",
+        "total": "₱879.00 PHP"
+      }
+    },
+    {
+      "pass": true,
+      "name": "one item / sj-cart-drawer: concise estimate qualification"
+    },
+    {
+      "pass": true,
+      "name": "one item / sj-cart-drawer: shared quantity icons retain hooks"
+    },
+    {
+      "pass": true,
+      "name": "one item / sj-cart-drawer: accessible no-JS controls preserved"
+    },
+    {
+      "pass": true,
+      "name": "one item / sj-cart-drawer: verified COD statement scoped to Philippines estimate"
+    },
+    {
+      "pass": true,
+      "name": "one item / sj-cart-drawer: component stylesheet included"
+    },
+    {
+      "pass": true,
+      "name": "one item: shared close icon keeps accessible label"
+    },
+    {
+      "pass": true,
+      "name": "two items threshold / sj-cart: shipping row exists"
+    },
+    {
+      "pass": true,
+      "name": "two items threshold / sj-cart: verified fee or unknown fallback",
+      "detail": {
+        "case": "two items threshold",
+        "type": "sj-cart",
+        "fee": "0",
+        "shippingText": "Free",
+        "total": "₱1,598.00 PHP"
+      }
+    },
+    {
+      "pass": true,
+      "name": "two items threshold / sj-cart: estimated total",
+      "detail": {
+        "case": "two items threshold",
+        "type": "sj-cart",
+        "fee": "0",
+        "shippingText": "Free",
+        "total": "₱1,598.00 PHP"
+      }
+    },
+    {
+      "pass": true,
+      "name": "two items threshold / sj-cart: truthful rate label",
+      "detail": {
+        "case": "two items threshold",
+        "type": "sj-cart",
+        "fee": "0",
+        "shippingText": "Free",
+        "total": "₱1,598.00 PHP"
+      }
+    },
+    {
+      "pass": true,
+      "name": "two items threshold / sj-cart: concise estimate qualification"
+    },
+    {
+      "pass": true,
+      "name": "two items threshold / sj-cart: shared quantity icons retain hooks"
+    },
+    {
+      "pass": true,
+      "name": "two items threshold / sj-cart: accessible no-JS controls preserved"
+    },
+    {
+      "pass": true,
+      "name": "two items threshold / sj-cart: verified COD statement scoped to Philippines estimate"
+    },
+    {
+      "pass": true,
+      "name": "two items threshold / sj-cart: component stylesheet included"
+    },
+    {
+      "pass": true,
+      "name": "two items threshold / sj-cart-drawer: shipping row exists"
+    },
+    {
+      "pass": true,
+      "name": "two items threshold / sj-cart-drawer: verified fee or unknown fallback",
+      "detail": {
+        "case": "two items threshold",
+        "type": "sj-cart-drawer",
+        "fee": "0",
+        "shippingText": "Free",
+        "total": "₱1,598.00 PHP"
+      }
+    },
+    {
+      "pass": true,
+      "name": "two items threshold / sj-cart-drawer: estimated total",
+      "detail": {
+        "case": "two items threshold",
+        "type": "sj-cart-drawer",
+        "fee": "0",
+        "shippingText": "Free",
+        "total": "₱1,598.00 PHP"
+      }
+    },
+    {
+      "pass": true,
+      "name": "two items threshold / sj-cart-drawer: truthful rate label",
+      "detail": {
+        "case": "two items threshold",
+        "type": "sj-cart-drawer",
+        "fee": "0",
+        "shippingText": "Free",
+        "total": "₱1,598.00 PHP"
+      }
+    },
+    {
+      "pass": true,
+      "name": "two items threshold / sj-cart-drawer: concise estimate qualification"
+    },
+    {
+      "pass": true,
+      "name": "two items threshold / sj-cart-drawer: shared quantity icons retain hooks"
+    },
+    {
+      "pass": true,
+      "name": "two items threshold / sj-cart-drawer: accessible no-JS controls preserved"
+    },
+    {
+      "pass": true,
+      "name": "two items threshold / sj-cart-drawer: verified COD statement scoped to Philippines estimate"
+    },
+    {
+      "pass": true,
+      "name": "two items threshold / sj-cart-drawer: component stylesheet included"
+    },
+    {
+      "pass": true,
+      "name": "two items threshold: shared close icon keeps accessible label"
+    },
+    {
+      "pass": true,
+      "name": "discounted two items still qualify / sj-cart: shipping row exists"
+    },
+    {
+      "pass": true,
+      "name": "discounted two items still qualify / sj-cart: verified fee or unknown fallback",
+      "detail": {
+        "case": "discounted two items still qualify",
+        "type": "sj-cart",
+        "fee": "0",
+        "shippingText": "Free",
+        "total": "₱1,438.20 PHP"
+      }
+    },
+    {
+      "pass": true,
+      "name": "discounted two items still qualify / sj-cart: estimated total",
+      "detail": {
+        "case": "discounted two items still qualify",
+        "type": "sj-cart",
+        "fee": "0",
+        "shippingText": "Free",
+        "total": "₱1,438.20 PHP"
+      }
+    },
+    {
+      "pass": true,
+      "name": "discounted two items still qualify / sj-cart: truthful rate label",
+      "detail": {
+        "case": "discounted two items still qualify",
+        "type": "sj-cart",
+        "fee": "0",
+        "shippingText": "Free",
+        "total": "₱1,438.20 PHP"
+      }
+    },
+    {
+      "pass": true,
+      "name": "discounted two items still qualify / sj-cart: concise estimate qualification"
+    },
+    {
+      "pass": true,
+      "name": "discounted two items still qualify / sj-cart: shared quantity icons retain hooks"
+    },
+    {
+      "pass": true,
+      "name": "discounted two items still qualify / sj-cart: accessible no-JS controls preserved"
+    },
+    {
+      "pass": true,
+      "name": "discounted two items still qualify / sj-cart: native quantity-based qualification"
+    },
+    {
+      "pass": true,
+      "name": "discounted two items still qualify / sj-cart: verified COD statement scoped to Philippines estimate"
+    },
+    {
+      "pass": true,
+      "name": "discounted two items still qualify / sj-cart: component stylesheet included"
+    },
+    {
+      "pass": true,
+      "name": "discounted two items still qualify / sj-cart-drawer: shipping row exists"
+    },
+    {
+      "pass": true,
+      "name": "discounted two items still qualify / sj-cart-drawer: verified fee or unknown fallback",
+      "detail": {
+        "case": "discounted two items still qualify",
+        "type": "sj-cart-drawer",
+        "fee": "0",
+        "shippingText": "Free",
+        "total": "₱1,438.20 PHP"
+      }
+    },
+    {
+      "pass": true,
+      "name": "discounted two items still qualify / sj-cart-drawer: estimated total",
+      "detail": {
+        "case": "discounted two items still qualify",
+        "type": "sj-cart-drawer",
+        "fee": "0",
+        "shippingText": "Free",
+        "total": "₱1,438.20 PHP"
+      }
+    },
+    {
+      "pass": true,
+      "name": "discounted two items still qualify / sj-cart-drawer: truthful rate label",
+      "detail": {
+        "case": "discounted two items still qualify",
+        "type": "sj-cart-drawer",
+        "fee": "0",
+        "shippingText": "Free",
+        "total": "₱1,438.20 PHP"
+      }
+    },
+    {
+      "pass": true,
+      "name": "discounted two items still qualify / sj-cart-drawer: concise estimate qualification"
+    },
+    {
+      "pass": true,
+      "name": "discounted two items still qualify / sj-cart-drawer: shared quantity icons retain hooks"
+    },
+    {
+      "pass": true,
+      "name": "discounted two items still qualify / sj-cart-drawer: accessible no-JS controls preserved"
+    },
+    {
+      "pass": true,
+      "name": "discounted two items still qualify / sj-cart-drawer: native quantity-based qualification"
+    },
+    {
+      "pass": true,
+      "name": "discounted two items still qualify / sj-cart-drawer: verified COD statement scoped to Philippines estimate"
+    },
+    {
+      "pass": true,
+      "name": "discounted two items still qualify / sj-cart-drawer: component stylesheet included"
+    },
+    {
+      "pass": true,
+      "name": "discounted two items still qualify: shared close icon keeps accessible label"
+    },
+    {
+      "pass": true,
+      "name": "two items below former threshold still qualify / sj-cart: shipping row exists"
+    },
+    {
+      "pass": true,
+      "name": "two items below former threshold still qualify / sj-cart: verified fee or unknown fallback",
+      "detail": {
+        "case": "two items below former threshold still qualify",
+        "type": "sj-cart",
+        "fee": "0",
+        "shippingText": "Free",
+        "total": "₱1,597.99 PHP"
+      }
+    },
+    {
+      "pass": true,
+      "name": "two items below former threshold still qualify / sj-cart: estimated total",
+      "detail": {
+        "case": "two items below former threshold still qualify",
+        "type": "sj-cart",
+        "fee": "0",
+        "shippingText": "Free",
+        "total": "₱1,597.99 PHP"
+      }
+    },
+    {
+      "pass": true,
+      "name": "two items below former threshold still qualify / sj-cart: truthful rate label",
+      "detail": {
+        "case": "two items below former threshold still qualify",
+        "type": "sj-cart",
+        "fee": "0",
+        "shippingText": "Free",
+        "total": "₱1,597.99 PHP"
+      }
+    },
+    {
+      "pass": true,
+      "name": "two items below former threshold still qualify / sj-cart: concise estimate qualification"
+    },
+    {
+      "pass": true,
+      "name": "two items below former threshold still qualify / sj-cart: shared quantity icons retain hooks"
+    },
+    {
+      "pass": true,
+      "name": "two items below former threshold still qualify / sj-cart: accessible no-JS controls preserved"
+    },
+    {
+      "pass": true,
+      "name": "two items below former threshold still qualify / sj-cart: verified COD statement scoped to Philippines estimate"
+    },
+    {
+      "pass": true,
+      "name": "two items below former threshold still qualify / sj-cart: component stylesheet included"
+    },
+    {
+      "pass": true,
+      "name": "two items below former threshold still qualify / sj-cart-drawer: shipping row exists"
+    },
+    {
+      "pass": true,
+      "name": "two items below former threshold still qualify / sj-cart-drawer: verified fee or unknown fallback",
+      "detail": {
+        "case": "two items below former threshold still qualify",
+        "type": "sj-cart-drawer",
+        "fee": "0",
+        "shippingText": "Free",
+        "total": "₱1,597.99 PHP"
+      }
+    },
+    {
+      "pass": true,
+      "name": "two items below former threshold still qualify / sj-cart-drawer: estimated total",
+      "detail": {
+        "case": "two items below former threshold still qualify",
+        "type": "sj-cart-drawer",
+        "fee": "0",
+        "shippingText": "Free",
+        "total": "₱1,597.99 PHP"
+      }
+    },
+    {
+      "pass": true,
+      "name": "two items below former threshold still qualify / sj-cart-drawer: truthful rate label",
+      "detail": {
+        "case": "two items below former threshold still qualify",
+        "type": "sj-cart-drawer",
+        "fee": "0",
+        "shippingText": "Free",
+        "total": "₱1,597.99 PHP"
+      }
+    },
+    {
+      "pass": true,
+      "name": "two items below former threshold still qualify / sj-cart-drawer: concise estimate qualification"
+    },
+    {
+      "pass": true,
+      "name": "two items below former threshold still qualify / sj-cart-drawer: shared quantity icons retain hooks"
+    },
+    {
+      "pass": true,
+      "name": "two items below former threshold still qualify / sj-cart-drawer: accessible no-JS controls preserved"
+    },
+    {
+      "pass": true,
+      "name": "two items below former threshold still qualify / sj-cart-drawer: verified COD statement scoped to Philippines estimate"
+    },
+    {
+      "pass": true,
+      "name": "two items below former threshold still qualify / sj-cart-drawer: component stylesheet included"
+    },
+    {
+      "pass": true,
+      "name": "two items below former threshold still qualify: shared close icon keeps accessible label"
+    },
+    {
+      "pass": true,
+      "name": "one high-priced item still pays base shipping / sj-cart: shipping row exists"
+    },
+    {
+      "pass": true,
+      "name": "one high-priced item still pays base shipping / sj-cart: verified fee or unknown fallback",
+      "detail": {
+        "case": "one high-priced item still pays base shipping",
+        "type": "sj-cart",
+        "fee": "8000",
+        "shippingText": "₱80.00",
+        "total": "₱1,678.00 PHP"
+      }
+    },
+    {
+      "pass": true,
+      "name": "one high-priced item still pays base shipping / sj-cart: estimated total",
+      "detail": {
+        "case": "one high-priced item still pays base shipping",
+        "type": "sj-cart",
+        "fee": "8000",
+        "shippingText": "₱80.00",
+        "total": "₱1,678.00 PHP"
+      }
+    },
+    {
+      "pass": true,
+      "name": "one high-priced item still pays base shipping / sj-cart: truthful rate label",
+      "detail": {
+        "case": "one high-priced item still pays base shipping",
+        "type": "sj-cart",
+        "fee": "8000",
+        "shippingText": "₱80.00",
+        "total": "₱1,678.00 PHP"
+      }
+    },
+    {
+      "pass": true,
+      "name": "one high-priced item still pays base shipping / sj-cart: concise estimate qualification"
+    },
+    {
+      "pass": true,
+      "name": "one high-priced item still pays base shipping / sj-cart: shared quantity icons retain hooks"
+    },
+    {
+      "pass": true,
+      "name": "one high-priced item still pays base shipping / sj-cart: accessible no-JS controls preserved"
+    },
+    {
+      "pass": true,
+      "name": "one high-priced item still pays base shipping / sj-cart: verified COD statement scoped to Philippines estimate"
+    },
+    {
+      "pass": true,
+      "name": "one high-priced item still pays base shipping / sj-cart: component stylesheet included"
+    },
+    {
+      "pass": true,
+      "name": "one high-priced item still pays base shipping / sj-cart-drawer: shipping row exists"
+    },
+    {
+      "pass": true,
+      "name": "one high-priced item still pays base shipping / sj-cart-drawer: verified fee or unknown fallback",
+      "detail": {
+        "case": "one high-priced item still pays base shipping",
+        "type": "sj-cart-drawer",
+        "fee": "8000",
+        "shippingText": "₱80.00",
+        "total": "₱1,678.00 PHP"
+      }
+    },
+    {
+      "pass": true,
+      "name": "one high-priced item still pays base shipping / sj-cart-drawer: estimated total",
+      "detail": {
+        "case": "one high-priced item still pays base shipping",
+        "type": "sj-cart-drawer",
+        "fee": "8000",
+        "shippingText": "₱80.00",
+        "total": "₱1,678.00 PHP"
+      }
+    },
+    {
+      "pass": true,
+      "name": "one high-priced item still pays base shipping / sj-cart-drawer: truthful rate label",
+      "detail": {
+        "case": "one high-priced item still pays base shipping",
+        "type": "sj-cart-drawer",
+        "fee": "8000",
+        "shippingText": "₱80.00",
+        "total": "₱1,678.00 PHP"
+      }
+    },
+    {
+      "pass": true,
+      "name": "one high-priced item still pays base shipping / sj-cart-drawer: concise estimate qualification"
+    },
+    {
+      "pass": true,
+      "name": "one high-priced item still pays base shipping / sj-cart-drawer: shared quantity icons retain hooks"
+    },
+    {
+      "pass": true,
+      "name": "one high-priced item still pays base shipping / sj-cart-drawer: accessible no-JS controls preserved"
+    },
+    {
+      "pass": true,
+      "name": "one high-priced item still pays base shipping / sj-cart-drawer: verified COD statement scoped to Philippines estimate"
+    },
+    {
+      "pass": true,
+      "name": "one high-priced item still pays base shipping / sj-cart-drawer: component stylesheet included"
+    },
+    {
+      "pass": true,
+      "name": "one high-priced item still pays base shipping: shared close icon keeps accessible label"
+    },
+    {
+      "pass": true,
+      "name": "PHP currency object / sj-cart: shipping row exists"
+    },
+    {
+      "pass": true,
+      "name": "PHP currency object / sj-cart: verified fee or unknown fallback",
+      "detail": {
+        "case": "PHP currency object",
+        "type": "sj-cart",
+        "fee": "8000",
+        "shippingText": "₱80.00",
+        "total": "₱879.00 PHP"
+      }
+    },
+    {
+      "pass": true,
+      "name": "PHP currency object / sj-cart: estimated total",
+      "detail": {
+        "case": "PHP currency object",
+        "type": "sj-cart",
+        "fee": "8000",
+        "shippingText": "₱80.00",
+        "total": "₱879.00 PHP"
+      }
+    },
+    {
+      "pass": true,
+      "name": "PHP currency object / sj-cart: truthful rate label",
+      "detail": {
+        "case": "PHP currency object",
+        "type": "sj-cart",
+        "fee": "8000",
+        "shippingText": "₱80.00",
+        "total": "₱879.00 PHP"
+      }
+    },
+    {
+      "pass": true,
+      "name": "PHP currency object / sj-cart: concise estimate qualification"
+    },
+    {
+      "pass": true,
+      "name": "PHP currency object / sj-cart: shared quantity icons retain hooks"
+    },
+    {
+      "pass": true,
+      "name": "PHP currency object / sj-cart: accessible no-JS controls preserved"
+    },
+    {
+      "pass": true,
+      "name": "PHP currency object / sj-cart: verified COD statement scoped to Philippines estimate"
+    },
+    {
+      "pass": true,
+      "name": "PHP currency object / sj-cart: component stylesheet included"
+    },
+    {
+      "pass": true,
+      "name": "PHP currency object / sj-cart-drawer: shipping row exists"
+    },
+    {
+      "pass": true,
+      "name": "PHP currency object / sj-cart-drawer: verified fee or unknown fallback",
+      "detail": {
+        "case": "PHP currency object",
+        "type": "sj-cart-drawer",
+        "fee": "8000",
+        "shippingText": "₱80.00",
+        "total": "₱879.00 PHP"
+      }
+    },
+    {
+      "pass": true,
+      "name": "PHP currency object / sj-cart-drawer: estimated total",
+      "detail": {
+        "case": "PHP currency object",
+        "type": "sj-cart-drawer",
+        "fee": "8000",
+        "shippingText": "₱80.00",
+        "total": "₱879.00 PHP"
+      }
+    },
+    {
+      "pass": true,
+      "name": "PHP currency object / sj-cart-drawer: truthful rate label",
+      "detail": {
+        "case": "PHP currency object",
+        "type": "sj-cart-drawer",
+        "fee": "8000",
+        "shippingText": "₱80.00",
+        "total": "₱879.00 PHP"
+      }
+    },
+    {
+      "pass": true,
+      "name": "PHP currency object / sj-cart-drawer: concise estimate qualification"
+    },
+    {
+      "pass": true,
+      "name": "PHP currency object / sj-cart-drawer: shared quantity icons retain hooks"
+    },
+    {
+      "pass": true,
+      "name": "PHP currency object / sj-cart-drawer: accessible no-JS controls preserved"
+    },
+    {
+      "pass": true,
+      "name": "PHP currency object / sj-cart-drawer: verified COD statement scoped to Philippines estimate"
+    },
+    {
+      "pass": true,
+      "name": "PHP currency object / sj-cart-drawer: component stylesheet included"
+    },
+    {
+      "pass": true,
+      "name": "PHP currency object: shared close icon keeps accessible label"
+    },
+    {
+      "pass": true,
+      "name": "other currency / sj-cart: shipping row exists"
+    },
+    {
+      "pass": true,
+      "name": "other currency / sj-cart: verified fee or unknown fallback",
+      "detail": {
+        "case": "other currency",
+        "type": "sj-cart",
+        "fee": null,
+        "shippingText": "Calculated at checkout",
+        "total": null
+      }
+    },
+    {
+      "pass": true,
+      "name": "other currency / sj-cart: estimated total",
+      "detail": {
+        "case": "other currency",
+        "type": "sj-cart",
+        "fee": null,
+        "shippingText": "Calculated at checkout",
+        "total": null
+      }
+    },
+    {
+      "pass": true,
+      "name": "other currency / sj-cart: truthful rate label",
+      "detail": {
+        "case": "other currency",
+        "type": "sj-cart",
+        "fee": null,
+        "shippingText": "Calculated at checkout",
+        "total": null
+      }
+    },
+    {
+      "pass": true,
+      "name": "other currency / sj-cart: concise estimate qualification"
+    },
+    {
+      "pass": true,
+      "name": "other currency / sj-cart: shared quantity icons retain hooks"
+    },
+    {
+      "pass": true,
+      "name": "other currency / sj-cart: accessible no-JS controls preserved"
+    },
+    {
+      "pass": true,
+      "name": "other currency / sj-cart: no destination/currency qualification assumed"
+    },
+    {
+      "pass": true,
+      "name": "other currency / sj-cart: verified COD statement scoped to Philippines estimate"
+    },
+    {
+      "pass": true,
+      "name": "other currency / sj-cart: component stylesheet included"
+    },
+    {
+      "pass": true,
+      "name": "other currency / sj-cart-drawer: shipping row exists"
+    },
+    {
+      "pass": true,
+      "name": "other currency / sj-cart-drawer: verified fee or unknown fallback",
+      "detail": {
+        "case": "other currency",
+        "type": "sj-cart-drawer",
+        "fee": null,
+        "shippingText": "Calculated at checkout",
+        "total": null
+      }
+    },
+    {
+      "pass": true,
+      "name": "other currency / sj-cart-drawer: estimated total",
+      "detail": {
+        "case": "other currency",
+        "type": "sj-cart-drawer",
+        "fee": null,
+        "shippingText": "Calculated at checkout",
+        "total": null
+      }
+    },
+    {
+      "pass": true,
+      "name": "other currency / sj-cart-drawer: truthful rate label",
+      "detail": {
+        "case": "other currency",
+        "type": "sj-cart-drawer",
+        "fee": null,
+        "shippingText": "Calculated at checkout",
+        "total": null
+      }
+    },
+    {
+      "pass": true,
+      "name": "other currency / sj-cart-drawer: concise estimate qualification"
+    },
+    {
+      "pass": true,
+      "name": "other currency / sj-cart-drawer: shared quantity icons retain hooks"
+    },
+    {
+      "pass": true,
+      "name": "other currency / sj-cart-drawer: accessible no-JS controls preserved"
+    },
+    {
+      "pass": true,
+      "name": "other currency / sj-cart-drawer: no destination/currency qualification assumed"
+    },
+    {
+      "pass": true,
+      "name": "other currency / sj-cart-drawer: verified COD statement scoped to Philippines estimate"
+    },
+    {
+      "pass": true,
+      "name": "other currency / sj-cart-drawer: component stylesheet included"
+    },
+    {
+      "pass": true,
+      "name": "other currency: shared close icon keeps accessible label"
+    },
+    {
+      "pass": true,
+      "name": "unknown currency / sj-cart: shipping row exists"
+    },
+    {
+      "pass": true,
+      "name": "unknown currency / sj-cart: verified fee or unknown fallback",
+      "detail": {
+        "case": "unknown currency",
+        "type": "sj-cart",
+        "fee": null,
+        "shippingText": "Calculated at checkout",
+        "total": null
+      }
+    },
+    {
+      "pass": true,
+      "name": "unknown currency / sj-cart: estimated total",
+      "detail": {
+        "case": "unknown currency",
+        "type": "sj-cart",
+        "fee": null,
+        "shippingText": "Calculated at checkout",
+        "total": null
+      }
+    },
+    {
+      "pass": true,
+      "name": "unknown currency / sj-cart: truthful rate label",
+      "detail": {
+        "case": "unknown currency",
+        "type": "sj-cart",
+        "fee": null,
+        "shippingText": "Calculated at checkout",
+        "total": null
+      }
+    },
+    {
+      "pass": true,
+      "name": "unknown currency / sj-cart: concise estimate qualification"
+    },
+    {
+      "pass": true,
+      "name": "unknown currency / sj-cart: shared quantity icons retain hooks"
+    },
+    {
+      "pass": true,
+      "name": "unknown currency / sj-cart: accessible no-JS controls preserved"
+    },
+    {
+      "pass": true,
+      "name": "unknown currency / sj-cart: no destination/currency qualification assumed"
+    },
+    {
+      "pass": true,
+      "name": "unknown currency / sj-cart: verified COD statement scoped to Philippines estimate"
+    },
+    {
+      "pass": true,
+      "name": "unknown currency / sj-cart: component stylesheet included"
+    },
+    {
+      "pass": true,
+      "name": "unknown currency / sj-cart-drawer: shipping row exists"
+    },
+    {
+      "pass": true,
+      "name": "unknown currency / sj-cart-drawer: verified fee or unknown fallback",
+      "detail": {
+        "case": "unknown currency",
+        "type": "sj-cart-drawer",
+        "fee": null,
+        "shippingText": "Calculated at checkout",
+        "total": null
+      }
+    },
+    {
+      "pass": true,
+      "name": "unknown currency / sj-cart-drawer: estimated total",
+      "detail": {
+        "case": "unknown currency",
+        "type": "sj-cart-drawer",
+        "fee": null,
+        "shippingText": "Calculated at checkout",
+        "total": null
+      }
+    },
+    {
+      "pass": true,
+      "name": "unknown currency / sj-cart-drawer: truthful rate label",
+      "detail": {
+        "case": "unknown currency",
+        "type": "sj-cart-drawer",
+        "fee": null,
+        "shippingText": "Calculated at checkout",
+        "total": null
+      }
+    },
+    {
+      "pass": true,
+      "name": "unknown currency / sj-cart-drawer: concise estimate qualification"
+    },
+    {
+      "pass": true,
+      "name": "unknown currency / sj-cart-drawer: shared quantity icons retain hooks"
+    },
+    {
+      "pass": true,
+      "name": "unknown currency / sj-cart-drawer: accessible no-JS controls preserved"
+    },
+    {
+      "pass": true,
+      "name": "unknown currency / sj-cart-drawer: no destination/currency qualification assumed"
+    },
+    {
+      "pass": true,
+      "name": "unknown currency / sj-cart-drawer: verified COD statement scoped to Philippines estimate"
+    },
+    {
+      "pass": true,
+      "name": "unknown currency / sj-cart-drawer: component stylesheet included"
+    },
+    {
+      "pass": true,
+      "name": "unknown currency: shared close icon keeps accessible label"
+    },
+    {
+      "pass": true,
+      "name": "other market / sj-cart: shipping row exists"
+    },
+    {
+      "pass": true,
+      "name": "other market / sj-cart: verified fee or unknown fallback",
+      "detail": {
+        "case": "other market",
+        "type": "sj-cart",
+        "fee": null,
+        "shippingText": "Calculated at checkout",
+        "total": null
+      }
+    },
+    {
+      "pass": true,
+      "name": "other market / sj-cart: estimated total",
+      "detail": {
+        "case": "other market",
+        "type": "sj-cart",
+        "fee": null,
+        "shippingText": "Calculated at checkout",
+        "total": null
+      }
+    },
+    {
+      "pass": true,
+      "name": "other market / sj-cart: truthful rate label",
+      "detail": {
+        "case": "other market",
+        "type": "sj-cart",
+        "fee": null,
+        "shippingText": "Calculated at checkout",
+        "total": null
+      }
+    },
+    {
+      "pass": true,
+      "name": "other market / sj-cart: concise estimate qualification"
+    },
+    {
+      "pass": true,
+      "name": "other market / sj-cart: shared quantity icons retain hooks"
+    },
+    {
+      "pass": true,
+      "name": "other market / sj-cart: accessible no-JS controls preserved"
+    },
+    {
+      "pass": true,
+      "name": "other market / sj-cart: no destination/currency qualification assumed"
+    },
+    {
+      "pass": true,
+      "name": "other market / sj-cart: verified COD statement scoped to Philippines estimate"
+    },
+    {
+      "pass": true,
+      "name": "other market / sj-cart: component stylesheet included"
+    },
+    {
+      "pass": true,
+      "name": "other market / sj-cart-drawer: shipping row exists"
+    },
+    {
+      "pass": true,
+      "name": "other market / sj-cart-drawer: verified fee or unknown fallback",
+      "detail": {
+        "case": "other market",
+        "type": "sj-cart-drawer",
+        "fee": null,
+        "shippingText": "Calculated at checkout",
+        "total": null
+      }
+    },
+    {
+      "pass": true,
+      "name": "other market / sj-cart-drawer: estimated total",
+      "detail": {
+        "case": "other market",
+        "type": "sj-cart-drawer",
+        "fee": null,
+        "shippingText": "Calculated at checkout",
+        "total": null
+      }
+    },
+    {
+      "pass": true,
+      "name": "other market / sj-cart-drawer: truthful rate label",
+      "detail": {
+        "case": "other market",
+        "type": "sj-cart-drawer",
+        "fee": null,
+        "shippingText": "Calculated at checkout",
+        "total": null
+      }
+    },
+    {
+      "pass": true,
+      "name": "other market / sj-cart-drawer: concise estimate qualification"
+    },
+    {
+      "pass": true,
+      "name": "other market / sj-cart-drawer: shared quantity icons retain hooks"
+    },
+    {
+      "pass": true,
+      "name": "other market / sj-cart-drawer: accessible no-JS controls preserved"
+    },
+    {
+      "pass": true,
+      "name": "other market / sj-cart-drawer: no destination/currency qualification assumed"
+    },
+    {
+      "pass": true,
+      "name": "other market / sj-cart-drawer: verified COD statement scoped to Philippines estimate"
+    },
+    {
+      "pass": true,
+      "name": "other market / sj-cart-drawer: component stylesheet included"
+    },
+    {
+      "pass": true,
+      "name": "other market: shared close icon keeps accessible label"
+    },
+    {
+      "pass": true,
+      "name": "unknown market / sj-cart: shipping row exists"
+    },
+    {
+      "pass": true,
+      "name": "unknown market / sj-cart: verified fee or unknown fallback",
+      "detail": {
+        "case": "unknown market",
+        "type": "sj-cart",
+        "fee": null,
+        "shippingText": "Calculated at checkout",
+        "total": null
+      }
+    },
+    {
+      "pass": true,
+      "name": "unknown market / sj-cart: estimated total",
+      "detail": {
+        "case": "unknown market",
+        "type": "sj-cart",
+        "fee": null,
+        "shippingText": "Calculated at checkout",
+        "total": null
+      }
+    },
+    {
+      "pass": true,
+      "name": "unknown market / sj-cart: truthful rate label",
+      "detail": {
+        "case": "unknown market",
+        "type": "sj-cart",
+        "fee": null,
+        "shippingText": "Calculated at checkout",
+        "total": null
+      }
+    },
+    {
+      "pass": true,
+      "name": "unknown market / sj-cart: concise estimate qualification"
+    },
+    {
+      "pass": true,
+      "name": "unknown market / sj-cart: shared quantity icons retain hooks"
+    },
+    {
+      "pass": true,
+      "name": "unknown market / sj-cart: accessible no-JS controls preserved"
+    },
+    {
+      "pass": true,
+      "name": "unknown market / sj-cart: no destination/currency qualification assumed"
+    },
+    {
+      "pass": true,
+      "name": "unknown market / sj-cart: verified COD statement scoped to Philippines estimate"
+    },
+    {
+      "pass": true,
+      "name": "unknown market / sj-cart: component stylesheet included"
+    },
+    {
+      "pass": true,
+      "name": "unknown market / sj-cart-drawer: shipping row exists"
+    },
+    {
+      "pass": true,
+      "name": "unknown market / sj-cart-drawer: verified fee or unknown fallback",
+      "detail": {
+        "case": "unknown market",
+        "type": "sj-cart-drawer",
+        "fee": null,
+        "shippingText": "Calculated at checkout",
+        "total": null
+      }
+    },
+    {
+      "pass": true,
+      "name": "unknown market / sj-cart-drawer: estimated total",
+      "detail": {
+        "case": "unknown market",
+        "type": "sj-cart-drawer",
+        "fee": null,
+        "shippingText": "Calculated at checkout",
+        "total": null
+      }
+    },
+    {
+      "pass": true,
+      "name": "unknown market / sj-cart-drawer: truthful rate label",
+      "detail": {
+        "case": "unknown market",
+        "type": "sj-cart-drawer",
+        "fee": null,
+        "shippingText": "Calculated at checkout",
+        "total": null
+      }
+    },
+    {
+      "pass": true,
+      "name": "unknown market / sj-cart-drawer: concise estimate qualification"
+    },
+    {
+      "pass": true,
+      "name": "unknown market / sj-cart-drawer: shared quantity icons retain hooks"
+    },
+    {
+      "pass": true,
+      "name": "unknown market / sj-cart-drawer: accessible no-JS controls preserved"
+    },
+    {
+      "pass": true,
+      "name": "unknown market / sj-cart-drawer: no destination/currency qualification assumed"
+    },
+    {
+      "pass": true,
+      "name": "unknown market / sj-cart-drawer: verified COD statement scoped to Philippines estimate"
+    },
+    {
+      "pass": true,
+      "name": "unknown market / sj-cart-drawer: component stylesheet included"
+    },
+    {
+      "pass": true,
+      "name": "unknown market: shared close icon keeps accessible label"
+    },
+    {
+      "pass": true,
+      "name": "Explicit legacy subtotal parameter remains isolated from the active default"
+    },
+    {
+      "pass": true,
+      "name": "Production default follows verified native quantity rule"
+    }
+  ],
+  "cases": [
+    {
+      "case": "empty",
+      "type": "sj-cart",
+      "fee": null,
+      "shippingText": null,
+      "total": null
+    },
+    {
+      "case": "empty",
+      "type": "sj-cart-drawer",
+      "fee": null,
+      "shippingText": null,
+      "total": null
+    },
+    {
+      "case": "one item",
+      "type": "sj-cart",
+      "fee": "8000",
+      "shippingText": "₱80.00",
+      "total": "₱879.00 PHP"
+    },
+    {
+      "case": "one item",
+      "type": "sj-cart-drawer",
+      "fee": "8000",
+      "shippingText": "₱80.00",
+      "total": "₱879.00 PHP"
+    },
+    {
+      "case": "two items threshold",
+      "type": "sj-cart",
+      "fee": "0",
+      "shippingText": "Free",
+      "total": "₱1,598.00 PHP"
+    },
+    {
+      "case": "two items threshold",
+      "type": "sj-cart-drawer",
+      "fee": "0",
+      "shippingText": "Free",
+      "total": "₱1,598.00 PHP"
+    },
+    {
+      "case": "discounted two items still qualify",
+      "type": "sj-cart",
+      "fee": "0",
+      "shippingText": "Free",
+      "total": "₱1,438.20 PHP"
+    },
+    {
+      "case": "discounted two items still qualify",
+      "type": "sj-cart-drawer",
+      "fee": "0",
+      "shippingText": "Free",
+      "total": "₱1,438.20 PHP"
+    },
+    {
+      "case": "two items below former threshold still qualify",
+      "type": "sj-cart",
+      "fee": "0",
+      "shippingText": "Free",
+      "total": "₱1,597.99 PHP"
+    },
+    {
+      "case": "two items below former threshold still qualify",
+      "type": "sj-cart-drawer",
+      "fee": "0",
+      "shippingText": "Free",
+      "total": "₱1,597.99 PHP"
+    },
+    {
+      "case": "one high-priced item still pays base shipping",
+      "type": "sj-cart",
+      "fee": "8000",
+      "shippingText": "₱80.00",
+      "total": "₱1,678.00 PHP"
+    },
+    {
+      "case": "one high-priced item still pays base shipping",
+      "type": "sj-cart-drawer",
+      "fee": "8000",
+      "shippingText": "₱80.00",
+      "total": "₱1,678.00 PHP"
+    },
+    {
+      "case": "PHP currency object",
+      "type": "sj-cart",
+      "fee": "8000",
+      "shippingText": "₱80.00",
+      "total": "₱879.00 PHP"
+    },
+    {
+      "case": "PHP currency object",
+      "type": "sj-cart-drawer",
+      "fee": "8000",
+      "shippingText": "₱80.00",
+      "total": "₱879.00 PHP"
+    },
+    {
+      "case": "other currency",
+      "type": "sj-cart",
+      "fee": null,
+      "shippingText": "Calculated at checkout",
+      "total": null
+    },
+    {
+      "case": "other currency",
+      "type": "sj-cart-drawer",
+      "fee": null,
+      "shippingText": "Calculated at checkout",
+      "total": null
+    },
+    {
+      "case": "unknown currency",
+      "type": "sj-cart",
+      "fee": null,
+      "shippingText": "Calculated at checkout",
+      "total": null
+    },
+    {
+      "case": "unknown currency",
+      "type": "sj-cart-drawer",
+      "fee": null,
+      "shippingText": "Calculated at checkout",
+      "total": null
+    },
+    {
+      "case": "other market",
+      "type": "sj-cart",
+      "fee": null,
+      "shippingText": "Calculated at checkout",
+      "total": null
+    },
+    {
+      "case": "other market",
+      "type": "sj-cart-drawer",
+      "fee": null,
+      "shippingText": "Calculated at checkout",
+      "total": null
+    },
+    {
+      "case": "unknown market",
+      "type": "sj-cart",
+      "fee": null,
+      "shippingText": "Calculated at checkout",
+      "total": null
+    },
+    {
+      "case": "unknown market",
+      "type": "sj-cart-drawer",
+      "fee": null,
+      "shippingText": "Calculated at checkout",
+      "total": null
+    }
+  ],
+  "summary": {
+    "status": "PASS",
+    "cases": 22,
+    "checks": 212,
+    "failures": []
+  }
+}

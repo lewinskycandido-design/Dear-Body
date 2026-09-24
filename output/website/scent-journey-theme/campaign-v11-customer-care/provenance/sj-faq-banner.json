@@ -1,0 +1,22 @@
+{
+  "tool_mode": "built-in ImageGen",
+  "intent": "generate",
+  "generated_source": "/Users/wetrade/.codex/generated_images/01a0d0f8-8d24-7131-8c77-de85e96f8179/exec-dff099ab-073d-4592-8f54-118e86bfe4d7.png",
+  "prompt": "campaign-v11-customer-care/prompts/sj-faq-banner.txt",
+  "original": "campaign-v11-customer-care/originals/sj-faq-banner.png",
+  "original_sha256": "3cf4e706b4931a12e2348169d794476ba496b41f94dc021e990e2c0cdc545e69",
+  "web": "campaign-v11-customer-care/final-web/sj-faq-banner.jpg",
+  "sha256": "b2ac461d2b16ab795b0da7ae2c5e9e021f2bd59c1267143c8c97df1d4a6066c9",
+  "dimensions": [
+    1774,
+    887
+  ],
+  "mobile_focus_percent": 78,
+  "visual_qa": [
+    "One adult woman, natural phone-reading gesture, no other faces",
+    "Warm cream room with red knitwear, cobalt phone and chair, yellow cup",
+    "Real room and consistent daylight, believable anatomy and phone scale",
+    "No text or logos; live website header uses supplied webfonts",
+    "Left negative space retained; face and phone at right for portrait crop"
+  ]
+}

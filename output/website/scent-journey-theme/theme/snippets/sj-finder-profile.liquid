@@ -1,0 +1,68 @@
+{%- comment -%}
+  Built-in discovery profiles for the six launch fragrances, based on owner-approved
+  scent copy. Mood/occasion are editorial suggestions, not performance claims.
+  Native product metafields override each trait; explicit false opts a product out.
+  Outputs JSON only for a recognized launch product eligible for this section.
+{%- endcomment -%}
+{%- liquid
+  assign profile_collection = ''
+  case product.handle
+    when 'mojito-metallique'
+      assign profile_collection = 'Women'
+      assign profile_mood = 'Bright & playful|Soft & relaxed' | split: '|'
+      assign profile_character = 'Creamy & fruity'
+      assign profile_occasion = 'Everyday moments|Coffee & catch-ups' | split: '|'
+      assign profile_intensity = 'Soft & airy'
+      assign profile_description = 'Soft, creamy sweetness with a light fruity glow.'
+    when 'mistened-narcissus'
+      assign profile_collection = 'Women'
+      assign profile_mood = 'Bright & playful'
+      assign profile_character = 'Juicy berries'
+      assign profile_occasion = 'Coffee & catch-ups|A special occasion' | split: '|'
+      assign profile_intensity = 'Smooth & sweet'
+      assign profile_description = 'Juicy berry character with a smooth, sweet finish.'
+    when 'amber-oud-silk'
+      assign profile_collection = 'Women'
+      assign profile_mood = 'Warm & inviting|Dark & bold' | split: '|'
+      assign profile_character = 'Warm spice|Smoky woods' | split: '|'
+      assign profile_occasion = 'Evenings out|A special occasion' | split: '|'
+      assign profile_intensity = 'Rich & deep'
+      assign profile_description = 'Dark spice and smoky depth with a warm, addictive edge.'
+    when 'charme-envoutant'
+      assign profile_collection = 'Men'
+      assign profile_mood = 'Warm & inviting'
+      assign profile_character = 'Warm spice'
+      assign profile_occasion = 'Evenings out|A special occasion' | split: '|'
+      assign profile_intensity = 'Smooth & sweet|Rich & deep' | split: '|'
+      assign profile_description = 'Rich, spiced sweetness with a deep, indulgent feel.'
+    when 'oud-mirage'
+      assign profile_collection = 'Men'
+      assign profile_mood = 'Dark & bold'
+      assign profile_character = 'Rose & woods|Smoky woods' | split: '|'
+      assign profile_occasion = 'Evenings out|A special occasion' | split: '|'
+      assign profile_intensity = 'Rich & deep'
+      assign profile_description = 'Dark rose wrapped in smoky, woody depth.'
+    when 'rtulle-satin'
+      assign profile_collection = 'Men'
+      assign profile_mood = 'Soft & relaxed|Warm & inviting' | split: '|'
+      assign profile_character = 'Airy sweetness'
+      assign profile_occasion = 'Everyday moments|Coffee & catch-ups|Evenings out' | split: '|'
+      assign profile_intensity = 'Soft & airy|Smooth & sweet' | split: '|'
+      assign profile_description = 'Airy sweetness with a warm, glowing finish and a soft, elegant personality.'
+  endcase
+  assign profile_allowed = true
+  if profile_collection == blank or product.metafields.custom.scent_finder_enabled.value == false
+    assign profile_allowed = false
+  endif
+  if available_only and product.available == false
+    assign profile_allowed = false
+  endif
+  assign profile_mood = product.metafields.custom.mood.value | default: profile_mood
+  assign profile_character = product.metafields.custom.scent_character.value | default: profile_character
+  assign profile_occasion = product.metafields.custom.occasion.value | default: profile_occasion
+  assign profile_intensity = product.metafields.custom.intensity.value | default: profile_intensity
+-%}
+{%- capture json_less_than -%}\u003c{%- endcapture -%}
+{%- if profile_allowed -%}
+{"id":{{ product.id | json }},"handle":{{ product.handle | json }},"title":{{ product.title | json | replace: '<', json_less_than }},"collection":{{ profile_collection | json }},"mood":{{ profile_mood | json | replace: '<', json_less_than }},"character":{{ profile_character | json | replace: '<', json_less_than }},"occasion":{{ profile_occasion | json | replace: '<', json_less_than }},"intensity":{{ profile_intensity | json | replace: '<', json_less_than }},"description":{{ profile_description | json }}}
+{%- endif -%}

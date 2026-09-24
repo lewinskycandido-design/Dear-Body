@@ -1,0 +1,12 @@
+{
+  "reviewer": "preview_assets agent",
+  "result": "PASS",
+  "sourceManifest": "previous-gallery-assets.json",
+  "galleryImages": 72,
+  "sourceImages": 72,
+  "thumbnails": 72,
+  "mismatches": 0,
+  "galleryBytes": 18574062,
+  "manifestSha256": "5f876ef0e719b1ed8e87c22a1064e25696b688b6032a6fb48220d0b4eabfb2ec",
+  "assetHashSetSha256": "26aa13b9b68f413d99083d302f4e6cc8e660128f2cc4d204f98ce02af361d9b5"
+}

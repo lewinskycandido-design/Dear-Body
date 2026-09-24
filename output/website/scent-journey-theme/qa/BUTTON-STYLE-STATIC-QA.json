@@ -1,0 +1,195 @@
+{
+  "generatedAt": "2026-09-24T09:14:24.793Z",
+  "scope": "Static stylesheet/source checks; no browser or preview rebuild.",
+  "summary": {
+    "status": "PASS",
+    "checks": 24,
+    "passed": 24,
+    "failures": 0
+  },
+  "contrast": [
+    {
+      "mode": "light",
+      "state": "primary",
+      "ratio": 5.78
+    },
+    {
+      "mode": "light",
+      "state": "primary-hover",
+      "ratio": 7.98
+    },
+    {
+      "mode": "light",
+      "state": "secondary",
+      "ratio": 6.8
+    },
+    {
+      "mode": "light",
+      "state": "secondary-hover",
+      "ratio": 6.8
+    },
+    {
+      "mode": "light",
+      "state": "disabled",
+      "ratio": 4.78
+    },
+    {
+      "mode": "dark",
+      "state": "primary",
+      "ratio": 11.1
+    },
+    {
+      "mode": "dark",
+      "state": "primary-hover",
+      "ratio": 13.37
+    },
+    {
+      "mode": "dark",
+      "state": "secondary",
+      "ratio": 5.79
+    },
+    {
+      "mode": "dark",
+      "state": "secondary-hover",
+      "ratio": 6.8
+    },
+    {
+      "mode": "dark",
+      "state": "disabled",
+      "ratio": 5.97
+    }
+  ],
+  "checks": [
+    {
+      "name": "Stylesheet parses without errors",
+      "pass": true
+    },
+    {
+      "name": "Layout loads new stylesheet exactly once after commerce/price",
+      "pass": true
+    },
+    {
+      "name": "Desktop target at least44px",
+      "pass": true
+    },
+    {
+      "name": "Mobile target at least44px",
+      "pass": true
+    },
+    {
+      "name": "Labels can wrap within containing width",
+      "pass": true
+    },
+    {
+      "name": "Primary uses native color variables with offset paper edge",
+      "pass": true
+    },
+    {
+      "name": "Secondary uses cream/cobalt variables",
+      "pass": true
+    },
+    {
+      "name": "Visible keyboard focus explicitly retained",
+      "pass": true
+    },
+    {
+      "name": "Disabled state has no shadow/transform/transition",
+      "pass": true
+    },
+    {
+      "name": "Hover effects are restricted to hover-capable devices",
+      "pass": true
+    },
+    {
+      "name": "Reduced-motion overrides transition and movement",
+      "pass": true
+    },
+    {
+      "name": "No arrow glyph or inserted pseudo-content",
+      "pass": true
+    },
+    {
+      "name": "No header/gallery/Finder-card/text-link selectors",
+      "pass": true
+    },
+    {
+      "name": "Single product purchase label keeps shared typography",
+      "pass": true
+    },
+    {
+      "name": "light primary text contrast at least4.5:1",
+      "pass": true,
+      "details": {
+        "ratio": 5.777518620749793
+      }
+    },
+    {
+      "name": "light primary-hover text contrast at least4.5:1",
+      "pass": true,
+      "details": {
+        "ratio": 7.98226633692676
+      }
+    },
+    {
+      "name": "light secondary text contrast at least4.5:1",
+      "pass": true,
+      "details": {
+        "ratio": 6.801784919854357
+      }
+    },
+    {
+      "name": "light secondary-hover text contrast at least4.5:1",
+      "pass": true,
+      "details": {
+        "ratio": 6.801784919854357
+      }
+    },
+    {
+      "name": "light disabled text contrast at least4.5:1",
+      "pass": true,
+      "details": {
+        "ratio": 4.778359970700521
+      }
+    },
+    {
+      "name": "dark primary text contrast at least4.5:1",
+      "pass": true,
+      "details": {
+        "ratio": 11.101184221660198
+      }
+    },
+    {
+      "name": "dark primary-hover text contrast at least4.5:1",
+      "pass": true,
+      "details": {
+        "ratio": 13.373601823222314
+      }
+    },
+    {
+      "name": "dark secondary text contrast at least4.5:1",
+      "pass": true,
+      "details": {
+        "ratio": 5.790988993637322
+      }
+    },
+    {
+      "name": "dark secondary-hover text contrast at least4.5:1",
+      "pass": true,
+      "details": {
+        "ratio": 6.801784919854357
+      }
+    },
+    {
+      "name": "dark disabled text contrast at least4.5:1",
+      "pass": true,
+      "details": {
+        "ratio": 5.9686253746404
+      }
+    }
+  ],
+  "limits": [
+    "CSS parsing, declared target sizes and exact color contrast are verified. Actual layout, label wrapping and clipping require visual review in the integrated preview.",
+    "No component markup, action hooks, gallery controls, Finder answer cards, header layout or text links changed."
+  ],
+  "qaNote": "Initial no-generated-content assertion matched justify-content by substring; corrected to inspect the parsed content property. No CSS change was needed."
+}

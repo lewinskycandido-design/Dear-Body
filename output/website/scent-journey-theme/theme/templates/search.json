@@ -1,0 +1,11 @@
+{
+  "sections": {
+    "main": {
+      "type": "sj-search",
+      "settings": {}
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

@@ -1,0 +1,13 @@
+{%- liquid
+  assign offer_variant = variant | default: 'compact'
+  assign offer_default_url = routes.root_url | append: '/pages/shipping' | replace: '//', '/'
+  assign offer_url = url | default: offer_default_url
+-%}
+<div class="sj-shipping-offer sj-shipping-offer--{{ offer_variant | escape }}">
+  <p class="sj-shipping-offer__title"><strong>Free shipping</strong> <span>on 2 or more items</span></p>
+  {% if message != blank %}<p class="sj-shipping-offer__message">{{ message | escape }}</p>{% endif %}
+  <div class="sj-shipping-offer__details">
+    <p class="sj-shipping-offer__terms">Shipping fee applies to 1 item.</p>
+    {% unless show_link == false %}<a class="sj-shipping-offer__link" href="{{ offer_url | escape }}">{% render 'sj-icon', name: 'shipping' %}Shipping details</a>{% endunless %}
+  </div>
+</div>

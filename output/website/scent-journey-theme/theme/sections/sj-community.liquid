@@ -1,0 +1,50 @@
+{% if section.blocks.size > 0 %}<section class="sj-container sj-community"><div class="sj-section-heading"><div><p class="sj-eyebrow">YOUR EVERYDAY, SCENTED</p><h2>{{ section.settings.heading | escape }}</h2></div></div><div class="sj-community-grid">{% for block in section.blocks %}{% case block.type %}{% when '@app' %}{% render block %}{% when 'post' %}{% if block.settings.image != blank %}<figure {{ block.shopify_attributes }}>{{ block.settings.image | image_url: width: 700 | image_tag: loading: 'lazy' }}<figcaption>{% if block.settings.link != blank %}<a href="{{ block.settings.link }}">{{ block.settings.credit | escape }}</a>{% else %}{{ block.settings.credit | escape }}{% endif %}</figcaption></figure>{% endif %}{% endcase %}{% endfor %}</div></section>{% endif %}
+{% schema %}
+{
+  "name": "Real community moments",
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "A LITTLE MORE YOU."
+    },
+    {
+      "type": "paragraph",
+      "content": "Add only customer photos you have permission to publish. No invented testimonials or social proof."
+    }
+  ],
+  "blocks": [
+    {
+      "type": "@app"
+    },
+    {
+      "type": "post",
+      "name": "Customer moment",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Approved customer photo"
+        },
+        {
+          "type": "text",
+          "id": "credit",
+          "label": "Attribution",
+          "default": "Community moment"
+        },
+        {
+          "type": "url",
+          "id": "link",
+          "label": "Original post"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Real community moments"
+    }
+  ]
+}
+{% endschema %}

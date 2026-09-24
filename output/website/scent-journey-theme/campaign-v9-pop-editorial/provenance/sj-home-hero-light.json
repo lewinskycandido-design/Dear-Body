@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "asset": "sj-home-hero-light",
+  "createdAt": "2026-09-24T06:12:57.312Z",
+  "generator": "Built-in image_gen__imagegen",
+  "mode": "Generation plus targeted framing edit",
+  "status": "accepted visual candidate; final responsive integration QA belongs to root",
+  "sourceOutputPath": "/Users/wetrade/.codex/generated_images/01a0d0f9-afdf-7412-a990-cf7a45f1c2b6/exec-18480c98-267d-47c3-906d-2bde70248785.png",
+  "workspaceOutputPath": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/campaign-v9-pop-editorial/originals/sj-home-hero-light.png",
+  "outputTransformation": "None: exact generated PNG copied byte-for-byte. No raster editing, recoloring, crops, resizing or text added.",
+  "styleReference": {
+    "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/campaign-v9-pop-editorial/references/publication-materials-reference.png",
+    "role": "Style-only reference; new scene and product-free composition",
+    "sha256": "a3f73cc66cf983a1150e3b5c65ef6acc2f18b8a1f5e857dcd5c17e5d71c479ac"
+  },
+  "requestedCopy": "No baked text, logos or UI. Live website copy rendered independently.",
+  "prompts": {
+    "initial": {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/campaign-v9-pop-editorial/prompts/sj-home-hero-light.txt",
+      "text": "Use case: ads-marketing / photorealistic-natural.\nAsset type: DearBody Philippines website photographic background, no baked copy.\nInput image 1 is STYLE REFERENCE ONLY: adopt its sunny, saturated scarlet/cobalt/lemon fashion-ad punch, tactile accessories, direct confident approachable energy and realistic skin. Create a wholly NEW photograph. Do not copy its car, lipstick, raised-bottle, pocket-camera or hand-only compositions; do not reproduce any wording, logo or product.\nOutput: wide 2:1 landscape, approximately 1774 x 887 pixels.\nScene and subject: A stylish adult Filipina with medium brown skin and a short wavy dark bob takes a playful sideways step along a sunny Philippine neighborhood walkway. She wears a saturated scarlet sleeveless knit, relaxed indigo denim trousers, small gold hoops and a cobalt canvas shoulder bag. She laughs naturally and lightly holds her bag strap at chest height, one hand only; the other arm rests naturally. Warm lemon-yellow real plaster wall across the left half, slight physical wall texture, bright blue sky only as a narrow upper-right hint. Strong clean sun shadows, energetic fashion editorial, attainable clothes.\nComposition: Wide full-bleed landscape: ONLY ONE person entirely on the right. Face centered x76%, y28%; full hair top at least12% below image top. Her head and important gesture inside x66\u201388%, all hands above65% image height. Left45% is uninterrupted quiet lemon plaster wall for live website headline. She is framed mid-thigh up with believable limbs.\nLighting/style: professional real editorial location fashion photograph with warm clear sunlight, strong naturally directional shadows, vibrant but credible colors, realistic anatomy and fabric, no fantastical environment. One ADULT Filipino model total, no other people, bodies, reflections, posters or printed faces.\nText: NONE. Absolutely no typography, signage, logos, watermark, frame, border, collage or UI. PRODUCT-FREE: absolutely no perfume, bottles, canisters, cosmetics, drinks or product packaging anywhere. No cars, lipstick, cameras, giant props. Do not dull the exposure; all modes are sunny bright daylight. Preserve generous headroom and requested text-safe areas.",
+      "sha256": "bd386d1d15a3c96304122313b7d4ba9e79e4044a8fbbb08cb67e18b73599e9b7",
+      "savedTextMatchesToolPrompt": true
+    },
+    "final": {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/campaign-v9-pop-editorial/prompts/sj-home-hero-light-framing-revision.txt",
+      "text": "Use case: ads-marketing / photorealistic-natural.\nAsset type: DearBody Philippines website photographic background, no baked copy.\nInput image 1 is STYLE REFERENCE ONLY: adopt its sunny, saturated scarlet/cobalt/lemon fashion-ad punch, tactile accessories, direct confident approachable energy and realistic skin. Create a wholly NEW photograph. Do not copy its car, lipstick, raised-bottle, pocket-camera or hand-only compositions; do not reproduce any wording, logo or product.\nOutput: wide 2:1 landscape, approximately 1774 x 887 pixels.\nScene and subject: A stylish adult Filipina with medium brown skin and a short wavy dark bob takes a playful sideways step along a sunny Philippine neighborhood walkway. She wears a saturated scarlet sleeveless knit, relaxed indigo denim trousers, small gold hoops and a cobalt canvas shoulder bag. She laughs naturally and lightly holds her bag strap at chest height, one hand only; the other arm rests naturally. Warm lemon-yellow real plaster wall across the left half, slight physical wall texture, bright blue sky only as a narrow upper-right hint. Strong clean sun shadows, energetic fashion editorial, attainable clothes.\nComposition: Wide full-bleed landscape: ONLY ONE person entirely on the right. Face centered x76%, y28%; full hair top at least12% below image top. Her head and important gesture inside x66\u201388%, all hands above65% image height. Left45% is uninterrupted quiet lemon plaster wall for live website headline. She is framed mid-thigh up with believable limbs.\nLighting/style: professional real editorial location fashion photograph with warm clear sunlight, strong naturally directional shadows, vibrant but credible colors, realistic anatomy and fabric, no fantastical environment. One ADULT Filipino model total, no other people, bodies, reflections, posters or printed faces.\nText: NONE. Absolutely no typography, signage, logos, watermark, frame, border, collage or UI. PRODUCT-FREE: absolutely no perfume, bottles, canisters, cosmetics, drinks or product packaging anywhere. No cars, lipstick, cameras, giant props. Do not dull the exposure; all modes are sunny bright daylight. Preserve generous headroom and requested text-safe areas.\nTargeted framing correction to the generated candidate: preserve the exact smiling Filipina identity, scarlet knit, cobalt tote, lemon wall, lighting, color and no-product scene, but pull the camera back enough and lower her within the frame so the complete hair top begins around y=120 pixels on an 887 pixel-high canvas (14% top margin), not near the upper edge. The top 110 pixels must be wall/sky, not hair. Face center x76%, y29\u201330%. Show more torso/thigh, keep the left45% empty wall and single person. Exactly 2:1 landscape. Natural photographic recomposition, no frame/border or new objects.",
+      "sha256": "5028a40e41c40e534af1ad4b78673e0a56bcf3c663342271f248e4560472e008",
+      "savedTextMatchesToolPrompt": true
+    }
+  },
+  "generationHistory": [
+    {
+      "sourceOutputPath": "/Users/wetrade/.codex/generated_images/01a0d0f9-afdf-7412-a990-cf7a45f1c2b6/exec-2e48e504-1be0-46e5-8af5-fc34239da2ff.png",
+      "status": "Superseded: insufficient headroom"
+    },
+    {
+      "sourceOutputPath": "/Users/wetrade/.codex/generated_images/01a0d0f9-afdf-7412-a990-cf7a45f1c2b6/exec-18480c98-267d-47c3-906d-2bde70248785.png",
+      "status": "Accepted framing revision"
+    }
+  ],
+  "qa": {
+    "reviewMethod": "Visual inspection of native generated image at full resolution",
+    "personCount": 1,
+    "adultsOnly": true,
+    "productFree": true,
+    "noPerfumeOrBottles": true,
+    "noBackgroundPeopleOrPrintedFaces": true,
+    "noBakedTextOrLogo": true,
+    "noAnatomyDefectObserved": true,
+    "noClippedHead": true,
+    "brightDaylightBothModes": true,
+    "alt": "A smiling Filipina in a scarlet knit top and indigo denim steps along a sunny lemon-yellow wall with a cobalt canvas tote.",
+    "focal": "73% top",
+    "faceCenterPercent": [
+      68,
+      28
+    ],
+    "headroomPercent": 15,
+    "notes": "Single adult female; physically plausible stride, shoulder-bag grip and relaxed hand; clear quiet left wall. A targeted framing revision provided full hair margin. Landscape two-to-one."
+  },
+  "scope": "Source PNGs, exact prompts and per-asset provenance only. Root owns JPEG export, theme integration and responsive QA.",
+  "nativeDimensions": {
+    "width": 1774,
+    "height": 887
+  },
+  "bytes": 2616337,
+  "sha256": "cc0bf65dc3b8e6c32bec2ed376ef81a6d3ab92f2754a04df47e422c78ea4e95d",
+  "sourceSha256": "cc0bf65dc3b8e6c32bec2ed376ef81a6d3ab92f2754a04df47e422c78ea4e95d",
+  "sourceEqualsWorkspace": true
+}

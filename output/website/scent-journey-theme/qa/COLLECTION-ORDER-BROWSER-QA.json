@@ -1,0 +1,112 @@
+{
+  "recordedAt": "2026-09-24T10:04:02.573346+00:00",
+  "status": "PASS",
+  "evidenceSource": "Release owner /root reported authenticated CUA browser observations; this report does not claim an independent browser rerun.",
+  "theme": {
+    "id": 167083900993,
+    "name": "DearBody Collection Orders Update",
+    "browserCheckoutScope": "Uploaded draft before publication",
+    "publicationStatus": "Published; Shopify CLI confirmation and independent no-cookie public audit agree on MAIN167083900993"
+  },
+  "checks": [
+    {
+      "id": "native-mixed-checkout",
+      "scope": "Shopify native checkout from Women collection on uploaded theme",
+      "products": [
+        "Mistened Narcissus",
+        "Oud Mirage"
+      ],
+      "itemCount": 2,
+      "currency": "PHP",
+      "total": 1598,
+      "shipping": 0,
+      "freeShippingDisplayed": true,
+      "cashOnDeliveryVisible": true,
+      "fictionalAddressPrefillVerified": true,
+      "outcome": "PASS",
+      "stoppedBefore": "Complete order"
+    },
+    {
+      "id": "men-mixed-selection",
+      "scope": "Men collection storefront UI only",
+      "products": [
+        "Oud Mirage",
+        "Amber Oud Silk"
+      ],
+      "itemCount": 2,
+      "currency": "PHP",
+      "displayedTotal": 1598,
+      "displayedShipping": "Free",
+      "orderFormCount": 1,
+      "outcome": "PASS"
+    },
+    {
+      "id": "mobile-dark",
+      "scope": "Release-owner browser DOM and screenshot inspection",
+      "viewportWidth": 390,
+      "visualTheme": "dark",
+      "innerWidth": 390,
+      "scrollWidth": 390,
+      "orderPanelWidth": 346,
+      "horizontalOverflow": false,
+      "formReadable": true,
+      "outcome": "PASS"
+    },
+    {
+      "id": "selection-address-preservation",
+      "scope": "Local browser interaction",
+      "fictionalFirstName": "Theme",
+      "addressPreservedAfter": [
+        "add",
+        "remove",
+        "viewport resize"
+      ],
+      "threeItemTotalPHP": 2397,
+      "afterAmberRemovalTotalPHP": 1598,
+      "repeatedMistenedClickCreatesDuplicate": false,
+      "outcome": "PASS"
+    },
+    {
+      "id": "public-men-controls",
+      "scope": "Release-owner browser check after leaving preview mode on the published Men collection",
+      "orderButtonsVisible": 3,
+      "oppositeCollection": "Women",
+      "oppositeSelectorVisible": true,
+      "outcome": "PASS"
+    }
+  ],
+  "ordersCompleted": 0,
+  "limitations": [
+    "No order was completed or payment taken. Fictional Theme Preview address data was used.",
+    "The Men mixed-selection check did not independently repeat native checkout.",
+    "Browser observations were supplied by the release owner. No screenshot file paths were supplied or invented.",
+    "Public HTTP verification checks native markup and source/assets; the interactive observations remain attributed to the release-owner browser checks above."
+  ],
+  "publicAudit": {
+    "path": "qa/collection-orders-live-audit.json",
+    "status": "PASS",
+    "themeId": 167083900993,
+    "routes": 18,
+    "productPages": 6,
+    "collectionOrderPages": 2,
+    "artworkFiles": 100,
+    "thumbnailFiles": 72,
+    "fontFiles": 2,
+    "lockedAssetsMatching": 174,
+    "observedAssetResponses": 177,
+    "currentScriptSourcesMatching": 5,
+    "findings": 0,
+    "ordersPlaced": 0
+  },
+  "archive": {
+    "file": "DearBody-Theme-Update-Collection-Orders.zip",
+    "nativeFiles": 273,
+    "bytes": 39789401,
+    "sha256": "65a2e8c3b8db753dd4936d01ab7bb9fb90c4ff9cb120e944cca3ca58fa7cab45",
+    "locations": [
+      "Project root",
+      "/Users/wetrade/Downloads"
+    ],
+    "sourceAndCRCVerification": "Confirmed by release owner"
+  }
+}

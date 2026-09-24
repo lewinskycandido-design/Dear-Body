@@ -1,0 +1,1003 @@
+{
+  "generatedAt": "2026-09-24T05:15:33.604Z",
+  "scope": "Story/Footer v8 candidate images served through Playwright interception against current theme CSS; 320,390,1440 in both modes.",
+  "cases": [
+    {
+      "width": 320,
+      "theme": "light",
+      "images": [
+        {
+          "file": "sj-banner-story-light.jpg",
+          "sha256": "17bce313659d895766d750dc5417072fc103d2b978b46c6455a14197fd351ee4"
+        },
+        {
+          "file": "sj-banner-footer-light.jpg",
+          "sha256": "31e8ea912ed1210d343cbf3d57690b44d9e763d778803991836ebdd208d57f7b"
+        }
+      ],
+      "checks": [
+        {
+          "pass": true,
+          "label": "story candidate image loads",
+          "data": {
+            "loaded": true,
+            "width": 1774,
+            "height": 887,
+            "position": "76% 0%",
+            "src": "http://127.0.0.1:4208/assets/sj-banner-story-light.jpg"
+          }
+        },
+        {
+          "pass": true,
+          "label": "story full width",
+          "data": {
+            "x": 0,
+            "y": 99,
+            "width": 320,
+            "height": 600,
+            "right": 320,
+            "bottom": 699
+          }
+        },
+        {
+          "pass": true,
+          "label": "story copy inside banner",
+          "data": {
+            "x": 22,
+            "y": 502.53125,
+            "width": 276,
+            "height": 196.46875,
+            "right": 298,
+            "bottom": 699
+          }
+        },
+        {
+          "pass": true,
+          "label": "story no horizontal or text overflow"
+        },
+        {
+          "pass": true,
+          "label": "footer candidate image loads",
+          "data": {
+            "loaded": true,
+            "width": 1774,
+            "height": 887,
+            "position": "50% 50%",
+            "src": "http://127.0.0.1:4208/assets/sj-banner-footer-light.jpg"
+          }
+        },
+        {
+          "pass": true,
+          "label": "footer full width",
+          "data": {
+            "x": 0,
+            "y": 261.828125,
+            "width": 320,
+            "height": 600,
+            "right": 320,
+            "bottom": 861.828125
+          }
+        },
+        {
+          "pass": true,
+          "label": "footer copy inside banner",
+          "data": {
+            "x": 32.875,
+            "y": 490.46875,
+            "width": 254.25,
+            "height": 142.71875,
+            "right": 287.125,
+            "bottom": 633.1875
+          }
+        },
+        {
+          "pass": true,
+          "label": "footer no horizontal or text overflow"
+        },
+        {
+          "pass": true,
+          "label": "Both assets intercepted from v8 candidates"
+        },
+        {
+          "pass": true,
+          "label": "No JavaScript errors",
+          "data": []
+        }
+      ],
+      "errors": [],
+      "story": {
+        "box": {
+          "x": 0,
+          "y": 99,
+          "width": 320,
+          "height": 600,
+          "right": 320,
+          "bottom": 699
+        },
+        "copy": {
+          "x": 22,
+          "y": 502.53125,
+          "width": 276,
+          "height": 196.46875,
+          "right": 298,
+          "bottom": 699
+        },
+        "image": {
+          "loaded": true,
+          "width": 1774,
+          "height": 887,
+          "position": "76% 0%",
+          "src": "http://127.0.0.1:4208/assets/sj-banner-story-light.jpg"
+        },
+        "color": "rgb(255, 246, 233)",
+        "scrim": "rgba(0, 0, 0, 0) linear-gradient(0deg, rgba(43, 8, 14, 0.94) 0%, rgba(43, 8, 14, 0.83) 26%, rgba(43, 8, 14, 0.25) 55%, rgba(0, 0, 0, 0) 76%) repeat scroll 0% 0% / auto padding-box border-box",
+        "text": "OUR STORY / DEARBODY PHILIPPINES\n\nA SCENT JOURNEY\nFROM LONDON\nTO THE PHILIPPINES.",
+        "overflow": false,
+        "textOverflow": false
+      },
+      "footer": {
+        "box": {
+          "x": 0,
+          "y": 261.828125,
+          "width": 320,
+          "height": 600,
+          "right": 320,
+          "bottom": 861.828125
+        },
+        "copy": {
+          "x": 32.875,
+          "y": 490.46875,
+          "width": 254.25,
+          "height": 142.71875,
+          "right": 287.125,
+          "bottom": 633.1875
+        },
+        "image": {
+          "loaded": true,
+          "width": 1774,
+          "height": 887,
+          "position": "50% 50%",
+          "src": "http://127.0.0.1:4208/assets/sj-banner-footer-light.jpg"
+        },
+        "color": "rgb(92, 0, 6)",
+        "scrim": "rgba(244, 227, 203, 0.2) none repeat scroll 0% 0% / auto padding-box border-box",
+        "text": "A LITTLE MORE\nYOU, EVERY DAY.",
+        "overflow": false,
+        "textOverflow": false
+      },
+      "status": "PASS"
+    },
+    {
+      "width": 320,
+      "theme": "dark",
+      "images": [
+        {
+          "file": "sj-banner-story-dark.jpg",
+          "sha256": "cd8f0bb8d2268e46607159c4413d46698c72a4194aa7fba8a09cbc7e6f13d6f6"
+        },
+        {
+          "file": "sj-banner-footer-dark.jpg",
+          "sha256": "0fc3d6fe2c987336c5fe4846c2593383ec622b58c36f4081e541d527f4c4094b"
+        }
+      ],
+      "checks": [
+        {
+          "pass": true,
+          "label": "story candidate image loads",
+          "data": {
+            "loaded": true,
+            "width": 1774,
+            "height": 887,
+            "position": "76% 0%",
+            "src": "http://127.0.0.1:4208/assets/sj-banner-story-dark.jpg"
+          }
+        },
+        {
+          "pass": true,
+          "label": "story full width",
+          "data": {
+            "x": 0,
+            "y": 99,
+            "width": 320,
+            "height": 600,
+            "right": 320,
+            "bottom": 699
+          }
+        },
+        {
+          "pass": true,
+          "label": "story copy inside banner",
+          "data": {
+            "x": 22,
+            "y": 502.53125,
+            "width": 276,
+            "height": 196.46875,
+            "right": 298,
+            "bottom": 699
+          }
+        },
+        {
+          "pass": true,
+          "label": "story no horizontal or text overflow"
+        },
+        {
+          "pass": true,
+          "label": "footer candidate image loads",
+          "data": {
+            "loaded": true,
+            "width": 1774,
+            "height": 887,
+            "position": "50% 50%",
+            "src": "http://127.0.0.1:4208/assets/sj-banner-footer-dark.jpg"
+          }
+        },
+        {
+          "pass": true,
+          "label": "footer full width",
+          "data": {
+            "x": 0,
+            "y": 261.828125,
+            "width": 320,
+            "height": 600,
+            "right": 320,
+            "bottom": 861.828125
+          }
+        },
+        {
+          "pass": true,
+          "label": "footer copy inside banner",
+          "data": {
+            "x": 32.875,
+            "y": 490.46875,
+            "width": 254.25,
+            "height": 142.71875,
+            "right": 287.125,
+            "bottom": 633.1875
+          }
+        },
+        {
+          "pass": true,
+          "label": "footer no horizontal or text overflow"
+        },
+        {
+          "pass": true,
+          "label": "Both assets intercepted from v8 candidates"
+        },
+        {
+          "pass": true,
+          "label": "No JavaScript errors",
+          "data": []
+        }
+      ],
+      "errors": [],
+      "story": {
+        "box": {
+          "x": 0,
+          "y": 99,
+          "width": 320,
+          "height": 600,
+          "right": 320,
+          "bottom": 699
+        },
+        "copy": {
+          "x": 22,
+          "y": 502.53125,
+          "width": 276,
+          "height": 196.46875,
+          "right": 298,
+          "bottom": 699
+        },
+        "image": {
+          "loaded": true,
+          "width": 1774,
+          "height": 887,
+          "position": "76% 0%",
+          "src": "http://127.0.0.1:4208/assets/sj-banner-story-dark.jpg"
+        },
+        "color": "rgb(255, 246, 233)",
+        "scrim": "rgba(0, 0, 0, 0) linear-gradient(0deg, rgba(43, 8, 14, 0.94) 0%, rgba(43, 8, 14, 0.83) 26%, rgba(43, 8, 14, 0.25) 55%, rgba(0, 0, 0, 0) 76%) repeat scroll 0% 0% / auto padding-box border-box",
+        "text": "OUR STORY / DEARBODY PHILIPPINES\n\nA SCENT JOURNEY\nFROM LONDON\nTO THE PHILIPPINES.",
+        "overflow": false,
+        "textOverflow": false
+      },
+      "footer": {
+        "box": {
+          "x": 0,
+          "y": 261.828125,
+          "width": 320,
+          "height": 600,
+          "right": 320,
+          "bottom": 861.828125
+        },
+        "copy": {
+          "x": 32.875,
+          "y": 490.46875,
+          "width": 254.25,
+          "height": 142.71875,
+          "right": 287.125,
+          "bottom": 633.1875
+        },
+        "image": {
+          "loaded": true,
+          "width": 1774,
+          "height": 887,
+          "position": "50% 50%",
+          "src": "http://127.0.0.1:4208/assets/sj-banner-footer-dark.jpg"
+        },
+        "color": "rgb(92, 0, 6)",
+        "scrim": "rgba(244, 227, 203, 0.2) none repeat scroll 0% 0% / auto padding-box border-box",
+        "text": "A LITTLE MORE\nYOU, EVERY DAY.",
+        "overflow": false,
+        "textOverflow": false
+      },
+      "status": "PASS"
+    },
+    {
+      "width": 390,
+      "theme": "light",
+      "images": [
+        {
+          "file": "sj-banner-story-light.jpg",
+          "sha256": "17bce313659d895766d750dc5417072fc103d2b978b46c6455a14197fd351ee4"
+        },
+        {
+          "file": "sj-banner-footer-light.jpg",
+          "sha256": "31e8ea912ed1210d343cbf3d57690b44d9e763d778803991836ebdd208d57f7b"
+        }
+      ],
+      "checks": [
+        {
+          "pass": true,
+          "label": "story candidate image loads",
+          "data": {
+            "loaded": true,
+            "width": 1774,
+            "height": 887,
+            "position": "76% 0%",
+            "src": "http://127.0.0.1:4208/assets/sj-banner-story-light.jpg"
+          }
+        },
+        {
+          "pass": true,
+          "label": "story full width",
+          "data": {
+            "x": 0,
+            "y": 99,
+            "width": 390,
+            "height": 600,
+            "right": 390,
+            "bottom": 699
+          }
+        },
+        {
+          "pass": true,
+          "label": "story copy inside banner",
+          "data": {
+            "x": 22,
+            "y": 495.453125,
+            "width": 346,
+            "height": 203.546875,
+            "right": 368,
+            "bottom": 699
+          }
+        },
+        {
+          "pass": true,
+          "label": "story no horizontal or text overflow"
+        },
+        {
+          "pass": true,
+          "label": "footer candidate image loads",
+          "data": {
+            "loaded": true,
+            "width": 1774,
+            "height": 887,
+            "position": "50% 50%",
+            "src": "http://127.0.0.1:4208/assets/sj-banner-footer-light.jpg"
+          }
+        },
+        {
+          "pass": true,
+          "label": "footer full width",
+          "data": {
+            "x": 0,
+            "y": 261.703125,
+            "width": 390,
+            "height": 600,
+            "right": 390,
+            "bottom": 861.703125
+          }
+        },
+        {
+          "pass": true,
+          "label": "footer copy inside banner",
+          "data": {
+            "x": 64.09375,
+            "y": 489.21875,
+            "width": 261.796875,
+            "height": 144.96875,
+            "right": 325.890625,
+            "bottom": 634.1875
+          }
+        },
+        {
+          "pass": true,
+          "label": "footer no horizontal or text overflow"
+        },
+        {
+          "pass": true,
+          "label": "Both assets intercepted from v8 candidates"
+        },
+        {
+          "pass": true,
+          "label": "No JavaScript errors",
+          "data": []
+        }
+      ],
+      "errors": [],
+      "story": {
+        "box": {
+          "x": 0,
+          "y": 99,
+          "width": 390,
+          "height": 600,
+          "right": 390,
+          "bottom": 699
+        },
+        "copy": {
+          "x": 22,
+          "y": 495.453125,
+          "width": 346,
+          "height": 203.546875,
+          "right": 368,
+          "bottom": 699
+        },
+        "image": {
+          "loaded": true,
+          "width": 1774,
+          "height": 887,
+          "position": "76% 0%",
+          "src": "http://127.0.0.1:4208/assets/sj-banner-story-light.jpg"
+        },
+        "color": "rgb(255, 246, 233)",
+        "scrim": "rgba(0, 0, 0, 0) linear-gradient(0deg, rgba(43, 8, 14, 0.94) 0%, rgba(43, 8, 14, 0.83) 26%, rgba(43, 8, 14, 0.25) 55%, rgba(0, 0, 0, 0) 76%) repeat scroll 0% 0% / auto padding-box border-box",
+        "text": "OUR STORY / DEARBODY PHILIPPINES\n\nA SCENT JOURNEY\nFROM LONDON\nTO THE PHILIPPINES.",
+        "overflow": false,
+        "textOverflow": false
+      },
+      "footer": {
+        "box": {
+          "x": 0,
+          "y": 261.703125,
+          "width": 390,
+          "height": 600,
+          "right": 390,
+          "bottom": 861.703125
+        },
+        "copy": {
+          "x": 64.09375,
+          "y": 489.21875,
+          "width": 261.796875,
+          "height": 144.96875,
+          "right": 325.890625,
+          "bottom": 634.1875
+        },
+        "image": {
+          "loaded": true,
+          "width": 1774,
+          "height": 887,
+          "position": "50% 50%",
+          "src": "http://127.0.0.1:4208/assets/sj-banner-footer-light.jpg"
+        },
+        "color": "rgb(92, 0, 6)",
+        "scrim": "rgba(244, 227, 203, 0.2) none repeat scroll 0% 0% / auto padding-box border-box",
+        "text": "A LITTLE MORE\nYOU, EVERY DAY.",
+        "overflow": false,
+        "textOverflow": false
+      },
+      "status": "PASS"
+    },
+    {
+      "width": 390,
+      "theme": "dark",
+      "images": [
+        {
+          "file": "sj-banner-story-dark.jpg",
+          "sha256": "cd8f0bb8d2268e46607159c4413d46698c72a4194aa7fba8a09cbc7e6f13d6f6"
+        },
+        {
+          "file": "sj-banner-footer-dark.jpg",
+          "sha256": "0fc3d6fe2c987336c5fe4846c2593383ec622b58c36f4081e541d527f4c4094b"
+        }
+      ],
+      "checks": [
+        {
+          "pass": true,
+          "label": "story candidate image loads",
+          "data": {
+            "loaded": true,
+            "width": 1774,
+            "height": 887,
+            "position": "76% 0%",
+            "src": "http://127.0.0.1:4208/assets/sj-banner-story-dark.jpg"
+          }
+        },
+        {
+          "pass": true,
+          "label": "story full width",
+          "data": {
+            "x": 0,
+            "y": 99,
+            "width": 390,
+            "height": 600,
+            "right": 390,
+            "bottom": 699
+          }
+        },
+        {
+          "pass": true,
+          "label": "story copy inside banner",
+          "data": {
+            "x": 22,
+            "y": 495.453125,
+            "width": 346,
+            "height": 203.546875,
+            "right": 368,
+            "bottom": 699
+          }
+        },
+        {
+          "pass": true,
+          "label": "story no horizontal or text overflow"
+        },
+        {
+          "pass": true,
+          "label": "footer candidate image loads",
+          "data": {
+            "loaded": true,
+            "width": 1774,
+            "height": 887,
+            "position": "50% 50%",
+            "src": "http://127.0.0.1:4208/assets/sj-banner-footer-dark.jpg"
+          }
+        },
+        {
+          "pass": true,
+          "label": "footer full width",
+          "data": {
+            "x": 0,
+            "y": 261.703125,
+            "width": 390,
+            "height": 600,
+            "right": 390,
+            "bottom": 861.703125
+          }
+        },
+        {
+          "pass": true,
+          "label": "footer copy inside banner",
+          "data": {
+            "x": 64.09375,
+            "y": 489.21875,
+            "width": 261.796875,
+            "height": 144.96875,
+            "right": 325.890625,
+            "bottom": 634.1875
+          }
+        },
+        {
+          "pass": true,
+          "label": "footer no horizontal or text overflow"
+        },
+        {
+          "pass": true,
+          "label": "Both assets intercepted from v8 candidates"
+        },
+        {
+          "pass": true,
+          "label": "No JavaScript errors",
+          "data": []
+        }
+      ],
+      "errors": [],
+      "story": {
+        "box": {
+          "x": 0,
+          "y": 99,
+          "width": 390,
+          "height": 600,
+          "right": 390,
+          "bottom": 699
+        },
+        "copy": {
+          "x": 22,
+          "y": 495.453125,
+          "width": 346,
+          "height": 203.546875,
+          "right": 368,
+          "bottom": 699
+        },
+        "image": {
+          "loaded": true,
+          "width": 1774,
+          "height": 887,
+          "position": "76% 0%",
+          "src": "http://127.0.0.1:4208/assets/sj-banner-story-dark.jpg"
+        },
+        "color": "rgb(255, 246, 233)",
+        "scrim": "rgba(0, 0, 0, 0) linear-gradient(0deg, rgba(43, 8, 14, 0.94) 0%, rgba(43, 8, 14, 0.83) 26%, rgba(43, 8, 14, 0.25) 55%, rgba(0, 0, 0, 0) 76%) repeat scroll 0% 0% / auto padding-box border-box",
+        "text": "OUR STORY / DEARBODY PHILIPPINES\n\nA SCENT JOURNEY\nFROM LONDON\nTO THE PHILIPPINES.",
+        "overflow": false,
+        "textOverflow": false
+      },
+      "footer": {
+        "box": {
+          "x": 0,
+          "y": 261.703125,
+          "width": 390,
+          "height": 600,
+          "right": 390,
+          "bottom": 861.703125
+        },
+        "copy": {
+          "x": 64.09375,
+          "y": 489.21875,
+          "width": 261.796875,
+          "height": 144.96875,
+          "right": 325.890625,
+          "bottom": 634.1875
+        },
+        "image": {
+          "loaded": true,
+          "width": 1774,
+          "height": 887,
+          "position": "50% 50%",
+          "src": "http://127.0.0.1:4208/assets/sj-banner-footer-dark.jpg"
+        },
+        "color": "rgb(92, 0, 6)",
+        "scrim": "rgba(244, 227, 203, 0.2) none repeat scroll 0% 0% / auto padding-box border-box",
+        "text": "A LITTLE MORE\nYOU, EVERY DAY.",
+        "overflow": false,
+        "textOverflow": false
+      },
+      "status": "PASS"
+    },
+    {
+      "width": 1440,
+      "theme": "light",
+      "images": [
+        {
+          "file": "sj-banner-story-light.jpg",
+          "sha256": "17bce313659d895766d750dc5417072fc103d2b978b46c6455a14197fd351ee4"
+        },
+        {
+          "file": "sj-banner-footer-light.jpg",
+          "sha256": "31e8ea912ed1210d343cbf3d57690b44d9e763d778803991836ebdd208d57f7b"
+        }
+      ],
+      "checks": [
+        {
+          "pass": true,
+          "label": "story candidate image loads",
+          "data": {
+            "loaded": true,
+            "width": 1774,
+            "height": 887,
+            "position": "50% 0%",
+            "src": "http://127.0.0.1:4208/assets/sj-banner-story-light.jpg"
+          }
+        },
+        {
+          "pass": true,
+          "label": "story full width",
+          "data": {
+            "x": 0,
+            "y": 110.5,
+            "width": 1440,
+            "height": 619.1875,
+            "right": 1440,
+            "bottom": 729.6875
+          }
+        },
+        {
+          "pass": true,
+          "label": "story copy inside banner",
+          "data": {
+            "x": 61.90625,
+            "y": 253.140625,
+            "width": 580.703125,
+            "height": 333.890625,
+            "right": 642.609375,
+            "bottom": 587.03125
+          }
+        },
+        {
+          "pass": true,
+          "label": "story no horizontal or text overflow"
+        },
+        {
+          "pass": true,
+          "label": "footer candidate image loads",
+          "data": {
+            "loaded": true,
+            "width": 1774,
+            "height": 887,
+            "position": "50% 50%",
+            "src": "http://127.0.0.1:4208/assets/sj-banner-footer-light.jpg"
+          }
+        },
+        {
+          "pass": true,
+          "label": "footer full width",
+          "data": {
+            "x": 0,
+            "y": 258.078125,
+            "width": 1440,
+            "height": 619.1875,
+            "right": 1440,
+            "bottom": 877.265625
+          }
+        },
+        {
+          "pass": true,
+          "label": "footer copy inside banner",
+          "data": {
+            "x": 406.171875,
+            "y": 423,
+            "width": 627.65625,
+            "height": 289.34375,
+            "right": 1033.828125,
+            "bottom": 712.34375
+          }
+        },
+        {
+          "pass": true,
+          "label": "footer no horizontal or text overflow"
+        },
+        {
+          "pass": true,
+          "label": "Both assets intercepted from v8 candidates"
+        },
+        {
+          "pass": true,
+          "label": "No JavaScript errors",
+          "data": []
+        }
+      ],
+      "errors": [],
+      "story": {
+        "box": {
+          "x": 0,
+          "y": 110.5,
+          "width": 1440,
+          "height": 619.1875,
+          "right": 1440,
+          "bottom": 729.6875
+        },
+        "copy": {
+          "x": 61.90625,
+          "y": 253.140625,
+          "width": 580.703125,
+          "height": 333.890625,
+          "right": 642.609375,
+          "bottom": 587.03125
+        },
+        "image": {
+          "loaded": true,
+          "width": 1774,
+          "height": 887,
+          "position": "50% 0%",
+          "src": "http://127.0.0.1:4208/assets/sj-banner-story-light.jpg"
+        },
+        "color": "rgb(92, 0, 6)",
+        "scrim": "rgba(0, 0, 0, 0) linear-gradient(90deg, rgba(244, 227, 203, 0.88), rgba(244, 227, 203, 0.2) 48%, rgba(0, 0, 0, 0) 68%) repeat scroll 0% 0% / auto padding-box border-box",
+        "text": "OUR STORY / DEARBODY PHILIPPINES\n\nA SCENT JOURNEY\nFROM LONDON\nTO THE PHILIPPINES.",
+        "overflow": false,
+        "textOverflow": false
+      },
+      "footer": {
+        "box": {
+          "x": 0,
+          "y": 258.078125,
+          "width": 1440,
+          "height": 619.1875,
+          "right": 1440,
+          "bottom": 877.265625
+        },
+        "copy": {
+          "x": 406.171875,
+          "y": 423,
+          "width": 627.65625,
+          "height": 289.34375,
+          "right": 1033.828125,
+          "bottom": 712.34375
+        },
+        "image": {
+          "loaded": true,
+          "width": 1774,
+          "height": 887,
+          "position": "50% 50%",
+          "src": "http://127.0.0.1:4208/assets/sj-banner-footer-light.jpg"
+        },
+        "color": "rgb(92, 0, 6)",
+        "scrim": "rgba(244, 227, 203, 0.2) none repeat scroll 0% 0% / auto padding-box border-box",
+        "text": "A LITTLE MORE\nYOU, EVERY DAY.",
+        "overflow": false,
+        "textOverflow": false
+      },
+      "status": "PASS"
+    },
+    {
+      "width": 1440,
+      "theme": "dark",
+      "images": [
+        {
+          "file": "sj-banner-story-dark.jpg",
+          "sha256": "cd8f0bb8d2268e46607159c4413d46698c72a4194aa7fba8a09cbc7e6f13d6f6"
+        },
+        {
+          "file": "sj-banner-footer-dark.jpg",
+          "sha256": "0fc3d6fe2c987336c5fe4846c2593383ec622b58c36f4081e541d527f4c4094b"
+        }
+      ],
+      "checks": [
+        {
+          "pass": true,
+          "label": "story candidate image loads",
+          "data": {
+            "loaded": true,
+            "width": 1774,
+            "height": 887,
+            "position": "50% 0%",
+            "src": "http://127.0.0.1:4208/assets/sj-banner-story-dark.jpg"
+          }
+        },
+        {
+          "pass": true,
+          "label": "story full width",
+          "data": {
+            "x": 0,
+            "y": 110.5,
+            "width": 1440,
+            "height": 619.1875,
+            "right": 1440,
+            "bottom": 729.6875
+          }
+        },
+        {
+          "pass": true,
+          "label": "story copy inside banner",
+          "data": {
+            "x": 61.90625,
+            "y": 253.140625,
+            "width": 580.703125,
+            "height": 333.890625,
+            "right": 642.609375,
+            "bottom": 587.03125
+          }
+        },
+        {
+          "pass": true,
+          "label": "story no horizontal or text overflow"
+        },
+        {
+          "pass": true,
+          "label": "footer candidate image loads",
+          "data": {
+            "loaded": true,
+            "width": 1774,
+            "height": 887,
+            "position": "50% 50%",
+            "src": "http://127.0.0.1:4208/assets/sj-banner-footer-dark.jpg"
+          }
+        },
+        {
+          "pass": true,
+          "label": "footer full width",
+          "data": {
+            "x": 0,
+            "y": 258.078125,
+            "width": 1440,
+            "height": 619.1875,
+            "right": 1440,
+            "bottom": 877.265625
+          }
+        },
+        {
+          "pass": true,
+          "label": "footer copy inside banner",
+          "data": {
+            "x": 406.171875,
+            "y": 423,
+            "width": 627.65625,
+            "height": 289.34375,
+            "right": 1033.828125,
+            "bottom": 712.34375
+          }
+        },
+        {
+          "pass": true,
+          "label": "footer no horizontal or text overflow"
+        },
+        {
+          "pass": true,
+          "label": "Both assets intercepted from v8 candidates"
+        },
+        {
+          "pass": true,
+          "label": "No JavaScript errors",
+          "data": []
+        }
+      ],
+      "errors": [],
+      "story": {
+        "box": {
+          "x": 0,
+          "y": 110.5,
+          "width": 1440,
+          "height": 619.1875,
+          "right": 1440,
+          "bottom": 729.6875
+        },
+        "copy": {
+          "x": 61.90625,
+          "y": 253.140625,
+          "width": 580.703125,
+          "height": 333.890625,
+          "right": 642.609375,
+          "bottom": 587.03125
+        },
+        "image": {
+          "loaded": true,
+          "width": 1774,
+          "height": 887,
+          "position": "50% 0%",
+          "src": "http://127.0.0.1:4208/assets/sj-banner-story-dark.jpg"
+        },
+        "color": "rgb(244, 227, 203)",
+        "scrim": "rgba(0, 0, 0, 0) linear-gradient(90deg, rgba(43, 8, 14, 0.85), rgba(43, 8, 14, 0.25) 48%, rgba(0, 0, 0, 0) 68%) repeat scroll 0% 0% / auto padding-box border-box",
+        "text": "OUR STORY / DEARBODY PHILIPPINES\n\nA SCENT JOURNEY\nFROM LONDON\nTO THE PHILIPPINES.",
+        "overflow": false,
+        "textOverflow": false
+      },
+      "footer": {
+        "box": {
+          "x": 0,
+          "y": 258.078125,
+          "width": 1440,
+          "height": 619.1875,
+          "right": 1440,
+          "bottom": 877.265625
+        },
+        "copy": {
+          "x": 406.171875,
+          "y": 423,
+          "width": 627.65625,
+          "height": 289.34375,
+          "right": 1033.828125,
+          "bottom": 712.34375
+        },
+        "image": {
+          "loaded": true,
+          "width": 1774,
+          "height": 887,
+          "position": "50% 50%",
+          "src": "http://127.0.0.1:4208/assets/sj-banner-footer-dark.jpg"
+        },
+        "color": "rgb(92, 0, 6)",
+        "scrim": "rgba(244, 227, 203, 0.2) none repeat scroll 0% 0% / auto padding-box border-box",
+        "text": "A LITTLE MORE\nYOU, EVERY DAY.",
+        "overflow": false,
+        "textOverflow": false
+      },
+      "status": "PASS"
+    }
+  ],
+  "failures": [],
+  "summary": {
+    "status": "PASS",
+    "cases": 6,
+    "checks": 60,
+    "failures": 0
+  }
+}

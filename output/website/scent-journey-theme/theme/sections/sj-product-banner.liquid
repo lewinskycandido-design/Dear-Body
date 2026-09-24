@@ -1,0 +1,61 @@
+{%- liquid
+  capture banner_statement
+    if product.metafields.custom.hero_statement.value != blank
+      echo product.metafields.custom.hero_statement.value
+    else
+      render 'sj-approved-copy', handle: product.handle, field: 'hero_statement'
+    endif
+  endcapture
+  assign banner_statement = banner_statement | strip
+  assign banner_alt = product.title | append: ' lifestyle campaign'
+  assign override_alt = section.settings.image.alt | default: product.title
+  assign native_alt = product.featured_image.alt | default: product.title
+  assign banner_asset = ''
+  case product.handle
+    when 'mojito-metallique', 'amber-oud-silk', 'mistened-narcissus', 'charme-envoutant', 'oud-mirage', 'rtulle-satin'
+      assign banner_asset = 'sj-product-banner-' | append: product.handle | append: '.jpg'
+  endcase
+  assign banner_kind = 'text-only'
+  capture banner_image
+    if section.settings.image != blank
+      assign banner_kind = 'campaign'
+      echo section.settings.image | image_url: width: 2400 | image_tag: loading: 'eager', fetchpriority: 'high', widths: '540, 750, 1100, 1500, 1800, 2400', sizes: '100vw', alt: override_alt
+    elsif banner_asset != blank
+      assign banner_kind = 'campaign'
+      echo '<img src="'
+      echo banner_asset | asset_url
+      echo '" width="1774" height="887" loading="eager" fetchpriority="high" alt="'
+      echo banner_alt | escape
+      echo '">'
+    elsif product.featured_image != blank
+      assign banner_kind = 'native'
+      echo product.featured_image | image_url: width: 1500 | image_tag: loading: 'eager', fetchpriority: 'high', widths: '360, 540, 750, 1100, 1500', sizes: '(min-width: 761px) 45vw, 100vw', alt: native_alt
+    endif
+  endcapture
+  assign banner_image = banner_image | strip
+-%}
+<section class="sj-product-banner sj-product-banner--{{ banner_kind }}" aria-labelledby="ProductBannerTitle-{{ section.id }}" data-sj-product-banner data-product-handle="{{ product.handle | escape }}">
+  {% if banner_image != blank %}<div class="sj-product-banner__media">{{ banner_image }}</div>{% endif %}
+  <div class="sj-product-banner__inner sj-container">
+    <div class="sj-product-banner__copy">
+      <p class="sj-eyebrow">{{ section.settings.eyebrow | escape }}</p>
+      <h1 id="ProductBannerTitle-{{ section.id }}" class="sj-product-banner__title" data-sj-product-banner-title>{{ product.title | escape }}</h1>
+      {% if section.settings.show_statement and banner_statement != blank %}<p class="sj-product-banner__statement">{{ banner_statement | escape }}</p>{% endif %}
+      <a class="sj-button" href="#ProductDetails-{{ product.id }}">{{ section.settings.button_label | escape }}</a>
+    </div>
+  </div>
+</section>
+{% schema %}
+{
+  "name": "Product header banner",
+  "limit": 1,
+  "enabled_on": { "templates": ["product"] },
+  "settings": [
+    {"type":"text","id":"eyebrow","label":"Eyebrow","default":"DEARBODY PHILIPPINES"},
+    {"type":"checkbox","id":"show_statement","label":"Show scent statement","default":true},
+    {"type":"text","id":"button_label","label":"Button label","default":"Explore this fragrance"},
+    {"type":"image_picker","id":"image","label":"Banner image override","info":"Use a 2:1 landscape image with the product on the right and space for the title on the left. The launch fragrances have individual campaign images; other products use their featured image."}
+  ],
+  "presets": [{"name":"Product header banner"}]
+}
+{% endschema %}

@@ -1,0 +1,9 @@
+{%- liquid
+ assign image_count = product.media | where: 'media_type', 'image' | size
+ if settings.regenerated_product_media and product.variants.size == 1 and image_count == product.media.size
+  case product.handle
+   when 'mojito-metallique', 'amber-oud-silk', 'mistened-narcissus', 'charme-envoutant', 'oud-mirage', 'rtulle-satin'
+    echo 'sj-' | append: product.handle
+  endcase
+ endif
+-%}

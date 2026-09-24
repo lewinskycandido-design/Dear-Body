@@ -1,0 +1,3884 @@
+{
+  "generatedAt": "2026-09-24T04:02:33.821Z",
+  "base": "http://127.0.0.1:4208",
+  "cases": [
+    {
+      "name": "women",
+      "route": "/collections/womens-perfume",
+      "theme": "light",
+      "width": 1440,
+      "checks": [
+        {
+          "pass": true,
+          "label": "Banner outer spans viewport",
+          "data": {
+            "left": 0,
+            "right": 1440,
+            "top": 110.5,
+            "bottom": 600.09375,
+            "width": 1440,
+            "height": 489.59375
+          }
+        },
+        {
+          "pass": true,
+          "label": "Banner media spans viewport",
+          "data": {
+            "left": 0,
+            "right": 1440,
+            "top": 110.5,
+            "bottom": 600.09375,
+            "width": 1440,
+            "height": 489.59375
+          }
+        },
+        {
+          "pass": true,
+          "label": "Correct existing theme artwork loaded",
+          "data": {
+            "left": 0,
+            "right": 1440,
+            "top": 110.5,
+            "bottom": 600.09375,
+            "width": 1440,
+            "height": 489.59375,
+            "src": "http://127.0.0.1:4208/assets/sj-banner-women-light.jpg",
+            "loaded": true,
+            "fit": "cover",
+            "position": "50% 0%"
+          }
+        },
+        {
+          "pass": true,
+          "label": "No page or banner copy overflow",
+          "data": []
+        },
+        {
+          "pass": true,
+          "label": "Single readable page H1",
+          "data": "A SCENT FOR\nEVERY VERSION OF YOU."
+        },
+        {
+          "pass": true,
+          "label": "Heading contained within copy block"
+        },
+        {
+          "pass": true,
+          "label": "Banner text retains side gutters"
+        },
+        {
+          "pass": true,
+          "label": "Below-banner grid/form/essay retains constrained gutters",
+          "data": {
+            "left": 61.90625,
+            "right": 1378.09375,
+            "top": 744.484375,
+            "bottom": 1351.421875,
+            "width": 1316.1875,
+            "height": 606.9375
+          }
+        },
+        {
+          "pass": true,
+          "label": "Display Light300 body retained"
+        },
+        {
+          "pass": true,
+          "label": "Cenzo Bold heading retained"
+        },
+        {
+          "pass": true,
+          "label": "No JavaScript errors",
+          "data": []
+        }
+      ],
+      "errors": [],
+      "layout": {
+        "banner": {
+          "left": 0,
+          "right": 1440,
+          "top": 110.5,
+          "bottom": 600.09375,
+          "width": 1440,
+          "height": 489.59375
+        },
+        "media": {
+          "left": 0,
+          "right": 1440,
+          "top": 110.5,
+          "bottom": 600.09375,
+          "width": 1440,
+          "height": 489.59375
+        },
+        "image": {
+          "left": 0,
+          "right": 1440,
+          "top": 110.5,
+          "bottom": 600.09375,
+          "width": 1440,
+          "height": 489.59375,
+          "src": "http://127.0.0.1:4208/assets/sj-banner-women-light.jpg",
+          "loaded": true,
+          "fit": "cover",
+          "position": "50% 0%"
+        },
+        "copy": {
+          "left": 61.90625,
+          "right": 759.484375,
+          "top": 132.359375,
+          "bottom": 578.234375,
+          "width": 697.578125,
+          "height": 445.875
+        },
+        "h1": {
+          "left": 61.90625,
+          "right": 719.484375,
+          "top": 211.75,
+          "bottom": 414.953125,
+          "width": 657.578125,
+          "height": 203.203125
+        },
+        "content": {
+          "left": 61.90625,
+          "right": 1378.09375,
+          "top": 744.484375,
+          "bottom": 1351.421875,
+          "width": 1316.1875,
+          "height": 606.9375
+        },
+        "h1Text": "A SCENT FOR\nEVERY VERSION OF YOU.",
+        "h1Count": 1,
+        "overflow": false,
+        "copyOverflow": [],
+        "bodyFamily": "\"Helvetica Now Display\", \"Helvetica Neue\", Arial, sans-serif",
+        "bodyWeight": "300",
+        "headingFamily": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif",
+        "headingWeight": "700",
+        "faces": [
+          {
+            "family": "Cenzo Flare Bold",
+            "status": "loaded",
+            "weight": "700"
+          },
+          {
+            "family": "Helvetica Now Display",
+            "status": "loaded",
+            "weight": "300"
+          }
+        ]
+      },
+      "status": "PASS"
+    },
+    {
+      "name": "women",
+      "route": "/collections/womens-perfume",
+      "theme": "light",
+      "width": 390,
+      "checks": [
+        {
+          "pass": true,
+          "label": "Banner outer spans viewport",
+          "data": {
+            "left": 0,
+            "right": 390,
+            "top": 99,
+            "bottom": 654.234375,
+            "width": 390,
+            "height": 555.234375
+          }
+        },
+        {
+          "pass": true,
+          "label": "Banner media spans viewport",
+          "data": {
+            "left": 0,
+            "right": 390,
+            "top": 99,
+            "bottom": 344,
+            "width": 390,
+            "height": 245
+          }
+        },
+        {
+          "pass": true,
+          "label": "Correct existing theme artwork loaded",
+          "data": {
+            "left": 0,
+            "right": 390,
+            "top": 99,
+            "bottom": 344,
+            "width": 390,
+            "height": 245,
+            "src": "http://127.0.0.1:4208/assets/sj-banner-women-light.jpg",
+            "loaded": true,
+            "fit": "cover",
+            "position": "72% 50%"
+          }
+        },
+        {
+          "pass": true,
+          "label": "No page or banner copy overflow",
+          "data": []
+        },
+        {
+          "pass": true,
+          "label": "Single readable page H1",
+          "data": "A SCENT FOR\nEVERY VERSION OF YOU."
+        },
+        {
+          "pass": true,
+          "label": "Heading contained within copy block"
+        },
+        {
+          "pass": true,
+          "label": "Banner text retains side gutters"
+        },
+        {
+          "pass": true,
+          "label": "Below-banner grid/form/essay retains constrained gutters",
+          "data": {
+            "left": 22,
+            "right": 368,
+            "top": 784.953125,
+            "bottom": 1371.5,
+            "width": 346,
+            "height": 586.546875
+          }
+        },
+        {
+          "pass": true,
+          "label": "Display Light300 body retained"
+        },
+        {
+          "pass": true,
+          "label": "Cenzo Bold heading retained"
+        },
+        {
+          "pass": true,
+          "label": "Collection filters open"
+        },
+        {
+          "pass": true,
+          "label": "Product card navigation retained"
+        },
+        {
+          "pass": true,
+          "label": "No JavaScript errors",
+          "data": []
+        }
+      ],
+      "errors": [],
+      "layout": {
+        "banner": {
+          "left": 0,
+          "right": 390,
+          "top": 99,
+          "bottom": 654.234375,
+          "width": 390,
+          "height": 555.234375
+        },
+        "media": {
+          "left": 0,
+          "right": 390,
+          "top": 99,
+          "bottom": 344,
+          "width": 390,
+          "height": 245
+        },
+        "image": {
+          "left": 0,
+          "right": 390,
+          "top": 99,
+          "bottom": 344,
+          "width": 390,
+          "height": 245,
+          "src": "http://127.0.0.1:4208/assets/sj-banner-women-light.jpg",
+          "loaded": true,
+          "fit": "cover",
+          "position": "72% 50%"
+        },
+        "copy": {
+          "left": 22,
+          "right": 368,
+          "top": 344,
+          "bottom": 654.234375,
+          "width": 346,
+          "height": 310.234375
+        },
+        "h1": {
+          "left": 22,
+          "right": 368,
+          "top": 406.390625,
+          "bottom": 515.140625,
+          "width": 346,
+          "height": 108.75
+        },
+        "content": {
+          "left": 22,
+          "right": 368,
+          "top": 784.953125,
+          "bottom": 1371.5,
+          "width": 346,
+          "height": 586.546875
+        },
+        "h1Text": "A SCENT FOR\nEVERY VERSION OF YOU.",
+        "h1Count": 1,
+        "overflow": false,
+        "copyOverflow": [],
+        "bodyFamily": "\"Helvetica Now Display\", \"Helvetica Neue\", Arial, sans-serif",
+        "bodyWeight": "300",
+        "headingFamily": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif",
+        "headingWeight": "700",
+        "faces": [
+          {
+            "family": "Cenzo Flare Bold",
+            "status": "loaded",
+            "weight": "700"
+          },
+          {
+            "family": "Helvetica Now Display",
+            "status": "loaded",
+            "weight": "300"
+          }
+        ]
+      },
+      "status": "PASS"
+    },
+    {
+      "name": "women",
+      "route": "/collections/womens-perfume",
+      "theme": "dark",
+      "width": 1440,
+      "checks": [
+        {
+          "pass": true,
+          "label": "Banner outer spans viewport",
+          "data": {
+            "left": 0,
+            "right": 1440,
+            "top": 110.5,
+            "bottom": 600.09375,
+            "width": 1440,
+            "height": 489.59375
+          }
+        },
+        {
+          "pass": true,
+          "label": "Banner media spans viewport",
+          "data": {
+            "left": 0,
+            "right": 1440,
+            "top": 110.5,
+            "bottom": 600.09375,
+            "width": 1440,
+            "height": 489.59375
+          }
+        },
+        {
+          "pass": true,
+          "label": "Correct existing theme artwork loaded",
+          "data": {
+            "left": 0,
+            "right": 1440,
+            "top": 110.5,
+            "bottom": 600.09375,
+            "width": 1440,
+            "height": 489.59375,
+            "src": "http://127.0.0.1:4208/assets/sj-banner-women-dark.jpg",
+            "loaded": true,
+            "fit": "cover",
+            "position": "50% 0%"
+          }
+        },
+        {
+          "pass": true,
+          "label": "No page or banner copy overflow",
+          "data": []
+        },
+        {
+          "pass": true,
+          "label": "Single readable page H1",
+          "data": "A SCENT FOR\nEVERY VERSION OF YOU."
+        },
+        {
+          "pass": true,
+          "label": "Heading contained within copy block"
+        },
+        {
+          "pass": true,
+          "label": "Banner text retains side gutters"
+        },
+        {
+          "pass": true,
+          "label": "Below-banner grid/form/essay retains constrained gutters",
+          "data": {
+            "left": 61.90625,
+            "right": 1378.09375,
+            "top": 744.484375,
+            "bottom": 1351.421875,
+            "width": 1316.1875,
+            "height": 606.9375
+          }
+        },
+        {
+          "pass": true,
+          "label": "Display Light300 body retained"
+        },
+        {
+          "pass": true,
+          "label": "Cenzo Bold heading retained"
+        },
+        {
+          "pass": true,
+          "label": "No JavaScript errors",
+          "data": []
+        }
+      ],
+      "errors": [],
+      "layout": {
+        "banner": {
+          "left": 0,
+          "right": 1440,
+          "top": 110.5,
+          "bottom": 600.09375,
+          "width": 1440,
+          "height": 489.59375
+        },
+        "media": {
+          "left": 0,
+          "right": 1440,
+          "top": 110.5,
+          "bottom": 600.09375,
+          "width": 1440,
+          "height": 489.59375
+        },
+        "image": {
+          "left": 0,
+          "right": 1440,
+          "top": 110.5,
+          "bottom": 600.09375,
+          "width": 1440,
+          "height": 489.59375,
+          "src": "http://127.0.0.1:4208/assets/sj-banner-women-dark.jpg",
+          "loaded": true,
+          "fit": "cover",
+          "position": "50% 0%"
+        },
+        "copy": {
+          "left": 61.90625,
+          "right": 759.484375,
+          "top": 132.359375,
+          "bottom": 578.234375,
+          "width": 697.578125,
+          "height": 445.875
+        },
+        "h1": {
+          "left": 61.90625,
+          "right": 719.484375,
+          "top": 211.75,
+          "bottom": 414.953125,
+          "width": 657.578125,
+          "height": 203.203125
+        },
+        "content": {
+          "left": 61.90625,
+          "right": 1378.09375,
+          "top": 744.484375,
+          "bottom": 1351.421875,
+          "width": 1316.1875,
+          "height": 606.9375
+        },
+        "h1Text": "A SCENT FOR\nEVERY VERSION OF YOU.",
+        "h1Count": 1,
+        "overflow": false,
+        "copyOverflow": [],
+        "bodyFamily": "\"Helvetica Now Display\", \"Helvetica Neue\", Arial, sans-serif",
+        "bodyWeight": "300",
+        "headingFamily": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif",
+        "headingWeight": "700",
+        "faces": [
+          {
+            "family": "Cenzo Flare Bold",
+            "status": "loaded",
+            "weight": "700"
+          },
+          {
+            "family": "Helvetica Now Display",
+            "status": "loaded",
+            "weight": "300"
+          }
+        ]
+      },
+      "status": "PASS"
+    },
+    {
+      "name": "women",
+      "route": "/collections/womens-perfume",
+      "theme": "dark",
+      "width": 390,
+      "checks": [
+        {
+          "pass": true,
+          "label": "Banner outer spans viewport",
+          "data": {
+            "left": 0,
+            "right": 390,
+            "top": 99,
+            "bottom": 654.234375,
+            "width": 390,
+            "height": 555.234375
+          }
+        },
+        {
+          "pass": true,
+          "label": "Banner media spans viewport",
+          "data": {
+            "left": 0,
+            "right": 390,
+            "top": 99,
+            "bottom": 344,
+            "width": 390,
+            "height": 245
+          }
+        },
+        {
+          "pass": true,
+          "label": "Correct existing theme artwork loaded",
+          "data": {
+            "left": 0,
+            "right": 390,
+            "top": 99,
+            "bottom": 344,
+            "width": 390,
+            "height": 245,
+            "src": "http://127.0.0.1:4208/assets/sj-banner-women-dark.jpg",
+            "loaded": true,
+            "fit": "cover",
+            "position": "72% 50%"
+          }
+        },
+        {
+          "pass": true,
+          "label": "No page or banner copy overflow",
+          "data": []
+        },
+        {
+          "pass": true,
+          "label": "Single readable page H1",
+          "data": "A SCENT FOR\nEVERY VERSION OF YOU."
+        },
+        {
+          "pass": true,
+          "label": "Heading contained within copy block"
+        },
+        {
+          "pass": true,
+          "label": "Banner text retains side gutters"
+        },
+        {
+          "pass": true,
+          "label": "Below-banner grid/form/essay retains constrained gutters",
+          "data": {
+            "left": 22,
+            "right": 368,
+            "top": 784.953125,
+            "bottom": 1371.5,
+            "width": 346,
+            "height": 586.546875
+          }
+        },
+        {
+          "pass": true,
+          "label": "Display Light300 body retained"
+        },
+        {
+          "pass": true,
+          "label": "Cenzo Bold heading retained"
+        },
+        {
+          "pass": true,
+          "label": "No JavaScript errors",
+          "data": []
+        }
+      ],
+      "errors": [],
+      "layout": {
+        "banner": {
+          "left": 0,
+          "right": 390,
+          "top": 99,
+          "bottom": 654.234375,
+          "width": 390,
+          "height": 555.234375
+        },
+        "media": {
+          "left": 0,
+          "right": 390,
+          "top": 99,
+          "bottom": 344,
+          "width": 390,
+          "height": 245
+        },
+        "image": {
+          "left": 0,
+          "right": 390,
+          "top": 99,
+          "bottom": 344,
+          "width": 390,
+          "height": 245,
+          "src": "http://127.0.0.1:4208/assets/sj-banner-women-dark.jpg",
+          "loaded": true,
+          "fit": "cover",
+          "position": "72% 50%"
+        },
+        "copy": {
+          "left": 22,
+          "right": 368,
+          "top": 344,
+          "bottom": 654.234375,
+          "width": 346,
+          "height": 310.234375
+        },
+        "h1": {
+          "left": 22,
+          "right": 368,
+          "top": 406.390625,
+          "bottom": 515.140625,
+          "width": 346,
+          "height": 108.75
+        },
+        "content": {
+          "left": 22,
+          "right": 368,
+          "top": 784.953125,
+          "bottom": 1371.5,
+          "width": 346,
+          "height": 586.546875
+        },
+        "h1Text": "A SCENT FOR\nEVERY VERSION OF YOU.",
+        "h1Count": 1,
+        "overflow": false,
+        "copyOverflow": [],
+        "bodyFamily": "\"Helvetica Now Display\", \"Helvetica Neue\", Arial, sans-serif",
+        "bodyWeight": "300",
+        "headingFamily": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif",
+        "headingWeight": "700",
+        "faces": [
+          {
+            "family": "Cenzo Flare Bold",
+            "status": "loaded",
+            "weight": "700"
+          },
+          {
+            "family": "Helvetica Now Display",
+            "status": "loaded",
+            "weight": "300"
+          }
+        ]
+      },
+      "status": "PASS"
+    },
+    {
+      "name": "men",
+      "route": "/collections/mens-perfume",
+      "theme": "light",
+      "width": 1440,
+      "checks": [
+        {
+          "pass": true,
+          "label": "Banner outer spans viewport",
+          "data": {
+            "left": 0,
+            "right": 1440,
+            "top": 110.5,
+            "bottom": 600.09375,
+            "width": 1440,
+            "height": 489.59375
+          }
+        },
+        {
+          "pass": true,
+          "label": "Banner media spans viewport",
+          "data": {
+            "left": 0,
+            "right": 1440,
+            "top": 110.5,
+            "bottom": 600.09375,
+            "width": 1440,
+            "height": 489.59375
+          }
+        },
+        {
+          "pass": true,
+          "label": "Correct existing theme artwork loaded",
+          "data": {
+            "left": 0,
+            "right": 1440,
+            "top": 110.5,
+            "bottom": 600.09375,
+            "width": 1440,
+            "height": 489.59375,
+            "src": "http://127.0.0.1:4208/assets/sj-banner-men-light.jpg",
+            "loaded": true,
+            "fit": "cover",
+            "position": "50% 0%"
+          }
+        },
+        {
+          "pass": true,
+          "label": "No page or banner copy overflow",
+          "data": []
+        },
+        {
+          "pass": true,
+          "label": "Single readable page H1",
+          "data": "MAKE YOUR SCENT\nPART OF YOUR STORY."
+        },
+        {
+          "pass": true,
+          "label": "Heading contained within copy block"
+        },
+        {
+          "pass": true,
+          "label": "Banner text retains side gutters"
+        },
+        {
+          "pass": true,
+          "label": "Below-banner grid/form/essay retains constrained gutters",
+          "data": {
+            "left": 61.90625,
+            "right": 1378.09375,
+            "top": 744.484375,
+            "bottom": 1333.65625,
+            "width": 1316.1875,
+            "height": 589.171875
+          }
+        },
+        {
+          "pass": true,
+          "label": "Display Light300 body retained"
+        },
+        {
+          "pass": true,
+          "label": "Cenzo Bold heading retained"
+        },
+        {
+          "pass": true,
+          "label": "No JavaScript errors",
+          "data": []
+        }
+      ],
+      "errors": [],
+      "layout": {
+        "banner": {
+          "left": 0,
+          "right": 1440,
+          "top": 110.5,
+          "bottom": 600.09375,
+          "width": 1440,
+          "height": 489.59375
+        },
+        "media": {
+          "left": 0,
+          "right": 1440,
+          "top": 110.5,
+          "bottom": 600.09375,
+          "width": 1440,
+          "height": 489.59375
+        },
+        "image": {
+          "left": 0,
+          "right": 1440,
+          "top": 110.5,
+          "bottom": 600.09375,
+          "width": 1440,
+          "height": 489.59375,
+          "src": "http://127.0.0.1:4208/assets/sj-banner-men-light.jpg",
+          "loaded": true,
+          "fit": "cover",
+          "position": "50% 0%"
+        },
+        "copy": {
+          "left": 61.90625,
+          "right": 759.484375,
+          "top": 166.21875,
+          "bottom": 544.359375,
+          "width": 697.578125,
+          "height": 378.140625
+        },
+        "h1": {
+          "left": 61.90625,
+          "right": 719.484375,
+          "top": 245.609375,
+          "bottom": 381.078125,
+          "width": 657.578125,
+          "height": 135.46875
+        },
+        "content": {
+          "left": 61.90625,
+          "right": 1378.09375,
+          "top": 744.484375,
+          "bottom": 1333.65625,
+          "width": 1316.1875,
+          "height": 589.171875
+        },
+        "h1Text": "MAKE YOUR SCENT\nPART OF YOUR STORY.",
+        "h1Count": 1,
+        "overflow": false,
+        "copyOverflow": [],
+        "bodyFamily": "\"Helvetica Now Display\", \"Helvetica Neue\", Arial, sans-serif",
+        "bodyWeight": "300",
+        "headingFamily": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif",
+        "headingWeight": "700",
+        "faces": [
+          {
+            "family": "Cenzo Flare Bold",
+            "status": "loaded",
+            "weight": "700"
+          },
+          {
+            "family": "Helvetica Now Display",
+            "status": "loaded",
+            "weight": "300"
+          }
+        ]
+      },
+      "status": "PASS"
+    },
+    {
+      "name": "men",
+      "route": "/collections/mens-perfume",
+      "theme": "light",
+      "width": 390,
+      "checks": [
+        {
+          "pass": true,
+          "label": "Banner outer spans viewport",
+          "data": {
+            "left": 0,
+            "right": 390,
+            "top": 99,
+            "bottom": 617.984375,
+            "width": 390,
+            "height": 518.984375
+          }
+        },
+        {
+          "pass": true,
+          "label": "Banner media spans viewport",
+          "data": {
+            "left": 0,
+            "right": 390,
+            "top": 99,
+            "bottom": 344,
+            "width": 390,
+            "height": 245
+          }
+        },
+        {
+          "pass": true,
+          "label": "Correct existing theme artwork loaded",
+          "data": {
+            "left": 0,
+            "right": 390,
+            "top": 99,
+            "bottom": 344,
+            "width": 390,
+            "height": 245,
+            "src": "http://127.0.0.1:4208/assets/sj-banner-men-light.jpg",
+            "loaded": true,
+            "fit": "cover",
+            "position": "72% 50%"
+          }
+        },
+        {
+          "pass": true,
+          "label": "No page or banner copy overflow",
+          "data": []
+        },
+        {
+          "pass": true,
+          "label": "Single readable page H1",
+          "data": "MAKE YOUR SCENT\nPART OF YOUR STORY."
+        },
+        {
+          "pass": true,
+          "label": "Heading contained within copy block"
+        },
+        {
+          "pass": true,
+          "label": "Banner text retains side gutters"
+        },
+        {
+          "pass": true,
+          "label": "Below-banner grid/form/essay retains constrained gutters",
+          "data": {
+            "left": 22,
+            "right": 368,
+            "top": 748.703125,
+            "bottom": 1335.015625,
+            "width": 346,
+            "height": 586.3125
+          }
+        },
+        {
+          "pass": true,
+          "label": "Display Light300 body retained"
+        },
+        {
+          "pass": true,
+          "label": "Cenzo Bold heading retained"
+        },
+        {
+          "pass": true,
+          "label": "No JavaScript errors",
+          "data": []
+        }
+      ],
+      "errors": [],
+      "layout": {
+        "banner": {
+          "left": 0,
+          "right": 390,
+          "top": 99,
+          "bottom": 617.984375,
+          "width": 390,
+          "height": 518.984375
+        },
+        "media": {
+          "left": 0,
+          "right": 390,
+          "top": 99,
+          "bottom": 344,
+          "width": 390,
+          "height": 245
+        },
+        "image": {
+          "left": 0,
+          "right": 390,
+          "top": 99,
+          "bottom": 344,
+          "width": 390,
+          "height": 245,
+          "src": "http://127.0.0.1:4208/assets/sj-banner-men-light.jpg",
+          "loaded": true,
+          "fit": "cover",
+          "position": "72% 50%"
+        },
+        "copy": {
+          "left": 22,
+          "right": 368,
+          "top": 344,
+          "bottom": 617.984375,
+          "width": 346,
+          "height": 273.984375
+        },
+        "h1": {
+          "left": 22,
+          "right": 368,
+          "top": 406.390625,
+          "bottom": 478.890625,
+          "width": 346,
+          "height": 72.5
+        },
+        "content": {
+          "left": 22,
+          "right": 368,
+          "top": 748.703125,
+          "bottom": 1335.015625,
+          "width": 346,
+          "height": 586.3125
+        },
+        "h1Text": "MAKE YOUR SCENT\nPART OF YOUR STORY.",
+        "h1Count": 1,
+        "overflow": false,
+        "copyOverflow": [],
+        "bodyFamily": "\"Helvetica Now Display\", \"Helvetica Neue\", Arial, sans-serif",
+        "bodyWeight": "300",
+        "headingFamily": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif",
+        "headingWeight": "700",
+        "faces": [
+          {
+            "family": "Cenzo Flare Bold",
+            "status": "loaded",
+            "weight": "700"
+          },
+          {
+            "family": "Helvetica Now Display",
+            "status": "loaded",
+            "weight": "300"
+          }
+        ]
+      },
+      "status": "PASS"
+    },
+    {
+      "name": "men",
+      "route": "/collections/mens-perfume",
+      "theme": "dark",
+      "width": 1440,
+      "checks": [
+        {
+          "pass": true,
+          "label": "Banner outer spans viewport",
+          "data": {
+            "left": 0,
+            "right": 1440,
+            "top": 110.5,
+            "bottom": 600.09375,
+            "width": 1440,
+            "height": 489.59375
+          }
+        },
+        {
+          "pass": true,
+          "label": "Banner media spans viewport",
+          "data": {
+            "left": 0,
+            "right": 1440,
+            "top": 110.5,
+            "bottom": 600.09375,
+            "width": 1440,
+            "height": 489.59375
+          }
+        },
+        {
+          "pass": true,
+          "label": "Correct existing theme artwork loaded",
+          "data": {
+            "left": 0,
+            "right": 1440,
+            "top": 110.5,
+            "bottom": 600.09375,
+            "width": 1440,
+            "height": 489.59375,
+            "src": "http://127.0.0.1:4208/assets/sj-banner-men-dark.jpg",
+            "loaded": true,
+            "fit": "cover",
+            "position": "50% 0%"
+          }
+        },
+        {
+          "pass": true,
+          "label": "No page or banner copy overflow",
+          "data": []
+        },
+        {
+          "pass": true,
+          "label": "Single readable page H1",
+          "data": "MAKE YOUR SCENT\nPART OF YOUR STORY."
+        },
+        {
+          "pass": true,
+          "label": "Heading contained within copy block"
+        },
+        {
+          "pass": true,
+          "label": "Banner text retains side gutters"
+        },
+        {
+          "pass": true,
+          "label": "Below-banner grid/form/essay retains constrained gutters",
+          "data": {
+            "left": 61.90625,
+            "right": 1378.09375,
+            "top": 744.484375,
+            "bottom": 1333.65625,
+            "width": 1316.1875,
+            "height": 589.171875
+          }
+        },
+        {
+          "pass": true,
+          "label": "Display Light300 body retained"
+        },
+        {
+          "pass": true,
+          "label": "Cenzo Bold heading retained"
+        },
+        {
+          "pass": true,
+          "label": "No JavaScript errors",
+          "data": []
+        }
+      ],
+      "errors": [],
+      "layout": {
+        "banner": {
+          "left": 0,
+          "right": 1440,
+          "top": 110.5,
+          "bottom": 600.09375,
+          "width": 1440,
+          "height": 489.59375
+        },
+        "media": {
+          "left": 0,
+          "right": 1440,
+          "top": 110.5,
+          "bottom": 600.09375,
+          "width": 1440,
+          "height": 489.59375
+        },
+        "image": {
+          "left": 0,
+          "right": 1440,
+          "top": 110.5,
+          "bottom": 600.09375,
+          "width": 1440,
+          "height": 489.59375,
+          "src": "http://127.0.0.1:4208/assets/sj-banner-men-dark.jpg",
+          "loaded": true,
+          "fit": "cover",
+          "position": "50% 0%"
+        },
+        "copy": {
+          "left": 61.90625,
+          "right": 759.484375,
+          "top": 166.21875,
+          "bottom": 544.359375,
+          "width": 697.578125,
+          "height": 378.140625
+        },
+        "h1": {
+          "left": 61.90625,
+          "right": 719.484375,
+          "top": 245.609375,
+          "bottom": 381.078125,
+          "width": 657.578125,
+          "height": 135.46875
+        },
+        "content": {
+          "left": 61.90625,
+          "right": 1378.09375,
+          "top": 744.484375,
+          "bottom": 1333.65625,
+          "width": 1316.1875,
+          "height": 589.171875
+        },
+        "h1Text": "MAKE YOUR SCENT\nPART OF YOUR STORY.",
+        "h1Count": 1,
+        "overflow": false,
+        "copyOverflow": [],
+        "bodyFamily": "\"Helvetica Now Display\", \"Helvetica Neue\", Arial, sans-serif",
+        "bodyWeight": "300",
+        "headingFamily": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif",
+        "headingWeight": "700",
+        "faces": [
+          {
+            "family": "Cenzo Flare Bold",
+            "status": "loaded",
+            "weight": "700"
+          },
+          {
+            "family": "Helvetica Now Display",
+            "status": "loaded",
+            "weight": "300"
+          }
+        ]
+      },
+      "status": "PASS"
+    },
+    {
+      "name": "men",
+      "route": "/collections/mens-perfume",
+      "theme": "dark",
+      "width": 390,
+      "checks": [
+        {
+          "pass": true,
+          "label": "Banner outer spans viewport",
+          "data": {
+            "left": 0,
+            "right": 390,
+            "top": 99,
+            "bottom": 617.984375,
+            "width": 390,
+            "height": 518.984375
+          }
+        },
+        {
+          "pass": true,
+          "label": "Banner media spans viewport",
+          "data": {
+            "left": 0,
+            "right": 390,
+            "top": 99,
+            "bottom": 344,
+            "width": 390,
+            "height": 245
+          }
+        },
+        {
+          "pass": true,
+          "label": "Correct existing theme artwork loaded",
+          "data": {
+            "left": 0,
+            "right": 390,
+            "top": 99,
+            "bottom": 344,
+            "width": 390,
+            "height": 245,
+            "src": "http://127.0.0.1:4208/assets/sj-banner-men-dark.jpg",
+            "loaded": true,
+            "fit": "cover",
+            "position": "72% 50%"
+          }
+        },
+        {
+          "pass": true,
+          "label": "No page or banner copy overflow",
+          "data": []
+        },
+        {
+          "pass": true,
+          "label": "Single readable page H1",
+          "data": "MAKE YOUR SCENT\nPART OF YOUR STORY."
+        },
+        {
+          "pass": true,
+          "label": "Heading contained within copy block"
+        },
+        {
+          "pass": true,
+          "label": "Banner text retains side gutters"
+        },
+        {
+          "pass": true,
+          "label": "Below-banner grid/form/essay retains constrained gutters",
+          "data": {
+            "left": 22,
+            "right": 368,
+            "top": 748.703125,
+            "bottom": 1335.015625,
+            "width": 346,
+            "height": 586.3125
+          }
+        },
+        {
+          "pass": true,
+          "label": "Display Light300 body retained"
+        },
+        {
+          "pass": true,
+          "label": "Cenzo Bold heading retained"
+        },
+        {
+          "pass": true,
+          "label": "No JavaScript errors",
+          "data": []
+        }
+      ],
+      "errors": [],
+      "layout": {
+        "banner": {
+          "left": 0,
+          "right": 390,
+          "top": 99,
+          "bottom": 617.984375,
+          "width": 390,
+          "height": 518.984375
+        },
+        "media": {
+          "left": 0,
+          "right": 390,
+          "top": 99,
+          "bottom": 344,
+          "width": 390,
+          "height": 245
+        },
+        "image": {
+          "left": 0,
+          "right": 390,
+          "top": 99,
+          "bottom": 344,
+          "width": 390,
+          "height": 245,
+          "src": "http://127.0.0.1:4208/assets/sj-banner-men-dark.jpg",
+          "loaded": true,
+          "fit": "cover",
+          "position": "72% 50%"
+        },
+        "copy": {
+          "left": 22,
+          "right": 368,
+          "top": 344,
+          "bottom": 617.984375,
+          "width": 346,
+          "height": 273.984375
+        },
+        "h1": {
+          "left": 22,
+          "right": 368,
+          "top": 406.390625,
+          "bottom": 478.890625,
+          "width": 346,
+          "height": 72.5
+        },
+        "content": {
+          "left": 22,
+          "right": 368,
+          "top": 748.703125,
+          "bottom": 1335.015625,
+          "width": 346,
+          "height": 586.3125
+        },
+        "h1Text": "MAKE YOUR SCENT\nPART OF YOUR STORY.",
+        "h1Count": 1,
+        "overflow": false,
+        "copyOverflow": [],
+        "bodyFamily": "\"Helvetica Now Display\", \"Helvetica Neue\", Arial, sans-serif",
+        "bodyWeight": "300",
+        "headingFamily": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif",
+        "headingWeight": "700",
+        "faces": [
+          {
+            "family": "Cenzo Flare Bold",
+            "status": "loaded",
+            "weight": "700"
+          },
+          {
+            "family": "Helvetica Now Display",
+            "status": "loaded",
+            "weight": "300"
+          }
+        ]
+      },
+      "status": "PASS"
+    },
+    {
+      "name": "shop-all",
+      "route": "/collections/all",
+      "theme": "light",
+      "width": 1440,
+      "checks": [
+        {
+          "pass": true,
+          "label": "Banner outer spans viewport",
+          "data": {
+            "left": 0,
+            "right": 1440,
+            "top": 110.5,
+            "bottom": 600.09375,
+            "width": 1440,
+            "height": 489.59375
+          }
+        },
+        {
+          "pass": true,
+          "label": "Banner media spans viewport",
+          "data": {
+            "left": 0,
+            "right": 1440,
+            "top": 110.5,
+            "bottom": 600.09375,
+            "width": 1440,
+            "height": 489.59375
+          }
+        },
+        {
+          "pass": true,
+          "label": "Correct existing theme artwork loaded",
+          "data": {
+            "left": 0,
+            "right": 1440,
+            "top": 110.5,
+            "bottom": 600.09375,
+            "width": 1440,
+            "height": 489.59375,
+            "src": "http://127.0.0.1:4208/assets/sj-banner-women-light.jpg",
+            "loaded": true,
+            "fit": "cover",
+            "position": "50% 0%"
+          }
+        },
+        {
+          "pass": true,
+          "label": "No page or banner copy overflow",
+          "data": []
+        },
+        {
+          "pass": true,
+          "label": "Single readable page H1",
+          "data": "All fragrances"
+        },
+        {
+          "pass": true,
+          "label": "Heading contained within copy block"
+        },
+        {
+          "pass": true,
+          "label": "Banner text retains side gutters"
+        },
+        {
+          "pass": true,
+          "label": "Below-banner grid/form/essay retains constrained gutters",
+          "data": {
+            "left": 61.90625,
+            "right": 1378.09375,
+            "top": 744.484375,
+            "bottom": 1988.59375,
+            "width": 1316.1875,
+            "height": 1244.109375
+          }
+        },
+        {
+          "pass": true,
+          "label": "Display Light300 body retained"
+        },
+        {
+          "pass": true,
+          "label": "Cenzo Bold heading retained"
+        },
+        {
+          "pass": true,
+          "label": "No JavaScript errors",
+          "data": []
+        }
+      ],
+      "errors": [],
+      "layout": {
+        "banner": {
+          "left": 0,
+          "right": 1440,
+          "top": 110.5,
+          "bottom": 600.09375,
+          "width": 1440,
+          "height": 489.59375
+        },
+        "media": {
+          "left": 0,
+          "right": 1440,
+          "top": 110.5,
+          "bottom": 600.09375,
+          "width": 1440,
+          "height": 489.59375
+        },
+        "image": {
+          "left": 0,
+          "right": 1440,
+          "top": 110.5,
+          "bottom": 600.09375,
+          "width": 1440,
+          "height": 489.59375,
+          "src": "http://127.0.0.1:4208/assets/sj-banner-women-light.jpg",
+          "loaded": true,
+          "fit": "cover",
+          "position": "50% 0%"
+        },
+        "copy": {
+          "left": 61.90625,
+          "right": 759.484375,
+          "top": 233.484375,
+          "bottom": 477.109375,
+          "width": 697.578125,
+          "height": 243.625
+        },
+        "h1": {
+          "left": 61.90625,
+          "right": 719.484375,
+          "top": 312.875,
+          "bottom": 380.609375,
+          "width": 657.578125,
+          "height": 67.734375
+        },
+        "content": {
+          "left": 61.90625,
+          "right": 1378.09375,
+          "top": 744.484375,
+          "bottom": 1988.59375,
+          "width": 1316.1875,
+          "height": 1244.109375
+        },
+        "h1Text": "All fragrances",
+        "h1Count": 1,
+        "overflow": false,
+        "copyOverflow": [],
+        "bodyFamily": "\"Helvetica Now Display\", \"Helvetica Neue\", Arial, sans-serif",
+        "bodyWeight": "300",
+        "headingFamily": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif",
+        "headingWeight": "700",
+        "faces": [
+          {
+            "family": "Cenzo Flare Bold",
+            "status": "loaded",
+            "weight": "700"
+          },
+          {
+            "family": "Helvetica Now Display",
+            "status": "loaded",
+            "weight": "300"
+          }
+        ]
+      },
+      "status": "PASS"
+    },
+    {
+      "name": "shop-all",
+      "route": "/collections/all",
+      "theme": "light",
+      "width": 390,
+      "checks": [
+        {
+          "pass": true,
+          "label": "Banner outer spans viewport",
+          "data": {
+            "left": 0,
+            "right": 390,
+            "top": 99,
+            "bottom": 525.140625,
+            "width": 390,
+            "height": 426.140625
+          }
+        },
+        {
+          "pass": true,
+          "label": "Banner media spans viewport",
+          "data": {
+            "left": 0,
+            "right": 390,
+            "top": 99,
+            "bottom": 344,
+            "width": 390,
+            "height": 245
+          }
+        },
+        {
+          "pass": true,
+          "label": "Correct existing theme artwork loaded",
+          "data": {
+            "left": 0,
+            "right": 390,
+            "top": 99,
+            "bottom": 344,
+            "width": 390,
+            "height": 245,
+            "src": "http://127.0.0.1:4208/assets/sj-banner-women-light.jpg",
+            "loaded": true,
+            "fit": "cover",
+            "position": "72% 50%"
+          }
+        },
+        {
+          "pass": true,
+          "label": "No page or banner copy overflow",
+          "data": []
+        },
+        {
+          "pass": true,
+          "label": "Single readable page H1",
+          "data": "All fragrances"
+        },
+        {
+          "pass": true,
+          "label": "Heading contained within copy block"
+        },
+        {
+          "pass": true,
+          "label": "Banner text retains side gutters"
+        },
+        {
+          "pass": true,
+          "label": "Below-banner grid/form/essay retains constrained gutters",
+          "data": {
+            "left": 22,
+            "right": 368,
+            "top": 655.859375,
+            "bottom": 1551.5625,
+            "width": 346,
+            "height": 895.703125
+          }
+        },
+        {
+          "pass": true,
+          "label": "Display Light300 body retained"
+        },
+        {
+          "pass": true,
+          "label": "Cenzo Bold heading retained"
+        },
+        {
+          "pass": true,
+          "label": "No JavaScript errors",
+          "data": []
+        }
+      ],
+      "errors": [],
+      "layout": {
+        "banner": {
+          "left": 0,
+          "right": 390,
+          "top": 99,
+          "bottom": 525.140625,
+          "width": 390,
+          "height": 426.140625
+        },
+        "media": {
+          "left": 0,
+          "right": 390,
+          "top": 99,
+          "bottom": 344,
+          "width": 390,
+          "height": 245
+        },
+        "image": {
+          "left": 0,
+          "right": 390,
+          "top": 99,
+          "bottom": 344,
+          "width": 390,
+          "height": 245,
+          "src": "http://127.0.0.1:4208/assets/sj-banner-women-light.jpg",
+          "loaded": true,
+          "fit": "cover",
+          "position": "72% 50%"
+        },
+        "copy": {
+          "left": 22,
+          "right": 368,
+          "top": 344,
+          "bottom": 525.140625,
+          "width": 346,
+          "height": 181.140625
+        },
+        "h1": {
+          "left": 22,
+          "right": 368,
+          "top": 406.390625,
+          "bottom": 442.640625,
+          "width": 346,
+          "height": 36.25
+        },
+        "content": {
+          "left": 22,
+          "right": 368,
+          "top": 655.859375,
+          "bottom": 1551.5625,
+          "width": 346,
+          "height": 895.703125
+        },
+        "h1Text": "All fragrances",
+        "h1Count": 1,
+        "overflow": false,
+        "copyOverflow": [],
+        "bodyFamily": "\"Helvetica Now Display\", \"Helvetica Neue\", Arial, sans-serif",
+        "bodyWeight": "300",
+        "headingFamily": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif",
+        "headingWeight": "700",
+        "faces": [
+          {
+            "family": "Cenzo Flare Bold",
+            "status": "loaded",
+            "weight": "700"
+          },
+          {
+            "family": "Helvetica Now Display",
+            "status": "loaded",
+            "weight": "300"
+          }
+        ]
+      },
+      "status": "PASS"
+    },
+    {
+      "name": "shop-all",
+      "route": "/collections/all",
+      "theme": "dark",
+      "width": 1440,
+      "checks": [
+        {
+          "pass": true,
+          "label": "Banner outer spans viewport",
+          "data": {
+            "left": 0,
+            "right": 1440,
+            "top": 110.5,
+            "bottom": 600.09375,
+            "width": 1440,
+            "height": 489.59375
+          }
+        },
+        {
+          "pass": true,
+          "label": "Banner media spans viewport",
+          "data": {
+            "left": 0,
+            "right": 1440,
+            "top": 110.5,
+            "bottom": 600.09375,
+            "width": 1440,
+            "height": 489.59375
+          }
+        },
+        {
+          "pass": true,
+          "label": "Correct existing theme artwork loaded",
+          "data": {
+            "left": 0,
+            "right": 1440,
+            "top": 110.5,
+            "bottom": 600.09375,
+            "width": 1440,
+            "height": 489.59375,
+            "src": "http://127.0.0.1:4208/assets/sj-banner-women-dark.jpg",
+            "loaded": true,
+            "fit": "cover",
+            "position": "50% 0%"
+          }
+        },
+        {
+          "pass": true,
+          "label": "No page or banner copy overflow",
+          "data": []
+        },
+        {
+          "pass": true,
+          "label": "Single readable page H1",
+          "data": "All fragrances"
+        },
+        {
+          "pass": true,
+          "label": "Heading contained within copy block"
+        },
+        {
+          "pass": true,
+          "label": "Banner text retains side gutters"
+        },
+        {
+          "pass": true,
+          "label": "Below-banner grid/form/essay retains constrained gutters",
+          "data": {
+            "left": 61.90625,
+            "right": 1378.09375,
+            "top": 744.484375,
+            "bottom": 1988.59375,
+            "width": 1316.1875,
+            "height": 1244.109375
+          }
+        },
+        {
+          "pass": true,
+          "label": "Display Light300 body retained"
+        },
+        {
+          "pass": true,
+          "label": "Cenzo Bold heading retained"
+        },
+        {
+          "pass": true,
+          "label": "No JavaScript errors",
+          "data": []
+        }
+      ],
+      "errors": [],
+      "layout": {
+        "banner": {
+          "left": 0,
+          "right": 1440,
+          "top": 110.5,
+          "bottom": 600.09375,
+          "width": 1440,
+          "height": 489.59375
+        },
+        "media": {
+          "left": 0,
+          "right": 1440,
+          "top": 110.5,
+          "bottom": 600.09375,
+          "width": 1440,
+          "height": 489.59375
+        },
+        "image": {
+          "left": 0,
+          "right": 1440,
+          "top": 110.5,
+          "bottom": 600.09375,
+          "width": 1440,
+          "height": 489.59375,
+          "src": "http://127.0.0.1:4208/assets/sj-banner-women-dark.jpg",
+          "loaded": true,
+          "fit": "cover",
+          "position": "50% 0%"
+        },
+        "copy": {
+          "left": 61.90625,
+          "right": 759.484375,
+          "top": 233.484375,
+          "bottom": 477.109375,
+          "width": 697.578125,
+          "height": 243.625
+        },
+        "h1": {
+          "left": 61.90625,
+          "right": 719.484375,
+          "top": 312.875,
+          "bottom": 380.609375,
+          "width": 657.578125,
+          "height": 67.734375
+        },
+        "content": {
+          "left": 61.90625,
+          "right": 1378.09375,
+          "top": 744.484375,
+          "bottom": 1988.59375,
+          "width": 1316.1875,
+          "height": 1244.109375
+        },
+        "h1Text": "All fragrances",
+        "h1Count": 1,
+        "overflow": false,
+        "copyOverflow": [],
+        "bodyFamily": "\"Helvetica Now Display\", \"Helvetica Neue\", Arial, sans-serif",
+        "bodyWeight": "300",
+        "headingFamily": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif",
+        "headingWeight": "700",
+        "faces": [
+          {
+            "family": "Cenzo Flare Bold",
+            "status": "loaded",
+            "weight": "700"
+          },
+          {
+            "family": "Helvetica Now Display",
+            "status": "loaded",
+            "weight": "300"
+          }
+        ]
+      },
+      "status": "PASS"
+    },
+    {
+      "name": "shop-all",
+      "route": "/collections/all",
+      "theme": "dark",
+      "width": 390,
+      "checks": [
+        {
+          "pass": true,
+          "label": "Banner outer spans viewport",
+          "data": {
+            "left": 0,
+            "right": 390,
+            "top": 99,
+            "bottom": 525.140625,
+            "width": 390,
+            "height": 426.140625
+          }
+        },
+        {
+          "pass": true,
+          "label": "Banner media spans viewport",
+          "data": {
+            "left": 0,
+            "right": 390,
+            "top": 99,
+            "bottom": 344,
+            "width": 390,
+            "height": 245
+          }
+        },
+        {
+          "pass": true,
+          "label": "Correct existing theme artwork loaded",
+          "data": {
+            "left": 0,
+            "right": 390,
+            "top": 99,
+            "bottom": 344,
+            "width": 390,
+            "height": 245,
+            "src": "http://127.0.0.1:4208/assets/sj-banner-women-dark.jpg",
+            "loaded": true,
+            "fit": "cover",
+            "position": "72% 50%"
+          }
+        },
+        {
+          "pass": true,
+          "label": "No page or banner copy overflow",
+          "data": []
+        },
+        {
+          "pass": true,
+          "label": "Single readable page H1",
+          "data": "All fragrances"
+        },
+        {
+          "pass": true,
+          "label": "Heading contained within copy block"
+        },
+        {
+          "pass": true,
+          "label": "Banner text retains side gutters"
+        },
+        {
+          "pass": true,
+          "label": "Below-banner grid/form/essay retains constrained gutters",
+          "data": {
+            "left": 22,
+            "right": 368,
+            "top": 655.859375,
+            "bottom": 1551.5625,
+            "width": 346,
+            "height": 895.703125
+          }
+        },
+        {
+          "pass": true,
+          "label": "Display Light300 body retained"
+        },
+        {
+          "pass": true,
+          "label": "Cenzo Bold heading retained"
+        },
+        {
+          "pass": true,
+          "label": "No JavaScript errors",
+          "data": []
+        }
+      ],
+      "errors": [],
+      "layout": {
+        "banner": {
+          "left": 0,
+          "right": 390,
+          "top": 99,
+          "bottom": 525.140625,
+          "width": 390,
+          "height": 426.140625
+        },
+        "media": {
+          "left": 0,
+          "right": 390,
+          "top": 99,
+          "bottom": 344,
+          "width": 390,
+          "height": 245
+        },
+        "image": {
+          "left": 0,
+          "right": 390,
+          "top": 99,
+          "bottom": 344,
+          "width": 390,
+          "height": 245,
+          "src": "http://127.0.0.1:4208/assets/sj-banner-women-dark.jpg",
+          "loaded": true,
+          "fit": "cover",
+          "position": "72% 50%"
+        },
+        "copy": {
+          "left": 22,
+          "right": 368,
+          "top": 344,
+          "bottom": 525.140625,
+          "width": 346,
+          "height": 181.140625
+        },
+        "h1": {
+          "left": 22,
+          "right": 368,
+          "top": 406.390625,
+          "bottom": 442.640625,
+          "width": 346,
+          "height": 36.25
+        },
+        "content": {
+          "left": 22,
+          "right": 368,
+          "top": 655.859375,
+          "bottom": 1551.5625,
+          "width": 346,
+          "height": 895.703125
+        },
+        "h1Text": "All fragrances",
+        "h1Count": 1,
+        "overflow": false,
+        "copyOverflow": [],
+        "bodyFamily": "\"Helvetica Now Display\", \"Helvetica Neue\", Arial, sans-serif",
+        "bodyWeight": "300",
+        "headingFamily": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif",
+        "headingWeight": "700",
+        "faces": [
+          {
+            "family": "Cenzo Flare Bold",
+            "status": "loaded",
+            "weight": "700"
+          },
+          {
+            "family": "Helvetica Now Display",
+            "status": "loaded",
+            "weight": "300"
+          }
+        ]
+      },
+      "status": "PASS"
+    },
+    {
+      "name": "finder",
+      "route": "/pages/scent-finder",
+      "theme": "light",
+      "width": 1440,
+      "checks": [
+        {
+          "pass": true,
+          "label": "Banner outer spans viewport",
+          "data": {
+            "left": 0,
+            "right": 1440,
+            "top": 110.5,
+            "bottom": 600.09375,
+            "width": 1440,
+            "height": 489.59375
+          }
+        },
+        {
+          "pass": true,
+          "label": "Banner media spans viewport",
+          "data": {
+            "left": 0,
+            "right": 1440,
+            "top": 110.5,
+            "bottom": 600.09375,
+            "width": 1440,
+            "height": 489.59375
+          }
+        },
+        {
+          "pass": true,
+          "label": "Correct existing theme artwork loaded",
+          "data": {
+            "left": 0,
+            "right": 1440,
+            "top": 110.5,
+            "bottom": 600.09375,
+            "width": 1440,
+            "height": 489.59375,
+            "src": "http://127.0.0.1:4208/assets/sj-banner-finder-light.jpg",
+            "loaded": true,
+            "fit": "cover",
+            "position": "50% 0%"
+          }
+        },
+        {
+          "pass": true,
+          "label": "No page or banner copy overflow",
+          "data": []
+        },
+        {
+          "pass": true,
+          "label": "Single readable page H1",
+          "data": "FOLLOW YOUR MOOD.\nFIND YOUR FRAGRANCE."
+        },
+        {
+          "pass": true,
+          "label": "Heading contained within copy block"
+        },
+        {
+          "pass": true,
+          "label": "Banner text retains side gutters"
+        },
+        {
+          "pass": true,
+          "label": "Below-banner grid/form/essay retains constrained gutters",
+          "data": {
+            "left": 61.90625,
+            "right": 1378.09375,
+            "top": 642.09375,
+            "bottom": 1060.96875,
+            "width": 1316.1875,
+            "height": 418.875
+          }
+        },
+        {
+          "pass": true,
+          "label": "Display Light300 body retained"
+        },
+        {
+          "pass": true,
+          "label": "Cenzo Bold heading retained"
+        },
+        {
+          "pass": true,
+          "label": "No JavaScript errors",
+          "data": []
+        }
+      ],
+      "errors": [],
+      "layout": {
+        "banner": {
+          "left": 0,
+          "right": 1440,
+          "top": 110.5,
+          "bottom": 600.09375,
+          "width": 1440,
+          "height": 489.59375
+        },
+        "media": {
+          "left": 0,
+          "right": 1440,
+          "top": 110.5,
+          "bottom": 600.09375,
+          "width": 1440,
+          "height": 489.59375
+        },
+        "image": {
+          "left": 0,
+          "right": 1440,
+          "top": 110.5,
+          "bottom": 600.09375,
+          "width": 1440,
+          "height": 489.59375,
+          "src": "http://127.0.0.1:4208/assets/sj-banner-finder-light.jpg",
+          "loaded": true,
+          "fit": "cover",
+          "position": "50% 0%"
+        },
+        "copy": {
+          "left": 61.90625,
+          "right": 759.484375,
+          "top": 177.515625,
+          "bottom": 533.0625,
+          "width": 697.578125,
+          "height": 355.546875
+        },
+        "h1": {
+          "left": 61.90625,
+          "right": 719.484375,
+          "top": 256.90625,
+          "bottom": 369.78125,
+          "width": 657.578125,
+          "height": 112.875
+        },
+        "content": {
+          "left": 61.90625,
+          "right": 1378.09375,
+          "top": 642.09375,
+          "bottom": 1060.96875,
+          "width": 1316.1875,
+          "height": 418.875
+        },
+        "h1Text": "FOLLOW YOUR MOOD.\nFIND YOUR FRAGRANCE.",
+        "h1Count": 1,
+        "overflow": false,
+        "copyOverflow": [],
+        "bodyFamily": "\"Helvetica Now Display\", \"Helvetica Neue\", Arial, sans-serif",
+        "bodyWeight": "300",
+        "headingFamily": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif",
+        "headingWeight": "700",
+        "faces": [
+          {
+            "family": "Cenzo Flare Bold",
+            "status": "loaded",
+            "weight": "700"
+          },
+          {
+            "family": "Helvetica Now Display",
+            "status": "loaded",
+            "weight": "300"
+          }
+        ]
+      },
+      "status": "PASS"
+    },
+    {
+      "name": "finder",
+      "route": "/pages/scent-finder",
+      "theme": "light",
+      "width": 390,
+      "checks": [
+        {
+          "pass": true,
+          "label": "Banner outer spans viewport",
+          "data": {
+            "left": 0,
+            "right": 390,
+            "top": 99,
+            "bottom": 654.234375,
+            "width": 390,
+            "height": 555.234375
+          }
+        },
+        {
+          "pass": true,
+          "label": "Banner media spans viewport",
+          "data": {
+            "left": 0,
+            "right": 390,
+            "top": 99,
+            "bottom": 344,
+            "width": 390,
+            "height": 245
+          }
+        },
+        {
+          "pass": true,
+          "label": "Correct existing theme artwork loaded",
+          "data": {
+            "left": 0,
+            "right": 390,
+            "top": 99,
+            "bottom": 344,
+            "width": 390,
+            "height": 245,
+            "src": "http://127.0.0.1:4208/assets/sj-banner-finder-light.jpg",
+            "loaded": true,
+            "fit": "cover",
+            "position": "72% 50%"
+          }
+        },
+        {
+          "pass": true,
+          "label": "No page or banner copy overflow",
+          "data": []
+        },
+        {
+          "pass": true,
+          "label": "Single readable page H1",
+          "data": "FOLLOW YOUR MOOD.\nFIND YOUR FRAGRANCE."
+        },
+        {
+          "pass": true,
+          "label": "Heading contained within copy block"
+        },
+        {
+          "pass": true,
+          "label": "Banner text retains side gutters"
+        },
+        {
+          "pass": true,
+          "label": "Below-banner grid/form/essay retains constrained gutters",
+          "data": {
+            "left": 22,
+            "right": 368,
+            "top": 684.234375,
+            "bottom": 1231.546875,
+            "width": 346,
+            "height": 547.3125
+          }
+        },
+        {
+          "pass": true,
+          "label": "Display Light300 body retained"
+        },
+        {
+          "pass": true,
+          "label": "Cenzo Bold heading retained"
+        },
+        {
+          "pass": true,
+          "label": "No JavaScript errors",
+          "data": []
+        }
+      ],
+      "errors": [],
+      "layout": {
+        "banner": {
+          "left": 0,
+          "right": 390,
+          "top": 99,
+          "bottom": 654.234375,
+          "width": 390,
+          "height": 555.234375
+        },
+        "media": {
+          "left": 0,
+          "right": 390,
+          "top": 99,
+          "bottom": 344,
+          "width": 390,
+          "height": 245
+        },
+        "image": {
+          "left": 0,
+          "right": 390,
+          "top": 99,
+          "bottom": 344,
+          "width": 390,
+          "height": 245,
+          "src": "http://127.0.0.1:4208/assets/sj-banner-finder-light.jpg",
+          "loaded": true,
+          "fit": "cover",
+          "position": "72% 50%"
+        },
+        "copy": {
+          "left": 22,
+          "right": 368,
+          "top": 344,
+          "bottom": 654.234375,
+          "width": 346,
+          "height": 310.234375
+        },
+        "h1": {
+          "left": 22,
+          "right": 368,
+          "top": 406.390625,
+          "bottom": 515.140625,
+          "width": 346,
+          "height": 108.75
+        },
+        "content": {
+          "left": 22,
+          "right": 368,
+          "top": 684.234375,
+          "bottom": 1231.546875,
+          "width": 346,
+          "height": 547.3125
+        },
+        "h1Text": "FOLLOW YOUR MOOD.\nFIND YOUR FRAGRANCE.",
+        "h1Count": 1,
+        "overflow": false,
+        "copyOverflow": [],
+        "bodyFamily": "\"Helvetica Now Display\", \"Helvetica Neue\", Arial, sans-serif",
+        "bodyWeight": "300",
+        "headingFamily": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif",
+        "headingWeight": "700",
+        "faces": [
+          {
+            "family": "Cenzo Flare Bold",
+            "status": "loaded",
+            "weight": "700"
+          },
+          {
+            "family": "Helvetica Now Display",
+            "status": "loaded",
+            "weight": "300"
+          }
+        ]
+      },
+      "status": "PASS"
+    },
+    {
+      "name": "finder",
+      "route": "/pages/scent-finder",
+      "theme": "dark",
+      "width": 1440,
+      "checks": [
+        {
+          "pass": true,
+          "label": "Banner outer spans viewport",
+          "data": {
+            "left": 0,
+            "right": 1440,
+            "top": 110.5,
+            "bottom": 600.09375,
+            "width": 1440,
+            "height": 489.59375
+          }
+        },
+        {
+          "pass": true,
+          "label": "Banner media spans viewport",
+          "data": {
+            "left": 0,
+            "right": 1440,
+            "top": 110.5,
+            "bottom": 600.09375,
+            "width": 1440,
+            "height": 489.59375
+          }
+        },
+        {
+          "pass": true,
+          "label": "Correct existing theme artwork loaded",
+          "data": {
+            "left": 0,
+            "right": 1440,
+            "top": 110.5,
+            "bottom": 600.09375,
+            "width": 1440,
+            "height": 489.59375,
+            "src": "http://127.0.0.1:4208/assets/sj-banner-finder-dark.jpg",
+            "loaded": true,
+            "fit": "cover",
+            "position": "50% 0%"
+          }
+        },
+        {
+          "pass": true,
+          "label": "No page or banner copy overflow",
+          "data": []
+        },
+        {
+          "pass": true,
+          "label": "Single readable page H1",
+          "data": "FOLLOW YOUR MOOD.\nFIND YOUR FRAGRANCE."
+        },
+        {
+          "pass": true,
+          "label": "Heading contained within copy block"
+        },
+        {
+          "pass": true,
+          "label": "Banner text retains side gutters"
+        },
+        {
+          "pass": true,
+          "label": "Below-banner grid/form/essay retains constrained gutters",
+          "data": {
+            "left": 61.90625,
+            "right": 1378.09375,
+            "top": 642.09375,
+            "bottom": 1060.96875,
+            "width": 1316.1875,
+            "height": 418.875
+          }
+        },
+        {
+          "pass": true,
+          "label": "Display Light300 body retained"
+        },
+        {
+          "pass": true,
+          "label": "Cenzo Bold heading retained"
+        },
+        {
+          "pass": true,
+          "label": "No JavaScript errors",
+          "data": []
+        }
+      ],
+      "errors": [],
+      "layout": {
+        "banner": {
+          "left": 0,
+          "right": 1440,
+          "top": 110.5,
+          "bottom": 600.09375,
+          "width": 1440,
+          "height": 489.59375
+        },
+        "media": {
+          "left": 0,
+          "right": 1440,
+          "top": 110.5,
+          "bottom": 600.09375,
+          "width": 1440,
+          "height": 489.59375
+        },
+        "image": {
+          "left": 0,
+          "right": 1440,
+          "top": 110.5,
+          "bottom": 600.09375,
+          "width": 1440,
+          "height": 489.59375,
+          "src": "http://127.0.0.1:4208/assets/sj-banner-finder-dark.jpg",
+          "loaded": true,
+          "fit": "cover",
+          "position": "50% 0%"
+        },
+        "copy": {
+          "left": 61.90625,
+          "right": 759.484375,
+          "top": 177.515625,
+          "bottom": 533.0625,
+          "width": 697.578125,
+          "height": 355.546875
+        },
+        "h1": {
+          "left": 61.90625,
+          "right": 719.484375,
+          "top": 256.90625,
+          "bottom": 369.78125,
+          "width": 657.578125,
+          "height": 112.875
+        },
+        "content": {
+          "left": 61.90625,
+          "right": 1378.09375,
+          "top": 642.09375,
+          "bottom": 1060.96875,
+          "width": 1316.1875,
+          "height": 418.875
+        },
+        "h1Text": "FOLLOW YOUR MOOD.\nFIND YOUR FRAGRANCE.",
+        "h1Count": 1,
+        "overflow": false,
+        "copyOverflow": [],
+        "bodyFamily": "\"Helvetica Now Display\", \"Helvetica Neue\", Arial, sans-serif",
+        "bodyWeight": "300",
+        "headingFamily": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif",
+        "headingWeight": "700",
+        "faces": [
+          {
+            "family": "Cenzo Flare Bold",
+            "status": "loaded",
+            "weight": "700"
+          },
+          {
+            "family": "Helvetica Now Display",
+            "status": "loaded",
+            "weight": "300"
+          }
+        ]
+      },
+      "status": "PASS"
+    },
+    {
+      "name": "finder",
+      "route": "/pages/scent-finder",
+      "theme": "dark",
+      "width": 390,
+      "checks": [
+        {
+          "pass": true,
+          "label": "Banner outer spans viewport",
+          "data": {
+            "left": 0,
+            "right": 390,
+            "top": 99,
+            "bottom": 654.234375,
+            "width": 390,
+            "height": 555.234375
+          }
+        },
+        {
+          "pass": true,
+          "label": "Banner media spans viewport",
+          "data": {
+            "left": 0,
+            "right": 390,
+            "top": 99,
+            "bottom": 344,
+            "width": 390,
+            "height": 245
+          }
+        },
+        {
+          "pass": true,
+          "label": "Correct existing theme artwork loaded",
+          "data": {
+            "left": 0,
+            "right": 390,
+            "top": 99,
+            "bottom": 344,
+            "width": 390,
+            "height": 245,
+            "src": "http://127.0.0.1:4208/assets/sj-banner-finder-dark.jpg",
+            "loaded": true,
+            "fit": "cover",
+            "position": "72% 50%"
+          }
+        },
+        {
+          "pass": true,
+          "label": "No page or banner copy overflow",
+          "data": []
+        },
+        {
+          "pass": true,
+          "label": "Single readable page H1",
+          "data": "FOLLOW YOUR MOOD.\nFIND YOUR FRAGRANCE."
+        },
+        {
+          "pass": true,
+          "label": "Heading contained within copy block"
+        },
+        {
+          "pass": true,
+          "label": "Banner text retains side gutters"
+        },
+        {
+          "pass": true,
+          "label": "Below-banner grid/form/essay retains constrained gutters",
+          "data": {
+            "left": 22,
+            "right": 368,
+            "top": 684.234375,
+            "bottom": 1231.546875,
+            "width": 346,
+            "height": 547.3125
+          }
+        },
+        {
+          "pass": true,
+          "label": "Display Light300 body retained"
+        },
+        {
+          "pass": true,
+          "label": "Cenzo Bold heading retained"
+        },
+        {
+          "pass": true,
+          "label": "Finder CTA reaches quiz below header offset",
+          "data": {
+            "top": 246.234375,
+            "bottom": 793.546875,
+            "header": 99
+          }
+        },
+        {
+          "pass": true,
+          "label": "Five-question keyboard quiz still completes"
+        },
+        {
+          "pass": true,
+          "label": "Finder results remain within viewport"
+        },
+        {
+          "pass": true,
+          "label": "No JavaScript errors",
+          "data": []
+        }
+      ],
+      "errors": [],
+      "layout": {
+        "banner": {
+          "left": 0,
+          "right": 390,
+          "top": 99,
+          "bottom": 654.234375,
+          "width": 390,
+          "height": 555.234375
+        },
+        "media": {
+          "left": 0,
+          "right": 390,
+          "top": 99,
+          "bottom": 344,
+          "width": 390,
+          "height": 245
+        },
+        "image": {
+          "left": 0,
+          "right": 390,
+          "top": 99,
+          "bottom": 344,
+          "width": 390,
+          "height": 245,
+          "src": "http://127.0.0.1:4208/assets/sj-banner-finder-dark.jpg",
+          "loaded": true,
+          "fit": "cover",
+          "position": "72% 50%"
+        },
+        "copy": {
+          "left": 22,
+          "right": 368,
+          "top": 344,
+          "bottom": 654.234375,
+          "width": 346,
+          "height": 310.234375
+        },
+        "h1": {
+          "left": 22,
+          "right": 368,
+          "top": 406.390625,
+          "bottom": 515.140625,
+          "width": 346,
+          "height": 108.75
+        },
+        "content": {
+          "left": 22,
+          "right": 368,
+          "top": 684.234375,
+          "bottom": 1231.546875,
+          "width": 346,
+          "height": 547.3125
+        },
+        "h1Text": "FOLLOW YOUR MOOD.\nFIND YOUR FRAGRANCE.",
+        "h1Count": 1,
+        "overflow": false,
+        "copyOverflow": [],
+        "bodyFamily": "\"Helvetica Now Display\", \"Helvetica Neue\", Arial, sans-serif",
+        "bodyWeight": "300",
+        "headingFamily": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif",
+        "headingWeight": "700",
+        "faces": [
+          {
+            "family": "Cenzo Flare Bold",
+            "status": "loaded",
+            "weight": "700"
+          },
+          {
+            "family": "Helvetica Now Display",
+            "status": "loaded",
+            "weight": "300"
+          }
+        ]
+      },
+      "status": "PASS"
+    },
+    {
+      "name": "story",
+      "route": "/pages/our-story",
+      "theme": "light",
+      "width": 1440,
+      "checks": [
+        {
+          "pass": true,
+          "label": "Banner outer spans viewport",
+          "data": {
+            "left": 0,
+            "right": 1440,
+            "top": 110.5,
+            "bottom": 600.09375,
+            "width": 1440,
+            "height": 489.59375
+          }
+        },
+        {
+          "pass": true,
+          "label": "Banner media spans viewport",
+          "data": {
+            "left": 0,
+            "right": 1440,
+            "top": 110.5,
+            "bottom": 600.09375,
+            "width": 1440,
+            "height": 489.59375
+          }
+        },
+        {
+          "pass": true,
+          "label": "Correct existing theme artwork loaded",
+          "data": {
+            "left": 0,
+            "right": 1440,
+            "top": 110.5,
+            "bottom": 600.09375,
+            "width": 1440,
+            "height": 489.59375,
+            "src": "http://127.0.0.1:4208/assets/sj-banner-story-light.jpg",
+            "loaded": true,
+            "fit": "cover",
+            "position": "50% 0%"
+          }
+        },
+        {
+          "pass": true,
+          "label": "No page or banner copy overflow",
+          "data": []
+        },
+        {
+          "pass": true,
+          "label": "Single readable page H1",
+          "data": "A SCENT JOURNEY\nFROM LONDON\nTO THE PHILIPPINES."
+        },
+        {
+          "pass": true,
+          "label": "Heading contained within copy block"
+        },
+        {
+          "pass": true,
+          "label": "Banner text retains side gutters"
+        },
+        {
+          "pass": true,
+          "label": "Below-banner grid/form/essay retains constrained gutters",
+          "data": {
+            "left": 61.90625,
+            "right": 1378.09375,
+            "top": 642.09375,
+            "bottom": 1098.09375,
+            "width": 1316.1875,
+            "height": 456
+          }
+        },
+        {
+          "pass": true,
+          "label": "Display Light300 body retained"
+        },
+        {
+          "pass": true,
+          "label": "Cenzo Bold heading retained"
+        },
+        {
+          "pass": true,
+          "label": "No JavaScript errors",
+          "data": []
+        }
+      ],
+      "errors": [],
+      "layout": {
+        "banner": {
+          "left": 0,
+          "right": 1440,
+          "top": 110.5,
+          "bottom": 600.09375,
+          "width": 1440,
+          "height": 489.59375
+        },
+        "media": {
+          "left": 0,
+          "right": 1440,
+          "top": 110.5,
+          "bottom": 600.09375,
+          "width": 1440,
+          "height": 489.59375
+        },
+        "image": {
+          "left": 0,
+          "right": 1440,
+          "top": 110.5,
+          "bottom": 600.09375,
+          "width": 1440,
+          "height": 489.59375,
+          "src": "http://127.0.0.1:4208/assets/sj-banner-story-light.jpg",
+          "loaded": true,
+          "fit": "cover",
+          "position": "50% 0%"
+        },
+        "copy": {
+          "left": 61.90625,
+          "right": 759.484375,
+          "top": 188.34375,
+          "bottom": 522.234375,
+          "width": 697.578125,
+          "height": 333.890625
+        },
+        "h1": {
+          "left": 61.90625,
+          "right": 719.484375,
+          "top": 267.734375,
+          "bottom": 458.234375,
+          "width": 657.578125,
+          "height": 190.5
+        },
+        "content": {
+          "left": 61.90625,
+          "right": 1378.09375,
+          "top": 642.09375,
+          "bottom": 1098.09375,
+          "width": 1316.1875,
+          "height": 456
+        },
+        "h1Text": "A SCENT JOURNEY\nFROM LONDON\nTO THE PHILIPPINES.",
+        "h1Count": 1,
+        "overflow": false,
+        "copyOverflow": [],
+        "bodyFamily": "\"Helvetica Now Display\", \"Helvetica Neue\", Arial, sans-serif",
+        "bodyWeight": "300",
+        "headingFamily": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif",
+        "headingWeight": "700",
+        "faces": [
+          {
+            "family": "Cenzo Flare Bold",
+            "status": "loaded",
+            "weight": "700"
+          },
+          {
+            "family": "Helvetica Now Display",
+            "status": "loaded",
+            "weight": "300"
+          }
+        ]
+      },
+      "status": "PASS"
+    },
+    {
+      "name": "story",
+      "route": "/pages/our-story",
+      "theme": "light",
+      "width": 390,
+      "checks": [
+        {
+          "pass": true,
+          "label": "Banner outer spans viewport",
+          "data": {
+            "left": 0,
+            "right": 390,
+            "top": 99,
+            "bottom": 565.140625,
+            "width": 390,
+            "height": 466.140625
+          }
+        },
+        {
+          "pass": true,
+          "label": "Banner media spans viewport",
+          "data": {
+            "left": 0,
+            "right": 390,
+            "top": 99,
+            "bottom": 344,
+            "width": 390,
+            "height": 245
+          }
+        },
+        {
+          "pass": true,
+          "label": "Correct existing theme artwork loaded",
+          "data": {
+            "left": 0,
+            "right": 390,
+            "top": 99,
+            "bottom": 344,
+            "width": 390,
+            "height": 245,
+            "src": "http://127.0.0.1:4208/assets/sj-banner-story-light.jpg",
+            "loaded": true,
+            "fit": "cover",
+            "position": "100% 50%"
+          }
+        },
+        {
+          "pass": true,
+          "label": "No page or banner copy overflow",
+          "data": []
+        },
+        {
+          "pass": true,
+          "label": "Single readable page H1",
+          "data": "A SCENT JOURNEY\nFROM LONDON\nTO THE PHILIPPINES."
+        },
+        {
+          "pass": true,
+          "label": "Heading contained within copy block"
+        },
+        {
+          "pass": true,
+          "label": "Banner text retains side gutters"
+        },
+        {
+          "pass": true,
+          "label": "Below-banner grid/form/essay retains constrained gutters",
+          "data": {
+            "left": 22,
+            "right": 368,
+            "top": 595.140625,
+            "bottom": 1229.984375,
+            "width": 346,
+            "height": 634.84375
+          }
+        },
+        {
+          "pass": true,
+          "label": "Display Light300 body retained"
+        },
+        {
+          "pass": true,
+          "label": "Cenzo Bold heading retained"
+        },
+        {
+          "pass": true,
+          "label": "No JavaScript errors",
+          "data": []
+        }
+      ],
+      "errors": [],
+      "layout": {
+        "banner": {
+          "left": 0,
+          "right": 390,
+          "top": 99,
+          "bottom": 565.140625,
+          "width": 390,
+          "height": 466.140625
+        },
+        "media": {
+          "left": 0,
+          "right": 390,
+          "top": 99,
+          "bottom": 344,
+          "width": 390,
+          "height": 245
+        },
+        "image": {
+          "left": 0,
+          "right": 390,
+          "top": 99,
+          "bottom": 344,
+          "width": 390,
+          "height": 245,
+          "src": "http://127.0.0.1:4208/assets/sj-banner-story-light.jpg",
+          "loaded": true,
+          "fit": "cover",
+          "position": "100% 50%"
+        },
+        "copy": {
+          "left": 22,
+          "right": 368,
+          "top": 344,
+          "bottom": 565.140625,
+          "width": 346,
+          "height": 221.140625
+        },
+        "h1": {
+          "left": 22,
+          "right": 368,
+          "top": 406.390625,
+          "bottom": 515.140625,
+          "width": 346,
+          "height": 108.75
+        },
+        "content": {
+          "left": 22,
+          "right": 368,
+          "top": 595.140625,
+          "bottom": 1229.984375,
+          "width": 346,
+          "height": 634.84375
+        },
+        "h1Text": "A SCENT JOURNEY\nFROM LONDON\nTO THE PHILIPPINES.",
+        "h1Count": 1,
+        "overflow": false,
+        "copyOverflow": [],
+        "bodyFamily": "\"Helvetica Now Display\", \"Helvetica Neue\", Arial, sans-serif",
+        "bodyWeight": "300",
+        "headingFamily": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif",
+        "headingWeight": "700",
+        "faces": [
+          {
+            "family": "Cenzo Flare Bold",
+            "status": "loaded",
+            "weight": "700"
+          },
+          {
+            "family": "Helvetica Now Display",
+            "status": "loaded",
+            "weight": "300"
+          }
+        ]
+      },
+      "status": "PASS"
+    },
+    {
+      "name": "story",
+      "route": "/pages/our-story",
+      "theme": "dark",
+      "width": 1440,
+      "checks": [
+        {
+          "pass": true,
+          "label": "Banner outer spans viewport",
+          "data": {
+            "left": 0,
+            "right": 1440,
+            "top": 110.5,
+            "bottom": 600.09375,
+            "width": 1440,
+            "height": 489.59375
+          }
+        },
+        {
+          "pass": true,
+          "label": "Banner media spans viewport",
+          "data": {
+            "left": 0,
+            "right": 1440,
+            "top": 110.5,
+            "bottom": 600.09375,
+            "width": 1440,
+            "height": 489.59375
+          }
+        },
+        {
+          "pass": true,
+          "label": "Correct existing theme artwork loaded",
+          "data": {
+            "left": 0,
+            "right": 1440,
+            "top": 110.5,
+            "bottom": 600.09375,
+            "width": 1440,
+            "height": 489.59375,
+            "src": "http://127.0.0.1:4208/assets/sj-banner-story-dark.jpg",
+            "loaded": true,
+            "fit": "cover",
+            "position": "50% 0%"
+          }
+        },
+        {
+          "pass": true,
+          "label": "No page or banner copy overflow",
+          "data": []
+        },
+        {
+          "pass": true,
+          "label": "Single readable page H1",
+          "data": "A SCENT JOURNEY\nFROM LONDON\nTO THE PHILIPPINES."
+        },
+        {
+          "pass": true,
+          "label": "Heading contained within copy block"
+        },
+        {
+          "pass": true,
+          "label": "Banner text retains side gutters"
+        },
+        {
+          "pass": true,
+          "label": "Below-banner grid/form/essay retains constrained gutters",
+          "data": {
+            "left": 61.90625,
+            "right": 1378.09375,
+            "top": 642.09375,
+            "bottom": 1098.09375,
+            "width": 1316.1875,
+            "height": 456
+          }
+        },
+        {
+          "pass": true,
+          "label": "Display Light300 body retained"
+        },
+        {
+          "pass": true,
+          "label": "Cenzo Bold heading retained"
+        },
+        {
+          "pass": true,
+          "label": "No JavaScript errors",
+          "data": []
+        }
+      ],
+      "errors": [],
+      "layout": {
+        "banner": {
+          "left": 0,
+          "right": 1440,
+          "top": 110.5,
+          "bottom": 600.09375,
+          "width": 1440,
+          "height": 489.59375
+        },
+        "media": {
+          "left": 0,
+          "right": 1440,
+          "top": 110.5,
+          "bottom": 600.09375,
+          "width": 1440,
+          "height": 489.59375
+        },
+        "image": {
+          "left": 0,
+          "right": 1440,
+          "top": 110.5,
+          "bottom": 600.09375,
+          "width": 1440,
+          "height": 489.59375,
+          "src": "http://127.0.0.1:4208/assets/sj-banner-story-dark.jpg",
+          "loaded": true,
+          "fit": "cover",
+          "position": "50% 0%"
+        },
+        "copy": {
+          "left": 61.90625,
+          "right": 759.484375,
+          "top": 188.34375,
+          "bottom": 522.234375,
+          "width": 697.578125,
+          "height": 333.890625
+        },
+        "h1": {
+          "left": 61.90625,
+          "right": 719.484375,
+          "top": 267.734375,
+          "bottom": 458.234375,
+          "width": 657.578125,
+          "height": 190.5
+        },
+        "content": {
+          "left": 61.90625,
+          "right": 1378.09375,
+          "top": 642.09375,
+          "bottom": 1098.09375,
+          "width": 1316.1875,
+          "height": 456
+        },
+        "h1Text": "A SCENT JOURNEY\nFROM LONDON\nTO THE PHILIPPINES.",
+        "h1Count": 1,
+        "overflow": false,
+        "copyOverflow": [],
+        "bodyFamily": "\"Helvetica Now Display\", \"Helvetica Neue\", Arial, sans-serif",
+        "bodyWeight": "300",
+        "headingFamily": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif",
+        "headingWeight": "700",
+        "faces": [
+          {
+            "family": "Cenzo Flare Bold",
+            "status": "loaded",
+            "weight": "700"
+          },
+          {
+            "family": "Helvetica Now Display",
+            "status": "loaded",
+            "weight": "300"
+          }
+        ]
+      },
+      "status": "PASS"
+    },
+    {
+      "name": "story",
+      "route": "/pages/our-story",
+      "theme": "dark",
+      "width": 390,
+      "checks": [
+        {
+          "pass": true,
+          "label": "Banner outer spans viewport",
+          "data": {
+            "left": 0,
+            "right": 390,
+            "top": 99,
+            "bottom": 565.140625,
+            "width": 390,
+            "height": 466.140625
+          }
+        },
+        {
+          "pass": true,
+          "label": "Banner media spans viewport",
+          "data": {
+            "left": 0,
+            "right": 390,
+            "top": 99,
+            "bottom": 344,
+            "width": 390,
+            "height": 245
+          }
+        },
+        {
+          "pass": true,
+          "label": "Correct existing theme artwork loaded",
+          "data": {
+            "left": 0,
+            "right": 390,
+            "top": 99,
+            "bottom": 344,
+            "width": 390,
+            "height": 245,
+            "src": "http://127.0.0.1:4208/assets/sj-banner-story-dark.jpg",
+            "loaded": true,
+            "fit": "cover",
+            "position": "100% 50%"
+          }
+        },
+        {
+          "pass": true,
+          "label": "No page or banner copy overflow",
+          "data": []
+        },
+        {
+          "pass": true,
+          "label": "Single readable page H1",
+          "data": "A SCENT JOURNEY\nFROM LONDON\nTO THE PHILIPPINES."
+        },
+        {
+          "pass": true,
+          "label": "Heading contained within copy block"
+        },
+        {
+          "pass": true,
+          "label": "Banner text retains side gutters"
+        },
+        {
+          "pass": true,
+          "label": "Below-banner grid/form/essay retains constrained gutters",
+          "data": {
+            "left": 22,
+            "right": 368,
+            "top": 595.140625,
+            "bottom": 1229.984375,
+            "width": 346,
+            "height": 634.84375
+          }
+        },
+        {
+          "pass": true,
+          "label": "Display Light300 body retained"
+        },
+        {
+          "pass": true,
+          "label": "Cenzo Bold heading retained"
+        },
+        {
+          "pass": true,
+          "label": "No JavaScript errors",
+          "data": []
+        }
+      ],
+      "errors": [],
+      "layout": {
+        "banner": {
+          "left": 0,
+          "right": 390,
+          "top": 99,
+          "bottom": 565.140625,
+          "width": 390,
+          "height": 466.140625
+        },
+        "media": {
+          "left": 0,
+          "right": 390,
+          "top": 99,
+          "bottom": 344,
+          "width": 390,
+          "height": 245
+        },
+        "image": {
+          "left": 0,
+          "right": 390,
+          "top": 99,
+          "bottom": 344,
+          "width": 390,
+          "height": 245,
+          "src": "http://127.0.0.1:4208/assets/sj-banner-story-dark.jpg",
+          "loaded": true,
+          "fit": "cover",
+          "position": "100% 50%"
+        },
+        "copy": {
+          "left": 22,
+          "right": 368,
+          "top": 344,
+          "bottom": 565.140625,
+          "width": 346,
+          "height": 221.140625
+        },
+        "h1": {
+          "left": 22,
+          "right": 368,
+          "top": 406.390625,
+          "bottom": 515.140625,
+          "width": 346,
+          "height": 108.75
+        },
+        "content": {
+          "left": 22,
+          "right": 368,
+          "top": 595.140625,
+          "bottom": 1229.984375,
+          "width": 346,
+          "height": 634.84375
+        },
+        "h1Text": "A SCENT JOURNEY\nFROM LONDON\nTO THE PHILIPPINES.",
+        "h1Count": 1,
+        "overflow": false,
+        "copyOverflow": [],
+        "bodyFamily": "\"Helvetica Now Display\", \"Helvetica Neue\", Arial, sans-serif",
+        "bodyWeight": "300",
+        "headingFamily": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif",
+        "headingWeight": "700",
+        "faces": [
+          {
+            "family": "Cenzo Flare Bold",
+            "status": "loaded",
+            "weight": "700"
+          },
+          {
+            "family": "Helvetica Now Display",
+            "status": "loaded",
+            "weight": "300"
+          }
+        ]
+      },
+      "status": "PASS"
+    },
+    {
+      "name": "story",
+      "route": "/pages/our-story",
+      "theme": "light",
+      "width": 820,
+      "checks": [
+        {
+          "pass": true,
+          "label": "Banner outer spans viewport",
+          "data": {
+            "left": 0,
+            "right": 820,
+            "top": 110.5,
+            "bottom": 480.5,
+            "width": 820,
+            "height": 370
+          }
+        },
+        {
+          "pass": true,
+          "label": "Banner media spans viewport",
+          "data": {
+            "left": 0,
+            "right": 820,
+            "top": 110.5,
+            "bottom": 480.5,
+            "width": 820,
+            "height": 370
+          }
+        },
+        {
+          "pass": true,
+          "label": "Correct existing theme artwork loaded",
+          "data": {
+            "left": 0,
+            "right": 820,
+            "top": 110.5,
+            "bottom": 480.5,
+            "width": 820,
+            "height": 370,
+            "src": "http://127.0.0.1:4208/assets/sj-banner-story-light.jpg",
+            "loaded": true,
+            "fit": "cover",
+            "position": "50% 0%"
+          }
+        },
+        {
+          "pass": true,
+          "label": "No page or banner copy overflow",
+          "data": []
+        },
+        {
+          "pass": true,
+          "label": "Single readable page H1",
+          "data": "A SCENT JOURNEY\nFROM LONDON\nTO THE PHILIPPINES."
+        },
+        {
+          "pass": true,
+          "label": "Heading contained within copy block"
+        },
+        {
+          "pass": true,
+          "label": "Banner text retains side gutters"
+        },
+        {
+          "pass": true,
+          "label": "Below-banner grid/form/essay retains constrained gutters",
+          "data": {
+            "left": 35.25,
+            "right": 784.75,
+            "top": 522.5,
+            "bottom": 1114.5,
+            "width": 749.5,
+            "height": 592
+          }
+        },
+        {
+          "pass": true,
+          "label": "Display Light300 body retained"
+        },
+        {
+          "pass": true,
+          "label": "Cenzo Bold heading retained"
+        },
+        {
+          "pass": true,
+          "label": "No JavaScript errors",
+          "data": []
+        }
+      ],
+      "errors": [],
+      "layout": {
+        "banner": {
+          "left": 0,
+          "right": 820,
+          "top": 110.5,
+          "bottom": 480.5,
+          "width": 820,
+          "height": 370
+        },
+        "media": {
+          "left": 0,
+          "right": 820,
+          "top": 110.5,
+          "bottom": 480.5,
+          "width": 820,
+          "height": 370
+        },
+        "image": {
+          "left": 0,
+          "right": 820,
+          "top": 110.5,
+          "bottom": 480.5,
+          "width": 820,
+          "height": 370,
+          "src": "http://127.0.0.1:4208/assets/sj-banner-story-light.jpg",
+          "loaded": true,
+          "fit": "cover",
+          "position": "50% 0%"
+        },
+        "copy": {
+          "left": 35.25,
+          "right": 432.484375,
+          "top": 169.5625,
+          "bottom": 421.421875,
+          "width": 397.234375,
+          "height": 251.859375
+        },
+        "h1": {
+          "left": 35.25,
+          "right": 392.484375,
+          "top": 248.953125,
+          "bottom": 357.421875,
+          "width": 357.234375,
+          "height": 108.46875
+        },
+        "content": {
+          "left": 35.25,
+          "right": 784.75,
+          "top": 522.5,
+          "bottom": 1114.5,
+          "width": 749.5,
+          "height": 592
+        },
+        "h1Text": "A SCENT JOURNEY\nFROM LONDON\nTO THE PHILIPPINES.",
+        "h1Count": 1,
+        "overflow": false,
+        "copyOverflow": [],
+        "bodyFamily": "\"Helvetica Now Display\", \"Helvetica Neue\", Arial, sans-serif",
+        "bodyWeight": "300",
+        "headingFamily": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif",
+        "headingWeight": "700",
+        "faces": [
+          {
+            "family": "Cenzo Flare Bold",
+            "status": "loaded",
+            "weight": "700"
+          },
+          {
+            "family": "Helvetica Now Display",
+            "status": "loaded",
+            "weight": "300"
+          }
+        ]
+      },
+      "status": "PASS"
+    },
+    {
+      "name": "finder",
+      "route": "/pages/scent-finder",
+      "theme": "dark",
+      "width": 820,
+      "checks": [
+        {
+          "pass": true,
+          "label": "Banner outer spans viewport",
+          "data": {
+            "left": 0,
+            "right": 820,
+            "top": 110.5,
+            "bottom": 480.5,
+            "width": 820,
+            "height": 370
+          }
+        },
+        {
+          "pass": true,
+          "label": "Banner media spans viewport",
+          "data": {
+            "left": 0,
+            "right": 820,
+            "top": 110.5,
+            "bottom": 480.5,
+            "width": 820,
+            "height": 370
+          }
+        },
+        {
+          "pass": true,
+          "label": "Correct existing theme artwork loaded",
+          "data": {
+            "left": 0,
+            "right": 820,
+            "top": 110.5,
+            "bottom": 480.5,
+            "width": 820,
+            "height": 370,
+            "src": "http://127.0.0.1:4208/assets/sj-banner-finder-dark.jpg",
+            "loaded": true,
+            "fit": "cover",
+            "position": "50% 0%"
+          }
+        },
+        {
+          "pass": true,
+          "label": "No page or banner copy overflow",
+          "data": []
+        },
+        {
+          "pass": true,
+          "label": "Single readable page H1",
+          "data": "FOLLOW YOUR MOOD.\nFIND YOUR FRAGRANCE."
+        },
+        {
+          "pass": true,
+          "label": "Heading contained within copy block"
+        },
+        {
+          "pass": true,
+          "label": "Banner text retains side gutters"
+        },
+        {
+          "pass": true,
+          "label": "Below-banner grid/form/essay retains constrained gutters",
+          "data": {
+            "left": 35.25,
+            "right": 784.75,
+            "top": 522.5,
+            "bottom": 1033.90625,
+            "width": 749.5,
+            "height": 511.40625
+          }
+        },
+        {
+          "pass": true,
+          "label": "Display Light300 body retained"
+        },
+        {
+          "pass": true,
+          "label": "Cenzo Bold heading retained"
+        },
+        {
+          "pass": true,
+          "label": "No JavaScript errors",
+          "data": []
+        }
+      ],
+      "errors": [],
+      "layout": {
+        "banner": {
+          "left": 0,
+          "right": 820,
+          "top": 110.5,
+          "bottom": 480.5,
+          "width": 820,
+          "height": 370
+        },
+        "media": {
+          "left": 0,
+          "right": 820,
+          "top": 110.5,
+          "bottom": 480.5,
+          "width": 820,
+          "height": 370
+        },
+        "image": {
+          "left": 0,
+          "right": 820,
+          "top": 110.5,
+          "bottom": 480.5,
+          "width": 820,
+          "height": 370,
+          "src": "http://127.0.0.1:4208/assets/sj-banner-finder-dark.jpg",
+          "loaded": true,
+          "fit": "cover",
+          "position": "50% 0%"
+        },
+        "copy": {
+          "left": 35.25,
+          "right": 432.484375,
+          "top": 138.890625,
+          "bottom": 452.09375,
+          "width": 397.234375,
+          "height": 313.203125
+        },
+        "h1": {
+          "left": 35.25,
+          "right": 392.484375,
+          "top": 218.28125,
+          "bottom": 288.8125,
+          "width": 357.234375,
+          "height": 70.53125
+        },
+        "content": {
+          "left": 35.25,
+          "right": 784.75,
+          "top": 522.5,
+          "bottom": 1033.90625,
+          "width": 749.5,
+          "height": 511.40625
+        },
+        "h1Text": "FOLLOW YOUR MOOD.\nFIND YOUR FRAGRANCE.",
+        "h1Count": 1,
+        "overflow": false,
+        "copyOverflow": [],
+        "bodyFamily": "\"Helvetica Now Display\", \"Helvetica Neue\", Arial, sans-serif",
+        "bodyWeight": "300",
+        "headingFamily": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif",
+        "headingWeight": "700",
+        "faces": [
+          {
+            "family": "Cenzo Flare Bold",
+            "status": "loaded",
+            "weight": "700"
+          },
+          {
+            "family": "Helvetica Now Display",
+            "status": "loaded",
+            "weight": "300"
+          }
+        ]
+      },
+      "status": "PASS"
+    },
+    {
+      "name": "shop-all",
+      "route": "/collections/all",
+      "theme": "light",
+      "width": 1920,
+      "checks": [
+        {
+          "pass": true,
+          "label": "Banner outer spans viewport",
+          "data": {
+            "left": 0,
+            "right": 1920,
+            "top": 110.5,
+            "bottom": 650.5,
+            "width": 1920,
+            "height": 540
+          }
+        },
+        {
+          "pass": true,
+          "label": "Banner media spans viewport",
+          "data": {
+            "left": 0,
+            "right": 1920,
+            "top": 110.5,
+            "bottom": 650.5,
+            "width": 1920,
+            "height": 540
+          }
+        },
+        {
+          "pass": true,
+          "label": "Correct existing theme artwork loaded",
+          "data": {
+            "left": 0,
+            "right": 1920,
+            "top": 110.5,
+            "bottom": 650.5,
+            "width": 1920,
+            "height": 540,
+            "src": "http://127.0.0.1:4208/assets/sj-banner-women-light.jpg",
+            "loaded": true,
+            "fit": "cover",
+            "position": "50% 0%"
+          }
+        },
+        {
+          "pass": true,
+          "label": "No page or banner copy overflow",
+          "data": []
+        },
+        {
+          "pass": true,
+          "label": "Single readable page H1",
+          "data": "All fragrances"
+        },
+        {
+          "pass": true,
+          "label": "Heading contained within copy block"
+        },
+        {
+          "pass": true,
+          "label": "Banner text retains side gutters"
+        },
+        {
+          "pass": true,
+          "label": "Below-banner grid/form/essay retains constrained gutters",
+          "data": {
+            "left": 142.546875,
+            "right": 1777.453125,
+            "top": 794.890625,
+            "bottom": 2304.609375,
+            "width": 1634.90625,
+            "height": 1509.71875
+          }
+        },
+        {
+          "pass": true,
+          "label": "Display Light300 body retained"
+        },
+        {
+          "pass": true,
+          "label": "Cenzo Bold heading retained"
+        },
+        {
+          "pass": true,
+          "label": "No JavaScript errors",
+          "data": []
+        }
+      ],
+      "errors": [],
+      "layout": {
+        "banner": {
+          "left": 0,
+          "right": 1920,
+          "top": 110.5,
+          "bottom": 650.5,
+          "width": 1920,
+          "height": 540
+        },
+        "media": {
+          "left": 0,
+          "right": 1920,
+          "top": 110.5,
+          "bottom": 650.5,
+          "width": 1920,
+          "height": 540
+        },
+        "image": {
+          "left": 0,
+          "right": 1920,
+          "top": 110.5,
+          "bottom": 650.5,
+          "width": 1920,
+          "height": 540,
+          "src": "http://127.0.0.1:4208/assets/sj-banner-women-light.jpg",
+          "loaded": true,
+          "fit": "cover",
+          "position": "50% 0%"
+        },
+        "copy": {
+          "left": 142.546875,
+          "right": 1009.046875,
+          "top": 255.3125,
+          "bottom": 505.671875,
+          "width": 866.5,
+          "height": 250.359375
+        },
+        "h1": {
+          "left": 142.546875,
+          "right": 969.046875,
+          "top": 334.703125,
+          "bottom": 409.171875,
+          "width": 826.5,
+          "height": 74.46875
+        },
+        "content": {
+          "left": 142.546875,
+          "right": 1777.453125,
+          "top": 794.890625,
+          "bottom": 2304.609375,
+          "width": 1634.90625,
+          "height": 1509.71875
+        },
+        "h1Text": "All fragrances",
+        "h1Count": 1,
+        "overflow": false,
+        "copyOverflow": [],
+        "bodyFamily": "\"Helvetica Now Display\", \"Helvetica Neue\", Arial, sans-serif",
+        "bodyWeight": "300",
+        "headingFamily": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif",
+        "headingWeight": "700",
+        "faces": [
+          {
+            "family": "Cenzo Flare Bold",
+            "status": "loaded",
+            "weight": "700"
+          },
+          {
+            "family": "Helvetica Now Display",
+            "status": "loaded",
+            "weight": "300"
+          }
+        ]
+      },
+      "status": "PASS"
+    }
+  ],
+  "issues": [],
+  "summary": {
+    "status": "PASS",
+    "cases": 23,
+    "checks": 258,
+    "issues": 0
+  },
+  "visualReview": {
+    "status": "PASS",
+    "bannerCapturesInspected": 23,
+    "findings": "All captured Light/Dark banner crops reviewed. Faces and featured hands/materials remain visible, text retains side margins and does not collide with subjects, and mobile artwork spans the viewport above readable copy."
+  }
+}

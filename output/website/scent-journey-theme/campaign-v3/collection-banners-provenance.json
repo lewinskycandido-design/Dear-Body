@@ -1,0 +1,76 @@
+[
+  {
+    "key": "men-light",
+    "prompt": "Use case: photorealistic lifestyle campaign. Asset type: ultra-wide website collection header banner, 1792x768 or closest panoramic aspect ratio, approximately 2.4:1. New original high-end natural editorial photograph, physically photographable modern Filipino setting. One adult model only. Important composition: model occupies rightmost third, entirely within right55% of image; left45% is quiet clean low-detail negative space for future page heading, with no text. Warm, fun, light and attainable; candid movement, healthy real skin texture, believable hands and anatomy, coherent architecture and daylight. Canva DearBody Philippines palette is authority: cream #F4E3CB, oxblood #5C0006, deep warm red #91100D, burnt brown #A2490B, warm gold #EAAA3D. Palette used naturally in surfaces and clothing. NO text, NO logos, NO typography, NO watermark, NO perfume bottles, NO products, NO cosmetics, NO fragrance packaging. NO background people or faces, posters, phone screens, mirrored faces. Avoid synthetic sets or orange-dress cafe imagery. Scene: sunny coastal city terrace in the Philippines, pale cream plaster parapet and calm warm stone floor with a distant soft coastal horizon. The left45% is an uncluttered pale cream wall and softly graded warm daylight, clean enough for dark overlay heading. On right third, one attractive adult Filipino man aged around29 in relaxed cream linen short-sleeve open-collar shirt and stone linen trousers, caught mid-step walking along terrace, turning gently toward sea with easy smile, a light sea breeze moves shirt hem. Loose inviting posture, one hand casually touching parapet. Small warm-gold cushion on a far-right built-in bench adds color, restrained burgundy accent pillow. Soft out-of-focus small greenery far right. Camera low chest height, wide35mm natural editorial, medium-wide head-to-shin framing subject safely in composition, uncluttered left field. Bright late-afternoon light, warm amber highlights and soft natural shadows; never harsh or overexposed.",
+    "source": "/Users/wetrade/.codex/generated_images/01a0d0f9-88d3-7d82-84d9-c31b20b30821/exec-0278154e-83f7-42a1-940c-6315e5b315c4.png",
+    "target": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/campaign-v3/originals/sj-banner-men-light.png",
+    "native_size": [
+      1916,
+      821
+    ],
+    "web": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/campaign-v3/final-web/sj-banner-men-light.jpg",
+    "web_size": [
+      1800,
+      771
+    ],
+    "bytes": 121600,
+    "sha256": "95182437a7931bfc3a05d1ed879728fa8bbe590f830416aefa6ec203099ab04d",
+    "qa": "PASS"
+  },
+  {
+    "key": "women-light",
+    "prompt": "Use case: photorealistic lifestyle campaign. Asset type: ultra-wide website collection header banner, 1792x768 or closest panoramic aspect ratio, approximately 2.4:1. New original high-end natural editorial photograph, physically photographable modern Filipino setting. One adult model only. Important composition: model occupies rightmost third, entirely within right55% of image; left45% is quiet clean low-detail negative space for future page heading, with no text. Warm, fun, light and attainable; candid movement, healthy real skin texture, believable hands and anatomy, coherent architecture and daylight. Canva DearBody Philippines palette is authority: cream #F4E3CB, oxblood #5C0006, deep warm red #91100D, burnt brown #A2490B, warm gold #EAAA3D. Palette used naturally in surfaces and clothing. NO text, NO logos, NO typography, NO watermark, NO perfume bottles, NO products, NO cosmetics, NO fragrance packaging. NO background people or faces, posters, phone screens, mirrored faces. Avoid synthetic sets or orange-dress cafe imagery. Scene: contemporary sunlit Philippine city botanical courtyard with pale cream plaster wall across the left45%, subtle warm natural shadow gradient and almost no objects on left. Right side shows tasteful palms and ferns in terracotta planters beside a simple cream archway. One stylish adult Filipina woman aged around28 in flowing deep warm-red #91100D midi wrap skirt and matching short-sleeve linen blouse, in candid walking movement on right third, joyful relaxed smile, eyes looking to her right, skirt lightly moving with her stride. No handbag or handheld props. Modern clean styling with simple gold hoop earrings. Warmgold highlights on cream stone floor, rich green foliage restricted to right side, elegant and approachable natural human moment. Camera chest height, wide35mm natural editorial medium-wide head-to-shin frame with safe margins. Warm afternoon sun, soft fabric texture, natural skin; real courtyard construction and contact shadows.",
+    "source": "/Users/wetrade/.codex/generated_images/01a0d0f9-88d3-7d82-84d9-c31b20b30821/exec-96dd909a-a439-48c5-b06d-e2e6b03a923d.png",
+    "target": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/campaign-v3/originals/sj-banner-women-light.png",
+    "native_size": [
+      1916,
+      821
+    ],
+    "web": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/campaign-v3/final-web/sj-banner-women-light.jpg",
+    "web_size": [
+      1800,
+      771
+    ],
+    "bytes": 195387,
+    "sha256": "3263e5e648eb44516558d316d4fffd048d683bbb8a6fc054041096f39afb8329",
+    "qa": "PASS"
+  },
+  {
+    "key": "men-dark",
+    "prompt": "Use case: lighting-weather edit. The reference is the exact approved website collection banner. Make a MATCHING EVENING VERSION of this same photograph. Preserve IDENTICAL model identity, face, smile, age, anatomy, pose, clothes, hair, exact camera position, framing, location, architecture, props, composition and panoramic1916x821 aspect ratio. Change ONLY time-of-day lighting and resulting physically plausible color of light. Maintain clear quiet left45% negative space for a future pale-cream heading. Evening feels warm, welcoming, fun and light, not murky or ominous. Beautiful warm amber/gold #EAAA3D practical-light illumination, warm brown #A2490B shadow midtones and gentle oxblood #5C0006 ambient shadow palette, healthy warm skin. Model remains clearly visible and naturally illuminated. No drastic black crush, no cold blue tint, no heavy artificial gradient or overlay. No additional people, NO text, NO logos, NO products, NO perfume, NO watermark. This is a color/light variant, not a new composition. Set terrace at the welcoming transition from sunset into early evening, deep warm muted sky and coastal water with sunset gold near distant horizon. Soft golden practical light from offscreen right warms model and cream linen, with believable golden reflected light on parapet, terrace retains detail. Left empty sky/parapet field softly shadowed warm brown to support pale cream heading. Preserve all objects and model pose exactly.",
+    "source": "/Users/wetrade/.codex/generated_images/01a0d0f9-88d3-7d82-84d9-c31b20b30821/exec-98276b5f-4134-4cea-a4e8-d6adae8c2bdb.png",
+    "target": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/campaign-v3/originals/sj-banner-men-dark.png",
+    "edit_reference": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/campaign-v3/originals/sj-banner-men-light.png",
+    "native_size": [
+      1915,
+      821
+    ],
+    "web": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/campaign-v3/final-web/sj-banner-men-dark.jpg",
+    "web_size": [
+      1800,
+      772
+    ],
+    "bytes": 150431,
+    "sha256": "6524d2ec0078477d59fc42c090c02adff5dcb3595df0e92d234d69139fa3a2e5",
+    "qa": "PASS"
+  },
+  {
+    "key": "women-dark",
+    "prompt": "Use case: lighting-weather edit. The reference is the exact approved website collection banner. Make a MATCHING EVENING VERSION of this same photograph. Preserve IDENTICAL model identity, face, smile, age, anatomy, pose, clothes, hair, exact camera position, framing, location, architecture, props, composition and panoramic1916x821 aspect ratio. Change ONLY time-of-day lighting and resulting physically plausible color of light. Maintain clear quiet left45% negative space for a future pale-cream heading. Evening feels warm, welcoming, fun and light, not murky or ominous. Beautiful warm amber/gold #EAAA3D practical-light illumination, warm brown #A2490B shadow midtones and gentle oxblood #5C0006 ambient shadow palette, healthy warm skin. Model remains clearly visible and naturally illuminated. No drastic black crush, no cold blue tint, no heavy artificial gradient or overlay. No additional people, NO text, NO logos, NO products, NO perfume, NO watermark. This is a color/light variant, not a new composition. Set courtyard at warm early evening. Existing cream wall becomes gently shadowed warm terracotta-brown, left field low-detail and darker for pale heading. Soft inviting golden practical light from just offscreen right and archway creates warm highlights on woman's red outfit, hair and healthy skin, foliage still readable. Preserve existing architecture and silhouette, do not add visible fixtures or objects.",
+    "source": "/Users/wetrade/.codex/generated_images/01a0d0f9-88d3-7d82-84d9-c31b20b30821/exec-619ebaa1-1743-4417-a223-469cc4df4a04.png",
+    "target": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/campaign-v3/originals/sj-banner-women-dark.png",
+    "edit_reference": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/campaign-v3/originals/sj-banner-women-light.png",
+    "native_size": [
+      1915,
+      821
+    ],
+    "web": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/campaign-v3/final-web/sj-banner-women-dark.jpg",
+    "web_size": [
+      1800,
+      772
+    ],
+    "bytes": 194793,
+    "sha256": "9723406d31111340fd8999dad3e4956091a5d8a46e2bc8c1909f3f83c7cb8a30",
+    "qa": "PASS"
+  }
+]

@@ -1,0 +1,97 @@
+{
+  "verified_on": "2026-09-24",
+  "scope": "Only the six priority launch fragrances; no notes found for Rtulle & Satin. Notes describe fragrance accords, not an ingredient declaration.",
+  "products": {
+    "mojito-metallique": {
+      "top_notes": [
+        "Peach",
+        "Orange"
+      ],
+      "heart_notes": [
+        "Tropical flowers",
+        "Lilac",
+        "Coconut"
+      ],
+      "base_notes": [
+        "Musk",
+        "Sandalwood",
+        "Cedarwood",
+        "Vanilla"
+      ],
+      "source": "https://www.dearbody.com/news/dearbody-perfume-sharing-5/"
+    },
+    "amber-oud-silk": {
+      "top_notes": [
+        "Spices",
+        "Tobacco",
+        "Clove"
+      ],
+      "heart_notes": [
+        "Patchouli",
+        "Iris"
+      ],
+      "base_notes": [
+        "Amber",
+        "Vanilla",
+        "Sandalwood"
+      ],
+      "source": "https://www.dearbody.com/news/dearbody-perfume-sharing-5/"
+    },
+    "mistened-narcissus": {
+      "top_notes": [
+        "Raspberry",
+        "Strawberry",
+        "Cherry",
+        "Blackberry",
+        "Blueberry"
+      ],
+      "heart_notes": [
+        "Violet",
+        "Jasmine"
+      ],
+      "base_notes": [
+        "Chypre notes",
+        "Patchouli",
+        "Musk",
+        "Amber"
+      ],
+      "source": "https://www.dearbody.com/news/dearbody-perfume-sharing-5/"
+    },
+    "charme-envoutant": {
+      "top_notes": [
+        "Bergamot",
+        "Cinnamon",
+        "Cardamom"
+      ],
+      "heart_notes": [
+        "Myrrh",
+        "Amber"
+      ],
+      "base_notes": [
+        "Vanilla",
+        "Tonka bean",
+        "Benzoin",
+        "Amber woods"
+      ],
+      "source": "https://www.dearbody.com/news/dearbody-perfume-sharing-4/"
+    },
+    "oud-mirage": {
+      "top_notes": [
+        "Saffron",
+        "Camphor",
+        "Galbanum"
+      ],
+      "heart_notes": [
+        "Oud",
+        "Rose",
+        "Lavender"
+      ],
+      "base_notes": [
+        "Papyrus",
+        "Civet",
+        "Amberwood"
+      ],
+      "source": "https://www.dearbody.com/news/dearbody-perfume-sharing-4/"
+    }
+  }
+}

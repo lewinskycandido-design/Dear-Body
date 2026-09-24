@@ -1,0 +1,551 @@
+{
+  "status": "Developer/reference payload, not a direct Shopify import file. NOT applied to Shopify. Supplied scent copy and source-verified notes, with benefits rewritten at the user's request. Wear and outfit ideas are editorial suggestions; intensity and occasion metafields are unchanged.",
+  "source": "User master brief sections 31–37, confirmed Shopify collection membership and packaging details in preview/shopify-public-snapshot.json; revised non-scent benefits requested in this website task.",
+  "products": [
+    {
+      "handle": "mojito-metallique",
+      "seo": {
+        "title": "DearBody Mojito Metallique Perfume | Soft, Creamy & Fruity Fragrance",
+        "description": "Discover DearBody Mojito Metallique, a London-formulated fragrance with soft creamy sweetness and a light fruity glow. A smooth, inviting scent for effortless everyday style."
+      },
+      "metafields": [
+        {
+          "namespace": "custom",
+          "key": "hero_statement",
+          "type": "single_line_text_field",
+          "value": "SOFT. CREAMY. EFFORTLESSLY BRIGHT."
+        },
+        {
+          "namespace": "custom",
+          "key": "scent_description",
+          "type": "multi_line_text_field",
+          "value": "Meet Mojito Metallique — a fragrance made for the moments when you want to smell effortlessly put together without trying too hard.\n\nIts soft, creamy sweetness creates a smooth and comforting first impression, while a light fruity glow gives the scent an uplifting edge. The result feels easy, approachable and full of personality.\n\nMojito Metallique is the kind of fragrance you can reach for when you want your scent to feel inviting rather than overpowering—something that moves naturally with your everyday style.\n\nWhether you're heading out for coffee, meeting friends or simply want to add a little more personality to an ordinary day, this is a scent designed to become part of the moment.\n\nBegin your DearBody scent journey with something soft, bright and easy to love."
+        },
+        {
+          "namespace": "custom",
+          "key": "bullet_1",
+          "type": "multi_line_text_field",
+          "value": "START YOUR SCENT WARDROBE\nA first pick to consider as you discover your personal fragrance style."
+        },
+        {
+          "namespace": "custom",
+          "key": "bullet_2",
+          "type": "multi_line_text_field",
+          "value": "WHITE TEE. FAVOURITE DENIM.\nTry it as the finishing touch to a relaxed, pared-back outfit."
+        },
+        {
+          "namespace": "custom",
+          "key": "bullet_3",
+          "type": "multi_line_text_field",
+          "value": "50 ML, EVERYDAY SIZE\nA bottle that fits neatly among your getting-ready essentials."
+        },
+        {
+          "namespace": "custom",
+          "key": "bullet_4",
+          "type": "multi_line_text_field",
+          "value": "A GOLDEN DETAIL\nGolden-yellow liquid, clear glass and a glossy black cap add colour to your dressing table."
+        },
+        {
+          "namespace": "custom",
+          "key": "bullet_5",
+          "type": "multi_line_text_field",
+          "value": "A COLOURFUL GIFT IDEA\nThe bright-yellow presentation canister makes a cheerful choice for birthdays and little celebrations."
+        },
+        {
+          "namespace": "custom",
+          "key": "scent_character",
+          "type": "list.single_line_text_field",
+          "value": "[\"Soft\", \"Creamy\", \"Bright\", \"Fruity\"]"
+        },
+        {
+          "namespace": "custom",
+          "key": "scent_finder_enabled",
+          "type": "boolean",
+          "value": "true"
+        },
+        {
+          "namespace": "custom",
+          "key": "top_notes",
+          "type": "list.single_line_text_field",
+          "value": [
+            "Peach",
+            "Orange"
+          ],
+          "source": "https://www.dearbody.com/news/dearbody-perfume-sharing-5/"
+        },
+        {
+          "namespace": "custom",
+          "key": "heart_notes",
+          "type": "list.single_line_text_field",
+          "value": [
+            "Tropical flowers",
+            "Lilac",
+            "Coconut"
+          ],
+          "source": "https://www.dearbody.com/news/dearbody-perfume-sharing-5/"
+        },
+        {
+          "namespace": "custom",
+          "key": "base_notes",
+          "type": "list.single_line_text_field",
+          "value": [
+            "Musk",
+            "Sandalwood",
+            "Cedarwood",
+            "Vanilla"
+          ],
+          "source": "https://www.dearbody.com/news/dearbody-perfume-sharing-5/"
+        }
+      ]
+    },
+    {
+      "handle": "amber-oud-silk",
+      "seo": {
+        "title": "DearBody Amber Oud Silk Perfume | Dark Spicy & Smoky Fragrance",
+        "description": "Discover DearBody Amber Oud Silk, a dark spicy fragrance with smoky warmth and an addictive edge. A bold London-formulated scent from DearBody Philippines."
+      },
+      "metafields": [
+        {
+          "namespace": "custom",
+          "key": "hero_statement",
+          "type": "single_line_text_field",
+          "value": "DARK SPICE. SMOKE. ADDICTIVE WARMTH."
+        },
+        {
+          "namespace": "custom",
+          "key": "scent_description",
+          "type": "multi_line_text_field",
+          "value": "Discover DearBody Amber Oud Silk, a dark spicy fragrance with smoky warmth and an addictive edge. A bold London-formulated scent from DearBody Philippines."
+        },
+        {
+          "namespace": "custom",
+          "key": "bullet_1",
+          "type": "multi_line_text_field",
+          "value": "MAKE AN EVENING OF IT\nConsider it for dinner plans, celebrations or an occasion worth dressing up for."
+        },
+        {
+          "namespace": "custom",
+          "key": "bullet_2",
+          "type": "multi_line_text_field",
+          "value": "FINISH THE LOOK\nTry it with a burgundy blouse, dark denim or your favourite tailored pieces."
+        },
+        {
+          "namespace": "custom",
+          "key": "bullet_3",
+          "type": "multi_line_text_field",
+          "value": "50 ML, EVERYDAY SIZE\nA bottle that fits neatly among your getting-ready essentials."
+        },
+        {
+          "namespace": "custom",
+          "key": "bullet_4",
+          "type": "multi_line_text_field",
+          "value": "BLUSH ON DISPLAY\nPale blush-peach liquid and clear glass bring a subtle colour accent to your shelf."
+        },
+        {
+          "namespace": "custom",
+          "key": "bullet_5",
+          "type": "multi_line_text_field",
+          "value": "PRESENTED IN PEACH\nA blush-peach cylindrical canister gives the bottle a considered presentation for gifting."
+        },
+        {
+          "namespace": "custom",
+          "key": "scent_character",
+          "type": "list.single_line_text_field",
+          "value": "[\"Dark\", \"Spiced\", \"Smoky\", \"Warm\"]"
+        },
+        {
+          "namespace": "custom",
+          "key": "scent_finder_enabled",
+          "type": "boolean",
+          "value": "true"
+        },
+        {
+          "namespace": "custom",
+          "key": "top_notes",
+          "type": "list.single_line_text_field",
+          "value": [
+            "Spices",
+            "Tobacco",
+            "Clove"
+          ],
+          "source": "https://www.dearbody.com/news/dearbody-perfume-sharing-5/"
+        },
+        {
+          "namespace": "custom",
+          "key": "heart_notes",
+          "type": "list.single_line_text_field",
+          "value": [
+            "Patchouli",
+            "Iris"
+          ],
+          "source": "https://www.dearbody.com/news/dearbody-perfume-sharing-5/"
+        },
+        {
+          "namespace": "custom",
+          "key": "base_notes",
+          "type": "list.single_line_text_field",
+          "value": [
+            "Amber",
+            "Vanilla",
+            "Sandalwood"
+          ],
+          "source": "https://www.dearbody.com/news/dearbody-perfume-sharing-5/"
+        }
+      ]
+    },
+    {
+      "handle": "mistened-narcissus",
+      "seo": {
+        "title": "DearBody Mistened Narcissus Perfume | Juicy Berry & Sweet Fragrance",
+        "description": "Discover DearBody Mistened Narcissus, a juicy berry fragrance softened by a smooth sweet finish. A playful London-formulated scent by DearBody Philippines."
+      },
+      "metafields": [
+        {
+          "namespace": "custom",
+          "key": "hero_statement",
+          "type": "single_line_text_field",
+          "value": "JUICY BERRIES. SMOOTH SWEETNESS."
+        },
+        {
+          "namespace": "custom",
+          "key": "scent_description",
+          "type": "multi_line_text_field",
+          "value": "Discover DearBody Mistened Narcissus, a juicy berry fragrance softened by a smooth sweet finish. A playful London-formulated scent by DearBody Philippines."
+        },
+        {
+          "namespace": "custom",
+          "key": "bullet_1",
+          "type": "multi_line_text_field",
+          "value": "LEAVE ROOM FOR SPONTANEITY\nTry it for a weekend market, a browse through a record shop or an unplanned day out."
+        },
+        {
+          "namespace": "custom",
+          "key": "bullet_2",
+          "type": "multi_line_text_field",
+          "value": "ADD A PERSONAL TOUCH\nPair it with a colourful top, favourite denim or an accessory that feels like you."
+        },
+        {
+          "namespace": "custom",
+          "key": "bullet_3",
+          "type": "multi_line_text_field",
+          "value": "50 ML, EVERYDAY SIZE\nA bottle that fits neatly among your getting-ready essentials."
+        },
+        {
+          "namespace": "custom",
+          "key": "bullet_4",
+          "type": "multi_line_text_field",
+          "value": "SIMPLE, CLEAR DESIGN\nClear liquid, transparent glass and a glossy black cap give the bottle a clean look."
+        },
+        {
+          "namespace": "custom",
+          "key": "bullet_5",
+          "type": "multi_line_text_field",
+          "value": "A LITTLE LAVENDER\nThe pale-lavender presentation canister makes a thoughtful birthday or just-because gift."
+        },
+        {
+          "namespace": "custom",
+          "key": "scent_character",
+          "type": "list.single_line_text_field",
+          "value": "[\"Juicy\", \"Sweet\", \"Playful\"]"
+        },
+        {
+          "namespace": "custom",
+          "key": "scent_finder_enabled",
+          "type": "boolean",
+          "value": "true"
+        },
+        {
+          "namespace": "custom",
+          "key": "top_notes",
+          "type": "list.single_line_text_field",
+          "value": [
+            "Raspberry",
+            "Strawberry",
+            "Cherry",
+            "Blackberry",
+            "Blueberry"
+          ],
+          "source": "https://www.dearbody.com/news/dearbody-perfume-sharing-5/"
+        },
+        {
+          "namespace": "custom",
+          "key": "heart_notes",
+          "type": "list.single_line_text_field",
+          "value": [
+            "Violet",
+            "Jasmine"
+          ],
+          "source": "https://www.dearbody.com/news/dearbody-perfume-sharing-5/"
+        },
+        {
+          "namespace": "custom",
+          "key": "base_notes",
+          "type": "list.single_line_text_field",
+          "value": [
+            "Chypre notes",
+            "Patchouli",
+            "Musk",
+            "Amber"
+          ],
+          "source": "https://www.dearbody.com/news/dearbody-perfume-sharing-5/"
+        }
+      ]
+    },
+    {
+      "handle": "charme-envoutant",
+      "seo": {
+        "title": "DearBody Charme Envoûtant Perfume | Rich Spiced Sweet Fragrance",
+        "description": "Discover DearBody Charme Envoûtant, a rich spiced fragrance with deep indulgent sweetness. A warm and expressive London-formulated perfume by DearBody Philippines."
+      },
+      "metafields": [
+        {
+          "namespace": "custom",
+          "key": "hero_statement",
+          "type": "single_line_text_field",
+          "value": "RICH. SPICED. DEEPLY INDULGENT."
+        },
+        {
+          "namespace": "custom",
+          "key": "scent_description",
+          "type": "multi_line_text_field",
+          "value": "Discover DearBody Charme Envoûtant, a rich spiced fragrance with deep indulgent sweetness. A warm and expressive London-formulated perfume by DearBody Philippines."
+        },
+        {
+          "namespace": "custom",
+          "key": "bullet_1",
+          "type": "multi_line_text_field",
+          "value": "FOR YOUR NEXT GET-TOGETHER\nConsider it for dinner with friends, a date or a celebration."
+        },
+        {
+          "namespace": "custom",
+          "key": "bullet_2",
+          "type": "multi_line_text_field",
+          "value": "RELAXED, BUT PUT TOGETHER\nTry it with a linen shirt, a cotton overshirt or tailoring worn your own way."
+        },
+        {
+          "namespace": "custom",
+          "key": "bullet_3",
+          "type": "multi_line_text_field",
+          "value": "50 ML, EVERYDAY SIZE\nA bottle that fits neatly among your getting-ready essentials."
+        },
+        {
+          "namespace": "custom",
+          "key": "bullet_4",
+          "type": "multi_line_text_field",
+          "value": "COLOUR WITH CONTRAST\nAmber-orange liquid and a black front label give the clear glass bottle a distinctive look."
+        },
+        {
+          "namespace": "custom",
+          "key": "bullet_5",
+          "type": "multi_line_text_field",
+          "value": "A BRIGHT GIFT IDEA\nThe vivid-orange cylindrical canister with black trim brings colour to the unwrapping."
+        },
+        {
+          "namespace": "custom",
+          "key": "scent_character",
+          "type": "list.single_line_text_field",
+          "value": "[\"Rich\", \"Spiced\", \"Indulgent\"]"
+        },
+        {
+          "namespace": "custom",
+          "key": "scent_finder_enabled",
+          "type": "boolean",
+          "value": "true"
+        },
+        {
+          "namespace": "custom",
+          "key": "top_notes",
+          "type": "list.single_line_text_field",
+          "value": [
+            "Bergamot",
+            "Cinnamon",
+            "Cardamom"
+          ],
+          "source": "https://www.dearbody.com/news/dearbody-perfume-sharing-4/"
+        },
+        {
+          "namespace": "custom",
+          "key": "heart_notes",
+          "type": "list.single_line_text_field",
+          "value": [
+            "Myrrh",
+            "Amber"
+          ],
+          "source": "https://www.dearbody.com/news/dearbody-perfume-sharing-4/"
+        },
+        {
+          "namespace": "custom",
+          "key": "base_notes",
+          "type": "list.single_line_text_field",
+          "value": [
+            "Vanilla",
+            "Tonka bean",
+            "Benzoin",
+            "Amber woods"
+          ],
+          "source": "https://www.dearbody.com/news/dearbody-perfume-sharing-4/"
+        }
+      ]
+    },
+    {
+      "handle": "oud-mirage",
+      "seo": {
+        "title": "DearBody Oud Mirage Perfume | Dark Rose, Smoky & Woody Fragrance",
+        "description": "Discover DearBody Oud Mirage, a dark rose fragrance wrapped in smoky woody depth. A bold London-formulated scent from the DearBody Philippines collection."
+      },
+      "metafields": [
+        {
+          "namespace": "custom",
+          "key": "hero_statement",
+          "type": "single_line_text_field",
+          "value": "DARK ROSE. SMOKE. WOODY DEPTH."
+        },
+        {
+          "namespace": "custom",
+          "key": "scent_description",
+          "type": "multi_line_text_field",
+          "value": "Discover DearBody Oud Mirage, a dark rose fragrance wrapped in smoky woody depth. A bold London-formulated scent from the DearBody Philippines collection."
+        },
+        {
+          "namespace": "custom",
+          "key": "bullet_1",
+          "type": "multi_line_text_field",
+          "value": "AFTER-HOURS PLANS\nTry it for a gallery opening, live music or an evening you want to dress for."
+        },
+        {
+          "namespace": "custom",
+          "key": "bullet_2",
+          "type": "multi_line_text_field",
+          "value": "LET SIMPLE PIECES SPEAK\nPair it with a black tee, an overshirt or understated tailoring."
+        },
+        {
+          "namespace": "custom",
+          "key": "bullet_3",
+          "type": "multi_line_text_field",
+          "value": "50 ML, EVERYDAY SIZE\nA bottle that fits neatly among your getting-ready essentials."
+        },
+        {
+          "namespace": "custom",
+          "key": "bullet_4",
+          "type": "multi_line_text_field",
+          "value": "BLUE THAT STANDS OUT\nVivid blue liquid in clear glass adds a distinctive detail to your shelf."
+        },
+        {
+          "namespace": "custom",
+          "key": "bullet_5",
+          "type": "multi_line_text_field",
+          "value": "PRESENTED IN BLUE\nA matching blue cylindrical canister completes the bottle for a considered gift."
+        },
+        {
+          "namespace": "custom",
+          "key": "scent_character",
+          "type": "list.single_line_text_field",
+          "value": "[\"Dark rose\", \"Smoky\", \"Woody\"]"
+        },
+        {
+          "namespace": "custom",
+          "key": "scent_finder_enabled",
+          "type": "boolean",
+          "value": "true"
+        },
+        {
+          "namespace": "custom",
+          "key": "top_notes",
+          "type": "list.single_line_text_field",
+          "value": [
+            "Saffron",
+            "Camphor",
+            "Galbanum"
+          ],
+          "source": "https://www.dearbody.com/news/dearbody-perfume-sharing-4/"
+        },
+        {
+          "namespace": "custom",
+          "key": "heart_notes",
+          "type": "list.single_line_text_field",
+          "value": [
+            "Oud",
+            "Rose",
+            "Lavender"
+          ],
+          "source": "https://www.dearbody.com/news/dearbody-perfume-sharing-4/"
+        },
+        {
+          "namespace": "custom",
+          "key": "base_notes",
+          "type": "list.single_line_text_field",
+          "value": [
+            "Papyrus",
+            "Civet",
+            "Amberwood"
+          ],
+          "source": "https://www.dearbody.com/news/dearbody-perfume-sharing-4/"
+        }
+      ]
+    },
+    {
+      "handle": "rtulle-satin",
+      "seo": {
+        "title": "DearBody Rtulle & Satin Perfume | Airy Sweet & Warm Fragrance",
+        "description": "Discover DearBody Rtulle & Satin, an airy sweet fragrance with a warm glowing trail. A soft, expressive London-formulated scent by DearBody Philippines."
+      },
+      "metafields": [
+        {
+          "namespace": "custom",
+          "key": "hero_statement",
+          "type": "single_line_text_field",
+          "value": "AIRY SWEETNESS. A WARM GLOWING TRAIL."
+        },
+        {
+          "namespace": "custom",
+          "key": "scent_description",
+          "type": "multi_line_text_field",
+          "value": "Discover DearBody Rtulle & Satin, an airy sweet fragrance with a warm glowing trail. A soft, expressive London-formulated scent by DearBody Philippines."
+        },
+        {
+          "namespace": "custom",
+          "key": "bullet_1",
+          "type": "multi_line_text_field",
+          "value": "FOR UNHURRIED PLANS\nConsider it for a relaxed weekend, a casual date or a leisurely lunch."
+        },
+        {
+          "namespace": "custom",
+          "key": "bullet_2",
+          "type": "multi_line_text_field",
+          "value": "YOUR EVERYDAY FAVOURITES\nTry it with a cotton tee, an open shirt or relaxed trousers."
+        },
+        {
+          "namespace": "custom",
+          "key": "bullet_3",
+          "type": "multi_line_text_field",
+          "value": "50 ML, EVERYDAY SIZE\nA bottle that fits neatly among your getting-ready essentials."
+        },
+        {
+          "namespace": "custom",
+          "key": "bullet_4",
+          "type": "multi_line_text_field",
+          "value": "A TURQUOISE ACCENT\nVivid turquoise liquid and a glossy black cap bring colour and contrast to clear glass."
+        },
+        {
+          "namespace": "custom",
+          "key": "bullet_5",
+          "type": "multi_line_text_field",
+          "value": "COLOUR FOR THE OCCASION\nThe turquoise presentation canister makes a bright choice for a birthday or thank-you gift."
+        },
+        {
+          "namespace": "custom",
+          "key": "scent_character",
+          "type": "list.single_line_text_field",
+          "value": "[\"Airy\", \"Sweet\", \"Warm\", \"Glowing\"]"
+        },
+        {
+          "namespace": "custom",
+          "key": "scent_finder_enabled",
+          "type": "boolean",
+          "value": "true"
+        }
+      ]
+    }
+  ],
+  "additional_source": "source-assets/official-site/verified-fragrance-notes.json"
+}

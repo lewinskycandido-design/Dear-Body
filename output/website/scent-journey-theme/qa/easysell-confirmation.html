@@ -1,0 +1,20 @@
+<div class="sj-cod-confirmation" style="box-sizing:border-box;width:100%;max-width:520px;margin:12px auto;padding:24px;background:#fbf2e6;color:#5c0006;border:2px solid #5c0006;border-radius:16px;box-shadow:5px 5px 0 #194acb;font-family:var(--font-body,'Helvetica Now Display','Helvetica Neue',Arial,sans-serif);font-size:16px;font-weight:400;line-height:1.5;text-align:left;overflow-wrap:anywhere;">
+  <p style="margin:0 0 18px;color:#5c0006;font-size:11px;font-weight:700;line-height:1.5;letter-spacing:0.16em;">DEARBODY PHILIPPINES</p>
+  <p aria-hidden="true" style="box-sizing:border-box;width:44px;height:44px;margin:0 0 16px;border:2px solid #194acb;border-radius:12px;background:#f7cd42;color:#194acb;font-family:Arial,sans-serif;font-size:28px;font-weight:700;line-height:40px;text-align:center;box-shadow:3px 3px 0 #9a1106;">✓</p>
+  <h2 style="margin:0 0 14px;color:#5c0006;font-family:var(--font-display,'Cenzo Flare Bold','Helvetica Neue',Arial,sans-serif);font-size:clamp(36px,8vw,52px);font-weight:700;line-height:1.05;letter-spacing:-0.025em;">Order placed!</h2>
+  <p style="margin:0 0 22px;color:#5c0006;">Thanks, {{customer.first_name}}. Your DearBody order is in.</p>
+  <div style="padding:16px 0;border-top:2px solid #9a1106;border-bottom:1px solid #c7a48b;">
+    <p style="margin:0 0 4px;color:#5c0006;font-size:11px;font-weight:700;letter-spacing:0.1em;">YOUR ORDER</p>
+    <p style="margin:0;color:#194acb;font-size:23px;font-weight:700;line-height:1.3;">{{order.number}}</p>
+  </div>
+  <div style="padding:16px 0;">
+    <p style="margin:0 0 8px;color:#5c0006;font-size:11px;font-weight:700;letter-spacing:0.1em;">YOUR SCENTS</p>
+    <div style="color:#5c0006;font-size:15px;line-height:1.6;overflow-wrap:anywhere;">{{order.products}}</div>
+  </div>
+  <div style="padding:16px;background:#f7cd42;color:#5c0006;border:1px solid #5c0006;border-radius:10px;">
+    <p style="margin:0 0 4px;color:#5c0006;font-size:11px;font-weight:700;letter-spacing:0.08em;">PAY ON DELIVERY</p>
+    <p style="margin:0 0 6px;color:#5c0006;font-size:28px;font-weight:700;line-height:1.2;">{{order.total}}</p>
+    <p style="margin:0;color:#5c0006;font-size:14px;line-height:1.5;">Pay in cash when your order arrives.</p>
+  </div>
+  <p style="margin:18px 0 0;color:#5c0006;font-size:13px;line-height:1.5;">Keep your order number handy. A little more you is on its way.</p>
+</div>

@@ -1,0 +1,56 @@
+{
+  "handle": "charme-envoutant",
+  "date": "2026-09-24",
+  "tool": "Built-in image_gen.imagegen",
+  "source_output_path": "/Users/wetrade/.codex/generated_images/01a0d0f9-88d3-7d82-84d9-c31b20b30821/exec-1af17f98-605d-4156-9e12-8ffcfbdeaef4.png",
+  "original_path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/campaign-v6-product-lifestyle/originals/sj-product-banner-charme-envoutant.png",
+  "original_dimensions": [
+    1774,
+    887
+  ],
+  "original_sha256": "42fcf78de84008f9b387d57831fab53b741fa87a4228a3bc64f98ca6ff5e82ca",
+  "web_path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/campaign-v6-product-lifestyle/final-web/sj-product-banner-charme-envoutant.jpg",
+  "web_dimensions": [
+    1774,
+    887
+  ],
+  "web_sha256": "96b69dde9ab99286190fd12c0bf787395d8b483084e11cb3c0a3fa045d2c9da7",
+  "web_bytes": 447855,
+  "prompts": [
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/campaign-v6-product-lifestyle/prompts/sj-product-banner-charme-envoutant.txt",
+      "text": "Use case: photorealistic-natural. Create one NEW product-detail LIFESTYLE header photograph for DearBody Philippines, replacing a still-life concept. Wide horizontal 2:1 banner; native1774 x 887 is suitable.\nReferences: image1 is the exact CHARME ENVOÛTANT product identity. Image2 is the canonical50ml bottle geometry only; never transfer its Sunset Cocktail name, liquid color, spray, hand or setting.\nEXACTLY ONE PERSON TOTAL in the entire frame: one charismatic adult Filipino man about29 with natural warm brown skin texture and a genuine welcoming smile. No other people or parts of people anywhere, including background, reflections, windows, posters, photographs or screens. No mirror. His friends are off-scene and NOT visible.\nEveryday Filipino scene: he is getting ready for a barkada meetup on an ordinary neighborhood house terrace, with a real cream-painted cement wall, simple grilled window at far right, matte cement floor, and a modest wood-and-rattan bench. Real attainable Metro Manila residential setting, coherent normal architecture and furniture; not a resort, tropical fantasy or palace. He wears a relaxed rust cotton/linen short-sleeved shirt. He smiles naturally while packing his canvas bag on the bench, tucking his capped Charme Envoûtant bottle into the bag: capture the instant just above the bag mouth so the bottle and label remain visible. One hand holds the bottle naturally, the other steadies the bag. Slight forward lean and candid everyday movement, not a static catalog pose.\nComposition is CRITICAL: single man and entire bottle interaction on the RIGHT between55–95% of frame width. Frame roughly hip/waist upward at natural medium distance. Face aroundx77%, upper third. Bench and canvas bag lower right. Left45% must be an ACTUAL QUIET WARM-CREAM CEMENT WALL (#F4E3CB), gently lit, with no person, props, doorway, signage or busy pattern; this is reserved for live website title text. Ground plane and wall must join plausibly.\nProduct: one bottle only, no duplicate and no canister required. Exact reference50ml tall straight cylindrical clear glass bottle, restrained shoulder, thick clear base, compact continuous glossy-black seated cap. Rich amber-orange liquid. Black rectangular front label with precise white “CHARME” above “ENVOÛTANT”, including circumflex onÛ, and original db PARFUM LONDON mark below. Thin visible silver collar belongs to bottle, not cap. Real palm-sized bottle approximately11cm tall, roughly half face height at equivalent distance, with a natural lower-body grip and fingers clear of the label. Preserve realistic hand-to-bottle scale, label perspective, contact and shadow.\nInviting late-afternoon DAYLIGHT, gently warm bronze highlights, healthy textured skin, tactile rust shirt, cream wall, genuine approachable fun energy. The location should be physically photographable and specifically feel like an ordinary Filipino home's terrace. No food or literal spice ingredients, no invented scent claims, no giant bottle, no floating bench, no incoherent railings, no dramatic cinematic gloom, no oversmoothed model skin. No headline, slogan, arrows, watermark or typography outside the authentic bottle label.\n"
+    }
+  ],
+  "references": [
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/theme/assets/sj-charme-envoutant-01.jpg",
+      "role": "Exact scent product identity",
+      "sha256": "71577a09a12d5cd30c225a3b97f262efd3532da6b97b3cb38311785eccb27e79"
+    },
+    {
+      "path": "/Users/wetrade/.codex/skills/dearbody-scent-gallery/assets/canonical-bottle-proportions.png",
+      "role": "Shared bottle geometry only",
+      "sha256": "e9a78f20b045b791e1ebd1795a340f1d0804e9f3be7fd06ef971fdc36ddc9399"
+    }
+  ],
+  "approved_copy_source": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/approved-product-copy.json",
+  "supersedes_unshipped_concept": "campaign-v5-product-banners",
+  "qa": {
+    "status": "PASS",
+    "scene": "One adult Filipino man on an ordinary neighborhood home terrace in a rust casual shirt, smiling while placing his capped fragrance into a canvas bag on a wood-and-rattan bench. Cream wall, grilled window and cement floor remain physically plausible.",
+    "single_person_total": 1,
+    "visible_adult_faces": 1,
+    "background_people_or_partial_bodies": 0,
+    "reflection_or_poster_people": 0,
+    "bottles": 1,
+    "product_identity": "Correct scent name, label color and PARFUM LONDON mark; authentic liquid tone, compact continuous black capped construction and canonical tall glass silhouette. Natural hand interaction and plausible palm-sized scale.",
+    "composition": "Native2:1 with person, face and bottle toward right and quiet real cream wall at left for live title. Full face and product label visible.",
+    "real_world_plausibility": "Coherent ordinary residential architecture, window, furniture and bag; natural hands, shadows and warm daylight. No fantasy set or impossible props.",
+    "promotional_text_baked_in": false,
+    "warm_fun_light": true,
+    "inspection": "Generated original individually viewed; final compressed JPEG checked separately.",
+    "revision": null,
+    "export": "Native1774×887 content preserved. sips JPEG quality86 conversion/compression only; no resizing, cropping, overlays or artificial raster edits."
+  }
+}

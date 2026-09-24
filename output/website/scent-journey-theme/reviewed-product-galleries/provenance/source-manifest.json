@@ -1,0 +1,1173 @@
+{
+  "reviewPage": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/GALLERY_REVIEW_2026-09-24.html",
+  "reviewPageSha256": "369f40a977ac07a607d888ecfacffcfdf60b56557c2aa00b213577920485908a",
+  "sourceRoot": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing",
+  "order": [
+    1,
+    11,
+    12,
+    8,
+    9,
+    5,
+    6,
+    7,
+    2,
+    3,
+    4,
+    10
+  ],
+  "files": [
+    {
+      "handle": "mojito-metallique",
+      "scent": "mojito-metallique",
+      "frame": 1,
+      "position": 1,
+      "src": "mojito-metallique/generated-v01/final/01-featured-packshot.png",
+      "alt": "Mojito Metallique \u2014 01 \u00b7 Main image",
+      "source": "mojito-metallique/generated-v01/final/01-featured-packshot.png",
+      "sha256": "0e3088de8e21fccd4ebb55c99f09894a20614a5b811f975e2b6c6ea8d9099000",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "RGB",
+      "icc": false
+    },
+    {
+      "handle": "mojito-metallique",
+      "scent": "mojito-metallique",
+      "frame": 11,
+      "position": 2,
+      "src": "mojito-metallique/generated-v01/final/11-scent-description-infographic.png",
+      "alt": "Mojito Metallique \u2014 02 \u00b7 Scent description",
+      "source": "mojito-metallique/generated-v01/final/11-scent-description-infographic.png",
+      "sha256": "d8df8ed38ea020873092b654e769c18fb489c947083aa0d71e493e577449e896",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "RGBA",
+      "icc": false
+    },
+    {
+      "handle": "mojito-metallique",
+      "scent": "mojito-metallique",
+      "frame": 12,
+      "position": 3,
+      "src": "mojito-metallique/generated-v01/final/12-who-it-fits-infographic.png?revision=amberhome20260924",
+      "alt": "Mojito Metallique \u2014 03 \u00b7 Who it fits",
+      "source": "mojito-metallique/generated-v01/final/12-who-it-fits-infographic.png",
+      "sha256": "c26c8e51f91dbf85dd57de9755cef162ee064a81fd2cbb069911d47b82606d3f",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "RGBA",
+      "icc": false
+    },
+    {
+      "handle": "mojito-metallique",
+      "scent": "mojito-metallique",
+      "frame": 8,
+      "position": 4,
+      "src": "mojito-metallique/generated-v01/final/08-product-profile-infographic.png",
+      "alt": "Mojito Metallique \u2014 04 \u00b7 Product profile",
+      "source": "mojito-metallique/generated-v01/final/08-product-profile-infographic.png",
+      "sha256": "870fce7ebfca5c40336cc3322a16f415467da698df6271f474b52b064a74d150",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "RGBA",
+      "icc": false
+    },
+    {
+      "handle": "mojito-metallique",
+      "scent": "mojito-metallique",
+      "frame": 9,
+      "position": 5,
+      "src": "mojito-metallique/generated-v01/final/09-ingredients-and-care-infographic.png",
+      "alt": "Mojito Metallique \u2014 05 \u00b7 Ingredients and care",
+      "source": "mojito-metallique/generated-v01/final/09-ingredients-and-care-infographic.png",
+      "sha256": "7b270fd6a94ed73a989715ebe19d9eda382ef56c0289e07706333143525324d8",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "RGBA",
+      "icc": false
+    },
+    {
+      "handle": "mojito-metallique",
+      "scent": "mojito-metallique",
+      "frame": 5,
+      "position": 6,
+      "src": "mojito-metallique/generated-v01/final/05-dance-studio-arrival-lifestyle.png",
+      "alt": "Mojito Metallique \u2014 06 \u00b7 Lifestyle hero",
+      "source": "mojito-metallique/generated-v01/final/05-dance-studio-arrival-lifestyle.png",
+      "sha256": "393a00c88535a7fe40bee5620e036b0b9bd87ccd7cc45c94818f62b2658cce61",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "RGB",
+      "icc": false
+    },
+    {
+      "handle": "mojito-metallique",
+      "scent": "mojito-metallique",
+      "frame": 6,
+      "position": 7,
+      "src": "mojito-metallique/generated-v01/final/06-dance-studio-handheld.png",
+      "alt": "Mojito Metallique \u2014 07 \u00b7 Product-in-hand lifestyle",
+      "source": "mojito-metallique/generated-v01/final/06-dance-studio-handheld.png",
+      "sha256": "6e1dc2e0d80e257941f8f1b4ccbf414437c22368028e2bdb098a16caa606a2f6",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "RGB",
+      "icc": false
+    },
+    {
+      "handle": "mojito-metallique",
+      "scent": "mojito-metallique",
+      "frame": 7,
+      "position": 8,
+      "src": "mojito-metallique/generated-v01/final/07-dance-studio-social.png",
+      "alt": "Mojito Metallique \u2014 08 \u00b7 Editorial lifestyle",
+      "source": "mojito-metallique/generated-v01/final/07-dance-studio-social.png",
+      "sha256": "d7525990bc299fd87d674b0ffe409e418264135efc315e7f13d46a2a004a230f",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "RGB",
+      "icc": false
+    },
+    {
+      "handle": "mojito-metallique",
+      "scent": "mojito-metallique",
+      "frame": 2,
+      "position": 9,
+      "src": "mojito-metallique/generated-v01/final/02-brand-hero.png",
+      "alt": "Mojito Metallique \u2014 09 \u00b7 Spray in motion",
+      "source": "mojito-metallique/generated-v01/final/02-brand-hero.png",
+      "sha256": "df29968f42def10b02bff60bbf0ce774c11ca011e2fb72184c73697710e7a7ae",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "RGB",
+      "icc": false
+    },
+    {
+      "handle": "mojito-metallique",
+      "scent": "mojito-metallique",
+      "frame": 3,
+      "position": 10,
+      "src": "mojito-metallique/generated-v01/final/03-packaging-reveal.png",
+      "alt": "Mojito Metallique \u2014 10 \u00b7 Packaging reveal",
+      "source": "mojito-metallique/generated-v01/final/03-packaging-reveal.png",
+      "sha256": "a781b6fcb1009f3a1a09b4e43c649e06af6684a5adf308fd91f57b5a4a39a39a",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "RGB",
+      "icc": false
+    },
+    {
+      "handle": "mojito-metallique",
+      "scent": "mojito-metallique",
+      "frame": 4,
+      "position": 11,
+      "src": "mojito-metallique/generated-v01/final/04-material-cap-detail.png",
+      "alt": "Mojito Metallique \u2014 11 \u00b7 Magnetic cap detail",
+      "source": "mojito-metallique/generated-v01/final/04-material-cap-detail.png",
+      "sha256": "339a969a9f38a9ebbc3c19a83c3ab546f149093a4e74c786d82f4c512acac2ee",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "RGB",
+      "icc": false
+    },
+    {
+      "handle": "mojito-metallique",
+      "scent": "mojito-metallique",
+      "frame": 10,
+      "position": 12,
+      "src": "mojito-metallique/generated-v01/final/10-closing-hero.png?revision=ea14c5752772",
+      "alt": "Mojito Metallique \u2014 12 \u00b7 Closing hero",
+      "source": "mojito-metallique/generated-v01/final/10-closing-hero.png",
+      "sha256": "ea14c5752772a6bd7a75b5b5866ab477bc11cad3f9cc28a198a29699e5b7bfeb",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "RGBA",
+      "icc": false
+    },
+    {
+      "handle": "amber-oud-silk",
+      "scent": "amber-oud-silk",
+      "frame": 1,
+      "position": 1,
+      "src": "amber-oud-silk/generated-v01/final/01-featured-packshot.png",
+      "alt": "Amber Oud Silk \u2014 01 \u00b7 Main image",
+      "source": "amber-oud-silk/generated-v01/final/01-featured-packshot.png",
+      "sha256": "2a79e6596c4ef8dc678d54b7ef52add0291e944db8c0759856e5988e2bc9e14b",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "RGB",
+      "icc": false
+    },
+    {
+      "handle": "amber-oud-silk",
+      "scent": "amber-oud-silk",
+      "frame": 11,
+      "position": 2,
+      "src": "amber-oud-silk/generated-v01/final/11-scent-description-infographic.png",
+      "alt": "Amber Oud Silk \u2014 02 \u00b7 Scent description",
+      "source": "amber-oud-silk/generated-v01/final/11-scent-description-infographic.png",
+      "sha256": "582b708b95e69d035fb9f6948a7bf767be3519a52817134fe312fc0a4ee23d77",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "RGBA",
+      "icc": false
+    },
+    {
+      "handle": "amber-oud-silk",
+      "scent": "amber-oud-silk",
+      "frame": 12,
+      "position": 3,
+      "src": "amber-oud-silk/generated-v01/final/12-who-it-fits-infographic.png?revision=amberhome20260924",
+      "alt": "Amber Oud Silk \u2014 03 \u00b7 Who it fits",
+      "source": "amber-oud-silk/generated-v01/final/12-who-it-fits-infographic.png",
+      "sha256": "d21643f043b5d968cef251b5e64f53f5bded3254f4c4588774c3d04eccadba0f",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "RGBA",
+      "icc": false
+    },
+    {
+      "handle": "amber-oud-silk",
+      "scent": "amber-oud-silk",
+      "frame": 8,
+      "position": 4,
+      "src": "amber-oud-silk/generated-v01/final/08-product-profile-infographic.png",
+      "alt": "Amber Oud Silk \u2014 04 \u00b7 Product profile",
+      "source": "amber-oud-silk/generated-v01/final/08-product-profile-infographic.png",
+      "sha256": "fe1fa423685b5a5545a57f2092c7fb5343f39c2c02aedd108aa0314716e59ba0",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "RGBA",
+      "icc": false
+    },
+    {
+      "handle": "amber-oud-silk",
+      "scent": "amber-oud-silk",
+      "frame": 9,
+      "position": 5,
+      "src": "amber-oud-silk/generated-v01/final/09-ingredients-and-care-infographic.png",
+      "alt": "Amber Oud Silk \u2014 05 \u00b7 Ingredients and care",
+      "source": "amber-oud-silk/generated-v01/final/09-ingredients-and-care-infographic.png",
+      "sha256": "7aab6f12617997fc176a245cb82ea131f3bea2ea6d79c314b436494bffba8a55",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "RGBA",
+      "icc": false
+    },
+    {
+      "handle": "amber-oud-silk",
+      "scent": "amber-oud-silk",
+      "frame": 5,
+      "position": 6,
+      "src": "amber-oud-silk/generated-v01/final/05-home-entry-lifestyle.png?revision=amberhome20260924",
+      "alt": "Amber Oud Silk \u2014 06 \u00b7 Lifestyle hero",
+      "source": "amber-oud-silk/generated-v01/final/05-home-entry-lifestyle.png",
+      "sha256": "20518e8ad0cf7c50ace56237d7eaad6870315bd26d3d59ee52da7547ee829514",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "RGBA",
+      "icc": false
+    },
+    {
+      "handle": "amber-oud-silk",
+      "scent": "amber-oud-silk",
+      "frame": 6,
+      "position": 7,
+      "src": "amber-oud-silk/generated-v01/final/06-home-handheld-detail.png?revision=amberhome20260924",
+      "alt": "Amber Oud Silk \u2014 07 \u00b7 Product-in-hand lifestyle",
+      "source": "amber-oud-silk/generated-v01/final/06-home-handheld-detail.png",
+      "sha256": "9dd26765e41227ea38b94aeddc8c251e490852c843f7f339d1e0196ae813fc59",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "RGBA",
+      "icc": false
+    },
+    {
+      "handle": "amber-oud-silk",
+      "scent": "amber-oud-silk",
+      "frame": 7,
+      "position": 8,
+      "src": "amber-oud-silk/generated-v01/final/07-entry-console-still-life.png?revision=amberhome20260924",
+      "alt": "Amber Oud Silk \u2014 08 \u00b7 Editorial lifestyle",
+      "source": "amber-oud-silk/generated-v01/final/07-entry-console-still-life.png",
+      "sha256": "7681288450d90b527cd57fdcdb6f52839b13dd3c65a60e92560cafdaf89612a5",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "RGBA",
+      "icc": false
+    },
+    {
+      "handle": "amber-oud-silk",
+      "scent": "amber-oud-silk",
+      "frame": 2,
+      "position": 9,
+      "src": "amber-oud-silk/generated-v01/final/02-brand-hero.png",
+      "alt": "Amber Oud Silk \u2014 09 \u00b7 Spray in motion",
+      "source": "amber-oud-silk/generated-v01/final/02-brand-hero.png",
+      "sha256": "b46f3e7b9b67574068286f826c260507a9b6903407c0e02c355541c3c8c81859",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "RGBA",
+      "icc": false
+    },
+    {
+      "handle": "amber-oud-silk",
+      "scent": "amber-oud-silk",
+      "frame": 3,
+      "position": 10,
+      "src": "amber-oud-silk/generated-v01/final/03-packaging-reveal.png",
+      "alt": "Amber Oud Silk \u2014 10 \u00b7 Packaging reveal",
+      "source": "amber-oud-silk/generated-v01/final/03-packaging-reveal.png",
+      "sha256": "a2af0cc05c85078740d3ffd7ef488a6cd226a602c96e468b04f0fc0518881243",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "RGBA",
+      "icc": false
+    },
+    {
+      "handle": "amber-oud-silk",
+      "scent": "amber-oud-silk",
+      "frame": 4,
+      "position": 11,
+      "src": "amber-oud-silk/generated-v01/final/04-material-cap-detail.png",
+      "alt": "Amber Oud Silk \u2014 11 \u00b7 Magnetic cap detail",
+      "source": "amber-oud-silk/generated-v01/final/04-material-cap-detail.png",
+      "sha256": "0f53dc861bd3d5eee72eec46794bba69c39755728b9bbe8dff2572e39cacd8fe",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "RGBA",
+      "icc": false
+    },
+    {
+      "handle": "amber-oud-silk",
+      "scent": "amber-oud-silk",
+      "frame": 10,
+      "position": 12,
+      "src": "amber-oud-silk/generated-v01/final/10-closing-hero.png?revision=e5160042ddbd",
+      "alt": "Amber Oud Silk \u2014 12 \u00b7 Closing hero",
+      "source": "amber-oud-silk/generated-v01/final/10-closing-hero.png",
+      "sha256": "e5160042ddbd23ac6af5ca6116fb51f9985aed8f70354803411ae766430dc571",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "RGBA",
+      "icc": false
+    },
+    {
+      "handle": "mistened-narcissus",
+      "scent": "mistened-narcissus",
+      "frame": 1,
+      "position": 1,
+      "src": "mistened-narcissus/generated-v01/final/01-featured-packshot.png",
+      "alt": "Mistened Narcissus \u2014 01 \u00b7 Main image",
+      "source": "mistened-narcissus/generated-v01/final/01-featured-packshot.png",
+      "sha256": "397a67c3c085b84fa36908a8008607c1d37b121ec78b333440de535ad2b337a0",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "RGB",
+      "icc": false
+    },
+    {
+      "handle": "mistened-narcissus",
+      "scent": "mistened-narcissus",
+      "frame": 11,
+      "position": 2,
+      "src": "mistened-narcissus/generated-v01/final/11-scent-description-infographic.png",
+      "alt": "Mistened Narcissus \u2014 02 \u00b7 Scent description",
+      "source": "mistened-narcissus/generated-v01/final/11-scent-description-infographic.png",
+      "sha256": "ab0f867b26681b293677d8b507a1a4f21541bbbfa2afe2303595e89bffd49c34",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "RGBA",
+      "icc": false
+    },
+    {
+      "handle": "mistened-narcissus",
+      "scent": "mistened-narcissus",
+      "frame": 12,
+      "position": 3,
+      "src": "mistened-narcissus/generated-v01/final/12-who-it-fits-infographic.png?revision=amberhome20260924",
+      "alt": "Mistened Narcissus \u2014 03 \u00b7 Who it fits",
+      "source": "mistened-narcissus/generated-v01/final/12-who-it-fits-infographic.png",
+      "sha256": "f353f853d302cd49614d5cb5da1bd2c24cc1688f4d5e00a92011e30e59a7383c",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "RGBA",
+      "icc": false
+    },
+    {
+      "handle": "mistened-narcissus",
+      "scent": "mistened-narcissus",
+      "frame": 8,
+      "position": 4,
+      "src": "mistened-narcissus/generated-v01/final/08-product-profile-infographic.png",
+      "alt": "Mistened Narcissus \u2014 04 \u00b7 Product profile",
+      "source": "mistened-narcissus/generated-v01/final/08-product-profile-infographic.png",
+      "sha256": "e944a89b8aca6cf0dfffa6620a5582142f4650bc487c9daa64f52b3384ed852d",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "RGBA",
+      "icc": false
+    },
+    {
+      "handle": "mistened-narcissus",
+      "scent": "mistened-narcissus",
+      "frame": 9,
+      "position": 5,
+      "src": "mistened-narcissus/generated-v01/final/09-ingredients-and-care-infographic.png",
+      "alt": "Mistened Narcissus \u2014 05 \u00b7 Ingredients and care",
+      "source": "mistened-narcissus/generated-v01/final/09-ingredients-and-care-infographic.png",
+      "sha256": "d959978759d02019ba8ae34916dbfd2c32ef56b891254b2e56ba776587d06d1b",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "RGBA",
+      "icc": false
+    },
+    {
+      "handle": "mistened-narcissus",
+      "scent": "mistened-narcissus",
+      "frame": 5,
+      "position": 6,
+      "src": "mistened-narcissus/generated-v01/final/05-roller-rink-arrival-lifestyle.png?revision=fc02fbf2a3b5",
+      "alt": "Mistened Narcissus \u2014 06 \u00b7 Lifestyle hero",
+      "source": "mistened-narcissus/generated-v01/final/05-roller-rink-arrival-lifestyle.png",
+      "sha256": "fc02fbf2a3b58722d87ddc4a5f8f32ad7cea3616a685726c7faaf5f96d0784a6",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "RGBA",
+      "icc": false
+    },
+    {
+      "handle": "mistened-narcissus",
+      "scent": "mistened-narcissus",
+      "frame": 6,
+      "position": 7,
+      "src": "mistened-narcissus/generated-v01/final/06-roller-rink-handheld.png?revision=72be03ccd819",
+      "alt": "Mistened Narcissus \u2014 07 \u00b7 Product-in-hand lifestyle",
+      "source": "mistened-narcissus/generated-v01/final/06-roller-rink-handheld.png",
+      "sha256": "72be03ccd819505383eca059356e6d684a9649fd94a4c902844f57ee4e6052e0",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "RGBA",
+      "icc": false
+    },
+    {
+      "handle": "mistened-narcissus",
+      "scent": "mistened-narcissus",
+      "frame": 7,
+      "position": 8,
+      "src": "mistened-narcissus/generated-v01/final/07-roller-rink-social.png",
+      "alt": "Mistened Narcissus \u2014 08 \u00b7 Editorial lifestyle",
+      "source": "mistened-narcissus/generated-v01/final/07-roller-rink-social.png",
+      "sha256": "c70d4888d5f4a5c9e6c4b13aef96aa69e82027c3a2a3b51aac85fc5c958e26b8",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "RGB",
+      "icc": false
+    },
+    {
+      "handle": "mistened-narcissus",
+      "scent": "mistened-narcissus",
+      "frame": 2,
+      "position": 9,
+      "src": "mistened-narcissus/generated-v01/final/02-brand-hero.png",
+      "alt": "Mistened Narcissus \u2014 09 \u00b7 Spray in motion",
+      "source": "mistened-narcissus/generated-v01/final/02-brand-hero.png",
+      "sha256": "82807d6353413c216260311cbb46de1747b70d50652fcfe133d91e349d9589f7",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "RGB",
+      "icc": false
+    },
+    {
+      "handle": "mistened-narcissus",
+      "scent": "mistened-narcissus",
+      "frame": 3,
+      "position": 10,
+      "src": "mistened-narcissus/generated-v01/final/03-packaging-reveal.png",
+      "alt": "Mistened Narcissus \u2014 10 \u00b7 Packaging reveal",
+      "source": "mistened-narcissus/generated-v01/final/03-packaging-reveal.png",
+      "sha256": "d0ab491b1bddb44f3aa9f531a655ca53a8b0464926176ad98bc48814f292ff63",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "RGB",
+      "icc": false
+    },
+    {
+      "handle": "mistened-narcissus",
+      "scent": "mistened-narcissus",
+      "frame": 4,
+      "position": 11,
+      "src": "mistened-narcissus/generated-v01/final/04-material-cap-detail.png",
+      "alt": "Mistened Narcissus \u2014 11 \u00b7 Magnetic cap detail",
+      "source": "mistened-narcissus/generated-v01/final/04-material-cap-detail.png",
+      "sha256": "711fe16deda8f631e1491df7f5e689c7a4cfcdc7a4d4a237bdd2b68a62018155",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "RGB",
+      "icc": false
+    },
+    {
+      "handle": "mistened-narcissus",
+      "scent": "mistened-narcissus",
+      "frame": 10,
+      "position": 12,
+      "src": "mistened-narcissus/generated-v01/final/10-closing-hero.png?revision=c2c57ed11638",
+      "alt": "Mistened Narcissus \u2014 12 \u00b7 Closing hero",
+      "source": "mistened-narcissus/generated-v01/final/10-closing-hero.png",
+      "sha256": "c2c57ed11638a8a67a14b28ea34b719c9150a781498ef36e61c7f8d6b7586697",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "RGBA",
+      "icc": false
+    },
+    {
+      "handle": "charme-envoutant",
+      "scent": "charme-envoutant",
+      "frame": 1,
+      "position": 1,
+      "src": "charme-envoutant/generated-v01/final/01-featured-packshot.png",
+      "alt": "Charme Envo\u00fbtant \u2014 01 \u00b7 Main image",
+      "source": "charme-envoutant/generated-v01/final/01-featured-packshot.png",
+      "sha256": "e5b8a151f4fc0e9f1b71b6b112f8b94c2bc2d59ac8230c496e73005f5c2a20cc",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "RGB",
+      "icc": false
+    },
+    {
+      "handle": "charme-envoutant",
+      "scent": "charme-envoutant",
+      "frame": 11,
+      "position": 2,
+      "src": "charme-envoutant/generated-v01/final/11-scent-description-infographic.png",
+      "alt": "Charme Envo\u00fbtant \u2014 02 \u00b7 Scent description",
+      "source": "charme-envoutant/generated-v01/final/11-scent-description-infographic.png",
+      "sha256": "81a6c6c860e581a2e4af4f852500d592e5b733fdd4d9957d99d4170670e224f1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "RGBA",
+      "icc": false
+    },
+    {
+      "handle": "charme-envoutant",
+      "scent": "charme-envoutant",
+      "frame": 12,
+      "position": 3,
+      "src": "charme-envoutant/generated-v01/final/12-who-it-fits-infographic.png?revision=amberhome20260924",
+      "alt": "Charme Envo\u00fbtant \u2014 03 \u00b7 Who it fits",
+      "source": "charme-envoutant/generated-v01/final/12-who-it-fits-infographic.png",
+      "sha256": "bcd6e95f3e0f4bf06e5b82fff1819f0e7b0cb259c3642b1d24256bc351646ae1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "RGBA",
+      "icc": false
+    },
+    {
+      "handle": "charme-envoutant",
+      "scent": "charme-envoutant",
+      "frame": 8,
+      "position": 4,
+      "src": "charme-envoutant/generated-v01/final/08-product-profile-infographic.png",
+      "alt": "Charme Envo\u00fbtant \u2014 04 \u00b7 Product profile",
+      "source": "charme-envoutant/generated-v01/final/08-product-profile-infographic.png",
+      "sha256": "3b9a9d68b72f91b4039add1e9ce3b5f818d567d3e2fd40ac535419a6f3ee1f53",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "RGBA",
+      "icc": false
+    },
+    {
+      "handle": "charme-envoutant",
+      "scent": "charme-envoutant",
+      "frame": 9,
+      "position": 5,
+      "src": "charme-envoutant/generated-v01/final/09-ingredients-and-care-infographic.png",
+      "alt": "Charme Envo\u00fbtant \u2014 05 \u00b7 Ingredients and care",
+      "source": "charme-envoutant/generated-v01/final/09-ingredients-and-care-infographic.png",
+      "sha256": "be9d62d173d3a18f6728b8222b2b7233aa1027222d8396e238daa7e8ddf29f50",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "RGBA",
+      "icc": false
+    },
+    {
+      "handle": "charme-envoutant",
+      "scent": "charme-envoutant",
+      "frame": 5,
+      "position": 6,
+      "src": "charme-envoutant/generated-v01/final/05-mens-red-convertible.png",
+      "alt": "Charme Envo\u00fbtant \u2014 06 \u00b7 Lifestyle hero",
+      "source": "charme-envoutant/generated-v01/final/05-mens-red-convertible.png",
+      "sha256": "0a51be7bf201552df5d0865ece614a52a1f283e3af200427cd283f33cf800535",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "RGBA",
+      "icc": false
+    },
+    {
+      "handle": "charme-envoutant",
+      "scent": "charme-envoutant",
+      "frame": 6,
+      "position": 7,
+      "src": "charme-envoutant/generated-v01/final/06-mens-tropical-handheld.png",
+      "alt": "Charme Envo\u00fbtant \u2014 07 \u00b7 Product-in-hand lifestyle",
+      "source": "charme-envoutant/generated-v01/final/06-mens-tropical-handheld.png",
+      "sha256": "33b6c0247d6bf955136f41025915b57b0452e7f1623e557618a9e26dd09517e3",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "RGB",
+      "icc": false
+    },
+    {
+      "handle": "charme-envoutant",
+      "scent": "charme-envoutant",
+      "frame": 7,
+      "position": 8,
+      "src": "charme-envoutant/generated-v01/final/07-mens-social-lifestyle.png",
+      "alt": "Charme Envo\u00fbtant \u2014 08 \u00b7 Editorial lifestyle",
+      "source": "charme-envoutant/generated-v01/final/07-mens-social-lifestyle.png",
+      "sha256": "d7602887c78d5e21836f5b16309417c251cc39766a29f77adb42920b11261c45",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "RGB",
+      "icc": false
+    },
+    {
+      "handle": "charme-envoutant",
+      "scent": "charme-envoutant",
+      "frame": 2,
+      "position": 9,
+      "src": "charme-envoutant/generated-v01/final/02-brand-hero.png",
+      "alt": "Charme Envo\u00fbtant \u2014 09 \u00b7 Spray in motion",
+      "source": "charme-envoutant/generated-v01/final/02-brand-hero.png",
+      "sha256": "18dc1e32b4e51b92fd37aea1df370396e417217e28e6c09205a9977c02a083a0",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "RGBA",
+      "icc": false
+    },
+    {
+      "handle": "charme-envoutant",
+      "scent": "charme-envoutant",
+      "frame": 3,
+      "position": 10,
+      "src": "charme-envoutant/generated-v01/final/03-packaging-reveal.png",
+      "alt": "Charme Envo\u00fbtant \u2014 10 \u00b7 Packaging reveal",
+      "source": "charme-envoutant/generated-v01/final/03-packaging-reveal.png",
+      "sha256": "b462e4db2e8e1d1280a11a256808d2e63a45454b8ab9aca1de50eb4d14c67f86",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "RGB",
+      "icc": false
+    },
+    {
+      "handle": "charme-envoutant",
+      "scent": "charme-envoutant",
+      "frame": 4,
+      "position": 11,
+      "src": "charme-envoutant/generated-v01/final/04-material-cap-detail.png",
+      "alt": "Charme Envo\u00fbtant \u2014 11 \u00b7 Magnetic cap detail",
+      "source": "charme-envoutant/generated-v01/final/04-material-cap-detail.png",
+      "sha256": "f43d6ded23f955572585ad5aa1145faaa6d4177ef7ed0dc3932e5a13bf71dea1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "RGB",
+      "icc": false
+    },
+    {
+      "handle": "charme-envoutant",
+      "scent": "charme-envoutant",
+      "frame": 10,
+      "position": 12,
+      "src": "charme-envoutant/generated-v01/final/10-closing-hero.png?revision=1e25c86e51da",
+      "alt": "Charme Envo\u00fbtant \u2014 12 \u00b7 Closing hero",
+      "source": "charme-envoutant/generated-v01/final/10-closing-hero.png",
+      "sha256": "1e25c86e51dacc6adeda4bc11a4231f381268fbe0e7ab99fa9e3866358fff90f",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "RGBA",
+      "icc": false
+    },
+    {
+      "handle": "oud-mirage",
+      "scent": "oud-mirage",
+      "frame": 1,
+      "position": 1,
+      "src": "oud-mirage/generated-v01/final/01-featured-packshot.png",
+      "alt": "Oud Mirage \u2014 01 \u00b7 Main image",
+      "source": "oud-mirage/generated-v01/final/01-featured-packshot.png",
+      "sha256": "4e67cd95035aa7d75cb29c24ac5f9bad6605e7526155feba93c2548e5aeed04e",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "RGBA",
+      "icc": true
+    },
+    {
+      "handle": "oud-mirage",
+      "scent": "oud-mirage",
+      "frame": 11,
+      "position": 2,
+      "src": "oud-mirage/generated-v01/final/11-scent-description-infographic.png",
+      "alt": "Oud Mirage \u2014 02 \u00b7 Scent description",
+      "source": "oud-mirage/generated-v01/final/11-scent-description-infographic.png",
+      "sha256": "87e1b947d63567a90e476007c8b8bf21f5cdb214a22fc4ea7112debdf8f59be4",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "RGBA",
+      "icc": false
+    },
+    {
+      "handle": "oud-mirage",
+      "scent": "oud-mirage",
+      "frame": 12,
+      "position": 3,
+      "src": "oud-mirage/generated-v01/final/12-who-it-fits-infographic.png?revision=amberhome20260924",
+      "alt": "Oud Mirage \u2014 03 \u00b7 Who it fits",
+      "source": "oud-mirage/generated-v01/final/12-who-it-fits-infographic.png",
+      "sha256": "abf3a60473e0fcca298fbec8ee2063dad6b5ed9784e3c1551ef04bb16bc825f0",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "RGBA",
+      "icc": false
+    },
+    {
+      "handle": "oud-mirage",
+      "scent": "oud-mirage",
+      "frame": 8,
+      "position": 4,
+      "src": "oud-mirage/generated-v01/final/08-product-profile-infographic.png",
+      "alt": "Oud Mirage \u2014 04 \u00b7 Product profile",
+      "source": "oud-mirage/generated-v01/final/08-product-profile-infographic.png",
+      "sha256": "ef3ecde84fb09c178f270927b465c704a436c8eaa464c2d47bad577be75d22ca",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "RGBA",
+      "icc": false
+    },
+    {
+      "handle": "oud-mirage",
+      "scent": "oud-mirage",
+      "frame": 9,
+      "position": 5,
+      "src": "oud-mirage/generated-v01/final/09-ingredients-and-care-infographic.png",
+      "alt": "Oud Mirage \u2014 05 \u00b7 Ingredients and care",
+      "source": "oud-mirage/generated-v01/final/09-ingredients-and-care-infographic.png",
+      "sha256": "c15e8543384b26e28bd36096bfde2c00bf4de4044fc06528365dafff5657cf4c",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "RGBA",
+      "icc": false
+    },
+    {
+      "handle": "oud-mirage",
+      "scent": "oud-mirage",
+      "frame": 5,
+      "position": 6,
+      "src": "oud-mirage/generated-v01/final/05-weekend-park-lifestyle.png",
+      "alt": "Oud Mirage \u2014 06 \u00b7 Lifestyle hero",
+      "source": "oud-mirage/generated-v01/final/05-weekend-park-lifestyle.png",
+      "sha256": "0fdc731f1bb6e2359aa5404eb2621c260aeb90bcb6ffd54897409980d95a9a25",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "RGBA",
+      "icc": false
+    },
+    {
+      "handle": "oud-mirage",
+      "scent": "oud-mirage",
+      "frame": 6,
+      "position": 7,
+      "src": "oud-mirage/generated-v01/final/06-bicycle-bag-handheld.png",
+      "alt": "Oud Mirage \u2014 07 \u00b7 Product-in-hand lifestyle",
+      "source": "oud-mirage/generated-v01/final/06-bicycle-bag-handheld.png",
+      "sha256": "a7cd36720470daa91db56c9d683899d9f1afc0a4629dc1f7aa77d557b4ef0822",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "RGB",
+      "icc": false
+    },
+    {
+      "handle": "oud-mirage",
+      "scent": "oud-mirage",
+      "frame": 7,
+      "position": 8,
+      "src": "oud-mirage/generated-v01/final/07-park-picnic-still-life.png",
+      "alt": "Oud Mirage \u2014 08 \u00b7 Editorial lifestyle",
+      "source": "oud-mirage/generated-v01/final/07-park-picnic-still-life.png",
+      "sha256": "7036ab193e711c296e9dfdfcf610c962fac0aab9fb01b8b28536682fdffcab50",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "RGB",
+      "icc": false
+    },
+    {
+      "handle": "oud-mirage",
+      "scent": "oud-mirage",
+      "frame": 2,
+      "position": 9,
+      "src": "oud-mirage/generated-v01/final/02-brand-hero.png",
+      "alt": "Oud Mirage \u2014 09 \u00b7 Spray in motion",
+      "source": "oud-mirage/generated-v01/final/02-brand-hero.png",
+      "sha256": "db9018faa6619414d7e34f5a50dc8e2de03c3ac64240c02c3b9ed5a3883473df",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "RGB",
+      "icc": false
+    },
+    {
+      "handle": "oud-mirage",
+      "scent": "oud-mirage",
+      "frame": 3,
+      "position": 10,
+      "src": "oud-mirage/generated-v01/final/03-packaging-reveal.png",
+      "alt": "Oud Mirage \u2014 10 \u00b7 Packaging reveal",
+      "source": "oud-mirage/generated-v01/final/03-packaging-reveal.png",
+      "sha256": "67dd43b650ea04806dd9343ff114d8bf56e219a9a5442e2bf1f5eda776b23557",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "RGBA",
+      "icc": false
+    },
+    {
+      "handle": "oud-mirage",
+      "scent": "oud-mirage",
+      "frame": 4,
+      "position": 11,
+      "src": "oud-mirage/generated-v01/final/04-material-cap-detail.png",
+      "alt": "Oud Mirage \u2014 11 \u00b7 Magnetic cap detail",
+      "source": "oud-mirage/generated-v01/final/04-material-cap-detail.png",
+      "sha256": "4c7755038aacffaed74603ca0c5af12fc52def30e70714ae57c7e5be75dfeb7e",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "RGBA",
+      "icc": false
+    },
+    {
+      "handle": "oud-mirage",
+      "scent": "oud-mirage",
+      "frame": 10,
+      "position": 12,
+      "src": "oud-mirage/generated-v01/final/10-closing-hero.png?revision=c0958a7bbdba",
+      "alt": "Oud Mirage \u2014 12 \u00b7 Closing hero",
+      "source": "oud-mirage/generated-v01/final/10-closing-hero.png",
+      "sha256": "c0958a7bbdbad309f0eee3ea3a34d4fffa335d8bbddb3d59df211bc100982659",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "RGBA",
+      "icc": false
+    },
+    {
+      "handle": "rtulle-satin",
+      "scent": "rtulle-and-satin",
+      "frame": 1,
+      "position": 1,
+      "src": "rtulle-and-satin/generated-v01/final/01-featured-packshot.png",
+      "alt": "Rtulle & Satin \u2014 01 \u00b7 Main image",
+      "source": "rtulle-and-satin/generated-v01/final/01-featured-packshot.png",
+      "sha256": "dce23b1a708c038d090cdb43eb4adfb05fe872ed69124f161edf580ea55a3c01",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "RGB",
+      "icc": false
+    },
+    {
+      "handle": "rtulle-satin",
+      "scent": "rtulle-and-satin",
+      "frame": 11,
+      "position": 2,
+      "src": "rtulle-and-satin/generated-v01/final/11-scent-description-infographic.png",
+      "alt": "Rtulle & Satin \u2014 02 \u00b7 Scent description",
+      "source": "rtulle-and-satin/generated-v01/final/11-scent-description-infographic.png",
+      "sha256": "594480b353c6f5d02c9158b0f4c61f8019dba1994b098f6331d353c06fcc9fb9",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "RGBA",
+      "icc": false
+    },
+    {
+      "handle": "rtulle-satin",
+      "scent": "rtulle-and-satin",
+      "frame": 12,
+      "position": 3,
+      "src": "rtulle-and-satin/generated-v01/final/12-who-it-fits-infographic.png?revision=amberhome20260924",
+      "alt": "Rtulle & Satin \u2014 03 \u00b7 Who it fits",
+      "source": "rtulle-and-satin/generated-v01/final/12-who-it-fits-infographic.png",
+      "sha256": "fc7457d539161d78fca54a44175bac7e9f07efd95ae2ad47e67c463119de96da",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "RGBA",
+      "icc": false
+    },
+    {
+      "handle": "rtulle-satin",
+      "scent": "rtulle-and-satin",
+      "frame": 8,
+      "position": 4,
+      "src": "rtulle-and-satin/generated-v01/final/08-product-profile-infographic.png",
+      "alt": "Rtulle & Satin \u2014 04 \u00b7 Product profile",
+      "source": "rtulle-and-satin/generated-v01/final/08-product-profile-infographic.png",
+      "sha256": "c996c728b75dc0efc2b0d44777b220388008370667e3e03a7efb94ab8bec5675",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "RGBA",
+      "icc": false
+    },
+    {
+      "handle": "rtulle-satin",
+      "scent": "rtulle-and-satin",
+      "frame": 9,
+      "position": 5,
+      "src": "rtulle-and-satin/generated-v01/final/09-ingredients-and-care-infographic.png",
+      "alt": "Rtulle & Satin \u2014 05 \u00b7 Ingredients and care",
+      "source": "rtulle-and-satin/generated-v01/final/09-ingredients-and-care-infographic.png",
+      "sha256": "3728bb3561521b86101baf09360ebb910c44c6a632924296cf555abfb97a281f",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "RGBA",
+      "icc": false
+    },
+    {
+      "handle": "rtulle-satin",
+      "scent": "rtulle-and-satin",
+      "frame": 5,
+      "position": 6,
+      "src": "rtulle-and-satin/generated-v01/final/05-pottery-cafe-lifestyle.png",
+      "alt": "Rtulle & Satin \u2014 06 \u00b7 Lifestyle hero",
+      "source": "rtulle-and-satin/generated-v01/final/05-pottery-cafe-lifestyle.png",
+      "sha256": "0e5f8a104a4d4f50d652fa668c108191908615f5a107659d6c8130fcd2189240",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "RGBA",
+      "icc": false
+    },
+    {
+      "handle": "rtulle-satin",
+      "scent": "rtulle-and-satin",
+      "frame": 6,
+      "position": 7,
+      "src": "rtulle-and-satin/generated-v01/final/06-pottery-tote-handheld.png",
+      "alt": "Rtulle & Satin \u2014 07 \u00b7 Product-in-hand lifestyle",
+      "source": "rtulle-and-satin/generated-v01/final/06-pottery-tote-handheld.png",
+      "sha256": "c4806d0ee311fa525c958175e4565c8625a633b3fbaa2f7115d586c848115045",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "RGB",
+      "icc": false
+    },
+    {
+      "handle": "rtulle-satin",
+      "scent": "rtulle-and-satin",
+      "frame": 7,
+      "position": 8,
+      "src": "rtulle-and-satin/generated-v01/final/07-pottery-cafe-still-life.png",
+      "alt": "Rtulle & Satin \u2014 08 \u00b7 Editorial lifestyle",
+      "source": "rtulle-and-satin/generated-v01/final/07-pottery-cafe-still-life.png",
+      "sha256": "174b721cfd6fcf86f0154de2805da21fd1e53f82e2a9118ac7c2b2748002b3d3",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "RGB",
+      "icc": false
+    },
+    {
+      "handle": "rtulle-satin",
+      "scent": "rtulle-and-satin",
+      "frame": 2,
+      "position": 9,
+      "src": "rtulle-and-satin/generated-v01/final/02-brand-hero.png",
+      "alt": "Rtulle & Satin \u2014 09 \u00b7 Spray in motion",
+      "source": "rtulle-and-satin/generated-v01/final/02-brand-hero.png",
+      "sha256": "3d9bf82ef551ffb75628519267cce6fa23f74b1086487aa52c6c834e20e157ef",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "RGBA",
+      "icc": false
+    },
+    {
+      "handle": "rtulle-satin",
+      "scent": "rtulle-and-satin",
+      "frame": 3,
+      "position": 10,
+      "src": "rtulle-and-satin/generated-v01/final/03-packaging-reveal.png",
+      "alt": "Rtulle & Satin \u2014 10 \u00b7 Packaging reveal",
+      "source": "rtulle-and-satin/generated-v01/final/03-packaging-reveal.png",
+      "sha256": "a333eefe902f0ac02b914f9c640cf0c138adae298dd654257bdadc4f52f7511b",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "RGBA",
+      "icc": false
+    },
+    {
+      "handle": "rtulle-satin",
+      "scent": "rtulle-and-satin",
+      "frame": 4,
+      "position": 11,
+      "src": "rtulle-and-satin/generated-v01/final/04-material-cap-detail.png",
+      "alt": "Rtulle & Satin \u2014 11 \u00b7 Magnetic cap detail",
+      "source": "rtulle-and-satin/generated-v01/final/04-material-cap-detail.png",
+      "sha256": "47c2db9ce5233619a190e1b3e128bdad9b92e86b60beaab6057472cfd2042b6c",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "RGB",
+      "icc": false
+    },
+    {
+      "handle": "rtulle-satin",
+      "scent": "rtulle-and-satin",
+      "frame": 10,
+      "position": 12,
+      "src": "rtulle-and-satin/generated-v01/final/10-closing-hero.png?revision=0f494eccd769",
+      "alt": "Rtulle & Satin \u2014 12 \u00b7 Closing hero",
+      "source": "rtulle-and-satin/generated-v01/final/10-closing-hero.png",
+      "sha256": "0f494eccd76937b05488d5ee6a90a7fa6404f9cefc0f70922601a774d4585812",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "RGBA",
+      "icc": false
+    }
+  ]
+}

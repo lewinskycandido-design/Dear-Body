@@ -1,5 +1,0 @@
-interface:
-  display_name: "DearBody Scent Gallery"
-  short_description: "Generate and iteratively QA scent galleries"
-  brand_color: "#9A1106"
-  default_prompt: "Use $dearbody-scent-gallery to create and fully QA a 10-image gallery for this DearBody scent."

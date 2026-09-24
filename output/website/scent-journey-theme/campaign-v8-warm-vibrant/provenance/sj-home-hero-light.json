@@ -1,0 +1,61 @@
+{
+  "asset": "sj-home-hero-light",
+  "status": "accepted_for_root_integration",
+  "createdAt": "2026-09-24T05:13:03.185808+00:00",
+  "tool": "built-in image_gen; one call per asset or targeted revision",
+  "sourceOutputPath": "/Users/wetrade/.codex/generated_images/01a0d0f9-afdf-7412-a990-cf7a45f1c2b6/exec-86d08ea5-7b2b-4bcf-9144-d31298b772e1.png",
+  "originalPath": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/campaign-v8-warm-vibrant/originals/sj-home-hero-light.png",
+  "webPath": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/campaign-v8-warm-vibrant/final-web/sj-home-hero-light.jpg",
+  "sourceDimensions": [
+    1774,
+    887
+  ],
+  "webDimensions": [
+    1774,
+    887
+  ],
+  "originalSha256": "aa5e153298a7e08f9fc81379b4739ca8f6019e733ce2fea152f5e4644bfc789f",
+  "webSha256": "69ff6c3237228857791c24a0e98b8e2a663d4be11051525e6011b3389ad2c9df",
+  "webBytes": 305258,
+  "conversion": {
+    "tool": "sips",
+    "format": "JPEG",
+    "quality": 91,
+    "resized": false,
+    "cropped": false,
+    "retouched": false,
+    "profileRequested": "sRGB IEC61966-2.1",
+    "sipsProfileReport": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/campaign-v8-warm-vibrant/final-web/sj-home-hero-light.jpg\n  profile: sRGB IEC61966-2.1\n  space: RGB",
+    "exifColorSpace": 1,
+    "embeddedIccByteCount": 0
+  },
+  "prompts": [
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/campaign-v8-warm-vibrant/prompts/sj-home-hero-light.txt",
+      "text": "Use case: photorealistic-natural. Asset type: DearBody Philippines website homepage photographic banner, native landscape 2:1, approximately 1774x887.\nCreate a completely new, beautifully photographed real-world candid moment: exactly one adult Filipina and one adult Filipino man, both in their twenties or thirties, laughing together mid-step on a sunny ordinary Philippine neighborhood courtyard walkway. Their personalities feel cheerful, approachable and spontaneous, like a lively social-video still. Stylish attainable everyday clothing: her apricot cotton top with a rich warm-red open overshirt, his cream knit shirt with a small burnt-orange clothing accent. Natural diverse Filipino skin texture, realistic relaxed gestures, normal proportions and hands.\nThe physical courtyard has warm cream plaster, a coral-orange wall return on the far right, leafy tropical plant shadows, practical local steel-framed windows and a simple tiled walkway. No grand resort, no fantasy architecture. Bright clear daylight with warm reflected light, fresh open shadows and lively warm color; not beige-muted, sepia, sunset or gloomy.\nComposition is essential: large actual quiet cream wall across the LEFT 45% for live website text. Keep BOTH people together in the RIGHT 60\u201390% region. Their full heads should be comfortably inside approximately x64\u201386%, faces centered around x70% and x81%; heads have 14\u201315% clear image-height headroom and faces are above y43%. Heads are close enough that a narrow portrait crop focused on x77% keeps both full faces. Capture complete upper bodies and natural arms; do not enlarge faces to the frame edges. They share a playful step and laugh, not a catalog pose, with hands comfortably separated and naturally visible.\nWarm dominant DearBody palette: soft cream #f4e3cb, burgundy #5c0006, warm red #9a1106, burnt orange #d46601 and golden tan #e9a250, expressed in believable paint, clothes and light. Photograph only, natural lens perspective and tactile detail.\nNO bottles, products, packaging, typography, signage, logos or watermarks. Exactly two people TOTAL; no background people, partial people, reflected people, printed faces or posters. No visual collage, frame, fake bokeh shapes or artificial graphic overlays.\n",
+      "sha256": "cf5016db2880ed7abfb53ca69509faf358838699d4924f22a23f826c09c968fe"
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/campaign-v8-warm-vibrant/prompts/sj-home-hero-light-framing-revision.txt",
+      "text": "Use case: identity-preserve / precise composition edit. Edit the supplied photograph only to improve banner framing. Preserve these exact two Filipino adults, their joyful natural expressions, realistic hands, clothes, sunny courtyard, lively daylight and photographic texture. Keep the exact 2:1 wide frame. Move the camera back approximately 25 percent so both people are visibly smaller, and position the pair farther to the right: the woman's face near x70% and man's near x81%. Both COMPLETE heads/hair must now have a clear 14\u201315% image-height margin above them, neither head closer than 12% to the top. Both full faces and hair should stay inside x63\u201387%; keep the upper bodies comfortably in frame. The left 45% remains real quiet cream plaster wall for live website copy. Extend only the same plausible courtyard/background as needed to accomplish this wider composition; no borders, pasted framing, duplicate people or exaggerated anatomy. Exactly two people total; no new props, no bottles, no words or logos. The image must remain bright, warm, fun and naturally candid.\n",
+      "sha256": "961d622bdbb30f96f2703836559d9d82cc1d46713c6b0934a8e12ea861f43e49"
+    }
+  ],
+  "referenceSourceOutputs": [
+    "/Users/wetrade/.codex/generated_images/01a0d0f9-afdf-7412-a990-cf7a45f1c2b6/exec-9307b08c-4f14-426d-830f-a9b037945c90.png"
+  ],
+  "brandGuide": "/Users/wetrade/Documents/ChatGPT/Dear Body/BRAND_GUIDE.md",
+  "altText": "A Filipina and a Filipino friend laugh together while walking through a sunny neighborhood courtyard.",
+  "recommendedMobileObjectPosition": "83% top",
+  "qa": {
+    "nativeImageInspected": true,
+    "warmFunBrightDaylight": true,
+    "darkVariantUsesPhysicalAccentColorsNotNightLighting": true,
+    "peopleCount": 2,
+    "naturalAnatomyAndSetting": "PASS",
+    "headroom": "About 18% above the highest hair; both faces clearly above the image midpoint.",
+    "noEmbeddedCopyLogosProducts": "PASS",
+    "negativeSpace": "Left45% quiet cream wall for Home/Story; central55% cream for Footer",
+    "mobileCropAdvice": "Source-based recommendation; root will verify in rendered theme with final CSS."
+  }
+}

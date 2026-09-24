@@ -1,0 +1,15 @@
+{
+  "tool": "built-in image_gen",
+  "source": "/Users/wetrade/.codex/generated_images/01a0d0f8-8d24-7131-8c77-de85e96f8179/exec-1917cf7e-622e-4603-b299-21e6e8247876.png",
+  "original": "campaign-v10-home-features/originals/sj-home-free-shipping.png",
+  "original_sha256": "7b16aa1c1869658e600520bac29c05b4721536de20a31ebc80fd29aa8d36f3f9",
+  "asset": "sj-home-free-shipping.jpg",
+  "sha256": "2d108d3bd6906df9fd8887dd2e3e708113dfb4847098a024573186500af96b68",
+  "width": 1774,
+  "height": 887,
+  "prompt": "campaign-v10-home-features/prompts/sj-home-free-shipping-bubble-wrap.txt",
+  "revision": "Owner corrections applied: two closed canisters, each individually enclosed in clear bubble wrap.",
+  "qa": "Exactly two authentic closed yellow Mojito/peach Amber canisters, each individually wrapped in a separate clear bubble-wrap sleeve; original names identifiable; realistic carton, hand, paper, shadows.",
+  "copy": "Live website text; no baked shipping offer.",
+  "previous_canister_source": "/Users/wetrade/.codex/generated_images/01a0d0f8-8d24-7131-8c77-de85e96f8179/exec-9cde2cc4-ef01-4918-b7eb-37c7ab84fc82.png"
+}

@@ -1,0 +1,484 @@
+{
+  "generatedAt": "2026-09-24T05:49:51.583Z",
+  "status": "PASS",
+  "method": "Read-only inspection of rebuilt native Liquid HTML using JSDOM; no browser interactions or network access.",
+  "expectedSourceFrameOrder": [
+    1,
+    11,
+    12,
+    8,
+    9,
+    5,
+    6,
+    7,
+    2,
+    3,
+    4,
+    10
+  ],
+  "pages": [
+    {
+      "handle": "mojito-metallique",
+      "file": "preview/public/products/mojito-metallique/index.html",
+      "order": [
+        1,
+        11,
+        12,
+        8,
+        9,
+        5,
+        6,
+        7,
+        2,
+        3,
+        4,
+        10
+      ],
+      "thumbnailOrder": [
+        1,
+        11,
+        12,
+        8,
+        9,
+        5,
+        6,
+        7,
+        2,
+        3,
+        4,
+        10
+      ],
+      "firstImage": "/assets/sj-mojito-metallique-01.jpg"
+    },
+    {
+      "handle": "amber-oud-silk",
+      "file": "preview/public/products/amber-oud-silk/index.html",
+      "order": [
+        1,
+        11,
+        12,
+        8,
+        9,
+        5,
+        6,
+        7,
+        2,
+        3,
+        4,
+        10
+      ],
+      "thumbnailOrder": [
+        1,
+        11,
+        12,
+        8,
+        9,
+        5,
+        6,
+        7,
+        2,
+        3,
+        4,
+        10
+      ],
+      "firstImage": "/assets/sj-amber-oud-silk-01.jpg"
+    },
+    {
+      "handle": "mistened-narcissus",
+      "file": "preview/public/products/mistened-narcissus/index.html",
+      "order": [
+        1,
+        11,
+        12,
+        8,
+        9,
+        5,
+        6,
+        7,
+        2,
+        3,
+        4,
+        10
+      ],
+      "thumbnailOrder": [
+        1,
+        11,
+        12,
+        8,
+        9,
+        5,
+        6,
+        7,
+        2,
+        3,
+        4,
+        10
+      ],
+      "firstImage": "/assets/sj-mistened-narcissus-01.jpg"
+    },
+    {
+      "handle": "charme-envoutant",
+      "file": "preview/public/products/charme-envoutant/index.html",
+      "order": [
+        1,
+        11,
+        12,
+        8,
+        9,
+        5,
+        6,
+        7,
+        2,
+        3,
+        4,
+        10
+      ],
+      "thumbnailOrder": [
+        1,
+        11,
+        12,
+        8,
+        9,
+        5,
+        6,
+        7,
+        2,
+        3,
+        4,
+        10
+      ],
+      "firstImage": "/assets/sj-charme-envoutant-01.jpg"
+    },
+    {
+      "handle": "oud-mirage",
+      "file": "preview/public/products/oud-mirage/index.html",
+      "order": [
+        1,
+        11,
+        12,
+        8,
+        9,
+        5,
+        6,
+        7,
+        2,
+        3,
+        4,
+        10
+      ],
+      "thumbnailOrder": [
+        1,
+        11,
+        12,
+        8,
+        9,
+        5,
+        6,
+        7,
+        2,
+        3,
+        4,
+        10
+      ],
+      "firstImage": "/assets/sj-oud-mirage-01.jpg"
+    },
+    {
+      "handle": "rtulle-satin",
+      "file": "preview/public/products/rtulle-satin/index.html",
+      "order": [
+        1,
+        11,
+        12,
+        8,
+        9,
+        5,
+        6,
+        7,
+        2,
+        3,
+        4,
+        10
+      ],
+      "thumbnailOrder": [
+        1,
+        11,
+        12,
+        8,
+        9,
+        5,
+        6,
+        7,
+        2,
+        3,
+        4,
+        10
+      ],
+      "firstImage": "/assets/sj-rtulle-satin-01.jpg"
+    }
+  ],
+  "checks": [
+    {
+      "name": "mojito-metallique: slide sequence",
+      "pass": true
+    },
+    {
+      "name": "mojito-metallique: thumbnail sequence",
+      "pass": true
+    },
+    {
+      "name": "mojito-metallique: packshot initially active",
+      "pass": true
+    },
+    {
+      "name": "mojito-metallique: other slides initially inactive",
+      "pass": true
+    },
+    {
+      "name": "mojito-metallique: correct slide and zoom image assets",
+      "pass": true
+    },
+    {
+      "name": "mojito-metallique: correct thumbnail assets",
+      "pass": true
+    },
+    {
+      "name": "mojito-metallique: sequential accessible slide labels",
+      "pass": true
+    },
+    {
+      "name": "mojito-metallique: packshot role correct",
+      "pass": true
+    },
+    {
+      "name": "mojito-metallique: first packshot eager/high priority",
+      "pass": true
+    },
+    {
+      "name": "amber-oud-silk: slide sequence",
+      "pass": true
+    },
+    {
+      "name": "amber-oud-silk: thumbnail sequence",
+      "pass": true
+    },
+    {
+      "name": "amber-oud-silk: packshot initially active",
+      "pass": true
+    },
+    {
+      "name": "amber-oud-silk: other slides initially inactive",
+      "pass": true
+    },
+    {
+      "name": "amber-oud-silk: correct slide and zoom image assets",
+      "pass": true
+    },
+    {
+      "name": "amber-oud-silk: correct thumbnail assets",
+      "pass": true
+    },
+    {
+      "name": "amber-oud-silk: sequential accessible slide labels",
+      "pass": true
+    },
+    {
+      "name": "amber-oud-silk: packshot role correct",
+      "pass": true
+    },
+    {
+      "name": "amber-oud-silk: first packshot eager/high priority",
+      "pass": true
+    },
+    {
+      "name": "mistened-narcissus: slide sequence",
+      "pass": true
+    },
+    {
+      "name": "mistened-narcissus: thumbnail sequence",
+      "pass": true
+    },
+    {
+      "name": "mistened-narcissus: packshot initially active",
+      "pass": true
+    },
+    {
+      "name": "mistened-narcissus: other slides initially inactive",
+      "pass": true
+    },
+    {
+      "name": "mistened-narcissus: correct slide and zoom image assets",
+      "pass": true
+    },
+    {
+      "name": "mistened-narcissus: correct thumbnail assets",
+      "pass": true
+    },
+    {
+      "name": "mistened-narcissus: sequential accessible slide labels",
+      "pass": true
+    },
+    {
+      "name": "mistened-narcissus: packshot role correct",
+      "pass": true
+    },
+    {
+      "name": "mistened-narcissus: first packshot eager/high priority",
+      "pass": true
+    },
+    {
+      "name": "charme-envoutant: slide sequence",
+      "pass": true
+    },
+    {
+      "name": "charme-envoutant: thumbnail sequence",
+      "pass": true
+    },
+    {
+      "name": "charme-envoutant: packshot initially active",
+      "pass": true
+    },
+    {
+      "name": "charme-envoutant: other slides initially inactive",
+      "pass": true
+    },
+    {
+      "name": "charme-envoutant: correct slide and zoom image assets",
+      "pass": true
+    },
+    {
+      "name": "charme-envoutant: correct thumbnail assets",
+      "pass": true
+    },
+    {
+      "name": "charme-envoutant: sequential accessible slide labels",
+      "pass": true
+    },
+    {
+      "name": "charme-envoutant: packshot role correct",
+      "pass": true
+    },
+    {
+      "name": "charme-envoutant: first packshot eager/high priority",
+      "pass": true
+    },
+    {
+      "name": "oud-mirage: slide sequence",
+      "pass": true
+    },
+    {
+      "name": "oud-mirage: thumbnail sequence",
+      "pass": true
+    },
+    {
+      "name": "oud-mirage: packshot initially active",
+      "pass": true
+    },
+    {
+      "name": "oud-mirage: other slides initially inactive",
+      "pass": true
+    },
+    {
+      "name": "oud-mirage: correct slide and zoom image assets",
+      "pass": true
+    },
+    {
+      "name": "oud-mirage: correct thumbnail assets",
+      "pass": true
+    },
+    {
+      "name": "oud-mirage: sequential accessible slide labels",
+      "pass": true
+    },
+    {
+      "name": "oud-mirage: packshot role correct",
+      "pass": true
+    },
+    {
+      "name": "oud-mirage: first packshot eager/high priority",
+      "pass": true
+    },
+    {
+      "name": "rtulle-satin: slide sequence",
+      "pass": true
+    },
+    {
+      "name": "rtulle-satin: thumbnail sequence",
+      "pass": true
+    },
+    {
+      "name": "rtulle-satin: packshot initially active",
+      "pass": true
+    },
+    {
+      "name": "rtulle-satin: other slides initially inactive",
+      "pass": true
+    },
+    {
+      "name": "rtulle-satin: correct slide and zoom image assets",
+      "pass": true
+    },
+    {
+      "name": "rtulle-satin: correct thumbnail assets",
+      "pass": true
+    },
+    {
+      "name": "rtulle-satin: sequential accessible slide labels",
+      "pass": true
+    },
+    {
+      "name": "rtulle-satin: packshot role correct",
+      "pass": true
+    },
+    {
+      "name": "rtulle-satin: first packshot eager/high priority",
+      "pass": true
+    },
+    {
+      "name": "collection cards retain six packshots",
+      "pass": true
+    },
+    {
+      "name": "preview has no broken assets",
+      "pass": true
+    },
+    {
+      "name": "preview has no duplicate IDs",
+      "pass": true
+    }
+  ],
+  "failures": [],
+  "validatedThemeSources": 62,
+  "renderedRoutes": 23,
+  "limitations": [
+    "Browser interaction and autoplay behavior were not rerun; their implementation is unchanged.",
+    "No Shopify Admin, live store, media-library or catalog changes.",
+    "The six existing bundled theme galleries are preserved; this does not replace them with the separately reviewed fourteen galleries."
+  ],
+  "integrity": {
+    "themeAssetCount": 178,
+    "themeAssetsByteUnchanged": true,
+    "themeSourceFilesChanged": [
+      "theme/sections/sj-product.liquid"
+    ],
+    "baselineFilesMissing": [],
+    "changedFiles": [
+      "theme/sections/sj-product.liquid",
+      "preview/public/preview-report.json",
+      "preview/public/products/amber-oud-silk/index.html",
+      "preview/public/products/mistened-narcissus/index.html",
+      "preview/public/products/rtulle-satin/index.html",
+      "preview/public/products/oud-mirage/index.html",
+      "preview/public/products/charme-envoutant/index.html",
+      "preview/public/products/mojito-metallique/index.html",
+      "qa/package-manifest.json",
+      "qa/GALLERY-AUTOPLAY-QA.md",
+      "qa/gallery-browser-qa.mjs",
+      "START-HERE.md",
+      "dearbody-scent-journey-light-dark.zip"
+    ],
+    "packageContainsRequestedOrder": true,
+    "packageGalleryAndOtherAssetsByteUnchanged": true,
+    "packageSha256": "29da19a0e5e789d7a52daae3558c8263d7ab220e278ff3c2d4269b4806195742",
+    "packageFiles": 240
+  }
+}

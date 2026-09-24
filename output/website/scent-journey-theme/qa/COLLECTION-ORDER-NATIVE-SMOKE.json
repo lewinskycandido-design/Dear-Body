@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "cases": [
+    {
+      "gender": "women",
+      "oneSharedForm": true,
+      "twoLines": true,
+      "total": "₱1,598.00",
+      "shipping": "Free",
+      "permalink": "/en/cart/1000:1,1003:1"
+    },
+    {
+      "gender": "men",
+      "oneSharedForm": true,
+      "twoLines": true,
+      "total": "₱1,598.00",
+      "shipping": "Free",
+      "permalink": "/en/cart/1003:1,1000:1"
+    }
+  ],
+  "scope": "Actual Liquid-rendered synthetic card/order snippets; no navigation or network. Temporary renderer fixtures supplied by product_detail."
+}

@@ -1,0 +1,26 @@
+{%- liquid
+  assign privacy_url = ''
+  assign terms_url = ''
+  assign privacy_policy_text = shop.privacy_policy.body | strip_html | strip
+  assign terms_policy_text = shop.terms_of_service.body | strip_html | strip
+  assign current_timestamp = 'now' | date: '%s' | plus: 0
+  assign privacy_page = pages['privacy']
+  assign terms_page = pages['terms']
+  assign privacy_page_text = privacy_page.content | strip_html | strip
+  assign terms_page_text = terms_page.content | strip_html | strip
+  assign privacy_published = privacy_page.published_at | date: '%s' | plus: 0
+  assign terms_published = terms_page.published_at | date: '%s' | plus: 0
+  if privacy_policy_text != blank and shop.privacy_policy.url != blank
+    assign privacy_url = shop.privacy_policy.url
+  elsif privacy_page_text != blank and privacy_page.url != blank and privacy_page.published_at != blank and privacy_published <= current_timestamp
+    assign privacy_url = privacy_page.url
+  endif
+  if terms_policy_text != blank and shop.terms_of_service.url != blank
+    assign terms_url = shop.terms_of_service.url
+  elsif terms_page_text != blank and terms_page.url != blank and terms_page.published_at != blank and terms_published <= current_timestamp
+    assign terms_url = terms_page.url
+  endif
+-%}
+{%- if privacy_url != blank or terms_url != blank -%}
+<nav aria-label="Legal">{% if privacy_url != blank %}<a href="{% render 'sj-nav-url', url: privacy_url %}">Privacy</a>{% endif %}{% if terms_url != blank %}<a href="{% render 'sj-nav-url', url: terms_url %}">Terms</a>{% endif %}</nav>
+{%- endif -%}

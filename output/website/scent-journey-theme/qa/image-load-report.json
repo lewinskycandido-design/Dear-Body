@@ -1,0 +1,137 @@
+{
+  "generatedAt": "2026-09-24T02:47:47.702Z",
+  "imageChecks": [
+    {
+      "theme": "light",
+      "device": "desktop",
+      "images": [
+        {
+          "src": "http://127.0.0.1:4208/assets/sj-logo-official-dark.png",
+          "loaded": true,
+          "width": 226,
+          "height": 36
+        },
+        {
+          "src": "http://127.0.0.1:4208/assets/sj-women-light.jpg",
+          "loaded": true,
+          "width": 1120,
+          "height": 1400
+        },
+        {
+          "src": "http://127.0.0.1:4208/assets/sj-men-light.jpg",
+          "loaded": true,
+          "width": 1120,
+          "height": 1400
+        },
+        {
+          "src": "http://127.0.0.1:4208/assets/sj-banner-footer-light.jpg",
+          "loaded": true,
+          "width": 1800,
+          "height": 772
+        },
+        {
+          "src": "http://127.0.0.1:4208/assets/sj-logo-official-footer.png",
+          "loaded": true,
+          "width": 306,
+          "height": 49
+        }
+      ]
+    },
+    {
+      "theme": "light",
+      "device": "mobile",
+      "images": [
+        {
+          "src": "http://127.0.0.1:4208/assets/sj-logo-official-dark.png",
+          "loaded": true,
+          "width": 226,
+          "height": 36
+        },
+        {
+          "src": "http://127.0.0.1:4208/assets/sj-women-light.jpg",
+          "loaded": true,
+          "width": 1120,
+          "height": 1400
+        },
+        {
+          "src": "http://127.0.0.1:4208/assets/sj-men-light.jpg",
+          "loaded": true,
+          "width": 1120,
+          "height": 1400
+        },
+        {
+          "src": "http://127.0.0.1:4208/assets/sj-banner-footer-light.jpg",
+          "loaded": true,
+          "width": 1800,
+          "height": 772
+        }
+      ]
+    },
+    {
+      "theme": "dark",
+      "device": "desktop",
+      "images": [
+        {
+          "src": "http://127.0.0.1:4208/assets/sj-logo-official-white.png",
+          "loaded": true,
+          "width": 226,
+          "height": 36
+        },
+        {
+          "src": "http://127.0.0.1:4208/assets/sj-women-dark.jpg",
+          "loaded": true,
+          "width": 1120,
+          "height": 1400
+        },
+        {
+          "src": "http://127.0.0.1:4208/assets/sj-men-dark.jpg",
+          "loaded": true,
+          "width": 1120,
+          "height": 1400
+        },
+        {
+          "src": "http://127.0.0.1:4208/assets/sj-banner-footer-dark.jpg",
+          "loaded": true,
+          "width": 1800,
+          "height": 771
+        },
+        {
+          "src": "http://127.0.0.1:4208/assets/sj-logo-official-footer.png",
+          "loaded": true,
+          "width": 306,
+          "height": 49
+        }
+      ]
+    },
+    {
+      "theme": "dark",
+      "device": "mobile",
+      "images": [
+        {
+          "src": "http://127.0.0.1:4208/assets/sj-logo-official-white.png",
+          "loaded": true,
+          "width": 226,
+          "height": 36
+        },
+        {
+          "src": "http://127.0.0.1:4208/assets/sj-women-dark.jpg",
+          "loaded": true,
+          "width": 1120,
+          "height": 1400
+        },
+        {
+          "src": "http://127.0.0.1:4208/assets/sj-men-dark.jpg",
+          "loaded": true,
+          "width": 1120,
+          "height": 1400
+        },
+        {
+          "src": "http://127.0.0.1:4208/assets/sj-banner-footer-dark.jpg",
+          "loaded": true,
+          "width": 1800,
+          "height": 771
+        }
+      ]
+    }
+  ]
+}

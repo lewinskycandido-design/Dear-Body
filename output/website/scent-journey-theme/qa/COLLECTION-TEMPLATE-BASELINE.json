@@ -1,0 +1,95 @@
+{
+  "scope": "Read-only public HTML; no cookies, preview, admin or mutations. Template suffix is only reported if explicitly exposed.",
+  "checkedAt": "2026-09-24T09:54:44.141502+00:00",
+  "collections": [
+    {
+      "url": "https://dearbody.ph/collections/womens-perfume",
+      "checkedAt": "2026-09-24T09:54:42.915248+00:00",
+      "status": 200,
+      "finalUrl": "https://dearbody.ph/collections/womens-perfume",
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 59907,
+      "handle": "womens-perfume",
+      "h1": [
+        "Women's Perfume"
+      ],
+      "h2": [
+        "Explore",
+        "Here for you",
+        "Follow your curiosity"
+      ],
+      "bodyAttributes": {
+        "class": "sj-page-type-collection"
+      },
+      "sectionIds": [
+        "shopify-section-sections--23922388762689__header",
+        "shopify-section-template--23922388271169__main",
+        "shopify-section-sections--23922388729921__footer",
+        "shopify-section-sj-predictive-search"
+      ],
+      "templateSuffixExposed": false,
+      "theme": {
+        "name": "dearbody-theme-update-direct-checkout",
+        "id": 167083278401,
+        "schema_name": "DearBody Scent Journey",
+        "schema_version": "1.0.0",
+        "theme_store_id": null,
+        "role": "main"
+      },
+      "collectionProductLinks": [
+        "https://dearbody.ph/products/amber-oud-silk",
+        "https://dearbody.ph/products/mistened-narcissus",
+        "https://dearbody.ph/products/mojito-metallique"
+      ],
+      "liquidErrors": []
+    },
+    {
+      "url": "https://dearbody.ph/collections/mens-perfume",
+      "checkedAt": "2026-09-24T09:54:42.915777+00:00",
+      "status": 200,
+      "finalUrl": "https://dearbody.ph/collections/mens-perfume",
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 59693,
+      "handle": "mens-perfume",
+      "h1": [
+        "Men's Perfume"
+      ],
+      "h2": [
+        "Explore",
+        "Here for you",
+        "Follow your curiosity"
+      ],
+      "bodyAttributes": {
+        "class": "sj-page-type-collection"
+      },
+      "sectionIds": [
+        "shopify-section-sections--23922388762689__header",
+        "shopify-section-template--23922388271169__main",
+        "shopify-section-sections--23922388729921__footer",
+        "shopify-section-sj-predictive-search"
+      ],
+      "templateSuffixExposed": false,
+      "theme": {
+        "name": "dearbody-theme-update-direct-checkout",
+        "id": 167083278401,
+        "schema_name": "DearBody Scent Journey",
+        "schema_version": "1.0.0",
+        "theme_store_id": null,
+        "role": "main"
+      },
+      "collectionProductLinks": [
+        "https://dearbody.ph/products/charme-envoutant",
+        "https://dearbody.ph/products/oud-mirage",
+        "https://dearbody.ph/products/rtulle-satin"
+      ],
+      "liquidErrors": []
+    }
+  ],
+  "templateInference": {
+    "result": "Both default collection URLs render the same shared template section and collection-title fallback, consistent with generic collection.json rather than the configured collection.women/collection.men templates.",
+    "exactTemplateSuffixVerified": false,
+    "reason": "Public HTML exposes no templateSuffix; no collection-resource read connector is available.",
+    "womenConfiguredHeading": "LEAVE A LITTLE YOU IN THE AIR.",
+    "menConfiguredHeading": "MAKE YOUR SCENT PART OF YOUR STORY."
+  }
+}

@@ -1,0 +1,228 @@
+{
+  "generationTool": "Built-in image_gen__imagegen",
+  "originalReferencePhotos": [
+    "/Users/wetrade/Downloads/IMG_20260923_163311.jpg",
+    "/Users/wetrade/Downloads/IMG_20260923_162213.jpg",
+    "/Users/wetrade/Documents/ChatGPT/Dear Body/working/reference-crops/authentic-thick-atomizer-closeup.jpg"
+  ],
+  "outputs": [
+    {
+      "handle": "amber-oud-silk",
+      "frame": "01",
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/regenerated-galleries/amber-oud-silk/working/01-featured-packshot.png",
+      "source": "/Users/wetrade/.codex/generated_images/01a0d0f9-5b11-7093-89c7-17bb545fc7bb/exec-dea522dd-c29a-4078-bf4d-85c1a8a1814c.png",
+      "native_size": "1254x1254"
+    },
+    {
+      "handle": "amber-oud-silk",
+      "frame": "02",
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/regenerated-galleries/amber-oud-silk/working/02-spray-in-motion.png",
+      "source": "/Users/wetrade/.codex/generated_images/01a0d0f9-5b11-7093-89c7-17bb545fc7bb/exec-2a4fc952-91e2-4f89-9ad9-59df22b097b0.png",
+      "native_size": "1254x1254",
+      "revised": true,
+      "revision_reason": "Remove ONLY all flowers and petals from upper left and bottom foreground. Retain blank red vase if useful but no botanicals at all. Replace deleted areas with existing clean peach background and red platform. Product, hand, hardware, nozzle mist, exact label, light, colors and composition must remain identical. No extra text."
+    },
+    {
+      "handle": "amber-oud-silk",
+      "frame": "03",
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/regenerated-galleries/amber-oud-silk/working/03-uncapped-reveal.png",
+      "source": "/Users/wetrade/.codex/generated_images/01a0d0f9-5b11-7093-89c7-17bb545fc7bb/exec-3f4596b2-a35e-4643-a015-8fd2e742e4d1.png",
+      "native_size": "1254x1254",
+      "revised": true,
+      "revision_reason": "Fix packaging construction and props. The tall upright peach cover on left is ONE seamless continuous upper sleeve, plain peach all the way down to surface. REMOVE horizontal dark seam/extra lower base at lower portion AND remove black bottom rim. Keep solid flat black top and exact label. Separate short round base holding bottle on right stays. Remove ALL flowers, buds, botanical elements and their shadows from scene; replace with clear cream tabletop and burgundy fabric in original lighting. Do not change bottle, cap, labels, composition."
+    },
+    {
+      "handle": "amber-oud-silk",
+      "frame": "04",
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/regenerated-galleries/amber-oud-silk/working/04-magnetic-cap.png",
+      "source": "/Users/wetrade/.codex/generated_images/01a0d0f9-5b11-7093-89c7-17bb545fc7bb/exec-9ab62db0-5462-42bb-939b-a6bf004019c1.png",
+      "native_size": "1254x1254",
+      "revised": true,
+      "revision_reason": "Remove ONLY blurred flower shapes at lower left and background right. Replace left with clean empty warm cream negative space for text; right with smooth burgundy backdrop. Product, fingers, cap, black cap underside and silver hardware must remain identical. No other changes or extra text."
+    },
+    {
+      "handle": "amber-oud-silk",
+      "frame": "05",
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/regenerated-galleries/amber-oud-silk/working/05-terrace-lifestyle.png",
+      "source": "/Users/wetrade/.codex/generated_images/01a0d0f9-5b11-7093-89c7-17bb545fc7bb/exec-440ed654-1730-4fa9-9f12-fd38ca1ddd32.png",
+      "native_size": "1254x1254",
+      "revised": true,
+      "revision_reason": "REMOVE ONLY the extra bottle and cylindrical canister standing on the TABLE in foreground, replacing with coherent clean tabletop. KEEP the ONE original perfume bottle naturally held in the woman's hand with label exact. Keep the same woman, same one face, same expression and pose, all wardrobe and location unchanged. ONE perfume bottle in total. No package/canister anywhere. No changes to any other visual element."
+    },
+    {
+      "handle": "amber-oud-silk",
+      "frame": "06",
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/regenerated-galleries/amber-oud-silk/working/06-getting-ready-detail.png",
+      "source": "/Users/wetrade/.codex/generated_images/01a0d0f9-5b11-7093-89c7-17bb545fc7bb/exec-7b582301-4246-4585-a0e4-db9902a19584.png",
+      "native_size": "1254x1254",
+      "revised": true,
+      "revision_reason": "REMOVE ONLY the cylindrical paper canister standing left of the bottle, replace with coherent tabletop/background already in this exact scene. Keep the one original perfume bottle, hand, fingers, exact label, clothing, personal bag/book, props, light and composition unchanged. No canister anywhere. One bottle only. Zero faces. Do not change any other element."
+    },
+    {
+      "handle": "amber-oud-silk",
+      "frame": "07",
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/regenerated-galleries/amber-oud-silk/working/07-terrace-bag-editorial.png",
+      "source": "/Users/wetrade/.codex/generated_images/01a0d0f9-5b11-7093-89c7-17bb545fc7bb/exec-c1d9d3da-6e0b-46ba-9653-78240e047476.png",
+      "native_size": "1254x1254"
+    },
+    {
+      "handle": "amber-oud-silk",
+      "frame": "08",
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/regenerated-galleries/amber-oud-silk/working/08-product-profile.png",
+      "source": "/Users/wetrade/.codex/generated_images/01a0d0f9-5b11-7093-89c7-17bb545fc7bb/exec-07e459eb-996a-48d0-913f-8ae58e5eaed5.png",
+      "native_size": "1254x1254",
+      "revised": true,
+      "revision_reason": "Correct ONLY the circular TOP surface of the cylindrical paper canister. It must be a solid FLAT BLACK METAL TOP with thin black rolled rim, sealed and opaque. The entire visible upper ellipse is BLACK, not peach/yellow, no opening/hole. No other change: preserve label, bottle, packaging sides, cream empty text space, composition and colors perfectly."
+    },
+    {
+      "handle": "amber-oud-silk",
+      "frame": "09",
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/regenerated-galleries/amber-oud-silk/working/09-ingredients-care.png",
+      "source": "/Users/wetrade/.codex/generated_images/01a0d0f9-5b11-7093-89c7-17bb545fc7bb/exec-bdbe70e6-f225-4246-8261-1b0a54006fd1.png",
+      "native_size": "1254x1254"
+    },
+    {
+      "handle": "amber-oud-silk",
+      "frame": "10",
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/regenerated-galleries/amber-oud-silk/working/10-scent-journey.png",
+      "source": "/Users/wetrade/.codex/generated_images/01a0d0f9-5b11-7093-89c7-17bb545fc7bb/exec-27e389fc-9039-4e39-bbab-262bcac0f73d.png",
+      "native_size": "1254x1254"
+    },
+    {
+      "handle": "amber-oud-silk",
+      "frame": "11",
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/regenerated-galleries/amber-oud-silk/working/11-scent-description.png",
+      "source": "/Users/wetrade/.codex/generated_images/01a0d0f9-5b11-7093-89c7-17bb545fc7bb/exec-cd6cbd7c-0ab4-4e56-95c4-a64a9fba089c.png",
+      "native_size": "1254x1254"
+    },
+    {
+      "handle": "amber-oud-silk",
+      "frame": "12",
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/regenerated-galleries/amber-oud-silk/working/12-who-it-fits.png",
+      "source": "/Users/wetrade/.codex/generated_images/01a0d0f9-5b11-7093-89c7-17bb545fc7bb/exec-5f714a4d-c8a0-4a8f-a2db-36b978c9a733.png",
+      "native_size": "1254x1254"
+    },
+    {
+      "handle": "mojito-metallique",
+      "frame": "01",
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/regenerated-galleries/mojito-metallique/working/01-featured-packshot.png",
+      "native_size": "1254x1254",
+      "source": "/Users/wetrade/.codex/generated_images/01a0d0f9-5b11-7093-89c7-17bb545fc7bb/exec-af63acc2-f52f-403e-a403-f94bff7bb922.png"
+    },
+    {
+      "handle": "mojito-metallique",
+      "frame": "02",
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/regenerated-galleries/mojito-metallique/working/02-spray-in-motion.png",
+      "source": "/Users/wetrade/.codex/generated_images/01a0d0f9-5b11-7093-89c7-17bb545fc7bb/exec-5b0e0894-1616-42ae-93b0-218e112f8b97.png",
+      "native_size": "1254x1254"
+    },
+    {
+      "handle": "mojito-metallique",
+      "frame": "03",
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/regenerated-galleries/mojito-metallique/working/03-uncapped-reveal.png",
+      "source": "/Users/wetrade/.codex/generated_images/01a0d0f9-5b11-7093-89c7-17bb545fc7bb/exec-672cf05c-6897-4df6-92ca-3b4502093ec5.png",
+      "native_size": "1254x1254",
+      "revised": true,
+      "revision_reason": "Fix ONLY upper packaging construction: the tall upright yellow cover on left is ONE seamless continuous upper sleeve, plain yellow all the way down to the surface. REMOVE its horizontal dark seam/extra lower base about15% up from bottom AND remove its bottom black rim. Keep its solid flat black top and exact label. The separate short round base holding the bottle on right remains. Do not change bottle, cap, composition, lighting or label. Reference2 (raw photo) proves open construction."
+    },
+    {
+      "handle": "mojito-metallique",
+      "frame": "04",
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/regenerated-galleries/mojito-metallique/working/04-magnetic-cap.png",
+      "source": "/Users/wetrade/.codex/generated_images/01a0d0f9-5b11-7093-89c7-17bb545fc7bb/exec-0bfe83dd-6f53-40b4-8ecb-f25b0ef8672a.png",
+      "native_size": "1254x1254"
+    },
+    {
+      "handle": "mojito-metallique",
+      "frame": "05",
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/regenerated-galleries/mojito-metallique/working/05-bookshop-lifestyle.png",
+      "source": "/Users/wetrade/.codex/generated_images/01a0d0f9-5b11-7093-89c7-17bb545fc7bb/exec-3d649ea4-260a-4e7d-8f6a-0762ef76ea85.png",
+      "native_size": "1254x1254",
+      "revised": true,
+      "revision_reason": "REMOVE ONLY the extra bottle and cylindrical canister standing on the TABLE in foreground, replacing with coherent clean tabletop. KEEP the ONE original perfume bottle naturally held in the woman's hand with label exact. Keep the same woman, same one face, same expression and pose, all wardrobe and location unchanged. ONE perfume bottle in total. No package/canister anywhere. No changes to any other visual element. Mustard wardrobe correction followed by reframe: bottle naturally nearer camera so authentic referenced label is legible. Same adult woman, bookshop story, oneface, fullbody, warmgold blouse and yellowbag."
+    },
+    {
+      "handle": "mojito-metallique",
+      "frame": "06",
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/regenerated-galleries/mojito-metallique/working/06-reading-cafe-detail.png",
+      "source": "/Users/wetrade/.codex/generated_images/01a0d0f9-5b11-7093-89c7-17bb545fc7bb/exec-1372ab8a-4c85-4fd1-938e-7b40b1516bc2.png",
+      "native_size": "1254x1254",
+      "revised": true,
+      "revision_reason": "REMOVE ONLY the cylindrical paper canister standing left of the bottle, replace with coherent tabletop/background already in this exact scene. Keep the one original perfume bottle, hand, fingers, exact label, clothing, personal bag/book, props, light and composition unchanged. No canister anywhere. One bottle only. Zero faces. Do not change any other element. Change ONLY the woman's coral-red top/blouse fabric to warm golden mustard #EAAA3D. Preserve garment weave/texture, exact sleeve cut, every fold, natural light and shadows. This is a clothing-only edit. DO NOT change the golden perfume liquid, product label, bottle, glossy black cap, yellow woven bag, book, cream trousers, skin, face, hair, pose, fingers, room, table, furniture or any other object. Do not add or remove anything. All typography on perfume remains exact and original. Keep the same composition precisely. Visible top fabric must be mustard warm gold, NOT orange-red, coral, blue or black. No extra faces or text."
+    },
+    {
+      "handle": "mojito-metallique",
+      "frame": "07",
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/regenerated-galleries/mojito-metallique/working/07-book-tote-editorial.png",
+      "source": "/Users/wetrade/.codex/generated_images/01a0d0f9-5b11-7093-89c7-17bb545fc7bb/exec-5528bea9-bf39-46c2-9e45-a9f753e7ad0c.png",
+      "native_size": "1254x1254",
+      "revised": true,
+      "revision_reason": " Change ONLY the woman's coral-red top/blouse fabric to warm golden mustard #EAAA3D. Preserve garment weave/texture, exact sleeve cut, every fold, natural light and shadows. This is a clothing-only edit. DO NOT change the golden perfume liquid, product label, bottle, glossy black cap, yellow woven bag, book, cream trousers, skin, face, hair, pose, fingers, room, table, furniture or any other object. Do not add or remove anything. All typography on perfume remains exact and original. Keep the same composition precisely. Visible top fabric must be mustard warm gold, NOT orange-red, coral, blue or black. No extra faces or text."
+    },
+    {
+      "handle": "mojito-metallique",
+      "frame": "08",
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/regenerated-galleries/mojito-metallique/working/08-product-profile.png",
+      "source": "/Users/wetrade/.codex/generated_images/01a0d0f9-5b11-7093-89c7-17bb545fc7bb/exec-bae4fd1f-87b9-4044-8873-b09a915f1f57.png",
+      "native_size": "1254x1254",
+      "revised": true,
+      "revision_reason": "Correct ONLY the circular TOP surface of the cylindrical paper canister. It must be a solid FLAT BLACK METAL TOP with thin black rolled rim, sealed and opaque. The entire visible upper ellipse is BLACK, not peach/yellow, no opening/hole. No other change: preserve label, bottle, packaging sides, cream empty text space, composition and colors perfectly."
+    },
+    {
+      "handle": "mojito-metallique",
+      "frame": "09",
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/regenerated-galleries/mojito-metallique/working/09-ingredients-care.png",
+      "source": "/Users/wetrade/.codex/generated_images/01a0d0f9-5b11-7093-89c7-17bb545fc7bb/exec-eff40bbd-bb2b-4abc-9783-99487dde8188.png",
+      "native_size": "1254x1254"
+    },
+    {
+      "handle": "mojito-metallique",
+      "frame": "10",
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/regenerated-galleries/mojito-metallique/working/10-scent-journey.png",
+      "source": "/Users/wetrade/.codex/generated_images/01a0d0f9-5b11-7093-89c7-17bb545fc7bb/exec-adfa2c5c-77f9-4d81-b0f4-422495773d72.png",
+      "native_size": "1254x1254"
+    },
+    {
+      "handle": "mojito-metallique",
+      "frame": "11",
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/regenerated-galleries/mojito-metallique/working/11-scent-description.png",
+      "source": "/Users/wetrade/.codex/generated_images/01a0d0f9-5b11-7093-89c7-17bb545fc7bb/exec-702c2beb-2217-4e66-bc8d-fb5c83a1daf5.png",
+      "native_size": "1254x1254"
+    },
+    {
+      "handle": "mojito-metallique",
+      "frame": "12",
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/regenerated-galleries/mojito-metallique/working/12-who-it-fits.png",
+      "source": "/Users/wetrade/.codex/generated_images/01a0d0f9-5b11-7093-89c7-17bb545fc7bb/exec-8c4728c2-25e2-48c2-8dd2-1e508be37813.png",
+      "native_size": "1254x1254",
+      "revised": true,
+      "revision_reason": " Change ONLY the woman's coral-red top/blouse fabric to warm golden mustard #EAAA3D. Preserve garment weave/texture, exact sleeve cut, every fold, natural light and shadows. This is a clothing-only edit. DO NOT change the golden perfume liquid, product label, bottle, glossy black cap, yellow woven bag, book, cream trousers, skin, face, hair, pose, fingers, room, table, furniture or any other object. Do not add or remove anything. All typography on perfume remains exact and original. Keep the same composition precisely. Visible top fabric must be mustard warm gold, NOT orange-red, coral, blue or black. No extra faces or text."
+    }
+  ],
+  "fontRefresh": {
+    "date": "2026-09-24T02:39:58.553542+00:00",
+    "framesPerScent": [
+      "04",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12"
+    ],
+    "fonts": [
+      {
+        "role": "headings",
+        "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/source-assets/fonts/CenzoFlare-Bold/CenzoFlare-Bold.ttf",
+        "sha256": "aca8e9615c3342f7b6619c35ec6bc430464ef1a2334ef73cc8bc65244ee0407a"
+      },
+      {
+        "role": "body",
+        "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/source-assets/fonts/HelveticaNowText-Regular/HelveticaNowText-Regular.ttf",
+        "sha256": "be4dc86107b81ffd40ff070256f986fc244069f7abc66cc71e397d2b3b332254"
+      }
+    ],
+    "method": "Only deterministic promotional typography re-rendered from unchanged clean ImageGen working bases using exact uploaded TTF files. No physical label or photograph retouch. PIL renders transparent type layer only; sharp preserves existing photo normalization/compositing.",
+    "archive": "<handle>/archive/2026-09-24-before-uploaded-fonts",
+    "qa": "MOJITO-AMBER-FONT-REFRESH-QA.json"
+  }
+}

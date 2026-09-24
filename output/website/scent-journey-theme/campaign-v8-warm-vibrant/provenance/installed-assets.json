@@ -1,0 +1,222 @@
+[
+  {
+    "file": "sj-banner-finder-dark.jpg",
+    "source": "campaign-v8-warm-vibrant/final-web/sj-banner-finder-dark.jpg",
+    "sha256": "fbca92734d9e237764aeac2bbeb98a09dc8d9d359e2d6adadf0b8abe6dd302a5",
+    "bytes": 313285,
+    "width": 1774,
+    "height": 887,
+    "original": "campaign-v8-warm-vibrant/originals/sj-banner-finder-dark.png",
+    "original_sha256": "24d66767e3b2eab35bbd9a51b82ca7455172190d4cc967872ecf8b1793346e7a"
+  },
+  {
+    "file": "sj-banner-finder-light.jpg",
+    "source": "campaign-v8-warm-vibrant/final-web/sj-banner-finder-light.jpg",
+    "sha256": "e2c355f587c68625b387cd11810cf2300e13421d4c74a370c3e183ff0c6b0661",
+    "bytes": 296841,
+    "width": 1774,
+    "height": 887,
+    "original": "campaign-v8-warm-vibrant/originals/sj-banner-finder-light.png",
+    "original_sha256": "f256432a65d3e72706b6799e8f063b7d29d21ea70e038f39d08bce9e45148e2c"
+  },
+  {
+    "file": "sj-banner-footer-dark.jpg",
+    "source": "campaign-v8-warm-vibrant/final-web/sj-banner-footer-dark.jpg",
+    "sha256": "0fc3d6fe2c987336c5fe4846c2593383ec622b58c36f4081e541d527f4c4094b",
+    "bytes": 382424,
+    "width": 1774,
+    "height": 887,
+    "original": "campaign-v8-warm-vibrant/originals/sj-banner-footer-dark.png",
+    "original_sha256": "847e6244cac133fa9a440b191a7ef424874cc0b4058b64633614ed94dbb38b69"
+  },
+  {
+    "file": "sj-banner-footer-light.jpg",
+    "source": "campaign-v8-warm-vibrant/final-web/sj-banner-footer-light.jpg",
+    "sha256": "31e8ea912ed1210d343cbf3d57690b44d9e763d778803991836ebdd208d57f7b",
+    "bytes": 447246,
+    "width": 1774,
+    "height": 887,
+    "original": "campaign-v8-warm-vibrant/originals/sj-banner-footer-light.png",
+    "original_sha256": "19a45492c339d8a4bb5e1e74558cfc53896f3234e560edae654946dc441577c3"
+  },
+  {
+    "file": "sj-banner-men-dark.jpg",
+    "source": "campaign-v8-warm-vibrant/final-web/sj-banner-men-dark.jpg",
+    "sha256": "fce0a2ecb0fdd24269a5aa0f295c4e69c3be70140892b7db8dfb4c132cb06f3b",
+    "bytes": 416843,
+    "width": 1774,
+    "height": 887,
+    "original": "campaign-v8-warm-vibrant/originals/sj-banner-men-dark.png",
+    "original_sha256": "a36a285f49dacb153d2342cb790fdc6e2971c807e22aeb651137abd41c7cd14e"
+  },
+  {
+    "file": "sj-banner-men-light.jpg",
+    "source": "campaign-v8-warm-vibrant/final-web/sj-banner-men-light.jpg",
+    "sha256": "80f560f5304144583f7f16de465e9bb9d61592db4aaa0eb6f379ac15355e7f0c",
+    "bytes": 364267,
+    "width": 1774,
+    "height": 887,
+    "original": "campaign-v8-warm-vibrant/originals/sj-banner-men-light.png",
+    "original_sha256": "a9b22540770d2450a6bd6d9b57a614aa65965442fd07a30dc60bf6d6aefdf93b"
+  },
+  {
+    "file": "sj-banner-story-dark.jpg",
+    "source": "campaign-v8-warm-vibrant/final-web/sj-banner-story-dark.jpg",
+    "sha256": "cd8f0bb8d2268e46607159c4413d46698c72a4194aa7fba8a09cbc7e6f13d6f6",
+    "bytes": 303159,
+    "width": 1774,
+    "height": 887,
+    "original": "campaign-v8-warm-vibrant/originals/sj-banner-story-dark.png",
+    "original_sha256": "f1190683d7eb872c9a80a35d1bb338ad900bdfec8218d14e981edca01c231801"
+  },
+  {
+    "file": "sj-banner-story-light.jpg",
+    "source": "campaign-v8-warm-vibrant/final-web/sj-banner-story-light.jpg",
+    "sha256": "17bce313659d895766d750dc5417072fc103d2b978b46c6455a14197fd351ee4",
+    "bytes": 346455,
+    "width": 1774,
+    "height": 887,
+    "original": "campaign-v8-warm-vibrant/originals/sj-banner-story-light.png",
+    "original_sha256": "443a2c6749493b45d07ca1c13e8b2199038600cf7743cfc0b9a5fd8db5087c08"
+  },
+  {
+    "file": "sj-banner-women-dark.jpg",
+    "source": "campaign-v8-warm-vibrant/final-web/sj-banner-women-dark.jpg",
+    "sha256": "0c31d79fade549f2e3a96a74d81cc46ba85715a5b18ae78d321371fef9065a1f",
+    "bytes": 546923,
+    "width": 1774,
+    "height": 887,
+    "original": "campaign-v8-warm-vibrant/originals/sj-banner-women-dark.png",
+    "original_sha256": "62cdbcb40cc2ae1a14c6ed5f008b815ccd23bdb433ba1d4b8bcacfa5cd90d701"
+  },
+  {
+    "file": "sj-banner-women-light.jpg",
+    "source": "campaign-v8-warm-vibrant/final-web/sj-banner-women-light.jpg",
+    "sha256": "3b614eab8c074cfe8eba1de477ab3f95e3f89a9f61179a4e496962458701d8b7",
+    "bytes": 548821,
+    "width": 1774,
+    "height": 887,
+    "original": "campaign-v8-warm-vibrant/originals/sj-banner-women-light.png",
+    "original_sha256": "cb68a97e7fdea594b4789640a00f0c41f3f89301c2175353131076e22885f4df"
+  },
+  {
+    "file": "sj-home-hero-dark.jpg",
+    "source": "campaign-v8-warm-vibrant/final-web/sj-home-hero-dark.jpg",
+    "sha256": "88664f5efc0612a920d5d0817c78fc7fe239bf855125f8097f63d438a031ecd0",
+    "bytes": 291608,
+    "width": 1774,
+    "height": 887,
+    "original": "campaign-v8-warm-vibrant/originals/sj-home-hero-dark.png",
+    "original_sha256": "429f31d761aecd4c5fd186c20c3f02dc9ba68291eb83899602b23dece65fa96f"
+  },
+  {
+    "file": "sj-home-hero-light.jpg",
+    "source": "campaign-v8-warm-vibrant/final-web/sj-home-hero-light.jpg",
+    "sha256": "69ff6c3237228857791c24a0e98b8e2a663d4be11051525e6011b3389ad2c9df",
+    "bytes": 305258,
+    "width": 1774,
+    "height": 887,
+    "original": "campaign-v8-warm-vibrant/originals/sj-home-hero-light.png",
+    "original_sha256": "aa5e153298a7e08f9fc81379b4739ca8f6019e733ce2fea152f5e4644bfc789f"
+  },
+  {
+    "file": "sj-men-dark.jpg",
+    "source": "campaign-v8-warm-vibrant/final-web/sj-men-dark.jpg",
+    "sha256": "6be410940781fc156bc3daae97261f697bb096048b0ec2670768d58263338b1a",
+    "bytes": 407749,
+    "width": 1073,
+    "height": 1466,
+    "original": "campaign-v8-warm-vibrant/originals/sj-men-dark.png",
+    "original_sha256": "836279224308ffa707973c42df12cf1053ed6fa0c8801e1fe3440026b577f190"
+  },
+  {
+    "file": "sj-men-light.jpg",
+    "source": "campaign-v8-warm-vibrant/final-web/sj-men-light.jpg",
+    "sha256": "039bc0ac25d7106e05c0647b78bb01ff3501fd43e732899dc76716e2501e0f22",
+    "bytes": 415499,
+    "width": 1073,
+    "height": 1466,
+    "original": "campaign-v8-warm-vibrant/originals/sj-men-light.png",
+    "original_sha256": "d801502e69def3774bd03ae22be3313e464f950b2752a607e36e25fb8191f257"
+  },
+  {
+    "file": "sj-product-banner-amber-oud-silk.jpg",
+    "source": "campaign-v8-warm-vibrant/final-web/sj-product-banner-amber-oud-silk.jpg",
+    "sha256": "8b83086b44fc6e6ca3b02e99fe654d83f74814a0932f79d32033f43c34d13f3c",
+    "bytes": 397720,
+    "width": 1774,
+    "height": 887,
+    "original": "campaign-v8-warm-vibrant/originals/sj-product-banner-amber-oud-silk.png",
+    "original_sha256": "fff922db85da1ec54be1ba1f9e51bb28b4a980a94701d91f2dabbefbc645bdfd"
+  },
+  {
+    "file": "sj-product-banner-charme-envoutant.jpg",
+    "source": "campaign-v8-warm-vibrant/final-web/sj-product-banner-charme-envoutant.jpg",
+    "sha256": "8569751d9df63d7087c0f92c946b54de1f30f28cb0fa27a67a9fc5e1afaea5f8",
+    "bytes": 431190,
+    "width": 1774,
+    "height": 887,
+    "original": "campaign-v8-warm-vibrant/originals/sj-product-banner-charme-envoutant.png",
+    "original_sha256": "31360add71c1faad5a3cc196c8b8082c6a1d7a3b84a28ce96c42994773a3abec"
+  },
+  {
+    "file": "sj-product-banner-mistened-narcissus.jpg",
+    "source": "campaign-v8-warm-vibrant/final-web/sj-product-banner-mistened-narcissus.jpg",
+    "sha256": "db12bed594484f499e185c3d64659ba73b0a64700f4b40b6709706bf0842802b",
+    "bytes": 378641,
+    "width": 1774,
+    "height": 887,
+    "original": "campaign-v8-warm-vibrant/originals/sj-product-banner-mistened-narcissus.png",
+    "original_sha256": "17cd47c38ea36d6b18fbf030c499b45066c0cd4a3fa0e26fafdc016b53d62c1f"
+  },
+  {
+    "file": "sj-product-banner-mojito-metallique.jpg",
+    "source": "campaign-v8-warm-vibrant/final-web/sj-product-banner-mojito-metallique.jpg",
+    "sha256": "14db2f6f74ab5ef5036e9c7ba169af770ace386f4390ba75a0ee8ca04d16ef9a",
+    "bytes": 466758,
+    "width": 1774,
+    "height": 887,
+    "original": "campaign-v8-warm-vibrant/originals/sj-product-banner-mojito-metallique.png",
+    "original_sha256": "a0208a6304d42e6fa2006f52668dbb41c7b0d750529aaf08156a32537dec1e69"
+  },
+  {
+    "file": "sj-product-banner-oud-mirage.jpg",
+    "source": "campaign-v8-warm-vibrant/final-web/sj-product-banner-oud-mirage.jpg",
+    "sha256": "4f49e07410bea59cb0754ed698f2e2e33a4fa4fb27de32c656c54a06cb0f3460",
+    "bytes": 344207,
+    "width": 1774,
+    "height": 887,
+    "original": "campaign-v8-warm-vibrant/originals/sj-product-banner-oud-mirage.png",
+    "original_sha256": "17abff77b523da3086e2251454070b1a07c9e59fbcc4e31aa524cebe44d6f9cd"
+  },
+  {
+    "file": "sj-product-banner-rtulle-satin.jpg",
+    "source": "campaign-v8-warm-vibrant/final-web/sj-product-banner-rtulle-satin.jpg",
+    "sha256": "e2ab043c154893b36ae27c7724d2f6a8d6d676c304119639dd0d8fb6d4ec4e7d",
+    "bytes": 460973,
+    "width": 1774,
+    "height": 887,
+    "original": "campaign-v8-warm-vibrant/originals/sj-product-banner-rtulle-satin.png",
+    "original_sha256": "a8ca84a3c4492a7affeabdc060ac372855362012beeeed165618e63f0860ef2a"
+  },
+  {
+    "file": "sj-women-dark.jpg",
+    "source": "campaign-v8-warm-vibrant/final-web/sj-women-dark.jpg",
+    "sha256": "2fd4ee24658c1b678a68bad9c885a4bbfc3e138a7084d2cc47027565836f17cf",
+    "bytes": 429563,
+    "width": 1073,
+    "height": 1466,
+    "original": "campaign-v8-warm-vibrant/originals/sj-women-dark.png",
+    "original_sha256": "ef1aa79a6181d47530421509a57e3765ab452496ede096fe74530cf02b2546b8"
+  },
+  {
+    "file": "sj-women-light.jpg",
+    "source": "campaign-v8-warm-vibrant/final-web/sj-women-light.jpg",
+    "sha256": "99cf19915afac89a3326303827641613a3bb1af7e3f07edaa7866e703987e34c",
+    "bytes": 437640,
+    "width": 1073,
+    "height": 1466,
+    "original": "campaign-v8-warm-vibrant/originals/sj-women-light.png",
+    "original_sha256": "036545bde40806c2e9bf824b76dd48936cc9984e99a0db7e15104f428753b41e"
+  }
+]

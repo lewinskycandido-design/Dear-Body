@@ -1,0 +1,25 @@
+{
+  "verified_on": "2026-09-24",
+  "source_page": "https://www.dearbody.com/",
+  "assets": [
+    {
+      "source_url": "https://www.dearbody.com/wp-content/themes/default/images/logo.png",
+      "local_file": "logo.png",
+      "sha256": "c5209ea0076448edfd7e5c10106fe5a768a4c8d3611fa622e1db17407ad2ad37",
+      "modified": false
+    },
+    {
+      "source_url": "https://www.dearbody.com/wp-content/themes/default/images/logo-1.png",
+      "local_file": "logo-1.png",
+      "sha256": "4c63c5e5dc85aba0d98c68d477465ab085f3f2765431a27dfde2b3f4d78cdcfe",
+      "modified": false
+    },
+    {
+      "source_url": "https://www.dearbody.com/wp-content/themes/default/images/bottom_logo.png",
+      "local_file": "bottom_logo.png",
+      "sha256": "e15529935a68fc793f676a4a410202372a06b64f48de00685c3fc5ebe74f8f7f",
+      "modified": false
+    }
+  ],
+  "design_authority": "Canva DEARBODY PLAYBOOK controls palette, typography, tone and visual direction. Official-site logos supply unchanged transparent brand artwork only. Global logos have no PH suffix; no suffix or recoloring was fabricated."
+}

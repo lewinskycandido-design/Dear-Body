@@ -1,0 +1,58 @@
+<section class="sj-faq-page">
+  {% render 'sj-care-banner', kind: 'faq', section_id: section.id, asset: 'sj-faq-banner.jpg', light_image: section.settings.banner_light, dark_image: section.settings.banner_dark, eyebrow: section.settings.eyebrow, heading: section.settings.heading %}
+  <div class="sj-container"><div class="sj-faq-list">
+    {% for block in section.blocks %}<details {{ block.shopify_attributes }}><summary><span>{{ block.settings.question | escape }}</span>{% render 'sj-icon', name: 'plus', class: 'sj-disclosure-icon' %}</summary><div>{{ block.settings.answer }}</div></details>{% endfor %}
+    <p style="margin-top:35px">Still curious? <a href="{{ settings.contact_url | default: '/pages/contact' }}">Talk to us</a></p>
+  </div></div>
+</section>
+{% schema %}
+{
+  "name": "Questions and answers",
+  "settings": [
+    {
+      "type": "text",
+      "id": "eyebrow",
+      "label": "Eyebrow",
+      "default": "FAQ"
+    },
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "A LITTLE CLARITY."
+    },
+    {
+      "type": "image_picker",
+      "id": "banner_light",
+      "label": "Header photo — Light",
+      "info": "Uses the included FAQ campaign photo when empty."
+    },
+    {
+      "type": "image_picker",
+      "id": "banner_dark",
+      "label": "Header photo — Dark",
+      "info": "Uses the Light photo when empty."
+    }
+  ],
+  "blocks": [
+    {
+      "type": "question",
+      "name": "Question",
+      "settings": [
+        {
+          "type": "text",
+          "id": "question",
+          "label": "Question",
+          "default": "How do I find my scent?"
+        },
+        {
+          "type": "richtext",
+          "id": "answer",
+          "label": "Answer",
+          "default": "<p>Explore the collection or use our Scent Finder to discover fragrances around your preferences.</p>"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

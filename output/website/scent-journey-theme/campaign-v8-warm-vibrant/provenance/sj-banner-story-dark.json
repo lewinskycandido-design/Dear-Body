@@ -1,0 +1,56 @@
+{
+  "asset": "sj-banner-story-dark",
+  "status": "accepted_for_root_integration",
+  "createdAt": "2026-09-24T05:13:03.872204+00:00",
+  "tool": "built-in image_gen; one call per asset or targeted revision",
+  "sourceOutputPath": "/Users/wetrade/.codex/generated_images/01a0d0f9-afdf-7412-a990-cf7a45f1c2b6/exec-32f00626-3717-4a9d-af64-f7231dd37e77.png",
+  "originalPath": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/campaign-v8-warm-vibrant/originals/sj-banner-story-dark.png",
+  "webPath": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/campaign-v8-warm-vibrant/final-web/sj-banner-story-dark.jpg",
+  "sourceDimensions": [
+    1774,
+    887
+  ],
+  "webDimensions": [
+    1774,
+    887
+  ],
+  "originalSha256": "f1190683d7eb872c9a80a35d1bb338ad900bdfec8218d14e981edca01c231801",
+  "webSha256": "cd8f0bb8d2268e46607159c4413d46698c72a4194aa7fba8a09cbc7e6f13d6f6",
+  "webBytes": 303159,
+  "conversion": {
+    "tool": "sips",
+    "format": "JPEG",
+    "quality": 91,
+    "resized": false,
+    "cropped": false,
+    "retouched": false,
+    "profileRequested": "sRGB IEC61966-2.1",
+    "sipsProfileReport": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/campaign-v8-warm-vibrant/final-web/sj-banner-story-dark.jpg\n  profile: sRGB IEC61966-2.1\n  space: RGB",
+    "exifColorSpace": 1,
+    "embeddedIccByteCount": 0
+  },
+  "prompts": [
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/campaign-v8-warm-vibrant/prompts/sj-banner-story-dark.txt",
+      "text": "Use case: identity-preserve / physical color-styling variant. Create the Dark-theme companion to the supplied accepted Our Story photograph while keeping it bright and sunny. Preserve EXACTLY these two adult Filipina friends, natural laughing faces, hands, cups and bread, the modest merienda table and porch, all framing and generous headroom. Maintain the LEFT45% quiet cream wall and the compact right-side grouping with the two full heads. Keep the scene in lively natural DAYLIGHT with warm bright skin and lifted shadows; this is not evening, dusk or night. Change only wardrobe and small color accents: the left woman's coral top becomes rich warm burgundy, the right woman's golden-apricot blouse becomes lively coral-red, and a small far-right planter may be warm burnt orange. Keep the creamy wall and natural wood bright and photographic. Do not apply a dark or sepia filter. Same 2:1 composition, no zoom, no crop, no added people or objects. No product bottles, typography, logos, signage, watermarks, distorted hands or unnatural anatomy.\n",
+      "sha256": "db719400abb78c2d348d13e9153ed6383344fccc2a8f84a2cfb45959849daf45"
+    }
+  ],
+  "referenceSourceOutputs": [
+    "/Users/wetrade/.codex/generated_images/01a0d0f9-afdf-7412-a990-cf7a45f1c2b6/exec-e99d6dfd-4e6c-4ebe-8f15-59d7ca3d6c89.png"
+  ],
+  "brandGuide": "/Users/wetrade/Documents/ChatGPT/Dear Body/BRAND_GUIDE.md",
+  "altText": "Two Filipina friends enjoy a cheerful daytime merienda, with burgundy and coral clothing.",
+  "recommendedMobileObjectPosition": "76% top",
+  "qa": {
+    "nativeImageInspected": true,
+    "warmFunBrightDaylight": true,
+    "darkVariantUsesPhysicalAccentColorsNotNightLighting": true,
+    "peopleCount": 2,
+    "naturalAnatomyAndSetting": "PASS",
+    "headroom": "Matches accepted Light merienda composition and compact pair framing.",
+    "noEmbeddedCopyLogosProducts": "PASS",
+    "negativeSpace": "Left45% quiet cream wall for Home/Story; central55% cream for Footer",
+    "mobileCropAdvice": "Source-based recommendation; root will verify in rendered theme with final CSS."
+  }
+}

@@ -1,0 +1,17 @@
+{% liquid
+  assign light_logo = 'sj-logo-official-dark.png' | asset_url
+  assign dark_logo = 'sj-logo-official-white.png' | asset_url
+  if settings.logo_light != blank
+    assign light_logo = settings.logo_light | image_url: width: 500
+  endif
+  if settings.logo_dark != blank
+    assign dark_logo = settings.logo_dark | image_url: width: 500
+  endif
+  assign current_logo = light_logo
+  if settings.visual_theme == 'dark'
+    assign current_logo = dark_logo
+  endif
+%}
+<a class="sj-logo" href="{{ routes.root_url }}" aria-label="DearBody Philippines home">
+  <img class="sj-logo-clean" src="{{ current_logo }}" data-light-src="{{ light_logo }}" data-dark-src="{{ dark_logo }}" data-sj-logo width="226" height="36" alt="DearBody">
+</a>

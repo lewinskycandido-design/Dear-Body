@@ -1,0 +1,45 @@
+{%- comment -%}
+  Verified Shopify Domestic/Philippines Standard rate: PHP 80. Active automatic
+  free-shipping discount 1488158097473 requires 2 items, includes all customers,
+  and combines with product/order discounts. Amounts use currency subunits.
+  eligibility_basis can explicitly use 'subtotal' for a separately verified
+  legacy configuration; the active default is 'quantity'.
+  This display estimates the native checkout rate; it does not set a rate.
+{%- endcomment -%}
+{%- liquid
+  assign shipping_basis = eligibility_basis | default: 'quantity'
+  assign shipping_currency = cart.currency.iso_code | default: cart.currency
+  assign shipping_fee = 8000
+  assign shipping_threshold = 159800
+  assign shipping_is_known = false
+  assign shipping_is_free = false
+  if shipping_currency == 'PHP' and localization.country.iso_code == 'PH'
+    assign shipping_is_known = true
+    if shipping_basis == 'quantity'
+      if cart.item_count >= 2
+        assign shipping_is_free = true
+      endif
+    elsif cart.total_price >= shipping_threshold
+      assign shipping_is_free = true
+    endif
+  endif
+  if shipping_is_free
+    assign shipping_fee = 0
+  endif
+  assign shipping_estimated_total = cart.total_price | plus: shipping_fee
+-%}
+{%- if cart.item_count > 0 -%}
+  <div class="sj-cart-shipping" data-sj-cart-shipping data-shipping-basis="{{ shipping_basis | escape }}"{% if shipping_is_known %} data-shipping-estimate="{{ shipping_fee }}"{% endif %}>
+    <dl class="sj-cart-shipping__totals">
+      <div class="sj-cart-shipping__row">
+        <dt>{% render 'sj-icon', name: 'shipping' %}<span>{% if shipping_is_known %}Estimated shipping <small>(Philippines)</small>{% else %}Shipping{% endif %}</span></dt>
+        <dd data-sj-shipping-amount>{% if shipping_is_known %}{% if shipping_is_free %}<strong class="sj-cart-shipping__free">Free</strong>{% else %}{{ shipping_fee | money }}{% endif %}{% else %}Calculated at checkout{% endif %}</dd>
+      </div>
+      {% if shipping_is_known %}
+        <div class="sj-cart-shipping__row sj-cart-shipping__row--total"><dt>Estimated total</dt><dd data-sj-estimated-total>{{ shipping_estimated_total | money_with_currency }}</dd></div>
+      {% endif %}
+    </dl>
+    <p class="sj-cart-shipping__note">Final shipping is confirmed at checkout.</p>
+    {% if shipping_is_known %}<p class="sj-cart-shipping__cod" data-sj-cod-note>Cash on Delivery available at checkout.</p>{% endif %}
+  </div>
+{%- endif -%}

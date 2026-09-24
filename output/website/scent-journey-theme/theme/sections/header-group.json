@@ -1,0 +1,13 @@
+{
+  "type": "header",
+  "name": "Header",
+  "sections": {
+    "header": {
+      "type": "sj-header",
+      "settings": {}
+    }
+  },
+  "order": [
+    "header"
+  ]
+}

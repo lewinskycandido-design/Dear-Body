@@ -1,0 +1,250 @@
+{
+  "colour": "sRGB embedded ICC",
+  "photos": "Unchanged new imagegen native1254 square photographs normalized/upscaled to2048; web1200 downsampled",
+  "type": "Owner-supplied Cenzo Flare Bold headings; Helvetica Now Text Regular body. No fallback font, no synthetic bold. Physical photographic labels unchanged.",
+  "font_sha256": {
+    "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/source-assets/fonts/CenzoFlare-Bold/CenzoFlare-Bold.ttf": "aca8e9615c3342f7b6619c35ec6bc430464ef1a2334ef73cc8bc65244ee0407a",
+    "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/source-assets/fonts/HelveticaNowText-Regular/HelveticaNowText-Regular.ttf": "be4dc86107b81ffd40ff070256f986fc244069f7abc66cc71e397d2b3b332254"
+  },
+  "updated_frames": [
+    4,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "files": [
+    {
+      "frame": 1,
+      "source": "01-featured-packshot.png",
+      "source_size": [
+        1254,
+        1254
+      ],
+      "final": "01-featured-packshot.png",
+      "web": "01.jpg",
+      "final_size": [
+        2048,
+        2048
+      ],
+      "web_size": [
+        1200,
+        1200
+      ],
+      "sha256": "e0077a20ca055fa85d903bebca6ef4dfd47ab6b0da691a581c8c82976a6d2bbb"
+    },
+    {
+      "frame": 2,
+      "source": "02-spray-in-motion.png",
+      "source_size": [
+        1254,
+        1254
+      ],
+      "final": "02-spray-in-motion.png",
+      "web": "02.jpg",
+      "final_size": [
+        2048,
+        2048
+      ],
+      "web_size": [
+        1200,
+        1200
+      ],
+      "sha256": "90293401f8e647b2b27806dfd8bb3a8fffc686a353e1cf05e7bbe5a3afb9e521"
+    },
+    {
+      "frame": 3,
+      "source": "03-packaging-reveal-corrected.png",
+      "source_size": [
+        1254,
+        1254
+      ],
+      "final": "03-packaging-reveal.png",
+      "web": "03.jpg",
+      "final_size": [
+        2048,
+        2048
+      ],
+      "web_size": [
+        1200,
+        1200
+      ],
+      "sha256": "567d3d00afb79fe46c00f33b004ca2f7f2125a4740d0eb7a07e51aad549a1a0e"
+    },
+    {
+      "frame": 4,
+      "source": "04-magnetic-cap-detail.png",
+      "source_size": [
+        1254,
+        1254
+      ],
+      "final": "04-magnetic-cap-detail.png",
+      "web": "04.jpg",
+      "final_size": [
+        2048,
+        2048
+      ],
+      "web_size": [
+        1200,
+        1200
+      ],
+      "sha256": "a05e654903beaed003c67231a84d989aeeaf7d0d03b7fe9d60886cc809461925"
+    },
+    {
+      "frame": 5,
+      "source": "05-seaside-boardwalk-lifestyle.png",
+      "source_size": [
+        1254,
+        1254
+      ],
+      "final": "05-lifestyle-hero.png",
+      "web": "05.jpg",
+      "final_size": [
+        2048,
+        2048
+      ],
+      "web_size": [
+        1200,
+        1200
+      ],
+      "sha256": "bb25feb7055084a1b8dfebf1d3c516ebd374a167e0a0e3140c9d007ce15d2dea"
+    },
+    {
+      "frame": 6,
+      "source": "06-boardwalk-handheld.png",
+      "source_size": [
+        1254,
+        1254
+      ],
+      "final": "06-handheld-lifestyle.png",
+      "web": "06.jpg",
+      "final_size": [
+        2048,
+        2048
+      ],
+      "web_size": [
+        1200,
+        1200
+      ],
+      "sha256": "8e72694789060070403ff879e8062c1c0ea77ffa0cc12232440320041b770698"
+    },
+    {
+      "frame": 7,
+      "source": "07-weekend-beachbag-context.png",
+      "source_size": [
+        1254,
+        1254
+      ],
+      "final": "07-personal-context.png",
+      "web": "07.jpg",
+      "final_size": [
+        2048,
+        2048
+      ],
+      "web_size": [
+        1200,
+        1200
+      ],
+      "sha256": "7642e5a0ea2d15cc2c4c732b2034029641efa9d77a169cd0eb587fc1785b2bc2"
+    },
+    {
+      "frame": 8,
+      "source": "08-profile-base.png",
+      "source_size": [
+        1254,
+        1254
+      ],
+      "final": "08-product-profile-infographic.png",
+      "web": "08.jpg",
+      "final_size": [
+        2048,
+        2048
+      ],
+      "web_size": [
+        1200,
+        1200
+      ],
+      "sha256": "021475eeef3ae96690ca8ea69ec7dd121612bebc769b8d53c32e2f473650ff79"
+    },
+    {
+      "frame": 9,
+      "source": "09-ingredients-base.png",
+      "source_size": [
+        1254,
+        1254
+      ],
+      "final": "09-ingredients-and-care-infographic.png",
+      "web": "09.jpg",
+      "final_size": [
+        2048,
+        2048
+      ],
+      "web_size": [
+        1200,
+        1200
+      ],
+      "sha256": "971dafbe689415cfddaae0a48f5d463cdc0eca816e4735f36b81bc814c6be4be"
+    },
+    {
+      "frame": 10,
+      "source": "10-seaside-closing-base.png",
+      "source_size": [
+        1254,
+        1254
+      ],
+      "final": "10-closing-hero.png",
+      "web": "10.jpg",
+      "final_size": [
+        2048,
+        2048
+      ],
+      "web_size": [
+        1200,
+        1200
+      ],
+      "sha256": "8289442794d2302a4182df1103a7831684899cce6712af517642741ff1c1709e"
+    },
+    {
+      "frame": 11,
+      "source": "11-scent-description-base.png",
+      "source_size": [
+        1254,
+        1254
+      ],
+      "final": "11-scent-description-infographic.png",
+      "web": "11.jpg",
+      "final_size": [
+        2048,
+        2048
+      ],
+      "web_size": [
+        1200,
+        1200
+      ],
+      "sha256": "9c4032d93cf2d47de599cd12ca2f13f5a37d660a8c5d317a62e8f1952422aafc"
+    },
+    {
+      "frame": 12,
+      "source": "12-who-it-fits-base.png",
+      "source_size": [
+        1254,
+        1254
+      ],
+      "final": "12-who-it-fits-infographic.png",
+      "web": "12.jpg",
+      "final_size": [
+        2048,
+        2048
+      ],
+      "web_size": [
+        1200,
+        1200
+      ],
+      "sha256": "95179e1c35fd7603d5d32438102a39a3a8aae3430d629b7f2de2358b6fa25e60"
+    }
+  ],
+  "typography_review": "PASS: all six changed frames viewed at full 2048 resolution; contact sheet reviewed; text bounds pass; clean photo bases and non-text regions unchanged.",
+  "archived_previous_revision": "archives/20260924T023622Z-pre-supplied-fonts",
+  "verified_utc": "2026-09-24T02:42:00.321646+00:00"
+}

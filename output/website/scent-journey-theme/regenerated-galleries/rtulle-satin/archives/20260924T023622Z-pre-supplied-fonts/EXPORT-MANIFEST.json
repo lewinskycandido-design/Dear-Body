@@ -1,0 +1,235 @@
+{
+  "colour": "sRGB embedded ICC",
+  "photos": "New imagegen native1254 square photographs normalized/upscaled to2048; web1200 downsampled",
+  "type": "Helvetica Neue and Helvetica Neue Bold fallback; licensed Cenzo/Helvetica Now unavailable",
+  "files": [
+    {
+      "frame": 1,
+      "source": "01-featured-packshot.png",
+      "source_size": [
+        1254,
+        1254
+      ],
+      "final": "01-featured-packshot.png",
+      "web": "01.jpg",
+      "final_size": [
+        2048,
+        2048
+      ],
+      "web_size": [
+        1200,
+        1200
+      ],
+      "sha256": "e0077a20ca055fa85d903bebca6ef4dfd47ab6b0da691a581c8c82976a6d2bbb"
+    },
+    {
+      "frame": 2,
+      "source": "02-spray-in-motion.png",
+      "source_size": [
+        1254,
+        1254
+      ],
+      "final": "02-spray-in-motion.png",
+      "web": "02.jpg",
+      "final_size": [
+        2048,
+        2048
+      ],
+      "web_size": [
+        1200,
+        1200
+      ],
+      "sha256": "90293401f8e647b2b27806dfd8bb3a8fffc686a353e1cf05e7bbe5a3afb9e521"
+    },
+    {
+      "frame": 3,
+      "source": "03-packaging-reveal-corrected.png",
+      "source_size": [
+        1254,
+        1254
+      ],
+      "final": "03-packaging-reveal.png",
+      "web": "03.jpg",
+      "final_size": [
+        2048,
+        2048
+      ],
+      "web_size": [
+        1200,
+        1200
+      ],
+      "sha256": "567d3d00afb79fe46c00f33b004ca2f7f2125a4740d0eb7a07e51aad549a1a0e"
+    },
+    {
+      "frame": 4,
+      "source": "04-magnetic-cap-detail.png",
+      "source_size": [
+        1254,
+        1254
+      ],
+      "final": "04-magnetic-cap-detail.png",
+      "web": "04.jpg",
+      "final_size": [
+        2048,
+        2048
+      ],
+      "web_size": [
+        1200,
+        1200
+      ],
+      "sha256": "c55e0cd45d3bf6fdc295463445cdc2623ed25a5e848697b5db6d41b0c0c73d52"
+    },
+    {
+      "frame": 5,
+      "source": "05-seaside-boardwalk-lifestyle.png",
+      "source_size": [
+        1254,
+        1254
+      ],
+      "final": "05-lifestyle-hero.png",
+      "web": "05.jpg",
+      "final_size": [
+        2048,
+        2048
+      ],
+      "web_size": [
+        1200,
+        1200
+      ],
+      "sha256": "bb25feb7055084a1b8dfebf1d3c516ebd374a167e0a0e3140c9d007ce15d2dea"
+    },
+    {
+      "frame": 6,
+      "source": "06-boardwalk-handheld.png",
+      "source_size": [
+        1254,
+        1254
+      ],
+      "final": "06-handheld-lifestyle.png",
+      "web": "06.jpg",
+      "final_size": [
+        2048,
+        2048
+      ],
+      "web_size": [
+        1200,
+        1200
+      ],
+      "sha256": "8e72694789060070403ff879e8062c1c0ea77ffa0cc12232440320041b770698"
+    },
+    {
+      "frame": 7,
+      "source": "07-weekend-beachbag-context.png",
+      "source_size": [
+        1254,
+        1254
+      ],
+      "final": "07-personal-context.png",
+      "web": "07.jpg",
+      "final_size": [
+        2048,
+        2048
+      ],
+      "web_size": [
+        1200,
+        1200
+      ],
+      "sha256": "7642e5a0ea2d15cc2c4c732b2034029641efa9d77a169cd0eb587fc1785b2bc2"
+    },
+    {
+      "frame": 8,
+      "source": "08-profile-base.png",
+      "source_size": [
+        1254,
+        1254
+      ],
+      "final": "08-product-profile-infographic.png",
+      "web": "08.jpg",
+      "final_size": [
+        2048,
+        2048
+      ],
+      "web_size": [
+        1200,
+        1200
+      ],
+      "sha256": "94041417366d8a37b51877e4ca7c5a4d737c8d9d5535786547ade062ac6b5c67"
+    },
+    {
+      "frame": 9,
+      "source": "09-ingredients-base.png",
+      "source_size": [
+        1254,
+        1254
+      ],
+      "final": "09-ingredients-and-care-infographic.png",
+      "web": "09.jpg",
+      "final_size": [
+        2048,
+        2048
+      ],
+      "web_size": [
+        1200,
+        1200
+      ],
+      "sha256": "4f344606778b005adfc434bdbe8ad2ba19acbf087ac61e73db11812f7e0bb1af"
+    },
+    {
+      "frame": 10,
+      "source": "10-seaside-closing-base.png",
+      "source_size": [
+        1254,
+        1254
+      ],
+      "final": "10-closing-hero.png",
+      "web": "10.jpg",
+      "final_size": [
+        2048,
+        2048
+      ],
+      "web_size": [
+        1200,
+        1200
+      ],
+      "sha256": "292ce95ff5ecf4b5868b73338bdbd1f61fd1bf45a772c779f5fb657ed9785c15"
+    },
+    {
+      "frame": 11,
+      "source": "11-scent-description-base.png",
+      "source_size": [
+        1254,
+        1254
+      ],
+      "final": "11-scent-description-infographic.png",
+      "web": "11.jpg",
+      "final_size": [
+        2048,
+        2048
+      ],
+      "web_size": [
+        1200,
+        1200
+      ],
+      "sha256": "95821543fc5b862a0832b5f1ad7e1b1ccdb43b06db6b6358c04e93da9b3e82ca"
+    },
+    {
+      "frame": 12,
+      "source": "12-who-it-fits-base.png",
+      "source_size": [
+        1254,
+        1254
+      ],
+      "final": "12-who-it-fits-infographic.png",
+      "web": "12.jpg",
+      "final_size": [
+        2048,
+        2048
+      ],
+      "web_size": [
+        1200,
+        1200
+      ],
+      "sha256": "9ec18b6ac4f599de0786d6dd7bd59a97f72d3bd502a06f28515a7b6eed81b27b"
+    }
+  ]
+}

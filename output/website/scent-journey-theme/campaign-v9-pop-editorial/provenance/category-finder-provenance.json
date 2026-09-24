@@ -1,0 +1,336 @@
+{
+  "status": "PASS",
+  "assets": [
+    {
+      "stem": "sj-banner-women-light",
+      "source": "/Users/wetrade/.codex/generated_images/01a0d0f9-88d3-7d82-84d9-c31b20b30821/exec-366f47c2-f074-4f84-bcd3-2c7dd486c739.png",
+      "promptFiles": [
+        "prompts/sj-banner-women-light.txt",
+        "prompts/sj-banner-women-light-reframe.txt"
+      ],
+      "references": [
+        "campaign-v9-pop-editorial/references/publication-materials-reference.png (viewed style guidance only)",
+        "first generated candidate used for targeted reframing"
+      ],
+      "qa": {
+        "status": "PASS",
+        "people": 1,
+        "headroomPercent": 13,
+        "faceCenterPercent": [
+          71,
+          27
+        ],
+        "notes": "Bright tactile knit/denim, natural hands, no logos/bottles/text. Targeted built-in edit widened framing; first tight crop is not selected."
+      },
+      "alt": "A smiling Filipina in cobalt knit and denim adjusts red sunglasses beside a sunlit cream veranda wall.",
+      "initialSource": "/Users/wetrade/.codex/generated_images/01a0d0f9-88d3-7d82-84d9-c31b20b30821/exec-7f694440-0396-46c8-afce-10eb0beee991.png",
+      "outputPath": "originals/sj-banner-women-light.png",
+      "generationMode": "built-in image_gen",
+      "rasterEditing": "Built-in generation plus one targeted built-in edit; no Python/CLI raster editing",
+      "dimensions": [
+        1774,
+        887
+      ],
+      "sha256": "3eb881bbfcdd77dcf99abac47755922561842de8189a5088664cf84afbd55b19",
+      "absoluteOutputPath": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/campaign-v9-pop-editorial/originals/sj-banner-women-light.png",
+      "initialArchivePath": "originals/revisions/sj-banner-women-light-initial-unshipped.png",
+      "initialStatus": "Unshipped framing candidate, superseded by selected built-in edit",
+      "calls": [
+        {
+          "kind": "generate",
+          "prompt": "Use case: photorealistic-natural. Asset type: high-quality commercial fashion-editorial website header photo, landscape 2:1 around 1774 x 887. Make one coherent photograph, not a collage. Contemporary everyday Philippines, attainable setting, one adult Filipino model TOTAL. Bold approachable publication-material energy: punchy saturated scarlet, cobalt blue, lemon yellow and green, tactile knit/denim/accessories, bright direct sunshine, candid easy expression, real skin texture and physically natural anatomy. Composition: LEFT 43% of the entire frame is a quiet pale cream real wall for live heading copy, not busy scenery. All subject and important action in RIGHT half x60–94%; face centered x75% y28%; full head/hair visible with about 12–15% image-height clear space above, hands fully visible above y65%. Medium-wide environmental fashion framing, thighs may leave bottom; never tight beauty portrait. This will crop to a 390x600 mobile banner focused around x75%, so preserve face, hands and key accessory within that right-side column. No perfume, no bottles, no packaging, no brand logos, no signs, no written text, no watermarks, no UI, no extra people or partial people, no people in posters or reflections. Lively and warm, never dark/gloomy, never fantasy.\nSpecific asset: WOMEN LIGHT. Exactly one adult morena Filipina in her late twenties, playful natural smile, shoulder-length black hair swept lightly by a breeze. She wears a tactile cobalt-blue short-sleeve knit top with a scarlet band at the cuffs, classic mid-blue denim jeans, and a small lemon-yellow fabric shoulder bag. At a sunny ordinary Philippine residential veranda with a clean warm-ivory plaster wall, a simple pale concrete ledge and a sliver of bright blue sky at the extreme upper right. Candid style moment: she lifts red translucent sunglasses toward her face with one naturally positioned hand, the other lightly holding the bag strap at chest level. Both complete hands on the right, action above y62%. Tiny silver hoops only. Sun makes crisp pleasing shadows and bright fabric texture; direct but flattering light. Cheerful self-possession, not a formal catalogue pose. No café, no flowers, no food, no car. Quiet cream wall occupies the full left 43%, with only very subtle real sunlight texture; her cast shadow stays mostly right. Fresh original scene guided by bold pop-fashion publication material, not copying any reference composition.\n",
+          "promptPath": "prompts/sj-banner-women-light.txt",
+          "inputImages": [],
+          "sourceOutputPath": "/Users/wetrade/.codex/generated_images/01a0d0f9-88d3-7d82-84d9-c31b20b30821/exec-7f694440-0396-46c8-afce-10eb0beee991.png"
+        },
+        {
+          "kind": "edit",
+          "prompt": "Edit this existing photograph only to improve the banner framing. Keep the same one adult Filipina, face, smiling expression, cobalt knit with scarlet cuffs, denim, yellow bag, red sunglasses, sunny veranda materials, natural hands and direct-sunlight pop-editorial style. WIDEN THE CAMERA SHOT substantially so the subject is seen from full head through both knees, with the entire top 15% of the picture being empty real cream wall/sky ABOVE her hair. Her hair must begin at y15% or lower, her face center should be x75% y28%, and both complete hands must remain in right half above y65%. Keep her centered around x75% and the left43% of the photograph clear quiet cream wall. Retain a native 2:1 landscape frame. Do not merely add a border: make it a seamless physically plausible wider camera photograph. No new people, no bottles, no text, no logos.\n",
+          "promptPath": "prompts/sj-banner-women-light-reframe.txt",
+          "inputImages": [
+            "/Users/wetrade/.codex/generated_images/01a0d0f9-88d3-7d82-84d9-c31b20b30821/exec-7f694440-0396-46c8-afce-10eb0beee991.png"
+          ],
+          "sourceOutputPath": "/Users/wetrade/.codex/generated_images/01a0d0f9-88d3-7d82-84d9-c31b20b30821/exec-366f47c2-f074-4f84-bcd3-2c7dd486c739.png"
+        }
+      ],
+      "initialArchiveSha256": "4923ff66eff95180119326b980f08b5123b2abad0e03147de0e1a7bc657e24b6"
+    },
+    {
+      "stem": "sj-banner-women-dark",
+      "source": "/Users/wetrade/.codex/generated_images/01a0d0f9-88d3-7d82-84d9-c31b20b30821/exec-981a8918-9790-4b7f-a330-a6fa9e89d49d.png",
+      "promptFiles": [
+        "prompts/sj-banner-women-dark.txt",
+        "prompts/sj-banner-women-dark-reframe.txt"
+      ],
+      "references": [
+        "campaign-v9-pop-editorial/references/publication-materials-reference.png (viewed style guidance only)",
+        "first generated candidate used for targeted reframing"
+      ],
+      "qa": {
+        "status": "PASS",
+        "people": 1,
+        "headroomPercent": 19,
+        "faceCenterPercent": [
+          67,
+          28
+        ],
+        "notes": "Distinct photograph, rich scarlet/green wardrobe in bright daylight, natural hands, blue shutter real environment. Extra headroom preserved for responsive crop."
+      },
+      "alt": "A Filipina in a scarlet blouse and indigo denim turns with a smile, carrying a green bag and lemon scarf beside a blue-shuttered cream wall.",
+      "initialSource": "/Users/wetrade/.codex/generated_images/01a0d0f9-88d3-7d82-84d9-c31b20b30821/exec-6ca3e0c9-d5fd-4f2e-9fb6-df3a3d8254ef.png",
+      "outputPath": "originals/sj-banner-women-dark.png",
+      "generationMode": "built-in image_gen",
+      "rasterEditing": "Built-in generation plus one targeted built-in edit; no Python/CLI raster editing",
+      "dimensions": [
+        1774,
+        887
+      ],
+      "sha256": "a919ab887923b0b66973bd1eb0de33dbfab982766ffa2be19876eef51de9add5",
+      "absoluteOutputPath": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/campaign-v9-pop-editorial/originals/sj-banner-women-dark.png",
+      "initialArchivePath": "originals/revisions/sj-banner-women-dark-initial-unshipped.png",
+      "initialStatus": "Unshipped framing candidate, superseded by selected built-in edit",
+      "calls": [
+        {
+          "kind": "generate",
+          "prompt": "Use case: photorealistic-natural. Asset type: high-quality commercial fashion-editorial website header photo, landscape 2:1 around 1774 x 887. Make one coherent photograph, not a collage. Contemporary everyday Philippines, attainable setting, one adult Filipino model TOTAL. Bold approachable publication-material energy: punchy saturated scarlet, cobalt blue, lemon yellow and green, tactile knit/denim/accessories, bright direct sunshine, candid easy expression, real skin texture and physically natural anatomy. Composition: LEFT 43% of the entire frame is a quiet pale cream real wall for live heading copy, not busy scenery. All subject and important action in RIGHT half x60–94%; face centered x75% y28%; full head/hair visible with about 12–15% image-height clear space above, hands fully visible above y65%. Wide environmental fashion framing showing the person from full head through both knees. The model stands a little back from the camera, appearing small enough that a broad band of real wall is clearly visible ABOVE the hair. The topmost hair must sit BELOW the upper 15% line; never let the head touch the top. Face size is modest, not a beauty portrait. This will crop to a 390x600 mobile banner focused around x75%, so preserve face, hands and key accessory within that right-side column. No perfume, no bottles, no packaging, no brand logos, no signs, no written text, no watermarks, no UI, no extra people or partial people, no people in posters or reflections. Lively and warm, never dark/gloomy, never fantasy.\nSpecific asset: WOMEN DARK, a completely NEW photograph, not a relighting or duplicate. One adult Filipina around thirty with warm brown skin, a loose long black ponytail, an open spontaneous smile. She wears a saturated SCARLET relaxed cotton blouse tucked into dark indigo straight-leg jeans, chunky small green resin earrings and a little glossy grass-green shoulder bag. Contemporary sunny Philippine neighborhood street corner with a real pale blush-cream stucco wall; a small cobalt-painted window shutter is at far right only, no signs or other people. She is caught in a lightly turning step, glancing back toward the camera warmly while adjusting the scarf knot on her bag strap at upper-waist/chest height; both hands entirely visible, natural and relaxed. A lemon-yellow narrow scarf adds a tactile accent. Torso mostly faces camera, not contorted. Shot from a little distance so the FULL head starts below the top15% with cream wall above; visible head through knees; face x75% y28%; all important hand action at x70–84%, y48–61%. Left43% is quiet pale wall, no objects across it. Strong fresh sunshine and soft reflected fill, bright rich wardrobe, crisp fine cotton and denim texture. This is the website DARK theme image but the photo remains bright DAYLIGHT, never night or low-key. No café, no flower market, no bottles.\n",
+          "promptPath": "prompts/sj-banner-women-dark.txt",
+          "inputImages": [],
+          "sourceOutputPath": "/Users/wetrade/.codex/generated_images/01a0d0f9-88d3-7d82-84d9-c31b20b30821/exec-6ca3e0c9-d5fd-4f2e-9fb6-df3a3d8254ef.png"
+        },
+        {
+          "kind": "edit",
+          "prompt": "Edit this photograph ONLY to widen its camera framing and reposition the same scene slightly down and right. Preserve this one Filipina, face, smile, natural hands, scarlet blouse, green shoulder bag with lemon scarf, indigo denim, pale plaster wall, cobalt shutter, bright sunshine and all fashion-editorial detail. Show her from complete head to knees, smaller in the frame. Her TOPMOST HAIR MUST START at y15% of the picture, leaving a broad clear uninterrupted strip of real wall above her; her face center should fall near x75%, y28%. Keep both full hands in x70–84%, above y62%. Model body in right half, quiet wall left43%, native2:1 landscape. Make a seamless wider real-camera photo, not a frame/border. No new people, faces, bottles, lettering, or logos.\n",
+          "promptPath": "prompts/sj-banner-women-dark-reframe.txt",
+          "inputImages": [
+            "/Users/wetrade/.codex/generated_images/01a0d0f9-88d3-7d82-84d9-c31b20b30821/exec-6ca3e0c9-d5fd-4f2e-9fb6-df3a3d8254ef.png"
+          ],
+          "sourceOutputPath": "/Users/wetrade/.codex/generated_images/01a0d0f9-88d3-7d82-84d9-c31b20b30821/exec-981a8918-9790-4b7f-a330-a6fa9e89d49d.png"
+        }
+      ],
+      "initialArchiveSha256": "1c880356a3895e9f73e28121dba4ec2ae551bf105cc8933b24486ca2a226dc49"
+    },
+    {
+      "stem": "sj-banner-men-light",
+      "source": "/Users/wetrade/.codex/generated_images/01a0d0f9-88d3-7d82-84d9-c31b20b30821/exec-28a148c6-41ce-4ad8-8e9c-badb4a0a5627.png",
+      "promptFiles": [
+        "prompts/sj-banner-men-light.txt",
+        "prompts/sj-banner-men-light-reframe.txt"
+      ],
+      "references": [
+        "campaign-v9-pop-editorial/references/publication-materials-reference.png (viewed style guidance only)",
+        "first generated candidate used for targeted reframing"
+      ],
+      "qa": {
+        "status": "PASS",
+        "people": 1,
+        "headroomPercent": 16,
+        "faceCenterPercent": [
+          68,
+          24
+        ],
+        "notes": "Natural grip/contact with scarlet bicycle, bold cobalt/lemon wardrobe, both hands above y56%; no recognizable logos or extra people."
+      },
+      "alt": "A laughing Filipino man in cobalt and lemon rests his hand on a scarlet bicycle beside a sunlit coastal promenade.",
+      "initialSource": "/Users/wetrade/.codex/generated_images/01a0d0f9-88d3-7d82-84d9-c31b20b30821/exec-db9b74e2-1ff3-4f0a-ad4a-3a2db7cea850.png",
+      "outputPath": "originals/sj-banner-men-light.png",
+      "generationMode": "built-in image_gen",
+      "rasterEditing": "Built-in generation plus one targeted built-in edit; no Python/CLI raster editing",
+      "dimensions": [
+        1774,
+        887
+      ],
+      "sha256": "fffdef78462a50e6e1362b53eefb1a46e54c3d24cfceeb088b198f6d34daa7b1",
+      "absoluteOutputPath": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/campaign-v9-pop-editorial/originals/sj-banner-men-light.png",
+      "initialArchivePath": "originals/revisions/sj-banner-men-light-initial-unshipped.png",
+      "initialStatus": "Unshipped framing candidate, superseded by selected built-in edit",
+      "calls": [
+        {
+          "kind": "generate",
+          "prompt": "Use case: photorealistic-natural. Asset type: high-quality commercial fashion-editorial website header photo, landscape 2:1 around 1774 x 887. Make one coherent photograph, not a collage. Contemporary everyday Philippines, attainable setting, one adult Filipino model TOTAL. Bold approachable publication-material energy: punchy saturated scarlet, cobalt blue, lemon yellow and green, tactile knit/denim/accessories, bright direct sunshine, candid easy expression, real skin texture and physically natural anatomy. Composition: LEFT 43% of the entire frame is a quiet pale cream real wall for live heading copy, not busy scenery. All subject and important action in RIGHT half x60–94%; face centered x75% y28%; full head/hair visible with about 12–15% image-height clear space above, hands fully visible above y65%. Wide environmental fashion framing showing the person from full head through both knees. The model stands a little back from the camera, appearing small enough that a broad band of real wall is clearly visible ABOVE the hair. The topmost hair must sit BELOW the upper 15% line; never let the head touch the top. Face size is modest, not a beauty portrait. This will crop to a 390x600 mobile banner focused around x75%, so preserve face, hands and key accessory within that right-side column. No perfume, no bottles, no packaging, no brand logos, no signs, no written text, no watermarks, no UI, no extra people or partial people, no people in posters or reflections. Lively and warm, never dark/gloomy, never fantasy.\nSpecific asset: MEN LIGHT. Exactly one adult Filipino man, late twenties, tan complexion, short textured black hair, candid big easy smile. He wears a saturated lemon-yellow waffle-knit tee, an open cobalt cotton short-sleeve overshirt, washed dark denim, and simple silver wristwatch. An ordinary sunny coastal-town promenade in the Philippines: clean warm-white painted utility wall across LEFT half, blue sky and distant water visible only at extreme right. He has stopped with a scarlet city bicycle, only its natural handlebar/front portion on the far right lower frame; bicycle remains correctly human scale. He leans just slightly toward its handlebar, one hand resting on the handlebar around y57%, other hand casually holding his overshirt lapel near chest; both whole hands fully visible in right half. Camera catches his spontaneous laugh toward a friend off camera (friend never visible). No formal posing. Wide knee-up environmental framing, top of hair at y14–17%, face center x75%,y28%. Model x65–88%; quiet pale wall left43%. Strong bright sunshine, vivid primary colors, tactile everyday cotton/knit/denim, uplifting warm fashion campaign. No basketball court, café, bookshop, car, product bottles, or other people.\n",
+          "promptPath": "prompts/sj-banner-men-light.txt",
+          "inputImages": [],
+          "sourceOutputPath": "/Users/wetrade/.codex/generated_images/01a0d0f9-88d3-7d82-84d9-c31b20b30821/exec-db9b74e2-1ff3-4f0a-ad4a-3a2db7cea850.png"
+        },
+        {
+          "kind": "edit",
+          "prompt": "Edit this existing sunny photograph ONLY for wider camera composition: preserve the one Filipino man, face, easy laugh, lemon knit/cobalt overshirt/denim, natural hand grip, red bicycle, coastal promenade, cream wall and bright sunlight. Pull the camera back so the whole man and bicycle are about 20% smaller within the same native2:1 frame. Place the top of his hair at y15% and face near x75%,y27%. IMPORTANT: his entire hand resting on the bicycle handlebar must move up to y62% or above because this banner has text on its lower half; both full hands in right half above y65%. The bicycle stays proportional and physically contacts the floor; remove its tiny head-tube emblem so it is a plain unbranded scarlet bicycle. Broad clear cream wall on left43%, subject on right62–88%. Seamless realistic wider photo, no border, no new people, no signs/text/products.\n",
+          "promptPath": "prompts/sj-banner-men-light-reframe.txt",
+          "inputImages": [
+            "/Users/wetrade/.codex/generated_images/01a0d0f9-88d3-7d82-84d9-c31b20b30821/exec-db9b74e2-1ff3-4f0a-ad4a-3a2db7cea850.png"
+          ],
+          "sourceOutputPath": "/Users/wetrade/.codex/generated_images/01a0d0f9-88d3-7d82-84d9-c31b20b30821/exec-28a148c6-41ce-4ad8-8e9c-badb4a0a5627.png"
+        }
+      ],
+      "initialArchiveSha256": "8983e25de2b0384a51e23390abc75e121c2b45d62d8c6aa8133c25ecc2918cac"
+    },
+    {
+      "stem": "sj-banner-men-dark",
+      "source": "/Users/wetrade/.codex/generated_images/01a0d0f9-88d3-7d82-84d9-c31b20b30821/exec-8cafbbf9-3371-4ba8-939c-19d160ad69d1.png",
+      "promptFiles": [
+        "prompts/sj-banner-men-dark.txt",
+        "prompts/sj-banner-men-dark-repair.txt"
+      ],
+      "references": [
+        "campaign-v9-pop-editorial/references/publication-materials-reference.png (viewed style guidance only)",
+        "first generated candidate used for targeted mark-removal/framing edit"
+      ],
+      "qa": {
+        "status": "PASS",
+        "people": 1,
+        "headroomPercent": 16,
+        "faceCenterPercent": [
+          67,
+          26
+        ],
+        "notes": "Distinct bright daylight stair scene; natural cap/strap grip, plain unbranded green canvas bag after targeted built-in removal, hands above y58%."
+      },
+      "alt": "A smiling Filipino man in a scarlet knit polo holds a lemon cap beside a blue-railed outdoor stairway.",
+      "initialSource": "/Users/wetrade/.codex/generated_images/01a0d0f9-88d3-7d82-84d9-c31b20b30821/exec-346ac876-1367-4913-9e00-dec34b3d8ef7.png",
+      "outputPath": "originals/sj-banner-men-dark.png",
+      "generationMode": "built-in image_gen",
+      "rasterEditing": "Built-in generation plus one targeted built-in edit; no Python/CLI raster editing",
+      "dimensions": [
+        1774,
+        887
+      ],
+      "sha256": "fdd0fe3eb929f09d4fc01abe74a9bc0acebc22e44bef698218487608f3568bda",
+      "absoluteOutputPath": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/campaign-v9-pop-editorial/originals/sj-banner-men-dark.png",
+      "initialArchivePath": "originals/revisions/sj-banner-men-dark-initial-unshipped.png",
+      "initialStatus": "Unshipped framing candidate, superseded by selected built-in edit",
+      "calls": [
+        {
+          "kind": "generate",
+          "prompt": "Use case: photorealistic-natural. Asset type: high-quality commercial fashion-editorial website header photo, landscape 2:1 around 1774 x 887. Make one coherent photograph, not a collage. Contemporary everyday Philippines, attainable setting, one adult Filipino model TOTAL. Bold approachable publication-material energy: punchy saturated scarlet, cobalt blue, lemon yellow and green, tactile knit/denim/accessories, bright direct sunshine, candid easy expression, real skin texture and physically natural anatomy. Composition: LEFT 43% of the entire frame is a quiet pale cream real wall for live heading copy, not busy scenery. All subject and important action in RIGHT half x60–94%; face centered x75% y28%; full head/hair visible with about 12–15% image-height clear space above, hands fully visible above y65%. Wide environmental fashion framing showing the person from full head through both knees. The model stands a little back from the camera, appearing small enough that a broad band of real wall is clearly visible ABOVE the hair. The topmost hair must sit BELOW the upper 15% line; never let the head touch the top. Face size is modest, not a beauty portrait. This will crop to a 390x600 mobile banner focused around x75%, so preserve face, hands and key accessory within that right-side column. No perfume, no bottles, no packaging, no brand logos, no signs, no written text, no watermarks, no UI, no extra people or partial people, no people in posters or reflections. Lively and warm, never dark/gloomy, never fantasy.\nSpecific asset: MEN DARK, a NEW photograph and distinct scene, never a duplicate or relight. One adult Filipino man aged about thirty, warm tan skin, wavy dark hair, a playful welcoming smile mid-laugh. He wears a vivid rich scarlet knit polo with cobalt tipped collar and cuffs, dark indigo relaxed denim, and a small plain grass-green canvas crossbody satchel. He is on a real sunny outdoor stair landing in a contemporary Filipino neighborhood; broad pale cream wall covers left43%, simple blue painted handrail and pale concrete stairs occur far right only. He pauses mid-step and lifts a bright lemon canvas baseball cap in one fully visible hand at chest level, his other hand holding the satchel strap at upper chest; both hands close to torso in right half y42–58%. Not waving above his face. Wide environmental framing from entire head through knees, shot from a little distance: generous blank wall clearly ABOVE him, highest hair at y15%, face centered near x75%,y28%. His head must not touch top border. Bright midday sun and fresh clear shadows, saturated primary wardrobe, tactile knit/denim/canvas, relaxed confident approachable fashion-editorial gesture. Dark theme means richer wardrobe, not dark lighting. No bicycle, café, tennis/basketball court, cars, product bottles, scenery people or street lettering.\n",
+          "promptPath": "prompts/sj-banner-men-dark.txt",
+          "inputImages": [],
+          "sourceOutputPath": "/Users/wetrade/.codex/generated_images/01a0d0f9-88d3-7d82-84d9-c31b20b30821/exec-346ac876-1367-4913-9e00-dec34b3d8ef7.png"
+        },
+        {
+          "kind": "edit",
+          "prompt": "Precise edit of this existing photograph. Remove ONLY the tiny white embroidered mark from the lower front of the green crossbody satchel; replace that mark with exactly the same plain green canvas texture. Also pull the camera back very slightly, about 10%, to provide 15% clear cream-wall headroom above his complete hair and place his face near x73%,y28%. Preserve the same one Filipino man, face/smile, pose and natural hands, scarlet knit polo with blue trim, yellow cap, green strap and bag, indigo denim, cream wall, blue stair rail, warm bright sunshine, native2:1 framing. Left43% quiet cream wall remains. No new objects, people, text, logos or bottles. Keep this bright punchy editorial photograph as close as possible to the input aside from the mark removal and small framing improvement.\n",
+          "promptPath": "prompts/sj-banner-men-dark-repair.txt",
+          "inputImages": [
+            "/Users/wetrade/.codex/generated_images/01a0d0f9-88d3-7d82-84d9-c31b20b30821/exec-346ac876-1367-4913-9e00-dec34b3d8ef7.png"
+          ],
+          "sourceOutputPath": "/Users/wetrade/.codex/generated_images/01a0d0f9-88d3-7d82-84d9-c31b20b30821/exec-8cafbbf9-3371-4ba8-939c-19d160ad69d1.png"
+        }
+      ],
+      "initialArchiveSha256": "550f6614f8303e8c3d67b177f860daf1c6cb4e5d78e34c1c1bf346d9767011f9"
+    },
+    {
+      "stem": "sj-banner-finder-light",
+      "source": "/Users/wetrade/.codex/generated_images/01a0d0f9-88d3-7d82-84d9-c31b20b30821/exec-12c14c68-4ef4-437c-bb80-5ee816c9907f.png",
+      "promptFiles": [
+        "prompts/sj-banner-finder-light.txt",
+        "prompts/sj-banner-finder-light-reframe.txt"
+      ],
+      "references": [
+        "campaign-v9-pop-editorial/references/publication-materials-reference.png (viewed style guidance only)",
+        "first generated candidate used for targeted reframing"
+      ],
+      "qa": {
+        "status": "PASS",
+        "people": 1,
+        "headroomPercent": 17,
+        "faceCenterPercent": [
+          71,
+          26
+        ],
+        "notes": "Distinct accessory-choice gesture, natural complete hands above y39%, vivid scarlet/lemon/green and blue tiles, no bottles/logos/other people."
+      },
+      "alt": "A Filipina in lemon knit compares a scarlet jacket with green sunglasses in a bright blue-tiled apartment corridor.",
+      "initialSource": "/Users/wetrade/.codex/generated_images/01a0d0f9-88d3-7d82-84d9-c31b20b30821/exec-073d6f5d-1da6-4153-bf02-35ad5a5db89e.png",
+      "outputPath": "originals/sj-banner-finder-light.png",
+      "generationMode": "built-in image_gen",
+      "rasterEditing": "Built-in generation plus one targeted built-in edit; no Python/CLI raster editing",
+      "dimensions": [
+        1774,
+        887
+      ],
+      "sha256": "41e43bf132684405ee6b5bd65cedeadae7851b220e1b7a1b9d8a1f4d98b17985",
+      "absoluteOutputPath": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/campaign-v9-pop-editorial/originals/sj-banner-finder-light.png",
+      "initialArchivePath": "originals/revisions/sj-banner-finder-light-initial-unshipped.png",
+      "initialStatus": "Unshipped framing candidate, superseded by selected built-in edit",
+      "calls": [
+        {
+          "kind": "generate",
+          "prompt": "Use case: photorealistic-natural. Asset type: high-quality commercial fashion-editorial website header photo, landscape 2:1 around 1774 x 887. Make one coherent photograph, not a collage. Contemporary everyday Philippines, attainable setting, one adult Filipino model TOTAL. Bold approachable publication-material energy: punchy saturated scarlet, cobalt blue, lemon yellow and green, tactile knit/denim/accessories, bright direct sunshine, candid easy expression, real skin texture and physically natural anatomy. Composition: LEFT 43% of the entire frame is a quiet pale cream real wall for live heading copy, not busy scenery. All subject and important action in RIGHT half x60–94%; face centered x75% y28%; full head/hair visible with about 12–15% image-height clear space above, hands fully visible above y65%. Wide environmental fashion framing showing the person from full head through both knees. The model stands a little back from the camera, appearing small enough that a broad band of real wall is clearly visible ABOVE the hair. The topmost hair must sit BELOW the upper 15% line; never let the head touch the top. Face size is modest, not a beauty portrait. This will crop to a 390x600 mobile banner focused around x75%, so preserve face, hands and key accessory within that right-side column. No perfume, no bottles, no packaging, no brand logos, no signs, no written text, no watermarks, no UI, no extra people or partial people, no people in posters or reflections. Lively and warm, never dark/gloomy, never fantasy.\nSpecific asset: SCENT FINDER LIGHT. Exactly one adult Filipina in her late twenties with medium brown skin, a short soft black bob and a mischievous friendly grin. A playful personal-style choice in a real light-filled Philippine apartment outdoor corridor, not a store or café. The left43% is a broad clean pale buttercream wall; a simple white open doorway and a small patch of cobalt tile are visible only on far right. She wears a tactile bright LEMON short-sleeve knit top and mid-blue jeans. She holds a vivid SCARLET lightweight jacket on a plain wooden hanger in her right hand at upper chest height, and her other hand lifts plain translucent GREEN sunglasses near her shoulder as if deciding which accessory feels right today. One person, two natural fully visible hands, all key actions x67–84%,y40–60%. No wardrobe full of other clothes. Strong sunshine, relaxed mid-motion energy, editorial color punch, real textured skin. Broad environmental camera framing with the model standing back and her hair BELOW the top15% of image; face x75%,y28%; show head through knees, plenty of cream wall above her. No bags, no logos on clothing, no signage, no perfume bottles, no other people or reflected people. Not the same model/pose/location as either Women banner.\n",
+          "promptPath": "prompts/sj-banner-finder-light.txt",
+          "inputImages": [],
+          "sourceOutputPath": "/Users/wetrade/.codex/generated_images/01a0d0f9-88d3-7d82-84d9-c31b20b30821/exec-073d6f5d-1da6-4153-bf02-35ad5a5db89e.png"
+        },
+        {
+          "kind": "edit",
+          "prompt": "Refine ONLY the camera framing of this existing bright photo. Preserve the same one Filipina, short bob, playful expression, yellow knit tee, blue denim, scarlet jacket/wooden hanger, green sunglasses, both natural hands, cream wall, doorway, blue tiles and sunlight. Pull camera back slightly and place her a little farther RIGHT. Her complete hair starts at y15% with generous clear wall above it; face center near x74%,y28%; both hands remain fully visible and above y60%; jacket entirely to the right of x54%. Keep left43% quiet cream wall. Native2:1 landscape, seamless wider real photograph, no borders. No new objects, people, text, logos or bottles.\n",
+          "promptPath": "prompts/sj-banner-finder-light-reframe.txt",
+          "inputImages": [
+            "/Users/wetrade/.codex/generated_images/01a0d0f9-88d3-7d82-84d9-c31b20b30821/exec-073d6f5d-1da6-4153-bf02-35ad5a5db89e.png"
+          ],
+          "sourceOutputPath": "/Users/wetrade/.codex/generated_images/01a0d0f9-88d3-7d82-84d9-c31b20b30821/exec-12c14c68-4ef4-437c-bb80-5ee816c9907f.png"
+        }
+      ],
+      "initialArchiveSha256": "e08733d756c29bd6f1dfd15af9dfda1a8475e497b2f1f9ad4eec3ee855994e79"
+    },
+    {
+      "stem": "sj-banner-finder-dark",
+      "source": "/Users/wetrade/.codex/generated_images/01a0d0f9-88d3-7d82-84d9-c31b20b30821/exec-ed19042b-e9a0-459f-8c66-a26b4275bef5.png",
+      "promptFiles": [
+        "prompts/sj-banner-finder-dark.txt",
+        "prompts/sj-banner-finder-dark-reframe.txt"
+      ],
+      "references": [
+        "campaign-v9-pop-editorial/references/publication-materials-reference.png (viewed style guidance only)",
+        "first generated candidate used for targeted reframing"
+      ],
+      "qa": {
+        "status": "PASS",
+        "people": 1,
+        "headroomPercent": 19,
+        "faceCenterPercent": [
+          70,
+          28
+        ],
+        "notes": "Distinct green/cobalt wardrobe, friendly personal-style choice, two natural full hands above y55%, no labels/bottles/extra people."
+      },
+      "alt": "A Filipino man in green and cobalt compares a scarlet cap with a lemon bucket hat beside a sunlit blue doorway.",
+      "initialSource": "/Users/wetrade/.codex/generated_images/01a0d0f9-88d3-7d82-84d9-c31b20b30821/exec-56cce8f0-9db3-428c-bcfa-10655e158253.png",
+      "outputPath": "originals/sj-banner-finder-dark.png",
+      "generationMode": "built-in image_gen",
+      "rasterEditing": "Built-in generation plus one targeted built-in edit; no Python/CLI raster editing",
+      "dimensions": [
+        1774,
+        887
+      ],
+      "sha256": "2e0bf7a617ecf63a127c5200525d23f008af9c716f6ad007feedfc797a3b1574",
+      "absoluteOutputPath": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/campaign-v9-pop-editorial/originals/sj-banner-finder-dark.png",
+      "initialArchivePath": "originals/revisions/sj-banner-finder-dark-initial-unshipped.png",
+      "initialStatus": "Unshipped framing candidate, superseded by selected built-in edit",
+      "calls": [
+        {
+          "kind": "generate",
+          "prompt": "Use case: photorealistic-natural. Asset type: high-quality commercial fashion-editorial website header photo, landscape 2:1 around 1774 x 887. Make one coherent photograph, not a collage. Contemporary everyday Philippines, attainable setting, one adult Filipino model TOTAL. Bold approachable publication-material energy: punchy saturated scarlet, cobalt blue, lemon yellow and green, tactile knit/denim/accessories, bright direct sunshine, candid easy expression, real skin texture and physically natural anatomy. Composition: LEFT 43% of the entire frame is a quiet pale cream real wall for live heading copy, not busy scenery. All subject and important action in RIGHT half x60–94%; face centered x75% y28%; full head/hair visible with about 12–15% image-height clear space above, hands fully visible above y65%. Wide environmental fashion framing showing the person from full head through both knees. The model stands a little back from the camera, appearing small enough that a broad band of real wall is clearly visible ABOVE the hair. The topmost hair must sit BELOW the upper 15% line; never let the head touch the top. Face size is modest, not a beauty portrait. This will crop to a 390x600 mobile banner focused around x75%, so preserve face, hands and key accessory within that right-side column. No perfume, no bottles, no packaging, no brand logos, no signs, no written text, no watermarks, no UI, no extra people or partial people, no people in posters or reflections. Lively and warm, never dark/gloomy, never fantasy.\nSpecific asset: SCENT FINDER DARK. A NEW photograph with exactly one young adult Filipino man aged about twenty-seven, light-medium brown skin, short thick black hair, friendly amused smile. Expressive discovery/personal-style choice, no perfume shown. He wears a punchy rich GRASS-GREEN short-sleeve cotton overshirt over a simple cobalt tee, dark washed denim, and tiny silver hoop earrings. In a sunny real Philippine courtyard doorway with a pale apricot-cream plaster wall filling left43% and a simple cobalt-painted timber door frame at far right. He holds one plain scarlet baseball cap in one hand and one plain lemon-yellow bucket hat in the other, each raised naturally to lower chest level close to his torso, tilting his head slightly as he considers the two colors with a warm grin. Both hands are complete, anatomically natural and fully visible at x65–85%,y43–58%; no extra arms, hats have no labels/logos. Camera pulled back deliberately so his FULL HEAD sits BELOW a generous band of pale wall taking upper15% of image; face near x75%,y28%, show the person through knees, not a large closeup. Pop-color fashion editorial, tactile cotton/denim, fresh crisp sunlight, slight candid body movement. Dark theme means rich wardrobe, still bright sunny daylight. No sunglasses, bike, bags, cafés, text, product bottles or extra people.\n",
+          "promptPath": "prompts/sj-banner-finder-dark.txt",
+          "inputImages": [],
+          "sourceOutputPath": "/Users/wetrade/.codex/generated_images/01a0d0f9-88d3-7d82-84d9-c31b20b30821/exec-56cce8f0-9db3-428c-bcfa-10655e158253.png"
+        },
+        {
+          "kind": "edit",
+          "prompt": "Change only the framing of this photograph to make it a mobile-safe 2:1 header. Keep this same one Filipino man, face, gently amused expression, green overshirt/cobalt tee/dark denim, red baseball cap, yellow bucket hat, natural complete hands, blue doorway and pale plaster wall with warm direct sun. Pull the camera back by about15–20% and shift the subject a little toward the BLUE DOOR on the right. Leave a clearly visible band of uninterrupted pale wall ABOVE his full hair: topmost hair at y15% of the canvas, face center near x73–75%,y28%. See him through the knees, both hands fully inside right half above y60%, hats held naturally. Keep the left43% as quiet light wall. Seamless realistic wide photograph, no artificial border. Do not add anything; no extra people, labels, text, logos or bottles.\n",
+          "promptPath": "prompts/sj-banner-finder-dark-reframe.txt",
+          "inputImages": [
+            "/Users/wetrade/.codex/generated_images/01a0d0f9-88d3-7d82-84d9-c31b20b30821/exec-56cce8f0-9db3-428c-bcfa-10655e158253.png"
+          ],
+          "sourceOutputPath": "/Users/wetrade/.codex/generated_images/01a0d0f9-88d3-7d82-84d9-c31b20b30821/exec-ed19042b-e9a0-459f-8c66-a26b4275bef5.png"
+        }
+      ],
+      "initialArchiveSha256": "203996c37acda4c894362bcecad6bfc11cedaa089fe58c1c28d85918ee0ddcec"
+    }
+  ],
+  "scope": "Six Women, Men and Finder Light/Dark photos. Story pair generated separately by root.",
+  "styleReference": {
+    "path": "references/publication-materials-reference.png",
+    "usage": "Visually inspected and described in prompts; not passed as an image input to new-photo generation."
+  },
+  "limitations": "Approximate visual composition coordinates are QA estimates. Final page crop and live heading contrast are verified during root integration.",
+  "generatedAt": "2026-09-24T06:18:32.762448+00:00"
+}

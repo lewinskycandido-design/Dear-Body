@@ -1,0 +1,1612 @@
+{
+  "generatedAt": "2026-09-24T07:19:56.693Z",
+  "base": "http://127.0.0.1:4208",
+  "order": [
+    "01",
+    "11",
+    "12",
+    "08",
+    "09",
+    "05",
+    "06",
+    "07",
+    "02",
+    "03",
+    "04",
+    "10"
+  ],
+  "runs": [
+    {
+      "id": "order-mojito-metallique",
+      "handle": "mojito-metallique",
+      "width": 1440,
+      "theme": "light",
+      "errors": [],
+      "status": "PASS"
+    },
+    {
+      "id": "order-amber-oud-silk",
+      "handle": "amber-oud-silk",
+      "width": 1440,
+      "theme": "light",
+      "errors": [],
+      "status": "PASS"
+    },
+    {
+      "id": "order-mistened-narcissus",
+      "handle": "mistened-narcissus",
+      "width": 1440,
+      "theme": "light",
+      "errors": [],
+      "status": "PASS"
+    },
+    {
+      "id": "order-charme-envoutant",
+      "handle": "charme-envoutant",
+      "width": 1440,
+      "theme": "light",
+      "errors": [],
+      "status": "PASS"
+    },
+    {
+      "id": "order-oud-mirage",
+      "handle": "oud-mirage",
+      "width": 1440,
+      "theme": "light",
+      "errors": [],
+      "status": "PASS"
+    },
+    {
+      "id": "order-rtulle-satin",
+      "handle": "rtulle-satin",
+      "width": 1440,
+      "theme": "light",
+      "errors": [],
+      "status": "PASS"
+    },
+    {
+      "id": "behavior-1440-light",
+      "width": 1440,
+      "theme": "light",
+      "errors": [],
+      "status": "PASS"
+    },
+    {
+      "id": "behavior-390-dark",
+      "width": 390,
+      "theme": "dark",
+      "errors": [],
+      "status": "PASS"
+    },
+    {
+      "id": "layout-1440-dark",
+      "width": 1440,
+      "theme": "dark",
+      "errors": [],
+      "status": "PASS"
+    },
+    {
+      "id": "layout-320-light",
+      "width": 320,
+      "theme": "light",
+      "errors": [],
+      "status": "PASS"
+    },
+    {
+      "id": "layout-320-dark",
+      "width": 320,
+      "theme": "dark",
+      "errors": [],
+      "status": "PASS"
+    },
+    {
+      "id": "reduced-motion-390-light",
+      "width": 390,
+      "theme": "light",
+      "reduced": true,
+      "errors": [],
+      "status": "PASS"
+    },
+    {
+      "id": "native-video",
+      "width": 1440,
+      "theme": "light",
+      "fixture": "video",
+      "errors": [],
+      "status": "PASS"
+    },
+    {
+      "id": "native-model",
+      "width": 1440,
+      "theme": "light",
+      "fixture": "model",
+      "errors": [],
+      "status": "PASS"
+    },
+    {
+      "id": "native-single",
+      "width": 1440,
+      "theme": "light",
+      "fixture": "single",
+      "errors": [],
+      "status": "PASS"
+    }
+  ],
+  "checks": [
+    {
+      "status": 200,
+      "pass": true,
+      "label": "PDP responds successfully",
+      "id": "order-mojito-metallique"
+    },
+    {
+      "slides": [
+        {
+          "id": "studio-01",
+          "src": "/assets/sj-mojito-metallique-01.jpg"
+        },
+        {
+          "id": "studio-11",
+          "src": "/assets/sj-mojito-metallique-11.jpg"
+        },
+        {
+          "id": "studio-12",
+          "src": "/assets/sj-mojito-metallique-12.jpg"
+        },
+        {
+          "id": "studio-08",
+          "src": "/assets/sj-mojito-metallique-08.jpg"
+        },
+        {
+          "id": "studio-09",
+          "src": "/assets/sj-mojito-metallique-09.jpg"
+        },
+        {
+          "id": "studio-05",
+          "src": "/assets/sj-mojito-metallique-05.jpg"
+        },
+        {
+          "id": "studio-06",
+          "src": "/assets/sj-mojito-metallique-06.jpg"
+        },
+        {
+          "id": "studio-07",
+          "src": "/assets/sj-mojito-metallique-07.jpg"
+        },
+        {
+          "id": "studio-02",
+          "src": "/assets/sj-mojito-metallique-02.jpg"
+        },
+        {
+          "id": "studio-03",
+          "src": "/assets/sj-mojito-metallique-03.jpg"
+        },
+        {
+          "id": "studio-04",
+          "src": "/assets/sj-mojito-metallique-04.jpg"
+        },
+        {
+          "id": "studio-10",
+          "src": "/assets/sj-mojito-metallique-10.jpg"
+        }
+      ],
+      "thumbs": [
+        "studio-01",
+        "studio-11",
+        "studio-12",
+        "studio-08",
+        "studio-09",
+        "studio-05",
+        "studio-06",
+        "studio-07",
+        "studio-02",
+        "studio-03",
+        "studio-04",
+        "studio-10"
+      ],
+      "play": null,
+      "arrows": [
+        {
+          "svg": true,
+          "text": "",
+          "controls": "ProductGallery-main"
+        },
+        {
+          "svg": true,
+          "text": "",
+          "controls": "ProductGallery-main"
+        }
+      ],
+      "gallery": "ProductGallery-main",
+      "pass": true,
+      "label": "Twelve existing images and thumbnails retain approved storefront order",
+      "id": "order-mojito-metallique"
+    },
+    {
+      "pass": true,
+      "label": "No Play control; both SVG chevrons target native gallery",
+      "id": "order-mojito-metallique"
+    },
+    {
+      "pass": true,
+      "label": "Initial visual counter matches actual gallery",
+      "id": "order-mojito-metallique"
+    },
+    {
+      "errors": [],
+      "pass": true,
+      "label": "No browser JavaScript errors",
+      "id": "order-mojito-metallique"
+    },
+    {
+      "status": 200,
+      "pass": true,
+      "label": "PDP responds successfully",
+      "id": "order-amber-oud-silk"
+    },
+    {
+      "slides": [
+        {
+          "id": "studio-01",
+          "src": "/assets/sj-amber-oud-silk-01.jpg"
+        },
+        {
+          "id": "studio-11",
+          "src": "/assets/sj-amber-oud-silk-11.jpg"
+        },
+        {
+          "id": "studio-12",
+          "src": "/assets/sj-amber-oud-silk-12.jpg"
+        },
+        {
+          "id": "studio-08",
+          "src": "/assets/sj-amber-oud-silk-08.jpg"
+        },
+        {
+          "id": "studio-09",
+          "src": "/assets/sj-amber-oud-silk-09.jpg"
+        },
+        {
+          "id": "studio-05",
+          "src": "/assets/sj-amber-oud-silk-05.jpg"
+        },
+        {
+          "id": "studio-06",
+          "src": "/assets/sj-amber-oud-silk-06.jpg"
+        },
+        {
+          "id": "studio-07",
+          "src": "/assets/sj-amber-oud-silk-07.jpg"
+        },
+        {
+          "id": "studio-02",
+          "src": "/assets/sj-amber-oud-silk-02.jpg"
+        },
+        {
+          "id": "studio-03",
+          "src": "/assets/sj-amber-oud-silk-03.jpg"
+        },
+        {
+          "id": "studio-04",
+          "src": "/assets/sj-amber-oud-silk-04.jpg"
+        },
+        {
+          "id": "studio-10",
+          "src": "/assets/sj-amber-oud-silk-10.jpg"
+        }
+      ],
+      "thumbs": [
+        "studio-01",
+        "studio-11",
+        "studio-12",
+        "studio-08",
+        "studio-09",
+        "studio-05",
+        "studio-06",
+        "studio-07",
+        "studio-02",
+        "studio-03",
+        "studio-04",
+        "studio-10"
+      ],
+      "play": null,
+      "arrows": [
+        {
+          "svg": true,
+          "text": "",
+          "controls": "ProductGallery-main"
+        },
+        {
+          "svg": true,
+          "text": "",
+          "controls": "ProductGallery-main"
+        }
+      ],
+      "gallery": "ProductGallery-main",
+      "pass": true,
+      "label": "Twelve existing images and thumbnails retain approved storefront order",
+      "id": "order-amber-oud-silk"
+    },
+    {
+      "pass": true,
+      "label": "No Play control; both SVG chevrons target native gallery",
+      "id": "order-amber-oud-silk"
+    },
+    {
+      "pass": true,
+      "label": "Initial visual counter matches actual gallery",
+      "id": "order-amber-oud-silk"
+    },
+    {
+      "errors": [],
+      "pass": true,
+      "label": "No browser JavaScript errors",
+      "id": "order-amber-oud-silk"
+    },
+    {
+      "status": 200,
+      "pass": true,
+      "label": "PDP responds successfully",
+      "id": "order-mistened-narcissus"
+    },
+    {
+      "slides": [
+        {
+          "id": "studio-01",
+          "src": "/assets/sj-mistened-narcissus-01.jpg"
+        },
+        {
+          "id": "studio-11",
+          "src": "/assets/sj-mistened-narcissus-11.jpg"
+        },
+        {
+          "id": "studio-12",
+          "src": "/assets/sj-mistened-narcissus-12.jpg"
+        },
+        {
+          "id": "studio-08",
+          "src": "/assets/sj-mistened-narcissus-08.jpg"
+        },
+        {
+          "id": "studio-09",
+          "src": "/assets/sj-mistened-narcissus-09.jpg"
+        },
+        {
+          "id": "studio-05",
+          "src": "/assets/sj-mistened-narcissus-05.jpg"
+        },
+        {
+          "id": "studio-06",
+          "src": "/assets/sj-mistened-narcissus-06.jpg"
+        },
+        {
+          "id": "studio-07",
+          "src": "/assets/sj-mistened-narcissus-07.jpg"
+        },
+        {
+          "id": "studio-02",
+          "src": "/assets/sj-mistened-narcissus-02.jpg"
+        },
+        {
+          "id": "studio-03",
+          "src": "/assets/sj-mistened-narcissus-03.jpg"
+        },
+        {
+          "id": "studio-04",
+          "src": "/assets/sj-mistened-narcissus-04.jpg"
+        },
+        {
+          "id": "studio-10",
+          "src": "/assets/sj-mistened-narcissus-10.jpg"
+        }
+      ],
+      "thumbs": [
+        "studio-01",
+        "studio-11",
+        "studio-12",
+        "studio-08",
+        "studio-09",
+        "studio-05",
+        "studio-06",
+        "studio-07",
+        "studio-02",
+        "studio-03",
+        "studio-04",
+        "studio-10"
+      ],
+      "play": null,
+      "arrows": [
+        {
+          "svg": true,
+          "text": "",
+          "controls": "ProductGallery-main"
+        },
+        {
+          "svg": true,
+          "text": "",
+          "controls": "ProductGallery-main"
+        }
+      ],
+      "gallery": "ProductGallery-main",
+      "pass": true,
+      "label": "Twelve existing images and thumbnails retain approved storefront order",
+      "id": "order-mistened-narcissus"
+    },
+    {
+      "pass": true,
+      "label": "No Play control; both SVG chevrons target native gallery",
+      "id": "order-mistened-narcissus"
+    },
+    {
+      "pass": true,
+      "label": "Initial visual counter matches actual gallery",
+      "id": "order-mistened-narcissus"
+    },
+    {
+      "errors": [],
+      "pass": true,
+      "label": "No browser JavaScript errors",
+      "id": "order-mistened-narcissus"
+    },
+    {
+      "status": 200,
+      "pass": true,
+      "label": "PDP responds successfully",
+      "id": "order-charme-envoutant"
+    },
+    {
+      "slides": [
+        {
+          "id": "studio-01",
+          "src": "/assets/sj-charme-envoutant-01.jpg"
+        },
+        {
+          "id": "studio-11",
+          "src": "/assets/sj-charme-envoutant-11.jpg"
+        },
+        {
+          "id": "studio-12",
+          "src": "/assets/sj-charme-envoutant-12.jpg"
+        },
+        {
+          "id": "studio-08",
+          "src": "/assets/sj-charme-envoutant-08.jpg"
+        },
+        {
+          "id": "studio-09",
+          "src": "/assets/sj-charme-envoutant-09.jpg"
+        },
+        {
+          "id": "studio-05",
+          "src": "/assets/sj-charme-envoutant-05.jpg"
+        },
+        {
+          "id": "studio-06",
+          "src": "/assets/sj-charme-envoutant-06.jpg"
+        },
+        {
+          "id": "studio-07",
+          "src": "/assets/sj-charme-envoutant-07.jpg"
+        },
+        {
+          "id": "studio-02",
+          "src": "/assets/sj-charme-envoutant-02.jpg"
+        },
+        {
+          "id": "studio-03",
+          "src": "/assets/sj-charme-envoutant-03.jpg"
+        },
+        {
+          "id": "studio-04",
+          "src": "/assets/sj-charme-envoutant-04.jpg"
+        },
+        {
+          "id": "studio-10",
+          "src": "/assets/sj-charme-envoutant-10.jpg"
+        }
+      ],
+      "thumbs": [
+        "studio-01",
+        "studio-11",
+        "studio-12",
+        "studio-08",
+        "studio-09",
+        "studio-05",
+        "studio-06",
+        "studio-07",
+        "studio-02",
+        "studio-03",
+        "studio-04",
+        "studio-10"
+      ],
+      "play": null,
+      "arrows": [
+        {
+          "svg": true,
+          "text": "",
+          "controls": "ProductGallery-main"
+        },
+        {
+          "svg": true,
+          "text": "",
+          "controls": "ProductGallery-main"
+        }
+      ],
+      "gallery": "ProductGallery-main",
+      "pass": true,
+      "label": "Twelve existing images and thumbnails retain approved storefront order",
+      "id": "order-charme-envoutant"
+    },
+    {
+      "pass": true,
+      "label": "No Play control; both SVG chevrons target native gallery",
+      "id": "order-charme-envoutant"
+    },
+    {
+      "pass": true,
+      "label": "Initial visual counter matches actual gallery",
+      "id": "order-charme-envoutant"
+    },
+    {
+      "errors": [],
+      "pass": true,
+      "label": "No browser JavaScript errors",
+      "id": "order-charme-envoutant"
+    },
+    {
+      "status": 200,
+      "pass": true,
+      "label": "PDP responds successfully",
+      "id": "order-oud-mirage"
+    },
+    {
+      "slides": [
+        {
+          "id": "studio-01",
+          "src": "/assets/sj-oud-mirage-01.jpg"
+        },
+        {
+          "id": "studio-11",
+          "src": "/assets/sj-oud-mirage-11.jpg"
+        },
+        {
+          "id": "studio-12",
+          "src": "/assets/sj-oud-mirage-12.jpg"
+        },
+        {
+          "id": "studio-08",
+          "src": "/assets/sj-oud-mirage-08.jpg"
+        },
+        {
+          "id": "studio-09",
+          "src": "/assets/sj-oud-mirage-09.jpg"
+        },
+        {
+          "id": "studio-05",
+          "src": "/assets/sj-oud-mirage-05.jpg"
+        },
+        {
+          "id": "studio-06",
+          "src": "/assets/sj-oud-mirage-06.jpg"
+        },
+        {
+          "id": "studio-07",
+          "src": "/assets/sj-oud-mirage-07.jpg"
+        },
+        {
+          "id": "studio-02",
+          "src": "/assets/sj-oud-mirage-02.jpg"
+        },
+        {
+          "id": "studio-03",
+          "src": "/assets/sj-oud-mirage-03.jpg"
+        },
+        {
+          "id": "studio-04",
+          "src": "/assets/sj-oud-mirage-04.jpg"
+        },
+        {
+          "id": "studio-10",
+          "src": "/assets/sj-oud-mirage-10.jpg"
+        }
+      ],
+      "thumbs": [
+        "studio-01",
+        "studio-11",
+        "studio-12",
+        "studio-08",
+        "studio-09",
+        "studio-05",
+        "studio-06",
+        "studio-07",
+        "studio-02",
+        "studio-03",
+        "studio-04",
+        "studio-10"
+      ],
+      "play": null,
+      "arrows": [
+        {
+          "svg": true,
+          "text": "",
+          "controls": "ProductGallery-main"
+        },
+        {
+          "svg": true,
+          "text": "",
+          "controls": "ProductGallery-main"
+        }
+      ],
+      "gallery": "ProductGallery-main",
+      "pass": true,
+      "label": "Twelve existing images and thumbnails retain approved storefront order",
+      "id": "order-oud-mirage"
+    },
+    {
+      "pass": true,
+      "label": "No Play control; both SVG chevrons target native gallery",
+      "id": "order-oud-mirage"
+    },
+    {
+      "pass": true,
+      "label": "Initial visual counter matches actual gallery",
+      "id": "order-oud-mirage"
+    },
+    {
+      "errors": [],
+      "pass": true,
+      "label": "No browser JavaScript errors",
+      "id": "order-oud-mirage"
+    },
+    {
+      "status": 200,
+      "pass": true,
+      "label": "PDP responds successfully",
+      "id": "order-rtulle-satin"
+    },
+    {
+      "slides": [
+        {
+          "id": "studio-01",
+          "src": "/assets/sj-rtulle-satin-01.jpg"
+        },
+        {
+          "id": "studio-11",
+          "src": "/assets/sj-rtulle-satin-11.jpg"
+        },
+        {
+          "id": "studio-12",
+          "src": "/assets/sj-rtulle-satin-12.jpg"
+        },
+        {
+          "id": "studio-08",
+          "src": "/assets/sj-rtulle-satin-08.jpg"
+        },
+        {
+          "id": "studio-09",
+          "src": "/assets/sj-rtulle-satin-09.jpg"
+        },
+        {
+          "id": "studio-05",
+          "src": "/assets/sj-rtulle-satin-05.jpg"
+        },
+        {
+          "id": "studio-06",
+          "src": "/assets/sj-rtulle-satin-06.jpg"
+        },
+        {
+          "id": "studio-07",
+          "src": "/assets/sj-rtulle-satin-07.jpg"
+        },
+        {
+          "id": "studio-02",
+          "src": "/assets/sj-rtulle-satin-02.jpg"
+        },
+        {
+          "id": "studio-03",
+          "src": "/assets/sj-rtulle-satin-03.jpg"
+        },
+        {
+          "id": "studio-04",
+          "src": "/assets/sj-rtulle-satin-04.jpg"
+        },
+        {
+          "id": "studio-10",
+          "src": "/assets/sj-rtulle-satin-10.jpg"
+        }
+      ],
+      "thumbs": [
+        "studio-01",
+        "studio-11",
+        "studio-12",
+        "studio-08",
+        "studio-09",
+        "studio-05",
+        "studio-06",
+        "studio-07",
+        "studio-02",
+        "studio-03",
+        "studio-04",
+        "studio-10"
+      ],
+      "play": null,
+      "arrows": [
+        {
+          "svg": true,
+          "text": "",
+          "controls": "ProductGallery-main"
+        },
+        {
+          "svg": true,
+          "text": "",
+          "controls": "ProductGallery-main"
+        }
+      ],
+      "gallery": "ProductGallery-main",
+      "pass": true,
+      "label": "Twelve existing images and thumbnails retain approved storefront order",
+      "id": "order-rtulle-satin"
+    },
+    {
+      "pass": true,
+      "label": "No Play control; both SVG chevrons target native gallery",
+      "id": "order-rtulle-satin"
+    },
+    {
+      "pass": true,
+      "label": "Initial visual counter matches actual gallery",
+      "id": "order-rtulle-satin"
+    },
+    {
+      "errors": [],
+      "pass": true,
+      "label": "No browser JavaScript errors",
+      "id": "order-rtulle-satin"
+    },
+    {
+      "status": 200,
+      "pass": true,
+      "label": "PDP responds successfully",
+      "id": "behavior-1440-light"
+    },
+    {
+      "pass": true,
+      "label": "No auto advance before 8000ms",
+      "id": "behavior-1440-light"
+    },
+    {
+      "before": {
+        "index": 0,
+        "state": "playing",
+        "buttonHidden": true,
+        "live": "off",
+        "status": "",
+        "visibleRatio": 1,
+        "gallery": {
+          "top": 192.6875,
+          "height": 665.609375,
+          "width": 806.390625
+        },
+        "scrollLeft": 0,
+        "hidden": false,
+        "current": "1",
+        "total": "12"
+      },
+      "after": {
+        "index": 1,
+        "state": "playing",
+        "buttonHidden": true,
+        "live": "off",
+        "status": "",
+        "visibleRatio": 1,
+        "gallery": {
+          "top": 192.6875,
+          "height": 665.609375,
+          "width": 806.390625
+        },
+        "scrollLeft": 0,
+        "hidden": false,
+        "current": "2",
+        "total": "12"
+      },
+      "pass": true,
+      "label": "Eight-second rotation updates counter without announcement",
+      "id": "behavior-1440-light"
+    },
+    {
+      "before": {
+        "index": 2,
+        "state": "paused",
+        "buttonHidden": true,
+        "live": "polite",
+        "status": "Media 3 of 12",
+        "visibleRatio": 1,
+        "gallery": {
+          "top": 192.6875,
+          "height": 665.609375,
+          "width": 806.390625
+        },
+        "scrollLeft": 0,
+        "hidden": false,
+        "current": "3",
+        "total": "12"
+      },
+      "after": {
+        "index": 2,
+        "state": "paused",
+        "buttonHidden": true,
+        "live": "polite",
+        "status": "Media 3 of 12",
+        "visibleRatio": 1,
+        "gallery": {
+          "top": 192.6875,
+          "height": 665.609375,
+          "width": 806.390625
+        },
+        "scrollLeft": 0,
+        "hidden": false,
+        "current": "3",
+        "total": "12"
+      },
+      "pass": true,
+      "label": "Manual chevron pauses permanently and announces selection",
+      "id": "behavior-1440-light"
+    },
+    {
+      "pass": true,
+      "label": "Thumbnail selects image and updates counter",
+      "id": "behavior-1440-light"
+    },
+    {
+      "pass": true,
+      "label": "End key selects final image",
+      "id": "behavior-1440-light"
+    },
+    {
+      "pass": true,
+      "label": "Home key selects first image",
+      "id": "behavior-1440-light"
+    },
+    {
+      "pass": true,
+      "label": "Keyboard arrow remains available while paused",
+      "id": "behavior-1440-light"
+    },
+    {
+      "pass": true,
+      "label": "Zoom opens selected image",
+      "id": "behavior-1440-light"
+    },
+    {
+      "pass": true,
+      "label": "Zoom closes with focus restored and rotation still paused",
+      "id": "behavior-1440-light"
+    },
+    {
+      "pass": true,
+      "label": "No implicit restart after zoom",
+      "id": "behavior-1440-light"
+    },
+    {
+      "width": 1440,
+      "scrollWidth": 1440,
+      "h1": 1,
+      "theme": "light",
+      "buttons": [
+        {
+          "x": 127.1875,
+          "right": 171.1875,
+          "width": 44,
+          "height": 44
+        },
+        {
+          "x": 635.1875,
+          "right": 679.1875,
+          "width": 44,
+          "height": 44
+        }
+      ],
+      "counter": {
+        "x": 127.1875,
+        "y": 955.296875,
+        "width": 552,
+        "height": 14.390625,
+        "top": 955.296875,
+        "right": 679.1875,
+        "bottom": 969.6875,
+        "left": 127.1875
+      },
+      "autoplay": 0,
+      "pass": true,
+      "label": "Requested theme, one H1 and no page overflow",
+      "id": "behavior-1440-light"
+    },
+    {
+      "width": 1440,
+      "scrollWidth": 1440,
+      "h1": 1,
+      "theme": "light",
+      "buttons": [
+        {
+          "x": 127.1875,
+          "right": 171.1875,
+          "width": 44,
+          "height": 44
+        },
+        {
+          "x": 635.1875,
+          "right": 679.1875,
+          "width": 44,
+          "height": 44
+        }
+      ],
+      "counter": {
+        "x": 127.1875,
+        "y": 955.296875,
+        "width": 552,
+        "height": 14.390625,
+        "top": 955.296875,
+        "right": 679.1875,
+        "bottom": 969.6875,
+        "left": 127.1875
+      },
+      "autoplay": 0,
+      "pass": true,
+      "label": "Only chevrons and counter; controls remain within viewport with 44px targets",
+      "id": "behavior-1440-light"
+    },
+    {
+      "pass": true,
+      "label": "Revisiting page starts a fresh automatic gallery",
+      "id": "behavior-1440-light"
+    },
+    {
+      "errors": [],
+      "pass": true,
+      "label": "No browser JavaScript errors",
+      "id": "behavior-1440-light"
+    },
+    {
+      "status": 200,
+      "pass": true,
+      "label": "PDP responds successfully",
+      "id": "behavior-390-dark"
+    },
+    {
+      "pass": true,
+      "label": "No auto advance before 8000ms",
+      "id": "behavior-390-dark"
+    },
+    {
+      "before": {
+        "index": 0,
+        "state": "playing",
+        "buttonHidden": true,
+        "live": "off",
+        "status": "",
+        "visibleRatio": 1,
+        "gallery": {
+          "top": 226.6875,
+          "height": 390,
+          "width": 390
+        },
+        "scrollLeft": 0,
+        "hidden": false,
+        "current": "1",
+        "total": "12"
+      },
+      "after": {
+        "index": 1,
+        "state": "playing",
+        "buttonHidden": true,
+        "live": "off",
+        "status": "",
+        "visibleRatio": 1,
+        "gallery": {
+          "top": 226.6875,
+          "height": 390,
+          "width": 390
+        },
+        "scrollLeft": 390,
+        "hidden": false,
+        "current": "2",
+        "total": "12"
+      },
+      "pass": true,
+      "label": "Eight-second rotation updates counter without announcement",
+      "id": "behavior-390-dark"
+    },
+    {
+      "before": {
+        "index": 2,
+        "state": "paused",
+        "buttonHidden": true,
+        "live": "polite",
+        "status": "Media 3 of 12",
+        "visibleRatio": 1,
+        "gallery": {
+          "top": 226.6875,
+          "height": 390,
+          "width": 390
+        },
+        "scrollLeft": 780,
+        "hidden": false,
+        "current": "3",
+        "total": "12"
+      },
+      "after": {
+        "index": 2,
+        "state": "paused",
+        "buttonHidden": true,
+        "live": "polite",
+        "status": "Media 3 of 12",
+        "visibleRatio": 1,
+        "gallery": {
+          "top": 226.6875,
+          "height": 390,
+          "width": 390
+        },
+        "scrollLeft": 780,
+        "hidden": false,
+        "current": "3",
+        "total": "12"
+      },
+      "pass": true,
+      "label": "Manual chevron pauses permanently and announces selection",
+      "id": "behavior-390-dark"
+    },
+    {
+      "pass": true,
+      "label": "Thumbnail selects image and updates counter",
+      "id": "behavior-390-dark"
+    },
+    {
+      "pass": true,
+      "label": "End key selects final image",
+      "id": "behavior-390-dark"
+    },
+    {
+      "pass": true,
+      "label": "Home key selects first image",
+      "id": "behavior-390-dark"
+    },
+    {
+      "pass": true,
+      "label": "Keyboard arrow remains available while paused",
+      "id": "behavior-390-dark"
+    },
+    {
+      "pass": true,
+      "label": "Zoom opens selected image",
+      "id": "behavior-390-dark"
+    },
+    {
+      "pass": true,
+      "label": "Zoom closes with focus restored and rotation still paused",
+      "id": "behavior-390-dark"
+    },
+    {
+      "pass": true,
+      "label": "No implicit restart after zoom",
+      "id": "behavior-390-dark"
+    },
+    {
+      "width": 390,
+      "scrollWidth": 390,
+      "h1": 1,
+      "theme": "dark",
+      "buttons": [
+        {
+          "x": 23.390625,
+          "right": 67.390625,
+          "width": 44,
+          "height": 44
+        },
+        {
+          "x": 322.609375,
+          "right": 366.609375,
+          "width": 44,
+          "height": 44
+        }
+      ],
+      "counter": {
+        "x": 23.390625,
+        "y": 716.6875,
+        "width": 343.21875,
+        "height": 14.390625,
+        "top": 716.6875,
+        "right": 366.609375,
+        "bottom": 731.078125,
+        "left": 23.390625
+      },
+      "autoplay": 0,
+      "pass": true,
+      "label": "Requested theme, one H1 and no page overflow",
+      "id": "behavior-390-dark"
+    },
+    {
+      "width": 390,
+      "scrollWidth": 390,
+      "h1": 1,
+      "theme": "dark",
+      "buttons": [
+        {
+          "x": 23.390625,
+          "right": 67.390625,
+          "width": 44,
+          "height": 44
+        },
+        {
+          "x": 322.609375,
+          "right": 366.609375,
+          "width": 44,
+          "height": 44
+        }
+      ],
+      "counter": {
+        "x": 23.390625,
+        "y": 716.6875,
+        "width": 343.21875,
+        "height": 14.390625,
+        "top": 716.6875,
+        "right": 366.609375,
+        "bottom": 731.078125,
+        "left": 23.390625
+      },
+      "autoplay": 0,
+      "pass": true,
+      "label": "Only chevrons and counter; controls remain within viewport with 44px targets",
+      "id": "behavior-390-dark"
+    },
+    {
+      "pass": true,
+      "label": "Revisiting page starts a fresh automatic gallery",
+      "id": "behavior-390-dark"
+    },
+    {
+      "index": 1,
+      "state": "paused",
+      "label": "Real mobile swipe selects image, updates counter and pauses",
+      "buttonHidden": true,
+      "live": "polite",
+      "status": "Media 2 of 12",
+      "visibleRatio": 1,
+      "gallery": {
+        "top": 226.6875,
+        "height": 390,
+        "width": 390
+      },
+      "scrollLeft": 390,
+      "hidden": false,
+      "current": "2",
+      "total": "12",
+      "pass": true,
+      "id": "behavior-390-dark"
+    },
+    {
+      "pass": true,
+      "label": "Swipe stays paused",
+      "id": "behavior-390-dark"
+    },
+    {
+      "errors": [],
+      "pass": true,
+      "label": "No browser JavaScript errors",
+      "id": "behavior-390-dark"
+    },
+    {
+      "status": 200,
+      "pass": true,
+      "label": "PDP responds successfully",
+      "id": "layout-1440-dark"
+    },
+    {
+      "width": 1440,
+      "scrollWidth": 1440,
+      "h1": 1,
+      "theme": "dark",
+      "buttons": [
+        {
+          "x": 127.1875,
+          "right": 171.1875,
+          "width": 44,
+          "height": 44
+        },
+        {
+          "x": 635.1875,
+          "right": 679.1875,
+          "width": 44,
+          "height": 44
+        }
+      ],
+      "counter": {
+        "x": 127.1875,
+        "y": 955.296875,
+        "width": 552,
+        "height": 14.390625,
+        "top": 955.296875,
+        "right": 679.1875,
+        "bottom": 969.6875,
+        "left": 127.1875
+      },
+      "autoplay": 0,
+      "pass": true,
+      "label": "Requested theme, one H1 and no page overflow",
+      "id": "layout-1440-dark"
+    },
+    {
+      "width": 1440,
+      "scrollWidth": 1440,
+      "h1": 1,
+      "theme": "dark",
+      "buttons": [
+        {
+          "x": 127.1875,
+          "right": 171.1875,
+          "width": 44,
+          "height": 44
+        },
+        {
+          "x": 635.1875,
+          "right": 679.1875,
+          "width": 44,
+          "height": 44
+        }
+      ],
+      "counter": {
+        "x": 127.1875,
+        "y": 955.296875,
+        "width": 552,
+        "height": 14.390625,
+        "top": 955.296875,
+        "right": 679.1875,
+        "bottom": 969.6875,
+        "left": 127.1875
+      },
+      "autoplay": 0,
+      "pass": true,
+      "label": "Only chevrons and counter; controls remain within viewport with 44px targets",
+      "id": "layout-1440-dark"
+    },
+    {
+      "errors": [],
+      "pass": true,
+      "label": "No browser JavaScript errors",
+      "id": "layout-1440-dark"
+    },
+    {
+      "status": 200,
+      "pass": true,
+      "label": "PDP responds successfully",
+      "id": "layout-320-light"
+    },
+    {
+      "width": 320,
+      "scrollWidth": 320,
+      "h1": 1,
+      "theme": "light",
+      "buttons": [
+        {
+          "x": 19.1875,
+          "right": 63.1875,
+          "width": 44,
+          "height": 44
+        },
+        {
+          "x": 256.8125,
+          "right": 300.8125,
+          "width": 44,
+          "height": 44
+        }
+      ],
+      "counter": {
+        "x": 19.1875,
+        "y": 681.6875,
+        "width": 281.625,
+        "height": 14.390625,
+        "top": 681.6875,
+        "right": 300.8125,
+        "bottom": 696.078125,
+        "left": 19.1875
+      },
+      "autoplay": 0,
+      "pass": true,
+      "label": "Requested theme, one H1 and no page overflow",
+      "id": "layout-320-light"
+    },
+    {
+      "width": 320,
+      "scrollWidth": 320,
+      "h1": 1,
+      "theme": "light",
+      "buttons": [
+        {
+          "x": 19.1875,
+          "right": 63.1875,
+          "width": 44,
+          "height": 44
+        },
+        {
+          "x": 256.8125,
+          "right": 300.8125,
+          "width": 44,
+          "height": 44
+        }
+      ],
+      "counter": {
+        "x": 19.1875,
+        "y": 681.6875,
+        "width": 281.625,
+        "height": 14.390625,
+        "top": 681.6875,
+        "right": 300.8125,
+        "bottom": 696.078125,
+        "left": 19.1875
+      },
+      "autoplay": 0,
+      "pass": true,
+      "label": "Only chevrons and counter; controls remain within viewport with 44px targets",
+      "id": "layout-320-light"
+    },
+    {
+      "errors": [],
+      "pass": true,
+      "label": "No browser JavaScript errors",
+      "id": "layout-320-light"
+    },
+    {
+      "status": 200,
+      "pass": true,
+      "label": "PDP responds successfully",
+      "id": "layout-320-dark"
+    },
+    {
+      "width": 320,
+      "scrollWidth": 320,
+      "h1": 1,
+      "theme": "dark",
+      "buttons": [
+        {
+          "x": 19.1875,
+          "right": 63.1875,
+          "width": 44,
+          "height": 44
+        },
+        {
+          "x": 256.8125,
+          "right": 300.8125,
+          "width": 44,
+          "height": 44
+        }
+      ],
+      "counter": {
+        "x": 19.1875,
+        "y": 681.6875,
+        "width": 281.625,
+        "height": 14.390625,
+        "top": 681.6875,
+        "right": 300.8125,
+        "bottom": 696.078125,
+        "left": 19.1875
+      },
+      "autoplay": 0,
+      "pass": true,
+      "label": "Requested theme, one H1 and no page overflow",
+      "id": "layout-320-dark"
+    },
+    {
+      "width": 320,
+      "scrollWidth": 320,
+      "h1": 1,
+      "theme": "dark",
+      "buttons": [
+        {
+          "x": 19.1875,
+          "right": 63.1875,
+          "width": 44,
+          "height": 44
+        },
+        {
+          "x": 256.8125,
+          "right": 300.8125,
+          "width": 44,
+          "height": 44
+        }
+      ],
+      "counter": {
+        "x": 19.1875,
+        "y": 681.6875,
+        "width": 281.625,
+        "height": 14.390625,
+        "top": 681.6875,
+        "right": 300.8125,
+        "bottom": 696.078125,
+        "left": 19.1875
+      },
+      "autoplay": 0,
+      "pass": true,
+      "label": "Only chevrons and counter; controls remain within viewport with 44px targets",
+      "id": "layout-320-dark"
+    },
+    {
+      "errors": [],
+      "pass": true,
+      "label": "No browser JavaScript errors",
+      "id": "layout-320-dark"
+    },
+    {
+      "status": 200,
+      "pass": true,
+      "label": "PDP responds successfully",
+      "id": "reduced-motion-390-light"
+    },
+    {
+      "pass": true,
+      "label": "Reduced motion stays paused with no Play control",
+      "id": "reduced-motion-390-light"
+    },
+    {
+      "pass": true,
+      "label": "Manual browsing remains available under reduced motion",
+      "id": "reduced-motion-390-light"
+    },
+    {
+      "width": 390,
+      "scrollWidth": 390,
+      "h1": 1,
+      "theme": "light",
+      "buttons": [
+        {
+          "x": 23.390625,
+          "right": 67.390625,
+          "width": 44,
+          "height": 44
+        },
+        {
+          "x": 322.609375,
+          "right": 366.609375,
+          "width": 44,
+          "height": 44
+        }
+      ],
+      "counter": {
+        "x": 23.390625,
+        "y": 716.6875,
+        "width": 343.21875,
+        "height": 14.390625,
+        "top": 716.6875,
+        "right": 366.609375,
+        "bottom": 731.078125,
+        "left": 23.390625
+      },
+      "autoplay": 0,
+      "pass": true,
+      "label": "Requested theme, one H1 and no page overflow",
+      "id": "reduced-motion-390-light"
+    },
+    {
+      "width": 390,
+      "scrollWidth": 390,
+      "h1": 1,
+      "theme": "light",
+      "buttons": [
+        {
+          "x": 23.390625,
+          "right": 67.390625,
+          "width": 44,
+          "height": 44
+        },
+        {
+          "x": 322.609375,
+          "right": 366.609375,
+          "width": 44,
+          "height": 44
+        }
+      ],
+      "counter": {
+        "x": 23.390625,
+        "y": 716.6875,
+        "width": 343.21875,
+        "height": 14.390625,
+        "top": 716.6875,
+        "right": 366.609375,
+        "bottom": 731.078125,
+        "left": 23.390625
+      },
+      "autoplay": 0,
+      "pass": true,
+      "label": "Only chevrons and counter; controls remain within viewport with 44px targets",
+      "id": "reduced-motion-390-light"
+    },
+    {
+      "errors": [],
+      "pass": true,
+      "label": "No browser JavaScript errors",
+      "id": "reduced-motion-390-light"
+    },
+    {
+      "status": 200,
+      "pass": true,
+      "label": "PDP responds successfully",
+      "id": "native-video"
+    },
+    {
+      "pass": true,
+      "label": "video fixture never rotates",
+      "id": "native-video"
+    },
+    {
+      "pass": true,
+      "label": "Native video manual browsing and counter remain correct",
+      "id": "native-video"
+    },
+    {
+      "errors": [],
+      "pass": true,
+      "label": "No browser JavaScript errors",
+      "id": "native-video"
+    },
+    {
+      "status": 200,
+      "pass": true,
+      "label": "PDP responds successfully",
+      "id": "native-model"
+    },
+    {
+      "pass": true,
+      "label": "model fixture never rotates",
+      "id": "native-model"
+    },
+    {
+      "pass": true,
+      "label": "Native model manual browsing and counter remain correct",
+      "id": "native-model"
+    },
+    {
+      "errors": [],
+      "pass": true,
+      "label": "No browser JavaScript errors",
+      "id": "native-model"
+    },
+    {
+      "status": 200,
+      "pass": true,
+      "label": "PDP responds successfully",
+      "id": "native-single"
+    },
+    {
+      "pass": true,
+      "label": "single fixture never rotates",
+      "id": "native-single"
+    },
+    {
+      "errors": [],
+      "pass": true,
+      "label": "No browser JavaScript errors",
+      "id": "native-single"
+    }
+  ],
+  "issues": [],
+  "limits": [
+    "Browser timing uses Playwright Clock; IntersectionObserver and layout remain native.",
+    "Video/model/single-image eligibility uses labelled in-memory response fixtures constructed from the real rendered PDP. No source, catalog, or product data is changed."
+  ],
+  "summary": {
+    "status": "PASS",
+    "scenarios": 15,
+    "checks": 91,
+    "passed": 91,
+    "failures": 0
+  },
+  "visualReview": {
+    "status": "PASS",
+    "files": [
+      "screenshots/gallery-controls/behavior-1440-light.png",
+      "screenshots/gallery-controls/layout-1440-dark.png",
+      "screenshots/gallery-controls/behavior-390-dark.png",
+      "screenshots/gallery-controls/layout-320-light.png",
+      "screenshots/gallery-controls/layout-320-dark.png"
+    ],
+    "notes": "Chevrons, thumbnail strip and counter are clear and contained. No Play/Pause control remains; image crop and fixed desktop stage are preserved."
+  }
+}

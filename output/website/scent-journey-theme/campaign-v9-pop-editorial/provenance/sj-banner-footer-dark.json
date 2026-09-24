@@ -1,0 +1,22 @@
+{
+  "asset": "sj-banner-footer-dark",
+  "tool": "built-in image_gen",
+  "sourceOutputPath": "/Users/wetrade/.codex/generated_images/01a0d0f8-8d24-7131-8c77-de85e96f8179/exec-5d7f438e-d394-4749-b3aa-2c8117836712.png",
+  "dimensions": [
+    1774,
+    887
+  ],
+  "original_sha256": "04c0751f7715dcf6b0eccb7a17c9ea492ca79a88cb8ea9e7f6014259d697ea38",
+  "prompt": "prompts/sj-banner-footer-dark.txt",
+  "reference": "references/publication-materials-reference.png",
+  "alt": "A hand lifts yellow sunglasses beside denim and a blue bag on a sunny cream bench by the sea.",
+  "qa": {
+    "realistic_anatomy": "PASS: one cropped natural hand",
+    "faces": 0,
+    "product_free": true,
+    "reference_style": "PASS: burgundy/scarlet/cobalt/lemon, hard sunny texture",
+    "center_copy_space": "PASS",
+    "native_image_inspected": true,
+    "recommended_mobile_object_position": "70% center"
+  }
+}

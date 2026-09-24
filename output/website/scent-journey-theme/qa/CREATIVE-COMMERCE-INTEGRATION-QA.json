@@ -1,0 +1,100 @@
+{
+  "generatedAt": "2026-09-24T09:16:28.012Z",
+  "status": "PASS",
+  "themeCheck": {
+    "node": "v24.17.0",
+    "command": "Shopify CLI theme check --path theme --output json",
+    "exitCode": 0,
+    "diagnosticFile": "qa/theme-check-creative-commerce.json",
+    "diagnosticCount": 0
+  },
+  "reviewsStatic": {
+    "status": "PASS",
+    "checks": 34,
+    "passed": 34,
+    "failures": 0
+  },
+  "integration": {
+    "checks": 6,
+    "passed": 6,
+    "failures": 0,
+    "results": [
+      {
+        "name": "PDP renders the shared rating summary exactly once",
+        "pass": true
+      },
+      {
+        "name": "Old purchase rating markup has been replaced",
+        "pass": true
+      },
+      {
+        "name": "Reviews section follows main product and precedes recommendations",
+        "pass": true
+      },
+      {
+        "name": "Production review section starts without sample review blocks",
+        "pass": true
+      },
+      {
+        "name": "Shared buttons stylesheet loads once",
+        "pass": true
+      },
+      {
+        "name": "Required new review assets/snippet/section exist",
+        "pass": true
+      }
+    ]
+  },
+  "sourceSnapshot": [
+    {
+      "file": "layout/theme.liquid",
+      "sha256": "ada86b56ff421ea97c9953c8803e7ffe407aef5e3e4f8a41d4267db687d9098f"
+    },
+    {
+      "file": "templates/product.json",
+      "sha256": "000cb7655515e26979cacc3577cb97799cba893f0b6d314e6f7034420bd4d290"
+    },
+    {
+      "file": "sections/sj-product.liquid",
+      "sha256": "8b30f76306c550b61509d38558b790daadc05856c56336a3ce64e9a1aa334372"
+    },
+    {
+      "file": "sections/sj-product-reviews.liquid",
+      "sha256": "449abd53fe40c0d1f010f09ddd49cfa854ac4dc73dec525796b65328e53c4b17"
+    },
+    {
+      "file": "snippets/sj-rating-summary.liquid",
+      "sha256": "dbf0c87edc221c9e2782cff68435fd773f9e74aa2f7081acdcce7207a0fffdf3"
+    },
+    {
+      "file": "assets/sj-reviews.css",
+      "sha256": "3e602201d917bccd7bf64480cf83924ef5daa134c9579b76b568736bb5bc398c"
+    },
+    {
+      "file": "assets/sj-buttons.css",
+      "sha256": "65cf8ef3ea27033a4291167812232aac5b2ea962f6c396986d35e262292dbbe6"
+    },
+    {
+      "file": "assets/sj-finder.js",
+      "sha256": "ee9ed214f46eaf70fd838fd3f2a08e6d683f28aa61ab48115a93f4c58cadc3d8"
+    },
+    {
+      "file": "sections/sj-scent-finder.liquid",
+      "sha256": "2fcbe26a0c856d56491d4b6cbd03fa77ae5370ab4456994d0b277b73e7c887e9"
+    },
+    {
+      "file": "sections/sj-cart.liquid",
+      "sha256": "4d94b989b4d3efe15c7e9c17354ae6230f7ae973e48512f2b407e26c891a3ad7"
+    },
+    {
+      "file": "sections/sj-cart-drawer.liquid",
+      "sha256": "cea31673eb74cb33e5a48de636744c73f51b04a536219d3f20261c0c93946794"
+    }
+  ],
+  "boundaries": [
+    "Local source validation only. No preview rendering, browser/UI action, contact submission, package operation or Shopify edit.",
+    "Native contact delivery, provider review imports, runtime behavior and visual layout are outside Theme Check; root owns CUA and final build validation.",
+    "Approved manual review-block averages are local to the reviews section. Purchase summaries use native review metafields; root was notified of the integration requirement once genuine reviews are supplied.",
+    "This report records the source hashes at completion. Any subsequent cart shipping-rule changes occur after this validation snapshot."
+  ]
+}

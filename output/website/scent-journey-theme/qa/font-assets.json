@@ -1,0 +1,14 @@
+[
+  {
+    "file": "CenzoFlare-Bold.woff2",
+    "source": "source-assets/fonts/CenzoFlare-Bold/CenzoFlare-Bold.woff2",
+    "sha256": "9b3021b9c9297e3b84e3ee57717162e912a6d846dfd231d537ffcee8ce65fafa",
+    "bytes": 23016
+  },
+  {
+    "file": "HelveticaNowDisplay-Light.woff2",
+    "source": "source-assets/fonts/HelveticaNowDisplay-Light/HelveticaNowDisplay-Light.woff2",
+    "sha256": "813b12683a08715a0fa8deaf3c0da9f91e18b7e95eb64591560a5a04d344c76b",
+    "bytes": 44316
+  }
+]

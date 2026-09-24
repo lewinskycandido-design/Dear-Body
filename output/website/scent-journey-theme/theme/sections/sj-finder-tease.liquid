@@ -1,0 +1,25 @@
+<section class="sj-finder-tease"><div><p class="sj-eyebrow">02 — A LITTLE SELF-DISCOVERY</p><h2>{{ section.settings.heading | escape | newline_to_br }}</h2></div><div class="sj-finder-tease-copy"><div class="sj-orbit" aria-hidden="true">{% render 'sj-icon', name: 'compass' %}</div><p>{{ section.settings.description | escape }}</p><a class="sj-button" href="{{ settings.finder_url | default: '/pages/scent-finder' }}">Find my scent </a></div></section>
+{% schema %}
+{
+  "name": "Scent Finder invitation",
+  "settings": [
+    {
+      "type": "textarea",
+      "id": "heading",
+      "label": "Heading",
+      "default": "YOUR MOOD.\nYOUR MOMENT.\nYOUR SCENT."
+    },
+    {
+      "type": "textarea",
+      "id": "description",
+      "label": "Description",
+      "default": "Some scents just feel like you. Follow your senses and discover the next chapter of your scent journey."
+    }
+  ],
+  "presets": [
+    {
+      "name": "Scent Finder invitation"
+    }
+  ]
+}
+{% endschema %}

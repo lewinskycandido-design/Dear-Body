@@ -1,0 +1,12 @@
+<section class="sj-search-page sj-container">
+  <header class="sj-discovery-heading"><p class="sj-eyebrow">FOLLOW YOUR CURIOSITY</p><h1>YOUR NEXT CHAPTER<br>STARTS WITH A WORD.</h1></header>
+  <form class="sj-search-form" action="{{ routes.search_url }}" method="get" role="search"><label class="sj-visually-hidden" for="SearchPageInput">Search fragrances</label><input id="SearchPageInput" type="search" name="q" value="{{ search.terms | escape }}" placeholder="A scent, a mood, a moment…"><input type="hidden" name="type" value="product"><input type="hidden" name="options[prefix]" value="last"><button class="sj-button" type="submit">Search</button></form>
+  {% if search.performed %}
+    <p class="sj-search-summary">{{ search.results_count }} {% if search.results_count == 1 %}result{% else %}results{% endif %} for “{{ search.terms | escape }}”</p>
+    {% paginate search.results by section.settings.products_per_page %}
+      <div class="sj-product-grid">{% for result in search.results %}{% if result.object_type == 'product' %}{% render 'sj-product-card', product: result, index: forloop.index %}{% else %}<article class="sj-search-other"><p class="sj-eyebrow">{{ result.object_type | escape }}</p><h2><a href="{{ result.url }}">{{ result.title | escape }}</a></h2><p>{{ result.content | strip_html | truncatewords: 28 }}</p></article>{% endif %}{% else %}<div class="sj-empty-state"><h2>Keep following your curiosity.</h2><p>Try a product name, “sweet”, “woody”, or “warm”.</p><a class="sj-text-link" href="{{ routes.all_products_collection_url }}">Explore every fragrance</a></div>{% endfor %}</div>
+      {% if paginate.pages > 1 %}<nav class="sj-pagination" aria-label="Search result pages">{{ paginate | default_pagination }}</nav>{% endif %}
+    {% endpaginate %}
+  {% else %}<div class="sj-search-suggestions"><p class="sj-eyebrow">A LITTLE INSPIRATION</p>{% assign words = 'Fresh,Sweet,Smoky,Woody,Warm,Berry,Rose,Oud' | split: ',' %}{% for word in words %}<a href="{{ routes.search_url }}?type=product&q={{ word | url_encode }}">{{ word }}</a>{% endfor %}</div>{% endif %}
+</section>
+{% schema %}{"name":"Search","settings":[{"type":"range","id":"products_per_page","label":"Results per page","min":6,"max":36,"step":3,"default":12}]}{% endschema %}

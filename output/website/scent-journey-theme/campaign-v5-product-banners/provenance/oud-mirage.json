@@ -1,0 +1,22 @@
+{
+  "handle": "oud-mirage",
+  "created_utc": "2026-09-24T04:09:59.368266+00:00",
+  "tool": "built-in image_gen.imagegen",
+  "generated_source": "/Users/wetrade/.codex/generated_images/01a0d0f8-8d24-7131-8c77-de85e96f8179/exec-a8b4bc32-e7e7-4f07-a212-179c79d6c783.png",
+  "original": "campaign-v5-product-banners/originals/sj-product-banner-oud-mirage.png",
+  "original_sha256": "657c29b3880b323576fc74f07dcd02312c33fe6d5c2d3c6aab1b187b456ce8d4",
+  "original_dimensions": [
+    1774,
+    887
+  ],
+  "web": "campaign-v5-product-banners/final-web/sj-product-banner-oud-mirage.jpg",
+  "web_sha256": "5961eaca26890f6d051e2cb43788f81353901a4daa16d068de75cdb8b3918008",
+  "web_bytes": 375993,
+  "prompt_file": "campaign-v5-product-banners/prompts/sj-product-banner-oud-mirage.txt",
+  "references": [
+    "theme/assets/sj-oud-mirage-01.jpg",
+    "/Users/wetrade/.codex/skills/dearbody-scent-gallery/assets/canonical-bottle-proportions.png"
+  ],
+  "export": "sips JPEG format conversion at quality90; native1774x887 retained; no crop, resizing, compositing or retouching.",
+  "qa": "PASS: exact Oud Mirage lettering, blue liquid and canister, black cap, tall cylindrical bottle and thick base; no added label claims; warm rose/wood composition; clean left45 percent for live copy; bottle and canister fully in frame."
+}

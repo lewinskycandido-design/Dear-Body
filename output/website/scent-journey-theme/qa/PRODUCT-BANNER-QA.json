@@ -1,0 +1,4705 @@
+{
+  "generatedAt": "2026-09-24T03:45:07.951Z",
+  "scope": "PDP banner and existing gallery/scroll regression",
+  "cases": [
+    {
+      "handle": "mistened-narcissus",
+      "title": "Mistened Narcissus",
+      "theme": "light",
+      "width": 1440,
+      "checks": [
+        {
+          "name": "Full viewport banner",
+          "pass": true,
+          "detail": {
+            "x": 0,
+            "y": 110.5,
+            "width": 1440,
+            "height": 505,
+            "right": 1440,
+            "bottom": 615.5
+          }
+        },
+        {
+          "name": "Correct banner product title",
+          "pass": true,
+          "detail": "MISTENED NARCISSUS"
+        },
+        {
+          "name": "Correct verified packshot",
+          "pass": true,
+          "detail": {
+            "src": "http://127.0.0.1:4208/assets/sj-mistened-narcissus-01.jpg",
+            "loaded": true,
+            "fit": "contain",
+            "box": {
+              "x": 778.75,
+              "y": 134.5,
+              "width": 599.34375,
+              "height": 456,
+              "right": 1378.09375,
+              "bottom": 590.5
+            }
+          }
+        },
+        {
+          "name": "Product photo contained without cropping",
+          "pass": true,
+          "detail": "contain"
+        },
+        {
+          "name": "Single product-detail H1",
+          "pass": true,
+          "detail": {
+            "count": 1,
+            "text": "Mistened Narcissus"
+          }
+        },
+        {
+          "name": "No page or banner-title overflow",
+          "pass": true
+        },
+        {
+          "name": "Banner precedes product details",
+          "pass": true
+        },
+        {
+          "name": "CTA reaches details with clear anchor",
+          "pass": true,
+          "detail": {
+            "hash": "#ProductDetails-10314865016897",
+            "target": "#ProductDetails-10314865016897",
+            "top": 268.5,
+            "bottom": 1158,
+            "headerHeight": 110.5,
+            "inView": true,
+            "clear": true
+          }
+        },
+        {
+          "name": "Gallery retains twelve slides",
+          "pass": true
+        },
+        {
+          "name": "Desktop information independently scrolls",
+          "pass": true,
+          "detail": {
+            "before": 0,
+            "height": 890,
+            "total": 2367,
+            "overflow": "auto",
+            "pageY": 347,
+            "mediaTop": 268.5,
+            "mouseX": 1123.1875,
+            "mouseY": 448.5,
+            "after": {
+              "info": 400,
+              "pageY": 347,
+              "mediaTop": 268.5
+            }
+          }
+        },
+        {
+          "name": "Gallery next advances",
+          "pass": true
+        },
+        {
+          "name": "Zoom opens correct current product image",
+          "pass": true
+        },
+        {
+          "name": "Zoom closes with Escape",
+          "pass": true
+        },
+        {
+          "name": "No JavaScript errors",
+          "pass": true,
+          "detail": []
+        }
+      ],
+      "errors": [],
+      "banner": {
+        "box": {
+          "x": 0,
+          "y": 110.5,
+          "width": 1440,
+          "height": 505,
+          "right": 1440,
+          "bottom": 615.5
+        },
+        "title": "MISTENED NARCISSUS",
+        "titleBox": {
+          "x": 61.90625,
+          "y": 285.25,
+          "width": 659.25,
+          "height": 68.875,
+          "right": 721.15625,
+          "bottom": 354.125
+        },
+        "titleOverflow": false,
+        "image": {
+          "src": "http://127.0.0.1:4208/assets/sj-mistened-narcissus-01.jpg",
+          "loaded": true,
+          "fit": "contain",
+          "box": {
+            "x": 778.75,
+            "y": 134.5,
+            "width": 599.34375,
+            "height": 456,
+            "right": 1378.09375,
+            "bottom": 590.5
+          }
+        },
+        "h1Count": 1,
+        "h1": "Mistened Narcissus",
+        "horizontalOverflow": false,
+        "detailAfterBanner": true
+      },
+      "anchor": {
+        "hash": "#ProductDetails-10314865016897",
+        "target": "#ProductDetails-10314865016897",
+        "top": 268.5,
+        "bottom": 1158,
+        "headerHeight": 110.5,
+        "inView": true,
+        "clear": true
+      },
+      "scroll": {
+        "before": 0,
+        "height": 890,
+        "total": 2367,
+        "overflow": "auto",
+        "pageY": 347,
+        "mediaTop": 268.5,
+        "mouseX": 1123.1875,
+        "mouseY": 448.5,
+        "after": {
+          "info": 400,
+          "pageY": 347,
+          "mediaTop": 268.5
+        }
+      },
+      "status": "PASS"
+    },
+    {
+      "handle": "mistened-narcissus",
+      "title": "Mistened Narcissus",
+      "theme": "light",
+      "width": 390,
+      "checks": [
+        {
+          "name": "Full viewport banner",
+          "pass": true,
+          "detail": {
+            "x": 0,
+            "y": 99,
+            "width": 390,
+            "height": 615.125,
+            "right": 390,
+            "bottom": 714.125
+          }
+        },
+        {
+          "name": "Correct banner product title",
+          "pass": true,
+          "detail": "MISTENED NARCISSUS"
+        },
+        {
+          "name": "Correct verified packshot",
+          "pass": true,
+          "detail": {
+            "src": "http://127.0.0.1:4208/assets/sj-mistened-narcissus-01.jpg",
+            "loaded": true,
+            "fit": "contain",
+            "box": {
+              "x": 22,
+              "y": 377.734375,
+              "width": 346,
+              "height": 309.390625,
+              "right": 368,
+              "bottom": 687.125
+            }
+          }
+        },
+        {
+          "name": "Product photo contained without cropping",
+          "pass": true,
+          "detail": "contain"
+        },
+        {
+          "name": "Single product-detail H1",
+          "pass": true,
+          "detail": {
+            "count": 1,
+            "text": "Mistened Narcissus"
+          }
+        },
+        {
+          "name": "No page or banner-title overflow",
+          "pass": true
+        },
+        {
+          "name": "Banner precedes product details",
+          "pass": true
+        },
+        {
+          "name": "CTA reaches details with clear anchor",
+          "pass": true,
+          "detail": {
+            "hash": "#ProductDetails-10314865016897",
+            "target": "#ProductDetails-10314865016897",
+            "top": 246.125,
+            "bottom": 3007.859375,
+            "headerHeight": 99,
+            "inView": true,
+            "clear": true
+          }
+        },
+        {
+          "name": "Gallery retains twelve slides",
+          "pass": true
+        },
+        {
+          "name": "Gallery next advances",
+          "pass": true
+        },
+        {
+          "name": "Zoom opens correct current product image",
+          "pass": true
+        },
+        {
+          "name": "Zoom closes with Escape",
+          "pass": true
+        },
+        {
+          "name": "No JavaScript errors",
+          "pass": true,
+          "detail": []
+        }
+      ],
+      "errors": [],
+      "banner": {
+        "box": {
+          "x": 0,
+          "y": 99,
+          "width": 390,
+          "height": 615.125,
+          "right": 390,
+          "bottom": 714.125
+        },
+        "title": "MISTENED NARCISSUS",
+        "titleBox": {
+          "x": 22,
+          "y": 164.390625,
+          "width": 346,
+          "height": 81.09375,
+          "right": 368,
+          "bottom": 245.484375
+        },
+        "titleOverflow": false,
+        "image": {
+          "src": "http://127.0.0.1:4208/assets/sj-mistened-narcissus-01.jpg",
+          "loaded": true,
+          "fit": "contain",
+          "box": {
+            "x": 22,
+            "y": 377.734375,
+            "width": 346,
+            "height": 309.390625,
+            "right": 368,
+            "bottom": 687.125
+          }
+        },
+        "h1Count": 1,
+        "h1": "Mistened Narcissus",
+        "horizontalOverflow": false,
+        "detailAfterBanner": true
+      },
+      "anchor": {
+        "hash": "#ProductDetails-10314865016897",
+        "target": "#ProductDetails-10314865016897",
+        "top": 246.125,
+        "bottom": 3007.859375,
+        "headerHeight": 99,
+        "inView": true,
+        "clear": true
+      },
+      "status": "PASS"
+    },
+    {
+      "handle": "mistened-narcissus",
+      "title": "Mistened Narcissus",
+      "theme": "dark",
+      "width": 1440,
+      "checks": [
+        {
+          "name": "Full viewport banner",
+          "pass": true,
+          "detail": {
+            "x": 0,
+            "y": 110.5,
+            "width": 1440,
+            "height": 505,
+            "right": 1440,
+            "bottom": 615.5
+          }
+        },
+        {
+          "name": "Correct banner product title",
+          "pass": true,
+          "detail": "MISTENED NARCISSUS"
+        },
+        {
+          "name": "Correct verified packshot",
+          "pass": true,
+          "detail": {
+            "src": "http://127.0.0.1:4208/assets/sj-mistened-narcissus-01.jpg",
+            "loaded": true,
+            "fit": "contain",
+            "box": {
+              "x": 778.75,
+              "y": 134.5,
+              "width": 599.34375,
+              "height": 456,
+              "right": 1378.09375,
+              "bottom": 590.5
+            }
+          }
+        },
+        {
+          "name": "Product photo contained without cropping",
+          "pass": true,
+          "detail": "contain"
+        },
+        {
+          "name": "Single product-detail H1",
+          "pass": true,
+          "detail": {
+            "count": 1,
+            "text": "Mistened Narcissus"
+          }
+        },
+        {
+          "name": "No page or banner-title overflow",
+          "pass": true
+        },
+        {
+          "name": "Banner precedes product details",
+          "pass": true
+        },
+        {
+          "name": "CTA reaches details with clear anchor",
+          "pass": true,
+          "detail": {
+            "hash": "#ProductDetails-10314865016897",
+            "target": "#ProductDetails-10314865016897",
+            "top": 268.5,
+            "bottom": 1158,
+            "headerHeight": 110.5,
+            "inView": true,
+            "clear": true
+          }
+        },
+        {
+          "name": "Gallery retains twelve slides",
+          "pass": true
+        },
+        {
+          "name": "Desktop information independently scrolls",
+          "pass": true,
+          "detail": {
+            "before": 0,
+            "height": 890,
+            "total": 2367,
+            "overflow": "auto",
+            "pageY": 347,
+            "mediaTop": 268.5,
+            "mouseX": 1123.1875,
+            "mouseY": 448.5,
+            "after": {
+              "info": 400,
+              "pageY": 347,
+              "mediaTop": 268.5
+            }
+          }
+        },
+        {
+          "name": "Gallery next advances",
+          "pass": true
+        },
+        {
+          "name": "Zoom opens correct current product image",
+          "pass": true
+        },
+        {
+          "name": "Zoom closes with Escape",
+          "pass": true
+        },
+        {
+          "name": "No JavaScript errors",
+          "pass": true,
+          "detail": []
+        }
+      ],
+      "errors": [],
+      "banner": {
+        "box": {
+          "x": 0,
+          "y": 110.5,
+          "width": 1440,
+          "height": 505,
+          "right": 1440,
+          "bottom": 615.5
+        },
+        "title": "MISTENED NARCISSUS",
+        "titleBox": {
+          "x": 61.90625,
+          "y": 285.25,
+          "width": 659.25,
+          "height": 68.875,
+          "right": 721.15625,
+          "bottom": 354.125
+        },
+        "titleOverflow": false,
+        "image": {
+          "src": "http://127.0.0.1:4208/assets/sj-mistened-narcissus-01.jpg",
+          "loaded": true,
+          "fit": "contain",
+          "box": {
+            "x": 778.75,
+            "y": 134.5,
+            "width": 599.34375,
+            "height": 456,
+            "right": 1378.09375,
+            "bottom": 590.5
+          }
+        },
+        "h1Count": 1,
+        "h1": "Mistened Narcissus",
+        "horizontalOverflow": false,
+        "detailAfterBanner": true
+      },
+      "anchor": {
+        "hash": "#ProductDetails-10314865016897",
+        "target": "#ProductDetails-10314865016897",
+        "top": 268.5,
+        "bottom": 1158,
+        "headerHeight": 110.5,
+        "inView": true,
+        "clear": true
+      },
+      "scroll": {
+        "before": 0,
+        "height": 890,
+        "total": 2367,
+        "overflow": "auto",
+        "pageY": 347,
+        "mediaTop": 268.5,
+        "mouseX": 1123.1875,
+        "mouseY": 448.5,
+        "after": {
+          "info": 400,
+          "pageY": 347,
+          "mediaTop": 268.5
+        }
+      },
+      "status": "PASS"
+    },
+    {
+      "handle": "mistened-narcissus",
+      "title": "Mistened Narcissus",
+      "theme": "dark",
+      "width": 390,
+      "checks": [
+        {
+          "name": "Full viewport banner",
+          "pass": true,
+          "detail": {
+            "x": 0,
+            "y": 99,
+            "width": 390,
+            "height": 615.125,
+            "right": 390,
+            "bottom": 714.125
+          }
+        },
+        {
+          "name": "Correct banner product title",
+          "pass": true,
+          "detail": "MISTENED NARCISSUS"
+        },
+        {
+          "name": "Correct verified packshot",
+          "pass": true,
+          "detail": {
+            "src": "http://127.0.0.1:4208/assets/sj-mistened-narcissus-01.jpg",
+            "loaded": true,
+            "fit": "contain",
+            "box": {
+              "x": 22,
+              "y": 377.734375,
+              "width": 346,
+              "height": 309.390625,
+              "right": 368,
+              "bottom": 687.125
+            }
+          }
+        },
+        {
+          "name": "Product photo contained without cropping",
+          "pass": true,
+          "detail": "contain"
+        },
+        {
+          "name": "Single product-detail H1",
+          "pass": true,
+          "detail": {
+            "count": 1,
+            "text": "Mistened Narcissus"
+          }
+        },
+        {
+          "name": "No page or banner-title overflow",
+          "pass": true
+        },
+        {
+          "name": "Banner precedes product details",
+          "pass": true
+        },
+        {
+          "name": "CTA reaches details with clear anchor",
+          "pass": true,
+          "detail": {
+            "hash": "#ProductDetails-10314865016897",
+            "target": "#ProductDetails-10314865016897",
+            "top": 246.125,
+            "bottom": 3007.859375,
+            "headerHeight": 99,
+            "inView": true,
+            "clear": true
+          }
+        },
+        {
+          "name": "Gallery retains twelve slides",
+          "pass": true
+        },
+        {
+          "name": "Gallery next advances",
+          "pass": true
+        },
+        {
+          "name": "Zoom opens correct current product image",
+          "pass": true
+        },
+        {
+          "name": "Zoom closes with Escape",
+          "pass": true
+        },
+        {
+          "name": "No JavaScript errors",
+          "pass": true,
+          "detail": []
+        }
+      ],
+      "errors": [],
+      "banner": {
+        "box": {
+          "x": 0,
+          "y": 99,
+          "width": 390,
+          "height": 615.125,
+          "right": 390,
+          "bottom": 714.125
+        },
+        "title": "MISTENED NARCISSUS",
+        "titleBox": {
+          "x": 22,
+          "y": 164.390625,
+          "width": 346,
+          "height": 81.09375,
+          "right": 368,
+          "bottom": 245.484375
+        },
+        "titleOverflow": false,
+        "image": {
+          "src": "http://127.0.0.1:4208/assets/sj-mistened-narcissus-01.jpg",
+          "loaded": true,
+          "fit": "contain",
+          "box": {
+            "x": 22,
+            "y": 377.734375,
+            "width": 346,
+            "height": 309.390625,
+            "right": 368,
+            "bottom": 687.125
+          }
+        },
+        "h1Count": 1,
+        "h1": "Mistened Narcissus",
+        "horizontalOverflow": false,
+        "detailAfterBanner": true
+      },
+      "anchor": {
+        "hash": "#ProductDetails-10314865016897",
+        "target": "#ProductDetails-10314865016897",
+        "top": 246.125,
+        "bottom": 3007.859375,
+        "headerHeight": 99,
+        "inView": true,
+        "clear": true
+      },
+      "status": "PASS"
+    },
+    {
+      "handle": "oud-mirage",
+      "title": "Oud Mirage",
+      "theme": "light",
+      "width": 1440,
+      "checks": [
+        {
+          "name": "Full viewport banner",
+          "pass": true,
+          "detail": {
+            "x": 0,
+            "y": 110.5,
+            "width": 1440,
+            "height": 505,
+            "right": 1440,
+            "bottom": 615.5
+          }
+        },
+        {
+          "name": "Correct banner product title",
+          "pass": true,
+          "detail": "OUD MIRAGE"
+        },
+        {
+          "name": "Correct verified packshot",
+          "pass": true,
+          "detail": {
+            "src": "http://127.0.0.1:4208/assets/sj-oud-mirage-01.jpg",
+            "loaded": true,
+            "fit": "contain",
+            "box": {
+              "x": 778.75,
+              "y": 134.5,
+              "width": 599.34375,
+              "height": 456,
+              "right": 1378.09375,
+              "bottom": 590.5
+            }
+          }
+        },
+        {
+          "name": "Product photo contained without cropping",
+          "pass": true,
+          "detail": "contain"
+        },
+        {
+          "name": "Single product-detail H1",
+          "pass": true,
+          "detail": {
+            "count": 1,
+            "text": "Oud Mirage"
+          }
+        },
+        {
+          "name": "No page or banner-title overflow",
+          "pass": true
+        },
+        {
+          "name": "Banner precedes product details",
+          "pass": true
+        },
+        {
+          "name": "CTA reaches details with clear anchor",
+          "pass": true,
+          "detail": {
+            "hash": "#ProductDetails-10314853515329",
+            "target": "#ProductDetails-10314853515329",
+            "top": 268.5,
+            "bottom": 1158,
+            "headerHeight": 110.5,
+            "inView": true,
+            "clear": true
+          }
+        },
+        {
+          "name": "Gallery retains twelve slides",
+          "pass": true
+        },
+        {
+          "name": "Desktop information independently scrolls",
+          "pass": true,
+          "detail": {
+            "before": 0,
+            "height": 890,
+            "total": 2367,
+            "overflow": "auto",
+            "pageY": 347,
+            "mediaTop": 268.5,
+            "mouseX": 1123.1875,
+            "mouseY": 448.5,
+            "after": {
+              "info": 400,
+              "pageY": 347,
+              "mediaTop": 268.5
+            }
+          }
+        },
+        {
+          "name": "Gallery next advances",
+          "pass": true
+        },
+        {
+          "name": "Zoom opens correct current product image",
+          "pass": true
+        },
+        {
+          "name": "Zoom closes with Escape",
+          "pass": true
+        },
+        {
+          "name": "No JavaScript errors",
+          "pass": true,
+          "detail": []
+        }
+      ],
+      "errors": [],
+      "banner": {
+        "box": {
+          "x": 0,
+          "y": 110.5,
+          "width": 1440,
+          "height": 505,
+          "right": 1440,
+          "bottom": 615.5
+        },
+        "title": "OUD MIRAGE",
+        "titleBox": {
+          "x": 61.90625,
+          "y": 285.25,
+          "width": 659.25,
+          "height": 68.875,
+          "right": 721.15625,
+          "bottom": 354.125
+        },
+        "titleOverflow": false,
+        "image": {
+          "src": "http://127.0.0.1:4208/assets/sj-oud-mirage-01.jpg",
+          "loaded": true,
+          "fit": "contain",
+          "box": {
+            "x": 778.75,
+            "y": 134.5,
+            "width": 599.34375,
+            "height": 456,
+            "right": 1378.09375,
+            "bottom": 590.5
+          }
+        },
+        "h1Count": 1,
+        "h1": "Oud Mirage",
+        "horizontalOverflow": false,
+        "detailAfterBanner": true
+      },
+      "anchor": {
+        "hash": "#ProductDetails-10314853515329",
+        "target": "#ProductDetails-10314853515329",
+        "top": 268.5,
+        "bottom": 1158,
+        "headerHeight": 110.5,
+        "inView": true,
+        "clear": true
+      },
+      "scroll": {
+        "before": 0,
+        "height": 890,
+        "total": 2367,
+        "overflow": "auto",
+        "pageY": 347,
+        "mediaTop": 268.5,
+        "mouseX": 1123.1875,
+        "mouseY": 448.5,
+        "after": {
+          "info": 400,
+          "pageY": 347,
+          "mediaTop": 268.5
+        }
+      },
+      "status": "PASS"
+    },
+    {
+      "handle": "oud-mirage",
+      "title": "Oud Mirage",
+      "theme": "light",
+      "width": 390,
+      "checks": [
+        {
+          "name": "Full viewport banner",
+          "pass": true,
+          "detail": {
+            "x": 0,
+            "y": 99,
+            "width": 390,
+            "height": 574.578125,
+            "right": 390,
+            "bottom": 673.578125
+          }
+        },
+        {
+          "name": "Correct banner product title",
+          "pass": true,
+          "detail": "OUD MIRAGE"
+        },
+        {
+          "name": "Correct verified packshot",
+          "pass": true,
+          "detail": {
+            "src": "http://127.0.0.1:4208/assets/sj-oud-mirage-01.jpg",
+            "loaded": true,
+            "fit": "contain",
+            "box": {
+              "x": 22,
+              "y": 337.1875,
+              "width": 346,
+              "height": 309.390625,
+              "right": 368,
+              "bottom": 646.578125
+            }
+          }
+        },
+        {
+          "name": "Product photo contained without cropping",
+          "pass": true,
+          "detail": "contain"
+        },
+        {
+          "name": "Single product-detail H1",
+          "pass": true,
+          "detail": {
+            "count": 1,
+            "text": "Oud Mirage"
+          }
+        },
+        {
+          "name": "No page or banner-title overflow",
+          "pass": true
+        },
+        {
+          "name": "Banner precedes product details",
+          "pass": true
+        },
+        {
+          "name": "CTA reaches details with clear anchor",
+          "pass": true,
+          "detail": {
+            "hash": "#ProductDetails-10314853515329",
+            "target": "#ProductDetails-10314853515329",
+            "top": 245.578125,
+            "bottom": 2965.3125,
+            "headerHeight": 99,
+            "inView": true,
+            "clear": true
+          }
+        },
+        {
+          "name": "Gallery retains twelve slides",
+          "pass": true
+        },
+        {
+          "name": "Gallery next advances",
+          "pass": true
+        },
+        {
+          "name": "Zoom opens correct current product image",
+          "pass": true
+        },
+        {
+          "name": "Zoom closes with Escape",
+          "pass": true
+        },
+        {
+          "name": "No JavaScript errors",
+          "pass": true,
+          "detail": []
+        }
+      ],
+      "errors": [],
+      "banner": {
+        "box": {
+          "x": 0,
+          "y": 99,
+          "width": 390,
+          "height": 574.578125,
+          "right": 390,
+          "bottom": 673.578125
+        },
+        "title": "OUD MIRAGE",
+        "titleBox": {
+          "x": 22,
+          "y": 164.390625,
+          "width": 346,
+          "height": 40.546875,
+          "right": 368,
+          "bottom": 204.9375
+        },
+        "titleOverflow": false,
+        "image": {
+          "src": "http://127.0.0.1:4208/assets/sj-oud-mirage-01.jpg",
+          "loaded": true,
+          "fit": "contain",
+          "box": {
+            "x": 22,
+            "y": 337.1875,
+            "width": 346,
+            "height": 309.390625,
+            "right": 368,
+            "bottom": 646.578125
+          }
+        },
+        "h1Count": 1,
+        "h1": "Oud Mirage",
+        "horizontalOverflow": false,
+        "detailAfterBanner": true
+      },
+      "anchor": {
+        "hash": "#ProductDetails-10314853515329",
+        "target": "#ProductDetails-10314853515329",
+        "top": 245.578125,
+        "bottom": 2965.3125,
+        "headerHeight": 99,
+        "inView": true,
+        "clear": true
+      },
+      "status": "PASS"
+    },
+    {
+      "handle": "oud-mirage",
+      "title": "Oud Mirage",
+      "theme": "dark",
+      "width": 1440,
+      "checks": [
+        {
+          "name": "Full viewport banner",
+          "pass": true,
+          "detail": {
+            "x": 0,
+            "y": 110.5,
+            "width": 1440,
+            "height": 505,
+            "right": 1440,
+            "bottom": 615.5
+          }
+        },
+        {
+          "name": "Correct banner product title",
+          "pass": true,
+          "detail": "OUD MIRAGE"
+        },
+        {
+          "name": "Correct verified packshot",
+          "pass": true,
+          "detail": {
+            "src": "http://127.0.0.1:4208/assets/sj-oud-mirage-01.jpg",
+            "loaded": true,
+            "fit": "contain",
+            "box": {
+              "x": 778.75,
+              "y": 134.5,
+              "width": 599.34375,
+              "height": 456,
+              "right": 1378.09375,
+              "bottom": 590.5
+            }
+          }
+        },
+        {
+          "name": "Product photo contained without cropping",
+          "pass": true,
+          "detail": "contain"
+        },
+        {
+          "name": "Single product-detail H1",
+          "pass": true,
+          "detail": {
+            "count": 1,
+            "text": "Oud Mirage"
+          }
+        },
+        {
+          "name": "No page or banner-title overflow",
+          "pass": true
+        },
+        {
+          "name": "Banner precedes product details",
+          "pass": true
+        },
+        {
+          "name": "CTA reaches details with clear anchor",
+          "pass": true,
+          "detail": {
+            "hash": "#ProductDetails-10314853515329",
+            "target": "#ProductDetails-10314853515329",
+            "top": 268.5,
+            "bottom": 1158,
+            "headerHeight": 110.5,
+            "inView": true,
+            "clear": true
+          }
+        },
+        {
+          "name": "Gallery retains twelve slides",
+          "pass": true
+        },
+        {
+          "name": "Desktop information independently scrolls",
+          "pass": true,
+          "detail": {
+            "before": 0,
+            "height": 890,
+            "total": 2367,
+            "overflow": "auto",
+            "pageY": 347,
+            "mediaTop": 268.5,
+            "mouseX": 1123.1875,
+            "mouseY": 448.5,
+            "after": {
+              "info": 400,
+              "pageY": 347,
+              "mediaTop": 268.5
+            }
+          }
+        },
+        {
+          "name": "Gallery next advances",
+          "pass": true
+        },
+        {
+          "name": "Zoom opens correct current product image",
+          "pass": true
+        },
+        {
+          "name": "Zoom closes with Escape",
+          "pass": true
+        },
+        {
+          "name": "No JavaScript errors",
+          "pass": true,
+          "detail": []
+        }
+      ],
+      "errors": [],
+      "banner": {
+        "box": {
+          "x": 0,
+          "y": 110.5,
+          "width": 1440,
+          "height": 505,
+          "right": 1440,
+          "bottom": 615.5
+        },
+        "title": "OUD MIRAGE",
+        "titleBox": {
+          "x": 61.90625,
+          "y": 285.25,
+          "width": 659.25,
+          "height": 68.875,
+          "right": 721.15625,
+          "bottom": 354.125
+        },
+        "titleOverflow": false,
+        "image": {
+          "src": "http://127.0.0.1:4208/assets/sj-oud-mirage-01.jpg",
+          "loaded": true,
+          "fit": "contain",
+          "box": {
+            "x": 778.75,
+            "y": 134.5,
+            "width": 599.34375,
+            "height": 456,
+            "right": 1378.09375,
+            "bottom": 590.5
+          }
+        },
+        "h1Count": 1,
+        "h1": "Oud Mirage",
+        "horizontalOverflow": false,
+        "detailAfterBanner": true
+      },
+      "anchor": {
+        "hash": "#ProductDetails-10314853515329",
+        "target": "#ProductDetails-10314853515329",
+        "top": 268.5,
+        "bottom": 1158,
+        "headerHeight": 110.5,
+        "inView": true,
+        "clear": true
+      },
+      "scroll": {
+        "before": 0,
+        "height": 890,
+        "total": 2367,
+        "overflow": "auto",
+        "pageY": 347,
+        "mediaTop": 268.5,
+        "mouseX": 1123.1875,
+        "mouseY": 448.5,
+        "after": {
+          "info": 400,
+          "pageY": 347,
+          "mediaTop": 268.5
+        }
+      },
+      "status": "PASS"
+    },
+    {
+      "handle": "oud-mirage",
+      "title": "Oud Mirage",
+      "theme": "dark",
+      "width": 390,
+      "checks": [
+        {
+          "name": "Full viewport banner",
+          "pass": true,
+          "detail": {
+            "x": 0,
+            "y": 99,
+            "width": 390,
+            "height": 574.578125,
+            "right": 390,
+            "bottom": 673.578125
+          }
+        },
+        {
+          "name": "Correct banner product title",
+          "pass": true,
+          "detail": "OUD MIRAGE"
+        },
+        {
+          "name": "Correct verified packshot",
+          "pass": true,
+          "detail": {
+            "src": "http://127.0.0.1:4208/assets/sj-oud-mirage-01.jpg",
+            "loaded": true,
+            "fit": "contain",
+            "box": {
+              "x": 22,
+              "y": 337.1875,
+              "width": 346,
+              "height": 309.390625,
+              "right": 368,
+              "bottom": 646.578125
+            }
+          }
+        },
+        {
+          "name": "Product photo contained without cropping",
+          "pass": true,
+          "detail": "contain"
+        },
+        {
+          "name": "Single product-detail H1",
+          "pass": true,
+          "detail": {
+            "count": 1,
+            "text": "Oud Mirage"
+          }
+        },
+        {
+          "name": "No page or banner-title overflow",
+          "pass": true
+        },
+        {
+          "name": "Banner precedes product details",
+          "pass": true
+        },
+        {
+          "name": "CTA reaches details with clear anchor",
+          "pass": true,
+          "detail": {
+            "hash": "#ProductDetails-10314853515329",
+            "target": "#ProductDetails-10314853515329",
+            "top": 245.578125,
+            "bottom": 2965.3125,
+            "headerHeight": 99,
+            "inView": true,
+            "clear": true
+          }
+        },
+        {
+          "name": "Gallery retains twelve slides",
+          "pass": true
+        },
+        {
+          "name": "Gallery next advances",
+          "pass": true
+        },
+        {
+          "name": "Zoom opens correct current product image",
+          "pass": true
+        },
+        {
+          "name": "Zoom closes with Escape",
+          "pass": true
+        },
+        {
+          "name": "No JavaScript errors",
+          "pass": true,
+          "detail": []
+        }
+      ],
+      "errors": [],
+      "banner": {
+        "box": {
+          "x": 0,
+          "y": 99,
+          "width": 390,
+          "height": 574.578125,
+          "right": 390,
+          "bottom": 673.578125
+        },
+        "title": "OUD MIRAGE",
+        "titleBox": {
+          "x": 22,
+          "y": 164.390625,
+          "width": 346,
+          "height": 40.546875,
+          "right": 368,
+          "bottom": 204.9375
+        },
+        "titleOverflow": false,
+        "image": {
+          "src": "http://127.0.0.1:4208/assets/sj-oud-mirage-01.jpg",
+          "loaded": true,
+          "fit": "contain",
+          "box": {
+            "x": 22,
+            "y": 337.1875,
+            "width": 346,
+            "height": 309.390625,
+            "right": 368,
+            "bottom": 646.578125
+          }
+        },
+        "h1Count": 1,
+        "h1": "Oud Mirage",
+        "horizontalOverflow": false,
+        "detailAfterBanner": true
+      },
+      "anchor": {
+        "hash": "#ProductDetails-10314853515329",
+        "target": "#ProductDetails-10314853515329",
+        "top": 245.578125,
+        "bottom": 2965.3125,
+        "headerHeight": 99,
+        "inView": true,
+        "clear": true
+      },
+      "status": "PASS"
+    },
+    {
+      "handle": "rtulle-satin",
+      "title": "Rtulle & Satin",
+      "theme": "light",
+      "width": 1440,
+      "checks": [
+        {
+          "name": "Full viewport banner",
+          "pass": true,
+          "detail": {
+            "x": 0,
+            "y": 110.5,
+            "width": 1440,
+            "height": 505,
+            "right": 1440,
+            "bottom": 615.5
+          }
+        },
+        {
+          "name": "Correct banner product title",
+          "pass": true,
+          "detail": "RTULLE & SATIN"
+        },
+        {
+          "name": "Correct verified packshot",
+          "pass": true,
+          "detail": {
+            "src": "http://127.0.0.1:4208/assets/sj-rtulle-satin-01.jpg",
+            "loaded": true,
+            "fit": "contain",
+            "box": {
+              "x": 778.75,
+              "y": 134.5,
+              "width": 599.34375,
+              "height": 456,
+              "right": 1378.09375,
+              "bottom": 590.5
+            }
+          }
+        },
+        {
+          "name": "Product photo contained without cropping",
+          "pass": true,
+          "detail": "contain"
+        },
+        {
+          "name": "Single product-detail H1",
+          "pass": true,
+          "detail": {
+            "count": 1,
+            "text": "Rtulle & Satin"
+          }
+        },
+        {
+          "name": "No page or banner-title overflow",
+          "pass": true
+        },
+        {
+          "name": "Banner precedes product details",
+          "pass": true
+        },
+        {
+          "name": "CTA reaches details with clear anchor",
+          "pass": true,
+          "detail": {
+            "hash": "#ProductDetails-10314853449793",
+            "target": "#ProductDetails-10314853449793",
+            "top": 268.5,
+            "bottom": 1158,
+            "headerHeight": 110.5,
+            "inView": true,
+            "clear": true
+          }
+        },
+        {
+          "name": "Gallery retains twelve slides",
+          "pass": true
+        },
+        {
+          "name": "Desktop information independently scrolls",
+          "pass": true,
+          "detail": {
+            "before": 0,
+            "height": 890,
+            "total": 2137,
+            "overflow": "auto",
+            "pageY": 347,
+            "mediaTop": 268.5,
+            "mouseX": 1123.1875,
+            "mouseY": 448.5,
+            "after": {
+              "info": 400,
+              "pageY": 347,
+              "mediaTop": 268.5
+            }
+          }
+        },
+        {
+          "name": "Gallery next advances",
+          "pass": true
+        },
+        {
+          "name": "Zoom opens correct current product image",
+          "pass": true
+        },
+        {
+          "name": "Zoom closes with Escape",
+          "pass": true
+        },
+        {
+          "name": "No JavaScript errors",
+          "pass": true,
+          "detail": []
+        }
+      ],
+      "errors": [],
+      "banner": {
+        "box": {
+          "x": 0,
+          "y": 110.5,
+          "width": 1440,
+          "height": 505,
+          "right": 1440,
+          "bottom": 615.5
+        },
+        "title": "RTULLE & SATIN",
+        "titleBox": {
+          "x": 61.90625,
+          "y": 285.25,
+          "width": 659.25,
+          "height": 68.875,
+          "right": 721.15625,
+          "bottom": 354.125
+        },
+        "titleOverflow": false,
+        "image": {
+          "src": "http://127.0.0.1:4208/assets/sj-rtulle-satin-01.jpg",
+          "loaded": true,
+          "fit": "contain",
+          "box": {
+            "x": 778.75,
+            "y": 134.5,
+            "width": 599.34375,
+            "height": 456,
+            "right": 1378.09375,
+            "bottom": 590.5
+          }
+        },
+        "h1Count": 1,
+        "h1": "Rtulle & Satin",
+        "horizontalOverflow": false,
+        "detailAfterBanner": true
+      },
+      "anchor": {
+        "hash": "#ProductDetails-10314853449793",
+        "target": "#ProductDetails-10314853449793",
+        "top": 268.5,
+        "bottom": 1158,
+        "headerHeight": 110.5,
+        "inView": true,
+        "clear": true
+      },
+      "scroll": {
+        "before": 0,
+        "height": 890,
+        "total": 2137,
+        "overflow": "auto",
+        "pageY": 347,
+        "mediaTop": 268.5,
+        "mouseX": 1123.1875,
+        "mouseY": 448.5,
+        "after": {
+          "info": 400,
+          "pageY": 347,
+          "mediaTop": 268.5
+        }
+      },
+      "status": "PASS"
+    },
+    {
+      "handle": "rtulle-satin",
+      "title": "Rtulle & Satin",
+      "theme": "light",
+      "width": 390,
+      "checks": [
+        {
+          "name": "Full viewport banner",
+          "pass": true,
+          "detail": {
+            "x": 0,
+            "y": 99,
+            "width": 390,
+            "height": 574.578125,
+            "right": 390,
+            "bottom": 673.578125
+          }
+        },
+        {
+          "name": "Correct banner product title",
+          "pass": true,
+          "detail": "RTULLE & SATIN"
+        },
+        {
+          "name": "Correct verified packshot",
+          "pass": true,
+          "detail": {
+            "src": "http://127.0.0.1:4208/assets/sj-rtulle-satin-01.jpg",
+            "loaded": true,
+            "fit": "contain",
+            "box": {
+              "x": 22,
+              "y": 337.1875,
+              "width": 346,
+              "height": 309.390625,
+              "right": 368,
+              "bottom": 646.578125
+            }
+          }
+        },
+        {
+          "name": "Product photo contained without cropping",
+          "pass": true,
+          "detail": "contain"
+        },
+        {
+          "name": "Single product-detail H1",
+          "pass": true,
+          "detail": {
+            "count": 1,
+            "text": "Rtulle & Satin"
+          }
+        },
+        {
+          "name": "No page or banner-title overflow",
+          "pass": true
+        },
+        {
+          "name": "Banner precedes product details",
+          "pass": true
+        },
+        {
+          "name": "CTA reaches details with clear anchor",
+          "pass": true,
+          "detail": {
+            "hash": "#ProductDetails-10314853449793",
+            "target": "#ProductDetails-10314853449793",
+            "top": 245.578125,
+            "bottom": 2744.109375,
+            "headerHeight": 99,
+            "inView": true,
+            "clear": true
+          }
+        },
+        {
+          "name": "Gallery retains twelve slides",
+          "pass": true
+        },
+        {
+          "name": "Gallery next advances",
+          "pass": true
+        },
+        {
+          "name": "Zoom opens correct current product image",
+          "pass": true
+        },
+        {
+          "name": "Zoom closes with Escape",
+          "pass": true
+        },
+        {
+          "name": "No JavaScript errors",
+          "pass": true,
+          "detail": []
+        }
+      ],
+      "errors": [],
+      "banner": {
+        "box": {
+          "x": 0,
+          "y": 99,
+          "width": 390,
+          "height": 574.578125,
+          "right": 390,
+          "bottom": 673.578125
+        },
+        "title": "RTULLE & SATIN",
+        "titleBox": {
+          "x": 22,
+          "y": 164.390625,
+          "width": 346,
+          "height": 40.546875,
+          "right": 368,
+          "bottom": 204.9375
+        },
+        "titleOverflow": false,
+        "image": {
+          "src": "http://127.0.0.1:4208/assets/sj-rtulle-satin-01.jpg",
+          "loaded": true,
+          "fit": "contain",
+          "box": {
+            "x": 22,
+            "y": 337.1875,
+            "width": 346,
+            "height": 309.390625,
+            "right": 368,
+            "bottom": 646.578125
+          }
+        },
+        "h1Count": 1,
+        "h1": "Rtulle & Satin",
+        "horizontalOverflow": false,
+        "detailAfterBanner": true
+      },
+      "anchor": {
+        "hash": "#ProductDetails-10314853449793",
+        "target": "#ProductDetails-10314853449793",
+        "top": 245.578125,
+        "bottom": 2744.109375,
+        "headerHeight": 99,
+        "inView": true,
+        "clear": true
+      },
+      "status": "PASS"
+    },
+    {
+      "handle": "rtulle-satin",
+      "title": "Rtulle & Satin",
+      "theme": "dark",
+      "width": 1440,
+      "checks": [
+        {
+          "name": "Full viewport banner",
+          "pass": true,
+          "detail": {
+            "x": 0,
+            "y": 110.5,
+            "width": 1440,
+            "height": 505,
+            "right": 1440,
+            "bottom": 615.5
+          }
+        },
+        {
+          "name": "Correct banner product title",
+          "pass": true,
+          "detail": "RTULLE & SATIN"
+        },
+        {
+          "name": "Correct verified packshot",
+          "pass": true,
+          "detail": {
+            "src": "http://127.0.0.1:4208/assets/sj-rtulle-satin-01.jpg",
+            "loaded": true,
+            "fit": "contain",
+            "box": {
+              "x": 778.75,
+              "y": 134.5,
+              "width": 599.34375,
+              "height": 456,
+              "right": 1378.09375,
+              "bottom": 590.5
+            }
+          }
+        },
+        {
+          "name": "Product photo contained without cropping",
+          "pass": true,
+          "detail": "contain"
+        },
+        {
+          "name": "Single product-detail H1",
+          "pass": true,
+          "detail": {
+            "count": 1,
+            "text": "Rtulle & Satin"
+          }
+        },
+        {
+          "name": "No page or banner-title overflow",
+          "pass": true
+        },
+        {
+          "name": "Banner precedes product details",
+          "pass": true
+        },
+        {
+          "name": "CTA reaches details with clear anchor",
+          "pass": true,
+          "detail": {
+            "hash": "#ProductDetails-10314853449793",
+            "target": "#ProductDetails-10314853449793",
+            "top": 268.5,
+            "bottom": 1158,
+            "headerHeight": 110.5,
+            "inView": true,
+            "clear": true
+          }
+        },
+        {
+          "name": "Gallery retains twelve slides",
+          "pass": true
+        },
+        {
+          "name": "Desktop information independently scrolls",
+          "pass": true,
+          "detail": {
+            "before": 0,
+            "height": 890,
+            "total": 2137,
+            "overflow": "auto",
+            "pageY": 347,
+            "mediaTop": 268.5,
+            "mouseX": 1123.1875,
+            "mouseY": 448.5,
+            "after": {
+              "info": 400,
+              "pageY": 347,
+              "mediaTop": 268.5
+            }
+          }
+        },
+        {
+          "name": "Gallery next advances",
+          "pass": true
+        },
+        {
+          "name": "Zoom opens correct current product image",
+          "pass": true
+        },
+        {
+          "name": "Zoom closes with Escape",
+          "pass": true
+        },
+        {
+          "name": "No JavaScript errors",
+          "pass": true,
+          "detail": []
+        }
+      ],
+      "errors": [],
+      "banner": {
+        "box": {
+          "x": 0,
+          "y": 110.5,
+          "width": 1440,
+          "height": 505,
+          "right": 1440,
+          "bottom": 615.5
+        },
+        "title": "RTULLE & SATIN",
+        "titleBox": {
+          "x": 61.90625,
+          "y": 285.25,
+          "width": 659.25,
+          "height": 68.875,
+          "right": 721.15625,
+          "bottom": 354.125
+        },
+        "titleOverflow": false,
+        "image": {
+          "src": "http://127.0.0.1:4208/assets/sj-rtulle-satin-01.jpg",
+          "loaded": true,
+          "fit": "contain",
+          "box": {
+            "x": 778.75,
+            "y": 134.5,
+            "width": 599.34375,
+            "height": 456,
+            "right": 1378.09375,
+            "bottom": 590.5
+          }
+        },
+        "h1Count": 1,
+        "h1": "Rtulle & Satin",
+        "horizontalOverflow": false,
+        "detailAfterBanner": true
+      },
+      "anchor": {
+        "hash": "#ProductDetails-10314853449793",
+        "target": "#ProductDetails-10314853449793",
+        "top": 268.5,
+        "bottom": 1158,
+        "headerHeight": 110.5,
+        "inView": true,
+        "clear": true
+      },
+      "scroll": {
+        "before": 0,
+        "height": 890,
+        "total": 2137,
+        "overflow": "auto",
+        "pageY": 347,
+        "mediaTop": 268.5,
+        "mouseX": 1123.1875,
+        "mouseY": 448.5,
+        "after": {
+          "info": 400,
+          "pageY": 347,
+          "mediaTop": 268.5
+        }
+      },
+      "status": "PASS"
+    },
+    {
+      "handle": "rtulle-satin",
+      "title": "Rtulle & Satin",
+      "theme": "dark",
+      "width": 390,
+      "checks": [
+        {
+          "name": "Full viewport banner",
+          "pass": true,
+          "detail": {
+            "x": 0,
+            "y": 99,
+            "width": 390,
+            "height": 574.578125,
+            "right": 390,
+            "bottom": 673.578125
+          }
+        },
+        {
+          "name": "Correct banner product title",
+          "pass": true,
+          "detail": "RTULLE & SATIN"
+        },
+        {
+          "name": "Correct verified packshot",
+          "pass": true,
+          "detail": {
+            "src": "http://127.0.0.1:4208/assets/sj-rtulle-satin-01.jpg",
+            "loaded": true,
+            "fit": "contain",
+            "box": {
+              "x": 22,
+              "y": 337.1875,
+              "width": 346,
+              "height": 309.390625,
+              "right": 368,
+              "bottom": 646.578125
+            }
+          }
+        },
+        {
+          "name": "Product photo contained without cropping",
+          "pass": true,
+          "detail": "contain"
+        },
+        {
+          "name": "Single product-detail H1",
+          "pass": true,
+          "detail": {
+            "count": 1,
+            "text": "Rtulle & Satin"
+          }
+        },
+        {
+          "name": "No page or banner-title overflow",
+          "pass": true
+        },
+        {
+          "name": "Banner precedes product details",
+          "pass": true
+        },
+        {
+          "name": "CTA reaches details with clear anchor",
+          "pass": true,
+          "detail": {
+            "hash": "#ProductDetails-10314853449793",
+            "target": "#ProductDetails-10314853449793",
+            "top": 245.578125,
+            "bottom": 2744.109375,
+            "headerHeight": 99,
+            "inView": true,
+            "clear": true
+          }
+        },
+        {
+          "name": "Gallery retains twelve slides",
+          "pass": true
+        },
+        {
+          "name": "Gallery next advances",
+          "pass": true
+        },
+        {
+          "name": "Zoom opens correct current product image",
+          "pass": true
+        },
+        {
+          "name": "Zoom closes with Escape",
+          "pass": true
+        },
+        {
+          "name": "No JavaScript errors",
+          "pass": true,
+          "detail": []
+        }
+      ],
+      "errors": [],
+      "banner": {
+        "box": {
+          "x": 0,
+          "y": 99,
+          "width": 390,
+          "height": 574.578125,
+          "right": 390,
+          "bottom": 673.578125
+        },
+        "title": "RTULLE & SATIN",
+        "titleBox": {
+          "x": 22,
+          "y": 164.390625,
+          "width": 346,
+          "height": 40.546875,
+          "right": 368,
+          "bottom": 204.9375
+        },
+        "titleOverflow": false,
+        "image": {
+          "src": "http://127.0.0.1:4208/assets/sj-rtulle-satin-01.jpg",
+          "loaded": true,
+          "fit": "contain",
+          "box": {
+            "x": 22,
+            "y": 337.1875,
+            "width": 346,
+            "height": 309.390625,
+            "right": 368,
+            "bottom": 646.578125
+          }
+        },
+        "h1Count": 1,
+        "h1": "Rtulle & Satin",
+        "horizontalOverflow": false,
+        "detailAfterBanner": true
+      },
+      "anchor": {
+        "hash": "#ProductDetails-10314853449793",
+        "target": "#ProductDetails-10314853449793",
+        "top": 245.578125,
+        "bottom": 2744.109375,
+        "headerHeight": 99,
+        "inView": true,
+        "clear": true
+      },
+      "status": "PASS"
+    },
+    {
+      "handle": "amber-oud-silk",
+      "title": "Amber Oud Silk",
+      "theme": "light",
+      "width": 1440,
+      "checks": [
+        {
+          "name": "Full viewport banner",
+          "pass": true,
+          "detail": {
+            "x": 0,
+            "y": 110.5,
+            "width": 1440,
+            "height": 505,
+            "right": 1440,
+            "bottom": 615.5
+          }
+        },
+        {
+          "name": "Correct banner product title",
+          "pass": true,
+          "detail": "AMBER OUD SILK"
+        },
+        {
+          "name": "Correct verified packshot",
+          "pass": true,
+          "detail": {
+            "src": "http://127.0.0.1:4208/assets/sj-amber-oud-silk-01.jpg",
+            "loaded": true,
+            "fit": "contain",
+            "box": {
+              "x": 778.75,
+              "y": 134.5,
+              "width": 599.34375,
+              "height": 456,
+              "right": 1378.09375,
+              "bottom": 590.5
+            }
+          }
+        },
+        {
+          "name": "Product photo contained without cropping",
+          "pass": true,
+          "detail": "contain"
+        },
+        {
+          "name": "Single product-detail H1",
+          "pass": true,
+          "detail": {
+            "count": 1,
+            "text": "Amber Oud Silk"
+          }
+        },
+        {
+          "name": "No page or banner-title overflow",
+          "pass": true
+        },
+        {
+          "name": "Banner precedes product details",
+          "pass": true
+        },
+        {
+          "name": "CTA reaches details with clear anchor",
+          "pass": true,
+          "detail": {
+            "hash": "#ProductDetails-10314853417025",
+            "target": "#ProductDetails-10314853417025",
+            "top": 268.5,
+            "bottom": 1158,
+            "headerHeight": 110.5,
+            "inView": true,
+            "clear": true
+          }
+        },
+        {
+          "name": "Gallery retains twelve slides",
+          "pass": true
+        },
+        {
+          "name": "Desktop information independently scrolls",
+          "pass": true,
+          "detail": {
+            "before": 0,
+            "height": 890,
+            "total": 2386,
+            "overflow": "auto",
+            "pageY": 347,
+            "mediaTop": 268.5,
+            "mouseX": 1123.1875,
+            "mouseY": 448.5,
+            "after": {
+              "info": 400,
+              "pageY": 347,
+              "mediaTop": 268.5
+            }
+          }
+        },
+        {
+          "name": "Gallery next advances",
+          "pass": true
+        },
+        {
+          "name": "Zoom opens correct current product image",
+          "pass": true
+        },
+        {
+          "name": "Zoom closes with Escape",
+          "pass": true
+        },
+        {
+          "name": "No JavaScript errors",
+          "pass": true,
+          "detail": []
+        }
+      ],
+      "errors": [],
+      "banner": {
+        "box": {
+          "x": 0,
+          "y": 110.5,
+          "width": 1440,
+          "height": 505,
+          "right": 1440,
+          "bottom": 615.5
+        },
+        "title": "AMBER OUD SILK",
+        "titleBox": {
+          "x": 61.90625,
+          "y": 285.25,
+          "width": 659.25,
+          "height": 68.875,
+          "right": 721.15625,
+          "bottom": 354.125
+        },
+        "titleOverflow": false,
+        "image": {
+          "src": "http://127.0.0.1:4208/assets/sj-amber-oud-silk-01.jpg",
+          "loaded": true,
+          "fit": "contain",
+          "box": {
+            "x": 778.75,
+            "y": 134.5,
+            "width": 599.34375,
+            "height": 456,
+            "right": 1378.09375,
+            "bottom": 590.5
+          }
+        },
+        "h1Count": 1,
+        "h1": "Amber Oud Silk",
+        "horizontalOverflow": false,
+        "detailAfterBanner": true
+      },
+      "anchor": {
+        "hash": "#ProductDetails-10314853417025",
+        "target": "#ProductDetails-10314853417025",
+        "top": 268.5,
+        "bottom": 1158,
+        "headerHeight": 110.5,
+        "inView": true,
+        "clear": true
+      },
+      "scroll": {
+        "before": 0,
+        "height": 890,
+        "total": 2386,
+        "overflow": "auto",
+        "pageY": 347,
+        "mediaTop": 268.5,
+        "mouseX": 1123.1875,
+        "mouseY": 448.5,
+        "after": {
+          "info": 400,
+          "pageY": 347,
+          "mediaTop": 268.5
+        }
+      },
+      "status": "PASS"
+    },
+    {
+      "handle": "amber-oud-silk",
+      "title": "Amber Oud Silk",
+      "theme": "light",
+      "width": 390,
+      "checks": [
+        {
+          "name": "Full viewport banner",
+          "pass": true,
+          "detail": {
+            "x": 0,
+            "y": 99,
+            "width": 390,
+            "height": 574.578125,
+            "right": 390,
+            "bottom": 673.578125
+          }
+        },
+        {
+          "name": "Correct banner product title",
+          "pass": true,
+          "detail": "AMBER OUD SILK"
+        },
+        {
+          "name": "Correct verified packshot",
+          "pass": true,
+          "detail": {
+            "src": "http://127.0.0.1:4208/assets/sj-amber-oud-silk-01.jpg",
+            "loaded": true,
+            "fit": "contain",
+            "box": {
+              "x": 22,
+              "y": 337.1875,
+              "width": 346,
+              "height": 309.390625,
+              "right": 368,
+              "bottom": 646.578125
+            }
+          }
+        },
+        {
+          "name": "Product photo contained without cropping",
+          "pass": true,
+          "detail": "contain"
+        },
+        {
+          "name": "Single product-detail H1",
+          "pass": true,
+          "detail": {
+            "count": 1,
+            "text": "Amber Oud Silk"
+          }
+        },
+        {
+          "name": "No page or banner-title overflow",
+          "pass": true
+        },
+        {
+          "name": "Banner precedes product details",
+          "pass": true
+        },
+        {
+          "name": "CTA reaches details with clear anchor",
+          "pass": true,
+          "detail": {
+            "hash": "#ProductDetails-10314853417025",
+            "target": "#ProductDetails-10314853417025",
+            "top": 245.578125,
+            "bottom": 2984.5,
+            "headerHeight": 99,
+            "inView": true,
+            "clear": true
+          }
+        },
+        {
+          "name": "Gallery retains twelve slides",
+          "pass": true
+        },
+        {
+          "name": "Gallery next advances",
+          "pass": true
+        },
+        {
+          "name": "Zoom opens correct current product image",
+          "pass": true
+        },
+        {
+          "name": "Zoom closes with Escape",
+          "pass": true
+        },
+        {
+          "name": "No JavaScript errors",
+          "pass": true,
+          "detail": []
+        }
+      ],
+      "errors": [],
+      "banner": {
+        "box": {
+          "x": 0,
+          "y": 99,
+          "width": 390,
+          "height": 574.578125,
+          "right": 390,
+          "bottom": 673.578125
+        },
+        "title": "AMBER OUD SILK",
+        "titleBox": {
+          "x": 22,
+          "y": 164.390625,
+          "width": 346,
+          "height": 40.546875,
+          "right": 368,
+          "bottom": 204.9375
+        },
+        "titleOverflow": false,
+        "image": {
+          "src": "http://127.0.0.1:4208/assets/sj-amber-oud-silk-01.jpg",
+          "loaded": true,
+          "fit": "contain",
+          "box": {
+            "x": 22,
+            "y": 337.1875,
+            "width": 346,
+            "height": 309.390625,
+            "right": 368,
+            "bottom": 646.578125
+          }
+        },
+        "h1Count": 1,
+        "h1": "Amber Oud Silk",
+        "horizontalOverflow": false,
+        "detailAfterBanner": true
+      },
+      "anchor": {
+        "hash": "#ProductDetails-10314853417025",
+        "target": "#ProductDetails-10314853417025",
+        "top": 245.578125,
+        "bottom": 2984.5,
+        "headerHeight": 99,
+        "inView": true,
+        "clear": true
+      },
+      "status": "PASS"
+    },
+    {
+      "handle": "amber-oud-silk",
+      "title": "Amber Oud Silk",
+      "theme": "dark",
+      "width": 1440,
+      "checks": [
+        {
+          "name": "Full viewport banner",
+          "pass": true,
+          "detail": {
+            "x": 0,
+            "y": 110.5,
+            "width": 1440,
+            "height": 505,
+            "right": 1440,
+            "bottom": 615.5
+          }
+        },
+        {
+          "name": "Correct banner product title",
+          "pass": true,
+          "detail": "AMBER OUD SILK"
+        },
+        {
+          "name": "Correct verified packshot",
+          "pass": true,
+          "detail": {
+            "src": "http://127.0.0.1:4208/assets/sj-amber-oud-silk-01.jpg",
+            "loaded": true,
+            "fit": "contain",
+            "box": {
+              "x": 778.75,
+              "y": 134.5,
+              "width": 599.34375,
+              "height": 456,
+              "right": 1378.09375,
+              "bottom": 590.5
+            }
+          }
+        },
+        {
+          "name": "Product photo contained without cropping",
+          "pass": true,
+          "detail": "contain"
+        },
+        {
+          "name": "Single product-detail H1",
+          "pass": true,
+          "detail": {
+            "count": 1,
+            "text": "Amber Oud Silk"
+          }
+        },
+        {
+          "name": "No page or banner-title overflow",
+          "pass": true
+        },
+        {
+          "name": "Banner precedes product details",
+          "pass": true
+        },
+        {
+          "name": "CTA reaches details with clear anchor",
+          "pass": true,
+          "detail": {
+            "hash": "#ProductDetails-10314853417025",
+            "target": "#ProductDetails-10314853417025",
+            "top": 268.5,
+            "bottom": 1158,
+            "headerHeight": 110.5,
+            "inView": true,
+            "clear": true
+          }
+        },
+        {
+          "name": "Gallery retains twelve slides",
+          "pass": true
+        },
+        {
+          "name": "Desktop information independently scrolls",
+          "pass": true,
+          "detail": {
+            "before": 0,
+            "height": 890,
+            "total": 2386,
+            "overflow": "auto",
+            "pageY": 347,
+            "mediaTop": 268.5,
+            "mouseX": 1123.1875,
+            "mouseY": 448.5,
+            "after": {
+              "info": 400,
+              "pageY": 347,
+              "mediaTop": 268.5
+            }
+          }
+        },
+        {
+          "name": "Gallery next advances",
+          "pass": true
+        },
+        {
+          "name": "Zoom opens correct current product image",
+          "pass": true
+        },
+        {
+          "name": "Zoom closes with Escape",
+          "pass": true
+        },
+        {
+          "name": "No JavaScript errors",
+          "pass": true,
+          "detail": []
+        }
+      ],
+      "errors": [],
+      "banner": {
+        "box": {
+          "x": 0,
+          "y": 110.5,
+          "width": 1440,
+          "height": 505,
+          "right": 1440,
+          "bottom": 615.5
+        },
+        "title": "AMBER OUD SILK",
+        "titleBox": {
+          "x": 61.90625,
+          "y": 285.25,
+          "width": 659.25,
+          "height": 68.875,
+          "right": 721.15625,
+          "bottom": 354.125
+        },
+        "titleOverflow": false,
+        "image": {
+          "src": "http://127.0.0.1:4208/assets/sj-amber-oud-silk-01.jpg",
+          "loaded": true,
+          "fit": "contain",
+          "box": {
+            "x": 778.75,
+            "y": 134.5,
+            "width": 599.34375,
+            "height": 456,
+            "right": 1378.09375,
+            "bottom": 590.5
+          }
+        },
+        "h1Count": 1,
+        "h1": "Amber Oud Silk",
+        "horizontalOverflow": false,
+        "detailAfterBanner": true
+      },
+      "anchor": {
+        "hash": "#ProductDetails-10314853417025",
+        "target": "#ProductDetails-10314853417025",
+        "top": 268.5,
+        "bottom": 1158,
+        "headerHeight": 110.5,
+        "inView": true,
+        "clear": true
+      },
+      "scroll": {
+        "before": 0,
+        "height": 890,
+        "total": 2386,
+        "overflow": "auto",
+        "pageY": 347,
+        "mediaTop": 268.5,
+        "mouseX": 1123.1875,
+        "mouseY": 448.5,
+        "after": {
+          "info": 400,
+          "pageY": 347,
+          "mediaTop": 268.5
+        }
+      },
+      "status": "PASS"
+    },
+    {
+      "handle": "amber-oud-silk",
+      "title": "Amber Oud Silk",
+      "theme": "dark",
+      "width": 390,
+      "checks": [
+        {
+          "name": "Full viewport banner",
+          "pass": true,
+          "detail": {
+            "x": 0,
+            "y": 99,
+            "width": 390,
+            "height": 574.578125,
+            "right": 390,
+            "bottom": 673.578125
+          }
+        },
+        {
+          "name": "Correct banner product title",
+          "pass": true,
+          "detail": "AMBER OUD SILK"
+        },
+        {
+          "name": "Correct verified packshot",
+          "pass": true,
+          "detail": {
+            "src": "http://127.0.0.1:4208/assets/sj-amber-oud-silk-01.jpg",
+            "loaded": true,
+            "fit": "contain",
+            "box": {
+              "x": 22,
+              "y": 337.1875,
+              "width": 346,
+              "height": 309.390625,
+              "right": 368,
+              "bottom": 646.578125
+            }
+          }
+        },
+        {
+          "name": "Product photo contained without cropping",
+          "pass": true,
+          "detail": "contain"
+        },
+        {
+          "name": "Single product-detail H1",
+          "pass": true,
+          "detail": {
+            "count": 1,
+            "text": "Amber Oud Silk"
+          }
+        },
+        {
+          "name": "No page or banner-title overflow",
+          "pass": true
+        },
+        {
+          "name": "Banner precedes product details",
+          "pass": true
+        },
+        {
+          "name": "CTA reaches details with clear anchor",
+          "pass": true,
+          "detail": {
+            "hash": "#ProductDetails-10314853417025",
+            "target": "#ProductDetails-10314853417025",
+            "top": 245.578125,
+            "bottom": 2984.5,
+            "headerHeight": 99,
+            "inView": true,
+            "clear": true
+          }
+        },
+        {
+          "name": "Gallery retains twelve slides",
+          "pass": true
+        },
+        {
+          "name": "Gallery next advances",
+          "pass": true
+        },
+        {
+          "name": "Zoom opens correct current product image",
+          "pass": true
+        },
+        {
+          "name": "Zoom closes with Escape",
+          "pass": true
+        },
+        {
+          "name": "No JavaScript errors",
+          "pass": true,
+          "detail": []
+        }
+      ],
+      "errors": [],
+      "banner": {
+        "box": {
+          "x": 0,
+          "y": 99,
+          "width": 390,
+          "height": 574.578125,
+          "right": 390,
+          "bottom": 673.578125
+        },
+        "title": "AMBER OUD SILK",
+        "titleBox": {
+          "x": 22,
+          "y": 164.390625,
+          "width": 346,
+          "height": 40.546875,
+          "right": 368,
+          "bottom": 204.9375
+        },
+        "titleOverflow": false,
+        "image": {
+          "src": "http://127.0.0.1:4208/assets/sj-amber-oud-silk-01.jpg",
+          "loaded": true,
+          "fit": "contain",
+          "box": {
+            "x": 22,
+            "y": 337.1875,
+            "width": 346,
+            "height": 309.390625,
+            "right": 368,
+            "bottom": 646.578125
+          }
+        },
+        "h1Count": 1,
+        "h1": "Amber Oud Silk",
+        "horizontalOverflow": false,
+        "detailAfterBanner": true
+      },
+      "anchor": {
+        "hash": "#ProductDetails-10314853417025",
+        "target": "#ProductDetails-10314853417025",
+        "top": 245.578125,
+        "bottom": 2984.5,
+        "headerHeight": 99,
+        "inView": true,
+        "clear": true
+      },
+      "status": "PASS"
+    },
+    {
+      "handle": "charme-envoutant",
+      "title": "Charme Envo\u00fbtant",
+      "theme": "light",
+      "width": 1440,
+      "checks": [
+        {
+          "name": "Full viewport banner",
+          "pass": true,
+          "detail": {
+            "x": 0,
+            "y": 110.5,
+            "width": 1440,
+            "height": 505,
+            "right": 1440,
+            "bottom": 615.5
+          }
+        },
+        {
+          "name": "Correct banner product title",
+          "pass": true,
+          "detail": "CHARME ENVO\u00dbTANT"
+        },
+        {
+          "name": "Correct verified packshot",
+          "pass": true,
+          "detail": {
+            "src": "http://127.0.0.1:4208/assets/sj-charme-envoutant-01.jpg",
+            "loaded": true,
+            "fit": "contain",
+            "box": {
+              "x": 778.75,
+              "y": 134.5,
+              "width": 599.34375,
+              "height": 456,
+              "right": 1378.09375,
+              "bottom": 590.5
+            }
+          }
+        },
+        {
+          "name": "Product photo contained without cropping",
+          "pass": true,
+          "detail": "contain"
+        },
+        {
+          "name": "Single product-detail H1",
+          "pass": true,
+          "detail": {
+            "count": 1,
+            "text": "Charme Envo\u00fbtant"
+          }
+        },
+        {
+          "name": "No page or banner-title overflow",
+          "pass": true
+        },
+        {
+          "name": "Banner precedes product details",
+          "pass": true
+        },
+        {
+          "name": "CTA reaches details with clear anchor",
+          "pass": true,
+          "detail": {
+            "hash": "#ProductDetails-10314005020737",
+            "target": "#ProductDetails-10314005020737",
+            "top": 268.5,
+            "bottom": 1158,
+            "headerHeight": 110.5,
+            "inView": true,
+            "clear": true
+          }
+        },
+        {
+          "name": "Gallery retains twelve slides",
+          "pass": true
+        },
+        {
+          "name": "Desktop information independently scrolls",
+          "pass": true,
+          "detail": {
+            "before": 0,
+            "height": 890,
+            "total": 2367,
+            "overflow": "auto",
+            "pageY": 347,
+            "mediaTop": 268.5,
+            "mouseX": 1123.1875,
+            "mouseY": 448.5,
+            "after": {
+              "info": 400,
+              "pageY": 347,
+              "mediaTop": 268.5
+            }
+          }
+        },
+        {
+          "name": "Gallery next advances",
+          "pass": true
+        },
+        {
+          "name": "Zoom opens correct current product image",
+          "pass": true
+        },
+        {
+          "name": "Zoom closes with Escape",
+          "pass": true
+        },
+        {
+          "name": "No JavaScript errors",
+          "pass": true,
+          "detail": []
+        }
+      ],
+      "errors": [],
+      "banner": {
+        "box": {
+          "x": 0,
+          "y": 110.5,
+          "width": 1440,
+          "height": 505,
+          "right": 1440,
+          "bottom": 615.5
+        },
+        "title": "CHARME ENVO\u00dbTANT",
+        "titleBox": {
+          "x": 61.90625,
+          "y": 285.25,
+          "width": 659.25,
+          "height": 68.875,
+          "right": 721.15625,
+          "bottom": 354.125
+        },
+        "titleOverflow": false,
+        "image": {
+          "src": "http://127.0.0.1:4208/assets/sj-charme-envoutant-01.jpg",
+          "loaded": true,
+          "fit": "contain",
+          "box": {
+            "x": 778.75,
+            "y": 134.5,
+            "width": 599.34375,
+            "height": 456,
+            "right": 1378.09375,
+            "bottom": 590.5
+          }
+        },
+        "h1Count": 1,
+        "h1": "Charme Envo\u00fbtant",
+        "horizontalOverflow": false,
+        "detailAfterBanner": true
+      },
+      "anchor": {
+        "hash": "#ProductDetails-10314005020737",
+        "target": "#ProductDetails-10314005020737",
+        "top": 268.5,
+        "bottom": 1158,
+        "headerHeight": 110.5,
+        "inView": true,
+        "clear": true
+      },
+      "scroll": {
+        "before": 0,
+        "height": 890,
+        "total": 2367,
+        "overflow": "auto",
+        "pageY": 347,
+        "mediaTop": 268.5,
+        "mouseX": 1123.1875,
+        "mouseY": 448.5,
+        "after": {
+          "info": 400,
+          "pageY": 347,
+          "mediaTop": 268.5
+        }
+      },
+      "status": "PASS"
+    },
+    {
+      "handle": "charme-envoutant",
+      "title": "Charme Envo\u00fbtant",
+      "theme": "light",
+      "width": 390,
+      "checks": [
+        {
+          "name": "Full viewport banner",
+          "pass": true,
+          "detail": {
+            "x": 0,
+            "y": 99,
+            "width": 390,
+            "height": 615.125,
+            "right": 390,
+            "bottom": 714.125
+          }
+        },
+        {
+          "name": "Correct banner product title",
+          "pass": true,
+          "detail": "CHARME ENVO\u00dbTANT"
+        },
+        {
+          "name": "Correct verified packshot",
+          "pass": true,
+          "detail": {
+            "src": "http://127.0.0.1:4208/assets/sj-charme-envoutant-01.jpg",
+            "loaded": true,
+            "fit": "contain",
+            "box": {
+              "x": 22,
+              "y": 377.734375,
+              "width": 346,
+              "height": 309.390625,
+              "right": 368,
+              "bottom": 687.125
+            }
+          }
+        },
+        {
+          "name": "Product photo contained without cropping",
+          "pass": true,
+          "detail": "contain"
+        },
+        {
+          "name": "Single product-detail H1",
+          "pass": true,
+          "detail": {
+            "count": 1,
+            "text": "Charme Envo\u00fbtant"
+          }
+        },
+        {
+          "name": "No page or banner-title overflow",
+          "pass": true
+        },
+        {
+          "name": "Banner precedes product details",
+          "pass": true
+        },
+        {
+          "name": "CTA reaches details with clear anchor",
+          "pass": true,
+          "detail": {
+            "hash": "#ProductDetails-10314005020737",
+            "target": "#ProductDetails-10314005020737",
+            "top": 246.125,
+            "bottom": 3004.40625,
+            "headerHeight": 99,
+            "inView": true,
+            "clear": true
+          }
+        },
+        {
+          "name": "Gallery retains twelve slides",
+          "pass": true
+        },
+        {
+          "name": "Gallery next advances",
+          "pass": true
+        },
+        {
+          "name": "Zoom opens correct current product image",
+          "pass": true
+        },
+        {
+          "name": "Zoom closes with Escape",
+          "pass": true
+        },
+        {
+          "name": "No JavaScript errors",
+          "pass": true,
+          "detail": []
+        }
+      ],
+      "errors": [],
+      "banner": {
+        "box": {
+          "x": 0,
+          "y": 99,
+          "width": 390,
+          "height": 615.125,
+          "right": 390,
+          "bottom": 714.125
+        },
+        "title": "CHARME ENVO\u00dbTANT",
+        "titleBox": {
+          "x": 22,
+          "y": 164.390625,
+          "width": 346,
+          "height": 81.09375,
+          "right": 368,
+          "bottom": 245.484375
+        },
+        "titleOverflow": false,
+        "image": {
+          "src": "http://127.0.0.1:4208/assets/sj-charme-envoutant-01.jpg",
+          "loaded": true,
+          "fit": "contain",
+          "box": {
+            "x": 22,
+            "y": 377.734375,
+            "width": 346,
+            "height": 309.390625,
+            "right": 368,
+            "bottom": 687.125
+          }
+        },
+        "h1Count": 1,
+        "h1": "Charme Envo\u00fbtant",
+        "horizontalOverflow": false,
+        "detailAfterBanner": true
+      },
+      "anchor": {
+        "hash": "#ProductDetails-10314005020737",
+        "target": "#ProductDetails-10314005020737",
+        "top": 246.125,
+        "bottom": 3004.40625,
+        "headerHeight": 99,
+        "inView": true,
+        "clear": true
+      },
+      "status": "PASS"
+    },
+    {
+      "handle": "charme-envoutant",
+      "title": "Charme Envo\u00fbtant",
+      "theme": "dark",
+      "width": 1440,
+      "checks": [
+        {
+          "name": "Full viewport banner",
+          "pass": true,
+          "detail": {
+            "x": 0,
+            "y": 110.5,
+            "width": 1440,
+            "height": 505,
+            "right": 1440,
+            "bottom": 615.5
+          }
+        },
+        {
+          "name": "Correct banner product title",
+          "pass": true,
+          "detail": "CHARME ENVO\u00dbTANT"
+        },
+        {
+          "name": "Correct verified packshot",
+          "pass": true,
+          "detail": {
+            "src": "http://127.0.0.1:4208/assets/sj-charme-envoutant-01.jpg",
+            "loaded": true,
+            "fit": "contain",
+            "box": {
+              "x": 778.75,
+              "y": 134.5,
+              "width": 599.34375,
+              "height": 456,
+              "right": 1378.09375,
+              "bottom": 590.5
+            }
+          }
+        },
+        {
+          "name": "Product photo contained without cropping",
+          "pass": true,
+          "detail": "contain"
+        },
+        {
+          "name": "Single product-detail H1",
+          "pass": true,
+          "detail": {
+            "count": 1,
+            "text": "Charme Envo\u00fbtant"
+          }
+        },
+        {
+          "name": "No page or banner-title overflow",
+          "pass": true
+        },
+        {
+          "name": "Banner precedes product details",
+          "pass": true
+        },
+        {
+          "name": "CTA reaches details with clear anchor",
+          "pass": true,
+          "detail": {
+            "hash": "#ProductDetails-10314005020737",
+            "target": "#ProductDetails-10314005020737",
+            "top": 268.5,
+            "bottom": 1158,
+            "headerHeight": 110.5,
+            "inView": true,
+            "clear": true
+          }
+        },
+        {
+          "name": "Gallery retains twelve slides",
+          "pass": true
+        },
+        {
+          "name": "Desktop information independently scrolls",
+          "pass": true,
+          "detail": {
+            "before": 0,
+            "height": 890,
+            "total": 2367,
+            "overflow": "auto",
+            "pageY": 347,
+            "mediaTop": 268.5,
+            "mouseX": 1123.1875,
+            "mouseY": 448.5,
+            "after": {
+              "info": 400,
+              "pageY": 347,
+              "mediaTop": 268.5
+            }
+          }
+        },
+        {
+          "name": "Gallery next advances",
+          "pass": true
+        },
+        {
+          "name": "Zoom opens correct current product image",
+          "pass": true
+        },
+        {
+          "name": "Zoom closes with Escape",
+          "pass": true
+        },
+        {
+          "name": "No JavaScript errors",
+          "pass": true,
+          "detail": []
+        }
+      ],
+      "errors": [],
+      "banner": {
+        "box": {
+          "x": 0,
+          "y": 110.5,
+          "width": 1440,
+          "height": 505,
+          "right": 1440,
+          "bottom": 615.5
+        },
+        "title": "CHARME ENVO\u00dbTANT",
+        "titleBox": {
+          "x": 61.90625,
+          "y": 285.25,
+          "width": 659.25,
+          "height": 68.875,
+          "right": 721.15625,
+          "bottom": 354.125
+        },
+        "titleOverflow": false,
+        "image": {
+          "src": "http://127.0.0.1:4208/assets/sj-charme-envoutant-01.jpg",
+          "loaded": true,
+          "fit": "contain",
+          "box": {
+            "x": 778.75,
+            "y": 134.5,
+            "width": 599.34375,
+            "height": 456,
+            "right": 1378.09375,
+            "bottom": 590.5
+          }
+        },
+        "h1Count": 1,
+        "h1": "Charme Envo\u00fbtant",
+        "horizontalOverflow": false,
+        "detailAfterBanner": true
+      },
+      "anchor": {
+        "hash": "#ProductDetails-10314005020737",
+        "target": "#ProductDetails-10314005020737",
+        "top": 268.5,
+        "bottom": 1158,
+        "headerHeight": 110.5,
+        "inView": true,
+        "clear": true
+      },
+      "scroll": {
+        "before": 0,
+        "height": 890,
+        "total": 2367,
+        "overflow": "auto",
+        "pageY": 347,
+        "mediaTop": 268.5,
+        "mouseX": 1123.1875,
+        "mouseY": 448.5,
+        "after": {
+          "info": 400,
+          "pageY": 347,
+          "mediaTop": 268.5
+        }
+      },
+      "status": "PASS"
+    },
+    {
+      "handle": "charme-envoutant",
+      "title": "Charme Envo\u00fbtant",
+      "theme": "dark",
+      "width": 390,
+      "checks": [
+        {
+          "name": "Full viewport banner",
+          "pass": true,
+          "detail": {
+            "x": 0,
+            "y": 99,
+            "width": 390,
+            "height": 615.125,
+            "right": 390,
+            "bottom": 714.125
+          }
+        },
+        {
+          "name": "Correct banner product title",
+          "pass": true,
+          "detail": "CHARME ENVO\u00dbTANT"
+        },
+        {
+          "name": "Correct verified packshot",
+          "pass": true,
+          "detail": {
+            "src": "http://127.0.0.1:4208/assets/sj-charme-envoutant-01.jpg",
+            "loaded": true,
+            "fit": "contain",
+            "box": {
+              "x": 22,
+              "y": 377.734375,
+              "width": 346,
+              "height": 309.390625,
+              "right": 368,
+              "bottom": 687.125
+            }
+          }
+        },
+        {
+          "name": "Product photo contained without cropping",
+          "pass": true,
+          "detail": "contain"
+        },
+        {
+          "name": "Single product-detail H1",
+          "pass": true,
+          "detail": {
+            "count": 1,
+            "text": "Charme Envo\u00fbtant"
+          }
+        },
+        {
+          "name": "No page or banner-title overflow",
+          "pass": true
+        },
+        {
+          "name": "Banner precedes product details",
+          "pass": true
+        },
+        {
+          "name": "CTA reaches details with clear anchor",
+          "pass": true,
+          "detail": {
+            "hash": "#ProductDetails-10314005020737",
+            "target": "#ProductDetails-10314005020737",
+            "top": 246.125,
+            "bottom": 3004.40625,
+            "headerHeight": 99,
+            "inView": true,
+            "clear": true
+          }
+        },
+        {
+          "name": "Gallery retains twelve slides",
+          "pass": true
+        },
+        {
+          "name": "Gallery next advances",
+          "pass": true
+        },
+        {
+          "name": "Zoom opens correct current product image",
+          "pass": true
+        },
+        {
+          "name": "Zoom closes with Escape",
+          "pass": true
+        },
+        {
+          "name": "No JavaScript errors",
+          "pass": true,
+          "detail": []
+        }
+      ],
+      "errors": [],
+      "banner": {
+        "box": {
+          "x": 0,
+          "y": 99,
+          "width": 390,
+          "height": 615.125,
+          "right": 390,
+          "bottom": 714.125
+        },
+        "title": "CHARME ENVO\u00dbTANT",
+        "titleBox": {
+          "x": 22,
+          "y": 164.390625,
+          "width": 346,
+          "height": 81.09375,
+          "right": 368,
+          "bottom": 245.484375
+        },
+        "titleOverflow": false,
+        "image": {
+          "src": "http://127.0.0.1:4208/assets/sj-charme-envoutant-01.jpg",
+          "loaded": true,
+          "fit": "contain",
+          "box": {
+            "x": 22,
+            "y": 377.734375,
+            "width": 346,
+            "height": 309.390625,
+            "right": 368,
+            "bottom": 687.125
+          }
+        },
+        "h1Count": 1,
+        "h1": "Charme Envo\u00fbtant",
+        "horizontalOverflow": false,
+        "detailAfterBanner": true
+      },
+      "anchor": {
+        "hash": "#ProductDetails-10314005020737",
+        "target": "#ProductDetails-10314005020737",
+        "top": 246.125,
+        "bottom": 3004.40625,
+        "headerHeight": 99,
+        "inView": true,
+        "clear": true
+      },
+      "status": "PASS"
+    },
+    {
+      "handle": "mojito-metallique",
+      "title": "Mojito Metallique",
+      "theme": "light",
+      "width": 1440,
+      "checks": [
+        {
+          "name": "Full viewport banner",
+          "pass": true,
+          "detail": {
+            "x": 0,
+            "y": 110.5,
+            "width": 1440,
+            "height": 505,
+            "right": 1440,
+            "bottom": 615.5
+          }
+        },
+        {
+          "name": "Correct banner product title",
+          "pass": true,
+          "detail": "MOJITO METALLIQUE"
+        },
+        {
+          "name": "Correct verified packshot",
+          "pass": true,
+          "detail": {
+            "src": "http://127.0.0.1:4208/assets/sj-mojito-metallique-01.jpg",
+            "loaded": true,
+            "fit": "contain",
+            "box": {
+              "x": 778.75,
+              "y": 134.5,
+              "width": 599.34375,
+              "height": 456,
+              "right": 1378.09375,
+              "bottom": 590.5
+            }
+          }
+        },
+        {
+          "name": "Product photo contained without cropping",
+          "pass": true,
+          "detail": "contain"
+        },
+        {
+          "name": "Single product-detail H1",
+          "pass": true,
+          "detail": {
+            "count": 1,
+            "text": "Mojito Metallique"
+          }
+        },
+        {
+          "name": "No page or banner-title overflow",
+          "pass": true
+        },
+        {
+          "name": "Banner precedes product details",
+          "pass": true
+        },
+        {
+          "name": "CTA reaches details with clear anchor",
+          "pass": true,
+          "detail": {
+            "hash": "#ProductDetails-10314869571649",
+            "target": "#ProductDetails-10314869571649",
+            "top": 268.5,
+            "bottom": 1158,
+            "headerHeight": 110.5,
+            "inView": true,
+            "clear": true
+          }
+        },
+        {
+          "name": "Gallery retains twelve slides",
+          "pass": true
+        },
+        {
+          "name": "Desktop information independently scrolls",
+          "pass": true,
+          "detail": {
+            "before": 0,
+            "height": 890,
+            "total": 2837,
+            "overflow": "auto",
+            "pageY": 347,
+            "mediaTop": 268.5,
+            "mouseX": 1123.1875,
+            "mouseY": 448.5,
+            "after": {
+              "info": 400,
+              "pageY": 347,
+              "mediaTop": 268.5
+            }
+          }
+        },
+        {
+          "name": "Gallery next advances",
+          "pass": true
+        },
+        {
+          "name": "Zoom opens correct current product image",
+          "pass": true
+        },
+        {
+          "name": "Zoom closes with Escape",
+          "pass": true
+        },
+        {
+          "name": "No JavaScript errors",
+          "pass": true,
+          "detail": []
+        }
+      ],
+      "errors": [],
+      "banner": {
+        "box": {
+          "x": 0,
+          "y": 110.5,
+          "width": 1440,
+          "height": 505,
+          "right": 1440,
+          "bottom": 615.5
+        },
+        "title": "MOJITO METALLIQUE",
+        "titleBox": {
+          "x": 61.90625,
+          "y": 285.25,
+          "width": 659.25,
+          "height": 68.875,
+          "right": 721.15625,
+          "bottom": 354.125
+        },
+        "titleOverflow": false,
+        "image": {
+          "src": "http://127.0.0.1:4208/assets/sj-mojito-metallique-01.jpg",
+          "loaded": true,
+          "fit": "contain",
+          "box": {
+            "x": 778.75,
+            "y": 134.5,
+            "width": 599.34375,
+            "height": 456,
+            "right": 1378.09375,
+            "bottom": 590.5
+          }
+        },
+        "h1Count": 1,
+        "h1": "Mojito Metallique",
+        "horizontalOverflow": false,
+        "detailAfterBanner": true
+      },
+      "anchor": {
+        "hash": "#ProductDetails-10314869571649",
+        "target": "#ProductDetails-10314869571649",
+        "top": 268.5,
+        "bottom": 1158,
+        "headerHeight": 110.5,
+        "inView": true,
+        "clear": true
+      },
+      "scroll": {
+        "before": 0,
+        "height": 890,
+        "total": 2837,
+        "overflow": "auto",
+        "pageY": 347,
+        "mediaTop": 268.5,
+        "mouseX": 1123.1875,
+        "mouseY": 448.5,
+        "after": {
+          "info": 400,
+          "pageY": 347,
+          "mediaTop": 268.5
+        }
+      },
+      "status": "PASS"
+    },
+    {
+      "handle": "mojito-metallique",
+      "title": "Mojito Metallique",
+      "theme": "light",
+      "width": 390,
+      "checks": [
+        {
+          "name": "Full viewport banner",
+          "pass": true,
+          "detail": {
+            "x": 0,
+            "y": 99,
+            "width": 390,
+            "height": 574.578125,
+            "right": 390,
+            "bottom": 673.578125
+          }
+        },
+        {
+          "name": "Correct banner product title",
+          "pass": true,
+          "detail": "MOJITO METALLIQUE"
+        },
+        {
+          "name": "Correct verified packshot",
+          "pass": true,
+          "detail": {
+            "src": "http://127.0.0.1:4208/assets/sj-mojito-metallique-01.jpg",
+            "loaded": true,
+            "fit": "contain",
+            "box": {
+              "x": 22,
+              "y": 337.1875,
+              "width": 346,
+              "height": 309.390625,
+              "right": 368,
+              "bottom": 646.578125
+            }
+          }
+        },
+        {
+          "name": "Product photo contained without cropping",
+          "pass": true,
+          "detail": "contain"
+        },
+        {
+          "name": "Single product-detail H1",
+          "pass": true,
+          "detail": {
+            "count": 1,
+            "text": "Mojito Metallique"
+          }
+        },
+        {
+          "name": "No page or banner-title overflow",
+          "pass": true
+        },
+        {
+          "name": "Banner precedes product details",
+          "pass": true
+        },
+        {
+          "name": "CTA reaches details with clear anchor",
+          "pass": true,
+          "detail": {
+            "hash": "#ProductDetails-10314869571649",
+            "target": "#ProductDetails-10314869571649",
+            "top": 245.578125,
+            "bottom": 3589.53125,
+            "headerHeight": 99,
+            "inView": true,
+            "clear": true
+          }
+        },
+        {
+          "name": "Gallery retains twelve slides",
+          "pass": true
+        },
+        {
+          "name": "Gallery next advances",
+          "pass": true
+        },
+        {
+          "name": "Zoom opens correct current product image",
+          "pass": true
+        },
+        {
+          "name": "Zoom closes with Escape",
+          "pass": true
+        },
+        {
+          "name": "No JavaScript errors",
+          "pass": true,
+          "detail": []
+        }
+      ],
+      "errors": [],
+      "banner": {
+        "box": {
+          "x": 0,
+          "y": 99,
+          "width": 390,
+          "height": 574.578125,
+          "right": 390,
+          "bottom": 673.578125
+        },
+        "title": "MOJITO METALLIQUE",
+        "titleBox": {
+          "x": 22,
+          "y": 164.390625,
+          "width": 346,
+          "height": 40.546875,
+          "right": 368,
+          "bottom": 204.9375
+        },
+        "titleOverflow": false,
+        "image": {
+          "src": "http://127.0.0.1:4208/assets/sj-mojito-metallique-01.jpg",
+          "loaded": true,
+          "fit": "contain",
+          "box": {
+            "x": 22,
+            "y": 337.1875,
+            "width": 346,
+            "height": 309.390625,
+            "right": 368,
+            "bottom": 646.578125
+          }
+        },
+        "h1Count": 1,
+        "h1": "Mojito Metallique",
+        "horizontalOverflow": false,
+        "detailAfterBanner": true
+      },
+      "anchor": {
+        "hash": "#ProductDetails-10314869571649",
+        "target": "#ProductDetails-10314869571649",
+        "top": 245.578125,
+        "bottom": 3589.53125,
+        "headerHeight": 99,
+        "inView": true,
+        "clear": true
+      },
+      "status": "PASS"
+    },
+    {
+      "handle": "mojito-metallique",
+      "title": "Mojito Metallique",
+      "theme": "dark",
+      "width": 1440,
+      "checks": [
+        {
+          "name": "Full viewport banner",
+          "pass": true,
+          "detail": {
+            "x": 0,
+            "y": 110.5,
+            "width": 1440,
+            "height": 505,
+            "right": 1440,
+            "bottom": 615.5
+          }
+        },
+        {
+          "name": "Correct banner product title",
+          "pass": true,
+          "detail": "MOJITO METALLIQUE"
+        },
+        {
+          "name": "Correct verified packshot",
+          "pass": true,
+          "detail": {
+            "src": "http://127.0.0.1:4208/assets/sj-mojito-metallique-01.jpg",
+            "loaded": true,
+            "fit": "contain",
+            "box": {
+              "x": 778.75,
+              "y": 134.5,
+              "width": 599.34375,
+              "height": 456,
+              "right": 1378.09375,
+              "bottom": 590.5
+            }
+          }
+        },
+        {
+          "name": "Product photo contained without cropping",
+          "pass": true,
+          "detail": "contain"
+        },
+        {
+          "name": "Single product-detail H1",
+          "pass": true,
+          "detail": {
+            "count": 1,
+            "text": "Mojito Metallique"
+          }
+        },
+        {
+          "name": "No page or banner-title overflow",
+          "pass": true
+        },
+        {
+          "name": "Banner precedes product details",
+          "pass": true
+        },
+        {
+          "name": "CTA reaches details with clear anchor",
+          "pass": true,
+          "detail": {
+            "hash": "#ProductDetails-10314869571649",
+            "target": "#ProductDetails-10314869571649",
+            "top": 268.5,
+            "bottom": 1158,
+            "headerHeight": 110.5,
+            "inView": true,
+            "clear": true
+          }
+        },
+        {
+          "name": "Gallery retains twelve slides",
+          "pass": true
+        },
+        {
+          "name": "Desktop information independently scrolls",
+          "pass": true,
+          "detail": {
+            "before": 0,
+            "height": 890,
+            "total": 2837,
+            "overflow": "auto",
+            "pageY": 347,
+            "mediaTop": 268.5,
+            "mouseX": 1123.1875,
+            "mouseY": 448.5,
+            "after": {
+              "info": 400,
+              "pageY": 347,
+              "mediaTop": 268.5
+            }
+          }
+        },
+        {
+          "name": "Gallery next advances",
+          "pass": true
+        },
+        {
+          "name": "Zoom opens correct current product image",
+          "pass": true
+        },
+        {
+          "name": "Zoom closes with Escape",
+          "pass": true
+        },
+        {
+          "name": "No JavaScript errors",
+          "pass": true,
+          "detail": []
+        }
+      ],
+      "errors": [],
+      "banner": {
+        "box": {
+          "x": 0,
+          "y": 110.5,
+          "width": 1440,
+          "height": 505,
+          "right": 1440,
+          "bottom": 615.5
+        },
+        "title": "MOJITO METALLIQUE",
+        "titleBox": {
+          "x": 61.90625,
+          "y": 285.25,
+          "width": 659.25,
+          "height": 68.875,
+          "right": 721.15625,
+          "bottom": 354.125
+        },
+        "titleOverflow": false,
+        "image": {
+          "src": "http://127.0.0.1:4208/assets/sj-mojito-metallique-01.jpg",
+          "loaded": true,
+          "fit": "contain",
+          "box": {
+            "x": 778.75,
+            "y": 134.5,
+            "width": 599.34375,
+            "height": 456,
+            "right": 1378.09375,
+            "bottom": 590.5
+          }
+        },
+        "h1Count": 1,
+        "h1": "Mojito Metallique",
+        "horizontalOverflow": false,
+        "detailAfterBanner": true
+      },
+      "anchor": {
+        "hash": "#ProductDetails-10314869571649",
+        "target": "#ProductDetails-10314869571649",
+        "top": 268.5,
+        "bottom": 1158,
+        "headerHeight": 110.5,
+        "inView": true,
+        "clear": true
+      },
+      "scroll": {
+        "before": 0,
+        "height": 890,
+        "total": 2837,
+        "overflow": "auto",
+        "pageY": 347,
+        "mediaTop": 268.5,
+        "mouseX": 1123.1875,
+        "mouseY": 448.5,
+        "after": {
+          "info": 400,
+          "pageY": 347,
+          "mediaTop": 268.5
+        }
+      },
+      "status": "PASS"
+    },
+    {
+      "handle": "mojito-metallique",
+      "title": "Mojito Metallique",
+      "theme": "dark",
+      "width": 390,
+      "checks": [
+        {
+          "name": "Full viewport banner",
+          "pass": true,
+          "detail": {
+            "x": 0,
+            "y": 99,
+            "width": 390,
+            "height": 574.578125,
+            "right": 390,
+            "bottom": 673.578125
+          }
+        },
+        {
+          "name": "Correct banner product title",
+          "pass": true,
+          "detail": "MOJITO METALLIQUE"
+        },
+        {
+          "name": "Correct verified packshot",
+          "pass": true,
+          "detail": {
+            "src": "http://127.0.0.1:4208/assets/sj-mojito-metallique-01.jpg",
+            "loaded": true,
+            "fit": "contain",
+            "box": {
+              "x": 22,
+              "y": 337.1875,
+              "width": 346,
+              "height": 309.390625,
+              "right": 368,
+              "bottom": 646.578125
+            }
+          }
+        },
+        {
+          "name": "Product photo contained without cropping",
+          "pass": true,
+          "detail": "contain"
+        },
+        {
+          "name": "Single product-detail H1",
+          "pass": true,
+          "detail": {
+            "count": 1,
+            "text": "Mojito Metallique"
+          }
+        },
+        {
+          "name": "No page or banner-title overflow",
+          "pass": true
+        },
+        {
+          "name": "Banner precedes product details",
+          "pass": true
+        },
+        {
+          "name": "CTA reaches details with clear anchor",
+          "pass": true,
+          "detail": {
+            "hash": "#ProductDetails-10314869571649",
+            "target": "#ProductDetails-10314869571649",
+            "top": 245.578125,
+            "bottom": 3589.53125,
+            "headerHeight": 99,
+            "inView": true,
+            "clear": true
+          }
+        },
+        {
+          "name": "Gallery retains twelve slides",
+          "pass": true
+        },
+        {
+          "name": "Gallery next advances",
+          "pass": true
+        },
+        {
+          "name": "Zoom opens correct current product image",
+          "pass": true
+        },
+        {
+          "name": "Zoom closes with Escape",
+          "pass": true
+        },
+        {
+          "name": "No JavaScript errors",
+          "pass": true,
+          "detail": []
+        }
+      ],
+      "errors": [],
+      "banner": {
+        "box": {
+          "x": 0,
+          "y": 99,
+          "width": 390,
+          "height": 574.578125,
+          "right": 390,
+          "bottom": 673.578125
+        },
+        "title": "MOJITO METALLIQUE",
+        "titleBox": {
+          "x": 22,
+          "y": 164.390625,
+          "width": 346,
+          "height": 40.546875,
+          "right": 368,
+          "bottom": 204.9375
+        },
+        "titleOverflow": false,
+        "image": {
+          "src": "http://127.0.0.1:4208/assets/sj-mojito-metallique-01.jpg",
+          "loaded": true,
+          "fit": "contain",
+          "box": {
+            "x": 22,
+            "y": 337.1875,
+            "width": 346,
+            "height": 309.390625,
+            "right": 368,
+            "bottom": 646.578125
+          }
+        },
+        "h1Count": 1,
+        "h1": "Mojito Metallique",
+        "horizontalOverflow": false,
+        "detailAfterBanner": true
+      },
+      "anchor": {
+        "hash": "#ProductDetails-10314869571649",
+        "target": "#ProductDetails-10314869571649",
+        "top": 245.578125,
+        "bottom": 3589.53125,
+        "headerHeight": 99,
+        "inView": true,
+        "clear": true
+      },
+      "status": "PASS"
+    },
+    {
+      "handle": "mistened-narcissus",
+      "title": "Mistened Narcissus",
+      "theme": "light",
+      "width": 820,
+      "checks": [
+        {
+          "name": "Full viewport banner",
+          "pass": true,
+          "detail": {
+            "x": 0,
+            "y": 110.5,
+            "width": 820,
+            "height": 421,
+            "right": 820,
+            "bottom": 531.5
+          }
+        },
+        {
+          "name": "Correct banner product title",
+          "pass": true,
+          "detail": "MISTENED NARCISSUS"
+        },
+        {
+          "name": "Correct verified packshot",
+          "pass": true,
+          "detail": {
+            "src": "http://127.0.0.1:4208/assets/sj-mistened-narcissus-01.jpg",
+            "loaded": true,
+            "fit": "contain",
+            "box": {
+              "x": 443.453125,
+              "y": 134.5,
+              "width": 341.296875,
+              "height": 372,
+              "right": 784.75,
+              "bottom": 506.5
+            }
+          }
+        },
+        {
+          "name": "Product photo contained without cropping",
+          "pass": true,
+          "detail": "contain"
+        },
+        {
+          "name": "Single product-detail H1",
+          "pass": true,
+          "detail": {
+            "count": 1,
+            "text": "Mistened Narcissus"
+          }
+        },
+        {
+          "name": "No page or banner-title overflow",
+          "pass": true
+        },
+        {
+          "name": "Banner precedes product details",
+          "pass": true
+        },
+        {
+          "name": "CTA reaches details with clear anchor",
+          "pass": true,
+          "detail": {
+            "hash": "#ProductDetails-10314865016897",
+            "target": "#ProductDetails-10314865016897",
+            "top": 268.5,
+            "bottom": 3565.234375,
+            "headerHeight": 110.5,
+            "inView": true,
+            "clear": true
+          }
+        },
+        {
+          "name": "Gallery retains twelve slides",
+          "pass": true
+        },
+        {
+          "name": "Gallery next advances",
+          "pass": true
+        },
+        {
+          "name": "Zoom opens correct current product image",
+          "pass": true
+        },
+        {
+          "name": "Zoom closes with Escape",
+          "pass": true
+        },
+        {
+          "name": "No JavaScript errors",
+          "pass": true,
+          "detail": []
+        }
+      ],
+      "errors": [],
+      "banner": {
+        "box": {
+          "x": 0,
+          "y": 110.5,
+          "width": 820,
+          "height": 421,
+          "right": 820,
+          "bottom": 531.5
+        },
+        "title": "MISTENED NARCISSUS",
+        "titleBox": {
+          "x": 35.25,
+          "y": 234.015625,
+          "width": 375.40625,
+          "height": 87.34375,
+          "right": 410.65625,
+          "bottom": 321.359375
+        },
+        "titleOverflow": false,
+        "image": {
+          "src": "http://127.0.0.1:4208/assets/sj-mistened-narcissus-01.jpg",
+          "loaded": true,
+          "fit": "contain",
+          "box": {
+            "x": 443.453125,
+            "y": 134.5,
+            "width": 341.296875,
+            "height": 372,
+            "right": 784.75,
+            "bottom": 506.5
+          }
+        },
+        "h1Count": 1,
+        "h1": "Mistened Narcissus",
+        "horizontalOverflow": false,
+        "detailAfterBanner": true
+      },
+      "anchor": {
+        "hash": "#ProductDetails-10314865016897",
+        "target": "#ProductDetails-10314865016897",
+        "top": 268.5,
+        "bottom": 3565.234375,
+        "headerHeight": 110.5,
+        "inView": true,
+        "clear": true
+      },
+      "status": "PASS"
+    },
+    {
+      "handle": "mistened-narcissus",
+      "title": "Mistened Narcissus",
+      "theme": "light",
+      "width": 1920,
+      "checks": [
+        {
+          "name": "Full viewport banner",
+          "pass": true,
+          "detail": {
+            "x": 0,
+            "y": 110.5,
+            "width": 1920,
+            "height": 561,
+            "right": 1920,
+            "bottom": 671.5
+          }
+        },
+        {
+          "name": "Correct banner product title",
+          "pass": true,
+          "detail": "MISTENED NARCISSUS"
+        },
+        {
+          "name": "Correct verified packshot",
+          "pass": true,
+          "detail": {
+            "src": "http://127.0.0.1:4208/assets/sj-mistened-narcissus-01.jpg",
+            "loaded": true,
+            "fit": "contain",
+            "box": {
+              "x": 1033.203125,
+              "y": 134.5,
+              "width": 744.25,
+              "height": 512,
+              "right": 1777.453125,
+              "bottom": 646.5
+            }
+          }
+        },
+        {
+          "name": "Product photo contained without cropping",
+          "pass": true,
+          "detail": "contain"
+        },
+        {
+          "name": "Single product-detail H1",
+          "pass": true,
+          "detail": {
+            "count": 1,
+            "text": "Mistened Narcissus"
+          }
+        },
+        {
+          "name": "No page or banner-title overflow",
+          "pass": true
+        },
+        {
+          "name": "Banner precedes product details",
+          "pass": true
+        },
+        {
+          "name": "CTA reaches details with clear anchor",
+          "pass": true,
+          "detail": {
+            "hash": "#ProductDetails-10314865016897",
+            "target": "#ProductDetails-10314865016897",
+            "top": 268.5,
+            "bottom": 1158,
+            "headerHeight": 110.5,
+            "inView": true,
+            "clear": true
+          }
+        },
+        {
+          "name": "Gallery retains twelve slides",
+          "pass": true
+        },
+        {
+          "name": "Desktop information independently scrolls",
+          "pass": true,
+          "detail": {
+            "before": 0,
+            "height": 890,
+            "total": 2573,
+            "overflow": "auto",
+            "pageY": 403,
+            "mediaTop": 268.5,
+            "mouseX": 1497.59375,
+            "mouseY": 448.5,
+            "after": {
+              "info": 400,
+              "pageY": 403,
+              "mediaTop": 268.5
+            }
+          }
+        },
+        {
+          "name": "Gallery next advances",
+          "pass": true
+        },
+        {
+          "name": "Zoom opens correct current product image",
+          "pass": true
+        },
+        {
+          "name": "Zoom closes with Escape",
+          "pass": true
+        },
+        {
+          "name": "No JavaScript errors",
+          "pass": true,
+          "detail": []
+        }
+      ],
+      "errors": [],
+      "banner": {
+        "box": {
+          "x": 0,
+          "y": 110.5,
+          "width": 1920,
+          "height": 561,
+          "right": 1920,
+          "bottom": 671.5
+        },
+        "title": "MISTENED NARCISSUS",
+        "titleBox": {
+          "x": 142.546875,
+          "y": 305.0625,
+          "width": 818.65625,
+          "height": 85.265625,
+          "right": 961.203125,
+          "bottom": 390.328125
+        },
+        "titleOverflow": false,
+        "image": {
+          "src": "http://127.0.0.1:4208/assets/sj-mistened-narcissus-01.jpg",
+          "loaded": true,
+          "fit": "contain",
+          "box": {
+            "x": 1033.203125,
+            "y": 134.5,
+            "width": 744.25,
+            "height": 512,
+            "right": 1777.453125,
+            "bottom": 646.5
+          }
+        },
+        "h1Count": 1,
+        "h1": "Mistened Narcissus",
+        "horizontalOverflow": false,
+        "detailAfterBanner": true
+      },
+      "anchor": {
+        "hash": "#ProductDetails-10314865016897",
+        "target": "#ProductDetails-10314865016897",
+        "top": 268.5,
+        "bottom": 1158,
+        "headerHeight": 110.5,
+        "inView": true,
+        "clear": true
+      },
+      "scroll": {
+        "before": 0,
+        "height": 890,
+        "total": 2573,
+        "overflow": "auto",
+        "pageY": 403,
+        "mediaTop": 268.5,
+        "mouseX": 1497.59375,
+        "mouseY": 448.5,
+        "after": {
+          "info": 400,
+          "pageY": 403,
+          "mediaTop": 268.5
+        }
+      },
+      "status": "PASS"
+    },
+    {
+      "handle": "mistened-narcissus",
+      "title": "Mistened Narcissus",
+      "theme": "dark",
+      "width": 820,
+      "checks": [
+        {
+          "name": "Full viewport banner",
+          "pass": true,
+          "detail": {
+            "x": 0,
+            "y": 110.5,
+            "width": 820,
+            "height": 421,
+            "right": 820,
+            "bottom": 531.5
+          }
+        },
+        {
+          "name": "Correct banner product title",
+          "pass": true,
+          "detail": "MISTENED NARCISSUS"
+        },
+        {
+          "name": "Correct verified packshot",
+          "pass": true,
+          "detail": {
+            "src": "http://127.0.0.1:4208/assets/sj-mistened-narcissus-01.jpg",
+            "loaded": true,
+            "fit": "contain",
+            "box": {
+              "x": 443.453125,
+              "y": 134.5,
+              "width": 341.296875,
+              "height": 372,
+              "right": 784.75,
+              "bottom": 506.5
+            }
+          }
+        },
+        {
+          "name": "Product photo contained without cropping",
+          "pass": true,
+          "detail": "contain"
+        },
+        {
+          "name": "Single product-detail H1",
+          "pass": true,
+          "detail": {
+            "count": 1,
+            "text": "Mistened Narcissus"
+          }
+        },
+        {
+          "name": "No page or banner-title overflow",
+          "pass": true
+        },
+        {
+          "name": "Banner precedes product details",
+          "pass": true
+        },
+        {
+          "name": "CTA reaches details with clear anchor",
+          "pass": true,
+          "detail": {
+            "hash": "#ProductDetails-10314865016897",
+            "target": "#ProductDetails-10314865016897",
+            "top": 268.5,
+            "bottom": 3565.234375,
+            "headerHeight": 110.5,
+            "inView": true,
+            "clear": true
+          }
+        },
+        {
+          "name": "Gallery retains twelve slides",
+          "pass": true
+        },
+        {
+          "name": "Gallery next advances",
+          "pass": true
+        },
+        {
+          "name": "Zoom opens correct current product image",
+          "pass": true
+        },
+        {
+          "name": "Zoom closes with Escape",
+          "pass": true
+        },
+        {
+          "name": "No JavaScript errors",
+          "pass": true,
+          "detail": []
+        }
+      ],
+      "errors": [],
+      "banner": {
+        "box": {
+          "x": 0,
+          "y": 110.5,
+          "width": 820,
+          "height": 421,
+          "right": 820,
+          "bottom": 531.5
+        },
+        "title": "MISTENED NARCISSUS",
+        "titleBox": {
+          "x": 35.25,
+          "y": 234.015625,
+          "width": 375.40625,
+          "height": 87.34375,
+          "right": 410.65625,
+          "bottom": 321.359375
+        },
+        "titleOverflow": false,
+        "image": {
+          "src": "http://127.0.0.1:4208/assets/sj-mistened-narcissus-01.jpg",
+          "loaded": true,
+          "fit": "contain",
+          "box": {
+            "x": 443.453125,
+            "y": 134.5,
+            "width": 341.296875,
+            "height": 372,
+            "right": 784.75,
+            "bottom": 506.5
+          }
+        },
+        "h1Count": 1,
+        "h1": "Mistened Narcissus",
+        "horizontalOverflow": false,
+        "detailAfterBanner": true
+      },
+      "anchor": {
+        "hash": "#ProductDetails-10314865016897",
+        "target": "#ProductDetails-10314865016897",
+        "top": 268.5,
+        "bottom": 3565.234375,
+        "headerHeight": 110.5,
+        "inView": true,
+        "clear": true
+      },
+      "status": "PASS"
+    },
+    {
+      "handle": "mistened-narcissus",
+      "title": "Mistened Narcissus",
+      "theme": "dark",
+      "width": 1920,
+      "checks": [
+        {
+          "name": "Full viewport banner",
+          "pass": true,
+          "detail": {
+            "x": 0,
+            "y": 110.5,
+            "width": 1920,
+            "height": 561,
+            "right": 1920,
+            "bottom": 671.5
+          }
+        },
+        {
+          "name": "Correct banner product title",
+          "pass": true,
+          "detail": "MISTENED NARCISSUS"
+        },
+        {
+          "name": "Correct verified packshot",
+          "pass": true,
+          "detail": {
+            "src": "http://127.0.0.1:4208/assets/sj-mistened-narcissus-01.jpg",
+            "loaded": true,
+            "fit": "contain",
+            "box": {
+              "x": 1033.203125,
+              "y": 134.5,
+              "width": 744.25,
+              "height": 512,
+              "right": 1777.453125,
+              "bottom": 646.5
+            }
+          }
+        },
+        {
+          "name": "Product photo contained without cropping",
+          "pass": true,
+          "detail": "contain"
+        },
+        {
+          "name": "Single product-detail H1",
+          "pass": true,
+          "detail": {
+            "count": 1,
+            "text": "Mistened Narcissus"
+          }
+        },
+        {
+          "name": "No page or banner-title overflow",
+          "pass": true
+        },
+        {
+          "name": "Banner precedes product details",
+          "pass": true
+        },
+        {
+          "name": "CTA reaches details with clear anchor",
+          "pass": true,
+          "detail": {
+            "hash": "#ProductDetails-10314865016897",
+            "target": "#ProductDetails-10314865016897",
+            "top": 268.5,
+            "bottom": 1158,
+            "headerHeight": 110.5,
+            "inView": true,
+            "clear": true
+          }
+        },
+        {
+          "name": "Gallery retains twelve slides",
+          "pass": true
+        },
+        {
+          "name": "Desktop information independently scrolls",
+          "pass": true,
+          "detail": {
+            "before": 0,
+            "height": 890,
+            "total": 2573,
+            "overflow": "auto",
+            "pageY": 403,
+            "mediaTop": 268.5,
+            "mouseX": 1497.59375,
+            "mouseY": 448.5,
+            "after": {
+              "info": 400,
+              "pageY": 403,
+              "mediaTop": 268.5
+            }
+          }
+        },
+        {
+          "name": "Gallery next advances",
+          "pass": true
+        },
+        {
+          "name": "Zoom opens correct current product image",
+          "pass": true
+        },
+        {
+          "name": "Zoom closes with Escape",
+          "pass": true
+        },
+        {
+          "name": "No JavaScript errors",
+          "pass": true,
+          "detail": []
+        }
+      ],
+      "errors": [],
+      "banner": {
+        "box": {
+          "x": 0,
+          "y": 110.5,
+          "width": 1920,
+          "height": 561,
+          "right": 1920,
+          "bottom": 671.5
+        },
+        "title": "MISTENED NARCISSUS",
+        "titleBox": {
+          "x": 142.546875,
+          "y": 305.0625,
+          "width": 818.65625,
+          "height": 85.265625,
+          "right": 961.203125,
+          "bottom": 390.328125
+        },
+        "titleOverflow": false,
+        "image": {
+          "src": "http://127.0.0.1:4208/assets/sj-mistened-narcissus-01.jpg",
+          "loaded": true,
+          "fit": "contain",
+          "box": {
+            "x": 1033.203125,
+            "y": 134.5,
+            "width": 744.25,
+            "height": 512,
+            "right": 1777.453125,
+            "bottom": 646.5
+          }
+        },
+        "h1Count": 1,
+        "h1": "Mistened Narcissus",
+        "horizontalOverflow": false,
+        "detailAfterBanner": true
+      },
+      "anchor": {
+        "hash": "#ProductDetails-10314865016897",
+        "target": "#ProductDetails-10314865016897",
+        "top": 268.5,
+        "bottom": 1158,
+        "headerHeight": 110.5,
+        "inView": true,
+        "clear": true
+      },
+      "scroll": {
+        "before": 0,
+        "height": 890,
+        "total": 2573,
+        "overflow": "auto",
+        "pageY": 403,
+        "mediaTop": 268.5,
+        "mouseX": 1497.59375,
+        "mouseY": 448.5,
+        "after": {
+          "info": 400,
+          "pageY": 403,
+          "mediaTop": 268.5
+        }
+      },
+      "status": "PASS"
+    }
+  ],
+  "failures": [],
+  "status": "PASS",
+  "summary": {
+    "cases": 28,
+    "checks": 378,
+    "failures": 0,
+    "longestTitleSpotcheck": "Mistened Narcissus",
+    "finalAnchorCases": 4,
+    "finalAnchorFailures": 0,
+    "blockers": 0
+  },
+  "finalAnchorCheck": {
+    "scope": "Focused final anchor check after -24px ProductDetails margin; preview missing native header group class added to browser DOM only",
+    "cases": [
+      {
+        "header": {
+          "top": 0,
+          "bottom": 110.5,
+          "height": 110.5
+        },
+        "details": {
+          "top": 110.5,
+          "bottom": 1000,
+          "height": 889.5
+        },
+        "controls": {
+          "top": 847.5,
+          "bottom": 949.5,
+          "height": 102
+        },
+        "caption": {
+          "top": 949.5,
+          "bottom": 1000,
+          "height": 50.5
+        },
+        "viewport": 1000,
+        "margin": "-24px",
+        "scrollPadding": "134.5px",
+        "width": 1440,
+        "theme": "light",
+        "aligned": true,
+        "controlsVisible": true,
+        "captionVisible": true,
+        "next": true,
+        "zoom": true,
+        "zoomClosed": true,
+        "pass": true
+      },
+      {
+        "header": {
+          "top": 0,
+          "bottom": 99,
+          "height": 99
+        },
+        "details": {
+          "top": 99.125,
+          "bottom": 2860.859375,
+          "height": 2761.734375
+        },
+        "controls": {
+          "top": 549.625,
+          "bottom": 657.625,
+          "height": 108
+        },
+        "caption": {
+          "top": 657.625,
+          "bottom": 708.125,
+          "height": 50.5
+        },
+        "viewport": 844,
+        "margin": "-24px",
+        "scrollPadding": "123px",
+        "width": 390,
+        "theme": "light",
+        "aligned": true,
+        "controlsVisible": true,
+        "captionVisible": true,
+        "next": true,
+        "zoom": true,
+        "zoomClosed": true,
+        "pass": true
+      },
+      {
+        "header": {
+          "top": 0,
+          "bottom": 110.5,
+          "height": 110.5
+        },
+        "details": {
+          "top": 110.5,
+          "bottom": 1000,
+          "height": 889.5
+        },
+        "controls": {
+          "top": 847.5,
+          "bottom": 949.5,
+          "height": 102
+        },
+        "caption": {
+          "top": 949.5,
+          "bottom": 1000,
+          "height": 50.5
+        },
+        "viewport": 1000,
+        "margin": "-24px",
+        "scrollPadding": "134.5px",
+        "width": 1440,
+        "theme": "dark",
+        "aligned": true,
+        "controlsVisible": true,
+        "captionVisible": true,
+        "next": true,
+        "zoom": true,
+        "zoomClosed": true,
+        "pass": true
+      },
+      {
+        "header": {
+          "top": 0,
+          "bottom": 99,
+          "height": 99
+        },
+        "details": {
+          "top": 99.125,
+          "bottom": 2860.859375,
+          "height": 2761.734375
+        },
+        "controls": {
+          "top": 549.625,
+          "bottom": 657.625,
+          "height": 108
+        },
+        "caption": {
+          "top": 657.625,
+          "bottom": 708.125,
+          "height": 50.5
+        },
+        "viewport": 844,
+        "margin": "-24px",
+        "scrollPadding": "123px",
+        "width": 390,
+        "theme": "dark",
+        "aligned": true,
+        "controlsVisible": true,
+        "captionVisible": true,
+        "next": true,
+        "zoom": true,
+        "zoomClosed": true,
+        "pass": true
+      }
+    ],
+    "status": "PASS"
+  },
+  "visualReview": {
+    "status": "PASS",
+    "bannerCapturesInspected": 16,
+    "coverage": "All six scents in Light at1440 and Dark at390; Mistened Narcissus in both modes at820 and1920",
+    "finalAnchorCapturesInspected": [
+      "anchor-final-light-1440.png",
+      "anchor-final-dark-390.png"
+    ],
+    "findings": "Correct full packshots, readable titles and approved statements; no clipping or horizontal overflow."
+  }
+}

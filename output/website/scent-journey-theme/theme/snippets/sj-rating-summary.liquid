@@ -1,0 +1,35 @@
+{%- comment -%}
+  Native review metafields take priority. Optional fallback values must be derived
+  from approved, product-matched review blocks; never pass sample ratings.
+  Usage near purchase: render 'sj-rating-summary', product: product
+  Requires sj-reviews.css (also loaded by the product reviews section).
+{%- endcomment -%}
+{%- liquid
+  assign summary_rating = product.metafields.reviews.rating.value.rating | plus: 0
+  assign summary_max = product.metafields.reviews.rating.value.scale_max | plus: 0
+  assign summary_count = product.metafields.reviews.rating_count.value | plus: 0
+  assign valid_rating = false
+  if summary_rating > 0 and summary_max > 0 and summary_rating <= summary_max
+    assign valid_rating = true
+  elsif summary_count == 0 and fallback_count > 0 and fallback_rating > 0 and fallback_rating <= 5
+    assign summary_rating = fallback_rating
+    assign summary_max = 5
+    assign summary_count = fallback_count
+    assign valid_rating = true
+  endif
+  assign summary_target = 'ProductReviews-' | append: product.id
+  if target != blank
+    assign summary_target = target
+  endif
+-%}
+<a class="sj-rating-summary{% if class != blank %} {{ class | escape }}{% endif %}" href="#{{ summary_target | escape }}">
+  {% if valid_rating %}
+    <span class="sj-rating-summary__star" aria-hidden="true"><svg viewBox="0 0 24 24" width="20" height="20" focusable="false"><path d="m12 2.5 2.9 5.9 6.5.9-4.7 4.6 1.1 6.5-5.8-3.1-5.8 3.1 1.1-6.5-4.7-4.6 6.5-.9Z"/></svg></span>
+    <span><strong>{{ summary_rating | round: 1 }}</strong> <span class="sj-visually-hidden">out of</span><span aria-hidden="true">/</span> {{ summary_max }}</span>
+    {% if summary_count > 0 %}<span class="sj-rating-summary__count">({{ summary_count }} {% if summary_count == 1 %}review{% else %}reviews{% endif %})</span>{% else %}<span class="sj-rating-summary__count">Customer rating</span>{% endif %}
+  {% elsif summary_count > 0 %}
+    <span>{{ summary_count }} customer {% if summary_count == 1 %}review{% else %}reviews{% endif %}</span>
+  {% else %}
+    <span>{{ empty_text | default: 'No reviews yet' | escape }}</span>
+  {% endif %}
+</a>

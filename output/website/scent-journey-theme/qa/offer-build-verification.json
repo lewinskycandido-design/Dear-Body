@@ -1,0 +1,14 @@
+{
+  "validation_count": 65,
+  "route_count": 22,
+  "theme_check_findings": 0,
+  "preserved_asset_count": 171,
+  "offer": {
+    "currency": "PHP",
+    "selling_price": 799,
+    "discount_percent": 20,
+    "reference_price": 998.75,
+    "shipping_minimum_items": 2
+  },
+  "scope": "Local Shopify theme and preview only; product records and checkout rules unchanged."
+}

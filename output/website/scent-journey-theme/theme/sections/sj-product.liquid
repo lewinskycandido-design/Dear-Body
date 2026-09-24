@@ -1,0 +1,308 @@
+{{ 'sj-product.css' | asset_url | stylesheet_tag }}
+{{ 'sj-gallery-frame.css' | asset_url | stylesheet_tag }}
+{{ 'sj-reviews.css' | asset_url | stylesheet_tag }}
+{{ 'sj-purchase-offers.css' | asset_url | stylesheet_tag }}
+<script src="{{ 'sj-product.js' | asset_url }}" defer="defer"></script>
+{%- liquid
+  assign current_variant = product.selected_or_first_available_variant
+  assign active_media = current_variant.featured_media | default: product.featured_media
+  assign product_form_id = 'ProductForm-' | append: section.id
+  capture hero_statement
+    if product.metafields.custom.hero_statement != blank
+      echo product.metafields.custom.hero_statement.value
+    else
+      render 'sj-approved-copy', handle: product.handle, field: 'hero_statement'
+    endif
+  endcapture
+  assign hero_statement = hero_statement | strip
+  capture approved_scent_description
+    render 'sj-approved-copy', handle: product.handle, field: 'scent_description'
+  endcapture
+  assign approved_scent_description = approved_scent_description | strip
+  assign shipping_fallback = routes.root_url | append: '/pages/shipping' | replace: '//', '/'
+  assign shipping_page_url = section.settings.shipping_url | default: shipping_fallback
+  assign checkout_initial_quantity = current_variant.quantity_rule.min | default: 1
+  assign checkout_initial_subtotal = current_variant.price | times: checkout_initial_quantity
+  assign checkout_initial_shipping = 8000
+  if checkout_initial_quantity >= 2
+    assign checkout_initial_shipping = 0
+  endif
+  assign checkout_currency = cart.currency.iso_code | default: cart.currency | default: shop.currency
+  assign second_scent_handles = 'mojito-metallique,amber-oud-silk,mistened-narcissus,charme-envoutant,oud-mirage,rtulle-satin' | split: ','
+-%}
+{%- capture benefit_items -%}
+  {%- for index in (1..5) -%}
+    {%- liquid
+    assign bullet_key = 'bullet_' | append: index
+    capture bullet_copy
+      if product.metafields.custom[bullet_key] != blank
+        echo product.metafields.custom[bullet_key].value
+      else
+        render 'sj-approved-copy', handle: product.handle, field: bullet_key
+      endif
+    endcapture
+    assign bullet_copy = bullet_copy | strip
+    -%}
+    {% if bullet_copy != blank %}<li><span class="sj-product__benefit-marker" aria-hidden="true">{% render 'sj-icon', name: 'check' %}</span><span class="sj-product__benefit-copy">{{ bullet_copy | escape | newline_to_br }}</span></li>{% endif %}
+  {%- endfor -%}
+{%- endcapture -%}
+{%- liquid
+  assign benefit_items = benefit_items | strip
+-%}
+{%- capture bundled_prefix -%}{%- render 'sj-gallery-prefix', product: product -%}{%- endcapture -%}
+{%- assign bundled_prefix = bundled_prefix | strip -%}
+{%- assign bundled_gallery_order = '1,11,12,8,9,5,6,7,2,3,4,10' | split: ',' -%}
+{%- assign gallery_count = product.media.size -%}
+{%- if bundled_prefix != blank -%}{%- assign gallery_count = 12 -%}{%- endif -%}
+<sj-product id="ProductDetails-{{ product.id }}" class="sj-product" data-section-id="{{ section.id }}" data-product-url="{{ product.url }}" data-product-handle="{{ product.handle | escape }}" data-product-mood="{{ product.metafields.custom.mood.value | handleize }}">
+  <div class="sj-product__media" role="region" aria-label="Product media">
+    <nav class="sj-product__breadcrumb" aria-label="Breadcrumb">
+      <a href="{{ routes.root_url }}">Home</a><span aria-hidden="true">/</span><a href="{{ routes.all_products_collection_url }}">Fragrances</a><span aria-hidden="true">/</span><span>{{ product.title | escape }}</span>
+    </nav>
+    <div id="ProductGallery-{{ section.id }}" class="sj-product__gallery" data-sj-gallery tabindex="0" role="region" aria-roledescription="carousel" aria-label="{{ product.title | escape }} media. Use the arrow keys to browse.">
+      {% if bundled_prefix != blank %}
+       {% assign gallery_roles = 'Bottle and canister|Spray in motion|Packaging reveal|Magnetic cap detail|Lifestyle portrait|Product in hand|Everyday fragrance moment|Product profile|Ingredients and care|A scent journey|Scent description|Who it fits' | split: '|' %}
+       {% for frame in bundled_gallery_order %}
+        {% liquid
+         assign number = frame | prepend: '0' | slice: -2, 2
+         assign asset_name = bundled_prefix | append: '-' | append: number | append: '.jpg'
+         assign role_index = frame | minus: 1
+         assign frame_alt = product.title | append: ' — ' | append: gallery_roles[role_index]
+        %}
+        <div class="sj-product__slide{% if forloop.first %} is-active{% endif %}" data-sj-media="studio-{{ number }}" role="group" aria-roledescription="slide" aria-label="{{ forloop.index }} of 12" {% unless forloop.first %}inert{% endunless %}>
+          <button class="sj-product__image-button" type="button" data-sj-zoom="{{ asset_name | asset_url }}" aria-label="Enlarge {{ frame_alt | escape }}"><span class="sj-product__photo-frame"><img src="{{ asset_name | asset_url }}" width="1200" height="1200" alt="{{ frame_alt | escape }}" loading="{% if forloop.first %}eager{% else %}lazy{% endif %}" fetchpriority="{% if forloop.first %}high{% else %}auto{% endif %}"></span></button>
+        </div>
+       {% endfor %}
+      {% else %}
+      {%- for media in product.media -%}
+        {%- liquid
+          assign image_loading = 'lazy'
+          assign image_priority = 'auto'
+          if media.id == active_media.id
+            assign image_loading = 'eager'
+            assign image_priority = 'high'
+          endif
+          assign image_alt = media.alt | default: product.title
+        -%}
+        <div class="sj-product__slide{% if media.id == active_media.id %} is-active{% endif %}" data-sj-media="{{ media.id }}" role="group" aria-roledescription="slide" aria-label="{{ forloop.index }} of {{ product.media.size }}" {% unless media.id == active_media.id %}inert{% endunless %}>
+          {%- case media.media_type -%}
+            {%- when 'image' -%}
+              <button class="sj-product__image-button" type="button" data-sj-zoom="{{ media | image_url: width: 2400 }}" aria-label="Enlarge {{ image_alt | escape }}">
+                <span class="sj-product__photo-frame">{{ media | image_url: width: 1600 | image_tag: widths: '400, 640, 800, 1000, 1200, 1600', sizes: '(min-width: 1100px) 56vw, 100vw', loading: image_loading, fetchpriority: image_priority, alt: image_alt }}</span>
+                
+              </button>
+            {%- when 'video' -%}
+              {{ media | video_tag: image_size: '1200x', controls: true, preload: 'none' }}
+            {%- when 'external_video' -%}
+              {{ media | external_video_tag: loading: 'lazy' }}
+            {%- when 'model' -%}
+              {{ media | model_viewer_tag: image_size: '1200x', reveal: 'interaction', toggleable: true }}
+          {%- endcase -%}
+        </div>
+      {%- else -%}
+        <div class="sj-product__empty"><span class="sj-eyebrow">A scent journey</span><p>{{ product.title | escape }}</p><span>Product images are being prepared.</span></div>
+      {%- endfor -%}
+      {% endif %}
+    </div>
+    {%- if gallery_count > 1 -%}
+      <div class="sj-product__gallery-controls">
+        <button type="button" class="sj-product__arrow" data-sj-gallery-prev aria-label="Previous product media" aria-controls="ProductGallery-{{ section.id }}"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m13.5 6-6 6 6 6M8 12h12"/></svg></button>
+        <div class="sj-product__thumbnails" role="group" aria-label="Choose product media">
+          {% if bundled_prefix != blank %}
+          {% for frame in bundled_gallery_order %}{% assign number = frame | prepend: '0' | slice: -2, 2 %}{% assign thumb_asset = bundled_prefix | append: '-' | append: number | append: '-thumb.jpg' %}{% assign role_index = frame | minus: 1 %}
+          <button type="button" class="sj-product__thumbnail{% if forloop.first %} is-active{% endif %}" data-sj-thumbnail="studio-{{ number }}" aria-label="Show media {{ forloop.index }}: {{ gallery_roles[role_index] | escape }}" aria-pressed="{% if forloop.first %}true{% else %}false{% endif %}"><img src="{{ thumb_asset | asset_url }}" width="160" height="160" alt="" loading="lazy"></button>
+          {% endfor %}
+          {% else %}
+          {%- for media in product.media -%}
+            <button type="button" class="sj-product__thumbnail{% if media.id == active_media.id %} is-active{% endif %}" data-sj-thumbnail="{{ media.id }}" aria-label="Show media {{ forloop.index }}: {{ media.alt | default: product.title | escape }}" aria-pressed="{% if media.id == active_media.id %}true{% else %}false{% endif %}">
+              {{ media.preview_image | image_url: width: 160 | image_tag: loading: 'lazy', widths: '80, 160', sizes: '64px', alt: '' }}
+              {% unless media.media_type == 'image' %}<span class="sj-product__media-kind" aria-hidden="true">{% if media.media_type == 'model' %}3D{% else %}▶{% endif %}</span>{% endunless %}
+            </button>
+          {%- endfor -%}
+          {% endif %}
+        </div>
+        <button type="button" class="sj-product__arrow" data-sj-gallery-next aria-label="Next product media" aria-controls="ProductGallery-{{ section.id }}"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m10.5 6 6 6-6 6M4 12h12"/></svg></button>
+        {%- assign gallery_position = 1 -%}
+        {%- if bundled_prefix == blank -%}{%- for media in product.media -%}{%- if media.id == active_media.id -%}{%- assign gallery_position = forloop.index -%}{%- endif -%}{%- endfor -%}{%- endif -%}
+        <p class="sj-product__gallery-count" aria-hidden="true"><span class="sj-product__gallery-label">IN THE FRAME</span><span data-sj-gallery-current>{{ gallery_position }}</span><span class="sj-product__gallery-divider">/</span><span data-sj-gallery-total>{{ gallery_count }}</span></p>
+      </div>
+    {%- endif -%}
+    <p class="sj-visually-hidden" data-sj-gallery-status aria-live="polite" aria-atomic="true"></p>
+    <div class="sj-product__media-caption" aria-hidden="true"><span>DEARBODY / THE COLLECTION</span><span>Every little detail.</span></div>
+  </div>
+
+  <div class="sj-product__information" tabindex="0" role="region" aria-labelledby="ProductTitle-{{ section.id }}" data-sj-product-info>
+    <div class="sj-product__introduction">
+      {% if section.settings.show_title != false %}
+        <p class="sj-eyebrow">Your next chapter</p>
+        <h1 id="ProductTitle-{{ section.id }}">{{ product.title | escape }}</h1>
+      {% else %}
+        <h2 id="ProductTitle-{{ section.id }}" class="sj-product__detail-heading">Your next chapter</h2>
+      {% endif %}
+      {% if section.settings.show_hero_statement != false and hero_statement != blank %}<p class="sj-product__hero-statement">{{ hero_statement | escape }}</p>{% endif %}
+      {% if product.metafields.custom.short_description != blank %}<div class="sj-product__summary">{{ product.metafields.custom.short_description | metafield_tag }}</div>{% endif %}
+      {% if product.metafields.custom.scent_character != blank %}
+        <p class="sj-product__character"><span class="sj-visually-hidden">Scent character: </span>{% if product.metafields.custom.scent_character.type contains 'list.' %}{{ product.metafields.custom.scent_character.value | join: ' · ' | escape }}{% else %}{{ product.metafields.custom.scent_character.value | escape }}{% endif %}</p>
+      {% endif %}
+    </div>
+
+    <div class="sj-product__purchase" data-sj-purchase>
+      <div class="sj-product__price-row" aria-live="polite" aria-atomic="true">
+        {% render 'sj-price', product: product, variant: current_variant, context: 'product' %}
+        <span class="sj-product__stock" data-sj-stock>{% if current_variant.available %}Available{% else %}Sold out{% endif %}</span>
+      </div>
+      {% render 'sj-rating-summary', product: product %}
+      <div class="sj-purchase-offer">{% render 'sj-shipping-offer', variant: 'compact', url: shipping_page_url %}</div>
+      <form method="get" action="{{ routes.cart_url }}/{{ current_variant.id }}:{{ checkout_initial_quantity }}" id="{{ product_form_id }}" data-sj-checkout-form data-sj-checkout-base="{{ routes.cart_url }}">
+        <div class="sj-product__variant-field" {% if product.has_only_default_variant %}hidden{% endif %}>
+          <label for="ProductVariant-{{ section.id }}">{% if product.options.size == 1 %}{{ product.options.first | escape }}{% else %}Choose your fragrance{% endif %}</label>
+          <select id="ProductVariant-{{ section.id }}" data-sj-variant disabled>
+            {% for variant in product.variants %}
+              {% capture variant_compare %}{% render 'sj-price', product: product, variant: variant, context: 'compare' %}{% endcapture %}
+              {% capture variant_savings %}{% render 'sj-price', product: product, variant: variant, context: 'savings' %}{% endcapture %}
+              {% capture variant_savings_amount %}{% render 'sj-price', product: product, variant: variant, context: 'amount' %}{% endcapture %}
+              <option value="{{ variant.id }}" {% if variant.id == current_variant.id %}selected{% endif %} data-available="{{ variant.available }}" data-price="{{ variant.price | money_with_currency | escape }}" data-price-cents="{{ variant.price }}" data-compare="{{ variant_compare | strip | escape }}" data-savings="{{ variant_savings | strip | escape }}" data-savings-amount="{{ variant_savings_amount | strip | escape }}" data-media-id="{{ variant.featured_media.id }}" data-quantity-min="{{ variant.quantity_rule.min | default: 1 }}" data-quantity-step="{{ variant.quantity_rule.increment | default: 1 }}" data-quantity-max="{{ variant.quantity_rule.max }}">{{ variant.title | escape }} — {{ variant.price | money_with_currency }}{% unless variant.available %} — Sold out{% endunless %}</option>
+            {% endfor %}
+          </select>
+        </div>
+        <button class="sj-button sj-product__order-open" type="button" data-sj-product-order-open aria-controls="ProductOrder-{{ section.id }}" aria-expanded="false" hidden {% unless current_variant.available %}disabled{% endunless %}><span data-sj-product-order-open-label>{% if current_variant.available %}Add to order{% else %}Sold out{% endif %}</span></button>
+        <p class="sj-product__order-instructions"><strong>How to order:</strong> Select <strong>Add to order</strong> and choose your quantities. Then select <strong>Check out</strong> to enter your delivery details and place your cash-on-delivery order in the popup.</p>
+        <div id="ProductOrder-{{ section.id }}" class="sj-product__order-panel" data-sj-product-order-panel>
+          <h3 class="sj-product__order-heading" data-sj-product-order-heading tabindex="-1">Your order</h3>
+          <noscript><p class="sj-product__checkout-note">This checkout contains {{ checkout_initial_quantity }} {% if checkout_initial_quantity == 1 %}bottle{% else %}bottles{% endif %} of this scent. Review your order in Shopify checkout.</p></noscript>
+          <div class="sj-product__quantity-field" data-sj-checkout-quantity-field hidden>
+            <label for="OrderQuantity-{{ section.id }}">Quantity</label>
+            <div class="sj-product__quantity-controls">
+              <button type="button" data-sj-quantity-change="-1" data-sj-quantity-for="main" aria-label="Decrease quantity" disabled>{% render 'sj-icon', name: 'minus' %}</button>
+              <input id="OrderQuantity-{{ section.id }}" data-sj-checkout-quantity type="number" inputmode="numeric" min="{{ checkout_initial_quantity }}" step="{{ current_variant.quantity_rule.increment | default: 1 }}" {% if current_variant.quantity_rule.max != blank %}max="{{ current_variant.quantity_rule.max }}"{% endif %} value="{{ checkout_initial_quantity }}" aria-describedby="OrderQuantityRules-{{ section.id }}" required disabled>
+              <button type="button" data-sj-quantity-change="1" data-sj-quantity-for="main" aria-label="Increase quantity" disabled>{% render 'sj-icon', name: 'plus' %}</button>
+            </div>
+            <p class="sj-product__quantity-rules" id="OrderQuantityRules-{{ section.id }}" data-sj-quantity-rules></p>
+          </div>
+        <div class="sj-product__second-scent" data-sj-checkout-second-field hidden>
+          <label for="SecondScent-{{ section.id }}">Add a second scent <span>(optional)</span></label>
+          <p id="SecondScentHelp-{{ section.id }}">Two bottles, free shipping. Choose another scent or another of your favourite.</p>
+          <select id="SecondScent-{{ section.id }}" data-sj-checkout-second aria-describedby="SecondScentHelp-{{ section.id }}" disabled>
+            <option value="">Just this scent</option>
+            {% for scent_handle in second_scent_handles %}
+              {% assign second_product = all_products[scent_handle] %}
+              {% if product.handle == scent_handle %}{% assign second_product = product %}{% endif %}
+              {% if second_product != blank %}
+                {% for second_variant in second_product.variants %}
+                  <option value="{{ second_variant.id }}" data-available="{{ second_variant.available }}" data-price-cents="{{ second_variant.price }}" data-quantity-min="{{ second_variant.quantity_rule.min | default: 1 }}" data-quantity-step="{{ second_variant.quantity_rule.increment | default: 1 }}" data-quantity-max="{{ second_variant.quantity_rule.max }}" {% unless second_variant.available %}disabled{% endunless %}>{{ second_product.title | escape }}{% unless second_product.has_only_default_variant %} / {{ second_variant.title | escape }}{% endunless %} — {{ second_variant.price | money_with_currency }}{% unless second_variant.available %} — Sold out{% endunless %}</option>
+                {% endfor %}
+              {% endif %}
+            {% endfor %}
+          </select>
+        </div>
+        <div class="sj-product__quantity-field" data-sj-checkout-second-quantity-field hidden>
+          <label for="SecondOrderQuantity-{{ section.id }}">Second scent quantity</label>
+          <div class="sj-product__quantity-controls">
+            <button type="button" data-sj-quantity-change="-1" data-sj-quantity-for="second" aria-label="Decrease second scent quantity" disabled>{% render 'sj-icon', name: 'minus' %}</button>
+            <input id="SecondOrderQuantity-{{ section.id }}" data-sj-checkout-second-quantity type="number" inputmode="numeric" min="1" step="1" value="1" aria-describedby="SecondOrderQuantityRules-{{ section.id }}" required disabled>
+            <button type="button" data-sj-quantity-change="1" data-sj-quantity-for="second" aria-label="Increase second scent quantity" disabled>{% render 'sj-icon', name: 'plus' %}</button>
+          </div>
+          <p class="sj-product__quantity-rules" id="SecondOrderQuantityRules-{{ section.id }}" data-sj-second-quantity-rules></p>
+        </div>
+        <fieldset class="sj-product__delivery" data-sj-native-delivery>
+          <legend>Delivery address</legend>
+          <input type="hidden" name="checkout[shipping_address][country]" value="Philippines">
+          <p class="sj-product__delivery-country">{% render 'sj-icon', name: 'shipping' %}<span>Shipping to the Philippines</span></p>
+          <div class="sj-product__delivery-fields">
+            <div class="sj-product__delivery-field"><label for="DeliveryFirstName-{{ section.id }}">First name</label><input id="DeliveryFirstName-{{ section.id }}" name="checkout[shipping_address][first_name]" type="text" autocomplete="shipping given-name" required></div>
+            <div class="sj-product__delivery-field"><label for="DeliveryLastName-{{ section.id }}">Last name</label><input id="DeliveryLastName-{{ section.id }}" name="checkout[shipping_address][last_name]" type="text" autocomplete="shipping family-name" required></div>
+            <div class="sj-product__delivery-field sj-product__delivery-field--wide"><label for="DeliveryAddress1-{{ section.id }}">Street address</label><input id="DeliveryAddress1-{{ section.id }}" name="checkout[shipping_address][address1]" type="text" autocomplete="shipping address-line1" required></div>
+            <div class="sj-product__delivery-field sj-product__delivery-field--wide"><label for="DeliveryAddress2-{{ section.id }}">Apartment, unit or building (optional)</label><input id="DeliveryAddress2-{{ section.id }}" name="checkout[shipping_address][address2]" type="text" autocomplete="shipping address-line2"></div>
+            <div class="sj-product__delivery-field"><label for="DeliveryCity-{{ section.id }}">City or municipality</label><input id="DeliveryCity-{{ section.id }}" name="checkout[shipping_address][city]" type="text" autocomplete="shipping address-level2" required></div>
+            <div class="sj-product__delivery-field"><label for="DeliveryProvince-{{ section.id }}">Province</label><input id="DeliveryProvince-{{ section.id }}" name="checkout[shipping_address][province]" type="text" autocomplete="shipping address-level1" required></div>
+            <div class="sj-product__delivery-field"><label for="DeliveryPostalCode-{{ section.id }}">Postal code</label><input id="DeliveryPostalCode-{{ section.id }}" name="checkout[shipping_address][zip]" type="text" autocomplete="shipping postal-code" inputmode="numeric" pattern="[0-9]{4}" maxlength="4" title="Enter a 4-digit postal code" required></div>
+          </div>
+        </fieldset>
+        <div class="sj-product__checkout-summary" data-sj-checkout-summary data-currency="{{ checkout_currency | escape }}" data-single-shipping="8000" aria-live="polite" aria-atomic="true">
+          <dl>
+            <div><dt>Subtotal</dt><dd data-sj-checkout-subtotal>{{ checkout_initial_subtotal | money_with_currency }}</dd></div>
+            <div><dt>Shipping</dt><dd data-sj-checkout-shipping>{% if checkout_initial_shipping == 0 %}Free{% elsif checkout_currency == 'PHP' %}{{ checkout_initial_shipping | money_with_currency }}{% else %}Calculated at checkout{% endif %}</dd></div>
+            <div class="sj-product__checkout-total"><dt>Estimated total</dt><dd data-sj-checkout-total>{% if checkout_initial_shipping == 0 or checkout_currency == 'PHP' %}{{ checkout_initial_subtotal | plus: checkout_initial_shipping | money_with_currency }}{% else %}Confirmed at checkout{% endif %}</dd></div>
+          </dl>
+          <p data-sj-checkout-shipping-message>{% if checkout_initial_shipping == 0 %}Your bottles qualify for free shipping.{% elsif checkout_currency == 'PHP' %}Shipping is ₱80 for one item. Two or more bottles qualify for free shipping.{% else %}Final shipping is confirmed at checkout.{% endif %}</p>
+        </div>
+        <p class="sj-product__checkout-note" id="CheckoutNote-{{ section.id }}" data-sj-checkout-note>Cash on delivery available. Confirm your address, shipping and payment in secure Shopify checkout.</p>
+        <div class="sj-product__buy-row">
+          <button type="submit" class="sj-button sj-product__add" data-sj-add aria-describedby="CheckoutNote-{{ section.id }}" {% unless current_variant.available %}disabled{% endunless %}><span data-sj-add-label>{% if current_variant.available %}Check out{% else %}Sold out{% endif %}</span></button>
+        </div>
+        <p class="sj-product__error" role="alert" data-sj-product-error></p>
+        </div>
+      </form>
+      {% if cart.taxes_included %}<p class="sj-product__tax-note">Taxes included.</p>{% endif %}
+    </div>
+
+    {% for block in section.blocks %}
+      {% if block.type == '@app' %}<div class="sj-product__app" {{ block.shopify_attributes }}>{% render block %}</div>{% endif %}
+    {% endfor %}
+
+    {% if benefit_items != blank %}
+      <section class="sj-product__chapter" aria-labelledby="Benefits-{{ section.id }}">
+        <span class="sj-product__chapter-number" aria-hidden="true">01 /</span><h2 id="Benefits-{{ section.id }}">Why you'll love it</h2>
+        <ul class="sj-product__benefits">{{ benefit_items }}</ul>
+      </section>
+    {% endif %}
+    {% if product.description != blank or product.metafields.custom.scent_description != blank or approved_scent_description != blank %}
+      <section class="sj-product__chapter" aria-labelledby="TheScent-{{ section.id }}">
+        <span class="sj-product__chapter-number" aria-hidden="true">02 /</span><h2 id="TheScent-{{ section.id }}">The scent</h2>
+        <div class="sj-product__prose">{% if product.metafields.custom.scent_description != blank %}{{ product.metafields.custom.scent_description | metafield_tag }}{% elsif approved_scent_description != blank %}<p>{{ approved_scent_description | escape | newline_to_br }}</p>{% else %}{{ product.description }}{% endif %}</div>
+      </section>
+    {% endif %}
+    {% if product.metafields.custom.scent_character != blank or product.metafields.custom.intensity != blank or product.metafields.custom.personality != blank %}
+      <section class="sj-product__chapter" aria-labelledby="Character-{{ section.id }}">
+        <span class="sj-product__chapter-number" aria-hidden="true">03 /</span><h2 id="Character-{{ section.id }}">Scent character</h2>
+        <dl class="sj-product__character-grid">
+          {% assign character_fields = 'scent_character,intensity,personality' | split: ',' %}
+          {% for field in character_fields %}{% assign field_value = product.metafields.custom[field] %}{% if field_value != blank %}<div><dt>{% case field %}{% when 'scent_character' %}The feeling{% when 'intensity' %}Intensity{% when 'personality' %}Personality{% endcase %}</dt><dd>{% if field_value.type contains 'list.' %}{{ field_value.value | join: ', ' | escape }}{% else %}{{ field_value.value | escape }}{% endif %}</dd></div>{% endif %}{% endfor %}
+        </dl>
+      </section>
+    {% endif %}
+    {% if product.metafields.custom.occasion != blank %}
+      <section class="sj-product__chapter" aria-labelledby="PerfectFor-{{ section.id }}">
+        <span class="sj-product__chapter-number" aria-hidden="true">04 /</span><h2 id="PerfectFor-{{ section.id }}">Perfect for</h2>
+        <p>{% if product.metafields.custom.occasion.type contains 'list.' %}{{ product.metafields.custom.occasion.value | join: ' · ' | escape }}{% else %}{{ product.metafields.custom.occasion.value | escape }}{% endif %}</p>
+      </section>
+    {% endif %}
+    {% capture official_note_check %}{% render 'sj-official-notes', handle: product.handle, field: 'top_notes' %}{% endcapture %}
+    {% assign official_note_check = official_note_check | strip %}
+    {% if product.metafields.custom.top_notes != blank or product.metafields.custom.heart_notes != blank or product.metafields.custom.base_notes != blank or official_note_check != blank %}
+      <section class="sj-product__chapter" aria-labelledby="Notes-{{ section.id }}">
+        <span class="sj-product__chapter-number" aria-hidden="true">05 /</span><h2 id="Notes-{{ section.id }}">The notes</h2>
+        <dl class="sj-product__notes">
+          {% assign note_fields = 'top_notes,heart_notes,base_notes' | split: ',' %}
+          {% for field in note_fields %}{% assign notes = product.metafields.custom[field] %}{% capture note_text %}{% if notes != blank %}{% if notes.type contains 'list.' %}{{ notes.value | join: ', ' }}{% else %}{{ notes.value }}{% endif %}{% else %}{% render 'sj-official-notes', handle: product.handle, field: field %}{% endif %}{% endcapture %}{% assign note_text = note_text | strip %}{% if note_text != blank %}<div><dt>{% case field %}{% when 'top_notes' %}Top{% when 'heart_notes' %}Heart{% when 'base_notes' %}Base{% endcase %}</dt><dd>{{ note_text | escape }}</dd></div>{% endif %}{% endfor %}
+        </dl>
+      </section>
+    {% endif %}
+    <div class="sj-product__policies">
+      <details><summary>Shipping information<span aria-hidden="true">{% render 'sj-icon', name: 'plus' %}</span></summary><div class="sj-product__prose">{% render 'sj-shipping-information' %}</div></details>
+    </div>
+    <div data-sj-recommendations-slot></div>
+    <a class="sj-product__continue" href="{{ routes.all_products_collection_url }}">Explore the collection </a>
+  </div>
+
+  <dialog class="sj-product__zoom" aria-label="Product image enlarged" data-sj-zoom-dialog>
+    <button class="sj-product__zoom-close" type="button" data-sj-close-zoom aria-label="Close enlarged image">Close {% render 'sj-icon', name: 'close' %}</button>
+    <div class="sj-product__zoom-canvas" data-sj-zoom-canvas></div>
+  </dialog>
+</sj-product>
+<script type="application/ld+json">{{ product | structured_data }}</script>
+
+{% schema %}
+{
+  "name": "Scent journey product",
+  "tag": "section",
+  "class": "sj-product-section",
+  "settings": [
+    { "type": "checkbox", "id": "show_title", "label": "Show product title", "default": true, "info": "Turn off when the Product header banner provides the page title. Turn on if that banner is removed." },
+    { "type": "checkbox", "id": "show_hero_statement", "label": "Show scent statement in details", "default": true, "info": "Turn off when the same statement is shown in the Product header banner." },
+    { "type": "url", "id": "shipping_url", "label": "Shipping information link", "info": "Defaults to the shipping page." },
+    { "type": "paragraph", "content": "Shopify custom metafields take priority. The launch scents use supplied hero and description copy plus revised product benefits when fields are empty. Notes appear only when verified metafields are populated. Product media is unchanged." }
+  ],
+  "blocks": [{ "type": "@app" }]
+}
+{% endschema %}

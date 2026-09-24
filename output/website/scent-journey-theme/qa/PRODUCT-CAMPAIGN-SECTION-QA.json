@@ -1,0 +1,54 @@
+{
+  "status": "PASS",
+  "scenarios": 12,
+  "rows": [
+    {
+      "name": "Distinct campaign mapping: mojito-metallique",
+      "pass": true
+    },
+    {
+      "name": "Distinct campaign mapping: amber-oud-silk",
+      "pass": true
+    },
+    {
+      "name": "Distinct campaign mapping: mistened-narcissus",
+      "pass": true
+    },
+    {
+      "name": "Distinct campaign mapping: charme-envoutant",
+      "pass": true
+    },
+    {
+      "name": "Distinct campaign mapping: oud-mirage",
+      "pass": true
+    },
+    {
+      "name": "Distinct campaign mapping: rtulle-satin",
+      "pass": true
+    },
+    {
+      "name": "Future product uses native featured image",
+      "pass": true
+    },
+    {
+      "name": "No native image yields text-only banner",
+      "pass": true
+    },
+    {
+      "name": "Image override takes priority over launch campaign",
+      "pass": true
+    },
+    {
+      "name": "Metafield statement takes priority and escapes HTML",
+      "pass": true
+    },
+    {
+      "name": "Default template has exactly one H1 and no duplicate detail statement",
+      "pass": true
+    },
+    {
+      "name": "Standalone product section keeps default title and statement",
+      "pass": true
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "source": "https://dearbody.ph/pages/scent-finder?preview_theme_id=167080427585&_ab=0&_fd=0&_sc=1&sections=sj-cart-drawer",
+  "captured_at": "2026-09-24T08:07:23.633896+00:00",
+  "method": "Public read-only GET; no cookies or credentials stored.",
+  "page_resource_response": {
+    "request_accept": "application/json",
+    "status": 200,
+    "body": {
+      "page": {
+        "id": 164912201793,
+        "body_html": "",
+        "created_at": "2026-09-24T15:45:34+08:00",
+        "published_at": "2026-09-24T15:45:34+08:00",
+        "updated_at": "2026-09-24T15:45:34+08:00",
+        "handle": "scent-finder",
+        "title": "Scent Finder"
+      }
+    }
+  },
+  "section_response": {
+    "request_accept": "*/*",
+    "status": 200,
+    "body": {
+      "sj-cart-drawer": "<div id=\"shopify-section-sj-cart-drawer\" class=\"shopify-section\"><link href=\"//dearbody.ph/cdn/shop/t/14/assets/sj-purchase-offers.css?v=127613884322277755311790236612\" rel=\"stylesheet\" type=\"text/css\" media=\"all\" />\n<dialog class=\"sj-cart-drawer\" id=\"sj-cart-drawer\" aria-labelledby=\"CartDrawerTitle\" data-section-id=\"sj-cart-drawer\"><div data-sj-drawer-content><div class=\"sj-dialog-heading\"><h2 id=\"CartDrawerTitle\">YOUR BAG <span>(0)</span></h2><button type=\"button\" class=\"sj-icon-button\" data-sj-close-dialog aria-label=\"Close bag\">\u00d7</button></div><div class=\"sj-cart-feedback\" role=\"alert\" data-sj-cart-error></div>\n<div class=\"sj-cart-offer sj-cart-offer--empty\" data-sj-shipping-cart-count=\"0\"><div class=\"sj-shipping-offer sj-shipping-offer--compact\">\n  <p class=\"sj-shipping-offer__title\"><strong>Free shipping</strong> <span>on 2 or more items</span></p>\n  \n  <div class=\"sj-shipping-offer__details\">\n    <p class=\"sj-shipping-offer__terms\">Shipping fee applies to 1 item.</p>\n    <a class=\"sj-shipping-offer__link\" href=\"/pages/shipping\">Shipping details</a>\n  </div>\n</div>\n</div><div class=\"sj-empty-state\"><p class=\"sj-cart-empty-mark\" aria-hidden=\"true\">01 /</p><h2>Your story<br>starts here.</h2><p>Your bag is waiting for its first chapter.</p><a href=\"/collections/all\" class=\"sj-button\">Discover the fragrances</a></div>\n</div><p class=\"sj-visually-hidden\" data-sj-cart-status role=\"status\" aria-live=\"polite\"></p></dialog><p class=\"sj-visually-hidden\" data-sj-cart-status role=\"status\" aria-live=\"polite\"></p>\n\n</div>"
+    }
+  }
+}

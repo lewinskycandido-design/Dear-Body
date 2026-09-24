@@ -1,0 +1,52 @@
+{
+  "created_utc": "2026-09-24T02:55:25.492677+00:00",
+  "skill": "/Users/wetrade/.codex/skills/.system/imagegen/SKILL.md",
+  "tool_mode": "built-in image generation",
+  "scope": "two new homepage hero source photographs only; no theme code/assets, campaign-v3 or Shopify edits",
+  "export": "Original generated PNG bytes retained. 1774\u00d7887 to requested 1800\u00d7900 JPEG is a 1.015\u00d7 enlargement, without cropping or colour alterations; embedded sRGB, quality91, 4:4:4 chroma, optimized progressive JPEG. No native1800 detail claim.",
+  "fonts": "No typography is embedded in these photos. Live website copy remains owned by the native theme using supplied Cenzo Flare Bold and Helvetica Now Text Regular.",
+  "files": [
+    {
+      "mode": "light",
+      "tool": "built-in image_gen.imagegen",
+      "operation": "new generation",
+      "generated_source": "/Users/wetrade/.codex/generated_images/01a0d0f9-afdf-7412-a990-cf7a45f1c2b6/exec-68748c10-a149-43f3-8762-60c6339d4038.png",
+      "original": "output/website/scent-journey-theme/campaign-v4-homehero/originals/sj-home-hero-light.png",
+      "original_size": [
+        1774,
+        887
+      ],
+      "original_sha256": "221a7973d1ebd1aaa6812a332e1da4fc52c7f684cc2ae465a60560faabf9ca89",
+      "web": "output/website/scent-journey-theme/campaign-v4-homehero/final-web/sj-home-hero-light.jpg",
+      "web_size": [
+        1800,
+        900
+      ],
+      "web_bytes": 391600,
+      "web_sha256": "6c1607f1959faea2fc1e973e3fcb47e92f9d347a78057308aa66501ed67cdd4e",
+      "prompt_file": "output/website/scent-journey-theme/campaign-v4-homehero/prompts/sj-home-hero-light.txt",
+      "qa": "PASS: full native resolution visual inspection; anatomically plausible two adult figures; left copy space; matching pair and composition; no text/logo/product or additional faces"
+    },
+    {
+      "mode": "dark",
+      "tool": "built-in image_gen.imagegen",
+      "operation": "lighting-weather edit of daytime original",
+      "generated_source": "/Users/wetrade/.codex/generated_images/01a0d0f9-afdf-7412-a990-cf7a45f1c2b6/exec-97f5f9f5-9767-477e-acf4-45f6604b68ca.png",
+      "original": "output/website/scent-journey-theme/campaign-v4-homehero/originals/sj-home-hero-dark.png",
+      "original_size": [
+        1774,
+        887
+      ],
+      "original_sha256": "328d64bc93cc8daf5dcd59d0602adfdfeb071c41f690174b1d8eab6cc3ec36ba",
+      "web": "output/website/scent-journey-theme/campaign-v4-homehero/final-web/sj-home-hero-dark.jpg",
+      "web_size": [
+        1800,
+        900
+      ],
+      "web_bytes": 372266,
+      "web_sha256": "78083e1e29b5f23df73198630e554cdfa7f0befe1db1c5c8b438789605f5d981",
+      "prompt_file": "output/website/scent-journey-theme/campaign-v4-homehero/prompts/sj-home-hero-dark.txt",
+      "qa": "PASS: full native resolution visual inspection; anatomically plausible two adult figures; left copy space; matching pair and composition; no text/logo/product or additional faces"
+    }
+  ]
+}

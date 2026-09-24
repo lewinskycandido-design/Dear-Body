@@ -1,0 +1,1218 @@
+{
+  "generatedAt": "2026-09-24T07:09:24.296Z",
+  "base": "http://127.0.0.1:4208",
+  "scope": "Six responsive route samples, six native PDPs, shared price fallback fixtures. Read-only preview; cart quantity0/1/2/5 native render scenarios covered separately by product integration QA.",
+  "checks": [
+    {
+      "pass": true,
+      "name": "Price fixture: mojito-metallique exact20%",
+      "current": "\u20b1799.00",
+      "regular": "\u20b1998.75",
+      "saving": "20% OFF",
+      "expected": [
+        "\u20b1799.00",
+        "\u20b1998.75",
+        "20% OFF"
+      ]
+    },
+    {
+      "pass": true,
+      "name": "Price fixture: amber-oud-silk exact20%",
+      "current": "\u20b1799.00",
+      "regular": "\u20b1998.75",
+      "saving": "20% OFF",
+      "expected": [
+        "\u20b1799.00",
+        "\u20b1998.75",
+        "20% OFF"
+      ]
+    },
+    {
+      "pass": true,
+      "name": "Price fixture: mistened-narcissus exact20%",
+      "current": "\u20b1799.00",
+      "regular": "\u20b1998.75",
+      "saving": "20% OFF",
+      "expected": [
+        "\u20b1799.00",
+        "\u20b1998.75",
+        "20% OFF"
+      ]
+    },
+    {
+      "pass": true,
+      "name": "Price fixture: charme-envoutant exact20%",
+      "current": "\u20b1799.00",
+      "regular": "\u20b1998.75",
+      "saving": "20% OFF",
+      "expected": [
+        "\u20b1799.00",
+        "\u20b1998.75",
+        "20% OFF"
+      ]
+    },
+    {
+      "pass": true,
+      "name": "Price fixture: oud-mirage exact20%",
+      "current": "\u20b1799.00",
+      "regular": "\u20b1998.75",
+      "saving": "20% OFF",
+      "expected": [
+        "\u20b1799.00",
+        "\u20b1998.75",
+        "20% OFF"
+      ]
+    },
+    {
+      "pass": true,
+      "name": "Price fixture: rtulle-satin exact20%",
+      "current": "\u20b1799.00",
+      "regular": "\u20b1998.75",
+      "saving": "20% OFF",
+      "expected": [
+        "\u20b1799.00",
+        "\u20b1998.75",
+        "20% OFF"
+      ]
+    },
+    {
+      "pass": true,
+      "name": "Price fixture: unknown handle native compare",
+      "current": "\u20b1799.00",
+      "regular": "\u20b11,099.00",
+      "saving": "27% OFF",
+      "expected": [
+        "\u20b1799.00",
+        "\u20b11,099.00",
+        "27% OFF"
+      ]
+    },
+    {
+      "pass": true,
+      "name": "Price fixture: changed selling price native compare",
+      "current": "\u20b1899.00",
+      "regular": "\u20b11,099.00",
+      "saving": "18% OFF",
+      "expected": [
+        "\u20b1899.00",
+        "\u20b11,099.00",
+        "18% OFF"
+      ]
+    },
+    {
+      "pass": true,
+      "name": "Price fixture: different active currency uses native compare",
+      "current": "\u20b1799.00",
+      "regular": "\u20b11,099.00",
+      "saving": "27% OFF",
+      "expected": [
+        "\u20b1799.00",
+        "\u20b11,099.00",
+        "27% OFF"
+      ]
+    },
+    {
+      "pass": true,
+      "name": "Price fixture: PHP currency object",
+      "current": "\u20b1799.00",
+      "regular": "\u20b1998.75",
+      "saving": "20% OFF",
+      "expected": [
+        "\u20b1799.00",
+        "\u20b1998.75",
+        "20% OFF"
+      ]
+    },
+    {
+      "pass": true,
+      "name": "Price fixture: varying product prices suppress reference",
+      "current": "From \u20b1799.00",
+      "regular": "",
+      "saving": "",
+      "expected": [
+        "From \u20b1799.00",
+        "",
+        ""
+      ]
+    },
+    {
+      "pass": true,
+      "name": "Price fixture: varying native reference suppresses discount",
+      "current": "\u20b1799.00",
+      "regular": "",
+      "saving": "",
+      "expected": [
+        "\u20b1799.00",
+        "",
+        ""
+      ]
+    },
+    {
+      "pass": true,
+      "name": "Price fixture: native compare equal to selling",
+      "current": "\u20b1799.00",
+      "regular": "",
+      "saving": "",
+      "expected": [
+        "\u20b1799.00",
+        "",
+        ""
+      ]
+    },
+    {
+      "pass": true,
+      "name": "Price fixture: explicit selected variant keeps applicable offer",
+      "current": "\u20b1799.00 PHP",
+      "regular": "\u20b1998.75 PHP",
+      "saving": "20% OFF",
+      "expected": [
+        "\u20b1799.00 PHP",
+        "\u20b1998.75 PHP",
+        "20% OFF"
+      ]
+    },
+    {
+      "pass": true,
+      "name": "home-light-1440: page/theme loads"
+    },
+    {
+      "pass": true,
+      "name": "home-light-1440: announcement offer visible"
+    },
+    {
+      "pass": true,
+      "name": "home-light-1440: announcement exact conditions"
+    },
+    {
+      "pass": true,
+      "name": "home-light-1440: announcement shipping link target/touch size"
+    },
+    {
+      "pass": true,
+      "name": "home-light-1440: announcement AA text contrast and no clipping",
+      "metrics": [
+        {
+          "text": "Free shipping",
+          "ratio": 11.45414312611281,
+          "width": 203.28125,
+          "height": 33.265625,
+          "inside": true,
+          "fontSize": "31.68px"
+        },
+        {
+          "text": "on 2 or more items",
+          "ratio": 11.45414312611281,
+          "width": 118.703125,
+          "height": 19.5,
+          "inside": true,
+          "fontSize": "15px"
+        },
+        {
+          "text": "Shipping fee applies to 1 item.",
+          "ratio": 11.45414312611281,
+          "width": 147.984375,
+          "height": 18,
+          "inside": true,
+          "fontSize": "12px"
+        },
+        {
+          "text": "Shipping details",
+          "ratio": 11.45414312611281,
+          "width": 79.765625,
+          "height": 44,
+          "inside": true,
+          "fontSize": "12px"
+        }
+      ]
+    },
+    {
+      "pass": true,
+      "name": "home-light-1440: footer offer visible"
+    },
+    {
+      "pass": true,
+      "name": "home-light-1440: footer exact conditions"
+    },
+    {
+      "pass": true,
+      "name": "home-light-1440: footer shipping link target/touch size"
+    },
+    {
+      "pass": true,
+      "name": "home-light-1440: footer AA text contrast and no clipping",
+      "metrics": [
+        {
+          "text": "Free shipping",
+          "ratio": 6.687762078319265,
+          "width": 1103.546875,
+          "height": 76.203125,
+          "inside": true,
+          "fontSize": "77.76px"
+        },
+        {
+          "text": "on 2 or more items",
+          "ratio": 6.687762078319265,
+          "width": 1103.546875,
+          "height": 39,
+          "inside": true,
+          "fontSize": "30px"
+        },
+        {
+          "text": "Shipping fee applies to 1 item.",
+          "ratio": 6.687762078319265,
+          "width": 172.640625,
+          "height": 21,
+          "inside": true,
+          "fontSize": "14px"
+        },
+        {
+          "text": "Shipping details",
+          "ratio": 6.687762078319265,
+          "width": 93.0625,
+          "height": 44,
+          "inside": true,
+          "fontSize": "14px"
+        }
+      ]
+    },
+    {
+      "pass": true,
+      "name": "home-light-1440: one H1 and no page overflow",
+      "overflow": false,
+      "h1": 1
+    },
+    {
+      "pass": true,
+      "name": "home-light-1440: shopping bag icon remains visible and reachable",
+      "box": {
+        "x": 1296.75,
+        "y": 83,
+        "width": 81.34375,
+        "height": 44
+      }
+    },
+    {
+      "pass": true,
+      "name": "home-light-1440: desktop navigation visible"
+    },
+    {
+      "pass": true,
+      "name": "home-light-1440: empty drawer preserves shipping terms"
+    },
+    {
+      "pass": true,
+      "name": "home-light-1440: bag opens/closes"
+    },
+    {
+      "pass": true,
+      "name": "home-light-1440: no JavaScript errors",
+      "errors": []
+    },
+    {
+      "pass": true,
+      "name": "collection-dark-390: page/theme loads"
+    },
+    {
+      "pass": true,
+      "name": "collection-dark-390: announcement offer visible"
+    },
+    {
+      "pass": true,
+      "name": "collection-dark-390: announcement exact conditions"
+    },
+    {
+      "pass": true,
+      "name": "collection-dark-390: announcement shipping link target/touch size"
+    },
+    {
+      "pass": true,
+      "name": "collection-dark-390: announcement AA text contrast and no clipping",
+      "metrics": [
+        {
+          "text": "Free shipping",
+          "ratio": 6.687762078319265,
+          "width": 154,
+          "height": 25.1875,
+          "inside": true,
+          "fontSize": "24px"
+        },
+        {
+          "text": "on 2 or more items",
+          "ratio": 6.687762078319265,
+          "width": 118.703125,
+          "height": 19.5,
+          "inside": true,
+          "fontSize": "15px"
+        },
+        {
+          "text": "Shipping fee applies to 1 item.",
+          "ratio": 6.687762078319265,
+          "width": 147.984375,
+          "height": 18,
+          "inside": true,
+          "fontSize": "12px"
+        },
+        {
+          "text": "Shipping details",
+          "ratio": 6.687762078319265,
+          "width": 79.765625,
+          "height": 44,
+          "inside": true,
+          "fontSize": "12px"
+        }
+      ]
+    },
+    {
+      "pass": true,
+      "name": "collection-dark-390: footer offer visible"
+    },
+    {
+      "pass": true,
+      "name": "collection-dark-390: footer exact conditions"
+    },
+    {
+      "pass": true,
+      "name": "collection-dark-390: footer shipping link target/touch size"
+    },
+    {
+      "pass": true,
+      "name": "collection-dark-390: footer AA text contrast and no clipping",
+      "metrics": [
+        {
+          "text": "Free shipping",
+          "ratio": 6.687762078319265,
+          "width": 346,
+          "height": 37.0625,
+          "inside": true,
+          "fontSize": "37.83px"
+        },
+        {
+          "text": "on 2 or more items",
+          "ratio": 6.687762078319265,
+          "width": 346,
+          "height": 27.296875,
+          "inside": true,
+          "fontSize": "21px"
+        },
+        {
+          "text": "Shipping fee applies to 1 item.",
+          "ratio": 6.687762078319265,
+          "width": 147.984375,
+          "height": 18,
+          "inside": true,
+          "fontSize": "12px"
+        },
+        {
+          "text": "Shipping details",
+          "ratio": 6.687762078319265,
+          "width": 79.765625,
+          "height": 44,
+          "inside": true,
+          "fontSize": "12px"
+        }
+      ]
+    },
+    {
+      "pass": true,
+      "name": "collection-dark-390: one H1 and no page overflow",
+      "overflow": false,
+      "h1": 1
+    },
+    {
+      "pass": true,
+      "name": "collection-dark-390: shopping bag icon remains visible and reachable",
+      "box": {
+        "x": 286,
+        "y": 95.1875,
+        "width": 44,
+        "height": 44
+      }
+    },
+    {
+      "pass": true,
+      "name": "collection-dark-390: mobile navigation opens"
+    },
+    {
+      "pass": true,
+      "name": "collection-dark-390: mobile navigation closes"
+    },
+    {
+      "pass": true,
+      "name": "collection-dark-390: empty drawer preserves shipping terms"
+    },
+    {
+      "pass": true,
+      "name": "collection-dark-390: bag opens/closes"
+    },
+    {
+      "pass": true,
+      "name": "collection-dark-390: all six cards show consistent exact20% offer",
+      "prices": [
+        "\n      \u20b1799.00\n      \u20b1998.75\n      20% OFF\n    ",
+        "\n      \u20b1799.00\n      \u20b1998.75\n      20% OFF\n    ",
+        "\n      \u20b1799.00\n      \u20b1998.75\n      20% OFF\n    ",
+        "\n      \u20b1799.00\n      \u20b1998.75\n      20% OFF\n    ",
+        "\n      \u20b1799.00\n      \u20b1998.75\n      20% OFF\n    ",
+        "\n      \u20b1799.00\n      \u20b1998.75\n      20% OFF\n    "
+      ]
+    },
+    {
+      "pass": true,
+      "name": "collection-dark-390: no JavaScript errors",
+      "errors": []
+    },
+    {
+      "pass": true,
+      "name": "pdp-dark-1440: page/theme loads"
+    },
+    {
+      "pass": true,
+      "name": "pdp-dark-1440: announcement offer visible"
+    },
+    {
+      "pass": true,
+      "name": "pdp-dark-1440: announcement exact conditions"
+    },
+    {
+      "pass": true,
+      "name": "pdp-dark-1440: announcement shipping link target/touch size"
+    },
+    {
+      "pass": true,
+      "name": "pdp-dark-1440: announcement AA text contrast and no clipping",
+      "metrics": [
+        {
+          "text": "Free shipping",
+          "ratio": 6.687762078319265,
+          "width": 203.28125,
+          "height": 33.265625,
+          "inside": true,
+          "fontSize": "31.68px"
+        },
+        {
+          "text": "on 2 or more items",
+          "ratio": 6.687762078319265,
+          "width": 118.703125,
+          "height": 19.5,
+          "inside": true,
+          "fontSize": "15px"
+        },
+        {
+          "text": "Shipping fee applies to 1 item.",
+          "ratio": 6.687762078319265,
+          "width": 147.984375,
+          "height": 18,
+          "inside": true,
+          "fontSize": "12px"
+        },
+        {
+          "text": "Shipping details",
+          "ratio": 6.687762078319265,
+          "width": 79.765625,
+          "height": 44,
+          "inside": true,
+          "fontSize": "12px"
+        }
+      ]
+    },
+    {
+      "pass": true,
+      "name": "pdp-dark-1440: footer offer visible"
+    },
+    {
+      "pass": true,
+      "name": "pdp-dark-1440: footer exact conditions"
+    },
+    {
+      "pass": true,
+      "name": "pdp-dark-1440: footer shipping link target/touch size"
+    },
+    {
+      "pass": true,
+      "name": "pdp-dark-1440: footer AA text contrast and no clipping",
+      "metrics": [
+        {
+          "text": "Free shipping",
+          "ratio": 6.687762078319265,
+          "width": 1103.546875,
+          "height": 76.203125,
+          "inside": true,
+          "fontSize": "77.76px"
+        },
+        {
+          "text": "on 2 or more items",
+          "ratio": 6.687762078319265,
+          "width": 1103.546875,
+          "height": 39,
+          "inside": true,
+          "fontSize": "30px"
+        },
+        {
+          "text": "Shipping fee applies to 1 item.",
+          "ratio": 6.687762078319265,
+          "width": 172.640625,
+          "height": 21,
+          "inside": true,
+          "fontSize": "14px"
+        },
+        {
+          "text": "Shipping details",
+          "ratio": 6.687762078319265,
+          "width": 93.0625,
+          "height": 44,
+          "inside": true,
+          "fontSize": "14px"
+        }
+      ]
+    },
+    {
+      "pass": true,
+      "name": "pdp-dark-1440: one H1 and no page overflow",
+      "overflow": false,
+      "h1": 1
+    },
+    {
+      "pass": true,
+      "name": "pdp-dark-1440: shopping bag icon remains visible and reachable",
+      "box": {
+        "x": 1296.75,
+        "y": 83,
+        "width": 81.34375,
+        "height": 44
+      }
+    },
+    {
+      "pass": true,
+      "name": "pdp-dark-1440: desktop navigation visible"
+    },
+    {
+      "pass": true,
+      "name": "pdp-dark-1440: empty drawer preserves shipping terms"
+    },
+    {
+      "pass": true,
+      "name": "pdp-dark-1440: bag opens/closes"
+    },
+    {
+      "pass": true,
+      "name": "pdp-dark-1440: no JavaScript errors",
+      "errors": []
+    },
+    {
+      "pass": true,
+      "name": "finder-light-320: page/theme loads"
+    },
+    {
+      "pass": true,
+      "name": "finder-light-320: announcement offer visible"
+    },
+    {
+      "pass": true,
+      "name": "finder-light-320: announcement exact conditions"
+    },
+    {
+      "pass": true,
+      "name": "finder-light-320: announcement shipping link target/touch size"
+    },
+    {
+      "pass": true,
+      "name": "finder-light-320: announcement AA text contrast and no clipping",
+      "metrics": [
+        {
+          "text": "Free shipping",
+          "ratio": 11.45414312611281,
+          "width": 154,
+          "height": 25.1875,
+          "inside": true,
+          "fontSize": "24px"
+        },
+        {
+          "text": "on 2 or more items",
+          "ratio": 11.45414312611281,
+          "width": 118.703125,
+          "height": 19.5,
+          "inside": true,
+          "fontSize": "15px"
+        },
+        {
+          "text": "Shipping fee applies to 1 item.",
+          "ratio": 11.45414312611281,
+          "width": 147.984375,
+          "height": 18,
+          "inside": true,
+          "fontSize": "12px"
+        },
+        {
+          "text": "Shipping details",
+          "ratio": 11.45414312611281,
+          "width": 79.765625,
+          "height": 44,
+          "inside": true,
+          "fontSize": "12px"
+        }
+      ]
+    },
+    {
+      "pass": true,
+      "name": "finder-light-320: footer offer visible"
+    },
+    {
+      "pass": true,
+      "name": "finder-light-320: footer exact conditions"
+    },
+    {
+      "pass": true,
+      "name": "finder-light-320: footer shipping link target/touch size"
+    },
+    {
+      "pass": true,
+      "name": "finder-light-320: footer AA text contrast and no clipping",
+      "metrics": [
+        {
+          "text": "Free shipping",
+          "ratio": 6.687762078319265,
+          "width": 276,
+          "height": 35.265625,
+          "inside": true,
+          "fontSize": "36px"
+        },
+        {
+          "text": "on 2 or more items",
+          "ratio": 6.687762078319265,
+          "width": 276,
+          "height": 27.296875,
+          "inside": true,
+          "fontSize": "21px"
+        },
+        {
+          "text": "Shipping fee applies to 1 item.",
+          "ratio": 6.687762078319265,
+          "width": 147.984375,
+          "height": 18,
+          "inside": true,
+          "fontSize": "12px"
+        },
+        {
+          "text": "Shipping details",
+          "ratio": 6.687762078319265,
+          "width": 79.765625,
+          "height": 44,
+          "inside": true,
+          "fontSize": "12px"
+        }
+      ]
+    },
+    {
+      "pass": true,
+      "name": "finder-light-320: one H1 and no page overflow",
+      "overflow": false,
+      "h1": 1
+    },
+    {
+      "pass": true,
+      "name": "finder-light-320: shopping bag icon remains visible and reachable",
+      "box": {
+        "x": 216,
+        "y": 95.1875,
+        "width": 44,
+        "height": 44
+      }
+    },
+    {
+      "pass": true,
+      "name": "finder-light-320: mobile navigation opens"
+    },
+    {
+      "pass": true,
+      "name": "finder-light-320: mobile navigation closes"
+    },
+    {
+      "pass": true,
+      "name": "finder-light-320: empty drawer preserves shipping terms"
+    },
+    {
+      "pass": true,
+      "name": "finder-light-320: bag opens/closes"
+    },
+    {
+      "pass": true,
+      "name": "finder-light-320: single Finder result uses consistent pricing",
+      "price": "\u20b1799.00\n\u20b1998.75\n20% OFF"
+    },
+    {
+      "pass": true,
+      "name": "finder-light-320: no JavaScript errors",
+      "errors": []
+    },
+    {
+      "pass": true,
+      "name": "story-light-390: page/theme loads"
+    },
+    {
+      "pass": true,
+      "name": "story-light-390: announcement offer visible"
+    },
+    {
+      "pass": true,
+      "name": "story-light-390: announcement exact conditions"
+    },
+    {
+      "pass": true,
+      "name": "story-light-390: announcement shipping link target/touch size"
+    },
+    {
+      "pass": true,
+      "name": "story-light-390: announcement AA text contrast and no clipping",
+      "metrics": [
+        {
+          "text": "Free shipping",
+          "ratio": 11.45414312611281,
+          "width": 154,
+          "height": 25.1875,
+          "inside": true,
+          "fontSize": "24px"
+        },
+        {
+          "text": "on 2 or more items",
+          "ratio": 11.45414312611281,
+          "width": 118.703125,
+          "height": 19.5,
+          "inside": true,
+          "fontSize": "15px"
+        },
+        {
+          "text": "Shipping fee applies to 1 item.",
+          "ratio": 11.45414312611281,
+          "width": 147.984375,
+          "height": 18,
+          "inside": true,
+          "fontSize": "12px"
+        },
+        {
+          "text": "Shipping details",
+          "ratio": 11.45414312611281,
+          "width": 79.765625,
+          "height": 44,
+          "inside": true,
+          "fontSize": "12px"
+        }
+      ]
+    },
+    {
+      "pass": true,
+      "name": "story-light-390: footer offer visible"
+    },
+    {
+      "pass": true,
+      "name": "story-light-390: footer exact conditions"
+    },
+    {
+      "pass": true,
+      "name": "story-light-390: footer shipping link target/touch size"
+    },
+    {
+      "pass": true,
+      "name": "story-light-390: footer AA text contrast and no clipping",
+      "metrics": [
+        {
+          "text": "Free shipping",
+          "ratio": 6.687762078319265,
+          "width": 346,
+          "height": 37.0625,
+          "inside": true,
+          "fontSize": "37.83px"
+        },
+        {
+          "text": "on 2 or more items",
+          "ratio": 6.687762078319265,
+          "width": 346,
+          "height": 27.296875,
+          "inside": true,
+          "fontSize": "21px"
+        },
+        {
+          "text": "Shipping fee applies to 1 item.",
+          "ratio": 6.687762078319265,
+          "width": 147.984375,
+          "height": 18,
+          "inside": true,
+          "fontSize": "12px"
+        },
+        {
+          "text": "Shipping details",
+          "ratio": 6.687762078319265,
+          "width": 79.765625,
+          "height": 44,
+          "inside": true,
+          "fontSize": "12px"
+        }
+      ]
+    },
+    {
+      "pass": true,
+      "name": "story-light-390: one H1 and no page overflow",
+      "overflow": false,
+      "h1": 1
+    },
+    {
+      "pass": true,
+      "name": "story-light-390: shopping bag icon remains visible and reachable",
+      "box": {
+        "x": 286,
+        "y": 95.1875,
+        "width": 44,
+        "height": 44
+      }
+    },
+    {
+      "pass": true,
+      "name": "story-light-390: mobile navigation opens"
+    },
+    {
+      "pass": true,
+      "name": "story-light-390: mobile navigation closes"
+    },
+    {
+      "pass": true,
+      "name": "story-light-390: empty drawer preserves shipping terms"
+    },
+    {
+      "pass": true,
+      "name": "story-light-390: bag opens/closes"
+    },
+    {
+      "pass": true,
+      "name": "story-light-390: no JavaScript errors",
+      "errors": []
+    },
+    {
+      "pass": true,
+      "name": "cart-dark-320: page/theme loads"
+    },
+    {
+      "pass": true,
+      "name": "cart-dark-320: announcement offer visible"
+    },
+    {
+      "pass": true,
+      "name": "cart-dark-320: announcement exact conditions"
+    },
+    {
+      "pass": true,
+      "name": "cart-dark-320: announcement shipping link target/touch size"
+    },
+    {
+      "pass": true,
+      "name": "cart-dark-320: announcement AA text contrast and no clipping",
+      "metrics": [
+        {
+          "text": "Free shipping",
+          "ratio": 6.687762078319265,
+          "width": 154,
+          "height": 25.1875,
+          "inside": true,
+          "fontSize": "24px"
+        },
+        {
+          "text": "on 2 or more items",
+          "ratio": 6.687762078319265,
+          "width": 118.703125,
+          "height": 19.5,
+          "inside": true,
+          "fontSize": "15px"
+        },
+        {
+          "text": "Shipping fee applies to 1 item.",
+          "ratio": 6.687762078319265,
+          "width": 147.984375,
+          "height": 18,
+          "inside": true,
+          "fontSize": "12px"
+        },
+        {
+          "text": "Shipping details",
+          "ratio": 6.687762078319265,
+          "width": 79.765625,
+          "height": 44,
+          "inside": true,
+          "fontSize": "12px"
+        }
+      ]
+    },
+    {
+      "pass": true,
+      "name": "cart-dark-320: footer offer visible"
+    },
+    {
+      "pass": true,
+      "name": "cart-dark-320: footer exact conditions"
+    },
+    {
+      "pass": true,
+      "name": "cart-dark-320: footer shipping link target/touch size"
+    },
+    {
+      "pass": true,
+      "name": "cart-dark-320: footer AA text contrast and no clipping",
+      "metrics": [
+        {
+          "text": "Free shipping",
+          "ratio": 6.687762078319265,
+          "width": 276,
+          "height": 35.265625,
+          "inside": true,
+          "fontSize": "36px"
+        },
+        {
+          "text": "on 2 or more items",
+          "ratio": 6.687762078319265,
+          "width": 276,
+          "height": 27.296875,
+          "inside": true,
+          "fontSize": "21px"
+        },
+        {
+          "text": "Shipping fee applies to 1 item.",
+          "ratio": 6.687762078319265,
+          "width": 147.984375,
+          "height": 18,
+          "inside": true,
+          "fontSize": "12px"
+        },
+        {
+          "text": "Shipping details",
+          "ratio": 6.687762078319265,
+          "width": 79.765625,
+          "height": 44,
+          "inside": true,
+          "fontSize": "12px"
+        }
+      ]
+    },
+    {
+      "pass": true,
+      "name": "cart-dark-320: one H1 and no page overflow",
+      "overflow": false,
+      "h1": 1
+    },
+    {
+      "pass": true,
+      "name": "cart-dark-320: shopping bag icon remains visible and reachable",
+      "box": {
+        "x": 216,
+        "y": 95.1875,
+        "width": 44,
+        "height": 44
+      }
+    },
+    {
+      "pass": true,
+      "name": "cart-dark-320: mobile navigation opens"
+    },
+    {
+      "pass": true,
+      "name": "cart-dark-320: mobile navigation closes"
+    },
+    {
+      "pass": true,
+      "name": "cart-dark-320: empty drawer preserves shipping terms"
+    },
+    {
+      "pass": true,
+      "name": "cart-dark-320: bag opens/closes"
+    },
+    {
+      "pass": true,
+      "name": "cart-dark-320: empty bag has generic offer without false qualification"
+    },
+    {
+      "pass": true,
+      "name": "cart-dark-320: no JavaScript errors",
+      "errors": []
+    },
+    {
+      "pass": true,
+      "name": "PDP mojito-metallique: current/reference/exact discount",
+      "actual": {
+        "price": "\u20b1799.00 PHP",
+        "compare": "\u20b1998.75 PHP",
+        "saving": "20% OFF",
+        "options": [
+          {
+            "price": "\u20b1799.00 PHP",
+            "compare": "\u20b1998.75 PHP",
+            "savings": "20% OFF"
+          }
+        ],
+        "terms": "Shipping fee applies to 1 item.",
+        "stock": "Sold out"
+      }
+    },
+    {
+      "pass": true,
+      "name": "PDP mojito-metallique: variant data offer contract"
+    },
+    {
+      "pass": true,
+      "name": "PDP mojito-metallique: purchase condition shown"
+    },
+    {
+      "pass": true,
+      "name": "PDP amber-oud-silk: current/reference/exact discount",
+      "actual": {
+        "price": "\u20b1799.00 PHP",
+        "compare": "\u20b1998.75 PHP",
+        "saving": "20% OFF",
+        "options": [
+          {
+            "price": "\u20b1799.00 PHP",
+            "compare": "\u20b1998.75 PHP",
+            "savings": "20% OFF"
+          }
+        ],
+        "terms": "Shipping fee applies to 1 item.",
+        "stock": "Sold out"
+      }
+    },
+    {
+      "pass": true,
+      "name": "PDP amber-oud-silk: variant data offer contract"
+    },
+    {
+      "pass": true,
+      "name": "PDP amber-oud-silk: purchase condition shown"
+    },
+    {
+      "pass": true,
+      "name": "PDP mistened-narcissus: current/reference/exact discount",
+      "actual": {
+        "price": "\u20b1799.00 PHP",
+        "compare": "\u20b1998.75 PHP",
+        "saving": "20% OFF",
+        "options": [
+          {
+            "price": "\u20b1799.00 PHP",
+            "compare": "\u20b1998.75 PHP",
+            "savings": "20% OFF"
+          }
+        ],
+        "terms": "Shipping fee applies to 1 item.",
+        "stock": "Sold out"
+      }
+    },
+    {
+      "pass": true,
+      "name": "PDP mistened-narcissus: variant data offer contract"
+    },
+    {
+      "pass": true,
+      "name": "PDP mistened-narcissus: purchase condition shown"
+    },
+    {
+      "pass": true,
+      "name": "PDP charme-envoutant: current/reference/exact discount",
+      "actual": {
+        "price": "\u20b1799.00 PHP",
+        "compare": "\u20b1998.75 PHP",
+        "saving": "20% OFF",
+        "options": [
+          {
+            "price": "\u20b1799.00 PHP",
+            "compare": "\u20b1998.75 PHP",
+            "savings": "20% OFF"
+          }
+        ],
+        "terms": "Shipping fee applies to 1 item.",
+        "stock": "Sold out"
+      }
+    },
+    {
+      "pass": true,
+      "name": "PDP charme-envoutant: variant data offer contract"
+    },
+    {
+      "pass": true,
+      "name": "PDP charme-envoutant: purchase condition shown"
+    },
+    {
+      "pass": true,
+      "name": "PDP oud-mirage: current/reference/exact discount",
+      "actual": {
+        "price": "\u20b1799.00 PHP",
+        "compare": "\u20b1998.75 PHP",
+        "saving": "20% OFF",
+        "options": [
+          {
+            "price": "\u20b1799.00 PHP",
+            "compare": "\u20b1998.75 PHP",
+            "savings": "20% OFF"
+          }
+        ],
+        "terms": "Shipping fee applies to 1 item.",
+        "stock": "Sold out"
+      }
+    },
+    {
+      "pass": true,
+      "name": "PDP oud-mirage: variant data offer contract"
+    },
+    {
+      "pass": true,
+      "name": "PDP oud-mirage: purchase condition shown"
+    },
+    {
+      "pass": true,
+      "name": "PDP rtulle-satin: current/reference/exact discount",
+      "actual": {
+        "price": "\u20b1799.00 PHP",
+        "compare": "\u20b1998.75 PHP",
+        "saving": "20% OFF",
+        "options": [
+          {
+            "price": "\u20b1799.00 PHP",
+            "compare": "\u20b1998.75 PHP",
+            "savings": "20% OFF"
+          }
+        ],
+        "terms": "Shipping fee applies to 1 item.",
+        "stock": "Sold out"
+      }
+    },
+    {
+      "pass": true,
+      "name": "PDP rtulle-satin: variant data offer contract"
+    },
+    {
+      "pass": true,
+      "name": "PDP rtulle-satin: purchase condition shown"
+    }
+  ],
+  "failures": [],
+  "screenshots": [
+    "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/qa/screenshots/offers/home-light-1440-announcement.png",
+    "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/qa/screenshots/offers/home-light-1440-footer.png",
+    "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/qa/screenshots/offers/collection-dark-390-announcement.png",
+    "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/qa/screenshots/offers/collection-dark-390-footer.png",
+    "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/qa/screenshots/offers/pdp-dark-1440-announcement.png",
+    "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/qa/screenshots/offers/pdp-dark-1440-footer.png",
+    "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/qa/screenshots/offers/finder-light-320-announcement.png",
+    "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/qa/screenshots/offers/finder-light-320-footer.png",
+    "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/qa/screenshots/offers/story-light-390-announcement.png",
+    "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/qa/screenshots/offers/story-light-390-footer.png",
+    "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/qa/screenshots/offers/cart-dark-320-announcement.png",
+    "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/qa/screenshots/offers/cart-dark-320-footer.png",
+    "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/qa/screenshots/offers/pdp-purchase-offer-light-1440.png"
+  ],
+  "status": "PASS",
+  "passed": 129,
+  "total": 129,
+  "visualReview": {
+    "status": "PASS",
+    "files": [
+      "screenshots/offers/finder-light-320-announcement.png",
+      "screenshots/offers/cart-dark-320-footer.png",
+      "screenshots/offers/pdp-purchase-offer-light-1440.png"
+    ],
+    "notes": "Shipping conditions and sale/reference pricing are legible and unclipped."
+  }
+}

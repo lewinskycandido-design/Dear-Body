@@ -1,0 +1,1292 @@
+{
+  "generatedAt": "2026-09-24T04:40:55.930Z",
+  "scope": "Mobile text-on-image banner layout, crops and representative interactions",
+  "cases": [
+    {
+      "name": "charme-envoutant",
+      "route": "/products/charme-envoutant",
+      "kind": "product",
+      "theme": "light",
+      "width": 390,
+      "height": 844,
+      "checks": [
+        {
+          "pass": true,
+          "label": "Banner spans viewport",
+          "data": {
+            "x": 0,
+            "y": 99,
+            "width": 390,
+            "height": 601,
+            "right": 390,
+            "bottom": 700
+          }
+        },
+        {
+          "pass": true,
+          "label": "Full image box matches banner box",
+          "data": {
+            "banner": {
+              "x": 0,
+              "y": 99,
+              "width": 390,
+              "height": 601,
+              "right": 390,
+              "bottom": 700
+            },
+            "image": {
+              "x": 0,
+              "y": 99,
+              "width": 390,
+              "height": 600,
+              "right": 390,
+              "bottom": 699,
+              "loaded": true,
+              "src": "http://127.0.0.1:4208/assets/sj-product-banner-charme-envoutant.jpg",
+              "naturalWidth": 1774,
+              "naturalHeight": 887,
+              "fit": "cover",
+              "position": "75% 0%"
+            }
+          }
+        },
+        {
+          "pass": true,
+          "label": "Copy is inside banner",
+          "data": {
+            "copy": {
+              "x": 22,
+              "y": 483.234375,
+              "width": 346,
+              "height": 215.765625,
+              "right": 368,
+              "bottom": 699
+            },
+            "banner": {
+              "x": 0,
+              "y": 99,
+              "width": 390,
+              "height": 601,
+              "right": 390,
+              "bottom": 700
+            }
+          }
+        },
+        {
+          "pass": true,
+          "label": "Copy overlaps image rather than following it",
+          "data": {
+            "intersection": 74654.90625,
+            "copyArea": 74654.90625
+          }
+        },
+        {
+          "pass": true,
+          "label": "No horizontal or clipped text overflow",
+          "data": []
+        },
+        {
+          "pass": true,
+          "label": "Headline fits inside banner",
+          "data": {
+            "x": 22,
+            "y": 533.828125,
+            "width": 346,
+            "height": 36.578125,
+            "right": 368,
+            "bottom": 570.40625,
+            "text": "CHARME ENVOÛTANT",
+            "family": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif",
+            "weight": "700"
+          }
+        },
+        {
+          "pass": true,
+          "label": "Exactly one H1",
+          "data": 1
+        },
+        {
+          "pass": true,
+          "label": "Correct artwork loads",
+          "data": "http://127.0.0.1:4208/assets/sj-product-banner-charme-envoutant.jpg"
+        },
+        {
+          "pass": true,
+          "label": "Supplied body and title fonts remain loaded"
+        },
+        {
+          "pass": true,
+          "label": "Product title remains only in banner"
+        },
+        {
+          "pass": true,
+          "label": "CTA stays inside image banner",
+          "data": {
+            "href": "#ProductDetails-10314005020737",
+            "text": "EXPLORE THIS FRAGRANCE",
+            "box": {
+              "x": 22,
+              "y": 622,
+              "width": 176.5625,
+              "height": 47,
+              "right": 198.5625,
+              "bottom": 669
+            }
+          }
+        },
+        {
+          "pass": true,
+          "label": "No JavaScript errors",
+          "data": []
+        }
+      ],
+      "errors": [],
+      "layout": {
+        "banner": {
+          "x": 0,
+          "y": 99,
+          "width": 390,
+          "height": 601,
+          "right": 390,
+          "bottom": 700
+        },
+        "media": {
+          "x": 0,
+          "y": 99,
+          "width": 390,
+          "height": 600,
+          "right": 390,
+          "bottom": 699
+        },
+        "image": {
+          "x": 0,
+          "y": 99,
+          "width": 390,
+          "height": 600,
+          "right": 390,
+          "bottom": 699,
+          "loaded": true,
+          "src": "http://127.0.0.1:4208/assets/sj-product-banner-charme-envoutant.jpg",
+          "naturalWidth": 1774,
+          "naturalHeight": 887,
+          "fit": "cover",
+          "position": "75% 0%"
+        },
+        "copy": {
+          "x": 22,
+          "y": 483.234375,
+          "width": 346,
+          "height": 215.765625,
+          "right": 368,
+          "bottom": 699
+        },
+        "h1": {
+          "x": 22,
+          "y": 533.828125,
+          "width": 346,
+          "height": 36.578125,
+          "right": 368,
+          "bottom": 570.40625,
+          "text": "CHARME ENVOÛTANT",
+          "family": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif",
+          "weight": "700"
+        },
+        "h1Count": 1,
+        "bodyFamily": "\"Helvetica Now Display\", \"Helvetica Neue\", Arial, sans-serif",
+        "bodyWeight": "300",
+        "faces": [
+          {
+            "family": "Cenzo Flare Bold",
+            "status": "loaded"
+          },
+          {
+            "family": "Helvetica Now Display",
+            "status": "loaded"
+          }
+        ],
+        "horizontalOverflow": false,
+        "textOverflow": [],
+        "cta": {
+          "href": "#ProductDetails-10314005020737",
+          "text": "EXPLORE THIS FRAGRANCE",
+          "box": {
+            "x": 22,
+            "y": 622,
+            "width": 176.5625,
+            "height": 47,
+            "right": 198.5625,
+            "bottom": 669
+          }
+        }
+      },
+      "status": "PASS"
+    },
+    {
+      "name": "charme-envoutant",
+      "route": "/products/charme-envoutant",
+      "kind": "product",
+      "theme": "dark",
+      "width": 390,
+      "height": 844,
+      "checks": [
+        {
+          "pass": true,
+          "label": "Banner spans viewport",
+          "data": {
+            "x": 0,
+            "y": 99,
+            "width": 390,
+            "height": 601,
+            "right": 390,
+            "bottom": 700
+          }
+        },
+        {
+          "pass": true,
+          "label": "Full image box matches banner box",
+          "data": {
+            "banner": {
+              "x": 0,
+              "y": 99,
+              "width": 390,
+              "height": 601,
+              "right": 390,
+              "bottom": 700
+            },
+            "image": {
+              "x": 0,
+              "y": 99,
+              "width": 390,
+              "height": 600,
+              "right": 390,
+              "bottom": 699,
+              "loaded": true,
+              "src": "http://127.0.0.1:4208/assets/sj-product-banner-charme-envoutant.jpg",
+              "naturalWidth": 1774,
+              "naturalHeight": 887,
+              "fit": "cover",
+              "position": "75% 0%"
+            }
+          }
+        },
+        {
+          "pass": true,
+          "label": "Copy is inside banner",
+          "data": {
+            "copy": {
+              "x": 22,
+              "y": 483.234375,
+              "width": 346,
+              "height": 215.765625,
+              "right": 368,
+              "bottom": 699
+            },
+            "banner": {
+              "x": 0,
+              "y": 99,
+              "width": 390,
+              "height": 601,
+              "right": 390,
+              "bottom": 700
+            }
+          }
+        },
+        {
+          "pass": true,
+          "label": "Copy overlaps image rather than following it",
+          "data": {
+            "intersection": 74654.90625,
+            "copyArea": 74654.90625
+          }
+        },
+        {
+          "pass": true,
+          "label": "No horizontal or clipped text overflow",
+          "data": []
+        },
+        {
+          "pass": true,
+          "label": "Headline fits inside banner",
+          "data": {
+            "x": 22,
+            "y": 533.828125,
+            "width": 346,
+            "height": 36.578125,
+            "right": 368,
+            "bottom": 570.40625,
+            "text": "CHARME ENVOÛTANT",
+            "family": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif",
+            "weight": "700"
+          }
+        },
+        {
+          "pass": true,
+          "label": "Exactly one H1",
+          "data": 1
+        },
+        {
+          "pass": true,
+          "label": "Correct artwork loads",
+          "data": "http://127.0.0.1:4208/assets/sj-product-banner-charme-envoutant.jpg"
+        },
+        {
+          "pass": true,
+          "label": "Supplied body and title fonts remain loaded"
+        },
+        {
+          "pass": true,
+          "label": "Product title remains only in banner"
+        },
+        {
+          "pass": true,
+          "label": "CTA stays inside image banner",
+          "data": {
+            "href": "#ProductDetails-10314005020737",
+            "text": "EXPLORE THIS FRAGRANCE",
+            "box": {
+              "x": 22,
+              "y": 622,
+              "width": 176.5625,
+              "height": 47,
+              "right": 198.5625,
+              "bottom": 669
+            }
+          }
+        },
+        {
+          "pass": true,
+          "label": "No JavaScript errors",
+          "data": []
+        }
+      ],
+      "errors": [],
+      "layout": {
+        "banner": {
+          "x": 0,
+          "y": 99,
+          "width": 390,
+          "height": 601,
+          "right": 390,
+          "bottom": 700
+        },
+        "media": {
+          "x": 0,
+          "y": 99,
+          "width": 390,
+          "height": 600,
+          "right": 390,
+          "bottom": 699
+        },
+        "image": {
+          "x": 0,
+          "y": 99,
+          "width": 390,
+          "height": 600,
+          "right": 390,
+          "bottom": 699,
+          "loaded": true,
+          "src": "http://127.0.0.1:4208/assets/sj-product-banner-charme-envoutant.jpg",
+          "naturalWidth": 1774,
+          "naturalHeight": 887,
+          "fit": "cover",
+          "position": "75% 0%"
+        },
+        "copy": {
+          "x": 22,
+          "y": 483.234375,
+          "width": 346,
+          "height": 215.765625,
+          "right": 368,
+          "bottom": 699
+        },
+        "h1": {
+          "x": 22,
+          "y": 533.828125,
+          "width": 346,
+          "height": 36.578125,
+          "right": 368,
+          "bottom": 570.40625,
+          "text": "CHARME ENVOÛTANT",
+          "family": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif",
+          "weight": "700"
+        },
+        "h1Count": 1,
+        "bodyFamily": "\"Helvetica Now Display\", \"Helvetica Neue\", Arial, sans-serif",
+        "bodyWeight": "300",
+        "faces": [
+          {
+            "family": "Cenzo Flare Bold",
+            "status": "loaded"
+          },
+          {
+            "family": "Helvetica Now Display",
+            "status": "loaded"
+          }
+        ],
+        "horizontalOverflow": false,
+        "textOverflow": [],
+        "cta": {
+          "href": "#ProductDetails-10314005020737",
+          "text": "EXPLORE THIS FRAGRANCE",
+          "box": {
+            "x": 22,
+            "y": 622,
+            "width": 176.5625,
+            "height": 47,
+            "right": 198.5625,
+            "bottom": 669
+          }
+        }
+      },
+      "status": "PASS"
+    },
+    {
+      "name": "mojito-metallique",
+      "route": "/products/mojito-metallique",
+      "kind": "product",
+      "theme": "light",
+      "width": 390,
+      "height": 844,
+      "checks": [
+        {
+          "pass": true,
+          "label": "Banner spans viewport",
+          "data": {
+            "x": 0,
+            "y": 99,
+            "width": 390,
+            "height": 601,
+            "right": 390,
+            "bottom": 700
+          }
+        },
+        {
+          "pass": true,
+          "label": "Full image box matches banner box",
+          "data": {
+            "banner": {
+              "x": 0,
+              "y": 99,
+              "width": 390,
+              "height": 601,
+              "right": 390,
+              "bottom": 700
+            },
+            "image": {
+              "x": 0,
+              "y": 99,
+              "width": 390,
+              "height": 600,
+              "right": 390,
+              "bottom": 699,
+              "loaded": true,
+              "src": "http://127.0.0.1:4208/assets/sj-product-banner-mojito-metallique.jpg",
+              "naturalWidth": 1774,
+              "naturalHeight": 887,
+              "fit": "cover",
+              "position": "77% 0%"
+            }
+          }
+        },
+        {
+          "pass": true,
+          "label": "Copy is inside banner",
+          "data": {
+            "copy": {
+              "x": 22,
+              "y": 483.234375,
+              "width": 346,
+              "height": 215.765625,
+              "right": 368,
+              "bottom": 699
+            },
+            "banner": {
+              "x": 0,
+              "y": 99,
+              "width": 390,
+              "height": 601,
+              "right": 390,
+              "bottom": 700
+            }
+          }
+        },
+        {
+          "pass": true,
+          "label": "Copy overlaps image rather than following it",
+          "data": {
+            "intersection": 74654.90625,
+            "copyArea": 74654.90625
+          }
+        },
+        {
+          "pass": true,
+          "label": "No horizontal or clipped text overflow",
+          "data": []
+        },
+        {
+          "pass": true,
+          "label": "Headline fits inside banner",
+          "data": {
+            "x": 22,
+            "y": 533.828125,
+            "width": 346,
+            "height": 36.578125,
+            "right": 368,
+            "bottom": 570.40625,
+            "text": "MOJITO METALLIQUE",
+            "family": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif",
+            "weight": "700"
+          }
+        },
+        {
+          "pass": true,
+          "label": "Exactly one H1",
+          "data": 1
+        },
+        {
+          "pass": true,
+          "label": "Correct artwork loads",
+          "data": "http://127.0.0.1:4208/assets/sj-product-banner-mojito-metallique.jpg"
+        },
+        {
+          "pass": true,
+          "label": "Supplied body and title fonts remain loaded"
+        },
+        {
+          "pass": true,
+          "label": "Product title remains only in banner"
+        },
+        {
+          "pass": true,
+          "label": "CTA stays inside image banner",
+          "data": {
+            "href": "#ProductDetails-10314869571649",
+            "text": "EXPLORE THIS FRAGRANCE",
+            "box": {
+              "x": 22,
+              "y": 622,
+              "width": 176.5625,
+              "height": 47,
+              "right": 198.5625,
+              "bottom": 669
+            }
+          }
+        },
+        {
+          "pass": true,
+          "label": "No JavaScript errors",
+          "data": []
+        }
+      ],
+      "errors": [],
+      "layout": {
+        "banner": {
+          "x": 0,
+          "y": 99,
+          "width": 390,
+          "height": 601,
+          "right": 390,
+          "bottom": 700
+        },
+        "media": {
+          "x": 0,
+          "y": 99,
+          "width": 390,
+          "height": 600,
+          "right": 390,
+          "bottom": 699
+        },
+        "image": {
+          "x": 0,
+          "y": 99,
+          "width": 390,
+          "height": 600,
+          "right": 390,
+          "bottom": 699,
+          "loaded": true,
+          "src": "http://127.0.0.1:4208/assets/sj-product-banner-mojito-metallique.jpg",
+          "naturalWidth": 1774,
+          "naturalHeight": 887,
+          "fit": "cover",
+          "position": "77% 0%"
+        },
+        "copy": {
+          "x": 22,
+          "y": 483.234375,
+          "width": 346,
+          "height": 215.765625,
+          "right": 368,
+          "bottom": 699
+        },
+        "h1": {
+          "x": 22,
+          "y": 533.828125,
+          "width": 346,
+          "height": 36.578125,
+          "right": 368,
+          "bottom": 570.40625,
+          "text": "MOJITO METALLIQUE",
+          "family": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif",
+          "weight": "700"
+        },
+        "h1Count": 1,
+        "bodyFamily": "\"Helvetica Now Display\", \"Helvetica Neue\", Arial, sans-serif",
+        "bodyWeight": "300",
+        "faces": [
+          {
+            "family": "Cenzo Flare Bold",
+            "status": "loaded"
+          },
+          {
+            "family": "Helvetica Now Display",
+            "status": "loaded"
+          }
+        ],
+        "horizontalOverflow": false,
+        "textOverflow": [],
+        "cta": {
+          "href": "#ProductDetails-10314869571649",
+          "text": "EXPLORE THIS FRAGRANCE",
+          "box": {
+            "x": 22,
+            "y": 622,
+            "width": 176.5625,
+            "height": 47,
+            "right": 198.5625,
+            "bottom": 669
+          }
+        }
+      },
+      "status": "PASS"
+    },
+    {
+      "name": "mojito-metallique",
+      "route": "/products/mojito-metallique",
+      "kind": "product",
+      "theme": "dark",
+      "width": 390,
+      "height": 844,
+      "checks": [
+        {
+          "pass": true,
+          "label": "Banner spans viewport",
+          "data": {
+            "x": 0,
+            "y": 99,
+            "width": 390,
+            "height": 601,
+            "right": 390,
+            "bottom": 700
+          }
+        },
+        {
+          "pass": true,
+          "label": "Full image box matches banner box",
+          "data": {
+            "banner": {
+              "x": 0,
+              "y": 99,
+              "width": 390,
+              "height": 601,
+              "right": 390,
+              "bottom": 700
+            },
+            "image": {
+              "x": 0,
+              "y": 99,
+              "width": 390,
+              "height": 600,
+              "right": 390,
+              "bottom": 699,
+              "loaded": true,
+              "src": "http://127.0.0.1:4208/assets/sj-product-banner-mojito-metallique.jpg",
+              "naturalWidth": 1774,
+              "naturalHeight": 887,
+              "fit": "cover",
+              "position": "77% 0%"
+            }
+          }
+        },
+        {
+          "pass": true,
+          "label": "Copy is inside banner",
+          "data": {
+            "copy": {
+              "x": 22,
+              "y": 483.234375,
+              "width": 346,
+              "height": 215.765625,
+              "right": 368,
+              "bottom": 699
+            },
+            "banner": {
+              "x": 0,
+              "y": 99,
+              "width": 390,
+              "height": 601,
+              "right": 390,
+              "bottom": 700
+            }
+          }
+        },
+        {
+          "pass": true,
+          "label": "Copy overlaps image rather than following it",
+          "data": {
+            "intersection": 74654.90625,
+            "copyArea": 74654.90625
+          }
+        },
+        {
+          "pass": true,
+          "label": "No horizontal or clipped text overflow",
+          "data": []
+        },
+        {
+          "pass": true,
+          "label": "Headline fits inside banner",
+          "data": {
+            "x": 22,
+            "y": 533.828125,
+            "width": 346,
+            "height": 36.578125,
+            "right": 368,
+            "bottom": 570.40625,
+            "text": "MOJITO METALLIQUE",
+            "family": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif",
+            "weight": "700"
+          }
+        },
+        {
+          "pass": true,
+          "label": "Exactly one H1",
+          "data": 1
+        },
+        {
+          "pass": true,
+          "label": "Correct artwork loads",
+          "data": "http://127.0.0.1:4208/assets/sj-product-banner-mojito-metallique.jpg"
+        },
+        {
+          "pass": true,
+          "label": "Supplied body and title fonts remain loaded"
+        },
+        {
+          "pass": true,
+          "label": "Product title remains only in banner"
+        },
+        {
+          "pass": true,
+          "label": "CTA stays inside image banner",
+          "data": {
+            "href": "#ProductDetails-10314869571649",
+            "text": "EXPLORE THIS FRAGRANCE",
+            "box": {
+              "x": 22,
+              "y": 622,
+              "width": 176.5625,
+              "height": 47,
+              "right": 198.5625,
+              "bottom": 669
+            }
+          }
+        },
+        {
+          "pass": true,
+          "label": "No JavaScript errors",
+          "data": []
+        }
+      ],
+      "errors": [],
+      "layout": {
+        "banner": {
+          "x": 0,
+          "y": 99,
+          "width": 390,
+          "height": 601,
+          "right": 390,
+          "bottom": 700
+        },
+        "media": {
+          "x": 0,
+          "y": 99,
+          "width": 390,
+          "height": 600,
+          "right": 390,
+          "bottom": 699
+        },
+        "image": {
+          "x": 0,
+          "y": 99,
+          "width": 390,
+          "height": 600,
+          "right": 390,
+          "bottom": 699,
+          "loaded": true,
+          "src": "http://127.0.0.1:4208/assets/sj-product-banner-mojito-metallique.jpg",
+          "naturalWidth": 1774,
+          "naturalHeight": 887,
+          "fit": "cover",
+          "position": "77% 0%"
+        },
+        "copy": {
+          "x": 22,
+          "y": 483.234375,
+          "width": 346,
+          "height": 215.765625,
+          "right": 368,
+          "bottom": 699
+        },
+        "h1": {
+          "x": 22,
+          "y": 533.828125,
+          "width": 346,
+          "height": 36.578125,
+          "right": 368,
+          "bottom": 570.40625,
+          "text": "MOJITO METALLIQUE",
+          "family": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif",
+          "weight": "700"
+        },
+        "h1Count": 1,
+        "bodyFamily": "\"Helvetica Now Display\", \"Helvetica Neue\", Arial, sans-serif",
+        "bodyWeight": "300",
+        "faces": [
+          {
+            "family": "Cenzo Flare Bold",
+            "status": "loaded"
+          },
+          {
+            "family": "Helvetica Now Display",
+            "status": "loaded"
+          }
+        ],
+        "horizontalOverflow": false,
+        "textOverflow": [],
+        "cta": {
+          "href": "#ProductDetails-10314869571649",
+          "text": "EXPLORE THIS FRAGRANCE",
+          "box": {
+            "x": 22,
+            "y": 622,
+            "width": 176.5625,
+            "height": 47,
+            "right": 198.5625,
+            "bottom": 669
+          }
+        }
+      },
+      "status": "PASS"
+    },
+    {
+      "name": "story",
+      "route": "/pages/our-story",
+      "kind": "page",
+      "theme": "dark",
+      "width": 320,
+      "height": 844,
+      "checks": [
+        {
+          "pass": true,
+          "label": "Banner spans viewport",
+          "data": {
+            "x": 0,
+            "y": 99,
+            "width": 320,
+            "height": 600,
+            "right": 320,
+            "bottom": 699
+          }
+        },
+        {
+          "pass": true,
+          "label": "Full image box matches banner box",
+          "data": {
+            "banner": {
+              "x": 0,
+              "y": 99,
+              "width": 320,
+              "height": 600,
+              "right": 320,
+              "bottom": 699
+            },
+            "image": {
+              "x": 0,
+              "y": 99,
+              "width": 320,
+              "height": 600,
+              "right": 320,
+              "bottom": 699,
+              "loaded": true,
+              "src": "http://127.0.0.1:4208/assets/sj-banner-story-dark.jpg",
+              "naturalWidth": 1800,
+              "naturalHeight": 772,
+              "fit": "cover",
+              "position": "85% 0%"
+            }
+          }
+        },
+        {
+          "pass": true,
+          "label": "Copy is inside banner",
+          "data": {
+            "copy": {
+              "x": 22,
+              "y": 502.53125,
+              "width": 276,
+              "height": 196.46875,
+              "right": 298,
+              "bottom": 699
+            },
+            "banner": {
+              "x": 0,
+              "y": 99,
+              "width": 320,
+              "height": 600,
+              "right": 320,
+              "bottom": 699
+            }
+          }
+        },
+        {
+          "pass": true,
+          "label": "Copy overlaps image rather than following it",
+          "data": {
+            "intersection": 54225.375,
+            "copyArea": 54225.375
+          }
+        },
+        {
+          "pass": true,
+          "label": "No horizontal or clipped text overflow",
+          "data": []
+        },
+        {
+          "pass": true,
+          "label": "Headline fits inside banner",
+          "data": {
+            "x": 22,
+            "y": 555.125,
+            "width": 276,
+            "height": 97.875,
+            "right": 298,
+            "bottom": 653,
+            "text": "A SCENT JOURNEY\nFROM LONDON\nTO THE PHILIPPINES.",
+            "family": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif",
+            "weight": "700"
+          }
+        },
+        {
+          "pass": true,
+          "label": "Exactly one H1",
+          "data": 1
+        },
+        {
+          "pass": true,
+          "label": "Correct artwork loads",
+          "data": "http://127.0.0.1:4208/assets/sj-banner-story-dark.jpg"
+        },
+        {
+          "pass": true,
+          "label": "Supplied body and title fonts remain loaded"
+        },
+        {
+          "pass": true,
+          "label": "No JavaScript errors",
+          "data": []
+        }
+      ],
+      "errors": [],
+      "layout": {
+        "banner": {
+          "x": 0,
+          "y": 99,
+          "width": 320,
+          "height": 600,
+          "right": 320,
+          "bottom": 699
+        },
+        "media": {
+          "x": 0,
+          "y": 99,
+          "width": 320,
+          "height": 600,
+          "right": 320,
+          "bottom": 699
+        },
+        "image": {
+          "x": 0,
+          "y": 99,
+          "width": 320,
+          "height": 600,
+          "right": 320,
+          "bottom": 699,
+          "loaded": true,
+          "src": "http://127.0.0.1:4208/assets/sj-banner-story-dark.jpg",
+          "naturalWidth": 1800,
+          "naturalHeight": 772,
+          "fit": "cover",
+          "position": "85% 0%"
+        },
+        "copy": {
+          "x": 22,
+          "y": 502.53125,
+          "width": 276,
+          "height": 196.46875,
+          "right": 298,
+          "bottom": 699
+        },
+        "h1": {
+          "x": 22,
+          "y": 555.125,
+          "width": 276,
+          "height": 97.875,
+          "right": 298,
+          "bottom": 653,
+          "text": "A SCENT JOURNEY\nFROM LONDON\nTO THE PHILIPPINES.",
+          "family": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif",
+          "weight": "700"
+        },
+        "h1Count": 1,
+        "bodyFamily": "\"Helvetica Now Display\", \"Helvetica Neue\", Arial, sans-serif",
+        "bodyWeight": "300",
+        "faces": [
+          {
+            "family": "Cenzo Flare Bold",
+            "status": "loaded"
+          },
+          {
+            "family": "Helvetica Now Display",
+            "status": "loaded"
+          }
+        ],
+        "horizontalOverflow": false,
+        "textOverflow": [],
+        "cta": null
+      },
+      "status": "PASS"
+    },
+    {
+      "name": "home",
+      "route": "/",
+      "kind": "home",
+      "theme": "light",
+      "width": 760,
+      "height": 1000,
+      "checks": [
+        {
+          "pass": true,
+          "label": "Banner spans viewport",
+          "data": {
+            "x": 0,
+            "y": 99,
+            "width": 760,
+            "height": 641.1875,
+            "right": 760,
+            "bottom": 740.1875
+          }
+        },
+        {
+          "pass": true,
+          "label": "Full image box matches banner box",
+          "data": {
+            "banner": {
+              "x": 0,
+              "y": 99,
+              "width": 760,
+              "height": 641.1875,
+              "right": 760,
+              "bottom": 740.1875
+            },
+            "image": {
+              "x": 0,
+              "y": 99,
+              "width": 760,
+              "height": 641.1875,
+              "right": 760,
+              "bottom": 740.1875,
+              "loaded": true,
+              "src": "http://127.0.0.1:4208/assets/sj-home-hero-light.jpg",
+              "naturalWidth": 1800,
+              "naturalHeight": 900,
+              "fit": "cover",
+              "position": "74% 0%"
+            }
+          }
+        },
+        {
+          "pass": true,
+          "label": "Copy is inside banner",
+          "data": {
+            "copy": {
+              "x": 32.671875,
+              "y": 399,
+              "width": 694.65625,
+              "height": 341.1875,
+              "right": 727.328125,
+              "bottom": 740.1875
+            },
+            "banner": {
+              "x": 0,
+              "y": 99,
+              "width": 760,
+              "height": 641.1875,
+              "right": 760,
+              "bottom": 740.1875
+            }
+          }
+        },
+        {
+          "pass": true,
+          "label": "Copy overlaps image rather than following it",
+          "data": {
+            "intersection": 237008.029296875,
+            "copyArea": 237008.029296875
+          }
+        },
+        {
+          "pass": true,
+          "label": "No horizontal or clipped text overflow",
+          "data": []
+        },
+        {
+          "pass": true,
+          "label": "Headline fits inside banner",
+          "data": {
+            "x": 32.671875,
+            "y": 451.59375,
+            "width": 694.65625,
+            "height": 136,
+            "right": 727.328125,
+            "bottom": 587.59375,
+            "text": "MAKE IT\nPERSONAL.",
+            "family": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif",
+            "weight": "700"
+          }
+        },
+        {
+          "pass": true,
+          "label": "Exactly one H1",
+          "data": 1
+        },
+        {
+          "pass": true,
+          "label": "Correct artwork loads",
+          "data": "http://127.0.0.1:4208/assets/sj-home-hero-light.jpg"
+        },
+        {
+          "pass": true,
+          "label": "Supplied body and title fonts remain loaded"
+        },
+        {
+          "pass": true,
+          "label": "CTA stays inside image banner",
+          "data": {
+            "href": "#ShopCollections",
+            "text": "EXPLORE THE COLLECTIONS",
+            "box": {
+              "x": 32.671875,
+              "y": 663.1875,
+              "width": 182.15625,
+              "height": 47,
+              "right": 214.828125,
+              "bottom": 710.1875
+            }
+          }
+        },
+        {
+          "pass": true,
+          "label": "No JavaScript errors",
+          "data": []
+        }
+      ],
+      "errors": [],
+      "layout": {
+        "banner": {
+          "x": 0,
+          "y": 99,
+          "width": 760,
+          "height": 641.1875,
+          "right": 760,
+          "bottom": 740.1875
+        },
+        "media": {
+          "x": 0,
+          "y": 99,
+          "width": 760,
+          "height": 641.1875,
+          "right": 760,
+          "bottom": 740.1875
+        },
+        "image": {
+          "x": 0,
+          "y": 99,
+          "width": 760,
+          "height": 641.1875,
+          "right": 760,
+          "bottom": 740.1875,
+          "loaded": true,
+          "src": "http://127.0.0.1:4208/assets/sj-home-hero-light.jpg",
+          "naturalWidth": 1800,
+          "naturalHeight": 900,
+          "fit": "cover",
+          "position": "74% 0%"
+        },
+        "copy": {
+          "x": 32.671875,
+          "y": 399,
+          "width": 694.65625,
+          "height": 341.1875,
+          "right": 727.328125,
+          "bottom": 740.1875
+        },
+        "h1": {
+          "x": 32.671875,
+          "y": 451.59375,
+          "width": 694.65625,
+          "height": 136,
+          "right": 727.328125,
+          "bottom": 587.59375,
+          "text": "MAKE IT\nPERSONAL.",
+          "family": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif",
+          "weight": "700"
+        },
+        "h1Count": 1,
+        "bodyFamily": "\"Helvetica Now Display\", \"Helvetica Neue\", Arial, sans-serif",
+        "bodyWeight": "300",
+        "faces": [
+          {
+            "family": "Cenzo Flare Bold",
+            "status": "loaded"
+          },
+          {
+            "family": "Helvetica Now Display",
+            "status": "loaded"
+          }
+        ],
+        "horizontalOverflow": false,
+        "textOverflow": [],
+        "cta": {
+          "href": "#ShopCollections",
+          "text": "EXPLORE THE COLLECTIONS",
+          "box": {
+            "x": 32.671875,
+            "y": 663.1875,
+            "width": 182.15625,
+            "height": 47,
+            "right": 214.828125,
+            "bottom": 710.1875
+          }
+        }
+      },
+      "status": "PASS"
+    }
+  ],
+  "failures": [],
+  "summary": {
+    "status": "PASS",
+    "cases": 6,
+    "checks": 69,
+    "failures": 0
+  }
+}

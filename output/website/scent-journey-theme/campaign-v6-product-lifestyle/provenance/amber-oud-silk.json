@@ -1,0 +1,60 @@
+{
+  "handle": "amber-oud-silk",
+  "date": "2026-09-24",
+  "tool": "Built-in image_gen.imagegen",
+  "source_output_path": "/Users/wetrade/.codex/generated_images/01a0d0f9-88d3-7d82-84d9-c31b20b30821/exec-8b8d8daf-d730-4a89-8c07-7f66c11b92b9.png",
+  "original_path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/campaign-v6-product-lifestyle/originals/sj-product-banner-amber-oud-silk.png",
+  "original_dimensions": [
+    1774,
+    887
+  ],
+  "original_sha256": "540bb60d0f365fc05d8fd0e8ecf66d8dfe1594fd4561191c24d3378a1d6fde47",
+  "web_path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/campaign-v6-product-lifestyle/final-web/sj-product-banner-amber-oud-silk.jpg",
+  "web_dimensions": [
+    1774,
+    887
+  ],
+  "web_sha256": "fa2f3ae8cb9cd2e31e273780c6585561ee8c151e60ee1933b6d18d6b4f8dd7f4",
+  "web_bytes": 337290,
+  "prompts": [
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/campaign-v6-product-lifestyle/prompts/sj-product-banner-amber-oud-silk.txt",
+      "text": "Use case: photorealistic-natural. Create one NEW product-detail LIFESTYLE header photograph for DearBody Philippines, replacing a still-life concept. Wide horizontal 2:1 banner; native 1774 x 887 is suitable.\nReferences: image1 is the exact AMBER OUD SILK product identity. Image2 is the canonical 50 ml bottle geometry only; never transfer its scent name, black label, liquid color, hand, spray or setting.\nEXACTLY ONE PERSON TOTAL in the entire frame: one adult Filipina woman about28, confident morena complexion, natural healthy textured skin, genuine welcoming smile. No other people or parts of people anywhere, including background, reflections, windows, posters, photographs, screens or mirrors. No mirror in this scene.\nEveryday Filipino scene: a small ordinary contemporary Manila apartment dressing corner. A modest real wood dressing table, a practical canvas handbag, simple cream plaster wall, and a real slatted window at the far right admitting warm daylight. Coherent ordinary construction and real furniture scale. Not a luxury suite or fantasy set. She wears a casual burgundy cotton blouse and is naturally getting ready to go out: looking down with a smile while lifting her own capped Amber Oud Silk bottle beside her open handbag on the dressing table. Candid mid-action, relaxed shoulders, a slight natural turn; not posing at the camera or displaying a trophy. Her personality is confident and self-expressive, warm and approachable.\nComposition is CRITICAL: the single woman and bottle interaction remain on the RIGHT between55–95% of the frame width. Show her from hip/waist upward at a natural medium distance. Face aroundx77%, upper third. Table and bag at lower right. Left45% must be an ACTUAL QUIET WARM-CREAM WALL (#F4E3CB), with subtle natural daylight texture, no person, props, text, doorway or busy window shadow there. The wall is needed for a live website heading. Do not blur a fake empty panel into the scene.\nProduct: one bottle only, no duplicate and no canister required. Preserve the exact reference bottle: real50ml tall straight cylindrical clear glass, restrained shoulder, thick clear base, compact continuous glossy-black cap seated on neck, pale blush-peach liquid, white/ivory label with exact dark “AMBER OUD” over “SILK” and original db PARFUM LONDON mark. Narrow visible silver collar belongs to bottle, not cap. Keep bottle genuinely palm-sized, approximately11cm tall, about half a person's face height at equivalent distance; never oversized hero product. A natural believable grip around its lower body, fingers coherent and not covering the label. Bottle label faces sufficiently toward camera to identify it; perspective, contact and light match her hand.\nNatural warm daylight, healthy skin and imperfect real fabric texture, pleasant exposure, candid energy; polished approachable editorial photography rather than an over-smoothed glamour catalog. Burgundy blouse and cream wall anchor the brand, blush-peach bottle liquid remains authentic. No literal spices or ingredient claims, no food, no smoke, no giant perfume, no impossible architecture, no floating furniture, no surreal props. No headline, slogan, arrow, watermark or typography outside the physical bottle label.\n"
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/campaign-v6-product-lifestyle/prompts/sj-product-banner-amber-oud-silk-revision1.txt",
+      "text": "Use case: precise-object-edit. Edit the first reference image only: this is the Amber Oud Silk Filipino apartment lifestyle banner just generated. Keep its same single adult Filipina identity, burgundy blouse, warm daylight, welcoming smile, realistic bottle, natural bag-packing action and ordinary home setting.\nMake ONLY these two corrections:\n1. Remove both small decorative wall posters at upper right, including the “Good Things Ahead” slogan, leaving the real cream plaster wall. There must be no writing anywhere except the authentic perfume bottle label.\n2. Reframe slightly wider and shift the SAME woman, handheld bottle and handbag to the right. Reduce their apparent scale to about80% of the current subject scale. The entire woman, arms, bottle and bag must sit between55% and95% of frame width. Keep her full face and head visible with a little headroom. Keep at least the whole left45% as calm real cream wall, clean for a live website heading. No part of her blouse, elbow, body, bag or bottle may enter that left45%. Maintain coherent perspective and realistic tabletop/window/room geometry when reframing. Do not stretch the woman or bottle.\nThe second reference is the exact Amber Oud Silk bottle-and-canister source: use only to preserve bottle identity. One real50ml bottle only, pale blush-peach liquid, white label “AMBER OUD” over “SILK” and original db PARFUM LONDON mark, seated continuous glossy-black cap, tall narrow cylindrical glass and thick base. No canister required. Preserve label spelling and realistic hand scale; bottle should remain palm-sized.\nThe third reference is canonical bottle geometry ONLY; never transfer its Sunset Cocktail name, dark label, spray or extra hand.\nExactlyONEperson total, including background/reflections/windows/posters/screens: the same adult Filipina only. No mirror or other people. No promotional copy, watermark, collage, fantasy props or artificial blank panel. Keep one photographic image, native landscape2:1, ideally1774×887. Preserve the warm fun light candid natural home atmosphere.\n"
+    }
+  ],
+  "references": [
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/theme/assets/sj-amber-oud-silk-01.jpg",
+      "role": "Exact scent product identity",
+      "sha256": "4e30516d2db8479ccbe1a00f6a94fb1b0826dabb07d65579af9e405d1f641a83"
+    },
+    {
+      "path": "/Users/wetrade/.codex/skills/dearbody-scent-gallery/assets/canonical-bottle-proportions.png",
+      "role": "Shared bottle geometry only",
+      "sha256": "e9a78f20b045b791e1ebd1795a340f1d0804e9f3be7fd06ef971fdc36ddc9399"
+    }
+  ],
+  "approved_copy_source": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/approved-product-copy.json",
+  "supersedes_unshipped_concept": "campaign-v5-product-banners",
+  "qa": {
+    "status": "PASS",
+    "scene": "One adult morena Filipina in a small ordinary Manila apartment dressing corner, wearing a burgundy casual blouse and smiling while lifting her capped fragrance beside a canvas handbag.",
+    "single_person_total": 1,
+    "visible_adult_faces": 1,
+    "background_people_or_partial_bodies": 0,
+    "reflection_or_poster_people": 0,
+    "bottles": 1,
+    "product_identity": "Correct scent name, label color and PARFUM LONDON mark; authentic liquid tone, compact continuous black capped construction and canonical tall glass silhouette. Natural hand interaction and plausible palm-sized scale.",
+    "composition": "Native2:1 with person, face and bottle toward right and quiet real cream wall at left for live title. Full face and product label visible.",
+    "real_world_plausibility": "Coherent ordinary residential architecture, window, furniture and bag; natural hands, shadows and warm daylight. No fantasy set or impossible props.",
+    "promotional_text_baked_in": false,
+    "warm_fun_light": true,
+    "inspection": "Generated original individually viewed; final compressed JPEG checked separately.",
+    "revision": "Referenced edit removed incidental background wall slogan and widened/repositioned the same single-person scene to preserve left copy space.",
+    "export": "Native1774×887 content preserved. sips JPEG quality86 conversion/compression only; no resizing, cropping, overlays or artificial raster edits."
+  }
+}

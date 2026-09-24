@@ -1,0 +1,47 @@
+{
+  "sections": {
+    "main": {
+      "type": "sj-faq",
+      "settings": {},
+      "blocks": {
+        "q0": {
+          "type": "question",
+          "settings": {
+            "question": "What is DearBody Philippines?",
+            "answer": "<p>DearBody brings London’s fragrance culture into Filipino everyday life through London-formulated scents curated for local tastes and lifestyles.</p>"
+          }
+        },
+        "q1": {
+          "type": "question",
+          "settings": {
+            "question": "How do I choose a fragrance?",
+            "answer": "<p>Explore the scent character on each product page, or visit the Scent Finder. There is no single right choice — start with the mood that feels like you.</p>"
+          }
+        },
+        "q2": {
+          "type": "question",
+          "settings": {
+            "question": "Where can I check size, price, and availability?",
+            "answer": "<p>Each fragrance page shows its current Shopify size or variant, price, and availability. If a scent is sold out, contact us for the latest information.</p>"
+          }
+        },
+        "q3": {
+          "type": "question",
+          "settings": {
+            "question": "How much is shipping, and how long does delivery take?",
+            "answer": "<p>1 item: paid shipping. 2 or more items: free shipping.</p><p>Delivery: Luzon 2–3 days, Visayas 3–5 days, and Mindanao 5–10 days.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "q0",
+        "q1",
+        "q2",
+        "q3"
+      ]
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

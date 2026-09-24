@@ -1,0 +1,25 @@
+{
+  "date": "2026-09-24",
+  "scope": "Local CUA browser checks; no checkout or review submissions",
+  "status": "PASS",
+  "viewports": [
+    1280,
+    390
+  ],
+  "checks": [
+    "Gallery frame equals gallery column width",
+    "No outer gallery side gaps",
+    "Twelve thumbnails remain and manual selection opens correct full-screen image",
+    "Fullscreen close works",
+    "No visible zoom label, play control, header bag link or bag drawer",
+    "Mobile light and dark delivery form fits viewport without horizontal overflow",
+    "All six optional second-scent choices reflect native sold-out status",
+    "Delivery field labels and postal validation visible",
+    "Single-item estimate:799+80=879PHP",
+    "Customer reviews only; zero review forms; truthfulNo reviews yet",
+    "ScentFinder fiveanswersadvanceautomatically; oneCharmeEnvoutantresult; restartworks"
+  ],
+  "limitations": [
+    "Available variant directcheckout transport and twoitemtotal validated in isolatedDOM tests, not a live purchase; all active products soldout"
+  ]
+}

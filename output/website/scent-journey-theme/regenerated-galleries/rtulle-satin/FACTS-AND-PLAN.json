@@ -1,0 +1,28 @@
+{
+  "handle": "rtulle-satin",
+  "name": "RTULLE & SATIN",
+  "description": "Airy sweetness with a warm, glowing trail.",
+  "description_source": "SCENT_DESCRIPTION_SOURCE_LEDGER.md; Canva DAHIB2UjgJM page4",
+  "code": "P10038",
+  "barcode": "5056795407239",
+  "volume": "50 ml / 1.69 fl. oz.",
+  "fit": "For someone drawn to airy sweetness and a warm, glowing character.",
+  "story": "Sunlit seaside boardwalk, weekend beach bag, easy playful breeze.",
+  "color": "turquoise aqua",
+  "face_budget": "05 exactly one adult Filipino male; all other frames zero visible faces",
+  "hardware": "authentic substantial stepped silver sprayer; glossy black magnetic cap entirely black underneath, no metal attached",
+  "status": "PASS: local delivery complete; see QA-REPORT.md",
+  "typography": {
+    "headings": "Cenzo Flare Bold — actual owner-supplied TTF",
+    "body": "Helvetica Now Text Regular — actual owner-supplied TTF",
+    "refreshed_frames": [
+      4,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "status": "PASS; full-resolution visual review and unchanged-photo checks complete"
+  }
+}

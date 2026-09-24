@@ -1,0 +1,4008 @@
+{
+  "generatedAt": "2026-09-24T07:30:13.110Z",
+  "scope": "Three homepage photo features, 320/390/768/1440, Light/Dark. No live writes.",
+  "cases": [
+    {
+      "kind": "magnetic",
+      "width": 320,
+      "theme": "light",
+      "checks": [
+        {
+          "pass": true,
+          "label": "Full viewport width",
+          "data": {
+            "x": 0,
+            "y": 401.1875,
+            "right": 320,
+            "bottom": 1001.1875,
+            "width": 320,
+            "height": 600
+          }
+        },
+        {
+          "pass": true,
+          "label": "Shared banner height",
+          "data": {
+            "expected": 600,
+            "actual": 600
+          }
+        },
+        {
+          "pass": true,
+          "label": "Correct artwork loaded",
+          "data": "http://127.0.0.1:4208/assets/sj-home-magnetic-cap.jpg"
+        },
+        {
+          "pass": true,
+          "label": "Native 2:1 photograph retained"
+        },
+        {
+          "pass": true,
+          "label": "Photo fills bordered banner"
+        },
+        {
+          "pass": true,
+          "label": "Copy remains inside banner"
+        },
+        {
+          "pass": true,
+          "label": "Heading and supporting copy remain inside banner"
+        },
+        {
+          "pass": true,
+          "label": "No horizontal overflow or clipped text",
+          "data": []
+        },
+        {
+          "pass": true,
+          "label": "Requested mode applies"
+        },
+        {
+          "pass": true,
+          "label": "No links or buttons in the feature",
+          "data": 0
+        },
+        {
+          "pass": true,
+          "label": "Three features precede Women/Men in requested order",
+          "data": [
+            "hero",
+            "magnetic_cap",
+            "collectible",
+            "free_shipping",
+            "doorway"
+          ]
+        },
+        {
+          "pass": true,
+          "label": "Mobile copy overlays photo"
+        },
+        {
+          "pass": true,
+          "label": "No JavaScript errors",
+          "data": []
+        }
+      ],
+      "errors": [],
+      "measurement": {
+        "banner": {
+          "x": 0,
+          "y": 401.1875,
+          "right": 320,
+          "bottom": 1001.1875,
+          "width": 320,
+          "height": 600
+        },
+        "copy": {
+          "x": 22,
+          "y": 793.03125,
+          "right": 298,
+          "bottom": 1000.1875,
+          "width": 276,
+          "height": 207.15625
+        },
+        "image": {
+          "x": 0,
+          "y": 402.1875,
+          "right": 320,
+          "bottom": 1000.1875,
+          "width": 320,
+          "height": 598,
+          "src": "http://127.0.0.1:4208/assets/sj-home-magnetic-cap.jpg",
+          "loaded": true,
+          "naturalWidth": 1774,
+          "naturalHeight": 887,
+          "objectPosition": "80% 0%",
+          "objectFit": "cover"
+        },
+        "text": "A LITTLE DETAIL. A LOVELY FINISH.\n\nMAGNETIC CAP\n\nThe magnetic cap clicks neatly into place. A satisfying finishing touch to your everyday fragrance.",
+        "mode": "light",
+        "token": "600px",
+        "overflow": false,
+        "elements": [
+          {
+            "tag": "P",
+            "text": "A LITTLE DETAIL. A LOVELY FINISH.",
+            "href": null,
+            "box": {
+              "x": 22,
+              "y": 815.03125,
+              "right": 298,
+              "bottom": 828.53125,
+              "width": 276,
+              "height": 13.5
+            }
+          },
+          {
+            "tag": "H2",
+            "text": "MAGNETIC CAP",
+            "href": null,
+            "box": {
+              "x": 22,
+              "y": 840.53125,
+              "right": 298,
+              "bottom": 873.796875,
+              "width": 276,
+              "height": 33.265625
+            }
+          },
+          {
+            "tag": "P",
+            "text": "The magnetic cap clicks neatly into place. A satisfying finishing touch to your everyday fragrance.",
+            "href": null,
+            "box": {
+              "x": 22,
+              "y": 889.796875,
+              "right": 298,
+              "bottom": 952.1875,
+              "width": 276,
+              "height": 62.390625
+            }
+          }
+        ],
+        "textOverflow": [],
+        "actionCount": 0,
+        "homepageOrder": [
+          "hero",
+          "magnetic_cap",
+          "collectible",
+          "free_shipping",
+          "doorway"
+        ]
+      },
+      "screenshot": "qa/screenshots/home-features/magnetic-light-320.png",
+      "status": "PASS"
+    },
+    {
+      "kind": "collectible",
+      "width": 320,
+      "theme": "light",
+      "checks": [
+        {
+          "pass": true,
+          "label": "Full viewport width",
+          "data": {
+            "x": 0,
+            "y": 288.1875,
+            "right": 320,
+            "bottom": 888.1875,
+            "width": 320,
+            "height": 600
+          }
+        },
+        {
+          "pass": true,
+          "label": "Shared banner height",
+          "data": {
+            "expected": 600,
+            "actual": 600
+          }
+        },
+        {
+          "pass": true,
+          "label": "Correct artwork loaded",
+          "data": "http://127.0.0.1:4208/assets/sj-home-collectible.jpg"
+        },
+        {
+          "pass": true,
+          "label": "Native 2:1 photograph retained"
+        },
+        {
+          "pass": true,
+          "label": "Photo fills bordered banner"
+        },
+        {
+          "pass": true,
+          "label": "Copy remains inside banner"
+        },
+        {
+          "pass": true,
+          "label": "Heading and supporting copy remain inside banner"
+        },
+        {
+          "pass": true,
+          "label": "No horizontal overflow or clipped text",
+          "data": []
+        },
+        {
+          "pass": true,
+          "label": "Requested mode applies"
+        },
+        {
+          "pass": true,
+          "label": "No links or buttons in the feature",
+          "data": 0
+        },
+        {
+          "pass": true,
+          "label": "Three features precede Women/Men in requested order",
+          "data": [
+            "hero",
+            "magnetic_cap",
+            "collectible",
+            "free_shipping",
+            "doorway"
+          ]
+        },
+        {
+          "pass": true,
+          "label": "Mobile copy overlays photo"
+        },
+        {
+          "pass": true,
+          "label": "No JavaScript errors",
+          "data": []
+        }
+      ],
+      "errors": [],
+      "measurement": {
+        "banner": {
+          "x": 0,
+          "y": 288.1875,
+          "right": 320,
+          "bottom": 888.1875,
+          "width": 320,
+          "height": 600
+        },
+        "copy": {
+          "x": 22,
+          "y": 693.0625,
+          "right": 298,
+          "bottom": 887.1875,
+          "width": 276,
+          "height": 194.125
+        },
+        "image": {
+          "x": 0,
+          "y": 289.1875,
+          "right": 320,
+          "bottom": 887.1875,
+          "width": 320,
+          "height": 598,
+          "src": "http://127.0.0.1:4208/assets/sj-home-collectible.jpg",
+          "loaded": true,
+          "naturalWidth": 1774,
+          "naturalHeight": 887,
+          "objectPosition": "78% 0%",
+          "objectFit": "cover"
+        },
+        "text": "MADE TO COLLECT.\nMADE TO DISPLAY.\n\nBuild a scent collection that looks as good on your shelf as it feels in your routine.",
+        "mode": "light",
+        "token": "600px",
+        "overflow": false,
+        "elements": [
+          {
+            "tag": "H2",
+            "text": "MADE TO COLLECT.\nMADE TO DISPLAY.",
+            "href": null,
+            "box": {
+              "x": 22,
+              "y": 715.0625,
+              "right": 298,
+              "bottom": 781.59375,
+              "width": 276,
+              "height": 66.53125
+            }
+          },
+          {
+            "tag": "P",
+            "text": "Build a scent collection that looks as good on your shelf as it feels in your routine.",
+            "href": null,
+            "box": {
+              "x": 22,
+              "y": 797.59375,
+              "right": 298,
+              "bottom": 839.1875,
+              "width": 276,
+              "height": 41.59375
+            }
+          }
+        ],
+        "textOverflow": [],
+        "actionCount": 0,
+        "homepageOrder": [
+          "hero",
+          "magnetic_cap",
+          "collectible",
+          "free_shipping",
+          "doorway"
+        ]
+      },
+      "screenshot": "qa/screenshots/home-features/collectible-light-320.png",
+      "status": "PASS"
+    },
+    {
+      "kind": "shipping",
+      "width": 320,
+      "theme": "light",
+      "checks": [
+        {
+          "pass": true,
+          "label": "Full viewport width",
+          "data": {
+            "x": 0,
+            "y": 401.1875,
+            "right": 320,
+            "bottom": 1001.1875,
+            "width": 320,
+            "height": 600
+          }
+        },
+        {
+          "pass": true,
+          "label": "Shared banner height",
+          "data": {
+            "expected": 600,
+            "actual": 600
+          }
+        },
+        {
+          "pass": true,
+          "label": "Correct artwork loaded",
+          "data": "http://127.0.0.1:4208/assets/sj-home-free-shipping.jpg"
+        },
+        {
+          "pass": true,
+          "label": "Native 2:1 photograph retained"
+        },
+        {
+          "pass": true,
+          "label": "Photo fills bordered banner"
+        },
+        {
+          "pass": true,
+          "label": "Copy remains inside banner"
+        },
+        {
+          "pass": true,
+          "label": "Heading and supporting copy remain inside banner"
+        },
+        {
+          "pass": true,
+          "label": "No horizontal overflow or clipped text",
+          "data": []
+        },
+        {
+          "pass": true,
+          "label": "Requested mode applies"
+        },
+        {
+          "pass": true,
+          "label": "No links or buttons in the feature",
+          "data": 0
+        },
+        {
+          "pass": true,
+          "label": "Three features precede Women/Men in requested order",
+          "data": [
+            "hero",
+            "magnetic_cap",
+            "collectible",
+            "free_shipping",
+            "doorway"
+          ]
+        },
+        {
+          "pass": true,
+          "label": "Mobile copy overlays photo"
+        },
+        {
+          "pass": true,
+          "label": "Shipping threshold and single-item fee present"
+        },
+        {
+          "pass": true,
+          "label": "No JavaScript errors",
+          "data": []
+        }
+      ],
+      "errors": [],
+      "measurement": {
+        "banner": {
+          "x": 0,
+          "y": 401.1875,
+          "right": 320,
+          "bottom": 1001.1875,
+          "width": 320,
+          "height": 600
+        },
+        "copy": {
+          "x": 22,
+          "y": 824.484375,
+          "right": 298,
+          "bottom": 1000.1875,
+          "width": 276,
+          "height": 175.703125
+        },
+        "image": {
+          "x": 0,
+          "y": 402.1875,
+          "right": 320,
+          "bottom": 1000.1875,
+          "width": 320,
+          "height": 598,
+          "src": "http://127.0.0.1:4208/assets/sj-home-free-shipping.jpg",
+          "loaded": true,
+          "naturalWidth": 1774,
+          "naturalHeight": 887,
+          "objectPosition": "80% 0%",
+          "objectFit": "cover"
+        },
+        "text": "FREE SHIPPING.\n\nWhen you order 2 or more items.\n\nShipping fee applies to 1 item.",
+        "mode": "light",
+        "token": "600px",
+        "overflow": false,
+        "elements": [
+          {
+            "tag": "H2",
+            "text": "FREE SHIPPING.",
+            "href": null,
+            "box": {
+              "x": 22,
+              "y": 846.484375,
+              "right": 298,
+              "bottom": 879.75,
+              "width": 276,
+              "height": 33.265625
+            }
+          },
+          {
+            "tag": "P",
+            "text": "When you order 2 or more items.",
+            "href": null,
+            "box": {
+              "x": 22,
+              "y": 895.75,
+              "right": 298,
+              "bottom": 921.390625,
+              "width": 276,
+              "height": 25.640625
+            }
+          },
+          {
+            "tag": "P",
+            "text": "Shipping fee applies to 1 item.",
+            "href": null,
+            "box": {
+              "x": 22,
+              "y": 931.390625,
+              "right": 298,
+              "bottom": 952.1875,
+              "width": 276,
+              "height": 20.796875
+            }
+          }
+        ],
+        "textOverflow": [],
+        "actionCount": 0,
+        "homepageOrder": [
+          "hero",
+          "magnetic_cap",
+          "collectible",
+          "free_shipping",
+          "doorway"
+        ]
+      },
+      "screenshot": "qa/screenshots/home-features/shipping-light-320.png",
+      "status": "PASS"
+    },
+    {
+      "kind": "magnetic",
+      "width": 320,
+      "theme": "dark",
+      "checks": [
+        {
+          "pass": true,
+          "label": "Full viewport width",
+          "data": {
+            "x": 0,
+            "y": 401.1875,
+            "right": 320,
+            "bottom": 1001.1875,
+            "width": 320,
+            "height": 600
+          }
+        },
+        {
+          "pass": true,
+          "label": "Shared banner height",
+          "data": {
+            "expected": 600,
+            "actual": 600
+          }
+        },
+        {
+          "pass": true,
+          "label": "Correct artwork loaded",
+          "data": "http://127.0.0.1:4208/assets/sj-home-magnetic-cap.jpg"
+        },
+        {
+          "pass": true,
+          "label": "Native 2:1 photograph retained"
+        },
+        {
+          "pass": true,
+          "label": "Photo fills bordered banner"
+        },
+        {
+          "pass": true,
+          "label": "Copy remains inside banner"
+        },
+        {
+          "pass": true,
+          "label": "Heading and supporting copy remain inside banner"
+        },
+        {
+          "pass": true,
+          "label": "No horizontal overflow or clipped text",
+          "data": []
+        },
+        {
+          "pass": true,
+          "label": "Requested mode applies"
+        },
+        {
+          "pass": true,
+          "label": "No links or buttons in the feature",
+          "data": 0
+        },
+        {
+          "pass": true,
+          "label": "Three features precede Women/Men in requested order",
+          "data": [
+            "hero",
+            "magnetic_cap",
+            "collectible",
+            "free_shipping",
+            "doorway"
+          ]
+        },
+        {
+          "pass": true,
+          "label": "Mobile copy overlays photo"
+        },
+        {
+          "pass": true,
+          "label": "No JavaScript errors",
+          "data": []
+        }
+      ],
+      "errors": [],
+      "measurement": {
+        "banner": {
+          "x": 0,
+          "y": 401.1875,
+          "right": 320,
+          "bottom": 1001.1875,
+          "width": 320,
+          "height": 600
+        },
+        "copy": {
+          "x": 22,
+          "y": 793.03125,
+          "right": 298,
+          "bottom": 1000.1875,
+          "width": 276,
+          "height": 207.15625
+        },
+        "image": {
+          "x": 0,
+          "y": 402.1875,
+          "right": 320,
+          "bottom": 1000.1875,
+          "width": 320,
+          "height": 598,
+          "src": "http://127.0.0.1:4208/assets/sj-home-magnetic-cap.jpg",
+          "loaded": true,
+          "naturalWidth": 1774,
+          "naturalHeight": 887,
+          "objectPosition": "80% 0%",
+          "objectFit": "cover"
+        },
+        "text": "A LITTLE DETAIL. A LOVELY FINISH.\n\nMAGNETIC CAP\n\nThe magnetic cap clicks neatly into place. A satisfying finishing touch to your everyday fragrance.",
+        "mode": "dark",
+        "token": "600px",
+        "overflow": false,
+        "elements": [
+          {
+            "tag": "P",
+            "text": "A LITTLE DETAIL. A LOVELY FINISH.",
+            "href": null,
+            "box": {
+              "x": 22,
+              "y": 815.03125,
+              "right": 298,
+              "bottom": 828.53125,
+              "width": 276,
+              "height": 13.5
+            }
+          },
+          {
+            "tag": "H2",
+            "text": "MAGNETIC CAP",
+            "href": null,
+            "box": {
+              "x": 22,
+              "y": 840.53125,
+              "right": 298,
+              "bottom": 873.796875,
+              "width": 276,
+              "height": 33.265625
+            }
+          },
+          {
+            "tag": "P",
+            "text": "The magnetic cap clicks neatly into place. A satisfying finishing touch to your everyday fragrance.",
+            "href": null,
+            "box": {
+              "x": 22,
+              "y": 889.796875,
+              "right": 298,
+              "bottom": 952.1875,
+              "width": 276,
+              "height": 62.390625
+            }
+          }
+        ],
+        "textOverflow": [],
+        "actionCount": 0,
+        "homepageOrder": [
+          "hero",
+          "magnetic_cap",
+          "collectible",
+          "free_shipping",
+          "doorway"
+        ]
+      },
+      "screenshot": "qa/screenshots/home-features/magnetic-dark-320.png",
+      "status": "PASS"
+    },
+    {
+      "kind": "collectible",
+      "width": 320,
+      "theme": "dark",
+      "checks": [
+        {
+          "pass": true,
+          "label": "Full viewport width",
+          "data": {
+            "x": 0,
+            "y": 288.1875,
+            "right": 320,
+            "bottom": 888.1875,
+            "width": 320,
+            "height": 600
+          }
+        },
+        {
+          "pass": true,
+          "label": "Shared banner height",
+          "data": {
+            "expected": 600,
+            "actual": 600
+          }
+        },
+        {
+          "pass": true,
+          "label": "Correct artwork loaded",
+          "data": "http://127.0.0.1:4208/assets/sj-home-collectible.jpg"
+        },
+        {
+          "pass": true,
+          "label": "Native 2:1 photograph retained"
+        },
+        {
+          "pass": true,
+          "label": "Photo fills bordered banner"
+        },
+        {
+          "pass": true,
+          "label": "Copy remains inside banner"
+        },
+        {
+          "pass": true,
+          "label": "Heading and supporting copy remain inside banner"
+        },
+        {
+          "pass": true,
+          "label": "No horizontal overflow or clipped text",
+          "data": []
+        },
+        {
+          "pass": true,
+          "label": "Requested mode applies"
+        },
+        {
+          "pass": true,
+          "label": "No links or buttons in the feature",
+          "data": 0
+        },
+        {
+          "pass": true,
+          "label": "Three features precede Women/Men in requested order",
+          "data": [
+            "hero",
+            "magnetic_cap",
+            "collectible",
+            "free_shipping",
+            "doorway"
+          ]
+        },
+        {
+          "pass": true,
+          "label": "Mobile copy overlays photo"
+        },
+        {
+          "pass": true,
+          "label": "No JavaScript errors",
+          "data": []
+        }
+      ],
+      "errors": [],
+      "measurement": {
+        "banner": {
+          "x": 0,
+          "y": 288.1875,
+          "right": 320,
+          "bottom": 888.1875,
+          "width": 320,
+          "height": 600
+        },
+        "copy": {
+          "x": 22,
+          "y": 693.0625,
+          "right": 298,
+          "bottom": 887.1875,
+          "width": 276,
+          "height": 194.125
+        },
+        "image": {
+          "x": 0,
+          "y": 289.1875,
+          "right": 320,
+          "bottom": 887.1875,
+          "width": 320,
+          "height": 598,
+          "src": "http://127.0.0.1:4208/assets/sj-home-collectible.jpg",
+          "loaded": true,
+          "naturalWidth": 1774,
+          "naturalHeight": 887,
+          "objectPosition": "78% 0%",
+          "objectFit": "cover"
+        },
+        "text": "MADE TO COLLECT.\nMADE TO DISPLAY.\n\nBuild a scent collection that looks as good on your shelf as it feels in your routine.",
+        "mode": "dark",
+        "token": "600px",
+        "overflow": false,
+        "elements": [
+          {
+            "tag": "H2",
+            "text": "MADE TO COLLECT.\nMADE TO DISPLAY.",
+            "href": null,
+            "box": {
+              "x": 22,
+              "y": 715.0625,
+              "right": 298,
+              "bottom": 781.59375,
+              "width": 276,
+              "height": 66.53125
+            }
+          },
+          {
+            "tag": "P",
+            "text": "Build a scent collection that looks as good on your shelf as it feels in your routine.",
+            "href": null,
+            "box": {
+              "x": 22,
+              "y": 797.59375,
+              "right": 298,
+              "bottom": 839.1875,
+              "width": 276,
+              "height": 41.59375
+            }
+          }
+        ],
+        "textOverflow": [],
+        "actionCount": 0,
+        "homepageOrder": [
+          "hero",
+          "magnetic_cap",
+          "collectible",
+          "free_shipping",
+          "doorway"
+        ]
+      },
+      "screenshot": "qa/screenshots/home-features/collectible-dark-320.png",
+      "status": "PASS"
+    },
+    {
+      "kind": "shipping",
+      "width": 320,
+      "theme": "dark",
+      "checks": [
+        {
+          "pass": true,
+          "label": "Full viewport width",
+          "data": {
+            "x": 0,
+            "y": 401.1875,
+            "right": 320,
+            "bottom": 1001.1875,
+            "width": 320,
+            "height": 600
+          }
+        },
+        {
+          "pass": true,
+          "label": "Shared banner height",
+          "data": {
+            "expected": 600,
+            "actual": 600
+          }
+        },
+        {
+          "pass": true,
+          "label": "Correct artwork loaded",
+          "data": "http://127.0.0.1:4208/assets/sj-home-free-shipping.jpg"
+        },
+        {
+          "pass": true,
+          "label": "Native 2:1 photograph retained"
+        },
+        {
+          "pass": true,
+          "label": "Photo fills bordered banner"
+        },
+        {
+          "pass": true,
+          "label": "Copy remains inside banner"
+        },
+        {
+          "pass": true,
+          "label": "Heading and supporting copy remain inside banner"
+        },
+        {
+          "pass": true,
+          "label": "No horizontal overflow or clipped text",
+          "data": []
+        },
+        {
+          "pass": true,
+          "label": "Requested mode applies"
+        },
+        {
+          "pass": true,
+          "label": "No links or buttons in the feature",
+          "data": 0
+        },
+        {
+          "pass": true,
+          "label": "Three features precede Women/Men in requested order",
+          "data": [
+            "hero",
+            "magnetic_cap",
+            "collectible",
+            "free_shipping",
+            "doorway"
+          ]
+        },
+        {
+          "pass": true,
+          "label": "Mobile copy overlays photo"
+        },
+        {
+          "pass": true,
+          "label": "Shipping threshold and single-item fee present"
+        },
+        {
+          "pass": true,
+          "label": "No JavaScript errors",
+          "data": []
+        }
+      ],
+      "errors": [],
+      "measurement": {
+        "banner": {
+          "x": 0,
+          "y": 401.1875,
+          "right": 320,
+          "bottom": 1001.1875,
+          "width": 320,
+          "height": 600
+        },
+        "copy": {
+          "x": 22,
+          "y": 824.484375,
+          "right": 298,
+          "bottom": 1000.1875,
+          "width": 276,
+          "height": 175.703125
+        },
+        "image": {
+          "x": 0,
+          "y": 402.1875,
+          "right": 320,
+          "bottom": 1000.1875,
+          "width": 320,
+          "height": 598,
+          "src": "http://127.0.0.1:4208/assets/sj-home-free-shipping.jpg",
+          "loaded": true,
+          "naturalWidth": 1774,
+          "naturalHeight": 887,
+          "objectPosition": "80% 0%",
+          "objectFit": "cover"
+        },
+        "text": "FREE SHIPPING.\n\nWhen you order 2 or more items.\n\nShipping fee applies to 1 item.",
+        "mode": "dark",
+        "token": "600px",
+        "overflow": false,
+        "elements": [
+          {
+            "tag": "H2",
+            "text": "FREE SHIPPING.",
+            "href": null,
+            "box": {
+              "x": 22,
+              "y": 846.484375,
+              "right": 298,
+              "bottom": 879.75,
+              "width": 276,
+              "height": 33.265625
+            }
+          },
+          {
+            "tag": "P",
+            "text": "When you order 2 or more items.",
+            "href": null,
+            "box": {
+              "x": 22,
+              "y": 895.75,
+              "right": 298,
+              "bottom": 921.390625,
+              "width": 276,
+              "height": 25.640625
+            }
+          },
+          {
+            "tag": "P",
+            "text": "Shipping fee applies to 1 item.",
+            "href": null,
+            "box": {
+              "x": 22,
+              "y": 931.390625,
+              "right": 298,
+              "bottom": 952.1875,
+              "width": 276,
+              "height": 20.796875
+            }
+          }
+        ],
+        "textOverflow": [],
+        "actionCount": 0,
+        "homepageOrder": [
+          "hero",
+          "magnetic_cap",
+          "collectible",
+          "free_shipping",
+          "doorway"
+        ]
+      },
+      "screenshot": "qa/screenshots/home-features/shipping-dark-320.png",
+      "status": "PASS"
+    },
+    {
+      "kind": "magnetic",
+      "width": 390,
+      "theme": "light",
+      "checks": [
+        {
+          "pass": true,
+          "label": "Full viewport width",
+          "data": {
+            "x": 0,
+            "y": 401.1875,
+            "right": 390,
+            "bottom": 1001.1875,
+            "width": 390,
+            "height": 600
+          }
+        },
+        {
+          "pass": true,
+          "label": "Shared banner height",
+          "data": {
+            "expected": 600,
+            "actual": 600
+          }
+        },
+        {
+          "pass": true,
+          "label": "Correct artwork loaded",
+          "data": "http://127.0.0.1:4208/assets/sj-home-magnetic-cap.jpg"
+        },
+        {
+          "pass": true,
+          "label": "Native 2:1 photograph retained"
+        },
+        {
+          "pass": true,
+          "label": "Photo fills bordered banner"
+        },
+        {
+          "pass": true,
+          "label": "Copy remains inside banner"
+        },
+        {
+          "pass": true,
+          "label": "Heading and supporting copy remain inside banner"
+        },
+        {
+          "pass": true,
+          "label": "No horizontal overflow or clipped text",
+          "data": []
+        },
+        {
+          "pass": true,
+          "label": "Requested mode applies"
+        },
+        {
+          "pass": true,
+          "label": "No links or buttons in the feature",
+          "data": 0
+        },
+        {
+          "pass": true,
+          "label": "Three features precede Women/Men in requested order",
+          "data": [
+            "hero",
+            "magnetic_cap",
+            "collectible",
+            "free_shipping",
+            "doorway"
+          ]
+        },
+        {
+          "pass": true,
+          "label": "Mobile copy overlays photo"
+        },
+        {
+          "pass": true,
+          "label": "No JavaScript errors",
+          "data": []
+        }
+      ],
+      "errors": [],
+      "measurement": {
+        "banner": {
+          "x": 0,
+          "y": 401.1875,
+          "right": 390,
+          "bottom": 1001.1875,
+          "width": 390,
+          "height": 600
+        },
+        "copy": {
+          "x": 22,
+          "y": 788.1875,
+          "right": 368,
+          "bottom": 1000.1875,
+          "width": 346,
+          "height": 212
+        },
+        "image": {
+          "x": 0,
+          "y": 402.1875,
+          "right": 390,
+          "bottom": 1000.1875,
+          "width": 390,
+          "height": 598,
+          "src": "http://127.0.0.1:4208/assets/sj-home-magnetic-cap.jpg",
+          "loaded": true,
+          "naturalWidth": 1774,
+          "naturalHeight": 887,
+          "objectPosition": "80% 0%",
+          "objectFit": "cover"
+        },
+        "text": "A LITTLE DETAIL. A LOVELY FINISH.\n\nMAGNETIC CAP\n\nThe magnetic cap clicks neatly into place. A satisfying finishing touch to your everyday fragrance.",
+        "mode": "light",
+        "token": "600px",
+        "overflow": false,
+        "elements": [
+          {
+            "tag": "P",
+            "text": "A LITTLE DETAIL. A LOVELY FINISH.",
+            "href": null,
+            "box": {
+              "x": 22,
+              "y": 810.1875,
+              "right": 368,
+              "bottom": 823.6875,
+              "width": 346,
+              "height": 13.5
+            }
+          },
+          {
+            "tag": "H2",
+            "text": "MAGNETIC CAP",
+            "href": null,
+            "box": {
+              "x": 22,
+              "y": 835.6875,
+              "right": 368,
+              "bottom": 873.796875,
+              "width": 346,
+              "height": 38.109375
+            }
+          },
+          {
+            "tag": "P",
+            "text": "The magnetic cap clicks neatly into place. A satisfying finishing touch to your everyday fragrance.",
+            "href": null,
+            "box": {
+              "x": 22,
+              "y": 889.796875,
+              "right": 304.671875,
+              "bottom": 952.1875,
+              "width": 282.671875,
+              "height": 62.390625
+            }
+          }
+        ],
+        "textOverflow": [],
+        "actionCount": 0,
+        "homepageOrder": [
+          "hero",
+          "magnetic_cap",
+          "collectible",
+          "free_shipping",
+          "doorway"
+        ]
+      },
+      "screenshot": "qa/screenshots/home-features/magnetic-light-390.png",
+      "status": "PASS"
+    },
+    {
+      "kind": "collectible",
+      "width": 390,
+      "theme": "light",
+      "checks": [
+        {
+          "pass": true,
+          "label": "Full viewport width",
+          "data": {
+            "x": 0,
+            "y": 288.1875,
+            "right": 390,
+            "bottom": 888.1875,
+            "width": 390,
+            "height": 600
+          }
+        },
+        {
+          "pass": true,
+          "label": "Shared banner height",
+          "data": {
+            "expected": 600,
+            "actual": 600
+          }
+        },
+        {
+          "pass": true,
+          "label": "Correct artwork loaded",
+          "data": "http://127.0.0.1:4208/assets/sj-home-collectible.jpg"
+        },
+        {
+          "pass": true,
+          "label": "Native 2:1 photograph retained"
+        },
+        {
+          "pass": true,
+          "label": "Photo fills bordered banner"
+        },
+        {
+          "pass": true,
+          "label": "Copy remains inside banner"
+        },
+        {
+          "pass": true,
+          "label": "Heading and supporting copy remain inside banner"
+        },
+        {
+          "pass": true,
+          "label": "No horizontal overflow or clipped text",
+          "data": []
+        },
+        {
+          "pass": true,
+          "label": "Requested mode applies"
+        },
+        {
+          "pass": true,
+          "label": "No links or buttons in the feature",
+          "data": 0
+        },
+        {
+          "pass": true,
+          "label": "Three features precede Women/Men in requested order",
+          "data": [
+            "hero",
+            "magnetic_cap",
+            "collectible",
+            "free_shipping",
+            "doorway"
+          ]
+        },
+        {
+          "pass": true,
+          "label": "Mobile copy overlays photo"
+        },
+        {
+          "pass": true,
+          "label": "No JavaScript errors",
+          "data": []
+        }
+      ],
+      "errors": [],
+      "measurement": {
+        "banner": {
+          "x": 0,
+          "y": 288.1875,
+          "right": 390,
+          "bottom": 888.1875,
+          "width": 390,
+          "height": 600
+        },
+        "copy": {
+          "x": 22,
+          "y": 683.375,
+          "right": 368,
+          "bottom": 887.1875,
+          "width": 346,
+          "height": 203.8125
+        },
+        "image": {
+          "x": 0,
+          "y": 289.1875,
+          "right": 390,
+          "bottom": 887.1875,
+          "width": 390,
+          "height": 598,
+          "src": "http://127.0.0.1:4208/assets/sj-home-collectible.jpg",
+          "loaded": true,
+          "naturalWidth": 1774,
+          "naturalHeight": 887,
+          "objectPosition": "78% 0%",
+          "objectFit": "cover"
+        },
+        "text": "MADE TO COLLECT.\nMADE TO DISPLAY.\n\nBuild a scent collection that looks as good on your shelf as it feels in your routine.",
+        "mode": "light",
+        "token": "600px",
+        "overflow": false,
+        "elements": [
+          {
+            "tag": "H2",
+            "text": "MADE TO COLLECT.\nMADE TO DISPLAY.",
+            "href": null,
+            "box": {
+              "x": 22,
+              "y": 705.375,
+              "right": 368,
+              "bottom": 781.59375,
+              "width": 346,
+              "height": 76.21875
+            }
+          },
+          {
+            "tag": "P",
+            "text": "Build a scent collection that looks as good on your shelf as it feels in your routine.",
+            "href": null,
+            "box": {
+              "x": 22,
+              "y": 797.59375,
+              "right": 304.671875,
+              "bottom": 839.1875,
+              "width": 282.671875,
+              "height": 41.59375
+            }
+          }
+        ],
+        "textOverflow": [],
+        "actionCount": 0,
+        "homepageOrder": [
+          "hero",
+          "magnetic_cap",
+          "collectible",
+          "free_shipping",
+          "doorway"
+        ]
+      },
+      "screenshot": "qa/screenshots/home-features/collectible-light-390.png",
+      "status": "PASS"
+    },
+    {
+      "kind": "shipping",
+      "width": 390,
+      "theme": "light",
+      "checks": [
+        {
+          "pass": true,
+          "label": "Full viewport width",
+          "data": {
+            "x": 0,
+            "y": 401.1875,
+            "right": 390,
+            "bottom": 1001.1875,
+            "width": 390,
+            "height": 600
+          }
+        },
+        {
+          "pass": true,
+          "label": "Shared banner height",
+          "data": {
+            "expected": 600,
+            "actual": 600
+          }
+        },
+        {
+          "pass": true,
+          "label": "Correct artwork loaded",
+          "data": "http://127.0.0.1:4208/assets/sj-home-free-shipping.jpg"
+        },
+        {
+          "pass": true,
+          "label": "Native 2:1 photograph retained"
+        },
+        {
+          "pass": true,
+          "label": "Photo fills bordered banner"
+        },
+        {
+          "pass": true,
+          "label": "Copy remains inside banner"
+        },
+        {
+          "pass": true,
+          "label": "Heading and supporting copy remain inside banner"
+        },
+        {
+          "pass": true,
+          "label": "No horizontal overflow or clipped text",
+          "data": []
+        },
+        {
+          "pass": true,
+          "label": "Requested mode applies"
+        },
+        {
+          "pass": true,
+          "label": "No links or buttons in the feature",
+          "data": 0
+        },
+        {
+          "pass": true,
+          "label": "Three features precede Women/Men in requested order",
+          "data": [
+            "hero",
+            "magnetic_cap",
+            "collectible",
+            "free_shipping",
+            "doorway"
+          ]
+        },
+        {
+          "pass": true,
+          "label": "Mobile copy overlays photo"
+        },
+        {
+          "pass": true,
+          "label": "Shipping threshold and single-item fee present"
+        },
+        {
+          "pass": true,
+          "label": "No JavaScript errors",
+          "data": []
+        }
+      ],
+      "errors": [],
+      "measurement": {
+        "banner": {
+          "x": 0,
+          "y": 401.1875,
+          "right": 390,
+          "bottom": 1001.1875,
+          "width": 390,
+          "height": 600
+        },
+        "copy": {
+          "x": 22,
+          "y": 819.640625,
+          "right": 368,
+          "bottom": 1000.1875,
+          "width": 346,
+          "height": 180.546875
+        },
+        "image": {
+          "x": 0,
+          "y": 402.1875,
+          "right": 390,
+          "bottom": 1000.1875,
+          "width": 390,
+          "height": 598,
+          "src": "http://127.0.0.1:4208/assets/sj-home-free-shipping.jpg",
+          "loaded": true,
+          "naturalWidth": 1774,
+          "naturalHeight": 887,
+          "objectPosition": "80% 0%",
+          "objectFit": "cover"
+        },
+        "text": "FREE SHIPPING.\n\nWhen you order 2 or more items.\n\nShipping fee applies to 1 item.",
+        "mode": "light",
+        "token": "600px",
+        "overflow": false,
+        "elements": [
+          {
+            "tag": "H2",
+            "text": "FREE SHIPPING.",
+            "href": null,
+            "box": {
+              "x": 22,
+              "y": 841.640625,
+              "right": 368,
+              "bottom": 879.75,
+              "width": 346,
+              "height": 38.109375
+            }
+          },
+          {
+            "tag": "P",
+            "text": "When you order 2 or more items.",
+            "href": null,
+            "box": {
+              "x": 22,
+              "y": 895.75,
+              "right": 343.3125,
+              "bottom": 921.390625,
+              "width": 321.3125,
+              "height": 25.640625
+            }
+          },
+          {
+            "tag": "P",
+            "text": "Shipping fee applies to 1 item.",
+            "href": null,
+            "box": {
+              "x": 22,
+              "y": 931.390625,
+              "right": 304.671875,
+              "bottom": 952.1875,
+              "width": 282.671875,
+              "height": 20.796875
+            }
+          }
+        ],
+        "textOverflow": [],
+        "actionCount": 0,
+        "homepageOrder": [
+          "hero",
+          "magnetic_cap",
+          "collectible",
+          "free_shipping",
+          "doorway"
+        ]
+      },
+      "screenshot": "qa/screenshots/home-features/shipping-light-390.png",
+      "status": "PASS"
+    },
+    {
+      "kind": "magnetic",
+      "width": 390,
+      "theme": "dark",
+      "checks": [
+        {
+          "pass": true,
+          "label": "Full viewport width",
+          "data": {
+            "x": 0,
+            "y": 401.1875,
+            "right": 390,
+            "bottom": 1001.1875,
+            "width": 390,
+            "height": 600
+          }
+        },
+        {
+          "pass": true,
+          "label": "Shared banner height",
+          "data": {
+            "expected": 600,
+            "actual": 600
+          }
+        },
+        {
+          "pass": true,
+          "label": "Correct artwork loaded",
+          "data": "http://127.0.0.1:4208/assets/sj-home-magnetic-cap.jpg"
+        },
+        {
+          "pass": true,
+          "label": "Native 2:1 photograph retained"
+        },
+        {
+          "pass": true,
+          "label": "Photo fills bordered banner"
+        },
+        {
+          "pass": true,
+          "label": "Copy remains inside banner"
+        },
+        {
+          "pass": true,
+          "label": "Heading and supporting copy remain inside banner"
+        },
+        {
+          "pass": true,
+          "label": "No horizontal overflow or clipped text",
+          "data": []
+        },
+        {
+          "pass": true,
+          "label": "Requested mode applies"
+        },
+        {
+          "pass": true,
+          "label": "No links or buttons in the feature",
+          "data": 0
+        },
+        {
+          "pass": true,
+          "label": "Three features precede Women/Men in requested order",
+          "data": [
+            "hero",
+            "magnetic_cap",
+            "collectible",
+            "free_shipping",
+            "doorway"
+          ]
+        },
+        {
+          "pass": true,
+          "label": "Mobile copy overlays photo"
+        },
+        {
+          "pass": true,
+          "label": "No JavaScript errors",
+          "data": []
+        }
+      ],
+      "errors": [],
+      "measurement": {
+        "banner": {
+          "x": 0,
+          "y": 401.1875,
+          "right": 390,
+          "bottom": 1001.1875,
+          "width": 390,
+          "height": 600
+        },
+        "copy": {
+          "x": 22,
+          "y": 788.1875,
+          "right": 368,
+          "bottom": 1000.1875,
+          "width": 346,
+          "height": 212
+        },
+        "image": {
+          "x": 0,
+          "y": 402.1875,
+          "right": 390,
+          "bottom": 1000.1875,
+          "width": 390,
+          "height": 598,
+          "src": "http://127.0.0.1:4208/assets/sj-home-magnetic-cap.jpg",
+          "loaded": true,
+          "naturalWidth": 1774,
+          "naturalHeight": 887,
+          "objectPosition": "80% 0%",
+          "objectFit": "cover"
+        },
+        "text": "A LITTLE DETAIL. A LOVELY FINISH.\n\nMAGNETIC CAP\n\nThe magnetic cap clicks neatly into place. A satisfying finishing touch to your everyday fragrance.",
+        "mode": "dark",
+        "token": "600px",
+        "overflow": false,
+        "elements": [
+          {
+            "tag": "P",
+            "text": "A LITTLE DETAIL. A LOVELY FINISH.",
+            "href": null,
+            "box": {
+              "x": 22,
+              "y": 810.1875,
+              "right": 368,
+              "bottom": 823.6875,
+              "width": 346,
+              "height": 13.5
+            }
+          },
+          {
+            "tag": "H2",
+            "text": "MAGNETIC CAP",
+            "href": null,
+            "box": {
+              "x": 22,
+              "y": 835.6875,
+              "right": 368,
+              "bottom": 873.796875,
+              "width": 346,
+              "height": 38.109375
+            }
+          },
+          {
+            "tag": "P",
+            "text": "The magnetic cap clicks neatly into place. A satisfying finishing touch to your everyday fragrance.",
+            "href": null,
+            "box": {
+              "x": 22,
+              "y": 889.796875,
+              "right": 304.671875,
+              "bottom": 952.1875,
+              "width": 282.671875,
+              "height": 62.390625
+            }
+          }
+        ],
+        "textOverflow": [],
+        "actionCount": 0,
+        "homepageOrder": [
+          "hero",
+          "magnetic_cap",
+          "collectible",
+          "free_shipping",
+          "doorway"
+        ]
+      },
+      "screenshot": "qa/screenshots/home-features/magnetic-dark-390.png",
+      "status": "PASS"
+    },
+    {
+      "kind": "collectible",
+      "width": 390,
+      "theme": "dark",
+      "checks": [
+        {
+          "pass": true,
+          "label": "Full viewport width",
+          "data": {
+            "x": 0,
+            "y": 288.1875,
+            "right": 390,
+            "bottom": 888.1875,
+            "width": 390,
+            "height": 600
+          }
+        },
+        {
+          "pass": true,
+          "label": "Shared banner height",
+          "data": {
+            "expected": 600,
+            "actual": 600
+          }
+        },
+        {
+          "pass": true,
+          "label": "Correct artwork loaded",
+          "data": "http://127.0.0.1:4208/assets/sj-home-collectible.jpg"
+        },
+        {
+          "pass": true,
+          "label": "Native 2:1 photograph retained"
+        },
+        {
+          "pass": true,
+          "label": "Photo fills bordered banner"
+        },
+        {
+          "pass": true,
+          "label": "Copy remains inside banner"
+        },
+        {
+          "pass": true,
+          "label": "Heading and supporting copy remain inside banner"
+        },
+        {
+          "pass": true,
+          "label": "No horizontal overflow or clipped text",
+          "data": []
+        },
+        {
+          "pass": true,
+          "label": "Requested mode applies"
+        },
+        {
+          "pass": true,
+          "label": "No links or buttons in the feature",
+          "data": 0
+        },
+        {
+          "pass": true,
+          "label": "Three features precede Women/Men in requested order",
+          "data": [
+            "hero",
+            "magnetic_cap",
+            "collectible",
+            "free_shipping",
+            "doorway"
+          ]
+        },
+        {
+          "pass": true,
+          "label": "Mobile copy overlays photo"
+        },
+        {
+          "pass": true,
+          "label": "No JavaScript errors",
+          "data": []
+        }
+      ],
+      "errors": [],
+      "measurement": {
+        "banner": {
+          "x": 0,
+          "y": 288.1875,
+          "right": 390,
+          "bottom": 888.1875,
+          "width": 390,
+          "height": 600
+        },
+        "copy": {
+          "x": 22,
+          "y": 683.375,
+          "right": 368,
+          "bottom": 887.1875,
+          "width": 346,
+          "height": 203.8125
+        },
+        "image": {
+          "x": 0,
+          "y": 289.1875,
+          "right": 390,
+          "bottom": 887.1875,
+          "width": 390,
+          "height": 598,
+          "src": "http://127.0.0.1:4208/assets/sj-home-collectible.jpg",
+          "loaded": true,
+          "naturalWidth": 1774,
+          "naturalHeight": 887,
+          "objectPosition": "78% 0%",
+          "objectFit": "cover"
+        },
+        "text": "MADE TO COLLECT.\nMADE TO DISPLAY.\n\nBuild a scent collection that looks as good on your shelf as it feels in your routine.",
+        "mode": "dark",
+        "token": "600px",
+        "overflow": false,
+        "elements": [
+          {
+            "tag": "H2",
+            "text": "MADE TO COLLECT.\nMADE TO DISPLAY.",
+            "href": null,
+            "box": {
+              "x": 22,
+              "y": 705.375,
+              "right": 368,
+              "bottom": 781.59375,
+              "width": 346,
+              "height": 76.21875
+            }
+          },
+          {
+            "tag": "P",
+            "text": "Build a scent collection that looks as good on your shelf as it feels in your routine.",
+            "href": null,
+            "box": {
+              "x": 22,
+              "y": 797.59375,
+              "right": 304.671875,
+              "bottom": 839.1875,
+              "width": 282.671875,
+              "height": 41.59375
+            }
+          }
+        ],
+        "textOverflow": [],
+        "actionCount": 0,
+        "homepageOrder": [
+          "hero",
+          "magnetic_cap",
+          "collectible",
+          "free_shipping",
+          "doorway"
+        ]
+      },
+      "screenshot": "qa/screenshots/home-features/collectible-dark-390.png",
+      "status": "PASS"
+    },
+    {
+      "kind": "shipping",
+      "width": 390,
+      "theme": "dark",
+      "checks": [
+        {
+          "pass": true,
+          "label": "Full viewport width",
+          "data": {
+            "x": 0,
+            "y": 401.1875,
+            "right": 390,
+            "bottom": 1001.1875,
+            "width": 390,
+            "height": 600
+          }
+        },
+        {
+          "pass": true,
+          "label": "Shared banner height",
+          "data": {
+            "expected": 600,
+            "actual": 600
+          }
+        },
+        {
+          "pass": true,
+          "label": "Correct artwork loaded",
+          "data": "http://127.0.0.1:4208/assets/sj-home-free-shipping.jpg"
+        },
+        {
+          "pass": true,
+          "label": "Native 2:1 photograph retained"
+        },
+        {
+          "pass": true,
+          "label": "Photo fills bordered banner"
+        },
+        {
+          "pass": true,
+          "label": "Copy remains inside banner"
+        },
+        {
+          "pass": true,
+          "label": "Heading and supporting copy remain inside banner"
+        },
+        {
+          "pass": true,
+          "label": "No horizontal overflow or clipped text",
+          "data": []
+        },
+        {
+          "pass": true,
+          "label": "Requested mode applies"
+        },
+        {
+          "pass": true,
+          "label": "No links or buttons in the feature",
+          "data": 0
+        },
+        {
+          "pass": true,
+          "label": "Three features precede Women/Men in requested order",
+          "data": [
+            "hero",
+            "magnetic_cap",
+            "collectible",
+            "free_shipping",
+            "doorway"
+          ]
+        },
+        {
+          "pass": true,
+          "label": "Mobile copy overlays photo"
+        },
+        {
+          "pass": true,
+          "label": "Shipping threshold and single-item fee present"
+        },
+        {
+          "pass": true,
+          "label": "No JavaScript errors",
+          "data": []
+        }
+      ],
+      "errors": [],
+      "measurement": {
+        "banner": {
+          "x": 0,
+          "y": 401.1875,
+          "right": 390,
+          "bottom": 1001.1875,
+          "width": 390,
+          "height": 600
+        },
+        "copy": {
+          "x": 22,
+          "y": 819.640625,
+          "right": 368,
+          "bottom": 1000.1875,
+          "width": 346,
+          "height": 180.546875
+        },
+        "image": {
+          "x": 0,
+          "y": 402.1875,
+          "right": 390,
+          "bottom": 1000.1875,
+          "width": 390,
+          "height": 598,
+          "src": "http://127.0.0.1:4208/assets/sj-home-free-shipping.jpg",
+          "loaded": true,
+          "naturalWidth": 1774,
+          "naturalHeight": 887,
+          "objectPosition": "80% 0%",
+          "objectFit": "cover"
+        },
+        "text": "FREE SHIPPING.\n\nWhen you order 2 or more items.\n\nShipping fee applies to 1 item.",
+        "mode": "dark",
+        "token": "600px",
+        "overflow": false,
+        "elements": [
+          {
+            "tag": "H2",
+            "text": "FREE SHIPPING.",
+            "href": null,
+            "box": {
+              "x": 22,
+              "y": 841.640625,
+              "right": 368,
+              "bottom": 879.75,
+              "width": 346,
+              "height": 38.109375
+            }
+          },
+          {
+            "tag": "P",
+            "text": "When you order 2 or more items.",
+            "href": null,
+            "box": {
+              "x": 22,
+              "y": 895.75,
+              "right": 343.3125,
+              "bottom": 921.390625,
+              "width": 321.3125,
+              "height": 25.640625
+            }
+          },
+          {
+            "tag": "P",
+            "text": "Shipping fee applies to 1 item.",
+            "href": null,
+            "box": {
+              "x": 22,
+              "y": 931.390625,
+              "right": 304.671875,
+              "bottom": 952.1875,
+              "width": 282.671875,
+              "height": 20.796875
+            }
+          }
+        ],
+        "textOverflow": [],
+        "actionCount": 0,
+        "homepageOrder": [
+          "hero",
+          "magnetic_cap",
+          "collectible",
+          "free_shipping",
+          "doorway"
+        ]
+      },
+      "screenshot": "qa/screenshots/home-features/shipping-dark-390.png",
+      "status": "PASS"
+    },
+    {
+      "kind": "magnetic",
+      "width": 768,
+      "theme": "light",
+      "checks": [
+        {
+          "pass": true,
+          "label": "Full viewport width",
+          "data": {
+            "x": 0,
+            "y": 461,
+            "right": 768,
+            "bottom": 1001,
+            "width": 768,
+            "height": 540
+          }
+        },
+        {
+          "pass": true,
+          "label": "Shared banner height",
+          "data": {
+            "expected": 540,
+            "actual": 540
+          }
+        },
+        {
+          "pass": true,
+          "label": "Correct artwork loaded",
+          "data": "http://127.0.0.1:4208/assets/sj-home-magnetic-cap.jpg"
+        },
+        {
+          "pass": true,
+          "label": "Native 2:1 photograph retained"
+        },
+        {
+          "pass": true,
+          "label": "Photo fills bordered banner"
+        },
+        {
+          "pass": true,
+          "label": "Copy remains inside banner"
+        },
+        {
+          "pass": true,
+          "label": "Heading and supporting copy remain inside banner"
+        },
+        {
+          "pass": true,
+          "label": "No horizontal overflow or clipped text",
+          "data": []
+        },
+        {
+          "pass": true,
+          "label": "Requested mode applies"
+        },
+        {
+          "pass": true,
+          "label": "No links or buttons in the feature",
+          "data": 0
+        },
+        {
+          "pass": true,
+          "label": "Three features precede Women/Men in requested order",
+          "data": [
+            "hero",
+            "magnetic_cap",
+            "collectible",
+            "free_shipping",
+            "doorway"
+          ]
+        },
+        {
+          "pass": true,
+          "label": "No JavaScript errors",
+          "data": []
+        }
+      ],
+      "errors": [],
+      "measurement": {
+        "banner": {
+          "x": 0,
+          "y": 461,
+          "right": 768,
+          "bottom": 1001,
+          "width": 768,
+          "height": 540
+        },
+        "copy": {
+          "x": 33.015625,
+          "y": 598.4375,
+          "right": 362.9375,
+          "bottom": 863.546875,
+          "width": 329.921875,
+          "height": 265.109375
+        },
+        "image": {
+          "x": 0,
+          "y": 462,
+          "right": 768,
+          "bottom": 1000,
+          "width": 768,
+          "height": 538,
+          "src": "http://127.0.0.1:4208/assets/sj-home-magnetic-cap.jpg",
+          "loaded": true,
+          "naturalWidth": 1774,
+          "naturalHeight": 887,
+          "objectPosition": "50% 0%",
+          "objectFit": "cover"
+        },
+        "text": "A LITTLE DETAIL. A LOVELY FINISH.\n\nMAGNETIC CAP\n\nThe magnetic cap clicks neatly into place. A satisfying finishing touch to your everyday fragrance.",
+        "mode": "light",
+        "token": "clamp(540px,43vw,650px)",
+        "overflow": false,
+        "elements": [
+          {
+            "tag": "P",
+            "text": "A LITTLE DETAIL. A LOVELY FINISH.",
+            "href": null,
+            "box": {
+              "x": 33.015625,
+              "y": 634.4375,
+              "right": 362.9375,
+              "bottom": 649.4375,
+              "width": 329.921875,
+              "height": 15
+            }
+          },
+          {
+            "tag": "H2",
+            "text": "MAGNETIC CAP",
+            "href": null,
+            "box": {
+              "x": 33.015625,
+              "y": 669.4375,
+              "right": 362.9375,
+              "bottom": 706.15625,
+              "width": 329.921875,
+              "height": 36.71875
+            }
+          },
+          {
+            "tag": "P",
+            "text": "The magnetic cap clicks neatly into place. A satisfying finishing touch to your everyday fragrance.",
+            "href": null,
+            "box": {
+              "x": 33.015625,
+              "y": 730.15625,
+              "right": 320.515625,
+              "bottom": 801.546875,
+              "width": 287.5,
+              "height": 71.390625
+            }
+          }
+        ],
+        "textOverflow": [],
+        "actionCount": 0,
+        "homepageOrder": [
+          "hero",
+          "magnetic_cap",
+          "collectible",
+          "free_shipping",
+          "doorway"
+        ]
+      },
+      "screenshot": "qa/screenshots/home-features/magnetic-light-768.png",
+      "status": "PASS"
+    },
+    {
+      "kind": "collectible",
+      "width": 768,
+      "theme": "light",
+      "checks": [
+        {
+          "pass": true,
+          "label": "Full viewport width",
+          "data": {
+            "x": 0,
+            "y": 315,
+            "right": 768,
+            "bottom": 855,
+            "width": 768,
+            "height": 540
+          }
+        },
+        {
+          "pass": true,
+          "label": "Shared banner height",
+          "data": {
+            "expected": 540,
+            "actual": 540
+          }
+        },
+        {
+          "pass": true,
+          "label": "Correct artwork loaded",
+          "data": "http://127.0.0.1:4208/assets/sj-home-collectible.jpg"
+        },
+        {
+          "pass": true,
+          "label": "Native 2:1 photograph retained"
+        },
+        {
+          "pass": true,
+          "label": "Photo fills bordered banner"
+        },
+        {
+          "pass": true,
+          "label": "Copy remains inside banner"
+        },
+        {
+          "pass": true,
+          "label": "Heading and supporting copy remain inside banner"
+        },
+        {
+          "pass": true,
+          "label": "No horizontal overflow or clipped text",
+          "data": []
+        },
+        {
+          "pass": true,
+          "label": "Requested mode applies"
+        },
+        {
+          "pass": true,
+          "label": "No links or buttons in the feature",
+          "data": 0
+        },
+        {
+          "pass": true,
+          "label": "Three features precede Women/Men in requested order",
+          "data": [
+            "hero",
+            "magnetic_cap",
+            "collectible",
+            "free_shipping",
+            "doorway"
+          ]
+        },
+        {
+          "pass": true,
+          "label": "No JavaScript errors",
+          "data": []
+        }
+      ],
+      "errors": [],
+      "measurement": {
+        "banner": {
+          "x": 0,
+          "y": 315,
+          "right": 768,
+          "bottom": 855,
+          "width": 768,
+          "height": 540
+        },
+        "copy": {
+          "x": 33.015625,
+          "y": 463.484375,
+          "right": 362.9375,
+          "bottom": 706.515625,
+          "width": 329.921875,
+          "height": 243.03125
+        },
+        "image": {
+          "x": 0,
+          "y": 316,
+          "right": 768,
+          "bottom": 854,
+          "width": 768,
+          "height": 538,
+          "src": "http://127.0.0.1:4208/assets/sj-home-collectible.jpg",
+          "loaded": true,
+          "naturalWidth": 1774,
+          "naturalHeight": 887,
+          "objectPosition": "50% 0%",
+          "objectFit": "cover"
+        },
+        "text": "MADE TO COLLECT.\nMADE TO DISPLAY.\n\nBuild a scent collection that looks as good on your shelf as it feels in your routine.",
+        "mode": "light",
+        "token": "clamp(540px,43vw,650px)",
+        "overflow": false,
+        "elements": [
+          {
+            "tag": "H2",
+            "text": "MADE TO COLLECT.\nMADE TO DISPLAY.",
+            "href": null,
+            "box": {
+              "x": 33.015625,
+              "y": 499.484375,
+              "right": 362.9375,
+              "bottom": 572.921875,
+              "width": 329.921875,
+              "height": 73.4375
+            }
+          },
+          {
+            "tag": "P",
+            "text": "Build a scent collection that looks as good on your shelf as it feels in your routine.",
+            "href": null,
+            "box": {
+              "x": 33.015625,
+              "y": 596.921875,
+              "right": 320.515625,
+              "bottom": 644.515625,
+              "width": 287.5,
+              "height": 47.59375
+            }
+          }
+        ],
+        "textOverflow": [],
+        "actionCount": 0,
+        "homepageOrder": [
+          "hero",
+          "magnetic_cap",
+          "collectible",
+          "free_shipping",
+          "doorway"
+        ]
+      },
+      "screenshot": "qa/screenshots/home-features/collectible-light-768.png",
+      "status": "PASS"
+    },
+    {
+      "kind": "shipping",
+      "width": 768,
+      "theme": "light",
+      "checks": [
+        {
+          "pass": true,
+          "label": "Full viewport width",
+          "data": {
+            "x": 0,
+            "y": 461,
+            "right": 768,
+            "bottom": 1001,
+            "width": 768,
+            "height": 540
+          }
+        },
+        {
+          "pass": true,
+          "label": "Shared banner height",
+          "data": {
+            "expected": 540,
+            "actual": 540
+          }
+        },
+        {
+          "pass": true,
+          "label": "Correct artwork loaded",
+          "data": "http://127.0.0.1:4208/assets/sj-home-free-shipping.jpg"
+        },
+        {
+          "pass": true,
+          "label": "Native 2:1 photograph retained"
+        },
+        {
+          "pass": true,
+          "label": "Photo fills bordered banner"
+        },
+        {
+          "pass": true,
+          "label": "Copy remains inside banner"
+        },
+        {
+          "pass": true,
+          "label": "Heading and supporting copy remain inside banner"
+        },
+        {
+          "pass": true,
+          "label": "No horizontal overflow or clipped text",
+          "data": []
+        },
+        {
+          "pass": true,
+          "label": "Requested mode applies"
+        },
+        {
+          "pass": true,
+          "label": "No links or buttons in the feature",
+          "data": 0
+        },
+        {
+          "pass": true,
+          "label": "Three features precede Women/Men in requested order",
+          "data": [
+            "hero",
+            "magnetic_cap",
+            "collectible",
+            "free_shipping",
+            "doorway"
+          ]
+        },
+        {
+          "pass": true,
+          "label": "Shipping threshold and single-item fee present"
+        },
+        {
+          "pass": true,
+          "label": "No JavaScript errors",
+          "data": []
+        }
+      ],
+      "errors": [],
+      "measurement": {
+        "banner": {
+          "x": 0,
+          "y": 461,
+          "right": 768,
+          "bottom": 1001,
+          "width": 768,
+          "height": 540
+        },
+        "copy": {
+          "x": 33.015625,
+          "y": 619.734375,
+          "right": 362.9375,
+          "bottom": 842.25,
+          "width": 329.921875,
+          "height": 222.515625
+        },
+        "image": {
+          "x": 0,
+          "y": 462,
+          "right": 768,
+          "bottom": 1000,
+          "width": 768,
+          "height": 538,
+          "src": "http://127.0.0.1:4208/assets/sj-home-free-shipping.jpg",
+          "loaded": true,
+          "naturalWidth": 1774,
+          "naturalHeight": 887,
+          "objectPosition": "50% 0%",
+          "objectFit": "cover"
+        },
+        "text": "FREE SHIPPING.\n\nWhen you order 2 or more items.\n\nShipping fee applies to 1 item.",
+        "mode": "light",
+        "token": "clamp(540px,43vw,650px)",
+        "overflow": false,
+        "elements": [
+          {
+            "tag": "H2",
+            "text": "FREE SHIPPING.",
+            "href": null,
+            "box": {
+              "x": 33.015625,
+              "y": 655.734375,
+              "right": 362.9375,
+              "bottom": 692.453125,
+              "width": 329.921875,
+              "height": 36.71875
+            }
+          },
+          {
+            "tag": "P",
+            "text": "When you order 2 or more items.",
+            "href": null,
+            "box": {
+              "x": 33.015625,
+              "y": 716.453125,
+              "right": 359.171875,
+              "bottom": 742.453125,
+              "width": 326.15625,
+              "height": 26
+            }
+          },
+          {
+            "tag": "P",
+            "text": "Shipping fee applies to 1 item.",
+            "href": null,
+            "box": {
+              "x": 33.015625,
+              "y": 756.453125,
+              "right": 320.515625,
+              "bottom": 780.25,
+              "width": 287.5,
+              "height": 23.796875
+            }
+          }
+        ],
+        "textOverflow": [],
+        "actionCount": 0,
+        "homepageOrder": [
+          "hero",
+          "magnetic_cap",
+          "collectible",
+          "free_shipping",
+          "doorway"
+        ]
+      },
+      "screenshot": "qa/screenshots/home-features/shipping-light-768.png",
+      "status": "PASS"
+    },
+    {
+      "kind": "magnetic",
+      "width": 768,
+      "theme": "dark",
+      "checks": [
+        {
+          "pass": true,
+          "label": "Full viewport width",
+          "data": {
+            "x": 0,
+            "y": 461,
+            "right": 768,
+            "bottom": 1001,
+            "width": 768,
+            "height": 540
+          }
+        },
+        {
+          "pass": true,
+          "label": "Shared banner height",
+          "data": {
+            "expected": 540,
+            "actual": 540
+          }
+        },
+        {
+          "pass": true,
+          "label": "Correct artwork loaded",
+          "data": "http://127.0.0.1:4208/assets/sj-home-magnetic-cap.jpg"
+        },
+        {
+          "pass": true,
+          "label": "Native 2:1 photograph retained"
+        },
+        {
+          "pass": true,
+          "label": "Photo fills bordered banner"
+        },
+        {
+          "pass": true,
+          "label": "Copy remains inside banner"
+        },
+        {
+          "pass": true,
+          "label": "Heading and supporting copy remain inside banner"
+        },
+        {
+          "pass": true,
+          "label": "No horizontal overflow or clipped text",
+          "data": []
+        },
+        {
+          "pass": true,
+          "label": "Requested mode applies"
+        },
+        {
+          "pass": true,
+          "label": "No links or buttons in the feature",
+          "data": 0
+        },
+        {
+          "pass": true,
+          "label": "Three features precede Women/Men in requested order",
+          "data": [
+            "hero",
+            "magnetic_cap",
+            "collectible",
+            "free_shipping",
+            "doorway"
+          ]
+        },
+        {
+          "pass": true,
+          "label": "No JavaScript errors",
+          "data": []
+        }
+      ],
+      "errors": [],
+      "measurement": {
+        "banner": {
+          "x": 0,
+          "y": 461,
+          "right": 768,
+          "bottom": 1001,
+          "width": 768,
+          "height": 540
+        },
+        "copy": {
+          "x": 33.015625,
+          "y": 598.4375,
+          "right": 362.9375,
+          "bottom": 863.546875,
+          "width": 329.921875,
+          "height": 265.109375
+        },
+        "image": {
+          "x": 0,
+          "y": 462,
+          "right": 768,
+          "bottom": 1000,
+          "width": 768,
+          "height": 538,
+          "src": "http://127.0.0.1:4208/assets/sj-home-magnetic-cap.jpg",
+          "loaded": true,
+          "naturalWidth": 1774,
+          "naturalHeight": 887,
+          "objectPosition": "50% 0%",
+          "objectFit": "cover"
+        },
+        "text": "A LITTLE DETAIL. A LOVELY FINISH.\n\nMAGNETIC CAP\n\nThe magnetic cap clicks neatly into place. A satisfying finishing touch to your everyday fragrance.",
+        "mode": "dark",
+        "token": "clamp(540px,43vw,650px)",
+        "overflow": false,
+        "elements": [
+          {
+            "tag": "P",
+            "text": "A LITTLE DETAIL. A LOVELY FINISH.",
+            "href": null,
+            "box": {
+              "x": 33.015625,
+              "y": 634.4375,
+              "right": 362.9375,
+              "bottom": 649.4375,
+              "width": 329.921875,
+              "height": 15
+            }
+          },
+          {
+            "tag": "H2",
+            "text": "MAGNETIC CAP",
+            "href": null,
+            "box": {
+              "x": 33.015625,
+              "y": 669.4375,
+              "right": 362.9375,
+              "bottom": 706.15625,
+              "width": 329.921875,
+              "height": 36.71875
+            }
+          },
+          {
+            "tag": "P",
+            "text": "The magnetic cap clicks neatly into place. A satisfying finishing touch to your everyday fragrance.",
+            "href": null,
+            "box": {
+              "x": 33.015625,
+              "y": 730.15625,
+              "right": 320.515625,
+              "bottom": 801.546875,
+              "width": 287.5,
+              "height": 71.390625
+            }
+          }
+        ],
+        "textOverflow": [],
+        "actionCount": 0,
+        "homepageOrder": [
+          "hero",
+          "magnetic_cap",
+          "collectible",
+          "free_shipping",
+          "doorway"
+        ]
+      },
+      "screenshot": "qa/screenshots/home-features/magnetic-dark-768.png",
+      "status": "PASS"
+    },
+    {
+      "kind": "collectible",
+      "width": 768,
+      "theme": "dark",
+      "checks": [
+        {
+          "pass": true,
+          "label": "Full viewport width",
+          "data": {
+            "x": 0,
+            "y": 315,
+            "right": 768,
+            "bottom": 855,
+            "width": 768,
+            "height": 540
+          }
+        },
+        {
+          "pass": true,
+          "label": "Shared banner height",
+          "data": {
+            "expected": 540,
+            "actual": 540
+          }
+        },
+        {
+          "pass": true,
+          "label": "Correct artwork loaded",
+          "data": "http://127.0.0.1:4208/assets/sj-home-collectible.jpg"
+        },
+        {
+          "pass": true,
+          "label": "Native 2:1 photograph retained"
+        },
+        {
+          "pass": true,
+          "label": "Photo fills bordered banner"
+        },
+        {
+          "pass": true,
+          "label": "Copy remains inside banner"
+        },
+        {
+          "pass": true,
+          "label": "Heading and supporting copy remain inside banner"
+        },
+        {
+          "pass": true,
+          "label": "No horizontal overflow or clipped text",
+          "data": []
+        },
+        {
+          "pass": true,
+          "label": "Requested mode applies"
+        },
+        {
+          "pass": true,
+          "label": "No links or buttons in the feature",
+          "data": 0
+        },
+        {
+          "pass": true,
+          "label": "Three features precede Women/Men in requested order",
+          "data": [
+            "hero",
+            "magnetic_cap",
+            "collectible",
+            "free_shipping",
+            "doorway"
+          ]
+        },
+        {
+          "pass": true,
+          "label": "No JavaScript errors",
+          "data": []
+        }
+      ],
+      "errors": [],
+      "measurement": {
+        "banner": {
+          "x": 0,
+          "y": 315,
+          "right": 768,
+          "bottom": 855,
+          "width": 768,
+          "height": 540
+        },
+        "copy": {
+          "x": 33.015625,
+          "y": 463.484375,
+          "right": 362.9375,
+          "bottom": 706.515625,
+          "width": 329.921875,
+          "height": 243.03125
+        },
+        "image": {
+          "x": 0,
+          "y": 316,
+          "right": 768,
+          "bottom": 854,
+          "width": 768,
+          "height": 538,
+          "src": "http://127.0.0.1:4208/assets/sj-home-collectible.jpg",
+          "loaded": true,
+          "naturalWidth": 1774,
+          "naturalHeight": 887,
+          "objectPosition": "50% 0%",
+          "objectFit": "cover"
+        },
+        "text": "MADE TO COLLECT.\nMADE TO DISPLAY.\n\nBuild a scent collection that looks as good on your shelf as it feels in your routine.",
+        "mode": "dark",
+        "token": "clamp(540px,43vw,650px)",
+        "overflow": false,
+        "elements": [
+          {
+            "tag": "H2",
+            "text": "MADE TO COLLECT.\nMADE TO DISPLAY.",
+            "href": null,
+            "box": {
+              "x": 33.015625,
+              "y": 499.484375,
+              "right": 362.9375,
+              "bottom": 572.921875,
+              "width": 329.921875,
+              "height": 73.4375
+            }
+          },
+          {
+            "tag": "P",
+            "text": "Build a scent collection that looks as good on your shelf as it feels in your routine.",
+            "href": null,
+            "box": {
+              "x": 33.015625,
+              "y": 596.921875,
+              "right": 320.515625,
+              "bottom": 644.515625,
+              "width": 287.5,
+              "height": 47.59375
+            }
+          }
+        ],
+        "textOverflow": [],
+        "actionCount": 0,
+        "homepageOrder": [
+          "hero",
+          "magnetic_cap",
+          "collectible",
+          "free_shipping",
+          "doorway"
+        ]
+      },
+      "screenshot": "qa/screenshots/home-features/collectible-dark-768.png",
+      "status": "PASS"
+    },
+    {
+      "kind": "shipping",
+      "width": 768,
+      "theme": "dark",
+      "checks": [
+        {
+          "pass": true,
+          "label": "Full viewport width",
+          "data": {
+            "x": 0,
+            "y": 461,
+            "right": 768,
+            "bottom": 1001,
+            "width": 768,
+            "height": 540
+          }
+        },
+        {
+          "pass": true,
+          "label": "Shared banner height",
+          "data": {
+            "expected": 540,
+            "actual": 540
+          }
+        },
+        {
+          "pass": true,
+          "label": "Correct artwork loaded",
+          "data": "http://127.0.0.1:4208/assets/sj-home-free-shipping.jpg"
+        },
+        {
+          "pass": true,
+          "label": "Native 2:1 photograph retained"
+        },
+        {
+          "pass": true,
+          "label": "Photo fills bordered banner"
+        },
+        {
+          "pass": true,
+          "label": "Copy remains inside banner"
+        },
+        {
+          "pass": true,
+          "label": "Heading and supporting copy remain inside banner"
+        },
+        {
+          "pass": true,
+          "label": "No horizontal overflow or clipped text",
+          "data": []
+        },
+        {
+          "pass": true,
+          "label": "Requested mode applies"
+        },
+        {
+          "pass": true,
+          "label": "No links or buttons in the feature",
+          "data": 0
+        },
+        {
+          "pass": true,
+          "label": "Three features precede Women/Men in requested order",
+          "data": [
+            "hero",
+            "magnetic_cap",
+            "collectible",
+            "free_shipping",
+            "doorway"
+          ]
+        },
+        {
+          "pass": true,
+          "label": "Shipping threshold and single-item fee present"
+        },
+        {
+          "pass": true,
+          "label": "No JavaScript errors",
+          "data": []
+        }
+      ],
+      "errors": [],
+      "measurement": {
+        "banner": {
+          "x": 0,
+          "y": 461,
+          "right": 768,
+          "bottom": 1001,
+          "width": 768,
+          "height": 540
+        },
+        "copy": {
+          "x": 33.015625,
+          "y": 619.734375,
+          "right": 362.9375,
+          "bottom": 842.25,
+          "width": 329.921875,
+          "height": 222.515625
+        },
+        "image": {
+          "x": 0,
+          "y": 462,
+          "right": 768,
+          "bottom": 1000,
+          "width": 768,
+          "height": 538,
+          "src": "http://127.0.0.1:4208/assets/sj-home-free-shipping.jpg",
+          "loaded": true,
+          "naturalWidth": 1774,
+          "naturalHeight": 887,
+          "objectPosition": "50% 0%",
+          "objectFit": "cover"
+        },
+        "text": "FREE SHIPPING.\n\nWhen you order 2 or more items.\n\nShipping fee applies to 1 item.",
+        "mode": "dark",
+        "token": "clamp(540px,43vw,650px)",
+        "overflow": false,
+        "elements": [
+          {
+            "tag": "H2",
+            "text": "FREE SHIPPING.",
+            "href": null,
+            "box": {
+              "x": 33.015625,
+              "y": 655.734375,
+              "right": 362.9375,
+              "bottom": 692.453125,
+              "width": 329.921875,
+              "height": 36.71875
+            }
+          },
+          {
+            "tag": "P",
+            "text": "When you order 2 or more items.",
+            "href": null,
+            "box": {
+              "x": 33.015625,
+              "y": 716.453125,
+              "right": 359.171875,
+              "bottom": 742.453125,
+              "width": 326.15625,
+              "height": 26
+            }
+          },
+          {
+            "tag": "P",
+            "text": "Shipping fee applies to 1 item.",
+            "href": null,
+            "box": {
+              "x": 33.015625,
+              "y": 756.453125,
+              "right": 320.515625,
+              "bottom": 780.25,
+              "width": 287.5,
+              "height": 23.796875
+            }
+          }
+        ],
+        "textOverflow": [],
+        "actionCount": 0,
+        "homepageOrder": [
+          "hero",
+          "magnetic_cap",
+          "collectible",
+          "free_shipping",
+          "doorway"
+        ]
+      },
+      "screenshot": "qa/screenshots/home-features/shipping-dark-768.png",
+      "status": "PASS"
+    },
+    {
+      "kind": "magnetic",
+      "width": 1440,
+      "theme": "light",
+      "checks": [
+        {
+          "pass": true,
+          "label": "Full viewport width",
+          "data": {
+            "x": 0,
+            "y": 382.1875,
+            "right": 1440,
+            "bottom": 1001.375,
+            "width": 1440,
+            "height": 619.1875
+          }
+        },
+        {
+          "pass": true,
+          "label": "Shared banner height",
+          "data": {
+            "expected": 619.2,
+            "actual": 619.1875
+          }
+        },
+        {
+          "pass": true,
+          "label": "Correct artwork loaded",
+          "data": "http://127.0.0.1:4208/assets/sj-home-magnetic-cap.jpg"
+        },
+        {
+          "pass": true,
+          "label": "Native 2:1 photograph retained"
+        },
+        {
+          "pass": true,
+          "label": "Photo fills bordered banner"
+        },
+        {
+          "pass": true,
+          "label": "Copy remains inside banner"
+        },
+        {
+          "pass": true,
+          "label": "Heading and supporting copy remain inside banner"
+        },
+        {
+          "pass": true,
+          "label": "No horizontal overflow or clipped text",
+          "data": []
+        },
+        {
+          "pass": true,
+          "label": "Requested mode applies"
+        },
+        {
+          "pass": true,
+          "label": "No links or buttons in the feature",
+          "data": 0
+        },
+        {
+          "pass": true,
+          "label": "Three features precede Women/Men in requested order",
+          "data": [
+            "hero",
+            "magnetic_cap",
+            "collectible",
+            "free_shipping",
+            "doorway"
+          ]
+        },
+        {
+          "pass": true,
+          "label": "No JavaScript errors",
+          "data": []
+        }
+      ],
+      "errors": [],
+      "measurement": {
+        "banner": {
+          "x": 0,
+          "y": 382.1875,
+          "right": 1440,
+          "bottom": 1001.375,
+          "width": 1440,
+          "height": 619.1875
+        },
+        "copy": {
+          "x": 61.90625,
+          "y": 554,
+          "right": 641.015625,
+          "bottom": 829.546875,
+          "width": 579.109375,
+          "height": 275.546875
+        },
+        "image": {
+          "x": 0,
+          "y": 383.1875,
+          "right": 1440,
+          "bottom": 1000.375,
+          "width": 1440,
+          "height": 617.1875,
+          "src": "http://127.0.0.1:4208/assets/sj-home-magnetic-cap.jpg",
+          "loaded": true,
+          "naturalWidth": 1774,
+          "naturalHeight": 887,
+          "objectPosition": "50% 0%",
+          "objectFit": "cover"
+        },
+        "text": "A LITTLE DETAIL. A LOVELY FINISH.\n\nMAGNETIC CAP\n\nThe magnetic cap clicks neatly into place. A satisfying finishing touch to your everyday fragrance.",
+        "mode": "light",
+        "token": "clamp(540px,43vw,650px)",
+        "overflow": false,
+        "elements": [
+          {
+            "tag": "P",
+            "text": "A LITTLE DETAIL. A LOVELY FINISH.",
+            "href": null,
+            "box": {
+              "x": 61.90625,
+              "y": 590,
+              "right": 641.015625,
+              "bottom": 605,
+              "width": 579.109375,
+              "height": 15
+            }
+          },
+          {
+            "tag": "H2",
+            "text": "MAGNETIC CAP",
+            "href": null,
+            "box": {
+              "x": 61.90625,
+              "y": 625,
+              "right": 641.015625,
+              "bottom": 692.546875,
+              "width": 579.109375,
+              "height": 67.546875
+            }
+          },
+          {
+            "tag": "P",
+            "text": "The magnetic cap clicks neatly into place. A satisfying finishing touch to your everyday fragrance.",
+            "href": null,
+            "box": {
+              "x": 61.90625,
+              "y": 716.546875,
+              "right": 406.171875,
+              "bottom": 767.546875,
+              "width": 344.265625,
+              "height": 51
+            }
+          }
+        ],
+        "textOverflow": [],
+        "actionCount": 0,
+        "homepageOrder": [
+          "hero",
+          "magnetic_cap",
+          "collectible",
+          "free_shipping",
+          "doorway"
+        ]
+      },
+      "screenshot": "qa/screenshots/home-features/magnetic-light-1440.png",
+      "status": "PASS"
+    },
+    {
+      "kind": "collectible",
+      "width": 1440,
+      "theme": "light",
+      "checks": [
+        {
+          "pass": true,
+          "label": "Full viewport width",
+          "data": {
+            "x": 0,
+            "y": 276.375,
+            "right": 1440,
+            "bottom": 895.5625,
+            "width": 1440,
+            "height": 619.1875
+          }
+        },
+        {
+          "pass": true,
+          "label": "Shared banner height",
+          "data": {
+            "expected": 619.2,
+            "actual": 619.1875
+          }
+        },
+        {
+          "pass": true,
+          "label": "Correct artwork loaded",
+          "data": "http://127.0.0.1:4208/assets/sj-home-collectible.jpg"
+        },
+        {
+          "pass": true,
+          "label": "Native 2:1 photograph retained"
+        },
+        {
+          "pass": true,
+          "label": "Photo fills bordered banner"
+        },
+        {
+          "pass": true,
+          "label": "Copy remains inside banner"
+        },
+        {
+          "pass": true,
+          "label": "Heading and supporting copy remain inside banner"
+        },
+        {
+          "pass": true,
+          "label": "No horizontal overflow or clipped text",
+          "data": []
+        },
+        {
+          "pass": true,
+          "label": "Requested mode applies"
+        },
+        {
+          "pass": true,
+          "label": "No links or buttons in the feature",
+          "data": 0
+        },
+        {
+          "pass": true,
+          "label": "Three features precede Women/Men in requested order",
+          "data": [
+            "hero",
+            "magnetic_cap",
+            "collectible",
+            "free_shipping",
+            "doorway"
+          ]
+        },
+        {
+          "pass": true,
+          "label": "No JavaScript errors",
+          "data": []
+        }
+      ],
+      "errors": [],
+      "measurement": {
+        "banner": {
+          "x": 0,
+          "y": 276.375,
+          "right": 1440,
+          "bottom": 895.5625,
+          "width": 1440,
+          "height": 619.1875
+        },
+        "copy": {
+          "x": 61.90625,
+          "y": 431.921875,
+          "right": 641.015625,
+          "bottom": 740.015625,
+          "width": 579.109375,
+          "height": 308.09375
+        },
+        "image": {
+          "x": 0,
+          "y": 277.375,
+          "right": 1440,
+          "bottom": 894.5625,
+          "width": 1440,
+          "height": 617.1875,
+          "src": "http://127.0.0.1:4208/assets/sj-home-collectible.jpg",
+          "loaded": true,
+          "naturalWidth": 1774,
+          "naturalHeight": 887,
+          "objectPosition": "50% 0%",
+          "objectFit": "cover"
+        },
+        "text": "MADE TO COLLECT.\nMADE TO DISPLAY.\n\nBuild a scent collection that looks as good on your shelf as it feels in your routine.",
+        "mode": "light",
+        "token": "clamp(540px,43vw,650px)",
+        "overflow": false,
+        "elements": [
+          {
+            "tag": "H2",
+            "text": "MADE TO COLLECT.\nMADE TO DISPLAY.",
+            "href": null,
+            "box": {
+              "x": 61.90625,
+              "y": 467.921875,
+              "right": 641.015625,
+              "bottom": 603.015625,
+              "width": 579.109375,
+              "height": 135.09375
+            }
+          },
+          {
+            "tag": "P",
+            "text": "Build a scent collection that looks as good on your shelf as it feels in your routine.",
+            "href": null,
+            "box": {
+              "x": 61.90625,
+              "y": 627.015625,
+              "right": 406.171875,
+              "bottom": 678.015625,
+              "width": 344.265625,
+              "height": 51
+            }
+          }
+        ],
+        "textOverflow": [],
+        "actionCount": 0,
+        "homepageOrder": [
+          "hero",
+          "magnetic_cap",
+          "collectible",
+          "free_shipping",
+          "doorway"
+        ]
+      },
+      "screenshot": "qa/screenshots/home-features/collectible-light-1440.png",
+      "status": "PASS"
+    },
+    {
+      "kind": "shipping",
+      "width": 1440,
+      "theme": "light",
+      "checks": [
+        {
+          "pass": true,
+          "label": "Full viewport width",
+          "data": {
+            "x": 0,
+            "y": 381.5625,
+            "right": 1440,
+            "bottom": 1000.75,
+            "width": 1440,
+            "height": 619.1875
+          }
+        },
+        {
+          "pass": true,
+          "label": "Shared banner height",
+          "data": {
+            "expected": 619.2,
+            "actual": 619.1875
+          }
+        },
+        {
+          "pass": true,
+          "label": "Correct artwork loaded",
+          "data": "http://127.0.0.1:4208/assets/sj-home-free-shipping.jpg"
+        },
+        {
+          "pass": true,
+          "label": "Native 2:1 photograph retained"
+        },
+        {
+          "pass": true,
+          "label": "Photo fills bordered banner"
+        },
+        {
+          "pass": true,
+          "label": "Copy remains inside banner"
+        },
+        {
+          "pass": true,
+          "label": "Heading and supporting copy remain inside banner"
+        },
+        {
+          "pass": true,
+          "label": "No horizontal overflow or clipped text",
+          "data": []
+        },
+        {
+          "pass": true,
+          "label": "Requested mode applies"
+        },
+        {
+          "pass": true,
+          "label": "No links or buttons in the feature",
+          "data": 0
+        },
+        {
+          "pass": true,
+          "label": "Three features precede Women/Men in requested order",
+          "data": [
+            "hero",
+            "magnetic_cap",
+            "collectible",
+            "free_shipping",
+            "doorway"
+          ]
+        },
+        {
+          "pass": true,
+          "label": "Shipping threshold and single-item fee present"
+        },
+        {
+          "pass": true,
+          "label": "No JavaScript errors",
+          "data": []
+        }
+      ],
+      "errors": [],
+      "measurement": {
+        "banner": {
+          "x": 0,
+          "y": 381.5625,
+          "right": 1440,
+          "bottom": 1000.75,
+          "width": 1440,
+          "height": 619.1875
+        },
+        "copy": {
+          "x": 61.90625,
+          "y": 558.4375,
+          "right": 641.015625,
+          "bottom": 823.875,
+          "width": 579.109375,
+          "height": 265.4375
+        },
+        "image": {
+          "x": 0,
+          "y": 382.5625,
+          "right": 1440,
+          "bottom": 999.75,
+          "width": 1440,
+          "height": 617.1875,
+          "src": "http://127.0.0.1:4208/assets/sj-home-free-shipping.jpg",
+          "loaded": true,
+          "naturalWidth": 1774,
+          "naturalHeight": 887,
+          "objectPosition": "50% 0%",
+          "objectFit": "cover"
+        },
+        "text": "FREE SHIPPING.\n\nWhen you order 2 or more items.\n\nShipping fee applies to 1 item.",
+        "mode": "light",
+        "token": "clamp(540px,43vw,650px)",
+        "overflow": false,
+        "elements": [
+          {
+            "tag": "H2",
+            "text": "FREE SHIPPING.",
+            "href": null,
+            "box": {
+              "x": 61.90625,
+              "y": 594.4375,
+              "right": 641.015625,
+              "bottom": 661.984375,
+              "width": 579.109375,
+              "height": 67.546875
+            }
+          },
+          {
+            "tag": "P",
+            "text": "When you order 2 or more items.",
+            "href": null,
+            "box": {
+              "x": 61.90625,
+              "y": 685.984375,
+              "right": 518.515625,
+              "bottom": 722.375,
+              "width": 456.609375,
+              "height": 36.390625
+            }
+          },
+          {
+            "tag": "P",
+            "text": "Shipping fee applies to 1 item.",
+            "href": null,
+            "box": {
+              "x": 61.90625,
+              "y": 736.375,
+              "right": 406.171875,
+              "bottom": 761.875,
+              "width": 344.265625,
+              "height": 25.5
+            }
+          }
+        ],
+        "textOverflow": [],
+        "actionCount": 0,
+        "homepageOrder": [
+          "hero",
+          "magnetic_cap",
+          "collectible",
+          "free_shipping",
+          "doorway"
+        ]
+      },
+      "screenshot": "qa/screenshots/home-features/shipping-light-1440.png",
+      "status": "PASS"
+    },
+    {
+      "kind": "magnetic",
+      "width": 1440,
+      "theme": "dark",
+      "checks": [
+        {
+          "pass": true,
+          "label": "Full viewport width",
+          "data": {
+            "x": 0,
+            "y": 382.1875,
+            "right": 1440,
+            "bottom": 1001.375,
+            "width": 1440,
+            "height": 619.1875
+          }
+        },
+        {
+          "pass": true,
+          "label": "Shared banner height",
+          "data": {
+            "expected": 619.2,
+            "actual": 619.1875
+          }
+        },
+        {
+          "pass": true,
+          "label": "Correct artwork loaded",
+          "data": "http://127.0.0.1:4208/assets/sj-home-magnetic-cap.jpg"
+        },
+        {
+          "pass": true,
+          "label": "Native 2:1 photograph retained"
+        },
+        {
+          "pass": true,
+          "label": "Photo fills bordered banner"
+        },
+        {
+          "pass": true,
+          "label": "Copy remains inside banner"
+        },
+        {
+          "pass": true,
+          "label": "Heading and supporting copy remain inside banner"
+        },
+        {
+          "pass": true,
+          "label": "No horizontal overflow or clipped text",
+          "data": []
+        },
+        {
+          "pass": true,
+          "label": "Requested mode applies"
+        },
+        {
+          "pass": true,
+          "label": "No links or buttons in the feature",
+          "data": 0
+        },
+        {
+          "pass": true,
+          "label": "Three features precede Women/Men in requested order",
+          "data": [
+            "hero",
+            "magnetic_cap",
+            "collectible",
+            "free_shipping",
+            "doorway"
+          ]
+        },
+        {
+          "pass": true,
+          "label": "No JavaScript errors",
+          "data": []
+        }
+      ],
+      "errors": [],
+      "measurement": {
+        "banner": {
+          "x": 0,
+          "y": 382.1875,
+          "right": 1440,
+          "bottom": 1001.375,
+          "width": 1440,
+          "height": 619.1875
+        },
+        "copy": {
+          "x": 61.90625,
+          "y": 554,
+          "right": 641.015625,
+          "bottom": 829.546875,
+          "width": 579.109375,
+          "height": 275.546875
+        },
+        "image": {
+          "x": 0,
+          "y": 383.1875,
+          "right": 1440,
+          "bottom": 1000.375,
+          "width": 1440,
+          "height": 617.1875,
+          "src": "http://127.0.0.1:4208/assets/sj-home-magnetic-cap.jpg",
+          "loaded": true,
+          "naturalWidth": 1774,
+          "naturalHeight": 887,
+          "objectPosition": "50% 0%",
+          "objectFit": "cover"
+        },
+        "text": "A LITTLE DETAIL. A LOVELY FINISH.\n\nMAGNETIC CAP\n\nThe magnetic cap clicks neatly into place. A satisfying finishing touch to your everyday fragrance.",
+        "mode": "dark",
+        "token": "clamp(540px,43vw,650px)",
+        "overflow": false,
+        "elements": [
+          {
+            "tag": "P",
+            "text": "A LITTLE DETAIL. A LOVELY FINISH.",
+            "href": null,
+            "box": {
+              "x": 61.90625,
+              "y": 590,
+              "right": 641.015625,
+              "bottom": 605,
+              "width": 579.109375,
+              "height": 15
+            }
+          },
+          {
+            "tag": "H2",
+            "text": "MAGNETIC CAP",
+            "href": null,
+            "box": {
+              "x": 61.90625,
+              "y": 625,
+              "right": 641.015625,
+              "bottom": 692.546875,
+              "width": 579.109375,
+              "height": 67.546875
+            }
+          },
+          {
+            "tag": "P",
+            "text": "The magnetic cap clicks neatly into place. A satisfying finishing touch to your everyday fragrance.",
+            "href": null,
+            "box": {
+              "x": 61.90625,
+              "y": 716.546875,
+              "right": 406.171875,
+              "bottom": 767.546875,
+              "width": 344.265625,
+              "height": 51
+            }
+          }
+        ],
+        "textOverflow": [],
+        "actionCount": 0,
+        "homepageOrder": [
+          "hero",
+          "magnetic_cap",
+          "collectible",
+          "free_shipping",
+          "doorway"
+        ]
+      },
+      "screenshot": "qa/screenshots/home-features/magnetic-dark-1440.png",
+      "status": "PASS"
+    },
+    {
+      "kind": "collectible",
+      "width": 1440,
+      "theme": "dark",
+      "checks": [
+        {
+          "pass": true,
+          "label": "Full viewport width",
+          "data": {
+            "x": 0,
+            "y": 276.375,
+            "right": 1440,
+            "bottom": 895.5625,
+            "width": 1440,
+            "height": 619.1875
+          }
+        },
+        {
+          "pass": true,
+          "label": "Shared banner height",
+          "data": {
+            "expected": 619.2,
+            "actual": 619.1875
+          }
+        },
+        {
+          "pass": true,
+          "label": "Correct artwork loaded",
+          "data": "http://127.0.0.1:4208/assets/sj-home-collectible.jpg"
+        },
+        {
+          "pass": true,
+          "label": "Native 2:1 photograph retained"
+        },
+        {
+          "pass": true,
+          "label": "Photo fills bordered banner"
+        },
+        {
+          "pass": true,
+          "label": "Copy remains inside banner"
+        },
+        {
+          "pass": true,
+          "label": "Heading and supporting copy remain inside banner"
+        },
+        {
+          "pass": true,
+          "label": "No horizontal overflow or clipped text",
+          "data": []
+        },
+        {
+          "pass": true,
+          "label": "Requested mode applies"
+        },
+        {
+          "pass": true,
+          "label": "No links or buttons in the feature",
+          "data": 0
+        },
+        {
+          "pass": true,
+          "label": "Three features precede Women/Men in requested order",
+          "data": [
+            "hero",
+            "magnetic_cap",
+            "collectible",
+            "free_shipping",
+            "doorway"
+          ]
+        },
+        {
+          "pass": true,
+          "label": "No JavaScript errors",
+          "data": []
+        }
+      ],
+      "errors": [],
+      "measurement": {
+        "banner": {
+          "x": 0,
+          "y": 276.375,
+          "right": 1440,
+          "bottom": 895.5625,
+          "width": 1440,
+          "height": 619.1875
+        },
+        "copy": {
+          "x": 61.90625,
+          "y": 431.921875,
+          "right": 641.015625,
+          "bottom": 740.015625,
+          "width": 579.109375,
+          "height": 308.09375
+        },
+        "image": {
+          "x": 0,
+          "y": 277.375,
+          "right": 1440,
+          "bottom": 894.5625,
+          "width": 1440,
+          "height": 617.1875,
+          "src": "http://127.0.0.1:4208/assets/sj-home-collectible.jpg",
+          "loaded": true,
+          "naturalWidth": 1774,
+          "naturalHeight": 887,
+          "objectPosition": "50% 0%",
+          "objectFit": "cover"
+        },
+        "text": "MADE TO COLLECT.\nMADE TO DISPLAY.\n\nBuild a scent collection that looks as good on your shelf as it feels in your routine.",
+        "mode": "dark",
+        "token": "clamp(540px,43vw,650px)",
+        "overflow": false,
+        "elements": [
+          {
+            "tag": "H2",
+            "text": "MADE TO COLLECT.\nMADE TO DISPLAY.",
+            "href": null,
+            "box": {
+              "x": 61.90625,
+              "y": 467.921875,
+              "right": 641.015625,
+              "bottom": 603.015625,
+              "width": 579.109375,
+              "height": 135.09375
+            }
+          },
+          {
+            "tag": "P",
+            "text": "Build a scent collection that looks as good on your shelf as it feels in your routine.",
+            "href": null,
+            "box": {
+              "x": 61.90625,
+              "y": 627.015625,
+              "right": 406.171875,
+              "bottom": 678.015625,
+              "width": 344.265625,
+              "height": 51
+            }
+          }
+        ],
+        "textOverflow": [],
+        "actionCount": 0,
+        "homepageOrder": [
+          "hero",
+          "magnetic_cap",
+          "collectible",
+          "free_shipping",
+          "doorway"
+        ]
+      },
+      "screenshot": "qa/screenshots/home-features/collectible-dark-1440.png",
+      "status": "PASS"
+    },
+    {
+      "kind": "shipping",
+      "width": 1440,
+      "theme": "dark",
+      "checks": [
+        {
+          "pass": true,
+          "label": "Full viewport width",
+          "data": {
+            "x": 0,
+            "y": 381.5625,
+            "right": 1440,
+            "bottom": 1000.75,
+            "width": 1440,
+            "height": 619.1875
+          }
+        },
+        {
+          "pass": true,
+          "label": "Shared banner height",
+          "data": {
+            "expected": 619.2,
+            "actual": 619.1875
+          }
+        },
+        {
+          "pass": true,
+          "label": "Correct artwork loaded",
+          "data": "http://127.0.0.1:4208/assets/sj-home-free-shipping.jpg"
+        },
+        {
+          "pass": true,
+          "label": "Native 2:1 photograph retained"
+        },
+        {
+          "pass": true,
+          "label": "Photo fills bordered banner"
+        },
+        {
+          "pass": true,
+          "label": "Copy remains inside banner"
+        },
+        {
+          "pass": true,
+          "label": "Heading and supporting copy remain inside banner"
+        },
+        {
+          "pass": true,
+          "label": "No horizontal overflow or clipped text",
+          "data": []
+        },
+        {
+          "pass": true,
+          "label": "Requested mode applies"
+        },
+        {
+          "pass": true,
+          "label": "No links or buttons in the feature",
+          "data": 0
+        },
+        {
+          "pass": true,
+          "label": "Three features precede Women/Men in requested order",
+          "data": [
+            "hero",
+            "magnetic_cap",
+            "collectible",
+            "free_shipping",
+            "doorway"
+          ]
+        },
+        {
+          "pass": true,
+          "label": "Shipping threshold and single-item fee present"
+        },
+        {
+          "pass": true,
+          "label": "No JavaScript errors",
+          "data": []
+        }
+      ],
+      "errors": [],
+      "measurement": {
+        "banner": {
+          "x": 0,
+          "y": 381.5625,
+          "right": 1440,
+          "bottom": 1000.75,
+          "width": 1440,
+          "height": 619.1875
+        },
+        "copy": {
+          "x": 61.90625,
+          "y": 558.4375,
+          "right": 641.015625,
+          "bottom": 823.875,
+          "width": 579.109375,
+          "height": 265.4375
+        },
+        "image": {
+          "x": 0,
+          "y": 382.5625,
+          "right": 1440,
+          "bottom": 999.75,
+          "width": 1440,
+          "height": 617.1875,
+          "src": "http://127.0.0.1:4208/assets/sj-home-free-shipping.jpg",
+          "loaded": true,
+          "naturalWidth": 1774,
+          "naturalHeight": 887,
+          "objectPosition": "50% 0%",
+          "objectFit": "cover"
+        },
+        "text": "FREE SHIPPING.\n\nWhen you order 2 or more items.\n\nShipping fee applies to 1 item.",
+        "mode": "dark",
+        "token": "clamp(540px,43vw,650px)",
+        "overflow": false,
+        "elements": [
+          {
+            "tag": "H2",
+            "text": "FREE SHIPPING.",
+            "href": null,
+            "box": {
+              "x": 61.90625,
+              "y": 594.4375,
+              "right": 641.015625,
+              "bottom": 661.984375,
+              "width": 579.109375,
+              "height": 67.546875
+            }
+          },
+          {
+            "tag": "P",
+            "text": "When you order 2 or more items.",
+            "href": null,
+            "box": {
+              "x": 61.90625,
+              "y": 685.984375,
+              "right": 518.515625,
+              "bottom": 722.375,
+              "width": 456.609375,
+              "height": 36.390625
+            }
+          },
+          {
+            "tag": "P",
+            "text": "Shipping fee applies to 1 item.",
+            "href": null,
+            "box": {
+              "x": 61.90625,
+              "y": 736.375,
+              "right": 406.171875,
+              "bottom": 761.875,
+              "width": 344.265625,
+              "height": 25.5
+            }
+          }
+        ],
+        "textOverflow": [],
+        "actionCount": 0,
+        "homepageOrder": [
+          "hero",
+          "magnetic_cap",
+          "collectible",
+          "free_shipping",
+          "doorway"
+        ]
+      },
+      "screenshot": "qa/screenshots/home-features/shipping-dark-1440.png",
+      "status": "PASS"
+    }
+  ],
+  "failures": [],
+  "artworkInventory": {
+    "count": 97,
+    "uniqueFiles": 97,
+    "groups": {
+      "gallery": 72,
+      "campaign": 16,
+      "productBanners": 6,
+      "homeFeatures": 3
+    },
+    "hashMismatches": []
+  },
+  "summary": {
+    "status": "PASS",
+    "cases": 24,
+    "checks": 308,
+    "failures": 0
+  }
+}

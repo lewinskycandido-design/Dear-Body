@@ -1,0 +1,38 @@
+[
+  {
+    "theme": "light",
+    "button": {
+      "top": 539.59375,
+      "bottom": 591.59375,
+      "left": 248.265625,
+      "right": 368,
+      "disabled": false
+    },
+    "switcher": {
+      "top": 788,
+      "bottom": 832
+    },
+    "allTestPointsHitButton": true,
+    "overlapsSwitcher": false,
+    "advancedToMood": true,
+    "pass": true
+  },
+  {
+    "theme": "dark",
+    "button": {
+      "top": 539.59375,
+      "bottom": 591.59375,
+      "left": 248.265625,
+      "right": 368,
+      "disabled": false
+    },
+    "switcher": {
+      "top": 788,
+      "bottom": 832
+    },
+    "allTestPointsHitButton": true,
+    "overlapsSwitcher": false,
+    "advancedToMood": true,
+    "pass": true
+  }
+]

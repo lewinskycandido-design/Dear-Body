@@ -1,0 +1,11 @@
+{
+  "sections": {
+    "main": {
+      "type": "sj-story",
+      "settings": {}
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

@@ -1,0 +1,104 @@
+{% liquid
+  assign light_src = 'sj-hero-light.jpg' | asset_url
+  assign dark_src = 'sj-hero-dark.jpg' | asset_url
+  assign mobile_light = 'sj-hero-mobile-light.jpg' | asset_url
+  assign mobile_dark = 'sj-hero-mobile-dark.jpg' | asset_url
+  if section.settings.image_light != blank
+    assign light_src = section.settings.image_light | image_url: width: 2000
+  endif
+  if section.settings.image_dark != blank
+    assign dark_src = section.settings.image_dark | image_url: width: 2000
+  endif
+  if section.settings.mobile_light != blank
+    assign mobile_light = section.settings.mobile_light | image_url: width: 900
+  endif
+  if section.settings.mobile_dark != blank
+    assign mobile_dark = section.settings.mobile_dark | image_url: width: 900
+  endif
+  assign current_src = light_src
+  assign current_mobile = mobile_light
+  if settings.visual_theme == 'dark'
+    assign current_src = dark_src
+    assign current_mobile = mobile_dark
+  endif
+%}
+<section class="sj-hero sj-container" style="padding-top:{{ section.settings.space_top }}px">
+<div class="sj-hero-intro"><div><p class="sj-eyebrow">{{ section.settings.eyebrow | escape }}</p><h1>{{ section.settings.heading | escape | newline_to_br }}</h1></div><div class="sj-hero-description"><p>{{ section.settings.description | escape }}</p><div class="sj-hero-actions"><a class="sj-button" href="{{ settings.women_collection.url | default: '/collections/womens-perfume' }}">{{ section.settings.women_label | escape }} <span aria-hidden="true">↗</span></a><a class="sj-button sj-button--secondary" href="{{ settings.men_collection.url | default: '/collections/mens-perfume' }}">{{ section.settings.men_label | escape }} <span aria-hidden="true">↗</span></a></div><a class="sj-text-link" href="{{ settings.finder_url | default: '/pages/scent-finder' }}">Find my scent <span aria-hidden="true">→</span></a></div></div>
+<div class="sj-hero-image">
+{% if settings.compare_mode %}<template data-sj-hero-template><picture><source media="(max-width:760px)" data-srcset="{{ current_mobile }}" data-sj-themed-source data-light-srcset="{{ mobile_light }}" data-dark-srcset="{{ mobile_dark }}"><img data-sj-themed-image data-light-src="{{ light_src }}" data-dark-src="{{ dark_src }}" data-src="{{ current_src }}" alt="Six DearBody launch fragrances on warm sculptural studio pedestals" width="1680" height="936" fetchpriority="high" loading="eager"></picture></template>
+<script>(()=>{const t=document.currentScript.previousElementSibling,p=t.content.cloneNode(true),m=document.documentElement.dataset.theme;p.querySelectorAll('source').forEach(s=>s.srcset=s.dataset[m+'Srcset']||s.dataset.srcset);p.querySelectorAll('img').forEach(i=>i.src=i.dataset[m+'Src']||i.dataset.src);t.replaceWith(p)})();</script><noscript><picture><source media="(max-width:760px)" srcset="{{ current_mobile }}" data-sj-themed-source data-light-srcset="{{ mobile_light }}" data-dark-srcset="{{ mobile_dark }}"><img data-sj-themed-image data-light-src="{{ light_src }}" data-dark-src="{{ dark_src }}" src="{{ current_src }}" alt="Six DearBody launch fragrances on warm sculptural studio pedestals" width="1680" height="936" fetchpriority="high" loading="eager"></picture></noscript>{% else %}<picture><source media="(max-width:760px)" srcset="{{ current_mobile }}" data-sj-themed-source data-light-srcset="{{ mobile_light }}" data-dark-srcset="{{ mobile_dark }}"><img data-sj-themed-image data-light-src="{{ light_src }}" data-dark-src="{{ dark_src }}" src="{{ current_src }}" alt="Six DearBody launch fragrances on warm sculptural studio pedestals" width="1680" height="936" fetchpriority="high" loading="eager"></picture>{% endif %}
+</div>
+<div class="sj-hero-caption"><span>01 / THE FIRST CHAPTER</span><span>London character <span class="sj-star" aria-hidden="true">✳</span> Filipino soul</span><span>Six scents. Endless possibilities.</span></div>
+</section>
+{% schema %}
+{
+  "name": "Journey campaign hero",
+  "settings": [
+    {
+      "type": "text",
+      "id": "eyebrow",
+      "label": "Eyebrow",
+      "default": "DEARBODY PHILIPPINES"
+    },
+    {
+      "type": "textarea",
+      "id": "heading",
+      "label": "Heading",
+      "default": "BEGIN YOUR\nSCENT JOURNEY."
+    },
+    {
+      "type": "textarea",
+      "id": "description",
+      "label": "Description",
+      "default": "London-formulated fragrances thoughtfully curated for Filipino tastes, lifestyles, and everyday moments."
+    },
+    {
+      "type": "text",
+      "id": "women_label",
+      "label": "Women CTA",
+      "default": "Shop women"
+    },
+    {
+      "type": "text",
+      "id": "men_label",
+      "label": "Men CTA",
+      "default": "Shop men"
+    },
+    {
+      "type": "image_picker",
+      "id": "image_light",
+      "label": "Light desktop image"
+    },
+    {
+      "type": "image_picker",
+      "id": "image_dark",
+      "label": "Dark desktop image"
+    },
+    {
+      "type": "image_picker",
+      "id": "mobile_light",
+      "label": "Light mobile image"
+    },
+    {
+      "type": "image_picker",
+      "id": "mobile_dark",
+      "label": "Dark mobile image"
+    },
+    {
+      "type": "range",
+      "id": "space_top",
+      "min": 24,
+      "max": 96,
+      "step": 4,
+      "unit": "px",
+      "label": "Top spacing",
+      "default": 48
+    }
+  ],
+  "presets": [
+    {
+      "name": "Journey campaign hero"
+    }
+  ]
+}
+{% endschema %}

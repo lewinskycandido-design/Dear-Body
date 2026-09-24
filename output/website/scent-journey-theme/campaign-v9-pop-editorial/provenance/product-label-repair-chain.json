@@ -1,0 +1,101 @@
+{
+  "scope": "Label-only ImageGen repairs. Original compositions retained; prior candidates archived in attempts.",
+  "assets": [
+    {
+      "handle": "mojito-metallique",
+      "final_path": "/Users/wetrade/.codex/generated_images/01a0d0f9-5b11-7093-89c7-17bb545fc7bb/exec-086cbbc1-6a40-4c4c-871d-42e084ef07c8.png",
+      "before_label_path": "/Users/wetrade/.codex/generated_images/01a0d0f9-5b11-7093-89c7-17bb545fc7bb/exec-278c8d58-fab9-4558-b174-c0630a8adf85.png",
+      "history": {
+        "operation": "Targeted physical-label lettering repair after native close-up QA",
+        "prompt_file": "prompts/sj-product-banner-mojito-metallique-label-revision.txt",
+        "exact_prompt": "Use case: precise-object-edit. Image1 is the accepted full photographic banner. Correct ONLY the tiny physical perfume label lettering; keep every other scene element unchanged: model identity/expression, arms/hands/grip, gesture, bottle size/shape/liquid/cap/location, wardrobe, accessories, framing, top headroom, architecture, sunshine, colors. No zoom or recomposition. Image2 is the raw SKU identity reference, image3 canonical geometry only. The current label contains malformed small letters; carefully reprint exact name in BLACK bold serif on WHITE label.\nExact TWO lines, slash denotes linebreak: \"MOJITO / METALLIQUE\". Spell exactly: M O J I T O   /   M E T A L L I Q U E. Preserve exact circumflex ifpresent. Under scentname put original small ParfumLondon emblem and exact PARFUM / LONDON wording, original layout. Give scent letters the largest faithful size within the original label area so their real characters resolve cleanly. It MUST be the exact supplied name, not approximate shapes. Preserve golden-yellow transparent liquid. One real50mltallglassbottle with plainblackcap, no otherproducts. No overlayadvertising or newtype elsewhere. One adult Filipina only, exact same composition. Outputsame2:1landscape1774x887PNG.",
+        "references": [
+          "/Users/wetrade/.codex/generated_images/01a0d0f9-5b11-7093-89c7-17bb545fc7bb/exec-278c8d58-fab9-4558-b174-c0630a8adf85.png",
+          "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/refined-reference-images/raw-reference-archive/db-original-mojito-metallique.jpg",
+          "/Users/wetrade/.codex/skills/dearbody-scent-gallery/assets/canonical-bottle-proportions.png"
+        ],
+        "generated_source": "/Users/wetrade/.codex/generated_images/01a0d0f9-5b11-7093-89c7-17bb545fc7bb/exec-086cbbc1-6a40-4c4c-871d-42e084ef07c8.png"
+      }
+    },
+    {
+      "handle": "amber-oud-silk",
+      "final_path": "/Users/wetrade/.codex/generated_images/01a0d0f9-5b11-7093-89c7-17bb545fc7bb/exec-1b321a75-f6bd-45ec-85f4-4a3836f5b599.png",
+      "before_label_path": "/Users/wetrade/.codex/generated_images/01a0d0f9-5b11-7093-89c7-17bb545fc7bb/exec-c872abd2-a703-4d67-96f9-b7dbd1b38532.png",
+      "history": {
+        "operation": "Targeted physical-label lettering repair after native close-up QA",
+        "prompt_file": "prompts/sj-product-banner-amber-oud-silk-label-revision.txt",
+        "exact_prompt": "Use case: precise-object-edit. Image1 is the accepted full photographic banner. Correct ONLY the tiny physical perfume label lettering; keep every other scene element unchanged: model identity/expression, arms/hands/grip, gesture, bottle size/shape/liquid/cap/location, wardrobe, accessories, framing, top headroom, architecture, sunshine, colors. No zoom or recomposition. Image2 is the raw SKU identity reference, image3 canonical geometry only. The current label contains malformed small letters; carefully reprint exact name in BLACK bold serif on WHITE label.\nExact TWO lines, slash denotes linebreak: \"AMBER OUD / SILK\". Spell exactly: A M B E R   O U D   /   S I L K. Preserve exact circumflex ifpresent. Under scentname put original small ParfumLondon emblem and exact PARFUM / LONDON wording, original layout. Give scent letters the largest faithful size within the original label area so their real characters resolve cleanly. It MUST be the exact supplied name, not approximate shapes. Preserve pale peach transparent liquid. One real50mltallglassbottle with plainblackcap, no otherproducts. No overlayadvertising or newtype elsewhere. One adult Filipina only, exact same composition. Outputsame2:1landscape1774x887PNG.",
+        "references": [
+          "/Users/wetrade/.codex/generated_images/01a0d0f9-5b11-7093-89c7-17bb545fc7bb/exec-c872abd2-a703-4d67-96f9-b7dbd1b38532.png",
+          "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/refined-reference-images/raw-reference-archive/db-original-amber-oud-silk.jpg",
+          "/Users/wetrade/.codex/skills/dearbody-scent-gallery/assets/canonical-bottle-proportions.png"
+        ],
+        "generated_source": "/Users/wetrade/.codex/generated_images/01a0d0f9-5b11-7093-89c7-17bb545fc7bb/exec-1b321a75-f6bd-45ec-85f4-4a3836f5b599.png"
+      }
+    },
+    {
+      "handle": "mistened-narcissus",
+      "final_path": "/Users/wetrade/.codex/generated_images/01a0d0f9-5b11-7093-89c7-17bb545fc7bb/exec-9c2afccf-389f-48da-ad0b-d458e14bac84.png",
+      "before_label_path": "/Users/wetrade/.codex/generated_images/01a0d0f9-5b11-7093-89c7-17bb545fc7bb/exec-0a1dfb77-1f84-4116-a77b-8d9010d78772.png",
+      "history": {
+        "operation": "Targeted physical-label lettering repair after native close-up QA",
+        "prompt_file": "prompts/sj-product-banner-mistened-narcissus-label-revision.txt",
+        "exact_prompt": "Use case: precise-object-edit. Image1 is the accepted full photographic banner. Correct ONLY the tiny physical perfume label lettering; keep every other scene element unchanged: model identity/expression, arms/hands/grip, gesture, bottle size/shape/liquid/cap/location, wardrobe, accessories, framing, top headroom, architecture, sunshine, colors. No zoom or recomposition. Image2 is the raw SKU identity reference, image3 canonical geometry only. The current label contains malformed small letters; carefully reprint exact name in BLACK bold serif on WHITE label.\nExact TWO lines, slash denotes linebreak: \"MISTENED / NARCISSUS\". Spell exactly: M I S T E N E D   /   N A R C I S S U S. Preserve exact circumflex ifpresent. Under scentname put original small ParfumLondon emblem and exact PARFUM / LONDON wording, original layout. Give scent letters the largest faithful size within the original label area so their real characters resolve cleanly. It MUST be the exact supplied name, not approximate shapes. Preserve clear colorless transparent liquid. One real50mltallglassbottle with plainblackcap, no otherproducts. No overlayadvertising or newtype elsewhere. One adult Filipina only, exact same composition. Outputsame2:1landscape1774x887PNG.",
+        "references": [
+          "/Users/wetrade/.codex/generated_images/01a0d0f9-5b11-7093-89c7-17bb545fc7bb/exec-0a1dfb77-1f84-4116-a77b-8d9010d78772.png",
+          "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/refined-reference-images/raw-reference-archive/db-original-mistened-narcissus.jpg",
+          "/Users/wetrade/.codex/skills/dearbody-scent-gallery/assets/canonical-bottle-proportions.png"
+        ],
+        "generated_source": "/Users/wetrade/.codex/generated_images/01a0d0f9-5b11-7093-89c7-17bb545fc7bb/exec-9c2afccf-389f-48da-ad0b-d458e14bac84.png"
+      }
+    },
+    {
+      "handle": "charme-envoutant",
+      "final_path": "/Users/wetrade/.codex/generated_images/01a0d0f9-5b11-7093-89c7-17bb545fc7bb/exec-99dd7c0c-79fc-4f19-bc0d-818ae863ba17.png",
+      "before_label_path": "/Users/wetrade/.codex/generated_images/01a0d0f9-5b11-7093-89c7-17bb545fc7bb/exec-30692433-3d56-43b6-b707-2c453e8cba48.png",
+      "history": {
+        "operation": "Targeted physical-label lettering repair after native close-up QA",
+        "prompt_file": "prompts/sj-product-banner-charme-envoutant-label-revision.txt",
+        "exact_prompt": "Use case: precise-object-edit. Image1 is the accepted full photographic banner. Correct ONLY the tiny physical perfume label lettering; keep every other scene element unchanged: model identity/expression, arms/hands/grip, gesture, bottle size/shape/liquid/cap/location, wardrobe, accessories, framing, top headroom, architecture, sunshine, colors. No zoom or recomposition. Image2 is the raw SKU identity reference, image3 canonical geometry only. The current label contains malformed small letters; carefully reprint exact name in WHITE bold serif on BLACK label.\nExact TWO lines, slash denotes linebreak: \"CHARME / ENVOÛTANT\". Spell exactly: C H A R M E   /   E N V O Û T A N T. Preserve exact circumflex ifpresent. Under scentname put original small ParfumLondon emblem and exact PARFUM / LONDON wording, original layout. Give scent letters the largest faithful size within the original label area so their real characters resolve cleanly. It MUST be the exact supplied name, not approximate shapes. Preserve amber-orange transparent liquid. One real50mltallglassbottle with plainblackcap, no otherproducts. No overlayadvertising or newtype elsewhere. One adult Filipino man only, exact same composition. Outputsame2:1landscape1774x887PNG.",
+        "references": [
+          "/Users/wetrade/.codex/generated_images/01a0d0f9-5b11-7093-89c7-17bb545fc7bb/exec-30692433-3d56-43b6-b707-2c453e8cba48.png",
+          "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/refined-reference-images/raw-reference-archive/db-original-charme-envoutant.jpg",
+          "/Users/wetrade/.codex/skills/dearbody-scent-gallery/assets/canonical-bottle-proportions.png"
+        ],
+        "generated_source": "/Users/wetrade/.codex/generated_images/01a0d0f9-5b11-7093-89c7-17bb545fc7bb/exec-99dd7c0c-79fc-4f19-bc0d-818ae863ba17.png"
+      }
+    },
+    {
+      "handle": "oud-mirage",
+      "final_path": "/Users/wetrade/.codex/generated_images/01a0d0f9-5b11-7093-89c7-17bb545fc7bb/exec-43453a0a-679f-4073-a6e9-a22f383b68a1.png",
+      "before_label_path": "/Users/wetrade/.codex/generated_images/01a0d0f9-5b11-7093-89c7-17bb545fc7bb/exec-be5f977f-86ed-449e-af5c-92513948358d.png",
+      "history": {
+        "operation": "Targeted physical-label lettering repair after native close-up QA",
+        "prompt_file": "prompts/sj-product-banner-oud-mirage-label-revision.txt",
+        "exact_prompt": "Use case: precise-object-edit. FIRST IMAGE is the full banner EDIT TARGET. Preserve the entire accepted photograph exactly: same man, exact face/expression, hair, hands/grip, wardrobe, accessory, background, lighting, camera crop, headroom, bottle position/size/shape/cap/liquid and all scene details. ONLY correct the physical BLACK label's white typography to match the second authoritative raw SKU reference. Third image is canonical geometry only: do not change geometry or copy Sunset Cocktail. Existing label letters are malformed and must be replaced accurately.\nEXACT label: OUD MIRAGE in clear uppercase WHITE bold serif, one line like the raw product. Spell every character exactly: O U D   M I R A G E. It must be readable as OUD MIRAGE, never other letters, no 6 substituted for &. Below retain original small white emblem and exact PARFUM over LONDON, faithful original label layout. Keep BLACK label and every other bottle detail. In raw image use ONLY rightmost blue OUD MIRAGE, not the other two scents. Do not enlarge bottle or add floating callout. Corrected printing stays physically on bottle with correct light/perspective, no pasted sticker edge. Do not soften or recompose scene. Exactly one adult Filipino man and one small50mlbottle. Same2:1landscape1774x887PNG.",
+        "references": [
+          "/Users/wetrade/.codex/generated_images/01a0d0f9-5b11-7093-89c7-17bb545fc7bb/exec-be5f977f-86ed-449e-af5c-92513948358d.png",
+          "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/refined-reference-images/raw-reference-archive/db-original-for-him.jpg",
+          "/Users/wetrade/.codex/skills/dearbody-scent-gallery/assets/canonical-bottle-proportions.png"
+        ],
+        "generated_source": "/Users/wetrade/.codex/generated_images/01a0d0f9-5b11-7093-89c7-17bb545fc7bb/exec-43453a0a-679f-4073-a6e9-a22f383b68a1.png"
+      }
+    },
+    {
+      "handle": "rtulle-satin",
+      "final_path": "/Users/wetrade/.codex/generated_images/01a0d0f9-5b11-7093-89c7-17bb545fc7bb/exec-25181188-99ff-4a07-b081-6c6ab56ff303.png",
+      "before_label_path": "/Users/wetrade/.codex/generated_images/01a0d0f9-5b11-7093-89c7-17bb545fc7bb/exec-708d04de-67ce-4a9f-96bc-4f690d0427c0.png",
+      "history": {
+        "operation": "Targeted physical-label lettering repair after native close-up QA",
+        "prompt_file": "prompts/sj-product-banner-rtulle-satin-label-revision.txt",
+        "exact_prompt": "Use case: precise-object-edit. FIRST IMAGE is the full banner EDIT TARGET. Preserve the entire accepted photograph exactly: same man, exact face/expression, hair, hands/grip, wardrobe, accessory, background, lighting, camera crop, headroom, bottle position/size/shape/cap/liquid and all scene details. ONLY correct the physical BLACK label's white typography to match the second authoritative raw SKU reference. Third image is canonical geometry only: do not change geometry or copy Sunset Cocktail. Existing label letters are malformed and must be replaced accurately.\nEXACT label: RTULLE & SATIN in clear uppercase WHITE bold serif, one line like the raw product. Spell every character exactly: R T U L L E   &   S A T I N. It must be readable as RTULLE & SATIN, never other letters, no 6 substituted for &. Below retain original small white emblem and exact PARFUM over LONDON, faithful original label layout. Keep BLACK label and every other bottle detail.  Do not enlarge bottle or add floating callout. Corrected printing stays physically on bottle with correct light/perspective, no pasted sticker edge. Do not soften or recompose scene. Exactly one adult Filipino man and one small50mlbottle. Same2:1landscape1774x887PNG.",
+        "references": [
+          "/Users/wetrade/.codex/generated_images/01a0d0f9-5b11-7093-89c7-17bb545fc7bb/exec-708d04de-67ce-4a9f-96bc-4f690d0427c0.png",
+          "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/refined-reference-images/raw-reference-archive/db-original-rtulle-and-satin.jpg",
+          "/Users/wetrade/.codex/skills/dearbody-scent-gallery/assets/canonical-bottle-proportions.png"
+        ],
+        "generated_source": "/Users/wetrade/.codex/generated_images/01a0d0f9-5b11-7093-89c7-17bb545fc7bb/exec-25181188-99ff-4a07-b081-6c6ab56ff303.png"
+      }
+    }
+  ]
+}

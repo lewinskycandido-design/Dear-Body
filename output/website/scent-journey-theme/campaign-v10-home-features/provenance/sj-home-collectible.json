@@ -1,0 +1,114 @@
+{
+  "asset": "sj-home-collectible",
+  "status": "PASS",
+  "scope": "One new homepage collectible/display-worthy still-life feature. No existing gallery images, website code, theme assets, manifests or ZIPs changed.",
+  "created_date": "2026-09-24",
+  "tool": "Built-in image_gen.imagegen",
+  "skills": [
+    "/Users/wetrade/.codex/skills/.system/imagegen/SKILL.md",
+    "/Users/wetrade/.codex/skills/dearbody-scent-gallery/SKILL.md"
+  ],
+  "skill_scope": "Applied physical identity, canonical geometry and native visual QA requirements. User's one-banner scope supersedes the 12-image gallery architecture.",
+  "output": {
+    "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/campaign-v10-home-features/originals/sj-home-collectible.png",
+    "width": 1774,
+    "height": 887,
+    "aspect_ratio": "2:1",
+    "format": "PNG",
+    "color_space": "RGB",
+    "embedded_profile": null,
+    "sha256": "4f78c7ca0d2b716bb6ef277e3bf42318705933244cefd6a10f6c435fec741bc2",
+    "note": "Native generated pixels; no resizing or raster editing outside ImageGen. Root owns JPEG export/profile assignment and integration."
+  },
+  "alt": "Mojito Metallique and Amber Oud Silk bottles with matching yellow and peach canisters displayed on a sunny cobalt vanity beside a scarlet jewelry dish.",
+  "references": [
+    {
+      "path": "/Users/wetrade/Downloads/IMG_20260922_162332.jpg",
+      "role": "Physical capped Mojito bottle and label authority",
+      "inspected": true
+    },
+    {
+      "path": "/Users/wetrade/Downloads/IMG_20260922_162217.jpg",
+      "role": "Physical closed Mojito canister authority",
+      "inspected": true
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/amber-oud-silk/source/IMG_20260922_145042.jpg",
+      "role": "Physical capped Amber bottle and label authority",
+      "inspected": true
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/amber-oud-silk/source/IMG_20260922_134438.jpg",
+      "role": "Physical closed Amber canister authority",
+      "inspected": true
+    },
+    {
+      "path": "/Users/wetrade/.codex/skills/dearbody-scent-gallery/assets/canonical-bottle-proportions.png",
+      "role": "Canonical bottle shape and scale only; no transfer of Sunset Cocktail identity",
+      "inspected": true
+    }
+  ],
+  "generation_chain": [
+    {
+      "attempt": 1,
+      "prompt_file": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/campaign-v10-home-features/prompts/sj-home-collectible.txt",
+      "source": "/Users/wetrade/.codex/generated_images/01a0d0f9-5b11-7093-89c7-17bb545fc7bb/exec-35afd998-8340-4ba4-8376-e9e6d0d0bea6.png",
+      "archive": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/campaign-v10-home-features/attempts/sj-home-collectible-attempt-01.png",
+      "references": [
+        "/Users/wetrade/Downloads/IMG_20260922_162332.jpg",
+        "/Users/wetrade/Downloads/IMG_20260922_162217.jpg",
+        "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/amber-oud-silk/source/IMG_20260922_145042.jpg",
+        "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/amber-oud-silk/source/IMG_20260922_134438.jpg",
+        "/Users/wetrade/.codex/skills/dearbody-scent-gallery/assets/canonical-bottle-proportions.png"
+      ],
+      "status": "SUPERSEDED",
+      "reason": "Good physical identity and labels; four-product group too wide for a narrow mobile crop."
+    },
+    {
+      "attempt": 2,
+      "prompt_file": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/campaign-v10-home-features/prompts/sj-home-collectible-composition-repair.txt",
+      "source": "/Users/wetrade/.codex/generated_images/01a0d0f9-5b11-7093-89c7-17bb545fc7bb/exec-fa0fa504-2699-4b5d-9d84-fa360eb38853.png",
+      "archive": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/campaign-v10-home-features/attempts/sj-home-collectible-attempt-02.png",
+      "references": [
+        "/Users/wetrade/.codex/generated_images/01a0d0f9-5b11-7093-89c7-17bb545fc7bb/exec-35afd998-8340-4ba4-8376-e9e6d0d0bea6.png",
+        "/Users/wetrade/Downloads/IMG_20260922_162332.jpg",
+        "/Users/wetrade/Downloads/IMG_20260922_162217.jpg",
+        "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/amber-oud-silk/source/IMG_20260922_134438.jpg",
+        "/Users/wetrade/.codex/skills/dearbody-scent-gallery/assets/canonical-bottle-proportions.png"
+      ],
+      "status": "SUPERSEDED",
+      "reason": "Group narrowed and lifted on coherent cobalt step; still too wide at320px."
+    },
+    {
+      "attempt": 3,
+      "prompt_file": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/campaign-v10-home-features/prompts/sj-home-collectible-narrow-crop-repair.txt",
+      "source": "/Users/wetrade/.codex/generated_images/01a0d0f9-5b11-7093-89c7-17bb545fc7bb/exec-a1689bda-9359-4244-bd8b-cede67b6eaf0.png",
+      "references": [
+        "/Users/wetrade/.codex/generated_images/01a0d0f9-5b11-7093-89c7-17bb545fc7bb/exec-fa0fa504-2699-4b5d-9d84-fa360eb38853.png",
+        "/Users/wetrade/Downloads/IMG_20260922_162332.jpg",
+        "/Users/wetrade/Downloads/IMG_20260922_162217.jpg",
+        "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/amber-oud-silk/source/IMG_20260922_134438.jpg",
+        "/Users/wetrade/.codex/skills/dearbody-scent-gallery/assets/canonical-bottle-proportions.png"
+      ],
+      "status": "ACCEPTED",
+      "reason": "Native labels preserved, coherent shelf display, two bottles plus two closed canisters remain identifiable in narrow crop."
+    }
+  ],
+  "tool_note": "One attempted repair call with six input paths was rejected before generation by the tool's five-reference limit. The actual successful repair used target+Mojito bottle+both closed canisters+canonical geometry; original Amber bottle identity remained in the edit target.",
+  "qa": {
+    "native_view": "Inspected final1774x887 output and read-only3× browser enlargement.",
+    "bottles": "PASS: exactly two realistic small50ml straight cylindrical glass bottles, compact glossy-black caps, thin collar below seated cap, thick clear bases. Mojito golden-yellow and Amber pale peach liquids remain distinct.",
+    "canisters": "PASS: exactly two matching closed cylindrical packages, yellow Mojito and peach Amber, black solid tops and narrow rims, lower seams and black bottoms. Both product names visible.",
+    "names": "PASS: MOJITO / METALLIQUE and AMBER OUD / SILK read correctly on both bottle and package labels.",
+    "microprint_limit": "DearBody-mark/PARFUM/LONDON hierarchy is visually retained. Native small bottom print is only several pixels high; this is campaign imagery, and perfect legal/microprint reproduction is not claimed.",
+    "scene": "PASS: cream plaster wall, cobalt vanity and step with coherent support/contact shadows, scarlet ring dish and gold jewelry, sunlit warm approachable pop-editorial mood.",
+    "people": "PASS: zero people/faces/hands/printed faces.",
+    "copy_space": "PASS: quiet cream left45%; no baked headlines or website text.",
+    "crop": "Read-only320×600 cover crop at77.6% top inspected. Names and most silhouettes of both bottles and both canisters remain visible, with tight outer edges.390px crop offers more lateral space. Website overlay must still be checked by integration owner.",
+    "review_files": [
+      "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/campaign-v10-home-features/provenance/collectible-label-detail-review.png",
+      "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/campaign-v10-home-features/provenance/collectible-320-crop-review.png"
+    ],
+    "no_known_blocking_native_defects": true
+  }
+}

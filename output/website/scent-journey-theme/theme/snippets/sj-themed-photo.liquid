@@ -1,0 +1,19 @@
+{% liquid
+ assign light_src = light_asset | asset_url
+ assign dark_src = dark_asset | asset_url
+ if light_image != blank
+  assign light_src = light_image | image_url: width: 1800
+ endif
+ if dark_image != blank
+  assign dark_src = dark_image | image_url: width: 1800
+ endif
+ assign image_width = width | default: 1120
+ assign image_height = height | default: 1400
+ assign current_src = light_src
+ if settings.visual_theme == 'dark'
+ assign current_src = dark_src
+ endif
+ assign load_mode = loading | default: 'lazy'
+ assign image_priority = priority | default: 'auto'
+%}
+{% if settings.compare_mode %}<template><img data-sj-themed-image data-light-src="{{ light_src }}" data-dark-src="{{ dark_src }}" data-src="{{ current_src }}" alt="{{ alt | escape }}" width="{{ image_width }}" height="{{ image_height }}" loading="{{ load_mode }}" fetchpriority="{{ image_priority }}"></template><script>(()=>{const t=document.currentScript.previousElementSibling,f=t.content.cloneNode(true),m=document.documentElement.dataset.theme;f.querySelectorAll('img').forEach(i=>i.src=i.dataset[m+'Src']||i.dataset.src);t.replaceWith(f)})();</script><noscript><img src="{{ current_src }}" alt="{{ alt | escape }}" width="{{ image_width }}" height="{{ image_height }}" loading="{{ load_mode }}" fetchpriority="{{ image_priority }}"></noscript>{% else %}<img src="{{ current_src }}" alt="{{ alt | escape }}" width="{{ image_width }}" height="{{ image_height }}" loading="{{ load_mode }}" fetchpriority="{{ image_priority }}">{% endif %}

@@ -1,0 +1,214 @@
+{
+  "generatedAt": "2026-09-24T07:51:47.723Z",
+  "status": "PASS",
+  "checks": 19,
+  "results": [
+    {
+      "name": "Default Finder URL handles root /",
+      "pass": true,
+      "detail": "/pages/scent-finder"
+    },
+    {
+      "name": "Default Finder URL handles root /en",
+      "pass": true,
+      "detail": "/en/pages/scent-finder"
+    },
+    {
+      "name": "Default Finder URL handles root /en/",
+      "pass": true,
+      "detail": "/en/pages/scent-finder"
+    },
+    {
+      "name": "Configured relative Finder URL remains localized",
+      "pass": true
+    },
+    {
+      "name": "Configured external URL is preserved and escaped",
+      "pass": true
+    },
+    {
+      "name": "Already localized collection URL is not doubled",
+      "pass": true
+    },
+    {
+      "name": "No policy or existing content means no legal links or empty nav",
+      "pass": true,
+      "detail": {
+        "links": [],
+        "nav": 0
+      }
+    },
+    {
+      "name": "Policy URL without content is omitted",
+      "pass": true,
+      "detail": {
+        "links": [],
+        "nav": 0
+      }
+    },
+    {
+      "name": "Verified native policies take precedence over pages",
+      "pass": true,
+      "detail": {
+        "links": [
+          [
+            "Privacy",
+            "/policies/privacy-policy"
+          ],
+          [
+            "Terms",
+            "/policies/terms-of-service"
+          ]
+        ],
+        "nav": 1
+      }
+    },
+    {
+      "name": "Published existing content pages receive localized links",
+      "pass": true,
+      "detail": {
+        "links": [
+          [
+            "Privacy",
+            "/fr/pages/privacy"
+          ],
+          [
+            "Terms",
+            "/fr/pages/terms"
+          ]
+        ],
+        "nav": 1
+      }
+    },
+    {
+      "name": "hidden page does not create a legal link",
+      "pass": true,
+      "detail": {
+        "links": [],
+        "nav": 0
+      }
+    },
+    {
+      "name": "future page does not create a legal link",
+      "pass": true,
+      "detail": {
+        "links": [],
+        "nav": 0
+      }
+    },
+    {
+      "name": "empty page does not create a legal link",
+      "pass": true,
+      "detail": {
+        "links": [],
+        "nav": 0
+      }
+    },
+    {
+      "name": "missing URL page does not create a legal link",
+      "pass": true,
+      "detail": {
+        "links": [],
+        "nav": 0
+      }
+    },
+    {
+      "name": "Each legal link independently uses available verified content",
+      "pass": true,
+      "detail": {
+        "links": [
+          [
+            "Privacy",
+            "/policies/privacy-policy"
+          ],
+          [
+            "Terms",
+            "/pages/terms"
+          ]
+        ],
+        "nav": 1
+      }
+    },
+    {
+      "name": "sj-header uses normalized defaults and configured navigation URLs",
+      "pass": true,
+      "detail": [
+        [
+          "Women",
+          "/en/collections/womens-perfume"
+        ],
+        [
+          "Men",
+          "/en/collections/mens-perfume"
+        ],
+        [
+          "Scent Finder",
+          "/en/pages/my-finder"
+        ],
+        [
+          "Our Story",
+          "https://example.test/story"
+        ],
+        [
+          "Women",
+          "/en/collections/womens-perfume"
+        ],
+        [
+          "Men",
+          "/en/collections/mens-perfume"
+        ],
+        [
+          "Scent Finder",
+          "/en/pages/my-finder"
+        ],
+        [
+          "Our Story",
+          "https://example.test/story"
+        ]
+      ]
+    },
+    {
+      "name": "sj-footer uses normalized defaults and configured navigation URLs",
+      "pass": true,
+      "detail": [
+        [
+          "Women",
+          "/en/collections/womens-perfume"
+        ],
+        [
+          "Men",
+          "/en/collections/mens-perfume"
+        ],
+        [
+          "Scent Finder",
+          "/en/pages/my-finder"
+        ],
+        [
+          "Our Story",
+          "https://example.test/story"
+        ],
+        [
+          "FAQ",
+          "/en/pages/faq"
+        ],
+        [
+          "Shipping",
+          "/en/pages/shipping"
+        ],
+        [
+          "Contact",
+          "/en/pages/reach-us"
+        ]
+      ]
+    },
+    {
+      "name": "Actual footer omits unavailable legal links",
+      "pass": true
+    },
+    {
+      "name": "Actual collection Finder link honors configured URL and locale",
+      "pass": true
+    }
+  ],
+  "scope": "Native Liquid fixtures only; no store pages or policies were created or modified."
+}

@@ -1,0 +1,440 @@
+{
+  "campaign": "v9-pop-editorial",
+  "scope": "Six product-header originals only; 12-frame gallery architecture intentionally not applicable",
+  "authority": "User supplied publication-materials reference for style; raw SKU photographs for identity; canonical reference for geometry only",
+  "style_reference": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/campaign-v9-pop-editorial/references/publication-materials-reference.png",
+  "source_provenance": "../campaign-v8-warm-vibrant/provenance/product-banners-v8.json",
+  "no_theme_or_assets_integration": true,
+  "assets": [
+    {
+      "handle": "mojito-metallique",
+      "original": "originals/sj-product-banner-mojito-metallique.png",
+      "dimensions": [
+        1774,
+        887
+      ],
+      "generator": "Built-in image_gen; one call per asset or revision; max two concurrently",
+      "generated_source": "/Users/wetrade/.codex/generated_images/01a0d0f9-5b11-7093-89c7-17bb545fc7bb/exec-086cbbc1-6a40-4c4c-871d-42e084ef07c8.png",
+      "alt": "A smiling Filipina in yellow knit and denim lowers cherry-red sunglasses beside a cobalt doorway, holding Mojito Metallique.",
+      "review": {
+        "status": "PASS",
+        "scope": "Native image visual review; website crop/contrast integration is owned by root",
+        "scene": "Cobalt fashion-store doorway; lemon knit, dark denim, scarlet shoulder strap and sunglasses.",
+        "action": "Stepping out while lowering sunglasses.",
+        "identity": "White MOJITO METALLIQUE label, golden-yellow transparent liquid, plain glossy black cap and tall glass body.",
+        "person_count": 1,
+        "bottle_count": 1,
+        "casting": "one fictional adult Filipina",
+        "anatomy": "Plausible two arms, two hands, grip and natural 50ml scale",
+        "face_and_label": "Whole face and label unobstructed; scent identity checked at native full view and magnified against raw SKU. See label_closeup_qa for resolution limitation.",
+        "no_extra_faces": "No background person, reflection, portrait or screen face detected",
+        "light_and_style": "Strong clear sun, healthy skin tones, saturated editorial wardrobe/accessories; warm, fun and light",
+        "quiet_left_copy_field": true,
+        "typography": "No baked headline or advertising copy; physical product label only",
+        "crop_guidance": "Full hair visible after widening edit. Approximate face center 74%, bottle 68%; try 75–80% horizontal focal point and top alignment.",
+        "color_profile": "Native generated PNG has no embedded ICC. No pixel edits performed. Root owns tagged sRGB web derivative export.",
+        "label_closeup_qa": {
+          "method": "Compared raw SKU against native image viewed in Chrome at 4× magnification; no source pixels edited during inspection.",
+          "required_name": "MOJITO METALLIQUE",
+          "finding_before_repair": "Tiny scent lettering showed malformed or ambiguous characters in initial or widened composition.",
+          "repair": "Built-in ImageGen edit constrained to physical label, retaining original scene, subject, crop and bottle scale.",
+          "result": "Scent name resolves at intended banner scale after repair. Small physical lettering remains around 5px high in 1774×887 image; 4× magnification exposes raster limits and is not a claim of perfect microprint.",
+          "bottle_identity": "Original white/black label, liquid colour, tall glass silhouette and black cap retained.",
+          "prior_candidate": "attempts/sj-product-banner-mojito-metallique-before-label-fix.png"
+        }
+      },
+      "history": [
+        {
+          "operation": "Fresh editorial generation",
+          "prompt_file": "prompts/sj-product-banner-mojito-metallique.txt",
+          "exact_prompt": "Use case: ads-marketing. Create one brand-new photographic DearBody Philippines product-header campaign banner, landscape exactly 2:1, native PNG around 1774x887. This is a bold sunny fashion editorial, youthful but fully adult, warm, fun, light and approachable, with believable Filipino personality. High-end commercial photography with real skin texture, tactile fashion detail, strong clean sun and saturated scarlet/cobalt/lemon accents, never gloomy or generic cozy lifestyle.\nREFERENCES: Image1 is the supplied publication-materials STYLE reference only: borrow punchy color, sunny candid confidence, accessories and tactile product interaction; DO NOT copy its people, layouts, poses, props arrangement, typography, red vehicle or floating bottle. Image2 is the authoritative raw SKU: preserve that exact scent identity and label/liquid. Image3 is canonical bottle geometry ONLY, not Sunset Cocktail identity, colors or background.\nPHYSICAL PRODUCT: exactly ONE small authentic 50ml perfume bottle, tall straight cylindrical clear glass, restrained rounded shoulder, narrow neck, thick clear base, compact glossy black cylindrical cap fully seated, black cap lower edge; fine silver line belongs to bottle collar. About one adult palm-length. Natural grip, front label completely unobstructed and turned toward camera, original PARFUM/LONDON mark and exact scent spelling. No canister or other perfume. Never oversized, squat, bulbous, giant cap, gold hardware, altered label or colored opaque glass.\nCOMPOSITION: medium-wide environmental photo, camera pulled back. Subject/action entirely in right half. Leave left40–45% clean quiet actual colored wall or sky with simple natural light for later live headline, NO baked-in headline. Full hair visible with roughly12% image-height above head. Face center x76%,y30%; complete bottle centered x74%,y53%, height about14–16% of whole photo. Face, hands and full bottle essential area x65–88%, upper65% of image, so a narrow mobile crop works. Entire scene one coherent photograph, no panels, no artificial blank block.\nHARD RULES: exactly ONE fictional adult Filipino person total, only two arms/two hands with plausible fingers/grip. No background people, reflections of people, posters, portraits, screens, partial bodies or faces on printed props. No mirrors. No text except real product label; no logos on clothing/accessories, no slogans, watermarks or invented claims. Believable ordinary architecture, sunlight, shadows and gestures. Do not make a static bottle presenter: a spontaneous stylish action, natural amused expression, lived-in movement.\n\nSCENE: Sunny Philippine neighborhood fashion-store doorway, clean matte cobalt-blue rendered wall across the left half, doorway recess and a sliver of pale-yellow door frame only at far right. One adult Filipina with warm morena skin, short softly tousled black bob, expressive eyebrows and a candid open smile, wearing lemon-yellow textured sleeveless knit, dark indigo high-waist denim and small silver hoops. She is stepping sideways out of the doorway, body in a light twist, one hand lowering chunky cherry-red sunglasses away from her eyes while her other hand naturally carries her capped bottle upright at upper-waist/chest height. Sunglasses remain near shoulder on far right; eyes visible. A scarlet textured shoulder-strap crosses behind bottle, no bag-pickup action. Strong warm noon sun, lively denim texture and wind-touched hair. Keep all hair well within frame. New editorial doorway action, NOT dressing nook, headband, café, bookshop, car or copied pocket crop.\nSKU: MOJITO / METALLIQUE exactly in bold black serif on WHITE rectangular label, original black PARFUM / LONDON mark; transparent golden-yellow liquid. Keep exact spelling METALLIQUE with two Ls.",
+          "references": [
+            "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/campaign-v9-pop-editorial/references/publication-materials-reference.png",
+            "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/refined-reference-images/raw-reference-archive/db-original-mojito-metallique.jpg",
+            "/Users/wetrade/.codex/skills/dearbody-scent-gallery/assets/canonical-bottle-proportions.png"
+          ],
+          "generated_source": "/Users/wetrade/.codex/generated_images/01a0d0f9-5b11-7093-89c7-17bb545fc7bb/exec-536f73ab-0859-4b9f-afd6-e6b26c20df74.png"
+        },
+        {
+          "operation": "Framing-only correction: restore whole head and group face/bottle for mobile crop",
+          "prompt_file": "prompts/sj-product-banner-mojito-metallique-framing-revision.txt",
+          "exact_prompt": "Use case: identity-preserve. Image1 is the EDIT TARGET. Preserve its exact person, facial identity, delighted expression, wardrobe, accessory, sunshine, saturated colors, real location and exact product. Change ONLY camera distance and composition: pull camera back substantially to show a wider head-to-upper-thigh scene and move person rightward. Final still exactly2:1 landscape. Current hair touches top; repair by providing a clear band of actual environment above ALL hair equal to at least14% of total image height. Entire person about25% smaller. Face center x77%, y31%; perfume bottle center x75%, y53%, complete face and complete bottle inside x66–87%. Bottle stays small realistic50ml, label still readable. Entire action onlyright50%, left45% quiet real wall/sky. No stretched anatomy, no pasted product. ExactlyONEadultFilipina and exactlyTWOarms/hands. Preserve exact bottle shape/blackcap/liquid/label; image2 rawSKU governsidentity; image3 canonicalgeometry only, neverSunsetCocktail. No extrapeople/reflections/portraits, no lettering exceptphysicalproduct. Keep natural dramatic sunnyeditorial mood. This is a composition correction, not a new close-up portrait.",
+          "references": [
+            "/Users/wetrade/.codex/generated_images/01a0d0f9-5b11-7093-89c7-17bb545fc7bb/exec-536f73ab-0859-4b9f-afd6-e6b26c20df74.png",
+            "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/refined-reference-images/raw-reference-archive/db-original-mojito-metallique.jpg",
+            "/Users/wetrade/.codex/skills/dearbody-scent-gallery/assets/canonical-bottle-proportions.png"
+          ],
+          "generated_source": "/Users/wetrade/.codex/generated_images/01a0d0f9-5b11-7093-89c7-17bb545fc7bb/exec-278c8d58-fab9-4558-b174-c0630a8adf85.png"
+        },
+        {
+          "operation": "Targeted physical-label lettering repair after native close-up QA",
+          "prompt_file": "prompts/sj-product-banner-mojito-metallique-label-revision.txt",
+          "exact_prompt": "Use case: precise-object-edit. Image1 is the accepted full photographic banner. Correct ONLY the tiny physical perfume label lettering; keep every other scene element unchanged: model identity/expression, arms/hands/grip, gesture, bottle size/shape/liquid/cap/location, wardrobe, accessories, framing, top headroom, architecture, sunshine, colors. No zoom or recomposition. Image2 is the raw SKU identity reference, image3 canonical geometry only. The current label contains malformed small letters; carefully reprint exact name in BLACK bold serif on WHITE label.\nExact TWO lines, slash denotes linebreak: \"MOJITO / METALLIQUE\". Spell exactly: M O J I T O   /   M E T A L L I Q U E. Preserve exact circumflex ifpresent. Under scentname put original small ParfumLondon emblem and exact PARFUM / LONDON wording, original layout. Give scent letters the largest faithful size within the original label area so their real characters resolve cleanly. It MUST be the exact supplied name, not approximate shapes. Preserve golden-yellow transparent liquid. One real50mltallglassbottle with plainblackcap, no otherproducts. No overlayadvertising or newtype elsewhere. One adult Filipina only, exact same composition. Outputsame2:1landscape1774x887PNG.",
+          "references": [
+            "/Users/wetrade/.codex/generated_images/01a0d0f9-5b11-7093-89c7-17bb545fc7bb/exec-278c8d58-fab9-4558-b174-c0630a8adf85.png",
+            "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/refined-reference-images/raw-reference-archive/db-original-mojito-metallique.jpg",
+            "/Users/wetrade/.codex/skills/dearbody-scent-gallery/assets/canonical-bottle-proportions.png"
+          ],
+          "generated_source": "/Users/wetrade/.codex/generated_images/01a0d0f9-5b11-7093-89c7-17bb545fc7bb/exec-086cbbc1-6a40-4c4c-871d-42e084ef07c8.png"
+        }
+      ],
+      "bytes": 2546873,
+      "sha256": "19d4e37a00843fe8162a571f0c7e9eddffab6ba8540707f4951ecec7a1109a45"
+    },
+    {
+      "handle": "amber-oud-silk",
+      "original": "originals/sj-product-banner-amber-oud-silk.png",
+      "dimensions": [
+        1774,
+        887
+      ],
+      "generator": "Built-in image_gen; one call per asset or revision; max two concurrently",
+      "generated_source": "/Users/wetrade/.codex/generated_images/01a0d0f9-5b11-7093-89c7-17bb545fc7bb/exec-1b321a75-f6bd-45ec-85f4-4a3836f5b599.png",
+      "alt": "A Filipina in a scarlet top and denim laughs with a yellow scarf on a sunny rooftop, holding Amber Oud Silk.",
+      "review": {
+        "status": "PASS",
+        "scope": "Native image visual review; website crop/contrast integration is owned by root",
+        "scene": "Pale rooftop parapet and blue sky; scarlet structured top, denim and translucent bangle.",
+        "action": "Lifting a yellow scarf in a breeze.",
+        "identity": "White AMBER OUD SILK label, pale peach transparent liquid, plain glossy black cap and tall glass body.",
+        "person_count": 1,
+        "bottle_count": 1,
+        "casting": "one fictional adult Filipina",
+        "anatomy": "Plausible two arms, two hands, grip and natural 50ml scale",
+        "face_and_label": "Whole face and label unobstructed; scent identity checked at native full view and magnified against raw SKU. See label_closeup_qa for resolution limitation.",
+        "no_extra_faces": "No background person, reflection, portrait or screen face detected",
+        "light_and_style": "Strong clear sun, healthy skin tones, saturated editorial wardrobe/accessories; warm, fun and light",
+        "quiet_left_copy_field": true,
+        "typography": "No baked headline or advertising copy; physical product label only",
+        "crop_guidance": "Full hair visible after widening edit. Approximate face center 72%, bottle 73%; try 75–80% focal point and top alignment.",
+        "color_profile": "Native generated PNG has no embedded ICC. No pixel edits performed. Root owns tagged sRGB web derivative export.",
+        "label_closeup_qa": {
+          "method": "Compared raw SKU against native image viewed in Chrome at 4× magnification; no source pixels edited during inspection.",
+          "required_name": "AMBER OUD SILK",
+          "finding_before_repair": "Tiny scent lettering showed malformed or ambiguous characters in initial or widened composition.",
+          "repair": "Built-in ImageGen edit constrained to physical label, retaining original scene, subject, crop and bottle scale.",
+          "result": "Scent name resolves at intended banner scale after repair. Small physical lettering remains around 5px high in 1774×887 image; 4× magnification exposes raster limits and is not a claim of perfect microprint.",
+          "bottle_identity": "Original white/black label, liquid colour, tall glass silhouette and black cap retained.",
+          "prior_candidate": "attempts/sj-product-banner-amber-oud-silk-before-label-fix.png"
+        }
+      },
+      "history": [
+        {
+          "operation": "Fresh editorial generation",
+          "prompt_file": "prompts/sj-product-banner-amber-oud-silk.txt",
+          "exact_prompt": "Use case: ads-marketing. Create one brand-new photographic DearBody Philippines product-header campaign banner, landscape exactly 2:1, native PNG around 1774x887. This is a bold sunny fashion editorial, youthful but fully adult, warm, fun, light and approachable, with believable Filipino personality. High-end commercial photography with real skin texture, tactile fashion detail, strong clean sun and saturated scarlet/cobalt/lemon accents, never gloomy or generic cozy lifestyle.\nREFERENCES: Image1 is the supplied publication-materials STYLE reference only: borrow punchy color, sunny candid confidence, accessories and tactile product interaction; DO NOT copy its people, layouts, poses, props arrangement, typography, red vehicle or floating bottle. Image2 is the authoritative raw SKU: preserve that exact scent identity and label/liquid. Image3 is canonical bottle geometry ONLY, not Sunset Cocktail identity, colors or background.\nPHYSICAL PRODUCT: exactly ONE small authentic 50ml perfume bottle, tall straight cylindrical clear glass, restrained rounded shoulder, narrow neck, thick clear base, compact glossy black cylindrical cap fully seated, black cap lower edge; fine silver line belongs to bottle collar. About one adult palm-length. Natural grip, front label completely unobstructed and turned toward camera, original PARFUM/LONDON mark and exact scent spelling. No canister or other perfume. Never oversized, squat, bulbous, giant cap, gold hardware, altered label or colored opaque glass.\nCOMPOSITION: medium-wide environmental photo, camera pulled back. Subject/action entirely in right half. Leave left40–45% clean quiet actual colored wall or sky with simple natural light for later live headline, NO baked-in headline. Full hair visible with roughly12% image-height above head. Face center x76%,y30%; complete bottle centered x74%,y53%, height about14–16% of whole photo. Face, hands and full bottle essential area x65–88%, upper65% of image, so a narrow mobile crop works. Entire scene one coherent photograph, no panels, no artificial blank block.\nHARD RULES: exactly ONE fictional adult Filipino person total, only two arms/two hands with plausible fingers/grip. No background people, reflections of people, posters, portraits, screens, partial bodies or faces on printed props. No mirrors. No text except real product label; no logos on clothing/accessories, no slogans, watermarks or invented claims. Believable ordinary architecture, sunlight, shadows and gestures. Do not make a static bottle presenter: a spontaneous stylish action, natural amused expression, lived-in movement.\n\nSCENE: Bright real Manila rooftop terrace with a broad pale warm concrete parapet/wall filling left45%, small clean saturated blue sky strip above, no skyline clutter or extra people. One adult Filipina with rich warm brown skin and shoulder-length wavy black hair, wearing a striking scarlet sleeveless structured cotton top, dark blue denim and a chunky translucent bangle. She is laughing into a breeze while lifting a lemon-yellow silk scarf from her shoulder with ONE hand at far right; the other hand holds her capped perfume upright naturally in front of her torso at x74%,y53%. The scarf catches a small believable breeze at far right and never covers face/bottle/copy wall. Camera catches a spontaneous fashion moment, sunlit cheek, relaxed but confident, no stiff pose. No turntable, dancing living room, karaoke, car or reference pose. Exactly two hands, simple clear anatomy.\nSKU: AMBER OUD / SILK exactly in bold black serif on WHITE rectangular label with original black PARFUM / LONDON mark; very pale peach transparent liquid, not orange or opaque pink.",
+          "references": [
+            "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/campaign-v9-pop-editorial/references/publication-materials-reference.png",
+            "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/refined-reference-images/raw-reference-archive/db-original-amber-oud-silk.jpg",
+            "/Users/wetrade/.codex/skills/dearbody-scent-gallery/assets/canonical-bottle-proportions.png"
+          ],
+          "generated_source": "/Users/wetrade/.codex/generated_images/01a0d0f9-5b11-7093-89c7-17bb545fc7bb/exec-7b48f01e-204d-44ff-9e75-e1e81e2486ff.png"
+        },
+        {
+          "operation": "Framing-only correction: restore whole head and group face/bottle for mobile crop",
+          "prompt_file": "prompts/sj-product-banner-amber-oud-silk-framing-revision.txt",
+          "exact_prompt": "Use case: identity-preserve. Image1 is the EDIT TARGET. Preserve its exact person, facial identity, delighted expression, wardrobe, accessory, sunshine, saturated colors, real location and exact product. Change ONLY camera distance and composition: pull camera back substantially to show a wider head-to-upper-thigh scene and move person rightward. Final still exactly2:1 landscape. Current hair touches top; repair by providing a clear band of actual environment above ALL hair equal to at least14% of total image height. Entire person about25% smaller. Face center x77%, y31%; perfume bottle center x75%, y53%, complete face and complete bottle inside x66–87%. Bottle stays small realistic50ml, label still readable. Entire action onlyright50%, left45% quiet real wall/sky. No stretched anatomy, no pasted product. ExactlyONEadultFilipina and exactlyTWOarms/hands. Preserve exact bottle shape/blackcap/liquid/label; image2 rawSKU governsidentity; image3 canonicalgeometry only, neverSunsetCocktail. No extrapeople/reflections/portraits, no lettering exceptphysicalproduct. Keep natural dramatic sunnyeditorial mood. This is a composition correction, not a new close-up portrait.",
+          "references": [
+            "/Users/wetrade/.codex/generated_images/01a0d0f9-5b11-7093-89c7-17bb545fc7bb/exec-7b48f01e-204d-44ff-9e75-e1e81e2486ff.png",
+            "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/refined-reference-images/raw-reference-archive/db-original-amber-oud-silk.jpg",
+            "/Users/wetrade/.codex/skills/dearbody-scent-gallery/assets/canonical-bottle-proportions.png"
+          ],
+          "generated_source": "/Users/wetrade/.codex/generated_images/01a0d0f9-5b11-7093-89c7-17bb545fc7bb/exec-c872abd2-a703-4d67-96f9-b7dbd1b38532.png"
+        },
+        {
+          "operation": "Targeted physical-label lettering repair after native close-up QA",
+          "prompt_file": "prompts/sj-product-banner-amber-oud-silk-label-revision.txt",
+          "exact_prompt": "Use case: precise-object-edit. Image1 is the accepted full photographic banner. Correct ONLY the tiny physical perfume label lettering; keep every other scene element unchanged: model identity/expression, arms/hands/grip, gesture, bottle size/shape/liquid/cap/location, wardrobe, accessories, framing, top headroom, architecture, sunshine, colors. No zoom or recomposition. Image2 is the raw SKU identity reference, image3 canonical geometry only. The current label contains malformed small letters; carefully reprint exact name in BLACK bold serif on WHITE label.\nExact TWO lines, slash denotes linebreak: \"AMBER OUD / SILK\". Spell exactly: A M B E R   O U D   /   S I L K. Preserve exact circumflex ifpresent. Under scentname put original small ParfumLondon emblem and exact PARFUM / LONDON wording, original layout. Give scent letters the largest faithful size within the original label area so their real characters resolve cleanly. It MUST be the exact supplied name, not approximate shapes. Preserve pale peach transparent liquid. One real50mltallglassbottle with plainblackcap, no otherproducts. No overlayadvertising or newtype elsewhere. One adult Filipina only, exact same composition. Outputsame2:1landscape1774x887PNG.",
+          "references": [
+            "/Users/wetrade/.codex/generated_images/01a0d0f9-5b11-7093-89c7-17bb545fc7bb/exec-c872abd2-a703-4d67-96f9-b7dbd1b38532.png",
+            "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/refined-reference-images/raw-reference-archive/db-original-amber-oud-silk.jpg",
+            "/Users/wetrade/.codex/skills/dearbody-scent-gallery/assets/canonical-bottle-proportions.png"
+          ],
+          "generated_source": "/Users/wetrade/.codex/generated_images/01a0d0f9-5b11-7093-89c7-17bb545fc7bb/exec-1b321a75-f6bd-45ec-85f4-4a3836f5b599.png"
+        }
+      ],
+      "bytes": 2221136,
+      "sha256": "681a2cdc6397aaaf2f8e387169d9dbe89865e3d12fb4ed0c1fcfb6a7acdd5767"
+    },
+    {
+      "handle": "mistened-narcissus",
+      "original": "originals/sj-product-banner-mistened-narcissus.png",
+      "dimensions": [
+        1774,
+        887
+      ],
+      "generator": "Built-in image_gen; one call per asset or revision; max two concurrently",
+      "generated_source": "/Users/wetrade/.codex/generated_images/01a0d0f9-5b11-7093-89c7-17bb545fc7bb/exec-9c2afccf-389f-48da-ad0b-d458e14bac84.png",
+      "alt": "A Filipina in lilac stripes and denim holds her scarlet hat on a sunny garden stairway, carrying Mistened Narcissus.",
+      "review": {
+        "status": "PASS",
+        "scope": "Native image visual review; website crop/contrast integration is owned by root",
+        "scene": "Lemon wall, terracotta garden steps and jade rail; lilac stripe tee, denim overalls and scarlet hat.",
+        "action": "Holding a hat brim against a small gust while stepping down.",
+        "identity": "White MISTENED NARCISSUS label, clear colorless liquid, plain glossy black cap and tall glass body.",
+        "person_count": 1,
+        "bottle_count": 1,
+        "casting": "one fictional adult Filipina",
+        "anatomy": "Plausible two arms, two hands, grip and natural 50ml scale",
+        "face_and_label": "Whole face and label unobstructed; scent identity checked at native full view and magnified against raw SKU. See label_closeup_qa for resolution limitation.",
+        "no_extra_faces": "No background person, reflection, portrait or screen face detected",
+        "light_and_style": "Strong clear sun, healthy skin tones, saturated editorial wardrobe/accessories; warm, fun and light",
+        "quiet_left_copy_field": true,
+        "typography": "No baked headline or advertising copy; physical product label only",
+        "crop_guidance": "Full hat visible after widening edit. Approximate face center 72%, bottle 64%; try 70–75% focal point and top alignment.",
+        "color_profile": "Native generated PNG has no embedded ICC. No pixel edits performed. Root owns tagged sRGB web derivative export.",
+        "label_closeup_qa": {
+          "method": "Compared raw SKU against native image viewed in Chrome at 4× magnification; no source pixels edited during inspection.",
+          "required_name": "MISTENED NARCISSUS",
+          "finding_before_repair": "Tiny scent lettering showed malformed or ambiguous characters in initial or widened composition.",
+          "repair": "Built-in ImageGen edit constrained to physical label, retaining original scene, subject, crop and bottle scale.",
+          "result": "Scent name resolves at intended banner scale after repair. Small physical lettering remains around 5px high in 1774×887 image; 4× magnification exposes raster limits and is not a claim of perfect microprint.",
+          "bottle_identity": "Original white/black label, liquid colour, tall glass silhouette and black cap retained.",
+          "prior_candidate": "attempts/sj-product-banner-mistened-narcissus-before-label-fix.png"
+        }
+      },
+      "history": [
+        {
+          "operation": "Fresh editorial generation",
+          "prompt_file": "prompts/sj-product-banner-mistened-narcissus.txt",
+          "exact_prompt": "Use case: ads-marketing. Create one brand-new photographic DearBody Philippines product-header campaign banner, landscape exactly 2:1, native PNG around 1774x887. This is a bold sunny fashion editorial, youthful but fully adult, warm, fun, light and approachable, with believable Filipino personality. High-end commercial photography with real skin texture, tactile fashion detail, strong clean sun and saturated scarlet/cobalt/lemon accents, never gloomy or generic cozy lifestyle.\nREFERENCES: Image1 is the supplied publication-materials STYLE reference only: borrow punchy color, sunny candid confidence, accessories and tactile product interaction; DO NOT copy its people, layouts, poses, props arrangement, typography, red vehicle or floating bottle. Image2 is the authoritative raw SKU: preserve that exact scent identity and label/liquid. Image3 is canonical bottle geometry ONLY, not Sunset Cocktail identity, colors or background.\nPHYSICAL PRODUCT: exactly ONE small authentic 50ml perfume bottle, tall straight cylindrical clear glass, restrained rounded shoulder, narrow neck, thick clear base, compact glossy black cylindrical cap fully seated, black cap lower edge; fine silver line belongs to bottle collar. About one adult palm-length. Natural grip, front label completely unobstructed and turned toward camera, original PARFUM/LONDON mark and exact scent spelling. No canister or other perfume. Never oversized, squat, bulbous, giant cap, gold hardware, altered label or colored opaque glass.\nCOMPOSITION: medium-wide environmental photo, camera pulled back. Subject/action entirely in right half. Leave left40–45% clean quiet actual colored wall or sky with simple natural light for later live headline, NO baked-in headline. Full hair visible with roughly12% image-height above head. Face center x76%,y30%; complete bottle centered x74%,y53%, height about14–16% of whole photo. Face, hands and full bottle essential area x65–88%, upper65% of image, so a narrow mobile crop works. Entire scene one coherent photograph, no panels, no artificial blank block.\nHARD RULES: exactly ONE fictional adult Filipino person total, only two arms/two hands with plausible fingers/grip. No background people, reflections of people, posters, portraits, screens, partial bodies or faces on printed props. No mirrors. No text except real product label; no logos on clothing/accessories, no slogans, watermarks or invented claims. Believable ordinary architecture, sunlight, shadows and gestures. Do not make a static bottle presenter: a spontaneous stylish action, natural amused expression, lived-in movement.\n\nSCENE: A real sunlit exterior stair landing beside a Filipino neighborhood community garden, broad matte lemon-yellow plaster wall left45%, a simple jade-painted metal handrail and terracotta step only on right. One adult Filipina with warm medium-brown skin, bright smile and long curly black hair, lilac and cream striped fitted tee under dark denim overalls, a playful scarlet cotton bucket hat. A gust catches the brim; she laughs and holds the hat brim with one hand near far-right temple, while the other hand naturally carries her small capped fragrance upright at chest height x75%,y53%. Exactly two hands. The scarlet hat provides the tactile pop, earrings simple chrome, no other statement prop. Body turning as she comes down one real shallow step, dynamic but stable balance. Editorial sun and sharp clean shadows, warm eyes visible. Not a flower stall, bouquet, skating rink, cafe, bag-pickup, car or copied reference pose.\nSKU: MISTENED / NARCISSUS exactly bold black serif on WHITE rectangular label, original black PARFUM / LONDON mark; colorless clear transparent liquid. Do not turn liquid lilac.\nCAMERA DISTANCE OVERRIDE: environmental portrait from4meters, show head to upperthigh. Person occupies rightthird with facecenterx77%y30%, clear empty wall/sky above hat equivalent15% ofimageheight. Do not crop hat or zoom into a headshot. Bottle frontlegible atnatural50mlsize.",
+          "references": [
+            "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/campaign-v9-pop-editorial/references/publication-materials-reference.png",
+            "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/refined-reference-images/raw-reference-archive/db-original-mistened-narcissus.jpg",
+            "/Users/wetrade/.codex/skills/dearbody-scent-gallery/assets/canonical-bottle-proportions.png"
+          ],
+          "generated_source": "/Users/wetrade/.codex/generated_images/01a0d0f9-5b11-7093-89c7-17bb545fc7bb/exec-98d4c080-fdc5-416f-97d6-27be8e4bd555.png"
+        },
+        {
+          "operation": "Framing-only correction: restore whole head and group face/bottle for mobile crop",
+          "prompt_file": "prompts/sj-product-banner-mistened-narcissus-framing-revision.txt",
+          "exact_prompt": "Use case: identity-preserve. FIRST IMAGE is edit target. Preserve exact same happy Filipino woman, scarlet hat, lilac striped tee, denim, sunny stairway, all pose/action, lighting, saturated colors and exact small perfume identity. Change ONLY framing. Pull camera back substantially, person 25% smaller and positioned further RIGHT. Entire head/hat/hair has actual clear wall or sky above it at least14% of imageheight. Face center x77% y30%. Move entire person and bottle as one natural pose; bottle center x74% y53%. The bottle is now too farLEFT; it MUST fit x70–80%. Left45% quiet actual wall. Full face and bottle in x65–88%. Head-to-upper-thigh framing, not a closeup. Natural 50ml handheld scale, label facescamera and remains faithful. Image2 is rawSKUidentity, image3 canonical tallcylindricalglassgeometry only. Exact black/white label contrast and original name unchanged. Exactlyoneadult, twohands/twoarms, no extras/reflections/signage. Keep bright strongsun, realtextures, approachable livelyeditorial style. Output one2:1landscapePNG.",
+          "references": [
+            "/Users/wetrade/.codex/generated_images/01a0d0f9-5b11-7093-89c7-17bb545fc7bb/exec-98d4c080-fdc5-416f-97d6-27be8e4bd555.png",
+            "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/refined-reference-images/raw-reference-archive/db-original-mistened-narcissus.jpg",
+            "/Users/wetrade/.codex/skills/dearbody-scent-gallery/assets/canonical-bottle-proportions.png"
+          ],
+          "generated_source": "/Users/wetrade/.codex/generated_images/01a0d0f9-5b11-7093-89c7-17bb545fc7bb/exec-0a1dfb77-1f84-4116-a77b-8d9010d78772.png"
+        },
+        {
+          "operation": "Targeted physical-label lettering repair after native close-up QA",
+          "prompt_file": "prompts/sj-product-banner-mistened-narcissus-label-revision.txt",
+          "exact_prompt": "Use case: precise-object-edit. Image1 is the accepted full photographic banner. Correct ONLY the tiny physical perfume label lettering; keep every other scene element unchanged: model identity/expression, arms/hands/grip, gesture, bottle size/shape/liquid/cap/location, wardrobe, accessories, framing, top headroom, architecture, sunshine, colors. No zoom or recomposition. Image2 is the raw SKU identity reference, image3 canonical geometry only. The current label contains malformed small letters; carefully reprint exact name in BLACK bold serif on WHITE label.\nExact TWO lines, slash denotes linebreak: \"MISTENED / NARCISSUS\". Spell exactly: M I S T E N E D   /   N A R C I S S U S. Preserve exact circumflex ifpresent. Under scentname put original small ParfumLondon emblem and exact PARFUM / LONDON wording, original layout. Give scent letters the largest faithful size within the original label area so their real characters resolve cleanly. It MUST be the exact supplied name, not approximate shapes. Preserve clear colorless transparent liquid. One real50mltallglassbottle with plainblackcap, no otherproducts. No overlayadvertising or newtype elsewhere. One adult Filipina only, exact same composition. Outputsame2:1landscape1774x887PNG.",
+          "references": [
+            "/Users/wetrade/.codex/generated_images/01a0d0f9-5b11-7093-89c7-17bb545fc7bb/exec-0a1dfb77-1f84-4116-a77b-8d9010d78772.png",
+            "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/refined-reference-images/raw-reference-archive/db-original-mistened-narcissus.jpg",
+            "/Users/wetrade/.codex/skills/dearbody-scent-gallery/assets/canonical-bottle-proportions.png"
+          ],
+          "generated_source": "/Users/wetrade/.codex/generated_images/01a0d0f9-5b11-7093-89c7-17bb545fc7bb/exec-9c2afccf-389f-48da-ad0b-d458e14bac84.png"
+        }
+      ],
+      "bytes": 2592135,
+      "sha256": "272ca177472f234fe5648dc3c7443c90954aadbfc1806869976de23fe83b90ae"
+    },
+    {
+      "handle": "charme-envoutant",
+      "original": "originals/sj-product-banner-charme-envoutant.png",
+      "dimensions": [
+        1774,
+        887
+      ],
+      "generator": "Built-in image_gen; one call per asset or revision; max two concurrently",
+      "generated_source": "/Users/wetrade/.codex/generated_images/01a0d0f9-5b11-7093-89c7-17bb545fc7bb/exec-99dd7c0c-79fc-4f19-bc0d-818ae863ba17.png",
+      "alt": "A Filipino man in a rust polo lifts a cobalt towel on a sunny balcony while holding Charme Envoûtant.",
+      "review": {
+        "status": "PASS",
+        "scope": "Native image visual review; website crop/contrast integration is owned by root",
+        "scene": "Real pale-peach apartment sports balcony; cobalt railing and towel, rust polo, cream shorts.",
+        "action": "Lifting the towel from his shoulder in a relaxed half-turn.",
+        "identity": "Black CHARME ENVOÛTANT label, amber-orange transparent liquid, plain glossy black cap and tall glass body.",
+        "person_count": 1,
+        "bottle_count": 1,
+        "casting": "one fictional adult Filipino man",
+        "anatomy": "Plausible two arms, two hands, grip and natural 50ml scale",
+        "face_and_label": "Whole face and label unobstructed; scent identity checked at native full view and magnified against raw SKU. See label_closeup_qa for resolution limitation.",
+        "no_extra_faces": "No background person, reflection, portrait or screen face detected",
+        "light_and_style": "Strong clear sun, healthy skin tones, saturated editorial wardrobe/accessories; warm, fun and light",
+        "quiet_left_copy_field": true,
+        "typography": "No baked headline or advertising copy; physical product label only",
+        "crop_guidance": "Widening edit restores about14% headroom. Approximate face center 68%, bottle 66%; try 68–75% focal point and top alignment.",
+        "color_profile": "Native generated PNG has no embedded ICC. No pixel edits performed. Root owns tagged sRGB web derivative export.",
+        "label_closeup_qa": {
+          "method": "Compared raw SKU against native image viewed in Chrome at 4× magnification; no source pixels edited during inspection.",
+          "required_name": "CHARME ENVOÛTANT",
+          "finding_before_repair": "Tiny scent lettering showed malformed or ambiguous characters in initial or widened composition.",
+          "repair": "Built-in ImageGen edit constrained to physical label, retaining original scene, subject, crop and bottle scale.",
+          "result": "Scent name resolves at intended banner scale after repair. Small physical lettering remains around 5px high in 1774×887 image; 4× magnification exposes raster limits and is not a claim of perfect microprint.",
+          "bottle_identity": "Original white/black label, liquid colour, tall glass silhouette and black cap retained.",
+          "prior_candidate": "attempts/sj-product-banner-charme-envoutant-before-label-fix.png"
+        }
+      },
+      "history": [
+        {
+          "operation": "Fresh editorial generation",
+          "prompt_file": "prompts/sj-product-banner-charme-envoutant.txt",
+          "exact_prompt": "Use case: ads-marketing. Create one brand-new photographic DearBody Philippines product-header campaign banner, landscape exactly 2:1, native PNG around 1774x887. This is a bold sunny fashion editorial, youthful but fully adult, warm, fun, light and approachable, with believable Filipino personality. High-end commercial photography with real skin texture, tactile fashion detail, strong clean sun and saturated scarlet/cobalt/lemon accents, never gloomy or generic cozy lifestyle.\nREFERENCES: Image1 is the supplied publication-materials STYLE reference only: borrow punchy color, sunny candid confidence, accessories and tactile product interaction; DO NOT copy its people, layouts, poses, props arrangement, typography, red vehicle or floating bottle. Image2 is the authoritative raw SKU: preserve that exact scent identity and label/liquid. Image3 is canonical bottle geometry ONLY, not Sunset Cocktail identity, colors or background.\nPHYSICAL PRODUCT: exactly ONE small authentic 50ml perfume bottle, tall straight cylindrical clear glass, restrained rounded shoulder, narrow neck, thick clear base, compact glossy black cylindrical cap fully seated, black cap lower edge; fine silver line belongs to bottle collar. About one adult palm-length. Natural grip, front label completely unobstructed and turned toward camera, original PARFUM/LONDON mark and exact scent spelling. No canister or other perfume. Never oversized, squat, bulbous, giant cap, gold hardware, altered label or colored opaque glass.\nCOMPOSITION: medium-wide environmental photo, camera pulled back. Subject/action entirely in right half. Leave left40–45% clean quiet actual colored wall or sky with simple natural light for later live headline, NO baked-in headline. Full hair visible with roughly12% image-height above head. Face center x76%,y30%; complete bottle centered x74%,y53%, height about14–16% of whole photo. Face, hands and full bottle essential area x65–88%, upper65% of image, so a narrow mobile crop works. Entire scene one coherent photograph, no panels, no artificial blank block.\nHARD RULES: exactly ONE fictional adult Filipino person total, only two arms/two hands with plausible fingers/grip. No background people, reflections of people, posters, portraits, screens, partial bodies or faces on printed props. No mirrors. No text except real product label; no logos on clothing/accessories, no slogans, watermarks or invented claims. Believable ordinary architecture, sunlight, shadows and gestures. Do not make a static bottle presenter: a spontaneous stylish action, natural amused expression, lived-in movement.\n\nSCENE: Sunny real apartment sports balcony in the Philippines, left45% a clean warm pale peach plaster wall, simple cobalt metal railing and distant blue sky only at far right. One adult Filipino man with medium morena skin, short textured black hair and lively relaxed smile, wearing a rust-red textured athletic polo with cream collar, cream cotton shorts, a plain cobalt terrycloth towel draped around his neck. He has just come back from a game and lifts one end of the towel off his shoulder with his right hand in a light spontaneous gesture; his left hand holds the capped perfume naturally upright near centerchest x75%,y53%. Exactly two hands and two arms, no sportsequipment, no canister. Easy half-turn, open lighthearted expression with real skin, bright direct sun. Cobalt towel/rustshirt create the fashion contrast. No pottery studio, cups, workbench, gym equipment, basketball, bagpickup, or seated catalog pose.\nSKU: CHARME / ENVOÛTANT exactly white bold serif on BLACK rectangular label, circumflex over U, original white PARFUM / LONDON mark; amber-orange transparent liquid. Black glossy cap seated, tall cylindricalbottle.\nCAMERA DISTANCE OVERRIDE: environmental portrait from4meters, show head to upperthigh. Person occupies rightthird with facecenterx77%y30%, clear emptywall/sky above all hair equivalent15% ofimageheight. Never tight enlarged portrait. Complete bottle readable atnatural50mlsize.",
+          "references": [
+            "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/campaign-v9-pop-editorial/references/publication-materials-reference.png",
+            "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/refined-reference-images/raw-reference-archive/db-original-charme-envoutant.jpg",
+            "/Users/wetrade/.codex/skills/dearbody-scent-gallery/assets/canonical-bottle-proportions.png"
+          ],
+          "generated_source": "/Users/wetrade/.codex/generated_images/01a0d0f9-5b11-7093-89c7-17bb545fc7bb/exec-39f9db93-05a3-442b-b82a-f8e6a8c0d194.png"
+        },
+        {
+          "operation": "Framing-only correction: restore whole head and group face/bottle for mobile crop",
+          "prompt_file": "prompts/sj-product-banner-charme-envoutant-framing-revision.txt",
+          "exact_prompt": "Use case: identity-preserve. FIRST IMAGE is edit target. Preserve exact same happy Filipino man, rust polo, cobalt towel, balcony, all pose/action, lighting, saturated colors and exact small perfume identity. Change ONLY framing. Pull camera back substantially, person 25% smaller and positioned further RIGHT. Entire head/hat/hair has actual clear wall or sky above it at least14% of imageheight. Face center x77% y30%. Move entire person and bottle as one natural pose; bottle center x74% y53%. The bottle is now too farLEFT; it MUST fit x70–80%. Left45% quiet actual wall. Full face and bottle in x65–88%. Head-to-upper-thigh framing, not a closeup. Natural 50ml handheld scale, label facescamera and remains faithful. Image2 is rawSKUidentity, image3 canonical tallcylindricalglassgeometry only. Exact black/white label contrast and original name unchanged. Exactlyoneadult, twohands/twoarms, no extras/reflections/signage. Keep bright strongsun, realtextures, approachable livelyeditorial style. Output one2:1landscapePNG.",
+          "references": [
+            "/Users/wetrade/.codex/generated_images/01a0d0f9-5b11-7093-89c7-17bb545fc7bb/exec-39f9db93-05a3-442b-b82a-f8e6a8c0d194.png",
+            "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/refined-reference-images/raw-reference-archive/db-original-charme-envoutant.jpg",
+            "/Users/wetrade/.codex/skills/dearbody-scent-gallery/assets/canonical-bottle-proportions.png"
+          ],
+          "generated_source": "/Users/wetrade/.codex/generated_images/01a0d0f9-5b11-7093-89c7-17bb545fc7bb/exec-30692433-3d56-43b6-b707-2c453e8cba48.png"
+        },
+        {
+          "operation": "Targeted physical-label lettering repair after native close-up QA",
+          "prompt_file": "prompts/sj-product-banner-charme-envoutant-label-revision.txt",
+          "exact_prompt": "Use case: precise-object-edit. Image1 is the accepted full photographic banner. Correct ONLY the tiny physical perfume label lettering; keep every other scene element unchanged: model identity/expression, arms/hands/grip, gesture, bottle size/shape/liquid/cap/location, wardrobe, accessories, framing, top headroom, architecture, sunshine, colors. No zoom or recomposition. Image2 is the raw SKU identity reference, image3 canonical geometry only. The current label contains malformed small letters; carefully reprint exact name in WHITE bold serif on BLACK label.\nExact TWO lines, slash denotes linebreak: \"CHARME / ENVOÛTANT\". Spell exactly: C H A R M E   /   E N V O Û T A N T. Preserve exact circumflex ifpresent. Under scentname put original small ParfumLondon emblem and exact PARFUM / LONDON wording, original layout. Give scent letters the largest faithful size within the original label area so their real characters resolve cleanly. It MUST be the exact supplied name, not approximate shapes. Preserve amber-orange transparent liquid. One real50mltallglassbottle with plainblackcap, no otherproducts. No overlayadvertising or newtype elsewhere. One adult Filipino man only, exact same composition. Outputsame2:1landscape1774x887PNG.",
+          "references": [
+            "/Users/wetrade/.codex/generated_images/01a0d0f9-5b11-7093-89c7-17bb545fc7bb/exec-30692433-3d56-43b6-b707-2c453e8cba48.png",
+            "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/refined-reference-images/raw-reference-archive/db-original-charme-envoutant.jpg",
+            "/Users/wetrade/.codex/skills/dearbody-scent-gallery/assets/canonical-bottle-proportions.png"
+          ],
+          "generated_source": "/Users/wetrade/.codex/generated_images/01a0d0f9-5b11-7093-89c7-17bb545fc7bb/exec-99dd7c0c-79fc-4f19-bc0d-818ae863ba17.png"
+        }
+      ],
+      "bytes": 2110025,
+      "sha256": "f50a646861406f58bc5b186c7ad7396d18fa437c80f96ee5c8862a87882442f8"
+    },
+    {
+      "handle": "oud-mirage",
+      "original": "originals/sj-product-banner-oud-mirage.png",
+      "dimensions": [
+        1774,
+        887
+      ],
+      "generator": "Built-in image_gen; one call per asset or revision; max two concurrently",
+      "generated_source": "/Users/wetrade/.codex/generated_images/01a0d0f9-5b11-7093-89c7-17bb545fc7bb/exec-43453a0a-679f-4073-a6e9-a22f383b68a1.png",
+      "alt": "A smiling Filipino man in a burgundy-striped shirt waves outside a blue record-shop doorway, carrying Oud Mirage and a plain record sleeve.",
+      "review": {
+        "status": "PASS",
+        "scope": "Native image visual review; website crop/contrast integration is owned by root",
+        "scene": "Dusty-blue exterior wall with cobalt doorway and burgundy shutter; striped shirt, dark denim and plain cobalt record sleeve.",
+        "action": "Walking out and offering a small half-wave.",
+        "identity": "Black OUD MIRAGE label, blue transparent liquid, plain glossy black cap and tall glass body; only rightmost SKU from group reference used.",
+        "person_count": 1,
+        "bottle_count": 1,
+        "casting": "one fictional adult Filipino man",
+        "anatomy": "Plausible two arms, two hands, grip and natural 50ml scale",
+        "face_and_label": "Whole face and label unobstructed; scent identity checked at native full view and magnified against raw SKU. See label_closeup_qa for resolution limitation.",
+        "no_extra_faces": "No background person, reflection, portrait or screen face detected",
+        "light_and_style": "Strong clear sun, healthy skin tones, saturated editorial wardrobe/accessories; warm, fun and light",
+        "quiet_left_copy_field": true,
+        "typography": "No baked headline or advertising copy; physical product label only",
+        "crop_guidance": "Full hair visible; tighter roughly4% headroom. Approximate face center 65%, bottle 64%; use top alignment and try 68–74% focal point. No headroom-only second iteration because crop can preserve full hair.",
+        "color_profile": "Native generated PNG has no embedded ICC. No pixel edits performed. Root owns tagged sRGB web derivative export.",
+        "label_closeup_qa": {
+          "method": "Compared raw SKU against native image viewed in Chrome at 4× magnification; no source pixels edited during inspection.",
+          "required_name": "OUD MIRAGE",
+          "finding_before_repair": "Tiny scent lettering showed malformed or ambiguous characters in initial or widened composition.",
+          "repair": "Built-in ImageGen edit constrained to physical label, retaining original scene, subject, crop and bottle scale.",
+          "result": "Scent name resolves at intended banner scale after repair. Small physical lettering remains around 5px high in 1774×887 image; 4× magnification exposes raster limits and is not a claim of perfect microprint.",
+          "bottle_identity": "Original white/black label, liquid colour, tall glass silhouette and black cap retained.",
+          "prior_candidate": "attempts/sj-product-banner-oud-mirage-before-label-fix.png"
+        }
+      },
+      "history": [
+        {
+          "operation": "Fresh editorial generation",
+          "prompt_file": "prompts/sj-product-banner-oud-mirage.txt",
+          "exact_prompt": "Use case: ads-marketing. Create one brand-new photographic DearBody Philippines product-header campaign banner, landscape exactly 2:1, native PNG around 1774x887. This is a bold sunny fashion editorial, youthful but fully adult, warm, fun, light and approachable, with believable Filipino personality. High-end commercial photography with real skin texture, tactile fashion detail, strong clean sun and saturated scarlet/cobalt/lemon accents, never gloomy or generic cozy lifestyle.\nREFERENCES: Image1 is the supplied publication-materials STYLE reference only: borrow punchy color, sunny candid confidence, accessories and tactile product interaction; DO NOT copy its people, layouts, poses, props arrangement, typography, red vehicle or floating bottle. Image2 is the authoritative raw SKU: preserve that exact scent identity and label/liquid. Image3 is canonical bottle geometry ONLY, not Sunset Cocktail identity, colors or background.\nPHYSICAL PRODUCT: exactly ONE small authentic 50ml perfume bottle, tall straight cylindrical clear glass, restrained rounded shoulder, narrow neck, thick clear base, compact glossy black cylindrical cap fully seated, black cap lower edge; fine silver line belongs to bottle collar. About one adult palm-length. Natural grip, front label completely unobstructed and turned toward camera, original PARFUM/LONDON mark and exact scent spelling. No canister or other perfume. Never oversized, squat, bulbous, giant cap, gold hardware, altered label or colored opaque glass.\nCOMPOSITION: medium-wide environmental photo, camera pulled back. Subject/action entirely in right half. Leave left40–45% clean quiet actual colored wall or sky with simple natural light for later live headline, NO baked-in headline. Full hair visible with roughly12% image-height above head. Face center x76%,y30%; complete bottle centered x74%,y53%, height about14–16% of whole photo. Face, hands and full bottle essential area x65–88%, upper65% of image, so a narrow mobile crop works. Entire scene one coherent photograph, no panels, no artificial blank block.\nHARD RULES: exactly ONE fictional adult Filipino person total, only two arms/two hands with plausible fingers/grip. No background people, reflections of people, posters, portraits, screens, partial bodies or faces on printed props. No mirrors. No text except real product label; no logos on clothing/accessories, no slogans, watermarks or invented claims. Believable ordinary architecture, sunlight, shadows and gestures. Do not make a static bottle presenter: a spontaneous stylish action, natural amused expression, lived-in movement.\n\nSCENE: The sunny exterior of a small independent vinyl-record shop on a real Manila side street, no visible signage or glass. Broad clean faded dusty-blue stucco wall fills left45%; a cobalt doorway and narrow abstract burgundy painted shutter only at far right. Exactly one adult Filipino man with natural dark morena skin, close-cropped black hair, warm amused smile, wearing a burgundy and cream striped loose cotton shirt tucked into dark indigo denim, a simple chrome watch. He is walking out holding one plain cobalt-blue record sleeve under his elbow (absolutely NO artwork, portrait, readable text or human silhouette on sleeve); with that same arm's hand he holds his small capped Oud Mirage bottle upright at midchest. The other hand makes a casual half-wave to someone OFF-FRAME (nobody else visible), fingers natural and relaxed near right shoulder. Editorial movement in shirt, cheerful warm direct sun, approachable street style. No bag, no headphones/screens, no indoor recordplayer, bookshop or sketchbook. Product hand stays separate from record sleeve so grip is clear.\nSKU: Use ONLY the RIGHTMOST BLUE OUD MIRAGE bottle from rawimage2. Do not include its otherbottles. Exact white boldserif OUD MIRAGE on BLACK label, original whitePARFUM/LONDONmark. True clear blue liquid, notturquoise. Tallstraight50mlcylinderglass, smallplainblackcap.\nCRITICAL WIDE CAMERA: photographed head to upperthigh fromabout4metres, notfacecloseup. Subject visiblysmallerrightthird, face x77%y31%, bottle x74%y53%. Preserve14%pictureheight actualwall/sky ABOVEALLhair. Left45% actualplainwall. DO NOT fillheightwithheadandchest.",
+          "references": [
+            "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/campaign-v9-pop-editorial/references/publication-materials-reference.png",
+            "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/refined-reference-images/raw-reference-archive/db-original-for-him.jpg",
+            "/Users/wetrade/.codex/skills/dearbody-scent-gallery/assets/canonical-bottle-proportions.png"
+          ],
+          "generated_source": "/Users/wetrade/.codex/generated_images/01a0d0f9-5b11-7093-89c7-17bb545fc7bb/exec-be5f977f-86ed-449e-af5c-92513948358d.png"
+        },
+        {
+          "operation": "Targeted physical-label lettering repair after native close-up QA",
+          "prompt_file": "prompts/sj-product-banner-oud-mirage-label-revision.txt",
+          "exact_prompt": "Use case: precise-object-edit. FIRST IMAGE is the full banner EDIT TARGET. Preserve the entire accepted photograph exactly: same man, exact face/expression, hair, hands/grip, wardrobe, accessory, background, lighting, camera crop, headroom, bottle position/size/shape/cap/liquid and all scene details. ONLY correct the physical BLACK label's white typography to match the second authoritative raw SKU reference. Third image is canonical geometry only: do not change geometry or copy Sunset Cocktail. Existing label letters are malformed and must be replaced accurately.\nEXACT label: OUD MIRAGE in clear uppercase WHITE bold serif, one line like the raw product. Spell every character exactly: O U D   M I R A G E. It must be readable as OUD MIRAGE, never other letters, no 6 substituted for &. Below retain original small white emblem and exact PARFUM over LONDON, faithful original label layout. Keep BLACK label and every other bottle detail. In raw image use ONLY rightmost blue OUD MIRAGE, not the other two scents. Do not enlarge bottle or add floating callout. Corrected printing stays physically on bottle with correct light/perspective, no pasted sticker edge. Do not soften or recompose scene. Exactly one adult Filipino man and one small50mlbottle. Same2:1landscape1774x887PNG.",
+          "references": [
+            "/Users/wetrade/.codex/generated_images/01a0d0f9-5b11-7093-89c7-17bb545fc7bb/exec-be5f977f-86ed-449e-af5c-92513948358d.png",
+            "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/refined-reference-images/raw-reference-archive/db-original-for-him.jpg",
+            "/Users/wetrade/.codex/skills/dearbody-scent-gallery/assets/canonical-bottle-proportions.png"
+          ],
+          "generated_source": "/Users/wetrade/.codex/generated_images/01a0d0f9-5b11-7093-89c7-17bb545fc7bb/exec-43453a0a-679f-4073-a6e9-a22f383b68a1.png"
+        }
+      ],
+      "bytes": 2307991,
+      "sha256": "f272b2b9ef44aacd7621ae71f5a3ea95725b9d9d2aba4edaf5f4e3bbb7d88890"
+    },
+    {
+      "handle": "rtulle-satin",
+      "original": "originals/sj-product-banner-rtulle-satin.png",
+      "dimensions": [
+        1774,
+        887
+      ],
+      "generator": "Built-in image_gen; one call per asset or revision; max two concurrently",
+      "generated_source": "/Users/wetrade/.codex/generated_images/01a0d0f9-5b11-7093-89c7-17bb545fc7bb/exec-25181188-99ff-4a07-b081-6c6ab56ff303.png",
+      "alt": "A Filipino man in turquoise and cream laughs beside the sea, holding Rtulle & Satin and a coral cap.",
+      "review": {
+        "status": "PASS",
+        "scope": "Native image visual review; website crop/contrast integration is owned by root",
+        "scene": "Real sunny seawall and blue sea; turquoise shirt, white tank, cream shorts, lemon wristband and coral cap.",
+        "action": "Turning in a seaside breeze and casually moving a cap by its brim.",
+        "identity": "Black RTULLE & SATIN label, turquoise transparent liquid, plain glossy black cap and tall glass body.",
+        "person_count": 1,
+        "bottle_count": 1,
+        "casting": "one fictional adult Filipino man",
+        "anatomy": "Plausible two arms, two hands, grip and natural 50ml scale",
+        "face_and_label": "Whole face and label unobstructed; scent identity checked at native full view and magnified against raw SKU. See label_closeup_qa for resolution limitation.",
+        "no_extra_faces": "No background person, reflection, portrait or screen face detected",
+        "light_and_style": "Strong clear sun, healthy skin tones, saturated editorial wardrobe/accessories; warm, fun and light",
+        "quiet_left_copy_field": true,
+        "typography": "No baked headline or advertising copy; physical product label only",
+        "crop_guidance": "Full hair visible; tighter roughly3% headroom. Approximate face center 72%, bottle 63%; use top alignment and try 72–77% focal point. No headroom-only second iteration because crop can preserve full hair.",
+        "color_profile": "Native generated PNG has no embedded ICC. No pixel edits performed. Root owns tagged sRGB web derivative export.",
+        "label_closeup_qa": {
+          "method": "Compared raw SKU against native image viewed in Chrome at 4× magnification; no source pixels edited during inspection.",
+          "required_name": "RTULLE & SATIN",
+          "finding_before_repair": "Tiny scent lettering showed malformed or ambiguous characters in initial or widened composition.",
+          "repair": "Built-in ImageGen edit constrained to physical label, retaining original scene, subject, crop and bottle scale.",
+          "result": "Scent name resolves at intended banner scale after repair. Small physical lettering remains around 5px high in 1774×887 image; 4× magnification exposes raster limits and is not a claim of perfect microprint.",
+          "bottle_identity": "Original white/black label, liquid colour, tall glass silhouette and black cap retained.",
+          "prior_candidate": "attempts/sj-product-banner-rtulle-satin-before-label-fix.png"
+        }
+      },
+      "history": [
+        {
+          "operation": "Fresh editorial generation",
+          "prompt_file": "prompts/sj-product-banner-rtulle-satin.txt",
+          "exact_prompt": "Use case: ads-marketing. Create one brand-new photographic DearBody Philippines product-header campaign banner, landscape exactly 2:1, native PNG around 1774x887. This is a bold sunny fashion editorial, youthful but fully adult, warm, fun, light and approachable, with believable Filipino personality. High-end commercial photography with real skin texture, tactile fashion detail, strong clean sun and saturated scarlet/cobalt/lemon accents, never gloomy or generic cozy lifestyle.\nREFERENCES: Image1 is the supplied publication-materials STYLE reference only: borrow punchy color, sunny candid confidence, accessories and tactile product interaction; DO NOT copy its people, layouts, poses, props arrangement, typography, red vehicle or floating bottle. Image2 is the authoritative raw SKU: preserve that exact scent identity and label/liquid. Image3 is canonical bottle geometry ONLY, not Sunset Cocktail identity, colors or background.\nPHYSICAL PRODUCT: exactly ONE small authentic 50ml perfume bottle, tall straight cylindrical clear glass, restrained rounded shoulder, narrow neck, thick clear base, compact glossy black cylindrical cap fully seated, black cap lower edge; fine silver line belongs to bottle collar. About one adult palm-length. Natural grip, front label completely unobstructed and turned toward camera, original PARFUM/LONDON mark and exact scent spelling. No canister or other perfume. Never oversized, squat, bulbous, giant cap, gold hardware, altered label or colored opaque glass.\nCOMPOSITION: medium-wide environmental photo, camera pulled back. Subject/action entirely in right half. Leave left40–45% clean quiet actual colored wall or sky with simple natural light for later live headline, NO baked-in headline. Full hair visible with roughly12% image-height above head. Face center x76%,y30%; complete bottle centered x74%,y53%, height about14–16% of whole photo. Face, hands and full bottle essential area x65–88%, upper65% of image, so a narrow mobile crop works. Entire scene one coherent photograph, no panels, no artificial blank block.\nHARD RULES: exactly ONE fictional adult Filipino person total, only two arms/two hands with plausible fingers/grip. No background people, reflections of people, posters, portraits, screens, partial bodies or faces on printed props. No mirrors. No text except real product label; no logos on clothing/accessories, no slogans, watermarks or invented claims. Believable ordinary architecture, sunlight, shadows and gestures. Do not make a static bottle presenter: a spontaneous stylish action, natural amused expression, lived-in movement.\n\nSCENE: Bright ordinary Philippine seaside promenade, pale warm sea-wall fills left45% with blue sea and sky as a clean horizontal band above; simple chrome railing onlyfar right, no background walkers/boatswithpeople. One adult Filipino man with warm tan skin, slightly tousled mediumblackhair and broad easy grin, wearing a fresh turquoise ribbed short-sleeve shirt open over a white tank, cream shorts and a lemon-yellow cotton wristband. He is seated casually side-on on the low wall after a walk, torso turning toward a breeze; one hand holds his small capped perfume upright naturally at chestlevel x75%,y53%, the other hand loosely twirls a plain coral baseball cap by its brim near his outer shoulder at far right. Just a small real wrist gesture, not airborne cap, no floating objects. Sunlit tactile cotton and salt-air movement, high-quality accessible summer fashion ad. This is a new seaside scene, no woodenblockgame, basketball, terrace table, spraywrist, bagpickup or sterile resort. Realistic twohands and natural seatedhip/legconnection.\nSKU: RTULLE & SATIN exact white boldserif on BLACKlabel, original whitePARFUM/LONDONmark, transparent turquoise liquid; true tallcylindrical50mlclearbottle, blackcap seated. Exact unusual spelling RTULLE, notTULLE.\nCRITICAL WIDE CAMERA: photographed head to upperthigh fromabout4metres, notfacecloseup. Subject visiblysmallerrightthird, face x77%y31%, bottle x74%y53%. Preserve14%pictureheight actualsky ABOVEALLhair. Left45%quietactualwall/sky. DO NOT fillheightwithheadandchest.",
+          "references": [
+            "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/campaign-v9-pop-editorial/references/publication-materials-reference.png",
+            "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/refined-reference-images/raw-reference-archive/db-original-rtulle-and-satin.jpg",
+            "/Users/wetrade/.codex/skills/dearbody-scent-gallery/assets/canonical-bottle-proportions.png"
+          ],
+          "generated_source": "/Users/wetrade/.codex/generated_images/01a0d0f9-5b11-7093-89c7-17bb545fc7bb/exec-708d04de-67ce-4a9f-96bc-4f690d0427c0.png"
+        },
+        {
+          "operation": "Targeted physical-label lettering repair after native close-up QA",
+          "prompt_file": "prompts/sj-product-banner-rtulle-satin-label-revision.txt",
+          "exact_prompt": "Use case: precise-object-edit. FIRST IMAGE is the full banner EDIT TARGET. Preserve the entire accepted photograph exactly: same man, exact face/expression, hair, hands/grip, wardrobe, accessory, background, lighting, camera crop, headroom, bottle position/size/shape/cap/liquid and all scene details. ONLY correct the physical BLACK label's white typography to match the second authoritative raw SKU reference. Third image is canonical geometry only: do not change geometry or copy Sunset Cocktail. Existing label letters are malformed and must be replaced accurately.\nEXACT label: RTULLE & SATIN in clear uppercase WHITE bold serif, one line like the raw product. Spell every character exactly: R T U L L E   &   S A T I N. It must be readable as RTULLE & SATIN, never other letters, no 6 substituted for &. Below retain original small white emblem and exact PARFUM over LONDON, faithful original label layout. Keep BLACK label and every other bottle detail.  Do not enlarge bottle or add floating callout. Corrected printing stays physically on bottle with correct light/perspective, no pasted sticker edge. Do not soften or recompose scene. Exactly one adult Filipino man and one small50mlbottle. Same2:1landscape1774x887PNG.",
+          "references": [
+            "/Users/wetrade/.codex/generated_images/01a0d0f9-5b11-7093-89c7-17bb545fc7bb/exec-708d04de-67ce-4a9f-96bc-4f690d0427c0.png",
+            "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/refined-reference-images/raw-reference-archive/db-original-rtulle-and-satin.jpg",
+            "/Users/wetrade/.codex/skills/dearbody-scent-gallery/assets/canonical-bottle-proportions.png"
+          ],
+          "generated_source": "/Users/wetrade/.codex/generated_images/01a0d0f9-5b11-7093-89c7-17bb545fc7bb/exec-25181188-99ff-4a07-b081-6c6ab56ff303.png"
+        }
+      ],
+      "bytes": 2100107,
+      "sha256": "1e7bce82e8bb1b6b5bf725d72bc7c276b92455439f753ba448515d99aa70af47"
+    }
+  ],
+  "recorded_at": "2026-09-24T06:29:42.453Z",
+  "label_repair_chain": "provenance/product-label-repair-chain.json"
+}

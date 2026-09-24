@@ -1,0 +1,86 @@
+{
+  "cases": 6,
+  "failures": [],
+  "results": [
+    {
+      "handle": "mojito-metallique",
+      "bullets": [
+        "START YOUR SCENT WARDROBE A first pick to consider as you discover your personal fragrance style.",
+        "WHITE TEE. FAVOURITE DENIM. Try it as the finishing touch to a relaxed, pared-back outfit.",
+        "50 ML, EVERYDAY SIZE A bottle that fits neatly among your getting-ready essentials.",
+        "A GOLDEN DETAIL Golden-yellow liquid, clear glass and a glossy black cap add colour to your dressing table.",
+        "A COLOURFUL GIFT IDEA The bright-yellow presentation canister makes a cheerful choice for birthdays and little celebrations."
+      ],
+      "scentDescriptionPreserved": true
+    },
+    {
+      "handle": "amber-oud-silk",
+      "bullets": [
+        "MAKE AN EVENING OF IT Consider it for dinner plans, celebrations or an occasion worth dressing up for.",
+        "FINISH THE LOOK Try it with a burgundy blouse, dark denim or your favourite tailored pieces.",
+        "50 ML, EVERYDAY SIZE A bottle that fits neatly among your getting-ready essentials.",
+        "BLUSH ON DISPLAY Pale blush-peach liquid and clear glass bring a subtle colour accent to your shelf.",
+        "PRESENTED IN PEACH A blush-peach cylindrical canister gives the bottle a considered presentation for gifting."
+      ],
+      "scentDescriptionPreserved": true
+    },
+    {
+      "handle": "mistened-narcissus",
+      "bullets": [
+        "LEAVE ROOM FOR SPONTANEITY Try it for a weekend market, a browse through a record shop or an unplanned day out.",
+        "ADD A PERSONAL TOUCH Pair it with a colourful top, favourite denim or an accessory that feels like you.",
+        "50 ML, EVERYDAY SIZE A bottle that fits neatly among your getting-ready essentials.",
+        "SIMPLE, CLEAR DESIGN Clear liquid, transparent glass and a glossy black cap give the bottle a clean look.",
+        "A LITTLE LAVENDER The pale-lavender presentation canister makes a thoughtful birthday or just-because gift."
+      ],
+      "scentDescriptionPreserved": true
+    },
+    {
+      "handle": "charme-envoutant",
+      "bullets": [
+        "FOR YOUR NEXT GET-TOGETHER Consider it for dinner with friends, a date or a celebration.",
+        "RELAXED, BUT PUT TOGETHER Try it with a linen shirt, a cotton overshirt or tailoring worn your own way.",
+        "50 ML, EVERYDAY SIZE A bottle that fits neatly among your getting-ready essentials.",
+        "COLOUR WITH CONTRAST Amber-orange liquid and a black front label give the clear glass bottle a distinctive look.",
+        "A BRIGHT GIFT IDEA The vivid-orange cylindrical canister with black trim brings colour to the unwrapping."
+      ],
+      "scentDescriptionPreserved": true
+    },
+    {
+      "handle": "oud-mirage",
+      "bullets": [
+        "AFTER-HOURS PLANS Try it for a gallery opening, live music or an evening you want to dress for.",
+        "LET SIMPLE PIECES SPEAK Pair it with a black tee, an overshirt or understated tailoring.",
+        "50 ML, EVERYDAY SIZE A bottle that fits neatly among your getting-ready essentials.",
+        "BLUE THAT STANDS OUT Vivid blue liquid in clear glass adds a distinctive detail to your shelf.",
+        "PRESENTED IN BLUE A matching blue cylindrical canister completes the bottle for a considered gift."
+      ],
+      "scentDescriptionPreserved": true
+    },
+    {
+      "handle": "rtulle-satin",
+      "bullets": [
+        "FOR UNHURRIED PLANS Consider it for a relaxed weekend, a casual date or a leisurely lunch.",
+        "YOUR EVERYDAY FAVOURITES Try it with a cotton tee, an open shirt or relaxed trousers.",
+        "50 ML, EVERYDAY SIZE A bottle that fits neatly among your getting-ready essentials.",
+        "A TURQUOISE ACCENT Vivid turquoise liquid and a glossy black cap bring colour and contrast to clear glass.",
+        "COLOUR FOR THE OCCASION The turquoise presentation canister makes a bright choice for a birthday or thank-you gift."
+      ],
+      "scentDescriptionPreserved": true
+    }
+  ],
+  "visualReview": {
+    "product": "mojito-metallique",
+    "widths": [
+      320,
+      1440
+    ],
+    "themes": [
+      "light",
+      "dark"
+    ],
+    "status": "PASS",
+    "findings": "All five revised benefits are readable, wrap without clipping or horizontal overflow, and remain visually separate from The scent."
+  },
+  "themeCheckFindings": []
+}

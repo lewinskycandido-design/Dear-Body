@@ -1,0 +1,212 @@
+{
+  "generatedAt": "2026-09-24T09:32:28.660Z",
+  "status": "PASS",
+  "checks": 51,
+  "results": [
+    {
+      "label": "Actual native section loads scoped card stylesheet",
+      "pass": true
+    },
+    {
+      "label": "Five questions launch with native answer buttons",
+      "pass": true
+    },
+    {
+      "label": "No Continue, Discover submit control or auto-advancing radio group",
+      "pass": true
+    },
+    {
+      "label": "Cards include shared decorative SVG with text labels",
+      "pass": true
+    },
+    {
+      "label": "Initial Back hidden and automatic action explained",
+      "pass": true
+    },
+    {
+      "label": "Rapid competing clicks schedule one transition only",
+      "pass": true
+    },
+    {
+      "label": "One answer advances exactly one step and focuses question",
+      "pass": true
+    },
+    {
+      "label": "Detached stale click and second double-click cannot skip question",
+      "pass": true
+    },
+    {
+      "label": "Back restores the previously chosen answer",
+      "pass": true
+    },
+    {
+      "label": "Keyboard-generated activation advances without radio arrow trap",
+      "pass": true
+    },
+    {
+      "label": "Back preserves a mood answer",
+      "pass": true
+    },
+    {
+      "label": "Changing collection clears incompatible later answers",
+      "pass": true
+    },
+    {
+      "label": "Back cancels a pending transition",
+      "pass": true
+    },
+    {
+      "label": "Start again cancels pending transition and clears answers",
+      "pass": true
+    },
+    {
+      "label": "mojito-metallique final step clearly signals immediate result",
+      "pass": true
+    },
+    {
+      "label": "mojito-metallique last answer directly produces one correct scent",
+      "pass": true
+    },
+    {
+      "label": "mojito-metallique product links and stock remain native",
+      "pass": true
+    },
+    {
+      "label": "mojito-metallique result focus and singular announcement",
+      "pass": true
+    },
+    {
+      "label": "amber-oud-silk final step clearly signals immediate result",
+      "pass": true
+    },
+    {
+      "label": "amber-oud-silk last answer directly produces one correct scent",
+      "pass": true
+    },
+    {
+      "label": "amber-oud-silk product links and stock remain native",
+      "pass": true
+    },
+    {
+      "label": "amber-oud-silk result focus and singular announcement",
+      "pass": true
+    },
+    {
+      "label": "mistened-narcissus final step clearly signals immediate result",
+      "pass": true
+    },
+    {
+      "label": "mistened-narcissus last answer directly produces one correct scent",
+      "pass": true
+    },
+    {
+      "label": "mistened-narcissus product links and stock remain native",
+      "pass": true
+    },
+    {
+      "label": "mistened-narcissus result focus and singular announcement",
+      "pass": true
+    },
+    {
+      "label": "oud-mirage final step clearly signals immediate result",
+      "pass": true
+    },
+    {
+      "label": "oud-mirage last answer directly produces one correct scent",
+      "pass": true
+    },
+    {
+      "label": "oud-mirage product links and stock remain native",
+      "pass": true
+    },
+    {
+      "label": "oud-mirage result focus and singular announcement",
+      "pass": true
+    },
+    {
+      "label": "charme-envoutant final step clearly signals immediate result",
+      "pass": true
+    },
+    {
+      "label": "charme-envoutant last answer directly produces one correct scent",
+      "pass": true
+    },
+    {
+      "label": "charme-envoutant product links and stock remain native",
+      "pass": true
+    },
+    {
+      "label": "charme-envoutant result focus and singular announcement",
+      "pass": true
+    },
+    {
+      "label": "rtulle-satin final step clearly signals immediate result",
+      "pass": true
+    },
+    {
+      "label": "rtulle-satin last answer directly produces one correct scent",
+      "pass": true
+    },
+    {
+      "label": "rtulle-satin product links and stock remain native",
+      "pass": true
+    },
+    {
+      "label": "rtulle-satin result focus and singular announcement",
+      "pass": true
+    },
+    {
+      "label": "All skip flow has one honest suggestion",
+      "pass": true
+    },
+    {
+      "label": "Women skip flow has one honest suggestion",
+      "pass": true
+    },
+    {
+      "label": "Women collection-only filter remains strict",
+      "pass": true
+    },
+    {
+      "label": "Men skip flow has one honest suggestion",
+      "pass": true
+    },
+    {
+      "label": "Men collection-only filter remains strict",
+      "pass": true
+    },
+    {
+      "label": "Tied ranking stays complete while rendering stable first result only",
+      "pass": true
+    },
+    {
+      "label": "Theme editor initialization does not duplicate answer listeners",
+      "pass": true
+    },
+    {
+      "label": "Detached section cannot advance a pending answer",
+      "pass": true
+    },
+    {
+      "label": "Reinserted initialized section stays usable after cancellation",
+      "pass": true
+    },
+    {
+      "label": "Reinserted section accepts a new answer",
+      "pass": true
+    },
+    {
+      "label": "Reduced motion uses zero transition delay",
+      "pass": true
+    },
+    {
+      "label": "Reduced-motion choice still advances and focuses",
+      "pass": true
+    },
+    {
+      "label": "Responsive, reduced-motion and forced-color safeguards are explicit",
+      "pass": true
+    }
+  ],
+  "scope": "Actual native Liquid + JSDOM with deterministic timers; no browser, preview build or Shopify requests. Native button keyboard activation uses the same click path; real browser visual/focus review remains separate."
+}

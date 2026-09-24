@@ -1,0 +1,84 @@
+[
+  {
+    "file": "sj-banner-finder-dark.jpg",
+    "sha256": "a42440c5b5f47cadc3ca9c716ee80a9591711695a5d07e0e906d585241023675",
+    "bytes": 381450
+  },
+  {
+    "file": "sj-banner-finder-light.jpg",
+    "sha256": "0bc86d48e368761f296dc6adf5eb92142242ff122166f3bcb33878d414a77a81",
+    "bytes": 429687
+  },
+  {
+    "file": "sj-banner-footer-dark.jpg",
+    "sha256": "00be5a123f32ed6692d8e1de93eda6aac035821775508c4c78de631f930ee102",
+    "bytes": 400779
+  },
+  {
+    "file": "sj-banner-footer-light.jpg",
+    "sha256": "ec240f32c109ac50f9f838785a8c074de45000d73f3e1b6b7f15ab7d32618a64",
+    "bytes": 410999
+  },
+  {
+    "file": "sj-banner-men-dark.jpg",
+    "sha256": "6524d2ec0078477d59fc42c090c02adff5dcb3595df0e92d234d69139fa3a2e5",
+    "bytes": 150431
+  },
+  {
+    "file": "sj-banner-men-light.jpg",
+    "sha256": "95182437a7931bfc3a05d1ed879728fa8bbe590f830416aefa6ec203099ab04d",
+    "bytes": 121600
+  },
+  {
+    "file": "sj-banner-story-dark.jpg",
+    "sha256": "5095b54e2c1a37347b1c59585c784c71cce18b23e411902b2fd17dc23227db3e",
+    "bytes": 417390
+  },
+  {
+    "file": "sj-banner-story-light.jpg",
+    "sha256": "55d2c0e236fc665012fda48e8cde90edf1195b0e2ddd64ed2e837b35956adf17",
+    "bytes": 396515
+  },
+  {
+    "file": "sj-banner-women-dark.jpg",
+    "sha256": "9723406d31111340fd8999dad3e4956091a5d8a46e2bc8c1909f3f83c7cb8a30",
+    "bytes": 194793
+  },
+  {
+    "file": "sj-banner-women-light.jpg",
+    "sha256": "3263e5e648eb44516558d316d4fffd048d683bbb8a6fc054041096f39afb8329",
+    "bytes": 195387
+  },
+  {
+    "file": "sj-men-dark.jpg",
+    "sha256": "6ff79779010c02a948a6d4dde3f32eecb87ff400dd975849cd2418865dce2e5e",
+    "bytes": 443249
+  },
+  {
+    "file": "sj-men-light.jpg",
+    "sha256": "7457bde450007bdeca5bbed3eefedf58778d909607004a510d5295f0ff5989e8",
+    "bytes": 435261
+  },
+  {
+    "file": "sj-women-dark.jpg",
+    "sha256": "013626b919df4aed26640daa935e305d1012d1205f9f11c7f762b0894fe425db",
+    "bytes": 425987
+  },
+  {
+    "file": "sj-women-light.jpg",
+    "sha256": "3281f9ae95b376b2ec569600ea4205420beeca25343f5eb5190ba16dd6c32c19",
+    "bytes": 421675
+  },
+  {
+    "file": "sj-home-hero-light.jpg",
+    "sha256": "6c1607f1959faea2fc1e973e3fcb47e92f9d347a78057308aa66501ed67cdd4e",
+    "bytes": 391600,
+    "source": "campaign-v4-homehero/final-web/sj-home-hero-light.jpg"
+  },
+  {
+    "file": "sj-home-hero-dark.jpg",
+    "sha256": "78083e1e29b5f23df73198630e554cdfa7f0befe1db1c5c8b438789605f5d981",
+    "bytes": 372266,
+    "source": "campaign-v4-homehero/final-web/sj-home-hero-dark.jpg"
+  }
+]

@@ -1,0 +1,51 @@
+{
+  "handle": "amber-oud-silk",
+  "date": "2026-09-24",
+  "tool": "Built-in image_gen.imagegen",
+  "intent": "New referenced product banner composition",
+  "source_output_path": "/Users/wetrade/.codex/generated_images/01a0d0f9-88d3-7d82-84d9-c31b20b30821/exec-200a902c-e0ff-43fc-ba22-d3291d33eee7.png",
+  "original_path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/campaign-v5-product-banners/originals/sj-product-banner-amber-oud-silk.png",
+  "original_dimensions": [
+    1774,
+    887
+  ],
+  "original_sha256": "4283de5ae50cf49931f784920677eb70d6e1d28b484aa39b9b8260aee5c83e45",
+  "web_path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/campaign-v5-product-banners/final-web/sj-product-banner-amber-oud-silk.jpg",
+  "web_dimensions": [
+    1774,
+    887
+  ],
+  "web_sha256": "601e5ff779788f53cd360a76e3283c9081485576f1e320ff0add6343027b7ab8",
+  "web_bytes": 276086,
+  "prompt_path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/campaign-v5-product-banners/prompts/sj-product-banner-amber-oud-silk.txt",
+  "prompt": "Use case: product-mockup. Create a NEW photographic product-page header banner for DearBody Philippines by re-staging the exact fragrance and packaging in reference 1, with reference 2 governing bottle geometry only. Landscape 2:1 aspect ratio, ideally 2400 x 1200 pixels.\nReference 1: Amber Oud Silk bottle and canister; authoritative product identity, packaging color, liquid color, black cap, white labels and exact label design. Reference 2: canonical shared bottle proportions only; do NOT copy its Sunset Cocktail text, black label, uncapped state, spray, hand, setting or palette.\nComposition: wide horizontal commercial editorial photograph. Entire bottle and intact matching canister occupy ONLY the RIGHT side, all important product pixels within x62–91%, y12–87%. Place the bottle at x69% and taller canister at x83%, both complete with breathing room and contact shadows. The bottle is capped. Keep the left 45% of the frame plain warm cream (#F4E3CB), calm and uncluttered, suitable for live website title overlay. No text baked into the empty area.\nAmber Oud Silk product fidelity: same realistic 50 ml tall straight cylindrical clear glass bottle, restrained shoulder, thick transparent glass base, compact continuous glossy-black cylindrical magnetic cap. The narrow silver line beneath cap belongs to bottle collar, never a cap band. Pale blush-peach liquid, not dark amber liquid. White/ivory rectangular bottle label and matching white canister label with exact dark wording “AMBER OUD” on first line and “SILK” beneath, and original db PARFUM LONDON mark below. Tall cylindrical blush-peach canister, solid black top with narrow rim, one lower sleeve seam and black bottom rim. Preserve same relative bottle/package scale as reference.\nDistinct scene: place products on a low sculptural warm walnut wood slab entirely in the right half, with one restrained translucent amber-glass sculptural curve behind the product cluster and a cream backdrop. A very faint luminous haze well behind the products may express smoky warmth; it must not hide labels, look like active perfume spray or suggest burning. Warm inviting daylight and soft bronze reflections, physically plausible studio materials, subtly playful geometry, polished but approachable. Background remains light and airy, never gloomy.\nColor anchors: warm cream, controlled blush-peach packaging, small amber-glass and warm wood accents, a tiny deep oxblood accent only if natural. All visible materials should be photoreal with coherent light and contact shadows.\nNo people, hands, faces, duplicate bottles, extra lids, invented packaging, food, herbs, flowers, literal ingredients or fragrance-note props. No promotional copy, heading, slogan, arrows, watermark or unrelated brand. The physical labels must remain readable and exact. Do not crop any product. The deliverable is this ONE wide banner, not a gallery or collage.\n",
+  "references": [
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/theme/assets/sj-amber-oud-silk-01.jpg",
+      "sha256": "4e30516d2db8479ccbe1a00f6a94fb1b0826dabb07d65579af9e405d1f641a83",
+      "role": "Product identity and package reference"
+    },
+    {
+      "path": "/Users/wetrade/.codex/skills/dearbody-scent-gallery/assets/canonical-bottle-proportions.png",
+      "sha256": "e9a78f20b045b791e1ebd1795a340f1d0804e9f3be7fd06ef971fdc36ddc9399",
+      "role": "Geometry only; do not transfer scent identity"
+    }
+  ],
+  "copy_source_path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/approved-product-copy.json",
+  "qa": {
+    "status": "PASS",
+    "individual_visual_inspection": true,
+    "scope": "One unique product-detail header banner; the requested banner scope overrides the gallery skill twelve-frame architecture.",
+    "product_identity": "Exact scent name and original PARFUM LONDON physical label design; correct label color, liquid, canister, black cap, tall cylindrical bottle silhouette and thick base.",
+    "composition": "Complete bottle and matching intact canister at right; quiet warm-cream left area for live website title. No baked promotional text. Root confirmed leftmost product at approximately59% is clear of implementation copymax44% and gradient ending53%.",
+    "lighting_and_materials": "Warm inviting light, believable contact shadows and physically plausible editorial materials; polished and approachable.",
+    "scene": "Sculptural warm walnut wood and translucent amber glass.",
+    "faces": 0,
+    "invented_notes_or_ingredients": false,
+    "cropped_products": false,
+    "promotional_text": false,
+    "iterations": 1,
+    "resolution_note": "Requested2400×1200; built-in ImageGen returned native1774×887, exact2:1. Native content and resolution retained without artificial upscaling, cropping or raster edits.",
+    "export": "sips JPEG quality86 format conversion/compression only; no resize/crop/overlay."
+  }
+}

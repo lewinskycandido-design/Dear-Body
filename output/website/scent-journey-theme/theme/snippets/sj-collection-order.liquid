@@ -1,0 +1,97 @@
+{%- liquid
+  assign order_handles = 'mojito-metallique,amber-oud-silk,mistened-narcissus,charme-envoutant,oud-mirage,rtulle-satin' | split: ','
+  assign women_handles = 'mojito-metallique,amber-oud-silk,mistened-narcissus' | split: ','
+  assign order_currency = cart.currency.iso_code | default: cart.currency | default: shop.currency
+  assign opposite_collection = 'men'
+  assign opposite_label = "Men’s collection"
+  if collection.handle == 'mens-perfume'
+    assign opposite_collection = 'women'
+    assign opposite_label = "Women’s collection"
+  endif
+-%}
+{%- capture order_catalog -%}
+[
+{%- assign catalog_separator = '' -%}
+{%- for order_handle in order_handles -%}
+  {%- assign order_product = all_products[order_handle] -%}
+  {%- if order_product != blank -%}
+    {%- assign order_collection = 'men' -%}
+    {%- if women_handles contains order_handle -%}{%- assign order_collection = 'women' -%}{%- endif -%}
+    {%- capture order_gallery_prefix -%}{%- render 'sj-gallery-prefix', product: order_product -%}{%- endcapture -%}
+    {%- assign order_gallery_prefix = order_gallery_prefix | strip -%}
+    {%- for order_variant in order_product.variants -%}
+      {%- assign order_image = '' -%}
+      {%- if order_gallery_prefix != blank -%}
+        {%- assign order_image_asset = order_gallery_prefix | append: '-01-thumb.jpg' -%}
+        {%- assign order_image = order_image_asset | asset_url -%}
+      {%- else -%}
+        {%- assign order_native_image = order_variant.featured_image | default: order_product.featured_image -%}
+        {%- if order_native_image != blank -%}{%- assign order_image = order_native_image | image_url: width: 160 -%}{%- endif -%}
+      {%- endif -%}
+      {{- catalog_separator -}}{"id":{{ order_variant.id | append: '' | json }},"handle":{{ order_product.handle | json }},"title":{{ order_product.title | json }},"variantTitle":{{ order_variant.title | json }},"available":{{ order_variant.available | json }},"priceCents":{{ order_variant.price | json }},"quantityMin":{{ order_variant.quantity_rule.min | default: 1 | json }},"quantityMax":{{ order_variant.quantity_rule.max | json }},"quantityIncrement":{{ order_variant.quantity_rule.increment | default: 1 | json }},"url":{{ order_product.url | json }},"image":{{ order_image | json }},"collection":{{ order_collection | json }}}
+      {%- assign catalog_separator = ',' -%}
+    {%- endfor -%}
+  {%- endif -%}
+{%- endfor -%}
+]
+{%- endcapture -%}
+{%- capture order_json_lt -%}\u003c{%- endcapture -%}
+<script type="application/json" data-sj-order-catalog>{{ order_catalog | replace: '<', order_json_lt }}</script>
+<section id="CollectionOrder-{{ section.id }}" class="sj-collection-order" data-sj-order-panel hidden aria-labelledby="CollectionOrderHeading-{{ section.id }}">
+  <header class="sj-collection-order__header">
+    <div><p class="sj-eyebrow">A LITTLE MORE YOU</p><h2 id="CollectionOrderHeading-{{ section.id }}" data-sj-order-heading tabindex="-1">Your scent selection</h2><p>Mix scents from both collections in one order.</p></div>
+    <div class="sj-collection-order__shipping">{% render 'sj-icon', name: 'shipping' %}<p><strong>Free shipping on 2 or more items</strong><span>₱80 shipping for 1 item.</span></p></div>
+  </header>
+  <form method="get" action="{{ collection.url }}" data-sj-order-form data-country="PH" data-currency="{{ order_currency | escape }}" data-single-shipping="8000">
+    <div class="sj-collection-order__columns">
+      <div class="sj-collection-order__selection">
+        <h3>Your chosen scents</h3>
+        <ul class="sj-collection-order__lines" data-sj-order-lines aria-label="Selected scents"></ul>
+        <template data-sj-order-line-template>
+          <li class="sj-collection-order__line">
+            <img data-sj-order-image width="80" height="80" alt="" loading="lazy">
+            <div><a data-sj-order-link><span data-sj-order-title></span></a><span class="sj-collection-order__line-price" data-sj-order-price></span></div>
+            <button class="sj-collection-order__remove" type="button" data-sj-order-remove aria-label="Remove scent">{% render 'sj-icon', name: 'close' %}</button>
+            <div class="sj-collection-order__quantity"><span class="sj-collection-order__quantity-label">Quantity</span><div class="sj-collection-order__quantity-controls">
+              <button type="button" data-sj-order-step="-1" aria-label="Decrease quantity">{% render 'sj-icon', name: 'minus' %}</button>
+              <input type="text" data-sj-order-quantity inputmode="numeric" pattern="[0-9]+" value="1" required aria-label="Quantity">
+              <button type="button" data-sj-order-step="1" aria-label="Increase quantity">{% render 'sj-icon', name: 'plus' %}</button>
+            </div><small data-sj-order-quantity-rules></small></div>
+          </li>
+        </template>
+        <div class="sj-collection-order__cross">
+          <label for="CollectionOrderCross-{{ section.id }}">Add from the {{ opposite_label | downcase }}</label>
+          <p id="CollectionOrderCrossHelp-{{ section.id }}">Choose a scent to add it to this order.</p>
+          <select id="CollectionOrderCross-{{ section.id }}" data-sj-order-cross-select aria-describedby="CollectionOrderCrossHelp-{{ section.id }}" disabled>
+            <option value="">Explore {{ opposite_label | downcase }}</option>
+            {%- for order_handle in order_handles -%}
+              {%- assign order_collection = 'men' -%}
+              {%- if women_handles contains order_handle -%}{%- assign order_collection = 'women' -%}{%- endif -%}
+              {%- if order_collection == opposite_collection -%}
+                {%- assign order_product = all_products[order_handle] -%}
+                {%- if order_product != blank -%}{%- for order_variant in order_product.variants -%}
+                  <option value="{{ order_variant.id }}" data-available="{{ order_variant.available }}" {% unless order_variant.available %}disabled{% endunless %}>{{ order_product.title | escape }}{% unless order_product.has_only_default_variant %} / {{ order_variant.title | escape }}{% endunless %} — {{ order_variant.price | money_with_currency }}{% unless order_variant.available %} — Sold out{% endunless %}</option>
+                {%- endfor -%}{%- endif -%}
+              {%- endif -%}
+            {%- endfor -%}
+          </select>
+        </div>
+        <div class="sj-collection-order__summary" aria-live="polite" aria-atomic="true">
+          <dl><div><dt>Subtotal</dt><dd data-sj-order-subtotal>—</dd></div><div><dt>Shipping</dt><dd data-sj-order-shipping>—</dd></div><div class="sj-collection-order__total"><dt>Estimated total</dt><dd data-sj-order-total>—</dd></div></dl>
+          <p data-sj-order-shipping-message>Choose your scents to see your total.</p>
+        </div>
+      </div>
+      <div class="sj-collection-order__delivery">
+        <div class="sj-collection-order__cod-intro">
+          {% render 'sj-icon', name: 'shipping' %}
+          <h3>YOUR SCENTS. YOUR DOORSTEP.</h3>
+          <p id="CollectionCheckoutNote-{{ section.id }}">Select your scents and quantities, then choose Check out. Enter your delivery details in the order form to place your cash-on-delivery order.</p>
+          <p class="sj-collection-order__checkout-note">Pay when your order arrives. Your order is placed only after you confirm it in the order form.</p>
+        </div>
+        <button class="sj-button sj-collection-order__submit" type="submit" data-sj-order-submit aria-describedby="CollectionCheckoutNote-{{ section.id }}" disabled><span data-sj-order-submit-label>Check out</span></button>
+        <p class="sj-collection-order__error" data-sj-order-error role="alert"></p>
+        <p class="sj-visually-hidden" data-sj-order-status role="status" aria-live="polite" aria-atomic="true"></p>
+      </div>
+    </div>
+  </form>
+</section>

@@ -1,0 +1,535 @@
+{
+  "generatedAt": "2026-09-24T07:26:01.564Z",
+  "contract": {
+    "sale": 799,
+    "original": 1099,
+    "savings": 300,
+    "discount": "27.3% OFF"
+  },
+  "checks": [
+    {
+      "pass": true,
+      "name": "Native fixture: current product",
+      "actual": [
+        "\u20b1799.00 PHP",
+        "\u20b11,099.00 PHP",
+        "27.3% OFF",
+        "Save \u20b1300.00"
+      ],
+      "expected": [
+        "\u20b1799.00 PHP",
+        "\u20b11,099.00 PHP",
+        "27.3% OFF",
+        "Save \u20b1300.00"
+      ]
+    },
+    {
+      "pass": true,
+      "name": "Native fixture: approved active price with missing native compare",
+      "actual": [
+        "\u20b1799.00 PHP",
+        "\u20b11,099.00 PHP",
+        "27.3% OFF",
+        "Save \u20b1300.00"
+      ],
+      "expected": [
+        "\u20b1799.00 PHP",
+        "\u20b11,099.00 PHP",
+        "27.3% OFF",
+        "Save \u20b1300.00"
+      ]
+    },
+    {
+      "pass": true,
+      "name": "Native fixture: unknown future product follows native compare",
+      "actual": [
+        "\u20b1799.00 PHP",
+        "\u20b11,099.00 PHP",
+        "27.3% OFF",
+        "Save \u20b1300.00"
+      ],
+      "expected": [
+        "\u20b1799.00 PHP",
+        "\u20b11,099.00 PHP",
+        "27.3% OFF",
+        "Save \u20b1300.00"
+      ]
+    },
+    {
+      "pass": true,
+      "name": "Native fixture: different selling price derives correct savings",
+      "actual": [
+        "\u20b1899.00 PHP",
+        "\u20b11,099.00 PHP",
+        "18.2% OFF",
+        "Save \u20b1200.00"
+      ],
+      "expected": [
+        "\u20b1899.00 PHP",
+        "\u20b11,099.00 PHP",
+        "18.2% OFF",
+        "Save \u20b1200.00"
+      ]
+    },
+    {
+      "pass": true,
+      "name": "Native fixture: equal native original has no discount for other products",
+      "actual": [
+        "\u20b1799.00 PHP",
+        "",
+        "",
+        ""
+      ],
+      "expected": [
+        "\u20b1799.00 PHP",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "pass": true,
+      "name": "Native fixture: equal native original has no discount for other products hides every discount element"
+    },
+    {
+      "pass": true,
+      "name": "Native fixture: missing original has no discount for other products",
+      "actual": [
+        "\u20b1799.00 PHP",
+        "",
+        "",
+        ""
+      ],
+      "expected": [
+        "\u20b1799.00 PHP",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "pass": true,
+      "name": "Native fixture: missing original has no discount for other products hides every discount element"
+    },
+    {
+      "pass": true,
+      "name": "Native fixture: varying product price suppresses card discount",
+      "actual": [
+        "From \u20b1799.00",
+        "",
+        "",
+        ""
+      ],
+      "expected": [
+        "From \u20b1799.00",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "pass": true,
+      "name": "Native fixture: explicit variant uses its own consistent price",
+      "actual": [
+        "\u20b1799.00 PHP",
+        "\u20b11,099.00 PHP",
+        "27.3% OFF",
+        "Save \u20b1300.00"
+      ],
+      "expected": [
+        "\u20b1799.00 PHP",
+        "\u20b11,099.00 PHP",
+        "27.3% OFF",
+        "Save \u20b1300.00"
+      ]
+    },
+    {
+      "pass": true,
+      "name": "PDP mojito-metallique: price/reference/amount survive initial JS",
+      "actual": {
+        "price": "\u20b1799.00 PHP",
+        "compare": "\u20b11,099.00 PHP",
+        "savings": "27.3% OFF",
+        "amount": "Save \u20b1300.00",
+        "hidden": [
+          false,
+          false,
+          false,
+          false
+        ],
+        "labels": [
+          "Now",
+          "Original"
+        ],
+        "options": [
+          {
+            "price": "\u20b1799.00 PHP",
+            "compare": "\u20b11,099.00 PHP",
+            "savings": "27.3% OFF",
+            "amount": "Save \u20b1300.00"
+          }
+        ]
+      }
+    },
+    {
+      "pass": true,
+      "name": "PDP mojito-metallique: explicit Now and Original labels"
+    },
+    {
+      "pass": true,
+      "name": "PDP mojito-metallique: each variant supplies amount and percentage"
+    },
+    {
+      "pass": true,
+      "name": "PDP mojito-metallique: no responsive horizontal overflow"
+    },
+    {
+      "pass": true,
+      "name": "Isolated variant without discount clears reference, percentage and amount",
+      "changed": {
+        "price": "\u20b1999.00 PHP",
+        "compare": "",
+        "savings": "",
+        "amount": "",
+        "hidden": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "labels": [
+          "Now",
+          "Original"
+        ],
+        "options": [
+          {
+            "price": "\u20b1799.00 PHP",
+            "compare": "\u20b11,099.00 PHP",
+            "savings": "27.3% OFF",
+            "amount": "Save \u20b1300.00"
+          },
+          {
+            "price": "\u20b1999.00 PHP",
+            "compare": "",
+            "savings": "",
+            "amount": ""
+          }
+        ]
+      }
+    },
+    {
+      "pass": true,
+      "name": "Returning to original variant restores all discount values",
+      "changed": {
+        "price": "\u20b1799.00 PHP",
+        "compare": "\u20b11,099.00 PHP",
+        "savings": "27.3% OFF",
+        "amount": "Save \u20b1300.00",
+        "hidden": [
+          false,
+          false,
+          false,
+          false
+        ],
+        "labels": [
+          "Now",
+          "Original"
+        ],
+        "options": [
+          {
+            "price": "\u20b1799.00 PHP",
+            "compare": "\u20b11,099.00 PHP",
+            "savings": "27.3% OFF",
+            "amount": "Save \u20b1300.00"
+          }
+        ]
+      }
+    },
+    {
+      "pass": true,
+      "name": "PDP amber-oud-silk: price/reference/amount survive initial JS",
+      "actual": {
+        "price": "\u20b1799.00 PHP",
+        "compare": "\u20b11,099.00 PHP",
+        "savings": "27.3% OFF",
+        "amount": "Save \u20b1300.00",
+        "hidden": [
+          false,
+          false,
+          false,
+          false
+        ],
+        "labels": [
+          "Now",
+          "Original"
+        ],
+        "options": [
+          {
+            "price": "\u20b1799.00 PHP",
+            "compare": "\u20b11,099.00 PHP",
+            "savings": "27.3% OFF",
+            "amount": "Save \u20b1300.00"
+          }
+        ]
+      }
+    },
+    {
+      "pass": true,
+      "name": "PDP amber-oud-silk: explicit Now and Original labels"
+    },
+    {
+      "pass": true,
+      "name": "PDP amber-oud-silk: each variant supplies amount and percentage"
+    },
+    {
+      "pass": true,
+      "name": "PDP amber-oud-silk: no responsive horizontal overflow"
+    },
+    {
+      "pass": true,
+      "name": "PDP mistened-narcissus: price/reference/amount survive initial JS",
+      "actual": {
+        "price": "\u20b1799.00 PHP",
+        "compare": "\u20b11,099.00 PHP",
+        "savings": "27.3% OFF",
+        "amount": "Save \u20b1300.00",
+        "hidden": [
+          false,
+          false,
+          false,
+          false
+        ],
+        "labels": [
+          "Now",
+          "Original"
+        ],
+        "options": [
+          {
+            "price": "\u20b1799.00 PHP",
+            "compare": "\u20b11,099.00 PHP",
+            "savings": "27.3% OFF",
+            "amount": "Save \u20b1300.00"
+          }
+        ]
+      }
+    },
+    {
+      "pass": true,
+      "name": "PDP mistened-narcissus: explicit Now and Original labels"
+    },
+    {
+      "pass": true,
+      "name": "PDP mistened-narcissus: each variant supplies amount and percentage"
+    },
+    {
+      "pass": true,
+      "name": "PDP mistened-narcissus: no responsive horizontal overflow"
+    },
+    {
+      "pass": true,
+      "name": "PDP charme-envoutant: price/reference/amount survive initial JS",
+      "actual": {
+        "price": "\u20b1799.00 PHP",
+        "compare": "\u20b11,099.00 PHP",
+        "savings": "27.3% OFF",
+        "amount": "Save \u20b1300.00",
+        "hidden": [
+          false,
+          false,
+          false,
+          false
+        ],
+        "labels": [
+          "Now",
+          "Original"
+        ],
+        "options": [
+          {
+            "price": "\u20b1799.00 PHP",
+            "compare": "\u20b11,099.00 PHP",
+            "savings": "27.3% OFF",
+            "amount": "Save \u20b1300.00"
+          }
+        ]
+      }
+    },
+    {
+      "pass": true,
+      "name": "PDP charme-envoutant: explicit Now and Original labels"
+    },
+    {
+      "pass": true,
+      "name": "PDP charme-envoutant: each variant supplies amount and percentage"
+    },
+    {
+      "pass": true,
+      "name": "PDP charme-envoutant: no responsive horizontal overflow"
+    },
+    {
+      "pass": true,
+      "name": "PDP oud-mirage: price/reference/amount survive initial JS",
+      "actual": {
+        "price": "\u20b1799.00 PHP",
+        "compare": "\u20b11,099.00 PHP",
+        "savings": "27.3% OFF",
+        "amount": "Save \u20b1300.00",
+        "hidden": [
+          false,
+          false,
+          false,
+          false
+        ],
+        "labels": [
+          "Now",
+          "Original"
+        ],
+        "options": [
+          {
+            "price": "\u20b1799.00 PHP",
+            "compare": "\u20b11,099.00 PHP",
+            "savings": "27.3% OFF",
+            "amount": "Save \u20b1300.00"
+          }
+        ]
+      }
+    },
+    {
+      "pass": true,
+      "name": "PDP oud-mirage: explicit Now and Original labels"
+    },
+    {
+      "pass": true,
+      "name": "PDP oud-mirage: each variant supplies amount and percentage"
+    },
+    {
+      "pass": true,
+      "name": "PDP oud-mirage: no responsive horizontal overflow"
+    },
+    {
+      "pass": true,
+      "name": "PDP rtulle-satin: price/reference/amount survive initial JS",
+      "actual": {
+        "price": "\u20b1799.00 PHP",
+        "compare": "\u20b11,099.00 PHP",
+        "savings": "27.3% OFF",
+        "amount": "Save \u20b1300.00",
+        "hidden": [
+          false,
+          false,
+          false,
+          false
+        ],
+        "labels": [
+          "Now",
+          "Original"
+        ],
+        "options": [
+          {
+            "price": "\u20b1799.00 PHP",
+            "compare": "\u20b11,099.00 PHP",
+            "savings": "27.3% OFF",
+            "amount": "Save \u20b1300.00"
+          }
+        ]
+      }
+    },
+    {
+      "pass": true,
+      "name": "PDP rtulle-satin: explicit Now and Original labels"
+    },
+    {
+      "pass": true,
+      "name": "PDP rtulle-satin: each variant supplies amount and percentage"
+    },
+    {
+      "pass": true,
+      "name": "PDP rtulle-satin: no responsive horizontal overflow"
+    },
+    {
+      "pass": true,
+      "name": "All six collection cards use corrected native reference",
+      "cards": [
+        {
+          "current": "\u20b1799.00",
+          "original": "\u20b11,099.00",
+          "discount": "27.3% OFF"
+        },
+        {
+          "current": "\u20b1799.00",
+          "original": "\u20b11,099.00",
+          "discount": "27.3% OFF"
+        },
+        {
+          "current": "\u20b1799.00",
+          "original": "\u20b11,099.00",
+          "discount": "27.3% OFF"
+        },
+        {
+          "current": "\u20b1799.00",
+          "original": "\u20b11,099.00",
+          "discount": "27.3% OFF"
+        },
+        {
+          "current": "\u20b1799.00",
+          "original": "\u20b11,099.00",
+          "discount": "27.3% OFF"
+        },
+        {
+          "current": "\u20b1799.00",
+          "original": "\u20b11,099.00",
+          "discount": "27.3% OFF"
+        }
+      ]
+    },
+    {
+      "pass": true,
+      "name": "Predictive search uses corrected prices",
+      "cards": [
+        {
+          "current": "\u20b1799.00",
+          "original": "\u20b11,099.00",
+          "discount": "27.3% OFF"
+        },
+        {
+          "current": "\u20b1799.00",
+          "original": "\u20b11,099.00",
+          "discount": "27.3% OFF"
+        }
+      ]
+    },
+    {
+      "pass": true,
+      "name": "Single Finder result uses corrected price",
+      "cards": [
+        {
+          "current": "\u20b1799.00",
+          "original": "\u20b11,099.00",
+          "discount": "27.3% OFF"
+        }
+      ]
+    }
+  ],
+  "failures": [],
+  "screenshots": [
+    "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/qa/screenshots/pricing-correction/mojito-metallique-purchase.png",
+    "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/qa/screenshots/pricing-correction/amber-oud-silk-purchase.png"
+  ],
+  "boundaries": [
+    "Read-only local preview. Selected-variant fallback uses a clearly isolated in-memory option; no catalog, cart or checkout mutation.",
+    "Earlier OFFERS-BROWSER-QA report is retained as historical evidence; its old \u20b1998.75/20% expectations are superseded."
+  ],
+  "summary": {
+    "status": "PASS",
+    "nativeFixtures": 8,
+    "pdpRoutes": 6,
+    "checks": 39,
+    "passed": 39,
+    "failures": 0
+  },
+  "resolvedInitialFinding": "Five current products lack native compare_at_price. The owner-approved PHP1099 reference is now narrowly applied to the six current PHP799 products; the rerun passes all surfaces. Initial failure evidence is retained in PRICING-CORRECTION-INITIAL-FAILURES.json.",
+  "visualReview": {
+    "status": "PASS",
+    "scope": "Price, reference, percentage and savings amount in desktop Light and mobile Dark purchase screenshots.",
+    "notes": "Price labels and offer values are clear with no overlap."
+  }
+}

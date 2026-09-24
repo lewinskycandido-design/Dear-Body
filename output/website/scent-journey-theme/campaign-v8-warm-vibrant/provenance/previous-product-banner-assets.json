@@ -1,0 +1,68 @@
+[
+  {
+    "handle": "mojito-metallique",
+    "file": "sj-product-banner-mojito-metallique.jpg",
+    "source": "campaign-v6-product-lifestyle/final-web/sj-product-banner-mojito-metallique.jpg",
+    "sha256": "9d7d64ab5937f7279bca2a3509b1d2e8a60f2e5638449078c943f5348051930d",
+    "bytes": 377895,
+    "width": 1774,
+    "height": 887,
+    "original": "campaign-v6-product-lifestyle/originals/sj-product-banner-mojito-metallique.png",
+    "original_sha256": "df4e6b3c4c386facf936f5ded532391bfc629f4a842d9104cdbfa123f15302c0"
+  },
+  {
+    "handle": "amber-oud-silk",
+    "file": "sj-product-banner-amber-oud-silk.jpg",
+    "source": "campaign-v6-product-lifestyle/final-web/sj-product-banner-amber-oud-silk.jpg",
+    "sha256": "fa2f3ae8cb9cd2e31e273780c6585561ee8c151e60ee1933b6d18d6b4f8dd7f4",
+    "bytes": 337290,
+    "width": 1774,
+    "height": 887,
+    "original": "campaign-v6-product-lifestyle/originals/sj-product-banner-amber-oud-silk.png",
+    "original_sha256": "540bb60d0f365fc05d8fd0e8ecf66d8dfe1594fd4561191c24d3378a1d6fde47"
+  },
+  {
+    "handle": "mistened-narcissus",
+    "file": "sj-product-banner-mistened-narcissus.jpg",
+    "source": "campaign-v7-banner-refresh/final-web/sj-product-banner-mistened-narcissus.jpg",
+    "sha256": "1205a28094da6a2ecfc42b72e0fac66a76ef4380a23e44fb4c8a3c80a1c06127",
+    "bytes": 439416,
+    "width": 1774,
+    "height": 887,
+    "original": "campaign-v7-banner-refresh/originals/sj-product-banner-mistened-narcissus.png",
+    "original_sha256": "a9597fa8fbfeb7f62e3c0254bed4b121f243c751e2a9daa7743b350953f3809a"
+  },
+  {
+    "handle": "charme-envoutant",
+    "file": "sj-product-banner-charme-envoutant.jpg",
+    "source": "campaign-v6-product-lifestyle/final-web/sj-product-banner-charme-envoutant.jpg",
+    "sha256": "96b69dde9ab99286190fd12c0bf787395d8b483084e11cb3c0a3fa045d2c9da7",
+    "bytes": 447855,
+    "width": 1774,
+    "height": 887,
+    "original": "campaign-v6-product-lifestyle/originals/sj-product-banner-charme-envoutant.png",
+    "original_sha256": "42fcf78de84008f9b387d57831fab53b741fa87a4228a3bc64f98ca6ff5e82ca"
+  },
+  {
+    "handle": "oud-mirage",
+    "file": "sj-product-banner-oud-mirage.jpg",
+    "source": "campaign-v6-product-lifestyle/final-web/sj-product-banner-oud-mirage.jpg",
+    "sha256": "9b9427f911a307f5c8fcf9e91f9a66f38f236fea6c8082d8e6a7f31354d15b9c",
+    "bytes": 412540,
+    "width": 1774,
+    "height": 887,
+    "original": "campaign-v6-product-lifestyle/originals/sj-product-banner-oud-mirage.png",
+    "original_sha256": "98cd3a6915a79600b6d82cedfbc78ca51e2ee53a4006b972d03351520e46fc26"
+  },
+  {
+    "handle": "rtulle-satin",
+    "file": "sj-product-banner-rtulle-satin.jpg",
+    "source": "campaign-v6-product-lifestyle/final-web/sj-product-banner-rtulle-satin.jpg",
+    "sha256": "9d877f13e9abec9393d5dee4dd81d849b49a21ac875a65ae8be9c6534244d3b1",
+    "bytes": 474717,
+    "width": 1774,
+    "height": 887,
+    "original": "campaign-v6-product-lifestyle/originals/sj-product-banner-rtulle-satin.png",
+    "original_sha256": "0d95eac6b8b10ed0d7707a014900b7f6249237050d6433940ab3df834c699d35"
+  }
+]

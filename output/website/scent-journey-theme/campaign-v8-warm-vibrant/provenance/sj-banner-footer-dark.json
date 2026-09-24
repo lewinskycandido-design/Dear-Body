@@ -1,0 +1,56 @@
+{
+  "asset": "sj-banner-footer-dark",
+  "status": "accepted_for_root_integration",
+  "createdAt": "2026-09-24T05:13:04.391616+00:00",
+  "tool": "built-in image_gen; one call per asset or targeted revision",
+  "sourceOutputPath": "/Users/wetrade/.codex/generated_images/01a0d0f9-afdf-7412-a990-cf7a45f1c2b6/exec-3db3f254-dcb5-428d-bcb6-69d44a37fb46.png",
+  "originalPath": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/campaign-v8-warm-vibrant/originals/sj-banner-footer-dark.png",
+  "webPath": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/campaign-v8-warm-vibrant/final-web/sj-banner-footer-dark.jpg",
+  "sourceDimensions": [
+    1774,
+    887
+  ],
+  "webDimensions": [
+    1774,
+    887
+  ],
+  "originalSha256": "847e6244cac133fa9a440b191a7ef424874cc0b4058b64633614ed94dbb38b69",
+  "webSha256": "0fc3d6fe2c987336c5fe4846c2593383ec622b58c36f4081e541d527f4c4094b",
+  "webBytes": 382424,
+  "conversion": {
+    "tool": "sips",
+    "format": "JPEG",
+    "quality": 91,
+    "resized": false,
+    "cropped": false,
+    "retouched": false,
+    "profileRequested": "sRGB IEC61966-2.1",
+    "sipsProfileReport": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/campaign-v8-warm-vibrant/final-web/sj-banner-footer-dark.jpg\n  profile: sRGB IEC61966-2.1\n  space: RGB",
+    "exifColorSpace": 1,
+    "embeddedIccByteCount": 0
+  },
+  "prompts": [
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/campaign-v8-warm-vibrant/prompts/sj-banner-footer-dark.txt",
+      "text": "Use case: precise-object-edit / physical color-styling variant. Create the Dark-theme companion to the supplied bright terrace footer photograph. Preserve the same real cream plaster wall, inviting raffia bench, window, plants, sunlight, leaf shadows and exact 2:1 framing. Keep the central 55% quiet warm-cream negative space and the lower woven seating texture. It must remain BRIGHT CHEERFUL DAYLIGHT, just as light and approachable as the source, never nighttime or gloomy. Change only physical accent colors: make the narrow left painted wall return deep burgundy #5c0006, give the left cushion a vibrant coral-red woven cover, and make the right cushion rich warm orange with a burgundy piping edge. Retain the small cobalt table at the far-right edge as a secondary playful accent. Keep wall and skin-free environment exposure bright, clean and warm; do not darken the overall photograph or add a color filter, vignette or graphic gradient. No people, body parts, animals, products, bottles, packages, lettering, logos, signage or watermarks. Do not move the central copy space or introduce clutter.\n",
+      "sha256": "2348bacf6434a27aad586c50a80cd26a25cdaa9607e5d984fa2a652cd36994aa"
+    }
+  ],
+  "referenceSourceOutputs": [
+    "/Users/wetrade/.codex/generated_images/01a0d0f9-afdf-7412-a990-cf7a45f1c2b6/exec-61eb4af0-48d2-4d92-8584-18f2f8794444.png"
+  ],
+  "brandGuide": "/Users/wetrade/Documents/ChatGPT/Dear Body/BRAND_GUIDE.md",
+  "altText": "A bright sunlit terrace seating corner with a woven bench, burgundy wall accent and coral-orange cushions.",
+  "recommendedMobileObjectPosition": "50% center",
+  "qa": {
+    "nativeImageInspected": true,
+    "warmFunBrightDaylight": true,
+    "darkVariantUsesPhysicalAccentColorsNotNightLighting": true,
+    "peopleCount": 0,
+    "naturalAnatomyAndSetting": "PASS",
+    "headroom": "Not applicable: no people; central cream copy space is clear.",
+    "noEmbeddedCopyLogosProducts": "PASS",
+    "negativeSpace": "Left45% quiet cream wall for Home/Story; central55% cream for Footer",
+    "mobileCropAdvice": "Source-based recommendation; root will verify in rendered theme with final CSS."
+  }
+}

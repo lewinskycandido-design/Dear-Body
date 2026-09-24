@@ -1,0 +1,36 @@
+[
+  {
+    "gallery": "oud-mirage",
+    "status": "PASS",
+    "changed_frames": [
+      4,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "full_resolution_visual_review": true,
+    "contact_sheet_review": true,
+    "png_lock_verified": true,
+    "web_lock_verified": true,
+    "preservation_checks": "PASS"
+  },
+  {
+    "gallery": "rtulle-satin",
+    "status": "PASS",
+    "changed_frames": [
+      4,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "full_resolution_visual_review": true,
+    "contact_sheet_review": true,
+    "png_lock_verified": true,
+    "web_lock_verified": true,
+    "preservation_checks": "PASS"
+  }
+]

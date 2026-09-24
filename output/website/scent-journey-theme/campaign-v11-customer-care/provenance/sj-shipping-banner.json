@@ -1,0 +1,70 @@
+{
+  "asset": "sj-shipping-banner",
+  "status": "PASS",
+  "created_date": "2026-09-24",
+  "tool": "built-in image_gen.imagegen",
+  "scope": "One new Shipping page banner, distinct from the homepage shipping image. Only generated photo, campaign records and requested theme asset installed; no Liquid, CSS, package, or live Shopify changes.",
+  "source_generated_png": "/Users/wetrade/.codex/generated_images/01a0d0f9-5b11-7093-89c7-17bb545fc7bb/exec-87d182e3-8494-4311-8901-8248c007bb24.png",
+  "prompt": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/campaign-v11-customer-care/prompts/sj-shipping-banner.txt",
+  "original": {
+    "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/campaign-v11-customer-care/originals/sj-shipping-banner.png",
+    "width": 1774,
+    "height": 887,
+    "format": "PNG",
+    "color_space": "RGB",
+    "sha256": "a7683e32dc6f57f9c8335da2c5b03b1e6f5a87189a8f11aabba3953b65914c50"
+  },
+  "web": {
+    "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/campaign-v11-customer-care/final-web/sj-shipping-banner.jpg",
+    "installed_path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/theme/assets/sj-shipping-banner.jpg",
+    "width": 1774,
+    "height": 887,
+    "format": "JPEG",
+    "profile": "sRGB IEC61966-2.1",
+    "quality": 91,
+    "bytes": 489780,
+    "sha256": "d12507968c18b79c7ffe5723190c4cfe04ede5e3f5b84283e394c139e58eb256",
+    "export": "Native dimensions, sips JPEG quality91 and embedded system sRGB profile. Installed copy hash matches exported file."
+  },
+  "references": [
+    {
+      "path": "/Users/wetrade/Downloads/IMG_20260922_162217.jpg",
+      "role": "Authoritative physical closed golden-yellow Mojito Metallique canister",
+      "inspected": true
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/amber-oud-silk/source/IMG_20260922_134438.jpg",
+      "role": "Authoritative physical closed peach Amber Oud Silk canister",
+      "inspected": true
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/campaign-v10-home-features/originals/sj-home-free-shipping.png",
+      "role": "Approved homepage photo: separate protective bubble-wrap sleeve principle and sunny brand mood only; fresh scene generated",
+      "inspected": true
+    }
+  ],
+  "skills": {
+    "imagegen": "/Users/wetrade/.codex/skills/.system/imagegen/SKILL.md",
+    "dearbody": "/Users/wetrade/.codex/skills/dearbody-scent-gallery/SKILL.md",
+    "scope": "Physical identity and visual QA apply; single website-banner request supersedes12-gallery architecture. No bottle or atomizer is exposed, so canonical bottle geometry is not an input to this canister-only scene."
+  },
+  "alt": "Two closed Mojito Metallique and Amber Oud Silk canisters, each wrapped separately in clear bubble wrap, packed with paper inside a carton on a sunny red packing bench.",
+  "recommended_focus": "75% top",
+  "qa": {
+    "review": "Inspected complete native image plus read-only3× label view and320×600/390×600 cover crops.",
+    "count": "PASS: exactly two closed fragrance canisters; no bare perfume bottles or additional products.",
+    "packaging": "PASS: separate clear bubble-wrap sleeves over yellow Mojito and peach Amber; both enclosed including tops/bottoms, tissue cushioning, authentic closed black top rims and lower seams.",
+    "text": "PASS: MOJITO METALLIQUE and AMBER OUD SILK accurately readable, PARFUM/LONDON present in original hierarchy. No invented headline/claim/label/address.",
+    "geometry": "PASS: tall cylindrical canisters consistent with physical refs; plausible corrugated carton, support, folds, packing paper, perspective and shadows.",
+    "human": "PASS: one cropped adult hand with red sleeve, natural grip; zero faces/extra people/reflections.",
+    "visual": "PASS: distinct new three-quarter front packing scene on scarlet bench, cream wall, cobalt tape dispenser, warm bright sunshine.",
+    "negative_space": "Calm left side supports live heading. The far-left green foliage edge and soft shadows add context without crossing central heading area.",
+    "mobile": "At75% top, both complete product names remain readable in320×600 and390×600 cover crops and sit above intended bottom text.320px intentionally crops peripheral packaging edges but retains identity and both protected canisters.",
+    "limitations": "This is generated campaign imagery; exact legal microprint reproduction is not claimed. Final website overlay/contrast is the integration owner's check.",
+    "review_files": [
+      "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/campaign-v11-customer-care/provenance/shipping-label-detail-review.png",
+      "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/campaign-v11-customer-care/provenance/shipping-320-crop-review.png",
+      "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/campaign-v11-customer-care/provenance/shipping-390-crop-review.png"
+    ]
+  }
+}

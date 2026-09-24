@@ -1,0 +1,67 @@
+{
+  "asset": "sj-banner-story-light",
+  "status": "accepted_for_root_integration",
+  "createdAt": "2026-09-24T05:13:03.467556+00:00",
+  "tool": "built-in image_gen; one call per asset or targeted revision",
+  "sourceOutputPath": "/Users/wetrade/.codex/generated_images/01a0d0f9-afdf-7412-a990-cf7a45f1c2b6/exec-e99d6dfd-4e6c-4ebe-8f15-59d7ca3d6c89.png",
+  "originalPath": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/campaign-v8-warm-vibrant/originals/sj-banner-story-light.png",
+  "webPath": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/campaign-v8-warm-vibrant/final-web/sj-banner-story-light.jpg",
+  "sourceDimensions": [
+    1774,
+    887
+  ],
+  "webDimensions": [
+    1774,
+    887
+  ],
+  "originalSha256": "443a2c6749493b45d07ca1c13e8b2199038600cf7743cfc0b9a5fd8db5087c08",
+  "webSha256": "17bce313659d895766d750dc5417072fc103d2b978b46c6455a14197fd351ee4",
+  "webBytes": 346455,
+  "conversion": {
+    "tool": "sips",
+    "format": "JPEG",
+    "quality": 91,
+    "resized": false,
+    "cropped": false,
+    "retouched": false,
+    "profileRequested": "sRGB IEC61966-2.1",
+    "sipsProfileReport": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/campaign-v8-warm-vibrant/final-web/sj-banner-story-light.jpg\n  profile: sRGB IEC61966-2.1\n  space: RGB",
+    "exifColorSpace": 1,
+    "embeddedIccByteCount": 0
+  },
+  "prompts": [
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/campaign-v8-warm-vibrant/prompts/sj-banner-story-light.txt",
+      "text": "Use case: photorealistic-natural. Asset type: DearBody Philippines Our Story website header photograph, native landscape 2:1 approximately 1774x887.\nCreate a new lively real Filipino friendship moment at an ordinary neighborhood merienda corner in bright daytime. Exactly two adult Filipina friends in their twenties or thirties share an easy spontaneous laugh at a small practical wooden merienda table and bench on a shaded residential porch. One holds a small piece of pandesal naturally; the other rests a hand beside a modest bread plate, enjoying the story. Natural Filipino faces, warm diverse skin tones, expressive eyes, attainable cotton clothing with coral-red and golden-apricot accents, simple natural hair. Candid and warm rather than posed fashion. Accurate hands, ordinary physical scale and realistic anatomy.\nThe setting is a plausible Philippine neighborhood porch: simple cream plaster wall, modest steel-framed window at the right, terra-cotta floor tiles and a sunlit plant at the edge. Keep props restrained: two plain ceramic cups and one small bread plate; no bottles. Warm vibrant daylight, bright natural skin exposure, clear sunlit colors, soft lifted shadows, inviting fun and lighthearted energy.\nLEFT 45% must be a real quiet cream wall for a live heading, with no objects or busy shadows. Keep both women, table and action clustered on the RIGHT 60\u201391%. Both FULL heads within approximately x64\u201387%, faces centered near x70 and x81%, with 14\u201315% clear headroom at the top; both faces above 43% of image height. Their heads should be close enough to survive a narrow mobile portrait crop focused around x77%; show their upper bodies and hands naturally below. Maintain room above hair, do not crop heads. The merienda composition and people must be distinct from a walking homepage scene.\nRich warm DearBody cream #f4e3cb, burgundy #5c0006, red #9a1106, burnt orange #d46601, golden tan #e9a250 dominate believable materials.\nNo text, logos, signage, perfume, product packaging or watermarks. Exactly two people TOTAL; no other people, body fragments, reflected people, posters or printed faces. No fantastical luxury environment, forced laughter or dark moody lighting.\n",
+      "sha256": "cf2d1915e69c4452037ed5cfad2cf94fe909eaa4a7404c5adfe49d18dbd93cb7"
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/campaign-v8-warm-vibrant/prompts/sj-banner-story-light-framing-revision.txt",
+      "text": "Use case: identity-preserve / precise composition edit. Improve only the framing of the supplied merienda photo. Preserve these same two adult Filipina friends, their spontaneous happy expressions, real skin, coral and golden clothing, natural hands, cups, pandesal and modest wooden table, the bright daytime porch and warm lively exposure. Keep 2:1 landscape. Pull the camera back by approximately 30 percent and cluster the two friends farther right and closer together so the two faces sit near x70% and x81%. Both complete heads, including hair, must fit inside x63\u201387%, with 14\u201315% clear frame-height above the highest hair. The full faces should stay above y43%; place table and hands below. Preserve realistic separate anatomy, no merging bodies. Expand the same plausible cream wall and porch as needed; LEFT45% must be quiet actual cream wall. No new people, no reflections of people, no text, no logos, no perfume or packaging. This must still look like a spontaneous bright fun merienda photograph, not a zoomed-in fashion portrait.\n",
+      "sha256": "2a60217ad7018ae76596dff368737e4d1e6a527512c6a699703e9e2f9eeb44f9"
+    },
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/campaign-v8-warm-vibrant/prompts/sj-banner-story-light-mobile-framing.txt",
+      "text": "Use case: identity-preserve / precise framing correction. Preserve the supplied sunny merienda photo, the exact two happy Filipina friends, their faces, clothes, cups, bread, hands and ordinary porch. Make just one final compositional correction for a very narrow mobile crop: reduce the size of the entire two-person/table grouping by about 18 percent through a modest camera pullback, and shift that grouping right so BOTH COMPLETE hair silhouettes fall within the narrow horizontal band from 62% to 85% of the image width. Their face centers should be about 68% and 78%. Keep the top of both heads at approximately 18% of image height and both faces above 43% height. Maintain believable body/table scale and natural separation; do not cut any head or hand. Keep the left 45% completely quiet cream wall. Retain bright lively daylight, warm fun candid emotion and real physical setting. Still exactly two people, no added props, bottles, text or logos. Same 2:1 landscape frame, no borders or collage.\n",
+      "sha256": "197706693a15e3c56945da5a05d707ba1ecb83b779e66525c0a632632cf91bcf"
+    }
+  ],
+  "referenceSourceOutputs": [
+    "/Users/wetrade/.codex/generated_images/01a0d0f9-afdf-7412-a990-cf7a45f1c2b6/exec-1d5f1230-f4ae-4b9d-8033-504c9cc6065f.png",
+    "/Users/wetrade/.codex/generated_images/01a0d0f9-afdf-7412-a990-cf7a45f1c2b6/exec-65309b56-a4a7-4459-9a66-5bcd10f9f287.png"
+  ],
+  "brandGuide": "/Users/wetrade/Documents/ChatGPT/Dear Body/BRAND_GUIDE.md",
+  "altText": "Two Filipina friends laugh over pandesal and warm drinks at a neighborhood merienda table.",
+  "recommendedMobileObjectPosition": "76% top",
+  "qa": {
+    "nativeImageInspected": true,
+    "warmFunBrightDaylight": true,
+    "darkVariantUsesPhysicalAccentColorsNotNightLighting": true,
+    "peopleCount": 2,
+    "naturalAnatomyAndSetting": "PASS",
+    "headroom": "About 20% top headroom; compact pair of full heads for mobile cropping.",
+    "noEmbeddedCopyLogosProducts": "PASS",
+    "negativeSpace": "Left45% quiet cream wall for Home/Story; central55% cream for Footer",
+    "mobileCropAdvice": "Source-based recommendation; root will verify in rendered theme with final CSS."
+  }
+}

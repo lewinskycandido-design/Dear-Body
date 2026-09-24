@@ -1,0 +1,17 @@
+{
+  "asset": "theme/assets/sj-favicon.svg",
+  "construction": "Square SVG viewport showing the existing round emblem. Original official PNG bytes embedded unchanged; wordmark outside the36px viewport is clipped. No redraw or raster editing.",
+  "browserAppearance": "Dark original on light browser surfaces; white original for prefers-color-scheme:dark. Transparent background.",
+  "fallback": "Unchanged official dark PNG for browsers without SVG favicon support. Merchant image picker retains priority.",
+  "sources": [
+    {
+      "path": "theme/assets/sj-logo-official-dark.png",
+      "sha256": "c5209ea0076448edfd7e5c10106fe5a768a4c8d3611fa622e1db17407ad2ad37"
+    },
+    {
+      "path": "theme/assets/sj-logo-official-white.png",
+      "sha256": "4c63c5e5dc85aba0d98c68d477465ab085f3f2765431a27dfde2b3f4d78cdcfe"
+    }
+  ],
+  "sha256": "46f6199e9bc1646dab92e52d7131872c66619dcb7c87508730539e7b45730633"
+}

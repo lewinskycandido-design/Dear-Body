@@ -1,0 +1,92 @@
+{
+  "unchanged_files_verified": [
+    "final/02-spray-in-motion.png",
+    "final/05-lifestyle-hero.png",
+    "final/06-handheld-lifestyle.png",
+    "final/07-personal-context.png",
+    "final/01-featured-packshot.png",
+    "final/03-packaging-reveal.png",
+    "final-web/01.jpg",
+    "final-web/03.jpg",
+    "final-web/02.jpg",
+    "final-web/06.jpg",
+    "final-web/07.jpg",
+    "final-web/05.jpg",
+    "working/10-seaside-closing-base.png",
+    "working/06-boardwalk-handheld.png",
+    "working/08-profile-base.png",
+    "working/02-spray-in-motion.png",
+    "working/09-ingredients-base.png",
+    "working/05-seaside-boardwalk-lifestyle.png",
+    "working/03-packaging-reveal-corrected.png",
+    "working/01-featured-packshot.png",
+    "working/07-weekend-beachbag-context.png",
+    "working/03-packaging-reveal.png",
+    "working/12-who-it-fits-base.png",
+    "working/11-scent-description-base.png",
+    "working/04-magnetic-cap-detail.png"
+  ],
+  "photo_regions": [
+    {
+      "frame": 4,
+      "region": [
+        980,
+        0,
+        2048,
+        2048
+      ],
+      "pixels_identical": true
+    },
+    {
+      "frame": 8,
+      "region": [
+        980,
+        0,
+        2048,
+        2048
+      ],
+      "pixels_identical": true
+    },
+    {
+      "frame": 9,
+      "region": [
+        0,
+        0,
+        960,
+        2048
+      ],
+      "pixels_identical": true
+    },
+    {
+      "frame": 10,
+      "region": [
+        0,
+        520,
+        2048,
+        2048
+      ],
+      "pixels_identical": true
+    },
+    {
+      "frame": 11,
+      "region": [
+        980,
+        0,
+        2048,
+        2048
+      ],
+      "pixels_identical": true
+    },
+    {
+      "frame": 12,
+      "region": [
+        980,
+        0,
+        2048,
+        2048
+      ],
+      "pixels_identical": true
+    }
+  ],
+  "font_refresh_only": true
+}

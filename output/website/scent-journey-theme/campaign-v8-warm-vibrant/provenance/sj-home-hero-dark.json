@@ -1,0 +1,56 @@
+{
+  "asset": "sj-home-hero-dark",
+  "status": "accepted_for_root_integration",
+  "createdAt": "2026-09-24T05:13:03.318916+00:00",
+  "tool": "built-in image_gen; one call per asset or targeted revision",
+  "sourceOutputPath": "/Users/wetrade/.codex/generated_images/01a0d0f9-afdf-7412-a990-cf7a45f1c2b6/exec-b41a030c-a896-4b67-9ae5-f98761c11c15.png",
+  "originalPath": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/campaign-v8-warm-vibrant/originals/sj-home-hero-dark.png",
+  "webPath": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/campaign-v8-warm-vibrant/final-web/sj-home-hero-dark.jpg",
+  "sourceDimensions": [
+    1774,
+    887
+  ],
+  "webDimensions": [
+    1774,
+    887
+  ],
+  "originalSha256": "429f31d761aecd4c5fd186c20c3f02dc9ba68291eb83899602b23dece65fa96f",
+  "webSha256": "88664f5efc0612a920d5d0817c78fc7fe239bf855125f8097f63d438a031ecd0",
+  "webBytes": 291608,
+  "conversion": {
+    "tool": "sips",
+    "format": "JPEG",
+    "quality": 91,
+    "resized": false,
+    "cropped": false,
+    "retouched": false,
+    "profileRequested": "sRGB IEC61966-2.1",
+    "sipsProfileReport": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/campaign-v8-warm-vibrant/final-web/sj-home-hero-dark.jpg\n  profile: sRGB IEC61966-2.1\n  space: RGB",
+    "exifColorSpace": 1,
+    "embeddedIccByteCount": 0
+  },
+  "prompts": [
+    {
+      "path": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/campaign-v8-warm-vibrant/prompts/sj-home-hero-dark.txt",
+      "text": "Use case: identity-preserve / color-styling variant. Asset type: DearBody homepage Dark-theme photo variant. Edit the supplied accepted homepage photograph. Preserve EXACTLY the same two Filipino adults, faces, happy expressions, natural hands, playful walking action, 2:1 framing, all headroom, person positions, quiet LEFT45% cream wall, real sunny courtyard and lively bright DAYLIGHT. This is NOT a night or dusk version. Change only physical color styling: make her open overshirt a lively deep burgundy #5c0006, keep her apricot top, make his knit shirt a cheerful warm coral-red while preserving its knit texture, and let the far-right wall remain warm burnt orange. Keep skin exposure fresh and naturally light with lifted daylight shadows. Saturated warm garments and natural green foliage add vibrancy; do not darken the whole photograph or apply a gloomy grade. Keep faces and complete hair exactly where they are, no zoom or cropping. No products, bottles, words, logos, signage, extra people or watermarks.\n",
+      "sha256": "8d816757bb051044ded1d79ff296e7a1cbc32d6684df3434c76e5e8f687d90c7"
+    }
+  ],
+  "referenceSourceOutputs": [
+    "/Users/wetrade/.codex/generated_images/01a0d0f9-afdf-7412-a990-cf7a45f1c2b6/exec-86d08ea5-7b2b-4bcf-9144-d31298b772e1.png"
+  ],
+  "brandGuide": "/Users/wetrade/Documents/ChatGPT/Dear Body/BRAND_GUIDE.md",
+  "altText": "Two Filipino friends share a laugh on a sunny courtyard walk, wearing burgundy and coral accents.",
+  "recommendedMobileObjectPosition": "83% top",
+  "qa": {
+    "nativeImageInspected": true,
+    "warmFunBrightDaylight": true,
+    "darkVariantUsesPhysicalAccentColorsNotNightLighting": true,
+    "peopleCount": 2,
+    "naturalAnatomyAndSetting": "PASS",
+    "headroom": "Matches the accepted Light composition, with generous top headroom.",
+    "noEmbeddedCopyLogosProducts": "PASS",
+    "negativeSpace": "Left45% quiet cream wall for Home/Story; central55% cream for Footer",
+    "mobileCropAdvice": "Source-based recommendation; root will verify in rendered theme with final CSS."
+  }
+}

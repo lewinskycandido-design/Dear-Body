@@ -1,0 +1,71 @@
+{
+  "fetched_at": "2026-09-24T09:58:18.547091+00:00",
+  "products": [
+    {
+      "handle": "mistened-narcissus",
+      "available": true,
+      "variants": [
+        {
+          "id": 50526771118145,
+          "available": true,
+          "price": "799.00"
+        }
+      ]
+    },
+    {
+      "handle": "oud-mirage",
+      "available": true,
+      "variants": [
+        {
+          "id": 50526695686209,
+          "available": true,
+          "price": "799.00"
+        }
+      ]
+    },
+    {
+      "handle": "rtulle-satin",
+      "available": true,
+      "variants": [
+        {
+          "id": 50526695587905,
+          "available": true,
+          "price": "799.00"
+        }
+      ]
+    },
+    {
+      "handle": "amber-oud-silk",
+      "available": true,
+      "variants": [
+        {
+          "id": 50526695555137,
+          "available": true,
+          "price": "799.00"
+        }
+      ]
+    },
+    {
+      "handle": "charme-envoutant",
+      "available": true,
+      "variants": [
+        {
+          "id": 50521654067265,
+          "available": true,
+          "price": "799.00"
+        }
+      ]
+    },
+    {
+      "handle": "mojito-metallique",
+      "available": true,
+      "variants": [
+        {
+          "id": 50526792056897,
+          "available": true,
+          "price": "799.00"
+        }
+      ]
+    }
+  ]
+}

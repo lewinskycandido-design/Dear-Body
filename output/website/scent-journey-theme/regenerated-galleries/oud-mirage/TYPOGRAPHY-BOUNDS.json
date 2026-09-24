@@ -1,0 +1,552 @@
+[
+  {
+    "text": "MAGNETIC",
+    "bounds": [
+      110,
+      300.0,
+      544,
+      361.0
+    ],
+    "font": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/source-assets/fonts/CenzoFlare-Bold/CenzoFlare-Bold.ttf",
+    "size": 93
+  },
+  {
+    "text": "CAP",
+    "bounds": [
+      110,
+      396.72,
+      275,
+      457.72
+    ],
+    "font": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/source-assets/fonts/CenzoFlare-Bold/CenzoFlare-Bold.ttf",
+    "size": 93
+  },
+  {
+    "text": "OUD MIRAGE",
+    "bounds": [
+      110,
+      165.0,
+      354,
+      194.0
+    ],
+    "font": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/source-assets/fonts/CenzoFlare-Bold/CenzoFlare-Bold.ttf",
+    "size": 43
+  },
+  {
+    "text": "PRODUCT",
+    "bounds": [
+      110,
+      270.0,
+      551,
+      338.0
+    ],
+    "font": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/source-assets/fonts/CenzoFlare-Bold/CenzoFlare-Bold.ttf",
+    "size": 104
+  },
+  {
+    "text": "PROFILE",
+    "bounds": [
+      110,
+      378.15999999999997,
+      496,
+      446.15999999999997
+    ],
+    "font": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/source-assets/fonts/CenzoFlare-Bold/CenzoFlare-Bold.ttf",
+    "size": 104
+  },
+  {
+    "text": "50 ML / 1.69 FL. OZ.",
+    "bounds": [
+      110,
+      625.0,
+      653,
+      666.0
+    ],
+    "font": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/source-assets/fonts/HelveticaNowText-Regular/HelveticaNowText-Regular.ttf",
+    "size": 55
+  },
+  {
+    "text": "MEN\u2019S LINE",
+    "bounds": [
+      110,
+      725.0,
+      394,
+      763.0
+    ],
+    "font": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/source-assets/fonts/HelveticaNowText-Regular/HelveticaNowText-Regular.ttf",
+    "size": 50
+  },
+  {
+    "text": "Clear glass bottle",
+    "bounds": [
+      110,
+      880.0,
+      503,
+      927.0
+    ],
+    "font": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/source-assets/fonts/HelveticaNowText-Regular/HelveticaNowText-Regular.ttf",
+    "size": 48
+  },
+  {
+    "text": "Glossy black magnetic cap",
+    "bounds": [
+      110,
+      952.0,
+      716,
+      999.0
+    ],
+    "font": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/source-assets/fonts/HelveticaNowText-Regular/HelveticaNowText-Regular.ttf",
+    "size": 48
+  },
+  {
+    "text": "Black front label",
+    "bounds": [
+      110,
+      1024.0,
+      479,
+      1060.0
+    ],
+    "font": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/source-assets/fonts/HelveticaNowText-Regular/HelveticaNowText-Regular.ttf",
+    "size": 48
+  },
+  {
+    "text": "Blue liquid",
+    "bounds": [
+      110,
+      1096.0,
+      347,
+      1141.0
+    ],
+    "font": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/source-assets/fonts/HelveticaNowText-Regular/HelveticaNowText-Regular.ttf",
+    "size": 48
+  },
+  {
+    "text": "Blue canister",
+    "bounds": [
+      110,
+      1168.0,
+      407,
+      1204.0
+    ],
+    "font": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/source-assets/fonts/HelveticaNowText-Regular/HelveticaNowText-Regular.ttf",
+    "size": 48
+  },
+  {
+    "text": "PRODUCT CODE",
+    "bounds": [
+      110,
+      1420.0,
+      362,
+      1445.0
+    ],
+    "font": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/source-assets/fonts/CenzoFlare-Bold/CenzoFlare-Bold.ttf",
+    "size": 36
+  },
+  {
+    "text": "P10238",
+    "bounds": [
+      110,
+      1490.0,
+      319,
+      1533.0
+    ],
+    "font": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/source-assets/fonts/HelveticaNowText-Regular/HelveticaNowText-Regular.ttf",
+    "size": 57
+  },
+  {
+    "text": "OUD MIRAGE",
+    "bounds": [
+      990,
+      110.0,
+      1220,
+      138.0
+    ],
+    "font": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/source-assets/fonts/CenzoFlare-Bold/CenzoFlare-Bold.ttf",
+    "size": 40
+  },
+  {
+    "text": "INGREDIENTS",
+    "bounds": [
+      990,
+      205.0,
+      1439,
+      255.0
+    ],
+    "font": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/source-assets/fonts/CenzoFlare-Bold/CenzoFlare-Bold.ttf",
+    "size": 76
+  },
+  {
+    "text": "Alcohol",
+    "bounds": [
+      990,
+      390.0,
+      1175,
+      429.0
+    ],
+    "font": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/source-assets/fonts/HelveticaNowText-Regular/HelveticaNowText-Regular.ttf",
+    "size": 52
+  },
+  {
+    "text": "Water (Aqua)",
+    "bounds": [
+      990,
+      461.36,
+      1318,
+      512.36
+    ],
+    "font": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/source-assets/fonts/HelveticaNowText-Regular/HelveticaNowText-Regular.ttf",
+    "size": 52
+  },
+  {
+    "text": "Fragrance (Parfum)",
+    "bounds": [
+      990,
+      532.72,
+      1468,
+      584.72
+    ],
+    "font": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/source-assets/fonts/HelveticaNowText-Regular/HelveticaNowText-Regular.ttf",
+    "size": 52
+  },
+  {
+    "text": "PEG-40 Hydrogenated Castor Oil",
+    "bounds": [
+      990,
+      604.08,
+      1813,
+      655.08
+    ],
+    "font": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/source-assets/fonts/HelveticaNowText-Regular/HelveticaNowText-Regular.ttf",
+    "size": 52
+  },
+  {
+    "text": "Propylene Glycol",
+    "bounds": [
+      990,
+      675.44,
+      1407,
+      725.44
+    ],
+    "font": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/source-assets/fonts/HelveticaNowText-Regular/HelveticaNowText-Regular.ttf",
+    "size": 52
+  },
+  {
+    "text": "Benzyl Salicylate",
+    "bounds": [
+      990,
+      746.8000000000001,
+      1413,
+      796.8000000000001
+    ],
+    "font": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/source-assets/fonts/HelveticaNowText-Regular/HelveticaNowText-Regular.ttf",
+    "size": 52
+  },
+  {
+    "text": "Linalool",
+    "bounds": [
+      990,
+      818.1600000000001,
+      1182,
+      857.1600000000001
+    ],
+    "font": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/source-assets/fonts/HelveticaNowText-Regular/HelveticaNowText-Regular.ttf",
+    "size": 52
+  },
+  {
+    "text": "Benzyl Benzoate",
+    "bounds": [
+      990,
+      889.5200000000001,
+      1410,
+      938.5200000000001
+    ],
+    "font": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/source-assets/fonts/HelveticaNowText-Regular/HelveticaNowText-Regular.ttf",
+    "size": 52
+  },
+  {
+    "text": "Citronellol",
+    "bounds": [
+      990,
+      960.8800000000001,
+      1242,
+      1000.8800000000001
+    ],
+    "font": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/source-assets/fonts/HelveticaNowText-Regular/HelveticaNowText-Regular.ttf",
+    "size": 52
+  },
+  {
+    "text": "Geraniol",
+    "bounds": [
+      990,
+      1032.2400000000002,
+      1199,
+      1072.2400000000002
+    ],
+    "font": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/source-assets/fonts/HelveticaNowText-Regular/HelveticaNowText-Regular.ttf",
+    "size": 52
+  },
+  {
+    "text": "Coumarin",
+    "bounds": [
+      990,
+      1103.6000000000001,
+      1228,
+      1143.6000000000001
+    ],
+    "font": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/source-assets/fonts/HelveticaNowText-Regular/HelveticaNowText-Regular.ttf",
+    "size": 52
+  },
+  {
+    "text": "Benzyl Alcohol",
+    "bounds": [
+      990,
+      1174.96,
+      1357,
+      1223.96
+    ],
+    "font": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/source-assets/fonts/HelveticaNowText-Regular/HelveticaNowText-Regular.ttf",
+    "size": 52
+  },
+  {
+    "text": "Limonene",
+    "bounds": [
+      990,
+      1246.32,
+      1233,
+      1285.32
+    ],
+    "font": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/source-assets/fonts/HelveticaNowText-Regular/HelveticaNowText-Regular.ttf",
+    "size": 52
+  },
+  {
+    "text": "50 ML / 1.69 FL. OZ.",
+    "bounds": [
+      990,
+      1510.0,
+      1418,
+      1543.0
+    ],
+    "font": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/source-assets/fonts/HelveticaNowText-Regular/HelveticaNowText-Regular.ttf",
+    "size": 43
+  },
+  {
+    "text": "PRODUCT CODE P10238",
+    "bounds": [
+      990,
+      1582.0,
+      1456,
+      1612.0
+    ],
+    "font": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/source-assets/fonts/HelveticaNowText-Regular/HelveticaNowText-Regular.ttf",
+    "size": 39
+  },
+  {
+    "text": "BARCODE 5056795407253",
+    "bounds": [
+      990,
+      1647.0,
+      1523,
+      1677.0
+    ],
+    "font": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/source-assets/fonts/HelveticaNowText-Regular/HelveticaNowText-Regular.ttf",
+    "size": 39
+  },
+  {
+    "text": "FLAMMABLE",
+    "bounds": [
+      990,
+      1739.0,
+      1230,
+      1767.0
+    ],
+    "font": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/source-assets/fonts/CenzoFlare-Bold/CenzoFlare-Bold.ttf",
+    "size": 45
+  },
+  {
+    "text": "Keep away from heat and open flame.",
+    "bounds": [
+      990,
+      1809.0,
+      1749,
+      1849.0
+    ],
+    "font": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/source-assets/fonts/HelveticaNowText-Regular/HelveticaNowText-Regular.ttf",
+    "size": 43
+  },
+  {
+    "text": "A SCENT JOURNEY",
+    "bounds": [
+      113,
+      155.0,
+      1135,
+      238.0
+    ],
+    "font": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/source-assets/fonts/CenzoFlare-Bold/CenzoFlare-Bold.ttf",
+    "size": 126
+  },
+  {
+    "text": "OUD MIRAGE",
+    "bounds": [
+      120,
+      350.0,
+      419,
+      385.0
+    ],
+    "font": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/source-assets/fonts/CenzoFlare-Bold/CenzoFlare-Bold.ttf",
+    "size": 52
+  },
+  {
+    "text": "OUD MIRAGE",
+    "bounds": [
+      110,
+      180.0,
+      354,
+      209.0
+    ],
+    "font": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/source-assets/fonts/CenzoFlare-Bold/CenzoFlare-Bold.ttf",
+    "size": 43
+  },
+  {
+    "text": "SCENT",
+    "bounds": [
+      110,
+      290.0,
+      377,
+      352.0
+    ],
+    "font": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/source-assets/fonts/CenzoFlare-Bold/CenzoFlare-Bold.ttf",
+    "size": 96
+  },
+  {
+    "text": "DESCRIPTION",
+    "bounds": [
+      110,
+      391.76,
+      681,
+      453.76
+    ],
+    "font": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/source-assets/fonts/CenzoFlare-Bold/CenzoFlare-Bold.ttf",
+    "size": 96
+  },
+  {
+    "text": "Dark rose",
+    "bounds": [
+      110,
+      710.0,
+      531,
+      777.0
+    ],
+    "font": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/source-assets/fonts/HelveticaNowText-Regular/HelveticaNowText-Regular.ttf",
+    "size": 93
+  },
+  {
+    "text": "wrapped in",
+    "bounds": [
+      110,
+      825.3199999999999,
+      594,
+      910.3199999999999
+    ],
+    "font": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/source-assets/fonts/HelveticaNowText-Regular/HelveticaNowText-Regular.ttf",
+    "size": 93
+  },
+  {
+    "text": "smoky, woody",
+    "bounds": [
+      110,
+      940.64,
+      738,
+      1025.6399999999999
+    ],
+    "font": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/source-assets/fonts/HelveticaNowText-Regular/HelveticaNowText-Regular.ttf",
+    "size": 93
+  },
+  {
+    "text": "depth.",
+    "bounds": [
+      110,
+      1055.96,
+      391,
+      1140.96
+    ],
+    "font": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/source-assets/fonts/HelveticaNowText-Regular/HelveticaNowText-Regular.ttf",
+    "size": 93
+  },
+  {
+    "text": "OUD MIRAGE",
+    "bounds": [
+      110,
+      180.0,
+      354,
+      209.0
+    ],
+    "font": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/source-assets/fonts/CenzoFlare-Bold/CenzoFlare-Bold.ttf",
+    "size": 43
+  },
+  {
+    "text": "WHO",
+    "bounds": [
+      109,
+      305.0,
+      385,
+      387.0
+    ],
+    "font": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/source-assets/fonts/CenzoFlare-Bold/CenzoFlare-Bold.ttf",
+    "size": 124
+  },
+  {
+    "text": "IT FITS",
+    "bounds": [
+      110,
+      432.72,
+      470,
+      514.72
+    ],
+    "font": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/source-assets/fonts/CenzoFlare-Bold/CenzoFlare-Bold.ttf",
+    "size": 124
+  },
+  {
+    "text": "For someone drawn",
+    "bounds": [
+      110,
+      800.0,
+      812,
+      855.0
+    ],
+    "font": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/source-assets/fonts/HelveticaNowText-Regular/HelveticaNowText-Regular.ttf",
+    "size": 75
+  },
+  {
+    "text": "to dark rose, smoky",
+    "bounds": [
+      110,
+      897.5,
+      808,
+      966.5
+    ],
+    "font": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/source-assets/fonts/HelveticaNowText-Regular/HelveticaNowText-Regular.ttf",
+    "size": 75
+  },
+  {
+    "text": "contrast, and woody",
+    "bounds": [
+      110,
+      995.0,
+      834,
+      1064.0
+    ],
+    "font": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/source-assets/fonts/HelveticaNowText-Regular/HelveticaNowText-Regular.ttf",
+    "size": 75
+  },
+  {
+    "text": "depth.",
+    "bounds": [
+      110,
+      1092.5,
+      336,
+      1161.5
+    ],
+    "font": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/website/scent-journey-theme/source-assets/fonts/HelveticaNowText-Regular/HelveticaNowText-Regular.ttf",
+    "size": 75
+  }
+]

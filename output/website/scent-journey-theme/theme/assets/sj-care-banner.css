@@ -1,0 +1,4 @@
+/* Keep both shipping canister labels inside the narrow mobile crop. */
+@media (max-width: 760px) {
+  .sj-page-banner--shipping .sj-page-banner__media img { object-position: 75% top; }
+}

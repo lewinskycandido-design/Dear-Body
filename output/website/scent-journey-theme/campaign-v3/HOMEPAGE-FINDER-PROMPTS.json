@@ -1,0 +1,65 @@
+{
+  "method": "Built-in ImageGen",
+  "images": [
+    {
+      "key": "homeWomen",
+      "mode": "light",
+      "name": "sj-women-light",
+      "source": "/Users/wetrade/.codex/generated_images/01a0d0f8-8d24-7131-8c77-de85e96f8179/exec-6ef12052-48e1-4341-bd2e-6722f089d896.png",
+      "prompt": "Use case: photorealistic-natural. Asset type: DearBody Philippines homepage WOMEN full-height clickable campaign panel. Create a fresh premium editorial fashion photograph, vertical 4:5 composition. One adult Filipino woman with warm healthy natural skin, happy candid smile, walking through a real sunny contemporary Filipino art-gallery courtyard, gently turning toward the camera in natural motion. She wears a rich warm-red #91100D flowing dress and carries a simple cream canvas tote, no visible logos. Warm cream plaster, burnt-orange architectural accents, green tropical plants, dappled natural afternoon sunshine, attainable real-world setting. Full person visible, model centered with head safely below top10%, leave lower25% as simple quiet architectural floor/dress area for large WOMEN webpage text. Canva DearBody brand colors cream#F4E3CB burgundy#5C0006 warmred#91100D burntOrange#A2490B gold#EAAA3D. Inviting fun light premium everyday personality, no severe fashion posing, no uncanny architecture. No products, perfume bottles, lettering, embedded text, watermark, or crowd. Sharp high quality authentic editorial photography, natural body/hands and fabric motion.",
+      "original": "campaign-v3/originals/sj-women-light.png",
+      "web": "campaign-v3/final-web/sj-women-light.jpg",
+      "sha256": "3281f9ae95b376b2ec569600ea4205420beeca25343f5eb5190ba16dd6c32c19"
+    },
+    {
+      "key": "homeWomen",
+      "mode": "dark",
+      "name": "sj-women-dark",
+      "source": "/Users/wetrade/.codex/generated_images/01a0d0f8-8d24-7131-8c77-de85e96f8179/exec-2bf758b2-3597-45b0-89d3-011f073b0f39.png",
+      "prompt": "Use case: lighting-weather edit. Edit target: the supplied DearBody Philippines homeWomen campaign photo. Create the matching DARK theme art direction by changing only lighting/time of day: a warm approachable amber early-evening atmosphere with natural glowing practical lights and richly layered burgundy #5C0006 shadows. Preserve exact people/identity/anatomy/clothes/hand poses, all objects, camera angle, composition, size, physical construction and materials. Retain clear welcoming smiles and healthy skin, warm red/burnt orange clothing and the same real place, softly lit at evening; keep the lower quiet area for the homepage category title. Keep photographic detail and clear subject visibility, never cold, black, gloomy, severe or neon. No text, bottles, products, logos, watermarks, new faces, or new objects. Match original aspect ratio exactly.",
+      "original": "campaign-v3/originals/sj-women-dark.png",
+      "web": "campaign-v3/final-web/sj-women-dark.jpg",
+      "sha256": "013626b919df4aed26640daa935e305d1012d1205f9f11c7f762b0894fe425db"
+    },
+    {
+      "key": "homeMen",
+      "mode": "light",
+      "name": "sj-men-light",
+      "source": "/Users/wetrade/.codex/generated_images/01a0d0f8-8d24-7131-8c77-de85e96f8179/exec-d9a8e079-f46b-4213-b547-ed2b3911fee9.png",
+      "prompt": "Use case: photorealistic-natural. Asset type: DearBody Philippines homepage MEN full-height clickable campaign panel. Fresh premium editorial fashion photograph, vertical4:5. One adult Filipino man, warm healthy natural skin and candid inviting smile, walking beside a real modern open-air record-shop frontage in the Philippines and glancing back lightly. He wears a burnt-orange #A2490B lightweight overshirt over a cream tee with tailored deep-burgundy trousers, no visible logos, no bag. Warmcream plaster and real wood storefront, restrainedwarmgold afternoon sunlight, smalltropical plants. Fullperson visible, head safelybelowtop10%, subjects centered, lower25% visuallyquiet enough for large MEN webpage text. Canva DearBody palette cream#F4E3CB burgundy#5C0006 warmred#91100D burntOrange#A2490B gold#EAAA3D. Warm fun light everyday atmosphere, plausible photographable setting, candid movement and natural anatomy. No products, bottles, lettering, record cover faces, readable signage, embedded text, watermark, or other people.",
+      "original": "campaign-v3/originals/sj-men-light.png",
+      "web": "campaign-v3/final-web/sj-men-light.jpg",
+      "sha256": "7457bde450007bdeca5bbed3eefedf58778d909607004a510d5295f0ff5989e8"
+    },
+    {
+      "key": "homeMen",
+      "mode": "dark",
+      "name": "sj-men-dark",
+      "source": "/Users/wetrade/.codex/generated_images/01a0d0f8-8d24-7131-8c77-de85e96f8179/exec-13ccc8e2-6a4a-4bdc-9db8-26745b562dd0.png",
+      "prompt": "Use case: lighting-weather edit. Edit target: the supplied DearBody Philippines homeMen campaign photo. Create the matching DARK theme art direction by changing only lighting/time of day: a warm approachable amber early-evening atmosphere with natural glowing practical lights and richly layered burgundy #5C0006 shadows. Preserve exact people/identity/anatomy/clothes/hand poses, all objects, camera angle, composition, size, physical construction and materials. Retain clear welcoming smiles and healthy skin, warm red/burnt orange clothing and the same real place, softly lit at evening; keep the lower quiet area for the homepage category title. Keep photographic detail and clear subject visibility, never cold, black, gloomy, severe or neon. No text, bottles, products, logos, watermarks, new faces, or new objects. Match original aspect ratio exactly.",
+      "original": "campaign-v3/originals/sj-men-dark.png",
+      "web": "campaign-v3/final-web/sj-men-dark.jpg",
+      "sha256": "6ff79779010c02a948a6d4dde3f32eecb87ff400dd975849cd2418865dce2e5e"
+    },
+    {
+      "key": "finder",
+      "mode": "light",
+      "name": "sj-banner-finder-light",
+      "source": "/Users/wetrade/.codex/generated_images/01a0d0f8-8d24-7131-8c77-de85e96f8179/exec-bd76fa4f-b51f-4448-addf-9d32dc4bda45.png",
+      "prompt": "Use case: photorealistic-natural. Asset type: DearBody Philippines Scent Finder header banner, wide 2.4:1 panorama. Create a premium real editorial still life about choosing a personal mood: an adult Filipino woman's naturally posed hands thoughtfully comparing small fabric swatches in warmgold #EAAA3D, deep burgundy #5C0006 and warmred #91100D on a cream textured tabletop beside a softly folded burnt-orange scarf. Crop hands and forearms only, zero visible face. All tactile objects grouped on RIGHT55%, LEFT45% a calm sunlit cream plaster tabletop with gentle natural window shadow, ample clear negative space for webpage heading. One believable sunlight direction, natural contact shadows, real cloth weave, subtle playful color, warm approachable bright optimistic DearBody Canva identity. No perfume bottles, no products, no flowers/fruit/unverified scent props, no collage, text, letters, labels, numbers,logos,watermarks or impossiblefloatingobjects. Highqualityphotographictexture, notillustrationorCG. Generatewide1792x768orclosestwideformat.",
+      "original": "campaign-v3/originals/sj-banner-finder-light.png",
+      "web": "campaign-v3/final-web/sj-banner-finder-light.jpg",
+      "sha256": "0bc86d48e368761f296dc6adf5eb92142242ff122166f3bcb33878d414a77a81"
+    },
+    {
+      "key": "finder",
+      "mode": "dark",
+      "name": "sj-banner-finder-dark",
+      "source": "/Users/wetrade/.codex/generated_images/01a0d0f8-8d24-7131-8c77-de85e96f8179/exec-31727d89-ca88-4d45-b34e-e2ceeae79cf8.png",
+      "prompt": "Use case: lighting-weather edit. Edit target: the supplied DearBody Philippines finder campaign photo. Create the matching DARK theme art direction by changing only lighting/time of day: a warm approachable amber early-evening atmosphere with natural glowing practical lights and richly layered burgundy #5C0006 shadows. Preserve exact people/identity/anatomy/clothes/hand poses, all objects, camera angle, composition, size, physical construction and materials. The empty LEFT45% table becomes deep warm burgundy in evening shadow for cream headline text; preserve the gold, burgundy and warm-red fabric swatches on the right. Keep photographic detail and clear subject visibility, never cold, black, gloomy, severe or neon. No text, bottles, products, logos, watermarks, new faces, or new objects. Match original aspect ratio exactly.",
+      "original": "campaign-v3/originals/sj-banner-finder-dark.png",
+      "web": "campaign-v3/final-web/sj-banner-finder-dark.jpg",
+      "sha256": "a42440c5b5f47cadc3ca9c716ee80a9591711695a5d07e0e906d585241023675"
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  "scope": "Focused final anchor check after -24px ProductDetails margin; preview missing native header group class added to browser DOM only",
+  "cases": [
+    {
+      "header": {
+        "top": 0,
+        "bottom": 110.5,
+        "height": 110.5
+      },
+      "details": {
+        "top": 110.5,
+        "bottom": 1000,
+        "height": 889.5
+      },
+      "controls": {
+        "top": 847.5,
+        "bottom": 949.5,
+        "height": 102
+      },
+      "caption": {
+        "top": 949.5,
+        "bottom": 1000,
+        "height": 50.5
+      },
+      "viewport": 1000,
+      "margin": "-24px",
+      "scrollPadding": "134.5px",
+      "width": 1440,
+      "theme": "light",
+      "aligned": true,
+      "controlsVisible": true,
+      "captionVisible": true,
+      "next": true,
+      "zoom": true,
+      "zoomClosed": true,
+      "pass": true
+    },
+    {
+      "header": {
+        "top": 0,
+        "bottom": 99,
+        "height": 99
+      },
+      "details": {
+        "top": 99.125,
+        "bottom": 2860.859375,
+        "height": 2761.734375
+      },
+      "controls": {
+        "top": 549.625,
+        "bottom": 657.625,
+        "height": 108
+      },
+      "caption": {
+        "top": 657.625,
+        "bottom": 708.125,
+        "height": 50.5
+      },
+      "viewport": 844,
+      "margin": "-24px",
+      "scrollPadding": "123px",
+      "width": 390,
+      "theme": "light",
+      "aligned": true,
+      "controlsVisible": true,
+      "captionVisible": true,
+      "next": true,
+      "zoom": true,
+      "zoomClosed": true,
+      "pass": true
+    },
+    {
+      "header": {
+        "top": 0,
+        "bottom": 110.5,
+        "height": 110.5
+      },
+      "details": {
+        "top": 110.5,
+        "bottom": 1000,
+        "height": 889.5
+      },
+      "controls": {
+        "top": 847.5,
+        "bottom": 949.5,
+        "height": 102
+      },
+      "caption": {
+        "top": 949.5,
+        "bottom": 1000,
+        "height": 50.5
+      },
+      "viewport": 1000,
+      "margin": "-24px",
+      "scrollPadding": "134.5px",
+      "width": 1440,
+      "theme": "dark",
+      "aligned": true,
+      "controlsVisible": true,
+      "captionVisible": true,
+      "next": true,
+      "zoom": true,
+      "zoomClosed": true,
+      "pass": true
+    },
+    {
+      "header": {
+        "top": 0,
+        "bottom": 99,
+        "height": 99
+      },
+      "details": {
+        "top": 99.125,
+        "bottom": 2860.859375,
+        "height": 2761.734375
+      },
+      "controls": {
+        "top": 549.625,
+        "bottom": 657.625,
+        "height": 108
+      },
+      "caption": {
+        "top": 657.625,
+        "bottom": 708.125,
+        "height": 50.5
+      },
+      "viewport": 844,
+      "margin": "-24px",
+      "scrollPadding": "123px",
+      "width": 390,
+      "theme": "dark",
+      "aligned": true,
+      "controlsVisible": true,
+      "captionVisible": true,
+      "next": true,
+      "zoom": true,
+      "zoomClosed": true,
+      "pass": true
+    }
+  ],
+  "status": "PASS"
+}

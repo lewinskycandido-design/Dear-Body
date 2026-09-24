@@ -1,0 +1,13 @@
+{{ 'sj-care-banner.css' | asset_url | stylesheet_tag }}
+{%- comment -%}Customer-care headers share the existing page-banner sizing, theme scrims and mobile text overlay.{%- endcomment -%}
+{%- assign care_dark_image = dark_image | default: light_image -%}
+<header class="sj-page-banner sj-page-banner--{{ kind | escape }}" aria-labelledby="CareBannerTitle-{{ section_id }}">
+  <div class="sj-page-banner__media">{% render 'sj-themed-photo', light_asset: asset, dark_asset: asset, light_image: light_image, dark_image: care_dark_image, alt: '', loading: 'eager', priority: 'high', width: 1774, height: 887 %}</div>
+  <div class="sj-page-banner__inner sj-container">
+    <div class="sj-page-banner__copy">
+      <p class="sj-eyebrow">{{ eyebrow | escape }}</p>
+      <h1 id="CareBannerTitle-{{ section_id }}">{{ heading | escape | newline_to_br }}</h1>
+      {% if description != blank %}<p>{{ description | escape }}</p>{% endif %}
+    </div>
+  </div>
+</header>

@@ -1,0 +1,381 @@
+{
+  "css": "@media(min-width:761px){[data-theme=dark] .sj-page-banner__media::after{background:linear-gradient(90deg,rgba(43,8,14,.9),rgba(43,8,14,.70) 44%,transparent 68%)}}",
+  "rows": [
+    {
+      "kind": "story",
+      "width": 820,
+      "phase": "current",
+      "stem": "story-dark-820-current",
+      "elements": [
+        {
+          "tag": "P",
+          "text": "OUR STORY / DEARBODY PHILIPPINES",
+          "color": "rgb(244, 227, 203)",
+          "fontSize": "11px",
+          "fontWeight": "700",
+          "box": {
+            "x": 35.25,
+            "y": 184.0625,
+            "width": 307.90625,
+            "height": 15.390625
+          }
+        },
+        {
+          "tag": "H1",
+          "text": "A SCENT JOURNEY\nFROM LONDON\nTO THE PHILIPPINES.",
+          "color": "rgb(244, 227, 203)",
+          "fontSize": "36.9px",
+          "fontWeight": "700",
+          "box": {
+            "x": 35.25,
+            "y": 223.453125,
+            "width": 307.90625,
+            "height": 108.46875
+          }
+        }
+      ]
+    },
+    {
+      "kind": "story",
+      "width": 820,
+      "phase": "shared-proposed",
+      "stem": "story-dark-820-shared-proposed",
+      "elements": [
+        {
+          "tag": "P",
+          "text": "OUR STORY / DEARBODY PHILIPPINES",
+          "color": "rgb(244, 227, 203)",
+          "fontSize": "11px",
+          "fontWeight": "700",
+          "box": {
+            "x": 35.25,
+            "y": 184.0625,
+            "width": 307.90625,
+            "height": 15.390625
+          }
+        },
+        {
+          "tag": "H1",
+          "text": "A SCENT JOURNEY\nFROM LONDON\nTO THE PHILIPPINES.",
+          "color": "rgb(244, 227, 203)",
+          "fontSize": "36.9px",
+          "fontWeight": "700",
+          "box": {
+            "x": 35.25,
+            "y": 223.453125,
+            "width": 307.90625,
+            "height": 108.46875
+          }
+        }
+      ]
+    },
+    {
+      "kind": "story",
+      "width": 1440,
+      "phase": "current",
+      "stem": "story-dark-1440-current",
+      "elements": [
+        {
+          "tag": "P",
+          "text": "OUR STORY / DEARBODY PHILIPPINES",
+          "color": "rgb(244, 227, 203)",
+          "fontSize": "11px",
+          "fontWeight": "700",
+          "box": {
+            "x": 61.90625,
+            "y": 182.640625,
+            "width": 540.703125,
+            "height": 15.390625
+          }
+        },
+        {
+          "tag": "H1",
+          "text": "A SCENT JOURNEY\nFROM LONDON\nTO THE PHILIPPINES.",
+          "color": "rgb(244, 227, 203)",
+          "fontSize": "64.8px",
+          "fontWeight": "700",
+          "box": {
+            "x": 61.90625,
+            "y": 222.03125,
+            "width": 540.703125,
+            "height": 190.5
+          }
+        }
+      ]
+    },
+    {
+      "kind": "story",
+      "width": 1440,
+      "phase": "shared-proposed",
+      "stem": "story-dark-1440-shared-proposed",
+      "elements": [
+        {
+          "tag": "P",
+          "text": "OUR STORY / DEARBODY PHILIPPINES",
+          "color": "rgb(244, 227, 203)",
+          "fontSize": "11px",
+          "fontWeight": "700",
+          "box": {
+            "x": 61.90625,
+            "y": 182.640625,
+            "width": 540.703125,
+            "height": 15.390625
+          }
+        },
+        {
+          "tag": "H1",
+          "text": "A SCENT JOURNEY\nFROM LONDON\nTO THE PHILIPPINES.",
+          "color": "rgb(244, 227, 203)",
+          "fontSize": "64.8px",
+          "fontWeight": "700",
+          "box": {
+            "x": 61.90625,
+            "y": 222.03125,
+            "width": 540.703125,
+            "height": 190.5
+          }
+        }
+      ]
+    },
+    {
+      "kind": "finder",
+      "width": 820,
+      "phase": "current",
+      "stem": "finder-dark-820-current",
+      "elements": [
+        {
+          "tag": "P",
+          "text": "A LITTLE CURIOSITY. A NEW CONNECTION.",
+          "color": "rgb(244, 227, 203)",
+          "fontSize": "11px",
+          "fontWeight": "700",
+          "box": {
+            "x": 35.25,
+            "y": 153.390625,
+            "width": 357.234375,
+            "height": 15.390625
+          }
+        },
+        {
+          "tag": "H1",
+          "text": "FOLLOW YOUR MOOD.\nFIND YOUR FRAGRANCE.",
+          "color": "rgb(244, 227, 203)",
+          "fontSize": "36px",
+          "fontWeight": "700",
+          "box": {
+            "x": 35.25,
+            "y": 192.78125,
+            "width": 357.234375,
+            "height": 70.53125
+          }
+        },
+        {
+          "tag": "P",
+          "text": "Five quick questions. A fragrance that feels like you. Discover your match from our fragrance collection.",
+          "color": "rgb(244, 227, 203)",
+          "fontSize": "14px",
+          "fontWeight": "300",
+          "box": {
+            "x": 35.25,
+            "y": 287.3125,
+            "width": 357.234375,
+            "height": 44.78125
+          }
+        },
+        {
+          "tag": "A",
+          "text": "FIND MY SCENT",
+          "color": "rgb(244, 227, 203)",
+          "fontSize": "11px",
+          "fontWeight": "600",
+          "box": {
+            "x": 35.25,
+            "y": 354.09375,
+            "width": 88.34375,
+            "height": 32.5
+          }
+        }
+      ]
+    },
+    {
+      "kind": "finder",
+      "width": 820,
+      "phase": "shared-proposed",
+      "stem": "finder-dark-820-shared-proposed",
+      "elements": [
+        {
+          "tag": "P",
+          "text": "A LITTLE CURIOSITY. A NEW CONNECTION.",
+          "color": "rgb(244, 227, 203)",
+          "fontSize": "11px",
+          "fontWeight": "700",
+          "box": {
+            "x": 35.25,
+            "y": 153.390625,
+            "width": 357.234375,
+            "height": 15.390625
+          }
+        },
+        {
+          "tag": "H1",
+          "text": "FOLLOW YOUR MOOD.\nFIND YOUR FRAGRANCE.",
+          "color": "rgb(244, 227, 203)",
+          "fontSize": "36px",
+          "fontWeight": "700",
+          "box": {
+            "x": 35.25,
+            "y": 192.78125,
+            "width": 357.234375,
+            "height": 70.53125
+          }
+        },
+        {
+          "tag": "P",
+          "text": "Five quick questions. A fragrance that feels like you. Discover your match from our fragrance collection.",
+          "color": "rgb(244, 227, 203)",
+          "fontSize": "14px",
+          "fontWeight": "300",
+          "box": {
+            "x": 35.25,
+            "y": 287.3125,
+            "width": 357.234375,
+            "height": 44.78125
+          }
+        },
+        {
+          "tag": "A",
+          "text": "FIND MY SCENT",
+          "color": "rgb(244, 227, 203)",
+          "fontSize": "11px",
+          "fontWeight": "600",
+          "box": {
+            "x": 35.25,
+            "y": 354.09375,
+            "width": 88.34375,
+            "height": 32.5
+          }
+        }
+      ]
+    },
+    {
+      "kind": "finder",
+      "width": 1440,
+      "phase": "current",
+      "stem": "finder-dark-1440-current",
+      "elements": [
+        {
+          "tag": "P",
+          "text": "A LITTLE CURIOSITY. A NEW CONNECTION.",
+          "color": "rgb(244, 227, 203)",
+          "fontSize": "11px",
+          "fontWeight": "700",
+          "box": {
+            "x": 61.90625,
+            "y": 171.8125,
+            "width": 567.515625,
+            "height": 15.390625
+          }
+        },
+        {
+          "tag": "H1",
+          "text": "FOLLOW YOUR MOOD.\nFIND YOUR FRAGRANCE.",
+          "color": "rgb(244, 227, 203)",
+          "fontSize": "57.6px",
+          "fontWeight": "700",
+          "box": {
+            "x": 61.90625,
+            "y": 211.203125,
+            "width": 567.515625,
+            "height": 112.875
+          }
+        },
+        {
+          "tag": "P",
+          "text": "Five quick questions. A fragrance that feels like you. Discover your match from our fragrance collection.",
+          "color": "rgb(244, 227, 203)",
+          "fontSize": "14px",
+          "fontWeight": "300",
+          "box": {
+            "x": 61.90625,
+            "y": 348.078125,
+            "width": 390,
+            "height": 44.78125
+          }
+        },
+        {
+          "tag": "A",
+          "text": "FIND MY SCENT",
+          "color": "rgb(244, 227, 203)",
+          "fontSize": "11px",
+          "fontWeight": "600",
+          "box": {
+            "x": 61.90625,
+            "y": 414.859375,
+            "width": 88.34375,
+            "height": 32.5
+          }
+        }
+      ]
+    },
+    {
+      "kind": "finder",
+      "width": 1440,
+      "phase": "shared-proposed",
+      "stem": "finder-dark-1440-shared-proposed",
+      "elements": [
+        {
+          "tag": "P",
+          "text": "A LITTLE CURIOSITY. A NEW CONNECTION.",
+          "color": "rgb(244, 227, 203)",
+          "fontSize": "11px",
+          "fontWeight": "700",
+          "box": {
+            "x": 61.90625,
+            "y": 171.8125,
+            "width": 567.515625,
+            "height": 15.390625
+          }
+        },
+        {
+          "tag": "H1",
+          "text": "FOLLOW YOUR MOOD.\nFIND YOUR FRAGRANCE.",
+          "color": "rgb(244, 227, 203)",
+          "fontSize": "57.6px",
+          "fontWeight": "700",
+          "box": {
+            "x": 61.90625,
+            "y": 211.203125,
+            "width": 567.515625,
+            "height": 112.875
+          }
+        },
+        {
+          "tag": "P",
+          "text": "Five quick questions. A fragrance that feels like you. Discover your match from our fragrance collection.",
+          "color": "rgb(244, 227, 203)",
+          "fontSize": "14px",
+          "fontWeight": "300",
+          "box": {
+            "x": 61.90625,
+            "y": 348.078125,
+            "width": 390,
+            "height": 44.78125
+          }
+        },
+        {
+          "tag": "A",
+          "text": "FIND MY SCENT",
+          "color": "rgb(244, 227, 203)",
+          "fontSize": "11px",
+          "fontWeight": "600",
+          "box": {
+            "x": 61.90625,
+            "y": 414.859375,
+            "width": 88.34375,
+            "height": 32.5
+          }
+        }
+      ]
+    }
+  ]
+}

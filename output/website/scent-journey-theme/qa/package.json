@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "axe-core": "^4.11.0",
+    "playwright-core": "^1.58.2"
+  },
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "browser": "node browser-qa.mjs",
+    "accessibility": "node accessibility-qa.mjs",
+    "screenshots": "node capture-final.mjs && node capture-product.mjs"
+  }
+}

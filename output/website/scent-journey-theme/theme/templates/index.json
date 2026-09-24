@@ -1,0 +1,81 @@
+{
+  "sections": {
+    "hero": {
+      "type": "sj-home-hero",
+      "settings": {}
+    },
+    "doorway": {
+      "type": "sj-doorway",
+      "settings": {},
+      "blocks": {
+        "women": {
+          "type": "collection",
+          "settings": {
+            "direction": "women",
+            "title": "WOMEN",
+            "eyebrow": "THE WOMEN’S COLLECTION",
+            "line": "Leave a little you\nin the air.",
+            "collection": "womens-perfume",
+            "image_alt": "A Filipina brings playful colour and personal style to a sunlit everyday moment"
+          }
+        },
+        "men": {
+          "type": "collection",
+          "settings": {
+            "direction": "men",
+            "title": "MEN",
+            "eyebrow": "THE MEN’S COLLECTION",
+            "line": "Make your scent\npart of your story.",
+            "collection": "mens-perfume",
+            "image_alt": "A Filipino man in bold casual clothing enjoys a sunny everyday moment"
+          }
+        }
+      },
+      "block_order": [
+        "women",
+        "men"
+      ]
+    },
+    "magnetic_cap": {
+      "type": "sj-home-feature",
+      "settings": {
+        "feature": "magnetic",
+        "eyebrow": "A LITTLE DETAIL. A LOVELY FINISH.",
+        "heading": "MAGNETIC CAP",
+        "description": "The magnetic cap clicks neatly into place. A satisfying finishing touch to your everyday fragrance.",
+        "image_alt": "A DearBody fragrance bottle with its black magnetic cap lifted above the neck",
+        "mobile_image_position": 80
+      }
+    },
+    "collectible": {
+      "type": "sj-home-feature",
+      "settings": {
+        "feature": "collectible",
+        "eyebrow": "",
+        "heading": "MADE TO COLLECT.\nMADE TO DISPLAY.",
+        "description": "Build a scent collection that looks as good on your shelf as it feels in your routine.",
+        "image_alt": "Mojito Metallique and Amber Oud Silk bottles with their matching yellow and peach canisters on a display shelf",
+        "mobile_image_position": 78
+      }
+    },
+    "free_shipping": {
+      "type": "sj-home-feature",
+      "settings": {
+        "feature": "shipping",
+        "eyebrow": "",
+        "heading": "FREE SHIPPING.",
+        "subheading": "When you order 2 or more items.",
+        "description": "Shipping fee applies to 1 item.",
+        "image_alt": "Two closed DearBody perfume canisters, each individually wrapped in clear bubble wrap inside a shipping box",
+        "mobile_image_position": 80
+      }
+    }
+  },
+  "order": [
+    "hero",
+    "magnetic_cap",
+    "collectible",
+    "free_shipping",
+    "doorway"
+  ]
+}

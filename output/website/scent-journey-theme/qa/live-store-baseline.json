@@ -1,0 +1,3782 @@
+{
+  "generatedAt": "2026-09-24T07:43:49.795447+00:00",
+  "scope": "Read-only public HTML baseline while new ZIP upload is in progress. No authentication, browser control, API guessing or store mutation. Each request has its own timestamp.",
+  "routesRequested": [
+    "/",
+    "/pages/our-story",
+    "/pages/scent-finder",
+    "/pages/faq",
+    "/pages/shipping",
+    "/pages/contact",
+    "/collections/womens-perfume",
+    "/collections/mens-perfume"
+  ],
+  "results": [
+    {
+      "requestedUrl": "https://dearbody.ph/",
+      "checkedAt": "2026-09-24T07:43:47.953462+00:00",
+      "status": 200,
+      "finalUrl": "https://dearbody.ph/",
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 51886,
+      "title": [
+        "DearBody Philippines | London-Formulated Perfumes & Fragrances"
+      ],
+      "h1": [
+        "MAKE IT PERSONAL."
+      ],
+      "h2": [
+        "FIND YOUR SIDE.",
+        "WOMEN",
+        "MEN",
+        "Explore",
+        "Here for you",
+        "Follow your curiosity",
+        "YOUR BAG (0)",
+        "Your story starts here."
+      ],
+      "theme": {
+        "name": "dearbody-theme-update-dark-banner-gradient",
+        "id": 167077675073,
+        "schema_name": "DearBody Scent Journey",
+        "schema_version": "1.0.0",
+        "theme_store_id": null,
+        "role": "main"
+      },
+      "exposedThemeIds": [],
+      "liquidErrors": [],
+      "bodyAttributes": {
+        "class": "sj-page-type-index"
+      },
+      "sectionIds": [
+        "shopify-section-sections--23920695443521__header",
+        "shopify-section-template--23920681058369__hero",
+        "shopify-section-template--23920681058369__doorway",
+        "shopify-section-sections--23920695410753__footer",
+        "shopify-section-sj-cart-drawer",
+        "shopify-section-sj-predictive-search"
+      ],
+      "linkTargets": [
+        {
+          "text": "Skip to content",
+          "href": "#MainContent",
+          "class": "sj-skip",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Shipping details",
+          "href": "/pages/shipping",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "",
+          "href": "/",
+          "class": "sj-logo",
+          "ariaLabel": "DearBody Philippines home"
+        },
+        {
+          "text": "Women",
+          "href": "/collections/womens-perfume",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Men",
+          "href": "/collections/mens-perfume",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Scent Finder",
+          "href": "/pages/scent-finder",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Our Story",
+          "href": "/pages/our-story",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Search",
+          "href": "/search",
+          "class": "",
+          "ariaLabel": "Search fragrances"
+        },
+        {
+          "text": "Bag 0",
+          "href": "/cart",
+          "class": "",
+          "ariaLabel": "Open shopping bag"
+        },
+        {
+          "text": "Shop all",
+          "href": "/collections/all",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Explore the collections",
+          "href": "#ShopCollections",
+          "class": "sj-button",
+          "ariaLabel": ""
+        },
+        {
+          "text": "THE WOMEN\u2019S COLLECTION 01 A scent for every version of you. WOMEN Explore Women",
+          "href": "/collections/womens-perfume",
+          "class": "sj-doorway-link sj-doorway-link--women",
+          "ariaLabel": "Shop women perfumes"
+        },
+        {
+          "text": "THE MEN\u2019S COLLECTION 02 Make your scent part of your story. MEN Explore Men",
+          "href": "/collections/mens-perfume",
+          "class": "sj-doorway-link sj-doorway-link--men",
+          "ariaLabel": "Shop men perfumes"
+        },
+        {
+          "text": "Find my scent",
+          "href": "/pages/scent-finder",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Discover the collection",
+          "href": "/collections/all",
+          "class": "sj-text-link",
+          "ariaLabel": ""
+        },
+        {
+          "text": "FAQ",
+          "href": "/pages/faq",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Shipping",
+          "href": "/pages/shipping",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Contact",
+          "href": "/pages/contact",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Privacy",
+          "href": "/policies/privacy-policy",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Terms",
+          "href": "/pages/terms",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Discover the fragrances",
+          "href": "/collections/all",
+          "class": "sj-button",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Fresh",
+          "href": "/search?q=Fresh&type=product",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Sweet",
+          "href": "/search?q=Sweet&type=product",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Smoky",
+          "href": "/search?q=Smoky&type=product",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Woody",
+          "href": "/search?q=Woody&type=product",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Warm",
+          "href": "/search?q=Warm&type=product",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Berry",
+          "href": "/search?q=Berry&type=product",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Rose",
+          "href": "/search?q=Rose&type=product",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Oud",
+          "href": "/search?q=Oud&type=product",
+          "class": "",
+          "ariaLabel": ""
+        }
+      ],
+      "loadedScriptsAndStyles": [
+        "//dearbody.ph/cdn/shop/t/12/assets/sj-base.css?v=164805890862981342281790229873",
+        "//dearbody.ph/cdn/shop/t/12/assets/sj-commerce.css?v=92061477913970197811790229873",
+        "/checkouts/internal/preloads.js?locale=en-PH",
+        "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+        "//dearbody.ph/cdn/shopifycloud/storefront/assets/storefront/load_feature-1bd60354.js",
+        "//cdn.shopify.com/shopifycloud/storefront/assets/storefront/origin_trials-318ab40a.js",
+        "https://dearbody.ph/cdn/shopifycloud/portable-wallets/latest/accelerated-checkout-backwards-compat.css",
+        "//dearbody.ph/cdn/shop/t/12/assets/sj-base.js?v=125425389351795145991790229873",
+        "//dearbody.ph/cdn/shop/t/12/assets/sj-commerce.js?v=80715427747042878231790229873",
+        "https://dearbody.ph/cdn/shopifycloud/perf-kit/shopify-perf-kit-3.9.4.min.js",
+        "https://cdn.shopify.com/storefront/standard-actions.js"
+      ],
+      "mainTextExcerpt": "DEARBODY PHILIPPINES MAKE IT PERSONAL. Fragrance with personality. Find the one that feels like you. Explore the collections THE COLLECTIONS FIND YOUR SIDE. Explore our fragrances for women and men. THE WOMEN\u2019S COLLECTION 01 A scent for every version of you. WOMEN Explore Women THE MEN\u2019S COLLECTION 02 Make your scent part of your story. MEN Explore Men Not sure where to begin? Find my scent"
+    },
+    {
+      "requestedUrl": "https://dearbody.ph/pages/our-story",
+      "checkedAt": "2026-09-24T07:43:47.956139+00:00",
+      "status": 404,
+      "finalUrl": "https://dearbody.ph/pages/our-story",
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 46178,
+      "title": [
+        "404 Not Found"
+      ],
+      "h1": [
+        "LET\u2019S FIND YOUR WAY BACK."
+      ],
+      "h2": [
+        "Explore",
+        "Here for you",
+        "Follow your curiosity",
+        "YOUR BAG (0)",
+        "Your story starts here."
+      ],
+      "theme": {
+        "name": "dearbody-theme-update-dark-banner-gradient",
+        "id": 167077675073,
+        "schema_name": "DearBody Scent Journey",
+        "schema_version": "1.0.0",
+        "theme_store_id": null,
+        "role": "main"
+      },
+      "exposedThemeIds": [],
+      "liquidErrors": [],
+      "bodyAttributes": {
+        "class": "sj-page-type-404"
+      },
+      "sectionIds": [
+        "shopify-section-sections--23920695443521__header",
+        "shopify-section-template--23920680894529__main",
+        "shopify-section-sections--23920695410753__footer",
+        "shopify-section-sj-cart-drawer",
+        "shopify-section-sj-predictive-search"
+      ],
+      "linkTargets": [
+        {
+          "text": "Skip to content",
+          "href": "#MainContent",
+          "class": "sj-skip",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Shipping details",
+          "href": "/pages/shipping",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "",
+          "href": "/",
+          "class": "sj-logo",
+          "ariaLabel": "DearBody Philippines home"
+        },
+        {
+          "text": "Women",
+          "href": "/collections/womens-perfume",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Men",
+          "href": "/collections/mens-perfume",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Scent Finder",
+          "href": "/pages/scent-finder",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Our Story",
+          "href": "/pages/our-story",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Search",
+          "href": "/search",
+          "class": "",
+          "ariaLabel": "Search fragrances"
+        },
+        {
+          "text": "Bag 0",
+          "href": "/cart",
+          "class": "",
+          "ariaLabel": "Open shopping bag"
+        },
+        {
+          "text": "Shop all",
+          "href": "/collections/all",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Explore the collection",
+          "href": "/collections/all",
+          "class": "sj-button",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Discover the collection",
+          "href": "/collections/all",
+          "class": "sj-text-link",
+          "ariaLabel": ""
+        },
+        {
+          "text": "FAQ",
+          "href": "/pages/faq",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Shipping",
+          "href": "/pages/shipping",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Contact",
+          "href": "/pages/contact",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Privacy",
+          "href": "/policies/privacy-policy",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Terms",
+          "href": "/pages/terms",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Discover the fragrances",
+          "href": "/collections/all",
+          "class": "sj-button",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Fresh",
+          "href": "/search?q=Fresh&type=product",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Sweet",
+          "href": "/search?q=Sweet&type=product",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Smoky",
+          "href": "/search?q=Smoky&type=product",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Woody",
+          "href": "/search?q=Woody&type=product",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Warm",
+          "href": "/search?q=Warm&type=product",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Berry",
+          "href": "/search?q=Berry&type=product",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Rose",
+          "href": "/search?q=Rose&type=product",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Oud",
+          "href": "/search?q=Oud&type=product",
+          "class": "",
+          "ariaLabel": ""
+        }
+      ],
+      "loadedScriptsAndStyles": [
+        "//dearbody.ph/cdn/shop/t/12/assets/sj-base.css?v=164805890862981342281790229873",
+        "//dearbody.ph/cdn/shop/t/12/assets/sj-commerce.css?v=92061477913970197811790229873",
+        "/checkouts/internal/preloads.js?locale=en-PH",
+        "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+        "//dearbody.ph/cdn/shopifycloud/storefront/assets/storefront/load_feature-1bd60354.js",
+        "//cdn.shopify.com/shopifycloud/storefront/assets/storefront/origin_trials-318ab40a.js",
+        "https://dearbody.ph/cdn/shopifycloud/portable-wallets/latest/accelerated-checkout-backwards-compat.css",
+        "//dearbody.ph/cdn/shop/t/12/assets/sj-base.js?v=125425389351795145991790229873",
+        "//dearbody.ph/cdn/shop/t/12/assets/sj-commerce.js?v=80715427747042878231790229873",
+        "https://dearbody.ph/cdn/shopifycloud/perf-kit/shopify-perf-kit-3.9.4.min.js",
+        "https://cdn.shopify.com/storefront/standard-actions.js"
+      ],
+      "mainTextExcerpt": "404 / AN UNEXPECTED DETOUR LET\u2019S FIND YOUR WAY BACK. This page has moved, but your scent journey is just beginning. Explore the collection"
+    },
+    {
+      "requestedUrl": "https://dearbody.ph/pages/scent-finder",
+      "checkedAt": "2026-09-24T07:43:47.956335+00:00",
+      "status": 404,
+      "finalUrl": "https://dearbody.ph/pages/scent-finder",
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 46178,
+      "title": [
+        "404 Not Found"
+      ],
+      "h1": [
+        "LET\u2019S FIND YOUR WAY BACK."
+      ],
+      "h2": [
+        "Explore",
+        "Here for you",
+        "Follow your curiosity",
+        "YOUR BAG (0)",
+        "Your story starts here."
+      ],
+      "theme": {
+        "name": "dearbody-theme-update-dark-banner-gradient",
+        "id": 167077675073,
+        "schema_name": "DearBody Scent Journey",
+        "schema_version": "1.0.0",
+        "theme_store_id": null,
+        "role": "main"
+      },
+      "exposedThemeIds": [],
+      "liquidErrors": [],
+      "bodyAttributes": {
+        "class": "sj-page-type-404"
+      },
+      "sectionIds": [
+        "shopify-section-sections--23920695443521__header",
+        "shopify-section-template--23920680894529__main",
+        "shopify-section-sections--23920695410753__footer",
+        "shopify-section-sj-cart-drawer",
+        "shopify-section-sj-predictive-search"
+      ],
+      "linkTargets": [
+        {
+          "text": "Skip to content",
+          "href": "#MainContent",
+          "class": "sj-skip",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Shipping details",
+          "href": "/pages/shipping",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "",
+          "href": "/",
+          "class": "sj-logo",
+          "ariaLabel": "DearBody Philippines home"
+        },
+        {
+          "text": "Women",
+          "href": "/collections/womens-perfume",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Men",
+          "href": "/collections/mens-perfume",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Scent Finder",
+          "href": "/pages/scent-finder",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Our Story",
+          "href": "/pages/our-story",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Search",
+          "href": "/search",
+          "class": "",
+          "ariaLabel": "Search fragrances"
+        },
+        {
+          "text": "Bag 0",
+          "href": "/cart",
+          "class": "",
+          "ariaLabel": "Open shopping bag"
+        },
+        {
+          "text": "Shop all",
+          "href": "/collections/all",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Explore the collection",
+          "href": "/collections/all",
+          "class": "sj-button",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Discover the collection",
+          "href": "/collections/all",
+          "class": "sj-text-link",
+          "ariaLabel": ""
+        },
+        {
+          "text": "FAQ",
+          "href": "/pages/faq",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Shipping",
+          "href": "/pages/shipping",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Contact",
+          "href": "/pages/contact",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Privacy",
+          "href": "/policies/privacy-policy",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Terms",
+          "href": "/pages/terms",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Discover the fragrances",
+          "href": "/collections/all",
+          "class": "sj-button",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Fresh",
+          "href": "/search?q=Fresh&type=product",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Sweet",
+          "href": "/search?q=Sweet&type=product",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Smoky",
+          "href": "/search?q=Smoky&type=product",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Woody",
+          "href": "/search?q=Woody&type=product",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Warm",
+          "href": "/search?q=Warm&type=product",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Berry",
+          "href": "/search?q=Berry&type=product",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Rose",
+          "href": "/search?q=Rose&type=product",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Oud",
+          "href": "/search?q=Oud&type=product",
+          "class": "",
+          "ariaLabel": ""
+        }
+      ],
+      "loadedScriptsAndStyles": [
+        "//dearbody.ph/cdn/shop/t/12/assets/sj-base.css?v=164805890862981342281790229873",
+        "//dearbody.ph/cdn/shop/t/12/assets/sj-commerce.css?v=92061477913970197811790229873",
+        "/checkouts/internal/preloads.js?locale=en-PH",
+        "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+        "//dearbody.ph/cdn/shopifycloud/storefront/assets/storefront/load_feature-1bd60354.js",
+        "//cdn.shopify.com/shopifycloud/storefront/assets/storefront/origin_trials-318ab40a.js",
+        "https://dearbody.ph/cdn/shopifycloud/portable-wallets/latest/accelerated-checkout-backwards-compat.css",
+        "//dearbody.ph/cdn/shop/t/12/assets/sj-base.js?v=125425389351795145991790229873",
+        "//dearbody.ph/cdn/shop/t/12/assets/sj-commerce.js?v=80715427747042878231790229873",
+        "https://dearbody.ph/cdn/shopifycloud/perf-kit/shopify-perf-kit-3.9.4.min.js",
+        "https://cdn.shopify.com/storefront/standard-actions.js"
+      ],
+      "mainTextExcerpt": "404 / AN UNEXPECTED DETOUR LET\u2019S FIND YOUR WAY BACK. This page has moved, but your scent journey is just beginning. Explore the collection"
+    },
+    {
+      "requestedUrl": "https://dearbody.ph/pages/faq",
+      "checkedAt": "2026-09-24T07:43:47.956567+00:00",
+      "status": 404,
+      "finalUrl": "https://dearbody.ph/pages/faq",
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 47346,
+      "title": [
+        "404 Not Found"
+      ],
+      "h1": [
+        "LET\u2019S FIND YOUR WAY BACK."
+      ],
+      "h2": [
+        "Explore",
+        "Here for you",
+        "Follow your curiosity",
+        "YOUR BAG (0)",
+        "Your story starts here."
+      ],
+      "theme": {
+        "name": "dearbody-theme-update-dark-banner-gradient",
+        "id": 167077675073,
+        "schema_name": "DearBody Scent Journey",
+        "schema_version": "1.0.0",
+        "theme_store_id": null,
+        "role": "main"
+      },
+      "exposedThemeIds": [],
+      "liquidErrors": [],
+      "bodyAttributes": {
+        "class": "sj-page-type-404"
+      },
+      "sectionIds": [
+        "shopify-section-sections--23920695443521__header",
+        "shopify-section-template--23920680894529__main",
+        "shopify-section-sections--23920695410753__footer",
+        "shopify-section-sj-cart-drawer",
+        "shopify-section-sj-predictive-search"
+      ],
+      "linkTargets": [
+        {
+          "text": "Skip to content",
+          "href": "#MainContent",
+          "class": "sj-skip",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Shipping details",
+          "href": "/pages/shipping",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "",
+          "href": "/",
+          "class": "sj-logo",
+          "ariaLabel": "DearBody Philippines home"
+        },
+        {
+          "text": "Women",
+          "href": "/collections/womens-perfume",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Men",
+          "href": "/collections/mens-perfume",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Scent Finder",
+          "href": "/pages/scent-finder",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Our Story",
+          "href": "/pages/our-story",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Search",
+          "href": "/search",
+          "class": "",
+          "ariaLabel": "Search fragrances"
+        },
+        {
+          "text": "Bag 0",
+          "href": "/cart",
+          "class": "",
+          "ariaLabel": "Open shopping bag"
+        },
+        {
+          "text": "Shop all",
+          "href": "/collections/all",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Explore the collection",
+          "href": "/collections/all",
+          "class": "sj-button",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Discover the collection",
+          "href": "/collections/all",
+          "class": "sj-text-link",
+          "ariaLabel": ""
+        },
+        {
+          "text": "FAQ",
+          "href": "/pages/faq",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Shipping",
+          "href": "/pages/shipping",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Contact",
+          "href": "/pages/contact",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Privacy",
+          "href": "/policies/privacy-policy",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Terms",
+          "href": "/pages/terms",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Discover the fragrances",
+          "href": "/collections/all",
+          "class": "sj-button",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Fresh",
+          "href": "/search?q=Fresh&type=product",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Sweet",
+          "href": "/search?q=Sweet&type=product",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Smoky",
+          "href": "/search?q=Smoky&type=product",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Woody",
+          "href": "/search?q=Woody&type=product",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Warm",
+          "href": "/search?q=Warm&type=product",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Berry",
+          "href": "/search?q=Berry&type=product",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Rose",
+          "href": "/search?q=Rose&type=product",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Oud",
+          "href": "/search?q=Oud&type=product",
+          "class": "",
+          "ariaLabel": ""
+        }
+      ],
+      "loadedScriptsAndStyles": [
+        "//dearbody.ph/cdn/shop/t/12/assets/sj-base.css?v=164805890862981342281790229873",
+        "//dearbody.ph/cdn/shop/t/12/assets/sj-commerce.css?v=92061477913970197811790229873",
+        "/checkouts/internal/preloads.js?locale=en-PH",
+        "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+        "//dearbody.ph/cdn/shopifycloud/storefront/assets/storefront/load_feature-1bd60354.js",
+        "//cdn.shopify.com/shopifycloud/storefront/assets/storefront/origin_trials-318ab40a.js",
+        "https://dearbody.ph/cdn/shopifycloud/portable-wallets/latest/accelerated-checkout-backwards-compat.css",
+        "//dearbody.ph/cdn/shop/t/12/assets/sj-base.js?v=125425389351795145991790229873",
+        "//dearbody.ph/cdn/shop/t/12/assets/sj-commerce.js?v=80715427747042878231790229873",
+        "https://dearbody.ph/cdn/shopifycloud/perf-kit/shopify-perf-kit-3.9.4.min.js",
+        "https://cdn.shopify.com/storefront/standard-actions.js"
+      ],
+      "mainTextExcerpt": "404 / AN UNEXPECTED DETOUR LET\u2019S FIND YOUR WAY BACK. This page has moved, but your scent journey is just beginning. Explore the collection"
+    },
+    {
+      "requestedUrl": "https://dearbody.ph/pages/shipping",
+      "checkedAt": "2026-09-24T07:43:47.956821+00:00",
+      "status": 404,
+      "finalUrl": "https://dearbody.ph/pages/shipping",
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 46178,
+      "title": [
+        "404 Not Found"
+      ],
+      "h1": [
+        "LET\u2019S FIND YOUR WAY BACK."
+      ],
+      "h2": [
+        "Explore",
+        "Here for you",
+        "Follow your curiosity",
+        "YOUR BAG (0)",
+        "Your story starts here."
+      ],
+      "theme": {
+        "name": "dearbody-theme-update-dark-banner-gradient",
+        "id": 167077675073,
+        "schema_name": "DearBody Scent Journey",
+        "schema_version": "1.0.0",
+        "theme_store_id": null,
+        "role": "main"
+      },
+      "exposedThemeIds": [],
+      "liquidErrors": [],
+      "bodyAttributes": {
+        "class": "sj-page-type-404"
+      },
+      "sectionIds": [
+        "shopify-section-sections--23920695443521__header",
+        "shopify-section-template--23920680894529__main",
+        "shopify-section-sections--23920695410753__footer",
+        "shopify-section-sj-cart-drawer",
+        "shopify-section-sj-predictive-search"
+      ],
+      "linkTargets": [
+        {
+          "text": "Skip to content",
+          "href": "#MainContent",
+          "class": "sj-skip",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Shipping details",
+          "href": "/pages/shipping",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "",
+          "href": "/",
+          "class": "sj-logo",
+          "ariaLabel": "DearBody Philippines home"
+        },
+        {
+          "text": "Women",
+          "href": "/collections/womens-perfume",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Men",
+          "href": "/collections/mens-perfume",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Scent Finder",
+          "href": "/pages/scent-finder",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Our Story",
+          "href": "/pages/our-story",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Search",
+          "href": "/search",
+          "class": "",
+          "ariaLabel": "Search fragrances"
+        },
+        {
+          "text": "Bag 0",
+          "href": "/cart",
+          "class": "",
+          "ariaLabel": "Open shopping bag"
+        },
+        {
+          "text": "Shop all",
+          "href": "/collections/all",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Explore the collection",
+          "href": "/collections/all",
+          "class": "sj-button",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Discover the collection",
+          "href": "/collections/all",
+          "class": "sj-text-link",
+          "ariaLabel": ""
+        },
+        {
+          "text": "FAQ",
+          "href": "/pages/faq",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Shipping",
+          "href": "/pages/shipping",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Contact",
+          "href": "/pages/contact",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Privacy",
+          "href": "/policies/privacy-policy",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Terms",
+          "href": "/pages/terms",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Discover the fragrances",
+          "href": "/collections/all",
+          "class": "sj-button",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Fresh",
+          "href": "/search?q=Fresh&type=product",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Sweet",
+          "href": "/search?q=Sweet&type=product",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Smoky",
+          "href": "/search?q=Smoky&type=product",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Woody",
+          "href": "/search?q=Woody&type=product",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Warm",
+          "href": "/search?q=Warm&type=product",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Berry",
+          "href": "/search?q=Berry&type=product",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Rose",
+          "href": "/search?q=Rose&type=product",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Oud",
+          "href": "/search?q=Oud&type=product",
+          "class": "",
+          "ariaLabel": ""
+        }
+      ],
+      "loadedScriptsAndStyles": [
+        "//dearbody.ph/cdn/shop/t/12/assets/sj-base.css?v=164805890862981342281790229873",
+        "//dearbody.ph/cdn/shop/t/12/assets/sj-commerce.css?v=92061477913970197811790229873",
+        "/checkouts/internal/preloads.js?locale=en-PH",
+        "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+        "//dearbody.ph/cdn/shopifycloud/storefront/assets/storefront/load_feature-1bd60354.js",
+        "//cdn.shopify.com/shopifycloud/storefront/assets/storefront/origin_trials-318ab40a.js",
+        "https://dearbody.ph/cdn/shopifycloud/portable-wallets/latest/accelerated-checkout-backwards-compat.css",
+        "//dearbody.ph/cdn/shop/t/12/assets/sj-base.js?v=125425389351795145991790229873",
+        "//dearbody.ph/cdn/shop/t/12/assets/sj-commerce.js?v=80715427747042878231790229873",
+        "https://dearbody.ph/cdn/shopifycloud/perf-kit/shopify-perf-kit-3.9.4.min.js",
+        "https://cdn.shopify.com/storefront/standard-actions.js"
+      ],
+      "mainTextExcerpt": "404 / AN UNEXPECTED DETOUR LET\u2019S FIND YOUR WAY BACK. This page has moved, but your scent journey is just beginning. Explore the collection"
+    },
+    {
+      "requestedUrl": "https://dearbody.ph/pages/contact",
+      "checkedAt": "2026-09-24T07:43:47.957109+00:00",
+      "status": 404,
+      "finalUrl": "https://dearbody.ph/pages/contact",
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 46178,
+      "title": [
+        "404 Not Found"
+      ],
+      "h1": [
+        "LET\u2019S FIND YOUR WAY BACK."
+      ],
+      "h2": [
+        "Explore",
+        "Here for you",
+        "Follow your curiosity",
+        "YOUR BAG (0)",
+        "Your story starts here."
+      ],
+      "theme": {
+        "name": "dearbody-theme-update-dark-banner-gradient",
+        "id": 167077675073,
+        "schema_name": "DearBody Scent Journey",
+        "schema_version": "1.0.0",
+        "theme_store_id": null,
+        "role": "main"
+      },
+      "exposedThemeIds": [],
+      "liquidErrors": [],
+      "bodyAttributes": {
+        "class": "sj-page-type-404"
+      },
+      "sectionIds": [
+        "shopify-section-sections--23920695443521__header",
+        "shopify-section-template--23920680894529__main",
+        "shopify-section-sections--23920695410753__footer",
+        "shopify-section-sj-cart-drawer",
+        "shopify-section-sj-predictive-search"
+      ],
+      "linkTargets": [
+        {
+          "text": "Skip to content",
+          "href": "#MainContent",
+          "class": "sj-skip",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Shipping details",
+          "href": "/pages/shipping",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "",
+          "href": "/",
+          "class": "sj-logo",
+          "ariaLabel": "DearBody Philippines home"
+        },
+        {
+          "text": "Women",
+          "href": "/collections/womens-perfume",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Men",
+          "href": "/collections/mens-perfume",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Scent Finder",
+          "href": "/pages/scent-finder",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Our Story",
+          "href": "/pages/our-story",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Search",
+          "href": "/search",
+          "class": "",
+          "ariaLabel": "Search fragrances"
+        },
+        {
+          "text": "Bag 0",
+          "href": "/cart",
+          "class": "",
+          "ariaLabel": "Open shopping bag"
+        },
+        {
+          "text": "Shop all",
+          "href": "/collections/all",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Explore the collection",
+          "href": "/collections/all",
+          "class": "sj-button",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Discover the collection",
+          "href": "/collections/all",
+          "class": "sj-text-link",
+          "ariaLabel": ""
+        },
+        {
+          "text": "FAQ",
+          "href": "/pages/faq",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Shipping",
+          "href": "/pages/shipping",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Contact",
+          "href": "/pages/contact",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Privacy",
+          "href": "/policies/privacy-policy",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Terms",
+          "href": "/pages/terms",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Discover the fragrances",
+          "href": "/collections/all",
+          "class": "sj-button",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Fresh",
+          "href": "/search?q=Fresh&type=product",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Sweet",
+          "href": "/search?q=Sweet&type=product",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Smoky",
+          "href": "/search?q=Smoky&type=product",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Woody",
+          "href": "/search?q=Woody&type=product",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Warm",
+          "href": "/search?q=Warm&type=product",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Berry",
+          "href": "/search?q=Berry&type=product",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Rose",
+          "href": "/search?q=Rose&type=product",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Oud",
+          "href": "/search?q=Oud&type=product",
+          "class": "",
+          "ariaLabel": ""
+        }
+      ],
+      "loadedScriptsAndStyles": [
+        "//dearbody.ph/cdn/shop/t/12/assets/sj-base.css?v=164805890862981342281790229873",
+        "//dearbody.ph/cdn/shop/t/12/assets/sj-commerce.css?v=92061477913970197811790229873",
+        "/checkouts/internal/preloads.js?locale=en-PH",
+        "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+        "//dearbody.ph/cdn/shopifycloud/storefront/assets/storefront/load_feature-1bd60354.js",
+        "//cdn.shopify.com/shopifycloud/storefront/assets/storefront/origin_trials-318ab40a.js",
+        "https://dearbody.ph/cdn/shopifycloud/portable-wallets/latest/accelerated-checkout-backwards-compat.css",
+        "//dearbody.ph/cdn/shop/t/12/assets/sj-base.js?v=125425389351795145991790229873",
+        "//dearbody.ph/cdn/shop/t/12/assets/sj-commerce.js?v=80715427747042878231790229873",
+        "https://dearbody.ph/cdn/shopifycloud/perf-kit/shopify-perf-kit-3.9.4.min.js",
+        "https://cdn.shopify.com/storefront/standard-actions.js"
+      ],
+      "mainTextExcerpt": "404 / AN UNEXPECTED DETOUR LET\u2019S FIND YOUR WAY BACK. This page has moved, but your scent journey is just beginning. Explore the collection"
+    },
+    {
+      "requestedUrl": "https://dearbody.ph/collections/womens-perfume",
+      "checkedAt": "2026-09-24T07:43:48.445179+00:00",
+      "status": 200,
+      "finalUrl": "https://dearbody.ph/collections/womens-perfume",
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 58047,
+      "title": [
+        "DearBody Women's Perfume Philippines | London-Formulated Fragrances"
+      ],
+      "h1": [
+        "Women's Perfume"
+      ],
+      "h2": [
+        "Explore",
+        "Here for you",
+        "Follow your curiosity",
+        "YOUR BAG (0)",
+        "Your story starts here."
+      ],
+      "theme": {
+        "name": "dearbody-theme-update-dark-banner-gradient",
+        "id": 167077675073,
+        "schema_name": "DearBody Scent Journey",
+        "schema_version": "1.0.0",
+        "theme_store_id": null,
+        "role": "main"
+      },
+      "exposedThemeIds": [],
+      "liquidErrors": [],
+      "bodyAttributes": {
+        "class": "sj-page-type-collection"
+      },
+      "sectionIds": [
+        "shopify-section-sections--23920695443521__header",
+        "shopify-section-template--23920680960065__main",
+        "shopify-section-sections--23920695410753__footer",
+        "shopify-section-sj-cart-drawer",
+        "shopify-section-sj-predictive-search"
+      ],
+      "linkTargets": [
+        {
+          "text": "Skip to content",
+          "href": "#MainContent",
+          "class": "sj-skip",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Shipping details",
+          "href": "/pages/shipping",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "",
+          "href": "/",
+          "class": "sj-logo",
+          "ariaLabel": "DearBody Philippines home"
+        },
+        {
+          "text": "Women",
+          "href": "/collections/womens-perfume",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Men",
+          "href": "/collections/mens-perfume",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Scent Finder",
+          "href": "/pages/scent-finder",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Our Story",
+          "href": "/pages/our-story",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Search",
+          "href": "/search",
+          "class": "",
+          "ariaLabel": "Search fragrances"
+        },
+        {
+          "text": "Bag 0",
+          "href": "/cart",
+          "class": "",
+          "ariaLabel": "Open shopping bag"
+        },
+        {
+          "text": "Shop all",
+          "href": "/collections/all",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Let your mood lead the way",
+          "href": "/pages/scent-finder",
+          "class": "sj-text-link",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Clear all",
+          "href": "/collections/womens-perfume",
+          "class": "sj-text-link",
+          "ariaLabel": ""
+        },
+        {
+          "text": "CHAPTER 01 MEET YOUR NEXT CHAPTER SOLD OUT",
+          "href": "/products/mistened-narcissus",
+          "class": "sj-product-card__image",
+          "ariaLabel": "Explore Mistened Narcissus"
+        },
+        {
+          "text": "Mistened Narcissus",
+          "href": "/products/mistened-narcissus",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "CHAPTER 02 MEET YOUR NEXT CHAPTER SOLD OUT",
+          "href": "/products/amber-oud-silk",
+          "class": "sj-product-card__image",
+          "ariaLabel": "Explore Amber Oud Silk"
+        },
+        {
+          "text": "Amber Oud Silk",
+          "href": "/products/amber-oud-silk",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "CHAPTER 03 MEET YOUR NEXT CHAPTER SOLD OUT",
+          "href": "/products/mojito-metallique",
+          "class": "sj-product-card__image",
+          "ariaLabel": "Explore Mojito Metallique"
+        },
+        {
+          "text": "Mojito Metallique",
+          "href": "/products/mojito-metallique",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Discover the collection",
+          "href": "/collections/all",
+          "class": "sj-text-link",
+          "ariaLabel": ""
+        },
+        {
+          "text": "FAQ",
+          "href": "/pages/faq",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Shipping",
+          "href": "/pages/shipping",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Contact",
+          "href": "/pages/contact",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Privacy",
+          "href": "/policies/privacy-policy",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Terms",
+          "href": "/pages/terms",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Discover the fragrances",
+          "href": "/collections/all",
+          "class": "sj-button",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Fresh",
+          "href": "/search?q=Fresh&type=product",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Sweet",
+          "href": "/search?q=Sweet&type=product",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Smoky",
+          "href": "/search?q=Smoky&type=product",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Woody",
+          "href": "/search?q=Woody&type=product",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Warm",
+          "href": "/search?q=Warm&type=product",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Berry",
+          "href": "/search?q=Berry&type=product",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Rose",
+          "href": "/search?q=Rose&type=product",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Oud",
+          "href": "/search?q=Oud&type=product",
+          "class": "",
+          "ariaLabel": ""
+        }
+      ],
+      "loadedScriptsAndStyles": [
+        "//dearbody.ph/cdn/shop/t/12/assets/sj-base.css?v=164805890862981342281790229873",
+        "//dearbody.ph/cdn/shop/t/12/assets/sj-commerce.css?v=92061477913970197811790229873",
+        "/checkouts/internal/preloads.js?locale=en-PH",
+        "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+        "//dearbody.ph/cdn/shopifycloud/storefront/assets/storefront/load_feature-1bd60354.js",
+        "//cdn.shopify.com/shopifycloud/storefront/assets/storefront/origin_trials-318ab40a.js",
+        "https://dearbody.ph/cdn/shopifycloud/portable-wallets/latest/accelerated-checkout-backwards-compat.css",
+        "//dearbody.ph/cdn/shop/t/12/assets/sj-base.js?v=125425389351795145991790229873",
+        "//dearbody.ph/cdn/shop/t/12/assets/sj-commerce.js?v=80715427747042878231790229873",
+        "https://dearbody.ph/cdn/shopifycloud/perf-kit/shopify-perf-kit-3.9.4.min.js",
+        "https://cdn.shopify.com/storefront/standard-actions.js"
+      ],
+      "mainTextExcerpt": "DEARBODY / Women's Perfume Women's Perfume London-formulated scents with warmth and lift. Expressive, easy to wear, and made to feel personal. Let your mood lead the way 3 fragrances / Women's Perfume Filter & sort \uff0b Availability Out of stock (3) In stock (0) Price Minimum \u20b1 Maximum \u20b1 Sort by Featured Most relevant Best selling Alphabetically, A-Z Alphabetically, Z-A Price, low to high Price, high to low Date, old to new Date, new to old Apply Clear all CHAPTER 01 MEET YOUR NEXT CHAPTER SOLD OUT Mistened Narcissus \u20b1799.00 CHAPTER 02 MEET YOUR NEXT CHAPTER SOLD OUT Amber Oud Silk \u20b1799.00 CHAPTER 03 MEET YOUR NEXT CHAPTER SOLD OUT Mojito Metallique \u20b1799.00 \u20b11,099.00"
+    },
+    {
+      "requestedUrl": "https://dearbody.ph/collections/mens-perfume",
+      "checkedAt": "2026-09-24T07:43:48.459438+00:00",
+      "status": 200,
+      "finalUrl": "https://dearbody.ph/collections/mens-perfume",
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 56649,
+      "title": [
+        "DearBody Men's Perfume Philippines | London-Formulated Fragrances"
+      ],
+      "h1": [
+        "Men's Perfume"
+      ],
+      "h2": [
+        "Explore",
+        "Here for you",
+        "Follow your curiosity",
+        "YOUR BAG (0)",
+        "Your story starts here."
+      ],
+      "theme": {
+        "name": "dearbody-theme-update-dark-banner-gradient",
+        "id": 167077675073,
+        "schema_name": "DearBody Scent Journey",
+        "schema_version": "1.0.0",
+        "theme_store_id": null,
+        "role": "main"
+      },
+      "exposedThemeIds": [],
+      "liquidErrors": [],
+      "bodyAttributes": {
+        "class": "sj-page-type-collection"
+      },
+      "sectionIds": [
+        "shopify-section-sections--23920695443521__header",
+        "shopify-section-template--23920680960065__main",
+        "shopify-section-sections--23920695410753__footer",
+        "shopify-section-sj-cart-drawer",
+        "shopify-section-sj-predictive-search"
+      ],
+      "linkTargets": [
+        {
+          "text": "Skip to content",
+          "href": "#MainContent",
+          "class": "sj-skip",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Shipping details",
+          "href": "/pages/shipping",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "",
+          "href": "/",
+          "class": "sj-logo",
+          "ariaLabel": "DearBody Philippines home"
+        },
+        {
+          "text": "Women",
+          "href": "/collections/womens-perfume",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Men",
+          "href": "/collections/mens-perfume",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Scent Finder",
+          "href": "/pages/scent-finder",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Our Story",
+          "href": "/pages/our-story",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Search",
+          "href": "/search",
+          "class": "",
+          "ariaLabel": "Search fragrances"
+        },
+        {
+          "text": "Bag 0",
+          "href": "/cart",
+          "class": "",
+          "ariaLabel": "Open shopping bag"
+        },
+        {
+          "text": "Shop all",
+          "href": "/collections/all",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Let your mood lead the way",
+          "href": "/pages/scent-finder",
+          "class": "sj-text-link",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Clear all",
+          "href": "/collections/mens-perfume",
+          "class": "sj-text-link",
+          "ariaLabel": ""
+        },
+        {
+          "text": "CHAPTER 01 MEET YOUR NEXT CHAPTER SOLD OUT",
+          "href": "/products/rtulle-satin",
+          "class": "sj-product-card__image",
+          "ariaLabel": "Explore Rtulle & Satin"
+        },
+        {
+          "text": "Rtulle & Satin",
+          "href": "/products/rtulle-satin",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "CHAPTER 02 MEET YOUR NEXT CHAPTER SOLD OUT",
+          "href": "/products/charme-envoutant",
+          "class": "sj-product-card__image",
+          "ariaLabel": "Explore Charme Envo\u00fbtant"
+        },
+        {
+          "text": "Charme Envo\u00fbtant",
+          "href": "/products/charme-envoutant",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "CHAPTER 03 MEET YOUR NEXT CHAPTER SOLD OUT",
+          "href": "/products/oud-mirage",
+          "class": "sj-product-card__image",
+          "ariaLabel": "Explore Oud Mirage"
+        },
+        {
+          "text": "Oud Mirage",
+          "href": "/products/oud-mirage",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Discover the collection",
+          "href": "/collections/all",
+          "class": "sj-text-link",
+          "ariaLabel": ""
+        },
+        {
+          "text": "FAQ",
+          "href": "/pages/faq",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Shipping",
+          "href": "/pages/shipping",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Contact",
+          "href": "/pages/contact",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Privacy",
+          "href": "/policies/privacy-policy",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Terms",
+          "href": "/pages/terms",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Discover the fragrances",
+          "href": "/collections/all",
+          "class": "sj-button",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Fresh",
+          "href": "/search?q=Fresh&type=product",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Sweet",
+          "href": "/search?q=Sweet&type=product",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Smoky",
+          "href": "/search?q=Smoky&type=product",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Woody",
+          "href": "/search?q=Woody&type=product",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Warm",
+          "href": "/search?q=Warm&type=product",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Berry",
+          "href": "/search?q=Berry&type=product",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Rose",
+          "href": "/search?q=Rose&type=product",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Oud",
+          "href": "/search?q=Oud&type=product",
+          "class": "",
+          "ariaLabel": ""
+        }
+      ],
+      "loadedScriptsAndStyles": [
+        "//dearbody.ph/cdn/shop/t/12/assets/sj-base.css?v=164805890862981342281790229873",
+        "//dearbody.ph/cdn/shop/t/12/assets/sj-commerce.css?v=92061477913970197811790229873",
+        "/checkouts/internal/preloads.js?locale=en-PH",
+        "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+        "//dearbody.ph/cdn/shopifycloud/storefront/assets/storefront/load_feature-1bd60354.js",
+        "//cdn.shopify.com/shopifycloud/storefront/assets/storefront/origin_trials-318ab40a.js",
+        "https://dearbody.ph/cdn/shopifycloud/portable-wallets/latest/accelerated-checkout-backwards-compat.css",
+        "//dearbody.ph/cdn/shop/t/12/assets/sj-base.js?v=125425389351795145991790229873",
+        "//dearbody.ph/cdn/shop/t/12/assets/sj-commerce.js?v=80715427747042878231790229873",
+        "https://dearbody.ph/cdn/shopifycloud/perf-kit/shopify-perf-kit-3.9.4.min.js",
+        "https://cdn.shopify.com/storefront/standard-actions.js"
+      ],
+      "mainTextExcerpt": "DEARBODY / Men's Perfume Men's Perfume London-formulated scents with depth and warmth. Confident, clean, and made for everyday wear. Let your mood lead the way 3 fragrances / Men's Perfume Filter & sort \uff0b Availability Out of stock (3) In stock (0) Price Minimum \u20b1 Maximum \u20b1 Sort by Featured Most relevant Best selling Alphabetically, A-Z Alphabetically, Z-A Price, low to high Price, high to low Date, old to new Date, new to old Apply Clear all CHAPTER 01 MEET YOUR NEXT CHAPTER SOLD OUT Rtulle & Satin \u20b1799.00 CHAPTER 02 MEET YOUR NEXT CHAPTER SOLD OUT Charme Envo\u00fbtant \u20b1799.00 CHAPTER 03 MEET YOUR NEXT CHAPTER SOLD OUT Oud Mirage \u20b1799.00"
+    },
+    {
+      "requestedUrl": "https://erkayx-xy.myshopify.com/",
+      "checkedAt": "2026-09-24T07:43:48.465604+00:00",
+      "status": 200,
+      "finalUrl": "https://dearbody.ph/",
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 51886,
+      "title": [
+        "DearBody Philippines | London-Formulated Perfumes & Fragrances"
+      ],
+      "h1": [
+        "MAKE IT PERSONAL."
+      ],
+      "h2": [
+        "FIND YOUR SIDE.",
+        "WOMEN",
+        "MEN",
+        "Explore",
+        "Here for you",
+        "Follow your curiosity",
+        "YOUR BAG (0)",
+        "Your story starts here."
+      ],
+      "theme": {
+        "name": "dearbody-theme-update-dark-banner-gradient",
+        "id": 167077675073,
+        "schema_name": "DearBody Scent Journey",
+        "schema_version": "1.0.0",
+        "theme_store_id": null,
+        "role": "main"
+      },
+      "exposedThemeIds": [],
+      "liquidErrors": [],
+      "bodyAttributes": {
+        "class": "sj-page-type-index"
+      },
+      "sectionIds": [
+        "shopify-section-sections--23920695443521__header",
+        "shopify-section-template--23920681058369__hero",
+        "shopify-section-template--23920681058369__doorway",
+        "shopify-section-sections--23920695410753__footer",
+        "shopify-section-sj-cart-drawer",
+        "shopify-section-sj-predictive-search"
+      ],
+      "linkTargets": [
+        {
+          "text": "Skip to content",
+          "href": "#MainContent",
+          "class": "sj-skip",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Shipping details",
+          "href": "/pages/shipping",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "",
+          "href": "/",
+          "class": "sj-logo",
+          "ariaLabel": "DearBody Philippines home"
+        },
+        {
+          "text": "Women",
+          "href": "/collections/womens-perfume",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Men",
+          "href": "/collections/mens-perfume",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Scent Finder",
+          "href": "/pages/scent-finder",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Our Story",
+          "href": "/pages/our-story",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Search",
+          "href": "/search",
+          "class": "",
+          "ariaLabel": "Search fragrances"
+        },
+        {
+          "text": "Bag 0",
+          "href": "/cart",
+          "class": "",
+          "ariaLabel": "Open shopping bag"
+        },
+        {
+          "text": "Shop all",
+          "href": "/collections/all",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Explore the collections",
+          "href": "#ShopCollections",
+          "class": "sj-button",
+          "ariaLabel": ""
+        },
+        {
+          "text": "THE WOMEN\u2019S COLLECTION 01 A scent for every version of you. WOMEN Explore Women",
+          "href": "/collections/womens-perfume",
+          "class": "sj-doorway-link sj-doorway-link--women",
+          "ariaLabel": "Shop women perfumes"
+        },
+        {
+          "text": "THE MEN\u2019S COLLECTION 02 Make your scent part of your story. MEN Explore Men",
+          "href": "/collections/mens-perfume",
+          "class": "sj-doorway-link sj-doorway-link--men",
+          "ariaLabel": "Shop men perfumes"
+        },
+        {
+          "text": "Find my scent",
+          "href": "/pages/scent-finder",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Discover the collection",
+          "href": "/collections/all",
+          "class": "sj-text-link",
+          "ariaLabel": ""
+        },
+        {
+          "text": "FAQ",
+          "href": "/pages/faq",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Shipping",
+          "href": "/pages/shipping",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Contact",
+          "href": "/pages/contact",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Privacy",
+          "href": "/policies/privacy-policy",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Terms",
+          "href": "/pages/terms",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Discover the fragrances",
+          "href": "/collections/all",
+          "class": "sj-button",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Fresh",
+          "href": "/search?q=Fresh&type=product",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Sweet",
+          "href": "/search?q=Sweet&type=product",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Smoky",
+          "href": "/search?q=Smoky&type=product",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Woody",
+          "href": "/search?q=Woody&type=product",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Warm",
+          "href": "/search?q=Warm&type=product",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Berry",
+          "href": "/search?q=Berry&type=product",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Rose",
+          "href": "/search?q=Rose&type=product",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Oud",
+          "href": "/search?q=Oud&type=product",
+          "class": "",
+          "ariaLabel": ""
+        }
+      ],
+      "loadedScriptsAndStyles": [
+        "//dearbody.ph/cdn/shop/t/12/assets/sj-base.css?v=164805890862981342281790229873",
+        "//dearbody.ph/cdn/shop/t/12/assets/sj-commerce.css?v=92061477913970197811790229873",
+        "/checkouts/internal/preloads.js?locale=en-PH",
+        "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+        "//dearbody.ph/cdn/shopifycloud/storefront/assets/storefront/load_feature-1bd60354.js",
+        "//cdn.shopify.com/shopifycloud/storefront/assets/storefront/origin_trials-318ab40a.js",
+        "https://dearbody.ph/cdn/shopifycloud/portable-wallets/latest/accelerated-checkout-backwards-compat.css",
+        "//dearbody.ph/cdn/shop/t/12/assets/sj-base.js?v=125425389351795145991790229873",
+        "//dearbody.ph/cdn/shop/t/12/assets/sj-commerce.js?v=80715427747042878231790229873",
+        "https://dearbody.ph/cdn/shopifycloud/perf-kit/shopify-perf-kit-3.9.4.min.js",
+        "https://cdn.shopify.com/storefront/standard-actions.js"
+      ],
+      "mainTextExcerpt": "DEARBODY PHILIPPINES MAKE IT PERSONAL. Fragrance with personality. Find the one that feels like you. Explore the collections THE COLLECTIONS FIND YOUR SIDE. Explore our fragrances for women and men. THE WOMEN\u2019S COLLECTION 01 A scent for every version of you. WOMEN Explore Women THE MEN\u2019S COLLECTION 02 Make your scent part of your story. MEN Explore Men Not sure where to begin? Find my scent"
+    },
+    {
+      "requestedUrl": "https://erkayx-xy.myshopify.com/pages/our-story",
+      "checkedAt": "2026-09-24T07:43:48.479087+00:00",
+      "status": 404,
+      "finalUrl": "https://dearbody.ph/pages/our-story",
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 46178,
+      "title": [
+        "404 Not Found"
+      ],
+      "h1": [
+        "LET\u2019S FIND YOUR WAY BACK."
+      ],
+      "h2": [
+        "Explore",
+        "Here for you",
+        "Follow your curiosity",
+        "YOUR BAG (0)",
+        "Your story starts here."
+      ],
+      "theme": {
+        "name": "dearbody-theme-update-dark-banner-gradient",
+        "id": 167077675073,
+        "schema_name": "DearBody Scent Journey",
+        "schema_version": "1.0.0",
+        "theme_store_id": null,
+        "role": "main"
+      },
+      "exposedThemeIds": [],
+      "liquidErrors": [],
+      "bodyAttributes": {
+        "class": "sj-page-type-404"
+      },
+      "sectionIds": [
+        "shopify-section-sections--23920695443521__header",
+        "shopify-section-template--23920680894529__main",
+        "shopify-section-sections--23920695410753__footer",
+        "shopify-section-sj-cart-drawer",
+        "shopify-section-sj-predictive-search"
+      ],
+      "linkTargets": [
+        {
+          "text": "Skip to content",
+          "href": "#MainContent",
+          "class": "sj-skip",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Shipping details",
+          "href": "/pages/shipping",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "",
+          "href": "/",
+          "class": "sj-logo",
+          "ariaLabel": "DearBody Philippines home"
+        },
+        {
+          "text": "Women",
+          "href": "/collections/womens-perfume",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Men",
+          "href": "/collections/mens-perfume",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Scent Finder",
+          "href": "/pages/scent-finder",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Our Story",
+          "href": "/pages/our-story",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Search",
+          "href": "/search",
+          "class": "",
+          "ariaLabel": "Search fragrances"
+        },
+        {
+          "text": "Bag 0",
+          "href": "/cart",
+          "class": "",
+          "ariaLabel": "Open shopping bag"
+        },
+        {
+          "text": "Shop all",
+          "href": "/collections/all",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Explore the collection",
+          "href": "/collections/all",
+          "class": "sj-button",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Discover the collection",
+          "href": "/collections/all",
+          "class": "sj-text-link",
+          "ariaLabel": ""
+        },
+        {
+          "text": "FAQ",
+          "href": "/pages/faq",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Shipping",
+          "href": "/pages/shipping",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Contact",
+          "href": "/pages/contact",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Privacy",
+          "href": "/policies/privacy-policy",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Terms",
+          "href": "/pages/terms",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Discover the fragrances",
+          "href": "/collections/all",
+          "class": "sj-button",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Fresh",
+          "href": "/search?q=Fresh&type=product",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Sweet",
+          "href": "/search?q=Sweet&type=product",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Smoky",
+          "href": "/search?q=Smoky&type=product",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Woody",
+          "href": "/search?q=Woody&type=product",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Warm",
+          "href": "/search?q=Warm&type=product",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Berry",
+          "href": "/search?q=Berry&type=product",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Rose",
+          "href": "/search?q=Rose&type=product",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Oud",
+          "href": "/search?q=Oud&type=product",
+          "class": "",
+          "ariaLabel": ""
+        }
+      ],
+      "loadedScriptsAndStyles": [
+        "//dearbody.ph/cdn/shop/t/12/assets/sj-base.css?v=164805890862981342281790229873",
+        "//dearbody.ph/cdn/shop/t/12/assets/sj-commerce.css?v=92061477913970197811790229873",
+        "/checkouts/internal/preloads.js?locale=en-PH",
+        "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+        "//dearbody.ph/cdn/shopifycloud/storefront/assets/storefront/load_feature-1bd60354.js",
+        "//cdn.shopify.com/shopifycloud/storefront/assets/storefront/origin_trials-318ab40a.js",
+        "https://dearbody.ph/cdn/shopifycloud/portable-wallets/latest/accelerated-checkout-backwards-compat.css",
+        "//dearbody.ph/cdn/shop/t/12/assets/sj-base.js?v=125425389351795145991790229873",
+        "//dearbody.ph/cdn/shop/t/12/assets/sj-commerce.js?v=80715427747042878231790229873",
+        "https://dearbody.ph/cdn/shopifycloud/perf-kit/shopify-perf-kit-3.9.4.min.js",
+        "https://cdn.shopify.com/storefront/standard-actions.js"
+      ],
+      "mainTextExcerpt": "404 / AN UNEXPECTED DETOUR LET\u2019S FIND YOUR WAY BACK. This page has moved, but your scent journey is just beginning. Explore the collection"
+    },
+    {
+      "requestedUrl": "https://erkayx-xy.myshopify.com/pages/scent-finder",
+      "checkedAt": "2026-09-24T07:43:48.487465+00:00",
+      "status": 404,
+      "finalUrl": "https://dearbody.ph/pages/scent-finder",
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 46178,
+      "title": [
+        "404 Not Found"
+      ],
+      "h1": [
+        "LET\u2019S FIND YOUR WAY BACK."
+      ],
+      "h2": [
+        "Explore",
+        "Here for you",
+        "Follow your curiosity",
+        "YOUR BAG (0)",
+        "Your story starts here."
+      ],
+      "theme": {
+        "name": "dearbody-theme-update-dark-banner-gradient",
+        "id": 167077675073,
+        "schema_name": "DearBody Scent Journey",
+        "schema_version": "1.0.0",
+        "theme_store_id": null,
+        "role": "main"
+      },
+      "exposedThemeIds": [],
+      "liquidErrors": [],
+      "bodyAttributes": {
+        "class": "sj-page-type-404"
+      },
+      "sectionIds": [
+        "shopify-section-sections--23920695443521__header",
+        "shopify-section-template--23920680894529__main",
+        "shopify-section-sections--23920695410753__footer",
+        "shopify-section-sj-cart-drawer",
+        "shopify-section-sj-predictive-search"
+      ],
+      "linkTargets": [
+        {
+          "text": "Skip to content",
+          "href": "#MainContent",
+          "class": "sj-skip",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Shipping details",
+          "href": "/pages/shipping",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "",
+          "href": "/",
+          "class": "sj-logo",
+          "ariaLabel": "DearBody Philippines home"
+        },
+        {
+          "text": "Women",
+          "href": "/collections/womens-perfume",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Men",
+          "href": "/collections/mens-perfume",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Scent Finder",
+          "href": "/pages/scent-finder",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Our Story",
+          "href": "/pages/our-story",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Search",
+          "href": "/search",
+          "class": "",
+          "ariaLabel": "Search fragrances"
+        },
+        {
+          "text": "Bag 0",
+          "href": "/cart",
+          "class": "",
+          "ariaLabel": "Open shopping bag"
+        },
+        {
+          "text": "Shop all",
+          "href": "/collections/all",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Explore the collection",
+          "href": "/collections/all",
+          "class": "sj-button",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Discover the collection",
+          "href": "/collections/all",
+          "class": "sj-text-link",
+          "ariaLabel": ""
+        },
+        {
+          "text": "FAQ",
+          "href": "/pages/faq",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Shipping",
+          "href": "/pages/shipping",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Contact",
+          "href": "/pages/contact",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Privacy",
+          "href": "/policies/privacy-policy",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Terms",
+          "href": "/pages/terms",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Discover the fragrances",
+          "href": "/collections/all",
+          "class": "sj-button",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Fresh",
+          "href": "/search?q=Fresh&type=product",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Sweet",
+          "href": "/search?q=Sweet&type=product",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Smoky",
+          "href": "/search?q=Smoky&type=product",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Woody",
+          "href": "/search?q=Woody&type=product",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Warm",
+          "href": "/search?q=Warm&type=product",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Berry",
+          "href": "/search?q=Berry&type=product",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Rose",
+          "href": "/search?q=Rose&type=product",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Oud",
+          "href": "/search?q=Oud&type=product",
+          "class": "",
+          "ariaLabel": ""
+        }
+      ],
+      "loadedScriptsAndStyles": [
+        "//dearbody.ph/cdn/shop/t/12/assets/sj-base.css?v=164805890862981342281790229873",
+        "//dearbody.ph/cdn/shop/t/12/assets/sj-commerce.css?v=92061477913970197811790229873",
+        "/checkouts/internal/preloads.js?locale=en-PH",
+        "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+        "//dearbody.ph/cdn/shopifycloud/storefront/assets/storefront/load_feature-1bd60354.js",
+        "//cdn.shopify.com/shopifycloud/storefront/assets/storefront/origin_trials-318ab40a.js",
+        "https://dearbody.ph/cdn/shopifycloud/portable-wallets/latest/accelerated-checkout-backwards-compat.css",
+        "//dearbody.ph/cdn/shop/t/12/assets/sj-base.js?v=125425389351795145991790229873",
+        "//dearbody.ph/cdn/shop/t/12/assets/sj-commerce.js?v=80715427747042878231790229873",
+        "https://dearbody.ph/cdn/shopifycloud/perf-kit/shopify-perf-kit-3.9.4.min.js",
+        "https://cdn.shopify.com/storefront/standard-actions.js"
+      ],
+      "mainTextExcerpt": "404 / AN UNEXPECTED DETOUR LET\u2019S FIND YOUR WAY BACK. This page has moved, but your scent journey is just beginning. Explore the collection"
+    },
+    {
+      "requestedUrl": "https://erkayx-xy.myshopify.com/pages/faq",
+      "checkedAt": "2026-09-24T07:43:48.495424+00:00",
+      "status": 404,
+      "finalUrl": "https://dearbody.ph/pages/faq",
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 46178,
+      "title": [
+        "404 Not Found"
+      ],
+      "h1": [
+        "LET\u2019S FIND YOUR WAY BACK."
+      ],
+      "h2": [
+        "Explore",
+        "Here for you",
+        "Follow your curiosity",
+        "YOUR BAG (0)",
+        "Your story starts here."
+      ],
+      "theme": {
+        "name": "dearbody-theme-update-dark-banner-gradient",
+        "id": 167077675073,
+        "schema_name": "DearBody Scent Journey",
+        "schema_version": "1.0.0",
+        "theme_store_id": null,
+        "role": "main"
+      },
+      "exposedThemeIds": [],
+      "liquidErrors": [],
+      "bodyAttributes": {
+        "class": "sj-page-type-404"
+      },
+      "sectionIds": [
+        "shopify-section-sections--23920695443521__header",
+        "shopify-section-template--23920680894529__main",
+        "shopify-section-sections--23920695410753__footer",
+        "shopify-section-sj-cart-drawer",
+        "shopify-section-sj-predictive-search"
+      ],
+      "linkTargets": [
+        {
+          "text": "Skip to content",
+          "href": "#MainContent",
+          "class": "sj-skip",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Shipping details",
+          "href": "/pages/shipping",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "",
+          "href": "/",
+          "class": "sj-logo",
+          "ariaLabel": "DearBody Philippines home"
+        },
+        {
+          "text": "Women",
+          "href": "/collections/womens-perfume",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Men",
+          "href": "/collections/mens-perfume",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Scent Finder",
+          "href": "/pages/scent-finder",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Our Story",
+          "href": "/pages/our-story",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Search",
+          "href": "/search",
+          "class": "",
+          "ariaLabel": "Search fragrances"
+        },
+        {
+          "text": "Bag 0",
+          "href": "/cart",
+          "class": "",
+          "ariaLabel": "Open shopping bag"
+        },
+        {
+          "text": "Shop all",
+          "href": "/collections/all",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Explore the collection",
+          "href": "/collections/all",
+          "class": "sj-button",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Discover the collection",
+          "href": "/collections/all",
+          "class": "sj-text-link",
+          "ariaLabel": ""
+        },
+        {
+          "text": "FAQ",
+          "href": "/pages/faq",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Shipping",
+          "href": "/pages/shipping",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Contact",
+          "href": "/pages/contact",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Privacy",
+          "href": "/policies/privacy-policy",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Terms",
+          "href": "/pages/terms",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Discover the fragrances",
+          "href": "/collections/all",
+          "class": "sj-button",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Fresh",
+          "href": "/search?q=Fresh&type=product",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Sweet",
+          "href": "/search?q=Sweet&type=product",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Smoky",
+          "href": "/search?q=Smoky&type=product",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Woody",
+          "href": "/search?q=Woody&type=product",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Warm",
+          "href": "/search?q=Warm&type=product",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Berry",
+          "href": "/search?q=Berry&type=product",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Rose",
+          "href": "/search?q=Rose&type=product",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Oud",
+          "href": "/search?q=Oud&type=product",
+          "class": "",
+          "ariaLabel": ""
+        }
+      ],
+      "loadedScriptsAndStyles": [
+        "//dearbody.ph/cdn/shop/t/12/assets/sj-base.css?v=164805890862981342281790229873",
+        "//dearbody.ph/cdn/shop/t/12/assets/sj-commerce.css?v=92061477913970197811790229873",
+        "/checkouts/internal/preloads.js?locale=en-PH",
+        "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+        "//dearbody.ph/cdn/shopifycloud/storefront/assets/storefront/load_feature-1bd60354.js",
+        "//cdn.shopify.com/shopifycloud/storefront/assets/storefront/origin_trials-318ab40a.js",
+        "https://dearbody.ph/cdn/shopifycloud/portable-wallets/latest/accelerated-checkout-backwards-compat.css",
+        "//dearbody.ph/cdn/shop/t/12/assets/sj-base.js?v=125425389351795145991790229873",
+        "//dearbody.ph/cdn/shop/t/12/assets/sj-commerce.js?v=80715427747042878231790229873",
+        "https://dearbody.ph/cdn/shopifycloud/perf-kit/shopify-perf-kit-3.9.4.min.js",
+        "https://cdn.shopify.com/storefront/standard-actions.js"
+      ],
+      "mainTextExcerpt": "404 / AN UNEXPECTED DETOUR LET\u2019S FIND YOUR WAY BACK. This page has moved, but your scent journey is just beginning. Explore the collection"
+    },
+    {
+      "requestedUrl": "https://erkayx-xy.myshopify.com/pages/shipping",
+      "checkedAt": "2026-09-24T07:43:48.729446+00:00",
+      "status": 404,
+      "finalUrl": "https://dearbody.ph/pages/shipping",
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 46178,
+      "title": [
+        "404 Not Found"
+      ],
+      "h1": [
+        "LET\u2019S FIND YOUR WAY BACK."
+      ],
+      "h2": [
+        "Explore",
+        "Here for you",
+        "Follow your curiosity",
+        "YOUR BAG (0)",
+        "Your story starts here."
+      ],
+      "theme": {
+        "name": "dearbody-theme-update-dark-banner-gradient",
+        "id": 167077675073,
+        "schema_name": "DearBody Scent Journey",
+        "schema_version": "1.0.0",
+        "theme_store_id": null,
+        "role": "main"
+      },
+      "exposedThemeIds": [],
+      "liquidErrors": [],
+      "bodyAttributes": {
+        "class": "sj-page-type-404"
+      },
+      "sectionIds": [
+        "shopify-section-sections--23920695443521__header",
+        "shopify-section-template--23920680894529__main",
+        "shopify-section-sections--23920695410753__footer",
+        "shopify-section-sj-cart-drawer",
+        "shopify-section-sj-predictive-search"
+      ],
+      "linkTargets": [
+        {
+          "text": "Skip to content",
+          "href": "#MainContent",
+          "class": "sj-skip",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Shipping details",
+          "href": "/pages/shipping",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "",
+          "href": "/",
+          "class": "sj-logo",
+          "ariaLabel": "DearBody Philippines home"
+        },
+        {
+          "text": "Women",
+          "href": "/collections/womens-perfume",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Men",
+          "href": "/collections/mens-perfume",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Scent Finder",
+          "href": "/pages/scent-finder",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Our Story",
+          "href": "/pages/our-story",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Search",
+          "href": "/search",
+          "class": "",
+          "ariaLabel": "Search fragrances"
+        },
+        {
+          "text": "Bag 0",
+          "href": "/cart",
+          "class": "",
+          "ariaLabel": "Open shopping bag"
+        },
+        {
+          "text": "Shop all",
+          "href": "/collections/all",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Explore the collection",
+          "href": "/collections/all",
+          "class": "sj-button",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Discover the collection",
+          "href": "/collections/all",
+          "class": "sj-text-link",
+          "ariaLabel": ""
+        },
+        {
+          "text": "FAQ",
+          "href": "/pages/faq",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Shipping",
+          "href": "/pages/shipping",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Contact",
+          "href": "/pages/contact",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Privacy",
+          "href": "/policies/privacy-policy",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Terms",
+          "href": "/pages/terms",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Discover the fragrances",
+          "href": "/collections/all",
+          "class": "sj-button",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Fresh",
+          "href": "/search?q=Fresh&type=product",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Sweet",
+          "href": "/search?q=Sweet&type=product",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Smoky",
+          "href": "/search?q=Smoky&type=product",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Woody",
+          "href": "/search?q=Woody&type=product",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Warm",
+          "href": "/search?q=Warm&type=product",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Berry",
+          "href": "/search?q=Berry&type=product",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Rose",
+          "href": "/search?q=Rose&type=product",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Oud",
+          "href": "/search?q=Oud&type=product",
+          "class": "",
+          "ariaLabel": ""
+        }
+      ],
+      "loadedScriptsAndStyles": [
+        "//dearbody.ph/cdn/shop/t/12/assets/sj-base.css?v=164805890862981342281790229873",
+        "//dearbody.ph/cdn/shop/t/12/assets/sj-commerce.css?v=92061477913970197811790229873",
+        "/checkouts/internal/preloads.js?locale=en-PH",
+        "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+        "//dearbody.ph/cdn/shopifycloud/storefront/assets/storefront/load_feature-1bd60354.js",
+        "//cdn.shopify.com/shopifycloud/storefront/assets/storefront/origin_trials-318ab40a.js",
+        "https://dearbody.ph/cdn/shopifycloud/portable-wallets/latest/accelerated-checkout-backwards-compat.css",
+        "//dearbody.ph/cdn/shop/t/12/assets/sj-base.js?v=125425389351795145991790229873",
+        "//dearbody.ph/cdn/shop/t/12/assets/sj-commerce.js?v=80715427747042878231790229873",
+        "https://dearbody.ph/cdn/shopifycloud/perf-kit/shopify-perf-kit-3.9.4.min.js",
+        "https://cdn.shopify.com/storefront/standard-actions.js"
+      ],
+      "mainTextExcerpt": "404 / AN UNEXPECTED DETOUR LET\u2019S FIND YOUR WAY BACK. This page has moved, but your scent journey is just beginning. Explore the collection"
+    },
+    {
+      "requestedUrl": "https://erkayx-xy.myshopify.com/pages/contact",
+      "checkedAt": "2026-09-24T07:43:48.764838+00:00",
+      "status": 404,
+      "finalUrl": "https://dearbody.ph/pages/contact",
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 46178,
+      "title": [
+        "404 Not Found"
+      ],
+      "h1": [
+        "LET\u2019S FIND YOUR WAY BACK."
+      ],
+      "h2": [
+        "Explore",
+        "Here for you",
+        "Follow your curiosity",
+        "YOUR BAG (0)",
+        "Your story starts here."
+      ],
+      "theme": {
+        "name": "dearbody-theme-update-dark-banner-gradient",
+        "id": 167077675073,
+        "schema_name": "DearBody Scent Journey",
+        "schema_version": "1.0.0",
+        "theme_store_id": null,
+        "role": "main"
+      },
+      "exposedThemeIds": [],
+      "liquidErrors": [],
+      "bodyAttributes": {
+        "class": "sj-page-type-404"
+      },
+      "sectionIds": [
+        "shopify-section-sections--23920695443521__header",
+        "shopify-section-template--23920680894529__main",
+        "shopify-section-sections--23920695410753__footer",
+        "shopify-section-sj-cart-drawer",
+        "shopify-section-sj-predictive-search"
+      ],
+      "linkTargets": [
+        {
+          "text": "Skip to content",
+          "href": "#MainContent",
+          "class": "sj-skip",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Shipping details",
+          "href": "/pages/shipping",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "",
+          "href": "/",
+          "class": "sj-logo",
+          "ariaLabel": "DearBody Philippines home"
+        },
+        {
+          "text": "Women",
+          "href": "/collections/womens-perfume",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Men",
+          "href": "/collections/mens-perfume",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Scent Finder",
+          "href": "/pages/scent-finder",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Our Story",
+          "href": "/pages/our-story",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Search",
+          "href": "/search",
+          "class": "",
+          "ariaLabel": "Search fragrances"
+        },
+        {
+          "text": "Bag 0",
+          "href": "/cart",
+          "class": "",
+          "ariaLabel": "Open shopping bag"
+        },
+        {
+          "text": "Shop all",
+          "href": "/collections/all",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Explore the collection",
+          "href": "/collections/all",
+          "class": "sj-button",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Discover the collection",
+          "href": "/collections/all",
+          "class": "sj-text-link",
+          "ariaLabel": ""
+        },
+        {
+          "text": "FAQ",
+          "href": "/pages/faq",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Shipping",
+          "href": "/pages/shipping",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Contact",
+          "href": "/pages/contact",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Privacy",
+          "href": "/policies/privacy-policy",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Terms",
+          "href": "/pages/terms",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Discover the fragrances",
+          "href": "/collections/all",
+          "class": "sj-button",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Fresh",
+          "href": "/search?q=Fresh&type=product",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Sweet",
+          "href": "/search?q=Sweet&type=product",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Smoky",
+          "href": "/search?q=Smoky&type=product",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Woody",
+          "href": "/search?q=Woody&type=product",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Warm",
+          "href": "/search?q=Warm&type=product",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Berry",
+          "href": "/search?q=Berry&type=product",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Rose",
+          "href": "/search?q=Rose&type=product",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Oud",
+          "href": "/search?q=Oud&type=product",
+          "class": "",
+          "ariaLabel": ""
+        }
+      ],
+      "loadedScriptsAndStyles": [
+        "//dearbody.ph/cdn/shop/t/12/assets/sj-base.css?v=164805890862981342281790229873",
+        "//dearbody.ph/cdn/shop/t/12/assets/sj-commerce.css?v=92061477913970197811790229873",
+        "/checkouts/internal/preloads.js?locale=en-PH",
+        "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+        "//dearbody.ph/cdn/shopifycloud/storefront/assets/storefront/load_feature-1bd60354.js",
+        "//cdn.shopify.com/shopifycloud/storefront/assets/storefront/origin_trials-318ab40a.js",
+        "https://dearbody.ph/cdn/shopifycloud/portable-wallets/latest/accelerated-checkout-backwards-compat.css",
+        "//dearbody.ph/cdn/shop/t/12/assets/sj-base.js?v=125425389351795145991790229873",
+        "//dearbody.ph/cdn/shop/t/12/assets/sj-commerce.js?v=80715427747042878231790229873",
+        "https://dearbody.ph/cdn/shopifycloud/perf-kit/shopify-perf-kit-3.9.4.min.js",
+        "https://cdn.shopify.com/storefront/standard-actions.js"
+      ],
+      "mainTextExcerpt": "404 / AN UNEXPECTED DETOUR LET\u2019S FIND YOUR WAY BACK. This page has moved, but your scent journey is just beginning. Explore the collection"
+    },
+    {
+      "requestedUrl": "https://erkayx-xy.myshopify.com/collections/womens-perfume",
+      "checkedAt": "2026-09-24T07:43:49.366725+00:00",
+      "status": 200,
+      "finalUrl": "https://dearbody.ph/collections/womens-perfume",
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 56879,
+      "title": [
+        "DearBody Women's Perfume Philippines | London-Formulated Fragrances"
+      ],
+      "h1": [
+        "Women's Perfume"
+      ],
+      "h2": [
+        "Explore",
+        "Here for you",
+        "Follow your curiosity",
+        "YOUR BAG (0)",
+        "Your story starts here."
+      ],
+      "theme": {
+        "name": "dearbody-theme-update-dark-banner-gradient",
+        "id": 167077675073,
+        "schema_name": "DearBody Scent Journey",
+        "schema_version": "1.0.0",
+        "theme_store_id": null,
+        "role": "main"
+      },
+      "exposedThemeIds": [],
+      "liquidErrors": [],
+      "bodyAttributes": {
+        "class": "sj-page-type-collection"
+      },
+      "sectionIds": [
+        "shopify-section-sections--23920695443521__header",
+        "shopify-section-template--23920680960065__main",
+        "shopify-section-sections--23920695410753__footer",
+        "shopify-section-sj-cart-drawer",
+        "shopify-section-sj-predictive-search"
+      ],
+      "linkTargets": [
+        {
+          "text": "Skip to content",
+          "href": "#MainContent",
+          "class": "sj-skip",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Shipping details",
+          "href": "/pages/shipping",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "",
+          "href": "/",
+          "class": "sj-logo",
+          "ariaLabel": "DearBody Philippines home"
+        },
+        {
+          "text": "Women",
+          "href": "/collections/womens-perfume",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Men",
+          "href": "/collections/mens-perfume",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Scent Finder",
+          "href": "/pages/scent-finder",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Our Story",
+          "href": "/pages/our-story",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Search",
+          "href": "/search",
+          "class": "",
+          "ariaLabel": "Search fragrances"
+        },
+        {
+          "text": "Bag 0",
+          "href": "/cart",
+          "class": "",
+          "ariaLabel": "Open shopping bag"
+        },
+        {
+          "text": "Shop all",
+          "href": "/collections/all",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Let your mood lead the way",
+          "href": "/pages/scent-finder",
+          "class": "sj-text-link",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Clear all",
+          "href": "/collections/womens-perfume",
+          "class": "sj-text-link",
+          "ariaLabel": ""
+        },
+        {
+          "text": "CHAPTER 01 MEET YOUR NEXT CHAPTER SOLD OUT",
+          "href": "/products/mistened-narcissus",
+          "class": "sj-product-card__image",
+          "ariaLabel": "Explore Mistened Narcissus"
+        },
+        {
+          "text": "Mistened Narcissus",
+          "href": "/products/mistened-narcissus",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "CHAPTER 02 MEET YOUR NEXT CHAPTER SOLD OUT",
+          "href": "/products/amber-oud-silk",
+          "class": "sj-product-card__image",
+          "ariaLabel": "Explore Amber Oud Silk"
+        },
+        {
+          "text": "Amber Oud Silk",
+          "href": "/products/amber-oud-silk",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "CHAPTER 03 MEET YOUR NEXT CHAPTER SOLD OUT",
+          "href": "/products/mojito-metallique",
+          "class": "sj-product-card__image",
+          "ariaLabel": "Explore Mojito Metallique"
+        },
+        {
+          "text": "Mojito Metallique",
+          "href": "/products/mojito-metallique",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Discover the collection",
+          "href": "/collections/all",
+          "class": "sj-text-link",
+          "ariaLabel": ""
+        },
+        {
+          "text": "FAQ",
+          "href": "/pages/faq",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Shipping",
+          "href": "/pages/shipping",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Contact",
+          "href": "/pages/contact",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Privacy",
+          "href": "/policies/privacy-policy",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Terms",
+          "href": "/pages/terms",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Discover the fragrances",
+          "href": "/collections/all",
+          "class": "sj-button",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Fresh",
+          "href": "/search?q=Fresh&type=product",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Sweet",
+          "href": "/search?q=Sweet&type=product",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Smoky",
+          "href": "/search?q=Smoky&type=product",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Woody",
+          "href": "/search?q=Woody&type=product",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Warm",
+          "href": "/search?q=Warm&type=product",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Berry",
+          "href": "/search?q=Berry&type=product",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Rose",
+          "href": "/search?q=Rose&type=product",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Oud",
+          "href": "/search?q=Oud&type=product",
+          "class": "",
+          "ariaLabel": ""
+        }
+      ],
+      "loadedScriptsAndStyles": [
+        "//dearbody.ph/cdn/shop/t/12/assets/sj-base.css?v=164805890862981342281790229873",
+        "//dearbody.ph/cdn/shop/t/12/assets/sj-commerce.css?v=92061477913970197811790229873",
+        "/checkouts/internal/preloads.js?locale=en-PH",
+        "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+        "//dearbody.ph/cdn/shopifycloud/storefront/assets/storefront/load_feature-1bd60354.js",
+        "//cdn.shopify.com/shopifycloud/storefront/assets/storefront/origin_trials-318ab40a.js",
+        "https://dearbody.ph/cdn/shopifycloud/portable-wallets/latest/accelerated-checkout-backwards-compat.css",
+        "//dearbody.ph/cdn/shop/t/12/assets/sj-base.js?v=125425389351795145991790229873",
+        "//dearbody.ph/cdn/shop/t/12/assets/sj-commerce.js?v=80715427747042878231790229873",
+        "https://dearbody.ph/cdn/shopifycloud/perf-kit/shopify-perf-kit-3.9.4.min.js",
+        "https://cdn.shopify.com/storefront/standard-actions.js"
+      ],
+      "mainTextExcerpt": "DEARBODY / Women's Perfume Women's Perfume London-formulated scents with warmth and lift. Expressive, easy to wear, and made to feel personal. Let your mood lead the way 3 fragrances / Women's Perfume Filter & sort \uff0b Availability Out of stock (3) In stock (0) Price Minimum \u20b1 Maximum \u20b1 Sort by Featured Most relevant Best selling Alphabetically, A-Z Alphabetically, Z-A Price, low to high Price, high to low Date, old to new Date, new to old Apply Clear all CHAPTER 01 MEET YOUR NEXT CHAPTER SOLD OUT Mistened Narcissus \u20b1799.00 CHAPTER 02 MEET YOUR NEXT CHAPTER SOLD OUT Amber Oud Silk \u20b1799.00 CHAPTER 03 MEET YOUR NEXT CHAPTER SOLD OUT Mojito Metallique \u20b1799.00 \u20b11,099.00"
+    },
+    {
+      "requestedUrl": "https://erkayx-xy.myshopify.com/collections/mens-perfume",
+      "checkedAt": "2026-09-24T07:43:49.409342+00:00",
+      "status": 200,
+      "finalUrl": "https://dearbody.ph/collections/mens-perfume",
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 56649,
+      "title": [
+        "DearBody Men's Perfume Philippines | London-Formulated Fragrances"
+      ],
+      "h1": [
+        "Men's Perfume"
+      ],
+      "h2": [
+        "Explore",
+        "Here for you",
+        "Follow your curiosity",
+        "YOUR BAG (0)",
+        "Your story starts here."
+      ],
+      "theme": {
+        "name": "dearbody-theme-update-dark-banner-gradient",
+        "id": 167077675073,
+        "schema_name": "DearBody Scent Journey",
+        "schema_version": "1.0.0",
+        "theme_store_id": null,
+        "role": "main"
+      },
+      "exposedThemeIds": [],
+      "liquidErrors": [],
+      "bodyAttributes": {
+        "class": "sj-page-type-collection"
+      },
+      "sectionIds": [
+        "shopify-section-sections--23920695443521__header",
+        "shopify-section-template--23920680960065__main",
+        "shopify-section-sections--23920695410753__footer",
+        "shopify-section-sj-cart-drawer",
+        "shopify-section-sj-predictive-search"
+      ],
+      "linkTargets": [
+        {
+          "text": "Skip to content",
+          "href": "#MainContent",
+          "class": "sj-skip",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Shipping details",
+          "href": "/pages/shipping",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "",
+          "href": "/",
+          "class": "sj-logo",
+          "ariaLabel": "DearBody Philippines home"
+        },
+        {
+          "text": "Women",
+          "href": "/collections/womens-perfume",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Men",
+          "href": "/collections/mens-perfume",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Scent Finder",
+          "href": "/pages/scent-finder",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Our Story",
+          "href": "/pages/our-story",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Search",
+          "href": "/search",
+          "class": "",
+          "ariaLabel": "Search fragrances"
+        },
+        {
+          "text": "Bag 0",
+          "href": "/cart",
+          "class": "",
+          "ariaLabel": "Open shopping bag"
+        },
+        {
+          "text": "Shop all",
+          "href": "/collections/all",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Let your mood lead the way",
+          "href": "/pages/scent-finder",
+          "class": "sj-text-link",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Clear all",
+          "href": "/collections/mens-perfume",
+          "class": "sj-text-link",
+          "ariaLabel": ""
+        },
+        {
+          "text": "CHAPTER 01 MEET YOUR NEXT CHAPTER SOLD OUT",
+          "href": "/products/rtulle-satin",
+          "class": "sj-product-card__image",
+          "ariaLabel": "Explore Rtulle & Satin"
+        },
+        {
+          "text": "Rtulle & Satin",
+          "href": "/products/rtulle-satin",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "CHAPTER 02 MEET YOUR NEXT CHAPTER SOLD OUT",
+          "href": "/products/charme-envoutant",
+          "class": "sj-product-card__image",
+          "ariaLabel": "Explore Charme Envo\u00fbtant"
+        },
+        {
+          "text": "Charme Envo\u00fbtant",
+          "href": "/products/charme-envoutant",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "CHAPTER 03 MEET YOUR NEXT CHAPTER SOLD OUT",
+          "href": "/products/oud-mirage",
+          "class": "sj-product-card__image",
+          "ariaLabel": "Explore Oud Mirage"
+        },
+        {
+          "text": "Oud Mirage",
+          "href": "/products/oud-mirage",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Discover the collection",
+          "href": "/collections/all",
+          "class": "sj-text-link",
+          "ariaLabel": ""
+        },
+        {
+          "text": "FAQ",
+          "href": "/pages/faq",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Shipping",
+          "href": "/pages/shipping",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Contact",
+          "href": "/pages/contact",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Privacy",
+          "href": "/policies/privacy-policy",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Terms",
+          "href": "/pages/terms",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Discover the fragrances",
+          "href": "/collections/all",
+          "class": "sj-button",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Fresh",
+          "href": "/search?q=Fresh&type=product",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Sweet",
+          "href": "/search?q=Sweet&type=product",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Smoky",
+          "href": "/search?q=Smoky&type=product",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Woody",
+          "href": "/search?q=Woody&type=product",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Warm",
+          "href": "/search?q=Warm&type=product",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Berry",
+          "href": "/search?q=Berry&type=product",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Rose",
+          "href": "/search?q=Rose&type=product",
+          "class": "",
+          "ariaLabel": ""
+        },
+        {
+          "text": "Oud",
+          "href": "/search?q=Oud&type=product",
+          "class": "",
+          "ariaLabel": ""
+        }
+      ],
+      "loadedScriptsAndStyles": [
+        "//dearbody.ph/cdn/shop/t/12/assets/sj-base.css?v=164805890862981342281790229873",
+        "//dearbody.ph/cdn/shop/t/12/assets/sj-commerce.css?v=92061477913970197811790229873",
+        "/checkouts/internal/preloads.js?locale=en-PH",
+        "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+        "//dearbody.ph/cdn/shopifycloud/storefront/assets/storefront/load_feature-1bd60354.js",
+        "//cdn.shopify.com/shopifycloud/storefront/assets/storefront/origin_trials-318ab40a.js",
+        "https://dearbody.ph/cdn/shopifycloud/portable-wallets/latest/accelerated-checkout-backwards-compat.css",
+        "//dearbody.ph/cdn/shop/t/12/assets/sj-base.js?v=125425389351795145991790229873",
+        "//dearbody.ph/cdn/shop/t/12/assets/sj-commerce.js?v=80715427747042878231790229873",
+        "https://dearbody.ph/cdn/shopifycloud/perf-kit/shopify-perf-kit-3.9.4.min.js",
+        "https://cdn.shopify.com/storefront/standard-actions.js"
+      ],
+      "mainTextExcerpt": "DEARBODY / Men's Perfume Men's Perfume London-formulated scents with depth and warmth. Confident, clean, and made for everyday wear. Let your mood lead the way 3 fragrances / Men's Perfume Filter & sort \uff0b Availability Out of stock (3) In stock (0) Price Minimum \u20b1 Maximum \u20b1 Sort by Featured Most relevant Best selling Alphabetically, A-Z Alphabetically, Z-A Price, low to high Price, high to low Date, old to new Date, new to old Apply Clear all CHAPTER 01 MEET YOUR NEXT CHAPTER SOLD OUT Rtulle & Satin \u20b1799.00 CHAPTER 02 MEET YOUR NEXT CHAPTER SOLD OUT Charme Envo\u00fbtant \u20b1799.00 CHAPTER 03 MEET YOUR NEXT CHAPTER SOLD OUT Oud Mirage \u20b1799.00"
+    }
+  ],
+  "summary": {
+    "requests": 16,
+    "statusCounts": {
+      "200": 6,
+      "404": 10
+    },
+    "requestErrors": 0,
+    "liquidErrorPages": 0,
+    "themeIds": [
+      "167077675073"
+    ]
+  },
+  "findings": [
+    {
+      "severity": "blocker",
+      "finding": "Five currently linked content-page routes return native 404 pages on both domains.",
+      "routes": [
+        "/pages/our-story",
+        "/pages/scent-finder",
+        "/pages/faq",
+        "/pages/shipping",
+        "/pages/contact"
+      ],
+      "evidence": "HTTP 404, title 404 Not Found, body class sj-page-type-404, and H1 LET\u2019S FIND YOUR WAY BACK.",
+      "interpretation": "There is no publicly available page at these handles. Public responses cannot distinguish an absent page from an unpublished page. This is not a successful page response rendered with the default page template."
+    },
+    {
+      "severity": "info",
+      "finding": "Home and both requested collections return HTTP 200 with their expected H1s; myshopify.com requests redirect to matching dearbody.ph routes."
+    },
+    {
+      "severity": "info",
+      "finding": "The public source consistently exposes main theme 167077675073 named dearbody-theme-update-dark-banner-gradient; no Liquid error strings were found."
+    }
+  ],
+  "currentPrimaryLinkTargets": [
+    {
+      "text": "Shipping details",
+      "href": "/pages/shipping"
+    },
+    {
+      "text": "Women",
+      "href": "/collections/womens-perfume"
+    },
+    {
+      "text": "Men",
+      "href": "/collections/mens-perfume"
+    },
+    {
+      "text": "Scent Finder",
+      "href": "/pages/scent-finder"
+    },
+    {
+      "text": "Our Story",
+      "href": "/pages/our-story"
+    },
+    {
+      "text": "Search",
+      "href": "/search"
+    },
+    {
+      "text": "Bag 0",
+      "href": "/cart"
+    },
+    {
+      "text": "Shop all",
+      "href": "/collections/all"
+    },
+    {
+      "text": "THE WOMEN\u2019S COLLECTION 01 A scent for every version of you. WOMEN Explore Women",
+      "href": "/collections/womens-perfume"
+    },
+    {
+      "text": "THE MEN\u2019S COLLECTION 02 Make your scent part of your story. MEN Explore Men",
+      "href": "/collections/mens-perfume"
+    },
+    {
+      "text": "Find my scent",
+      "href": "/pages/scent-finder"
+    },
+    {
+      "text": "Discover the collection",
+      "href": "/collections/all"
+    },
+    {
+      "text": "FAQ",
+      "href": "/pages/faq"
+    },
+    {
+      "text": "Shipping",
+      "href": "/pages/shipping"
+    },
+    {
+      "text": "Contact",
+      "href": "/pages/contact"
+    },
+    {
+      "text": "Privacy",
+      "href": "/policies/privacy-policy"
+    },
+    {
+      "text": "Terms",
+      "href": "/pages/terms"
+    },
+    {
+      "text": "Discover the fragrances",
+      "href": "/collections/all"
+    }
+  ],
+  "notes": [
+    "All route requests were read-only HTML GETs to the two user/parent-specified public hosts.",
+    "Additional link targets such as /pages/terms and /policies/privacy-policy are recorded from actual page HTML, but were not requested in this baseline.",
+    "The initial web browsing tool could not retrieve dearbody.ph; the complete baseline uses successful direct HTTPS responses."
+  ],
+  "legalFollowup": [
+    {
+      "url": "https://dearbody.ph/policies/privacy-policy",
+      "checkedAt": "2026-09-24T07:50:26.343696+00:00",
+      "status": 200,
+      "finalUrl": "https://dearbody.ph/policies/privacy-policy",
+      "title": "Privacy policy",
+      "h1": "Privacy policy",
+      "policyBodyCharacters": 14382,
+      "policyBodyWords": 2253,
+      "policyBodyPresent": true,
+      "policyBodyPreview": "Last updated: September 23, 2026 Dear Body operates this store and website, including all related information, content, features, tools, products and services, in order to provide you, the customer, with a curated shopping experience (the \"Services\")",
+      "mainTextCharacters": 14397,
+      "mainTextPreview": "Privacy policy Last updated: September 23, 2026 Dear Body operates this store and website, including all related information, content, features, tools, products and services, in order to provide you, the customer, with a curated shopping experience (the \"Services\"). Dear Body is powered by Shopify, which enables us to provide the Services to you. T",
+      "liquidErrors": []
+    },
+    {
+      "url": "https://dearbody.ph/pages/terms",
+      "checkedAt": "2026-09-24T07:50:26.344470+00:00",
+      "status": 404,
+      "finalUrl": "https://dearbody.ph/pages/terms",
+      "title": "404 Not Found",
+      "h1": "LET\u2019S FIND YOUR WAY BACK.",
+      "policyBodyCharacters": 0,
+      "policyBodyWords": 0,
+      "policyBodyPresent": false,
+      "policyBodyPreview": "",
+      "mainTextCharacters": 138,
+      "mainTextPreview": "404 / AN UNEXPECTED DETOUR LET\u2019S FIND YOUR WAY BACK. This page has moved, but your scent journey is just beginning. Explore the collection",
+      "liquidErrors": []
+    }
+  ]
+}

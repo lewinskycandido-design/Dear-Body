@@ -1,0 +1,65 @@
+{
+  "css": "@media(min-width:761px){[data-theme=dark] .sj-page-banner--story .sj-page-banner__media::after{background:linear-gradient(90deg,rgba(43,8,14,.82),rgba(43,8,14,.62) 44%,transparent 63%)}}",
+  "rows": [
+    {
+      "width": 820,
+      "phase": "before",
+      "stem": "story-dark-820-before",
+      "color": "rgb(244, 227, 203)",
+      "box": {
+        "x": 35.25,
+        "y": 223.453125,
+        "width": 307.90625,
+        "height": 108.46875
+      },
+      "glyphSamples": 9382,
+      "minimumContrast": 2.8896076156848247,
+      "largeTextPass": false
+    },
+    {
+      "width": 820,
+      "phase": "proposed",
+      "stem": "story-dark-820-proposed",
+      "color": "rgb(244, 227, 203)",
+      "box": {
+        "x": 35.25,
+        "y": 223.453125,
+        "width": 307.90625,
+        "height": 108.46875
+      },
+      "glyphSamples": 9331,
+      "minimumContrast": 6.087392110619297,
+      "largeTextPass": true
+    },
+    {
+      "width": 1440,
+      "phase": "before",
+      "stem": "story-dark-1440-before",
+      "color": "rgb(244, 227, 203)",
+      "box": {
+        "x": 61.90625,
+        "y": 222.03125,
+        "width": 540.703125,
+        "height": 190.5
+      },
+      "glyphSamples": 30838,
+      "minimumContrast": 2.489868818215365,
+      "largeTextPass": false
+    },
+    {
+      "width": 1440,
+      "phase": "proposed",
+      "stem": "story-dark-1440-proposed",
+      "color": "rgb(244, 227, 203)",
+      "box": {
+        "x": 61.90625,
+        "y": 222.03125,
+        "width": 540.703125,
+        "height": 190.5
+      },
+      "glyphSamples": 30736,
+      "minimumContrast": 5.5439095658207895,
+      "largeTextPass": true
+    }
+  ]
+}

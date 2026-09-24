@@ -1,0 +1,29 @@
+{
+  "asset": "sj-banner-story-light",
+  "tool": "built-in image_gen",
+  "sourceOutputPath": "/Users/wetrade/.codex/generated_images/01a0d0f8-8d24-7131-8c77-de85e96f8179/exec-518f6562-66fb-4fc1-a0cb-e2b7c93806d4.png",
+  "dimensions": [
+    1774,
+    887
+  ],
+  "original_sha256": "fb0073045cbaf9a1ec66a55f57609fcdd90d8007e8041e26984132df91d67d57",
+  "prompts": [
+    "prompts/sj-banner-story-light.txt",
+    "prompts/sj-banner-story-light-reframe.txt"
+  ],
+  "reference": "references/publication-materials-reference.png",
+  "rejectedCandidate": {
+    "path": "/Users/wetrade/.codex/generated_images/01a0d0f8-8d24-7131-8c77-de85e96f8179/exec-bbacb6b7-9073-43ec-aa19-1f43d7183059.png",
+    "reason": "Insufficient headroom for responsive banner crop"
+  },
+  "alt": "A smiling Filipina ties a yellow scarf to her blue tote on a sunny apartment balcony.",
+  "qa": {
+    "native_image_inspected": true,
+    "realistic_anatomy": "PASS",
+    "people": 1,
+    "product_free": true,
+    "headroom": "PASS: full head with generous margin",
+    "left_copy_space": "PASS",
+    "style": "PASS: sunlit scarlet, cobalt and lemon editorial styling"
+  }
+}

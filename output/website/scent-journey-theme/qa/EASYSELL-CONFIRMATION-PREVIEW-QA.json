@@ -1,0 +1,30 @@
+{
+  "scope": "Local sample-only design preview. Not an order.",
+  "templateCharacters": 2377,
+  "variables": [
+    "{{customer.first_name}}",
+    "{{order.number}}",
+    "{{order.products}}",
+    "{{order.total}}"
+  ],
+  "checks": [
+    {
+      "width": 320,
+      "overflow": false,
+      "titleFamily": "\"Cenzo Flare Bold\", Arial, sans-serif",
+      "cardWidth": 288,
+      "scriptCount": 0,
+      "unresolved": false,
+      "remoteRequests": 0
+    },
+    {
+      "width": 600,
+      "overflow": false,
+      "titleFamily": "\"Cenzo Flare Bold\", Arial, sans-serif",
+      "cardWidth": 520,
+      "scriptCount": 0,
+      "unresolved": false,
+      "remoteRequests": 0
+    }
+  ]
+}

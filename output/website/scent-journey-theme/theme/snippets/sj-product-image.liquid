@@ -1,0 +1,12 @@
+{%- capture gallery_prefix -%}{%- render 'sj-gallery-prefix', product: product -%}{%- endcapture -%}
+{%- assign gallery_prefix = gallery_prefix | strip -%}
+{%- assign image_alt = alt | default: product.title -%}
+{%- assign image_loading = loading | default: 'lazy' -%}
+{%- assign fallback_image = native_image | default: product.featured_image -%}
+{%- if gallery_prefix != blank -%}
+ {%- assign image_asset = gallery_prefix | append: '-01.jpg' -%}
+ {%- if thumbnail -%}{%- assign image_asset = gallery_prefix | append: '-01-thumb.jpg' -%}{%- endif -%}
+ <img src="{{ image_asset | asset_url }}" width="{% if thumbnail %}160{% else %}1200{% endif %}" height="{% if thumbnail %}160{% else %}1200{% endif %}" alt="{{ image_alt | escape }}" loading="{{ image_loading }}"{% if image_class != blank %} class="{{ image_class }}"{% endif %}>
+{%- elsif fallback_image != blank -%}
+ {{ fallback_image | image_url: width: 1000 | image_tag: loading: image_loading, widths: '160, 360, 540, 720, 1000', sizes: '(min-width: 1000px) 30vw, (min-width: 700px) 45vw, 90vw', alt: image_alt, class: image_class }}
+{%- endif -%}

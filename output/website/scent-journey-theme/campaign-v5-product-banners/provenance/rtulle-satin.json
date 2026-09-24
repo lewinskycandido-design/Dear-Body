@@ -1,0 +1,22 @@
+{
+  "handle": "rtulle-satin",
+  "created_utc": "2026-09-24T04:09:59.371722+00:00",
+  "tool": "built-in image_gen.imagegen",
+  "generated_source": "/Users/wetrade/.codex/generated_images/01a0d0f8-8d24-7131-8c77-de85e96f8179/exec-9b388d31-d098-4690-99d9-77d49f17fb72.png",
+  "original": "campaign-v5-product-banners/originals/sj-product-banner-rtulle-satin.png",
+  "original_sha256": "9998a858f7045c8d61a2b9c0e4143f240e0a3fb02c58a6c2b7248116eb5da42e",
+  "original_dimensions": [
+    1774,
+    887
+  ],
+  "web": "campaign-v5-product-banners/final-web/sj-product-banner-rtulle-satin.jpg",
+  "web_sha256": "8157c023f1eba0024d21f03be5252696d9bb0ea0698d39ce00aad488fa1e13ea",
+  "web_bytes": 369277,
+  "prompt_file": "campaign-v5-product-banners/prompts/sj-product-banner-rtulle-satin.txt",
+  "references": [
+    "theme/assets/sj-rtulle-satin-01.jpg",
+    "/Users/wetrade/.codex/skills/dearbody-scent-gallery/assets/canonical-bottle-proportions.png"
+  ],
+  "export": "sips JPEG format conversion at quality90; native1774x887 retained; no crop, resizing, compositing or retouching.",
+  "qa": "PASS: exact RTULLE & SATIN lettering, pale aqua liquid and turquoise canister, black cap, tall cylindrical bottle and thick base; no invented ingredients; airy cream/coral lighting with glass and sheer textile; clean left45 percent; product fully in frame."
+}

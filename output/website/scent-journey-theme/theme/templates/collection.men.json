@@ -1,0 +1,14 @@
+{
+  "sections": {
+    "main": {
+      "type": "sj-collection",
+      "settings": {
+        "heading": "MAKE YOUR SCENT\nPART OF YOUR STORY.",
+        "description": "From everyday freshness to deeper evening character. Discover a fragrance that moves with you."
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

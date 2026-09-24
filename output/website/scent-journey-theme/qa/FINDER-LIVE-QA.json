@@ -1,0 +1,7498 @@
+{
+  "generatedAt": "2026-09-24T03:12:46.344Z",
+  "base": "http://127.0.0.1:4208",
+  "source": "https://erkayx-xy.myshopify.com",
+  "snapshot": "2026-09-24T01:17:02.489204+00:00",
+  "fixtureInjection": false,
+  "checks": [
+    {
+      "pass": true,
+      "label": "Actual six-product catalog fallback rendered",
+      "theme": "light",
+      "width": 1440,
+      "flow": "women"
+    },
+    {
+      "pass": true,
+      "label": "Real card bank contains six products",
+      "theme": "light",
+      "width": 1440,
+      "flow": "women"
+    },
+    {
+      "pass": true,
+      "label": "Quiz has five questions",
+      "theme": "light",
+      "width": 1440,
+      "flow": "women"
+    },
+    {
+      "pass": true,
+      "label": "quiz",
+      "theme": "light",
+      "width": 1440,
+      "flow": "women",
+      "violations": 0
+    },
+    {
+      "pass": true,
+      "label": "Question order and key correct",
+      "theme": "light",
+      "width": 1440,
+      "flow": "women",
+      "step": 1,
+      "actual": "collection",
+      "expected": "collection"
+    },
+    {
+      "pass": true,
+      "label": "Quiz has no horizontal or heading overflow",
+      "theme": "light",
+      "width": 1440,
+      "flow": "women",
+      "step": 1,
+      "overflow": false,
+      "headingOverflow": [],
+      "focus": {
+        "tag": "BODY",
+        "question": false,
+        "result": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Focus moves to the new question/results heading",
+      "theme": "light",
+      "width": 1440,
+      "flow": "women",
+      "step": 1,
+      "focus": {
+        "tag": "LEGEND",
+        "question": true,
+        "result": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Question order and key correct",
+      "theme": "light",
+      "width": 1440,
+      "flow": "women",
+      "step": 2,
+      "actual": "mood",
+      "expected": "mood"
+    },
+    {
+      "pass": true,
+      "label": "Quiz has no horizontal or heading overflow",
+      "theme": "light",
+      "width": 1440,
+      "flow": "women",
+      "step": 2,
+      "overflow": false,
+      "headingOverflow": [],
+      "focus": {
+        "tag": "LEGEND",
+        "question": true,
+        "result": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Focus moves to the new question/results heading",
+      "theme": "light",
+      "width": 1440,
+      "flow": "women",
+      "step": 2,
+      "focus": {
+        "tag": "LEGEND",
+        "question": true,
+        "result": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Back preserves mood selection",
+      "theme": "light",
+      "width": 1440,
+      "flow": "women"
+    },
+    {
+      "pass": true,
+      "label": "Back preserves collection selection",
+      "theme": "light",
+      "width": 1440,
+      "flow": "women"
+    },
+    {
+      "pass": true,
+      "label": "Forward preserves prior answer",
+      "theme": "light",
+      "width": 1440,
+      "flow": "women"
+    },
+    {
+      "pass": true,
+      "label": "Question order and key correct",
+      "theme": "light",
+      "width": 1440,
+      "flow": "women",
+      "step": 3,
+      "actual": "character",
+      "expected": "character"
+    },
+    {
+      "pass": true,
+      "label": "Quiz has no horizontal or heading overflow",
+      "theme": "light",
+      "width": 1440,
+      "flow": "women",
+      "step": 3,
+      "overflow": false,
+      "headingOverflow": [],
+      "focus": {
+        "tag": "LEGEND",
+        "question": true,
+        "result": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Focus moves to the new question/results heading",
+      "theme": "light",
+      "width": 1440,
+      "flow": "women",
+      "step": 3,
+      "focus": {
+        "tag": "LEGEND",
+        "question": true,
+        "result": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Question order and key correct",
+      "theme": "light",
+      "width": 1440,
+      "flow": "women",
+      "step": 4,
+      "actual": "occasion",
+      "expected": "occasion"
+    },
+    {
+      "pass": true,
+      "label": "Quiz has no horizontal or heading overflow",
+      "theme": "light",
+      "width": 1440,
+      "flow": "women",
+      "step": 4,
+      "overflow": false,
+      "headingOverflow": [],
+      "focus": {
+        "tag": "LEGEND",
+        "question": true,
+        "result": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Focus moves to the new question/results heading",
+      "theme": "light",
+      "width": 1440,
+      "flow": "women",
+      "step": 4,
+      "focus": {
+        "tag": "LEGEND",
+        "question": true,
+        "result": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Question order and key correct",
+      "theme": "light",
+      "width": 1440,
+      "flow": "women",
+      "step": 5,
+      "actual": "intensity",
+      "expected": "intensity"
+    },
+    {
+      "pass": true,
+      "label": "Quiz has no horizontal or heading overflow",
+      "theme": "light",
+      "width": 1440,
+      "flow": "women",
+      "step": 5,
+      "overflow": false,
+      "headingOverflow": [],
+      "focus": {
+        "tag": "LEGEND",
+        "question": true,
+        "result": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Focus moves to the new question/results heading",
+      "theme": "light",
+      "width": 1440,
+      "flow": "women",
+      "step": 5,
+      "focus": {
+        "tag": "H2",
+        "question": false,
+        "result": true
+      }
+    },
+    {
+      "pass": true,
+      "label": "Results contain real product cards",
+      "theme": "light",
+      "width": 1440,
+      "flow": "women"
+    },
+    {
+      "pass": true,
+      "label": "Results have no horizontal or heading overflow",
+      "theme": "light",
+      "width": 1440,
+      "flow": "women"
+    },
+    {
+      "pass": true,
+      "label": "Result link is a real product",
+      "theme": "light",
+      "width": 1440,
+      "flow": "women",
+      "id": "10314865016897",
+      "url": "/products/mistened-narcissus"
+    },
+    {
+      "pass": true,
+      "label": "Collection filter excludes other collection",
+      "theme": "light",
+      "width": 1440,
+      "flow": "women",
+      "handle": "mistened-narcissus"
+    },
+    {
+      "pass": true,
+      "label": "Live price and availability display preserved",
+      "theme": "light",
+      "width": 1440,
+      "flow": "women",
+      "handle": "mistened-narcissus",
+      "price": "\u20b1799.00",
+      "badge": "SOLD OUT"
+    },
+    {
+      "pass": true,
+      "label": "Sold-out badge matches catalog snapshot",
+      "theme": "light",
+      "width": 1440,
+      "flow": "women",
+      "handle": "mistened-narcissus"
+    },
+    {
+      "pass": true,
+      "label": "Result link is a real product",
+      "theme": "light",
+      "width": 1440,
+      "flow": "women",
+      "id": "10314869571649",
+      "url": "/products/mojito-metallique"
+    },
+    {
+      "pass": true,
+      "label": "Collection filter excludes other collection",
+      "theme": "light",
+      "width": 1440,
+      "flow": "women",
+      "handle": "mojito-metallique"
+    },
+    {
+      "pass": true,
+      "label": "Live price and availability display preserved",
+      "theme": "light",
+      "width": 1440,
+      "flow": "women",
+      "handle": "mojito-metallique",
+      "price": "\u20b1799.00\n\u20b11,099.00",
+      "badge": "SOLD OUT"
+    },
+    {
+      "pass": true,
+      "label": "Sold-out badge matches catalog snapshot",
+      "theme": "light",
+      "width": 1440,
+      "flow": "women",
+      "handle": "mojito-metallique"
+    },
+    {
+      "pass": true,
+      "label": "Result link is a real product",
+      "theme": "light",
+      "width": 1440,
+      "flow": "women",
+      "id": "10314853417025",
+      "url": "/products/amber-oud-silk"
+    },
+    {
+      "pass": true,
+      "label": "Collection filter excludes other collection",
+      "theme": "light",
+      "width": 1440,
+      "flow": "women",
+      "handle": "amber-oud-silk"
+    },
+    {
+      "pass": true,
+      "label": "Live price and availability display preserved",
+      "theme": "light",
+      "width": 1440,
+      "flow": "women",
+      "handle": "amber-oud-silk",
+      "price": "\u20b1799.00",
+      "badge": "SOLD OUT"
+    },
+    {
+      "pass": true,
+      "label": "Sold-out badge matches catalog snapshot",
+      "theme": "light",
+      "width": 1440,
+      "flow": "women",
+      "handle": "amber-oud-silk"
+    },
+    {
+      "pass": true,
+      "label": "results",
+      "theme": "light",
+      "width": 1440,
+      "flow": "women",
+      "violations": 0
+    },
+    {
+      "pass": true,
+      "label": "Reset clears answers and returns to collection",
+      "theme": "light",
+      "width": 1440,
+      "flow": "women"
+    },
+    {
+      "pass": true,
+      "label": "Reset focuses first question",
+      "theme": "light",
+      "width": 1440,
+      "flow": "women"
+    },
+    {
+      "pass": true,
+      "label": "No JavaScript page errors",
+      "theme": "light",
+      "width": 1440,
+      "flow": "women",
+      "errors": []
+    },
+    {
+      "pass": true,
+      "label": "Actual six-product catalog fallback rendered",
+      "theme": "light",
+      "width": 1440,
+      "flow": "men"
+    },
+    {
+      "pass": true,
+      "label": "Real card bank contains six products",
+      "theme": "light",
+      "width": 1440,
+      "flow": "men"
+    },
+    {
+      "pass": true,
+      "label": "Quiz has five questions",
+      "theme": "light",
+      "width": 1440,
+      "flow": "men"
+    },
+    {
+      "pass": true,
+      "label": "Question order and key correct",
+      "theme": "light",
+      "width": 1440,
+      "flow": "men",
+      "step": 1,
+      "actual": "collection",
+      "expected": "collection"
+    },
+    {
+      "pass": true,
+      "label": "Quiz has no horizontal or heading overflow",
+      "theme": "light",
+      "width": 1440,
+      "flow": "men",
+      "step": 1,
+      "overflow": false,
+      "headingOverflow": [],
+      "focus": {
+        "tag": "BODY",
+        "question": false,
+        "result": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Focus moves to the new question/results heading",
+      "theme": "light",
+      "width": 1440,
+      "flow": "men",
+      "step": 1,
+      "focus": {
+        "tag": "LEGEND",
+        "question": true,
+        "result": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Question order and key correct",
+      "theme": "light",
+      "width": 1440,
+      "flow": "men",
+      "step": 2,
+      "actual": "mood",
+      "expected": "mood"
+    },
+    {
+      "pass": true,
+      "label": "Quiz has no horizontal or heading overflow",
+      "theme": "light",
+      "width": 1440,
+      "flow": "men",
+      "step": 2,
+      "overflow": false,
+      "headingOverflow": [],
+      "focus": {
+        "tag": "LEGEND",
+        "question": true,
+        "result": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Focus moves to the new question/results heading",
+      "theme": "light",
+      "width": 1440,
+      "flow": "men",
+      "step": 2,
+      "focus": {
+        "tag": "LEGEND",
+        "question": true,
+        "result": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Question order and key correct",
+      "theme": "light",
+      "width": 1440,
+      "flow": "men",
+      "step": 3,
+      "actual": "character",
+      "expected": "character"
+    },
+    {
+      "pass": true,
+      "label": "Quiz has no horizontal or heading overflow",
+      "theme": "light",
+      "width": 1440,
+      "flow": "men",
+      "step": 3,
+      "overflow": false,
+      "headingOverflow": [],
+      "focus": {
+        "tag": "LEGEND",
+        "question": true,
+        "result": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Focus moves to the new question/results heading",
+      "theme": "light",
+      "width": 1440,
+      "flow": "men",
+      "step": 3,
+      "focus": {
+        "tag": "LEGEND",
+        "question": true,
+        "result": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Question order and key correct",
+      "theme": "light",
+      "width": 1440,
+      "flow": "men",
+      "step": 4,
+      "actual": "occasion",
+      "expected": "occasion"
+    },
+    {
+      "pass": true,
+      "label": "Quiz has no horizontal or heading overflow",
+      "theme": "light",
+      "width": 1440,
+      "flow": "men",
+      "step": 4,
+      "overflow": false,
+      "headingOverflow": [],
+      "focus": {
+        "tag": "LEGEND",
+        "question": true,
+        "result": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Focus moves to the new question/results heading",
+      "theme": "light",
+      "width": 1440,
+      "flow": "men",
+      "step": 4,
+      "focus": {
+        "tag": "LEGEND",
+        "question": true,
+        "result": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Question order and key correct",
+      "theme": "light",
+      "width": 1440,
+      "flow": "men",
+      "step": 5,
+      "actual": "intensity",
+      "expected": "intensity"
+    },
+    {
+      "pass": true,
+      "label": "Quiz has no horizontal or heading overflow",
+      "theme": "light",
+      "width": 1440,
+      "flow": "men",
+      "step": 5,
+      "overflow": false,
+      "headingOverflow": [],
+      "focus": {
+        "tag": "LEGEND",
+        "question": true,
+        "result": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Focus moves to the new question/results heading",
+      "theme": "light",
+      "width": 1440,
+      "flow": "men",
+      "step": 5,
+      "focus": {
+        "tag": "H2",
+        "question": false,
+        "result": true
+      }
+    },
+    {
+      "pass": true,
+      "label": "Results contain real product cards",
+      "theme": "light",
+      "width": 1440,
+      "flow": "men"
+    },
+    {
+      "pass": true,
+      "label": "Results have no horizontal or heading overflow",
+      "theme": "light",
+      "width": 1440,
+      "flow": "men"
+    },
+    {
+      "pass": true,
+      "label": "Result link is a real product",
+      "theme": "light",
+      "width": 1440,
+      "flow": "men",
+      "id": "10314853515329",
+      "url": "/products/oud-mirage"
+    },
+    {
+      "pass": true,
+      "label": "Collection filter excludes other collection",
+      "theme": "light",
+      "width": 1440,
+      "flow": "men",
+      "handle": "oud-mirage"
+    },
+    {
+      "pass": true,
+      "label": "Live price and availability display preserved",
+      "theme": "light",
+      "width": 1440,
+      "flow": "men",
+      "handle": "oud-mirage",
+      "price": "\u20b1799.00",
+      "badge": "SOLD OUT"
+    },
+    {
+      "pass": true,
+      "label": "Sold-out badge matches catalog snapshot",
+      "theme": "light",
+      "width": 1440,
+      "flow": "men",
+      "handle": "oud-mirage"
+    },
+    {
+      "pass": true,
+      "label": "Result link is a real product",
+      "theme": "light",
+      "width": 1440,
+      "flow": "men",
+      "id": "10314005020737",
+      "url": "/products/charme-envoutant"
+    },
+    {
+      "pass": true,
+      "label": "Collection filter excludes other collection",
+      "theme": "light",
+      "width": 1440,
+      "flow": "men",
+      "handle": "charme-envoutant"
+    },
+    {
+      "pass": true,
+      "label": "Live price and availability display preserved",
+      "theme": "light",
+      "width": 1440,
+      "flow": "men",
+      "handle": "charme-envoutant",
+      "price": "\u20b1799.00",
+      "badge": "SOLD OUT"
+    },
+    {
+      "pass": true,
+      "label": "Sold-out badge matches catalog snapshot",
+      "theme": "light",
+      "width": 1440,
+      "flow": "men",
+      "handle": "charme-envoutant"
+    },
+    {
+      "pass": true,
+      "label": "Reset clears answers and returns to collection",
+      "theme": "light",
+      "width": 1440,
+      "flow": "men"
+    },
+    {
+      "pass": true,
+      "label": "Reset focuses first question",
+      "theme": "light",
+      "width": 1440,
+      "flow": "men"
+    },
+    {
+      "pass": true,
+      "label": "No JavaScript page errors",
+      "theme": "light",
+      "width": 1440,
+      "flow": "men",
+      "errors": []
+    },
+    {
+      "pass": true,
+      "label": "Actual six-product catalog fallback rendered",
+      "theme": "light",
+      "width": 1440,
+      "flow": "open"
+    },
+    {
+      "pass": true,
+      "label": "Real card bank contains six products",
+      "theme": "light",
+      "width": 1440,
+      "flow": "open"
+    },
+    {
+      "pass": true,
+      "label": "Quiz has five questions",
+      "theme": "light",
+      "width": 1440,
+      "flow": "open"
+    },
+    {
+      "pass": true,
+      "label": "Question order and key correct",
+      "theme": "light",
+      "width": 1440,
+      "flow": "open",
+      "step": 1,
+      "actual": "collection",
+      "expected": "collection"
+    },
+    {
+      "pass": true,
+      "label": "Quiz has no horizontal or heading overflow",
+      "theme": "light",
+      "width": 1440,
+      "flow": "open",
+      "step": 1,
+      "overflow": false,
+      "headingOverflow": [],
+      "focus": {
+        "tag": "BODY",
+        "question": false,
+        "result": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Focus moves to the new question/results heading",
+      "theme": "light",
+      "width": 1440,
+      "flow": "open",
+      "step": 1,
+      "focus": {
+        "tag": "LEGEND",
+        "question": true,
+        "result": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Question order and key correct",
+      "theme": "light",
+      "width": 1440,
+      "flow": "open",
+      "step": 2,
+      "actual": "mood",
+      "expected": "mood"
+    },
+    {
+      "pass": true,
+      "label": "Quiz has no horizontal or heading overflow",
+      "theme": "light",
+      "width": 1440,
+      "flow": "open",
+      "step": 2,
+      "overflow": false,
+      "headingOverflow": [],
+      "focus": {
+        "tag": "LEGEND",
+        "question": true,
+        "result": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Focus moves to the new question/results heading",
+      "theme": "light",
+      "width": 1440,
+      "flow": "open",
+      "step": 2,
+      "focus": {
+        "tag": "LEGEND",
+        "question": true,
+        "result": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Question order and key correct",
+      "theme": "light",
+      "width": 1440,
+      "flow": "open",
+      "step": 3,
+      "actual": "character",
+      "expected": "character"
+    },
+    {
+      "pass": true,
+      "label": "Quiz has no horizontal or heading overflow",
+      "theme": "light",
+      "width": 1440,
+      "flow": "open",
+      "step": 3,
+      "overflow": false,
+      "headingOverflow": [],
+      "focus": {
+        "tag": "LEGEND",
+        "question": true,
+        "result": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Focus moves to the new question/results heading",
+      "theme": "light",
+      "width": 1440,
+      "flow": "open",
+      "step": 3,
+      "focus": {
+        "tag": "LEGEND",
+        "question": true,
+        "result": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Question order and key correct",
+      "theme": "light",
+      "width": 1440,
+      "flow": "open",
+      "step": 4,
+      "actual": "occasion",
+      "expected": "occasion"
+    },
+    {
+      "pass": true,
+      "label": "Quiz has no horizontal or heading overflow",
+      "theme": "light",
+      "width": 1440,
+      "flow": "open",
+      "step": 4,
+      "overflow": false,
+      "headingOverflow": [],
+      "focus": {
+        "tag": "LEGEND",
+        "question": true,
+        "result": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Focus moves to the new question/results heading",
+      "theme": "light",
+      "width": 1440,
+      "flow": "open",
+      "step": 4,
+      "focus": {
+        "tag": "LEGEND",
+        "question": true,
+        "result": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Question order and key correct",
+      "theme": "light",
+      "width": 1440,
+      "flow": "open",
+      "step": 5,
+      "actual": "intensity",
+      "expected": "intensity"
+    },
+    {
+      "pass": true,
+      "label": "Quiz has no horizontal or heading overflow",
+      "theme": "light",
+      "width": 1440,
+      "flow": "open",
+      "step": 5,
+      "overflow": false,
+      "headingOverflow": [],
+      "focus": {
+        "tag": "LEGEND",
+        "question": true,
+        "result": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Focus moves to the new question/results heading",
+      "theme": "light",
+      "width": 1440,
+      "flow": "open",
+      "step": 5,
+      "focus": {
+        "tag": "H2",
+        "question": false,
+        "result": true
+      }
+    },
+    {
+      "pass": true,
+      "label": "Results contain real product cards",
+      "theme": "light",
+      "width": 1440,
+      "flow": "open"
+    },
+    {
+      "pass": true,
+      "label": "Results have no horizontal or heading overflow",
+      "theme": "light",
+      "width": 1440,
+      "flow": "open"
+    },
+    {
+      "pass": true,
+      "label": "Result link is a real product",
+      "theme": "light",
+      "width": 1440,
+      "flow": "open",
+      "id": "10314865016897",
+      "url": "/products/mistened-narcissus"
+    },
+    {
+      "pass": true,
+      "label": "Live price and availability display preserved",
+      "theme": "light",
+      "width": 1440,
+      "flow": "open",
+      "handle": "mistened-narcissus",
+      "price": "\u20b1799.00",
+      "badge": "SOLD OUT"
+    },
+    {
+      "pass": true,
+      "label": "Sold-out badge matches catalog snapshot",
+      "theme": "light",
+      "width": 1440,
+      "flow": "open",
+      "handle": "mistened-narcissus"
+    },
+    {
+      "pass": true,
+      "label": "Result link is a real product",
+      "theme": "light",
+      "width": 1440,
+      "flow": "open",
+      "id": "10314869571649",
+      "url": "/products/mojito-metallique"
+    },
+    {
+      "pass": true,
+      "label": "Live price and availability display preserved",
+      "theme": "light",
+      "width": 1440,
+      "flow": "open",
+      "handle": "mojito-metallique",
+      "price": "\u20b1799.00\n\u20b11,099.00",
+      "badge": "SOLD OUT"
+    },
+    {
+      "pass": true,
+      "label": "Sold-out badge matches catalog snapshot",
+      "theme": "light",
+      "width": 1440,
+      "flow": "open",
+      "handle": "mojito-metallique"
+    },
+    {
+      "pass": true,
+      "label": "Result link is a real product",
+      "theme": "light",
+      "width": 1440,
+      "flow": "open",
+      "id": "10314005020737",
+      "url": "/products/charme-envoutant"
+    },
+    {
+      "pass": true,
+      "label": "Live price and availability display preserved",
+      "theme": "light",
+      "width": 1440,
+      "flow": "open",
+      "handle": "charme-envoutant",
+      "price": "\u20b1799.00",
+      "badge": "SOLD OUT"
+    },
+    {
+      "pass": true,
+      "label": "Sold-out badge matches catalog snapshot",
+      "theme": "light",
+      "width": 1440,
+      "flow": "open",
+      "handle": "charme-envoutant"
+    },
+    {
+      "pass": true,
+      "label": "Reset clears answers and returns to collection",
+      "theme": "light",
+      "width": 1440,
+      "flow": "open"
+    },
+    {
+      "pass": true,
+      "label": "Reset focuses first question",
+      "theme": "light",
+      "width": 1440,
+      "flow": "open"
+    },
+    {
+      "pass": true,
+      "label": "No JavaScript page errors",
+      "theme": "light",
+      "width": 1440,
+      "flow": "open",
+      "errors": []
+    },
+    {
+      "pass": true,
+      "label": "Actual six-product catalog fallback rendered",
+      "theme": "light",
+      "width": 1440,
+      "flow": "skip"
+    },
+    {
+      "pass": true,
+      "label": "Real card bank contains six products",
+      "theme": "light",
+      "width": 1440,
+      "flow": "skip"
+    },
+    {
+      "pass": true,
+      "label": "Quiz has five questions",
+      "theme": "light",
+      "width": 1440,
+      "flow": "skip"
+    },
+    {
+      "pass": true,
+      "label": "Question order and key correct",
+      "theme": "light",
+      "width": 1440,
+      "flow": "skip",
+      "step": 1,
+      "actual": "collection",
+      "expected": "collection"
+    },
+    {
+      "pass": true,
+      "label": "Quiz has no horizontal or heading overflow",
+      "theme": "light",
+      "width": 1440,
+      "flow": "skip",
+      "step": 1,
+      "overflow": false,
+      "headingOverflow": [],
+      "focus": {
+        "tag": "BODY",
+        "question": false,
+        "result": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Focus moves to the new question/results heading",
+      "theme": "light",
+      "width": 1440,
+      "flow": "skip",
+      "step": 1,
+      "focus": {
+        "tag": "LEGEND",
+        "question": true,
+        "result": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Question order and key correct",
+      "theme": "light",
+      "width": 1440,
+      "flow": "skip",
+      "step": 2,
+      "actual": "mood",
+      "expected": "mood"
+    },
+    {
+      "pass": true,
+      "label": "Quiz has no horizontal or heading overflow",
+      "theme": "light",
+      "width": 1440,
+      "flow": "skip",
+      "step": 2,
+      "overflow": false,
+      "headingOverflow": [],
+      "focus": {
+        "tag": "LEGEND",
+        "question": true,
+        "result": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Focus moves to the new question/results heading",
+      "theme": "light",
+      "width": 1440,
+      "flow": "skip",
+      "step": 2,
+      "focus": {
+        "tag": "LEGEND",
+        "question": true,
+        "result": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Question order and key correct",
+      "theme": "light",
+      "width": 1440,
+      "flow": "skip",
+      "step": 3,
+      "actual": "character",
+      "expected": "character"
+    },
+    {
+      "pass": true,
+      "label": "Quiz has no horizontal or heading overflow",
+      "theme": "light",
+      "width": 1440,
+      "flow": "skip",
+      "step": 3,
+      "overflow": false,
+      "headingOverflow": [],
+      "focus": {
+        "tag": "LEGEND",
+        "question": true,
+        "result": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Focus moves to the new question/results heading",
+      "theme": "light",
+      "width": 1440,
+      "flow": "skip",
+      "step": 3,
+      "focus": {
+        "tag": "LEGEND",
+        "question": true,
+        "result": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Question order and key correct",
+      "theme": "light",
+      "width": 1440,
+      "flow": "skip",
+      "step": 4,
+      "actual": "occasion",
+      "expected": "occasion"
+    },
+    {
+      "pass": true,
+      "label": "Quiz has no horizontal or heading overflow",
+      "theme": "light",
+      "width": 1440,
+      "flow": "skip",
+      "step": 4,
+      "overflow": false,
+      "headingOverflow": [],
+      "focus": {
+        "tag": "LEGEND",
+        "question": true,
+        "result": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Focus moves to the new question/results heading",
+      "theme": "light",
+      "width": 1440,
+      "flow": "skip",
+      "step": 4,
+      "focus": {
+        "tag": "LEGEND",
+        "question": true,
+        "result": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Question order and key correct",
+      "theme": "light",
+      "width": 1440,
+      "flow": "skip",
+      "step": 5,
+      "actual": "intensity",
+      "expected": "intensity"
+    },
+    {
+      "pass": true,
+      "label": "Quiz has no horizontal or heading overflow",
+      "theme": "light",
+      "width": 1440,
+      "flow": "skip",
+      "step": 5,
+      "overflow": false,
+      "headingOverflow": [],
+      "focus": {
+        "tag": "LEGEND",
+        "question": true,
+        "result": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Focus moves to the new question/results heading",
+      "theme": "light",
+      "width": 1440,
+      "flow": "skip",
+      "step": 5,
+      "focus": {
+        "tag": "H2",
+        "question": false,
+        "result": true
+      }
+    },
+    {
+      "pass": true,
+      "label": "Results contain real product cards",
+      "theme": "light",
+      "width": 1440,
+      "flow": "skip"
+    },
+    {
+      "pass": true,
+      "label": "Results have no horizontal or heading overflow",
+      "theme": "light",
+      "width": 1440,
+      "flow": "skip"
+    },
+    {
+      "pass": true,
+      "label": "Result link is a real product",
+      "theme": "light",
+      "width": 1440,
+      "flow": "skip",
+      "id": "10314865016897",
+      "url": "/products/mistened-narcissus"
+    },
+    {
+      "pass": true,
+      "label": "Live price and availability display preserved",
+      "theme": "light",
+      "width": 1440,
+      "flow": "skip",
+      "handle": "mistened-narcissus",
+      "price": "\u20b1799.00",
+      "badge": "SOLD OUT"
+    },
+    {
+      "pass": true,
+      "label": "Sold-out badge matches catalog snapshot",
+      "theme": "light",
+      "width": 1440,
+      "flow": "skip",
+      "handle": "mistened-narcissus"
+    },
+    {
+      "pass": true,
+      "label": "Result link is a real product",
+      "theme": "light",
+      "width": 1440,
+      "flow": "skip",
+      "id": "10314853515329",
+      "url": "/products/oud-mirage"
+    },
+    {
+      "pass": true,
+      "label": "Live price and availability display preserved",
+      "theme": "light",
+      "width": 1440,
+      "flow": "skip",
+      "handle": "oud-mirage",
+      "price": "\u20b1799.00",
+      "badge": "SOLD OUT"
+    },
+    {
+      "pass": true,
+      "label": "Sold-out badge matches catalog snapshot",
+      "theme": "light",
+      "width": 1440,
+      "flow": "skip",
+      "handle": "oud-mirage"
+    },
+    {
+      "pass": true,
+      "label": "Result link is a real product",
+      "theme": "light",
+      "width": 1440,
+      "flow": "skip",
+      "id": "10314853449793",
+      "url": "/products/rtulle-satin"
+    },
+    {
+      "pass": true,
+      "label": "Live price and availability display preserved",
+      "theme": "light",
+      "width": 1440,
+      "flow": "skip",
+      "handle": "rtulle-satin",
+      "price": "\u20b1799.00",
+      "badge": "SOLD OUT"
+    },
+    {
+      "pass": true,
+      "label": "Sold-out badge matches catalog snapshot",
+      "theme": "light",
+      "width": 1440,
+      "flow": "skip",
+      "handle": "rtulle-satin"
+    },
+    {
+      "pass": true,
+      "label": "All-skipped results honestly describe discovery",
+      "theme": "light",
+      "width": 1440,
+      "flow": "skip"
+    },
+    {
+      "pass": true,
+      "label": "Reset clears answers and returns to collection",
+      "theme": "light",
+      "width": 1440,
+      "flow": "skip"
+    },
+    {
+      "pass": true,
+      "label": "Reset focuses first question",
+      "theme": "light",
+      "width": 1440,
+      "flow": "skip"
+    },
+    {
+      "pass": true,
+      "label": "No JavaScript page errors",
+      "theme": "light",
+      "width": 1440,
+      "flow": "skip",
+      "errors": []
+    },
+    {
+      "pass": true,
+      "label": "Actual six-product catalog fallback rendered",
+      "theme": "light",
+      "width": 390,
+      "flow": "women"
+    },
+    {
+      "pass": true,
+      "label": "Real card bank contains six products",
+      "theme": "light",
+      "width": 390,
+      "flow": "women"
+    },
+    {
+      "pass": true,
+      "label": "Quiz has five questions",
+      "theme": "light",
+      "width": 390,
+      "flow": "women"
+    },
+    {
+      "pass": true,
+      "label": "quiz",
+      "theme": "light",
+      "width": 390,
+      "flow": "women",
+      "violations": 0
+    },
+    {
+      "pass": true,
+      "label": "Question order and key correct",
+      "theme": "light",
+      "width": 390,
+      "flow": "women",
+      "step": 1,
+      "actual": "collection",
+      "expected": "collection"
+    },
+    {
+      "pass": true,
+      "label": "Quiz has no horizontal or heading overflow",
+      "theme": "light",
+      "width": 390,
+      "flow": "women",
+      "step": 1,
+      "overflow": false,
+      "headingOverflow": [],
+      "focus": {
+        "tag": "BODY",
+        "question": false,
+        "result": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Focus moves to the new question/results heading",
+      "theme": "light",
+      "width": 390,
+      "flow": "women",
+      "step": 1,
+      "focus": {
+        "tag": "LEGEND",
+        "question": true,
+        "result": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Question order and key correct",
+      "theme": "light",
+      "width": 390,
+      "flow": "women",
+      "step": 2,
+      "actual": "mood",
+      "expected": "mood"
+    },
+    {
+      "pass": true,
+      "label": "Quiz has no horizontal or heading overflow",
+      "theme": "light",
+      "width": 390,
+      "flow": "women",
+      "step": 2,
+      "overflow": false,
+      "headingOverflow": [],
+      "focus": {
+        "tag": "LEGEND",
+        "question": true,
+        "result": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Focus moves to the new question/results heading",
+      "theme": "light",
+      "width": 390,
+      "flow": "women",
+      "step": 2,
+      "focus": {
+        "tag": "LEGEND",
+        "question": true,
+        "result": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Back preserves mood selection",
+      "theme": "light",
+      "width": 390,
+      "flow": "women"
+    },
+    {
+      "pass": true,
+      "label": "Back preserves collection selection",
+      "theme": "light",
+      "width": 390,
+      "flow": "women"
+    },
+    {
+      "pass": true,
+      "label": "Forward preserves prior answer",
+      "theme": "light",
+      "width": 390,
+      "flow": "women"
+    },
+    {
+      "pass": true,
+      "label": "Question order and key correct",
+      "theme": "light",
+      "width": 390,
+      "flow": "women",
+      "step": 3,
+      "actual": "character",
+      "expected": "character"
+    },
+    {
+      "pass": true,
+      "label": "Quiz has no horizontal or heading overflow",
+      "theme": "light",
+      "width": 390,
+      "flow": "women",
+      "step": 3,
+      "overflow": false,
+      "headingOverflow": [],
+      "focus": {
+        "tag": "LEGEND",
+        "question": true,
+        "result": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Focus moves to the new question/results heading",
+      "theme": "light",
+      "width": 390,
+      "flow": "women",
+      "step": 3,
+      "focus": {
+        "tag": "LEGEND",
+        "question": true,
+        "result": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Question order and key correct",
+      "theme": "light",
+      "width": 390,
+      "flow": "women",
+      "step": 4,
+      "actual": "occasion",
+      "expected": "occasion"
+    },
+    {
+      "pass": true,
+      "label": "Quiz has no horizontal or heading overflow",
+      "theme": "light",
+      "width": 390,
+      "flow": "women",
+      "step": 4,
+      "overflow": false,
+      "headingOverflow": [],
+      "focus": {
+        "tag": "LEGEND",
+        "question": true,
+        "result": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Focus moves to the new question/results heading",
+      "theme": "light",
+      "width": 390,
+      "flow": "women",
+      "step": 4,
+      "focus": {
+        "tag": "LEGEND",
+        "question": true,
+        "result": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Question order and key correct",
+      "theme": "light",
+      "width": 390,
+      "flow": "women",
+      "step": 5,
+      "actual": "intensity",
+      "expected": "intensity"
+    },
+    {
+      "pass": true,
+      "label": "Quiz has no horizontal or heading overflow",
+      "theme": "light",
+      "width": 390,
+      "flow": "women",
+      "step": 5,
+      "overflow": false,
+      "headingOverflow": [],
+      "focus": {
+        "tag": "LEGEND",
+        "question": true,
+        "result": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Focus moves to the new question/results heading",
+      "theme": "light",
+      "width": 390,
+      "flow": "women",
+      "step": 5,
+      "focus": {
+        "tag": "H2",
+        "question": false,
+        "result": true
+      }
+    },
+    {
+      "pass": true,
+      "label": "Results contain real product cards",
+      "theme": "light",
+      "width": 390,
+      "flow": "women"
+    },
+    {
+      "pass": true,
+      "label": "Results have no horizontal or heading overflow",
+      "theme": "light",
+      "width": 390,
+      "flow": "women"
+    },
+    {
+      "pass": true,
+      "label": "Result link is a real product",
+      "theme": "light",
+      "width": 390,
+      "flow": "women",
+      "id": "10314865016897",
+      "url": "/products/mistened-narcissus"
+    },
+    {
+      "pass": true,
+      "label": "Collection filter excludes other collection",
+      "theme": "light",
+      "width": 390,
+      "flow": "women",
+      "handle": "mistened-narcissus"
+    },
+    {
+      "pass": true,
+      "label": "Live price and availability display preserved",
+      "theme": "light",
+      "width": 390,
+      "flow": "women",
+      "handle": "mistened-narcissus",
+      "price": "\u20b1799.00",
+      "badge": "SOLD OUT"
+    },
+    {
+      "pass": true,
+      "label": "Sold-out badge matches catalog snapshot",
+      "theme": "light",
+      "width": 390,
+      "flow": "women",
+      "handle": "mistened-narcissus"
+    },
+    {
+      "pass": true,
+      "label": "Result link is a real product",
+      "theme": "light",
+      "width": 390,
+      "flow": "women",
+      "id": "10314869571649",
+      "url": "/products/mojito-metallique"
+    },
+    {
+      "pass": true,
+      "label": "Collection filter excludes other collection",
+      "theme": "light",
+      "width": 390,
+      "flow": "women",
+      "handle": "mojito-metallique"
+    },
+    {
+      "pass": true,
+      "label": "Live price and availability display preserved",
+      "theme": "light",
+      "width": 390,
+      "flow": "women",
+      "handle": "mojito-metallique",
+      "price": "\u20b1799.00\u20b11,099.00",
+      "badge": "SOLD OUT"
+    },
+    {
+      "pass": true,
+      "label": "Sold-out badge matches catalog snapshot",
+      "theme": "light",
+      "width": 390,
+      "flow": "women",
+      "handle": "mojito-metallique"
+    },
+    {
+      "pass": true,
+      "label": "Result link is a real product",
+      "theme": "light",
+      "width": 390,
+      "flow": "women",
+      "id": "10314853417025",
+      "url": "/products/amber-oud-silk"
+    },
+    {
+      "pass": true,
+      "label": "Collection filter excludes other collection",
+      "theme": "light",
+      "width": 390,
+      "flow": "women",
+      "handle": "amber-oud-silk"
+    },
+    {
+      "pass": true,
+      "label": "Live price and availability display preserved",
+      "theme": "light",
+      "width": 390,
+      "flow": "women",
+      "handle": "amber-oud-silk",
+      "price": "\u20b1799.00",
+      "badge": "SOLD OUT"
+    },
+    {
+      "pass": true,
+      "label": "Sold-out badge matches catalog snapshot",
+      "theme": "light",
+      "width": 390,
+      "flow": "women",
+      "handle": "amber-oud-silk"
+    },
+    {
+      "pass": true,
+      "label": "results",
+      "theme": "light",
+      "width": 390,
+      "flow": "women",
+      "violations": 0
+    },
+    {
+      "pass": true,
+      "label": "Reset clears answers and returns to collection",
+      "theme": "light",
+      "width": 390,
+      "flow": "women"
+    },
+    {
+      "pass": true,
+      "label": "Reset focuses first question",
+      "theme": "light",
+      "width": 390,
+      "flow": "women"
+    },
+    {
+      "pass": true,
+      "label": "No JavaScript page errors",
+      "theme": "light",
+      "width": 390,
+      "flow": "women",
+      "errors": []
+    },
+    {
+      "pass": true,
+      "label": "Actual six-product catalog fallback rendered",
+      "theme": "light",
+      "width": 390,
+      "flow": "men"
+    },
+    {
+      "pass": true,
+      "label": "Real card bank contains six products",
+      "theme": "light",
+      "width": 390,
+      "flow": "men"
+    },
+    {
+      "pass": true,
+      "label": "Quiz has five questions",
+      "theme": "light",
+      "width": 390,
+      "flow": "men"
+    },
+    {
+      "pass": true,
+      "label": "Question order and key correct",
+      "theme": "light",
+      "width": 390,
+      "flow": "men",
+      "step": 1,
+      "actual": "collection",
+      "expected": "collection"
+    },
+    {
+      "pass": true,
+      "label": "Quiz has no horizontal or heading overflow",
+      "theme": "light",
+      "width": 390,
+      "flow": "men",
+      "step": 1,
+      "overflow": false,
+      "headingOverflow": [],
+      "focus": {
+        "tag": "BODY",
+        "question": false,
+        "result": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Focus moves to the new question/results heading",
+      "theme": "light",
+      "width": 390,
+      "flow": "men",
+      "step": 1,
+      "focus": {
+        "tag": "LEGEND",
+        "question": true,
+        "result": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Question order and key correct",
+      "theme": "light",
+      "width": 390,
+      "flow": "men",
+      "step": 2,
+      "actual": "mood",
+      "expected": "mood"
+    },
+    {
+      "pass": true,
+      "label": "Quiz has no horizontal or heading overflow",
+      "theme": "light",
+      "width": 390,
+      "flow": "men",
+      "step": 2,
+      "overflow": false,
+      "headingOverflow": [],
+      "focus": {
+        "tag": "LEGEND",
+        "question": true,
+        "result": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Focus moves to the new question/results heading",
+      "theme": "light",
+      "width": 390,
+      "flow": "men",
+      "step": 2,
+      "focus": {
+        "tag": "LEGEND",
+        "question": true,
+        "result": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Question order and key correct",
+      "theme": "light",
+      "width": 390,
+      "flow": "men",
+      "step": 3,
+      "actual": "character",
+      "expected": "character"
+    },
+    {
+      "pass": true,
+      "label": "Quiz has no horizontal or heading overflow",
+      "theme": "light",
+      "width": 390,
+      "flow": "men",
+      "step": 3,
+      "overflow": false,
+      "headingOverflow": [],
+      "focus": {
+        "tag": "LEGEND",
+        "question": true,
+        "result": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Focus moves to the new question/results heading",
+      "theme": "light",
+      "width": 390,
+      "flow": "men",
+      "step": 3,
+      "focus": {
+        "tag": "LEGEND",
+        "question": true,
+        "result": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Question order and key correct",
+      "theme": "light",
+      "width": 390,
+      "flow": "men",
+      "step": 4,
+      "actual": "occasion",
+      "expected": "occasion"
+    },
+    {
+      "pass": true,
+      "label": "Quiz has no horizontal or heading overflow",
+      "theme": "light",
+      "width": 390,
+      "flow": "men",
+      "step": 4,
+      "overflow": false,
+      "headingOverflow": [],
+      "focus": {
+        "tag": "LEGEND",
+        "question": true,
+        "result": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Focus moves to the new question/results heading",
+      "theme": "light",
+      "width": 390,
+      "flow": "men",
+      "step": 4,
+      "focus": {
+        "tag": "LEGEND",
+        "question": true,
+        "result": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Question order and key correct",
+      "theme": "light",
+      "width": 390,
+      "flow": "men",
+      "step": 5,
+      "actual": "intensity",
+      "expected": "intensity"
+    },
+    {
+      "pass": true,
+      "label": "Quiz has no horizontal or heading overflow",
+      "theme": "light",
+      "width": 390,
+      "flow": "men",
+      "step": 5,
+      "overflow": false,
+      "headingOverflow": [],
+      "focus": {
+        "tag": "LEGEND",
+        "question": true,
+        "result": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Focus moves to the new question/results heading",
+      "theme": "light",
+      "width": 390,
+      "flow": "men",
+      "step": 5,
+      "focus": {
+        "tag": "H2",
+        "question": false,
+        "result": true
+      }
+    },
+    {
+      "pass": true,
+      "label": "Results contain real product cards",
+      "theme": "light",
+      "width": 390,
+      "flow": "men"
+    },
+    {
+      "pass": true,
+      "label": "Results have no horizontal or heading overflow",
+      "theme": "light",
+      "width": 390,
+      "flow": "men"
+    },
+    {
+      "pass": true,
+      "label": "Result link is a real product",
+      "theme": "light",
+      "width": 390,
+      "flow": "men",
+      "id": "10314853515329",
+      "url": "/products/oud-mirage"
+    },
+    {
+      "pass": true,
+      "label": "Collection filter excludes other collection",
+      "theme": "light",
+      "width": 390,
+      "flow": "men",
+      "handle": "oud-mirage"
+    },
+    {
+      "pass": true,
+      "label": "Live price and availability display preserved",
+      "theme": "light",
+      "width": 390,
+      "flow": "men",
+      "handle": "oud-mirage",
+      "price": "\u20b1799.00",
+      "badge": "SOLD OUT"
+    },
+    {
+      "pass": true,
+      "label": "Sold-out badge matches catalog snapshot",
+      "theme": "light",
+      "width": 390,
+      "flow": "men",
+      "handle": "oud-mirage"
+    },
+    {
+      "pass": true,
+      "label": "Result link is a real product",
+      "theme": "light",
+      "width": 390,
+      "flow": "men",
+      "id": "10314005020737",
+      "url": "/products/charme-envoutant"
+    },
+    {
+      "pass": true,
+      "label": "Collection filter excludes other collection",
+      "theme": "light",
+      "width": 390,
+      "flow": "men",
+      "handle": "charme-envoutant"
+    },
+    {
+      "pass": true,
+      "label": "Live price and availability display preserved",
+      "theme": "light",
+      "width": 390,
+      "flow": "men",
+      "handle": "charme-envoutant",
+      "price": "\u20b1799.00",
+      "badge": "SOLD OUT"
+    },
+    {
+      "pass": true,
+      "label": "Sold-out badge matches catalog snapshot",
+      "theme": "light",
+      "width": 390,
+      "flow": "men",
+      "handle": "charme-envoutant"
+    },
+    {
+      "pass": true,
+      "label": "Reset clears answers and returns to collection",
+      "theme": "light",
+      "width": 390,
+      "flow": "men"
+    },
+    {
+      "pass": true,
+      "label": "Reset focuses first question",
+      "theme": "light",
+      "width": 390,
+      "flow": "men"
+    },
+    {
+      "pass": true,
+      "label": "No JavaScript page errors",
+      "theme": "light",
+      "width": 390,
+      "flow": "men",
+      "errors": []
+    },
+    {
+      "pass": true,
+      "label": "Actual six-product catalog fallback rendered",
+      "theme": "light",
+      "width": 390,
+      "flow": "open"
+    },
+    {
+      "pass": true,
+      "label": "Real card bank contains six products",
+      "theme": "light",
+      "width": 390,
+      "flow": "open"
+    },
+    {
+      "pass": true,
+      "label": "Quiz has five questions",
+      "theme": "light",
+      "width": 390,
+      "flow": "open"
+    },
+    {
+      "pass": true,
+      "label": "Question order and key correct",
+      "theme": "light",
+      "width": 390,
+      "flow": "open",
+      "step": 1,
+      "actual": "collection",
+      "expected": "collection"
+    },
+    {
+      "pass": true,
+      "label": "Quiz has no horizontal or heading overflow",
+      "theme": "light",
+      "width": 390,
+      "flow": "open",
+      "step": 1,
+      "overflow": false,
+      "headingOverflow": [],
+      "focus": {
+        "tag": "BODY",
+        "question": false,
+        "result": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Focus moves to the new question/results heading",
+      "theme": "light",
+      "width": 390,
+      "flow": "open",
+      "step": 1,
+      "focus": {
+        "tag": "LEGEND",
+        "question": true,
+        "result": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Question order and key correct",
+      "theme": "light",
+      "width": 390,
+      "flow": "open",
+      "step": 2,
+      "actual": "mood",
+      "expected": "mood"
+    },
+    {
+      "pass": true,
+      "label": "Quiz has no horizontal or heading overflow",
+      "theme": "light",
+      "width": 390,
+      "flow": "open",
+      "step": 2,
+      "overflow": false,
+      "headingOverflow": [],
+      "focus": {
+        "tag": "LEGEND",
+        "question": true,
+        "result": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Focus moves to the new question/results heading",
+      "theme": "light",
+      "width": 390,
+      "flow": "open",
+      "step": 2,
+      "focus": {
+        "tag": "LEGEND",
+        "question": true,
+        "result": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Question order and key correct",
+      "theme": "light",
+      "width": 390,
+      "flow": "open",
+      "step": 3,
+      "actual": "character",
+      "expected": "character"
+    },
+    {
+      "pass": true,
+      "label": "Quiz has no horizontal or heading overflow",
+      "theme": "light",
+      "width": 390,
+      "flow": "open",
+      "step": 3,
+      "overflow": false,
+      "headingOverflow": [],
+      "focus": {
+        "tag": "LEGEND",
+        "question": true,
+        "result": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Focus moves to the new question/results heading",
+      "theme": "light",
+      "width": 390,
+      "flow": "open",
+      "step": 3,
+      "focus": {
+        "tag": "LEGEND",
+        "question": true,
+        "result": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Question order and key correct",
+      "theme": "light",
+      "width": 390,
+      "flow": "open",
+      "step": 4,
+      "actual": "occasion",
+      "expected": "occasion"
+    },
+    {
+      "pass": true,
+      "label": "Quiz has no horizontal or heading overflow",
+      "theme": "light",
+      "width": 390,
+      "flow": "open",
+      "step": 4,
+      "overflow": false,
+      "headingOverflow": [],
+      "focus": {
+        "tag": "LEGEND",
+        "question": true,
+        "result": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Focus moves to the new question/results heading",
+      "theme": "light",
+      "width": 390,
+      "flow": "open",
+      "step": 4,
+      "focus": {
+        "tag": "LEGEND",
+        "question": true,
+        "result": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Question order and key correct",
+      "theme": "light",
+      "width": 390,
+      "flow": "open",
+      "step": 5,
+      "actual": "intensity",
+      "expected": "intensity"
+    },
+    {
+      "pass": true,
+      "label": "Quiz has no horizontal or heading overflow",
+      "theme": "light",
+      "width": 390,
+      "flow": "open",
+      "step": 5,
+      "overflow": false,
+      "headingOverflow": [],
+      "focus": {
+        "tag": "LEGEND",
+        "question": true,
+        "result": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Focus moves to the new question/results heading",
+      "theme": "light",
+      "width": 390,
+      "flow": "open",
+      "step": 5,
+      "focus": {
+        "tag": "H2",
+        "question": false,
+        "result": true
+      }
+    },
+    {
+      "pass": true,
+      "label": "Results contain real product cards",
+      "theme": "light",
+      "width": 390,
+      "flow": "open"
+    },
+    {
+      "pass": true,
+      "label": "Results have no horizontal or heading overflow",
+      "theme": "light",
+      "width": 390,
+      "flow": "open"
+    },
+    {
+      "pass": true,
+      "label": "Result link is a real product",
+      "theme": "light",
+      "width": 390,
+      "flow": "open",
+      "id": "10314865016897",
+      "url": "/products/mistened-narcissus"
+    },
+    {
+      "pass": true,
+      "label": "Live price and availability display preserved",
+      "theme": "light",
+      "width": 390,
+      "flow": "open",
+      "handle": "mistened-narcissus",
+      "price": "\u20b1799.00",
+      "badge": "SOLD OUT"
+    },
+    {
+      "pass": true,
+      "label": "Sold-out badge matches catalog snapshot",
+      "theme": "light",
+      "width": 390,
+      "flow": "open",
+      "handle": "mistened-narcissus"
+    },
+    {
+      "pass": true,
+      "label": "Result link is a real product",
+      "theme": "light",
+      "width": 390,
+      "flow": "open",
+      "id": "10314869571649",
+      "url": "/products/mojito-metallique"
+    },
+    {
+      "pass": true,
+      "label": "Live price and availability display preserved",
+      "theme": "light",
+      "width": 390,
+      "flow": "open",
+      "handle": "mojito-metallique",
+      "price": "\u20b1799.00\u20b11,099.00",
+      "badge": "SOLD OUT"
+    },
+    {
+      "pass": true,
+      "label": "Sold-out badge matches catalog snapshot",
+      "theme": "light",
+      "width": 390,
+      "flow": "open",
+      "handle": "mojito-metallique"
+    },
+    {
+      "pass": true,
+      "label": "Result link is a real product",
+      "theme": "light",
+      "width": 390,
+      "flow": "open",
+      "id": "10314005020737",
+      "url": "/products/charme-envoutant"
+    },
+    {
+      "pass": true,
+      "label": "Live price and availability display preserved",
+      "theme": "light",
+      "width": 390,
+      "flow": "open",
+      "handle": "charme-envoutant",
+      "price": "\u20b1799.00",
+      "badge": "SOLD OUT"
+    },
+    {
+      "pass": true,
+      "label": "Sold-out badge matches catalog snapshot",
+      "theme": "light",
+      "width": 390,
+      "flow": "open",
+      "handle": "charme-envoutant"
+    },
+    {
+      "pass": true,
+      "label": "Reset clears answers and returns to collection",
+      "theme": "light",
+      "width": 390,
+      "flow": "open"
+    },
+    {
+      "pass": true,
+      "label": "Reset focuses first question",
+      "theme": "light",
+      "width": 390,
+      "flow": "open"
+    },
+    {
+      "pass": true,
+      "label": "No JavaScript page errors",
+      "theme": "light",
+      "width": 390,
+      "flow": "open",
+      "errors": []
+    },
+    {
+      "pass": true,
+      "label": "Actual six-product catalog fallback rendered",
+      "theme": "light",
+      "width": 390,
+      "flow": "skip"
+    },
+    {
+      "pass": true,
+      "label": "Real card bank contains six products",
+      "theme": "light",
+      "width": 390,
+      "flow": "skip"
+    },
+    {
+      "pass": true,
+      "label": "Quiz has five questions",
+      "theme": "light",
+      "width": 390,
+      "flow": "skip"
+    },
+    {
+      "pass": true,
+      "label": "Question order and key correct",
+      "theme": "light",
+      "width": 390,
+      "flow": "skip",
+      "step": 1,
+      "actual": "collection",
+      "expected": "collection"
+    },
+    {
+      "pass": true,
+      "label": "Quiz has no horizontal or heading overflow",
+      "theme": "light",
+      "width": 390,
+      "flow": "skip",
+      "step": 1,
+      "overflow": false,
+      "headingOverflow": [],
+      "focus": {
+        "tag": "BODY",
+        "question": false,
+        "result": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Focus moves to the new question/results heading",
+      "theme": "light",
+      "width": 390,
+      "flow": "skip",
+      "step": 1,
+      "focus": {
+        "tag": "LEGEND",
+        "question": true,
+        "result": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Question order and key correct",
+      "theme": "light",
+      "width": 390,
+      "flow": "skip",
+      "step": 2,
+      "actual": "mood",
+      "expected": "mood"
+    },
+    {
+      "pass": true,
+      "label": "Quiz has no horizontal or heading overflow",
+      "theme": "light",
+      "width": 390,
+      "flow": "skip",
+      "step": 2,
+      "overflow": false,
+      "headingOverflow": [],
+      "focus": {
+        "tag": "LEGEND",
+        "question": true,
+        "result": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Focus moves to the new question/results heading",
+      "theme": "light",
+      "width": 390,
+      "flow": "skip",
+      "step": 2,
+      "focus": {
+        "tag": "LEGEND",
+        "question": true,
+        "result": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Question order and key correct",
+      "theme": "light",
+      "width": 390,
+      "flow": "skip",
+      "step": 3,
+      "actual": "character",
+      "expected": "character"
+    },
+    {
+      "pass": true,
+      "label": "Quiz has no horizontal or heading overflow",
+      "theme": "light",
+      "width": 390,
+      "flow": "skip",
+      "step": 3,
+      "overflow": false,
+      "headingOverflow": [],
+      "focus": {
+        "tag": "LEGEND",
+        "question": true,
+        "result": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Focus moves to the new question/results heading",
+      "theme": "light",
+      "width": 390,
+      "flow": "skip",
+      "step": 3,
+      "focus": {
+        "tag": "LEGEND",
+        "question": true,
+        "result": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Question order and key correct",
+      "theme": "light",
+      "width": 390,
+      "flow": "skip",
+      "step": 4,
+      "actual": "occasion",
+      "expected": "occasion"
+    },
+    {
+      "pass": true,
+      "label": "Quiz has no horizontal or heading overflow",
+      "theme": "light",
+      "width": 390,
+      "flow": "skip",
+      "step": 4,
+      "overflow": false,
+      "headingOverflow": [],
+      "focus": {
+        "tag": "LEGEND",
+        "question": true,
+        "result": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Focus moves to the new question/results heading",
+      "theme": "light",
+      "width": 390,
+      "flow": "skip",
+      "step": 4,
+      "focus": {
+        "tag": "LEGEND",
+        "question": true,
+        "result": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Question order and key correct",
+      "theme": "light",
+      "width": 390,
+      "flow": "skip",
+      "step": 5,
+      "actual": "intensity",
+      "expected": "intensity"
+    },
+    {
+      "pass": true,
+      "label": "Quiz has no horizontal or heading overflow",
+      "theme": "light",
+      "width": 390,
+      "flow": "skip",
+      "step": 5,
+      "overflow": false,
+      "headingOverflow": [],
+      "focus": {
+        "tag": "LEGEND",
+        "question": true,
+        "result": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Focus moves to the new question/results heading",
+      "theme": "light",
+      "width": 390,
+      "flow": "skip",
+      "step": 5,
+      "focus": {
+        "tag": "H2",
+        "question": false,
+        "result": true
+      }
+    },
+    {
+      "pass": true,
+      "label": "Results contain real product cards",
+      "theme": "light",
+      "width": 390,
+      "flow": "skip"
+    },
+    {
+      "pass": true,
+      "label": "Results have no horizontal or heading overflow",
+      "theme": "light",
+      "width": 390,
+      "flow": "skip"
+    },
+    {
+      "pass": true,
+      "label": "Result link is a real product",
+      "theme": "light",
+      "width": 390,
+      "flow": "skip",
+      "id": "10314865016897",
+      "url": "/products/mistened-narcissus"
+    },
+    {
+      "pass": true,
+      "label": "Live price and availability display preserved",
+      "theme": "light",
+      "width": 390,
+      "flow": "skip",
+      "handle": "mistened-narcissus",
+      "price": "\u20b1799.00",
+      "badge": "SOLD OUT"
+    },
+    {
+      "pass": true,
+      "label": "Sold-out badge matches catalog snapshot",
+      "theme": "light",
+      "width": 390,
+      "flow": "skip",
+      "handle": "mistened-narcissus"
+    },
+    {
+      "pass": true,
+      "label": "Result link is a real product",
+      "theme": "light",
+      "width": 390,
+      "flow": "skip",
+      "id": "10314853515329",
+      "url": "/products/oud-mirage"
+    },
+    {
+      "pass": true,
+      "label": "Live price and availability display preserved",
+      "theme": "light",
+      "width": 390,
+      "flow": "skip",
+      "handle": "oud-mirage",
+      "price": "\u20b1799.00",
+      "badge": "SOLD OUT"
+    },
+    {
+      "pass": true,
+      "label": "Sold-out badge matches catalog snapshot",
+      "theme": "light",
+      "width": 390,
+      "flow": "skip",
+      "handle": "oud-mirage"
+    },
+    {
+      "pass": true,
+      "label": "Result link is a real product",
+      "theme": "light",
+      "width": 390,
+      "flow": "skip",
+      "id": "10314853449793",
+      "url": "/products/rtulle-satin"
+    },
+    {
+      "pass": true,
+      "label": "Live price and availability display preserved",
+      "theme": "light",
+      "width": 390,
+      "flow": "skip",
+      "handle": "rtulle-satin",
+      "price": "\u20b1799.00",
+      "badge": "SOLD OUT"
+    },
+    {
+      "pass": true,
+      "label": "Sold-out badge matches catalog snapshot",
+      "theme": "light",
+      "width": 390,
+      "flow": "skip",
+      "handle": "rtulle-satin"
+    },
+    {
+      "pass": true,
+      "label": "All-skipped results honestly describe discovery",
+      "theme": "light",
+      "width": 390,
+      "flow": "skip"
+    },
+    {
+      "pass": true,
+      "label": "Reset clears answers and returns to collection",
+      "theme": "light",
+      "width": 390,
+      "flow": "skip"
+    },
+    {
+      "pass": true,
+      "label": "Reset focuses first question",
+      "theme": "light",
+      "width": 390,
+      "flow": "skip"
+    },
+    {
+      "pass": true,
+      "label": "No JavaScript page errors",
+      "theme": "light",
+      "width": 390,
+      "flow": "skip",
+      "errors": []
+    },
+    {
+      "pass": true,
+      "label": "Actual six-product catalog fallback rendered",
+      "theme": "dark",
+      "width": 1440,
+      "flow": "women"
+    },
+    {
+      "pass": true,
+      "label": "Real card bank contains six products",
+      "theme": "dark",
+      "width": 1440,
+      "flow": "women"
+    },
+    {
+      "pass": true,
+      "label": "Quiz has five questions",
+      "theme": "dark",
+      "width": 1440,
+      "flow": "women"
+    },
+    {
+      "pass": true,
+      "label": "quiz",
+      "theme": "dark",
+      "width": 1440,
+      "flow": "women",
+      "violations": 0
+    },
+    {
+      "pass": true,
+      "label": "Question order and key correct",
+      "theme": "dark",
+      "width": 1440,
+      "flow": "women",
+      "step": 1,
+      "actual": "collection",
+      "expected": "collection"
+    },
+    {
+      "pass": true,
+      "label": "Quiz has no horizontal or heading overflow",
+      "theme": "dark",
+      "width": 1440,
+      "flow": "women",
+      "step": 1,
+      "overflow": false,
+      "headingOverflow": [],
+      "focus": {
+        "tag": "BODY",
+        "question": false,
+        "result": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Focus moves to the new question/results heading",
+      "theme": "dark",
+      "width": 1440,
+      "flow": "women",
+      "step": 1,
+      "focus": {
+        "tag": "LEGEND",
+        "question": true,
+        "result": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Question order and key correct",
+      "theme": "dark",
+      "width": 1440,
+      "flow": "women",
+      "step": 2,
+      "actual": "mood",
+      "expected": "mood"
+    },
+    {
+      "pass": true,
+      "label": "Quiz has no horizontal or heading overflow",
+      "theme": "dark",
+      "width": 1440,
+      "flow": "women",
+      "step": 2,
+      "overflow": false,
+      "headingOverflow": [],
+      "focus": {
+        "tag": "LEGEND",
+        "question": true,
+        "result": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Focus moves to the new question/results heading",
+      "theme": "dark",
+      "width": 1440,
+      "flow": "women",
+      "step": 2,
+      "focus": {
+        "tag": "LEGEND",
+        "question": true,
+        "result": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Back preserves mood selection",
+      "theme": "dark",
+      "width": 1440,
+      "flow": "women"
+    },
+    {
+      "pass": true,
+      "label": "Back preserves collection selection",
+      "theme": "dark",
+      "width": 1440,
+      "flow": "women"
+    },
+    {
+      "pass": true,
+      "label": "Forward preserves prior answer",
+      "theme": "dark",
+      "width": 1440,
+      "flow": "women"
+    },
+    {
+      "pass": true,
+      "label": "Question order and key correct",
+      "theme": "dark",
+      "width": 1440,
+      "flow": "women",
+      "step": 3,
+      "actual": "character",
+      "expected": "character"
+    },
+    {
+      "pass": true,
+      "label": "Quiz has no horizontal or heading overflow",
+      "theme": "dark",
+      "width": 1440,
+      "flow": "women",
+      "step": 3,
+      "overflow": false,
+      "headingOverflow": [],
+      "focus": {
+        "tag": "LEGEND",
+        "question": true,
+        "result": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Focus moves to the new question/results heading",
+      "theme": "dark",
+      "width": 1440,
+      "flow": "women",
+      "step": 3,
+      "focus": {
+        "tag": "LEGEND",
+        "question": true,
+        "result": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Question order and key correct",
+      "theme": "dark",
+      "width": 1440,
+      "flow": "women",
+      "step": 4,
+      "actual": "occasion",
+      "expected": "occasion"
+    },
+    {
+      "pass": true,
+      "label": "Quiz has no horizontal or heading overflow",
+      "theme": "dark",
+      "width": 1440,
+      "flow": "women",
+      "step": 4,
+      "overflow": false,
+      "headingOverflow": [],
+      "focus": {
+        "tag": "LEGEND",
+        "question": true,
+        "result": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Focus moves to the new question/results heading",
+      "theme": "dark",
+      "width": 1440,
+      "flow": "women",
+      "step": 4,
+      "focus": {
+        "tag": "LEGEND",
+        "question": true,
+        "result": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Question order and key correct",
+      "theme": "dark",
+      "width": 1440,
+      "flow": "women",
+      "step": 5,
+      "actual": "intensity",
+      "expected": "intensity"
+    },
+    {
+      "pass": true,
+      "label": "Quiz has no horizontal or heading overflow",
+      "theme": "dark",
+      "width": 1440,
+      "flow": "women",
+      "step": 5,
+      "overflow": false,
+      "headingOverflow": [],
+      "focus": {
+        "tag": "LEGEND",
+        "question": true,
+        "result": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Focus moves to the new question/results heading",
+      "theme": "dark",
+      "width": 1440,
+      "flow": "women",
+      "step": 5,
+      "focus": {
+        "tag": "H2",
+        "question": false,
+        "result": true
+      }
+    },
+    {
+      "pass": true,
+      "label": "Results contain real product cards",
+      "theme": "dark",
+      "width": 1440,
+      "flow": "women"
+    },
+    {
+      "pass": true,
+      "label": "Results have no horizontal or heading overflow",
+      "theme": "dark",
+      "width": 1440,
+      "flow": "women"
+    },
+    {
+      "pass": true,
+      "label": "Result link is a real product",
+      "theme": "dark",
+      "width": 1440,
+      "flow": "women",
+      "id": "10314865016897",
+      "url": "/products/mistened-narcissus"
+    },
+    {
+      "pass": true,
+      "label": "Collection filter excludes other collection",
+      "theme": "dark",
+      "width": 1440,
+      "flow": "women",
+      "handle": "mistened-narcissus"
+    },
+    {
+      "pass": true,
+      "label": "Live price and availability display preserved",
+      "theme": "dark",
+      "width": 1440,
+      "flow": "women",
+      "handle": "mistened-narcissus",
+      "price": "\u20b1799.00",
+      "badge": "SOLD OUT"
+    },
+    {
+      "pass": true,
+      "label": "Sold-out badge matches catalog snapshot",
+      "theme": "dark",
+      "width": 1440,
+      "flow": "women",
+      "handle": "mistened-narcissus"
+    },
+    {
+      "pass": true,
+      "label": "Result link is a real product",
+      "theme": "dark",
+      "width": 1440,
+      "flow": "women",
+      "id": "10314869571649",
+      "url": "/products/mojito-metallique"
+    },
+    {
+      "pass": true,
+      "label": "Collection filter excludes other collection",
+      "theme": "dark",
+      "width": 1440,
+      "flow": "women",
+      "handle": "mojito-metallique"
+    },
+    {
+      "pass": true,
+      "label": "Live price and availability display preserved",
+      "theme": "dark",
+      "width": 1440,
+      "flow": "women",
+      "handle": "mojito-metallique",
+      "price": "\u20b1799.00\n\u20b11,099.00",
+      "badge": "SOLD OUT"
+    },
+    {
+      "pass": true,
+      "label": "Sold-out badge matches catalog snapshot",
+      "theme": "dark",
+      "width": 1440,
+      "flow": "women",
+      "handle": "mojito-metallique"
+    },
+    {
+      "pass": true,
+      "label": "Result link is a real product",
+      "theme": "dark",
+      "width": 1440,
+      "flow": "women",
+      "id": "10314853417025",
+      "url": "/products/amber-oud-silk"
+    },
+    {
+      "pass": true,
+      "label": "Collection filter excludes other collection",
+      "theme": "dark",
+      "width": 1440,
+      "flow": "women",
+      "handle": "amber-oud-silk"
+    },
+    {
+      "pass": true,
+      "label": "Live price and availability display preserved",
+      "theme": "dark",
+      "width": 1440,
+      "flow": "women",
+      "handle": "amber-oud-silk",
+      "price": "\u20b1799.00",
+      "badge": "SOLD OUT"
+    },
+    {
+      "pass": true,
+      "label": "Sold-out badge matches catalog snapshot",
+      "theme": "dark",
+      "width": 1440,
+      "flow": "women",
+      "handle": "amber-oud-silk"
+    },
+    {
+      "pass": true,
+      "label": "results",
+      "theme": "dark",
+      "width": 1440,
+      "flow": "women",
+      "violations": 0
+    },
+    {
+      "pass": true,
+      "label": "Reset clears answers and returns to collection",
+      "theme": "dark",
+      "width": 1440,
+      "flow": "women"
+    },
+    {
+      "pass": true,
+      "label": "Reset focuses first question",
+      "theme": "dark",
+      "width": 1440,
+      "flow": "women"
+    },
+    {
+      "pass": true,
+      "label": "No JavaScript page errors",
+      "theme": "dark",
+      "width": 1440,
+      "flow": "women",
+      "errors": []
+    },
+    {
+      "pass": true,
+      "label": "Actual six-product catalog fallback rendered",
+      "theme": "dark",
+      "width": 1440,
+      "flow": "men"
+    },
+    {
+      "pass": true,
+      "label": "Real card bank contains six products",
+      "theme": "dark",
+      "width": 1440,
+      "flow": "men"
+    },
+    {
+      "pass": true,
+      "label": "Quiz has five questions",
+      "theme": "dark",
+      "width": 1440,
+      "flow": "men"
+    },
+    {
+      "pass": true,
+      "label": "Question order and key correct",
+      "theme": "dark",
+      "width": 1440,
+      "flow": "men",
+      "step": 1,
+      "actual": "collection",
+      "expected": "collection"
+    },
+    {
+      "pass": true,
+      "label": "Quiz has no horizontal or heading overflow",
+      "theme": "dark",
+      "width": 1440,
+      "flow": "men",
+      "step": 1,
+      "overflow": false,
+      "headingOverflow": [],
+      "focus": {
+        "tag": "BODY",
+        "question": false,
+        "result": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Focus moves to the new question/results heading",
+      "theme": "dark",
+      "width": 1440,
+      "flow": "men",
+      "step": 1,
+      "focus": {
+        "tag": "LEGEND",
+        "question": true,
+        "result": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Question order and key correct",
+      "theme": "dark",
+      "width": 1440,
+      "flow": "men",
+      "step": 2,
+      "actual": "mood",
+      "expected": "mood"
+    },
+    {
+      "pass": true,
+      "label": "Quiz has no horizontal or heading overflow",
+      "theme": "dark",
+      "width": 1440,
+      "flow": "men",
+      "step": 2,
+      "overflow": false,
+      "headingOverflow": [],
+      "focus": {
+        "tag": "LEGEND",
+        "question": true,
+        "result": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Focus moves to the new question/results heading",
+      "theme": "dark",
+      "width": 1440,
+      "flow": "men",
+      "step": 2,
+      "focus": {
+        "tag": "LEGEND",
+        "question": true,
+        "result": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Question order and key correct",
+      "theme": "dark",
+      "width": 1440,
+      "flow": "men",
+      "step": 3,
+      "actual": "character",
+      "expected": "character"
+    },
+    {
+      "pass": true,
+      "label": "Quiz has no horizontal or heading overflow",
+      "theme": "dark",
+      "width": 1440,
+      "flow": "men",
+      "step": 3,
+      "overflow": false,
+      "headingOverflow": [],
+      "focus": {
+        "tag": "LEGEND",
+        "question": true,
+        "result": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Focus moves to the new question/results heading",
+      "theme": "dark",
+      "width": 1440,
+      "flow": "men",
+      "step": 3,
+      "focus": {
+        "tag": "LEGEND",
+        "question": true,
+        "result": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Question order and key correct",
+      "theme": "dark",
+      "width": 1440,
+      "flow": "men",
+      "step": 4,
+      "actual": "occasion",
+      "expected": "occasion"
+    },
+    {
+      "pass": true,
+      "label": "Quiz has no horizontal or heading overflow",
+      "theme": "dark",
+      "width": 1440,
+      "flow": "men",
+      "step": 4,
+      "overflow": false,
+      "headingOverflow": [],
+      "focus": {
+        "tag": "LEGEND",
+        "question": true,
+        "result": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Focus moves to the new question/results heading",
+      "theme": "dark",
+      "width": 1440,
+      "flow": "men",
+      "step": 4,
+      "focus": {
+        "tag": "LEGEND",
+        "question": true,
+        "result": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Question order and key correct",
+      "theme": "dark",
+      "width": 1440,
+      "flow": "men",
+      "step": 5,
+      "actual": "intensity",
+      "expected": "intensity"
+    },
+    {
+      "pass": true,
+      "label": "Quiz has no horizontal or heading overflow",
+      "theme": "dark",
+      "width": 1440,
+      "flow": "men",
+      "step": 5,
+      "overflow": false,
+      "headingOverflow": [],
+      "focus": {
+        "tag": "LEGEND",
+        "question": true,
+        "result": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Focus moves to the new question/results heading",
+      "theme": "dark",
+      "width": 1440,
+      "flow": "men",
+      "step": 5,
+      "focus": {
+        "tag": "H2",
+        "question": false,
+        "result": true
+      }
+    },
+    {
+      "pass": true,
+      "label": "Results contain real product cards",
+      "theme": "dark",
+      "width": 1440,
+      "flow": "men"
+    },
+    {
+      "pass": true,
+      "label": "Results have no horizontal or heading overflow",
+      "theme": "dark",
+      "width": 1440,
+      "flow": "men"
+    },
+    {
+      "pass": true,
+      "label": "Result link is a real product",
+      "theme": "dark",
+      "width": 1440,
+      "flow": "men",
+      "id": "10314853515329",
+      "url": "/products/oud-mirage"
+    },
+    {
+      "pass": true,
+      "label": "Collection filter excludes other collection",
+      "theme": "dark",
+      "width": 1440,
+      "flow": "men",
+      "handle": "oud-mirage"
+    },
+    {
+      "pass": true,
+      "label": "Live price and availability display preserved",
+      "theme": "dark",
+      "width": 1440,
+      "flow": "men",
+      "handle": "oud-mirage",
+      "price": "\u20b1799.00",
+      "badge": "SOLD OUT"
+    },
+    {
+      "pass": true,
+      "label": "Sold-out badge matches catalog snapshot",
+      "theme": "dark",
+      "width": 1440,
+      "flow": "men",
+      "handle": "oud-mirage"
+    },
+    {
+      "pass": true,
+      "label": "Result link is a real product",
+      "theme": "dark",
+      "width": 1440,
+      "flow": "men",
+      "id": "10314005020737",
+      "url": "/products/charme-envoutant"
+    },
+    {
+      "pass": true,
+      "label": "Collection filter excludes other collection",
+      "theme": "dark",
+      "width": 1440,
+      "flow": "men",
+      "handle": "charme-envoutant"
+    },
+    {
+      "pass": true,
+      "label": "Live price and availability display preserved",
+      "theme": "dark",
+      "width": 1440,
+      "flow": "men",
+      "handle": "charme-envoutant",
+      "price": "\u20b1799.00",
+      "badge": "SOLD OUT"
+    },
+    {
+      "pass": true,
+      "label": "Sold-out badge matches catalog snapshot",
+      "theme": "dark",
+      "width": 1440,
+      "flow": "men",
+      "handle": "charme-envoutant"
+    },
+    {
+      "pass": true,
+      "label": "Reset clears answers and returns to collection",
+      "theme": "dark",
+      "width": 1440,
+      "flow": "men"
+    },
+    {
+      "pass": true,
+      "label": "Reset focuses first question",
+      "theme": "dark",
+      "width": 1440,
+      "flow": "men"
+    },
+    {
+      "pass": true,
+      "label": "No JavaScript page errors",
+      "theme": "dark",
+      "width": 1440,
+      "flow": "men",
+      "errors": []
+    },
+    {
+      "pass": true,
+      "label": "Actual six-product catalog fallback rendered",
+      "theme": "dark",
+      "width": 1440,
+      "flow": "open"
+    },
+    {
+      "pass": true,
+      "label": "Real card bank contains six products",
+      "theme": "dark",
+      "width": 1440,
+      "flow": "open"
+    },
+    {
+      "pass": true,
+      "label": "Quiz has five questions",
+      "theme": "dark",
+      "width": 1440,
+      "flow": "open"
+    },
+    {
+      "pass": true,
+      "label": "Question order and key correct",
+      "theme": "dark",
+      "width": 1440,
+      "flow": "open",
+      "step": 1,
+      "actual": "collection",
+      "expected": "collection"
+    },
+    {
+      "pass": true,
+      "label": "Quiz has no horizontal or heading overflow",
+      "theme": "dark",
+      "width": 1440,
+      "flow": "open",
+      "step": 1,
+      "overflow": false,
+      "headingOverflow": [],
+      "focus": {
+        "tag": "BODY",
+        "question": false,
+        "result": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Focus moves to the new question/results heading",
+      "theme": "dark",
+      "width": 1440,
+      "flow": "open",
+      "step": 1,
+      "focus": {
+        "tag": "LEGEND",
+        "question": true,
+        "result": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Question order and key correct",
+      "theme": "dark",
+      "width": 1440,
+      "flow": "open",
+      "step": 2,
+      "actual": "mood",
+      "expected": "mood"
+    },
+    {
+      "pass": true,
+      "label": "Quiz has no horizontal or heading overflow",
+      "theme": "dark",
+      "width": 1440,
+      "flow": "open",
+      "step": 2,
+      "overflow": false,
+      "headingOverflow": [],
+      "focus": {
+        "tag": "LEGEND",
+        "question": true,
+        "result": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Focus moves to the new question/results heading",
+      "theme": "dark",
+      "width": 1440,
+      "flow": "open",
+      "step": 2,
+      "focus": {
+        "tag": "LEGEND",
+        "question": true,
+        "result": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Question order and key correct",
+      "theme": "dark",
+      "width": 1440,
+      "flow": "open",
+      "step": 3,
+      "actual": "character",
+      "expected": "character"
+    },
+    {
+      "pass": true,
+      "label": "Quiz has no horizontal or heading overflow",
+      "theme": "dark",
+      "width": 1440,
+      "flow": "open",
+      "step": 3,
+      "overflow": false,
+      "headingOverflow": [],
+      "focus": {
+        "tag": "LEGEND",
+        "question": true,
+        "result": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Focus moves to the new question/results heading",
+      "theme": "dark",
+      "width": 1440,
+      "flow": "open",
+      "step": 3,
+      "focus": {
+        "tag": "LEGEND",
+        "question": true,
+        "result": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Question order and key correct",
+      "theme": "dark",
+      "width": 1440,
+      "flow": "open",
+      "step": 4,
+      "actual": "occasion",
+      "expected": "occasion"
+    },
+    {
+      "pass": true,
+      "label": "Quiz has no horizontal or heading overflow",
+      "theme": "dark",
+      "width": 1440,
+      "flow": "open",
+      "step": 4,
+      "overflow": false,
+      "headingOverflow": [],
+      "focus": {
+        "tag": "LEGEND",
+        "question": true,
+        "result": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Focus moves to the new question/results heading",
+      "theme": "dark",
+      "width": 1440,
+      "flow": "open",
+      "step": 4,
+      "focus": {
+        "tag": "LEGEND",
+        "question": true,
+        "result": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Question order and key correct",
+      "theme": "dark",
+      "width": 1440,
+      "flow": "open",
+      "step": 5,
+      "actual": "intensity",
+      "expected": "intensity"
+    },
+    {
+      "pass": true,
+      "label": "Quiz has no horizontal or heading overflow",
+      "theme": "dark",
+      "width": 1440,
+      "flow": "open",
+      "step": 5,
+      "overflow": false,
+      "headingOverflow": [],
+      "focus": {
+        "tag": "LEGEND",
+        "question": true,
+        "result": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Focus moves to the new question/results heading",
+      "theme": "dark",
+      "width": 1440,
+      "flow": "open",
+      "step": 5,
+      "focus": {
+        "tag": "H2",
+        "question": false,
+        "result": true
+      }
+    },
+    {
+      "pass": true,
+      "label": "Results contain real product cards",
+      "theme": "dark",
+      "width": 1440,
+      "flow": "open"
+    },
+    {
+      "pass": true,
+      "label": "Results have no horizontal or heading overflow",
+      "theme": "dark",
+      "width": 1440,
+      "flow": "open"
+    },
+    {
+      "pass": true,
+      "label": "Result link is a real product",
+      "theme": "dark",
+      "width": 1440,
+      "flow": "open",
+      "id": "10314865016897",
+      "url": "/products/mistened-narcissus"
+    },
+    {
+      "pass": true,
+      "label": "Live price and availability display preserved",
+      "theme": "dark",
+      "width": 1440,
+      "flow": "open",
+      "handle": "mistened-narcissus",
+      "price": "\u20b1799.00",
+      "badge": "SOLD OUT"
+    },
+    {
+      "pass": true,
+      "label": "Sold-out badge matches catalog snapshot",
+      "theme": "dark",
+      "width": 1440,
+      "flow": "open",
+      "handle": "mistened-narcissus"
+    },
+    {
+      "pass": true,
+      "label": "Result link is a real product",
+      "theme": "dark",
+      "width": 1440,
+      "flow": "open",
+      "id": "10314869571649",
+      "url": "/products/mojito-metallique"
+    },
+    {
+      "pass": true,
+      "label": "Live price and availability display preserved",
+      "theme": "dark",
+      "width": 1440,
+      "flow": "open",
+      "handle": "mojito-metallique",
+      "price": "\u20b1799.00\n\u20b11,099.00",
+      "badge": "SOLD OUT"
+    },
+    {
+      "pass": true,
+      "label": "Sold-out badge matches catalog snapshot",
+      "theme": "dark",
+      "width": 1440,
+      "flow": "open",
+      "handle": "mojito-metallique"
+    },
+    {
+      "pass": true,
+      "label": "Result link is a real product",
+      "theme": "dark",
+      "width": 1440,
+      "flow": "open",
+      "id": "10314005020737",
+      "url": "/products/charme-envoutant"
+    },
+    {
+      "pass": true,
+      "label": "Live price and availability display preserved",
+      "theme": "dark",
+      "width": 1440,
+      "flow": "open",
+      "handle": "charme-envoutant",
+      "price": "\u20b1799.00",
+      "badge": "SOLD OUT"
+    },
+    {
+      "pass": true,
+      "label": "Sold-out badge matches catalog snapshot",
+      "theme": "dark",
+      "width": 1440,
+      "flow": "open",
+      "handle": "charme-envoutant"
+    },
+    {
+      "pass": true,
+      "label": "Reset clears answers and returns to collection",
+      "theme": "dark",
+      "width": 1440,
+      "flow": "open"
+    },
+    {
+      "pass": true,
+      "label": "Reset focuses first question",
+      "theme": "dark",
+      "width": 1440,
+      "flow": "open"
+    },
+    {
+      "pass": true,
+      "label": "No JavaScript page errors",
+      "theme": "dark",
+      "width": 1440,
+      "flow": "open",
+      "errors": []
+    },
+    {
+      "pass": true,
+      "label": "Actual six-product catalog fallback rendered",
+      "theme": "dark",
+      "width": 1440,
+      "flow": "skip"
+    },
+    {
+      "pass": true,
+      "label": "Real card bank contains six products",
+      "theme": "dark",
+      "width": 1440,
+      "flow": "skip"
+    },
+    {
+      "pass": true,
+      "label": "Quiz has five questions",
+      "theme": "dark",
+      "width": 1440,
+      "flow": "skip"
+    },
+    {
+      "pass": true,
+      "label": "Question order and key correct",
+      "theme": "dark",
+      "width": 1440,
+      "flow": "skip",
+      "step": 1,
+      "actual": "collection",
+      "expected": "collection"
+    },
+    {
+      "pass": true,
+      "label": "Quiz has no horizontal or heading overflow",
+      "theme": "dark",
+      "width": 1440,
+      "flow": "skip",
+      "step": 1,
+      "overflow": false,
+      "headingOverflow": [],
+      "focus": {
+        "tag": "BODY",
+        "question": false,
+        "result": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Focus moves to the new question/results heading",
+      "theme": "dark",
+      "width": 1440,
+      "flow": "skip",
+      "step": 1,
+      "focus": {
+        "tag": "LEGEND",
+        "question": true,
+        "result": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Question order and key correct",
+      "theme": "dark",
+      "width": 1440,
+      "flow": "skip",
+      "step": 2,
+      "actual": "mood",
+      "expected": "mood"
+    },
+    {
+      "pass": true,
+      "label": "Quiz has no horizontal or heading overflow",
+      "theme": "dark",
+      "width": 1440,
+      "flow": "skip",
+      "step": 2,
+      "overflow": false,
+      "headingOverflow": [],
+      "focus": {
+        "tag": "LEGEND",
+        "question": true,
+        "result": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Focus moves to the new question/results heading",
+      "theme": "dark",
+      "width": 1440,
+      "flow": "skip",
+      "step": 2,
+      "focus": {
+        "tag": "LEGEND",
+        "question": true,
+        "result": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Question order and key correct",
+      "theme": "dark",
+      "width": 1440,
+      "flow": "skip",
+      "step": 3,
+      "actual": "character",
+      "expected": "character"
+    },
+    {
+      "pass": true,
+      "label": "Quiz has no horizontal or heading overflow",
+      "theme": "dark",
+      "width": 1440,
+      "flow": "skip",
+      "step": 3,
+      "overflow": false,
+      "headingOverflow": [],
+      "focus": {
+        "tag": "LEGEND",
+        "question": true,
+        "result": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Focus moves to the new question/results heading",
+      "theme": "dark",
+      "width": 1440,
+      "flow": "skip",
+      "step": 3,
+      "focus": {
+        "tag": "LEGEND",
+        "question": true,
+        "result": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Question order and key correct",
+      "theme": "dark",
+      "width": 1440,
+      "flow": "skip",
+      "step": 4,
+      "actual": "occasion",
+      "expected": "occasion"
+    },
+    {
+      "pass": true,
+      "label": "Quiz has no horizontal or heading overflow",
+      "theme": "dark",
+      "width": 1440,
+      "flow": "skip",
+      "step": 4,
+      "overflow": false,
+      "headingOverflow": [],
+      "focus": {
+        "tag": "LEGEND",
+        "question": true,
+        "result": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Focus moves to the new question/results heading",
+      "theme": "dark",
+      "width": 1440,
+      "flow": "skip",
+      "step": 4,
+      "focus": {
+        "tag": "LEGEND",
+        "question": true,
+        "result": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Question order and key correct",
+      "theme": "dark",
+      "width": 1440,
+      "flow": "skip",
+      "step": 5,
+      "actual": "intensity",
+      "expected": "intensity"
+    },
+    {
+      "pass": true,
+      "label": "Quiz has no horizontal or heading overflow",
+      "theme": "dark",
+      "width": 1440,
+      "flow": "skip",
+      "step": 5,
+      "overflow": false,
+      "headingOverflow": [],
+      "focus": {
+        "tag": "LEGEND",
+        "question": true,
+        "result": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Focus moves to the new question/results heading",
+      "theme": "dark",
+      "width": 1440,
+      "flow": "skip",
+      "step": 5,
+      "focus": {
+        "tag": "H2",
+        "question": false,
+        "result": true
+      }
+    },
+    {
+      "pass": true,
+      "label": "Results contain real product cards",
+      "theme": "dark",
+      "width": 1440,
+      "flow": "skip"
+    },
+    {
+      "pass": true,
+      "label": "Results have no horizontal or heading overflow",
+      "theme": "dark",
+      "width": 1440,
+      "flow": "skip"
+    },
+    {
+      "pass": true,
+      "label": "Result link is a real product",
+      "theme": "dark",
+      "width": 1440,
+      "flow": "skip",
+      "id": "10314865016897",
+      "url": "/products/mistened-narcissus"
+    },
+    {
+      "pass": true,
+      "label": "Live price and availability display preserved",
+      "theme": "dark",
+      "width": 1440,
+      "flow": "skip",
+      "handle": "mistened-narcissus",
+      "price": "\u20b1799.00",
+      "badge": "SOLD OUT"
+    },
+    {
+      "pass": true,
+      "label": "Sold-out badge matches catalog snapshot",
+      "theme": "dark",
+      "width": 1440,
+      "flow": "skip",
+      "handle": "mistened-narcissus"
+    },
+    {
+      "pass": true,
+      "label": "Result link is a real product",
+      "theme": "dark",
+      "width": 1440,
+      "flow": "skip",
+      "id": "10314853515329",
+      "url": "/products/oud-mirage"
+    },
+    {
+      "pass": true,
+      "label": "Live price and availability display preserved",
+      "theme": "dark",
+      "width": 1440,
+      "flow": "skip",
+      "handle": "oud-mirage",
+      "price": "\u20b1799.00",
+      "badge": "SOLD OUT"
+    },
+    {
+      "pass": true,
+      "label": "Sold-out badge matches catalog snapshot",
+      "theme": "dark",
+      "width": 1440,
+      "flow": "skip",
+      "handle": "oud-mirage"
+    },
+    {
+      "pass": true,
+      "label": "Result link is a real product",
+      "theme": "dark",
+      "width": 1440,
+      "flow": "skip",
+      "id": "10314853449793",
+      "url": "/products/rtulle-satin"
+    },
+    {
+      "pass": true,
+      "label": "Live price and availability display preserved",
+      "theme": "dark",
+      "width": 1440,
+      "flow": "skip",
+      "handle": "rtulle-satin",
+      "price": "\u20b1799.00",
+      "badge": "SOLD OUT"
+    },
+    {
+      "pass": true,
+      "label": "Sold-out badge matches catalog snapshot",
+      "theme": "dark",
+      "width": 1440,
+      "flow": "skip",
+      "handle": "rtulle-satin"
+    },
+    {
+      "pass": true,
+      "label": "All-skipped results honestly describe discovery",
+      "theme": "dark",
+      "width": 1440,
+      "flow": "skip"
+    },
+    {
+      "pass": true,
+      "label": "Reset clears answers and returns to collection",
+      "theme": "dark",
+      "width": 1440,
+      "flow": "skip"
+    },
+    {
+      "pass": true,
+      "label": "Reset focuses first question",
+      "theme": "dark",
+      "width": 1440,
+      "flow": "skip"
+    },
+    {
+      "pass": true,
+      "label": "No JavaScript page errors",
+      "theme": "dark",
+      "width": 1440,
+      "flow": "skip",
+      "errors": []
+    },
+    {
+      "pass": true,
+      "label": "Actual six-product catalog fallback rendered",
+      "theme": "dark",
+      "width": 390,
+      "flow": "women"
+    },
+    {
+      "pass": true,
+      "label": "Real card bank contains six products",
+      "theme": "dark",
+      "width": 390,
+      "flow": "women"
+    },
+    {
+      "pass": true,
+      "label": "Quiz has five questions",
+      "theme": "dark",
+      "width": 390,
+      "flow": "women"
+    },
+    {
+      "pass": true,
+      "label": "quiz",
+      "theme": "dark",
+      "width": 390,
+      "flow": "women",
+      "violations": 0
+    },
+    {
+      "pass": true,
+      "label": "Question order and key correct",
+      "theme": "dark",
+      "width": 390,
+      "flow": "women",
+      "step": 1,
+      "actual": "collection",
+      "expected": "collection"
+    },
+    {
+      "pass": true,
+      "label": "Quiz has no horizontal or heading overflow",
+      "theme": "dark",
+      "width": 390,
+      "flow": "women",
+      "step": 1,
+      "overflow": false,
+      "headingOverflow": [],
+      "focus": {
+        "tag": "BODY",
+        "question": false,
+        "result": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Focus moves to the new question/results heading",
+      "theme": "dark",
+      "width": 390,
+      "flow": "women",
+      "step": 1,
+      "focus": {
+        "tag": "LEGEND",
+        "question": true,
+        "result": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Question order and key correct",
+      "theme": "dark",
+      "width": 390,
+      "flow": "women",
+      "step": 2,
+      "actual": "mood",
+      "expected": "mood"
+    },
+    {
+      "pass": true,
+      "label": "Quiz has no horizontal or heading overflow",
+      "theme": "dark",
+      "width": 390,
+      "flow": "women",
+      "step": 2,
+      "overflow": false,
+      "headingOverflow": [],
+      "focus": {
+        "tag": "LEGEND",
+        "question": true,
+        "result": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Focus moves to the new question/results heading",
+      "theme": "dark",
+      "width": 390,
+      "flow": "women",
+      "step": 2,
+      "focus": {
+        "tag": "LEGEND",
+        "question": true,
+        "result": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Back preserves mood selection",
+      "theme": "dark",
+      "width": 390,
+      "flow": "women"
+    },
+    {
+      "pass": true,
+      "label": "Back preserves collection selection",
+      "theme": "dark",
+      "width": 390,
+      "flow": "women"
+    },
+    {
+      "pass": true,
+      "label": "Forward preserves prior answer",
+      "theme": "dark",
+      "width": 390,
+      "flow": "women"
+    },
+    {
+      "pass": true,
+      "label": "Question order and key correct",
+      "theme": "dark",
+      "width": 390,
+      "flow": "women",
+      "step": 3,
+      "actual": "character",
+      "expected": "character"
+    },
+    {
+      "pass": true,
+      "label": "Quiz has no horizontal or heading overflow",
+      "theme": "dark",
+      "width": 390,
+      "flow": "women",
+      "step": 3,
+      "overflow": false,
+      "headingOverflow": [],
+      "focus": {
+        "tag": "LEGEND",
+        "question": true,
+        "result": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Focus moves to the new question/results heading",
+      "theme": "dark",
+      "width": 390,
+      "flow": "women",
+      "step": 3,
+      "focus": {
+        "tag": "LEGEND",
+        "question": true,
+        "result": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Question order and key correct",
+      "theme": "dark",
+      "width": 390,
+      "flow": "women",
+      "step": 4,
+      "actual": "occasion",
+      "expected": "occasion"
+    },
+    {
+      "pass": true,
+      "label": "Quiz has no horizontal or heading overflow",
+      "theme": "dark",
+      "width": 390,
+      "flow": "women",
+      "step": 4,
+      "overflow": false,
+      "headingOverflow": [],
+      "focus": {
+        "tag": "LEGEND",
+        "question": true,
+        "result": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Focus moves to the new question/results heading",
+      "theme": "dark",
+      "width": 390,
+      "flow": "women",
+      "step": 4,
+      "focus": {
+        "tag": "LEGEND",
+        "question": true,
+        "result": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Question order and key correct",
+      "theme": "dark",
+      "width": 390,
+      "flow": "women",
+      "step": 5,
+      "actual": "intensity",
+      "expected": "intensity"
+    },
+    {
+      "pass": true,
+      "label": "Quiz has no horizontal or heading overflow",
+      "theme": "dark",
+      "width": 390,
+      "flow": "women",
+      "step": 5,
+      "overflow": false,
+      "headingOverflow": [],
+      "focus": {
+        "tag": "LEGEND",
+        "question": true,
+        "result": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Focus moves to the new question/results heading",
+      "theme": "dark",
+      "width": 390,
+      "flow": "women",
+      "step": 5,
+      "focus": {
+        "tag": "H2",
+        "question": false,
+        "result": true
+      }
+    },
+    {
+      "pass": true,
+      "label": "Results contain real product cards",
+      "theme": "dark",
+      "width": 390,
+      "flow": "women"
+    },
+    {
+      "pass": true,
+      "label": "Results have no horizontal or heading overflow",
+      "theme": "dark",
+      "width": 390,
+      "flow": "women"
+    },
+    {
+      "pass": true,
+      "label": "Result link is a real product",
+      "theme": "dark",
+      "width": 390,
+      "flow": "women",
+      "id": "10314865016897",
+      "url": "/products/mistened-narcissus"
+    },
+    {
+      "pass": true,
+      "label": "Collection filter excludes other collection",
+      "theme": "dark",
+      "width": 390,
+      "flow": "women",
+      "handle": "mistened-narcissus"
+    },
+    {
+      "pass": true,
+      "label": "Live price and availability display preserved",
+      "theme": "dark",
+      "width": 390,
+      "flow": "women",
+      "handle": "mistened-narcissus",
+      "price": "\u20b1799.00",
+      "badge": "SOLD OUT"
+    },
+    {
+      "pass": true,
+      "label": "Sold-out badge matches catalog snapshot",
+      "theme": "dark",
+      "width": 390,
+      "flow": "women",
+      "handle": "mistened-narcissus"
+    },
+    {
+      "pass": true,
+      "label": "Result link is a real product",
+      "theme": "dark",
+      "width": 390,
+      "flow": "women",
+      "id": "10314869571649",
+      "url": "/products/mojito-metallique"
+    },
+    {
+      "pass": true,
+      "label": "Collection filter excludes other collection",
+      "theme": "dark",
+      "width": 390,
+      "flow": "women",
+      "handle": "mojito-metallique"
+    },
+    {
+      "pass": true,
+      "label": "Live price and availability display preserved",
+      "theme": "dark",
+      "width": 390,
+      "flow": "women",
+      "handle": "mojito-metallique",
+      "price": "\u20b1799.00\u20b11,099.00",
+      "badge": "SOLD OUT"
+    },
+    {
+      "pass": true,
+      "label": "Sold-out badge matches catalog snapshot",
+      "theme": "dark",
+      "width": 390,
+      "flow": "women",
+      "handle": "mojito-metallique"
+    },
+    {
+      "pass": true,
+      "label": "Result link is a real product",
+      "theme": "dark",
+      "width": 390,
+      "flow": "women",
+      "id": "10314853417025",
+      "url": "/products/amber-oud-silk"
+    },
+    {
+      "pass": true,
+      "label": "Collection filter excludes other collection",
+      "theme": "dark",
+      "width": 390,
+      "flow": "women",
+      "handle": "amber-oud-silk"
+    },
+    {
+      "pass": true,
+      "label": "Live price and availability display preserved",
+      "theme": "dark",
+      "width": 390,
+      "flow": "women",
+      "handle": "amber-oud-silk",
+      "price": "\u20b1799.00",
+      "badge": "SOLD OUT"
+    },
+    {
+      "pass": true,
+      "label": "Sold-out badge matches catalog snapshot",
+      "theme": "dark",
+      "width": 390,
+      "flow": "women",
+      "handle": "amber-oud-silk"
+    },
+    {
+      "pass": true,
+      "label": "results",
+      "theme": "dark",
+      "width": 390,
+      "flow": "women",
+      "violations": 0
+    },
+    {
+      "pass": true,
+      "label": "Reset clears answers and returns to collection",
+      "theme": "dark",
+      "width": 390,
+      "flow": "women"
+    },
+    {
+      "pass": true,
+      "label": "Reset focuses first question",
+      "theme": "dark",
+      "width": 390,
+      "flow": "women"
+    },
+    {
+      "pass": true,
+      "label": "No JavaScript page errors",
+      "theme": "dark",
+      "width": 390,
+      "flow": "women",
+      "errors": []
+    },
+    {
+      "pass": true,
+      "label": "Actual six-product catalog fallback rendered",
+      "theme": "dark",
+      "width": 390,
+      "flow": "men"
+    },
+    {
+      "pass": true,
+      "label": "Real card bank contains six products",
+      "theme": "dark",
+      "width": 390,
+      "flow": "men"
+    },
+    {
+      "pass": true,
+      "label": "Quiz has five questions",
+      "theme": "dark",
+      "width": 390,
+      "flow": "men"
+    },
+    {
+      "pass": true,
+      "label": "Question order and key correct",
+      "theme": "dark",
+      "width": 390,
+      "flow": "men",
+      "step": 1,
+      "actual": "collection",
+      "expected": "collection"
+    },
+    {
+      "pass": true,
+      "label": "Quiz has no horizontal or heading overflow",
+      "theme": "dark",
+      "width": 390,
+      "flow": "men",
+      "step": 1,
+      "overflow": false,
+      "headingOverflow": [],
+      "focus": {
+        "tag": "BODY",
+        "question": false,
+        "result": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Focus moves to the new question/results heading",
+      "theme": "dark",
+      "width": 390,
+      "flow": "men",
+      "step": 1,
+      "focus": {
+        "tag": "LEGEND",
+        "question": true,
+        "result": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Question order and key correct",
+      "theme": "dark",
+      "width": 390,
+      "flow": "men",
+      "step": 2,
+      "actual": "mood",
+      "expected": "mood"
+    },
+    {
+      "pass": true,
+      "label": "Quiz has no horizontal or heading overflow",
+      "theme": "dark",
+      "width": 390,
+      "flow": "men",
+      "step": 2,
+      "overflow": false,
+      "headingOverflow": [],
+      "focus": {
+        "tag": "LEGEND",
+        "question": true,
+        "result": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Focus moves to the new question/results heading",
+      "theme": "dark",
+      "width": 390,
+      "flow": "men",
+      "step": 2,
+      "focus": {
+        "tag": "LEGEND",
+        "question": true,
+        "result": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Question order and key correct",
+      "theme": "dark",
+      "width": 390,
+      "flow": "men",
+      "step": 3,
+      "actual": "character",
+      "expected": "character"
+    },
+    {
+      "pass": true,
+      "label": "Quiz has no horizontal or heading overflow",
+      "theme": "dark",
+      "width": 390,
+      "flow": "men",
+      "step": 3,
+      "overflow": false,
+      "headingOverflow": [],
+      "focus": {
+        "tag": "LEGEND",
+        "question": true,
+        "result": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Focus moves to the new question/results heading",
+      "theme": "dark",
+      "width": 390,
+      "flow": "men",
+      "step": 3,
+      "focus": {
+        "tag": "LEGEND",
+        "question": true,
+        "result": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Question order and key correct",
+      "theme": "dark",
+      "width": 390,
+      "flow": "men",
+      "step": 4,
+      "actual": "occasion",
+      "expected": "occasion"
+    },
+    {
+      "pass": true,
+      "label": "Quiz has no horizontal or heading overflow",
+      "theme": "dark",
+      "width": 390,
+      "flow": "men",
+      "step": 4,
+      "overflow": false,
+      "headingOverflow": [],
+      "focus": {
+        "tag": "LEGEND",
+        "question": true,
+        "result": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Focus moves to the new question/results heading",
+      "theme": "dark",
+      "width": 390,
+      "flow": "men",
+      "step": 4,
+      "focus": {
+        "tag": "LEGEND",
+        "question": true,
+        "result": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Question order and key correct",
+      "theme": "dark",
+      "width": 390,
+      "flow": "men",
+      "step": 5,
+      "actual": "intensity",
+      "expected": "intensity"
+    },
+    {
+      "pass": true,
+      "label": "Quiz has no horizontal or heading overflow",
+      "theme": "dark",
+      "width": 390,
+      "flow": "men",
+      "step": 5,
+      "overflow": false,
+      "headingOverflow": [],
+      "focus": {
+        "tag": "LEGEND",
+        "question": true,
+        "result": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Focus moves to the new question/results heading",
+      "theme": "dark",
+      "width": 390,
+      "flow": "men",
+      "step": 5,
+      "focus": {
+        "tag": "H2",
+        "question": false,
+        "result": true
+      }
+    },
+    {
+      "pass": true,
+      "label": "Results contain real product cards",
+      "theme": "dark",
+      "width": 390,
+      "flow": "men"
+    },
+    {
+      "pass": true,
+      "label": "Results have no horizontal or heading overflow",
+      "theme": "dark",
+      "width": 390,
+      "flow": "men"
+    },
+    {
+      "pass": true,
+      "label": "Result link is a real product",
+      "theme": "dark",
+      "width": 390,
+      "flow": "men",
+      "id": "10314853515329",
+      "url": "/products/oud-mirage"
+    },
+    {
+      "pass": true,
+      "label": "Collection filter excludes other collection",
+      "theme": "dark",
+      "width": 390,
+      "flow": "men",
+      "handle": "oud-mirage"
+    },
+    {
+      "pass": true,
+      "label": "Live price and availability display preserved",
+      "theme": "dark",
+      "width": 390,
+      "flow": "men",
+      "handle": "oud-mirage",
+      "price": "\u20b1799.00",
+      "badge": "SOLD OUT"
+    },
+    {
+      "pass": true,
+      "label": "Sold-out badge matches catalog snapshot",
+      "theme": "dark",
+      "width": 390,
+      "flow": "men",
+      "handle": "oud-mirage"
+    },
+    {
+      "pass": true,
+      "label": "Result link is a real product",
+      "theme": "dark",
+      "width": 390,
+      "flow": "men",
+      "id": "10314005020737",
+      "url": "/products/charme-envoutant"
+    },
+    {
+      "pass": true,
+      "label": "Collection filter excludes other collection",
+      "theme": "dark",
+      "width": 390,
+      "flow": "men",
+      "handle": "charme-envoutant"
+    },
+    {
+      "pass": true,
+      "label": "Live price and availability display preserved",
+      "theme": "dark",
+      "width": 390,
+      "flow": "men",
+      "handle": "charme-envoutant",
+      "price": "\u20b1799.00",
+      "badge": "SOLD OUT"
+    },
+    {
+      "pass": true,
+      "label": "Sold-out badge matches catalog snapshot",
+      "theme": "dark",
+      "width": 390,
+      "flow": "men",
+      "handle": "charme-envoutant"
+    },
+    {
+      "pass": true,
+      "label": "Reset clears answers and returns to collection",
+      "theme": "dark",
+      "width": 390,
+      "flow": "men"
+    },
+    {
+      "pass": true,
+      "label": "Reset focuses first question",
+      "theme": "dark",
+      "width": 390,
+      "flow": "men"
+    },
+    {
+      "pass": true,
+      "label": "No JavaScript page errors",
+      "theme": "dark",
+      "width": 390,
+      "flow": "men",
+      "errors": []
+    },
+    {
+      "pass": true,
+      "label": "Actual six-product catalog fallback rendered",
+      "theme": "dark",
+      "width": 390,
+      "flow": "open"
+    },
+    {
+      "pass": true,
+      "label": "Real card bank contains six products",
+      "theme": "dark",
+      "width": 390,
+      "flow": "open"
+    },
+    {
+      "pass": true,
+      "label": "Quiz has five questions",
+      "theme": "dark",
+      "width": 390,
+      "flow": "open"
+    },
+    {
+      "pass": true,
+      "label": "Question order and key correct",
+      "theme": "dark",
+      "width": 390,
+      "flow": "open",
+      "step": 1,
+      "actual": "collection",
+      "expected": "collection"
+    },
+    {
+      "pass": true,
+      "label": "Quiz has no horizontal or heading overflow",
+      "theme": "dark",
+      "width": 390,
+      "flow": "open",
+      "step": 1,
+      "overflow": false,
+      "headingOverflow": [],
+      "focus": {
+        "tag": "BODY",
+        "question": false,
+        "result": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Focus moves to the new question/results heading",
+      "theme": "dark",
+      "width": 390,
+      "flow": "open",
+      "step": 1,
+      "focus": {
+        "tag": "LEGEND",
+        "question": true,
+        "result": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Question order and key correct",
+      "theme": "dark",
+      "width": 390,
+      "flow": "open",
+      "step": 2,
+      "actual": "mood",
+      "expected": "mood"
+    },
+    {
+      "pass": true,
+      "label": "Quiz has no horizontal or heading overflow",
+      "theme": "dark",
+      "width": 390,
+      "flow": "open",
+      "step": 2,
+      "overflow": false,
+      "headingOverflow": [],
+      "focus": {
+        "tag": "LEGEND",
+        "question": true,
+        "result": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Focus moves to the new question/results heading",
+      "theme": "dark",
+      "width": 390,
+      "flow": "open",
+      "step": 2,
+      "focus": {
+        "tag": "LEGEND",
+        "question": true,
+        "result": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Question order and key correct",
+      "theme": "dark",
+      "width": 390,
+      "flow": "open",
+      "step": 3,
+      "actual": "character",
+      "expected": "character"
+    },
+    {
+      "pass": true,
+      "label": "Quiz has no horizontal or heading overflow",
+      "theme": "dark",
+      "width": 390,
+      "flow": "open",
+      "step": 3,
+      "overflow": false,
+      "headingOverflow": [],
+      "focus": {
+        "tag": "LEGEND",
+        "question": true,
+        "result": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Focus moves to the new question/results heading",
+      "theme": "dark",
+      "width": 390,
+      "flow": "open",
+      "step": 3,
+      "focus": {
+        "tag": "LEGEND",
+        "question": true,
+        "result": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Question order and key correct",
+      "theme": "dark",
+      "width": 390,
+      "flow": "open",
+      "step": 4,
+      "actual": "occasion",
+      "expected": "occasion"
+    },
+    {
+      "pass": true,
+      "label": "Quiz has no horizontal or heading overflow",
+      "theme": "dark",
+      "width": 390,
+      "flow": "open",
+      "step": 4,
+      "overflow": false,
+      "headingOverflow": [],
+      "focus": {
+        "tag": "LEGEND",
+        "question": true,
+        "result": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Focus moves to the new question/results heading",
+      "theme": "dark",
+      "width": 390,
+      "flow": "open",
+      "step": 4,
+      "focus": {
+        "tag": "LEGEND",
+        "question": true,
+        "result": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Question order and key correct",
+      "theme": "dark",
+      "width": 390,
+      "flow": "open",
+      "step": 5,
+      "actual": "intensity",
+      "expected": "intensity"
+    },
+    {
+      "pass": true,
+      "label": "Quiz has no horizontal or heading overflow",
+      "theme": "dark",
+      "width": 390,
+      "flow": "open",
+      "step": 5,
+      "overflow": false,
+      "headingOverflow": [],
+      "focus": {
+        "tag": "LEGEND",
+        "question": true,
+        "result": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Focus moves to the new question/results heading",
+      "theme": "dark",
+      "width": 390,
+      "flow": "open",
+      "step": 5,
+      "focus": {
+        "tag": "H2",
+        "question": false,
+        "result": true
+      }
+    },
+    {
+      "pass": true,
+      "label": "Results contain real product cards",
+      "theme": "dark",
+      "width": 390,
+      "flow": "open"
+    },
+    {
+      "pass": true,
+      "label": "Results have no horizontal or heading overflow",
+      "theme": "dark",
+      "width": 390,
+      "flow": "open"
+    },
+    {
+      "pass": true,
+      "label": "Result link is a real product",
+      "theme": "dark",
+      "width": 390,
+      "flow": "open",
+      "id": "10314865016897",
+      "url": "/products/mistened-narcissus"
+    },
+    {
+      "pass": true,
+      "label": "Live price and availability display preserved",
+      "theme": "dark",
+      "width": 390,
+      "flow": "open",
+      "handle": "mistened-narcissus",
+      "price": "\u20b1799.00",
+      "badge": "SOLD OUT"
+    },
+    {
+      "pass": true,
+      "label": "Sold-out badge matches catalog snapshot",
+      "theme": "dark",
+      "width": 390,
+      "flow": "open",
+      "handle": "mistened-narcissus"
+    },
+    {
+      "pass": true,
+      "label": "Result link is a real product",
+      "theme": "dark",
+      "width": 390,
+      "flow": "open",
+      "id": "10314869571649",
+      "url": "/products/mojito-metallique"
+    },
+    {
+      "pass": true,
+      "label": "Live price and availability display preserved",
+      "theme": "dark",
+      "width": 390,
+      "flow": "open",
+      "handle": "mojito-metallique",
+      "price": "\u20b1799.00\u20b11,099.00",
+      "badge": "SOLD OUT"
+    },
+    {
+      "pass": true,
+      "label": "Sold-out badge matches catalog snapshot",
+      "theme": "dark",
+      "width": 390,
+      "flow": "open",
+      "handle": "mojito-metallique"
+    },
+    {
+      "pass": true,
+      "label": "Result link is a real product",
+      "theme": "dark",
+      "width": 390,
+      "flow": "open",
+      "id": "10314005020737",
+      "url": "/products/charme-envoutant"
+    },
+    {
+      "pass": true,
+      "label": "Live price and availability display preserved",
+      "theme": "dark",
+      "width": 390,
+      "flow": "open",
+      "handle": "charme-envoutant",
+      "price": "\u20b1799.00",
+      "badge": "SOLD OUT"
+    },
+    {
+      "pass": true,
+      "label": "Sold-out badge matches catalog snapshot",
+      "theme": "dark",
+      "width": 390,
+      "flow": "open",
+      "handle": "charme-envoutant"
+    },
+    {
+      "pass": true,
+      "label": "Reset clears answers and returns to collection",
+      "theme": "dark",
+      "width": 390,
+      "flow": "open"
+    },
+    {
+      "pass": true,
+      "label": "Reset focuses first question",
+      "theme": "dark",
+      "width": 390,
+      "flow": "open"
+    },
+    {
+      "pass": true,
+      "label": "No JavaScript page errors",
+      "theme": "dark",
+      "width": 390,
+      "flow": "open",
+      "errors": []
+    },
+    {
+      "pass": true,
+      "label": "Actual six-product catalog fallback rendered",
+      "theme": "dark",
+      "width": 390,
+      "flow": "skip"
+    },
+    {
+      "pass": true,
+      "label": "Real card bank contains six products",
+      "theme": "dark",
+      "width": 390,
+      "flow": "skip"
+    },
+    {
+      "pass": true,
+      "label": "Quiz has five questions",
+      "theme": "dark",
+      "width": 390,
+      "flow": "skip"
+    },
+    {
+      "pass": true,
+      "label": "Question order and key correct",
+      "theme": "dark",
+      "width": 390,
+      "flow": "skip",
+      "step": 1,
+      "actual": "collection",
+      "expected": "collection"
+    },
+    {
+      "pass": true,
+      "label": "Quiz has no horizontal or heading overflow",
+      "theme": "dark",
+      "width": 390,
+      "flow": "skip",
+      "step": 1,
+      "overflow": false,
+      "headingOverflow": [],
+      "focus": {
+        "tag": "BODY",
+        "question": false,
+        "result": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Focus moves to the new question/results heading",
+      "theme": "dark",
+      "width": 390,
+      "flow": "skip",
+      "step": 1,
+      "focus": {
+        "tag": "LEGEND",
+        "question": true,
+        "result": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Question order and key correct",
+      "theme": "dark",
+      "width": 390,
+      "flow": "skip",
+      "step": 2,
+      "actual": "mood",
+      "expected": "mood"
+    },
+    {
+      "pass": true,
+      "label": "Quiz has no horizontal or heading overflow",
+      "theme": "dark",
+      "width": 390,
+      "flow": "skip",
+      "step": 2,
+      "overflow": false,
+      "headingOverflow": [],
+      "focus": {
+        "tag": "LEGEND",
+        "question": true,
+        "result": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Focus moves to the new question/results heading",
+      "theme": "dark",
+      "width": 390,
+      "flow": "skip",
+      "step": 2,
+      "focus": {
+        "tag": "LEGEND",
+        "question": true,
+        "result": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Question order and key correct",
+      "theme": "dark",
+      "width": 390,
+      "flow": "skip",
+      "step": 3,
+      "actual": "character",
+      "expected": "character"
+    },
+    {
+      "pass": true,
+      "label": "Quiz has no horizontal or heading overflow",
+      "theme": "dark",
+      "width": 390,
+      "flow": "skip",
+      "step": 3,
+      "overflow": false,
+      "headingOverflow": [],
+      "focus": {
+        "tag": "LEGEND",
+        "question": true,
+        "result": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Focus moves to the new question/results heading",
+      "theme": "dark",
+      "width": 390,
+      "flow": "skip",
+      "step": 3,
+      "focus": {
+        "tag": "LEGEND",
+        "question": true,
+        "result": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Question order and key correct",
+      "theme": "dark",
+      "width": 390,
+      "flow": "skip",
+      "step": 4,
+      "actual": "occasion",
+      "expected": "occasion"
+    },
+    {
+      "pass": true,
+      "label": "Quiz has no horizontal or heading overflow",
+      "theme": "dark",
+      "width": 390,
+      "flow": "skip",
+      "step": 4,
+      "overflow": false,
+      "headingOverflow": [],
+      "focus": {
+        "tag": "LEGEND",
+        "question": true,
+        "result": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Focus moves to the new question/results heading",
+      "theme": "dark",
+      "width": 390,
+      "flow": "skip",
+      "step": 4,
+      "focus": {
+        "tag": "LEGEND",
+        "question": true,
+        "result": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Question order and key correct",
+      "theme": "dark",
+      "width": 390,
+      "flow": "skip",
+      "step": 5,
+      "actual": "intensity",
+      "expected": "intensity"
+    },
+    {
+      "pass": true,
+      "label": "Quiz has no horizontal or heading overflow",
+      "theme": "dark",
+      "width": 390,
+      "flow": "skip",
+      "step": 5,
+      "overflow": false,
+      "headingOverflow": [],
+      "focus": {
+        "tag": "LEGEND",
+        "question": true,
+        "result": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Focus moves to the new question/results heading",
+      "theme": "dark",
+      "width": 390,
+      "flow": "skip",
+      "step": 5,
+      "focus": {
+        "tag": "H2",
+        "question": false,
+        "result": true
+      }
+    },
+    {
+      "pass": true,
+      "label": "Results contain real product cards",
+      "theme": "dark",
+      "width": 390,
+      "flow": "skip"
+    },
+    {
+      "pass": true,
+      "label": "Results have no horizontal or heading overflow",
+      "theme": "dark",
+      "width": 390,
+      "flow": "skip"
+    },
+    {
+      "pass": true,
+      "label": "Result link is a real product",
+      "theme": "dark",
+      "width": 390,
+      "flow": "skip",
+      "id": "10314865016897",
+      "url": "/products/mistened-narcissus"
+    },
+    {
+      "pass": true,
+      "label": "Live price and availability display preserved",
+      "theme": "dark",
+      "width": 390,
+      "flow": "skip",
+      "handle": "mistened-narcissus",
+      "price": "\u20b1799.00",
+      "badge": "SOLD OUT"
+    },
+    {
+      "pass": true,
+      "label": "Sold-out badge matches catalog snapshot",
+      "theme": "dark",
+      "width": 390,
+      "flow": "skip",
+      "handle": "mistened-narcissus"
+    },
+    {
+      "pass": true,
+      "label": "Result link is a real product",
+      "theme": "dark",
+      "width": 390,
+      "flow": "skip",
+      "id": "10314853515329",
+      "url": "/products/oud-mirage"
+    },
+    {
+      "pass": true,
+      "label": "Live price and availability display preserved",
+      "theme": "dark",
+      "width": 390,
+      "flow": "skip",
+      "handle": "oud-mirage",
+      "price": "\u20b1799.00",
+      "badge": "SOLD OUT"
+    },
+    {
+      "pass": true,
+      "label": "Sold-out badge matches catalog snapshot",
+      "theme": "dark",
+      "width": 390,
+      "flow": "skip",
+      "handle": "oud-mirage"
+    },
+    {
+      "pass": true,
+      "label": "Result link is a real product",
+      "theme": "dark",
+      "width": 390,
+      "flow": "skip",
+      "id": "10314853449793",
+      "url": "/products/rtulle-satin"
+    },
+    {
+      "pass": true,
+      "label": "Live price and availability display preserved",
+      "theme": "dark",
+      "width": 390,
+      "flow": "skip",
+      "handle": "rtulle-satin",
+      "price": "\u20b1799.00",
+      "badge": "SOLD OUT"
+    },
+    {
+      "pass": true,
+      "label": "Sold-out badge matches catalog snapshot",
+      "theme": "dark",
+      "width": 390,
+      "flow": "skip",
+      "handle": "rtulle-satin"
+    },
+    {
+      "pass": true,
+      "label": "All-skipped results honestly describe discovery",
+      "theme": "dark",
+      "width": 390,
+      "flow": "skip"
+    },
+    {
+      "pass": true,
+      "label": "Reset clears answers and returns to collection",
+      "theme": "dark",
+      "width": 390,
+      "flow": "skip"
+    },
+    {
+      "pass": true,
+      "label": "Reset focuses first question",
+      "theme": "dark",
+      "width": 390,
+      "flow": "skip"
+    },
+    {
+      "pass": true,
+      "label": "No JavaScript page errors",
+      "theme": "dark",
+      "width": 390,
+      "flow": "skip",
+      "errors": []
+    },
+    {
+      "pass": true,
+      "label": "Product destination responds with correct identity",
+      "handle": "mistened-narcissus",
+      "status": 200,
+      "h1": "Mistened Narcissus"
+    },
+    {
+      "pass": true,
+      "label": "Product destination responds with correct identity",
+      "handle": "oud-mirage",
+      "status": 200,
+      "h1": "Oud Mirage"
+    },
+    {
+      "pass": true,
+      "label": "Product destination responds with correct identity",
+      "handle": "rtulle-satin",
+      "status": 200,
+      "h1": "Rtulle & Satin"
+    },
+    {
+      "pass": true,
+      "label": "Product destination responds with correct identity",
+      "handle": "amber-oud-silk",
+      "status": 200,
+      "h1": "Amber Oud Silk"
+    },
+    {
+      "pass": true,
+      "label": "Product destination responds with correct identity",
+      "handle": "charme-envoutant",
+      "status": 200,
+      "h1": "Charme Envo\u00fbtant"
+    },
+    {
+      "pass": true,
+      "label": "Product destination responds with correct identity",
+      "handle": "mojito-metallique",
+      "status": 200,
+      "h1": "Mojito Metallique"
+    }
+  ],
+  "runs": [
+    {
+      "theme": "light",
+      "width": 1440,
+      "flow": "women",
+      "questions": [
+        {
+          "key": "collection",
+          "value": "Women",
+          "labels": [
+            "Women\u2019s collection",
+            "Men\u2019s collection",
+            "Explore both collections"
+          ]
+        },
+        {
+          "key": "mood",
+          "value": "Bright & playful",
+          "labels": [
+            "Bright & playful",
+            "Dark & bold",
+            "Soft & relaxed",
+            "Warm & inviting",
+            "I\u2019m open to any mood"
+          ]
+        },
+        {
+          "key": "character",
+          "value": "Juicy berries",
+          "labels": [
+            "Creamy & fruity",
+            "Juicy berries",
+            "Smoky woods",
+            "Warm spice",
+            "I\u2019d like to discover something new"
+          ]
+        },
+        {
+          "key": "occasion",
+          "value": "A special occasion",
+          "labels": [
+            "A special occasion",
+            "Coffee & catch-ups",
+            "Evenings out",
+            "Everyday moments",
+            "A little of everything"
+          ]
+        },
+        {
+          "key": "intensity",
+          "value": "Smooth & sweet",
+          "labels": [
+            "Rich & deep",
+            "Smooth & sweet",
+            "Soft & airy",
+            "Surprise me"
+          ]
+        }
+      ],
+      "errors": [],
+      "catalogIds": [
+        "10314865016897",
+        "10314853515329",
+        "10314853449793",
+        "10314853417025",
+        "10314005020737",
+        "10314869571649"
+      ],
+      "cards": [
+        {
+          "id": "10314865016897",
+          "title": "Mistened Narcissus",
+          "url": "/products/mistened-narcissus",
+          "price": "\u20b1799.00",
+          "badge": "SOLD OUT",
+          "reason": "Connects with your choices: Bright & playful \u00b7 Juicy berries \u00b7 A special occasion \u00b7 Smooth & sweet."
+        },
+        {
+          "id": "10314869571649",
+          "title": "Mojito Metallique",
+          "url": "/products/mojito-metallique",
+          "price": "\u20b1799.00\n\u20b11,099.00",
+          "badge": "SOLD OUT",
+          "reason": "Connects with your choices: Bright & playful."
+        },
+        {
+          "id": "10314853417025",
+          "title": "Amber Oud Silk",
+          "url": "/products/amber-oud-silk",
+          "price": "\u20b1799.00",
+          "badge": "SOLD OUT",
+          "reason": "Connects with your choices: A special occasion."
+        }
+      ],
+      "summary": "Your preferences point to these fragrances. Start with your top match, then explore the other scents that share something you love.",
+      "resultState": {
+        "overflow": false,
+        "headingOverflow": [],
+        "focus": {
+          "tag": "H2",
+          "question": false,
+          "result": true
+        }
+      },
+      "status": "PASS"
+    },
+    {
+      "theme": "light",
+      "width": 1440,
+      "flow": "men",
+      "questions": [
+        {
+          "key": "collection",
+          "value": "Men",
+          "labels": [
+            "Women\u2019s collection",
+            "Men\u2019s collection",
+            "Explore both collections"
+          ]
+        },
+        {
+          "key": "mood",
+          "value": "Dark & bold",
+          "labels": [
+            "Dark & bold",
+            "Soft & relaxed",
+            "Warm & inviting",
+            "I\u2019m open to any mood"
+          ]
+        },
+        {
+          "key": "character",
+          "value": "Rose & woods",
+          "labels": [
+            "Airy sweetness",
+            "Rose & woods",
+            "Smoky woods",
+            "Warm spice",
+            "I\u2019d like to discover something new"
+          ]
+        },
+        {
+          "key": "occasion",
+          "value": "A special occasion",
+          "labels": [
+            "A special occasion",
+            "Coffee & catch-ups",
+            "Evenings out",
+            "Everyday moments",
+            "A little of everything"
+          ]
+        },
+        {
+          "key": "intensity",
+          "value": "Rich & deep",
+          "labels": [
+            "Rich & deep",
+            "Smooth & sweet",
+            "Soft & airy",
+            "Surprise me"
+          ]
+        }
+      ],
+      "errors": [],
+      "catalogIds": [
+        "10314865016897",
+        "10314853515329",
+        "10314853449793",
+        "10314853417025",
+        "10314005020737",
+        "10314869571649"
+      ],
+      "cards": [
+        {
+          "id": "10314853515329",
+          "title": "Oud Mirage",
+          "url": "/products/oud-mirage",
+          "price": "\u20b1799.00",
+          "badge": "SOLD OUT",
+          "reason": "Connects with your choices: Dark & bold \u00b7 Rose & woods \u00b7 A special occasion \u00b7 Rich & deep."
+        },
+        {
+          "id": "10314005020737",
+          "title": "Charme Envo\u00fbtant",
+          "url": "/products/charme-envoutant",
+          "price": "\u20b1799.00",
+          "badge": "SOLD OUT",
+          "reason": "Connects with your choices: A special occasion \u00b7 Rich & deep."
+        }
+      ],
+      "summary": "Your preferences point to these fragrances. Start with your top match, then explore the other scents that share something you love.",
+      "resultState": {
+        "overflow": false,
+        "headingOverflow": [],
+        "focus": {
+          "tag": "H2",
+          "question": false,
+          "result": true
+        }
+      },
+      "status": "PASS"
+    },
+    {
+      "theme": "light",
+      "width": 1440,
+      "flow": "open",
+      "questions": [
+        {
+          "key": "collection",
+          "value": "",
+          "labels": [
+            "Women\u2019s collection",
+            "Men\u2019s collection",
+            "Explore both collections"
+          ]
+        },
+        {
+          "key": "mood",
+          "value": "Bright & playful",
+          "labels": [
+            "Bright & playful",
+            "Dark & bold",
+            "Soft & relaxed",
+            "Warm & inviting",
+            "I\u2019m open to any mood"
+          ]
+        },
+        {
+          "key": "character",
+          "value": "Juicy berries",
+          "labels": [
+            "Airy sweetness",
+            "Creamy & fruity",
+            "Juicy berries",
+            "Rose & woods",
+            "Smoky woods",
+            "Warm spice",
+            "I\u2019d like to discover something new"
+          ]
+        },
+        {
+          "key": "occasion",
+          "value": "A special occasion",
+          "labels": [
+            "A special occasion",
+            "Coffee & catch-ups",
+            "Evenings out",
+            "Everyday moments",
+            "A little of everything"
+          ]
+        },
+        {
+          "key": "intensity",
+          "value": "Smooth & sweet",
+          "labels": [
+            "Rich & deep",
+            "Smooth & sweet",
+            "Soft & airy",
+            "Surprise me"
+          ]
+        }
+      ],
+      "errors": [],
+      "catalogIds": [
+        "10314865016897",
+        "10314853515329",
+        "10314853449793",
+        "10314853417025",
+        "10314005020737",
+        "10314869571649"
+      ],
+      "cards": [
+        {
+          "id": "10314865016897",
+          "title": "Mistened Narcissus",
+          "url": "/products/mistened-narcissus",
+          "price": "\u20b1799.00",
+          "badge": "SOLD OUT",
+          "reason": "Connects with your choices: Bright & playful \u00b7 Juicy berries \u00b7 A special occasion \u00b7 Smooth & sweet."
+        },
+        {
+          "id": "10314869571649",
+          "title": "Mojito Metallique",
+          "url": "/products/mojito-metallique",
+          "price": "\u20b1799.00\n\u20b11,099.00",
+          "badge": "SOLD OUT",
+          "reason": "Connects with your choices: Bright & playful."
+        },
+        {
+          "id": "10314005020737",
+          "title": "Charme Envo\u00fbtant",
+          "url": "/products/charme-envoutant",
+          "price": "\u20b1799.00",
+          "badge": "SOLD OUT",
+          "reason": "Connects with your choices: A special occasion \u00b7 Smooth & sweet."
+        }
+      ],
+      "summary": "Your preferences point to these fragrances. Start with your top match, then explore the other scents that share something you love.",
+      "resultState": {
+        "overflow": false,
+        "headingOverflow": [],
+        "focus": {
+          "tag": "H2",
+          "question": false,
+          "result": true
+        }
+      },
+      "status": "PASS"
+    },
+    {
+      "theme": "light",
+      "width": 1440,
+      "flow": "skip",
+      "questions": [
+        {
+          "key": "collection",
+          "value": "",
+          "labels": [
+            "Women\u2019s collection",
+            "Men\u2019s collection",
+            "Explore both collections"
+          ]
+        },
+        {
+          "key": "mood",
+          "value": "",
+          "labels": [
+            "Bright & playful",
+            "Dark & bold",
+            "Soft & relaxed",
+            "Warm & inviting",
+            "I\u2019m open to any mood"
+          ]
+        },
+        {
+          "key": "character",
+          "value": "",
+          "labels": [
+            "Airy sweetness",
+            "Creamy & fruity",
+            "Juicy berries",
+            "Rose & woods",
+            "Smoky woods",
+            "Warm spice",
+            "I\u2019d like to discover something new"
+          ]
+        },
+        {
+          "key": "occasion",
+          "value": "",
+          "labels": [
+            "A special occasion",
+            "Coffee & catch-ups",
+            "Evenings out",
+            "Everyday moments",
+            "A little of everything"
+          ]
+        },
+        {
+          "key": "intensity",
+          "value": "",
+          "labels": [
+            "Rich & deep",
+            "Smooth & sweet",
+            "Soft & airy",
+            "Surprise me"
+          ]
+        }
+      ],
+      "errors": [],
+      "catalogIds": [
+        "10314865016897",
+        "10314853515329",
+        "10314853449793",
+        "10314853417025",
+        "10314005020737",
+        "10314869571649"
+      ],
+      "cards": [
+        {
+          "id": "10314865016897",
+          "title": "Mistened Narcissus",
+          "url": "/products/mistened-narcissus",
+          "price": "\u20b1799.00",
+          "badge": "SOLD OUT",
+          "reason": "Explore its scent story and see what speaks to you."
+        },
+        {
+          "id": "10314853515329",
+          "title": "Oud Mirage",
+          "url": "/products/oud-mirage",
+          "price": "\u20b1799.00",
+          "badge": "SOLD OUT",
+          "reason": "Explore its scent story and see what speaks to you."
+        },
+        {
+          "id": "10314853449793",
+          "title": "Rtulle & Satin",
+          "url": "/products/rtulle-satin",
+          "price": "\u20b1799.00",
+          "badge": "SOLD OUT",
+          "reason": "Explore its scent story and see what speaks to you."
+        }
+      ],
+      "summary": "You kept your options open. Here is a discovery edit from your chosen collection \u2014 a few scents to get to know.",
+      "resultState": {
+        "overflow": false,
+        "headingOverflow": [],
+        "focus": {
+          "tag": "H2",
+          "question": false,
+          "result": true
+        }
+      },
+      "status": "PASS"
+    },
+    {
+      "theme": "light",
+      "width": 390,
+      "flow": "women",
+      "questions": [
+        {
+          "key": "collection",
+          "value": "Women",
+          "labels": [
+            "Women\u2019s collection",
+            "Men\u2019s collection",
+            "Explore both collections"
+          ]
+        },
+        {
+          "key": "mood",
+          "value": "Bright & playful",
+          "labels": [
+            "Bright & playful",
+            "Dark & bold",
+            "Soft & relaxed",
+            "Warm & inviting",
+            "I\u2019m open to any mood"
+          ]
+        },
+        {
+          "key": "character",
+          "value": "Juicy berries",
+          "labels": [
+            "Creamy & fruity",
+            "Juicy berries",
+            "Smoky woods",
+            "Warm spice",
+            "I\u2019d like to discover something new"
+          ]
+        },
+        {
+          "key": "occasion",
+          "value": "A special occasion",
+          "labels": [
+            "A special occasion",
+            "Coffee & catch-ups",
+            "Evenings out",
+            "Everyday moments",
+            "A little of everything"
+          ]
+        },
+        {
+          "key": "intensity",
+          "value": "Smooth & sweet",
+          "labels": [
+            "Rich & deep",
+            "Smooth & sweet",
+            "Soft & airy",
+            "Surprise me"
+          ]
+        }
+      ],
+      "errors": [],
+      "catalogIds": [
+        "10314865016897",
+        "10314853515329",
+        "10314853449793",
+        "10314853417025",
+        "10314005020737",
+        "10314869571649"
+      ],
+      "cards": [
+        {
+          "id": "10314865016897",
+          "title": "Mistened Narcissus",
+          "url": "/products/mistened-narcissus",
+          "price": "\u20b1799.00",
+          "badge": "SOLD OUT",
+          "reason": "Connects with your choices: Bright & playful \u00b7 Juicy berries \u00b7 A special occasion \u00b7 Smooth & sweet."
+        },
+        {
+          "id": "10314869571649",
+          "title": "Mojito Metallique",
+          "url": "/products/mojito-metallique",
+          "price": "\u20b1799.00\u20b11,099.00",
+          "badge": "SOLD OUT",
+          "reason": "Connects with your choices: Bright & playful."
+        },
+        {
+          "id": "10314853417025",
+          "title": "Amber Oud Silk",
+          "url": "/products/amber-oud-silk",
+          "price": "\u20b1799.00",
+          "badge": "SOLD OUT",
+          "reason": "Connects with your choices: A special occasion."
+        }
+      ],
+      "summary": "Your preferences point to these fragrances. Start with your top match, then explore the other scents that share something you love.",
+      "resultState": {
+        "overflow": false,
+        "headingOverflow": [],
+        "focus": {
+          "tag": "H2",
+          "question": false,
+          "result": true
+        }
+      },
+      "status": "PASS"
+    },
+    {
+      "theme": "light",
+      "width": 390,
+      "flow": "men",
+      "questions": [
+        {
+          "key": "collection",
+          "value": "Men",
+          "labels": [
+            "Women\u2019s collection",
+            "Men\u2019s collection",
+            "Explore both collections"
+          ]
+        },
+        {
+          "key": "mood",
+          "value": "Dark & bold",
+          "labels": [
+            "Dark & bold",
+            "Soft & relaxed",
+            "Warm & inviting",
+            "I\u2019m open to any mood"
+          ]
+        },
+        {
+          "key": "character",
+          "value": "Rose & woods",
+          "labels": [
+            "Airy sweetness",
+            "Rose & woods",
+            "Smoky woods",
+            "Warm spice",
+            "I\u2019d like to discover something new"
+          ]
+        },
+        {
+          "key": "occasion",
+          "value": "A special occasion",
+          "labels": [
+            "A special occasion",
+            "Coffee & catch-ups",
+            "Evenings out",
+            "Everyday moments",
+            "A little of everything"
+          ]
+        },
+        {
+          "key": "intensity",
+          "value": "Rich & deep",
+          "labels": [
+            "Rich & deep",
+            "Smooth & sweet",
+            "Soft & airy",
+            "Surprise me"
+          ]
+        }
+      ],
+      "errors": [],
+      "catalogIds": [
+        "10314865016897",
+        "10314853515329",
+        "10314853449793",
+        "10314853417025",
+        "10314005020737",
+        "10314869571649"
+      ],
+      "cards": [
+        {
+          "id": "10314853515329",
+          "title": "Oud Mirage",
+          "url": "/products/oud-mirage",
+          "price": "\u20b1799.00",
+          "badge": "SOLD OUT",
+          "reason": "Connects with your choices: Dark & bold \u00b7 Rose & woods \u00b7 A special occasion \u00b7 Rich & deep."
+        },
+        {
+          "id": "10314005020737",
+          "title": "Charme Envo\u00fbtant",
+          "url": "/products/charme-envoutant",
+          "price": "\u20b1799.00",
+          "badge": "SOLD OUT",
+          "reason": "Connects with your choices: A special occasion \u00b7 Rich & deep."
+        }
+      ],
+      "summary": "Your preferences point to these fragrances. Start with your top match, then explore the other scents that share something you love.",
+      "resultState": {
+        "overflow": false,
+        "headingOverflow": [],
+        "focus": {
+          "tag": "H2",
+          "question": false,
+          "result": true
+        }
+      },
+      "status": "PASS"
+    },
+    {
+      "theme": "light",
+      "width": 390,
+      "flow": "open",
+      "questions": [
+        {
+          "key": "collection",
+          "value": "",
+          "labels": [
+            "Women\u2019s collection",
+            "Men\u2019s collection",
+            "Explore both collections"
+          ]
+        },
+        {
+          "key": "mood",
+          "value": "Bright & playful",
+          "labels": [
+            "Bright & playful",
+            "Dark & bold",
+            "Soft & relaxed",
+            "Warm & inviting",
+            "I\u2019m open to any mood"
+          ]
+        },
+        {
+          "key": "character",
+          "value": "Juicy berries",
+          "labels": [
+            "Airy sweetness",
+            "Creamy & fruity",
+            "Juicy berries",
+            "Rose & woods",
+            "Smoky woods",
+            "Warm spice",
+            "I\u2019d like to discover something new"
+          ]
+        },
+        {
+          "key": "occasion",
+          "value": "A special occasion",
+          "labels": [
+            "A special occasion",
+            "Coffee & catch-ups",
+            "Evenings out",
+            "Everyday moments",
+            "A little of everything"
+          ]
+        },
+        {
+          "key": "intensity",
+          "value": "Smooth & sweet",
+          "labels": [
+            "Rich & deep",
+            "Smooth & sweet",
+            "Soft & airy",
+            "Surprise me"
+          ]
+        }
+      ],
+      "errors": [],
+      "catalogIds": [
+        "10314865016897",
+        "10314853515329",
+        "10314853449793",
+        "10314853417025",
+        "10314005020737",
+        "10314869571649"
+      ],
+      "cards": [
+        {
+          "id": "10314865016897",
+          "title": "Mistened Narcissus",
+          "url": "/products/mistened-narcissus",
+          "price": "\u20b1799.00",
+          "badge": "SOLD OUT",
+          "reason": "Connects with your choices: Bright & playful \u00b7 Juicy berries \u00b7 A special occasion \u00b7 Smooth & sweet."
+        },
+        {
+          "id": "10314869571649",
+          "title": "Mojito Metallique",
+          "url": "/products/mojito-metallique",
+          "price": "\u20b1799.00\u20b11,099.00",
+          "badge": "SOLD OUT",
+          "reason": "Connects with your choices: Bright & playful."
+        },
+        {
+          "id": "10314005020737",
+          "title": "Charme Envo\u00fbtant",
+          "url": "/products/charme-envoutant",
+          "price": "\u20b1799.00",
+          "badge": "SOLD OUT",
+          "reason": "Connects with your choices: A special occasion \u00b7 Smooth & sweet."
+        }
+      ],
+      "summary": "Your preferences point to these fragrances. Start with your top match, then explore the other scents that share something you love.",
+      "resultState": {
+        "overflow": false,
+        "headingOverflow": [],
+        "focus": {
+          "tag": "H2",
+          "question": false,
+          "result": true
+        }
+      },
+      "status": "PASS"
+    },
+    {
+      "theme": "light",
+      "width": 390,
+      "flow": "skip",
+      "questions": [
+        {
+          "key": "collection",
+          "value": "",
+          "labels": [
+            "Women\u2019s collection",
+            "Men\u2019s collection",
+            "Explore both collections"
+          ]
+        },
+        {
+          "key": "mood",
+          "value": "",
+          "labels": [
+            "Bright & playful",
+            "Dark & bold",
+            "Soft & relaxed",
+            "Warm & inviting",
+            "I\u2019m open to any mood"
+          ]
+        },
+        {
+          "key": "character",
+          "value": "",
+          "labels": [
+            "Airy sweetness",
+            "Creamy & fruity",
+            "Juicy berries",
+            "Rose & woods",
+            "Smoky woods",
+            "Warm spice",
+            "I\u2019d like to discover something new"
+          ]
+        },
+        {
+          "key": "occasion",
+          "value": "",
+          "labels": [
+            "A special occasion",
+            "Coffee & catch-ups",
+            "Evenings out",
+            "Everyday moments",
+            "A little of everything"
+          ]
+        },
+        {
+          "key": "intensity",
+          "value": "",
+          "labels": [
+            "Rich & deep",
+            "Smooth & sweet",
+            "Soft & airy",
+            "Surprise me"
+          ]
+        }
+      ],
+      "errors": [],
+      "catalogIds": [
+        "10314865016897",
+        "10314853515329",
+        "10314853449793",
+        "10314853417025",
+        "10314005020737",
+        "10314869571649"
+      ],
+      "cards": [
+        {
+          "id": "10314865016897",
+          "title": "Mistened Narcissus",
+          "url": "/products/mistened-narcissus",
+          "price": "\u20b1799.00",
+          "badge": "SOLD OUT",
+          "reason": "Explore its scent story and see what speaks to you."
+        },
+        {
+          "id": "10314853515329",
+          "title": "Oud Mirage",
+          "url": "/products/oud-mirage",
+          "price": "\u20b1799.00",
+          "badge": "SOLD OUT",
+          "reason": "Explore its scent story and see what speaks to you."
+        },
+        {
+          "id": "10314853449793",
+          "title": "Rtulle & Satin",
+          "url": "/products/rtulle-satin",
+          "price": "\u20b1799.00",
+          "badge": "SOLD OUT",
+          "reason": "Explore its scent story and see what speaks to you."
+        }
+      ],
+      "summary": "You kept your options open. Here is a discovery edit from your chosen collection \u2014 a few scents to get to know.",
+      "resultState": {
+        "overflow": false,
+        "headingOverflow": [],
+        "focus": {
+          "tag": "H2",
+          "question": false,
+          "result": true
+        }
+      },
+      "status": "PASS"
+    },
+    {
+      "theme": "dark",
+      "width": 1440,
+      "flow": "women",
+      "questions": [
+        {
+          "key": "collection",
+          "value": "Women",
+          "labels": [
+            "Women\u2019s collection",
+            "Men\u2019s collection",
+            "Explore both collections"
+          ]
+        },
+        {
+          "key": "mood",
+          "value": "Bright & playful",
+          "labels": [
+            "Bright & playful",
+            "Dark & bold",
+            "Soft & relaxed",
+            "Warm & inviting",
+            "I\u2019m open to any mood"
+          ]
+        },
+        {
+          "key": "character",
+          "value": "Juicy berries",
+          "labels": [
+            "Creamy & fruity",
+            "Juicy berries",
+            "Smoky woods",
+            "Warm spice",
+            "I\u2019d like to discover something new"
+          ]
+        },
+        {
+          "key": "occasion",
+          "value": "A special occasion",
+          "labels": [
+            "A special occasion",
+            "Coffee & catch-ups",
+            "Evenings out",
+            "Everyday moments",
+            "A little of everything"
+          ]
+        },
+        {
+          "key": "intensity",
+          "value": "Smooth & sweet",
+          "labels": [
+            "Rich & deep",
+            "Smooth & sweet",
+            "Soft & airy",
+            "Surprise me"
+          ]
+        }
+      ],
+      "errors": [],
+      "catalogIds": [
+        "10314865016897",
+        "10314853515329",
+        "10314853449793",
+        "10314853417025",
+        "10314005020737",
+        "10314869571649"
+      ],
+      "cards": [
+        {
+          "id": "10314865016897",
+          "title": "Mistened Narcissus",
+          "url": "/products/mistened-narcissus",
+          "price": "\u20b1799.00",
+          "badge": "SOLD OUT",
+          "reason": "Connects with your choices: Bright & playful \u00b7 Juicy berries \u00b7 A special occasion \u00b7 Smooth & sweet."
+        },
+        {
+          "id": "10314869571649",
+          "title": "Mojito Metallique",
+          "url": "/products/mojito-metallique",
+          "price": "\u20b1799.00\n\u20b11,099.00",
+          "badge": "SOLD OUT",
+          "reason": "Connects with your choices: Bright & playful."
+        },
+        {
+          "id": "10314853417025",
+          "title": "Amber Oud Silk",
+          "url": "/products/amber-oud-silk",
+          "price": "\u20b1799.00",
+          "badge": "SOLD OUT",
+          "reason": "Connects with your choices: A special occasion."
+        }
+      ],
+      "summary": "Your preferences point to these fragrances. Start with your top match, then explore the other scents that share something you love.",
+      "resultState": {
+        "overflow": false,
+        "headingOverflow": [],
+        "focus": {
+          "tag": "H2",
+          "question": false,
+          "result": true
+        }
+      },
+      "status": "PASS"
+    },
+    {
+      "theme": "dark",
+      "width": 1440,
+      "flow": "men",
+      "questions": [
+        {
+          "key": "collection",
+          "value": "Men",
+          "labels": [
+            "Women\u2019s collection",
+            "Men\u2019s collection",
+            "Explore both collections"
+          ]
+        },
+        {
+          "key": "mood",
+          "value": "Dark & bold",
+          "labels": [
+            "Dark & bold",
+            "Soft & relaxed",
+            "Warm & inviting",
+            "I\u2019m open to any mood"
+          ]
+        },
+        {
+          "key": "character",
+          "value": "Rose & woods",
+          "labels": [
+            "Airy sweetness",
+            "Rose & woods",
+            "Smoky woods",
+            "Warm spice",
+            "I\u2019d like to discover something new"
+          ]
+        },
+        {
+          "key": "occasion",
+          "value": "A special occasion",
+          "labels": [
+            "A special occasion",
+            "Coffee & catch-ups",
+            "Evenings out",
+            "Everyday moments",
+            "A little of everything"
+          ]
+        },
+        {
+          "key": "intensity",
+          "value": "Rich & deep",
+          "labels": [
+            "Rich & deep",
+            "Smooth & sweet",
+            "Soft & airy",
+            "Surprise me"
+          ]
+        }
+      ],
+      "errors": [],
+      "catalogIds": [
+        "10314865016897",
+        "10314853515329",
+        "10314853449793",
+        "10314853417025",
+        "10314005020737",
+        "10314869571649"
+      ],
+      "cards": [
+        {
+          "id": "10314853515329",
+          "title": "Oud Mirage",
+          "url": "/products/oud-mirage",
+          "price": "\u20b1799.00",
+          "badge": "SOLD OUT",
+          "reason": "Connects with your choices: Dark & bold \u00b7 Rose & woods \u00b7 A special occasion \u00b7 Rich & deep."
+        },
+        {
+          "id": "10314005020737",
+          "title": "Charme Envo\u00fbtant",
+          "url": "/products/charme-envoutant",
+          "price": "\u20b1799.00",
+          "badge": "SOLD OUT",
+          "reason": "Connects with your choices: A special occasion \u00b7 Rich & deep."
+        }
+      ],
+      "summary": "Your preferences point to these fragrances. Start with your top match, then explore the other scents that share something you love.",
+      "resultState": {
+        "overflow": false,
+        "headingOverflow": [],
+        "focus": {
+          "tag": "H2",
+          "question": false,
+          "result": true
+        }
+      },
+      "status": "PASS"
+    },
+    {
+      "theme": "dark",
+      "width": 1440,
+      "flow": "open",
+      "questions": [
+        {
+          "key": "collection",
+          "value": "",
+          "labels": [
+            "Women\u2019s collection",
+            "Men\u2019s collection",
+            "Explore both collections"
+          ]
+        },
+        {
+          "key": "mood",
+          "value": "Bright & playful",
+          "labels": [
+            "Bright & playful",
+            "Dark & bold",
+            "Soft & relaxed",
+            "Warm & inviting",
+            "I\u2019m open to any mood"
+          ]
+        },
+        {
+          "key": "character",
+          "value": "Juicy berries",
+          "labels": [
+            "Airy sweetness",
+            "Creamy & fruity",
+            "Juicy berries",
+            "Rose & woods",
+            "Smoky woods",
+            "Warm spice",
+            "I\u2019d like to discover something new"
+          ]
+        },
+        {
+          "key": "occasion",
+          "value": "A special occasion",
+          "labels": [
+            "A special occasion",
+            "Coffee & catch-ups",
+            "Evenings out",
+            "Everyday moments",
+            "A little of everything"
+          ]
+        },
+        {
+          "key": "intensity",
+          "value": "Smooth & sweet",
+          "labels": [
+            "Rich & deep",
+            "Smooth & sweet",
+            "Soft & airy",
+            "Surprise me"
+          ]
+        }
+      ],
+      "errors": [],
+      "catalogIds": [
+        "10314865016897",
+        "10314853515329",
+        "10314853449793",
+        "10314853417025",
+        "10314005020737",
+        "10314869571649"
+      ],
+      "cards": [
+        {
+          "id": "10314865016897",
+          "title": "Mistened Narcissus",
+          "url": "/products/mistened-narcissus",
+          "price": "\u20b1799.00",
+          "badge": "SOLD OUT",
+          "reason": "Connects with your choices: Bright & playful \u00b7 Juicy berries \u00b7 A special occasion \u00b7 Smooth & sweet."
+        },
+        {
+          "id": "10314869571649",
+          "title": "Mojito Metallique",
+          "url": "/products/mojito-metallique",
+          "price": "\u20b1799.00\n\u20b11,099.00",
+          "badge": "SOLD OUT",
+          "reason": "Connects with your choices: Bright & playful."
+        },
+        {
+          "id": "10314005020737",
+          "title": "Charme Envo\u00fbtant",
+          "url": "/products/charme-envoutant",
+          "price": "\u20b1799.00",
+          "badge": "SOLD OUT",
+          "reason": "Connects with your choices: A special occasion \u00b7 Smooth & sweet."
+        }
+      ],
+      "summary": "Your preferences point to these fragrances. Start with your top match, then explore the other scents that share something you love.",
+      "resultState": {
+        "overflow": false,
+        "headingOverflow": [],
+        "focus": {
+          "tag": "H2",
+          "question": false,
+          "result": true
+        }
+      },
+      "status": "PASS"
+    },
+    {
+      "theme": "dark",
+      "width": 1440,
+      "flow": "skip",
+      "questions": [
+        {
+          "key": "collection",
+          "value": "",
+          "labels": [
+            "Women\u2019s collection",
+            "Men\u2019s collection",
+            "Explore both collections"
+          ]
+        },
+        {
+          "key": "mood",
+          "value": "",
+          "labels": [
+            "Bright & playful",
+            "Dark & bold",
+            "Soft & relaxed",
+            "Warm & inviting",
+            "I\u2019m open to any mood"
+          ]
+        },
+        {
+          "key": "character",
+          "value": "",
+          "labels": [
+            "Airy sweetness",
+            "Creamy & fruity",
+            "Juicy berries",
+            "Rose & woods",
+            "Smoky woods",
+            "Warm spice",
+            "I\u2019d like to discover something new"
+          ]
+        },
+        {
+          "key": "occasion",
+          "value": "",
+          "labels": [
+            "A special occasion",
+            "Coffee & catch-ups",
+            "Evenings out",
+            "Everyday moments",
+            "A little of everything"
+          ]
+        },
+        {
+          "key": "intensity",
+          "value": "",
+          "labels": [
+            "Rich & deep",
+            "Smooth & sweet",
+            "Soft & airy",
+            "Surprise me"
+          ]
+        }
+      ],
+      "errors": [],
+      "catalogIds": [
+        "10314865016897",
+        "10314853515329",
+        "10314853449793",
+        "10314853417025",
+        "10314005020737",
+        "10314869571649"
+      ],
+      "cards": [
+        {
+          "id": "10314865016897",
+          "title": "Mistened Narcissus",
+          "url": "/products/mistened-narcissus",
+          "price": "\u20b1799.00",
+          "badge": "SOLD OUT",
+          "reason": "Explore its scent story and see what speaks to you."
+        },
+        {
+          "id": "10314853515329",
+          "title": "Oud Mirage",
+          "url": "/products/oud-mirage",
+          "price": "\u20b1799.00",
+          "badge": "SOLD OUT",
+          "reason": "Explore its scent story and see what speaks to you."
+        },
+        {
+          "id": "10314853449793",
+          "title": "Rtulle & Satin",
+          "url": "/products/rtulle-satin",
+          "price": "\u20b1799.00",
+          "badge": "SOLD OUT",
+          "reason": "Explore its scent story and see what speaks to you."
+        }
+      ],
+      "summary": "You kept your options open. Here is a discovery edit from your chosen collection \u2014 a few scents to get to know.",
+      "resultState": {
+        "overflow": false,
+        "headingOverflow": [],
+        "focus": {
+          "tag": "H2",
+          "question": false,
+          "result": true
+        }
+      },
+      "status": "PASS"
+    },
+    {
+      "theme": "dark",
+      "width": 390,
+      "flow": "women",
+      "questions": [
+        {
+          "key": "collection",
+          "value": "Women",
+          "labels": [
+            "Women\u2019s collection",
+            "Men\u2019s collection",
+            "Explore both collections"
+          ]
+        },
+        {
+          "key": "mood",
+          "value": "Bright & playful",
+          "labels": [
+            "Bright & playful",
+            "Dark & bold",
+            "Soft & relaxed",
+            "Warm & inviting",
+            "I\u2019m open to any mood"
+          ]
+        },
+        {
+          "key": "character",
+          "value": "Juicy berries",
+          "labels": [
+            "Creamy & fruity",
+            "Juicy berries",
+            "Smoky woods",
+            "Warm spice",
+            "I\u2019d like to discover something new"
+          ]
+        },
+        {
+          "key": "occasion",
+          "value": "A special occasion",
+          "labels": [
+            "A special occasion",
+            "Coffee & catch-ups",
+            "Evenings out",
+            "Everyday moments",
+            "A little of everything"
+          ]
+        },
+        {
+          "key": "intensity",
+          "value": "Smooth & sweet",
+          "labels": [
+            "Rich & deep",
+            "Smooth & sweet",
+            "Soft & airy",
+            "Surprise me"
+          ]
+        }
+      ],
+      "errors": [],
+      "catalogIds": [
+        "10314865016897",
+        "10314853515329",
+        "10314853449793",
+        "10314853417025",
+        "10314005020737",
+        "10314869571649"
+      ],
+      "cards": [
+        {
+          "id": "10314865016897",
+          "title": "Mistened Narcissus",
+          "url": "/products/mistened-narcissus",
+          "price": "\u20b1799.00",
+          "badge": "SOLD OUT",
+          "reason": "Connects with your choices: Bright & playful \u00b7 Juicy berries \u00b7 A special occasion \u00b7 Smooth & sweet."
+        },
+        {
+          "id": "10314869571649",
+          "title": "Mojito Metallique",
+          "url": "/products/mojito-metallique",
+          "price": "\u20b1799.00\u20b11,099.00",
+          "badge": "SOLD OUT",
+          "reason": "Connects with your choices: Bright & playful."
+        },
+        {
+          "id": "10314853417025",
+          "title": "Amber Oud Silk",
+          "url": "/products/amber-oud-silk",
+          "price": "\u20b1799.00",
+          "badge": "SOLD OUT",
+          "reason": "Connects with your choices: A special occasion."
+        }
+      ],
+      "summary": "Your preferences point to these fragrances. Start with your top match, then explore the other scents that share something you love.",
+      "resultState": {
+        "overflow": false,
+        "headingOverflow": [],
+        "focus": {
+          "tag": "H2",
+          "question": false,
+          "result": true
+        }
+      },
+      "status": "PASS"
+    },
+    {
+      "theme": "dark",
+      "width": 390,
+      "flow": "men",
+      "questions": [
+        {
+          "key": "collection",
+          "value": "Men",
+          "labels": [
+            "Women\u2019s collection",
+            "Men\u2019s collection",
+            "Explore both collections"
+          ]
+        },
+        {
+          "key": "mood",
+          "value": "Dark & bold",
+          "labels": [
+            "Dark & bold",
+            "Soft & relaxed",
+            "Warm & inviting",
+            "I\u2019m open to any mood"
+          ]
+        },
+        {
+          "key": "character",
+          "value": "Rose & woods",
+          "labels": [
+            "Airy sweetness",
+            "Rose & woods",
+            "Smoky woods",
+            "Warm spice",
+            "I\u2019d like to discover something new"
+          ]
+        },
+        {
+          "key": "occasion",
+          "value": "A special occasion",
+          "labels": [
+            "A special occasion",
+            "Coffee & catch-ups",
+            "Evenings out",
+            "Everyday moments",
+            "A little of everything"
+          ]
+        },
+        {
+          "key": "intensity",
+          "value": "Rich & deep",
+          "labels": [
+            "Rich & deep",
+            "Smooth & sweet",
+            "Soft & airy",
+            "Surprise me"
+          ]
+        }
+      ],
+      "errors": [],
+      "catalogIds": [
+        "10314865016897",
+        "10314853515329",
+        "10314853449793",
+        "10314853417025",
+        "10314005020737",
+        "10314869571649"
+      ],
+      "cards": [
+        {
+          "id": "10314853515329",
+          "title": "Oud Mirage",
+          "url": "/products/oud-mirage",
+          "price": "\u20b1799.00",
+          "badge": "SOLD OUT",
+          "reason": "Connects with your choices: Dark & bold \u00b7 Rose & woods \u00b7 A special occasion \u00b7 Rich & deep."
+        },
+        {
+          "id": "10314005020737",
+          "title": "Charme Envo\u00fbtant",
+          "url": "/products/charme-envoutant",
+          "price": "\u20b1799.00",
+          "badge": "SOLD OUT",
+          "reason": "Connects with your choices: A special occasion \u00b7 Rich & deep."
+        }
+      ],
+      "summary": "Your preferences point to these fragrances. Start with your top match, then explore the other scents that share something you love.",
+      "resultState": {
+        "overflow": false,
+        "headingOverflow": [],
+        "focus": {
+          "tag": "H2",
+          "question": false,
+          "result": true
+        }
+      },
+      "status": "PASS"
+    },
+    {
+      "theme": "dark",
+      "width": 390,
+      "flow": "open",
+      "questions": [
+        {
+          "key": "collection",
+          "value": "",
+          "labels": [
+            "Women\u2019s collection",
+            "Men\u2019s collection",
+            "Explore both collections"
+          ]
+        },
+        {
+          "key": "mood",
+          "value": "Bright & playful",
+          "labels": [
+            "Bright & playful",
+            "Dark & bold",
+            "Soft & relaxed",
+            "Warm & inviting",
+            "I\u2019m open to any mood"
+          ]
+        },
+        {
+          "key": "character",
+          "value": "Juicy berries",
+          "labels": [
+            "Airy sweetness",
+            "Creamy & fruity",
+            "Juicy berries",
+            "Rose & woods",
+            "Smoky woods",
+            "Warm spice",
+            "I\u2019d like to discover something new"
+          ]
+        },
+        {
+          "key": "occasion",
+          "value": "A special occasion",
+          "labels": [
+            "A special occasion",
+            "Coffee & catch-ups",
+            "Evenings out",
+            "Everyday moments",
+            "A little of everything"
+          ]
+        },
+        {
+          "key": "intensity",
+          "value": "Smooth & sweet",
+          "labels": [
+            "Rich & deep",
+            "Smooth & sweet",
+            "Soft & airy",
+            "Surprise me"
+          ]
+        }
+      ],
+      "errors": [],
+      "catalogIds": [
+        "10314865016897",
+        "10314853515329",
+        "10314853449793",
+        "10314853417025",
+        "10314005020737",
+        "10314869571649"
+      ],
+      "cards": [
+        {
+          "id": "10314865016897",
+          "title": "Mistened Narcissus",
+          "url": "/products/mistened-narcissus",
+          "price": "\u20b1799.00",
+          "badge": "SOLD OUT",
+          "reason": "Connects with your choices: Bright & playful \u00b7 Juicy berries \u00b7 A special occasion \u00b7 Smooth & sweet."
+        },
+        {
+          "id": "10314869571649",
+          "title": "Mojito Metallique",
+          "url": "/products/mojito-metallique",
+          "price": "\u20b1799.00\u20b11,099.00",
+          "badge": "SOLD OUT",
+          "reason": "Connects with your choices: Bright & playful."
+        },
+        {
+          "id": "10314005020737",
+          "title": "Charme Envo\u00fbtant",
+          "url": "/products/charme-envoutant",
+          "price": "\u20b1799.00",
+          "badge": "SOLD OUT",
+          "reason": "Connects with your choices: A special occasion \u00b7 Smooth & sweet."
+        }
+      ],
+      "summary": "Your preferences point to these fragrances. Start with your top match, then explore the other scents that share something you love.",
+      "resultState": {
+        "overflow": false,
+        "headingOverflow": [],
+        "focus": {
+          "tag": "H2",
+          "question": false,
+          "result": true
+        }
+      },
+      "status": "PASS"
+    },
+    {
+      "theme": "dark",
+      "width": 390,
+      "flow": "skip",
+      "questions": [
+        {
+          "key": "collection",
+          "value": "",
+          "labels": [
+            "Women\u2019s collection",
+            "Men\u2019s collection",
+            "Explore both collections"
+          ]
+        },
+        {
+          "key": "mood",
+          "value": "",
+          "labels": [
+            "Bright & playful",
+            "Dark & bold",
+            "Soft & relaxed",
+            "Warm & inviting",
+            "I\u2019m open to any mood"
+          ]
+        },
+        {
+          "key": "character",
+          "value": "",
+          "labels": [
+            "Airy sweetness",
+            "Creamy & fruity",
+            "Juicy berries",
+            "Rose & woods",
+            "Smoky woods",
+            "Warm spice",
+            "I\u2019d like to discover something new"
+          ]
+        },
+        {
+          "key": "occasion",
+          "value": "",
+          "labels": [
+            "A special occasion",
+            "Coffee & catch-ups",
+            "Evenings out",
+            "Everyday moments",
+            "A little of everything"
+          ]
+        },
+        {
+          "key": "intensity",
+          "value": "",
+          "labels": [
+            "Rich & deep",
+            "Smooth & sweet",
+            "Soft & airy",
+            "Surprise me"
+          ]
+        }
+      ],
+      "errors": [],
+      "catalogIds": [
+        "10314865016897",
+        "10314853515329",
+        "10314853449793",
+        "10314853417025",
+        "10314005020737",
+        "10314869571649"
+      ],
+      "cards": [
+        {
+          "id": "10314865016897",
+          "title": "Mistened Narcissus",
+          "url": "/products/mistened-narcissus",
+          "price": "\u20b1799.00",
+          "badge": "SOLD OUT",
+          "reason": "Explore its scent story and see what speaks to you."
+        },
+        {
+          "id": "10314853515329",
+          "title": "Oud Mirage",
+          "url": "/products/oud-mirage",
+          "price": "\u20b1799.00",
+          "badge": "SOLD OUT",
+          "reason": "Explore its scent story and see what speaks to you."
+        },
+        {
+          "id": "10314853449793",
+          "title": "Rtulle & Satin",
+          "url": "/products/rtulle-satin",
+          "price": "\u20b1799.00",
+          "badge": "SOLD OUT",
+          "reason": "Explore its scent story and see what speaks to you."
+        }
+      ],
+      "summary": "You kept your options open. Here is a discovery edit from your chosen collection \u2014 a few scents to get to know.",
+      "resultState": {
+        "overflow": false,
+        "headingOverflow": [],
+        "focus": {
+          "tag": "H2",
+          "question": false,
+          "result": true
+        }
+      },
+      "status": "PASS"
+    }
+  ],
+  "accessibility": [
+    {
+      "label": "quiz",
+      "theme": "light",
+      "width": 1440,
+      "flow": "women",
+      "passes": 24,
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": [
+            {
+              "target": [
+                ".sj-footer-statement"
+              ],
+              "summary": "Fix any of the following:\n  Element has a 1:1 contrast ratio with the background"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "results",
+      "theme": "light",
+      "width": 1440,
+      "flow": "women",
+      "passes": 22,
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": [
+            {
+              "target": [
+                ".sj-footer-statement"
+              ],
+              "summary": "Fix any of the following:\n  Element has a 1:1 contrast ratio with the background"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "quiz",
+      "theme": "light",
+      "width": 390,
+      "flow": "women",
+      "passes": 24,
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": [
+            {
+              "target": [
+                ".sj-menu-toggle > span[aria-hidden=\"true\"]"
+              ],
+              "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+            },
+            {
+              "target": [
+                ".sj-footer-statement"
+              ],
+              "summary": "Fix any of the following:\n  Element has a 1:1 contrast ratio with the background"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "results",
+      "theme": "light",
+      "width": 390,
+      "flow": "women",
+      "passes": 22,
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": [
+            {
+              "target": [
+                ".sj-menu-toggle > span[aria-hidden=\"true\"]"
+              ],
+              "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+            },
+            {
+              "target": [
+                ".sj-footer-statement"
+              ],
+              "summary": "Fix any of the following:\n  Element has a 1:1 contrast ratio with the background"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "quiz",
+      "theme": "dark",
+      "width": 1440,
+      "flow": "women",
+      "passes": 24,
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": [
+            {
+              "target": [
+                ".sj-finder-choice:nth-child(1) > span"
+              ],
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "target": [
+                ".sj-finder-choice:nth-child(2) > span"
+              ],
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "target": [
+                ".sj-finder-choice:nth-child(3) > span"
+              ],
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "results",
+      "theme": "dark",
+      "width": 1440,
+      "flow": "women",
+      "passes": 22,
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "label": "quiz",
+      "theme": "dark",
+      "width": 390,
+      "flow": "women",
+      "passes": 24,
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": [
+            {
+              "target": [
+                ".sj-menu-toggle > span[aria-hidden=\"true\"]"
+              ],
+              "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+            },
+            {
+              "target": [
+                ".sj-finder-choice:nth-child(1) > span"
+              ],
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "target": [
+                ".sj-finder-choice:nth-child(2) > span"
+              ],
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "target": [
+                ".sj-finder-choice:nth-child(3) > span"
+              ],
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "results",
+      "theme": "dark",
+      "width": 390,
+      "flow": "women",
+      "passes": 22,
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": [
+            {
+              "target": [
+                ".sj-menu-toggle > span[aria-hidden=\"true\"]"
+              ],
+              "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "productLinks": [
+    {
+      "handle": "mistened-narcissus",
+      "status": 200,
+      "h1": "Mistened Narcissus",
+      "pass": true
+    },
+    {
+      "handle": "oud-mirage",
+      "status": 200,
+      "h1": "Oud Mirage",
+      "pass": true
+    },
+    {
+      "handle": "rtulle-satin",
+      "status": 200,
+      "h1": "Rtulle & Satin",
+      "pass": true
+    },
+    {
+      "handle": "amber-oud-silk",
+      "status": 200,
+      "h1": "Amber Oud Silk",
+      "pass": true
+    },
+    {
+      "handle": "charme-envoutant",
+      "status": 200,
+      "h1": "Charme Envo\u00fbtant",
+      "pass": true
+    },
+    {
+      "handle": "mojito-metallique",
+      "status": 200,
+      "h1": "Mojito Metallique",
+      "pass": true
+    }
+  ],
+  "issues": [],
+  "summary": {
+    "status": "PASS",
+    "runs": 16,
+    "checks": 550,
+    "passedChecks": 550,
+    "axeScans": 8,
+    "axeViolations": 0,
+    "productDestinations": 6,
+    "issues": 0
+  },
+  "mobileContinueFollowup": [
+    {
+      "theme": "light",
+      "button": {
+        "top": 539.59375,
+        "bottom": 591.59375,
+        "left": 248.265625,
+        "right": 368,
+        "disabled": false
+      },
+      "switcher": {
+        "top": 788,
+        "bottom": 832
+      },
+      "allTestPointsHitButton": true,
+      "overlapsSwitcher": false,
+      "advancedToMood": true,
+      "pass": true
+    },
+    {
+      "theme": "dark",
+      "button": {
+        "top": 539.59375,
+        "bottom": 591.59375,
+        "left": 248.265625,
+        "right": 368,
+        "disabled": false
+      },
+      "switcher": {
+        "top": 788,
+        "bottom": 832
+      },
+      "allTestPointsHitButton": true,
+      "overlapsSwitcher": false,
+      "advancedToMood": true,
+      "pass": true
+    }
+  ],
+  "manualReview": {
+    "status": "PASS",
+    "reviewed": [
+      "quiz-light-1440.png",
+      "quiz-light-390.png",
+      "quiz-dark-390.png",
+      "results-women-light-1440.png",
+      "results-open-light-1440.png",
+      "results-women-light-390.png",
+      "results-women-dark-390.png",
+      "results-men-light-1440.png",
+      "results-skip-dark-1440.png",
+      "quiz-light-390-button-clear.png",
+      "quiz-dark-390-button-clear.png"
+    ],
+    "findings": [
+      "Quiz and results headings and cards remain readable and correctly spaced in both themes and mobile/desktop.",
+      "Element-only mobile quiz screenshot aligns the section bottom with the viewport and lets the fixed preview theme switcher overlap part of Continue. Normal scrolling moves Continue fully clear; all four corner hit tests and center hit test target the button, and clicking advances to mood in both modes. All eight mobile full flows already used successful native pointer clicks.",
+      "Axe incomplete items are image-backed footer contrast, dark choice gradients, and the menu glyph; inspected visual states remain readable. No axe violations.",
+      "Price comparison test was corrected to ignore layout whitespace between current and compare-at prices. All values remain identical to the actual rendered hidden native card bank."
+    ]
+  }
+}

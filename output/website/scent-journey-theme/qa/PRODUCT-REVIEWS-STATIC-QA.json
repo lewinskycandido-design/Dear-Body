@@ -1,0 +1,173 @@
+{
+  "generatedAt": "2026-09-24T09:31:56.611Z",
+  "checks": [
+    {
+      "pass": true,
+      "label": "Unique IDs",
+      "fixture": "empty"
+    },
+    {
+      "pass": true,
+      "label": "Reviews remain display-only with no form or submission CTA",
+      "fixture": "empty"
+    },
+    {
+      "pass": true,
+      "label": "Empty production state has no invented reviews or rating",
+      "fixture": "empty"
+    },
+    {
+      "pass": true,
+      "label": "Summary targets exact product review section",
+      "fixture": "empty"
+    },
+    {
+      "pass": true,
+      "label": "Unique IDs",
+      "fixture": "approved-match"
+    },
+    {
+      "pass": true,
+      "label": "Reviews remain display-only with no form or submission CTA",
+      "fixture": "approved-match"
+    },
+    {
+      "pass": true,
+      "label": "Approved product-matched review blocks become visible",
+      "fixture": "approved-match"
+    },
+    {
+      "pass": true,
+      "label": "Manual fallback aggregate is calculated from approved reviews only",
+      "fixture": "approved-match"
+    },
+    {
+      "pass": true,
+      "label": "Unique IDs",
+      "fixture": "moderation-gates"
+    },
+    {
+      "pass": true,
+      "label": "Reviews remain display-only with no form or submission CTA",
+      "fixture": "moderation-gates"
+    },
+    {
+      "pass": true,
+      "label": "Unapproved, wrong/absent product, incomplete and invalid blocks stay hidden",
+      "fixture": "moderation-gates"
+    },
+    {
+      "pass": true,
+      "label": "Unique IDs",
+      "fixture": "native-priority"
+    },
+    {
+      "pass": true,
+      "label": "Reviews remain display-only with no form or submission CTA",
+      "fixture": "native-priority"
+    },
+    {
+      "pass": true,
+      "label": "Real native rating/count override local review-block aggregate",
+      "fixture": "native-priority"
+    },
+    {
+      "pass": true,
+      "label": "Unique IDs",
+      "fixture": "native-count-only"
+    },
+    {
+      "pass": true,
+      "label": "Reviews remain display-only with no form or submission CTA",
+      "fixture": "native-count-only"
+    },
+    {
+      "pass": true,
+      "label": "Native count without rating does not fabricate an average",
+      "fixture": "native-count-only"
+    },
+    {
+      "pass": true,
+      "label": "Unique IDs",
+      "fixture": "app-provider"
+    },
+    {
+      "pass": true,
+      "label": "Reviews remain display-only with no form or submission CTA",
+      "fixture": "app-provider"
+    },
+    {
+      "pass": true,
+      "label": "App blocks render without a conflicting empty-review claim",
+      "fixture": "app-provider"
+    },
+    {
+      "pass": true,
+      "label": "Unique IDs",
+      "fixture": "native-data-without-text"
+    },
+    {
+      "pass": true,
+      "label": "Reviews remain display-only with no form or submission CTA",
+      "fixture": "native-data-without-text"
+    },
+    {
+      "pass": true,
+      "label": "Native rating does not falsely claim empty reviews or invent review text",
+      "fixture": "native-data-without-text"
+    },
+    {
+      "pass": true,
+      "label": "Unique IDs",
+      "fixture": "escaped-customer-content"
+    },
+    {
+      "pass": true,
+      "label": "Reviews remain display-only with no form or submission CTA",
+      "fixture": "escaped-customer-content"
+    },
+    {
+      "pass": true,
+      "label": "Customer display names and review text are escaped",
+      "fixture": "escaped-customer-content"
+    },
+    {
+      "pass": true,
+      "label": "Empty reviews section sits after product and before recommendations",
+      "fixture": "source"
+    },
+    {
+      "pass": true,
+      "label": "Schema supports apps and exact-product review blocks defaulting unapproved",
+      "fixture": "source"
+    },
+    {
+      "pass": true,
+      "label": "Contact review form and fabricated verification claims absent",
+      "fixture": "source"
+    },
+    {
+      "pass": true,
+      "label": "Unused review form styling removed",
+      "fixture": "source"
+    },
+    {
+      "pass": true,
+      "label": "Purchase area keeps native rating summary",
+      "fixture": "source"
+    }
+  ],
+  "issues": [],
+  "boundaries": [
+    "Synthetic ratings and review text exist only in this QA file and in-memory render fixtures; no customer reviews or defaults are added to the theme.",
+    "The production reviews section is display-only. No review form, collector or submission control remains.",
+    "Third-party app rendering uses an explicitly labelled placeholder; provider behavior and review-source integration are not tested.",
+    "No browser, Shopify edit, preview rebuild, network request, order or contact submission occurred."
+  ],
+  "summary": {
+    "status": "PASS",
+    "checks": 31,
+    "passed": 31,
+    "failures": 0
+  }
+}

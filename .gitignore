@@ -1,0 +1,23 @@
+# Local dependencies, caches, and rendered previews
+.DS_Store
+**/node_modules/
+**/__pycache__/
+*.py[cod]
+**/preview/public/
+/.skill-staging/
+/tmp/
+/working/
+
+# Local credentials, store sessions, and private diagnostic captures
+.env
+.env.*
+!.env.example
+**/.shopify/
+*.har
+*.log
+*.pid
+**/source-assets/canva/page-assets-manifest.json
+
+# Keep the current installable theme; older packaged copies stay local
+*.zip
+!output/website/scent-journey-theme/DearBody-Theme-Update-COD-Orders.zip

@@ -1,0 +1,2383 @@
+{
+  "generatedAt": "2026-09-24T03:54:19.008Z",
+  "base": "http://127.0.0.1:4208",
+  "scope": "16 local page/theme/viewport cases; no gallery asset edits or injected product fixtures",
+  "cases": [
+    {
+      "name": "home",
+      "route": "/",
+      "theme": "light",
+      "width": 1440,
+      "checks": [
+        {
+          "pass": true,
+          "label": "Body uses Helvetica Now Display weight300",
+          "data": {
+            "bodyFamily": "\"Helvetica Now Display\", \"Helvetica Neue\", Arial, sans-serif",
+            "bodyWeight": "300",
+            "headingFamily": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif",
+            "headingWeight": "700",
+            "faces": [
+              {
+                "family": "Cenzo Flare Bold",
+                "status": "loaded",
+                "weight": "700"
+              },
+              {
+                "family": "Helvetica Now Display",
+                "status": "loaded",
+                "weight": "300"
+              }
+            ],
+            "overflow": false,
+            "h1s": 1
+          }
+        },
+        {
+          "pass": true,
+          "label": "New supplied font face loaded"
+        },
+        {
+          "pass": true,
+          "label": "Cenzo Bold heading retained"
+        },
+        {
+          "pass": true,
+          "label": "New font requested; no old Text font requests",
+          "data": [
+            "http://127.0.0.1:4208/assets/CenzoFlare-Bold.woff2",
+            "http://127.0.0.1:4208/assets/HelveticaNowDisplay-Light.woff2",
+            "http://127.0.0.1:4208/assets/CenzoFlare-Bold.woff2",
+            "http://127.0.0.1:4208/assets/HelveticaNowDisplay-Light.woff2"
+          ]
+        },
+        {
+          "pass": true,
+          "label": "One H1 and no document overflow"
+        },
+        {
+          "pass": true,
+          "label": "Rendered body glyphs use supplied custom Display font",
+          "data": [
+            {
+              "familyName": "HelveticaNowDisplay Light",
+              "postScriptName": "HelveticaNowDisplay-Light",
+              "isCustomFont": true,
+              "glyphCount": 60
+            }
+          ]
+        },
+        {
+          "pass": true,
+          "label": "Visible headings and paragraphs fit their containers",
+          "data": []
+        },
+        {
+          "pass": true,
+          "label": "Keyboard navigation opens Women collection"
+        },
+        {
+          "pass": true,
+          "label": "No JavaScript errors",
+          "data": []
+        }
+      ],
+      "errors": [],
+      "fontRequests": [
+        "http://127.0.0.1:4208/assets/CenzoFlare-Bold.woff2",
+        "http://127.0.0.1:4208/assets/HelveticaNowDisplay-Light.woff2",
+        "http://127.0.0.1:4208/assets/CenzoFlare-Bold.woff2",
+        "http://127.0.0.1:4208/assets/HelveticaNowDisplay-Light.woff2"
+      ],
+      "fonts": {
+        "bodyFamily": "\"Helvetica Now Display\", \"Helvetica Neue\", Arial, sans-serif",
+        "bodyWeight": "300",
+        "headingFamily": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif",
+        "headingWeight": "700",
+        "faces": [
+          {
+            "family": "Cenzo Flare Bold",
+            "status": "loaded",
+            "weight": "700"
+          },
+          {
+            "family": "Helvetica Now Display",
+            "status": "loaded",
+            "weight": "300"
+          }
+        ],
+        "overflow": false,
+        "h1s": 1
+      },
+      "renderedFonts": [
+        {
+          "familyName": "HelveticaNowDisplay Light",
+          "postScriptName": "HelveticaNowDisplay-Light",
+          "isCustomFont": true,
+          "glyphCount": 60
+        }
+      ],
+      "wrapping": [],
+      "status": "PASS"
+    },
+    {
+      "name": "home",
+      "route": "/",
+      "theme": "light",
+      "width": 390,
+      "checks": [
+        {
+          "pass": true,
+          "label": "Body uses Helvetica Now Display weight300",
+          "data": {
+            "bodyFamily": "\"Helvetica Now Display\", \"Helvetica Neue\", Arial, sans-serif",
+            "bodyWeight": "300",
+            "headingFamily": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif",
+            "headingWeight": "700",
+            "faces": [
+              {
+                "family": "Cenzo Flare Bold",
+                "status": "loaded",
+                "weight": "700"
+              },
+              {
+                "family": "Helvetica Now Display",
+                "status": "loaded",
+                "weight": "300"
+              }
+            ],
+            "overflow": false,
+            "h1s": 1
+          }
+        },
+        {
+          "pass": true,
+          "label": "New supplied font face loaded"
+        },
+        {
+          "pass": true,
+          "label": "Cenzo Bold heading retained"
+        },
+        {
+          "pass": true,
+          "label": "New font requested; no old Text font requests",
+          "data": [
+            "http://127.0.0.1:4208/assets/CenzoFlare-Bold.woff2",
+            "http://127.0.0.1:4208/assets/HelveticaNowDisplay-Light.woff2",
+            "http://127.0.0.1:4208/assets/CenzoFlare-Bold.woff2",
+            "http://127.0.0.1:4208/assets/HelveticaNowDisplay-Light.woff2"
+          ]
+        },
+        {
+          "pass": true,
+          "label": "One H1 and no document overflow"
+        },
+        {
+          "pass": true,
+          "label": "Rendered body glyphs use supplied custom Display font",
+          "data": [
+            {
+              "familyName": "HelveticaNowDisplay Light",
+              "postScriptName": "HelveticaNowDisplay-Light",
+              "isCustomFont": true,
+              "glyphCount": 61
+            }
+          ]
+        },
+        {
+          "pass": true,
+          "label": "Visible headings and paragraphs fit their containers",
+          "data": []
+        },
+        {
+          "pass": true,
+          "label": "Mobile keyboard menu opens"
+        },
+        {
+          "pass": true,
+          "label": "Keyboard navigation opens Women collection"
+        },
+        {
+          "pass": true,
+          "label": "No JavaScript errors",
+          "data": []
+        }
+      ],
+      "errors": [],
+      "fontRequests": [
+        "http://127.0.0.1:4208/assets/CenzoFlare-Bold.woff2",
+        "http://127.0.0.1:4208/assets/HelveticaNowDisplay-Light.woff2",
+        "http://127.0.0.1:4208/assets/CenzoFlare-Bold.woff2",
+        "http://127.0.0.1:4208/assets/HelveticaNowDisplay-Light.woff2"
+      ],
+      "fonts": {
+        "bodyFamily": "\"Helvetica Now Display\", \"Helvetica Neue\", Arial, sans-serif",
+        "bodyWeight": "300",
+        "headingFamily": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif",
+        "headingWeight": "700",
+        "faces": [
+          {
+            "family": "Cenzo Flare Bold",
+            "status": "loaded",
+            "weight": "700"
+          },
+          {
+            "family": "Helvetica Now Display",
+            "status": "loaded",
+            "weight": "300"
+          }
+        ],
+        "overflow": false,
+        "h1s": 1
+      },
+      "renderedFonts": [
+        {
+          "familyName": "HelveticaNowDisplay Light",
+          "postScriptName": "HelveticaNowDisplay-Light",
+          "isCustomFont": true,
+          "glyphCount": 61
+        }
+      ],
+      "wrapping": [],
+      "status": "PASS"
+    },
+    {
+      "name": "home",
+      "route": "/",
+      "theme": "dark",
+      "width": 1440,
+      "checks": [
+        {
+          "pass": true,
+          "label": "Body uses Helvetica Now Display weight300",
+          "data": {
+            "bodyFamily": "\"Helvetica Now Display\", \"Helvetica Neue\", Arial, sans-serif",
+            "bodyWeight": "300",
+            "headingFamily": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif",
+            "headingWeight": "700",
+            "faces": [
+              {
+                "family": "Cenzo Flare Bold",
+                "status": "loaded",
+                "weight": "700"
+              },
+              {
+                "family": "Helvetica Now Display",
+                "status": "loaded",
+                "weight": "300"
+              }
+            ],
+            "overflow": false,
+            "h1s": 1
+          }
+        },
+        {
+          "pass": true,
+          "label": "New supplied font face loaded"
+        },
+        {
+          "pass": true,
+          "label": "Cenzo Bold heading retained"
+        },
+        {
+          "pass": true,
+          "label": "New font requested; no old Text font requests",
+          "data": [
+            "http://127.0.0.1:4208/assets/CenzoFlare-Bold.woff2",
+            "http://127.0.0.1:4208/assets/HelveticaNowDisplay-Light.woff2",
+            "http://127.0.0.1:4208/assets/CenzoFlare-Bold.woff2",
+            "http://127.0.0.1:4208/assets/HelveticaNowDisplay-Light.woff2"
+          ]
+        },
+        {
+          "pass": true,
+          "label": "One H1 and no document overflow"
+        },
+        {
+          "pass": true,
+          "label": "Rendered body glyphs use supplied custom Display font",
+          "data": [
+            {
+              "familyName": "HelveticaNowDisplay Light",
+              "postScriptName": "HelveticaNowDisplay-Light",
+              "isCustomFont": true,
+              "glyphCount": 60
+            }
+          ]
+        },
+        {
+          "pass": true,
+          "label": "Visible headings and paragraphs fit their containers",
+          "data": []
+        },
+        {
+          "pass": true,
+          "label": "Keyboard navigation opens Women collection"
+        },
+        {
+          "pass": true,
+          "label": "No JavaScript errors",
+          "data": []
+        }
+      ],
+      "errors": [],
+      "fontRequests": [
+        "http://127.0.0.1:4208/assets/CenzoFlare-Bold.woff2",
+        "http://127.0.0.1:4208/assets/HelveticaNowDisplay-Light.woff2",
+        "http://127.0.0.1:4208/assets/CenzoFlare-Bold.woff2",
+        "http://127.0.0.1:4208/assets/HelveticaNowDisplay-Light.woff2"
+      ],
+      "fonts": {
+        "bodyFamily": "\"Helvetica Now Display\", \"Helvetica Neue\", Arial, sans-serif",
+        "bodyWeight": "300",
+        "headingFamily": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif",
+        "headingWeight": "700",
+        "faces": [
+          {
+            "family": "Cenzo Flare Bold",
+            "status": "loaded",
+            "weight": "700"
+          },
+          {
+            "family": "Helvetica Now Display",
+            "status": "loaded",
+            "weight": "300"
+          }
+        ],
+        "overflow": false,
+        "h1s": 1
+      },
+      "renderedFonts": [
+        {
+          "familyName": "HelveticaNowDisplay Light",
+          "postScriptName": "HelveticaNowDisplay-Light",
+          "isCustomFont": true,
+          "glyphCount": 60
+        }
+      ],
+      "wrapping": [],
+      "status": "PASS"
+    },
+    {
+      "name": "home",
+      "route": "/",
+      "theme": "dark",
+      "width": 390,
+      "checks": [
+        {
+          "pass": true,
+          "label": "Body uses Helvetica Now Display weight300",
+          "data": {
+            "bodyFamily": "\"Helvetica Now Display\", \"Helvetica Neue\", Arial, sans-serif",
+            "bodyWeight": "300",
+            "headingFamily": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif",
+            "headingWeight": "700",
+            "faces": [
+              {
+                "family": "Cenzo Flare Bold",
+                "status": "loaded",
+                "weight": "700"
+              },
+              {
+                "family": "Helvetica Now Display",
+                "status": "loaded",
+                "weight": "300"
+              }
+            ],
+            "overflow": false,
+            "h1s": 1
+          }
+        },
+        {
+          "pass": true,
+          "label": "New supplied font face loaded"
+        },
+        {
+          "pass": true,
+          "label": "Cenzo Bold heading retained"
+        },
+        {
+          "pass": true,
+          "label": "New font requested; no old Text font requests",
+          "data": [
+            "http://127.0.0.1:4208/assets/CenzoFlare-Bold.woff2",
+            "http://127.0.0.1:4208/assets/HelveticaNowDisplay-Light.woff2",
+            "http://127.0.0.1:4208/assets/CenzoFlare-Bold.woff2",
+            "http://127.0.0.1:4208/assets/HelveticaNowDisplay-Light.woff2"
+          ]
+        },
+        {
+          "pass": true,
+          "label": "One H1 and no document overflow"
+        },
+        {
+          "pass": true,
+          "label": "Rendered body glyphs use supplied custom Display font",
+          "data": [
+            {
+              "familyName": "HelveticaNowDisplay Light",
+              "postScriptName": "HelveticaNowDisplay-Light",
+              "isCustomFont": true,
+              "glyphCount": 61
+            }
+          ]
+        },
+        {
+          "pass": true,
+          "label": "Visible headings and paragraphs fit their containers",
+          "data": []
+        },
+        {
+          "pass": true,
+          "label": "Mobile keyboard menu opens"
+        },
+        {
+          "pass": true,
+          "label": "Keyboard navigation opens Women collection"
+        },
+        {
+          "pass": true,
+          "label": "No JavaScript errors",
+          "data": []
+        }
+      ],
+      "errors": [],
+      "fontRequests": [
+        "http://127.0.0.1:4208/assets/CenzoFlare-Bold.woff2",
+        "http://127.0.0.1:4208/assets/HelveticaNowDisplay-Light.woff2",
+        "http://127.0.0.1:4208/assets/CenzoFlare-Bold.woff2",
+        "http://127.0.0.1:4208/assets/HelveticaNowDisplay-Light.woff2"
+      ],
+      "fonts": {
+        "bodyFamily": "\"Helvetica Now Display\", \"Helvetica Neue\", Arial, sans-serif",
+        "bodyWeight": "300",
+        "headingFamily": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif",
+        "headingWeight": "700",
+        "faces": [
+          {
+            "family": "Cenzo Flare Bold",
+            "status": "loaded",
+            "weight": "700"
+          },
+          {
+            "family": "Helvetica Now Display",
+            "status": "loaded",
+            "weight": "300"
+          }
+        ],
+        "overflow": false,
+        "h1s": 1
+      },
+      "renderedFonts": [
+        {
+          "familyName": "HelveticaNowDisplay Light",
+          "postScriptName": "HelveticaNowDisplay-Light",
+          "isCustomFont": true,
+          "glyphCount": 61
+        }
+      ],
+      "wrapping": [],
+      "status": "PASS"
+    },
+    {
+      "name": "collection",
+      "route": "/collections/womens-perfume",
+      "theme": "light",
+      "width": 1440,
+      "checks": [
+        {
+          "pass": true,
+          "label": "Body uses Helvetica Now Display weight300",
+          "data": {
+            "bodyFamily": "\"Helvetica Now Display\", \"Helvetica Neue\", Arial, sans-serif",
+            "bodyWeight": "300",
+            "headingFamily": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif",
+            "headingWeight": "700",
+            "faces": [
+              {
+                "family": "Cenzo Flare Bold",
+                "status": "loaded",
+                "weight": "700"
+              },
+              {
+                "family": "Helvetica Now Display",
+                "status": "loaded",
+                "weight": "300"
+              }
+            ],
+            "overflow": false,
+            "h1s": 1
+          }
+        },
+        {
+          "pass": true,
+          "label": "New supplied font face loaded"
+        },
+        {
+          "pass": true,
+          "label": "Cenzo Bold heading retained"
+        },
+        {
+          "pass": true,
+          "label": "New font requested; no old Text font requests",
+          "data": [
+            "http://127.0.0.1:4208/assets/CenzoFlare-Bold.woff2",
+            "http://127.0.0.1:4208/assets/HelveticaNowDisplay-Light.woff2",
+            "http://127.0.0.1:4208/assets/CenzoFlare-Bold.woff2",
+            "http://127.0.0.1:4208/assets/HelveticaNowDisplay-Light.woff2"
+          ]
+        },
+        {
+          "pass": true,
+          "label": "One H1 and no document overflow"
+        },
+        {
+          "pass": true,
+          "label": "Rendered body glyphs use supplied custom Display font",
+          "data": [
+            {
+              "familyName": "HelveticaNowDisplay Light",
+              "postScriptName": "HelveticaNowDisplay-Light",
+              "isCustomFont": true,
+              "glyphCount": 26
+            }
+          ]
+        },
+        {
+          "pass": true,
+          "label": "Visible headings and paragraphs fit their containers",
+          "data": []
+        },
+        {
+          "pass": true,
+          "label": "Collection filter controls open with keyboard"
+        },
+        {
+          "pass": true,
+          "label": "Collection card opens its product"
+        },
+        {
+          "pass": true,
+          "label": "No JavaScript errors",
+          "data": []
+        }
+      ],
+      "errors": [],
+      "fontRequests": [
+        "http://127.0.0.1:4208/assets/CenzoFlare-Bold.woff2",
+        "http://127.0.0.1:4208/assets/HelveticaNowDisplay-Light.woff2",
+        "http://127.0.0.1:4208/assets/CenzoFlare-Bold.woff2",
+        "http://127.0.0.1:4208/assets/HelveticaNowDisplay-Light.woff2"
+      ],
+      "fonts": {
+        "bodyFamily": "\"Helvetica Now Display\", \"Helvetica Neue\", Arial, sans-serif",
+        "bodyWeight": "300",
+        "headingFamily": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif",
+        "headingWeight": "700",
+        "faces": [
+          {
+            "family": "Cenzo Flare Bold",
+            "status": "loaded",
+            "weight": "700"
+          },
+          {
+            "family": "Helvetica Now Display",
+            "status": "loaded",
+            "weight": "300"
+          }
+        ],
+        "overflow": false,
+        "h1s": 1
+      },
+      "renderedFonts": [
+        {
+          "familyName": "HelveticaNowDisplay Light",
+          "postScriptName": "HelveticaNowDisplay-Light",
+          "isCustomFont": true,
+          "glyphCount": 26
+        }
+      ],
+      "wrapping": [],
+      "status": "PASS"
+    },
+    {
+      "name": "collection",
+      "route": "/collections/womens-perfume",
+      "theme": "light",
+      "width": 390,
+      "checks": [
+        {
+          "pass": true,
+          "label": "Body uses Helvetica Now Display weight300",
+          "data": {
+            "bodyFamily": "\"Helvetica Now Display\", \"Helvetica Neue\", Arial, sans-serif",
+            "bodyWeight": "300",
+            "headingFamily": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif",
+            "headingWeight": "700",
+            "faces": [
+              {
+                "family": "Cenzo Flare Bold",
+                "status": "loaded",
+                "weight": "700"
+              },
+              {
+                "family": "Helvetica Now Display",
+                "status": "loaded",
+                "weight": "300"
+              }
+            ],
+            "overflow": false,
+            "h1s": 1
+          }
+        },
+        {
+          "pass": true,
+          "label": "New supplied font face loaded"
+        },
+        {
+          "pass": true,
+          "label": "Cenzo Bold heading retained"
+        },
+        {
+          "pass": true,
+          "label": "New font requested; no old Text font requests",
+          "data": [
+            "http://127.0.0.1:4208/assets/CenzoFlare-Bold.woff2",
+            "http://127.0.0.1:4208/assets/HelveticaNowDisplay-Light.woff2"
+          ]
+        },
+        {
+          "pass": true,
+          "label": "One H1 and no document overflow"
+        },
+        {
+          "pass": true,
+          "label": "Rendered body glyphs use supplied custom Display font",
+          "data": [
+            {
+              "familyName": "HelveticaNowDisplay Light",
+              "postScriptName": "HelveticaNowDisplay-Light",
+              "isCustomFont": true,
+              "glyphCount": 26
+            }
+          ]
+        },
+        {
+          "pass": true,
+          "label": "Visible headings and paragraphs fit their containers",
+          "data": []
+        },
+        {
+          "pass": true,
+          "label": "Collection filter controls open with keyboard"
+        },
+        {
+          "pass": false,
+          "label": "Browser case completes",
+          "data": {
+            "error": "locator.click: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('.sj-product-card a[href*=\"/products/\"]').first()\u001b[22m\n\u001b[2m    - locator resolved to <a class=\"sj-product-card__image\" href=\"/products/mistened-narcissus\" aria-label=\"Explore Mistened Narcissus\">…</a>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <form method=\"get\" class=\"sj-filters__form\" action=\"/collections/womens-perfume\">…</form> from <div class=\"sj-collection__toolbar\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <form method=\"get\" class=\"sj-filters__form\" action=\"/collections/womens-perfume\">…</form> from <div class=\"sj-collection__toolbar\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    58 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m       - element is visible, enabled and stable\u001b[22m\n\u001b[2m       - scrolling into view if needed\u001b[22m\n\u001b[2m       - done scrolling\u001b[22m\n\u001b[2m       - <form method=\"get\" class=\"sj-filters__form\" action=\"/collections/womens-perfume\">…</form> from <div class=\"sj-collection__toolbar\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m     - retrying click action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n"
+          }
+        }
+      ],
+      "errors": [],
+      "fontRequests": [
+        "http://127.0.0.1:4208/assets/CenzoFlare-Bold.woff2",
+        "http://127.0.0.1:4208/assets/HelveticaNowDisplay-Light.woff2"
+      ],
+      "fonts": {
+        "bodyFamily": "\"Helvetica Now Display\", \"Helvetica Neue\", Arial, sans-serif",
+        "bodyWeight": "300",
+        "headingFamily": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif",
+        "headingWeight": "700",
+        "faces": [
+          {
+            "family": "Cenzo Flare Bold",
+            "status": "loaded",
+            "weight": "700"
+          },
+          {
+            "family": "Helvetica Now Display",
+            "status": "loaded",
+            "weight": "300"
+          }
+        ],
+        "overflow": false,
+        "h1s": 1
+      },
+      "renderedFonts": [
+        {
+          "familyName": "HelveticaNowDisplay Light",
+          "postScriptName": "HelveticaNowDisplay-Light",
+          "isCustomFont": true,
+          "glyphCount": 26
+        }
+      ],
+      "wrapping": [],
+      "status": "FAIL"
+    },
+    {
+      "name": "collection",
+      "route": "/collections/womens-perfume",
+      "theme": "dark",
+      "width": 1440,
+      "checks": [
+        {
+          "pass": true,
+          "label": "Body uses Helvetica Now Display weight300",
+          "data": {
+            "bodyFamily": "\"Helvetica Now Display\", \"Helvetica Neue\", Arial, sans-serif",
+            "bodyWeight": "300",
+            "headingFamily": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif",
+            "headingWeight": "700",
+            "faces": [
+              {
+                "family": "Cenzo Flare Bold",
+                "status": "loaded",
+                "weight": "700"
+              },
+              {
+                "family": "Helvetica Now Display",
+                "status": "loaded",
+                "weight": "300"
+              }
+            ],
+            "overflow": false,
+            "h1s": 1
+          }
+        },
+        {
+          "pass": true,
+          "label": "New supplied font face loaded"
+        },
+        {
+          "pass": true,
+          "label": "Cenzo Bold heading retained"
+        },
+        {
+          "pass": true,
+          "label": "New font requested; no old Text font requests",
+          "data": [
+            "http://127.0.0.1:4208/assets/CenzoFlare-Bold.woff2",
+            "http://127.0.0.1:4208/assets/HelveticaNowDisplay-Light.woff2",
+            "http://127.0.0.1:4208/assets/CenzoFlare-Bold.woff2",
+            "http://127.0.0.1:4208/assets/HelveticaNowDisplay-Light.woff2"
+          ]
+        },
+        {
+          "pass": true,
+          "label": "One H1 and no document overflow"
+        },
+        {
+          "pass": true,
+          "label": "Rendered body glyphs use supplied custom Display font",
+          "data": [
+            {
+              "familyName": "HelveticaNowDisplay Light",
+              "postScriptName": "HelveticaNowDisplay-Light",
+              "isCustomFont": true,
+              "glyphCount": 26
+            }
+          ]
+        },
+        {
+          "pass": true,
+          "label": "Visible headings and paragraphs fit their containers",
+          "data": []
+        },
+        {
+          "pass": true,
+          "label": "Collection filter controls open with keyboard"
+        },
+        {
+          "pass": true,
+          "label": "Collection card opens its product"
+        },
+        {
+          "pass": true,
+          "label": "No JavaScript errors",
+          "data": []
+        }
+      ],
+      "errors": [],
+      "fontRequests": [
+        "http://127.0.0.1:4208/assets/CenzoFlare-Bold.woff2",
+        "http://127.0.0.1:4208/assets/HelveticaNowDisplay-Light.woff2",
+        "http://127.0.0.1:4208/assets/CenzoFlare-Bold.woff2",
+        "http://127.0.0.1:4208/assets/HelveticaNowDisplay-Light.woff2"
+      ],
+      "fonts": {
+        "bodyFamily": "\"Helvetica Now Display\", \"Helvetica Neue\", Arial, sans-serif",
+        "bodyWeight": "300",
+        "headingFamily": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif",
+        "headingWeight": "700",
+        "faces": [
+          {
+            "family": "Cenzo Flare Bold",
+            "status": "loaded",
+            "weight": "700"
+          },
+          {
+            "family": "Helvetica Now Display",
+            "status": "loaded",
+            "weight": "300"
+          }
+        ],
+        "overflow": false,
+        "h1s": 1
+      },
+      "renderedFonts": [
+        {
+          "familyName": "HelveticaNowDisplay Light",
+          "postScriptName": "HelveticaNowDisplay-Light",
+          "isCustomFont": true,
+          "glyphCount": 26
+        }
+      ],
+      "wrapping": [],
+      "status": "PASS"
+    },
+    {
+      "name": "collection",
+      "route": "/collections/womens-perfume",
+      "theme": "dark",
+      "width": 390,
+      "checks": [
+        {
+          "pass": true,
+          "label": "Body uses Helvetica Now Display weight300",
+          "data": {
+            "bodyFamily": "\"Helvetica Now Display\", \"Helvetica Neue\", Arial, sans-serif",
+            "bodyWeight": "300",
+            "headingFamily": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif",
+            "headingWeight": "700",
+            "faces": [
+              {
+                "family": "Cenzo Flare Bold",
+                "status": "loaded",
+                "weight": "700"
+              },
+              {
+                "family": "Helvetica Now Display",
+                "status": "loaded",
+                "weight": "300"
+              }
+            ],
+            "overflow": false,
+            "h1s": 1
+          }
+        },
+        {
+          "pass": true,
+          "label": "New supplied font face loaded"
+        },
+        {
+          "pass": true,
+          "label": "Cenzo Bold heading retained"
+        },
+        {
+          "pass": true,
+          "label": "New font requested; no old Text font requests",
+          "data": [
+            "http://127.0.0.1:4208/assets/CenzoFlare-Bold.woff2",
+            "http://127.0.0.1:4208/assets/HelveticaNowDisplay-Light.woff2"
+          ]
+        },
+        {
+          "pass": true,
+          "label": "One H1 and no document overflow"
+        },
+        {
+          "pass": true,
+          "label": "Rendered body glyphs use supplied custom Display font",
+          "data": [
+            {
+              "familyName": "HelveticaNowDisplay Light",
+              "postScriptName": "HelveticaNowDisplay-Light",
+              "isCustomFont": true,
+              "glyphCount": 26
+            }
+          ]
+        },
+        {
+          "pass": true,
+          "label": "Visible headings and paragraphs fit their containers",
+          "data": []
+        },
+        {
+          "pass": true,
+          "label": "Collection filter controls open with keyboard"
+        },
+        {
+          "pass": false,
+          "label": "Browser case completes",
+          "data": {
+            "error": "locator.click: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('.sj-product-card a[href*=\"/products/\"]').first()\u001b[22m\n\u001b[2m    - locator resolved to <a class=\"sj-product-card__image\" href=\"/products/mistened-narcissus\" aria-label=\"Explore Mistened Narcissus\">…</a>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <form method=\"get\" class=\"sj-filters__form\" action=\"/collections/womens-perfume\">…</form> from <div class=\"sj-collection__toolbar\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <form method=\"get\" class=\"sj-filters__form\" action=\"/collections/womens-perfume\">…</form> from <div class=\"sj-collection__toolbar\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    58 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m       - element is visible, enabled and stable\u001b[22m\n\u001b[2m       - scrolling into view if needed\u001b[22m\n\u001b[2m       - done scrolling\u001b[22m\n\u001b[2m       - <form method=\"get\" class=\"sj-filters__form\" action=\"/collections/womens-perfume\">…</form> from <div class=\"sj-collection__toolbar\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m     - retrying click action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n"
+          }
+        }
+      ],
+      "errors": [],
+      "fontRequests": [
+        "http://127.0.0.1:4208/assets/CenzoFlare-Bold.woff2",
+        "http://127.0.0.1:4208/assets/HelveticaNowDisplay-Light.woff2"
+      ],
+      "fonts": {
+        "bodyFamily": "\"Helvetica Now Display\", \"Helvetica Neue\", Arial, sans-serif",
+        "bodyWeight": "300",
+        "headingFamily": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif",
+        "headingWeight": "700",
+        "faces": [
+          {
+            "family": "Cenzo Flare Bold",
+            "status": "loaded",
+            "weight": "700"
+          },
+          {
+            "family": "Helvetica Now Display",
+            "status": "loaded",
+            "weight": "300"
+          }
+        ],
+        "overflow": false,
+        "h1s": 1
+      },
+      "renderedFonts": [
+        {
+          "familyName": "HelveticaNowDisplay Light",
+          "postScriptName": "HelveticaNowDisplay-Light",
+          "isCustomFont": true,
+          "glyphCount": 26
+        }
+      ],
+      "wrapping": [],
+      "status": "FAIL"
+    },
+    {
+      "name": "finder",
+      "route": "/pages/scent-finder",
+      "theme": "light",
+      "width": 1440,
+      "checks": [
+        {
+          "pass": true,
+          "label": "Body uses Helvetica Now Display weight300",
+          "data": {
+            "bodyFamily": "\"Helvetica Now Display\", \"Helvetica Neue\", Arial, sans-serif",
+            "bodyWeight": "300",
+            "headingFamily": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif",
+            "headingWeight": "700",
+            "faces": [
+              {
+                "family": "Cenzo Flare Bold",
+                "status": "loaded",
+                "weight": "700"
+              },
+              {
+                "family": "Helvetica Now Display",
+                "status": "loaded",
+                "weight": "300"
+              }
+            ],
+            "overflow": false,
+            "h1s": 1
+          }
+        },
+        {
+          "pass": true,
+          "label": "New supplied font face loaded"
+        },
+        {
+          "pass": true,
+          "label": "Cenzo Bold heading retained"
+        },
+        {
+          "pass": true,
+          "label": "New font requested; no old Text font requests",
+          "data": [
+            "http://127.0.0.1:4208/assets/CenzoFlare-Bold.woff2",
+            "http://127.0.0.1:4208/assets/HelveticaNowDisplay-Light.woff2"
+          ]
+        },
+        {
+          "pass": true,
+          "label": "One H1 and no document overflow"
+        },
+        {
+          "pass": true,
+          "label": "Rendered body glyphs use supplied custom Display font",
+          "data": [
+            {
+              "familyName": "HelveticaNowDisplay Light",
+              "postScriptName": "HelveticaNowDisplay-Light",
+              "isCustomFont": true,
+              "glyphCount": 37
+            }
+          ]
+        },
+        {
+          "pass": false,
+          "label": "Visible headings and paragraphs fit their containers",
+          "data": [
+            {
+              "text": "Question 1 of 5: WHERE WOULD YOU LIKE TO START?",
+              "left": 60.90625,
+              "right": 61.90625
+            }
+          ]
+        },
+        {
+          "pass": true,
+          "label": "Quiz keyboard advances with correct focus (step1)"
+        },
+        {
+          "pass": true,
+          "label": "Quiz keyboard advances with correct focus (step2)"
+        },
+        {
+          "pass": true,
+          "label": "Quiz keyboard advances with correct focus (step3)"
+        },
+        {
+          "pass": true,
+          "label": "Quiz keyboard advances with correct focus (step4)"
+        },
+        {
+          "pass": true,
+          "label": "Quiz keyboard advances with correct focus (step5)"
+        },
+        {
+          "pass": true,
+          "label": "Quiz returns real product results"
+        },
+        {
+          "pass": true,
+          "label": "Quiz results have no horizontal overflow"
+        },
+        {
+          "pass": true,
+          "label": "No JavaScript errors",
+          "data": []
+        }
+      ],
+      "errors": [],
+      "fontRequests": [
+        "http://127.0.0.1:4208/assets/CenzoFlare-Bold.woff2",
+        "http://127.0.0.1:4208/assets/HelveticaNowDisplay-Light.woff2"
+      ],
+      "fonts": {
+        "bodyFamily": "\"Helvetica Now Display\", \"Helvetica Neue\", Arial, sans-serif",
+        "bodyWeight": "300",
+        "headingFamily": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif",
+        "headingWeight": "700",
+        "faces": [
+          {
+            "family": "Cenzo Flare Bold",
+            "status": "loaded",
+            "weight": "700"
+          },
+          {
+            "family": "Helvetica Now Display",
+            "status": "loaded",
+            "weight": "300"
+          }
+        ],
+        "overflow": false,
+        "h1s": 1
+      },
+      "renderedFonts": [
+        {
+          "familyName": "HelveticaNowDisplay Light",
+          "postScriptName": "HelveticaNowDisplay-Light",
+          "isCustomFont": true,
+          "glyphCount": 37
+        }
+      ],
+      "wrapping": [
+        {
+          "text": "Question 1 of 5: WHERE WOULD YOU LIKE TO START?",
+          "left": 60.90625,
+          "right": 61.90625
+        }
+      ],
+      "quiz": [
+        {
+          "step": 1,
+          "key": "collection",
+          "value": "Women"
+        },
+        {
+          "step": 2,
+          "key": "mood",
+          "value": "Bright & playful"
+        },
+        {
+          "step": 3,
+          "key": "character",
+          "value": "Creamy & fruity"
+        },
+        {
+          "step": 4,
+          "key": "occasion",
+          "value": "A special occasion"
+        },
+        {
+          "step": 5,
+          "key": "intensity",
+          "value": "Rich & deep"
+        }
+      ],
+      "status": "FAIL"
+    },
+    {
+      "name": "finder",
+      "route": "/pages/scent-finder",
+      "theme": "light",
+      "width": 390,
+      "checks": [
+        {
+          "pass": true,
+          "label": "Body uses Helvetica Now Display weight300",
+          "data": {
+            "bodyFamily": "\"Helvetica Now Display\", \"Helvetica Neue\", Arial, sans-serif",
+            "bodyWeight": "300",
+            "headingFamily": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif",
+            "headingWeight": "700",
+            "faces": [
+              {
+                "family": "Cenzo Flare Bold",
+                "status": "loaded",
+                "weight": "700"
+              },
+              {
+                "family": "Helvetica Now Display",
+                "status": "loaded",
+                "weight": "300"
+              }
+            ],
+            "overflow": false,
+            "h1s": 1
+          }
+        },
+        {
+          "pass": true,
+          "label": "New supplied font face loaded"
+        },
+        {
+          "pass": true,
+          "label": "Cenzo Bold heading retained"
+        },
+        {
+          "pass": true,
+          "label": "New font requested; no old Text font requests",
+          "data": [
+            "http://127.0.0.1:4208/assets/CenzoFlare-Bold.woff2",
+            "http://127.0.0.1:4208/assets/HelveticaNowDisplay-Light.woff2"
+          ]
+        },
+        {
+          "pass": true,
+          "label": "One H1 and no document overflow"
+        },
+        {
+          "pass": true,
+          "label": "Rendered body glyphs use supplied custom Display font",
+          "data": [
+            {
+              "familyName": "HelveticaNowDisplay Light",
+              "postScriptName": "HelveticaNowDisplay-Light",
+              "isCustomFont": true,
+              "glyphCount": 37
+            }
+          ]
+        },
+        {
+          "pass": false,
+          "label": "Visible headings and paragraphs fit their containers",
+          "data": [
+            {
+              "text": "Question 1 of 5: WHERE WOULD YOU LIKE TO START?",
+              "left": 21,
+              "right": 22
+            }
+          ]
+        },
+        {
+          "pass": true,
+          "label": "Quiz keyboard advances with correct focus (step1)"
+        },
+        {
+          "pass": true,
+          "label": "Quiz keyboard advances with correct focus (step2)"
+        },
+        {
+          "pass": true,
+          "label": "Quiz keyboard advances with correct focus (step3)"
+        },
+        {
+          "pass": true,
+          "label": "Quiz keyboard advances with correct focus (step4)"
+        },
+        {
+          "pass": true,
+          "label": "Quiz keyboard advances with correct focus (step5)"
+        },
+        {
+          "pass": true,
+          "label": "Quiz returns real product results"
+        },
+        {
+          "pass": true,
+          "label": "Quiz results have no horizontal overflow"
+        },
+        {
+          "pass": true,
+          "label": "No JavaScript errors",
+          "data": []
+        }
+      ],
+      "errors": [],
+      "fontRequests": [
+        "http://127.0.0.1:4208/assets/CenzoFlare-Bold.woff2",
+        "http://127.0.0.1:4208/assets/HelveticaNowDisplay-Light.woff2"
+      ],
+      "fonts": {
+        "bodyFamily": "\"Helvetica Now Display\", \"Helvetica Neue\", Arial, sans-serif",
+        "bodyWeight": "300",
+        "headingFamily": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif",
+        "headingWeight": "700",
+        "faces": [
+          {
+            "family": "Cenzo Flare Bold",
+            "status": "loaded",
+            "weight": "700"
+          },
+          {
+            "family": "Helvetica Now Display",
+            "status": "loaded",
+            "weight": "300"
+          }
+        ],
+        "overflow": false,
+        "h1s": 1
+      },
+      "renderedFonts": [
+        {
+          "familyName": "HelveticaNowDisplay Light",
+          "postScriptName": "HelveticaNowDisplay-Light",
+          "isCustomFont": true,
+          "glyphCount": 37
+        }
+      ],
+      "wrapping": [
+        {
+          "text": "Question 1 of 5: WHERE WOULD YOU LIKE TO START?",
+          "left": 21,
+          "right": 22
+        }
+      ],
+      "quiz": [
+        {
+          "step": 1,
+          "key": "collection",
+          "value": "Women"
+        },
+        {
+          "step": 2,
+          "key": "mood",
+          "value": "Bright & playful"
+        },
+        {
+          "step": 3,
+          "key": "character",
+          "value": "Creamy & fruity"
+        },
+        {
+          "step": 4,
+          "key": "occasion",
+          "value": "A special occasion"
+        },
+        {
+          "step": 5,
+          "key": "intensity",
+          "value": "Rich & deep"
+        }
+      ],
+      "status": "FAIL"
+    },
+    {
+      "name": "finder",
+      "route": "/pages/scent-finder",
+      "theme": "dark",
+      "width": 1440,
+      "checks": [
+        {
+          "pass": true,
+          "label": "Body uses Helvetica Now Display weight300",
+          "data": {
+            "bodyFamily": "\"Helvetica Now Display\", \"Helvetica Neue\", Arial, sans-serif",
+            "bodyWeight": "300",
+            "headingFamily": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif",
+            "headingWeight": "700",
+            "faces": [
+              {
+                "family": "Cenzo Flare Bold",
+                "status": "loaded",
+                "weight": "700"
+              },
+              {
+                "family": "Helvetica Now Display",
+                "status": "loaded",
+                "weight": "300"
+              }
+            ],
+            "overflow": false,
+            "h1s": 1
+          }
+        },
+        {
+          "pass": true,
+          "label": "New supplied font face loaded"
+        },
+        {
+          "pass": true,
+          "label": "Cenzo Bold heading retained"
+        },
+        {
+          "pass": true,
+          "label": "New font requested; no old Text font requests",
+          "data": [
+            "http://127.0.0.1:4208/assets/CenzoFlare-Bold.woff2",
+            "http://127.0.0.1:4208/assets/HelveticaNowDisplay-Light.woff2"
+          ]
+        },
+        {
+          "pass": true,
+          "label": "One H1 and no document overflow"
+        },
+        {
+          "pass": true,
+          "label": "Rendered body glyphs use supplied custom Display font",
+          "data": [
+            {
+              "familyName": "HelveticaNowDisplay Light",
+              "postScriptName": "HelveticaNowDisplay-Light",
+              "isCustomFont": true,
+              "glyphCount": 37
+            }
+          ]
+        },
+        {
+          "pass": false,
+          "label": "Visible headings and paragraphs fit their containers",
+          "data": [
+            {
+              "text": "Question 1 of 5: WHERE WOULD YOU LIKE TO START?",
+              "left": 60.90625,
+              "right": 61.90625
+            }
+          ]
+        },
+        {
+          "pass": true,
+          "label": "Quiz keyboard advances with correct focus (step1)"
+        },
+        {
+          "pass": true,
+          "label": "Quiz keyboard advances with correct focus (step2)"
+        },
+        {
+          "pass": true,
+          "label": "Quiz keyboard advances with correct focus (step3)"
+        },
+        {
+          "pass": true,
+          "label": "Quiz keyboard advances with correct focus (step4)"
+        },
+        {
+          "pass": true,
+          "label": "Quiz keyboard advances with correct focus (step5)"
+        },
+        {
+          "pass": true,
+          "label": "Quiz returns real product results"
+        },
+        {
+          "pass": true,
+          "label": "Quiz results have no horizontal overflow"
+        },
+        {
+          "pass": true,
+          "label": "No JavaScript errors",
+          "data": []
+        }
+      ],
+      "errors": [],
+      "fontRequests": [
+        "http://127.0.0.1:4208/assets/CenzoFlare-Bold.woff2",
+        "http://127.0.0.1:4208/assets/HelveticaNowDisplay-Light.woff2"
+      ],
+      "fonts": {
+        "bodyFamily": "\"Helvetica Now Display\", \"Helvetica Neue\", Arial, sans-serif",
+        "bodyWeight": "300",
+        "headingFamily": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif",
+        "headingWeight": "700",
+        "faces": [
+          {
+            "family": "Cenzo Flare Bold",
+            "status": "loaded",
+            "weight": "700"
+          },
+          {
+            "family": "Helvetica Now Display",
+            "status": "loaded",
+            "weight": "300"
+          }
+        ],
+        "overflow": false,
+        "h1s": 1
+      },
+      "renderedFonts": [
+        {
+          "familyName": "HelveticaNowDisplay Light",
+          "postScriptName": "HelveticaNowDisplay-Light",
+          "isCustomFont": true,
+          "glyphCount": 37
+        }
+      ],
+      "wrapping": [
+        {
+          "text": "Question 1 of 5: WHERE WOULD YOU LIKE TO START?",
+          "left": 60.90625,
+          "right": 61.90625
+        }
+      ],
+      "quiz": [
+        {
+          "step": 1,
+          "key": "collection",
+          "value": "Women"
+        },
+        {
+          "step": 2,
+          "key": "mood",
+          "value": "Bright & playful"
+        },
+        {
+          "step": 3,
+          "key": "character",
+          "value": "Creamy & fruity"
+        },
+        {
+          "step": 4,
+          "key": "occasion",
+          "value": "A special occasion"
+        },
+        {
+          "step": 5,
+          "key": "intensity",
+          "value": "Rich & deep"
+        }
+      ],
+      "status": "FAIL"
+    },
+    {
+      "name": "finder",
+      "route": "/pages/scent-finder",
+      "theme": "dark",
+      "width": 390,
+      "checks": [
+        {
+          "pass": true,
+          "label": "Body uses Helvetica Now Display weight300",
+          "data": {
+            "bodyFamily": "\"Helvetica Now Display\", \"Helvetica Neue\", Arial, sans-serif",
+            "bodyWeight": "300",
+            "headingFamily": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif",
+            "headingWeight": "700",
+            "faces": [
+              {
+                "family": "Cenzo Flare Bold",
+                "status": "loaded",
+                "weight": "700"
+              },
+              {
+                "family": "Helvetica Now Display",
+                "status": "loaded",
+                "weight": "300"
+              }
+            ],
+            "overflow": false,
+            "h1s": 1
+          }
+        },
+        {
+          "pass": true,
+          "label": "New supplied font face loaded"
+        },
+        {
+          "pass": true,
+          "label": "Cenzo Bold heading retained"
+        },
+        {
+          "pass": true,
+          "label": "New font requested; no old Text font requests",
+          "data": [
+            "http://127.0.0.1:4208/assets/CenzoFlare-Bold.woff2",
+            "http://127.0.0.1:4208/assets/HelveticaNowDisplay-Light.woff2"
+          ]
+        },
+        {
+          "pass": true,
+          "label": "One H1 and no document overflow"
+        },
+        {
+          "pass": true,
+          "label": "Rendered body glyphs use supplied custom Display font",
+          "data": [
+            {
+              "familyName": "HelveticaNowDisplay Light",
+              "postScriptName": "HelveticaNowDisplay-Light",
+              "isCustomFont": true,
+              "glyphCount": 37
+            }
+          ]
+        },
+        {
+          "pass": false,
+          "label": "Visible headings and paragraphs fit their containers",
+          "data": [
+            {
+              "text": "Question 1 of 5: WHERE WOULD YOU LIKE TO START?",
+              "left": 21,
+              "right": 22
+            }
+          ]
+        },
+        {
+          "pass": true,
+          "label": "Quiz keyboard advances with correct focus (step1)"
+        },
+        {
+          "pass": true,
+          "label": "Quiz keyboard advances with correct focus (step2)"
+        },
+        {
+          "pass": true,
+          "label": "Quiz keyboard advances with correct focus (step3)"
+        },
+        {
+          "pass": true,
+          "label": "Quiz keyboard advances with correct focus (step4)"
+        },
+        {
+          "pass": true,
+          "label": "Quiz keyboard advances with correct focus (step5)"
+        },
+        {
+          "pass": true,
+          "label": "Quiz returns real product results"
+        },
+        {
+          "pass": true,
+          "label": "Quiz results have no horizontal overflow"
+        },
+        {
+          "pass": true,
+          "label": "No JavaScript errors",
+          "data": []
+        }
+      ],
+      "errors": [],
+      "fontRequests": [
+        "http://127.0.0.1:4208/assets/CenzoFlare-Bold.woff2",
+        "http://127.0.0.1:4208/assets/HelveticaNowDisplay-Light.woff2"
+      ],
+      "fonts": {
+        "bodyFamily": "\"Helvetica Now Display\", \"Helvetica Neue\", Arial, sans-serif",
+        "bodyWeight": "300",
+        "headingFamily": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif",
+        "headingWeight": "700",
+        "faces": [
+          {
+            "family": "Cenzo Flare Bold",
+            "status": "loaded",
+            "weight": "700"
+          },
+          {
+            "family": "Helvetica Now Display",
+            "status": "loaded",
+            "weight": "300"
+          }
+        ],
+        "overflow": false,
+        "h1s": 1
+      },
+      "renderedFonts": [
+        {
+          "familyName": "HelveticaNowDisplay Light",
+          "postScriptName": "HelveticaNowDisplay-Light",
+          "isCustomFont": true,
+          "glyphCount": 37
+        }
+      ],
+      "wrapping": [
+        {
+          "text": "Question 1 of 5: WHERE WOULD YOU LIKE TO START?",
+          "left": 21,
+          "right": 22
+        }
+      ],
+      "quiz": [
+        {
+          "step": 1,
+          "key": "collection",
+          "value": "Women"
+        },
+        {
+          "step": 2,
+          "key": "mood",
+          "value": "Bright & playful"
+        },
+        {
+          "step": 3,
+          "key": "character",
+          "value": "Creamy & fruity"
+        },
+        {
+          "step": 4,
+          "key": "occasion",
+          "value": "A special occasion"
+        },
+        {
+          "step": 5,
+          "key": "intensity",
+          "value": "Rich & deep"
+        }
+      ],
+      "status": "FAIL"
+    },
+    {
+      "name": "product",
+      "route": "/products/mojito-metallique",
+      "theme": "light",
+      "width": 1440,
+      "checks": [
+        {
+          "pass": true,
+          "label": "Body uses Helvetica Now Display weight300",
+          "data": {
+            "bodyFamily": "\"Helvetica Now Display\", \"Helvetica Neue\", Arial, sans-serif",
+            "bodyWeight": "300",
+            "headingFamily": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif",
+            "headingWeight": "700",
+            "faces": [
+              {
+                "family": "Cenzo Flare Bold",
+                "status": "loaded",
+                "weight": "700"
+              },
+              {
+                "family": "Helvetica Now Display",
+                "status": "loaded",
+                "weight": "300"
+              }
+            ],
+            "overflow": false,
+            "h1s": 1
+          }
+        },
+        {
+          "pass": true,
+          "label": "New supplied font face loaded"
+        },
+        {
+          "pass": true,
+          "label": "Cenzo Bold heading retained"
+        },
+        {
+          "pass": true,
+          "label": "New font requested; no old Text font requests",
+          "data": [
+            "http://127.0.0.1:4208/assets/CenzoFlare-Bold.woff2",
+            "http://127.0.0.1:4208/assets/HelveticaNowDisplay-Light.woff2"
+          ]
+        },
+        {
+          "pass": true,
+          "label": "One H1 and no document overflow"
+        },
+        {
+          "pass": true,
+          "label": "Rendered body glyphs use supplied custom Display font",
+          "data": [
+            {
+              "familyName": "HelveticaNowDisplay Light",
+              "postScriptName": "HelveticaNowDisplay-Light",
+              "isCustomFont": true,
+              "glyphCount": 34
+            }
+          ]
+        },
+        {
+          "pass": false,
+          "label": "Visible headings and paragraphs fit their containers",
+          "data": [
+            {
+              "text": "Media 1 of 12",
+              "left": -1,
+              "right": 0
+            }
+          ]
+        },
+        {
+          "pass": true,
+          "label": "PDP information scroll stays independent",
+          "data": {
+            "prior": {
+              "scroll": 0,
+              "page": 505,
+              "media": 110.5,
+              "box": {
+                "x": 806.390625,
+                "y": 110.5,
+                "width": 633.59375,
+                "height": 889.5,
+                "top": 110.5,
+                "right": 1439.984375,
+                "bottom": 1000,
+                "left": 806.390625
+              }
+            },
+            "after": {
+              "scroll": 400,
+              "page": 505,
+              "media": 110.5
+            }
+          }
+        },
+        {
+          "pass": true,
+          "label": "PDP gallery next works"
+        },
+        {
+          "pass": true,
+          "label": "PDP zoom opens"
+        },
+        {
+          "pass": true,
+          "label": "PDP zoom closes with Escape"
+        },
+        {
+          "pass": true,
+          "label": "No JavaScript errors",
+          "data": []
+        }
+      ],
+      "errors": [],
+      "fontRequests": [
+        "http://127.0.0.1:4208/assets/CenzoFlare-Bold.woff2",
+        "http://127.0.0.1:4208/assets/HelveticaNowDisplay-Light.woff2"
+      ],
+      "fonts": {
+        "bodyFamily": "\"Helvetica Now Display\", \"Helvetica Neue\", Arial, sans-serif",
+        "bodyWeight": "300",
+        "headingFamily": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif",
+        "headingWeight": "700",
+        "faces": [
+          {
+            "family": "Cenzo Flare Bold",
+            "status": "loaded",
+            "weight": "700"
+          },
+          {
+            "family": "Helvetica Now Display",
+            "status": "loaded",
+            "weight": "300"
+          }
+        ],
+        "overflow": false,
+        "h1s": 1
+      },
+      "renderedFonts": [
+        {
+          "familyName": "HelveticaNowDisplay Light",
+          "postScriptName": "HelveticaNowDisplay-Light",
+          "isCustomFont": true,
+          "glyphCount": 34
+        }
+      ],
+      "wrapping": [
+        {
+          "text": "Media 1 of 12",
+          "left": -1,
+          "right": 0
+        }
+      ],
+      "status": "FAIL"
+    },
+    {
+      "name": "product",
+      "route": "/products/mojito-metallique",
+      "theme": "light",
+      "width": 390,
+      "checks": [
+        {
+          "pass": true,
+          "label": "Body uses Helvetica Now Display weight300",
+          "data": {
+            "bodyFamily": "\"Helvetica Now Display\", \"Helvetica Neue\", Arial, sans-serif",
+            "bodyWeight": "300",
+            "headingFamily": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif",
+            "headingWeight": "700",
+            "faces": [
+              {
+                "family": "Cenzo Flare Bold",
+                "status": "loaded",
+                "weight": "700"
+              },
+              {
+                "family": "Helvetica Now Display",
+                "status": "loaded",
+                "weight": "300"
+              }
+            ],
+            "overflow": false,
+            "h1s": 1
+          }
+        },
+        {
+          "pass": true,
+          "label": "New supplied font face loaded"
+        },
+        {
+          "pass": true,
+          "label": "Cenzo Bold heading retained"
+        },
+        {
+          "pass": true,
+          "label": "New font requested; no old Text font requests",
+          "data": [
+            "http://127.0.0.1:4208/assets/CenzoFlare-Bold.woff2",
+            "http://127.0.0.1:4208/assets/HelveticaNowDisplay-Light.woff2"
+          ]
+        },
+        {
+          "pass": true,
+          "label": "One H1 and no document overflow"
+        },
+        {
+          "pass": true,
+          "label": "Rendered body glyphs use supplied custom Display font",
+          "data": [
+            {
+              "familyName": "HelveticaNowDisplay Light",
+              "postScriptName": "HelveticaNowDisplay-Light",
+              "isCustomFont": true,
+              "glyphCount": 34
+            }
+          ]
+        },
+        {
+          "pass": false,
+          "label": "Visible headings and paragraphs fit their containers",
+          "data": [
+            {
+              "text": "Media 1 of 12",
+              "left": -1,
+              "right": 0
+            }
+          ]
+        },
+        {
+          "pass": true,
+          "label": "PDP gallery next works"
+        },
+        {
+          "pass": true,
+          "label": "PDP zoom opens"
+        },
+        {
+          "pass": true,
+          "label": "PDP zoom closes with Escape"
+        },
+        {
+          "pass": true,
+          "label": "No JavaScript errors",
+          "data": []
+        }
+      ],
+      "errors": [],
+      "fontRequests": [
+        "http://127.0.0.1:4208/assets/CenzoFlare-Bold.woff2",
+        "http://127.0.0.1:4208/assets/HelveticaNowDisplay-Light.woff2"
+      ],
+      "fonts": {
+        "bodyFamily": "\"Helvetica Now Display\", \"Helvetica Neue\", Arial, sans-serif",
+        "bodyWeight": "300",
+        "headingFamily": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif",
+        "headingWeight": "700",
+        "faces": [
+          {
+            "family": "Cenzo Flare Bold",
+            "status": "loaded",
+            "weight": "700"
+          },
+          {
+            "family": "Helvetica Now Display",
+            "status": "loaded",
+            "weight": "300"
+          }
+        ],
+        "overflow": false,
+        "h1s": 1
+      },
+      "renderedFonts": [
+        {
+          "familyName": "HelveticaNowDisplay Light",
+          "postScriptName": "HelveticaNowDisplay-Light",
+          "isCustomFont": true,
+          "glyphCount": 34
+        }
+      ],
+      "wrapping": [
+        {
+          "text": "Media 1 of 12",
+          "left": -1,
+          "right": 0
+        }
+      ],
+      "status": "FAIL"
+    },
+    {
+      "name": "product",
+      "route": "/products/mojito-metallique",
+      "theme": "dark",
+      "width": 1440,
+      "checks": [
+        {
+          "pass": true,
+          "label": "Body uses Helvetica Now Display weight300",
+          "data": {
+            "bodyFamily": "\"Helvetica Now Display\", \"Helvetica Neue\", Arial, sans-serif",
+            "bodyWeight": "300",
+            "headingFamily": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif",
+            "headingWeight": "700",
+            "faces": [
+              {
+                "family": "Cenzo Flare Bold",
+                "status": "loaded",
+                "weight": "700"
+              },
+              {
+                "family": "Helvetica Now Display",
+                "status": "loaded",
+                "weight": "300"
+              }
+            ],
+            "overflow": false,
+            "h1s": 1
+          }
+        },
+        {
+          "pass": true,
+          "label": "New supplied font face loaded"
+        },
+        {
+          "pass": true,
+          "label": "Cenzo Bold heading retained"
+        },
+        {
+          "pass": true,
+          "label": "New font requested; no old Text font requests",
+          "data": [
+            "http://127.0.0.1:4208/assets/CenzoFlare-Bold.woff2",
+            "http://127.0.0.1:4208/assets/HelveticaNowDisplay-Light.woff2"
+          ]
+        },
+        {
+          "pass": true,
+          "label": "One H1 and no document overflow"
+        },
+        {
+          "pass": true,
+          "label": "Rendered body glyphs use supplied custom Display font",
+          "data": [
+            {
+              "familyName": "HelveticaNowDisplay Light",
+              "postScriptName": "HelveticaNowDisplay-Light",
+              "isCustomFont": true,
+              "glyphCount": 34
+            }
+          ]
+        },
+        {
+          "pass": false,
+          "label": "Visible headings and paragraphs fit their containers",
+          "data": [
+            {
+              "text": "Media 1 of 12",
+              "left": -1,
+              "right": 0
+            }
+          ]
+        },
+        {
+          "pass": true,
+          "label": "PDP information scroll stays independent",
+          "data": {
+            "prior": {
+              "scroll": 0,
+              "page": 505,
+              "media": 110.5,
+              "box": {
+                "x": 806.390625,
+                "y": 110.5,
+                "width": 633.59375,
+                "height": 889.5,
+                "top": 110.5,
+                "right": 1439.984375,
+                "bottom": 1000,
+                "left": 806.390625
+              }
+            },
+            "after": {
+              "scroll": 400,
+              "page": 505,
+              "media": 110.5
+            }
+          }
+        },
+        {
+          "pass": true,
+          "label": "PDP gallery next works"
+        },
+        {
+          "pass": true,
+          "label": "PDP zoom opens"
+        },
+        {
+          "pass": true,
+          "label": "PDP zoom closes with Escape"
+        },
+        {
+          "pass": true,
+          "label": "No JavaScript errors",
+          "data": []
+        }
+      ],
+      "errors": [],
+      "fontRequests": [
+        "http://127.0.0.1:4208/assets/CenzoFlare-Bold.woff2",
+        "http://127.0.0.1:4208/assets/HelveticaNowDisplay-Light.woff2"
+      ],
+      "fonts": {
+        "bodyFamily": "\"Helvetica Now Display\", \"Helvetica Neue\", Arial, sans-serif",
+        "bodyWeight": "300",
+        "headingFamily": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif",
+        "headingWeight": "700",
+        "faces": [
+          {
+            "family": "Cenzo Flare Bold",
+            "status": "loaded",
+            "weight": "700"
+          },
+          {
+            "family": "Helvetica Now Display",
+            "status": "loaded",
+            "weight": "300"
+          }
+        ],
+        "overflow": false,
+        "h1s": 1
+      },
+      "renderedFonts": [
+        {
+          "familyName": "HelveticaNowDisplay Light",
+          "postScriptName": "HelveticaNowDisplay-Light",
+          "isCustomFont": true,
+          "glyphCount": 34
+        }
+      ],
+      "wrapping": [
+        {
+          "text": "Media 1 of 12",
+          "left": -1,
+          "right": 0
+        }
+      ],
+      "status": "FAIL"
+    },
+    {
+      "name": "product",
+      "route": "/products/mojito-metallique",
+      "theme": "dark",
+      "width": 390,
+      "checks": [
+        {
+          "pass": true,
+          "label": "Body uses Helvetica Now Display weight300",
+          "data": {
+            "bodyFamily": "\"Helvetica Now Display\", \"Helvetica Neue\", Arial, sans-serif",
+            "bodyWeight": "300",
+            "headingFamily": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif",
+            "headingWeight": "700",
+            "faces": [
+              {
+                "family": "Cenzo Flare Bold",
+                "status": "loaded",
+                "weight": "700"
+              },
+              {
+                "family": "Helvetica Now Display",
+                "status": "loaded",
+                "weight": "300"
+              }
+            ],
+            "overflow": false,
+            "h1s": 1
+          }
+        },
+        {
+          "pass": true,
+          "label": "New supplied font face loaded"
+        },
+        {
+          "pass": true,
+          "label": "Cenzo Bold heading retained"
+        },
+        {
+          "pass": true,
+          "label": "New font requested; no old Text font requests",
+          "data": [
+            "http://127.0.0.1:4208/assets/CenzoFlare-Bold.woff2",
+            "http://127.0.0.1:4208/assets/HelveticaNowDisplay-Light.woff2"
+          ]
+        },
+        {
+          "pass": true,
+          "label": "One H1 and no document overflow"
+        },
+        {
+          "pass": true,
+          "label": "Rendered body glyphs use supplied custom Display font",
+          "data": [
+            {
+              "familyName": "HelveticaNowDisplay Light",
+              "postScriptName": "HelveticaNowDisplay-Light",
+              "isCustomFont": true,
+              "glyphCount": 34
+            }
+          ]
+        },
+        {
+          "pass": false,
+          "label": "Visible headings and paragraphs fit their containers",
+          "data": [
+            {
+              "text": "Media 1 of 12",
+              "left": -1,
+              "right": 0
+            }
+          ]
+        },
+        {
+          "pass": true,
+          "label": "PDP gallery next works"
+        },
+        {
+          "pass": true,
+          "label": "PDP zoom opens"
+        },
+        {
+          "pass": true,
+          "label": "PDP zoom closes with Escape"
+        },
+        {
+          "pass": true,
+          "label": "No JavaScript errors",
+          "data": []
+        }
+      ],
+      "errors": [],
+      "fontRequests": [
+        "http://127.0.0.1:4208/assets/CenzoFlare-Bold.woff2",
+        "http://127.0.0.1:4208/assets/HelveticaNowDisplay-Light.woff2"
+      ],
+      "fonts": {
+        "bodyFamily": "\"Helvetica Now Display\", \"Helvetica Neue\", Arial, sans-serif",
+        "bodyWeight": "300",
+        "headingFamily": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif",
+        "headingWeight": "700",
+        "faces": [
+          {
+            "family": "Cenzo Flare Bold",
+            "status": "loaded",
+            "weight": "700"
+          },
+          {
+            "family": "Helvetica Now Display",
+            "status": "loaded",
+            "weight": "300"
+          }
+        ],
+        "overflow": false,
+        "h1s": 1
+      },
+      "renderedFonts": [
+        {
+          "familyName": "HelveticaNowDisplay Light",
+          "postScriptName": "HelveticaNowDisplay-Light",
+          "isCustomFont": true,
+          "glyphCount": 34
+        }
+      ],
+      "wrapping": [
+        {
+          "text": "Media 1 of 12",
+          "left": -1,
+          "right": 0
+        }
+      ],
+      "status": "FAIL"
+    }
+  ],
+  "issues": [
+    {
+      "name": "collection",
+      "theme": "light",
+      "width": 390,
+      "pass": false,
+      "label": "Browser case completes",
+      "data": {
+        "error": "locator.click: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('.sj-product-card a[href*=\"/products/\"]').first()\u001b[22m\n\u001b[2m    - locator resolved to <a class=\"sj-product-card__image\" href=\"/products/mistened-narcissus\" aria-label=\"Explore Mistened Narcissus\">…</a>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <form method=\"get\" class=\"sj-filters__form\" action=\"/collections/womens-perfume\">…</form> from <div class=\"sj-collection__toolbar\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <form method=\"get\" class=\"sj-filters__form\" action=\"/collections/womens-perfume\">…</form> from <div class=\"sj-collection__toolbar\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    58 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m       - element is visible, enabled and stable\u001b[22m\n\u001b[2m       - scrolling into view if needed\u001b[22m\n\u001b[2m       - done scrolling\u001b[22m\n\u001b[2m       - <form method=\"get\" class=\"sj-filters__form\" action=\"/collections/womens-perfume\">…</form> from <div class=\"sj-collection__toolbar\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m     - retrying click action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n"
+      }
+    },
+    {
+      "name": "collection",
+      "theme": "dark",
+      "width": 390,
+      "pass": false,
+      "label": "Browser case completes",
+      "data": {
+        "error": "locator.click: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('.sj-product-card a[href*=\"/products/\"]').first()\u001b[22m\n\u001b[2m    - locator resolved to <a class=\"sj-product-card__image\" href=\"/products/mistened-narcissus\" aria-label=\"Explore Mistened Narcissus\">…</a>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <form method=\"get\" class=\"sj-filters__form\" action=\"/collections/womens-perfume\">…</form> from <div class=\"sj-collection__toolbar\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <form method=\"get\" class=\"sj-filters__form\" action=\"/collections/womens-perfume\">…</form> from <div class=\"sj-collection__toolbar\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    58 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m       - element is visible, enabled and stable\u001b[22m\n\u001b[2m       - scrolling into view if needed\u001b[22m\n\u001b[2m       - done scrolling\u001b[22m\n\u001b[2m       - <form method=\"get\" class=\"sj-filters__form\" action=\"/collections/womens-perfume\">…</form> from <div class=\"sj-collection__toolbar\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m     - retrying click action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n"
+      }
+    },
+    {
+      "name": "finder",
+      "theme": "light",
+      "width": 1440,
+      "pass": false,
+      "label": "Visible headings and paragraphs fit their containers",
+      "data": [
+        {
+          "text": "Question 1 of 5: WHERE WOULD YOU LIKE TO START?",
+          "left": 60.90625,
+          "right": 61.90625
+        }
+      ]
+    },
+    {
+      "name": "finder",
+      "theme": "light",
+      "width": 390,
+      "pass": false,
+      "label": "Visible headings and paragraphs fit their containers",
+      "data": [
+        {
+          "text": "Question 1 of 5: WHERE WOULD YOU LIKE TO START?",
+          "left": 21,
+          "right": 22
+        }
+      ]
+    },
+    {
+      "name": "finder",
+      "theme": "dark",
+      "width": 1440,
+      "pass": false,
+      "label": "Visible headings and paragraphs fit their containers",
+      "data": [
+        {
+          "text": "Question 1 of 5: WHERE WOULD YOU LIKE TO START?",
+          "left": 60.90625,
+          "right": 61.90625
+        }
+      ]
+    },
+    {
+      "name": "finder",
+      "theme": "dark",
+      "width": 390,
+      "pass": false,
+      "label": "Visible headings and paragraphs fit their containers",
+      "data": [
+        {
+          "text": "Question 1 of 5: WHERE WOULD YOU LIKE TO START?",
+          "left": 21,
+          "right": 22
+        }
+      ]
+    },
+    {
+      "name": "product",
+      "theme": "light",
+      "width": 1440,
+      "pass": false,
+      "label": "Visible headings and paragraphs fit their containers",
+      "data": [
+        {
+          "text": "Media 1 of 12",
+          "left": -1,
+          "right": 0
+        }
+      ]
+    },
+    {
+      "name": "product",
+      "theme": "light",
+      "width": 390,
+      "pass": false,
+      "label": "Visible headings and paragraphs fit their containers",
+      "data": [
+        {
+          "text": "Media 1 of 12",
+          "left": -1,
+          "right": 0
+        }
+      ]
+    },
+    {
+      "name": "product",
+      "theme": "dark",
+      "width": 1440,
+      "pass": false,
+      "label": "Visible headings and paragraphs fit their containers",
+      "data": [
+        {
+          "text": "Media 1 of 12",
+          "left": -1,
+          "right": 0
+        }
+      ]
+    },
+    {
+      "name": "product",
+      "theme": "dark",
+      "width": 390,
+      "pass": false,
+      "label": "Visible headings and paragraphs fit their containers",
+      "data": [
+        {
+          "text": "Media 1 of 12",
+          "left": -1,
+          "right": 0
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "status": "FAIL",
+    "cases": 16,
+    "checks": 182,
+    "issues": 10
+  }
+}

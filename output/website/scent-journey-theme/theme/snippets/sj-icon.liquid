@@ -1,0 +1,64 @@
+{%- comment -%}
+  Decorative shared icon. Keep the accessible name on the enclosing control.
+  Usage: render 'sj-icon', name: 'search', class: 'optional-class'
+{%- endcomment -%}
+<svg class="sj-icon sj-icon--{{ name | escape }}{% if class != blank %} {{ class | escape }}{% endif %}" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
+  {%- case name -%}
+    {%- when 'search', 'zoom' -%}
+      <path class="sj-icon-stroke--scarlet" d="m15 15 6 6" stroke-width="3.5"/>
+      <circle class="sj-icon-fill--lemon sj-icon-stroke--cobalt" cx="10" cy="10" r="6.5" stroke-width="2"/>
+      {%- if name == 'zoom' -%}<path class="sj-icon-stroke--cobalt" d="M7 10h6m-3-3v6" stroke-width="1.8"/>{%- endif -%}
+    {%- when 'bag' -%}
+      <path class="sj-icon-fill--scarlet" d="M5 7h14l1 14H4L5 7Z"/>
+      <path d="M8 9V6a4 4 0 0 1 8 0v3" stroke-width="3.5"/>
+      <path class="sj-icon-stroke--lemon" d="M8 9V6a4 4 0 0 1 8 0v3" stroke-width="2"/>
+      <path class="sj-icon-stroke--cobalt" d="M7 18h10" stroke-width="2"/>
+    {%- when 'moon' -%}
+      <path class="sj-icon-fill--cobalt" d="M20.9 13.1A9 9 0 0 1 10.9 3.1a9 9 0 1 0 10 10Z"/>
+      <path class="sj-icon-stroke--lemon" d="M6 13.5a5.5 5.5 0 0 0 4.5 4.5"/>
+    {%- when 'sun' -%}
+      <path class="sj-icon-stroke--scarlet" d="M12 2v2m0 16v2M2 12h2m16 0h2M4.93 4.93l1.42 1.42m11.3 11.3 1.42 1.42M4.93 19.07l1.42-1.42m11.3-11.3 1.42-1.42"/>
+      <circle class="sj-icon-fill--lemon" cx="12" cy="12" r="4"/>
+    {%- when 'menu' -%}
+      <rect class="sj-icon-fill--scarlet" x="3" y="4" width="18" height="3" rx="1.5" stroke-width=".8"/>
+      <rect class="sj-icon-fill--cobalt" x="3" y="10.5" width="18" height="3" rx="1.5" stroke-width=".8"/>
+      <rect class="sj-icon-fill--lemon" x="3" y="17" width="18" height="3" rx="1.5" stroke-width=".8"/>
+    {%- when 'close' -%}
+      <path d="m6 6 12 12M18 6 6 18" stroke-width="4"/>
+      <path class="sj-icon-stroke--scarlet" d="m6 6 12 12" stroke-width="2.4"/>
+      <path class="sj-icon-stroke--cobalt" d="M18 6 6 18" stroke-width="2.4"/>
+    {%- when 'plus', 'minus' -%}
+      <path d="M5 12h14" stroke-width="4"/>
+      <path class="sj-icon-stroke--cobalt" d="M5 12h14" stroke-width="2.4"/>
+      {%- if name == 'plus' -%}<g class="sj-icon__vertical"><path d="M12 5v14" stroke-width="4"/><path class="sj-icon-stroke--scarlet" d="M12 5v14" stroke-width="2.4"/></g>{%- endif -%}
+    {%- when 'chevron-left' -%}
+      <path d="m14 5-7 7 7 7" stroke-width="4"/><path class="sj-icon-stroke--cobalt" d="m14 5-7 7 7 7" stroke-width="2.4"/>
+    {%- when 'chevron-right' -%}
+      <path d="m10 5 7 7-7 7" stroke-width="4"/><path class="sj-icon-stroke--scarlet" d="m10 5 7 7-7 7" stroke-width="2.4"/>
+    {%- when 'shipping' -%}
+      <path class="sj-icon-fill--scarlet" d="M2 5h12v12H2Z"/>
+      <path class="sj-icon-fill--lemon" d="M14 9h4l4 5v3h-8Z"/>
+      <path class="sj-icon-stroke--cobalt" d="M5 9h6M5 12h4"/>
+      <circle class="sj-icon-fill--cobalt" cx="6" cy="18" r="2.5"/><circle class="sj-icon-fill--cobalt" cx="18" cy="18" r="2.5"/>
+    {%- when 'compass' -%}
+      <circle class="sj-icon-fill--lemon" cx="12" cy="12" r="9"/>
+      <path class="sj-icon-fill--scarlet" d="m16 7-3 7-5 3 3-7Z"/>
+      <circle class="sj-icon-fill--cobalt" cx="12" cy="12" r="1.5"/>
+    {%- when 'heart' -%}
+      <path class="sj-icon-fill--scarlet" d="M12 20 4.3 12.4A5 5 0 0 1 12 6a5 5 0 0 1 7.7 6.4Z"/>
+      <path class="sj-icon-stroke--lemon" d="M6 9a2 2 0 0 1 2-2" stroke-width="2"/>
+    {%- when 'cloud' -%}
+      <path class="sj-icon-fill--lemon" d="M6 18a4 4 0 0 1-.5-8A6.5 6.5 0 0 1 18 9a4.5 4.5 0 0 1 0 9Z"/>
+      <path class="sj-icon-stroke--cobalt" d="M8 14h8" stroke-width="2"/>
+    {%- when 'leaf' -%}
+      <path class="sj-icon-fill--lemon" d="M20 3C8 2 2 7 5 15c8 5 15-1 15-12Z"/>
+      <path class="sj-icon-stroke--cobalt" d="M3 21 16 8m-8 8v-5m4 1h4" stroke-width="2"/>
+    {%- when 'hanger' -%}
+      <path class="sj-icon-stroke--cobalt" d="M9 6a3 3 0 1 1 5 2.2L12 10v2" stroke-width="2"/>
+      <path class="sj-icon-fill--lemon" d="m12 12 9 6v2H3v-2Z"/>
+      <path class="sj-icon-stroke--scarlet" d="M7 18h10" stroke-width="2"/>
+    {%- when 'check' -%}
+      <circle class="sj-icon-fill--lemon" cx="12" cy="12" r="9"/>
+      <path class="sj-icon-stroke--cobalt" d="m7 12 3.5 3.5L17 9" stroke-width="2.5"/>
+  {%- endcase -%}
+</svg>

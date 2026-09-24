@@ -1,0 +1,7178 @@
+{
+  "generatedAt": "2026-09-24T04:21:41.746Z",
+  "scope": "Distinct full-width product campaigns, single H1, native purchase/gallery/scroll regression",
+  "cases": [
+    {
+      "handle": "mistened-narcissus",
+      "title": "Mistened Narcissus",
+      "theme": "light",
+      "width": 1440,
+      "checks": [
+        {
+          "name": "Full viewport banner",
+          "pass": true,
+          "detail": {
+            "x": 0,
+            "y": 110.5,
+            "width": 1440,
+            "height": 721,
+            "right": 1440,
+            "bottom": 831.5
+          }
+        },
+        {
+          "name": "Correct banner product title",
+          "pass": true,
+          "detail": "MISTENED NARCISSUS"
+        },
+        {
+          "name": "Correct distinct product campaign",
+          "pass": true,
+          "detail": {
+            "src": "http://127.0.0.1:4208/assets/sj-product-banner-mistened-narcissus.jpg",
+            "loaded": true,
+            "fit": "cover",
+            "filter": "none",
+            "opacity": "1",
+            "naturalWidth": 1774,
+            "naturalHeight": 887,
+            "box": {
+              "x": 0,
+              "y": 110.5,
+              "width": 1440,
+              "height": 720,
+              "right": 1440,
+              "bottom": 830.5
+            }
+          }
+        },
+        {
+          "name": "Campaign media spans viewport",
+          "pass": true,
+          "detail": {
+            "x": 0,
+            "y": 110.5,
+            "width": 1440,
+            "height": 720,
+            "right": 1440,
+            "bottom": 830.5
+          }
+        },
+        {
+          "name": "Campaign is unfiltered with intended framing",
+          "pass": true,
+          "detail": {
+            "src": "http://127.0.0.1:4208/assets/sj-product-banner-mistened-narcissus.jpg",
+            "loaded": true,
+            "fit": "cover",
+            "filter": "none",
+            "opacity": "1",
+            "naturalWidth": 1774,
+            "naturalHeight": 887,
+            "box": {
+              "x": 0,
+              "y": 110.5,
+              "width": 1440,
+              "height": 720,
+              "right": 1440,
+              "bottom": 830.5
+            }
+          }
+        },
+        {
+          "name": "Dark overlay avoids product area",
+          "pass": true,
+          "detail": "763.188px"
+        },
+        {
+          "name": "No repeated detail name or statement",
+          "pass": true,
+          "detail": {
+            "intro": "Your next chapter",
+            "statement": false
+          }
+        },
+        {
+          "name": "Details region has accessible neutral heading",
+          "pass": true,
+          "detail": {
+            "role": "region",
+            "tabindex": "0",
+            "heading": "Your next chapter",
+            "tag": "H2"
+          }
+        },
+        {
+          "name": "Supplied fonts retained",
+          "pass": true
+        },
+        {
+          "name": "Single product H1 is in the campaign banner",
+          "pass": true,
+          "detail": {
+            "count": 1,
+            "text": "MISTENED NARCISSUS"
+          }
+        },
+        {
+          "name": "No page or banner-title overflow",
+          "pass": true
+        },
+        {
+          "name": "Banner precedes product details",
+          "pass": true
+        },
+        {
+          "name": "CTA reaches details with clear anchor",
+          "pass": true,
+          "detail": {
+            "hash": "#ProductDetails-10314865016897",
+            "target": "#ProductDetails-10314865016897",
+            "top": 110.5,
+            "bottom": 1000,
+            "headerHeight": 110.5,
+            "inView": true,
+            "clear": true
+          }
+        },
+        {
+          "name": "Gallery retains twelve slides",
+          "pass": true
+        },
+        {
+          "name": "Desktop information independently scrolls",
+          "pass": true,
+          "detail": {
+            "before": 0,
+            "height": 890,
+            "total": 2239,
+            "overflow": "auto",
+            "pageY": 721,
+            "mediaTop": 110.5,
+            "mouseX": 1123.1875,
+            "mouseY": 290.5,
+            "after": {
+              "info": 400,
+              "pageY": 721,
+              "mediaTop": 110.5
+            }
+          }
+        },
+        {
+          "name": "Gallery next advances",
+          "pass": true
+        },
+        {
+          "name": "Zoom opens correct current product image",
+          "pass": true
+        },
+        {
+          "name": "Zoom closes with Escape",
+          "pass": true
+        },
+        {
+          "name": "No JavaScript errors",
+          "pass": true,
+          "detail": []
+        }
+      ],
+      "errors": [],
+      "banner": {
+        "box": {
+          "x": 0,
+          "y": 110.5,
+          "width": 1440,
+          "height": 721,
+          "right": 1440,
+          "bottom": 831.5
+        },
+        "title": "MISTENED NARCISSUS",
+        "titleTag": "H1",
+        "titleBox": {
+          "x": 61.90625,
+          "y": 352.8125,
+          "width": 579.109375,
+          "height": 149.75,
+          "right": 641.015625,
+          "bottom": 502.5625
+        },
+        "media": {
+          "x": 0,
+          "y": 110.5,
+          "width": 1440,
+          "height": 720,
+          "right": 1440,
+          "bottom": 830.5
+        },
+        "copy": {
+          "x": 61.90625,
+          "y": 243.421875,
+          "width": 579.109375,
+          "height": 454.140625,
+          "right": 641.015625,
+          "bottom": 697.5625
+        },
+        "intro": "Your next chapter",
+        "detailH1s": 0,
+        "detailStatement": false,
+        "region": {
+          "role": "region",
+          "tabindex": "0",
+          "heading": "Your next chapter",
+          "tag": "H2"
+        },
+        "bodyFamily": "\"Helvetica Now Display\", \"Helvetica Neue\", Arial, sans-serif",
+        "bodyWeight": "300",
+        "headingFamily": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif",
+        "overlayWidth": "763.188px",
+        "titleOverflow": false,
+        "image": {
+          "src": "http://127.0.0.1:4208/assets/sj-product-banner-mistened-narcissus.jpg",
+          "loaded": true,
+          "fit": "cover",
+          "filter": "none",
+          "opacity": "1",
+          "naturalWidth": 1774,
+          "naturalHeight": 887,
+          "box": {
+            "x": 0,
+            "y": 110.5,
+            "width": 1440,
+            "height": 720,
+            "right": 1440,
+            "bottom": 830.5
+          }
+        },
+        "h1Count": 1,
+        "h1": "MISTENED NARCISSUS",
+        "horizontalOverflow": false,
+        "detailAfterBanner": true
+      },
+      "anchor": {
+        "hash": "#ProductDetails-10314865016897",
+        "target": "#ProductDetails-10314865016897",
+        "top": 110.5,
+        "bottom": 1000,
+        "headerHeight": 110.5,
+        "inView": true,
+        "clear": true
+      },
+      "scroll": {
+        "before": 0,
+        "height": 890,
+        "total": 2239,
+        "overflow": "auto",
+        "pageY": 721,
+        "mediaTop": 110.5,
+        "mouseX": 1123.1875,
+        "mouseY": 290.5,
+        "after": {
+          "info": 400,
+          "pageY": 721,
+          "mediaTop": 110.5
+        }
+      },
+      "status": "PASS"
+    },
+    {
+      "handle": "mistened-narcissus",
+      "title": "Mistened Narcissus",
+      "theme": "light",
+      "width": 390,
+      "checks": [
+        {
+          "name": "Full viewport banner",
+          "pass": true,
+          "detail": {
+            "x": 0,
+            "y": 99,
+            "width": 390,
+            "height": 551.484375,
+            "right": 390,
+            "bottom": 650.484375
+          }
+        },
+        {
+          "name": "Correct banner product title",
+          "pass": true,
+          "detail": "MISTENED NARCISSUS"
+        },
+        {
+          "name": "Correct distinct product campaign",
+          "pass": true,
+          "detail": {
+            "src": "http://127.0.0.1:4208/assets/sj-product-banner-mistened-narcissus.jpg",
+            "loaded": true,
+            "fit": "cover",
+            "filter": "none",
+            "opacity": "1",
+            "naturalWidth": 1774,
+            "naturalHeight": 887,
+            "box": {
+              "x": 0,
+              "y": 99,
+              "width": 390,
+              "height": 260,
+              "right": 390,
+              "bottom": 359
+            }
+          }
+        },
+        {
+          "name": "Campaign media spans viewport",
+          "pass": true,
+          "detail": {
+            "x": 0,
+            "y": 99,
+            "width": 390,
+            "height": 260,
+            "right": 390,
+            "bottom": 359
+          }
+        },
+        {
+          "name": "Campaign is unfiltered with intended framing",
+          "pass": true,
+          "detail": {
+            "src": "http://127.0.0.1:4208/assets/sj-product-banner-mistened-narcissus.jpg",
+            "loaded": true,
+            "fit": "cover",
+            "filter": "none",
+            "opacity": "1",
+            "naturalWidth": 1774,
+            "naturalHeight": 887,
+            "box": {
+              "x": 0,
+              "y": 99,
+              "width": 390,
+              "height": 260,
+              "right": 390,
+              "bottom": 359
+            }
+          }
+        },
+        {
+          "name": "Dark overlay avoids product area",
+          "pass": true,
+          "detail": "53%"
+        },
+        {
+          "name": "No repeated detail name or statement",
+          "pass": true,
+          "detail": {
+            "intro": "Your next chapter",
+            "statement": false
+          }
+        },
+        {
+          "name": "Details region has accessible neutral heading",
+          "pass": true,
+          "detail": {
+            "role": "region",
+            "tabindex": "0",
+            "heading": "Your next chapter",
+            "tag": "H2"
+          }
+        },
+        {
+          "name": "Supplied fonts retained",
+          "pass": true
+        },
+        {
+          "name": "Single product H1 is in the campaign banner",
+          "pass": true,
+          "detail": {
+            "count": 1,
+            "text": "MISTENED NARCISSUS"
+          }
+        },
+        {
+          "name": "No page or banner-title overflow",
+          "pass": true
+        },
+        {
+          "name": "Banner precedes product details",
+          "pass": true
+        },
+        {
+          "name": "CTA reaches details with clear anchor",
+          "pass": true,
+          "detail": {
+            "hash": "#ProductDetails-10314865016897",
+            "target": "#ProductDetails-10314865016897",
+            "top": 99.484375,
+            "bottom": 2723.84375,
+            "headerHeight": 99,
+            "inView": true,
+            "clear": true
+          }
+        },
+        {
+          "name": "Gallery retains twelve slides",
+          "pass": true
+        },
+        {
+          "name": "Gallery next advances",
+          "pass": true
+        },
+        {
+          "name": "Zoom opens correct current product image",
+          "pass": true
+        },
+        {
+          "name": "Zoom closes with Escape",
+          "pass": true
+        },
+        {
+          "name": "No JavaScript errors",
+          "pass": true,
+          "detail": []
+        }
+      ],
+      "errors": [],
+      "banner": {
+        "box": {
+          "x": 0,
+          "y": 99,
+          "width": 390,
+          "height": 551.484375,
+          "right": 390,
+          "bottom": 650.484375
+        },
+        "title": "MISTENED NARCISSUS",
+        "titleTag": "H1",
+        "titleBox": {
+          "x": 22,
+          "y": 424.390625,
+          "width": 346,
+          "height": 81.09375,
+          "right": 368,
+          "bottom": 505.484375
+        },
+        "media": {
+          "x": 0,
+          "y": 99,
+          "width": 390,
+          "height": 260,
+          "right": 390,
+          "bottom": 359
+        },
+        "copy": {
+          "x": 22,
+          "y": 359,
+          "width": 346,
+          "height": 290.484375,
+          "right": 368,
+          "bottom": 649.484375
+        },
+        "intro": "Your next chapter",
+        "detailH1s": 0,
+        "detailStatement": false,
+        "region": {
+          "role": "region",
+          "tabindex": "0",
+          "heading": "Your next chapter",
+          "tag": "H2"
+        },
+        "bodyFamily": "\"Helvetica Now Display\", \"Helvetica Neue\", Arial, sans-serif",
+        "bodyWeight": "300",
+        "headingFamily": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif",
+        "overlayWidth": "53%",
+        "titleOverflow": false,
+        "image": {
+          "src": "http://127.0.0.1:4208/assets/sj-product-banner-mistened-narcissus.jpg",
+          "loaded": true,
+          "fit": "cover",
+          "filter": "none",
+          "opacity": "1",
+          "naturalWidth": 1774,
+          "naturalHeight": 887,
+          "box": {
+            "x": 0,
+            "y": 99,
+            "width": 390,
+            "height": 260,
+            "right": 390,
+            "bottom": 359
+          }
+        },
+        "h1Count": 1,
+        "h1": "MISTENED NARCISSUS",
+        "horizontalOverflow": false,
+        "detailAfterBanner": true
+      },
+      "anchor": {
+        "hash": "#ProductDetails-10314865016897",
+        "target": "#ProductDetails-10314865016897",
+        "top": 99.484375,
+        "bottom": 2723.84375,
+        "headerHeight": 99,
+        "inView": true,
+        "clear": true
+      },
+      "status": "PASS"
+    },
+    {
+      "handle": "mistened-narcissus",
+      "title": "Mistened Narcissus",
+      "theme": "dark",
+      "width": 1440,
+      "checks": [
+        {
+          "name": "Full viewport banner",
+          "pass": true,
+          "detail": {
+            "x": 0,
+            "y": 110.5,
+            "width": 1440,
+            "height": 721,
+            "right": 1440,
+            "bottom": 831.5
+          }
+        },
+        {
+          "name": "Correct banner product title",
+          "pass": true,
+          "detail": "MISTENED NARCISSUS"
+        },
+        {
+          "name": "Correct distinct product campaign",
+          "pass": true,
+          "detail": {
+            "src": "http://127.0.0.1:4208/assets/sj-product-banner-mistened-narcissus.jpg",
+            "loaded": true,
+            "fit": "cover",
+            "filter": "none",
+            "opacity": "1",
+            "naturalWidth": 1774,
+            "naturalHeight": 887,
+            "box": {
+              "x": 0,
+              "y": 110.5,
+              "width": 1440,
+              "height": 720,
+              "right": 1440,
+              "bottom": 830.5
+            }
+          }
+        },
+        {
+          "name": "Campaign media spans viewport",
+          "pass": true,
+          "detail": {
+            "x": 0,
+            "y": 110.5,
+            "width": 1440,
+            "height": 720,
+            "right": 1440,
+            "bottom": 830.5
+          }
+        },
+        {
+          "name": "Campaign is unfiltered with intended framing",
+          "pass": true,
+          "detail": {
+            "src": "http://127.0.0.1:4208/assets/sj-product-banner-mistened-narcissus.jpg",
+            "loaded": true,
+            "fit": "cover",
+            "filter": "none",
+            "opacity": "1",
+            "naturalWidth": 1774,
+            "naturalHeight": 887,
+            "box": {
+              "x": 0,
+              "y": 110.5,
+              "width": 1440,
+              "height": 720,
+              "right": 1440,
+              "bottom": 830.5
+            }
+          }
+        },
+        {
+          "name": "Dark overlay avoids product area",
+          "pass": true,
+          "detail": "763.188px"
+        },
+        {
+          "name": "No repeated detail name or statement",
+          "pass": true,
+          "detail": {
+            "intro": "Your next chapter",
+            "statement": false
+          }
+        },
+        {
+          "name": "Details region has accessible neutral heading",
+          "pass": true,
+          "detail": {
+            "role": "region",
+            "tabindex": "0",
+            "heading": "Your next chapter",
+            "tag": "H2"
+          }
+        },
+        {
+          "name": "Supplied fonts retained",
+          "pass": true
+        },
+        {
+          "name": "Single product H1 is in the campaign banner",
+          "pass": true,
+          "detail": {
+            "count": 1,
+            "text": "MISTENED NARCISSUS"
+          }
+        },
+        {
+          "name": "No page or banner-title overflow",
+          "pass": true
+        },
+        {
+          "name": "Banner precedes product details",
+          "pass": true
+        },
+        {
+          "name": "CTA reaches details with clear anchor",
+          "pass": true,
+          "detail": {
+            "hash": "#ProductDetails-10314865016897",
+            "target": "#ProductDetails-10314865016897",
+            "top": 110.5,
+            "bottom": 1000,
+            "headerHeight": 110.5,
+            "inView": true,
+            "clear": true
+          }
+        },
+        {
+          "name": "Gallery retains twelve slides",
+          "pass": true
+        },
+        {
+          "name": "Desktop information independently scrolls",
+          "pass": true,
+          "detail": {
+            "before": 0,
+            "height": 890,
+            "total": 2239,
+            "overflow": "auto",
+            "pageY": 721,
+            "mediaTop": 110.5,
+            "mouseX": 1123.1875,
+            "mouseY": 290.5,
+            "after": {
+              "info": 400,
+              "pageY": 721,
+              "mediaTop": 110.5
+            }
+          }
+        },
+        {
+          "name": "Gallery next advances",
+          "pass": true
+        },
+        {
+          "name": "Zoom opens correct current product image",
+          "pass": true
+        },
+        {
+          "name": "Zoom closes with Escape",
+          "pass": true
+        },
+        {
+          "name": "No JavaScript errors",
+          "pass": true,
+          "detail": []
+        }
+      ],
+      "errors": [],
+      "banner": {
+        "box": {
+          "x": 0,
+          "y": 110.5,
+          "width": 1440,
+          "height": 721,
+          "right": 1440,
+          "bottom": 831.5
+        },
+        "title": "MISTENED NARCISSUS",
+        "titleTag": "H1",
+        "titleBox": {
+          "x": 61.90625,
+          "y": 352.8125,
+          "width": 579.109375,
+          "height": 149.75,
+          "right": 641.015625,
+          "bottom": 502.5625
+        },
+        "media": {
+          "x": 0,
+          "y": 110.5,
+          "width": 1440,
+          "height": 720,
+          "right": 1440,
+          "bottom": 830.5
+        },
+        "copy": {
+          "x": 61.90625,
+          "y": 243.421875,
+          "width": 579.109375,
+          "height": 454.140625,
+          "right": 641.015625,
+          "bottom": 697.5625
+        },
+        "intro": "Your next chapter",
+        "detailH1s": 0,
+        "detailStatement": false,
+        "region": {
+          "role": "region",
+          "tabindex": "0",
+          "heading": "Your next chapter",
+          "tag": "H2"
+        },
+        "bodyFamily": "\"Helvetica Now Display\", \"Helvetica Neue\", Arial, sans-serif",
+        "bodyWeight": "300",
+        "headingFamily": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif",
+        "overlayWidth": "763.188px",
+        "titleOverflow": false,
+        "image": {
+          "src": "http://127.0.0.1:4208/assets/sj-product-banner-mistened-narcissus.jpg",
+          "loaded": true,
+          "fit": "cover",
+          "filter": "none",
+          "opacity": "1",
+          "naturalWidth": 1774,
+          "naturalHeight": 887,
+          "box": {
+            "x": 0,
+            "y": 110.5,
+            "width": 1440,
+            "height": 720,
+            "right": 1440,
+            "bottom": 830.5
+          }
+        },
+        "h1Count": 1,
+        "h1": "MISTENED NARCISSUS",
+        "horizontalOverflow": false,
+        "detailAfterBanner": true
+      },
+      "anchor": {
+        "hash": "#ProductDetails-10314865016897",
+        "target": "#ProductDetails-10314865016897",
+        "top": 110.5,
+        "bottom": 1000,
+        "headerHeight": 110.5,
+        "inView": true,
+        "clear": true
+      },
+      "scroll": {
+        "before": 0,
+        "height": 890,
+        "total": 2239,
+        "overflow": "auto",
+        "pageY": 721,
+        "mediaTop": 110.5,
+        "mouseX": 1123.1875,
+        "mouseY": 290.5,
+        "after": {
+          "info": 400,
+          "pageY": 721,
+          "mediaTop": 110.5
+        }
+      },
+      "status": "PASS"
+    },
+    {
+      "handle": "mistened-narcissus",
+      "title": "Mistened Narcissus",
+      "theme": "dark",
+      "width": 390,
+      "checks": [
+        {
+          "name": "Full viewport banner",
+          "pass": true,
+          "detail": {
+            "x": 0,
+            "y": 99,
+            "width": 390,
+            "height": 551.484375,
+            "right": 390,
+            "bottom": 650.484375
+          }
+        },
+        {
+          "name": "Correct banner product title",
+          "pass": true,
+          "detail": "MISTENED NARCISSUS"
+        },
+        {
+          "name": "Correct distinct product campaign",
+          "pass": true,
+          "detail": {
+            "src": "http://127.0.0.1:4208/assets/sj-product-banner-mistened-narcissus.jpg",
+            "loaded": true,
+            "fit": "cover",
+            "filter": "none",
+            "opacity": "1",
+            "naturalWidth": 1774,
+            "naturalHeight": 887,
+            "box": {
+              "x": 0,
+              "y": 99,
+              "width": 390,
+              "height": 260,
+              "right": 390,
+              "bottom": 359
+            }
+          }
+        },
+        {
+          "name": "Campaign media spans viewport",
+          "pass": true,
+          "detail": {
+            "x": 0,
+            "y": 99,
+            "width": 390,
+            "height": 260,
+            "right": 390,
+            "bottom": 359
+          }
+        },
+        {
+          "name": "Campaign is unfiltered with intended framing",
+          "pass": true,
+          "detail": {
+            "src": "http://127.0.0.1:4208/assets/sj-product-banner-mistened-narcissus.jpg",
+            "loaded": true,
+            "fit": "cover",
+            "filter": "none",
+            "opacity": "1",
+            "naturalWidth": 1774,
+            "naturalHeight": 887,
+            "box": {
+              "x": 0,
+              "y": 99,
+              "width": 390,
+              "height": 260,
+              "right": 390,
+              "bottom": 359
+            }
+          }
+        },
+        {
+          "name": "Dark overlay avoids product area",
+          "pass": true,
+          "detail": "53%"
+        },
+        {
+          "name": "No repeated detail name or statement",
+          "pass": true,
+          "detail": {
+            "intro": "Your next chapter",
+            "statement": false
+          }
+        },
+        {
+          "name": "Details region has accessible neutral heading",
+          "pass": true,
+          "detail": {
+            "role": "region",
+            "tabindex": "0",
+            "heading": "Your next chapter",
+            "tag": "H2"
+          }
+        },
+        {
+          "name": "Supplied fonts retained",
+          "pass": true
+        },
+        {
+          "name": "Single product H1 is in the campaign banner",
+          "pass": true,
+          "detail": {
+            "count": 1,
+            "text": "MISTENED NARCISSUS"
+          }
+        },
+        {
+          "name": "No page or banner-title overflow",
+          "pass": true
+        },
+        {
+          "name": "Banner precedes product details",
+          "pass": true
+        },
+        {
+          "name": "CTA reaches details with clear anchor",
+          "pass": true,
+          "detail": {
+            "hash": "#ProductDetails-10314865016897",
+            "target": "#ProductDetails-10314865016897",
+            "top": 99.484375,
+            "bottom": 2723.84375,
+            "headerHeight": 99,
+            "inView": true,
+            "clear": true
+          }
+        },
+        {
+          "name": "Gallery retains twelve slides",
+          "pass": true
+        },
+        {
+          "name": "Gallery next advances",
+          "pass": true
+        },
+        {
+          "name": "Zoom opens correct current product image",
+          "pass": true
+        },
+        {
+          "name": "Zoom closes with Escape",
+          "pass": true
+        },
+        {
+          "name": "No JavaScript errors",
+          "pass": true,
+          "detail": []
+        }
+      ],
+      "errors": [],
+      "banner": {
+        "box": {
+          "x": 0,
+          "y": 99,
+          "width": 390,
+          "height": 551.484375,
+          "right": 390,
+          "bottom": 650.484375
+        },
+        "title": "MISTENED NARCISSUS",
+        "titleTag": "H1",
+        "titleBox": {
+          "x": 22,
+          "y": 424.390625,
+          "width": 346,
+          "height": 81.09375,
+          "right": 368,
+          "bottom": 505.484375
+        },
+        "media": {
+          "x": 0,
+          "y": 99,
+          "width": 390,
+          "height": 260,
+          "right": 390,
+          "bottom": 359
+        },
+        "copy": {
+          "x": 22,
+          "y": 359,
+          "width": 346,
+          "height": 290.484375,
+          "right": 368,
+          "bottom": 649.484375
+        },
+        "intro": "Your next chapter",
+        "detailH1s": 0,
+        "detailStatement": false,
+        "region": {
+          "role": "region",
+          "tabindex": "0",
+          "heading": "Your next chapter",
+          "tag": "H2"
+        },
+        "bodyFamily": "\"Helvetica Now Display\", \"Helvetica Neue\", Arial, sans-serif",
+        "bodyWeight": "300",
+        "headingFamily": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif",
+        "overlayWidth": "53%",
+        "titleOverflow": false,
+        "image": {
+          "src": "http://127.0.0.1:4208/assets/sj-product-banner-mistened-narcissus.jpg",
+          "loaded": true,
+          "fit": "cover",
+          "filter": "none",
+          "opacity": "1",
+          "naturalWidth": 1774,
+          "naturalHeight": 887,
+          "box": {
+            "x": 0,
+            "y": 99,
+            "width": 390,
+            "height": 260,
+            "right": 390,
+            "bottom": 359
+          }
+        },
+        "h1Count": 1,
+        "h1": "MISTENED NARCISSUS",
+        "horizontalOverflow": false,
+        "detailAfterBanner": true
+      },
+      "anchor": {
+        "hash": "#ProductDetails-10314865016897",
+        "target": "#ProductDetails-10314865016897",
+        "top": 99.484375,
+        "bottom": 2723.84375,
+        "headerHeight": 99,
+        "inView": true,
+        "clear": true
+      },
+      "status": "PASS"
+    },
+    {
+      "handle": "oud-mirage",
+      "title": "Oud Mirage",
+      "theme": "light",
+      "width": 1440,
+      "checks": [
+        {
+          "name": "Full viewport banner",
+          "pass": true,
+          "detail": {
+            "x": 0,
+            "y": 110.5,
+            "width": 1440,
+            "height": 721,
+            "right": 1440,
+            "bottom": 831.5
+          }
+        },
+        {
+          "name": "Correct banner product title",
+          "pass": true,
+          "detail": "OUD MIRAGE"
+        },
+        {
+          "name": "Correct distinct product campaign",
+          "pass": true,
+          "detail": {
+            "src": "http://127.0.0.1:4208/assets/sj-product-banner-oud-mirage.jpg",
+            "loaded": true,
+            "fit": "cover",
+            "filter": "none",
+            "opacity": "1",
+            "naturalWidth": 1774,
+            "naturalHeight": 887,
+            "box": {
+              "x": 0,
+              "y": 110.5,
+              "width": 1440,
+              "height": 720,
+              "right": 1440,
+              "bottom": 830.5
+            }
+          }
+        },
+        {
+          "name": "Campaign media spans viewport",
+          "pass": true,
+          "detail": {
+            "x": 0,
+            "y": 110.5,
+            "width": 1440,
+            "height": 720,
+            "right": 1440,
+            "bottom": 830.5
+          }
+        },
+        {
+          "name": "Campaign is unfiltered with intended framing",
+          "pass": true,
+          "detail": {
+            "src": "http://127.0.0.1:4208/assets/sj-product-banner-oud-mirage.jpg",
+            "loaded": true,
+            "fit": "cover",
+            "filter": "none",
+            "opacity": "1",
+            "naturalWidth": 1774,
+            "naturalHeight": 887,
+            "box": {
+              "x": 0,
+              "y": 110.5,
+              "width": 1440,
+              "height": 720,
+              "right": 1440,
+              "bottom": 830.5
+            }
+          }
+        },
+        {
+          "name": "Dark overlay avoids product area",
+          "pass": true,
+          "detail": "763.188px"
+        },
+        {
+          "name": "No repeated detail name or statement",
+          "pass": true,
+          "detail": {
+            "intro": "Your next chapter",
+            "statement": false
+          }
+        },
+        {
+          "name": "Details region has accessible neutral heading",
+          "pass": true,
+          "detail": {
+            "role": "region",
+            "tabindex": "0",
+            "heading": "Your next chapter",
+            "tag": "H2"
+          }
+        },
+        {
+          "name": "Supplied fonts retained",
+          "pass": true
+        },
+        {
+          "name": "Single product H1 is in the campaign banner",
+          "pass": true,
+          "detail": {
+            "count": 1,
+            "text": "OUD MIRAGE"
+          }
+        },
+        {
+          "name": "No page or banner-title overflow",
+          "pass": true
+        },
+        {
+          "name": "Banner precedes product details",
+          "pass": true
+        },
+        {
+          "name": "CTA reaches details with clear anchor",
+          "pass": true,
+          "detail": {
+            "hash": "#ProductDetails-10314853515329",
+            "target": "#ProductDetails-10314853515329",
+            "top": 110.5,
+            "bottom": 1000,
+            "headerHeight": 110.5,
+            "inView": true,
+            "clear": true
+          }
+        },
+        {
+          "name": "Gallery retains twelve slides",
+          "pass": true
+        },
+        {
+          "name": "Desktop information independently scrolls",
+          "pass": true,
+          "detail": {
+            "before": 0,
+            "height": 890,
+            "total": 2239,
+            "overflow": "auto",
+            "pageY": 721,
+            "mediaTop": 110.5,
+            "mouseX": 1123.1875,
+            "mouseY": 290.5,
+            "after": {
+              "info": 400,
+              "pageY": 721,
+              "mediaTop": 110.5
+            }
+          }
+        },
+        {
+          "name": "Gallery next advances",
+          "pass": true
+        },
+        {
+          "name": "Zoom opens correct current product image",
+          "pass": true
+        },
+        {
+          "name": "Zoom closes with Escape",
+          "pass": true
+        },
+        {
+          "name": "No JavaScript errors",
+          "pass": true,
+          "detail": []
+        }
+      ],
+      "errors": [],
+      "banner": {
+        "box": {
+          "x": 0,
+          "y": 110.5,
+          "width": 1440,
+          "height": 721,
+          "right": 1440,
+          "bottom": 831.5
+        },
+        "title": "OUD MIRAGE",
+        "titleTag": "H1",
+        "titleBox": {
+          "x": 61.90625,
+          "y": 390.25,
+          "width": 579.109375,
+          "height": 74.875,
+          "right": 641.015625,
+          "bottom": 465.125
+        },
+        "media": {
+          "x": 0,
+          "y": 110.5,
+          "width": 1440,
+          "height": 720,
+          "right": 1440,
+          "bottom": 830.5
+        },
+        "copy": {
+          "x": 61.90625,
+          "y": 280.859375,
+          "width": 579.109375,
+          "height": 379.265625,
+          "right": 641.015625,
+          "bottom": 660.125
+        },
+        "intro": "Your next chapter",
+        "detailH1s": 0,
+        "detailStatement": false,
+        "region": {
+          "role": "region",
+          "tabindex": "0",
+          "heading": "Your next chapter",
+          "tag": "H2"
+        },
+        "bodyFamily": "\"Helvetica Now Display\", \"Helvetica Neue\", Arial, sans-serif",
+        "bodyWeight": "300",
+        "headingFamily": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif",
+        "overlayWidth": "763.188px",
+        "titleOverflow": false,
+        "image": {
+          "src": "http://127.0.0.1:4208/assets/sj-product-banner-oud-mirage.jpg",
+          "loaded": true,
+          "fit": "cover",
+          "filter": "none",
+          "opacity": "1",
+          "naturalWidth": 1774,
+          "naturalHeight": 887,
+          "box": {
+            "x": 0,
+            "y": 110.5,
+            "width": 1440,
+            "height": 720,
+            "right": 1440,
+            "bottom": 830.5
+          }
+        },
+        "h1Count": 1,
+        "h1": "OUD MIRAGE",
+        "horizontalOverflow": false,
+        "detailAfterBanner": true
+      },
+      "anchor": {
+        "hash": "#ProductDetails-10314853515329",
+        "target": "#ProductDetails-10314853515329",
+        "top": 110.5,
+        "bottom": 1000,
+        "headerHeight": 110.5,
+        "inView": true,
+        "clear": true
+      },
+      "scroll": {
+        "before": 0,
+        "height": 890,
+        "total": 2239,
+        "overflow": "auto",
+        "pageY": 721,
+        "mediaTop": 110.5,
+        "mouseX": 1123.1875,
+        "mouseY": 290.5,
+        "after": {
+          "info": 400,
+          "pageY": 721,
+          "mediaTop": 110.5
+        }
+      },
+      "status": "PASS"
+    },
+    {
+      "handle": "oud-mirage",
+      "title": "Oud Mirage",
+      "theme": "light",
+      "width": 390,
+      "checks": [
+        {
+          "name": "Full viewport banner",
+          "pass": true,
+          "detail": {
+            "x": 0,
+            "y": 99,
+            "width": 390,
+            "height": 510.9375,
+            "right": 390,
+            "bottom": 609.9375
+          }
+        },
+        {
+          "name": "Correct banner product title",
+          "pass": true,
+          "detail": "OUD MIRAGE"
+        },
+        {
+          "name": "Correct distinct product campaign",
+          "pass": true,
+          "detail": {
+            "src": "http://127.0.0.1:4208/assets/sj-product-banner-oud-mirage.jpg",
+            "loaded": true,
+            "fit": "cover",
+            "filter": "none",
+            "opacity": "1",
+            "naturalWidth": 1774,
+            "naturalHeight": 887,
+            "box": {
+              "x": 0,
+              "y": 99,
+              "width": 390,
+              "height": 260,
+              "right": 390,
+              "bottom": 359
+            }
+          }
+        },
+        {
+          "name": "Campaign media spans viewport",
+          "pass": true,
+          "detail": {
+            "x": 0,
+            "y": 99,
+            "width": 390,
+            "height": 260,
+            "right": 390,
+            "bottom": 359
+          }
+        },
+        {
+          "name": "Campaign is unfiltered with intended framing",
+          "pass": true,
+          "detail": {
+            "src": "http://127.0.0.1:4208/assets/sj-product-banner-oud-mirage.jpg",
+            "loaded": true,
+            "fit": "cover",
+            "filter": "none",
+            "opacity": "1",
+            "naturalWidth": 1774,
+            "naturalHeight": 887,
+            "box": {
+              "x": 0,
+              "y": 99,
+              "width": 390,
+              "height": 260,
+              "right": 390,
+              "bottom": 359
+            }
+          }
+        },
+        {
+          "name": "Dark overlay avoids product area",
+          "pass": true,
+          "detail": "53%"
+        },
+        {
+          "name": "No repeated detail name or statement",
+          "pass": true,
+          "detail": {
+            "intro": "Your next chapter",
+            "statement": false
+          }
+        },
+        {
+          "name": "Details region has accessible neutral heading",
+          "pass": true,
+          "detail": {
+            "role": "region",
+            "tabindex": "0",
+            "heading": "Your next chapter",
+            "tag": "H2"
+          }
+        },
+        {
+          "name": "Supplied fonts retained",
+          "pass": true
+        },
+        {
+          "name": "Single product H1 is in the campaign banner",
+          "pass": true,
+          "detail": {
+            "count": 1,
+            "text": "OUD MIRAGE"
+          }
+        },
+        {
+          "name": "No page or banner-title overflow",
+          "pass": true
+        },
+        {
+          "name": "Banner precedes product details",
+          "pass": true
+        },
+        {
+          "name": "CTA reaches details with clear anchor",
+          "pass": true,
+          "detail": {
+            "hash": "#ProductDetails-10314853515329",
+            "target": "#ProductDetails-10314853515329",
+            "top": 98.9375,
+            "bottom": 2726.796875,
+            "headerHeight": 99,
+            "inView": true,
+            "clear": true
+          }
+        },
+        {
+          "name": "Gallery retains twelve slides",
+          "pass": true
+        },
+        {
+          "name": "Gallery next advances",
+          "pass": true
+        },
+        {
+          "name": "Zoom opens correct current product image",
+          "pass": true
+        },
+        {
+          "name": "Zoom closes with Escape",
+          "pass": true
+        },
+        {
+          "name": "No JavaScript errors",
+          "pass": true,
+          "detail": []
+        }
+      ],
+      "errors": [],
+      "banner": {
+        "box": {
+          "x": 0,
+          "y": 99,
+          "width": 390,
+          "height": 510.9375,
+          "right": 390,
+          "bottom": 609.9375
+        },
+        "title": "OUD MIRAGE",
+        "titleTag": "H1",
+        "titleBox": {
+          "x": 22,
+          "y": 424.390625,
+          "width": 346,
+          "height": 40.546875,
+          "right": 368,
+          "bottom": 464.9375
+        },
+        "media": {
+          "x": 0,
+          "y": 99,
+          "width": 390,
+          "height": 260,
+          "right": 390,
+          "bottom": 359
+        },
+        "copy": {
+          "x": 22,
+          "y": 359,
+          "width": 346,
+          "height": 249.9375,
+          "right": 368,
+          "bottom": 608.9375
+        },
+        "intro": "Your next chapter",
+        "detailH1s": 0,
+        "detailStatement": false,
+        "region": {
+          "role": "region",
+          "tabindex": "0",
+          "heading": "Your next chapter",
+          "tag": "H2"
+        },
+        "bodyFamily": "\"Helvetica Now Display\", \"Helvetica Neue\", Arial, sans-serif",
+        "bodyWeight": "300",
+        "headingFamily": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif",
+        "overlayWidth": "53%",
+        "titleOverflow": false,
+        "image": {
+          "src": "http://127.0.0.1:4208/assets/sj-product-banner-oud-mirage.jpg",
+          "loaded": true,
+          "fit": "cover",
+          "filter": "none",
+          "opacity": "1",
+          "naturalWidth": 1774,
+          "naturalHeight": 887,
+          "box": {
+            "x": 0,
+            "y": 99,
+            "width": 390,
+            "height": 260,
+            "right": 390,
+            "bottom": 359
+          }
+        },
+        "h1Count": 1,
+        "h1": "OUD MIRAGE",
+        "horizontalOverflow": false,
+        "detailAfterBanner": true
+      },
+      "anchor": {
+        "hash": "#ProductDetails-10314853515329",
+        "target": "#ProductDetails-10314853515329",
+        "top": 98.9375,
+        "bottom": 2726.796875,
+        "headerHeight": 99,
+        "inView": true,
+        "clear": true
+      },
+      "status": "PASS"
+    },
+    {
+      "handle": "oud-mirage",
+      "title": "Oud Mirage",
+      "theme": "dark",
+      "width": 1440,
+      "checks": [
+        {
+          "name": "Full viewport banner",
+          "pass": true,
+          "detail": {
+            "x": 0,
+            "y": 110.5,
+            "width": 1440,
+            "height": 721,
+            "right": 1440,
+            "bottom": 831.5
+          }
+        },
+        {
+          "name": "Correct banner product title",
+          "pass": true,
+          "detail": "OUD MIRAGE"
+        },
+        {
+          "name": "Correct distinct product campaign",
+          "pass": true,
+          "detail": {
+            "src": "http://127.0.0.1:4208/assets/sj-product-banner-oud-mirage.jpg",
+            "loaded": true,
+            "fit": "cover",
+            "filter": "none",
+            "opacity": "1",
+            "naturalWidth": 1774,
+            "naturalHeight": 887,
+            "box": {
+              "x": 0,
+              "y": 110.5,
+              "width": 1440,
+              "height": 720,
+              "right": 1440,
+              "bottom": 830.5
+            }
+          }
+        },
+        {
+          "name": "Campaign media spans viewport",
+          "pass": true,
+          "detail": {
+            "x": 0,
+            "y": 110.5,
+            "width": 1440,
+            "height": 720,
+            "right": 1440,
+            "bottom": 830.5
+          }
+        },
+        {
+          "name": "Campaign is unfiltered with intended framing",
+          "pass": true,
+          "detail": {
+            "src": "http://127.0.0.1:4208/assets/sj-product-banner-oud-mirage.jpg",
+            "loaded": true,
+            "fit": "cover",
+            "filter": "none",
+            "opacity": "1",
+            "naturalWidth": 1774,
+            "naturalHeight": 887,
+            "box": {
+              "x": 0,
+              "y": 110.5,
+              "width": 1440,
+              "height": 720,
+              "right": 1440,
+              "bottom": 830.5
+            }
+          }
+        },
+        {
+          "name": "Dark overlay avoids product area",
+          "pass": true,
+          "detail": "763.188px"
+        },
+        {
+          "name": "No repeated detail name or statement",
+          "pass": true,
+          "detail": {
+            "intro": "Your next chapter",
+            "statement": false
+          }
+        },
+        {
+          "name": "Details region has accessible neutral heading",
+          "pass": true,
+          "detail": {
+            "role": "region",
+            "tabindex": "0",
+            "heading": "Your next chapter",
+            "tag": "H2"
+          }
+        },
+        {
+          "name": "Supplied fonts retained",
+          "pass": true
+        },
+        {
+          "name": "Single product H1 is in the campaign banner",
+          "pass": true,
+          "detail": {
+            "count": 1,
+            "text": "OUD MIRAGE"
+          }
+        },
+        {
+          "name": "No page or banner-title overflow",
+          "pass": true
+        },
+        {
+          "name": "Banner precedes product details",
+          "pass": true
+        },
+        {
+          "name": "CTA reaches details with clear anchor",
+          "pass": true,
+          "detail": {
+            "hash": "#ProductDetails-10314853515329",
+            "target": "#ProductDetails-10314853515329",
+            "top": 110.5,
+            "bottom": 1000,
+            "headerHeight": 110.5,
+            "inView": true,
+            "clear": true
+          }
+        },
+        {
+          "name": "Gallery retains twelve slides",
+          "pass": true
+        },
+        {
+          "name": "Desktop information independently scrolls",
+          "pass": true,
+          "detail": {
+            "before": 0,
+            "height": 890,
+            "total": 2239,
+            "overflow": "auto",
+            "pageY": 721,
+            "mediaTop": 110.5,
+            "mouseX": 1123.1875,
+            "mouseY": 290.5,
+            "after": {
+              "info": 400,
+              "pageY": 721,
+              "mediaTop": 110.5
+            }
+          }
+        },
+        {
+          "name": "Gallery next advances",
+          "pass": true
+        },
+        {
+          "name": "Zoom opens correct current product image",
+          "pass": true
+        },
+        {
+          "name": "Zoom closes with Escape",
+          "pass": true
+        },
+        {
+          "name": "No JavaScript errors",
+          "pass": true,
+          "detail": []
+        }
+      ],
+      "errors": [],
+      "banner": {
+        "box": {
+          "x": 0,
+          "y": 110.5,
+          "width": 1440,
+          "height": 721,
+          "right": 1440,
+          "bottom": 831.5
+        },
+        "title": "OUD MIRAGE",
+        "titleTag": "H1",
+        "titleBox": {
+          "x": 61.90625,
+          "y": 390.25,
+          "width": 579.109375,
+          "height": 74.875,
+          "right": 641.015625,
+          "bottom": 465.125
+        },
+        "media": {
+          "x": 0,
+          "y": 110.5,
+          "width": 1440,
+          "height": 720,
+          "right": 1440,
+          "bottom": 830.5
+        },
+        "copy": {
+          "x": 61.90625,
+          "y": 280.859375,
+          "width": 579.109375,
+          "height": 379.265625,
+          "right": 641.015625,
+          "bottom": 660.125
+        },
+        "intro": "Your next chapter",
+        "detailH1s": 0,
+        "detailStatement": false,
+        "region": {
+          "role": "region",
+          "tabindex": "0",
+          "heading": "Your next chapter",
+          "tag": "H2"
+        },
+        "bodyFamily": "\"Helvetica Now Display\", \"Helvetica Neue\", Arial, sans-serif",
+        "bodyWeight": "300",
+        "headingFamily": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif",
+        "overlayWidth": "763.188px",
+        "titleOverflow": false,
+        "image": {
+          "src": "http://127.0.0.1:4208/assets/sj-product-banner-oud-mirage.jpg",
+          "loaded": true,
+          "fit": "cover",
+          "filter": "none",
+          "opacity": "1",
+          "naturalWidth": 1774,
+          "naturalHeight": 887,
+          "box": {
+            "x": 0,
+            "y": 110.5,
+            "width": 1440,
+            "height": 720,
+            "right": 1440,
+            "bottom": 830.5
+          }
+        },
+        "h1Count": 1,
+        "h1": "OUD MIRAGE",
+        "horizontalOverflow": false,
+        "detailAfterBanner": true
+      },
+      "anchor": {
+        "hash": "#ProductDetails-10314853515329",
+        "target": "#ProductDetails-10314853515329",
+        "top": 110.5,
+        "bottom": 1000,
+        "headerHeight": 110.5,
+        "inView": true,
+        "clear": true
+      },
+      "scroll": {
+        "before": 0,
+        "height": 890,
+        "total": 2239,
+        "overflow": "auto",
+        "pageY": 721,
+        "mediaTop": 110.5,
+        "mouseX": 1123.1875,
+        "mouseY": 290.5,
+        "after": {
+          "info": 400,
+          "pageY": 721,
+          "mediaTop": 110.5
+        }
+      },
+      "status": "PASS"
+    },
+    {
+      "handle": "oud-mirage",
+      "title": "Oud Mirage",
+      "theme": "dark",
+      "width": 390,
+      "checks": [
+        {
+          "name": "Full viewport banner",
+          "pass": true,
+          "detail": {
+            "x": 0,
+            "y": 99,
+            "width": 390,
+            "height": 510.9375,
+            "right": 390,
+            "bottom": 609.9375
+          }
+        },
+        {
+          "name": "Correct banner product title",
+          "pass": true,
+          "detail": "OUD MIRAGE"
+        },
+        {
+          "name": "Correct distinct product campaign",
+          "pass": true,
+          "detail": {
+            "src": "http://127.0.0.1:4208/assets/sj-product-banner-oud-mirage.jpg",
+            "loaded": true,
+            "fit": "cover",
+            "filter": "none",
+            "opacity": "1",
+            "naturalWidth": 1774,
+            "naturalHeight": 887,
+            "box": {
+              "x": 0,
+              "y": 99,
+              "width": 390,
+              "height": 260,
+              "right": 390,
+              "bottom": 359
+            }
+          }
+        },
+        {
+          "name": "Campaign media spans viewport",
+          "pass": true,
+          "detail": {
+            "x": 0,
+            "y": 99,
+            "width": 390,
+            "height": 260,
+            "right": 390,
+            "bottom": 359
+          }
+        },
+        {
+          "name": "Campaign is unfiltered with intended framing",
+          "pass": true,
+          "detail": {
+            "src": "http://127.0.0.1:4208/assets/sj-product-banner-oud-mirage.jpg",
+            "loaded": true,
+            "fit": "cover",
+            "filter": "none",
+            "opacity": "1",
+            "naturalWidth": 1774,
+            "naturalHeight": 887,
+            "box": {
+              "x": 0,
+              "y": 99,
+              "width": 390,
+              "height": 260,
+              "right": 390,
+              "bottom": 359
+            }
+          }
+        },
+        {
+          "name": "Dark overlay avoids product area",
+          "pass": true,
+          "detail": "53%"
+        },
+        {
+          "name": "No repeated detail name or statement",
+          "pass": true,
+          "detail": {
+            "intro": "Your next chapter",
+            "statement": false
+          }
+        },
+        {
+          "name": "Details region has accessible neutral heading",
+          "pass": true,
+          "detail": {
+            "role": "region",
+            "tabindex": "0",
+            "heading": "Your next chapter",
+            "tag": "H2"
+          }
+        },
+        {
+          "name": "Supplied fonts retained",
+          "pass": true
+        },
+        {
+          "name": "Single product H1 is in the campaign banner",
+          "pass": true,
+          "detail": {
+            "count": 1,
+            "text": "OUD MIRAGE"
+          }
+        },
+        {
+          "name": "No page or banner-title overflow",
+          "pass": true
+        },
+        {
+          "name": "Banner precedes product details",
+          "pass": true
+        },
+        {
+          "name": "CTA reaches details with clear anchor",
+          "pass": true,
+          "detail": {
+            "hash": "#ProductDetails-10314853515329",
+            "target": "#ProductDetails-10314853515329",
+            "top": 98.9375,
+            "bottom": 2726.796875,
+            "headerHeight": 99,
+            "inView": true,
+            "clear": true
+          }
+        },
+        {
+          "name": "Gallery retains twelve slides",
+          "pass": true
+        },
+        {
+          "name": "Gallery next advances",
+          "pass": true
+        },
+        {
+          "name": "Zoom opens correct current product image",
+          "pass": true
+        },
+        {
+          "name": "Zoom closes with Escape",
+          "pass": true
+        },
+        {
+          "name": "No JavaScript errors",
+          "pass": true,
+          "detail": []
+        }
+      ],
+      "errors": [],
+      "banner": {
+        "box": {
+          "x": 0,
+          "y": 99,
+          "width": 390,
+          "height": 510.9375,
+          "right": 390,
+          "bottom": 609.9375
+        },
+        "title": "OUD MIRAGE",
+        "titleTag": "H1",
+        "titleBox": {
+          "x": 22,
+          "y": 424.390625,
+          "width": 346,
+          "height": 40.546875,
+          "right": 368,
+          "bottom": 464.9375
+        },
+        "media": {
+          "x": 0,
+          "y": 99,
+          "width": 390,
+          "height": 260,
+          "right": 390,
+          "bottom": 359
+        },
+        "copy": {
+          "x": 22,
+          "y": 359,
+          "width": 346,
+          "height": 249.9375,
+          "right": 368,
+          "bottom": 608.9375
+        },
+        "intro": "Your next chapter",
+        "detailH1s": 0,
+        "detailStatement": false,
+        "region": {
+          "role": "region",
+          "tabindex": "0",
+          "heading": "Your next chapter",
+          "tag": "H2"
+        },
+        "bodyFamily": "\"Helvetica Now Display\", \"Helvetica Neue\", Arial, sans-serif",
+        "bodyWeight": "300",
+        "headingFamily": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif",
+        "overlayWidth": "53%",
+        "titleOverflow": false,
+        "image": {
+          "src": "http://127.0.0.1:4208/assets/sj-product-banner-oud-mirage.jpg",
+          "loaded": true,
+          "fit": "cover",
+          "filter": "none",
+          "opacity": "1",
+          "naturalWidth": 1774,
+          "naturalHeight": 887,
+          "box": {
+            "x": 0,
+            "y": 99,
+            "width": 390,
+            "height": 260,
+            "right": 390,
+            "bottom": 359
+          }
+        },
+        "h1Count": 1,
+        "h1": "OUD MIRAGE",
+        "horizontalOverflow": false,
+        "detailAfterBanner": true
+      },
+      "anchor": {
+        "hash": "#ProductDetails-10314853515329",
+        "target": "#ProductDetails-10314853515329",
+        "top": 98.9375,
+        "bottom": 2726.796875,
+        "headerHeight": 99,
+        "inView": true,
+        "clear": true
+      },
+      "status": "PASS"
+    },
+    {
+      "handle": "rtulle-satin",
+      "title": "Rtulle & Satin",
+      "theme": "light",
+      "width": 1440,
+      "checks": [
+        {
+          "name": "Full viewport banner",
+          "pass": true,
+          "detail": {
+            "x": 0,
+            "y": 110.5,
+            "width": 1440,
+            "height": 721,
+            "right": 1440,
+            "bottom": 831.5
+          }
+        },
+        {
+          "name": "Correct banner product title",
+          "pass": true,
+          "detail": "RTULLE & SATIN"
+        },
+        {
+          "name": "Correct distinct product campaign",
+          "pass": true,
+          "detail": {
+            "src": "http://127.0.0.1:4208/assets/sj-product-banner-rtulle-satin.jpg",
+            "loaded": true,
+            "fit": "cover",
+            "filter": "none",
+            "opacity": "1",
+            "naturalWidth": 1774,
+            "naturalHeight": 887,
+            "box": {
+              "x": 0,
+              "y": 110.5,
+              "width": 1440,
+              "height": 720,
+              "right": 1440,
+              "bottom": 830.5
+            }
+          }
+        },
+        {
+          "name": "Campaign media spans viewport",
+          "pass": true,
+          "detail": {
+            "x": 0,
+            "y": 110.5,
+            "width": 1440,
+            "height": 720,
+            "right": 1440,
+            "bottom": 830.5
+          }
+        },
+        {
+          "name": "Campaign is unfiltered with intended framing",
+          "pass": true,
+          "detail": {
+            "src": "http://127.0.0.1:4208/assets/sj-product-banner-rtulle-satin.jpg",
+            "loaded": true,
+            "fit": "cover",
+            "filter": "none",
+            "opacity": "1",
+            "naturalWidth": 1774,
+            "naturalHeight": 887,
+            "box": {
+              "x": 0,
+              "y": 110.5,
+              "width": 1440,
+              "height": 720,
+              "right": 1440,
+              "bottom": 830.5
+            }
+          }
+        },
+        {
+          "name": "Dark overlay avoids product area",
+          "pass": true,
+          "detail": "763.188px"
+        },
+        {
+          "name": "No repeated detail name or statement",
+          "pass": true,
+          "detail": {
+            "intro": "Your next chapter",
+            "statement": false
+          }
+        },
+        {
+          "name": "Details region has accessible neutral heading",
+          "pass": true,
+          "detail": {
+            "role": "region",
+            "tabindex": "0",
+            "heading": "Your next chapter",
+            "tag": "H2"
+          }
+        },
+        {
+          "name": "Supplied fonts retained",
+          "pass": true
+        },
+        {
+          "name": "Single product H1 is in the campaign banner",
+          "pass": true,
+          "detail": {
+            "count": 1,
+            "text": "RTULLE & SATIN"
+          }
+        },
+        {
+          "name": "No page or banner-title overflow",
+          "pass": true
+        },
+        {
+          "name": "Banner precedes product details",
+          "pass": true
+        },
+        {
+          "name": "CTA reaches details with clear anchor",
+          "pass": true,
+          "detail": {
+            "hash": "#ProductDetails-10314853449793",
+            "target": "#ProductDetails-10314853449793",
+            "top": 110.5,
+            "bottom": 1000,
+            "headerHeight": 110.5,
+            "inView": true,
+            "clear": true
+          }
+        },
+        {
+          "name": "Gallery retains twelve slides",
+          "pass": true
+        },
+        {
+          "name": "Desktop information independently scrolls",
+          "pass": true,
+          "detail": {
+            "before": 0,
+            "height": 890,
+            "total": 1990,
+            "overflow": "auto",
+            "pageY": 721,
+            "mediaTop": 110.5,
+            "mouseX": 1123.1875,
+            "mouseY": 290.5,
+            "after": {
+              "info": 400,
+              "pageY": 721,
+              "mediaTop": 110.5
+            }
+          }
+        },
+        {
+          "name": "Gallery next advances",
+          "pass": true
+        },
+        {
+          "name": "Zoom opens correct current product image",
+          "pass": true
+        },
+        {
+          "name": "Zoom closes with Escape",
+          "pass": true
+        },
+        {
+          "name": "No JavaScript errors",
+          "pass": true,
+          "detail": []
+        }
+      ],
+      "errors": [],
+      "banner": {
+        "box": {
+          "x": 0,
+          "y": 110.5,
+          "width": 1440,
+          "height": 721,
+          "right": 1440,
+          "bottom": 831.5
+        },
+        "title": "RTULLE & SATIN",
+        "titleTag": "H1",
+        "titleBox": {
+          "x": 61.90625,
+          "y": 390.25,
+          "width": 579.109375,
+          "height": 74.875,
+          "right": 641.015625,
+          "bottom": 465.125
+        },
+        "media": {
+          "x": 0,
+          "y": 110.5,
+          "width": 1440,
+          "height": 720,
+          "right": 1440,
+          "bottom": 830.5
+        },
+        "copy": {
+          "x": 61.90625,
+          "y": 280.859375,
+          "width": 579.109375,
+          "height": 379.265625,
+          "right": 641.015625,
+          "bottom": 660.125
+        },
+        "intro": "Your next chapter",
+        "detailH1s": 0,
+        "detailStatement": false,
+        "region": {
+          "role": "region",
+          "tabindex": "0",
+          "heading": "Your next chapter",
+          "tag": "H2"
+        },
+        "bodyFamily": "\"Helvetica Now Display\", \"Helvetica Neue\", Arial, sans-serif",
+        "bodyWeight": "300",
+        "headingFamily": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif",
+        "overlayWidth": "763.188px",
+        "titleOverflow": false,
+        "image": {
+          "src": "http://127.0.0.1:4208/assets/sj-product-banner-rtulle-satin.jpg",
+          "loaded": true,
+          "fit": "cover",
+          "filter": "none",
+          "opacity": "1",
+          "naturalWidth": 1774,
+          "naturalHeight": 887,
+          "box": {
+            "x": 0,
+            "y": 110.5,
+            "width": 1440,
+            "height": 720,
+            "right": 1440,
+            "bottom": 830.5
+          }
+        },
+        "h1Count": 1,
+        "h1": "RTULLE & SATIN",
+        "horizontalOverflow": false,
+        "detailAfterBanner": true
+      },
+      "anchor": {
+        "hash": "#ProductDetails-10314853449793",
+        "target": "#ProductDetails-10314853449793",
+        "top": 110.5,
+        "bottom": 1000,
+        "headerHeight": 110.5,
+        "inView": true,
+        "clear": true
+      },
+      "scroll": {
+        "before": 0,
+        "height": 890,
+        "total": 1990,
+        "overflow": "auto",
+        "pageY": 721,
+        "mediaTop": 110.5,
+        "mouseX": 1123.1875,
+        "mouseY": 290.5,
+        "after": {
+          "info": 400,
+          "pageY": 721,
+          "mediaTop": 110.5
+        }
+      },
+      "status": "PASS"
+    },
+    {
+      "handle": "rtulle-satin",
+      "title": "Rtulle & Satin",
+      "theme": "light",
+      "width": 390,
+      "checks": [
+        {
+          "name": "Full viewport banner",
+          "pass": true,
+          "detail": {
+            "x": 0,
+            "y": 99,
+            "width": 390,
+            "height": 510.9375,
+            "right": 390,
+            "bottom": 609.9375
+          }
+        },
+        {
+          "name": "Correct banner product title",
+          "pass": true,
+          "detail": "RTULLE & SATIN"
+        },
+        {
+          "name": "Correct distinct product campaign",
+          "pass": true,
+          "detail": {
+            "src": "http://127.0.0.1:4208/assets/sj-product-banner-rtulle-satin.jpg",
+            "loaded": true,
+            "fit": "cover",
+            "filter": "none",
+            "opacity": "1",
+            "naturalWidth": 1774,
+            "naturalHeight": 887,
+            "box": {
+              "x": 0,
+              "y": 99,
+              "width": 390,
+              "height": 260,
+              "right": 390,
+              "bottom": 359
+            }
+          }
+        },
+        {
+          "name": "Campaign media spans viewport",
+          "pass": true,
+          "detail": {
+            "x": 0,
+            "y": 99,
+            "width": 390,
+            "height": 260,
+            "right": 390,
+            "bottom": 359
+          }
+        },
+        {
+          "name": "Campaign is unfiltered with intended framing",
+          "pass": true,
+          "detail": {
+            "src": "http://127.0.0.1:4208/assets/sj-product-banner-rtulle-satin.jpg",
+            "loaded": true,
+            "fit": "cover",
+            "filter": "none",
+            "opacity": "1",
+            "naturalWidth": 1774,
+            "naturalHeight": 887,
+            "box": {
+              "x": 0,
+              "y": 99,
+              "width": 390,
+              "height": 260,
+              "right": 390,
+              "bottom": 359
+            }
+          }
+        },
+        {
+          "name": "Dark overlay avoids product area",
+          "pass": true,
+          "detail": "53%"
+        },
+        {
+          "name": "No repeated detail name or statement",
+          "pass": true,
+          "detail": {
+            "intro": "Your next chapter",
+            "statement": false
+          }
+        },
+        {
+          "name": "Details region has accessible neutral heading",
+          "pass": true,
+          "detail": {
+            "role": "region",
+            "tabindex": "0",
+            "heading": "Your next chapter",
+            "tag": "H2"
+          }
+        },
+        {
+          "name": "Supplied fonts retained",
+          "pass": true
+        },
+        {
+          "name": "Single product H1 is in the campaign banner",
+          "pass": true,
+          "detail": {
+            "count": 1,
+            "text": "RTULLE & SATIN"
+          }
+        },
+        {
+          "name": "No page or banner-title overflow",
+          "pass": true
+        },
+        {
+          "name": "Banner precedes product details",
+          "pass": true
+        },
+        {
+          "name": "CTA reaches details with clear anchor",
+          "pass": true,
+          "detail": {
+            "hash": "#ProductDetails-10314853449793",
+            "target": "#ProductDetails-10314853449793",
+            "top": 98.9375,
+            "bottom": 2461.90625,
+            "headerHeight": 99,
+            "inView": true,
+            "clear": true
+          }
+        },
+        {
+          "name": "Gallery retains twelve slides",
+          "pass": true
+        },
+        {
+          "name": "Gallery next advances",
+          "pass": true
+        },
+        {
+          "name": "Zoom opens correct current product image",
+          "pass": true
+        },
+        {
+          "name": "Zoom closes with Escape",
+          "pass": true
+        },
+        {
+          "name": "No JavaScript errors",
+          "pass": true,
+          "detail": []
+        }
+      ],
+      "errors": [],
+      "banner": {
+        "box": {
+          "x": 0,
+          "y": 99,
+          "width": 390,
+          "height": 510.9375,
+          "right": 390,
+          "bottom": 609.9375
+        },
+        "title": "RTULLE & SATIN",
+        "titleTag": "H1",
+        "titleBox": {
+          "x": 22,
+          "y": 424.390625,
+          "width": 346,
+          "height": 40.546875,
+          "right": 368,
+          "bottom": 464.9375
+        },
+        "media": {
+          "x": 0,
+          "y": 99,
+          "width": 390,
+          "height": 260,
+          "right": 390,
+          "bottom": 359
+        },
+        "copy": {
+          "x": 22,
+          "y": 359,
+          "width": 346,
+          "height": 249.9375,
+          "right": 368,
+          "bottom": 608.9375
+        },
+        "intro": "Your next chapter",
+        "detailH1s": 0,
+        "detailStatement": false,
+        "region": {
+          "role": "region",
+          "tabindex": "0",
+          "heading": "Your next chapter",
+          "tag": "H2"
+        },
+        "bodyFamily": "\"Helvetica Now Display\", \"Helvetica Neue\", Arial, sans-serif",
+        "bodyWeight": "300",
+        "headingFamily": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif",
+        "overlayWidth": "53%",
+        "titleOverflow": false,
+        "image": {
+          "src": "http://127.0.0.1:4208/assets/sj-product-banner-rtulle-satin.jpg",
+          "loaded": true,
+          "fit": "cover",
+          "filter": "none",
+          "opacity": "1",
+          "naturalWidth": 1774,
+          "naturalHeight": 887,
+          "box": {
+            "x": 0,
+            "y": 99,
+            "width": 390,
+            "height": 260,
+            "right": 390,
+            "bottom": 359
+          }
+        },
+        "h1Count": 1,
+        "h1": "RTULLE & SATIN",
+        "horizontalOverflow": false,
+        "detailAfterBanner": true
+      },
+      "anchor": {
+        "hash": "#ProductDetails-10314853449793",
+        "target": "#ProductDetails-10314853449793",
+        "top": 98.9375,
+        "bottom": 2461.90625,
+        "headerHeight": 99,
+        "inView": true,
+        "clear": true
+      },
+      "status": "PASS"
+    },
+    {
+      "handle": "rtulle-satin",
+      "title": "Rtulle & Satin",
+      "theme": "dark",
+      "width": 1440,
+      "checks": [
+        {
+          "name": "Full viewport banner",
+          "pass": true,
+          "detail": {
+            "x": 0,
+            "y": 110.5,
+            "width": 1440,
+            "height": 721,
+            "right": 1440,
+            "bottom": 831.5
+          }
+        },
+        {
+          "name": "Correct banner product title",
+          "pass": true,
+          "detail": "RTULLE & SATIN"
+        },
+        {
+          "name": "Correct distinct product campaign",
+          "pass": true,
+          "detail": {
+            "src": "http://127.0.0.1:4208/assets/sj-product-banner-rtulle-satin.jpg",
+            "loaded": true,
+            "fit": "cover",
+            "filter": "none",
+            "opacity": "1",
+            "naturalWidth": 1774,
+            "naturalHeight": 887,
+            "box": {
+              "x": 0,
+              "y": 110.5,
+              "width": 1440,
+              "height": 720,
+              "right": 1440,
+              "bottom": 830.5
+            }
+          }
+        },
+        {
+          "name": "Campaign media spans viewport",
+          "pass": true,
+          "detail": {
+            "x": 0,
+            "y": 110.5,
+            "width": 1440,
+            "height": 720,
+            "right": 1440,
+            "bottom": 830.5
+          }
+        },
+        {
+          "name": "Campaign is unfiltered with intended framing",
+          "pass": true,
+          "detail": {
+            "src": "http://127.0.0.1:4208/assets/sj-product-banner-rtulle-satin.jpg",
+            "loaded": true,
+            "fit": "cover",
+            "filter": "none",
+            "opacity": "1",
+            "naturalWidth": 1774,
+            "naturalHeight": 887,
+            "box": {
+              "x": 0,
+              "y": 110.5,
+              "width": 1440,
+              "height": 720,
+              "right": 1440,
+              "bottom": 830.5
+            }
+          }
+        },
+        {
+          "name": "Dark overlay avoids product area",
+          "pass": true,
+          "detail": "763.188px"
+        },
+        {
+          "name": "No repeated detail name or statement",
+          "pass": true,
+          "detail": {
+            "intro": "Your next chapter",
+            "statement": false
+          }
+        },
+        {
+          "name": "Details region has accessible neutral heading",
+          "pass": true,
+          "detail": {
+            "role": "region",
+            "tabindex": "0",
+            "heading": "Your next chapter",
+            "tag": "H2"
+          }
+        },
+        {
+          "name": "Supplied fonts retained",
+          "pass": true
+        },
+        {
+          "name": "Single product H1 is in the campaign banner",
+          "pass": true,
+          "detail": {
+            "count": 1,
+            "text": "RTULLE & SATIN"
+          }
+        },
+        {
+          "name": "No page or banner-title overflow",
+          "pass": true
+        },
+        {
+          "name": "Banner precedes product details",
+          "pass": true
+        },
+        {
+          "name": "CTA reaches details with clear anchor",
+          "pass": true,
+          "detail": {
+            "hash": "#ProductDetails-10314853449793",
+            "target": "#ProductDetails-10314853449793",
+            "top": 110.5,
+            "bottom": 1000,
+            "headerHeight": 110.5,
+            "inView": true,
+            "clear": true
+          }
+        },
+        {
+          "name": "Gallery retains twelve slides",
+          "pass": true
+        },
+        {
+          "name": "Desktop information independently scrolls",
+          "pass": true,
+          "detail": {
+            "before": 0,
+            "height": 890,
+            "total": 1990,
+            "overflow": "auto",
+            "pageY": 721,
+            "mediaTop": 110.5,
+            "mouseX": 1123.1875,
+            "mouseY": 290.5,
+            "after": {
+              "info": 400,
+              "pageY": 721,
+              "mediaTop": 110.5
+            }
+          }
+        },
+        {
+          "name": "Gallery next advances",
+          "pass": true
+        },
+        {
+          "name": "Zoom opens correct current product image",
+          "pass": true
+        },
+        {
+          "name": "Zoom closes with Escape",
+          "pass": true
+        },
+        {
+          "name": "No JavaScript errors",
+          "pass": true,
+          "detail": []
+        }
+      ],
+      "errors": [],
+      "banner": {
+        "box": {
+          "x": 0,
+          "y": 110.5,
+          "width": 1440,
+          "height": 721,
+          "right": 1440,
+          "bottom": 831.5
+        },
+        "title": "RTULLE & SATIN",
+        "titleTag": "H1",
+        "titleBox": {
+          "x": 61.90625,
+          "y": 390.25,
+          "width": 579.109375,
+          "height": 74.875,
+          "right": 641.015625,
+          "bottom": 465.125
+        },
+        "media": {
+          "x": 0,
+          "y": 110.5,
+          "width": 1440,
+          "height": 720,
+          "right": 1440,
+          "bottom": 830.5
+        },
+        "copy": {
+          "x": 61.90625,
+          "y": 280.859375,
+          "width": 579.109375,
+          "height": 379.265625,
+          "right": 641.015625,
+          "bottom": 660.125
+        },
+        "intro": "Your next chapter",
+        "detailH1s": 0,
+        "detailStatement": false,
+        "region": {
+          "role": "region",
+          "tabindex": "0",
+          "heading": "Your next chapter",
+          "tag": "H2"
+        },
+        "bodyFamily": "\"Helvetica Now Display\", \"Helvetica Neue\", Arial, sans-serif",
+        "bodyWeight": "300",
+        "headingFamily": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif",
+        "overlayWidth": "763.188px",
+        "titleOverflow": false,
+        "image": {
+          "src": "http://127.0.0.1:4208/assets/sj-product-banner-rtulle-satin.jpg",
+          "loaded": true,
+          "fit": "cover",
+          "filter": "none",
+          "opacity": "1",
+          "naturalWidth": 1774,
+          "naturalHeight": 887,
+          "box": {
+            "x": 0,
+            "y": 110.5,
+            "width": 1440,
+            "height": 720,
+            "right": 1440,
+            "bottom": 830.5
+          }
+        },
+        "h1Count": 1,
+        "h1": "RTULLE & SATIN",
+        "horizontalOverflow": false,
+        "detailAfterBanner": true
+      },
+      "anchor": {
+        "hash": "#ProductDetails-10314853449793",
+        "target": "#ProductDetails-10314853449793",
+        "top": 110.5,
+        "bottom": 1000,
+        "headerHeight": 110.5,
+        "inView": true,
+        "clear": true
+      },
+      "scroll": {
+        "before": 0,
+        "height": 890,
+        "total": 1990,
+        "overflow": "auto",
+        "pageY": 721,
+        "mediaTop": 110.5,
+        "mouseX": 1123.1875,
+        "mouseY": 290.5,
+        "after": {
+          "info": 400,
+          "pageY": 721,
+          "mediaTop": 110.5
+        }
+      },
+      "status": "PASS"
+    },
+    {
+      "handle": "rtulle-satin",
+      "title": "Rtulle & Satin",
+      "theme": "dark",
+      "width": 390,
+      "checks": [
+        {
+          "name": "Full viewport banner",
+          "pass": true,
+          "detail": {
+            "x": 0,
+            "y": 99,
+            "width": 390,
+            "height": 510.9375,
+            "right": 390,
+            "bottom": 609.9375
+          }
+        },
+        {
+          "name": "Correct banner product title",
+          "pass": true,
+          "detail": "RTULLE & SATIN"
+        },
+        {
+          "name": "Correct distinct product campaign",
+          "pass": true,
+          "detail": {
+            "src": "http://127.0.0.1:4208/assets/sj-product-banner-rtulle-satin.jpg",
+            "loaded": true,
+            "fit": "cover",
+            "filter": "none",
+            "opacity": "1",
+            "naturalWidth": 1774,
+            "naturalHeight": 887,
+            "box": {
+              "x": 0,
+              "y": 99,
+              "width": 390,
+              "height": 260,
+              "right": 390,
+              "bottom": 359
+            }
+          }
+        },
+        {
+          "name": "Campaign media spans viewport",
+          "pass": true,
+          "detail": {
+            "x": 0,
+            "y": 99,
+            "width": 390,
+            "height": 260,
+            "right": 390,
+            "bottom": 359
+          }
+        },
+        {
+          "name": "Campaign is unfiltered with intended framing",
+          "pass": true,
+          "detail": {
+            "src": "http://127.0.0.1:4208/assets/sj-product-banner-rtulle-satin.jpg",
+            "loaded": true,
+            "fit": "cover",
+            "filter": "none",
+            "opacity": "1",
+            "naturalWidth": 1774,
+            "naturalHeight": 887,
+            "box": {
+              "x": 0,
+              "y": 99,
+              "width": 390,
+              "height": 260,
+              "right": 390,
+              "bottom": 359
+            }
+          }
+        },
+        {
+          "name": "Dark overlay avoids product area",
+          "pass": true,
+          "detail": "53%"
+        },
+        {
+          "name": "No repeated detail name or statement",
+          "pass": true,
+          "detail": {
+            "intro": "Your next chapter",
+            "statement": false
+          }
+        },
+        {
+          "name": "Details region has accessible neutral heading",
+          "pass": true,
+          "detail": {
+            "role": "region",
+            "tabindex": "0",
+            "heading": "Your next chapter",
+            "tag": "H2"
+          }
+        },
+        {
+          "name": "Supplied fonts retained",
+          "pass": true
+        },
+        {
+          "name": "Single product H1 is in the campaign banner",
+          "pass": true,
+          "detail": {
+            "count": 1,
+            "text": "RTULLE & SATIN"
+          }
+        },
+        {
+          "name": "No page or banner-title overflow",
+          "pass": true
+        },
+        {
+          "name": "Banner precedes product details",
+          "pass": true
+        },
+        {
+          "name": "CTA reaches details with clear anchor",
+          "pass": true,
+          "detail": {
+            "hash": "#ProductDetails-10314853449793",
+            "target": "#ProductDetails-10314853449793",
+            "top": 98.9375,
+            "bottom": 2461.90625,
+            "headerHeight": 99,
+            "inView": true,
+            "clear": true
+          }
+        },
+        {
+          "name": "Gallery retains twelve slides",
+          "pass": true
+        },
+        {
+          "name": "Gallery next advances",
+          "pass": true
+        },
+        {
+          "name": "Zoom opens correct current product image",
+          "pass": true
+        },
+        {
+          "name": "Zoom closes with Escape",
+          "pass": true
+        },
+        {
+          "name": "No JavaScript errors",
+          "pass": true,
+          "detail": []
+        }
+      ],
+      "errors": [],
+      "banner": {
+        "box": {
+          "x": 0,
+          "y": 99,
+          "width": 390,
+          "height": 510.9375,
+          "right": 390,
+          "bottom": 609.9375
+        },
+        "title": "RTULLE & SATIN",
+        "titleTag": "H1",
+        "titleBox": {
+          "x": 22,
+          "y": 424.390625,
+          "width": 346,
+          "height": 40.546875,
+          "right": 368,
+          "bottom": 464.9375
+        },
+        "media": {
+          "x": 0,
+          "y": 99,
+          "width": 390,
+          "height": 260,
+          "right": 390,
+          "bottom": 359
+        },
+        "copy": {
+          "x": 22,
+          "y": 359,
+          "width": 346,
+          "height": 249.9375,
+          "right": 368,
+          "bottom": 608.9375
+        },
+        "intro": "Your next chapter",
+        "detailH1s": 0,
+        "detailStatement": false,
+        "region": {
+          "role": "region",
+          "tabindex": "0",
+          "heading": "Your next chapter",
+          "tag": "H2"
+        },
+        "bodyFamily": "\"Helvetica Now Display\", \"Helvetica Neue\", Arial, sans-serif",
+        "bodyWeight": "300",
+        "headingFamily": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif",
+        "overlayWidth": "53%",
+        "titleOverflow": false,
+        "image": {
+          "src": "http://127.0.0.1:4208/assets/sj-product-banner-rtulle-satin.jpg",
+          "loaded": true,
+          "fit": "cover",
+          "filter": "none",
+          "opacity": "1",
+          "naturalWidth": 1774,
+          "naturalHeight": 887,
+          "box": {
+            "x": 0,
+            "y": 99,
+            "width": 390,
+            "height": 260,
+            "right": 390,
+            "bottom": 359
+          }
+        },
+        "h1Count": 1,
+        "h1": "RTULLE & SATIN",
+        "horizontalOverflow": false,
+        "detailAfterBanner": true
+      },
+      "anchor": {
+        "hash": "#ProductDetails-10314853449793",
+        "target": "#ProductDetails-10314853449793",
+        "top": 98.9375,
+        "bottom": 2461.90625,
+        "headerHeight": 99,
+        "inView": true,
+        "clear": true
+      },
+      "status": "PASS"
+    },
+    {
+      "handle": "amber-oud-silk",
+      "title": "Amber Oud Silk",
+      "theme": "light",
+      "width": 1440,
+      "checks": [
+        {
+          "name": "Full viewport banner",
+          "pass": true,
+          "detail": {
+            "x": 0,
+            "y": 110.5,
+            "width": 1440,
+            "height": 721,
+            "right": 1440,
+            "bottom": 831.5
+          }
+        },
+        {
+          "name": "Correct banner product title",
+          "pass": true,
+          "detail": "AMBER OUD SILK"
+        },
+        {
+          "name": "Correct distinct product campaign",
+          "pass": true,
+          "detail": {
+            "src": "http://127.0.0.1:4208/assets/sj-product-banner-amber-oud-silk.jpg",
+            "loaded": true,
+            "fit": "cover",
+            "filter": "none",
+            "opacity": "1",
+            "naturalWidth": 1774,
+            "naturalHeight": 887,
+            "box": {
+              "x": 0,
+              "y": 110.5,
+              "width": 1440,
+              "height": 720,
+              "right": 1440,
+              "bottom": 830.5
+            }
+          }
+        },
+        {
+          "name": "Campaign media spans viewport",
+          "pass": true,
+          "detail": {
+            "x": 0,
+            "y": 110.5,
+            "width": 1440,
+            "height": 720,
+            "right": 1440,
+            "bottom": 830.5
+          }
+        },
+        {
+          "name": "Campaign is unfiltered with intended framing",
+          "pass": true,
+          "detail": {
+            "src": "http://127.0.0.1:4208/assets/sj-product-banner-amber-oud-silk.jpg",
+            "loaded": true,
+            "fit": "cover",
+            "filter": "none",
+            "opacity": "1",
+            "naturalWidth": 1774,
+            "naturalHeight": 887,
+            "box": {
+              "x": 0,
+              "y": 110.5,
+              "width": 1440,
+              "height": 720,
+              "right": 1440,
+              "bottom": 830.5
+            }
+          }
+        },
+        {
+          "name": "Dark overlay avoids product area",
+          "pass": true,
+          "detail": "763.188px"
+        },
+        {
+          "name": "No repeated detail name or statement",
+          "pass": true,
+          "detail": {
+            "intro": "Your next chapter",
+            "statement": false
+          }
+        },
+        {
+          "name": "Details region has accessible neutral heading",
+          "pass": true,
+          "detail": {
+            "role": "region",
+            "tabindex": "0",
+            "heading": "Your next chapter",
+            "tag": "H2"
+          }
+        },
+        {
+          "name": "Supplied fonts retained",
+          "pass": true
+        },
+        {
+          "name": "Single product H1 is in the campaign banner",
+          "pass": true,
+          "detail": {
+            "count": 1,
+            "text": "AMBER OUD SILK"
+          }
+        },
+        {
+          "name": "No page or banner-title overflow",
+          "pass": true
+        },
+        {
+          "name": "Banner precedes product details",
+          "pass": true
+        },
+        {
+          "name": "CTA reaches details with clear anchor",
+          "pass": true,
+          "detail": {
+            "hash": "#ProductDetails-10314853417025",
+            "target": "#ProductDetails-10314853417025",
+            "top": 110.5,
+            "bottom": 1000,
+            "headerHeight": 110.5,
+            "inView": true,
+            "clear": true
+          }
+        },
+        {
+          "name": "Gallery retains twelve slides",
+          "pass": true
+        },
+        {
+          "name": "Desktop information independently scrolls",
+          "pass": true,
+          "detail": {
+            "before": 0,
+            "height": 890,
+            "total": 2239,
+            "overflow": "auto",
+            "pageY": 721,
+            "mediaTop": 110.5,
+            "mouseX": 1123.1875,
+            "mouseY": 290.5,
+            "after": {
+              "info": 400,
+              "pageY": 721,
+              "mediaTop": 110.5
+            }
+          }
+        },
+        {
+          "name": "Gallery next advances",
+          "pass": true
+        },
+        {
+          "name": "Zoom opens correct current product image",
+          "pass": true
+        },
+        {
+          "name": "Zoom closes with Escape",
+          "pass": true
+        },
+        {
+          "name": "No JavaScript errors",
+          "pass": true,
+          "detail": []
+        }
+      ],
+      "errors": [],
+      "banner": {
+        "box": {
+          "x": 0,
+          "y": 110.5,
+          "width": 1440,
+          "height": 721,
+          "right": 1440,
+          "bottom": 831.5
+        },
+        "title": "AMBER OUD SILK",
+        "titleTag": "H1",
+        "titleBox": {
+          "x": 61.90625,
+          "y": 390.25,
+          "width": 579.109375,
+          "height": 74.875,
+          "right": 641.015625,
+          "bottom": 465.125
+        },
+        "media": {
+          "x": 0,
+          "y": 110.5,
+          "width": 1440,
+          "height": 720,
+          "right": 1440,
+          "bottom": 830.5
+        },
+        "copy": {
+          "x": 61.90625,
+          "y": 280.859375,
+          "width": 579.109375,
+          "height": 379.265625,
+          "right": 641.015625,
+          "bottom": 660.125
+        },
+        "intro": "Your next chapter",
+        "detailH1s": 0,
+        "detailStatement": false,
+        "region": {
+          "role": "region",
+          "tabindex": "0",
+          "heading": "Your next chapter",
+          "tag": "H2"
+        },
+        "bodyFamily": "\"Helvetica Now Display\", \"Helvetica Neue\", Arial, sans-serif",
+        "bodyWeight": "300",
+        "headingFamily": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif",
+        "overlayWidth": "763.188px",
+        "titleOverflow": false,
+        "image": {
+          "src": "http://127.0.0.1:4208/assets/sj-product-banner-amber-oud-silk.jpg",
+          "loaded": true,
+          "fit": "cover",
+          "filter": "none",
+          "opacity": "1",
+          "naturalWidth": 1774,
+          "naturalHeight": 887,
+          "box": {
+            "x": 0,
+            "y": 110.5,
+            "width": 1440,
+            "height": 720,
+            "right": 1440,
+            "bottom": 830.5
+          }
+        },
+        "h1Count": 1,
+        "h1": "AMBER OUD SILK",
+        "horizontalOverflow": false,
+        "detailAfterBanner": true
+      },
+      "anchor": {
+        "hash": "#ProductDetails-10314853417025",
+        "target": "#ProductDetails-10314853417025",
+        "top": 110.5,
+        "bottom": 1000,
+        "headerHeight": 110.5,
+        "inView": true,
+        "clear": true
+      },
+      "scroll": {
+        "before": 0,
+        "height": 890,
+        "total": 2239,
+        "overflow": "auto",
+        "pageY": 721,
+        "mediaTop": 110.5,
+        "mouseX": 1123.1875,
+        "mouseY": 290.5,
+        "after": {
+          "info": 400,
+          "pageY": 721,
+          "mediaTop": 110.5
+        }
+      },
+      "status": "PASS"
+    },
+    {
+      "handle": "amber-oud-silk",
+      "title": "Amber Oud Silk",
+      "theme": "light",
+      "width": 390,
+      "checks": [
+        {
+          "name": "Full viewport banner",
+          "pass": true,
+          "detail": {
+            "x": 0,
+            "y": 99,
+            "width": 390,
+            "height": 510.9375,
+            "right": 390,
+            "bottom": 609.9375
+          }
+        },
+        {
+          "name": "Correct banner product title",
+          "pass": true,
+          "detail": "AMBER OUD SILK"
+        },
+        {
+          "name": "Correct distinct product campaign",
+          "pass": true,
+          "detail": {
+            "src": "http://127.0.0.1:4208/assets/sj-product-banner-amber-oud-silk.jpg",
+            "loaded": true,
+            "fit": "cover",
+            "filter": "none",
+            "opacity": "1",
+            "naturalWidth": 1774,
+            "naturalHeight": 887,
+            "box": {
+              "x": 0,
+              "y": 99,
+              "width": 390,
+              "height": 260,
+              "right": 390,
+              "bottom": 359
+            }
+          }
+        },
+        {
+          "name": "Campaign media spans viewport",
+          "pass": true,
+          "detail": {
+            "x": 0,
+            "y": 99,
+            "width": 390,
+            "height": 260,
+            "right": 390,
+            "bottom": 359
+          }
+        },
+        {
+          "name": "Campaign is unfiltered with intended framing",
+          "pass": true,
+          "detail": {
+            "src": "http://127.0.0.1:4208/assets/sj-product-banner-amber-oud-silk.jpg",
+            "loaded": true,
+            "fit": "cover",
+            "filter": "none",
+            "opacity": "1",
+            "naturalWidth": 1774,
+            "naturalHeight": 887,
+            "box": {
+              "x": 0,
+              "y": 99,
+              "width": 390,
+              "height": 260,
+              "right": 390,
+              "bottom": 359
+            }
+          }
+        },
+        {
+          "name": "Dark overlay avoids product area",
+          "pass": true,
+          "detail": "53%"
+        },
+        {
+          "name": "No repeated detail name or statement",
+          "pass": true,
+          "detail": {
+            "intro": "Your next chapter",
+            "statement": false
+          }
+        },
+        {
+          "name": "Details region has accessible neutral heading",
+          "pass": true,
+          "detail": {
+            "role": "region",
+            "tabindex": "0",
+            "heading": "Your next chapter",
+            "tag": "H2"
+          }
+        },
+        {
+          "name": "Supplied fonts retained",
+          "pass": true
+        },
+        {
+          "name": "Single product H1 is in the campaign banner",
+          "pass": true,
+          "detail": {
+            "count": 1,
+            "text": "AMBER OUD SILK"
+          }
+        },
+        {
+          "name": "No page or banner-title overflow",
+          "pass": true
+        },
+        {
+          "name": "Banner precedes product details",
+          "pass": true
+        },
+        {
+          "name": "CTA reaches details with clear anchor",
+          "pass": true,
+          "detail": {
+            "hash": "#ProductDetails-10314853417025",
+            "target": "#ProductDetails-10314853417025",
+            "top": 98.9375,
+            "bottom": 2702.296875,
+            "headerHeight": 99,
+            "inView": true,
+            "clear": true
+          }
+        },
+        {
+          "name": "Gallery retains twelve slides",
+          "pass": true
+        },
+        {
+          "name": "Gallery next advances",
+          "pass": true
+        },
+        {
+          "name": "Zoom opens correct current product image",
+          "pass": true
+        },
+        {
+          "name": "Zoom closes with Escape",
+          "pass": true
+        },
+        {
+          "name": "No JavaScript errors",
+          "pass": true,
+          "detail": []
+        }
+      ],
+      "errors": [],
+      "banner": {
+        "box": {
+          "x": 0,
+          "y": 99,
+          "width": 390,
+          "height": 510.9375,
+          "right": 390,
+          "bottom": 609.9375
+        },
+        "title": "AMBER OUD SILK",
+        "titleTag": "H1",
+        "titleBox": {
+          "x": 22,
+          "y": 424.390625,
+          "width": 346,
+          "height": 40.546875,
+          "right": 368,
+          "bottom": 464.9375
+        },
+        "media": {
+          "x": 0,
+          "y": 99,
+          "width": 390,
+          "height": 260,
+          "right": 390,
+          "bottom": 359
+        },
+        "copy": {
+          "x": 22,
+          "y": 359,
+          "width": 346,
+          "height": 249.9375,
+          "right": 368,
+          "bottom": 608.9375
+        },
+        "intro": "Your next chapter",
+        "detailH1s": 0,
+        "detailStatement": false,
+        "region": {
+          "role": "region",
+          "tabindex": "0",
+          "heading": "Your next chapter",
+          "tag": "H2"
+        },
+        "bodyFamily": "\"Helvetica Now Display\", \"Helvetica Neue\", Arial, sans-serif",
+        "bodyWeight": "300",
+        "headingFamily": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif",
+        "overlayWidth": "53%",
+        "titleOverflow": false,
+        "image": {
+          "src": "http://127.0.0.1:4208/assets/sj-product-banner-amber-oud-silk.jpg",
+          "loaded": true,
+          "fit": "cover",
+          "filter": "none",
+          "opacity": "1",
+          "naturalWidth": 1774,
+          "naturalHeight": 887,
+          "box": {
+            "x": 0,
+            "y": 99,
+            "width": 390,
+            "height": 260,
+            "right": 390,
+            "bottom": 359
+          }
+        },
+        "h1Count": 1,
+        "h1": "AMBER OUD SILK",
+        "horizontalOverflow": false,
+        "detailAfterBanner": true
+      },
+      "anchor": {
+        "hash": "#ProductDetails-10314853417025",
+        "target": "#ProductDetails-10314853417025",
+        "top": 98.9375,
+        "bottom": 2702.296875,
+        "headerHeight": 99,
+        "inView": true,
+        "clear": true
+      },
+      "status": "PASS"
+    },
+    {
+      "handle": "amber-oud-silk",
+      "title": "Amber Oud Silk",
+      "theme": "dark",
+      "width": 1440,
+      "checks": [
+        {
+          "name": "Full viewport banner",
+          "pass": true,
+          "detail": {
+            "x": 0,
+            "y": 110.5,
+            "width": 1440,
+            "height": 721,
+            "right": 1440,
+            "bottom": 831.5
+          }
+        },
+        {
+          "name": "Correct banner product title",
+          "pass": true,
+          "detail": "AMBER OUD SILK"
+        },
+        {
+          "name": "Correct distinct product campaign",
+          "pass": true,
+          "detail": {
+            "src": "http://127.0.0.1:4208/assets/sj-product-banner-amber-oud-silk.jpg",
+            "loaded": true,
+            "fit": "cover",
+            "filter": "none",
+            "opacity": "1",
+            "naturalWidth": 1774,
+            "naturalHeight": 887,
+            "box": {
+              "x": 0,
+              "y": 110.5,
+              "width": 1440,
+              "height": 720,
+              "right": 1440,
+              "bottom": 830.5
+            }
+          }
+        },
+        {
+          "name": "Campaign media spans viewport",
+          "pass": true,
+          "detail": {
+            "x": 0,
+            "y": 110.5,
+            "width": 1440,
+            "height": 720,
+            "right": 1440,
+            "bottom": 830.5
+          }
+        },
+        {
+          "name": "Campaign is unfiltered with intended framing",
+          "pass": true,
+          "detail": {
+            "src": "http://127.0.0.1:4208/assets/sj-product-banner-amber-oud-silk.jpg",
+            "loaded": true,
+            "fit": "cover",
+            "filter": "none",
+            "opacity": "1",
+            "naturalWidth": 1774,
+            "naturalHeight": 887,
+            "box": {
+              "x": 0,
+              "y": 110.5,
+              "width": 1440,
+              "height": 720,
+              "right": 1440,
+              "bottom": 830.5
+            }
+          }
+        },
+        {
+          "name": "Dark overlay avoids product area",
+          "pass": true,
+          "detail": "763.188px"
+        },
+        {
+          "name": "No repeated detail name or statement",
+          "pass": true,
+          "detail": {
+            "intro": "Your next chapter",
+            "statement": false
+          }
+        },
+        {
+          "name": "Details region has accessible neutral heading",
+          "pass": true,
+          "detail": {
+            "role": "region",
+            "tabindex": "0",
+            "heading": "Your next chapter",
+            "tag": "H2"
+          }
+        },
+        {
+          "name": "Supplied fonts retained",
+          "pass": true
+        },
+        {
+          "name": "Single product H1 is in the campaign banner",
+          "pass": true,
+          "detail": {
+            "count": 1,
+            "text": "AMBER OUD SILK"
+          }
+        },
+        {
+          "name": "No page or banner-title overflow",
+          "pass": true
+        },
+        {
+          "name": "Banner precedes product details",
+          "pass": true
+        },
+        {
+          "name": "CTA reaches details with clear anchor",
+          "pass": true,
+          "detail": {
+            "hash": "#ProductDetails-10314853417025",
+            "target": "#ProductDetails-10314853417025",
+            "top": 110.5,
+            "bottom": 1000,
+            "headerHeight": 110.5,
+            "inView": true,
+            "clear": true
+          }
+        },
+        {
+          "name": "Gallery retains twelve slides",
+          "pass": true
+        },
+        {
+          "name": "Desktop information independently scrolls",
+          "pass": true,
+          "detail": {
+            "before": 0,
+            "height": 890,
+            "total": 2239,
+            "overflow": "auto",
+            "pageY": 721,
+            "mediaTop": 110.5,
+            "mouseX": 1123.1875,
+            "mouseY": 290.5,
+            "after": {
+              "info": 400,
+              "pageY": 721,
+              "mediaTop": 110.5
+            }
+          }
+        },
+        {
+          "name": "Gallery next advances",
+          "pass": true
+        },
+        {
+          "name": "Zoom opens correct current product image",
+          "pass": true
+        },
+        {
+          "name": "Zoom closes with Escape",
+          "pass": true
+        },
+        {
+          "name": "No JavaScript errors",
+          "pass": true,
+          "detail": []
+        }
+      ],
+      "errors": [],
+      "banner": {
+        "box": {
+          "x": 0,
+          "y": 110.5,
+          "width": 1440,
+          "height": 721,
+          "right": 1440,
+          "bottom": 831.5
+        },
+        "title": "AMBER OUD SILK",
+        "titleTag": "H1",
+        "titleBox": {
+          "x": 61.90625,
+          "y": 390.25,
+          "width": 579.109375,
+          "height": 74.875,
+          "right": 641.015625,
+          "bottom": 465.125
+        },
+        "media": {
+          "x": 0,
+          "y": 110.5,
+          "width": 1440,
+          "height": 720,
+          "right": 1440,
+          "bottom": 830.5
+        },
+        "copy": {
+          "x": 61.90625,
+          "y": 280.859375,
+          "width": 579.109375,
+          "height": 379.265625,
+          "right": 641.015625,
+          "bottom": 660.125
+        },
+        "intro": "Your next chapter",
+        "detailH1s": 0,
+        "detailStatement": false,
+        "region": {
+          "role": "region",
+          "tabindex": "0",
+          "heading": "Your next chapter",
+          "tag": "H2"
+        },
+        "bodyFamily": "\"Helvetica Now Display\", \"Helvetica Neue\", Arial, sans-serif",
+        "bodyWeight": "300",
+        "headingFamily": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif",
+        "overlayWidth": "763.188px",
+        "titleOverflow": false,
+        "image": {
+          "src": "http://127.0.0.1:4208/assets/sj-product-banner-amber-oud-silk.jpg",
+          "loaded": true,
+          "fit": "cover",
+          "filter": "none",
+          "opacity": "1",
+          "naturalWidth": 1774,
+          "naturalHeight": 887,
+          "box": {
+            "x": 0,
+            "y": 110.5,
+            "width": 1440,
+            "height": 720,
+            "right": 1440,
+            "bottom": 830.5
+          }
+        },
+        "h1Count": 1,
+        "h1": "AMBER OUD SILK",
+        "horizontalOverflow": false,
+        "detailAfterBanner": true
+      },
+      "anchor": {
+        "hash": "#ProductDetails-10314853417025",
+        "target": "#ProductDetails-10314853417025",
+        "top": 110.5,
+        "bottom": 1000,
+        "headerHeight": 110.5,
+        "inView": true,
+        "clear": true
+      },
+      "scroll": {
+        "before": 0,
+        "height": 890,
+        "total": 2239,
+        "overflow": "auto",
+        "pageY": 721,
+        "mediaTop": 110.5,
+        "mouseX": 1123.1875,
+        "mouseY": 290.5,
+        "after": {
+          "info": 400,
+          "pageY": 721,
+          "mediaTop": 110.5
+        }
+      },
+      "status": "PASS"
+    },
+    {
+      "handle": "amber-oud-silk",
+      "title": "Amber Oud Silk",
+      "theme": "dark",
+      "width": 390,
+      "checks": [
+        {
+          "name": "Full viewport banner",
+          "pass": true,
+          "detail": {
+            "x": 0,
+            "y": 99,
+            "width": 390,
+            "height": 510.9375,
+            "right": 390,
+            "bottom": 609.9375
+          }
+        },
+        {
+          "name": "Correct banner product title",
+          "pass": true,
+          "detail": "AMBER OUD SILK"
+        },
+        {
+          "name": "Correct distinct product campaign",
+          "pass": true,
+          "detail": {
+            "src": "http://127.0.0.1:4208/assets/sj-product-banner-amber-oud-silk.jpg",
+            "loaded": true,
+            "fit": "cover",
+            "filter": "none",
+            "opacity": "1",
+            "naturalWidth": 1774,
+            "naturalHeight": 887,
+            "box": {
+              "x": 0,
+              "y": 99,
+              "width": 390,
+              "height": 260,
+              "right": 390,
+              "bottom": 359
+            }
+          }
+        },
+        {
+          "name": "Campaign media spans viewport",
+          "pass": true,
+          "detail": {
+            "x": 0,
+            "y": 99,
+            "width": 390,
+            "height": 260,
+            "right": 390,
+            "bottom": 359
+          }
+        },
+        {
+          "name": "Campaign is unfiltered with intended framing",
+          "pass": true,
+          "detail": {
+            "src": "http://127.0.0.1:4208/assets/sj-product-banner-amber-oud-silk.jpg",
+            "loaded": true,
+            "fit": "cover",
+            "filter": "none",
+            "opacity": "1",
+            "naturalWidth": 1774,
+            "naturalHeight": 887,
+            "box": {
+              "x": 0,
+              "y": 99,
+              "width": 390,
+              "height": 260,
+              "right": 390,
+              "bottom": 359
+            }
+          }
+        },
+        {
+          "name": "Dark overlay avoids product area",
+          "pass": true,
+          "detail": "53%"
+        },
+        {
+          "name": "No repeated detail name or statement",
+          "pass": true,
+          "detail": {
+            "intro": "Your next chapter",
+            "statement": false
+          }
+        },
+        {
+          "name": "Details region has accessible neutral heading",
+          "pass": true,
+          "detail": {
+            "role": "region",
+            "tabindex": "0",
+            "heading": "Your next chapter",
+            "tag": "H2"
+          }
+        },
+        {
+          "name": "Supplied fonts retained",
+          "pass": true
+        },
+        {
+          "name": "Single product H1 is in the campaign banner",
+          "pass": true,
+          "detail": {
+            "count": 1,
+            "text": "AMBER OUD SILK"
+          }
+        },
+        {
+          "name": "No page or banner-title overflow",
+          "pass": true
+        },
+        {
+          "name": "Banner precedes product details",
+          "pass": true
+        },
+        {
+          "name": "CTA reaches details with clear anchor",
+          "pass": true,
+          "detail": {
+            "hash": "#ProductDetails-10314853417025",
+            "target": "#ProductDetails-10314853417025",
+            "top": 98.9375,
+            "bottom": 2702.296875,
+            "headerHeight": 99,
+            "inView": true,
+            "clear": true
+          }
+        },
+        {
+          "name": "Gallery retains twelve slides",
+          "pass": true
+        },
+        {
+          "name": "Gallery next advances",
+          "pass": true
+        },
+        {
+          "name": "Zoom opens correct current product image",
+          "pass": true
+        },
+        {
+          "name": "Zoom closes with Escape",
+          "pass": true
+        },
+        {
+          "name": "No JavaScript errors",
+          "pass": true,
+          "detail": []
+        }
+      ],
+      "errors": [],
+      "banner": {
+        "box": {
+          "x": 0,
+          "y": 99,
+          "width": 390,
+          "height": 510.9375,
+          "right": 390,
+          "bottom": 609.9375
+        },
+        "title": "AMBER OUD SILK",
+        "titleTag": "H1",
+        "titleBox": {
+          "x": 22,
+          "y": 424.390625,
+          "width": 346,
+          "height": 40.546875,
+          "right": 368,
+          "bottom": 464.9375
+        },
+        "media": {
+          "x": 0,
+          "y": 99,
+          "width": 390,
+          "height": 260,
+          "right": 390,
+          "bottom": 359
+        },
+        "copy": {
+          "x": 22,
+          "y": 359,
+          "width": 346,
+          "height": 249.9375,
+          "right": 368,
+          "bottom": 608.9375
+        },
+        "intro": "Your next chapter",
+        "detailH1s": 0,
+        "detailStatement": false,
+        "region": {
+          "role": "region",
+          "tabindex": "0",
+          "heading": "Your next chapter",
+          "tag": "H2"
+        },
+        "bodyFamily": "\"Helvetica Now Display\", \"Helvetica Neue\", Arial, sans-serif",
+        "bodyWeight": "300",
+        "headingFamily": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif",
+        "overlayWidth": "53%",
+        "titleOverflow": false,
+        "image": {
+          "src": "http://127.0.0.1:4208/assets/sj-product-banner-amber-oud-silk.jpg",
+          "loaded": true,
+          "fit": "cover",
+          "filter": "none",
+          "opacity": "1",
+          "naturalWidth": 1774,
+          "naturalHeight": 887,
+          "box": {
+            "x": 0,
+            "y": 99,
+            "width": 390,
+            "height": 260,
+            "right": 390,
+            "bottom": 359
+          }
+        },
+        "h1Count": 1,
+        "h1": "AMBER OUD SILK",
+        "horizontalOverflow": false,
+        "detailAfterBanner": true
+      },
+      "anchor": {
+        "hash": "#ProductDetails-10314853417025",
+        "target": "#ProductDetails-10314853417025",
+        "top": 98.9375,
+        "bottom": 2702.296875,
+        "headerHeight": 99,
+        "inView": true,
+        "clear": true
+      },
+      "status": "PASS"
+    },
+    {
+      "handle": "charme-envoutant",
+      "title": "Charme Envo\u00fbtant",
+      "theme": "light",
+      "width": 1440,
+      "checks": [
+        {
+          "name": "Full viewport banner",
+          "pass": true,
+          "detail": {
+            "x": 0,
+            "y": 110.5,
+            "width": 1440,
+            "height": 721,
+            "right": 1440,
+            "bottom": 831.5
+          }
+        },
+        {
+          "name": "Correct banner product title",
+          "pass": true,
+          "detail": "CHARME ENVO\u00dbTANT"
+        },
+        {
+          "name": "Correct distinct product campaign",
+          "pass": true,
+          "detail": {
+            "src": "http://127.0.0.1:4208/assets/sj-product-banner-charme-envoutant.jpg",
+            "loaded": true,
+            "fit": "cover",
+            "filter": "none",
+            "opacity": "1",
+            "naturalWidth": 1774,
+            "naturalHeight": 887,
+            "box": {
+              "x": 0,
+              "y": 110.5,
+              "width": 1440,
+              "height": 720,
+              "right": 1440,
+              "bottom": 830.5
+            }
+          }
+        },
+        {
+          "name": "Campaign media spans viewport",
+          "pass": true,
+          "detail": {
+            "x": 0,
+            "y": 110.5,
+            "width": 1440,
+            "height": 720,
+            "right": 1440,
+            "bottom": 830.5
+          }
+        },
+        {
+          "name": "Campaign is unfiltered with intended framing",
+          "pass": true,
+          "detail": {
+            "src": "http://127.0.0.1:4208/assets/sj-product-banner-charme-envoutant.jpg",
+            "loaded": true,
+            "fit": "cover",
+            "filter": "none",
+            "opacity": "1",
+            "naturalWidth": 1774,
+            "naturalHeight": 887,
+            "box": {
+              "x": 0,
+              "y": 110.5,
+              "width": 1440,
+              "height": 720,
+              "right": 1440,
+              "bottom": 830.5
+            }
+          }
+        },
+        {
+          "name": "Dark overlay avoids product area",
+          "pass": true,
+          "detail": "763.188px"
+        },
+        {
+          "name": "No repeated detail name or statement",
+          "pass": true,
+          "detail": {
+            "intro": "Your next chapter",
+            "statement": false
+          }
+        },
+        {
+          "name": "Details region has accessible neutral heading",
+          "pass": true,
+          "detail": {
+            "role": "region",
+            "tabindex": "0",
+            "heading": "Your next chapter",
+            "tag": "H2"
+          }
+        },
+        {
+          "name": "Supplied fonts retained",
+          "pass": true
+        },
+        {
+          "name": "Single product H1 is in the campaign banner",
+          "pass": true,
+          "detail": {
+            "count": 1,
+            "text": "CHARME ENVO\u00dbTANT"
+          }
+        },
+        {
+          "name": "No page or banner-title overflow",
+          "pass": true
+        },
+        {
+          "name": "Banner precedes product details",
+          "pass": true
+        },
+        {
+          "name": "CTA reaches details with clear anchor",
+          "pass": true,
+          "detail": {
+            "hash": "#ProductDetails-10314005020737",
+            "target": "#ProductDetails-10314005020737",
+            "top": 110.5,
+            "bottom": 1000,
+            "headerHeight": 110.5,
+            "inView": true,
+            "clear": true
+          }
+        },
+        {
+          "name": "Gallery retains twelve slides",
+          "pass": true
+        },
+        {
+          "name": "Desktop information independently scrolls",
+          "pass": true,
+          "detail": {
+            "before": 0,
+            "height": 890,
+            "total": 2264,
+            "overflow": "auto",
+            "pageY": 721,
+            "mediaTop": 110.5,
+            "mouseX": 1123.1875,
+            "mouseY": 290.5,
+            "after": {
+              "info": 400,
+              "pageY": 721,
+              "mediaTop": 110.5
+            }
+          }
+        },
+        {
+          "name": "Gallery next advances",
+          "pass": true
+        },
+        {
+          "name": "Zoom opens correct current product image",
+          "pass": true
+        },
+        {
+          "name": "Zoom closes with Escape",
+          "pass": true
+        },
+        {
+          "name": "No JavaScript errors",
+          "pass": true,
+          "detail": []
+        }
+      ],
+      "errors": [],
+      "banner": {
+        "box": {
+          "x": 0,
+          "y": 110.5,
+          "width": 1440,
+          "height": 721,
+          "right": 1440,
+          "bottom": 831.5
+        },
+        "title": "CHARME ENVO\u00dbTANT",
+        "titleTag": "H1",
+        "titleBox": {
+          "x": 61.90625,
+          "y": 352.8125,
+          "width": 579.109375,
+          "height": 149.75,
+          "right": 641.015625,
+          "bottom": 502.5625
+        },
+        "media": {
+          "x": 0,
+          "y": 110.5,
+          "width": 1440,
+          "height": 720,
+          "right": 1440,
+          "bottom": 830.5
+        },
+        "copy": {
+          "x": 61.90625,
+          "y": 243.421875,
+          "width": 579.109375,
+          "height": 454.140625,
+          "right": 641.015625,
+          "bottom": 697.5625
+        },
+        "intro": "Your next chapter",
+        "detailH1s": 0,
+        "detailStatement": false,
+        "region": {
+          "role": "region",
+          "tabindex": "0",
+          "heading": "Your next chapter",
+          "tag": "H2"
+        },
+        "bodyFamily": "\"Helvetica Now Display\", \"Helvetica Neue\", Arial, sans-serif",
+        "bodyWeight": "300",
+        "headingFamily": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif",
+        "overlayWidth": "763.188px",
+        "titleOverflow": false,
+        "image": {
+          "src": "http://127.0.0.1:4208/assets/sj-product-banner-charme-envoutant.jpg",
+          "loaded": true,
+          "fit": "cover",
+          "filter": "none",
+          "opacity": "1",
+          "naturalWidth": 1774,
+          "naturalHeight": 887,
+          "box": {
+            "x": 0,
+            "y": 110.5,
+            "width": 1440,
+            "height": 720,
+            "right": 1440,
+            "bottom": 830.5
+          }
+        },
+        "h1Count": 1,
+        "h1": "CHARME ENVO\u00dbTANT",
+        "horizontalOverflow": false,
+        "detailAfterBanner": true
+      },
+      "anchor": {
+        "hash": "#ProductDetails-10314005020737",
+        "target": "#ProductDetails-10314005020737",
+        "top": 110.5,
+        "bottom": 1000,
+        "headerHeight": 110.5,
+        "inView": true,
+        "clear": true
+      },
+      "scroll": {
+        "before": 0,
+        "height": 890,
+        "total": 2264,
+        "overflow": "auto",
+        "pageY": 721,
+        "mediaTop": 110.5,
+        "mouseX": 1123.1875,
+        "mouseY": 290.5,
+        "after": {
+          "info": 400,
+          "pageY": 721,
+          "mediaTop": 110.5
+        }
+      },
+      "status": "PASS"
+    },
+    {
+      "handle": "charme-envoutant",
+      "title": "Charme Envo\u00fbtant",
+      "theme": "light",
+      "width": 390,
+      "checks": [
+        {
+          "name": "Full viewport banner",
+          "pass": true,
+          "detail": {
+            "x": 0,
+            "y": 99,
+            "width": 390,
+            "height": 551.484375,
+            "right": 390,
+            "bottom": 650.484375
+          }
+        },
+        {
+          "name": "Correct banner product title",
+          "pass": true,
+          "detail": "CHARME ENVO\u00dbTANT"
+        },
+        {
+          "name": "Correct distinct product campaign",
+          "pass": true,
+          "detail": {
+            "src": "http://127.0.0.1:4208/assets/sj-product-banner-charme-envoutant.jpg",
+            "loaded": true,
+            "fit": "cover",
+            "filter": "none",
+            "opacity": "1",
+            "naturalWidth": 1774,
+            "naturalHeight": 887,
+            "box": {
+              "x": 0,
+              "y": 99,
+              "width": 390,
+              "height": 260,
+              "right": 390,
+              "bottom": 359
+            }
+          }
+        },
+        {
+          "name": "Campaign media spans viewport",
+          "pass": true,
+          "detail": {
+            "x": 0,
+            "y": 99,
+            "width": 390,
+            "height": 260,
+            "right": 390,
+            "bottom": 359
+          }
+        },
+        {
+          "name": "Campaign is unfiltered with intended framing",
+          "pass": true,
+          "detail": {
+            "src": "http://127.0.0.1:4208/assets/sj-product-banner-charme-envoutant.jpg",
+            "loaded": true,
+            "fit": "cover",
+            "filter": "none",
+            "opacity": "1",
+            "naturalWidth": 1774,
+            "naturalHeight": 887,
+            "box": {
+              "x": 0,
+              "y": 99,
+              "width": 390,
+              "height": 260,
+              "right": 390,
+              "bottom": 359
+            }
+          }
+        },
+        {
+          "name": "Dark overlay avoids product area",
+          "pass": true,
+          "detail": "53%"
+        },
+        {
+          "name": "No repeated detail name or statement",
+          "pass": true,
+          "detail": {
+            "intro": "Your next chapter",
+            "statement": false
+          }
+        },
+        {
+          "name": "Details region has accessible neutral heading",
+          "pass": true,
+          "detail": {
+            "role": "region",
+            "tabindex": "0",
+            "heading": "Your next chapter",
+            "tag": "H2"
+          }
+        },
+        {
+          "name": "Supplied fonts retained",
+          "pass": true
+        },
+        {
+          "name": "Single product H1 is in the campaign banner",
+          "pass": true,
+          "detail": {
+            "count": 1,
+            "text": "CHARME ENVO\u00dbTANT"
+          }
+        },
+        {
+          "name": "No page or banner-title overflow",
+          "pass": true
+        },
+        {
+          "name": "Banner precedes product details",
+          "pass": true
+        },
+        {
+          "name": "CTA reaches details with clear anchor",
+          "pass": true,
+          "detail": {
+            "hash": "#ProductDetails-10314005020737",
+            "target": "#ProductDetails-10314005020737",
+            "top": 99.484375,
+            "bottom": 2765.890625,
+            "headerHeight": 99,
+            "inView": true,
+            "clear": true
+          }
+        },
+        {
+          "name": "Gallery retains twelve slides",
+          "pass": true
+        },
+        {
+          "name": "Gallery next advances",
+          "pass": true
+        },
+        {
+          "name": "Zoom opens correct current product image",
+          "pass": true
+        },
+        {
+          "name": "Zoom closes with Escape",
+          "pass": true
+        },
+        {
+          "name": "No JavaScript errors",
+          "pass": true,
+          "detail": []
+        }
+      ],
+      "errors": [],
+      "banner": {
+        "box": {
+          "x": 0,
+          "y": 99,
+          "width": 390,
+          "height": 551.484375,
+          "right": 390,
+          "bottom": 650.484375
+        },
+        "title": "CHARME ENVO\u00dbTANT",
+        "titleTag": "H1",
+        "titleBox": {
+          "x": 22,
+          "y": 424.390625,
+          "width": 346,
+          "height": 81.09375,
+          "right": 368,
+          "bottom": 505.484375
+        },
+        "media": {
+          "x": 0,
+          "y": 99,
+          "width": 390,
+          "height": 260,
+          "right": 390,
+          "bottom": 359
+        },
+        "copy": {
+          "x": 22,
+          "y": 359,
+          "width": 346,
+          "height": 290.484375,
+          "right": 368,
+          "bottom": 649.484375
+        },
+        "intro": "Your next chapter",
+        "detailH1s": 0,
+        "detailStatement": false,
+        "region": {
+          "role": "region",
+          "tabindex": "0",
+          "heading": "Your next chapter",
+          "tag": "H2"
+        },
+        "bodyFamily": "\"Helvetica Now Display\", \"Helvetica Neue\", Arial, sans-serif",
+        "bodyWeight": "300",
+        "headingFamily": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif",
+        "overlayWidth": "53%",
+        "titleOverflow": false,
+        "image": {
+          "src": "http://127.0.0.1:4208/assets/sj-product-banner-charme-envoutant.jpg",
+          "loaded": true,
+          "fit": "cover",
+          "filter": "none",
+          "opacity": "1",
+          "naturalWidth": 1774,
+          "naturalHeight": 887,
+          "box": {
+            "x": 0,
+            "y": 99,
+            "width": 390,
+            "height": 260,
+            "right": 390,
+            "bottom": 359
+          }
+        },
+        "h1Count": 1,
+        "h1": "CHARME ENVO\u00dbTANT",
+        "horizontalOverflow": false,
+        "detailAfterBanner": true
+      },
+      "anchor": {
+        "hash": "#ProductDetails-10314005020737",
+        "target": "#ProductDetails-10314005020737",
+        "top": 99.484375,
+        "bottom": 2765.890625,
+        "headerHeight": 99,
+        "inView": true,
+        "clear": true
+      },
+      "status": "PASS"
+    },
+    {
+      "handle": "charme-envoutant",
+      "title": "Charme Envo\u00fbtant",
+      "theme": "dark",
+      "width": 1440,
+      "checks": [
+        {
+          "name": "Full viewport banner",
+          "pass": true,
+          "detail": {
+            "x": 0,
+            "y": 110.5,
+            "width": 1440,
+            "height": 721,
+            "right": 1440,
+            "bottom": 831.5
+          }
+        },
+        {
+          "name": "Correct banner product title",
+          "pass": true,
+          "detail": "CHARME ENVO\u00dbTANT"
+        },
+        {
+          "name": "Correct distinct product campaign",
+          "pass": true,
+          "detail": {
+            "src": "http://127.0.0.1:4208/assets/sj-product-banner-charme-envoutant.jpg",
+            "loaded": true,
+            "fit": "cover",
+            "filter": "none",
+            "opacity": "1",
+            "naturalWidth": 1774,
+            "naturalHeight": 887,
+            "box": {
+              "x": 0,
+              "y": 110.5,
+              "width": 1440,
+              "height": 720,
+              "right": 1440,
+              "bottom": 830.5
+            }
+          }
+        },
+        {
+          "name": "Campaign media spans viewport",
+          "pass": true,
+          "detail": {
+            "x": 0,
+            "y": 110.5,
+            "width": 1440,
+            "height": 720,
+            "right": 1440,
+            "bottom": 830.5
+          }
+        },
+        {
+          "name": "Campaign is unfiltered with intended framing",
+          "pass": true,
+          "detail": {
+            "src": "http://127.0.0.1:4208/assets/sj-product-banner-charme-envoutant.jpg",
+            "loaded": true,
+            "fit": "cover",
+            "filter": "none",
+            "opacity": "1",
+            "naturalWidth": 1774,
+            "naturalHeight": 887,
+            "box": {
+              "x": 0,
+              "y": 110.5,
+              "width": 1440,
+              "height": 720,
+              "right": 1440,
+              "bottom": 830.5
+            }
+          }
+        },
+        {
+          "name": "Dark overlay avoids product area",
+          "pass": true,
+          "detail": "763.188px"
+        },
+        {
+          "name": "No repeated detail name or statement",
+          "pass": true,
+          "detail": {
+            "intro": "Your next chapter",
+            "statement": false
+          }
+        },
+        {
+          "name": "Details region has accessible neutral heading",
+          "pass": true,
+          "detail": {
+            "role": "region",
+            "tabindex": "0",
+            "heading": "Your next chapter",
+            "tag": "H2"
+          }
+        },
+        {
+          "name": "Supplied fonts retained",
+          "pass": true
+        },
+        {
+          "name": "Single product H1 is in the campaign banner",
+          "pass": true,
+          "detail": {
+            "count": 1,
+            "text": "CHARME ENVO\u00dbTANT"
+          }
+        },
+        {
+          "name": "No page or banner-title overflow",
+          "pass": true
+        },
+        {
+          "name": "Banner precedes product details",
+          "pass": true
+        },
+        {
+          "name": "CTA reaches details with clear anchor",
+          "pass": true,
+          "detail": {
+            "hash": "#ProductDetails-10314005020737",
+            "target": "#ProductDetails-10314005020737",
+            "top": 110.5,
+            "bottom": 1000,
+            "headerHeight": 110.5,
+            "inView": true,
+            "clear": true
+          }
+        },
+        {
+          "name": "Gallery retains twelve slides",
+          "pass": true
+        },
+        {
+          "name": "Desktop information independently scrolls",
+          "pass": true,
+          "detail": {
+            "before": 0,
+            "height": 890,
+            "total": 2264,
+            "overflow": "auto",
+            "pageY": 721,
+            "mediaTop": 110.5,
+            "mouseX": 1123.1875,
+            "mouseY": 290.5,
+            "after": {
+              "info": 400,
+              "pageY": 721,
+              "mediaTop": 110.5
+            }
+          }
+        },
+        {
+          "name": "Gallery next advances",
+          "pass": true
+        },
+        {
+          "name": "Zoom opens correct current product image",
+          "pass": true
+        },
+        {
+          "name": "Zoom closes with Escape",
+          "pass": true
+        },
+        {
+          "name": "No JavaScript errors",
+          "pass": true,
+          "detail": []
+        }
+      ],
+      "errors": [],
+      "banner": {
+        "box": {
+          "x": 0,
+          "y": 110.5,
+          "width": 1440,
+          "height": 721,
+          "right": 1440,
+          "bottom": 831.5
+        },
+        "title": "CHARME ENVO\u00dbTANT",
+        "titleTag": "H1",
+        "titleBox": {
+          "x": 61.90625,
+          "y": 352.8125,
+          "width": 579.109375,
+          "height": 149.75,
+          "right": 641.015625,
+          "bottom": 502.5625
+        },
+        "media": {
+          "x": 0,
+          "y": 110.5,
+          "width": 1440,
+          "height": 720,
+          "right": 1440,
+          "bottom": 830.5
+        },
+        "copy": {
+          "x": 61.90625,
+          "y": 243.421875,
+          "width": 579.109375,
+          "height": 454.140625,
+          "right": 641.015625,
+          "bottom": 697.5625
+        },
+        "intro": "Your next chapter",
+        "detailH1s": 0,
+        "detailStatement": false,
+        "region": {
+          "role": "region",
+          "tabindex": "0",
+          "heading": "Your next chapter",
+          "tag": "H2"
+        },
+        "bodyFamily": "\"Helvetica Now Display\", \"Helvetica Neue\", Arial, sans-serif",
+        "bodyWeight": "300",
+        "headingFamily": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif",
+        "overlayWidth": "763.188px",
+        "titleOverflow": false,
+        "image": {
+          "src": "http://127.0.0.1:4208/assets/sj-product-banner-charme-envoutant.jpg",
+          "loaded": true,
+          "fit": "cover",
+          "filter": "none",
+          "opacity": "1",
+          "naturalWidth": 1774,
+          "naturalHeight": 887,
+          "box": {
+            "x": 0,
+            "y": 110.5,
+            "width": 1440,
+            "height": 720,
+            "right": 1440,
+            "bottom": 830.5
+          }
+        },
+        "h1Count": 1,
+        "h1": "CHARME ENVO\u00dbTANT",
+        "horizontalOverflow": false,
+        "detailAfterBanner": true
+      },
+      "anchor": {
+        "hash": "#ProductDetails-10314005020737",
+        "target": "#ProductDetails-10314005020737",
+        "top": 110.5,
+        "bottom": 1000,
+        "headerHeight": 110.5,
+        "inView": true,
+        "clear": true
+      },
+      "scroll": {
+        "before": 0,
+        "height": 890,
+        "total": 2264,
+        "overflow": "auto",
+        "pageY": 721,
+        "mediaTop": 110.5,
+        "mouseX": 1123.1875,
+        "mouseY": 290.5,
+        "after": {
+          "info": 400,
+          "pageY": 721,
+          "mediaTop": 110.5
+        }
+      },
+      "status": "PASS"
+    },
+    {
+      "handle": "charme-envoutant",
+      "title": "Charme Envo\u00fbtant",
+      "theme": "dark",
+      "width": 390,
+      "checks": [
+        {
+          "name": "Full viewport banner",
+          "pass": true,
+          "detail": {
+            "x": 0,
+            "y": 99,
+            "width": 390,
+            "height": 551.484375,
+            "right": 390,
+            "bottom": 650.484375
+          }
+        },
+        {
+          "name": "Correct banner product title",
+          "pass": true,
+          "detail": "CHARME ENVO\u00dbTANT"
+        },
+        {
+          "name": "Correct distinct product campaign",
+          "pass": true,
+          "detail": {
+            "src": "http://127.0.0.1:4208/assets/sj-product-banner-charme-envoutant.jpg",
+            "loaded": true,
+            "fit": "cover",
+            "filter": "none",
+            "opacity": "1",
+            "naturalWidth": 1774,
+            "naturalHeight": 887,
+            "box": {
+              "x": 0,
+              "y": 99,
+              "width": 390,
+              "height": 260,
+              "right": 390,
+              "bottom": 359
+            }
+          }
+        },
+        {
+          "name": "Campaign media spans viewport",
+          "pass": true,
+          "detail": {
+            "x": 0,
+            "y": 99,
+            "width": 390,
+            "height": 260,
+            "right": 390,
+            "bottom": 359
+          }
+        },
+        {
+          "name": "Campaign is unfiltered with intended framing",
+          "pass": true,
+          "detail": {
+            "src": "http://127.0.0.1:4208/assets/sj-product-banner-charme-envoutant.jpg",
+            "loaded": true,
+            "fit": "cover",
+            "filter": "none",
+            "opacity": "1",
+            "naturalWidth": 1774,
+            "naturalHeight": 887,
+            "box": {
+              "x": 0,
+              "y": 99,
+              "width": 390,
+              "height": 260,
+              "right": 390,
+              "bottom": 359
+            }
+          }
+        },
+        {
+          "name": "Dark overlay avoids product area",
+          "pass": true,
+          "detail": "53%"
+        },
+        {
+          "name": "No repeated detail name or statement",
+          "pass": true,
+          "detail": {
+            "intro": "Your next chapter",
+            "statement": false
+          }
+        },
+        {
+          "name": "Details region has accessible neutral heading",
+          "pass": true,
+          "detail": {
+            "role": "region",
+            "tabindex": "0",
+            "heading": "Your next chapter",
+            "tag": "H2"
+          }
+        },
+        {
+          "name": "Supplied fonts retained",
+          "pass": true
+        },
+        {
+          "name": "Single product H1 is in the campaign banner",
+          "pass": true,
+          "detail": {
+            "count": 1,
+            "text": "CHARME ENVO\u00dbTANT"
+          }
+        },
+        {
+          "name": "No page or banner-title overflow",
+          "pass": true
+        },
+        {
+          "name": "Banner precedes product details",
+          "pass": true
+        },
+        {
+          "name": "CTA reaches details with clear anchor",
+          "pass": true,
+          "detail": {
+            "hash": "#ProductDetails-10314005020737",
+            "target": "#ProductDetails-10314005020737",
+            "top": 99.484375,
+            "bottom": 2765.890625,
+            "headerHeight": 99,
+            "inView": true,
+            "clear": true
+          }
+        },
+        {
+          "name": "Gallery retains twelve slides",
+          "pass": true
+        },
+        {
+          "name": "Gallery next advances",
+          "pass": true
+        },
+        {
+          "name": "Zoom opens correct current product image",
+          "pass": true
+        },
+        {
+          "name": "Zoom closes with Escape",
+          "pass": true
+        },
+        {
+          "name": "No JavaScript errors",
+          "pass": true,
+          "detail": []
+        }
+      ],
+      "errors": [],
+      "banner": {
+        "box": {
+          "x": 0,
+          "y": 99,
+          "width": 390,
+          "height": 551.484375,
+          "right": 390,
+          "bottom": 650.484375
+        },
+        "title": "CHARME ENVO\u00dbTANT",
+        "titleTag": "H1",
+        "titleBox": {
+          "x": 22,
+          "y": 424.390625,
+          "width": 346,
+          "height": 81.09375,
+          "right": 368,
+          "bottom": 505.484375
+        },
+        "media": {
+          "x": 0,
+          "y": 99,
+          "width": 390,
+          "height": 260,
+          "right": 390,
+          "bottom": 359
+        },
+        "copy": {
+          "x": 22,
+          "y": 359,
+          "width": 346,
+          "height": 290.484375,
+          "right": 368,
+          "bottom": 649.484375
+        },
+        "intro": "Your next chapter",
+        "detailH1s": 0,
+        "detailStatement": false,
+        "region": {
+          "role": "region",
+          "tabindex": "0",
+          "heading": "Your next chapter",
+          "tag": "H2"
+        },
+        "bodyFamily": "\"Helvetica Now Display\", \"Helvetica Neue\", Arial, sans-serif",
+        "bodyWeight": "300",
+        "headingFamily": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif",
+        "overlayWidth": "53%",
+        "titleOverflow": false,
+        "image": {
+          "src": "http://127.0.0.1:4208/assets/sj-product-banner-charme-envoutant.jpg",
+          "loaded": true,
+          "fit": "cover",
+          "filter": "none",
+          "opacity": "1",
+          "naturalWidth": 1774,
+          "naturalHeight": 887,
+          "box": {
+            "x": 0,
+            "y": 99,
+            "width": 390,
+            "height": 260,
+            "right": 390,
+            "bottom": 359
+          }
+        },
+        "h1Count": 1,
+        "h1": "CHARME ENVO\u00dbTANT",
+        "horizontalOverflow": false,
+        "detailAfterBanner": true
+      },
+      "anchor": {
+        "hash": "#ProductDetails-10314005020737",
+        "target": "#ProductDetails-10314005020737",
+        "top": 99.484375,
+        "bottom": 2765.890625,
+        "headerHeight": 99,
+        "inView": true,
+        "clear": true
+      },
+      "status": "PASS"
+    },
+    {
+      "handle": "mojito-metallique",
+      "title": "Mojito Metallique",
+      "theme": "light",
+      "width": 1440,
+      "checks": [
+        {
+          "name": "Full viewport banner",
+          "pass": true,
+          "detail": {
+            "x": 0,
+            "y": 110.5,
+            "width": 1440,
+            "height": 721,
+            "right": 1440,
+            "bottom": 831.5
+          }
+        },
+        {
+          "name": "Correct banner product title",
+          "pass": true,
+          "detail": "MOJITO METALLIQUE"
+        },
+        {
+          "name": "Correct distinct product campaign",
+          "pass": true,
+          "detail": {
+            "src": "http://127.0.0.1:4208/assets/sj-product-banner-mojito-metallique.jpg",
+            "loaded": true,
+            "fit": "cover",
+            "filter": "none",
+            "opacity": "1",
+            "naturalWidth": 1774,
+            "naturalHeight": 887,
+            "box": {
+              "x": 0,
+              "y": 110.5,
+              "width": 1440,
+              "height": 720,
+              "right": 1440,
+              "bottom": 830.5
+            }
+          }
+        },
+        {
+          "name": "Campaign media spans viewport",
+          "pass": true,
+          "detail": {
+            "x": 0,
+            "y": 110.5,
+            "width": 1440,
+            "height": 720,
+            "right": 1440,
+            "bottom": 830.5
+          }
+        },
+        {
+          "name": "Campaign is unfiltered with intended framing",
+          "pass": true,
+          "detail": {
+            "src": "http://127.0.0.1:4208/assets/sj-product-banner-mojito-metallique.jpg",
+            "loaded": true,
+            "fit": "cover",
+            "filter": "none",
+            "opacity": "1",
+            "naturalWidth": 1774,
+            "naturalHeight": 887,
+            "box": {
+              "x": 0,
+              "y": 110.5,
+              "width": 1440,
+              "height": 720,
+              "right": 1440,
+              "bottom": 830.5
+            }
+          }
+        },
+        {
+          "name": "Dark overlay avoids product area",
+          "pass": true,
+          "detail": "763.188px"
+        },
+        {
+          "name": "No repeated detail name or statement",
+          "pass": true,
+          "detail": {
+            "intro": "Your next chapter",
+            "statement": false
+          }
+        },
+        {
+          "name": "Details region has accessible neutral heading",
+          "pass": true,
+          "detail": {
+            "role": "region",
+            "tabindex": "0",
+            "heading": "Your next chapter",
+            "tag": "H2"
+          }
+        },
+        {
+          "name": "Supplied fonts retained",
+          "pass": true
+        },
+        {
+          "name": "Single product H1 is in the campaign banner",
+          "pass": true,
+          "detail": {
+            "count": 1,
+            "text": "MOJITO METALLIQUE"
+          }
+        },
+        {
+          "name": "No page or banner-title overflow",
+          "pass": true
+        },
+        {
+          "name": "Banner precedes product details",
+          "pass": true
+        },
+        {
+          "name": "CTA reaches details with clear anchor",
+          "pass": true,
+          "detail": {
+            "hash": "#ProductDetails-10314869571649",
+            "target": "#ProductDetails-10314869571649",
+            "top": 110.5,
+            "bottom": 1000,
+            "headerHeight": 110.5,
+            "inView": true,
+            "clear": true
+          }
+        },
+        {
+          "name": "Gallery retains twelve slides",
+          "pass": true
+        },
+        {
+          "name": "Desktop information independently scrolls",
+          "pass": true,
+          "detail": {
+            "before": 0,
+            "height": 890,
+            "total": 2670,
+            "overflow": "auto",
+            "pageY": 721,
+            "mediaTop": 110.5,
+            "mouseX": 1123.1875,
+            "mouseY": 290.5,
+            "after": {
+              "info": 400,
+              "pageY": 721,
+              "mediaTop": 110.5
+            }
+          }
+        },
+        {
+          "name": "Gallery next advances",
+          "pass": true
+        },
+        {
+          "name": "Zoom opens correct current product image",
+          "pass": true
+        },
+        {
+          "name": "Zoom closes with Escape",
+          "pass": true
+        },
+        {
+          "name": "No JavaScript errors",
+          "pass": true,
+          "detail": []
+        }
+      ],
+      "errors": [],
+      "banner": {
+        "box": {
+          "x": 0,
+          "y": 110.5,
+          "width": 1440,
+          "height": 721,
+          "right": 1440,
+          "bottom": 831.5
+        },
+        "title": "MOJITO METALLIQUE",
+        "titleTag": "H1",
+        "titleBox": {
+          "x": 61.90625,
+          "y": 352.8125,
+          "width": 579.109375,
+          "height": 149.75,
+          "right": 641.015625,
+          "bottom": 502.5625
+        },
+        "media": {
+          "x": 0,
+          "y": 110.5,
+          "width": 1440,
+          "height": 720,
+          "right": 1440,
+          "bottom": 830.5
+        },
+        "copy": {
+          "x": 61.90625,
+          "y": 243.421875,
+          "width": 579.109375,
+          "height": 454.140625,
+          "right": 641.015625,
+          "bottom": 697.5625
+        },
+        "intro": "Your next chapter",
+        "detailH1s": 0,
+        "detailStatement": false,
+        "region": {
+          "role": "region",
+          "tabindex": "0",
+          "heading": "Your next chapter",
+          "tag": "H2"
+        },
+        "bodyFamily": "\"Helvetica Now Display\", \"Helvetica Neue\", Arial, sans-serif",
+        "bodyWeight": "300",
+        "headingFamily": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif",
+        "overlayWidth": "763.188px",
+        "titleOverflow": false,
+        "image": {
+          "src": "http://127.0.0.1:4208/assets/sj-product-banner-mojito-metallique.jpg",
+          "loaded": true,
+          "fit": "cover",
+          "filter": "none",
+          "opacity": "1",
+          "naturalWidth": 1774,
+          "naturalHeight": 887,
+          "box": {
+            "x": 0,
+            "y": 110.5,
+            "width": 1440,
+            "height": 720,
+            "right": 1440,
+            "bottom": 830.5
+          }
+        },
+        "h1Count": 1,
+        "h1": "MOJITO METALLIQUE",
+        "horizontalOverflow": false,
+        "detailAfterBanner": true
+      },
+      "anchor": {
+        "hash": "#ProductDetails-10314869571649",
+        "target": "#ProductDetails-10314869571649",
+        "top": 110.5,
+        "bottom": 1000,
+        "headerHeight": 110.5,
+        "inView": true,
+        "clear": true
+      },
+      "scroll": {
+        "before": 0,
+        "height": 890,
+        "total": 2670,
+        "overflow": "auto",
+        "pageY": 721,
+        "mediaTop": 110.5,
+        "mouseX": 1123.1875,
+        "mouseY": 290.5,
+        "after": {
+          "info": 400,
+          "pageY": 721,
+          "mediaTop": 110.5
+        }
+      },
+      "status": "PASS"
+    },
+    {
+      "handle": "mojito-metallique",
+      "title": "Mojito Metallique",
+      "theme": "light",
+      "width": 390,
+      "checks": [
+        {
+          "name": "Full viewport banner",
+          "pass": true,
+          "detail": {
+            "x": 0,
+            "y": 99,
+            "width": 390,
+            "height": 510.9375,
+            "right": 390,
+            "bottom": 609.9375
+          }
+        },
+        {
+          "name": "Correct banner product title",
+          "pass": true,
+          "detail": "MOJITO METALLIQUE"
+        },
+        {
+          "name": "Correct distinct product campaign",
+          "pass": true,
+          "detail": {
+            "src": "http://127.0.0.1:4208/assets/sj-product-banner-mojito-metallique.jpg",
+            "loaded": true,
+            "fit": "cover",
+            "filter": "none",
+            "opacity": "1",
+            "naturalWidth": 1774,
+            "naturalHeight": 887,
+            "box": {
+              "x": 0,
+              "y": 99,
+              "width": 390,
+              "height": 260,
+              "right": 390,
+              "bottom": 359
+            }
+          }
+        },
+        {
+          "name": "Campaign media spans viewport",
+          "pass": true,
+          "detail": {
+            "x": 0,
+            "y": 99,
+            "width": 390,
+            "height": 260,
+            "right": 390,
+            "bottom": 359
+          }
+        },
+        {
+          "name": "Campaign is unfiltered with intended framing",
+          "pass": true,
+          "detail": {
+            "src": "http://127.0.0.1:4208/assets/sj-product-banner-mojito-metallique.jpg",
+            "loaded": true,
+            "fit": "cover",
+            "filter": "none",
+            "opacity": "1",
+            "naturalWidth": 1774,
+            "naturalHeight": 887,
+            "box": {
+              "x": 0,
+              "y": 99,
+              "width": 390,
+              "height": 260,
+              "right": 390,
+              "bottom": 359
+            }
+          }
+        },
+        {
+          "name": "Dark overlay avoids product area",
+          "pass": true,
+          "detail": "53%"
+        },
+        {
+          "name": "No repeated detail name or statement",
+          "pass": true,
+          "detail": {
+            "intro": "Your next chapter",
+            "statement": false
+          }
+        },
+        {
+          "name": "Details region has accessible neutral heading",
+          "pass": true,
+          "detail": {
+            "role": "region",
+            "tabindex": "0",
+            "heading": "Your next chapter",
+            "tag": "H2"
+          }
+        },
+        {
+          "name": "Supplied fonts retained",
+          "pass": true
+        },
+        {
+          "name": "Single product H1 is in the campaign banner",
+          "pass": true,
+          "detail": {
+            "count": 1,
+            "text": "MOJITO METALLIQUE"
+          }
+        },
+        {
+          "name": "No page or banner-title overflow",
+          "pass": true
+        },
+        {
+          "name": "Banner precedes product details",
+          "pass": true
+        },
+        {
+          "name": "CTA reaches details with clear anchor",
+          "pass": true,
+          "detail": {
+            "hash": "#ProductDetails-10314869571649",
+            "target": "#ProductDetails-10314869571649",
+            "top": 98.9375,
+            "bottom": 3330.015625,
+            "headerHeight": 99,
+            "inView": true,
+            "clear": true
+          }
+        },
+        {
+          "name": "Gallery retains twelve slides",
+          "pass": true
+        },
+        {
+          "name": "Gallery next advances",
+          "pass": true
+        },
+        {
+          "name": "Zoom opens correct current product image",
+          "pass": true
+        },
+        {
+          "name": "Zoom closes with Escape",
+          "pass": true
+        },
+        {
+          "name": "No JavaScript errors",
+          "pass": true,
+          "detail": []
+        }
+      ],
+      "errors": [],
+      "banner": {
+        "box": {
+          "x": 0,
+          "y": 99,
+          "width": 390,
+          "height": 510.9375,
+          "right": 390,
+          "bottom": 609.9375
+        },
+        "title": "MOJITO METALLIQUE",
+        "titleTag": "H1",
+        "titleBox": {
+          "x": 22,
+          "y": 424.390625,
+          "width": 346,
+          "height": 40.546875,
+          "right": 368,
+          "bottom": 464.9375
+        },
+        "media": {
+          "x": 0,
+          "y": 99,
+          "width": 390,
+          "height": 260,
+          "right": 390,
+          "bottom": 359
+        },
+        "copy": {
+          "x": 22,
+          "y": 359,
+          "width": 346,
+          "height": 249.9375,
+          "right": 368,
+          "bottom": 608.9375
+        },
+        "intro": "Your next chapter",
+        "detailH1s": 0,
+        "detailStatement": false,
+        "region": {
+          "role": "region",
+          "tabindex": "0",
+          "heading": "Your next chapter",
+          "tag": "H2"
+        },
+        "bodyFamily": "\"Helvetica Now Display\", \"Helvetica Neue\", Arial, sans-serif",
+        "bodyWeight": "300",
+        "headingFamily": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif",
+        "overlayWidth": "53%",
+        "titleOverflow": false,
+        "image": {
+          "src": "http://127.0.0.1:4208/assets/sj-product-banner-mojito-metallique.jpg",
+          "loaded": true,
+          "fit": "cover",
+          "filter": "none",
+          "opacity": "1",
+          "naturalWidth": 1774,
+          "naturalHeight": 887,
+          "box": {
+            "x": 0,
+            "y": 99,
+            "width": 390,
+            "height": 260,
+            "right": 390,
+            "bottom": 359
+          }
+        },
+        "h1Count": 1,
+        "h1": "MOJITO METALLIQUE",
+        "horizontalOverflow": false,
+        "detailAfterBanner": true
+      },
+      "anchor": {
+        "hash": "#ProductDetails-10314869571649",
+        "target": "#ProductDetails-10314869571649",
+        "top": 98.9375,
+        "bottom": 3330.015625,
+        "headerHeight": 99,
+        "inView": true,
+        "clear": true
+      },
+      "status": "PASS"
+    },
+    {
+      "handle": "mojito-metallique",
+      "title": "Mojito Metallique",
+      "theme": "dark",
+      "width": 1440,
+      "checks": [
+        {
+          "name": "Full viewport banner",
+          "pass": true,
+          "detail": {
+            "x": 0,
+            "y": 110.5,
+            "width": 1440,
+            "height": 721,
+            "right": 1440,
+            "bottom": 831.5
+          }
+        },
+        {
+          "name": "Correct banner product title",
+          "pass": true,
+          "detail": "MOJITO METALLIQUE"
+        },
+        {
+          "name": "Correct distinct product campaign",
+          "pass": true,
+          "detail": {
+            "src": "http://127.0.0.1:4208/assets/sj-product-banner-mojito-metallique.jpg",
+            "loaded": true,
+            "fit": "cover",
+            "filter": "none",
+            "opacity": "1",
+            "naturalWidth": 1774,
+            "naturalHeight": 887,
+            "box": {
+              "x": 0,
+              "y": 110.5,
+              "width": 1440,
+              "height": 720,
+              "right": 1440,
+              "bottom": 830.5
+            }
+          }
+        },
+        {
+          "name": "Campaign media spans viewport",
+          "pass": true,
+          "detail": {
+            "x": 0,
+            "y": 110.5,
+            "width": 1440,
+            "height": 720,
+            "right": 1440,
+            "bottom": 830.5
+          }
+        },
+        {
+          "name": "Campaign is unfiltered with intended framing",
+          "pass": true,
+          "detail": {
+            "src": "http://127.0.0.1:4208/assets/sj-product-banner-mojito-metallique.jpg",
+            "loaded": true,
+            "fit": "cover",
+            "filter": "none",
+            "opacity": "1",
+            "naturalWidth": 1774,
+            "naturalHeight": 887,
+            "box": {
+              "x": 0,
+              "y": 110.5,
+              "width": 1440,
+              "height": 720,
+              "right": 1440,
+              "bottom": 830.5
+            }
+          }
+        },
+        {
+          "name": "Dark overlay avoids product area",
+          "pass": true,
+          "detail": "763.188px"
+        },
+        {
+          "name": "No repeated detail name or statement",
+          "pass": true,
+          "detail": {
+            "intro": "Your next chapter",
+            "statement": false
+          }
+        },
+        {
+          "name": "Details region has accessible neutral heading",
+          "pass": true,
+          "detail": {
+            "role": "region",
+            "tabindex": "0",
+            "heading": "Your next chapter",
+            "tag": "H2"
+          }
+        },
+        {
+          "name": "Supplied fonts retained",
+          "pass": true
+        },
+        {
+          "name": "Single product H1 is in the campaign banner",
+          "pass": true,
+          "detail": {
+            "count": 1,
+            "text": "MOJITO METALLIQUE"
+          }
+        },
+        {
+          "name": "No page or banner-title overflow",
+          "pass": true
+        },
+        {
+          "name": "Banner precedes product details",
+          "pass": true
+        },
+        {
+          "name": "CTA reaches details with clear anchor",
+          "pass": true,
+          "detail": {
+            "hash": "#ProductDetails-10314869571649",
+            "target": "#ProductDetails-10314869571649",
+            "top": 110.5,
+            "bottom": 1000,
+            "headerHeight": 110.5,
+            "inView": true,
+            "clear": true
+          }
+        },
+        {
+          "name": "Gallery retains twelve slides",
+          "pass": true
+        },
+        {
+          "name": "Desktop information independently scrolls",
+          "pass": true,
+          "detail": {
+            "before": 0,
+            "height": 890,
+            "total": 2670,
+            "overflow": "auto",
+            "pageY": 721,
+            "mediaTop": 110.5,
+            "mouseX": 1123.1875,
+            "mouseY": 290.5,
+            "after": {
+              "info": 400,
+              "pageY": 721,
+              "mediaTop": 110.5
+            }
+          }
+        },
+        {
+          "name": "Gallery next advances",
+          "pass": true
+        },
+        {
+          "name": "Zoom opens correct current product image",
+          "pass": true
+        },
+        {
+          "name": "Zoom closes with Escape",
+          "pass": true
+        },
+        {
+          "name": "No JavaScript errors",
+          "pass": true,
+          "detail": []
+        }
+      ],
+      "errors": [],
+      "banner": {
+        "box": {
+          "x": 0,
+          "y": 110.5,
+          "width": 1440,
+          "height": 721,
+          "right": 1440,
+          "bottom": 831.5
+        },
+        "title": "MOJITO METALLIQUE",
+        "titleTag": "H1",
+        "titleBox": {
+          "x": 61.90625,
+          "y": 352.8125,
+          "width": 579.109375,
+          "height": 149.75,
+          "right": 641.015625,
+          "bottom": 502.5625
+        },
+        "media": {
+          "x": 0,
+          "y": 110.5,
+          "width": 1440,
+          "height": 720,
+          "right": 1440,
+          "bottom": 830.5
+        },
+        "copy": {
+          "x": 61.90625,
+          "y": 243.421875,
+          "width": 579.109375,
+          "height": 454.140625,
+          "right": 641.015625,
+          "bottom": 697.5625
+        },
+        "intro": "Your next chapter",
+        "detailH1s": 0,
+        "detailStatement": false,
+        "region": {
+          "role": "region",
+          "tabindex": "0",
+          "heading": "Your next chapter",
+          "tag": "H2"
+        },
+        "bodyFamily": "\"Helvetica Now Display\", \"Helvetica Neue\", Arial, sans-serif",
+        "bodyWeight": "300",
+        "headingFamily": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif",
+        "overlayWidth": "763.188px",
+        "titleOverflow": false,
+        "image": {
+          "src": "http://127.0.0.1:4208/assets/sj-product-banner-mojito-metallique.jpg",
+          "loaded": true,
+          "fit": "cover",
+          "filter": "none",
+          "opacity": "1",
+          "naturalWidth": 1774,
+          "naturalHeight": 887,
+          "box": {
+            "x": 0,
+            "y": 110.5,
+            "width": 1440,
+            "height": 720,
+            "right": 1440,
+            "bottom": 830.5
+          }
+        },
+        "h1Count": 1,
+        "h1": "MOJITO METALLIQUE",
+        "horizontalOverflow": false,
+        "detailAfterBanner": true
+      },
+      "anchor": {
+        "hash": "#ProductDetails-10314869571649",
+        "target": "#ProductDetails-10314869571649",
+        "top": 110.5,
+        "bottom": 1000,
+        "headerHeight": 110.5,
+        "inView": true,
+        "clear": true
+      },
+      "scroll": {
+        "before": 0,
+        "height": 890,
+        "total": 2670,
+        "overflow": "auto",
+        "pageY": 721,
+        "mediaTop": 110.5,
+        "mouseX": 1123.1875,
+        "mouseY": 290.5,
+        "after": {
+          "info": 400,
+          "pageY": 721,
+          "mediaTop": 110.5
+        }
+      },
+      "status": "PASS"
+    },
+    {
+      "handle": "mojito-metallique",
+      "title": "Mojito Metallique",
+      "theme": "dark",
+      "width": 390,
+      "checks": [
+        {
+          "name": "Full viewport banner",
+          "pass": true,
+          "detail": {
+            "x": 0,
+            "y": 99,
+            "width": 390,
+            "height": 510.9375,
+            "right": 390,
+            "bottom": 609.9375
+          }
+        },
+        {
+          "name": "Correct banner product title",
+          "pass": true,
+          "detail": "MOJITO METALLIQUE"
+        },
+        {
+          "name": "Correct distinct product campaign",
+          "pass": true,
+          "detail": {
+            "src": "http://127.0.0.1:4208/assets/sj-product-banner-mojito-metallique.jpg",
+            "loaded": true,
+            "fit": "cover",
+            "filter": "none",
+            "opacity": "1",
+            "naturalWidth": 1774,
+            "naturalHeight": 887,
+            "box": {
+              "x": 0,
+              "y": 99,
+              "width": 390,
+              "height": 260,
+              "right": 390,
+              "bottom": 359
+            }
+          }
+        },
+        {
+          "name": "Campaign media spans viewport",
+          "pass": true,
+          "detail": {
+            "x": 0,
+            "y": 99,
+            "width": 390,
+            "height": 260,
+            "right": 390,
+            "bottom": 359
+          }
+        },
+        {
+          "name": "Campaign is unfiltered with intended framing",
+          "pass": true,
+          "detail": {
+            "src": "http://127.0.0.1:4208/assets/sj-product-banner-mojito-metallique.jpg",
+            "loaded": true,
+            "fit": "cover",
+            "filter": "none",
+            "opacity": "1",
+            "naturalWidth": 1774,
+            "naturalHeight": 887,
+            "box": {
+              "x": 0,
+              "y": 99,
+              "width": 390,
+              "height": 260,
+              "right": 390,
+              "bottom": 359
+            }
+          }
+        },
+        {
+          "name": "Dark overlay avoids product area",
+          "pass": true,
+          "detail": "53%"
+        },
+        {
+          "name": "No repeated detail name or statement",
+          "pass": true,
+          "detail": {
+            "intro": "Your next chapter",
+            "statement": false
+          }
+        },
+        {
+          "name": "Details region has accessible neutral heading",
+          "pass": true,
+          "detail": {
+            "role": "region",
+            "tabindex": "0",
+            "heading": "Your next chapter",
+            "tag": "H2"
+          }
+        },
+        {
+          "name": "Supplied fonts retained",
+          "pass": true
+        },
+        {
+          "name": "Single product H1 is in the campaign banner",
+          "pass": true,
+          "detail": {
+            "count": 1,
+            "text": "MOJITO METALLIQUE"
+          }
+        },
+        {
+          "name": "No page or banner-title overflow",
+          "pass": true
+        },
+        {
+          "name": "Banner precedes product details",
+          "pass": true
+        },
+        {
+          "name": "CTA reaches details with clear anchor",
+          "pass": true,
+          "detail": {
+            "hash": "#ProductDetails-10314869571649",
+            "target": "#ProductDetails-10314869571649",
+            "top": 98.9375,
+            "bottom": 3330.015625,
+            "headerHeight": 99,
+            "inView": true,
+            "clear": true
+          }
+        },
+        {
+          "name": "Gallery retains twelve slides",
+          "pass": true
+        },
+        {
+          "name": "Gallery next advances",
+          "pass": true
+        },
+        {
+          "name": "Zoom opens correct current product image",
+          "pass": true
+        },
+        {
+          "name": "Zoom closes with Escape",
+          "pass": true
+        },
+        {
+          "name": "No JavaScript errors",
+          "pass": true,
+          "detail": []
+        }
+      ],
+      "errors": [],
+      "banner": {
+        "box": {
+          "x": 0,
+          "y": 99,
+          "width": 390,
+          "height": 510.9375,
+          "right": 390,
+          "bottom": 609.9375
+        },
+        "title": "MOJITO METALLIQUE",
+        "titleTag": "H1",
+        "titleBox": {
+          "x": 22,
+          "y": 424.390625,
+          "width": 346,
+          "height": 40.546875,
+          "right": 368,
+          "bottom": 464.9375
+        },
+        "media": {
+          "x": 0,
+          "y": 99,
+          "width": 390,
+          "height": 260,
+          "right": 390,
+          "bottom": 359
+        },
+        "copy": {
+          "x": 22,
+          "y": 359,
+          "width": 346,
+          "height": 249.9375,
+          "right": 368,
+          "bottom": 608.9375
+        },
+        "intro": "Your next chapter",
+        "detailH1s": 0,
+        "detailStatement": false,
+        "region": {
+          "role": "region",
+          "tabindex": "0",
+          "heading": "Your next chapter",
+          "tag": "H2"
+        },
+        "bodyFamily": "\"Helvetica Now Display\", \"Helvetica Neue\", Arial, sans-serif",
+        "bodyWeight": "300",
+        "headingFamily": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif",
+        "overlayWidth": "53%",
+        "titleOverflow": false,
+        "image": {
+          "src": "http://127.0.0.1:4208/assets/sj-product-banner-mojito-metallique.jpg",
+          "loaded": true,
+          "fit": "cover",
+          "filter": "none",
+          "opacity": "1",
+          "naturalWidth": 1774,
+          "naturalHeight": 887,
+          "box": {
+            "x": 0,
+            "y": 99,
+            "width": 390,
+            "height": 260,
+            "right": 390,
+            "bottom": 359
+          }
+        },
+        "h1Count": 1,
+        "h1": "MOJITO METALLIQUE",
+        "horizontalOverflow": false,
+        "detailAfterBanner": true
+      },
+      "anchor": {
+        "hash": "#ProductDetails-10314869571649",
+        "target": "#ProductDetails-10314869571649",
+        "top": 98.9375,
+        "bottom": 3330.015625,
+        "headerHeight": 99,
+        "inView": true,
+        "clear": true
+      },
+      "status": "PASS"
+    },
+    {
+      "handle": "mistened-narcissus",
+      "title": "Mistened Narcissus",
+      "theme": "light",
+      "width": 820,
+      "checks": [
+        {
+          "name": "Full viewport banner",
+          "pass": true,
+          "detail": {
+            "x": 0,
+            "y": 110.5,
+            "width": 820,
+            "height": 411,
+            "right": 820,
+            "bottom": 521.5
+          }
+        },
+        {
+          "name": "Correct banner product title",
+          "pass": true,
+          "detail": "MISTENED NARCISSUS"
+        },
+        {
+          "name": "Correct distinct product campaign",
+          "pass": true,
+          "detail": {
+            "src": "http://127.0.0.1:4208/assets/sj-product-banner-mistened-narcissus.jpg",
+            "loaded": true,
+            "fit": "cover",
+            "filter": "none",
+            "opacity": "1",
+            "naturalWidth": 1774,
+            "naturalHeight": 887,
+            "box": {
+              "x": 0,
+              "y": 110.5,
+              "width": 820,
+              "height": 410,
+              "right": 820,
+              "bottom": 520.5
+            }
+          }
+        },
+        {
+          "name": "Campaign media spans viewport",
+          "pass": true,
+          "detail": {
+            "x": 0,
+            "y": 110.5,
+            "width": 820,
+            "height": 410,
+            "right": 820,
+            "bottom": 520.5
+          }
+        },
+        {
+          "name": "Campaign is unfiltered with intended framing",
+          "pass": true,
+          "detail": {
+            "src": "http://127.0.0.1:4208/assets/sj-product-banner-mistened-narcissus.jpg",
+            "loaded": true,
+            "fit": "cover",
+            "filter": "none",
+            "opacity": "1",
+            "naturalWidth": 1774,
+            "naturalHeight": 887,
+            "box": {
+              "x": 0,
+              "y": 110.5,
+              "width": 820,
+              "height": 410,
+              "right": 820,
+              "bottom": 520.5
+            }
+          }
+        },
+        {
+          "name": "Dark overlay avoids product area",
+          "pass": true,
+          "detail": "434.594px"
+        },
+        {
+          "name": "No repeated detail name or statement",
+          "pass": true,
+          "detail": {
+            "intro": "Your next chapter",
+            "statement": false
+          }
+        },
+        {
+          "name": "Details region has accessible neutral heading",
+          "pass": true,
+          "detail": {
+            "role": "region",
+            "tabindex": "0",
+            "heading": "Your next chapter",
+            "tag": "H2"
+          }
+        },
+        {
+          "name": "Supplied fonts retained",
+          "pass": true
+        },
+        {
+          "name": "Single product H1 is in the campaign banner",
+          "pass": true,
+          "detail": {
+            "count": 1,
+            "text": "MISTENED NARCISSUS"
+          }
+        },
+        {
+          "name": "No page or banner-title overflow",
+          "pass": true
+        },
+        {
+          "name": "Banner precedes product details",
+          "pass": true
+        },
+        {
+          "name": "CTA reaches details with clear anchor",
+          "pass": true,
+          "detail": {
+            "hash": "#ProductDetails-10314865016897",
+            "target": "#ProductDetails-10314865016897",
+            "top": 110.5,
+            "bottom": 3315.359375,
+            "headerHeight": 110.5,
+            "inView": true,
+            "clear": true
+          }
+        },
+        {
+          "name": "Gallery retains twelve slides",
+          "pass": true
+        },
+        {
+          "name": "Gallery next advances",
+          "pass": true
+        },
+        {
+          "name": "Zoom opens correct current product image",
+          "pass": true
+        },
+        {
+          "name": "Zoom closes with Escape",
+          "pass": true
+        },
+        {
+          "name": "No JavaScript errors",
+          "pass": true,
+          "detail": []
+        }
+      ],
+      "errors": [],
+      "banner": {
+        "box": {
+          "x": 0,
+          "y": 110.5,
+          "width": 820,
+          "height": 411,
+          "right": 820,
+          "bottom": 521.5
+        },
+        "title": "MISTENED NARCISSUS",
+        "titleTag": "H1",
+        "titleBox": {
+          "x": 35.25,
+          "y": 229.015625,
+          "width": 329.765625,
+          "height": 87.34375,
+          "right": 365.015625,
+          "bottom": 316.359375
+        },
+        "media": {
+          "x": 0,
+          "y": 110.5,
+          "width": 820,
+          "height": 410,
+          "right": 820,
+          "bottom": 520.5
+        },
+        "copy": {
+          "x": 35.25,
+          "y": 150.625,
+          "width": 329.765625,
+          "height": 329.734375,
+          "right": 365.015625,
+          "bottom": 480.359375
+        },
+        "intro": "Your next chapter",
+        "detailH1s": 0,
+        "detailStatement": false,
+        "region": {
+          "role": "region",
+          "tabindex": "0",
+          "heading": "Your next chapter",
+          "tag": "H2"
+        },
+        "bodyFamily": "\"Helvetica Now Display\", \"Helvetica Neue\", Arial, sans-serif",
+        "bodyWeight": "300",
+        "headingFamily": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif",
+        "overlayWidth": "434.594px",
+        "titleOverflow": false,
+        "image": {
+          "src": "http://127.0.0.1:4208/assets/sj-product-banner-mistened-narcissus.jpg",
+          "loaded": true,
+          "fit": "cover",
+          "filter": "none",
+          "opacity": "1",
+          "naturalWidth": 1774,
+          "naturalHeight": 887,
+          "box": {
+            "x": 0,
+            "y": 110.5,
+            "width": 820,
+            "height": 410,
+            "right": 820,
+            "bottom": 520.5
+          }
+        },
+        "h1Count": 1,
+        "h1": "MISTENED NARCISSUS",
+        "horizontalOverflow": false,
+        "detailAfterBanner": true
+      },
+      "anchor": {
+        "hash": "#ProductDetails-10314865016897",
+        "target": "#ProductDetails-10314865016897",
+        "top": 110.5,
+        "bottom": 3315.359375,
+        "headerHeight": 110.5,
+        "inView": true,
+        "clear": true
+      },
+      "status": "PASS"
+    },
+    {
+      "handle": "mistened-narcissus",
+      "title": "Mistened Narcissus",
+      "theme": "light",
+      "width": 1920,
+      "checks": [
+        {
+          "name": "Full viewport banner",
+          "pass": true,
+          "detail": {
+            "x": 0,
+            "y": 110.5,
+            "width": 1920,
+            "height": 961,
+            "right": 1920,
+            "bottom": 1071.5
+          }
+        },
+        {
+          "name": "Correct banner product title",
+          "pass": true,
+          "detail": "MISTENED NARCISSUS"
+        },
+        {
+          "name": "Correct distinct product campaign",
+          "pass": true,
+          "detail": {
+            "src": "http://127.0.0.1:4208/assets/sj-product-banner-mistened-narcissus.jpg",
+            "loaded": true,
+            "fit": "cover",
+            "filter": "none",
+            "opacity": "1",
+            "naturalWidth": 1774,
+            "naturalHeight": 887,
+            "box": {
+              "x": 0,
+              "y": 110.5,
+              "width": 1920,
+              "height": 960,
+              "right": 1920,
+              "bottom": 1070.5
+            }
+          }
+        },
+        {
+          "name": "Campaign media spans viewport",
+          "pass": true,
+          "detail": {
+            "x": 0,
+            "y": 110.5,
+            "width": 1920,
+            "height": 960,
+            "right": 1920,
+            "bottom": 1070.5
+          }
+        },
+        {
+          "name": "Campaign is unfiltered with intended framing",
+          "pass": true,
+          "detail": {
+            "src": "http://127.0.0.1:4208/assets/sj-product-banner-mistened-narcissus.jpg",
+            "loaded": true,
+            "fit": "cover",
+            "filter": "none",
+            "opacity": "1",
+            "naturalWidth": 1774,
+            "naturalHeight": 887,
+            "box": {
+              "x": 0,
+              "y": 110.5,
+              "width": 1920,
+              "height": 960,
+              "right": 1920,
+              "bottom": 1070.5
+            }
+          }
+        },
+        {
+          "name": "Dark overlay avoids product area",
+          "pass": true,
+          "detail": "1017.59px"
+        },
+        {
+          "name": "No repeated detail name or statement",
+          "pass": true,
+          "detail": {
+            "intro": "Your next chapter",
+            "statement": false
+          }
+        },
+        {
+          "name": "Details region has accessible neutral heading",
+          "pass": true,
+          "detail": {
+            "role": "region",
+            "tabindex": "0",
+            "heading": "Your next chapter",
+            "tag": "H2"
+          }
+        },
+        {
+          "name": "Supplied fonts retained",
+          "pass": true
+        },
+        {
+          "name": "Single product H1 is in the campaign banner",
+          "pass": true,
+          "detail": {
+            "count": 1,
+            "text": "MISTENED NARCISSUS"
+          }
+        },
+        {
+          "name": "No page or banner-title overflow",
+          "pass": true
+        },
+        {
+          "name": "Banner precedes product details",
+          "pass": true
+        },
+        {
+          "name": "CTA reaches details with clear anchor",
+          "pass": true,
+          "detail": {
+            "hash": "#ProductDetails-10314865016897",
+            "target": "#ProductDetails-10314865016897",
+            "top": 110.5,
+            "bottom": 1000,
+            "headerHeight": 110.5,
+            "inView": true,
+            "clear": true
+          }
+        },
+        {
+          "name": "Gallery retains twelve slides",
+          "pass": true
+        },
+        {
+          "name": "Desktop information independently scrolls",
+          "pass": true,
+          "detail": {
+            "before": 0,
+            "height": 890,
+            "total": 2470,
+            "overflow": "auto",
+            "pageY": 961,
+            "mediaTop": 110.5,
+            "mouseX": 1497.59375,
+            "mouseY": 290.5,
+            "after": {
+              "info": 400,
+              "pageY": 961,
+              "mediaTop": 110.5
+            }
+          }
+        },
+        {
+          "name": "Gallery next advances",
+          "pass": true
+        },
+        {
+          "name": "Zoom opens correct current product image",
+          "pass": true
+        },
+        {
+          "name": "Zoom closes with Escape",
+          "pass": true
+        },
+        {
+          "name": "No JavaScript errors",
+          "pass": true,
+          "detail": []
+        }
+      ],
+      "errors": [],
+      "banner": {
+        "box": {
+          "x": 0,
+          "y": 110.5,
+          "width": 1920,
+          "height": 961,
+          "right": 1920,
+          "bottom": 1071.5
+        },
+        "title": "MISTENED NARCISSUS",
+        "titleTag": "H1",
+        "titleBox": {
+          "x": 142.546875,
+          "y": 452.015625,
+          "width": 719.34375,
+          "height": 191.34375,
+          "right": 861.890625,
+          "bottom": 643.359375
+        },
+        "media": {
+          "x": 0,
+          "y": 110.5,
+          "width": 1920,
+          "height": 960,
+          "right": 1920,
+          "bottom": 1070.5
+        },
+        "copy": {
+          "x": 142.546875,
+          "y": 324.625,
+          "width": 719.34375,
+          "height": 531.734375,
+          "right": 861.890625,
+          "bottom": 856.359375
+        },
+        "intro": "Your next chapter",
+        "detailH1s": 0,
+        "detailStatement": false,
+        "region": {
+          "role": "region",
+          "tabindex": "0",
+          "heading": "Your next chapter",
+          "tag": "H2"
+        },
+        "bodyFamily": "\"Helvetica Now Display\", \"Helvetica Neue\", Arial, sans-serif",
+        "bodyWeight": "300",
+        "headingFamily": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif",
+        "overlayWidth": "1017.59px",
+        "titleOverflow": false,
+        "image": {
+          "src": "http://127.0.0.1:4208/assets/sj-product-banner-mistened-narcissus.jpg",
+          "loaded": true,
+          "fit": "cover",
+          "filter": "none",
+          "opacity": "1",
+          "naturalWidth": 1774,
+          "naturalHeight": 887,
+          "box": {
+            "x": 0,
+            "y": 110.5,
+            "width": 1920,
+            "height": 960,
+            "right": 1920,
+            "bottom": 1070.5
+          }
+        },
+        "h1Count": 1,
+        "h1": "MISTENED NARCISSUS",
+        "horizontalOverflow": false,
+        "detailAfterBanner": true
+      },
+      "anchor": {
+        "hash": "#ProductDetails-10314865016897",
+        "target": "#ProductDetails-10314865016897",
+        "top": 110.5,
+        "bottom": 1000,
+        "headerHeight": 110.5,
+        "inView": true,
+        "clear": true
+      },
+      "scroll": {
+        "before": 0,
+        "height": 890,
+        "total": 2470,
+        "overflow": "auto",
+        "pageY": 961,
+        "mediaTop": 110.5,
+        "mouseX": 1497.59375,
+        "mouseY": 290.5,
+        "after": {
+          "info": 400,
+          "pageY": 961,
+          "mediaTop": 110.5
+        }
+      },
+      "status": "PASS"
+    },
+    {
+      "handle": "mistened-narcissus",
+      "title": "Mistened Narcissus",
+      "theme": "dark",
+      "width": 820,
+      "checks": [
+        {
+          "name": "Full viewport banner",
+          "pass": true,
+          "detail": {
+            "x": 0,
+            "y": 110.5,
+            "width": 820,
+            "height": 411,
+            "right": 820,
+            "bottom": 521.5
+          }
+        },
+        {
+          "name": "Correct banner product title",
+          "pass": true,
+          "detail": "MISTENED NARCISSUS"
+        },
+        {
+          "name": "Correct distinct product campaign",
+          "pass": true,
+          "detail": {
+            "src": "http://127.0.0.1:4208/assets/sj-product-banner-mistened-narcissus.jpg",
+            "loaded": true,
+            "fit": "cover",
+            "filter": "none",
+            "opacity": "1",
+            "naturalWidth": 1774,
+            "naturalHeight": 887,
+            "box": {
+              "x": 0,
+              "y": 110.5,
+              "width": 820,
+              "height": 410,
+              "right": 820,
+              "bottom": 520.5
+            }
+          }
+        },
+        {
+          "name": "Campaign media spans viewport",
+          "pass": true,
+          "detail": {
+            "x": 0,
+            "y": 110.5,
+            "width": 820,
+            "height": 410,
+            "right": 820,
+            "bottom": 520.5
+          }
+        },
+        {
+          "name": "Campaign is unfiltered with intended framing",
+          "pass": true,
+          "detail": {
+            "src": "http://127.0.0.1:4208/assets/sj-product-banner-mistened-narcissus.jpg",
+            "loaded": true,
+            "fit": "cover",
+            "filter": "none",
+            "opacity": "1",
+            "naturalWidth": 1774,
+            "naturalHeight": 887,
+            "box": {
+              "x": 0,
+              "y": 110.5,
+              "width": 820,
+              "height": 410,
+              "right": 820,
+              "bottom": 520.5
+            }
+          }
+        },
+        {
+          "name": "Dark overlay avoids product area",
+          "pass": true,
+          "detail": "434.594px"
+        },
+        {
+          "name": "No repeated detail name or statement",
+          "pass": true,
+          "detail": {
+            "intro": "Your next chapter",
+            "statement": false
+          }
+        },
+        {
+          "name": "Details region has accessible neutral heading",
+          "pass": true,
+          "detail": {
+            "role": "region",
+            "tabindex": "0",
+            "heading": "Your next chapter",
+            "tag": "H2"
+          }
+        },
+        {
+          "name": "Supplied fonts retained",
+          "pass": true
+        },
+        {
+          "name": "Single product H1 is in the campaign banner",
+          "pass": true,
+          "detail": {
+            "count": 1,
+            "text": "MISTENED NARCISSUS"
+          }
+        },
+        {
+          "name": "No page or banner-title overflow",
+          "pass": true
+        },
+        {
+          "name": "Banner precedes product details",
+          "pass": true
+        },
+        {
+          "name": "CTA reaches details with clear anchor",
+          "pass": true,
+          "detail": {
+            "hash": "#ProductDetails-10314865016897",
+            "target": "#ProductDetails-10314865016897",
+            "top": 110.5,
+            "bottom": 3315.359375,
+            "headerHeight": 110.5,
+            "inView": true,
+            "clear": true
+          }
+        },
+        {
+          "name": "Gallery retains twelve slides",
+          "pass": true
+        },
+        {
+          "name": "Gallery next advances",
+          "pass": true
+        },
+        {
+          "name": "Zoom opens correct current product image",
+          "pass": true
+        },
+        {
+          "name": "Zoom closes with Escape",
+          "pass": true
+        },
+        {
+          "name": "No JavaScript errors",
+          "pass": true,
+          "detail": []
+        }
+      ],
+      "errors": [],
+      "banner": {
+        "box": {
+          "x": 0,
+          "y": 110.5,
+          "width": 820,
+          "height": 411,
+          "right": 820,
+          "bottom": 521.5
+        },
+        "title": "MISTENED NARCISSUS",
+        "titleTag": "H1",
+        "titleBox": {
+          "x": 35.25,
+          "y": 229.015625,
+          "width": 329.765625,
+          "height": 87.34375,
+          "right": 365.015625,
+          "bottom": 316.359375
+        },
+        "media": {
+          "x": 0,
+          "y": 110.5,
+          "width": 820,
+          "height": 410,
+          "right": 820,
+          "bottom": 520.5
+        },
+        "copy": {
+          "x": 35.25,
+          "y": 150.625,
+          "width": 329.765625,
+          "height": 329.734375,
+          "right": 365.015625,
+          "bottom": 480.359375
+        },
+        "intro": "Your next chapter",
+        "detailH1s": 0,
+        "detailStatement": false,
+        "region": {
+          "role": "region",
+          "tabindex": "0",
+          "heading": "Your next chapter",
+          "tag": "H2"
+        },
+        "bodyFamily": "\"Helvetica Now Display\", \"Helvetica Neue\", Arial, sans-serif",
+        "bodyWeight": "300",
+        "headingFamily": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif",
+        "overlayWidth": "434.594px",
+        "titleOverflow": false,
+        "image": {
+          "src": "http://127.0.0.1:4208/assets/sj-product-banner-mistened-narcissus.jpg",
+          "loaded": true,
+          "fit": "cover",
+          "filter": "none",
+          "opacity": "1",
+          "naturalWidth": 1774,
+          "naturalHeight": 887,
+          "box": {
+            "x": 0,
+            "y": 110.5,
+            "width": 820,
+            "height": 410,
+            "right": 820,
+            "bottom": 520.5
+          }
+        },
+        "h1Count": 1,
+        "h1": "MISTENED NARCISSUS",
+        "horizontalOverflow": false,
+        "detailAfterBanner": true
+      },
+      "anchor": {
+        "hash": "#ProductDetails-10314865016897",
+        "target": "#ProductDetails-10314865016897",
+        "top": 110.5,
+        "bottom": 3315.359375,
+        "headerHeight": 110.5,
+        "inView": true,
+        "clear": true
+      },
+      "status": "PASS"
+    },
+    {
+      "handle": "mistened-narcissus",
+      "title": "Mistened Narcissus",
+      "theme": "dark",
+      "width": 1920,
+      "checks": [
+        {
+          "name": "Full viewport banner",
+          "pass": true,
+          "detail": {
+            "x": 0,
+            "y": 110.5,
+            "width": 1920,
+            "height": 961,
+            "right": 1920,
+            "bottom": 1071.5
+          }
+        },
+        {
+          "name": "Correct banner product title",
+          "pass": true,
+          "detail": "MISTENED NARCISSUS"
+        },
+        {
+          "name": "Correct distinct product campaign",
+          "pass": true,
+          "detail": {
+            "src": "http://127.0.0.1:4208/assets/sj-product-banner-mistened-narcissus.jpg",
+            "loaded": true,
+            "fit": "cover",
+            "filter": "none",
+            "opacity": "1",
+            "naturalWidth": 1774,
+            "naturalHeight": 887,
+            "box": {
+              "x": 0,
+              "y": 110.5,
+              "width": 1920,
+              "height": 960,
+              "right": 1920,
+              "bottom": 1070.5
+            }
+          }
+        },
+        {
+          "name": "Campaign media spans viewport",
+          "pass": true,
+          "detail": {
+            "x": 0,
+            "y": 110.5,
+            "width": 1920,
+            "height": 960,
+            "right": 1920,
+            "bottom": 1070.5
+          }
+        },
+        {
+          "name": "Campaign is unfiltered with intended framing",
+          "pass": true,
+          "detail": {
+            "src": "http://127.0.0.1:4208/assets/sj-product-banner-mistened-narcissus.jpg",
+            "loaded": true,
+            "fit": "cover",
+            "filter": "none",
+            "opacity": "1",
+            "naturalWidth": 1774,
+            "naturalHeight": 887,
+            "box": {
+              "x": 0,
+              "y": 110.5,
+              "width": 1920,
+              "height": 960,
+              "right": 1920,
+              "bottom": 1070.5
+            }
+          }
+        },
+        {
+          "name": "Dark overlay avoids product area",
+          "pass": true,
+          "detail": "1017.59px"
+        },
+        {
+          "name": "No repeated detail name or statement",
+          "pass": true,
+          "detail": {
+            "intro": "Your next chapter",
+            "statement": false
+          }
+        },
+        {
+          "name": "Details region has accessible neutral heading",
+          "pass": true,
+          "detail": {
+            "role": "region",
+            "tabindex": "0",
+            "heading": "Your next chapter",
+            "tag": "H2"
+          }
+        },
+        {
+          "name": "Supplied fonts retained",
+          "pass": true
+        },
+        {
+          "name": "Single product H1 is in the campaign banner",
+          "pass": true,
+          "detail": {
+            "count": 1,
+            "text": "MISTENED NARCISSUS"
+          }
+        },
+        {
+          "name": "No page or banner-title overflow",
+          "pass": true
+        },
+        {
+          "name": "Banner precedes product details",
+          "pass": true
+        },
+        {
+          "name": "CTA reaches details with clear anchor",
+          "pass": true,
+          "detail": {
+            "hash": "#ProductDetails-10314865016897",
+            "target": "#ProductDetails-10314865016897",
+            "top": 110.5,
+            "bottom": 1000,
+            "headerHeight": 110.5,
+            "inView": true,
+            "clear": true
+          }
+        },
+        {
+          "name": "Gallery retains twelve slides",
+          "pass": true
+        },
+        {
+          "name": "Desktop information independently scrolls",
+          "pass": true,
+          "detail": {
+            "before": 0,
+            "height": 890,
+            "total": 2470,
+            "overflow": "auto",
+            "pageY": 961,
+            "mediaTop": 110.5,
+            "mouseX": 1497.59375,
+            "mouseY": 290.5,
+            "after": {
+              "info": 400,
+              "pageY": 961,
+              "mediaTop": 110.5
+            }
+          }
+        },
+        {
+          "name": "Gallery next advances",
+          "pass": true
+        },
+        {
+          "name": "Zoom opens correct current product image",
+          "pass": true
+        },
+        {
+          "name": "Zoom closes with Escape",
+          "pass": true
+        },
+        {
+          "name": "No JavaScript errors",
+          "pass": true,
+          "detail": []
+        }
+      ],
+      "errors": [],
+      "banner": {
+        "box": {
+          "x": 0,
+          "y": 110.5,
+          "width": 1920,
+          "height": 961,
+          "right": 1920,
+          "bottom": 1071.5
+        },
+        "title": "MISTENED NARCISSUS",
+        "titleTag": "H1",
+        "titleBox": {
+          "x": 142.546875,
+          "y": 452.015625,
+          "width": 719.34375,
+          "height": 191.34375,
+          "right": 861.890625,
+          "bottom": 643.359375
+        },
+        "media": {
+          "x": 0,
+          "y": 110.5,
+          "width": 1920,
+          "height": 960,
+          "right": 1920,
+          "bottom": 1070.5
+        },
+        "copy": {
+          "x": 142.546875,
+          "y": 324.625,
+          "width": 719.34375,
+          "height": 531.734375,
+          "right": 861.890625,
+          "bottom": 856.359375
+        },
+        "intro": "Your next chapter",
+        "detailH1s": 0,
+        "detailStatement": false,
+        "region": {
+          "role": "region",
+          "tabindex": "0",
+          "heading": "Your next chapter",
+          "tag": "H2"
+        },
+        "bodyFamily": "\"Helvetica Now Display\", \"Helvetica Neue\", Arial, sans-serif",
+        "bodyWeight": "300",
+        "headingFamily": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif",
+        "overlayWidth": "1017.59px",
+        "titleOverflow": false,
+        "image": {
+          "src": "http://127.0.0.1:4208/assets/sj-product-banner-mistened-narcissus.jpg",
+          "loaded": true,
+          "fit": "cover",
+          "filter": "none",
+          "opacity": "1",
+          "naturalWidth": 1774,
+          "naturalHeight": 887,
+          "box": {
+            "x": 0,
+            "y": 110.5,
+            "width": 1920,
+            "height": 960,
+            "right": 1920,
+            "bottom": 1070.5
+          }
+        },
+        "h1Count": 1,
+        "h1": "MISTENED NARCISSUS",
+        "horizontalOverflow": false,
+        "detailAfterBanner": true
+      },
+      "anchor": {
+        "hash": "#ProductDetails-10314865016897",
+        "target": "#ProductDetails-10314865016897",
+        "top": 110.5,
+        "bottom": 1000,
+        "headerHeight": 110.5,
+        "inView": true,
+        "clear": true
+      },
+      "scroll": {
+        "before": 0,
+        "height": 890,
+        "total": 2470,
+        "overflow": "auto",
+        "pageY": 961,
+        "mediaTop": 110.5,
+        "mouseX": 1497.59375,
+        "mouseY": 290.5,
+        "after": {
+          "info": 400,
+          "pageY": 961,
+          "mediaTop": 110.5
+        }
+      },
+      "status": "PASS"
+    }
+  ],
+  "failures": [],
+  "status": "PASS",
+  "summary": {
+    "cases": 28,
+    "checks": 518,
+    "failures": 0,
+    "longestTitleSpotcheck": "Mistened Narcissus"
+  },
+  "visualReview": {
+    "status": "PASS",
+    "bannerCapturesInspected": 28,
+    "scope": "All six product lifestyle campaigns, both themes, desktop and mobile; longest-title tablet and wide desktop",
+    "findings": [
+      "Exactly one person visible in each rendered campaign; no additional background figures found.",
+      "Faces and physical products remain visible in mobile crops.",
+      "Live title, approved scent statement and CTA remain readable with no clipping.",
+      "Dark copy overlay ends at53% of viewport and leaves right-side faces and products natural.",
+      "Everyday settings and actions remain believable and approachable."
+    ],
+    "wideCaptureViewport": {
+      "width": 1920,
+      "height": 1200,
+      "reason": "Fit the entire960px banner below the header in the capture; automated wide checks remain at1000px viewport height."
+    }
+  },
+  "nativeSectionValidation": {
+    "sourceReport": "PRODUCT-CAMPAIGN-SECTION-QA.json",
+    "scenarios": 12,
+    "status": "PASS",
+    "existingFallbackScenarios": 5,
+    "strictLiquidParse": "PASS"
+  }
+}

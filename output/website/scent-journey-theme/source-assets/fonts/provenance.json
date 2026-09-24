@@ -1,0 +1,74 @@
+[
+  {
+    "source": "/Users/wetrade/Downloads/CenzoFlare-Bold.zip",
+    "file": "source-assets/fonts/CenzoFlare-Bold/CenzoFlare-Bold.ttf",
+    "bytes": 69328,
+    "sha256": "aca8e9615c3342f7b6619c35ec6bc430464ef1a2334ef73cc8bc65244ee0407a"
+  },
+  {
+    "source": "/Users/wetrade/Downloads/CenzoFlare-Bold.zip",
+    "file": "source-assets/fonts/CenzoFlare-Bold/CenzoFlare-Bold.woff",
+    "bytes": 31848,
+    "sha256": "1028ddd822dfe1a7feac66f489cc79b5ffb2fdd5bda6bb8518a3a6bb5d3d0dce"
+  },
+  {
+    "source": "/Users/wetrade/Downloads/CenzoFlare-Bold.zip",
+    "file": "source-assets/fonts/CenzoFlare-Bold/CenzoFlare-Bold.woff2",
+    "bytes": 23016,
+    "sha256": "9b3021b9c9297e3b84e3ee57717162e912a6d846dfd231d537ffcee8ce65fafa"
+  },
+  {
+    "source": "/Users/wetrade/Downloads/CenzoFlare-Bold.zip",
+    "file": "source-assets/fonts/CenzoFlare-Bold/style.css",
+    "bytes": 318,
+    "sha256": "278ae2041491f0dd35c2e48af9343515d799758bdb34b6825caf7d973035fa24"
+  },
+  {
+    "source": "/Users/wetrade/Downloads/HelveticaNowText-Regular.zip",
+    "file": "source-assets/fonts/HelveticaNowText-Regular/HelveticaNowText-Regular.ttf",
+    "bytes": 126076,
+    "sha256": "be4dc86107b81ffd40ff070256f986fc244069f7abc66cc71e397d2b3b332254"
+  },
+  {
+    "source": "/Users/wetrade/Downloads/HelveticaNowText-Regular.zip",
+    "file": "source-assets/fonts/HelveticaNowText-Regular/HelveticaNowText-Regular.woff",
+    "bytes": 51704,
+    "sha256": "aea0d322220a8903a5e618831fb37afc6543833fb1c70bda6a54588254241e4e"
+  },
+  {
+    "source": "/Users/wetrade/Downloads/HelveticaNowText-Regular.zip",
+    "file": "source-assets/fonts/HelveticaNowText-Regular/HelveticaNowText-Regular.woff2",
+    "bytes": 35032,
+    "sha256": "ba005434038a79e39a2ce803e7c7aeac33e4a858121d0a5e588017cc0698c6aa"
+  },
+  {
+    "source": "/Users/wetrade/Downloads/HelveticaNowText-Regular.zip",
+    "file": "source-assets/fonts/HelveticaNowText-Regular/style.css",
+    "bytes": 375,
+    "sha256": "91f4ca078b6d57e38bf75ed78c004cc3f1a64fef31a46ef49c2c1c5db805b97e"
+  },
+  {
+    "source": "/Users/wetrade/Downloads/HelveticaNowDisplay-Light.zip",
+    "file": "source-assets/fonts/HelveticaNowDisplay-Light/HelveticaNowDisplay-Light.ttf",
+    "bytes": 149236,
+    "sha256": "be7a58b7cb926a51df4b1007a74ef6c587d1ecdbe62c788373c9b5630ec3ce84"
+  },
+  {
+    "source": "/Users/wetrade/Downloads/HelveticaNowDisplay-Light.zip",
+    "file": "source-assets/fonts/HelveticaNowDisplay-Light/HelveticaNowDisplay-Light.woff",
+    "bytes": 63208,
+    "sha256": "07e18ee5446cc0022308691112e4ba930f923ce73e42d5209ff73b429515ea20"
+  },
+  {
+    "source": "/Users/wetrade/Downloads/HelveticaNowDisplay-Light.zip",
+    "file": "source-assets/fonts/HelveticaNowDisplay-Light/HelveticaNowDisplay-Light.woff2",
+    "bytes": 44316,
+    "sha256": "813b12683a08715a0fa8deaf3c0da9f91e18b7e95eb64591560a5a04d344c76b"
+  },
+  {
+    "source": "/Users/wetrade/Downloads/HelveticaNowDisplay-Light.zip",
+    "file": "source-assets/fonts/HelveticaNowDisplay-Light/style.css",
+    "bytes": 380,
+    "sha256": "f33d859a58d9cb5790e5cc73099a518749281596a5de8432d5c280082f8e936f"
+  }
+]

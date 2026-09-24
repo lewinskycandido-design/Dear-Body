@@ -1,0 +1,26 @@
+{% liquid
+  assign chapter = index | default: 1
+  assign character = product.metafields.custom.scent_character.value
+  assign short_description = product.metafields.custom.short_description.value
+  assign card_alt = product.featured_image.alt | default: product.title
+%}
+<article class="sj-product-card" {% if collection_order %}data-sj-order-card{% endif %}>
+  <a class="sj-product-card__image" href="{{ product.url }}" aria-label="Explore {{ product.title | escape }}">
+    <span class="sj-product-card__chapter" aria-hidden="true">CHAPTER {% if chapter < 10 %}0{% endif %}{{ chapter }}</span>
+    {% render 'sj-product-image', product: product, alt: card_alt %}
+    <span class="sj-product-card__explore" aria-hidden="true">MEET YOUR NEXT CHAPTER </span>
+    {% unless product.available %}<span class="sj-product-card__badge">SOLD OUT</span>{% endunless %}
+  </a>
+  <div class="sj-product-card__details">
+    <h3><a href="{{ product.url }}">{{ product.title | escape }}</a></h3>
+    <p class="sj-product-card__price">{% render 'sj-price', product: product %}</p>
+    {% if character != blank %}<p class="sj-product-card__character">{% if product.metafields.custom.scent_character.type contains 'list.' %}{{ character | join: ' · ' | escape }}{% else %}{{ character | escape }}{% endif %}</p>{% elsif short_description != blank %}<p class="sj-product-card__character">{{ short_description | escape }}</p>{% endif %}
+    {% if collection_order %}
+      {% assign card_variant = product.selected_or_first_available_variant %}
+      <div class="sj-product-card__order">
+        <button class="sj-button" type="button" data-sj-collection-add value="{{ card_variant.id }}" aria-label="{% if card_variant.available %}Add to order{% else %}Sold out:{% endif %} {{ product.title | escape }}" aria-controls="{{ order_panel_id }}" aria-expanded="false" hidden disabled><span data-sj-order-add-label>{% if card_variant.available %}Add to order{% else %}Sold out{% endif %}</span></button>
+        <a class="sj-button sj-button--secondary" href="{{ product.url }}" data-sj-collection-order-fallback>{% if card_variant.available %}Add to order{% else %}View scent{% endif %}<span class="sj-visually-hidden"> {{ product.title | escape }}</span></a>
+      </div>
+    {% endif %}
+  </div>
+</article>

@@ -1,0 +1,20 @@
+/* Shipping cards only; native bag layout remains unchanged. */
+/* Shared compact shipping cards coordinate with the bag and product panels. */
+.sj-cart-offer>.sj-shipping-offer,.sj-purchase-offer>.sj-shipping-offer{background:#ffe56b;color:#5c0006;border:2px solid #1746ad;border-inline-start:2px solid #1746ad;padding:18px;box-shadow:4px 4px 0 #c51b27}
+.sj-cart-offer .sj-shipping-offer__title,.sj-purchase-offer .sj-shipping-offer__title,.sj-cart-offer .sj-shipping-offer__message,.sj-purchase-offer .sj-shipping-offer__message,.sj-cart-offer .sj-shipping-offer__link,.sj-purchase-offer .sj-shipping-offer__link{color:#5c0006}
+.sj-cart-offer .sj-shipping-offer__title strong,.sj-purchase-offer .sj-shipping-offer__title strong{font-size:27px;line-height:1}
+.sj-cart-offer .sj-shipping-offer__title span,.sj-purchase-offer .sj-shipping-offer__title span{font-size:15px;line-height:1.4}
+.sj-cart-offer .sj-shipping-offer__message,.sj-purchase-offer .sj-shipping-offer__message{padding:10px 12px;background:#fff6e9;border-inline-start:3px solid #c51b27;font-size:13px;line-height:1.45}
+.sj-cart-offer .sj-shipping-offer__terms,.sj-purchase-offer .sj-shipping-offer__terms{font-size:12px}
+.sj-cart-offer .sj-shipping-offer__details,.sj-purchase-offer .sj-shipping-offer__details{gap:0 10px;margin-top:8px}
+.sj-cart-offer .sj-shipping-offer__link,.sj-purchase-offer .sj-shipping-offer__link{font-size:12px;font-weight:600}
+.sj-cart-offer--empty{width:100%;max-width:38rem;margin:0 auto 28px}
+
+/* Existing homepage photograph and height remain unchanged; only live copy is a card. */
+.sj-home-feature--shipping .sj-home-feature__copy{padding:28px;background:#fff6e9;color:#5c0006;border:2px solid #c51b27;box-shadow:8px 8px 0 #1746ad}
+.sj-home-feature--shipping h2{font-size:clamp(30px,4.2vw,62px);color:#5c0006;margin-bottom:20px}
+.sj-home-feature--shipping .sj-home-feature__subheading{color:#5c0006;font-size:clamp(19px,1.8vw,26px)}
+.sj-home-feature--shipping .sj-home-feature__description{color:#72514c;margin-bottom:0}
+
+@media(max-width:760px){.sj-home-feature--shipping .sj-home-feature__copy{padding:20px;margin-bottom:26px;box-shadow:6px 6px 0 #1746ad}.sj-home-feature--shipping h2{font-size:clamp(30px,8vw,42px);margin-bottom:14px}.sj-home-feature--shipping .sj-home-feature__subheading{font-size:18px;margin-bottom:10px}.sj-home-feature--shipping .sj-home-feature__description{font-size:12px}}
+@media(max-width:360px){.sj-cart-offer>.sj-shipping-offer,.sj-purchase-offer>.sj-shipping-offer{padding:14px}.sj-cart-offer .sj-shipping-offer__title strong,.sj-purchase-offer .sj-shipping-offer__title strong{font-size:24px}.sj-home-feature--shipping .sj-home-feature__copy{padding:18px 16px}}

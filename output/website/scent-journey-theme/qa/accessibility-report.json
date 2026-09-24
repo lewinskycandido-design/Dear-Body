@@ -1,0 +1,421 @@
+{
+  "generatedAt": "2026-09-24T02:57:19.686Z",
+  "engine": "axe-core 4.11.0",
+  "scope": "WCAG 2 A/AA +2.1AA automated checks; manual assistive technology testing still required",
+  "results": [
+    {
+      "theme": "light",
+      "route": "/",
+      "passes": 23,
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "count": 12,
+          "nodes": [
+            {
+              "target": [
+                ".sj-doorway-link--women > .sj-doorway-top > span:nth-child(1)"
+              ],
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
+            },
+            {
+              "target": [
+                ".sj-doorway-link--women > .sj-doorway-top > span:nth-child(2)"
+              ],
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
+            },
+            {
+              "target": [
+                ".sj-doorway-link--women > .sj-doorway-copy > p"
+              ],
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
+            },
+            {
+              "target": [
+                ".sj-doorway-link--women > .sj-doorway-copy > div > h2"
+              ],
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
+            },
+            {
+              "target": [
+                ".sj-doorway-link--women > .sj-doorway-copy > .sj-doorway-cta"
+              ],
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
+            },
+            {
+              "target": [
+                ".sj-doorway-link--men > .sj-doorway-top > span:nth-child(1)"
+              ],
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
+            },
+            {
+              "target": [
+                ".sj-doorway-link--men > .sj-doorway-top > span:nth-child(2)"
+              ],
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
+            },
+            {
+              "target": [
+                ".sj-doorway-link--men > .sj-doorway-copy > p"
+              ],
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
+            },
+            {
+              "target": [
+                ".sj-doorway-link--men > .sj-doorway-copy > div > h2"
+              ],
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
+            },
+            {
+              "target": [
+                ".sj-doorway-link--men > .sj-doorway-copy > .sj-doorway-cta"
+              ],
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
+            },
+            {
+              "target": [
+                ".sj-footer-statement"
+              ],
+              "summary": "Fix any of the following:\n  Element has a 1:1 contrast ratio with the background"
+            },
+            {
+              "target": [
+                ".sj-text-link"
+              ],
+              "summary": "Fix any of the following:\n  Element has a 1:1 contrast ratio with the background"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "theme": "light",
+      "route": "/products/mojito-metallique",
+      "passes": 30,
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "count": 10,
+          "nodes": [
+            {
+              "target": [
+                ".sj-product__breadcrumb > a[href=\"/\"]"
+              ],
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "target": [
+                ".sj-product__breadcrumb > a[href$=\"all\"]"
+              ],
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "target": [
+                "span:nth-child(5)"
+              ],
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "target": [
+                "div[data-sj-media=\"studio-01\"] > .sj-product__image-button[type=\"button\"] > .sj-product__zoom-hint"
+              ],
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "target": [
+                "button[data-sj-gallery-prev=\"\"]"
+              ],
+              "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+            },
+            {
+              "target": [
+                "button[data-sj-gallery-next=\"\"]"
+              ],
+              "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+            },
+            {
+              "target": [
+                ".sj-product__media-caption > span:nth-child(1)"
+              ],
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "target": [
+                ".sj-product__media-caption > span:nth-child(2)"
+              ],
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "target": [
+                ".sj-footer-statement"
+              ],
+              "summary": "Fix any of the following:\n  Element has a 1:1 contrast ratio with the background"
+            },
+            {
+              "target": [
+                ".sj-text-link"
+              ],
+              "summary": "Fix any of the following:\n  Element has a 1:1 contrast ratio with the background"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "theme": "light",
+      "route": "/collections/womens-perfume",
+      "passes": 23,
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "count": 2,
+          "nodes": [
+            {
+              "target": [
+                ".sj-footer-statement"
+              ],
+              "summary": "Fix any of the following:\n  Element has a 1:1 contrast ratio with the background"
+            },
+            {
+              "target": [
+                ".sj-text-link[href$=\"all\"]"
+              ],
+              "summary": "Fix any of the following:\n  Element has a 1:1 contrast ratio with the background"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "theme": "light",
+      "route": "/pages/scent-finder",
+      "passes": 23,
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "count": 2,
+          "nodes": [
+            {
+              "target": [
+                ".sj-footer-statement"
+              ],
+              "summary": "Fix any of the following:\n  Element has a 1:1 contrast ratio with the background"
+            },
+            {
+              "target": [
+                ".sj-text-link"
+              ],
+              "summary": "Fix any of the following:\n  Element has a 1:1 contrast ratio with the background"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "theme": "light",
+      "route": "/pages/contact",
+      "passes": 25,
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "count": 3,
+          "nodes": [
+            {
+              "target": [
+                "#ContactMessage"
+              ],
+              "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+            },
+            {
+              "target": [
+                ".sj-footer-statement"
+              ],
+              "summary": "Fix any of the following:\n  Element has a 1:1 contrast ratio with the background"
+            },
+            {
+              "target": [
+                ".sj-text-link"
+              ],
+              "summary": "Fix any of the following:\n  Element has a 1:1 contrast ratio with the background"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "theme": "dark",
+      "route": "/",
+      "passes": 23,
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "count": 10,
+          "nodes": [
+            {
+              "target": [
+                ".sj-doorway-link--women > .sj-doorway-top > span:nth-child(1)"
+              ],
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
+            },
+            {
+              "target": [
+                ".sj-doorway-link--women > .sj-doorway-top > span:nth-child(2)"
+              ],
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
+            },
+            {
+              "target": [
+                ".sj-doorway-link--women > .sj-doorway-copy > p"
+              ],
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
+            },
+            {
+              "target": [
+                ".sj-doorway-link--women > .sj-doorway-copy > div > h2"
+              ],
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
+            },
+            {
+              "target": [
+                ".sj-doorway-link--women > .sj-doorway-copy > .sj-doorway-cta"
+              ],
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
+            },
+            {
+              "target": [
+                ".sj-doorway-link--men > .sj-doorway-top > span:nth-child(1)"
+              ],
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
+            },
+            {
+              "target": [
+                ".sj-doorway-link--men > .sj-doorway-top > span:nth-child(2)"
+              ],
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
+            },
+            {
+              "target": [
+                ".sj-doorway-link--men > .sj-doorway-copy > p"
+              ],
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
+            },
+            {
+              "target": [
+                ".sj-doorway-link--men > .sj-doorway-copy > div > h2"
+              ],
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
+            },
+            {
+              "target": [
+                ".sj-doorway-link--men > .sj-doorway-copy > .sj-doorway-cta"
+              ],
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "theme": "dark",
+      "route": "/products/mojito-metallique",
+      "passes": 30,
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "count": 8,
+          "nodes": [
+            {
+              "target": [
+                ".sj-product__breadcrumb > a[href=\"/\"]"
+              ],
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "target": [
+                ".sj-product__breadcrumb > a[href$=\"all\"]"
+              ],
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "target": [
+                "span:nth-child(5)"
+              ],
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "target": [
+                "div[data-sj-media=\"studio-01\"] > .sj-product__image-button[type=\"button\"] > .sj-product__zoom-hint"
+              ],
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "target": [
+                "button[data-sj-gallery-prev=\"\"]"
+              ],
+              "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+            },
+            {
+              "target": [
+                "button[data-sj-gallery-next=\"\"]"
+              ],
+              "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+            },
+            {
+              "target": [
+                ".sj-product__media-caption > span:nth-child(1)"
+              ],
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "target": [
+                ".sj-product__media-caption > span:nth-child(2)"
+              ],
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "theme": "dark",
+      "route": "/collections/womens-perfume",
+      "passes": 23,
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "theme": "dark",
+      "route": "/pages/scent-finder",
+      "passes": 23,
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "theme": "dark",
+      "route": "/pages/contact",
+      "passes": 25,
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "count": 1,
+          "nodes": [
+            {
+              "target": [
+                "#ContactMessage"
+              ],
+              "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,637 @@
+{
+  "generatedAt": "2026-09-24T04:45:56.346Z",
+  "cases": 12,
+  "failures": [],
+  "rows": [
+    {
+      "width": 320,
+      "theme": "light",
+      "layout": {
+        "theme": "light",
+        "overflow": false,
+        "header": {
+          "x": 0,
+          "y": 30,
+          "right": 320,
+          "bottom": 98,
+          "width": 320,
+          "height": 68
+        },
+        "row": [
+          {
+            "x": 16,
+            "y": 55.71875,
+            "right": 120,
+            "bottom": 72.28125,
+            "width": 104,
+            "height": 16.5625
+          },
+          {
+            "x": 128,
+            "y": 42,
+            "right": 304,
+            "bottom": 86,
+            "width": 176,
+            "height": 44
+          }
+        ],
+        "toggle": {
+          "x": 128,
+          "y": 42,
+          "right": 172,
+          "bottom": 86,
+          "width": 44,
+          "height": 44
+        },
+        "label": "Switch to dark mode",
+        "sun": false,
+        "moon": true,
+        "floating": 0,
+        "visibleText": ""
+      },
+      "errors": []
+    },
+    {
+      "width": 320,
+      "theme": "dark",
+      "layout": {
+        "theme": "dark",
+        "overflow": false,
+        "header": {
+          "x": 0,
+          "y": 30,
+          "right": 320,
+          "bottom": 98,
+          "width": 320,
+          "height": 68
+        },
+        "row": [
+          {
+            "x": 16,
+            "y": 55.71875,
+            "right": 120,
+            "bottom": 72.28125,
+            "width": 104,
+            "height": 16.5625
+          },
+          {
+            "x": 128,
+            "y": 42,
+            "right": 304,
+            "bottom": 86,
+            "width": 176,
+            "height": 44
+          }
+        ],
+        "toggle": {
+          "x": 128,
+          "y": 42,
+          "right": 172,
+          "bottom": 86,
+          "width": 44,
+          "height": 44
+        },
+        "label": "Switch to light mode",
+        "sun": true,
+        "moon": false,
+        "floating": 0,
+        "visibleText": ""
+      },
+      "errors": []
+    },
+    {
+      "width": 390,
+      "theme": "light",
+      "layout": {
+        "theme": "light",
+        "overflow": false,
+        "header": {
+          "x": 0,
+          "y": 30,
+          "right": 390,
+          "bottom": 98,
+          "width": 390,
+          "height": 68
+        },
+        "row": [
+          {
+            "x": 16,
+            "y": 52.453125,
+            "right": 161,
+            "bottom": 75.546875,
+            "width": 145,
+            "height": 23.09375
+          },
+          {
+            "x": 198,
+            "y": 42,
+            "right": 374,
+            "bottom": 86,
+            "width": 176,
+            "height": 44
+          }
+        ],
+        "toggle": {
+          "x": 198,
+          "y": 42,
+          "right": 242,
+          "bottom": 86,
+          "width": 44,
+          "height": 44
+        },
+        "label": "Switch to dark mode",
+        "sun": false,
+        "moon": true,
+        "floating": 0,
+        "visibleText": ""
+      },
+      "errors": []
+    },
+    {
+      "width": 390,
+      "theme": "dark",
+      "layout": {
+        "theme": "dark",
+        "overflow": false,
+        "header": {
+          "x": 0,
+          "y": 30,
+          "right": 390,
+          "bottom": 98,
+          "width": 390,
+          "height": 68
+        },
+        "row": [
+          {
+            "x": 16,
+            "y": 52.453125,
+            "right": 161,
+            "bottom": 75.546875,
+            "width": 145,
+            "height": 23.09375
+          },
+          {
+            "x": 198,
+            "y": 42,
+            "right": 374,
+            "bottom": 86,
+            "width": 176,
+            "height": 44
+          }
+        ],
+        "toggle": {
+          "x": 198,
+          "y": 42,
+          "right": 242,
+          "bottom": 86,
+          "width": 44,
+          "height": 44
+        },
+        "label": "Switch to light mode",
+        "sun": true,
+        "moon": false,
+        "floating": 0,
+        "visibleText": ""
+      },
+      "errors": []
+    },
+    {
+      "width": 760,
+      "theme": "light",
+      "layout": {
+        "theme": "light",
+        "overflow": false,
+        "header": {
+          "x": 0,
+          "y": 30,
+          "right": 760,
+          "bottom": 98,
+          "width": 760,
+          "height": 68
+        },
+        "row": [
+          {
+            "x": 16,
+            "y": 52.453125,
+            "right": 161,
+            "bottom": 75.546875,
+            "width": 145,
+            "height": 23.09375
+          },
+          {
+            "x": 568,
+            "y": 42,
+            "right": 744,
+            "bottom": 86,
+            "width": 176,
+            "height": 44
+          }
+        ],
+        "toggle": {
+          "x": 568,
+          "y": 42,
+          "right": 612,
+          "bottom": 86,
+          "width": 44,
+          "height": 44
+        },
+        "label": "Switch to dark mode",
+        "sun": false,
+        "moon": true,
+        "floating": 0,
+        "visibleText": ""
+      },
+      "errors": []
+    },
+    {
+      "width": 760,
+      "theme": "dark",
+      "layout": {
+        "theme": "dark",
+        "overflow": false,
+        "header": {
+          "x": 0,
+          "y": 30,
+          "right": 760,
+          "bottom": 98,
+          "width": 760,
+          "height": 68
+        },
+        "row": [
+          {
+            "x": 16,
+            "y": 52.453125,
+            "right": 161,
+            "bottom": 75.546875,
+            "width": 145,
+            "height": 23.09375
+          },
+          {
+            "x": 568,
+            "y": 42,
+            "right": 744,
+            "bottom": 86,
+            "width": 176,
+            "height": 44
+          }
+        ],
+        "toggle": {
+          "x": 568,
+          "y": 42,
+          "right": 612,
+          "bottom": 86,
+          "width": 44,
+          "height": 44
+        },
+        "label": "Switch to light mode",
+        "sun": true,
+        "moon": false,
+        "floating": 0,
+        "visibleText": ""
+      },
+      "errors": []
+    },
+    {
+      "width": 768,
+      "theme": "light",
+      "layout": {
+        "theme": "light",
+        "overflow": false,
+        "header": {
+          "x": 0,
+          "y": 27.5,
+          "right": 768,
+          "bottom": 109.5,
+          "width": 768,
+          "height": 82
+        },
+        "row": [
+          {
+            "x": 33.015625,
+            "y": 54.5625,
+            "right": 208.015625,
+            "bottom": 82.4375,
+            "width": 175,
+            "height": 27.875
+          },
+          {
+            "x": 278.84375,
+            "y": 59.5,
+            "right": 518.15625,
+            "bottom": 77.5,
+            "width": 239.3125,
+            "height": 18
+          },
+          {
+            "x": 588.984375,
+            "y": 46.5,
+            "right": 734.984375,
+            "bottom": 90.5,
+            "width": 146,
+            "height": 44
+          }
+        ],
+        "toggle": {
+          "x": 588.984375,
+          "y": 46.5,
+          "right": 632.984375,
+          "bottom": 90.5,
+          "width": 44,
+          "height": 44
+        },
+        "label": "Switch to dark mode",
+        "sun": false,
+        "moon": true,
+        "floating": 0,
+        "visibleText": ""
+      },
+      "errors": []
+    },
+    {
+      "width": 768,
+      "theme": "dark",
+      "layout": {
+        "theme": "dark",
+        "overflow": false,
+        "header": {
+          "x": 0,
+          "y": 27.5,
+          "right": 768,
+          "bottom": 109.5,
+          "width": 768,
+          "height": 82
+        },
+        "row": [
+          {
+            "x": 33.015625,
+            "y": 54.5625,
+            "right": 208.015625,
+            "bottom": 82.4375,
+            "width": 175,
+            "height": 27.875
+          },
+          {
+            "x": 278.84375,
+            "y": 59.5,
+            "right": 518.15625,
+            "bottom": 77.5,
+            "width": 239.3125,
+            "height": 18
+          },
+          {
+            "x": 588.984375,
+            "y": 46.5,
+            "right": 734.984375,
+            "bottom": 90.5,
+            "width": 146,
+            "height": 44
+          }
+        ],
+        "toggle": {
+          "x": 588.984375,
+          "y": 46.5,
+          "right": 632.984375,
+          "bottom": 90.5,
+          "width": 44,
+          "height": 44
+        },
+        "label": "Switch to light mode",
+        "sun": true,
+        "moon": false,
+        "floating": 0,
+        "visibleText": ""
+      },
+      "errors": []
+    },
+    {
+      "width": 1024,
+      "theme": "light",
+      "layout": {
+        "theme": "light",
+        "overflow": false,
+        "header": {
+          "x": 0,
+          "y": 27.5,
+          "right": 1024,
+          "bottom": 109.5,
+          "width": 1024,
+          "height": 82
+        },
+        "row": [
+          {
+            "x": 44.03125,
+            "y": 54.5625,
+            "right": 219.03125,
+            "bottom": 82.4375,
+            "width": 175,
+            "height": 27.875
+          },
+          {
+            "x": 406.84375,
+            "y": 59.5,
+            "right": 646.15625,
+            "bottom": 77.5,
+            "width": 239.3125,
+            "height": 18
+          },
+          {
+            "x": 833.96875,
+            "y": 46.5,
+            "right": 979.96875,
+            "bottom": 90.5,
+            "width": 146,
+            "height": 44
+          }
+        ],
+        "toggle": {
+          "x": 833.96875,
+          "y": 46.5,
+          "right": 877.96875,
+          "bottom": 90.5,
+          "width": 44,
+          "height": 44
+        },
+        "label": "Switch to dark mode",
+        "sun": false,
+        "moon": true,
+        "floating": 0,
+        "visibleText": ""
+      },
+      "errors": []
+    },
+    {
+      "width": 1024,
+      "theme": "dark",
+      "layout": {
+        "theme": "dark",
+        "overflow": false,
+        "header": {
+          "x": 0,
+          "y": 27.5,
+          "right": 1024,
+          "bottom": 109.5,
+          "width": 1024,
+          "height": 82
+        },
+        "row": [
+          {
+            "x": 44.03125,
+            "y": 54.5625,
+            "right": 219.03125,
+            "bottom": 82.4375,
+            "width": 175,
+            "height": 27.875
+          },
+          {
+            "x": 406.84375,
+            "y": 59.5,
+            "right": 646.15625,
+            "bottom": 77.5,
+            "width": 239.3125,
+            "height": 18
+          },
+          {
+            "x": 833.96875,
+            "y": 46.5,
+            "right": 979.96875,
+            "bottom": 90.5,
+            "width": 146,
+            "height": 44
+          }
+        ],
+        "toggle": {
+          "x": 833.96875,
+          "y": 46.5,
+          "right": 877.96875,
+          "bottom": 90.5,
+          "width": 44,
+          "height": 44
+        },
+        "label": "Switch to light mode",
+        "sun": true,
+        "moon": false,
+        "floating": 0,
+        "visibleText": ""
+      },
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "theme": "light",
+      "layout": {
+        "theme": "light",
+        "overflow": false,
+        "header": {
+          "x": 0,
+          "y": 27.5,
+          "right": 1440,
+          "bottom": 109.5,
+          "width": 1440,
+          "height": 82
+        },
+        "row": [
+          {
+            "x": 61.90625,
+            "y": 54.5625,
+            "right": 236.90625,
+            "bottom": 82.4375,
+            "width": 175,
+            "height": 27.875
+          },
+          {
+            "x": 542.59375,
+            "y": 59.5,
+            "right": 835.90625,
+            "bottom": 77.5,
+            "width": 293.3125,
+            "height": 18
+          },
+          {
+            "x": 1141.578125,
+            "y": 46.5,
+            "right": 1378.09375,
+            "bottom": 90.5,
+            "width": 236.515625,
+            "height": 44
+          }
+        ],
+        "toggle": {
+          "x": 1141.578125,
+          "y": 46.5,
+          "right": 1185.578125,
+          "bottom": 90.5,
+          "width": 44,
+          "height": 44
+        },
+        "label": "Switch to dark mode",
+        "sun": false,
+        "moon": true,
+        "floating": 0,
+        "visibleText": ""
+      },
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "theme": "dark",
+      "layout": {
+        "theme": "dark",
+        "overflow": false,
+        "header": {
+          "x": 0,
+          "y": 27.5,
+          "right": 1440,
+          "bottom": 109.5,
+          "width": 1440,
+          "height": 82
+        },
+        "row": [
+          {
+            "x": 61.90625,
+            "y": 54.5625,
+            "right": 236.90625,
+            "bottom": 82.4375,
+            "width": 175,
+            "height": 27.875
+          },
+          {
+            "x": 542.59375,
+            "y": 59.5,
+            "right": 835.90625,
+            "bottom": 77.5,
+            "width": 293.3125,
+            "height": 18
+          },
+          {
+            "x": 1141.578125,
+            "y": 46.5,
+            "right": 1378.09375,
+            "bottom": 90.5,
+            "width": 236.515625,
+            "height": 44
+          }
+        ],
+        "toggle": {
+          "x": 1141.578125,
+          "y": 46.5,
+          "right": 1185.578125,
+          "bottom": 90.5,
+          "width": 44,
+          "height": 44
+        },
+        "label": "Switch to light mode",
+        "sun": true,
+        "moon": false,
+        "floating": 0,
+        "visibleText": ""
+      },
+      "errors": []
+    }
+  ],
+  "interactionNotes": [
+    "Keyboard Enter and Space switch modes with corresponding accessible labels and URL state.",
+    "Mode persists when navigating to Women without a visual_theme query.",
+    "At 320px the mobile menu opens and closes with Escape.",
+    "A separate 320px browser check confirmed that the bag drawer and search dialog both open and close."
+  ]
+}

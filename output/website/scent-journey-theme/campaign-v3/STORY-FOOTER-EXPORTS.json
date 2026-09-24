@@ -1,0 +1,54 @@
+[
+  {
+    "file": "sj-banner-story-light.jpg",
+    "original_size": [
+      1916,
+      821
+    ],
+    "web_size": [
+      1800,
+      771
+    ],
+    "original_sha256": "80b013ef6ae50c1f58ca42b36c483e22d4bcc1555a32f1a43c7410639bd3a4d6",
+    "web_sha256": "55d2c0e236fc665012fda48e8cde90edf1195b0e2ddd64ed2e837b35956adf17"
+  },
+  {
+    "file": "sj-banner-story-dark.jpg",
+    "original_size": [
+      1915,
+      821
+    ],
+    "web_size": [
+      1800,
+      772
+    ],
+    "original_sha256": "431165829ff03d0a5bc7412cd08e21557039bdfb913c5f5f7efb6b73c385298f",
+    "web_sha256": "5095b54e2c1a37347b1c59585c784c71cce18b23e411902b2fd17dc23227db3e"
+  },
+  {
+    "file": "sj-banner-footer-light.jpg",
+    "original_size": [
+      1915,
+      821
+    ],
+    "web_size": [
+      1800,
+      772
+    ],
+    "original_sha256": "8402cd6326477e9e6e00aa0a8f7da54ef46ad9b63dc2046d00542568dc430692",
+    "web_sha256": "ec240f32c109ac50f9f838785a8c074de45000d73f3e1b6b7f15ab7d32618a64"
+  },
+  {
+    "file": "sj-banner-footer-dark.jpg",
+    "original_size": [
+      1916,
+      821
+    ],
+    "web_size": [
+      1800,
+      771
+    ],
+    "original_sha256": "92aca151d9d1c18e4bbc16e444d9d797fec266ceba45b8bef330148cbc99f1a3",
+    "web_sha256": "00be5a123f32ed6692d8e1de93eda6aac035821775508c4c78de631f930ee102"
+  }
+]

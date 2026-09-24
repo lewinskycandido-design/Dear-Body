@@ -1,0 +1,339 @@
+{
+  "generatedAt": "2026-09-24T11:18:42.646Z",
+  "status": "PASS",
+  "checks": 82,
+  "results": [
+    {
+      "label": "No-JS ordering is hidden/disabled while native product links remain",
+      "pass": true
+    },
+    {
+      "label": "Valid catalog enables card buttons and cross selector",
+      "pass": true
+    },
+    {
+      "label": "Fallback CTA hides only after enhanced controls are wired",
+      "pass": true
+    },
+    {
+      "label": "Zero-selection submit is disabled and panel remains hidden",
+      "pass": true
+    },
+    {
+      "label": "Empty native checkout is rejected",
+      "pass": true
+    },
+    {
+      "label": "First order opens the same panel after the clicked desktop row",
+      "pass": true
+    },
+    {
+      "label": "All available card controls report the shared panel expanded",
+      "pass": true
+    },
+    {
+      "label": "First selection focuses the order heading",
+      "pass": true
+    },
+    {
+      "label": "One799 scent displays subtotal799 shipping80 total879",
+      "pass": true
+    },
+    {
+      "label": "One selection has one removable native product link",
+      "pass": true
+    },
+    {
+      "label": "Selection exposes only native IDs and exact quantities for the COD bridge",
+      "pass": true
+    },
+    {
+      "label": "Selected card has clear Added and pressed state",
+      "pass": true
+    },
+    {
+      "label": "Mobile390 places the same panel below all three cards",
+      "pass": true
+    },
+    {
+      "label": "Moving to mobile preserves quantity node value focus and selection",
+      "pass": true
+    },
+    {
+      "label": "Two-column breakpoint999 keeps form after every card",
+      "pass": true
+    },
+    {
+      "label": "Desktop breakpoint1000 restores placement after the clicked row",
+      "pass": true
+    },
+    {
+      "label": "Returning to desktop preserves focused quantity and text selection",
+      "pass": true
+    },
+    {
+      "label": "Mobile320 always keeps form after the final card",
+      "pass": true
+    },
+    {
+      "label": "Line quantity starts at the native minimum and has a product-specific accessible label",
+      "pass": true
+    },
+    {
+      "label": "Increasing one scent to2 gives free shipping and native quantity2",
+      "pass": true
+    },
+    {
+      "label": "Quantity step preserves the same input and button focus",
+      "pass": true
+    },
+    {
+      "label": "Line price is unit price multiplied by quantity",
+      "pass": true
+    },
+    {
+      "label": "Responsive relocation preserves quantity input value and focus",
+      "pass": true
+    },
+    {
+      "label": "Returning to1 restores80 shipping and preserves boundary focus",
+      "pass": true
+    },
+    {
+      "label": "Decrease at minimum does not silently remove the line",
+      "pass": true
+    },
+    {
+      "label": "Typing quantity preserves the input node and focus while recalculating",
+      "pass": true
+    },
+    {
+      "label": "Invalid quantity \"\" remains visible and cannot reach checkout",
+      "pass": true
+    },
+    {
+      "label": "Invalid quantity \"0\" remains visible and cannot reach checkout",
+      "pass": true
+    },
+    {
+      "label": "Invalid quantity \"1.5\" remains visible and cannot reach checkout",
+      "pass": true
+    },
+    {
+      "label": "Invalid quantity \"no\" remains visible and cannot reach checkout",
+      "pass": true
+    },
+    {
+      "label": "Invalid quantity \"-1\" remains visible and cannot reach checkout",
+      "pass": true
+    },
+    {
+      "label": "Invalid quantity \"1e2\" remains visible and cannot reach checkout",
+      "pass": true
+    },
+    {
+      "label": "Valid correction clears quantity errors and restores checkout",
+      "pass": true
+    },
+    {
+      "label": "Adding another card moves same panel after its row",
+      "pass": true
+    },
+    {
+      "label": "Panel movement preserves selected quantity",
+      "pass": true
+    },
+    {
+      "label": "Adding another card leaves focus on that card control",
+      "pass": true
+    },
+    {
+      "label": "Two items total1598 and qualify for free shipping",
+      "pass": true
+    },
+    {
+      "label": "Mixed scent quantities sum five bottles and encode each real quantity",
+      "pass": true
+    },
+    {
+      "label": "Mixed quantity edits preserve both line values and input focus",
+      "pass": true
+    },
+    {
+      "label": "Repeated selected card focuses existing quantity without duplicating",
+      "pass": true
+    },
+    {
+      "label": "Repeated selected card is idempotent",
+      "pass": true
+    },
+    {
+      "label": "Distinct native variant IDs remain valid one-unit selections",
+      "pass": true
+    },
+    {
+      "label": "Opposite collection selection automatically adds to same order",
+      "pass": true
+    },
+    {
+      "label": "Cross selection resets placeholder and preserves keyboard focus",
+      "pass": true
+    },
+    {
+      "label": "Selected opposite option becomes disabled",
+      "pass": true
+    },
+    {
+      "label": "All six unique native scents can share one checkout",
+      "pass": true
+    },
+    {
+      "label": "Sold-out native variant is rejected without adding",
+      "pass": true
+    },
+    {
+      "label": "Unlisted/malformed selected ID is rejected",
+      "pass": true
+    },
+    {
+      "label": "Removing opposite scent reenables its option and updates total",
+      "pass": true
+    },
+    {
+      "label": "Removal returns focus to a remaining line control",
+      "pass": true
+    },
+    {
+      "label": "Removed card returns to original Order state",
+      "pass": true
+    },
+    {
+      "label": "Removing down to one restores80 shipping and879 total",
+      "pass": true
+    },
+    {
+      "label": "Foreign-currency single-item shipping is honestly deferred",
+      "pass": true
+    },
+    {
+      "label": "Collection flow no longer collects or serializes delivery details",
+      "pass": true
+    },
+    {
+      "label": "Missing COD bridge gives an honest retry error without navigation",
+      "pass": true
+    },
+    {
+      "label": "Repeated submission calls COD bridge once with exact selected items and form",
+      "pass": true
+    },
+    {
+      "label": "Pending app preparation disables order controls with honest loading text",
+      "pass": true
+    },
+    {
+      "label": "Stale add events cannot change a pending COD selection",
+      "pass": true
+    },
+    {
+      "label": "Opening app restores controls and retains quantity input node",
+      "pass": true
+    },
+    {
+      "label": "Opening the app does not claim a real order was placed",
+      "pass": true
+    },
+    {
+      "label": "Bridge failure stays visible and restores retry controls",
+      "pass": true
+    },
+    {
+      "label": "Same-scent quantity2 is passed intact to bridge",
+      "pass": true
+    },
+    {
+      "label": "Stale pending response cannot overwrite a newer checkout",
+      "pass": true
+    },
+    {
+      "label": "Removing all scents clears selection and blocks COD checkout",
+      "pass": true
+    },
+    {
+      "label": "Filters keep their own native GET contract",
+      "pass": true
+    },
+    {
+      "label": "No cart API calls or address storage writes occurred",
+      "pass": true
+    },
+    {
+      "label": "No unexpected runtime errors",
+      "pass": true
+    },
+    {
+      "label": "Native min/max/increment initialize controls and quantity2 shipping",
+      "pass": true
+    },
+    {
+      "label": "Native increment controls step2 to4",
+      "pass": true
+    },
+    {
+      "label": "Native maximum prevents stepping beyond6",
+      "pass": true
+    },
+    {
+      "label": "Native quantity rule rejects 1",
+      "pass": true
+    },
+    {
+      "label": "Native quantity rule rejects 3",
+      "pass": true
+    },
+    {
+      "label": "Native quantity rule rejects 8",
+      "pass": true
+    },
+    {
+      "label": "A different native price changes estimate rather than assuming799",
+      "pass": true
+    },
+    {
+      "label": "Missing native price never becomes a false zero",
+      "pass": true
+    },
+    {
+      "label": "Invalid catalog leaves native links and disabled enhancement intact",
+      "pass": true
+    },
+    {
+      "label": "Actual native Liquid exports quantity rules for all six catalog variants",
+      "pass": true
+    },
+    {
+      "label": "Actual Liquid quantity controls wire to native minimum and shipping",
+      "pass": true
+    },
+    {
+      "label": "Actual quantity template occupies its own direct grid child for mobile wrapping",
+      "pass": true
+    },
+    {
+      "label": "Actual native template provides quantity4 to COD handoff",
+      "pass": true
+    },
+    {
+      "label": "Actual native template replaces address fields with honest COD instructions",
+      "pass": true
+    },
+    {
+      "label": "First mobile card selection opens the form after all cards using the CSS breakpoint",
+      "pass": true
+    }
+  ],
+  "fetches": 0,
+  "storageWrites": 0,
+  "blockedNavigationAttempts": 0,
+  "scope": "Synthetic JSDOM fixtures; no actual cart mutations, orders, address storage, or live Shopify checkout acceptance. Native inventory/prices/quantity rules are fixture inputs. Tests cover editable line quantity, summed-unit shipping, native limits and validation without input recreation."
+}

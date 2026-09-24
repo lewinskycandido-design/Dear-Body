@@ -1,0 +1,68 @@
+{
+  "results": [
+    {
+      "route": "/compare",
+      "requests": [
+        "http://127.0.0.1:4208/assets/HelveticaNowDisplay-Light.woff2",
+        "http://127.0.0.1:4208/assets/CenzoFlare-Bold.woff2",
+        "http://127.0.0.1:4208/assets/CenzoFlare-Bold.woff2",
+        "http://127.0.0.1:4208/assets/HelveticaNowDisplay-Light.woff2",
+        "http://127.0.0.1:4208/assets/CenzoFlare-Bold.woff2",
+        "http://127.0.0.1:4208/assets/HelveticaNowDisplay-Light.woff2"
+      ],
+      "family": "HelveticaNow, Arial, sans-serif",
+      "weight": "300",
+      "heading": "Cenzo, Arial, sans-serif",
+      "faces": [
+        {
+          "family": "Cenzo",
+          "status": "loaded",
+          "weight": "700"
+        },
+        {
+          "family": "HelveticaNow",
+          "status": "loaded",
+          "weight": "300"
+        }
+      ],
+      "overflow": false,
+      "iframeFonts": [
+        {
+          "family": "\"Helvetica Now Display\", \"Helvetica Neue\", Arial, sans-serif",
+          "weight": "300"
+        },
+        {
+          "family": "\"Helvetica Now Display\", \"Helvetica Neue\", Arial, sans-serif",
+          "weight": "300"
+        }
+      ],
+      "pass": true
+    },
+    {
+      "route": "/gallery-review",
+      "requests": [
+        "http://127.0.0.1:4208/assets/HelveticaNowDisplay-Light.woff2",
+        "http://127.0.0.1:4208/assets/CenzoFlare-Bold.woff2"
+      ],
+      "family": "HelveticaNow, Arial, sans-serif",
+      "weight": "300",
+      "heading": "Cenzo, Arial, sans-serif",
+      "faces": [
+        {
+          "family": "Cenzo",
+          "status": "loaded",
+          "weight": "700"
+        },
+        {
+          "family": "HelveticaNow",
+          "status": "loaded",
+          "weight": "300"
+        }
+      ],
+      "overflow": false,
+      "iframeFonts": [],
+      "pass": true
+    }
+  ],
+  "status": "PASS"
+}

@@ -1,0 +1,6 @@
+{% if settings.favicon != blank %}
+  <link rel="icon" type="image/png" href="{{ settings.favicon | image_url: width: 64 }}">
+{% else %}
+  <link rel="icon" type="image/png" href="{{ 'sj-logo-official-dark.png' | asset_url }}">
+  <link rel="icon" type="image/svg+xml" sizes="any" href="{{ 'sj-favicon.svg' | asset_url }}">
+{% endif %}

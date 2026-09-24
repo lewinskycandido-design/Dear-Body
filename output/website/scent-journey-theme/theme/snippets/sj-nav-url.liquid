@@ -1,0 +1,11 @@
+{%- liquid
+  assign nav_url = url | default: fallback
+  assign nav_root = routes.root_url | default: '/'
+  assign pages_prefix = nav_url | slice: 0, 7
+  assign collections_prefix = nav_url | slice: 0, 13
+  assign policies_prefix = nav_url | slice: 0, 10
+  if pages_prefix == '/pages/' or collections_prefix == '/collections/' or policies_prefix == '/policies/'
+    assign nav_url = nav_root | append: nav_url | replace: '//', '/'
+  endif
+  echo nav_url | escape
+-%}

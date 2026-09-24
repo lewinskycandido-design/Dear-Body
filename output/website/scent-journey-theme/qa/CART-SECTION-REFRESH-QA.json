@@ -1,0 +1,115 @@
+{
+  "generatedAt": "2026-09-24T08:08:27.850Z",
+  "status": "PASS",
+  "checks": 22,
+  "results": [
+    {
+      "name": "Finder draft page: section request avoids resource JSON negotiation",
+      "pass": true
+    },
+    {
+      "name": "Finder draft page: draft theme context retained",
+      "pass": true
+    },
+    {
+      "name": "Finder draft page: view and preview flags retained",
+      "pass": true
+    },
+    {
+      "name": "Finder draft page: correct section and no URL fragment",
+      "pass": true
+    },
+    {
+      "name": "Finder draft page: locale-aware cart JSON endpoint keeps JSON Accept",
+      "pass": true
+    },
+    {
+      "name": "Finder draft page: native drawer content replaces stale content",
+      "pass": true
+    },
+    {
+      "name": "Finder draft page: no refresh alert with native section response",
+      "pass": true,
+      "detail": {
+        "error": ""
+      }
+    },
+    {
+      "name": "Finder draft page: empty cart count and shipping condition preserved",
+      "pass": true
+    },
+    {
+      "name": "Finder draft page: drawer stays open and close control regains focus",
+      "pass": true
+    },
+    {
+      "name": "Finder draft page: all requests are read-only",
+      "pass": true
+    },
+    {
+      "name": "Localized FAQ draft page: section request avoids resource JSON negotiation",
+      "pass": true
+    },
+    {
+      "name": "Localized FAQ draft page: draft theme context retained",
+      "pass": true
+    },
+    {
+      "name": "Localized FAQ draft page: view and preview flags retained",
+      "pass": true
+    },
+    {
+      "name": "Localized FAQ draft page: correct section and no URL fragment",
+      "pass": true
+    },
+    {
+      "name": "Localized FAQ draft page: locale-aware cart JSON endpoint keeps JSON Accept",
+      "pass": true
+    },
+    {
+      "name": "Localized FAQ draft page: native drawer content replaces stale content",
+      "pass": true
+    },
+    {
+      "name": "Localized FAQ draft page: no refresh alert with native section response",
+      "pass": true,
+      "detail": {
+        "error": ""
+      }
+    },
+    {
+      "name": "Localized FAQ draft page: empty cart count and shipping condition preserved",
+      "pass": true
+    },
+    {
+      "name": "Localized FAQ draft page: drawer stays open and close control regains focus",
+      "pass": true
+    },
+    {
+      "name": "Localized FAQ draft page: all requests are read-only",
+      "pass": true
+    },
+    {
+      "name": "Previous Accept header: negative control reproduces native resource JSON failure",
+      "pass": true,
+      "detail": {
+        "error": "Your bag has changed, but we couldn’t refresh this view. Open the bag page to see the latest details."
+      }
+    },
+    {
+      "name": "Previous Accept header: response shape is native page object without requested section",
+      "pass": true
+    }
+  ],
+  "nativeEvidence": {
+    "source": "https://dearbody.ph/pages/scent-finder?preview_theme_id=167080427585&_ab=0&_fd=0&_sc=1&sections=sj-cart-drawer",
+    "capturedAt": "2026-09-24T08:07:23.633896+00:00",
+    "pageResourceKeys": [
+      "page"
+    ],
+    "sectionKeys": [
+      "sj-cart-drawer"
+    ]
+  },
+  "scope": "Only anonymous GET payloads captured. DOM requests are fixture simulations; no cart, order, policy or page mutation."
+}

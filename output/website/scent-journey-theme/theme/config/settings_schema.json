@@ -1,0 +1,182 @@
+[
+  {
+    "name": "theme_info",
+    "theme_name": "DearBody Scent Journey",
+    "theme_version": "1.0.0",
+    "theme_author": "DearBody Philippines",
+    "theme_documentation_url": "https://help.shopify.com/manual/online-store/themes",
+    "theme_support_url": "https://help.shopify.com/"
+  },
+  {
+    "name": "Visual direction",
+    "settings": [
+      {
+        "type": "select",
+        "id": "visual_theme",
+        "label": "Visual theme",
+        "options": [
+          {
+            "value": "light",
+            "label": "DearBody Light"
+          },
+          {
+            "value": "dark",
+            "label": "DearBody Dark"
+          }
+        ],
+        "default": "light"
+      },
+      {
+        "type": "checkbox",
+        "id": "compare_mode",
+        "label": "Show sun/moon switch in navigation",
+        "default": true
+      },
+      {
+        "type": "paragraph",
+        "content": "Both directions use the same products, sections and native Shopify commerce. The sun/moon icon in the navigation lets visitors switch directions. Turn it off to keep only your chosen direction."
+      }
+    ]
+  },
+  {
+    "name": "Original brand artwork",
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "logo_light",
+        "label": "Official primary logo for light surfaces"
+      },
+      {
+        "type": "image_picker",
+        "id": "logo_dark",
+        "label": "Official primary logo for dark surfaces"
+      },
+      {
+        "type": "image_picker",
+        "id": "secondary_logo",
+        "label": "Official secondary logo"
+      },
+      {
+        "type": "image_picker",
+        "id": "favicon",
+        "label": "Favicon",
+        "info": "Defaults to the official DearBody emblem. Upload an image to override it."
+      },
+      {
+        "type": "url",
+        "id": "display_font_url",
+        "label": "Cenzo Flare Bold WOFF2 override URL"
+      },
+      {
+        "type": "url",
+        "id": "body_font_url",
+        "label": "Helvetica Now Display WOFF2 override URL"
+      },
+      {
+        "type": "url",
+        "id": "body_bold_font_url",
+        "label": "Optional Helvetica Now Display Bold WOFF2 URL"
+      },
+      {
+        "type": "paragraph",
+        "content": "The supplied Cenzo Flare Bold and Helvetica Now Display Light webfonts are bundled. These optional URLs override them. Transparent original logos from dearbody.com can be replaced using the logo pickers."
+      }
+    ]
+  },
+  {
+    "name": "Shop navigation",
+    "settings": [
+      {
+        "type": "collection",
+        "id": "women_collection",
+        "label": "Women collection"
+      },
+      {
+        "type": "collection",
+        "id": "men_collection",
+        "label": "Men collection"
+      },
+      {
+        "type": "url",
+        "id": "finder_url",
+        "label": "Scent Finder page"
+      },
+      {
+        "type": "url",
+        "id": "story_url",
+        "label": "Our Story page"
+      },
+      {
+        "type": "url",
+        "id": "contact_url",
+        "label": "Contact page"
+      }
+    ]
+  },
+  {
+    "name": "Layout and spacing",
+    "settings": [
+      {
+        "type": "range",
+        "id": "page_width",
+        "label": "Maximum page width",
+        "min": 1200,
+        "max": 2000,
+        "step": 100,
+        "unit": "px",
+        "default": 1800
+      },
+      {
+        "type": "range",
+        "id": "section_spacing",
+        "label": "Desktop section spacing",
+        "min": 48,
+        "max": 160,
+        "step": 8,
+        "unit": "px",
+        "default": 112
+      },
+      {
+        "type": "range",
+        "id": "mobile_section_spacing",
+        "label": "Mobile section spacing",
+        "min": 40,
+        "max": 88,
+        "step": 4,
+        "unit": "px",
+        "default": 64
+      },
+      {
+        "type": "select",
+        "id": "editorial_alignment",
+        "label": "Hero copy alignment",
+        "options": [
+          {
+            "value": "left",
+            "label": "Left"
+          },
+          {
+            "value": "center",
+            "label": "Centered"
+          }
+        ],
+        "default": "left"
+      }
+    ]
+  },
+  {
+    "name": "Regenerated launch gallery",
+    "settings": [
+      {
+        "type": "checkbox",
+        "id": "regenerated_product_media",
+        "label": "Use bundled regenerated launch images",
+        "default": true
+      },
+      {
+        "type": "paragraph",
+        "content": "Uses the twelve fresh images bundled for each launch scent. Native Shopify product data, price, stock and cart remain unchanged. Products with multiple variants or video use their native Shopify media to preserve variant and video behavior."
+      }
+    ]
+  }
+]

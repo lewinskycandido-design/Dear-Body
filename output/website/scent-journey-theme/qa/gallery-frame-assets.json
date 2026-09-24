@@ -1,0 +1,19 @@
+[
+  {
+    "file": "sj-gallery-frame-v1.jpg",
+    "source": "theme/assets/sj-gallery-frame-v1.jpg",
+    "sha256": "9f7aa342c61c9869973f71b9f2b18db7985de763c014e84e3374596ca85ffb3f",
+    "original": "campaign-v12-gallery-frame/originals/dearbody-editorial-frame.png",
+    "original_sha256": "80cc3365b33c75945c2d4e6fafc88b7c6d9fdda8651ba2e5a5fde2afc3aa611a",
+    "width": 1200,
+    "height": 1200,
+    "bytes": 217402,
+    "format": "JPEG",
+    "original_width": 1254,
+    "original_height": 1254,
+    "original_bytes": 1315378,
+    "original_format": "PNG",
+    "prompt_provenance": "campaign-v12-gallery-frame/README.md",
+    "purpose": "Decorative gallery frame only; original product photographs and zoom assets remain unchanged."
+  }
+]

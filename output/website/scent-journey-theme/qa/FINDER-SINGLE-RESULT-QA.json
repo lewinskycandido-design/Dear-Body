@@ -1,0 +1,1897 @@
+{
+  "generatedAt": "2026-09-24T04:30:18.470Z",
+  "base": "http://127.0.0.1:4208",
+  "fixtureInjection": false,
+  "nativeTests": [
+    {
+      "script": "finder-dom-qa.cjs",
+      "pass": true,
+      "output": "Finder native DOM QA passed: five-question launch, required selection, focus, back persistence, collection-change reset, exactly one Rtulle match, one collection-only suggestion, stable first tie, stock labels and singular honest skipped discovery.\n"
+    },
+    {
+      "script": "finder-scoring-qa.cjs",
+      "pass": true,
+      "output": "PASS Normalization supports native list and text metafield formats\nPASS Five questions derive from the six real starter profiles\nPASS Collection hard filter normalizes values and allows an open-browsing skip\nPASS Later choices narrow to the selected collection while collection options stay available\nPASS Style has highest individual weight and outranks combined occasion and feel\nPASS Skipped choices never manufacture matches or scores\nPASS Ties remain stable and repeated matching labels are explained once\nPASS mojito-metallique is reachable as top match with its own traits\nPASS amber-oud-silk is reachable as top match with its own traits\nPASS mistened-narcissus is reachable as top match with its own traits\nPASS oud-mirage is reachable as top match with its own traits\nPASS charme-envoutant is reachable as top match with its own traits\nPASS rtulle-satin is reachable as top match with its own traits\nFinder scoring QA: 13 scenarios passed, including all six native-profile top-match paths.\n"
+    }
+  ],
+  "runs": [
+    {
+      "id": "ranked-women-light-desktop",
+      "theme": "light",
+      "width": 1440,
+      "kind": "ranked",
+      "answers": {
+        "collection": "Women",
+        "mood": "Bright & playful",
+        "character": "Creamy & fruity",
+        "occasion": "Coffee & catch-ups",
+        "intensity": "Soft & airy"
+      },
+      "errors": [],
+      "candidates": [
+        {
+          "handle": "mojito-metallique",
+          "id": 10314869571649,
+          "score": 10
+        },
+        {
+          "handle": "mistened-narcissus",
+          "id": 10314865016897,
+          "score": 4
+        }
+      ],
+      "expected": "mojito-metallique",
+      "cards": [
+        {
+          "id": "10314869571649",
+          "title": "Mojito Metallique",
+          "href": "/products/mojito-metallique",
+          "price": "\u20b1799.00\n\u20b11,099.00",
+          "badge": "SOLD OUT",
+          "label": "YOUR SCENT MATCH",
+          "reason": "Connects with your choices: Bright & playful \u00b7 Creamy & fruity \u00b7 Coffee & catch-ups \u00b7 Soft & airy."
+        }
+      ],
+      "summary": "This is your recommended scent based on the answers you chose.",
+      "layout": {
+        "overflow": false,
+        "headingOverflow": [],
+        "h1Count": 1,
+        "gridWidth": 440,
+        "gridLeft": 61.90625,
+        "resultsLeft": 61.90625,
+        "columns": "440px",
+        "focusQuestion": false,
+        "focusResult": true
+      },
+      "destination": {
+        "url": "http://127.0.0.1:4208/products/mojito-metallique",
+        "h1Count": 1,
+        "h1": "MOJITO METALLIQUE"
+      },
+      "status": "PASS"
+    },
+    {
+      "id": "ranked-men-dark-mobile",
+      "theme": "dark",
+      "width": 390,
+      "kind": "ranked",
+      "answers": {
+        "collection": "Men",
+        "mood": "Warm & inviting",
+        "character": "Warm spice",
+        "occasion": "Evenings out",
+        "intensity": "Rich & deep"
+      },
+      "errors": [],
+      "candidates": [
+        {
+          "handle": "charme-envoutant",
+          "id": 10314005020737,
+          "score": 10
+        },
+        {
+          "handle": "rtulle-satin",
+          "id": 10314853449793,
+          "score": 4
+        },
+        {
+          "handle": "oud-mirage",
+          "id": 10314853515329,
+          "score": 2
+        }
+      ],
+      "expected": "charme-envoutant",
+      "cards": [
+        {
+          "id": "10314005020737",
+          "title": "Charme Envo\u00fbtant",
+          "href": "/products/charme-envoutant",
+          "price": "\u20b1799.00",
+          "badge": "SOLD OUT",
+          "label": "YOUR SCENT MATCH",
+          "reason": "Connects with your choices: Warm & inviting \u00b7 Warm spice \u00b7 Evenings out \u00b7 Rich & deep."
+        }
+      ],
+      "summary": "This is your recommended scent based on the answers you chose.",
+      "layout": {
+        "overflow": false,
+        "headingOverflow": [],
+        "h1Count": 1,
+        "gridWidth": 346,
+        "gridLeft": 22,
+        "resultsLeft": 22,
+        "columns": "346px",
+        "focusQuestion": false,
+        "focusResult": true
+      },
+      "destination": {
+        "url": "http://127.0.0.1:4208/products/charme-envoutant",
+        "h1Count": 1,
+        "h1": "CHARME ENVO\u00dbTANT"
+      },
+      "status": "PASS"
+    },
+    {
+      "id": "tie-men-light-mobile",
+      "theme": "light",
+      "width": 390,
+      "kind": "tie",
+      "answers": {
+        "collection": "Men",
+        "mood": "",
+        "character": "",
+        "occasion": "Evenings out",
+        "intensity": ""
+      },
+      "errors": [],
+      "candidates": [
+        {
+          "handle": "oud-mirage",
+          "id": 10314853515329,
+          "score": 1
+        },
+        {
+          "handle": "rtulle-satin",
+          "id": 10314853449793,
+          "score": 1
+        },
+        {
+          "handle": "charme-envoutant",
+          "id": 10314005020737,
+          "score": 1
+        }
+      ],
+      "expected": "oud-mirage",
+      "cards": [
+        {
+          "id": "10314853515329",
+          "title": "Oud Mirage",
+          "href": "/products/oud-mirage",
+          "price": "\u20b1799.00",
+          "badge": "SOLD OUT",
+          "label": "YOUR SCENT MATCH",
+          "reason": "Connects with your choices: Evenings out."
+        }
+      ],
+      "summary": "This is your recommended scent based on the answers you chose.",
+      "layout": {
+        "overflow": false,
+        "headingOverflow": [],
+        "h1Count": 1,
+        "gridWidth": 346,
+        "gridLeft": 22,
+        "resultsLeft": 22,
+        "columns": "346px",
+        "focusQuestion": false,
+        "focusResult": true
+      },
+      "destination": {
+        "url": "http://127.0.0.1:4208/products/oud-mirage",
+        "h1Count": 1,
+        "h1": "OUD MIRAGE"
+      },
+      "status": "PASS"
+    },
+    {
+      "id": "all-skipped-dark-desktop",
+      "theme": "dark",
+      "width": 1440,
+      "kind": "discovery",
+      "answers": {
+        "collection": "",
+        "mood": "",
+        "character": "",
+        "occasion": "",
+        "intensity": ""
+      },
+      "errors": [],
+      "candidates": [],
+      "expected": "mistened-narcissus",
+      "cards": [
+        {
+          "id": "10314865016897",
+          "title": "Mistened Narcissus",
+          "href": "/products/mistened-narcissus",
+          "price": "\u20b1799.00",
+          "badge": "SOLD OUT",
+          "label": "A SCENT TO EXPLORE",
+          "reason": "Explore its scent story and see what speaks to you."
+        }
+      ],
+      "summary": "You kept your options open. Start with this scent and see how it feels to you.",
+      "layout": {
+        "overflow": false,
+        "headingOverflow": [],
+        "h1Count": 1,
+        "gridWidth": 440,
+        "gridLeft": 61.90625,
+        "resultsLeft": 61.90625,
+        "columns": "440px",
+        "focusQuestion": false,
+        "focusResult": true
+      },
+      "destination": {
+        "url": "http://127.0.0.1:4208/products/mistened-narcissus",
+        "h1Count": 1,
+        "h1": "MISTENED NARCISSUS"
+      },
+      "status": "PASS"
+    },
+    {
+      "id": "collection-women-light-mobile",
+      "theme": "light",
+      "width": 390,
+      "kind": "discovery",
+      "answers": {
+        "collection": "Women",
+        "mood": "",
+        "character": "",
+        "occasion": "",
+        "intensity": ""
+      },
+      "errors": [],
+      "candidates": [],
+      "expected": "mistened-narcissus",
+      "cards": [
+        {
+          "id": "10314865016897",
+          "title": "Mistened Narcissus",
+          "href": "/products/mistened-narcissus",
+          "price": "\u20b1799.00",
+          "badge": "SOLD OUT",
+          "label": "A SCENT TO EXPLORE",
+          "reason": "Explore its scent story and see what speaks to you."
+        }
+      ],
+      "summary": "You kept your options open. Start with this scent and see how it feels to you.",
+      "layout": {
+        "overflow": false,
+        "headingOverflow": [],
+        "h1Count": 1,
+        "gridWidth": 346,
+        "gridLeft": 22,
+        "resultsLeft": 22,
+        "columns": "346px",
+        "focusQuestion": false,
+        "focusResult": true
+      },
+      "destination": {
+        "url": "http://127.0.0.1:4208/products/mistened-narcissus",
+        "h1Count": 1,
+        "h1": "MISTENED NARCISSUS"
+      },
+      "status": "PASS"
+    },
+    {
+      "id": "collection-men-dark-desktop",
+      "theme": "dark",
+      "width": 1440,
+      "kind": "discovery",
+      "answers": {
+        "collection": "Men",
+        "mood": "",
+        "character": "",
+        "occasion": "",
+        "intensity": ""
+      },
+      "errors": [],
+      "candidates": [],
+      "expected": "oud-mirage",
+      "cards": [
+        {
+          "id": "10314853515329",
+          "title": "Oud Mirage",
+          "href": "/products/oud-mirage",
+          "price": "\u20b1799.00",
+          "badge": "SOLD OUT",
+          "label": "A SCENT TO EXPLORE",
+          "reason": "Explore its scent story and see what speaks to you."
+        }
+      ],
+      "summary": "You kept your options open. Start with this scent and see how it feels to you.",
+      "layout": {
+        "overflow": false,
+        "headingOverflow": [],
+        "h1Count": 1,
+        "gridWidth": 440,
+        "gridLeft": 61.90625,
+        "resultsLeft": 61.90625,
+        "columns": "440px",
+        "focusQuestion": false,
+        "focusResult": true
+      },
+      "destination": {
+        "url": "http://127.0.0.1:4208/products/oud-mirage",
+        "h1Count": 1,
+        "h1": "OUD MIRAGE"
+      },
+      "status": "PASS"
+    }
+  ],
+  "checks": [
+    {
+      "pass": true,
+      "label": "Native test passes",
+      "script": "finder-dom-qa.cjs"
+    },
+    {
+      "pass": true,
+      "label": "Native test passes",
+      "script": "finder-scoring-qa.cjs"
+    },
+    {
+      "pass": true,
+      "label": "Finder page responds successfully",
+      "id": "ranked-women-light-desktop",
+      "status": 200
+    },
+    {
+      "pass": true,
+      "label": "Requested visual theme is active",
+      "id": "ranked-women-light-desktop"
+    },
+    {
+      "pass": true,
+      "label": "Actual native profile supplies the expected result",
+      "id": "ranked-women-light-desktop"
+    },
+    {
+      "pass": true,
+      "label": "Ranking retains multiple positive candidates before UI selection",
+      "id": "ranked-women-light-desktop",
+      "count": 2
+    },
+    {
+      "pass": true,
+      "label": "Targeted path has a unique highest score",
+      "id": "ranked-women-light-desktop"
+    },
+    {
+      "pass": true,
+      "label": "Question order is correct",
+      "id": "ranked-women-light-desktop",
+      "step": 1
+    },
+    {
+      "pass": true,
+      "label": "Question has one H1 and no horizontal or heading overflow",
+      "id": "ranked-women-light-desktop",
+      "step": 1,
+      "layout": {
+        "overflow": false,
+        "headingOverflow": [],
+        "h1Count": 1,
+        "gridWidth": 0,
+        "gridLeft": 0,
+        "resultsLeft": 0,
+        "columns": "minmax(0px, 1fr)",
+        "focusQuestion": false,
+        "focusResult": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Question order is correct",
+      "id": "ranked-women-light-desktop",
+      "step": 2
+    },
+    {
+      "pass": true,
+      "label": "Question has one H1 and no horizontal or heading overflow",
+      "id": "ranked-women-light-desktop",
+      "step": 2,
+      "layout": {
+        "overflow": false,
+        "headingOverflow": [],
+        "h1Count": 1,
+        "gridWidth": 0,
+        "gridLeft": 0,
+        "resultsLeft": 0,
+        "columns": "minmax(0px, 1fr)",
+        "focusQuestion": true,
+        "focusResult": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Question order is correct",
+      "id": "ranked-women-light-desktop",
+      "step": 3
+    },
+    {
+      "pass": true,
+      "label": "Question has one H1 and no horizontal or heading overflow",
+      "id": "ranked-women-light-desktop",
+      "step": 3,
+      "layout": {
+        "overflow": false,
+        "headingOverflow": [],
+        "h1Count": 1,
+        "gridWidth": 0,
+        "gridLeft": 0,
+        "resultsLeft": 0,
+        "columns": "minmax(0px, 1fr)",
+        "focusQuestion": true,
+        "focusResult": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Question order is correct",
+      "id": "ranked-women-light-desktop",
+      "step": 4
+    },
+    {
+      "pass": true,
+      "label": "Question has one H1 and no horizontal or heading overflow",
+      "id": "ranked-women-light-desktop",
+      "step": 4,
+      "layout": {
+        "overflow": false,
+        "headingOverflow": [],
+        "h1Count": 1,
+        "gridWidth": 0,
+        "gridLeft": 0,
+        "resultsLeft": 0,
+        "columns": "minmax(0px, 1fr)",
+        "focusQuestion": true,
+        "focusResult": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Question order is correct",
+      "id": "ranked-women-light-desktop",
+      "step": 5
+    },
+    {
+      "pass": true,
+      "label": "Question has one H1 and no horizontal or heading overflow",
+      "id": "ranked-women-light-desktop",
+      "step": 5,
+      "layout": {
+        "overflow": false,
+        "headingOverflow": [],
+        "h1Count": 1,
+        "gridWidth": 0,
+        "gridLeft": 0,
+        "resultsLeft": 0,
+        "columns": "minmax(0px, 1fr)",
+        "focusQuestion": true,
+        "focusResult": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Exactly one product result is rendered",
+      "id": "ranked-women-light-desktop",
+      "count": 1
+    },
+    {
+      "pass": true,
+      "label": "Only the highest ranked or first discovery scent is shown",
+      "id": "ranked-women-light-desktop",
+      "expected": "mojito-metallique",
+      "actual": "Mojito Metallique"
+    },
+    {
+      "pass": true,
+      "label": "YOUR SCENT MATCH",
+      "id": "ranked-women-light-desktop"
+    },
+    {
+      "pass": true,
+      "label": "Progress, eyebrow and accessible status use singular wording",
+      "id": "ranked-women-light-desktop"
+    },
+    {
+      "pass": true,
+      "label": "Summary contains no plural result claim",
+      "id": "ranked-women-light-desktop",
+      "summary": "This is your recommended scent based on the answers you chose."
+    },
+    {
+      "pass": true,
+      "label": "Ranked result explains its actual selected traits",
+      "id": "ranked-women-light-desktop"
+    },
+    {
+      "pass": true,
+      "label": "Result respects the collection hard filter",
+      "id": "ranked-women-light-desktop",
+      "collection": "Women"
+    },
+    {
+      "pass": true,
+      "label": "Native price and availability are preserved",
+      "id": "ranked-women-light-desktop",
+      "price": "\u20b1799.00\n\u20b11,099.00",
+      "badge": "SOLD OUT"
+    },
+    {
+      "pass": true,
+      "label": "Result links to its actual product",
+      "id": "ranked-women-light-desktop",
+      "href": "/products/mojito-metallique"
+    },
+    {
+      "pass": true,
+      "label": "Results have one H1 and no horizontal or heading overflow",
+      "id": "ranked-women-light-desktop",
+      "layout": {
+        "overflow": false,
+        "headingOverflow": [],
+        "h1Count": 1,
+        "gridWidth": 440,
+        "gridLeft": 61.90625,
+        "resultsLeft": 61.90625,
+        "columns": "440px",
+        "focusQuestion": false,
+        "focusResult": true
+      }
+    },
+    {
+      "pass": true,
+      "label": "Single result uses one left-aligned column at most 440px wide",
+      "id": "ranked-women-light-desktop",
+      "layout": {
+        "overflow": false,
+        "headingOverflow": [],
+        "h1Count": 1,
+        "gridWidth": 440,
+        "gridLeft": 61.90625,
+        "resultsLeft": 61.90625,
+        "columns": "440px",
+        "focusQuestion": false,
+        "focusResult": true
+      }
+    },
+    {
+      "pass": true,
+      "label": "Completion focuses the result heading",
+      "id": "ranked-women-light-desktop"
+    },
+    {
+      "pass": true,
+      "label": "Reset clears answers, hides the result and focuses the first question",
+      "id": "ranked-women-light-desktop"
+    },
+    {
+      "pass": true,
+      "label": "Repeating the quiz after reset still produces one result",
+      "id": "ranked-women-light-desktop"
+    },
+    {
+      "pass": true,
+      "label": "Clicking the result opens the correct product with one H1",
+      "id": "ranked-women-light-desktop",
+      "destination": {
+        "url": "http://127.0.0.1:4208/products/mojito-metallique",
+        "h1Count": 1,
+        "h1": "MOJITO METALLIQUE"
+      }
+    },
+    {
+      "pass": true,
+      "label": "No browser JavaScript errors",
+      "id": "ranked-women-light-desktop",
+      "errors": []
+    },
+    {
+      "pass": true,
+      "label": "Finder page responds successfully",
+      "id": "ranked-men-dark-mobile",
+      "status": 200
+    },
+    {
+      "pass": true,
+      "label": "Requested visual theme is active",
+      "id": "ranked-men-dark-mobile"
+    },
+    {
+      "pass": true,
+      "label": "Actual native profile supplies the expected result",
+      "id": "ranked-men-dark-mobile"
+    },
+    {
+      "pass": true,
+      "label": "Ranking retains multiple positive candidates before UI selection",
+      "id": "ranked-men-dark-mobile",
+      "count": 3
+    },
+    {
+      "pass": true,
+      "label": "Targeted path has a unique highest score",
+      "id": "ranked-men-dark-mobile"
+    },
+    {
+      "pass": true,
+      "label": "Question order is correct",
+      "id": "ranked-men-dark-mobile",
+      "step": 1
+    },
+    {
+      "pass": true,
+      "label": "Question has one H1 and no horizontal or heading overflow",
+      "id": "ranked-men-dark-mobile",
+      "step": 1,
+      "layout": {
+        "overflow": false,
+        "headingOverflow": [],
+        "h1Count": 1,
+        "gridWidth": 0,
+        "gridLeft": 0,
+        "resultsLeft": 0,
+        "columns": "1fr",
+        "focusQuestion": false,
+        "focusResult": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Question order is correct",
+      "id": "ranked-men-dark-mobile",
+      "step": 2
+    },
+    {
+      "pass": true,
+      "label": "Question has one H1 and no horizontal or heading overflow",
+      "id": "ranked-men-dark-mobile",
+      "step": 2,
+      "layout": {
+        "overflow": false,
+        "headingOverflow": [],
+        "h1Count": 1,
+        "gridWidth": 0,
+        "gridLeft": 0,
+        "resultsLeft": 0,
+        "columns": "1fr",
+        "focusQuestion": true,
+        "focusResult": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Question order is correct",
+      "id": "ranked-men-dark-mobile",
+      "step": 3
+    },
+    {
+      "pass": true,
+      "label": "Question has one H1 and no horizontal or heading overflow",
+      "id": "ranked-men-dark-mobile",
+      "step": 3,
+      "layout": {
+        "overflow": false,
+        "headingOverflow": [],
+        "h1Count": 1,
+        "gridWidth": 0,
+        "gridLeft": 0,
+        "resultsLeft": 0,
+        "columns": "1fr",
+        "focusQuestion": true,
+        "focusResult": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Question order is correct",
+      "id": "ranked-men-dark-mobile",
+      "step": 4
+    },
+    {
+      "pass": true,
+      "label": "Question has one H1 and no horizontal or heading overflow",
+      "id": "ranked-men-dark-mobile",
+      "step": 4,
+      "layout": {
+        "overflow": false,
+        "headingOverflow": [],
+        "h1Count": 1,
+        "gridWidth": 0,
+        "gridLeft": 0,
+        "resultsLeft": 0,
+        "columns": "1fr",
+        "focusQuestion": true,
+        "focusResult": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Question order is correct",
+      "id": "ranked-men-dark-mobile",
+      "step": 5
+    },
+    {
+      "pass": true,
+      "label": "Question has one H1 and no horizontal or heading overflow",
+      "id": "ranked-men-dark-mobile",
+      "step": 5,
+      "layout": {
+        "overflow": false,
+        "headingOverflow": [],
+        "h1Count": 1,
+        "gridWidth": 0,
+        "gridLeft": 0,
+        "resultsLeft": 0,
+        "columns": "1fr",
+        "focusQuestion": true,
+        "focusResult": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Exactly one product result is rendered",
+      "id": "ranked-men-dark-mobile",
+      "count": 1
+    },
+    {
+      "pass": true,
+      "label": "Only the highest ranked or first discovery scent is shown",
+      "id": "ranked-men-dark-mobile",
+      "expected": "charme-envoutant",
+      "actual": "Charme Envo\u00fbtant"
+    },
+    {
+      "pass": true,
+      "label": "YOUR SCENT MATCH",
+      "id": "ranked-men-dark-mobile"
+    },
+    {
+      "pass": true,
+      "label": "Progress, eyebrow and accessible status use singular wording",
+      "id": "ranked-men-dark-mobile"
+    },
+    {
+      "pass": true,
+      "label": "Summary contains no plural result claim",
+      "id": "ranked-men-dark-mobile",
+      "summary": "This is your recommended scent based on the answers you chose."
+    },
+    {
+      "pass": true,
+      "label": "Ranked result explains its actual selected traits",
+      "id": "ranked-men-dark-mobile"
+    },
+    {
+      "pass": true,
+      "label": "Result respects the collection hard filter",
+      "id": "ranked-men-dark-mobile",
+      "collection": "Men"
+    },
+    {
+      "pass": true,
+      "label": "Native price and availability are preserved",
+      "id": "ranked-men-dark-mobile",
+      "price": "\u20b1799.00",
+      "badge": "SOLD OUT"
+    },
+    {
+      "pass": true,
+      "label": "Result links to its actual product",
+      "id": "ranked-men-dark-mobile",
+      "href": "/products/charme-envoutant"
+    },
+    {
+      "pass": true,
+      "label": "Results have one H1 and no horizontal or heading overflow",
+      "id": "ranked-men-dark-mobile",
+      "layout": {
+        "overflow": false,
+        "headingOverflow": [],
+        "h1Count": 1,
+        "gridWidth": 346,
+        "gridLeft": 22,
+        "resultsLeft": 22,
+        "columns": "346px",
+        "focusQuestion": false,
+        "focusResult": true
+      }
+    },
+    {
+      "pass": true,
+      "label": "Single result uses one left-aligned column at most 440px wide",
+      "id": "ranked-men-dark-mobile",
+      "layout": {
+        "overflow": false,
+        "headingOverflow": [],
+        "h1Count": 1,
+        "gridWidth": 346,
+        "gridLeft": 22,
+        "resultsLeft": 22,
+        "columns": "346px",
+        "focusQuestion": false,
+        "focusResult": true
+      }
+    },
+    {
+      "pass": true,
+      "label": "Completion focuses the result heading",
+      "id": "ranked-men-dark-mobile"
+    },
+    {
+      "pass": true,
+      "label": "Reset clears answers, hides the result and focuses the first question",
+      "id": "ranked-men-dark-mobile"
+    },
+    {
+      "pass": true,
+      "label": "Repeating the quiz after reset still produces one result",
+      "id": "ranked-men-dark-mobile"
+    },
+    {
+      "pass": true,
+      "label": "Clicking the result opens the correct product with one H1",
+      "id": "ranked-men-dark-mobile",
+      "destination": {
+        "url": "http://127.0.0.1:4208/products/charme-envoutant",
+        "h1Count": 1,
+        "h1": "CHARME ENVO\u00dbTANT"
+      }
+    },
+    {
+      "pass": true,
+      "label": "No browser JavaScript errors",
+      "id": "ranked-men-dark-mobile",
+      "errors": []
+    },
+    {
+      "pass": true,
+      "label": "Finder page responds successfully",
+      "id": "tie-men-light-mobile",
+      "status": 200
+    },
+    {
+      "pass": true,
+      "label": "Requested visual theme is active",
+      "id": "tie-men-light-mobile"
+    },
+    {
+      "pass": true,
+      "label": "Actual native profile supplies the expected result",
+      "id": "tie-men-light-mobile"
+    },
+    {
+      "pass": true,
+      "label": "Ranking retains multiple positive candidates before UI selection",
+      "id": "tie-men-light-mobile",
+      "count": 3
+    },
+    {
+      "pass": true,
+      "label": "Equal top scores preserve first native catalog order",
+      "id": "tie-men-light-mobile",
+      "tied": [
+        "oud-mirage",
+        "rtulle-satin",
+        "charme-envoutant"
+      ]
+    },
+    {
+      "pass": true,
+      "label": "Question order is correct",
+      "id": "tie-men-light-mobile",
+      "step": 1
+    },
+    {
+      "pass": true,
+      "label": "Question has one H1 and no horizontal or heading overflow",
+      "id": "tie-men-light-mobile",
+      "step": 1,
+      "layout": {
+        "overflow": false,
+        "headingOverflow": [],
+        "h1Count": 1,
+        "gridWidth": 0,
+        "gridLeft": 0,
+        "resultsLeft": 0,
+        "columns": "1fr",
+        "focusQuestion": false,
+        "focusResult": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Question order is correct",
+      "id": "tie-men-light-mobile",
+      "step": 2
+    },
+    {
+      "pass": true,
+      "label": "Question has one H1 and no horizontal or heading overflow",
+      "id": "tie-men-light-mobile",
+      "step": 2,
+      "layout": {
+        "overflow": false,
+        "headingOverflow": [],
+        "h1Count": 1,
+        "gridWidth": 0,
+        "gridLeft": 0,
+        "resultsLeft": 0,
+        "columns": "1fr",
+        "focusQuestion": true,
+        "focusResult": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Question order is correct",
+      "id": "tie-men-light-mobile",
+      "step": 3
+    },
+    {
+      "pass": true,
+      "label": "Question has one H1 and no horizontal or heading overflow",
+      "id": "tie-men-light-mobile",
+      "step": 3,
+      "layout": {
+        "overflow": false,
+        "headingOverflow": [],
+        "h1Count": 1,
+        "gridWidth": 0,
+        "gridLeft": 0,
+        "resultsLeft": 0,
+        "columns": "1fr",
+        "focusQuestion": true,
+        "focusResult": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Question order is correct",
+      "id": "tie-men-light-mobile",
+      "step": 4
+    },
+    {
+      "pass": true,
+      "label": "Question has one H1 and no horizontal or heading overflow",
+      "id": "tie-men-light-mobile",
+      "step": 4,
+      "layout": {
+        "overflow": false,
+        "headingOverflow": [],
+        "h1Count": 1,
+        "gridWidth": 0,
+        "gridLeft": 0,
+        "resultsLeft": 0,
+        "columns": "1fr",
+        "focusQuestion": true,
+        "focusResult": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Question order is correct",
+      "id": "tie-men-light-mobile",
+      "step": 5
+    },
+    {
+      "pass": true,
+      "label": "Question has one H1 and no horizontal or heading overflow",
+      "id": "tie-men-light-mobile",
+      "step": 5,
+      "layout": {
+        "overflow": false,
+        "headingOverflow": [],
+        "h1Count": 1,
+        "gridWidth": 0,
+        "gridLeft": 0,
+        "resultsLeft": 0,
+        "columns": "1fr",
+        "focusQuestion": true,
+        "focusResult": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Exactly one product result is rendered",
+      "id": "tie-men-light-mobile",
+      "count": 1
+    },
+    {
+      "pass": true,
+      "label": "Only the highest ranked or first discovery scent is shown",
+      "id": "tie-men-light-mobile",
+      "expected": "oud-mirage",
+      "actual": "Oud Mirage"
+    },
+    {
+      "pass": true,
+      "label": "YOUR SCENT MATCH",
+      "id": "tie-men-light-mobile"
+    },
+    {
+      "pass": true,
+      "label": "Progress, eyebrow and accessible status use singular wording",
+      "id": "tie-men-light-mobile"
+    },
+    {
+      "pass": true,
+      "label": "Summary contains no plural result claim",
+      "id": "tie-men-light-mobile",
+      "summary": "This is your recommended scent based on the answers you chose."
+    },
+    {
+      "pass": true,
+      "label": "Ranked result explains its actual selected traits",
+      "id": "tie-men-light-mobile"
+    },
+    {
+      "pass": true,
+      "label": "Result respects the collection hard filter",
+      "id": "tie-men-light-mobile",
+      "collection": "Men"
+    },
+    {
+      "pass": true,
+      "label": "Native price and availability are preserved",
+      "id": "tie-men-light-mobile",
+      "price": "\u20b1799.00",
+      "badge": "SOLD OUT"
+    },
+    {
+      "pass": true,
+      "label": "Result links to its actual product",
+      "id": "tie-men-light-mobile",
+      "href": "/products/oud-mirage"
+    },
+    {
+      "pass": true,
+      "label": "Results have one H1 and no horizontal or heading overflow",
+      "id": "tie-men-light-mobile",
+      "layout": {
+        "overflow": false,
+        "headingOverflow": [],
+        "h1Count": 1,
+        "gridWidth": 346,
+        "gridLeft": 22,
+        "resultsLeft": 22,
+        "columns": "346px",
+        "focusQuestion": false,
+        "focusResult": true
+      }
+    },
+    {
+      "pass": true,
+      "label": "Single result uses one left-aligned column at most 440px wide",
+      "id": "tie-men-light-mobile",
+      "layout": {
+        "overflow": false,
+        "headingOverflow": [],
+        "h1Count": 1,
+        "gridWidth": 346,
+        "gridLeft": 22,
+        "resultsLeft": 22,
+        "columns": "346px",
+        "focusQuestion": false,
+        "focusResult": true
+      }
+    },
+    {
+      "pass": true,
+      "label": "Completion focuses the result heading",
+      "id": "tie-men-light-mobile"
+    },
+    {
+      "pass": true,
+      "label": "Reset clears answers, hides the result and focuses the first question",
+      "id": "tie-men-light-mobile"
+    },
+    {
+      "pass": true,
+      "label": "Repeating the quiz after reset still produces one result",
+      "id": "tie-men-light-mobile"
+    },
+    {
+      "pass": true,
+      "label": "Clicking the result opens the correct product with one H1",
+      "id": "tie-men-light-mobile",
+      "destination": {
+        "url": "http://127.0.0.1:4208/products/oud-mirage",
+        "h1Count": 1,
+        "h1": "OUD MIRAGE"
+      }
+    },
+    {
+      "pass": true,
+      "label": "No browser JavaScript errors",
+      "id": "tie-men-light-mobile",
+      "errors": []
+    },
+    {
+      "pass": true,
+      "label": "Finder page responds successfully",
+      "id": "all-skipped-dark-desktop",
+      "status": 200
+    },
+    {
+      "pass": true,
+      "label": "Requested visual theme is active",
+      "id": "all-skipped-dark-desktop"
+    },
+    {
+      "pass": true,
+      "label": "Actual native profile supplies the expected result",
+      "id": "all-skipped-dark-desktop"
+    },
+    {
+      "pass": true,
+      "label": "Skipped preferences produce no scored matches and retain the collection pool",
+      "id": "all-skipped-dark-desktop",
+      "poolSize": 6
+    },
+    {
+      "pass": true,
+      "label": "Question order is correct",
+      "id": "all-skipped-dark-desktop",
+      "step": 1
+    },
+    {
+      "pass": true,
+      "label": "Question has one H1 and no horizontal or heading overflow",
+      "id": "all-skipped-dark-desktop",
+      "step": 1,
+      "layout": {
+        "overflow": false,
+        "headingOverflow": [],
+        "h1Count": 1,
+        "gridWidth": 0,
+        "gridLeft": 0,
+        "resultsLeft": 0,
+        "columns": "minmax(0px, 1fr)",
+        "focusQuestion": false,
+        "focusResult": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Question order is correct",
+      "id": "all-skipped-dark-desktop",
+      "step": 2
+    },
+    {
+      "pass": true,
+      "label": "Question has one H1 and no horizontal or heading overflow",
+      "id": "all-skipped-dark-desktop",
+      "step": 2,
+      "layout": {
+        "overflow": false,
+        "headingOverflow": [],
+        "h1Count": 1,
+        "gridWidth": 0,
+        "gridLeft": 0,
+        "resultsLeft": 0,
+        "columns": "minmax(0px, 1fr)",
+        "focusQuestion": true,
+        "focusResult": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Question order is correct",
+      "id": "all-skipped-dark-desktop",
+      "step": 3
+    },
+    {
+      "pass": true,
+      "label": "Question has one H1 and no horizontal or heading overflow",
+      "id": "all-skipped-dark-desktop",
+      "step": 3,
+      "layout": {
+        "overflow": false,
+        "headingOverflow": [],
+        "h1Count": 1,
+        "gridWidth": 0,
+        "gridLeft": 0,
+        "resultsLeft": 0,
+        "columns": "minmax(0px, 1fr)",
+        "focusQuestion": true,
+        "focusResult": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Question order is correct",
+      "id": "all-skipped-dark-desktop",
+      "step": 4
+    },
+    {
+      "pass": true,
+      "label": "Question has one H1 and no horizontal or heading overflow",
+      "id": "all-skipped-dark-desktop",
+      "step": 4,
+      "layout": {
+        "overflow": false,
+        "headingOverflow": [],
+        "h1Count": 1,
+        "gridWidth": 0,
+        "gridLeft": 0,
+        "resultsLeft": 0,
+        "columns": "minmax(0px, 1fr)",
+        "focusQuestion": true,
+        "focusResult": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Question order is correct",
+      "id": "all-skipped-dark-desktop",
+      "step": 5
+    },
+    {
+      "pass": true,
+      "label": "Question has one H1 and no horizontal or heading overflow",
+      "id": "all-skipped-dark-desktop",
+      "step": 5,
+      "layout": {
+        "overflow": false,
+        "headingOverflow": [],
+        "h1Count": 1,
+        "gridWidth": 0,
+        "gridLeft": 0,
+        "resultsLeft": 0,
+        "columns": "minmax(0px, 1fr)",
+        "focusQuestion": true,
+        "focusResult": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Exactly one product result is rendered",
+      "id": "all-skipped-dark-desktop",
+      "count": 1
+    },
+    {
+      "pass": true,
+      "label": "Only the highest ranked or first discovery scent is shown",
+      "id": "all-skipped-dark-desktop",
+      "expected": "mistened-narcissus",
+      "actual": "Mistened Narcissus"
+    },
+    {
+      "pass": true,
+      "label": "A SCENT TO EXPLORE",
+      "id": "all-skipped-dark-desktop"
+    },
+    {
+      "pass": true,
+      "label": "Progress, eyebrow and accessible status use singular wording",
+      "id": "all-skipped-dark-desktop"
+    },
+    {
+      "pass": true,
+      "label": "Summary contains no plural result claim",
+      "id": "all-skipped-dark-desktop",
+      "summary": "You kept your options open. Start with this scent and see how it feels to you."
+    },
+    {
+      "pass": true,
+      "label": "Skipped answers honestly offer one scent without a preference-match claim",
+      "id": "all-skipped-dark-desktop"
+    },
+    {
+      "pass": true,
+      "label": "Native price and availability are preserved",
+      "id": "all-skipped-dark-desktop",
+      "price": "\u20b1799.00",
+      "badge": "SOLD OUT"
+    },
+    {
+      "pass": true,
+      "label": "Result links to its actual product",
+      "id": "all-skipped-dark-desktop",
+      "href": "/products/mistened-narcissus"
+    },
+    {
+      "pass": true,
+      "label": "Results have one H1 and no horizontal or heading overflow",
+      "id": "all-skipped-dark-desktop",
+      "layout": {
+        "overflow": false,
+        "headingOverflow": [],
+        "h1Count": 1,
+        "gridWidth": 440,
+        "gridLeft": 61.90625,
+        "resultsLeft": 61.90625,
+        "columns": "440px",
+        "focusQuestion": false,
+        "focusResult": true
+      }
+    },
+    {
+      "pass": true,
+      "label": "Single result uses one left-aligned column at most 440px wide",
+      "id": "all-skipped-dark-desktop",
+      "layout": {
+        "overflow": false,
+        "headingOverflow": [],
+        "h1Count": 1,
+        "gridWidth": 440,
+        "gridLeft": 61.90625,
+        "resultsLeft": 61.90625,
+        "columns": "440px",
+        "focusQuestion": false,
+        "focusResult": true
+      }
+    },
+    {
+      "pass": true,
+      "label": "Completion focuses the result heading",
+      "id": "all-skipped-dark-desktop"
+    },
+    {
+      "pass": true,
+      "label": "Reset clears answers, hides the result and focuses the first question",
+      "id": "all-skipped-dark-desktop"
+    },
+    {
+      "pass": true,
+      "label": "Repeating the quiz after reset still produces one result",
+      "id": "all-skipped-dark-desktop"
+    },
+    {
+      "pass": true,
+      "label": "Clicking the result opens the correct product with one H1",
+      "id": "all-skipped-dark-desktop",
+      "destination": {
+        "url": "http://127.0.0.1:4208/products/mistened-narcissus",
+        "h1Count": 1,
+        "h1": "MISTENED NARCISSUS"
+      }
+    },
+    {
+      "pass": true,
+      "label": "No browser JavaScript errors",
+      "id": "all-skipped-dark-desktop",
+      "errors": []
+    },
+    {
+      "pass": true,
+      "label": "Finder page responds successfully",
+      "id": "collection-women-light-mobile",
+      "status": 200
+    },
+    {
+      "pass": true,
+      "label": "Requested visual theme is active",
+      "id": "collection-women-light-mobile"
+    },
+    {
+      "pass": true,
+      "label": "Actual native profile supplies the expected result",
+      "id": "collection-women-light-mobile"
+    },
+    {
+      "pass": true,
+      "label": "Skipped preferences produce no scored matches and retain the collection pool",
+      "id": "collection-women-light-mobile",
+      "poolSize": 3
+    },
+    {
+      "pass": true,
+      "label": "Question order is correct",
+      "id": "collection-women-light-mobile",
+      "step": 1
+    },
+    {
+      "pass": true,
+      "label": "Question has one H1 and no horizontal or heading overflow",
+      "id": "collection-women-light-mobile",
+      "step": 1,
+      "layout": {
+        "overflow": false,
+        "headingOverflow": [],
+        "h1Count": 1,
+        "gridWidth": 0,
+        "gridLeft": 0,
+        "resultsLeft": 0,
+        "columns": "1fr",
+        "focusQuestion": false,
+        "focusResult": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Question order is correct",
+      "id": "collection-women-light-mobile",
+      "step": 2
+    },
+    {
+      "pass": true,
+      "label": "Question has one H1 and no horizontal or heading overflow",
+      "id": "collection-women-light-mobile",
+      "step": 2,
+      "layout": {
+        "overflow": false,
+        "headingOverflow": [],
+        "h1Count": 1,
+        "gridWidth": 0,
+        "gridLeft": 0,
+        "resultsLeft": 0,
+        "columns": "1fr",
+        "focusQuestion": true,
+        "focusResult": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Question order is correct",
+      "id": "collection-women-light-mobile",
+      "step": 3
+    },
+    {
+      "pass": true,
+      "label": "Question has one H1 and no horizontal or heading overflow",
+      "id": "collection-women-light-mobile",
+      "step": 3,
+      "layout": {
+        "overflow": false,
+        "headingOverflow": [],
+        "h1Count": 1,
+        "gridWidth": 0,
+        "gridLeft": 0,
+        "resultsLeft": 0,
+        "columns": "1fr",
+        "focusQuestion": true,
+        "focusResult": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Question order is correct",
+      "id": "collection-women-light-mobile",
+      "step": 4
+    },
+    {
+      "pass": true,
+      "label": "Question has one H1 and no horizontal or heading overflow",
+      "id": "collection-women-light-mobile",
+      "step": 4,
+      "layout": {
+        "overflow": false,
+        "headingOverflow": [],
+        "h1Count": 1,
+        "gridWidth": 0,
+        "gridLeft": 0,
+        "resultsLeft": 0,
+        "columns": "1fr",
+        "focusQuestion": true,
+        "focusResult": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Question order is correct",
+      "id": "collection-women-light-mobile",
+      "step": 5
+    },
+    {
+      "pass": true,
+      "label": "Question has one H1 and no horizontal or heading overflow",
+      "id": "collection-women-light-mobile",
+      "step": 5,
+      "layout": {
+        "overflow": false,
+        "headingOverflow": [],
+        "h1Count": 1,
+        "gridWidth": 0,
+        "gridLeft": 0,
+        "resultsLeft": 0,
+        "columns": "1fr",
+        "focusQuestion": true,
+        "focusResult": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Exactly one product result is rendered",
+      "id": "collection-women-light-mobile",
+      "count": 1
+    },
+    {
+      "pass": true,
+      "label": "Only the highest ranked or first discovery scent is shown",
+      "id": "collection-women-light-mobile",
+      "expected": "mistened-narcissus",
+      "actual": "Mistened Narcissus"
+    },
+    {
+      "pass": true,
+      "label": "A SCENT TO EXPLORE",
+      "id": "collection-women-light-mobile"
+    },
+    {
+      "pass": true,
+      "label": "Progress, eyebrow and accessible status use singular wording",
+      "id": "collection-women-light-mobile"
+    },
+    {
+      "pass": true,
+      "label": "Summary contains no plural result claim",
+      "id": "collection-women-light-mobile",
+      "summary": "You kept your options open. Start with this scent and see how it feels to you."
+    },
+    {
+      "pass": true,
+      "label": "Skipped answers honestly offer one scent without a preference-match claim",
+      "id": "collection-women-light-mobile"
+    },
+    {
+      "pass": true,
+      "label": "Result respects the collection hard filter",
+      "id": "collection-women-light-mobile",
+      "collection": "Women"
+    },
+    {
+      "pass": true,
+      "label": "Native price and availability are preserved",
+      "id": "collection-women-light-mobile",
+      "price": "\u20b1799.00",
+      "badge": "SOLD OUT"
+    },
+    {
+      "pass": true,
+      "label": "Result links to its actual product",
+      "id": "collection-women-light-mobile",
+      "href": "/products/mistened-narcissus"
+    },
+    {
+      "pass": true,
+      "label": "Results have one H1 and no horizontal or heading overflow",
+      "id": "collection-women-light-mobile",
+      "layout": {
+        "overflow": false,
+        "headingOverflow": [],
+        "h1Count": 1,
+        "gridWidth": 346,
+        "gridLeft": 22,
+        "resultsLeft": 22,
+        "columns": "346px",
+        "focusQuestion": false,
+        "focusResult": true
+      }
+    },
+    {
+      "pass": true,
+      "label": "Single result uses one left-aligned column at most 440px wide",
+      "id": "collection-women-light-mobile",
+      "layout": {
+        "overflow": false,
+        "headingOverflow": [],
+        "h1Count": 1,
+        "gridWidth": 346,
+        "gridLeft": 22,
+        "resultsLeft": 22,
+        "columns": "346px",
+        "focusQuestion": false,
+        "focusResult": true
+      }
+    },
+    {
+      "pass": true,
+      "label": "Completion focuses the result heading",
+      "id": "collection-women-light-mobile"
+    },
+    {
+      "pass": true,
+      "label": "Reset clears answers, hides the result and focuses the first question",
+      "id": "collection-women-light-mobile"
+    },
+    {
+      "pass": true,
+      "label": "Repeating the quiz after reset still produces one result",
+      "id": "collection-women-light-mobile"
+    },
+    {
+      "pass": true,
+      "label": "Clicking the result opens the correct product with one H1",
+      "id": "collection-women-light-mobile",
+      "destination": {
+        "url": "http://127.0.0.1:4208/products/mistened-narcissus",
+        "h1Count": 1,
+        "h1": "MISTENED NARCISSUS"
+      }
+    },
+    {
+      "pass": true,
+      "label": "No browser JavaScript errors",
+      "id": "collection-women-light-mobile",
+      "errors": []
+    },
+    {
+      "pass": true,
+      "label": "Finder page responds successfully",
+      "id": "collection-men-dark-desktop",
+      "status": 200
+    },
+    {
+      "pass": true,
+      "label": "Requested visual theme is active",
+      "id": "collection-men-dark-desktop"
+    },
+    {
+      "pass": true,
+      "label": "Actual native profile supplies the expected result",
+      "id": "collection-men-dark-desktop"
+    },
+    {
+      "pass": true,
+      "label": "Skipped preferences produce no scored matches and retain the collection pool",
+      "id": "collection-men-dark-desktop",
+      "poolSize": 3
+    },
+    {
+      "pass": true,
+      "label": "Question order is correct",
+      "id": "collection-men-dark-desktop",
+      "step": 1
+    },
+    {
+      "pass": true,
+      "label": "Question has one H1 and no horizontal or heading overflow",
+      "id": "collection-men-dark-desktop",
+      "step": 1,
+      "layout": {
+        "overflow": false,
+        "headingOverflow": [],
+        "h1Count": 1,
+        "gridWidth": 0,
+        "gridLeft": 0,
+        "resultsLeft": 0,
+        "columns": "minmax(0px, 1fr)",
+        "focusQuestion": false,
+        "focusResult": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Question order is correct",
+      "id": "collection-men-dark-desktop",
+      "step": 2
+    },
+    {
+      "pass": true,
+      "label": "Question has one H1 and no horizontal or heading overflow",
+      "id": "collection-men-dark-desktop",
+      "step": 2,
+      "layout": {
+        "overflow": false,
+        "headingOverflow": [],
+        "h1Count": 1,
+        "gridWidth": 0,
+        "gridLeft": 0,
+        "resultsLeft": 0,
+        "columns": "minmax(0px, 1fr)",
+        "focusQuestion": true,
+        "focusResult": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Question order is correct",
+      "id": "collection-men-dark-desktop",
+      "step": 3
+    },
+    {
+      "pass": true,
+      "label": "Question has one H1 and no horizontal or heading overflow",
+      "id": "collection-men-dark-desktop",
+      "step": 3,
+      "layout": {
+        "overflow": false,
+        "headingOverflow": [],
+        "h1Count": 1,
+        "gridWidth": 0,
+        "gridLeft": 0,
+        "resultsLeft": 0,
+        "columns": "minmax(0px, 1fr)",
+        "focusQuestion": true,
+        "focusResult": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Question order is correct",
+      "id": "collection-men-dark-desktop",
+      "step": 4
+    },
+    {
+      "pass": true,
+      "label": "Question has one H1 and no horizontal or heading overflow",
+      "id": "collection-men-dark-desktop",
+      "step": 4,
+      "layout": {
+        "overflow": false,
+        "headingOverflow": [],
+        "h1Count": 1,
+        "gridWidth": 0,
+        "gridLeft": 0,
+        "resultsLeft": 0,
+        "columns": "minmax(0px, 1fr)",
+        "focusQuestion": true,
+        "focusResult": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Question order is correct",
+      "id": "collection-men-dark-desktop",
+      "step": 5
+    },
+    {
+      "pass": true,
+      "label": "Question has one H1 and no horizontal or heading overflow",
+      "id": "collection-men-dark-desktop",
+      "step": 5,
+      "layout": {
+        "overflow": false,
+        "headingOverflow": [],
+        "h1Count": 1,
+        "gridWidth": 0,
+        "gridLeft": 0,
+        "resultsLeft": 0,
+        "columns": "minmax(0px, 1fr)",
+        "focusQuestion": true,
+        "focusResult": false
+      }
+    },
+    {
+      "pass": true,
+      "label": "Exactly one product result is rendered",
+      "id": "collection-men-dark-desktop",
+      "count": 1
+    },
+    {
+      "pass": true,
+      "label": "Only the highest ranked or first discovery scent is shown",
+      "id": "collection-men-dark-desktop",
+      "expected": "oud-mirage",
+      "actual": "Oud Mirage"
+    },
+    {
+      "pass": true,
+      "label": "A SCENT TO EXPLORE",
+      "id": "collection-men-dark-desktop"
+    },
+    {
+      "pass": true,
+      "label": "Progress, eyebrow and accessible status use singular wording",
+      "id": "collection-men-dark-desktop"
+    },
+    {
+      "pass": true,
+      "label": "Summary contains no plural result claim",
+      "id": "collection-men-dark-desktop",
+      "summary": "You kept your options open. Start with this scent and see how it feels to you."
+    },
+    {
+      "pass": true,
+      "label": "Skipped answers honestly offer one scent without a preference-match claim",
+      "id": "collection-men-dark-desktop"
+    },
+    {
+      "pass": true,
+      "label": "Result respects the collection hard filter",
+      "id": "collection-men-dark-desktop",
+      "collection": "Men"
+    },
+    {
+      "pass": true,
+      "label": "Native price and availability are preserved",
+      "id": "collection-men-dark-desktop",
+      "price": "\u20b1799.00",
+      "badge": "SOLD OUT"
+    },
+    {
+      "pass": true,
+      "label": "Result links to its actual product",
+      "id": "collection-men-dark-desktop",
+      "href": "/products/oud-mirage"
+    },
+    {
+      "pass": true,
+      "label": "Results have one H1 and no horizontal or heading overflow",
+      "id": "collection-men-dark-desktop",
+      "layout": {
+        "overflow": false,
+        "headingOverflow": [],
+        "h1Count": 1,
+        "gridWidth": 440,
+        "gridLeft": 61.90625,
+        "resultsLeft": 61.90625,
+        "columns": "440px",
+        "focusQuestion": false,
+        "focusResult": true
+      }
+    },
+    {
+      "pass": true,
+      "label": "Single result uses one left-aligned column at most 440px wide",
+      "id": "collection-men-dark-desktop",
+      "layout": {
+        "overflow": false,
+        "headingOverflow": [],
+        "h1Count": 1,
+        "gridWidth": 440,
+        "gridLeft": 61.90625,
+        "resultsLeft": 61.90625,
+        "columns": "440px",
+        "focusQuestion": false,
+        "focusResult": true
+      }
+    },
+    {
+      "pass": true,
+      "label": "Completion focuses the result heading",
+      "id": "collection-men-dark-desktop"
+    },
+    {
+      "pass": true,
+      "label": "Reset clears answers, hides the result and focuses the first question",
+      "id": "collection-men-dark-desktop"
+    },
+    {
+      "pass": true,
+      "label": "Repeating the quiz after reset still produces one result",
+      "id": "collection-men-dark-desktop"
+    },
+    {
+      "pass": true,
+      "label": "Clicking the result opens the correct product with one H1",
+      "id": "collection-men-dark-desktop",
+      "destination": {
+        "url": "http://127.0.0.1:4208/products/oud-mirage",
+        "h1Count": 1,
+        "h1": "OUD MIRAGE"
+      }
+    },
+    {
+      "pass": true,
+      "label": "No browser JavaScript errors",
+      "id": "collection-men-dark-desktop",
+      "errors": []
+    }
+  ],
+  "issues": [],
+  "summary": {
+    "status": "PASS",
+    "browserCases": 6,
+    "nativeTests": 2,
+    "checks": 184,
+    "passedChecks": 184,
+    "issues": 0
+  },
+  "visualReview": {
+    "status": "PASS",
+    "reviewedScreenshots": [
+      "screenshots/finder-single-result/ranked-women-light-desktop.png",
+      "screenshots/finder-single-result/ranked-men-dark-mobile.png",
+      "screenshots/finder-single-result/tie-men-light-mobile.png",
+      "screenshots/finder-single-result/all-skipped-dark-desktop.png",
+      "screenshots/finder-single-result/collection-women-light-mobile.png",
+      "screenshots/finder-single-result/collection-men-dark-desktop.png"
+    ],
+    "notes": "All six result screenshots inspected. One product card in each; singular labels and summaries; readable headings, descriptions, prices and stock labels; complete reset/product controls. Desktop result column remains left aligned; mobile cards and text fit within viewport."
+  }
+}

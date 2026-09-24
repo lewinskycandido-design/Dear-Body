@@ -1,0 +1,215 @@
+{
+  "generatedAt": "2026-09-24T11:18:42.562Z",
+  "status": "PASS",
+  "checks": 50,
+  "results": [
+    {
+      "label": "Exact selection replaces stale cart with one clear/add sequence then verifies",
+      "pass": true
+    },
+    {
+      "label": "Matching cart including discount-split lines avoids all mutations",
+      "pass": true
+    },
+    {
+      "label": "Duplicate variant IDs coalesce; extra input fields and contact fields never enter requests",
+      "pass": true
+    },
+    {
+      "label": "Invalid selection [] cannot read or mutate cart",
+      "pass": true
+    },
+    {
+      "label": "Invalid selection null cannot read or mutate cart",
+      "pass": true
+    },
+    {
+      "label": "Invalid selection {} cannot read or mutate cart",
+      "pass": true
+    },
+    {
+      "label": "Invalid selection [null] cannot read or mutate cart",
+      "pass": true
+    },
+    {
+      "label": "Invalid selection [{\"id\":0,\"quantity\":1}] cannot read or mutate cart",
+      "pass": true
+    },
+    {
+      "label": "Invalid selection [{\"id\":\"../../cart\",\"quantity\":1}] cannot read or mutate cart",
+      "pass": true
+    },
+    {
+      "label": "Invalid selection [{\"id\":true,\"quantity\":1}] cannot read or mutate cart",
+      "pass": true
+    },
+    {
+      "label": "Invalid selection [{\"id\":\"101\",\"quantity\":0}] cannot read or mutate cart",
+      "pass": true
+    },
+    {
+      "label": "Invalid selection [{\"id\":\"101\",\"quantity\":-1}] cannot read or mutate cart",
+      "pass": true
+    },
+    {
+      "label": "Invalid selection [{\"id\":\"101\",\"quantity\":1.5}] cannot read or mutate cart",
+      "pass": true
+    },
+    {
+      "label": "Invalid selection [{\"id\":\"101\",\"quantity\":\"1e2\"}] cannot read or mutate cart",
+      "pass": true
+    },
+    {
+      "label": "Invalid selection [{\"id\":\"101\",\"quantity\":9007199254740992}] cannot read or mutate cart",
+      "pass": true
+    },
+    {
+      "label": "Invalid selection [{\"id\":\"101\",\"quantity\":9007199254740991},{\"id\":\"101\",\"quantity\":1}] cannot read or mutate cart",
+      "pass": true
+    },
+    {
+      "label": "Missing, false, async or throwing opener readiness blocks every request",
+      "pass": true
+    },
+    {
+      "label": "Missing, false, async or throwing opener readiness blocks every request",
+      "pass": true
+    },
+    {
+      "label": "Missing, false, async or throwing opener readiness blocks every request",
+      "pass": true
+    },
+    {
+      "label": "Missing, false, async or throwing opener readiness blocks every request",
+      "pass": true
+    },
+    {
+      "label": "Missing, false, async or throwing opener readiness blocks every request",
+      "pass": true
+    },
+    {
+      "label": "Opener disappearing during initial read never clears the cart",
+      "pass": true
+    },
+    {
+      "label": "Same-item selling plan or custom properties require replacement",
+      "pass": true
+    },
+    {
+      "label": "Concurrent prepare rejects immediately and frozen selection ignores later caller edits",
+      "pass": true
+    },
+    {
+      "label": "Clear that returns remaining lines stops before add and performs one read-only recovery",
+      "pass": true
+    },
+    {
+      "label": "Partial-stock 422 preserves error, reconciles current cart, and never retries a mutation",
+      "pass": true
+    },
+    {
+      "label": "Unknown add outcome remains an error even when read-only recovery matches",
+      "pass": true
+    },
+    {
+      "label": "Clear network error never sends add or repeats clear",
+      "pass": true
+    },
+    {
+      "label": "Add timeout aborts the request and reconciles read-only without retry",
+      "pass": true
+    },
+    {
+      "label": "Initial read failure does not mutate or perform automatic retry",
+      "pass": true
+    },
+    {
+      "label": "Malformed successful mutation response fails closed with read-only reconciliation",
+      "pass": true
+    },
+    {
+      "label": "Final quantity, extra-line, selling-plan or property mismatch blocks completion",
+      "pass": true
+    },
+    {
+      "label": "Final quantity, extra-line, selling-plan or property mismatch blocks completion",
+      "pass": true
+    },
+    {
+      "label": "Final quantity, extra-line, selling-plan or property mismatch blocks completion",
+      "pass": true
+    },
+    {
+      "label": "Final quantity, extra-line, selling-plan or property mismatch blocks completion",
+      "pass": true
+    },
+    {
+      "label": "Malformed cart count cannot authorize replacing the cart",
+      "pass": true
+    },
+    {
+      "label": "Failed final verification plus failed recovery retains unknown state and releases mutex",
+      "pass": true
+    },
+    {
+      "label": "Cart notes and attributes are not copied, overwritten or used as contact storage",
+      "pass": true
+    },
+    {
+      "label": "Cross-origin route is rejected before network access",
+      "pass": true
+    },
+    {
+      "label": "Route fallback uses sjRoutes root when Shopify is absent",
+      "pass": true
+    },
+    {
+      "label": "Script initialization is inert and idempotent; adapter namespace remains extensible",
+      "pass": true
+    },
+    {
+      "label": "Read-only verify accepts coalesced matching quantities with exactly one GET",
+      "pass": true
+    },
+    {
+      "label": "Post-popup primary quantity reset to one is rejected without any repair or retry",
+      "pass": true
+    },
+    {
+      "label": "Read-only verify rejects extra variants rather than ignoring them",
+      "pass": true
+    },
+    {
+      "label": "Verify holds the shared mutex against prepare and another verification",
+      "pass": true
+    },
+    {
+      "label": "Invalid verification selection is rejected before any request",
+      "pass": true
+    },
+    {
+      "label": "Verify network failure is not retried and releases the busy guard",
+      "pass": true
+    },
+    {
+      "label": "Verify timeout aborts its sole GET without fallback or mutation",
+      "pass": true
+    },
+    {
+      "label": "No storage writes or navigation attempts across every test",
+      "pass": true
+    },
+    {
+      "label": "Deferred cart preparation script is included once after commerce",
+      "pass": true
+    }
+  ],
+  "syntheticRequests": 82,
+  "realRequests": 0,
+  "ordersCreated": 0,
+  "storageWrites": 0,
+  "navigationAttempts": 0,
+  "scope": "Mocked JSDOM requests only. Verifies cart preparation and read-only post-opener cart verification; no EasySell opening, app submission, native checkout or live cart was tested.",
+  "contract": "SJCOD.prepare(items, {isReady}) returns a verified cart; synchronous isReady must confirm a supported opener and no other cart writer. SJCOD.verify(items) returns an exactly matching current cart or rejects, using only one GET. Both share SJCOD.busy. Other cart writers must respect the guard. Caller validates native quantity rules and owns UI/app handling.",
+  "source": "https://shopify.dev/docs/api/ajax/reference/cart"
+}

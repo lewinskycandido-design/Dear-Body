@@ -1,0 +1,191 @@
+{
+  "generatedAt": "2026-09-24T09:57:51.833Z",
+  "status": "PASS",
+  "checks": 45,
+  "results": [
+    {
+      "label": "No-JS ordering is hidden/disabled while native product links remain",
+      "pass": true
+    },
+    {
+      "label": "Valid catalog enables card buttons and cross selector",
+      "pass": true
+    },
+    {
+      "label": "Fallback CTA hides only after enhanced controls are wired",
+      "pass": true
+    },
+    {
+      "label": "Zero-selection submit is disabled and panel remains hidden",
+      "pass": true
+    },
+    {
+      "label": "Empty native checkout is rejected",
+      "pass": true
+    },
+    {
+      "label": "First order opens the same panel after the clicked desktop row",
+      "pass": true
+    },
+    {
+      "label": "All available card controls report the shared panel expanded",
+      "pass": true
+    },
+    {
+      "label": "First selection focuses the order heading",
+      "pass": true
+    },
+    {
+      "label": "One799 scent displays subtotal799 shipping80 total879",
+      "pass": true
+    },
+    {
+      "label": "One selection has one removable native product link",
+      "pass": true
+    },
+    {
+      "label": "Native action is locale-safe and only selected variant quantity1",
+      "pass": true
+    },
+    {
+      "label": "Selected card has clear Added and pressed state",
+      "pass": true
+    },
+    {
+      "label": "Adding another card moves same panel after its row",
+      "pass": true
+    },
+    {
+      "label": "Panel movement preserves exact address input node and value",
+      "pass": true
+    },
+    {
+      "label": "Adding another card leaves focus on that card control",
+      "pass": true
+    },
+    {
+      "label": "Two items total1598 and qualify for free shipping",
+      "pass": true
+    },
+    {
+      "label": "Repeated selected card is idempotent",
+      "pass": true
+    },
+    {
+      "label": "Distinct native variant IDs remain valid one-unit selections",
+      "pass": true
+    },
+    {
+      "label": "Opposite collection selection automatically adds to same order",
+      "pass": true
+    },
+    {
+      "label": "Cross selection resets placeholder and preserves keyboard focus",
+      "pass": true
+    },
+    {
+      "label": "Selected opposite option becomes disabled",
+      "pass": true
+    },
+    {
+      "label": "All six unique native scents can share one checkout",
+      "pass": true
+    },
+    {
+      "label": "Sold-out native variant is rejected without adding",
+      "pass": true
+    },
+    {
+      "label": "Unlisted/malformed selected ID is rejected",
+      "pass": true
+    },
+    {
+      "label": "Removing opposite scent reenables its option and updates total",
+      "pass": true
+    },
+    {
+      "label": "Removal returns focus to a remaining line control",
+      "pass": true
+    },
+    {
+      "label": "Removed card returns to original Order state",
+      "pass": true
+    },
+    {
+      "label": "Removing down to one restores80 shipping and879 total",
+      "pass": true
+    },
+    {
+      "label": "Foreign-currency single-item shipping is honestly deferred",
+      "pass": true
+    },
+    {
+      "label": "All supported synthetic address values are correctly encoded",
+      "pass": true
+    },
+    {
+      "label": "Preview and unrelated parameters are not copied",
+      "pass": true
+    },
+    {
+      "label": "Unsupported phone input excluded by allowlist",
+      "pass": true
+    },
+    {
+      "label": "Required address validation blocks navigation",
+      "pass": true
+    },
+    {
+      "label": "Repeated submission causes one navigation attempt",
+      "pass": true
+    },
+    {
+      "label": "Pending navigation disables selection/address/checkout controls",
+      "pass": true
+    },
+    {
+      "label": "Stale add events cannot change a pending checkout",
+      "pass": true
+    },
+    {
+      "label": "Back/forward return restores controls and selected order",
+      "pass": true
+    },
+    {
+      "label": "Foreign destination rejected without forwarding address",
+      "pass": true
+    },
+    {
+      "label": "Removing every scent clears selection and blocks checkout while keeping address",
+      "pass": true
+    },
+    {
+      "label": "Filters keep their own native GET contract",
+      "pass": true
+    },
+    {
+      "label": "No cart API calls or address storage writes occurred",
+      "pass": true
+    },
+    {
+      "label": "No unexpected runtime errors",
+      "pass": true
+    },
+    {
+      "label": "A different native price changes estimate rather than assuming799",
+      "pass": true
+    },
+    {
+      "label": "Missing native price never becomes a false zero",
+      "pass": true
+    },
+    {
+      "label": "Invalid catalog leaves native links and disabled enhancement intact",
+      "pass": true
+    }
+  ],
+  "fetches": 0,
+  "storageWrites": 0,
+  "blockedNavigationAttempts": 1,
+  "scope": "Synthetic JSDOM fixtures; no actual cart mutations, orders, address storage, or live Shopify checkout acceptance. Native inventory/prices are fixture inputs."
+}

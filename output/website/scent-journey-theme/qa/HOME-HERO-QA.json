@@ -1,0 +1,1699 @@
+{
+  "generatedAt": "2026-09-24T02:58:21.883Z",
+  "previewBuiltAt": "2026-09-24T02:56:27.484Z",
+  "baseUrl": "http://127.0.0.1:4208",
+  "matrix": [
+    {
+      "theme": "light",
+      "width": 1440,
+      "height": 1000,
+      "h1Count": 1,
+      "h1Text": "MAKE IT\nPERSONAL.",
+      "horizontalOverflow": false,
+      "headingOverflow": [],
+      "headings": [
+        {
+          "tag": "H1",
+          "text": "MAKE IT PERSONAL.",
+          "box": {
+            "x": 119.5,
+            "y": 296.046875,
+            "width": 569.21875,
+            "height": 182.46875,
+            "right": 688.71875,
+            "bottom": 478.515625
+          },
+          "overflow": false
+        },
+        {
+          "tag": "H2",
+          "text": "FIND YOUR SIDE.",
+          "box": {
+            "x": 61.90625,
+            "y": 843.6875,
+            "width": 745.171875,
+            "height": 59.890625,
+            "right": 807.078125,
+            "bottom": 903.578125
+          },
+          "overflow": false
+        },
+        {
+          "tag": "H2",
+          "text": "WOMEN",
+          "box": {
+            "x": 95.90625,
+            "y": 1412.765625,
+            "width": 328.609375,
+            "height": 90.703125,
+            "right": 424.515625,
+            "bottom": 1503.46875
+          },
+          "overflow": false
+        },
+        {
+          "tag": "H2",
+          "text": "MEN",
+          "box": {
+            "x": 764,
+            "y": 1412.765625,
+            "width": 185.640625,
+            "height": 90.703125,
+            "right": 949.640625,
+            "bottom": 1503.46875
+          },
+          "overflow": false
+        }
+      ],
+      "hero": {
+        "src": "http://127.0.0.1:4208/assets/sj-home-hero-light.jpg",
+        "loaded": true,
+        "natural": [
+          1800,
+          900
+        ],
+        "media": {
+          "x": 61.90625,
+          "y": 136.5,
+          "width": 1316.1875,
+          "height": 619.1875,
+          "right": 1378.09375,
+          "bottom": 755.6875
+        },
+        "objectFit": "cover",
+        "objectPosition": "50% 0%"
+      },
+      "fontFaces": [
+        {
+          "family": "Cenzo Flare Bold",
+          "weight": "700",
+          "status": "loaded"
+        },
+        {
+          "family": "Helvetica Now Text",
+          "weight": "400",
+          "status": "loaded"
+        }
+      ],
+      "headingFont": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif",
+      "bodyFont": "\"Helvetica Now Text\", \"Helvetica Neue\", Arial, sans-serif",
+      "productCardCount": 0,
+      "productLinks": [],
+      "doorwayLinks": [
+        {
+          "label": "Shop women perfumes",
+          "href": "/collections/womens-perfume"
+        },
+        {
+          "label": "Shop men perfumes",
+          "href": "/collections/mens-perfume"
+        }
+      ],
+      "heroBeforeCollections": true,
+      "cart": {
+        "visible": true,
+        "box": {
+          "x": 1294.296875,
+          "y": 46.5,
+          "width": 83.796875,
+          "height": 44,
+          "right": 1378.09375,
+          "bottom": 90.5
+        },
+        "icon": {
+          "x": 1294.296875,
+          "y": 57,
+          "width": 21,
+          "height": 23,
+          "right": 1315.296875,
+          "bottom": 80
+        },
+        "opens": true
+      },
+      "cta": {
+        "hash": "#ShopCollections",
+        "scrollY": 621,
+        "titleTop": 222.6875,
+        "titleBottom": 282.578125,
+        "sectionTop": 134.6875,
+        "headerBottom": -510.5,
+        "titleNotHidden": true,
+        "titleInViewport": true
+      },
+      "errors": [],
+      "fontsPass": true,
+      "linksPass": true
+    },
+    {
+      "theme": "light",
+      "width": 1024,
+      "height": 1000,
+      "h1Count": 1,
+      "h1Text": "MAKE IT\nPERSONAL.",
+      "horizontalOverflow": false,
+      "headingOverflow": [],
+      "headings": [
+        {
+          "tag": "H1",
+          "text": "MAKE IT PERSONAL.",
+          "box": {
+            "x": 84.984375,
+            "y": 257.8125,
+            "width": 404.78125,
+            "height": 129.75,
+            "right": 489.765625,
+            "bottom": 387.5625
+          },
+          "overflow": false
+        },
+        {
+          "tag": "H2",
+          "text": "FIND YOUR SIDE.",
+          "box": {
+            "x": 44.03125,
+            "y": 714.5,
+            "width": 529.875,
+            "height": 42.578125,
+            "right": 573.90625,
+            "bottom": 757.078125
+          },
+          "overflow": false
+        },
+        {
+          "tag": "H2",
+          "text": "WOMEN",
+          "box": {
+            "x": 78.03125,
+            "y": 1170.0625,
+            "width": 233.6875,
+            "height": 64.515625,
+            "right": 311.71875,
+            "bottom": 1234.578125
+          },
+          "overflow": false
+        },
+        {
+          "tag": "H2",
+          "text": "MEN",
+          "box": {
+            "x": 556,
+            "y": 1170.0625,
+            "width": 132.015625,
+            "height": 64.515625,
+            "right": 688.015625,
+            "bottom": 1234.578125
+          },
+          "overflow": false
+        }
+      ],
+      "hero": {
+        "src": "http://127.0.0.1:4208/assets/sj-home-hero-light.jpg",
+        "loaded": true,
+        "natural": [
+          1800,
+          900
+        ],
+        "media": {
+          "x": 44.03125,
+          "y": 136.5,
+          "width": 935.9375,
+          "height": 490,
+          "right": 979.96875,
+          "bottom": 626.5
+        },
+        "objectFit": "cover",
+        "objectPosition": "50% 0%"
+      },
+      "fontFaces": [
+        {
+          "family": "Cenzo Flare Bold",
+          "weight": "700",
+          "status": "loaded"
+        },
+        {
+          "family": "Helvetica Now Text",
+          "weight": "400",
+          "status": "loaded"
+        }
+      ],
+      "headingFont": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif",
+      "bodyFont": "\"Helvetica Now Text\", \"Helvetica Neue\", Arial, sans-serif",
+      "productCardCount": 0,
+      "productLinks": [],
+      "doorwayLinks": [
+        {
+          "label": "Shop women perfumes",
+          "href": "/collections/womens-perfume"
+        },
+        {
+          "label": "Shop men perfumes",
+          "href": "/collections/mens-perfume"
+        }
+      ],
+      "heroBeforeCollections": true,
+      "cart": {
+        "visible": true,
+        "box": {
+          "x": 896.171875,
+          "y": 46.5,
+          "width": 83.796875,
+          "height": 44,
+          "right": 979.96875,
+          "bottom": 90.5
+        },
+        "icon": {
+          "x": 896.171875,
+          "y": 57,
+          "width": 21,
+          "height": 23,
+          "right": 917.171875,
+          "bottom": 80
+        },
+        "opens": true
+      },
+      "cta": {
+        "hash": "#ShopCollections",
+        "scrollY": 492,
+        "titleTop": 222.5,
+        "titleBottom": 265.078125,
+        "sectionTop": 134.5,
+        "headerBottom": -381.5,
+        "titleNotHidden": true,
+        "titleInViewport": true
+      },
+      "errors": [],
+      "fontsPass": true,
+      "linksPass": true
+    },
+    {
+      "theme": "light",
+      "width": 820,
+      "height": 1000,
+      "h1Count": 1,
+      "h1Text": "MAKE IT\nPERSONAL.",
+      "horizontalOverflow": false,
+      "headingOverflow": [],
+      "headings": [
+        {
+          "tag": "H1",
+          "text": "MAKE IT PERSONAL.",
+          "box": {
+            "x": 68.046875,
+            "y": 263.171875,
+            "width": 324.140625,
+            "height": 119.03125,
+            "right": 392.1875,
+            "bottom": 382.203125
+          },
+          "overflow": false
+        },
+        {
+          "tag": "H2",
+          "text": "FIND YOUR SIDE.",
+          "box": {
+            "x": 35.25,
+            "y": 726.84375,
+            "width": 424.328125,
+            "height": 37.4375,
+            "right": 459.578125,
+            "bottom": 764.28125
+          },
+          "overflow": false
+        },
+        {
+          "tag": "H2",
+          "text": "WOMEN",
+          "box": {
+            "x": 69.25,
+            "y": 1190.125,
+            "width": 187.125,
+            "height": 51.65625,
+            "right": 256.375,
+            "bottom": 1241.78125
+          },
+          "overflow": false
+        },
+        {
+          "tag": "H2",
+          "text": "MEN",
+          "box": {
+            "x": 454,
+            "y": 1190.125,
+            "width": 105.71875,
+            "height": 51.65625,
+            "right": 559.71875,
+            "bottom": 1241.78125
+          },
+          "overflow": false
+        }
+      ],
+      "hero": {
+        "src": "http://127.0.0.1:4208/assets/sj-home-hero-light.jpg",
+        "loaded": true,
+        "natural": [
+          1800,
+          900
+        ],
+        "media": {
+          "x": 35.25,
+          "y": 136.5,
+          "width": 749.5,
+          "height": 490,
+          "right": 784.75,
+          "bottom": 626.5
+        },
+        "objectFit": "cover",
+        "objectPosition": "50% 0%"
+      },
+      "fontFaces": [
+        {
+          "family": "Cenzo Flare Bold",
+          "weight": "700",
+          "status": "loaded"
+        },
+        {
+          "family": "Helvetica Now Text",
+          "weight": "400",
+          "status": "loaded"
+        }
+      ],
+      "headingFont": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif",
+      "bodyFont": "\"Helvetica Now Text\", \"Helvetica Neue\", Arial, sans-serif",
+      "productCardCount": 0,
+      "productLinks": [],
+      "doorwayLinks": [
+        {
+          "label": "Shop women perfumes",
+          "href": "/collections/womens-perfume"
+        },
+        {
+          "label": "Shop men perfumes",
+          "href": "/collections/mens-perfume"
+        }
+      ],
+      "heroBeforeCollections": true,
+      "cart": {
+        "visible": true,
+        "box": {
+          "x": 700.953125,
+          "y": 46.5,
+          "width": 83.796875,
+          "height": 44,
+          "right": 784.75,
+          "bottom": 90.5
+        },
+        "icon": {
+          "x": 700.953125,
+          "y": 57,
+          "width": 21,
+          "height": 23,
+          "right": 721.953125,
+          "bottom": 80
+        },
+        "opens": true
+      },
+      "cta": {
+        "hash": "#ShopCollections",
+        "scrollY": 492,
+        "titleTop": 234.84375,
+        "titleBottom": 272.28125,
+        "sectionTop": 134.5,
+        "headerBottom": -381.5,
+        "titleNotHidden": true,
+        "titleInViewport": true
+      },
+      "errors": [],
+      "fontsPass": true,
+      "linksPass": true
+    },
+    {
+      "theme": "light",
+      "width": 390,
+      "height": 844,
+      "h1Count": 1,
+      "h1Text": "MAKE IT\nPERSONAL.",
+      "horizontalOverflow": false,
+      "headingOverflow": [],
+      "headings": [
+        {
+          "tag": "H1",
+          "text": "MAKE IT PERSONAL.",
+          "box": {
+            "x": 46,
+            "y": 482.78125,
+            "width": 298,
+            "height": 101.84375,
+            "right": 344,
+            "bottom": 584.625
+          },
+          "overflow": false
+        },
+        {
+          "tag": "H2",
+          "text": "FIND YOUR SIDE.",
+          "box": {
+            "x": 22,
+            "y": 828.21875,
+            "width": 346,
+            "height": 36.484375,
+            "right": 368,
+            "bottom": 864.703125
+          },
+          "overflow": false
+        },
+        {
+          "tag": "H2",
+          "text": "WOMEN",
+          "box": {
+            "x": 46,
+            "y": 1321.5,
+            "width": 228.203125,
+            "height": 63,
+            "right": 274.203125,
+            "bottom": 1384.5
+          },
+          "overflow": false
+        },
+        {
+          "tag": "H2",
+          "text": "MEN",
+          "box": {
+            "x": 46,
+            "y": 1869.5,
+            "width": 128.921875,
+            "height": 63,
+            "right": 174.921875,
+            "bottom": 1932.5
+          },
+          "overflow": false
+        }
+      ],
+      "hero": {
+        "src": "http://127.0.0.1:4208/assets/sj-home-hero-light.jpg",
+        "loaded": true,
+        "natural": [
+          1800,
+          900
+        ],
+        "media": {
+          "x": 22,
+          "y": 121,
+          "width": 346,
+          "height": 296.390625,
+          "right": 368,
+          "bottom": 417.390625
+        },
+        "objectFit": "cover",
+        "objectPosition": "78% 50%"
+      },
+      "fontFaces": [
+        {
+          "family": "Cenzo Flare Bold",
+          "weight": "700",
+          "status": "loaded"
+        },
+        {
+          "family": "Helvetica Now Text",
+          "weight": "400",
+          "status": "loaded"
+        }
+      ],
+      "headingFont": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif",
+      "bodyFont": "\"Helvetica Now Text\", \"Helvetica Neue\", Arial, sans-serif",
+      "productCardCount": 0,
+      "productLinks": [],
+      "doorwayLinks": [
+        {
+          "label": "Shop women perfumes",
+          "href": "/collections/womens-perfume"
+        },
+        {
+          "label": "Shop men perfumes",
+          "href": "/collections/mens-perfume"
+        }
+      ],
+      "heroBeforeCollections": true,
+      "cart": {
+        "visible": true,
+        "box": {
+          "x": 275,
+          "y": 42,
+          "width": 53,
+          "height": 44,
+          "right": 328,
+          "bottom": 86
+        },
+        "icon": {
+          "x": 275,
+          "y": 52.5,
+          "width": 21,
+          "height": 23,
+          "right": 296,
+          "bottom": 75.5
+        },
+        "opens": true
+      },
+      "cta": {
+        "hash": "#ShopCollections",
+        "scrollY": 639,
+        "titleTop": 189.21875,
+        "titleBottom": 225.703125,
+        "sectionTop": 123.21875,
+        "headerBottom": -540,
+        "titleNotHidden": true,
+        "titleInViewport": true
+      },
+      "errors": [],
+      "fontsPass": true,
+      "linksPass": true
+    },
+    {
+      "theme": "light",
+      "width": 360,
+      "height": 844,
+      "h1Count": 1,
+      "h1Text": "MAKE IT\nPERSONAL.",
+      "horizontalOverflow": false,
+      "headingOverflow": [],
+      "headings": [
+        {
+          "tag": "H1",
+          "text": "MAKE IT PERSONAL.",
+          "box": {
+            "x": 46,
+            "y": 459.984375,
+            "width": 268,
+            "height": 93.96875,
+            "right": 314,
+            "bottom": 553.953125
+          },
+          "overflow": false
+        },
+        {
+          "tag": "H2",
+          "text": "FIND YOUR SIDE.",
+          "box": {
+            "x": 22,
+            "y": 797.546875,
+            "width": 316,
+            "height": 35.359375,
+            "right": 338,
+            "bottom": 832.90625
+          },
+          "overflow": false
+        },
+        {
+          "tag": "H2",
+          "text": "WOMEN",
+          "box": {
+            "x": 46,
+            "y": 1289.703125,
+            "width": 228.203125,
+            "height": 63,
+            "right": 274.203125,
+            "bottom": 1352.703125
+          },
+          "overflow": false
+        },
+        {
+          "tag": "H2",
+          "text": "MEN",
+          "box": {
+            "x": 46,
+            "y": 1837.703125,
+            "width": 128.921875,
+            "height": 63,
+            "right": 174.921875,
+            "bottom": 1900.703125
+          },
+          "overflow": false
+        }
+      ],
+      "hero": {
+        "src": "http://127.0.0.1:4208/assets/sj-home-hero-light.jpg",
+        "loaded": true,
+        "natural": [
+          1800,
+          900
+        ],
+        "media": {
+          "x": 22,
+          "y": 121,
+          "width": 316,
+          "height": 273.59375,
+          "right": 338,
+          "bottom": 394.59375
+        },
+        "objectFit": "cover",
+        "objectPosition": "78% 50%"
+      },
+      "fontFaces": [
+        {
+          "family": "Cenzo Flare Bold",
+          "weight": "700",
+          "status": "loaded"
+        },
+        {
+          "family": "Helvetica Now Text",
+          "weight": "400",
+          "status": "loaded"
+        }
+      ],
+      "headingFont": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif",
+      "bodyFont": "\"Helvetica Now Text\", \"Helvetica Neue\", Arial, sans-serif",
+      "productCardCount": 0,
+      "productLinks": [],
+      "doorwayLinks": [
+        {
+          "label": "Shop women perfumes",
+          "href": "/collections/womens-perfume"
+        },
+        {
+          "label": "Shop men perfumes",
+          "href": "/collections/mens-perfume"
+        }
+      ],
+      "heroBeforeCollections": true,
+      "cart": {
+        "visible": true,
+        "box": {
+          "x": 245,
+          "y": 42,
+          "width": 53,
+          "height": 44,
+          "right": 298,
+          "bottom": 86
+        },
+        "icon": {
+          "x": 245,
+          "y": 52.5,
+          "width": 21,
+          "height": 23,
+          "right": 266,
+          "bottom": 75.5
+        },
+        "opens": true
+      },
+      "cta": {
+        "hash": "#ShopCollections",
+        "scrollY": 609,
+        "titleTop": 188.546875,
+        "titleBottom": 223.90625,
+        "sectionTop": 122.546875,
+        "headerBottom": -510,
+        "titleNotHidden": true,
+        "titleInViewport": true
+      },
+      "errors": [],
+      "fontsPass": true,
+      "linksPass": true
+    },
+    {
+      "theme": "dark",
+      "width": 1440,
+      "height": 1000,
+      "h1Count": 1,
+      "h1Text": "MAKE IT\nPERSONAL.",
+      "horizontalOverflow": false,
+      "headingOverflow": [],
+      "headings": [
+        {
+          "tag": "H1",
+          "text": "MAKE IT PERSONAL.",
+          "box": {
+            "x": 119.5,
+            "y": 296.046875,
+            "width": 569.21875,
+            "height": 182.46875,
+            "right": 688.71875,
+            "bottom": 478.515625
+          },
+          "overflow": false
+        },
+        {
+          "tag": "H2",
+          "text": "FIND YOUR SIDE.",
+          "box": {
+            "x": 61.90625,
+            "y": 843.6875,
+            "width": 745.171875,
+            "height": 59.890625,
+            "right": 807.078125,
+            "bottom": 903.578125
+          },
+          "overflow": false
+        },
+        {
+          "tag": "H2",
+          "text": "WOMEN",
+          "box": {
+            "x": 95.90625,
+            "y": 1412.765625,
+            "width": 328.609375,
+            "height": 90.703125,
+            "right": 424.515625,
+            "bottom": 1503.46875
+          },
+          "overflow": false
+        },
+        {
+          "tag": "H2",
+          "text": "MEN",
+          "box": {
+            "x": 764,
+            "y": 1412.765625,
+            "width": 185.640625,
+            "height": 90.703125,
+            "right": 949.640625,
+            "bottom": 1503.46875
+          },
+          "overflow": false
+        }
+      ],
+      "hero": {
+        "src": "http://127.0.0.1:4208/assets/sj-home-hero-dark.jpg",
+        "loaded": true,
+        "natural": [
+          1800,
+          900
+        ],
+        "media": {
+          "x": 61.90625,
+          "y": 136.5,
+          "width": 1316.1875,
+          "height": 619.1875,
+          "right": 1378.09375,
+          "bottom": 755.6875
+        },
+        "objectFit": "cover",
+        "objectPosition": "50% 0%"
+      },
+      "fontFaces": [
+        {
+          "family": "Cenzo Flare Bold",
+          "weight": "700",
+          "status": "loaded"
+        },
+        {
+          "family": "Helvetica Now Text",
+          "weight": "400",
+          "status": "loaded"
+        }
+      ],
+      "headingFont": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif",
+      "bodyFont": "\"Helvetica Now Text\", \"Helvetica Neue\", Arial, sans-serif",
+      "productCardCount": 0,
+      "productLinks": [],
+      "doorwayLinks": [
+        {
+          "label": "Shop women perfumes",
+          "href": "/collections/womens-perfume"
+        },
+        {
+          "label": "Shop men perfumes",
+          "href": "/collections/mens-perfume"
+        }
+      ],
+      "heroBeforeCollections": true,
+      "cart": {
+        "visible": true,
+        "box": {
+          "x": 1294.296875,
+          "y": 46.5,
+          "width": 83.796875,
+          "height": 44,
+          "right": 1378.09375,
+          "bottom": 90.5
+        },
+        "icon": {
+          "x": 1294.296875,
+          "y": 57,
+          "width": 21,
+          "height": 23,
+          "right": 1315.296875,
+          "bottom": 80
+        },
+        "opens": true
+      },
+      "cta": {
+        "hash": "#ShopCollections",
+        "scrollY": 621,
+        "titleTop": 222.6875,
+        "titleBottom": 282.578125,
+        "sectionTop": 134.6875,
+        "headerBottom": -510.5,
+        "titleNotHidden": true,
+        "titleInViewport": true
+      },
+      "errors": [],
+      "fontsPass": true,
+      "linksPass": true
+    },
+    {
+      "theme": "dark",
+      "width": 1024,
+      "height": 1000,
+      "h1Count": 1,
+      "h1Text": "MAKE IT\nPERSONAL.",
+      "horizontalOverflow": false,
+      "headingOverflow": [],
+      "headings": [
+        {
+          "tag": "H1",
+          "text": "MAKE IT PERSONAL.",
+          "box": {
+            "x": 84.984375,
+            "y": 257.8125,
+            "width": 404.78125,
+            "height": 129.75,
+            "right": 489.765625,
+            "bottom": 387.5625
+          },
+          "overflow": false
+        },
+        {
+          "tag": "H2",
+          "text": "FIND YOUR SIDE.",
+          "box": {
+            "x": 44.03125,
+            "y": 714.5,
+            "width": 529.875,
+            "height": 42.578125,
+            "right": 573.90625,
+            "bottom": 757.078125
+          },
+          "overflow": false
+        },
+        {
+          "tag": "H2",
+          "text": "WOMEN",
+          "box": {
+            "x": 78.03125,
+            "y": 1170.0625,
+            "width": 233.6875,
+            "height": 64.515625,
+            "right": 311.71875,
+            "bottom": 1234.578125
+          },
+          "overflow": false
+        },
+        {
+          "tag": "H2",
+          "text": "MEN",
+          "box": {
+            "x": 556,
+            "y": 1170.0625,
+            "width": 132.015625,
+            "height": 64.515625,
+            "right": 688.015625,
+            "bottom": 1234.578125
+          },
+          "overflow": false
+        }
+      ],
+      "hero": {
+        "src": "http://127.0.0.1:4208/assets/sj-home-hero-dark.jpg",
+        "loaded": true,
+        "natural": [
+          1800,
+          900
+        ],
+        "media": {
+          "x": 44.03125,
+          "y": 136.5,
+          "width": 935.9375,
+          "height": 490,
+          "right": 979.96875,
+          "bottom": 626.5
+        },
+        "objectFit": "cover",
+        "objectPosition": "50% 0%"
+      },
+      "fontFaces": [
+        {
+          "family": "Cenzo Flare Bold",
+          "weight": "700",
+          "status": "loaded"
+        },
+        {
+          "family": "Helvetica Now Text",
+          "weight": "400",
+          "status": "loaded"
+        }
+      ],
+      "headingFont": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif",
+      "bodyFont": "\"Helvetica Now Text\", \"Helvetica Neue\", Arial, sans-serif",
+      "productCardCount": 0,
+      "productLinks": [],
+      "doorwayLinks": [
+        {
+          "label": "Shop women perfumes",
+          "href": "/collections/womens-perfume"
+        },
+        {
+          "label": "Shop men perfumes",
+          "href": "/collections/mens-perfume"
+        }
+      ],
+      "heroBeforeCollections": true,
+      "cart": {
+        "visible": true,
+        "box": {
+          "x": 896.171875,
+          "y": 46.5,
+          "width": 83.796875,
+          "height": 44,
+          "right": 979.96875,
+          "bottom": 90.5
+        },
+        "icon": {
+          "x": 896.171875,
+          "y": 57,
+          "width": 21,
+          "height": 23,
+          "right": 917.171875,
+          "bottom": 80
+        },
+        "opens": true
+      },
+      "cta": {
+        "hash": "#ShopCollections",
+        "scrollY": 492,
+        "titleTop": 222.5,
+        "titleBottom": 265.078125,
+        "sectionTop": 134.5,
+        "headerBottom": -381.5,
+        "titleNotHidden": true,
+        "titleInViewport": true
+      },
+      "errors": [],
+      "fontsPass": true,
+      "linksPass": true
+    },
+    {
+      "theme": "dark",
+      "width": 820,
+      "height": 1000,
+      "h1Count": 1,
+      "h1Text": "MAKE IT\nPERSONAL.",
+      "horizontalOverflow": false,
+      "headingOverflow": [],
+      "headings": [
+        {
+          "tag": "H1",
+          "text": "MAKE IT PERSONAL.",
+          "box": {
+            "x": 68.046875,
+            "y": 263.171875,
+            "width": 324.140625,
+            "height": 119.03125,
+            "right": 392.1875,
+            "bottom": 382.203125
+          },
+          "overflow": false
+        },
+        {
+          "tag": "H2",
+          "text": "FIND YOUR SIDE.",
+          "box": {
+            "x": 35.25,
+            "y": 726.84375,
+            "width": 424.328125,
+            "height": 37.4375,
+            "right": 459.578125,
+            "bottom": 764.28125
+          },
+          "overflow": false
+        },
+        {
+          "tag": "H2",
+          "text": "WOMEN",
+          "box": {
+            "x": 69.25,
+            "y": 1190.125,
+            "width": 187.125,
+            "height": 51.65625,
+            "right": 256.375,
+            "bottom": 1241.78125
+          },
+          "overflow": false
+        },
+        {
+          "tag": "H2",
+          "text": "MEN",
+          "box": {
+            "x": 454,
+            "y": 1190.125,
+            "width": 105.71875,
+            "height": 51.65625,
+            "right": 559.71875,
+            "bottom": 1241.78125
+          },
+          "overflow": false
+        }
+      ],
+      "hero": {
+        "src": "http://127.0.0.1:4208/assets/sj-home-hero-dark.jpg",
+        "loaded": true,
+        "natural": [
+          1800,
+          900
+        ],
+        "media": {
+          "x": 35.25,
+          "y": 136.5,
+          "width": 749.5,
+          "height": 490,
+          "right": 784.75,
+          "bottom": 626.5
+        },
+        "objectFit": "cover",
+        "objectPosition": "50% 0%"
+      },
+      "fontFaces": [
+        {
+          "family": "Cenzo Flare Bold",
+          "weight": "700",
+          "status": "loaded"
+        },
+        {
+          "family": "Helvetica Now Text",
+          "weight": "400",
+          "status": "loaded"
+        }
+      ],
+      "headingFont": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif",
+      "bodyFont": "\"Helvetica Now Text\", \"Helvetica Neue\", Arial, sans-serif",
+      "productCardCount": 0,
+      "productLinks": [],
+      "doorwayLinks": [
+        {
+          "label": "Shop women perfumes",
+          "href": "/collections/womens-perfume"
+        },
+        {
+          "label": "Shop men perfumes",
+          "href": "/collections/mens-perfume"
+        }
+      ],
+      "heroBeforeCollections": true,
+      "cart": {
+        "visible": true,
+        "box": {
+          "x": 700.953125,
+          "y": 46.5,
+          "width": 83.796875,
+          "height": 44,
+          "right": 784.75,
+          "bottom": 90.5
+        },
+        "icon": {
+          "x": 700.953125,
+          "y": 57,
+          "width": 21,
+          "height": 23,
+          "right": 721.953125,
+          "bottom": 80
+        },
+        "opens": true
+      },
+      "cta": {
+        "hash": "#ShopCollections",
+        "scrollY": 492,
+        "titleTop": 234.84375,
+        "titleBottom": 272.28125,
+        "sectionTop": 134.5,
+        "headerBottom": -381.5,
+        "titleNotHidden": true,
+        "titleInViewport": true
+      },
+      "errors": [],
+      "fontsPass": true,
+      "linksPass": true
+    },
+    {
+      "theme": "dark",
+      "width": 390,
+      "height": 844,
+      "h1Count": 1,
+      "h1Text": "MAKE IT\nPERSONAL.",
+      "horizontalOverflow": false,
+      "headingOverflow": [],
+      "headings": [
+        {
+          "tag": "H1",
+          "text": "MAKE IT PERSONAL.",
+          "box": {
+            "x": 46,
+            "y": 482.78125,
+            "width": 298,
+            "height": 101.84375,
+            "right": 344,
+            "bottom": 584.625
+          },
+          "overflow": false
+        },
+        {
+          "tag": "H2",
+          "text": "FIND YOUR SIDE.",
+          "box": {
+            "x": 22,
+            "y": 828.21875,
+            "width": 346,
+            "height": 36.484375,
+            "right": 368,
+            "bottom": 864.703125
+          },
+          "overflow": false
+        },
+        {
+          "tag": "H2",
+          "text": "WOMEN",
+          "box": {
+            "x": 46,
+            "y": 1321.5,
+            "width": 228.203125,
+            "height": 63,
+            "right": 274.203125,
+            "bottom": 1384.5
+          },
+          "overflow": false
+        },
+        {
+          "tag": "H2",
+          "text": "MEN",
+          "box": {
+            "x": 46,
+            "y": 1869.5,
+            "width": 128.921875,
+            "height": 63,
+            "right": 174.921875,
+            "bottom": 1932.5
+          },
+          "overflow": false
+        }
+      ],
+      "hero": {
+        "src": "http://127.0.0.1:4208/assets/sj-home-hero-dark.jpg",
+        "loaded": true,
+        "natural": [
+          1800,
+          900
+        ],
+        "media": {
+          "x": 22,
+          "y": 121,
+          "width": 346,
+          "height": 296.390625,
+          "right": 368,
+          "bottom": 417.390625
+        },
+        "objectFit": "cover",
+        "objectPosition": "78% 50%"
+      },
+      "fontFaces": [
+        {
+          "family": "Cenzo Flare Bold",
+          "weight": "700",
+          "status": "loaded"
+        },
+        {
+          "family": "Helvetica Now Text",
+          "weight": "400",
+          "status": "loaded"
+        }
+      ],
+      "headingFont": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif",
+      "bodyFont": "\"Helvetica Now Text\", \"Helvetica Neue\", Arial, sans-serif",
+      "productCardCount": 0,
+      "productLinks": [],
+      "doorwayLinks": [
+        {
+          "label": "Shop women perfumes",
+          "href": "/collections/womens-perfume"
+        },
+        {
+          "label": "Shop men perfumes",
+          "href": "/collections/mens-perfume"
+        }
+      ],
+      "heroBeforeCollections": true,
+      "cart": {
+        "visible": true,
+        "box": {
+          "x": 275,
+          "y": 42,
+          "width": 53,
+          "height": 44,
+          "right": 328,
+          "bottom": 86
+        },
+        "icon": {
+          "x": 275,
+          "y": 52.5,
+          "width": 21,
+          "height": 23,
+          "right": 296,
+          "bottom": 75.5
+        },
+        "opens": true
+      },
+      "cta": {
+        "hash": "#ShopCollections",
+        "scrollY": 639,
+        "titleTop": 189.21875,
+        "titleBottom": 225.703125,
+        "sectionTop": 123.21875,
+        "headerBottom": -540,
+        "titleNotHidden": true,
+        "titleInViewport": true
+      },
+      "errors": [],
+      "fontsPass": true,
+      "linksPass": true
+    },
+    {
+      "theme": "dark",
+      "width": 360,
+      "height": 844,
+      "h1Count": 1,
+      "h1Text": "MAKE IT\nPERSONAL.",
+      "horizontalOverflow": false,
+      "headingOverflow": [],
+      "headings": [
+        {
+          "tag": "H1",
+          "text": "MAKE IT PERSONAL.",
+          "box": {
+            "x": 46,
+            "y": 459.984375,
+            "width": 268,
+            "height": 93.96875,
+            "right": 314,
+            "bottom": 553.953125
+          },
+          "overflow": false
+        },
+        {
+          "tag": "H2",
+          "text": "FIND YOUR SIDE.",
+          "box": {
+            "x": 22,
+            "y": 797.546875,
+            "width": 316,
+            "height": 35.359375,
+            "right": 338,
+            "bottom": 832.90625
+          },
+          "overflow": false
+        },
+        {
+          "tag": "H2",
+          "text": "WOMEN",
+          "box": {
+            "x": 46,
+            "y": 1289.703125,
+            "width": 228.203125,
+            "height": 63,
+            "right": 274.203125,
+            "bottom": 1352.703125
+          },
+          "overflow": false
+        },
+        {
+          "tag": "H2",
+          "text": "MEN",
+          "box": {
+            "x": 46,
+            "y": 1837.703125,
+            "width": 128.921875,
+            "height": 63,
+            "right": 174.921875,
+            "bottom": 1900.703125
+          },
+          "overflow": false
+        }
+      ],
+      "hero": {
+        "src": "http://127.0.0.1:4208/assets/sj-home-hero-dark.jpg",
+        "loaded": true,
+        "natural": [
+          1800,
+          900
+        ],
+        "media": {
+          "x": 22,
+          "y": 121,
+          "width": 316,
+          "height": 273.59375,
+          "right": 338,
+          "bottom": 394.59375
+        },
+        "objectFit": "cover",
+        "objectPosition": "78% 50%"
+      },
+      "fontFaces": [
+        {
+          "family": "Cenzo Flare Bold",
+          "weight": "700",
+          "status": "loaded"
+        },
+        {
+          "family": "Helvetica Now Text",
+          "weight": "400",
+          "status": "loaded"
+        }
+      ],
+      "headingFont": "\"Cenzo Flare Bold\", \"Helvetica Neue\", Arial, sans-serif",
+      "bodyFont": "\"Helvetica Now Text\", \"Helvetica Neue\", Arial, sans-serif",
+      "productCardCount": 0,
+      "productLinks": [],
+      "doorwayLinks": [
+        {
+          "label": "Shop women perfumes",
+          "href": "/collections/womens-perfume"
+        },
+        {
+          "label": "Shop men perfumes",
+          "href": "/collections/mens-perfume"
+        }
+      ],
+      "heroBeforeCollections": true,
+      "cart": {
+        "visible": true,
+        "box": {
+          "x": 245,
+          "y": 42,
+          "width": 53,
+          "height": 44,
+          "right": 298,
+          "bottom": 86
+        },
+        "icon": {
+          "x": 245,
+          "y": 52.5,
+          "width": 21,
+          "height": 23,
+          "right": 266,
+          "bottom": 75.5
+        },
+        "opens": true
+      },
+      "cta": {
+        "hash": "#ShopCollections",
+        "scrollY": 609,
+        "titleTop": 188.546875,
+        "titleBottom": 223.90625,
+        "sectionTop": 122.546875,
+        "headerBottom": -510,
+        "titleNotHidden": true,
+        "titleInViewport": true
+      },
+      "errors": [],
+      "fontsPass": true,
+      "linksPass": true
+    }
+  ],
+  "routes": [
+    {
+      "route": "/",
+      "status": 200,
+      "count": 0,
+      "h1": "MAKE IT PERSONAL.",
+      "h1Count": 1,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "route": "/404",
+      "status": 200,
+      "count": 0,
+      "h1": "LET’S FIND YOUR WAY BACK.",
+      "h1Count": 1,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "route": "/cart",
+      "status": 200,
+      "count": 0,
+      "h1": "YOUR BAG.",
+      "h1Count": 1,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "route": "/collections/all",
+      "status": 200,
+      "count": 0,
+      "h1": "ALL FRAGRANCES",
+      "h1Count": 1,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "route": "/collections/mens-perfume",
+      "status": 200,
+      "count": 0,
+      "h1": "MAKE YOUR SCENT PART OF YOUR STORY.",
+      "h1Count": 1,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "route": "/collections/womens-perfume",
+      "status": 200,
+      "count": 0,
+      "h1": "A SCENT FOR EVERY VERSION OF YOU.",
+      "h1Count": 1,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "route": "/pages/contact",
+      "status": 200,
+      "count": 0,
+      "h1": "HERE FOR YOUR NEXT CHAPTER.",
+      "h1Count": 1,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "route": "/pages/customer-care",
+      "status": 200,
+      "count": 0,
+      "h1": "CUSTOMER CARE",
+      "h1Count": 1,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "route": "/pages/faq",
+      "status": 200,
+      "count": 0,
+      "h1": "GOOD QUESTIONS. REAL ANSWERS.",
+      "h1Count": 1,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "route": "/pages/our-story",
+      "status": 200,
+      "count": 1,
+      "h1": "A SCENT JOURNEY FROM LONDON TO THE PHILIPPINES.",
+      "h1Count": 1,
+      "expected": 1,
+      "pass": true
+    },
+    {
+      "route": "/pages/privacy",
+      "status": 200,
+      "count": 0,
+      "h1": "PRIVACY",
+      "h1Count": 1,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "route": "/pages/returns",
+      "status": 200,
+      "count": 0,
+      "h1": "RETURNS",
+      "h1Count": 1,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "route": "/pages/scent-finder",
+      "status": 200,
+      "count": 0,
+      "h1": "FOLLOW YOUR MOOD. FIND YOUR FRAGRANCE.",
+      "h1Count": 1,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "route": "/pages/shipping",
+      "status": 200,
+      "count": 0,
+      "h1": "SHIPPING",
+      "h1Count": 1,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "route": "/pages/terms",
+      "status": 200,
+      "count": 0,
+      "h1": "TERMS",
+      "h1Count": 1,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "route": "/password",
+      "status": 200,
+      "count": 0,
+      "h1": "A NEW CHAPTER IS COMING.",
+      "h1Count": 1,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "route": "/products/amber-oud-silk",
+      "status": 200,
+      "count": 0,
+      "h1": "AMBER OUD SILK",
+      "h1Count": 1,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "route": "/products/charme-envoutant",
+      "status": 200,
+      "count": 0,
+      "h1": "CHARME ENVOÛTANT",
+      "h1Count": 1,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "route": "/products/mistened-narcissus",
+      "status": 200,
+      "count": 0,
+      "h1": "MISTENED NARCISSUS",
+      "h1Count": 1,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "route": "/products/mojito-metallique",
+      "status": 200,
+      "count": 0,
+      "h1": "MOJITO METALLIQUE",
+      "h1Count": 1,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "route": "/products/oud-mirage",
+      "status": 200,
+      "count": 0,
+      "h1": "OUD MIRAGE",
+      "h1Count": 1,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "route": "/products/rtulle-satin",
+      "status": 200,
+      "count": 0,
+      "h1": "RTULLE & SATIN",
+      "h1Count": 1,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "route": "/search",
+      "status": 200,
+      "count": 0,
+      "h1": "YOUR NEXT CHAPTER STARTS WITH A WORD.",
+      "h1Count": 1,
+      "expected": 0,
+      "pass": true
+    }
+  ],
+  "issues": [],
+  "status": "PASS",
+  "footerFollowup": [
+    {
+      "theme": "light",
+      "width": 1440,
+      "text": "DISCOVER THE COLLECTION",
+      "color": "rgb(244, 227, 203)",
+      "background": "rgb(92, 0, 6)",
+      "contrastRatio": 11.45414312611281,
+      "nativeHeaderClassSimulation": {
+        "headerTop": 0,
+        "headerBottom": 110.5,
+        "titleTop": 222.6875,
+        "clear": true
+      },
+      "pass": true
+    },
+    {
+      "theme": "light",
+      "width": 390,
+      "text": "DISCOVER THE COLLECTION",
+      "color": "rgb(244, 227, 203)",
+      "background": "rgb(92, 0, 6)",
+      "contrastRatio": 11.45414312611281,
+      "nativeHeaderClassSimulation": {
+        "headerTop": 0,
+        "headerBottom": 99,
+        "titleTop": 189.21875,
+        "clear": true
+      },
+      "pass": true
+    },
+    {
+      "theme": "dark",
+      "width": 1440,
+      "text": "DISCOVER THE COLLECTION",
+      "color": "rgb(244, 227, 203)",
+      "background": "rgb(92, 0, 6)",
+      "contrastRatio": 11.45414312611281,
+      "nativeHeaderClassSimulation": {
+        "headerTop": 0,
+        "headerBottom": 110.5,
+        "titleTop": 222.6875,
+        "clear": true
+      },
+      "pass": true
+    },
+    {
+      "theme": "dark",
+      "width": 390,
+      "text": "DISCOVER THE COLLECTION",
+      "color": "rgb(244, 227, 203)",
+      "background": "rgb(92, 0, 6)",
+      "contrastRatio": 11.45414312611281,
+      "nativeHeaderClassSimulation": {
+        "headerTop": 0,
+        "headerBottom": 99,
+        "titleTop": 189.21875,
+        "clear": true
+      },
+      "pass": true
+    }
+  ],
+  "manualVisualReview": {
+    "status": "PASS",
+    "heroScreenshotsInspected": 10,
+    "fullPageScreenshotsInspected": 4,
+    "faces": "Both faces and heads remain completely visible at all10 hero crops.",
+    "copy": "Readable with no crop or heading overflow; no product cards on home.",
+    "resolvedFinding": "Light footer CTA had1:1 contrast. Root applied .sj-footer .sj-text-link {color:inherit}; targeted checks now pass.",
+    "previewHeaderLimitation": "Preview omits Shopify native section-group class, so header is static in ordinary preview. Applied existing native class only in temporary browser DOM to verify sticky header anchor clearance; no repository source edited."
+  }
+}

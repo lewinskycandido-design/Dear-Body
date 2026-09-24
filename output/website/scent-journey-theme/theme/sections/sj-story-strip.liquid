@@ -1,0 +1,25 @@
+<section class="sj-container"><div class="sj-story-strip"><p class="sj-eyebrow">{{ section.settings.eyebrow | escape }}</p><div><p>{{ section.settings.statement | escape }}</p><a class="sj-text-link" href="{{ settings.story_url | default: '/pages/our-story' }}">The story behind the scents</a></div></div></section>
+{% schema %}
+{
+  "name": "London to Filipino life",
+  "settings": [
+    {
+      "type": "text",
+      "id": "eyebrow",
+      "label": "Eyebrow",
+      "default": "GLOBAL FORMULATION. LOCAL PERSONALITY."
+    },
+    {
+      "type": "textarea",
+      "id": "statement",
+      "label": "Statement",
+      "default": "A little London character. A lot of Filipino soul. Fragrances for who you are — and whoever you feel like being today."
+    }
+  ],
+  "presets": [
+    {
+      "name": "London to Filipino life"
+    }
+  ]
+}
+{% endschema %}

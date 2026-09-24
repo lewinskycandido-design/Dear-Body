@@ -1,0 +1,22 @@
+{
+  "handle": "oud-mirage",
+  "created_utc": "2026-09-24T04:18:27.094121+00:00",
+  "tool": "built-in image_gen.imagegen",
+  "generated_source": "/Users/wetrade/.codex/generated_images/01a0d0f8-8d24-7131-8c77-de85e96f8179/exec-312c27f7-af37-4a73-967e-27ea6ff0b565.png",
+  "original": "campaign-v6-product-lifestyle/originals/sj-product-banner-oud-mirage.png",
+  "original_sha256": "98cd3a6915a79600b6d82cedfbc78ca51e2ee53a4006b972d03351520e46fc26",
+  "original_dimensions": [
+    1774,
+    887
+  ],
+  "web": "campaign-v6-product-lifestyle/final-web/sj-product-banner-oud-mirage.jpg",
+  "web_sha256": "9b9427f911a307f5c8fcf9e91f9a66f38f236fea6c8082d8e6a7f31354d15b9c",
+  "web_bytes": 412540,
+  "prompt_file": "campaign-v6-product-lifestyle/prompts/sj-product-banner-oud-mirage.txt",
+  "references": [
+    "theme/assets/sj-oud-mirage-01.jpg",
+    "/Users/wetrade/.codex/skills/dearbody-scent-gallery/assets/canonical-bottle-proportions.png"
+  ],
+  "export": "sips JPEG format conversion at quality88; native1774x887 retained; no crop, resize, compositing or retouching.",
+  "qa": "PASS: exactly one adult Filipino man total, no other people/reflections; credible neighborhood bookshop, bookcase/jalousie window/table perspective, natural hand grip and50ml bottle scale; warm expressive personality; exact Oud Mirage wording, blue liquid/black cap/tall glass; face and product clear of left copy field."
+}

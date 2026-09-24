@@ -1,0 +1,274 @@
+[
+  {
+    "width": 320,
+    "theme": "light",
+    "gateways": [
+      {
+        "kind": "women",
+        "href": "/collections/womens-perfume",
+        "image": "http://127.0.0.1:4208/assets/sj-women-light.jpg",
+        "dimensions": [
+          1073,
+          1466
+        ],
+        "position": "50% 19%",
+        "correctAsset": true,
+        "copyContained": true,
+        "loaded": true
+      },
+      {
+        "kind": "men",
+        "href": "/collections/mens-perfume",
+        "image": "http://127.0.0.1:4208/assets/sj-men-light.jpg",
+        "dimensions": [
+          1073,
+          1466
+        ],
+        "position": "50% 23%",
+        "correctAsset": true,
+        "copyContained": true,
+        "loaded": true
+      }
+    ],
+    "overflow": false,
+    "status": "PASS"
+  },
+  {
+    "width": 320,
+    "theme": "dark",
+    "gateways": [
+      {
+        "kind": "women",
+        "href": "/collections/womens-perfume",
+        "image": "http://127.0.0.1:4208/assets/sj-women-dark.jpg",
+        "dimensions": [
+          1073,
+          1466
+        ],
+        "position": "50% 19%",
+        "correctAsset": true,
+        "copyContained": true,
+        "loaded": true
+      },
+      {
+        "kind": "men",
+        "href": "/collections/mens-perfume",
+        "image": "http://127.0.0.1:4208/assets/sj-men-dark.jpg",
+        "dimensions": [
+          1073,
+          1466
+        ],
+        "position": "50% 23%",
+        "correctAsset": true,
+        "copyContained": true,
+        "loaded": true
+      }
+    ],
+    "overflow": false,
+    "status": "PASS"
+  },
+  {
+    "width": 390,
+    "theme": "light",
+    "gateways": [
+      {
+        "kind": "women",
+        "href": "/collections/womens-perfume",
+        "image": "http://127.0.0.1:4208/assets/sj-women-light.jpg",
+        "dimensions": [
+          1073,
+          1466
+        ],
+        "position": "50% 19%",
+        "correctAsset": true,
+        "copyContained": true,
+        "loaded": true
+      },
+      {
+        "kind": "men",
+        "href": "/collections/mens-perfume",
+        "image": "http://127.0.0.1:4208/assets/sj-men-light.jpg",
+        "dimensions": [
+          1073,
+          1466
+        ],
+        "position": "50% 23%",
+        "correctAsset": true,
+        "copyContained": true,
+        "loaded": true
+      }
+    ],
+    "overflow": false,
+    "status": "PASS"
+  },
+  {
+    "width": 390,
+    "theme": "dark",
+    "gateways": [
+      {
+        "kind": "women",
+        "href": "/collections/womens-perfume",
+        "image": "http://127.0.0.1:4208/assets/sj-women-dark.jpg",
+        "dimensions": [
+          1073,
+          1466
+        ],
+        "position": "50% 19%",
+        "correctAsset": true,
+        "copyContained": true,
+        "loaded": true
+      },
+      {
+        "kind": "men",
+        "href": "/collections/mens-perfume",
+        "image": "http://127.0.0.1:4208/assets/sj-men-dark.jpg",
+        "dimensions": [
+          1073,
+          1466
+        ],
+        "position": "50% 23%",
+        "correctAsset": true,
+        "copyContained": true,
+        "loaded": true
+      }
+    ],
+    "overflow": false,
+    "status": "PASS"
+  },
+  {
+    "width": 820,
+    "theme": "light",
+    "gateways": [
+      {
+        "kind": "women",
+        "href": "/collections/womens-perfume",
+        "image": "http://127.0.0.1:4208/assets/sj-women-light.jpg",
+        "dimensions": [
+          1073,
+          1466
+        ],
+        "position": "50% 19%",
+        "correctAsset": true,
+        "copyContained": true,
+        "loaded": true
+      },
+      {
+        "kind": "men",
+        "href": "/collections/mens-perfume",
+        "image": "http://127.0.0.1:4208/assets/sj-men-light.jpg",
+        "dimensions": [
+          1073,
+          1466
+        ],
+        "position": "50% 23%",
+        "correctAsset": true,
+        "copyContained": true,
+        "loaded": true
+      }
+    ],
+    "overflow": false,
+    "status": "PASS"
+  },
+  {
+    "width": 820,
+    "theme": "dark",
+    "gateways": [
+      {
+        "kind": "women",
+        "href": "/collections/womens-perfume",
+        "image": "http://127.0.0.1:4208/assets/sj-women-dark.jpg",
+        "dimensions": [
+          1073,
+          1466
+        ],
+        "position": "50% 19%",
+        "correctAsset": true,
+        "copyContained": true,
+        "loaded": true
+      },
+      {
+        "kind": "men",
+        "href": "/collections/mens-perfume",
+        "image": "http://127.0.0.1:4208/assets/sj-men-dark.jpg",
+        "dimensions": [
+          1073,
+          1466
+        ],
+        "position": "50% 23%",
+        "correctAsset": true,
+        "copyContained": true,
+        "loaded": true
+      }
+    ],
+    "overflow": false,
+    "status": "PASS"
+  },
+  {
+    "width": 1440,
+    "theme": "light",
+    "gateways": [
+      {
+        "kind": "women",
+        "href": "/collections/womens-perfume",
+        "image": "http://127.0.0.1:4208/assets/sj-women-light.jpg",
+        "dimensions": [
+          1073,
+          1466
+        ],
+        "position": "50% 19%",
+        "correctAsset": true,
+        "copyContained": true,
+        "loaded": true
+      },
+      {
+        "kind": "men",
+        "href": "/collections/mens-perfume",
+        "image": "http://127.0.0.1:4208/assets/sj-men-light.jpg",
+        "dimensions": [
+          1073,
+          1466
+        ],
+        "position": "50% 23%",
+        "correctAsset": true,
+        "copyContained": true,
+        "loaded": true
+      }
+    ],
+    "overflow": false,
+    "status": "PASS"
+  },
+  {
+    "width": 1440,
+    "theme": "dark",
+    "gateways": [
+      {
+        "kind": "women",
+        "href": "/collections/womens-perfume",
+        "image": "http://127.0.0.1:4208/assets/sj-women-dark.jpg",
+        "dimensions": [
+          1073,
+          1466
+        ],
+        "position": "50% 19%",
+        "correctAsset": true,
+        "copyContained": true,
+        "loaded": true
+      },
+      {
+        "kind": "men",
+        "href": "/collections/mens-perfume",
+        "image": "http://127.0.0.1:4208/assets/sj-men-dark.jpg",
+        "dimensions": [
+          1073,
+          1466
+        ],
+        "position": "50% 23%",
+        "correctAsset": true,
+        "copyContained": true,
+        "loaded": true
+      }
+    ],
+    "overflow": false,
+    "status": "PASS"
+  }
+]

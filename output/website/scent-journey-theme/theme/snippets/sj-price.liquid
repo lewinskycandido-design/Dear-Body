@@ -1,0 +1,46 @@
+{%- comment -%}
+  Selling prices come from Shopify. The owner-approved original reference for
+  the six active PHP 799 fragrances is PHP 1,099. Other prices remain native.
+{%- endcomment -%}
+{%- liquid
+  assign priced_item = variant | default: product
+  assign selling_price = priced_item.price
+  assign regular_price = priced_item.compare_at_price
+  assign price_currency = cart.currency.iso_code | default: cart.currency | default: localization.country.currency.iso_code | default: shop.currency
+  assign launch_handles = 'mojito-metallique,amber-oud-silk,mistened-narcissus,charme-envoutant,oud-mirage,rtulle-satin' | split: ','
+  assign consistent_price = true
+  if variant == blank and product.price_varies
+    assign consistent_price = false
+  endif
+  if variant == blank and product.compare_at_price_varies
+    assign regular_price = 0
+  endif
+  if launch_handles contains product.handle and selling_price == 79900 and price_currency == 'PHP' and consistent_price
+    assign regular_price = 109900
+  endif
+  assign discount_percent = 0
+  if regular_price > selling_price and consistent_price
+    assign discount_percent = regular_price | minus: selling_price | times: 100.0 | divided_by: regular_price | round: 1
+  else
+    assign regular_price = 0
+  endif
+-%}
+{%- case context -%}
+  {%- when 'compare' -%}
+    {%- if regular_price > selling_price -%}{{ regular_price | money_with_currency }}{%- endif -%}
+  {%- when 'savings' -%}
+    {%- if discount_percent > 0 -%}{{ discount_percent }}% OFF{%- endif -%}
+  {%- when 'amount' -%}
+    {%- if regular_price > selling_price -%}Save {{ regular_price | minus: selling_price | money }}{%- endif -%}
+  {%- when 'product' -%}
+    <span class="sj-price__selling"><span class="sj-price__label">Now</span><span class="sj-product__price" data-sj-price>{{ selling_price | money_with_currency }}</span></span>
+    <span class="sj-price__reference" data-sj-reference {% unless regular_price > selling_price %}hidden{% endunless %}><span class="sj-price__label">Original</span><s class="sj-product__compare" data-sj-compare {% unless regular_price > selling_price %}hidden{% endunless %}>{% if regular_price > selling_price %}{{ regular_price | money_with_currency }}{% endif %}</s></span>
+    <span class="sj-price__saving" data-sj-savings {% unless discount_percent > 0 %}hidden{% endunless %}>{% if discount_percent > 0 %}{{ discount_percent }}% OFF{% endif %}</span>
+    <span class="sj-price__amount" data-sj-savings-amount {% unless regular_price > selling_price %}hidden{% endunless %}>{% if regular_price > selling_price %}Save {{ regular_price | minus: selling_price | money }}{% endif %}</span>
+  {%- else -%}
+    <span class="sj-price">
+      <span class="sj-price__current">{% if product.price_varies %}<span>From </span>{% endif %}{{ selling_price | money }}</span>
+      {% if regular_price > selling_price %}<s class="sj-price__regular">{{ regular_price | money }}</s>{% endif %}
+      {% if discount_percent > 0 %}<span class="sj-price__saving">{{ discount_percent }}% OFF</span>{% endif %}
+    </span>
+{%- endcase -%}
