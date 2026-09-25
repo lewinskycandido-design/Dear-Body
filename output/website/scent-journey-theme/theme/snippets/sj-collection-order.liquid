@@ -73,7 +73,7 @@
               {%- if home_order or order_collection == opposite_collection -%}
                 {%- assign order_product = all_products[order_handle] -%}
                 {%- if order_product != blank -%}{%- for order_variant in order_product.variants -%}
-                  <option value="{{ order_variant.id }}" data-available="{{ order_variant.available }}" {% unless order_variant.available %}disabled{% endunless %}>{{ order_product.title | escape }}{% unless order_product.has_only_default_variant %} / {{ order_variant.title | escape }}{% endunless %} — {{ order_variant.price | money_with_currency }}{% unless order_variant.available %} — Sold out{% endunless %}</option>
+                  <option value="{{ order_variant.id }}" data-available="{{ order_variant.available }}" {% unless order_variant.available %}disabled{% endunless %}>{{ order_product.title | escape }}{% unless order_product.has_only_default_variant %} / {{ order_variant.title | escape }}{% endunless %} — {{ order_variant.price | money }}{% unless order_variant.available %} — Sold out{% endunless %}</option>
                 {%- endfor -%}{%- endif -%}
               {%- endif -%}
             {%- endfor -%}

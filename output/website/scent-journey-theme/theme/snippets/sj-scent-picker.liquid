@@ -14,7 +14,7 @@
             {% elsif scent.featured_image %}
               {{ scent.featured_image | image_url: width: 160 | image_tag: width: 64, height: 64, alt: '', loading: 'lazy' }}
             {% endif %}
-            <span class="sj-scent-picker__copy"><strong>{{ scent.title | escape }}</strong>{% unless scent.has_only_default_variant %}<span>{{ variant.title | escape }}</span>{% endunless %}<span>{{ variant.price | money_with_currency }}</span><small data-sj-order-add-label>{% if variant.available %}Add to order{% else %}Sold out{% endif %}</small></span>
+            <span class="sj-scent-picker__copy"><strong>{{ scent.title | escape }}</strong>{% unless scent.has_only_default_variant %}<span>{{ variant.title | escape }}</span>{% endunless %}<span>{{ variant.price | money }}</span><small data-sj-order-add-label>{% if variant.available %}Add to order{% else %}Sold out{% endif %}</small></span>
           </button>
         {% endfor %}
       {% endif %}
