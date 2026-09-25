@@ -1,5 +1,9 @@
 {
   "sections": {
+    "home_order": {
+      "type": "sj-home-order",
+      "settings": {}
+    },
     "hero": {
       "type": "sj-home-hero",
       "settings": {}
@@ -69,6 +73,12 @@
         "image_alt": "Two closed DearBody perfume canisters, each individually wrapped in clear bubble wrap inside a shipping box",
         "mobile_image_position": 80
       }
+    },
+    "sample_reviews": {
+      "type": "sj-sample-reviews",
+      "settings": {
+        "show_samples": true
+      }
     }
   },
   "order": [
@@ -76,6 +86,8 @@
     "magnetic_cap",
     "collectible",
     "free_shipping",
-    "doorway"
+    "doorway",
+    "sample_reviews",
+    "home_order"
   ]
 }

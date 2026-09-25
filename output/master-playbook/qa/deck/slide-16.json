@@ -1,0 +1,8 @@
+{"schema":"openai.presentation.layout/v5","unit":"px","slide":{"id":"sl/oypixa","index":15,"layout":{"id":"ly/i54vuh0b","name":"Title Slide"},"backgroundColor":"rgba(244,227,203,1)","position":{"left":0,"top":0,"width":1280,"height":720}},
+"elements":[
+{"id":"sh/6psza58j","kind":"textbox","position":{"left":62,"top":46,"width":1150,"height":110},"text":"The twelve-frame gallery","style":{"fontSize":44,"typeface":"Cenzo Flare","color":"#5C0006","bold":true,"alignment":"left"},"geometry":"rect","lineWidth":0},
+{"id":"im/wbadw3mh","kind":"image","position":{"left":62,"top":182,"width":400,"height":400},"fit":"contain","alt":"output/website/upload-ready/shopify-gallery-order-2026-09-24/mojito-metallique/02-dear-body-mojito-metallique-scent-description.png"},
+{"id":"sh/srahcfqp","kind":"textbox","position":{"left":527,"top":182,"width":680,"height":65},"text":"Choice information first","style":{"fontSize":36,"typeface":"Cenzo Flare","color":"#5C0006","bold":true,"alignment":"left"},"geometry":"rect","lineWidth":0},
+{"id":"sh/jmhgzq98","kind":"textbox","position":{"left":527,"top":274,"width":690,"height":235},"text":"01  Main image\n02  Scent description\n03  Who it fits\n04  Product profile\n05  Ingredients and care","style":{"fontSize":28,"typeface":"Helvetica Now Display","color":"#210B08","alignment":"left"},"geometry":"rect","lineWidth":0},
+{"id":"sh/il8z6l8n","kind":"textbox","position":{"left":527,"top":545,"width":690,"height":90},"text":"Then lifestyle, spray, packaging, cap detail\nand the closing hero.","style":{"fontSize":28,"typeface":"Helvetica Now Display","color":"#210B08","alignment":"left"},"geometry":"rect","lineWidth":0}
+]}

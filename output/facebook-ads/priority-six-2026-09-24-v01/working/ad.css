@@ -1,0 +1,22 @@
+@font-face{font-family:Cenzo;src:url('../assets/CenzoFlare-Bold.woff2') format('woff2');font-weight:700;font-style:normal}
+@font-face{font-family:HelveticaNow;src:url('../assets/HelveticaNowDisplay-Light.woff2') format('woff2');font-weight:300;font-style:normal}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0;width:1080px;height:1350px;overflow:hidden}
+body{font-family:HelveticaNow,Arial,sans-serif;font-weight:300;color:#5c0006}
+.ad{position:relative;width:1080px;height:1350px;background:#f4e3cb}
+.offer{position:relative;height:340px;overflow:hidden;background:var(--accent);color:var(--ink)}
+.curve{position:absolute;right:-102px;top:194px;width:430px;height:430px;border:34px solid currentColor;border-radius:50%;opacity:.08}
+.curve:after{content:"";position:absolute;inset:30px;border:18px solid currentColor;border-radius:50%}
+.brand{position:absolute;left:58px;top:34px;width:265px;height:auto}
+.tagline{position:absolute;right:58px;top:43px;font-size:22px;letter-spacing:2.2px}
+.headline{position:absolute;left:58px;top:91px;margin:0;font:700 91px/1.07 Cenzo,sans-serif;letter-spacing:-.9px;white-space:nowrap}
+.condition{position:absolute;left:61px;top:187px;margin:0;font:700 47px/1.2 Cenzo,sans-serif;letter-spacing:.4px}
+.cod{position:absolute;left:58px;top:262px;height:51px;padding:7px 20px 6px;background:#5c0006;color:#f4e3cb;font-size:29px;line-height:38px;letter-spacing:1.1px;white-space:nowrap}
+.cod:before{content:"";display:inline-block;width:11px;height:11px;border-radius:100%;background:var(--accent);margin:0 15px 3px 0}
+.photo{display:block;width:1080px;height:810px;object-fit:cover;object-position:center}
+.foot{height:200px;background:#f4e3cb;position:relative;border-top:8px solid var(--accent)}
+.line{position:absolute;left:59px;top:25px;font-size:22px;line-height:28px;letter-spacing:1.8px;color:#5c0006}
+.name{position:absolute;left:57px;top:61px;margin:0;font:700 43px/1.03 Cenzo,sans-serif;letter-spacing:.1px;width:650px}
+.cta{position:absolute;right:58px;top:65px;width:266px;height:78px;background:#5c0006;color:#f4e3cb;display:flex;align-items:center;justify-content:center;gap:19px;font:700 29px/1 Cenzo,sans-serif;letter-spacing:1px}
+.arrow{width:32px;height:24px}
+.arrow path{fill:none;stroke:currentColor;stroke-width:2.8;stroke-linecap:square;stroke-linejoin:miter}

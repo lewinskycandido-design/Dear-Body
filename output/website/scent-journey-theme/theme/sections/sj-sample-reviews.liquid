@@ -1,0 +1,4 @@
+{% if section.settings.show_samples %}{% render 'sj-sample-reviews' %}{% endif %}
+{% schema %}
+{"name":"Sample reviews","settings":[{"type":"checkbox","id":"show_samples","label":"Show illustrative sample reviews","default":true}],"presets":[{"name":"Sample reviews"}]}
+{% endschema %}

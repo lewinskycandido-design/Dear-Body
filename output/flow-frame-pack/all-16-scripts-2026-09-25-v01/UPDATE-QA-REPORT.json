@@ -1,0 +1,51 @@
+{
+  "checkedAt": "2026-09-24T20:22:54.946Z",
+  "strategyVersion": 2,
+  "problemSolutionRevision": true,
+  "personalityFitInScentCampaigns": true,
+  "productDetailsInAll16Scripts": true,
+  "scripts": 16,
+  "shots": 100,
+  "completePrompts": 101,
+  "fullVoiceovers": 16,
+  "brandIntroduction": {
+    "durationSeconds": 44,
+    "shots": 8,
+    "completePrompts": 8,
+    "reusesExistingFrames": true,
+    "startsWithBrand": true,
+    "choiceQuestionInOpening": true
+  },
+  "shortTestScripts": 4,
+  "language": "Taglish",
+  "maximumWrittenWordsPerMinute": 160,
+  "narrationAudioGenerated": false,
+  "websiteLiveVerified": false,
+  "adsLaunched": false,
+  "results": [
+    {
+      "file": "storyboard.html",
+      "localLinks": 490,
+      "copyButtonsChecked": 218,
+      "desktopAndMobileOverflow": false
+    },
+    {
+      "file": "ads-strategy-review.html",
+      "localLinks": 8,
+      "copyButtonsChecked": 4,
+      "desktopAndMobileOverflow": false
+    },
+    {
+      "file": "VOICE-IDENTITY.html",
+      "localLinks": 1,
+      "copyButtonsChecked": 0,
+      "desktopAndMobileOverflow": false
+    },
+    {
+      "file": "brand-introduction-script.html",
+      "localLinks": 22,
+      "copyButtonsChecked": 17,
+      "desktopAndMobileOverflow": false
+    }
+  ]
+}

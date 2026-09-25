@@ -191,8 +191,8 @@
       const selectedThumbnail = this.thumbnails[next];
       if (selectedThumbnail) {
         const rail = selectedThumbnail.parentElement;
-        const left = selectedThumbnail.offsetLeft - rail.offsetLeft;
-        if (left < rail.scrollLeft || left + selectedThumbnail.offsetWidth > rail.scrollLeft + rail.clientWidth) rail.scrollTo({ left: Math.max(0, left - rail.clientWidth / 2 + selectedThumbnail.offsetWidth / 2), behavior: 'auto' });
+        const top = selectedThumbnail.getBoundingClientRect().top - rail.getBoundingClientRect().top + rail.scrollTop;
+        if (top < rail.scrollTop || top + selectedThumbnail.offsetHeight > rail.scrollTop + rail.clientHeight) rail.scrollTo({ top: Math.max(0, top - rail.clientHeight / 2 + selectedThumbnail.offsetHeight / 2), behavior: 'auto' });
       }
       if (!this.desktop.matches && !fromSwipe) this.gallery.scrollTo({ left: this.gallery.clientWidth * next, behavior: animate && !this.reducedMotion.matches ? 'smooth' : 'auto' });
       const current = this.querySelector('[data-sj-gallery-current]');

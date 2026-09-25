@@ -1,0 +1,621 @@
+[
+  {
+    "slug": "mojito-metallique",
+    "fonts": [
+      true,
+      true
+    ],
+    "text": "FREE\nSHIPPING\nON 2+ ITEMS\nCASH ON DELIVERY\n\nA SCENT JOURNEY\n\nMOJITO METALLIQUE\nORDER NOW ↗",
+    "brokenImages": 0,
+    "overflow": [],
+    "textBounds": [
+      {
+        "text": "FREE\nSHIPPING",
+        "x": 620.8909912109375,
+        "y": 64.4096450805664,
+        "width": 377.3583984375,
+        "height": 131.4403076171875
+      },
+      {
+        "text": "ON 2+ ITEMS",
+        "x": 618.2889404296875,
+        "y": 189.36317443847656,
+        "width": 373.411865234375,
+        "height": 56.13739013671875
+      },
+      {
+        "text": "CASH ON DELIVERY",
+        "x": 603.18115234375,
+        "y": 237.3648223876953,
+        "width": 298.05462646484375,
+        "height": 76.98771667480469
+      },
+      {
+        "text": "A SCENT JOURNEY",
+        "x": 56,
+        "y": 1185.8125,
+        "width": 968,
+        "height": 31.1875
+      },
+      {
+        "text": "MOJITO METALLIQUE",
+        "x": 56,
+        "y": 1238.25,
+        "width": 655,
+        "height": 60.75
+      },
+      {
+        "text": "ORDER NOW ↗",
+        "x": 729.8826293945312,
+        "y": 1225.057373046875,
+        "width": 286.6878662109375,
+        "height": 78.88525390625
+      }
+    ]
+  },
+  {
+    "slug": "amber-oud-silk",
+    "fonts": [
+      true,
+      true
+    ],
+    "text": "FREE\nSHIPPING\nON 2+ ITEMS\nCASH ON DELIVERY\n\nA SCENT JOURNEY\n\nAMBER OUD SILK\nORDER NOW ↗",
+    "brokenImages": 0,
+    "overflow": [],
+    "textBounds": [
+      {
+        "text": "FREE\nSHIPPING",
+        "x": 81.7506332397461,
+        "y": 64.4096450805664,
+        "width": 377.35833740234375,
+        "height": 131.4403076171875
+      },
+      {
+        "text": "ON 2+ ITEMS",
+        "x": 88.2991714477539,
+        "y": 189.36317443847656,
+        "width": 373.4118957519531,
+        "height": 56.13739013671875
+      },
+      {
+        "text": "CASH ON DELIVERY",
+        "x": 80.84443664550781,
+        "y": 252.7387237548828,
+        "width": 295.5413818359375,
+        "height": 56.63514709472656
+      },
+      {
+        "text": "A SCENT JOURNEY",
+        "x": 56,
+        "y": 1185.8125,
+        "width": 968,
+        "height": 31.1875
+      },
+      {
+        "text": "AMBER OUD SILK",
+        "x": 56,
+        "y": 1238.25,
+        "width": 655,
+        "height": 60.75
+      },
+      {
+        "text": "ORDER NOW ↗",
+        "x": 729.8826293945312,
+        "y": 1225.057373046875,
+        "width": 286.6878662109375,
+        "height": 78.88525390625
+      }
+    ]
+  },
+  {
+    "slug": "mistened-narcissus",
+    "fonts": [
+      true,
+      true
+    ],
+    "text": "FREE\nSHIPPING\nON 2+ ITEMS\nCASH ON DELIVERY\n\nA SCENT JOURNEY\n\nMISTENED NARCISSUS\nORDER NOW ↗",
+    "brokenImages": 0,
+    "overflow": [],
+    "textBounds": [
+      {
+        "text": "FREE\nSHIPPING",
+        "x": 81.7506332397461,
+        "y": 64.4096450805664,
+        "width": 377.35833740234375,
+        "height": 131.4403076171875
+      },
+      {
+        "text": "ON 2+ ITEMS",
+        "x": 88.2991714477539,
+        "y": 189.36317443847656,
+        "width": 373.4118957519531,
+        "height": 56.13739013671875
+      },
+      {
+        "text": "CASH ON DELIVERY",
+        "x": 80.84443664550781,
+        "y": 252.7387237548828,
+        "width": 295.5413818359375,
+        "height": 56.63514709472656
+      },
+      {
+        "text": "A SCENT JOURNEY",
+        "x": 56,
+        "y": 1185.8125,
+        "width": 968,
+        "height": 31.1875
+      },
+      {
+        "text": "MISTENED NARCISSUS",
+        "x": 56,
+        "y": 1238.25,
+        "width": 655,
+        "height": 60.75
+      },
+      {
+        "text": "ORDER NOW ↗",
+        "x": 729.8826293945312,
+        "y": 1225.057373046875,
+        "width": 286.6878662109375,
+        "height": 78.88525390625
+      }
+    ]
+  },
+  {
+    "slug": "charme-envoutant",
+    "fonts": [
+      true,
+      true
+    ],
+    "text": "FREE\nSHIPPING\nON 2+ ITEMS\nCASH ON DELIVERY\n\nA SCENT JOURNEY\n\nCHARME ENVOÛTANT\nORDER NOW ↗",
+    "brokenImages": 0,
+    "overflow": [],
+    "textBounds": [
+      {
+        "text": "FREE\nSHIPPING",
+        "x": 81.7506332397461,
+        "y": 64.4096450805664,
+        "width": 377.35833740234375,
+        "height": 131.4403076171875
+      },
+      {
+        "text": "ON 2+ ITEMS",
+        "x": 88.2991714477539,
+        "y": 189.36317443847656,
+        "width": 373.4118957519531,
+        "height": 56.13739013671875
+      },
+      {
+        "text": "CASH ON DELIVERY",
+        "x": 80.84443664550781,
+        "y": 252.7387237548828,
+        "width": 295.5413818359375,
+        "height": 56.63514709472656
+      },
+      {
+        "text": "A SCENT JOURNEY",
+        "x": 56,
+        "y": 1185.8125,
+        "width": 968,
+        "height": 31.1875
+      },
+      {
+        "text": "CHARME ENVOÛTANT",
+        "x": 56,
+        "y": 1238.25,
+        "width": 655,
+        "height": 60.75
+      },
+      {
+        "text": "ORDER NOW ↗",
+        "x": 729.8826293945312,
+        "y": 1225.057373046875,
+        "width": 286.6878662109375,
+        "height": 78.88525390625
+      }
+    ]
+  },
+  {
+    "slug": "oud-mirage",
+    "fonts": [
+      true,
+      true
+    ],
+    "text": "FREE\nSHIPPING\nON 2+ ITEMS\nCASH ON DELIVERY\n\nA SCENT JOURNEY\n\nOUD MIRAGE\nORDER NOW ↗",
+    "brokenImages": 0,
+    "overflow": [],
+    "textBounds": [
+      {
+        "text": "FREE\nSHIPPING",
+        "x": 81.7506332397461,
+        "y": 64.4096450805664,
+        "width": 377.35833740234375,
+        "height": 131.4403076171875
+      },
+      {
+        "text": "ON 2+ ITEMS",
+        "x": 88.2991714477539,
+        "y": 189.36317443847656,
+        "width": 373.4118957519531,
+        "height": 56.13739013671875
+      },
+      {
+        "text": "CASH ON DELIVERY",
+        "x": 80.84443664550781,
+        "y": 252.7387237548828,
+        "width": 295.5413818359375,
+        "height": 56.63514709472656
+      },
+      {
+        "text": "A SCENT JOURNEY",
+        "x": 56,
+        "y": 1185.8125,
+        "width": 968,
+        "height": 31.1875
+      },
+      {
+        "text": "OUD MIRAGE",
+        "x": 56,
+        "y": 1238.25,
+        "width": 655,
+        "height": 60.75
+      },
+      {
+        "text": "ORDER NOW ↗",
+        "x": 729.8826293945312,
+        "y": 1225.057373046875,
+        "width": 286.6878662109375,
+        "height": 78.88525390625
+      }
+    ]
+  },
+  {
+    "slug": "rtulle-and-satin",
+    "fonts": [
+      true,
+      true
+    ],
+    "text": "FREE\nSHIPPING\nON 2+ ITEMS\nCASH ON DELIVERY\n\nA SCENT JOURNEY\n\nRTULLE & SATIN\nORDER NOW ↗",
+    "brokenImages": 0,
+    "overflow": [],
+    "textBounds": [
+      {
+        "text": "FREE\nSHIPPING",
+        "x": 81.7506332397461,
+        "y": 64.4096450805664,
+        "width": 377.35833740234375,
+        "height": 131.4403076171875
+      },
+      {
+        "text": "ON 2+ ITEMS",
+        "x": 88.2991714477539,
+        "y": 189.36317443847656,
+        "width": 373.4118957519531,
+        "height": 56.13739013671875
+      },
+      {
+        "text": "CASH ON DELIVERY",
+        "x": 80.84443664550781,
+        "y": 252.7387237548828,
+        "width": 295.5413818359375,
+        "height": 56.63514709472656
+      },
+      {
+        "text": "A SCENT JOURNEY",
+        "x": 56,
+        "y": 1185.8125,
+        "width": 968,
+        "height": 31.1875
+      },
+      {
+        "text": "RTULLE & SATIN",
+        "x": 56,
+        "y": 1238.25,
+        "width": 655,
+        "height": 60.75
+      },
+      {
+        "text": "ORDER NOW ↗",
+        "x": 729.8826293945312,
+        "y": 1225.057373046875,
+        "width": 286.6878662109375,
+        "height": 78.88525390625
+      }
+    ]
+  },
+  {
+    "slug": "magnetic-cap",
+    "fonts": [
+      true,
+      true
+    ],
+    "text": "FREE\nSHIPPING\nON 2+ ITEMS\nCASH ON DELIVERY\nMAGNETIC CAP\n\nA little detail. A lovely finish.\n\nORDER NOW ↗",
+    "brokenImages": 0,
+    "overflow": [],
+    "textBounds": [
+      {
+        "text": "FREE\nSHIPPING",
+        "x": 82.22341918945312,
+        "y": 56.50186538696289,
+        "width": 372.80450439453125,
+        "height": 120.55812072753906
+      },
+      {
+        "text": "ON 2+ ITEMS",
+        "x": 88.21261596679688,
+        "y": 170.78253173828125,
+        "width": 369.19085693359375,
+        "height": 51.605865478515625
+      },
+      {
+        "text": "CASH ON DELIVERY",
+        "x": 80.4918212890625,
+        "y": 230.51718139648438,
+        "width": 270.0214538574219,
+        "height": 53.034912109375
+      },
+      {
+        "text": "MAGNETIC CAP",
+        "x": 74,
+        "y": 1140.28125,
+        "width": 932,
+        "height": 62.71875
+      },
+      {
+        "text": "A little detail. A lovely finish.",
+        "x": 74,
+        "y": 1239.203125,
+        "width": 344.484375,
+        "height": 36.578125
+      },
+      {
+        "text": "ORDER NOW ↗",
+        "x": 747.765625,
+        "y": 1225,
+        "width": 258.234375,
+        "height": 65
+      }
+    ]
+  },
+  {
+    "slug": "collection",
+    "fonts": [
+      true,
+      true
+    ],
+    "text": "FREE\nSHIPPING\nON 2+ ITEMS\nCASH ON DELIVERY\nMADE TO COLLECT.\nMADE TO DISPLAY.\n\nBuild a scent collection for your shelf and routine.\n\nORDER NOW ↗",
+    "brokenImages": 0,
+    "overflow": [],
+    "textBounds": [
+      {
+        "text": "FREE\nSHIPPING",
+        "x": 82.22341918945312,
+        "y": 56.50186538696289,
+        "width": 372.80450439453125,
+        "height": 120.55812072753906
+      },
+      {
+        "text": "ON 2+ ITEMS",
+        "x": 88.21261596679688,
+        "y": 170.78253173828125,
+        "width": 369.19085693359375,
+        "height": 51.605865478515625
+      },
+      {
+        "text": "CASH ON DELIVERY",
+        "x": 80.4918212890625,
+        "y": 230.51718139648438,
+        "width": 270.0214538574219,
+        "height": 53.034912109375
+      },
+      {
+        "text": "MADE TO COLLECT.\nMADE TO DISPLAY.",
+        "x": 74,
+        "y": 1088.28125,
+        "width": 932,
+        "height": 111.71875
+      },
+      {
+        "text": "Build a scent collection for your shelf and routine.",
+        "x": 74,
+        "y": 1236.203125,
+        "width": 629.53125,
+        "height": 36.578125
+      },
+      {
+        "text": "ORDER NOW ↗",
+        "x": 747.765625,
+        "y": 1222,
+        "width": 258.234375,
+        "height": 65
+      }
+    ]
+  },
+  {
+    "slug": "mission-vision",
+    "fonts": [
+      true,
+      true
+    ],
+    "text": "FREE\nSHIPPING\nON 2+ ITEMS\nCASH ON DELIVERY\nLONDON FRAGRANCE.\nFILIPINO SPIRIT.\nOUR MISSION\n\nLondon-formulated scents,\ncurated for Filipino life.\n\nOUR VISION\n\nLondon’s fragrance culture\nin every Filipino’s everyday life.\n\nA SCENT JOURNEY\n\nORDER NOW ↗",
+    "brokenImages": 0,
+    "overflow": [],
+    "textBounds": [
+      {
+        "text": "FREE\nSHIPPING",
+        "x": 82.22341918945312,
+        "y": 56.50186538696289,
+        "width": 372.80450439453125,
+        "height": 120.55812072753906
+      },
+      {
+        "text": "ON 2+ ITEMS",
+        "x": 88.21261596679688,
+        "y": 170.78253173828125,
+        "width": 369.19085693359375,
+        "height": 51.605865478515625
+      },
+      {
+        "text": "CASH ON DELIVERY",
+        "x": 80.4918212890625,
+        "y": 230.51718139648438,
+        "width": 270.0214538574219,
+        "height": 53.034912109375
+      },
+      {
+        "text": "LONDON FRAGRANCE.\nFILIPINO SPIRIT.",
+        "x": 74,
+        "y": 984.09375,
+        "width": 932,
+        "height": 96.03125
+      },
+      {
+        "text": "London-formulated scents,\ncurated for Filipino life.",
+        "x": 74,
+        "y": 1130.125,
+        "width": 448.5,
+        "height": 74.875
+      },
+      {
+        "text": "London’s fragrance culture\nin every Filipino’s everyday life.",
+        "x": 557.5,
+        "y": 1130.125,
+        "width": 448.5,
+        "height": 74.875
+      },
+      {
+        "text": "A SCENT JOURNEY",
+        "x": 74,
+        "y": 1237.984375,
+        "width": 242.9375,
+        "height": 33.03125
+      },
+      {
+        "text": "ORDER NOW ↗",
+        "x": 747.765625,
+        "y": 1222,
+        "width": 258.234375,
+        "height": 65
+      }
+    ]
+  },
+  {
+    "slug": "scent-personality",
+    "fonts": [
+      true,
+      true
+    ],
+    "text": "FREE\nSHIPPING\nON 2+ ITEMS\nCASH ON DELIVERY\nFIND WHAT\nFEELS LIKE YOU.\nMOJITO METALLIQUE\n\nFriendly · Easygoing\nLighthearted\n\nOUD MIRAGE\n\nIndependent · Reflective\nSelf-assured\n\nExplore the scent personalities.\n\nORDER NOW ↗",
+    "brokenImages": 0,
+    "overflow": [],
+    "textBounds": [
+      {
+        "text": "FREE\nSHIPPING",
+        "x": 82.22341918945312,
+        "y": 56.50186538696289,
+        "width": 372.80450439453125,
+        "height": 120.55812072753906
+      },
+      {
+        "text": "ON 2+ ITEMS",
+        "x": 88.21261596679688,
+        "y": 170.78253173828125,
+        "width": 369.19085693359375,
+        "height": 51.605865478515625
+      },
+      {
+        "text": "CASH ON DELIVERY",
+        "x": 80.4918212890625,
+        "y": 230.51718139648438,
+        "width": 270.0214538574219,
+        "height": 53.034912109375
+      },
+      {
+        "text": "FIND WHAT\nFEELS LIKE YOU.",
+        "x": 74,
+        "y": 984.09375,
+        "width": 932,
+        "height": 96.03125
+      },
+      {
+        "text": "Friendly · Easygoing\nLighthearted",
+        "x": 74,
+        "y": 1130.125,
+        "width": 448.5,
+        "height": 74.875
+      },
+      {
+        "text": "Independent · Reflective\nSelf-assured",
+        "x": 557.5,
+        "y": 1130.125,
+        "width": 448.5,
+        "height": 74.875
+      },
+      {
+        "text": "Explore the scent personalities.",
+        "x": 74,
+        "y": 1237.984375,
+        "width": 363.984375,
+        "height": 33.03125
+      },
+      {
+        "text": "ORDER NOW ↗",
+        "x": 747.765625,
+        "y": 1222,
+        "width": 258.234375,
+        "height": 65
+      }
+    ]
+  },
+  {
+    "slug": "profile",
+    "fonts": [
+      false,
+      false
+    ],
+    "text": "",
+    "brokenImages": 0,
+    "overflow": [],
+    "textBounds": []
+  },
+  {
+    "slug": "cover",
+    "fonts": [
+      true,
+      true
+    ],
+    "text": "FREE\nSHIPPING\nON 2+ ITEMS\nCASH ON DELIVERY\nORDER NOW ↗\nA SCENT JOURNEY",
+    "brokenImages": 0,
+    "overflow": [],
+    "textBounds": [
+      {
+        "text": "FREE\nSHIPPING",
+        "x": 595.7483520507812,
+        "y": 173.50335693359375,
+        "width": 440.11651611328125,
+        "height": 140.70217895507812
+      },
+      {
+        "text": "ON 2+ ITEMS",
+        "x": 600.6888427734375,
+        "y": 314.9796142578125,
+        "width": 437.1412353515625,
+        "height": 55.504119873046875
+      },
+      {
+        "text": "CASH ON DELIVERY",
+        "x": 602.7587890625,
+        "y": 374.2559814453125,
+        "width": 438.2471923828125,
+        "height": 87.17233276367188
+      },
+      {
+        "text": "ORDER NOW ↗",
+        "x": 682.876220703125,
+        "y": 475.78607177734375,
+        "width": 284.453125,
+        "height": 69
+      }
+    ]
+  }
+]

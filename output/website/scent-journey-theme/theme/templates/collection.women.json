@@ -6,9 +6,16 @@
         "heading": "LEAVE A LITTLE YOU\nIN THE AIR.",
         "description": "London-formulated fragrances for your many moods, everyday moments, and the chapters still to come."
       }
+    },
+    "sample_reviews": {
+      "type": "sj-sample-reviews",
+      "settings": {
+        "show_samples": true
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "sample_reviews"
   ]
 }

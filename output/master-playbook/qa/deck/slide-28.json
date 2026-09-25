@@ -1,0 +1,9 @@
+{"schema":"openai.presentation.layout/v5","unit":"px","slide":{"id":"sl/0lcqzz","index":27,"layout":{"id":"ly/i54vuh0b","name":"Title Slide"},"backgroundColor":"rgba(244,227,203,1)","position":{"left":0,"top":0,"width":1280,"height":720}},
+"elements":[
+{"id":"sh/e507q1gb","kind":"textbox","position":{"left":62,"top":46,"width":1150,"height":110},"text":"The final quality check","style":{"fontSize":44,"typeface":"Cenzo Flare","color":"#5C0006","bold":true,"alignment":"left"},"geometry":"rect","lineWidth":0},
+{"id":"sh/18rqlgfm","kind":"textbox","position":{"left":62,"top":192,"width":1100,"height":74},"text":"Exact product, approved copy and correct casting","style":{"fontSize":29,"typeface":"Helvetica Now Display","color":"#210B08","alignment":"left"},"geometry":"rect","lineWidth":0},
+{"id":"sh/07ipsby1","kind":"textbox","position":{"left":62,"top":281,"width":1100,"height":74},"text":"No faces or face fragments in current campaign work","style":{"fontSize":29,"typeface":"Helvetica Now Display","color":"#210B08","alignment":"left"},"geometry":"rect","lineWidth":0},
+{"id":"sh/na98nqxs","kind":"textbox","position":{"left":62,"top":370,"width":1100,"height":74},"text":"Readable typography and realistic hands and scale","style":{"fontSize":29,"typeface":"Helvetica Now Display","color":"#210B08","alignment":"left"},"geometry":"rect","lineWidth":0},
+{"id":"sh/2907ulg7","kind":"textbox","position":{"left":62,"top":459,"width":1100,"height":74},"text":"Working mobile layout and verified order quantities","style":{"fontSize":29,"typeface":"Helvetica Now Display","color":"#210B08","alignment":"left"},"geometry":"rect","lineWidth":0},
+{"id":"sh/pcbqpgfy","kind":"textbox","position":{"left":62,"top":548,"width":1100,"height":74},"text":"Recorded source, version, review and publication status","style":{"fontSize":29,"typeface":"Helvetica Now Display","color":"#210B08","alignment":"left"},"geometry":"rect","lineWidth":0}
+]}

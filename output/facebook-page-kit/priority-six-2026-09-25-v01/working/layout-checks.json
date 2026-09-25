@@ -1,0 +1,68 @@
+[
+  {
+    "name": "profile",
+    "fonts": [
+      false,
+      false
+    ],
+    "text": "",
+    "images": [
+      {
+        "src": "../assets/sj-official-secondary-ph.webp",
+        "width": 2400,
+        "height": 1600
+      }
+    ],
+    "bounds": []
+  },
+  {
+    "name": "cover",
+    "fonts": [
+      true,
+      true
+    ],
+    "text": "A SCENT JOURNEY\nFREE SHIPPING\nON 2+ ITEMS\nCASH ON DELIVERY\nSHOP NOW",
+    "images": [
+      {
+        "src": "../assets/cover-lifestyle-photo.png",
+        "width": 1672,
+        "height": 941
+      },
+      {
+        "src": "../assets/sj-logo-official-dark.png",
+        "width": 226,
+        "height": 36
+      }
+    ],
+    "bounds": [
+      {
+        "x": 686,
+        "y": 114,
+        "width": 268,
+        "height": 42.6875,
+        "text": ""
+      },
+      {
+        "x": 510,
+        "y": 230,
+        "width": 620,
+        "height": 136.75,
+        "text": "FREE SHIPPING\nON 2+ ITEMS"
+      },
+      {
+        "x": 622,
+        "y": 412,
+        "width": 396,
+        "height": 54,
+        "text": "CASH ON DELIVERY"
+      },
+      {
+        "x": 671,
+        "y": 511,
+        "width": 298,
+        "height": 70,
+        "text": "SHOP NOW"
+      }
+    ]
+  }
+]

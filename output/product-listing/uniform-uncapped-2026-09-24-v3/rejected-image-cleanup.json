@@ -1,0 +1,630 @@
+{
+  "date": "2026-09-25",
+  "deleted": [
+    {
+      "path": "C:\\Users\\lhemy\\OneDrive\\Documents\\Dear Body\\output\\product-listing\\uncapped-corrections-2026-09-24-v2\\collection-preview.png",
+      "sha256": "ae5875975e0848777a1035b1d10e9b5581e080e3a98b5aa45905cb378c96bfbc",
+      "bytes": 5156558,
+      "reason": "Outdated contact sheet showing earlier product versions replaced by the final collection.",
+      "external": false
+    },
+    {
+      "path": "C:\\Users\\lhemy\\OneDrive\\Documents\\Dear Body\\output\\product-listing\\uncapped-corrections-2026-09-24-v2\\images\\alpine-rosemary-mint-uncapped-upright-v2.png",
+      "sha256": "598397f6dc6e671bb1c84c3dc8de62e76ee1673145d0d9a0897e649a934080ca",
+      "bytes": 2128135,
+      "reason": "Earlier bottle revision replaced by the user-requested uniform product setup.",
+      "external": false
+    },
+    {
+      "path": "C:\\Users\\lhemy\\OneDrive\\Documents\\Dear Body\\output\\product-listing\\uncapped-corrections-2026-09-24-v2\\images\\amber-oud-silk-uncapped-upright-v2.png",
+      "sha256": "2525768b746819c0b49136a70c4822a691b7db1802a91273ed805a8f23929fe6",
+      "bytes": 1989716,
+      "reason": "Earlier bottle revision replaced by the user-requested uniform product setup.",
+      "external": false
+    },
+    {
+      "path": "C:\\Users\\lhemy\\OneDrive\\Documents\\Dear Body\\output\\product-listing\\uncapped-corrections-2026-09-24-v2\\images\\charme-envoutant-uncapped-upright-v2.png",
+      "sha256": "e3e2d79130668685e5cc3df2d31a67dfcfc4ad21c0101943dcd3b629f0426eaf",
+      "bytes": 2059908,
+      "reason": "Earlier bottle revision replaced by the user-requested uniform product setup.",
+      "external": false
+    },
+    {
+      "path": "C:\\Users\\lhemy\\OneDrive\\Documents\\Dear Body\\output\\product-listing\\uncapped-corrections-2026-09-24-v2\\images\\citrus-wish-uncapped-upright-v2.png",
+      "sha256": "e4240a9e2bc51fa12094ae304061c0176c24efc6072dea4c313949dacabb5f63",
+      "bytes": 2109323,
+      "reason": "Earlier bottle revision replaced by the user-requested uniform product setup.",
+      "external": false
+    },
+    {
+      "path": "C:\\Users\\lhemy\\OneDrive\\Documents\\Dear Body\\output\\product-listing\\uncapped-corrections-2026-09-24-v2\\images\\ivory-reverie-uncapped-upright-v2.png",
+      "sha256": "1b5532feffc1512bf7bed66daa880a722732d9984cbfb36620aa9937f59c5d0e",
+      "bytes": 2233597,
+      "reason": "Earlier bottle revision replaced by the user-requested uniform product setup.",
+      "external": false
+    },
+    {
+      "path": "C:\\Users\\lhemy\\OneDrive\\Documents\\Dear Body\\output\\product-listing\\uncapped-corrections-2026-09-24-v2\\images\\midnight-elixir-uncapped-upright-v2.png",
+      "sha256": "d35bf81a907924607eb64ec913373ac99ed9e40a8f08d395b4c91c9129a69d29",
+      "bytes": 2122472,
+      "reason": "Earlier bottle revision replaced by the user-requested uniform product setup.",
+      "external": false
+    },
+    {
+      "path": "C:\\Users\\lhemy\\OneDrive\\Documents\\Dear Body\\output\\product-listing\\uncapped-corrections-2026-09-24-v2\\images\\mistened-narcissus-uncapped-upright-v2.png",
+      "sha256": "738bc885508542929f85a0389e8ddb2a9bf13784076e402b507380ddc35a3569",
+      "bytes": 1905201,
+      "reason": "Earlier bottle revision replaced by the user-requested uniform product setup.",
+      "external": false
+    },
+    {
+      "path": "C:\\Users\\lhemy\\OneDrive\\Documents\\Dear Body\\output\\product-listing\\uncapped-corrections-2026-09-24-v2\\images\\mojito-metallique-uncapped-upright-v2.png",
+      "sha256": "69d9146ff5269d024dbeb2a5af898350d5ae31b641e21f253c480f05cf2e7817",
+      "bytes": 1980180,
+      "reason": "Earlier bottle revision replaced by the user-requested uniform product setup.",
+      "external": false
+    },
+    {
+      "path": "C:\\Users\\lhemy\\OneDrive\\Documents\\Dear Body\\output\\product-listing\\uncapped-corrections-2026-09-24-v2\\images\\moonlight-velvet-uncapped-upright-v2.png",
+      "sha256": "217906b67f44c66df8a9f996ba5008a35263f6abba4066ccaacc2eeca396bad6",
+      "bytes": 1993709,
+      "reason": "Earlier bottle revision replaced by the user-requested uniform product setup.",
+      "external": false
+    },
+    {
+      "path": "C:\\Users\\lhemy\\OneDrive\\Documents\\Dear Body\\output\\product-listing\\uncapped-corrections-2026-09-24-v2\\images\\noir-cedar-uncapped-upright-v2.png",
+      "sha256": "fc40c9fa051e1eef89760841f7aa6998e27e1f641f63132e7761efbfd3321d41",
+      "bytes": 1850743,
+      "reason": "Earlier bottle revision replaced by the user-requested uniform product setup.",
+      "external": false
+    },
+    {
+      "path": "C:\\Users\\lhemy\\OneDrive\\Documents\\Dear Body\\output\\product-listing\\uncapped-corrections-2026-09-24-v2\\images\\oud-mirage-uncapped-upright-v2.png",
+      "sha256": "1cbc1794181eb2171d336dc4a1687cf8d982b43d7378fcd84e9e28f2920da218",
+      "bytes": 2106013,
+      "reason": "Earlier bottle revision replaced by the user-requested uniform product setup.",
+      "external": false
+    },
+    {
+      "path": "C:\\Users\\lhemy\\OneDrive\\Documents\\Dear Body\\output\\product-listing\\uncapped-corrections-2026-09-24-v2\\images\\rtulle-and-satin-uncapped-upright-v2.png",
+      "sha256": "b3fe9870b9ac8d024a069dd6daf697d69fee167d9a81c7c17144329f962ff190",
+      "bytes": 2045393,
+      "reason": "Earlier bottle revision replaced by the user-requested uniform product setup.",
+      "external": false
+    },
+    {
+      "path": "C:\\Users\\lhemy\\OneDrive\\Documents\\Dear Body\\output\\product-listing\\uncapped-corrections-2026-09-24-v2\\images\\seaside-cotton-uncapped-upright-v2.png",
+      "sha256": "56ca7d977d6779553276411b47e8e166fbdd6f56fe08f7bc6458612668875204",
+      "bytes": 1975070,
+      "reason": "Earlier bottle revision replaced by the user-requested uniform product setup.",
+      "external": false
+    },
+    {
+      "path": "C:\\Users\\lhemy\\OneDrive\\Documents\\Dear Body\\output\\product-listing\\uncapped-corrections-2026-09-24-v2\\originals\\alpine-rosemary-mint.png",
+      "sha256": "de6519a6d69286fc61709d67641d6d02dc0278cf5eab7858d933d513f8b348bf",
+      "bytes": 6069265,
+      "reason": "Earlier uncapped gallery image replaced after the user reported deformed bottles and requested the full collection.",
+      "external": false
+    },
+    {
+      "path": "C:\\Users\\lhemy\\OneDrive\\Documents\\Dear Body\\output\\product-listing\\uncapped-corrections-2026-09-24-v2\\originals\\amber-oud-silk.png",
+      "sha256": "a2af0cc05c85078740d3ffd7ef488a6cd226a602c96e468b04f0fc0518881243",
+      "bytes": 6039269,
+      "reason": "Earlier uncapped gallery image replaced after the user reported deformed bottles and requested the full collection.",
+      "external": false
+    },
+    {
+      "path": "C:\\Users\\lhemy\\OneDrive\\Documents\\Dear Body\\output\\product-listing\\uncapped-corrections-2026-09-24-v2\\originals\\charme-envoutant.png",
+      "sha256": "b462e4db2e8e1d1280a11a256808d2e63a45454b8ab9aca1de50eb4d14c67f86",
+      "bytes": 4845694,
+      "reason": "Earlier uncapped gallery image replaced after the user reported deformed bottles and requested the full collection.",
+      "external": false
+    },
+    {
+      "path": "C:\\Users\\lhemy\\OneDrive\\Documents\\Dear Body\\output\\product-listing\\uncapped-corrections-2026-09-24-v2\\originals\\citrus-wish.png",
+      "sha256": "24b04f723613b079d70ce074bda2ba953109a756649ddaba96bc8e33c0b40305",
+      "bytes": 5177184,
+      "reason": "Earlier uncapped gallery image replaced after the user reported deformed bottles and requested the full collection.",
+      "external": false
+    },
+    {
+      "path": "C:\\Users\\lhemy\\OneDrive\\Documents\\Dear Body\\output\\product-listing\\uncapped-corrections-2026-09-24-v2\\originals\\ivory-reverie.png",
+      "sha256": "8eef1819f6b790c7fe0779919eeb15324b4658a08c8fae7decbe5563129103cf",
+      "bytes": 5428665,
+      "reason": "Earlier uncapped gallery image replaced after the user reported deformed bottles and requested the full collection.",
+      "external": false
+    },
+    {
+      "path": "C:\\Users\\lhemy\\OneDrive\\Documents\\Dear Body\\output\\product-listing\\uncapped-corrections-2026-09-24-v2\\originals\\midnight-elixir.png",
+      "sha256": "7eeb8b941fbd709b69b7a5f6aa46a1dd80c63c705b4122a1e24e9184970d49b1",
+      "bytes": 5026406,
+      "reason": "Earlier uncapped gallery image replaced after the user reported deformed bottles and requested the full collection.",
+      "external": false
+    },
+    {
+      "path": "C:\\Users\\lhemy\\OneDrive\\Documents\\Dear Body\\output\\product-listing\\uncapped-corrections-2026-09-24-v2\\originals\\mistened-narcissus.png",
+      "sha256": "d0ab491b1bddb44f3aa9f531a655ca53a8b0464926176ad98bc48814f292ff63",
+      "bytes": 4740982,
+      "reason": "Earlier uncapped gallery image replaced after the user reported deformed bottles and requested the full collection.",
+      "external": false
+    },
+    {
+      "path": "C:\\Users\\lhemy\\OneDrive\\Documents\\Dear Body\\output\\product-listing\\uncapped-corrections-2026-09-24-v2\\originals\\mojito-metallique.png",
+      "sha256": "a781b6fcb1009f3a1a09b4e43c649e06af6684a5adf308fd91f57b5a4a39a39a",
+      "bytes": 4803170,
+      "reason": "Earlier uncapped gallery image replaced after the user reported deformed bottles and requested the full collection.",
+      "external": false
+    },
+    {
+      "path": "C:\\Users\\lhemy\\OneDrive\\Documents\\Dear Body\\output\\product-listing\\uncapped-corrections-2026-09-24-v2\\originals\\moonlight-velvet.png",
+      "sha256": "a3a479efa0157e403c811a89a2b3210bdbc7698b18bfb0ed6b5d0ee71fb2c4d6",
+      "bytes": 5495246,
+      "reason": "Earlier uncapped gallery image replaced after the user reported deformed bottles and requested the full collection.",
+      "external": false
+    },
+    {
+      "path": "C:\\Users\\lhemy\\OneDrive\\Documents\\Dear Body\\output\\product-listing\\uncapped-corrections-2026-09-24-v2\\originals\\noir-cedar.png",
+      "sha256": "67698627c1a72e62a1aaaa016b448e4955055db568b79e6dca9ae78d15887b91",
+      "bytes": 4991596,
+      "reason": "Earlier uncapped gallery image replaced after the user reported deformed bottles and requested the full collection.",
+      "external": false
+    },
+    {
+      "path": "C:\\Users\\lhemy\\OneDrive\\Documents\\Dear Body\\output\\product-listing\\uncapped-corrections-2026-09-24-v2\\originals\\oud-mirage.png",
+      "sha256": "67dd43b650ea04806dd9343ff114d8bf56e219a9a5442e2bf1f5eda776b23557",
+      "bytes": 5912488,
+      "reason": "Earlier uncapped gallery image replaced after the user reported deformed bottles and requested the full collection.",
+      "external": false
+    },
+    {
+      "path": "C:\\Users\\lhemy\\OneDrive\\Documents\\Dear Body\\output\\product-listing\\uncapped-corrections-2026-09-24-v2\\originals\\rtulle-and-satin.png",
+      "sha256": "a333eefe902f0ac02b914f9c640cf0c138adae298dd654257bdadc4f52f7511b",
+      "bytes": 5625661,
+      "reason": "Earlier uncapped gallery image replaced after the user reported deformed bottles and requested the full collection.",
+      "external": false
+    },
+    {
+      "path": "C:\\Users\\lhemy\\OneDrive\\Documents\\Dear Body\\output\\product-listing\\uncapped-corrections-2026-09-24-v2\\originals\\seaside-cotton.png",
+      "sha256": "8f45c3fdaaa228aa089dd60e1d5c4341468c5ab907c1084297071c6d3745fa47",
+      "bytes": 4603149,
+      "reason": "Earlier uncapped gallery image replaced after the user reported deformed bottles and requested the full collection.",
+      "external": false
+    },
+    {
+      "path": "C:\\Users\\lhemy\\OneDrive\\Documents\\Dear Body\\output\\product-listing\\uncapped-corrections-2026-09-24-v2\\originals\\sunset-cocktail.png",
+      "sha256": "e3160aff761ba5acb8fa8b15cdfef0e2d1b85c4e3ed88eec002dea9c71c7d192",
+      "bytes": 4725592,
+      "reason": "Earlier uncapped gallery image replaced after the user reported deformed bottles and requested the full collection.",
+      "external": false
+    },
+    {
+      "path": "C:\\Users\\lhemy\\OneDrive\\Documents\\Dear Body\\output\\product-listing\\uncapped-corrections-2026-09-24-v2\\references\\alpine-rosemary-mint.jpg",
+      "sha256": "294c802d2a2c351b924e7b7896e5d70010e1f42ef21bed8c1f0ad27910c55f70",
+      "bytes": 832611,
+      "reason": "Derived input copy of the replaced uncapped artwork; original raw product photographs are excluded.",
+      "external": false
+    },
+    {
+      "path": "C:\\Users\\lhemy\\OneDrive\\Documents\\Dear Body\\output\\product-listing\\uncapped-corrections-2026-09-24-v2\\references\\alpine-rosemary-mint.png",
+      "sha256": "bc4836b554b115a1774144784849709460f78944c3609aadb94b3e83061162de",
+      "bytes": 8920244,
+      "reason": "Derived input copy of the replaced uncapped artwork; original raw product photographs are excluded.",
+      "external": false
+    },
+    {
+      "path": "C:\\Users\\lhemy\\OneDrive\\Documents\\Dear Body\\output\\product-listing\\uncapped-corrections-2026-09-24-v2\\references\\amber-oud-silk.jpg",
+      "sha256": "01a42c87e15b9807902bbe7142846d0cb6388083099689304cec0ef0e3229ca7",
+      "bytes": 835863,
+      "reason": "Derived input copy of the replaced uncapped artwork; original raw product photographs are excluded.",
+      "external": false
+    },
+    {
+      "path": "C:\\Users\\lhemy\\OneDrive\\Documents\\Dear Body\\output\\product-listing\\uncapped-corrections-2026-09-24-v2\\references\\amber-oud-silk.png",
+      "sha256": "a6508dcc5f03307daada8f80caa47adfcc987aad6a84fed6cfd94f015243bead",
+      "bytes": 8231130,
+      "reason": "Derived input copy of the replaced uncapped artwork; original raw product photographs are excluded.",
+      "external": false
+    },
+    {
+      "path": "C:\\Users\\lhemy\\OneDrive\\Documents\\Dear Body\\output\\product-listing\\uncapped-corrections-2026-09-24-v2\\references\\charme-envoutant.jpg",
+      "sha256": "8a084ccc188283ebe0733e6a5a1b0668f457184a6f99a538a9afa9cca23d0f26",
+      "bytes": 815872,
+      "reason": "Derived input copy of the replaced uncapped artwork; original raw product photographs are excluded.",
+      "external": false
+    },
+    {
+      "path": "C:\\Users\\lhemy\\OneDrive\\Documents\\Dear Body\\output\\product-listing\\uncapped-corrections-2026-09-24-v2\\references\\charme-envoutant.png",
+      "sha256": "cecb24dd302d4be753f5eaa651ea74586fb8be8fd45f63e3243eb688c4d39bc5",
+      "bytes": 7390731,
+      "reason": "Derived input copy of the replaced uncapped artwork; original raw product photographs are excluded.",
+      "external": false
+    },
+    {
+      "path": "C:\\Users\\lhemy\\OneDrive\\Documents\\Dear Body\\output\\product-listing\\uncapped-corrections-2026-09-24-v2\\references\\citrus-wish.jpg",
+      "sha256": "b00ac9be03bcfd7dedd2d0ebe2146b8df1753fb0650b3559c75f60c80a6d9fde",
+      "bytes": 905446,
+      "reason": "Derived input copy of the replaced uncapped artwork; original raw product photographs are excluded.",
+      "external": false
+    },
+    {
+      "path": "C:\\Users\\lhemy\\OneDrive\\Documents\\Dear Body\\output\\product-listing\\uncapped-corrections-2026-09-24-v2\\references\\citrus-wish.png",
+      "sha256": "32c5bbb9e9e1c6a470fda56a3866e1abf387491b7502e79a78522cc5e98e2c82",
+      "bytes": 8604015,
+      "reason": "Derived input copy of the replaced uncapped artwork; original raw product photographs are excluded.",
+      "external": false
+    },
+    {
+      "path": "C:\\Users\\lhemy\\OneDrive\\Documents\\Dear Body\\output\\product-listing\\uncapped-corrections-2026-09-24-v2\\references\\ivory-reverie.jpg",
+      "sha256": "e3abab84900bdc6bd6ee84d02110c38f3bf9f1478212b471ed39e499c616c671",
+      "bytes": 958448,
+      "reason": "Derived input copy of the replaced uncapped artwork; original raw product photographs are excluded.",
+      "external": false
+    },
+    {
+      "path": "C:\\Users\\lhemy\\OneDrive\\Documents\\Dear Body\\output\\product-listing\\uncapped-corrections-2026-09-24-v2\\references\\ivory-reverie.png",
+      "sha256": "889af9b117641f8404e2b7bb9df1ffe8a2cca4ab24bc48a4bbf9a5023e443f4c",
+      "bytes": 8746162,
+      "reason": "Derived input copy of the replaced uncapped artwork; original raw product photographs are excluded.",
+      "external": false
+    },
+    {
+      "path": "C:\\Users\\lhemy\\OneDrive\\Documents\\Dear Body\\output\\product-listing\\uncapped-corrections-2026-09-24-v2\\references\\midnight-elixir.jpg",
+      "sha256": "6b87443fccdfa2f5d3b43dc6c0d43f79483a0be328401f7c1352be72910015bb",
+      "bytes": 829394,
+      "reason": "Derived input copy of the replaced uncapped artwork; original raw product photographs are excluded.",
+      "external": false
+    },
+    {
+      "path": "C:\\Users\\lhemy\\OneDrive\\Documents\\Dear Body\\output\\product-listing\\uncapped-corrections-2026-09-24-v2\\references\\midnight-elixir.png",
+      "sha256": "164998f45a11fb8e260fe9f8eb8a6d1c16d08f6f3b89a48044e51d772b21eb90",
+      "bytes": 8156169,
+      "reason": "Derived input copy of the replaced uncapped artwork; original raw product photographs are excluded.",
+      "external": false
+    },
+    {
+      "path": "C:\\Users\\lhemy\\OneDrive\\Documents\\Dear Body\\output\\product-listing\\uncapped-corrections-2026-09-24-v2\\references\\mistened-narcissus.jpg",
+      "sha256": "45b2b4119e7e903f21bc1665c6b82fb514146dcb8943440c590a1f35dd8176cc",
+      "bytes": 766881,
+      "reason": "Derived input copy of the replaced uncapped artwork; original raw product photographs are excluded.",
+      "external": false
+    },
+    {
+      "path": "C:\\Users\\lhemy\\OneDrive\\Documents\\Dear Body\\output\\product-listing\\uncapped-corrections-2026-09-24-v2\\references\\mistened-narcissus.png",
+      "sha256": "17a0693e0106ba82bdb63b89a1335902a2283f70d336231661deff6b69403238",
+      "bytes": 7762203,
+      "reason": "Derived input copy of the replaced uncapped artwork; original raw product photographs are excluded.",
+      "external": false
+    },
+    {
+      "path": "C:\\Users\\lhemy\\OneDrive\\Documents\\Dear Body\\output\\product-listing\\uncapped-corrections-2026-09-24-v2\\references\\mojito-metallique.jpg",
+      "sha256": "e7ff0e19de56f081ca52806fb2744edf22615a4a50f0c31c97fa9cb1aa4c50a4",
+      "bytes": 785809,
+      "reason": "Derived input copy of the replaced uncapped artwork; original raw product photographs are excluded.",
+      "external": false
+    },
+    {
+      "path": "C:\\Users\\lhemy\\OneDrive\\Documents\\Dear Body\\output\\product-listing\\uncapped-corrections-2026-09-24-v2\\references\\mojito-metallique.png",
+      "sha256": "5cefa7d5b57539c5b231316670f312d2b4b74d4cc9e29e8d40245996452153ea",
+      "bytes": 7995973,
+      "reason": "Derived input copy of the replaced uncapped artwork; original raw product photographs are excluded.",
+      "external": false
+    },
+    {
+      "path": "C:\\Users\\lhemy\\OneDrive\\Documents\\Dear Body\\output\\product-listing\\uncapped-corrections-2026-09-24-v2\\references\\moonlight-velvet.jpg",
+      "sha256": "012a40c0d075e150a7f96d0c23b6de457becc1444e2455e4aa7fc22d4e134a91",
+      "bytes": 723353,
+      "reason": "Derived input copy of the replaced uncapped artwork; original raw product photographs are excluded.",
+      "external": false
+    },
+    {
+      "path": "C:\\Users\\lhemy\\OneDrive\\Documents\\Dear Body\\output\\product-listing\\uncapped-corrections-2026-09-24-v2\\references\\moonlight-velvet.png",
+      "sha256": "29598b03ebc4452f663858d34ab664fc6351c3fe33c008e95c9f4f049af05217",
+      "bytes": 7852002,
+      "reason": "Derived input copy of the replaced uncapped artwork; original raw product photographs are excluded.",
+      "external": false
+    },
+    {
+      "path": "C:\\Users\\lhemy\\OneDrive\\Documents\\Dear Body\\output\\product-listing\\uncapped-corrections-2026-09-24-v2\\references\\noir-cedar.jpg",
+      "sha256": "a208095df6004448a61cf045cf189d7740ccbb43d5f411ecd293ad66ae081c0c",
+      "bytes": 635108,
+      "reason": "Derived input copy of the replaced uncapped artwork; original raw product photographs are excluded.",
+      "external": false
+    },
+    {
+      "path": "C:\\Users\\lhemy\\OneDrive\\Documents\\Dear Body\\output\\product-listing\\uncapped-corrections-2026-09-24-v2\\references\\noir-cedar.png",
+      "sha256": "4892ff467ce2697cf2c9385bd25c38ccc089b3b6f08a7897a47889e9c4f20ee3",
+      "bytes": 7264162,
+      "reason": "Derived input copy of the replaced uncapped artwork; original raw product photographs are excluded.",
+      "external": false
+    },
+    {
+      "path": "C:\\Users\\lhemy\\OneDrive\\Documents\\Dear Body\\output\\product-listing\\uncapped-corrections-2026-09-24-v2\\references\\oud-mirage.jpg",
+      "sha256": "188b8312490111cb3067bf0e3f13461d78c140084c230278016a04bb0fa20dfd",
+      "bytes": 876212,
+      "reason": "Derived input copy of the replaced uncapped artwork; original raw product photographs are excluded.",
+      "external": false
+    },
+    {
+      "path": "C:\\Users\\lhemy\\OneDrive\\Documents\\Dear Body\\output\\product-listing\\uncapped-corrections-2026-09-24-v2\\references\\oud-mirage.png",
+      "sha256": "e61fdd6321dd338180ff65d9333d076ca62bf99aa04f333de6c9fabb969e4fa0",
+      "bytes": 8532540,
+      "reason": "Derived input copy of the replaced uncapped artwork; original raw product photographs are excluded.",
+      "external": false
+    },
+    {
+      "path": "C:\\Users\\lhemy\\OneDrive\\Documents\\Dear Body\\output\\product-listing\\uncapped-corrections-2026-09-24-v2\\references\\rtulle-and-satin.jpg",
+      "sha256": "715849b0e966b6193fd183db96262472f0508b6a362f73ebd5f8fd2d86202749",
+      "bytes": 781637,
+      "reason": "Derived input copy of the replaced uncapped artwork; original raw product photographs are excluded.",
+      "external": false
+    },
+    {
+      "path": "C:\\Users\\lhemy\\OneDrive\\Documents\\Dear Body\\output\\product-listing\\uncapped-corrections-2026-09-24-v2\\references\\rtulle-and-satin.png",
+      "sha256": "4021aeab584a1ff756c312c92135e1f842f7eebd0c306c8522665fb72c4492b6",
+      "bytes": 8616249,
+      "reason": "Derived input copy of the replaced uncapped artwork; original raw product photographs are excluded.",
+      "external": false
+    },
+    {
+      "path": "C:\\Users\\lhemy\\OneDrive\\Documents\\Dear Body\\output\\product-listing\\uncapped-corrections-2026-09-24-v2\\references\\seaside-cotton.jpg",
+      "sha256": "b5baa3b5cb9b802c777416f1089ce3d52a1e8b66ef1f8228a74ec3aa3a1acda5",
+      "bytes": 748050,
+      "reason": "Derived input copy of the replaced uncapped artwork; original raw product photographs are excluded.",
+      "external": false
+    },
+    {
+      "path": "C:\\Users\\lhemy\\OneDrive\\Documents\\Dear Body\\output\\product-listing\\uncapped-corrections-2026-09-24-v2\\references\\seaside-cotton.png",
+      "sha256": "490964d44983e04ff0eac24c916865943de3967ceced69d471a21eca10141e21",
+      "bytes": 7701068,
+      "reason": "Derived input copy of the replaced uncapped artwork; original raw product photographs are excluded.",
+      "external": false
+    },
+    {
+      "path": "C:\\Users\\lhemy\\OneDrive\\Documents\\Dear Body\\output\\product-listing\\uncapped-corrections-2026-09-24-v2\\references\\sunset-cocktail.jpg",
+      "sha256": "6de500c68e3735306da6c8c37b93775ccb2eda575bdfcd48379cfa62890dab8a",
+      "bytes": 767808,
+      "reason": "Derived input copy of the replaced uncapped artwork; original raw product photographs are excluded.",
+      "external": false
+    },
+    {
+      "path": "C:\\Users\\lhemy\\OneDrive\\Documents\\Dear Body\\output\\product-listing\\uncapped-corrections-2026-09-24-v2\\references\\sunset-cocktail.png",
+      "sha256": "cf3a42b75dcf39d9aadd8532b0462050ba683013b431f50e80698c7373c6eea0",
+      "bytes": 8192361,
+      "reason": "Derived input copy of the replaced uncapped artwork; original raw product photographs are excluded.",
+      "external": false
+    },
+    {
+      "path": "C:\\Users\\lhemy\\OneDrive\\Documents\\Dear Body\\output\\product-listing\\uniform-uncapped-2026-09-24-v3\\originals\\alpine-rosemary-mint.png",
+      "sha256": "598397f6dc6e671bb1c84c3dc8de62e76ee1673145d0d9a0897e649a934080ca",
+      "bytes": 2128135,
+      "reason": "Backup of the earlier product setup replaced by the final uniform template.",
+      "external": false
+    },
+    {
+      "path": "C:\\Users\\lhemy\\OneDrive\\Documents\\Dear Body\\output\\product-listing\\uniform-uncapped-2026-09-24-v3\\originals\\amber-oud-silk.png",
+      "sha256": "2525768b746819c0b49136a70c4822a691b7db1802a91273ed805a8f23929fe6",
+      "bytes": 1989716,
+      "reason": "Backup of the earlier product setup replaced by the final uniform template.",
+      "external": false
+    },
+    {
+      "path": "C:\\Users\\lhemy\\OneDrive\\Documents\\Dear Body\\output\\product-listing\\uniform-uncapped-2026-09-24-v3\\originals\\charme-envoutant.png",
+      "sha256": "e3e2d79130668685e5cc3df2d31a67dfcfc4ad21c0101943dcd3b629f0426eaf",
+      "bytes": 2059908,
+      "reason": "Backup of the earlier product setup replaced by the final uniform template.",
+      "external": false
+    },
+    {
+      "path": "C:\\Users\\lhemy\\OneDrive\\Documents\\Dear Body\\output\\product-listing\\uniform-uncapped-2026-09-24-v3\\originals\\citrus-wish.png",
+      "sha256": "e4240a9e2bc51fa12094ae304061c0176c24efc6072dea4c313949dacabb5f63",
+      "bytes": 2109323,
+      "reason": "Backup of the earlier product setup replaced by the final uniform template.",
+      "external": false
+    },
+    {
+      "path": "C:\\Users\\lhemy\\OneDrive\\Documents\\Dear Body\\output\\product-listing\\uniform-uncapped-2026-09-24-v3\\originals\\ivory-reverie.png",
+      "sha256": "1b5532feffc1512bf7bed66daa880a722732d9984cbfb36620aa9937f59c5d0e",
+      "bytes": 2233597,
+      "reason": "Backup of the earlier product setup replaced by the final uniform template.",
+      "external": false
+    },
+    {
+      "path": "C:\\Users\\lhemy\\OneDrive\\Documents\\Dear Body\\output\\product-listing\\uniform-uncapped-2026-09-24-v3\\originals\\midnight-elixir.png",
+      "sha256": "d35bf81a907924607eb64ec913373ac99ed9e40a8f08d395b4c91c9129a69d29",
+      "bytes": 2122472,
+      "reason": "Backup of the earlier product setup replaced by the final uniform template.",
+      "external": false
+    },
+    {
+      "path": "C:\\Users\\lhemy\\OneDrive\\Documents\\Dear Body\\output\\product-listing\\uniform-uncapped-2026-09-24-v3\\originals\\mistened-narcissus.png",
+      "sha256": "738bc885508542929f85a0389e8ddb2a9bf13784076e402b507380ddc35a3569",
+      "bytes": 1905201,
+      "reason": "Backup of the earlier product setup replaced by the final uniform template.",
+      "external": false
+    },
+    {
+      "path": "C:\\Users\\lhemy\\OneDrive\\Documents\\Dear Body\\output\\product-listing\\uniform-uncapped-2026-09-24-v3\\originals\\mojito-metallique.png",
+      "sha256": "69d9146ff5269d024dbeb2a5af898350d5ae31b641e21f253c480f05cf2e7817",
+      "bytes": 1980180,
+      "reason": "Backup of the earlier product setup replaced by the final uniform template.",
+      "external": false
+    },
+    {
+      "path": "C:\\Users\\lhemy\\OneDrive\\Documents\\Dear Body\\output\\product-listing\\uniform-uncapped-2026-09-24-v3\\originals\\moonlight-velvet.png",
+      "sha256": "217906b67f44c66df8a9f996ba5008a35263f6abba4066ccaacc2eeca396bad6",
+      "bytes": 1993709,
+      "reason": "Backup of the earlier product setup replaced by the final uniform template.",
+      "external": false
+    },
+    {
+      "path": "C:\\Users\\lhemy\\OneDrive\\Documents\\Dear Body\\output\\product-listing\\uniform-uncapped-2026-09-24-v3\\originals\\noir-cedar.png",
+      "sha256": "fc40c9fa051e1eef89760841f7aa6998e27e1f641f63132e7761efbfd3321d41",
+      "bytes": 1850743,
+      "reason": "Backup of the earlier product setup replaced by the final uniform template.",
+      "external": false
+    },
+    {
+      "path": "C:\\Users\\lhemy\\OneDrive\\Documents\\Dear Body\\output\\product-listing\\uniform-uncapped-2026-09-24-v3\\originals\\oud-mirage.png",
+      "sha256": "1cbc1794181eb2171d336dc4a1687cf8d982b43d7378fcd84e9e28f2920da218",
+      "bytes": 2106013,
+      "reason": "Backup of the earlier product setup replaced by the final uniform template.",
+      "external": false
+    },
+    {
+      "path": "C:\\Users\\lhemy\\OneDrive\\Documents\\Dear Body\\output\\product-listing\\uniform-uncapped-2026-09-24-v3\\originals\\rtulle-and-satin.png",
+      "sha256": "b3fe9870b9ac8d024a069dd6daf697d69fee167d9a81c7c17144329f962ff190",
+      "bytes": 2045393,
+      "reason": "Backup of the earlier product setup replaced by the final uniform template.",
+      "external": false
+    },
+    {
+      "path": "C:\\Users\\lhemy\\OneDrive\\Documents\\Dear Body\\output\\product-listing\\uniform-uncapped-2026-09-24-v3\\originals\\seaside-cotton.png",
+      "sha256": "56ca7d977d6779553276411b47e8e166fbdd6f56fe08f7bc6458612668875204",
+      "bytes": 1975070,
+      "reason": "Backup of the earlier product setup replaced by the final uniform template.",
+      "external": false
+    },
+    {
+      "path": "C:\\Users\\lhemy\\OneDrive\\Documents\\Dear Body\\output\\product-listing\\uniform-uncapped-2026-09-24-v3\\superseded\\alpine-rosemary-mint-shared-background.png",
+      "sha256": "f7dfab5759bbd80ccf568c48d73e7bcbc8bf73d72d4cd96ed9ec0358feaf8079",
+      "bytes": 2084088,
+      "reason": "Rejected shared-background or spray-head draft, explicitly tracked as superseded.",
+      "external": false
+    },
+    {
+      "path": "C:\\Users\\lhemy\\OneDrive\\Documents\\Dear Body\\output\\product-listing\\uniform-uncapped-2026-09-24-v3\\superseded\\noir-cedar-before-nozzle-refinement.png",
+      "sha256": "988de5c7007a7f9299d14e672f69c12b1f91f5e2d4da2dbf13604fe1403c2585",
+      "bytes": 1915188,
+      "reason": "Rejected shared-background or spray-head draft, explicitly tracked as superseded.",
+      "external": false
+    },
+    {
+      "path": "C:\\Users\\lhemy\\OneDrive\\Documents\\Dear Body\\output\\product-listing\\uniform-uncapped-2026-09-24-v3\\superseded\\rtulle-and-satin-before-nozzle-refinement.png",
+      "sha256": "9d8a81983d2e2a0d8493676287b16941cd7389c810e096aa7dfdb58e30c32069",
+      "bytes": 1981825,
+      "reason": "Rejected shared-background or spray-head draft, explicitly tracked as superseded.",
+      "external": false
+    },
+    {
+      "path": "C:\\Users\\lhemy\\.codex\\generated_images\\01a0d3e5-424c-7db0-b59a-8f3231494528\\exec-10ccec09-17f0-4c04-ac25-401d88369738.png",
+      "sha256": "217906b67f44c66df8a9f996ba5008a35263f6abba4066ccaacc2eeca396bad6",
+      "bytes": 1993709,
+      "reason": "Earlier generated product setup superseded by the user-selected template.",
+      "external": true
+    },
+    {
+      "path": "C:\\Users\\lhemy\\.codex\\generated_images\\01a0d3e5-424c-7db0-b59a-8f3231494528\\exec-1ecaf237-b8a8-4256-9994-12c9430a62ca.png",
+      "sha256": "1cbc1794181eb2171d336dc4a1687cf8d982b43d7378fcd84e9e28f2920da218",
+      "bytes": 2106013,
+      "reason": "Earlier generated product setup superseded by the user-selected template.",
+      "external": true
+    },
+    {
+      "path": "C:\\Users\\lhemy\\.codex\\generated_images\\01a0d3e5-424c-7db0-b59a-8f3231494528\\exec-22f516eb-9a50-433c-bdd8-8d4a2468a204.png",
+      "sha256": "e4240a9e2bc51fa12094ae304061c0176c24efc6072dea4c313949dacabb5f63",
+      "bytes": 2109323,
+      "reason": "Earlier generated product setup superseded by the user-selected template.",
+      "external": true
+    },
+    {
+      "path": "C:\\Users\\lhemy\\.codex\\generated_images\\01a0d3e5-424c-7db0-b59a-8f3231494528\\exec-30252381-4ae7-4748-a373-1547fe681182.png",
+      "sha256": "f7dfab5759bbd80ccf568c48d73e7bcbc8bf73d72d4cd96ed9ec0358feaf8079",
+      "bytes": 2084088,
+      "reason": "Shared-background candidate rejected when the user required individual scent backgrounds.",
+      "external": true
+    },
+    {
+      "path": "C:\\Users\\lhemy\\.codex\\generated_images\\01a0d3e5-424c-7db0-b59a-8f3231494528\\exec-4a2ca5a2-b53a-4b86-bbad-45603b7de0b6.png",
+      "sha256": "56ca7d977d6779553276411b47e8e166fbdd6f56fe08f7bc6458612668875204",
+      "bytes": 1975070,
+      "reason": "Earlier generated product setup superseded by the user-selected template.",
+      "external": true
+    },
+    {
+      "path": "C:\\Users\\lhemy\\.codex\\generated_images\\01a0d3e5-424c-7db0-b59a-8f3231494528\\exec-4b6d2df4-c71d-4f65-94fc-000fce3597ac.png",
+      "sha256": "62be51600b456fda6b4bac8d68b25cc6697cefce51ca01b2556ea9af5102db88",
+      "bytes": 1948176,
+      "reason": "First Mistened Narcissus candidate retained a slanted bottle and was replaced after user feedback.",
+      "external": true
+    },
+    {
+      "path": "C:\\Users\\lhemy\\.codex\\generated_images\\01a0d3e5-424c-7db0-b59a-8f3231494528\\exec-5a537a6f-957b-4e39-a40e-bd5cba404ec4.png",
+      "sha256": "fc40c9fa051e1eef89760841f7aa6998e27e1f641f63132e7761efbfd3321d41",
+      "bytes": 1850743,
+      "reason": "Earlier generated product setup superseded by the user-selected template.",
+      "external": true
+    },
+    {
+      "path": "C:\\Users\\lhemy\\.codex\\generated_images\\01a0d3e5-424c-7db0-b59a-8f3231494528\\exec-5ab9aee5-a4c9-413b-883f-78beba88b396.png",
+      "sha256": "598397f6dc6e671bb1c84c3dc8de62e76ee1673145d0d9a0897e649a934080ca",
+      "bytes": 2128135,
+      "reason": "Earlier generated product setup superseded by the user-selected template.",
+      "external": true
+    },
+    {
+      "path": "C:\\Users\\lhemy\\.codex\\generated_images\\01a0d3e5-424c-7db0-b59a-8f3231494528\\exec-799ee9ce-21b6-4c6f-a644-90d979704031.png",
+      "sha256": "d35bf81a907924607eb64ec913373ac99ed9e40a8f08d395b4c91c9129a69d29",
+      "bytes": 2122472,
+      "reason": "Earlier generated product setup superseded by the user-selected template.",
+      "external": true
+    },
+    {
+      "path": "C:\\Users\\lhemy\\.codex\\generated_images\\01a0d3e5-424c-7db0-b59a-8f3231494528\\exec-b184cb30-f312-42aa-8b8c-0d596abeb90b.png",
+      "sha256": "b3fe9870b9ac8d024a069dd6daf697d69fee167d9a81c7c17144329f962ff190",
+      "bytes": 2045393,
+      "reason": "Earlier generated product setup superseded by the user-selected template.",
+      "external": true
+    },
+    {
+      "path": "C:\\Users\\lhemy\\.codex\\generated_images\\01a0d3e5-424c-7db0-b59a-8f3231494528\\exec-b6707214-c137-4ac6-b954-382f95b8fe29.png",
+      "sha256": "1b5532feffc1512bf7bed66daa880a722732d9984cbfb36620aa9937f59c5d0e",
+      "bytes": 2233597,
+      "reason": "Earlier generated product setup superseded by the user-selected template.",
+      "external": true
+    },
+    {
+      "path": "C:\\Users\\lhemy\\.codex\\generated_images\\01a0d3e5-424c-7db0-b59a-8f3231494528\\exec-b7b01bdd-c502-4dc4-aa88-30c75efb82c2.png",
+      "sha256": "69d9146ff5269d024dbeb2a5af898350d5ae31b641e21f253c480f05cf2e7817",
+      "bytes": 1980180,
+      "reason": "Earlier generated product setup superseded by the user-selected template.",
+      "external": true
+    },
+    {
+      "path": "C:\\Users\\lhemy\\.codex\\generated_images\\01a0d3e5-424c-7db0-b59a-8f3231494528\\exec-bfc9ef7f-939d-41a5-8f06-8d2dab8f4082.png",
+      "sha256": "9d8a81983d2e2a0d8493676287b16941cd7389c810e096aa7dfdb58e30c32069",
+      "bytes": 1981825,
+      "reason": "Spray-head candidate rejected during consistency review and replaced by the final refinement.",
+      "external": true
+    },
+    {
+      "path": "C:\\Users\\lhemy\\.codex\\generated_images\\01a0d3e5-424c-7db0-b59a-8f3231494528\\exec-e3095978-9b1e-4304-a7ba-8aed37b86703.png",
+      "sha256": "e3e2d79130668685e5cc3df2d31a67dfcfc4ad21c0101943dcd3b629f0426eaf",
+      "bytes": 2059908,
+      "reason": "Earlier generated product setup superseded by the user-selected template.",
+      "external": true
+    },
+    {
+      "path": "C:\\Users\\lhemy\\.codex\\generated_images\\01a0d3e5-424c-7db0-b59a-8f3231494528\\exec-e3dd3f0c-9701-47eb-a155-e73372ef6772.png",
+      "sha256": "988de5c7007a7f9299d14e672f69c12b1f91f5e2d4da2dbf13604fe1403c2585",
+      "bytes": 1915188,
+      "reason": "Spray-head candidate rejected during consistency review and replaced by the final refinement.",
+      "external": true
+    },
+    {
+      "path": "C:\\Users\\lhemy\\.codex\\generated_images\\01a0d3e5-424c-7db0-b59a-8f3231494528\\exec-f2933092-2c36-4afa-99f4-09a0b8008ca1.png",
+      "sha256": "2525768b746819c0b49136a70c4822a691b7db1802a91273ed805a8f23929fe6",
+      "bytes": 1989716,
+      "reason": "Earlier generated product setup superseded by the user-selected template.",
+      "external": true
+    },
+    {
+      "path": "C:\\Users\\lhemy\\.codex\\generated_images\\01a0d3e5-424c-7db0-b59a-8f3231494528\\exec-ffe8b62f-69f0-44ea-9034-464e35040710.png",
+      "sha256": "738bc885508542929f85a0389e8ddb2a9bf13784076e402b507380ddc35a3569",
+      "bytes": 1905201,
+      "reason": "Earlier generated product setup superseded by the user-selected template.",
+      "external": true
+    }
+  ],
+  "approvedGalleryImagesVerified": 168,
+  "remaining": 0
+}

@@ -1,0 +1,2774 @@
+[
+  {
+    "title": "Dear Body Master Playbook",
+    "section": "BRAND FOUNDATION TO EVERYDAY EXECUTION",
+    "source": "Version 1.0 | 25 September 2026",
+    "blocks": [
+      {
+        "kind": "p",
+        "text": "Brand story  Visual identity  Products  Content  Website  Operations  AI handoff",
+        "style": "Subtitle"
+      },
+      {
+        "kind": "image",
+        "path": "output/website/scent-journey-theme/theme/assets/sj-logo-official-dark.png",
+        "caption": "Official Dear Body identity",
+        "width": 3.8
+      },
+      {
+        "kind": "images",
+        "paths": [
+          "output/website/upload-ready/shopify-gallery-order-2026-09-24/mojito-metallique/07-dear-body-mojito-metallique-product-in-hand-lifestyle.png",
+          "output/website/upload-ready/shopify-gallery-order-2026-09-24/charme-envoutant/07-dear-body-charme-envoutant-product-in-hand-lifestyle.png"
+        ],
+        "captions": [
+          "Warm color, tactile objects and an unmistakable product.",
+          "A distinct scent world, expressed through hands and detail."
+        ],
+        "width": 3.17
+      },
+      {
+        "kind": "p",
+        "text": "A shared guide for everyone connected to DearBody Philippines: the owner, collaborators, designers, photographers, copywriters, developers, customer care teams and AI platforms.",
+        "style": "Normal"
+      },
+      {
+        "kind": "p",
+        "text": "The brand system brings London-formulated fragrance culture into Filipino everyday life through warmth, color, personal style and approachable product storytelling. This playbook connects that idea to the exact decisions and assets used to build it.",
+        "style": "Normal"
+      }
+    ]
+  },
+  {
+    "title": "How to use this playbook",
+    "section": "START HERE",
+    "source": "S01–S04 and S11",
+    "blocks": [
+      {
+        "kind": "p",
+        "text": "Use this document to understand the brand, brief work, create consistent assets and check the result. Read the quick rules first, then the section relevant to your task. The final chapters contain source locations and a reusable AI handoff.",
+        "style": "Normal"
+      },
+      {
+        "kind": "p",
+        "text": "The contents",
+        "style": "Heading 2"
+      },
+      {
+        "kind": "toc"
+      },
+      {
+        "kind": "p",
+        "text": "Decision language: “Current rule” records an owner direction or established production standard. “Recorded implementation” describes the project at a stated date. “Recommended workflow” is practical guidance for future work. “Historical” material explains earlier development and does not override current rules.",
+        "style": "Caption"
+      }
+    ]
+  },
+  {
+    "title": "The brand in one page",
+    "section": "01  BRAND FOUNDATIONS",
+    "source": "S01 Brand guide | S02 Owner rules | S03 Brand tokens",
+    "blocks": [
+      {
+        "kind": "p",
+        "text": "DearBody Philippines is premium but approachable: London-formulated fragrance culture translated into warm, vibrant, playful Filipino self-expression. The central idea is A Scent Journey.",
+        "style": "Normal"
+      },
+      {
+        "kind": "p",
+        "text": "The rules everyone must know",
+        "style": "Heading 2"
+      },
+      {
+        "kind": "p",
+        "text": "Use the real Dear Body identity. Preserve official logo artwork and exact product packaging, names, label colors, cap construction and scale.",
+        "style": "List Bullet"
+      },
+      {
+        "kind": "p",
+        "text": "Lead with deep burgundy, rich red, burnt orange, golden tan and soft cream. Scent colors add individuality; warm hues anchor the brand.",
+        "style": "List Bullet"
+      },
+      {
+        "kind": "p",
+        "text": "Use actual Cenzo Flare Bold for display copy and Helvetica Now for support. The website uses Helvetica Now Display Light; earlier Text Regular assets remain archival.",
+        "style": "List Bullet"
+      },
+      {
+        "kind": "p",
+        "text": "Current Facebook scope is six ads, one per priority scent, plus one profile image and one cover. A fourteen-scent archive does not expand this campaign.",
+        "style": "List Bullet"
+      },
+      {
+        "kind": "p",
+        "text": "Current campaign lifestyle and scripts are face-free: Filipino hands, arms and torso crops only. Exclude partial faces, reflections, background people, screens and printed portraits.",
+        "style": "List Bullet"
+      },
+      {
+        "kind": "p",
+        "text": "Women’s white or cream labels: Mojito Metallique, Amber Oud Silk, Mistened Narcissus. Men’s black labels: Charme Envoûtant, Oud Mirage, Rtulle & Satin. Match all visible talent to the line.",
+        "style": "List Bullet"
+      },
+      {
+        "kind": "p",
+        "text": "Offer order is FREE SHIPPING ON 2+ ITEMS, then CASH ON DELIVERY, then SHOP NOW. Keep the condition next to the shipping message.",
+        "style": "List Bullet"
+      },
+      {
+        "kind": "p",
+        "text": "Use approved scent descriptions. Do not invent notes, performance, origin claims, ingredients, discounts, popularity or testimonials.",
+        "style": "List Bullet"
+      },
+      {
+        "kind": "p",
+        "text": "Shopify is the master sales channel in the current project. Preserve real product data and the recorded EasySell order flow.",
+        "style": "List Bullet"
+      },
+      {
+        "kind": "p",
+        "text": "New owner decisions override older instructions. Existing product-gallery artwork stays unchanged unless an edit is requested.",
+        "style": "List Bullet"
+      }
+    ]
+  },
+  {
+    "title": "How the brand system was built",
+    "section": "01  BRAND FOUNDATIONS",
+    "source": "S01–S05 | S08–S12 | S15 Historical research",
+    "blocks": [
+      {
+        "kind": "p",
+        "text": "The project documents the development of the DearBody Philippines brand experience around existing DearBody products, packaging and official marks. It records local strategy, creative direction, production systems and commerce. This history should not be retold as the invention of the global fragrance house or its formulas.",
+        "style": "Normal"
+      },
+      {
+        "kind": "table",
+        "headers": [
+          "Stage",
+          "What was established",
+          "What it enabled"
+        ],
+        "rows": [
+          [
+            "Early strategy archive",
+            "An accessible premium fragrance proposition; personality, bold visuals and online discovery.",
+            "A practical reason for buyers to notice and identify with the brand."
+          ],
+          [
+            "22 September 2026",
+            "The 12-page Canva playbook was translated into BRAND_GUIDE.md, brand tokens and visual rules.",
+            "A shared palette, typography system, mission and tone."
+          ],
+          [
+            "Product evidence and galleries",
+            "Owner photographs, verified package facts, exact scent descriptions and a twelve-frame image architecture.",
+            "Repeatable product storytelling with packaging fidelity."
+          ],
+          [
+            "24 September 2026",
+            "Fourteen gallery sets were reviewed; six selected scents were integrated into the website.",
+            "A broader asset library with a focused active storefront."
+          ],
+          [
+            "24 September 2026",
+            "The Scent Journey Shopify theme, display-font update, pricing corrections and same-page COD ordering were recorded.",
+            "A connected visual and purchasing experience."
+          ],
+          [
+            "25 September 2026",
+            "Owner references sharpened the social direction toward energetic, warm, tactile, face-free campaign imagery.",
+            "A clear creative standard for the next six-scent Facebook campaign."
+          ]
+        ],
+        "widths": [
+          1.25,
+          2.95,
+          2.35
+        ]
+      },
+      {
+        "kind": "p",
+        "text": "The idea that stayed consistent",
+        "style": "Heading 2"
+      },
+      {
+        "kind": "p",
+        "text": "Fragrance belongs in ordinary life and gives people another way to express themselves. The visual execution became more specific over time: richer color, stronger product identity, real texture, varied activities and clear buying information.",
+        "style": "Normal"
+      }
+    ]
+  },
+  {
+    "title": "Positioning and audience",
+    "section": "01  BRAND FOUNDATIONS",
+    "source": "S01 Brand guide | S15 Historical strategy",
+    "blocks": [
+      {
+        "kind": "p",
+        "text": "Positioning",
+        "style": "Heading 2"
+      },
+      {
+        "kind": "p",
+        "text": "London-formulated fragrance culture curated for the Filipino lifestyle: premium, warm, vibrant, playful and approachable. Use “London-formulated” as the established brand wording. Do not silently upgrade it to “made in London,” “British-made,” or a manufacturing claim.",
+        "style": "Normal"
+      },
+      {
+        "kind": "p",
+        "text": "Mission and vision",
+        "style": "Heading 2"
+      },
+      {
+        "kind": "p",
+        "text": "Mission: To bring carefully curated fragrances from London to the Philippines, creating scents that complement Filipino tastes, lifestyle and the tropical environment.",
+        "style": "Normal"
+      },
+      {
+        "kind": "p",
+        "text": "Vision: To bring London’s fragrance culture into every Filipino’s everyday life.",
+        "style": "Normal"
+      },
+      {
+        "kind": "p",
+        "text": "What the audience is looking for",
+        "style": "Heading 2"
+      },
+      {
+        "kind": "p",
+        "text": "The early questionnaire describes online shoppers aged 22–35, including students and working individuals, who care about personal image and distinctive scents. Treat this as a planning persona, not a restriction on who can enjoy the products or a verified description of every customer.",
+        "style": "Normal"
+      },
+      {
+        "kind": "p",
+        "text": "The practical need is affordable, effortless everyday confidence. The emotional need is a scent that feels personal. Help shoppers recognize a mood, understand the product and choose without needing specialist fragrance vocabulary.",
+        "style": "Normal"
+      },
+      {
+        "kind": "p",
+        "text": "How to express the position",
+        "style": "Heading 2"
+      },
+      {
+        "kind": "p",
+        "text": "Show appealing packaging and believable personal objects. Let the quality appear in the photograph and the clarity of the experience.",
+        "style": "List Bullet"
+      },
+      {
+        "kind": "p",
+        "text": "Use friendly confidence and short sensory language. Make the product feel attainable in a real Filipino routine.",
+        "style": "List Bullet"
+      },
+      {
+        "kind": "p",
+        "text": "Build differentiation through consistent design and distinct scent worlds. Avoid unsupported claims that competitors lack branding or that Dear Body is the only brand in a category.",
+        "style": "List Bullet"
+      }
+    ]
+  },
+  {
+    "title": "Brand voice and story",
+    "section": "01  BRAND FOUNDATIONS",
+    "source": "S01 | S06 Approved copy | S09 Theme story section",
+    "blocks": [
+      {
+        "kind": "p",
+        "text": "Core brand story",
+        "style": "Heading 2"
+      },
+      {
+        "kind": "p",
+        "text": "DearBody Philippines brings London’s fragrance culture into Filipino everyday life through London-formulated scents thoughtfully curated for local tastes, lifestyles, and tropical conditions.",
+        "style": "Normal"
+      },
+      {
+        "kind": "p",
+        "text": "We believe fragrance belongs in the everyday: the morning you make your own, the plans you say yes to, the moments that become memories. International fragrance character meets Filipino personality — and a little more room for self-expression.",
+        "style": "Normal"
+      },
+      {
+        "kind": "p",
+        "text": "The two paragraphs above are the recorded website story, suitable as the base for introductions. Keep a personal founder biography separate until the owner supplies the people, dates and experiences behind it.",
+        "style": "Caption"
+      },
+      {
+        "kind": "table",
+        "headers": [
+          "Quality",
+          "How the copy behaves"
+        ],
+        "rows": [
+          [
+            "Warm",
+            "Talk to one person in familiar words. Invite exploration without pressure."
+          ],
+          [
+            "Confident",
+            "Use a direct headline and a clear next action. Avoid exaggerated superiority."
+          ],
+          [
+            "Playful",
+            "Let the setting, gesture or phrase carry a little energy. Avoid forced slang."
+          ],
+          [
+            "Sensory",
+            "Use the approved description. Do not turn evocative wording into a laboratory claim."
+          ],
+          [
+            "Approachable",
+            "Use English for clarity; natural Filipino or Taglish can support social scripts. Keep offer conditions unambiguous."
+          ]
+        ],
+        "widths": [
+          1.35,
+          5.2
+        ]
+      },
+      {
+        "kind": "p",
+        "text": "Reusable language",
+        "style": "Heading 2"
+      },
+      {
+        "kind": "p",
+        "text": "A SCENT JOURNEY is the brand tagline. MAKE IT PERSONAL. is the recorded homepage headline. “Six fragrances. Plenty of personality. Find the one that feels like you.” is a concise storefront introduction. These serve different roles; keep the tagline consistent.",
+        "style": "Normal"
+      },
+      {
+        "kind": "p",
+        "text": "Example caption structure: offer and condition → exact scent name → approved description → Shop Now. Personality copy is an editorial invitation, not a promise that a fragrance changes someone’s character.",
+        "style": "Normal"
+      }
+    ]
+  },
+  {
+    "title": "The color system",
+    "section": "02  VISUAL IDENTITY",
+    "source": "S01 Brand guide | S03 Brand tokens",
+    "blocks": [
+      {
+        "kind": "p",
+        "text": "The warm palette is the consistent brand signal across products, publication layouts, social content and the website. Use contrast to keep glass, labels and typography clear.",
+        "style": "Normal"
+      },
+      {
+        "kind": "palette"
+      },
+      {
+        "kind": "table",
+        "headers": [
+          "Color",
+          "HEX",
+          "RGB",
+          "Role"
+        ],
+        "rows": [
+          [
+            "Deep burgundy",
+            "#5C0006",
+            "92  0  6",
+            "Primary anchor; premium dark fields"
+          ],
+          [
+            "Rich red",
+            "#9A1106",
+            "154  17  6",
+            "Buttons, emphasis, active states"
+          ],
+          [
+            "Burnt orange",
+            "#D46601",
+            "212  102  1",
+            "Energy and campaign accents"
+          ],
+          [
+            "Golden tan",
+            "#E9A250",
+            "233  162  80",
+            "Warm fields and secondary color"
+          ],
+          [
+            "Soft cream",
+            "#F4E3CB",
+            "244  227  203",
+            "Light fields and contrast"
+          ]
+        ],
+        "widths": [
+          1.5,
+          1.05,
+          1.25,
+          2.75
+        ]
+      },
+      {
+        "kind": "p",
+        "text": "Use color with a purpose",
+        "style": "Heading 2"
+      },
+      {
+        "kind": "p",
+        "text": "Start with one brand anchor, one real scent accent and one neutral. Keep the overall composition warm, even when Oud Mirage uses vivid blue or Rtulle & Satin uses aqua. Saturated accents in the owner references are compatible with the current playful direction; they do not change the official five-color palette.",
+        "style": "Normal"
+      },
+      {
+        "kind": "p",
+        "text": "For small copy on cream, use dark burgundy or near-black. On dark fields, use cream or a sufficiently light tone. Check the final export at mobile size. Do not rely on pale orange, yellow or lavender text over cream.",
+        "style": "Normal"
+      },
+      {
+        "kind": "p",
+        "text": "The HEX values are digital specifications. Obtain printer-specific proofs before treating any CMYK conversion as an approved print match. Scent accent colors should be sampled from the approved source product, not invented as fixed HEX values.",
+        "style": "Normal"
+      }
+    ]
+  },
+  {
+    "title": "Typography and logo rules",
+    "section": "02  VISUAL IDENTITY",
+    "source": "S01 | S03 | S10 Supplied font notes | Official logo assets",
+    "blocks": [
+      {
+        "kind": "p",
+        "text": "Cenzo Flare Bold",
+        "style": "Specimen Display"
+      },
+      {
+        "kind": "p",
+        "text": "A SCENT JOURNEY",
+        "style": "Specimen Display"
+      },
+      {
+        "kind": "p",
+        "text": "Helvetica Now Display Light",
+        "style": "Specimen Body"
+      },
+      {
+        "kind": "p",
+        "text": "Warm, playful fragrance for everyday self-expression.",
+        "style": "Specimen Body"
+      },
+      {
+        "kind": "table",
+        "headers": [
+          "Application",
+          "Production face",
+          "Use"
+        ],
+        "rows": [
+          [
+            "Display",
+            "Cenzo Flare Bold",
+            "Headlines, campaign titles and major statements"
+          ],
+          [
+            "Live website support",
+            "Helvetica Now Display Light 300",
+            "Body copy, navigation, UI and captions"
+          ],
+          [
+            "Earlier gallery typesetting",
+            "Helvetica Now Text Regular 400",
+            "Preserved source for archived exports; do not relabel old raster artwork"
+          ],
+          [
+            "Editable playbook body",
+            "Helvetica Now Text Regular",
+            "Long-form reading; display examples retain the actual brand faces"
+          ]
+        ],
+        "widths": [
+          1.65,
+          2.2,
+          2.7
+        ]
+      },
+      {
+        "kind": "images",
+        "paths": [
+          "output/website/scent-journey-theme/theme/assets/sj-logo-official-dark.png",
+          "output/facebook-page-kit/priority-six-2026-09-25-v01/final/dear-body-facebook-profile-1080.png"
+        ],
+        "captions": [
+          "Official primary wordmark. Preserve the artwork and proportions.",
+          "Existing PH emblem profile export. Review its legibility in a small circle."
+        ],
+        "width": 2.2
+      },
+      {
+        "kind": "p",
+        "text": "Use the wordmark for core brand placements and the circular monogram for small placements. Protect contrast and leave generous breathing room. Do not redraw, stretch, recolor arbitrarily or add a PH suffix to the official global mark. Use an approved PH export when needed.",
+        "style": "Normal"
+      },
+      {
+        "kind": "p",
+        "text": "The supplied fonts are embedded in this Word file. Keep the original licensed files with the production handoff. Technical embedding permission is not a transfer of font-license ownership. Final advertising requires actual brand fonts; a generic fallback must be flagged for approval.",
+        "style": "Caption"
+      }
+    ]
+  },
+  {
+    "title": "The owner visual references",
+    "section": "02  VISUAL IDENTITY",
+    "source": "S02 Owner direction dated 25 September 2026 | S04 Reference images",
+    "blocks": [
+      {
+        "kind": "image",
+        "path": "handoff/assets/brand-references/2026-09-25-publication-materials-owner-reference.png",
+        "caption": "Publication reference: tight editorial crops, saturated objects, tactile clothing and product-led personal style.",
+        "width": 6.55
+      },
+      {
+        "kind": "image",
+        "path": "handoff/assets/brand-references/2026-09-25-social-media-look-owner-reference.png",
+        "caption": "Social reference: warm hues dominate a varied, energetic feed.",
+        "width": 6.55
+      },
+      {
+        "kind": "p",
+        "text": "Read these as visual-language references. They include historical faces and third-party inspiration; the current Facebook campaign must use face-free crops. Recreate the energy and material quality, not the exact composition, people or third-party assets.",
+        "style": "Normal"
+      }
+    ]
+  },
+  {
+    "title": "Photography and packaging fidelity",
+    "section": "02  VISUAL IDENTITY",
+    "source": "S02 | S05 Product image strategy | S07 Product source facts",
+    "blocks": [
+      {
+        "kind": "images",
+        "paths": [
+          "output/website/upload-ready/shopify-gallery-order-2026-09-24/mojito-metallique/07-dear-body-mojito-metallique-product-in-hand-lifestyle.png",
+          "output/website/upload-ready/shopify-gallery-order-2026-09-24/amber-oud-silk/07-dear-body-amber-oud-silk-product-in-hand-lifestyle.png"
+        ],
+        "captions": [
+          "Mojito Metallique: warm daylight, chrome, yellow and cobalt.",
+          "Amber Oud Silk: realistic bottle scale, canvas and an active packing gesture."
+        ],
+        "width": 3.17
+      },
+      {
+        "kind": "p",
+        "text": "What makes a Dear Body image",
+        "style": "Heading 2"
+      },
+      {
+        "kind": "p",
+        "text": "Build a believable moment around the product: a hand lifting it, a bag being packed, a cap being removed, an object being set down. Use warm daylight or warm editorial light, natural skin texture and physically credible shadows. Give each scent a distinct action and prop world.",
+        "style": "Normal"
+      },
+      {
+        "kind": "p",
+        "text": "What must remain exact",
+        "style": "Heading 2"
+      },
+      {
+        "kind": "p",
+        "text": "Use the owner’s product photography as the packaging authority. Preserve the cylindrical glass, heavy base, real liquid color, logo, label, cap and proportions.",
+        "style": "List Bullet"
+      },
+      {
+        "kind": "p",
+        "text": "The glossy black cap and the separate silver atomizer collar are different components. Do not add a silver underside to the detached cap or invent extra canister pieces.",
+        "style": "List Bullet"
+      },
+      {
+        "kind": "p",
+        "text": "Check the label at full size and at mobile size. Prefer the real product cutout when label accuracy cannot be maintained through generation.",
+        "style": "List Bullet"
+      },
+      {
+        "kind": "p",
+        "text": "Generate or photograph the scene first; add all new headlines and offer copy with actual fonts afterward.",
+        "style": "List Bullet"
+      }
+    ]
+  },
+  {
+    "title": "Mojito Metallique",
+    "section": "03  THE SIX PRIORITY SCENTS",
+    "source": "S06 Exact copy ledger | S07 Product facts | S08 Personality review",
+    "blocks": [
+      {
+        "kind": "images",
+        "paths": [
+          "output/website/upload-ready/shopify-gallery-order-2026-09-24/mojito-metallique/01-dear-body-mojito-metallique-main-image.png",
+          "output/website/upload-ready/shopify-gallery-order-2026-09-24/mojito-metallique/07-dear-body-mojito-metallique-product-in-hand-lifestyle.png"
+        ],
+        "captions": [
+          "Product identity and packaging reference.",
+          "Existing face-free lifestyle example."
+        ],
+        "width": 2.65
+      },
+      {
+        "kind": "p",
+        "text": "Soft, creamy sweetness with a light fruity glow.",
+        "style": "Lead"
+      },
+      {
+        "kind": "p",
+        "text": "Women’s line  |  50 ml / 1.69 fl. oz.  |  P11138  |  Barcode 5056795407345",
+        "style": "Caption"
+      },
+      {
+        "kind": "p",
+        "text": "Yellow canister; golden-yellow liquid; white label.",
+        "style": "Normal"
+      },
+      {
+        "kind": "p",
+        "text": "Personality interpretation",
+        "style": "Heading 2"
+      },
+      {
+        "kind": "p",
+        "text": "For someone friendly and easygoing, who puts people at ease and brings gentle humor to everyday life.",
+        "style": "Normal"
+      },
+      {
+        "kind": "p",
+        "text": "FRIENDLY · EASYGOING · LIGHTHEARTED",
+        "style": "Caption"
+      },
+      {
+        "kind": "p",
+        "text": "Dance rehearsal and music",
+        "style": "Heading 2"
+      },
+      {
+        "kind": "p",
+        "text": "Yellow headphones, cobalt bag, coral towel and warm studio daylight. Keep the camera below the chin and away from mirrors.",
+        "style": "Normal"
+      },
+      {
+        "kind": "p",
+        "text": "Creamy and fruity wording does not authorize mint, lime, cocktails or a fresh-citrus note pyramid.",
+        "style": "Normal"
+      }
+    ]
+  },
+  {
+    "title": "Amber Oud Silk",
+    "section": "03  THE SIX PRIORITY SCENTS",
+    "source": "S06 Exact copy ledger | S07 Product facts | S08 Personality review",
+    "blocks": [
+      {
+        "kind": "images",
+        "paths": [
+          "output/website/upload-ready/shopify-gallery-order-2026-09-24/amber-oud-silk/01-dear-body-amber-oud-silk-main-image.png",
+          "output/website/upload-ready/shopify-gallery-order-2026-09-24/amber-oud-silk/07-dear-body-amber-oud-silk-product-in-hand-lifestyle.png"
+        ],
+        "captions": [
+          "Product identity and packaging reference.",
+          "Existing face-free lifestyle example."
+        ],
+        "width": 2.65
+      },
+      {
+        "kind": "p",
+        "text": "Dark spice and smoke with a warm, addictive edge.",
+        "style": "Lead"
+      },
+      {
+        "kind": "p",
+        "text": "Women’s line  |  50 ml / 1.69 fl. oz.  |  P11038  |  Barcode 5056795407338",
+        "style": "Caption"
+      },
+      {
+        "kind": "p",
+        "text": "Blush-peach canister and liquid; white label.",
+        "style": "Normal"
+      },
+      {
+        "kind": "p",
+        "text": "Personality interpretation",
+        "style": "Heading 2"
+      },
+      {
+        "kind": "p",
+        "text": "For someone bold and self-assured, who brings warmth to their relationships and enjoys expressing their individuality.",
+        "style": "Normal"
+      },
+      {
+        "kind": "p",
+        "text": "BOLD · WARM · SELF-ASSURED",
+        "style": "Caption"
+      },
+      {
+        "kind": "p",
+        "text": "Apartment entry and getting ready",
+        "style": "Heading 2"
+      },
+      {
+        "kind": "p",
+        "text": "Coral cotton, navy canvas, keys and a wooden console. Use a face-free hand lifting or packing the bottle.",
+        "style": "Normal"
+      },
+      {
+        "kind": "p",
+        "text": "The current gallery story is the realistic apartment routine. The former karaoke direction is superseded; smoke is descriptive copy, not a required effect.",
+        "style": "Normal"
+      }
+    ]
+  },
+  {
+    "title": "Mistened Narcissus",
+    "section": "03  THE SIX PRIORITY SCENTS",
+    "source": "S06 Exact copy ledger | S07 Product facts | S08 Personality review",
+    "blocks": [
+      {
+        "kind": "images",
+        "paths": [
+          "output/website/upload-ready/shopify-gallery-order-2026-09-24/mistened-narcissus/01-dear-body-mistened-narcissus-main-image.png",
+          "output/website/upload-ready/shopify-gallery-order-2026-09-24/mistened-narcissus/07-dear-body-mistened-narcissus-product-in-hand-lifestyle.png"
+        ],
+        "captions": [
+          "Product identity and packaging reference.",
+          "Existing face-free lifestyle example."
+        ],
+        "width": 2.65
+      },
+      {
+        "kind": "p",
+        "text": "Juicy berries softened by a smooth, sweet finish.",
+        "style": "Lead"
+      },
+      {
+        "kind": "p",
+        "text": "Women’s line  |  50 ml / 1.69 fl. oz.  |  P11438  |  Barcode 5056795407376",
+        "style": "Caption"
+      },
+      {
+        "kind": "p",
+        "text": "Pale lavender canister; clear liquid; white label.",
+        "style": "Normal"
+      },
+      {
+        "kind": "p",
+        "text": "Personality interpretation",
+        "style": "Heading 2"
+      },
+      {
+        "kind": "p",
+        "text": "For someone cheerful and playful, who shows their affection openly and finds joy in little moments.",
+        "style": "Normal"
+      },
+      {
+        "kind": "p",
+        "text": "CHEERFUL · PLAYFUL · OPENHEARTED",
+        "style": "Caption"
+      },
+      {
+        "kind": "p",
+        "text": "Roller-rink preparation",
+        "style": "Heading 2"
+      },
+      {
+        "kind": "p",
+        "text": "Lavender skates, coral details, chrome and warm rink light. Film seated hands or a bag still life before skating.",
+        "style": "Normal"
+      },
+      {
+        "kind": "p",
+        "text": "Preserve the exact spelling Mistened Narcissus. Do not handle a glass perfume bottle while actively skating.",
+        "style": "Normal"
+      }
+    ]
+  },
+  {
+    "title": "Charme Envoûtant",
+    "section": "03  THE SIX PRIORITY SCENTS",
+    "source": "S06 Exact copy ledger | S07 Product facts | S08 Personality review",
+    "blocks": [
+      {
+        "kind": "images",
+        "paths": [
+          "output/website/upload-ready/shopify-gallery-order-2026-09-24/charme-envoutant/01-dear-body-charme-envoutant-main-image.png",
+          "output/website/upload-ready/shopify-gallery-order-2026-09-24/charme-envoutant/07-dear-body-charme-envoutant-product-in-hand-lifestyle.png"
+        ],
+        "captions": [
+          "Product identity and packaging reference.",
+          "Existing face-free lifestyle example."
+        ],
+        "width": 2.65
+      },
+      {
+        "kind": "p",
+        "text": "Rich, spiced sweetness that feels deep and indulgent.",
+        "style": "Lead"
+      },
+      {
+        "kind": "p",
+        "text": "Men’s line  |  50 ml / 1.69 fl. oz.  |  P10738  |  Barcode 5056795407307",
+        "style": "Caption"
+      },
+      {
+        "kind": "p",
+        "text": "Orange canister; amber-orange liquid; black label.",
+        "style": "Normal"
+      },
+      {
+        "kind": "p",
+        "text": "Personality interpretation",
+        "style": "Heading 2"
+      },
+      {
+        "kind": "p",
+        "text": "For someone expressive and passionate, who follows their enthusiasm and enjoys making bold personal choices.",
+        "style": "Normal"
+      },
+      {
+        "kind": "p",
+        "text": "EXPRESSIVE · PASSIONATE · CONFIDENT",
+        "style": "Caption"
+      },
+      {
+        "kind": "p",
+        "text": "Parked convertible and personal style",
+        "style": "Heading 2"
+      },
+      {
+        "kind": "p",
+        "text": "Orange and red styling, chrome details and a male hand at a parked car. No driving action, face or face in a mirror.",
+        "style": "Normal"
+      },
+      {
+        "kind": "p",
+        "text": "Retain the circumflex in Envoûtant. Clothing and posture should feel expressive and approachable; avoid reusing another scent’s sports story.",
+        "style": "Normal"
+      }
+    ]
+  },
+  {
+    "title": "Oud Mirage",
+    "section": "03  THE SIX PRIORITY SCENTS",
+    "source": "S06 Exact copy ledger | S07 Product facts | S08 Personality review",
+    "blocks": [
+      {
+        "kind": "images",
+        "paths": [
+          "output/website/upload-ready/shopify-gallery-order-2026-09-24/oud-mirage/01-dear-body-oud-mirage-main-image.png",
+          "output/website/upload-ready/shopify-gallery-order-2026-09-24/oud-mirage/07-dear-body-oud-mirage-product-in-hand-lifestyle.png"
+        ],
+        "captions": [
+          "Product identity and packaging reference.",
+          "Existing face-free lifestyle example."
+        ],
+        "width": 2.65
+      },
+      {
+        "kind": "p",
+        "text": "Dark rose wrapped in smoky, woody depth.",
+        "style": "Lead"
+      },
+      {
+        "kind": "p",
+        "text": "Men’s line  |  50 ml / 1.69 fl. oz.  |  P10238  |  Barcode 5056795407253",
+        "style": "Caption"
+      },
+      {
+        "kind": "p",
+        "text": "Vivid blue canister and transparent blue liquid; black label.",
+        "style": "Normal"
+      },
+      {
+        "kind": "p",
+        "text": "Personality interpretation",
+        "style": "Heading 2"
+      },
+      {
+        "kind": "p",
+        "text": "For someone independent and reflective, who trusts their own taste and feels comfortable taking a different path.",
+        "style": "Normal"
+      },
+      {
+        "kind": "p",
+        "text": "INDEPENDENT · REFLECTIVE · SELF-ASSURED",
+        "style": "Caption"
+      },
+      {
+        "kind": "p",
+        "text": "Weekend park and bicycle bag",
+        "style": "Heading 2"
+      },
+      {
+        "kind": "p",
+        "text": "Blue against coral, sunlit grass and a practical bag interaction. Male hands only; avoid background people and reflected faces.",
+        "style": "Normal"
+      },
+      {
+        "kind": "p",
+        "text": "The current lifestyle is relaxed weekend leisure. The working-professional or architecture-studio story is superseded.",
+        "style": "Normal"
+      }
+    ]
+  },
+  {
+    "title": "Rtulle & Satin",
+    "section": "03  THE SIX PRIORITY SCENTS",
+    "source": "S06 Exact copy ledger | S07 Product facts | S08 Personality review",
+    "blocks": [
+      {
+        "kind": "images",
+        "paths": [
+          "output/website/upload-ready/shopify-gallery-order-2026-09-24/rtulle-and-satin/01-dear-body-rtulle-and-satin-main-image.png",
+          "output/website/upload-ready/shopify-gallery-order-2026-09-24/rtulle-and-satin/07-dear-body-rtulle-and-satin-product-in-hand-lifestyle.png"
+        ],
+        "captions": [
+          "Product identity and packaging reference.",
+          "Existing face-free lifestyle example."
+        ],
+        "width": 2.65
+      },
+      {
+        "kind": "p",
+        "text": "Airy sweetness with a warm, glowing trail.",
+        "style": "Lead"
+      },
+      {
+        "kind": "p",
+        "text": "Men’s line  |  50 ml / 1.69 fl. oz.  |  P10038  |  Barcode 5056795407239",
+        "style": "Caption"
+      },
+      {
+        "kind": "p",
+        "text": "Turquoise or aqua canister and liquid; black label.",
+        "style": "Normal"
+      },
+      {
+        "kind": "p",
+        "text": "Personality interpretation",
+        "style": "Heading 2"
+      },
+      {
+        "kind": "p",
+        "text": "For someone gentle and imaginative, who sees beauty in small things and shares their warmth with a lighthearted spirit.",
+        "style": "Normal"
+      },
+      {
+        "kind": "p",
+        "text": "GENTLE · IMAGINATIVE · LIGHTHEARTED",
+        "style": "Caption"
+      },
+      {
+        "kind": "p",
+        "text": "Pottery-painting café",
+        "style": "Heading 2"
+      },
+      {
+        "kind": "p",
+        "text": "Aqua and coral, ceramic forms, a tote and male hands. Keep perfume distinct from cups and art materials.",
+        "style": "Normal"
+      },
+      {
+        "kind": "p",
+        "text": "Use Rtulle & Satin in display copy. The source folder is rtulle-and-satin; the current Shopify handle is rtulle-satin. Do not revive the tailoring or sewing concept from the word Satin.",
+        "style": "Normal"
+      }
+    ]
+  },
+  {
+    "title": "The wider product library",
+    "section": "03  THE SIX PRIORITY SCENTS",
+    "source": "S06 Scent description ledger | S08 Gallery review",
+    "blocks": [
+      {
+        "kind": "p",
+        "text": "The project contains fourteen completed gallery sets. Six are the priority campaign and storefront range documented here. The remaining eight belong to the wider asset library; their inclusion below is a reference record, not authorization to add products to the campaign or claim current availability.",
+        "style": "Normal"
+      },
+      {
+        "kind": "table",
+        "headers": [
+          "Additional scent",
+          "Approved description in the archive"
+        ],
+        "rows": [
+          [
+            "Midnight Elixir",
+            "Midnight Elixir is fresh, powerful, and sophisticated, with a refined trail that moves naturally from sparkling citrus to aromatic woods."
+          ],
+          [
+            "Alpine Rosemary Mint",
+            "Oceanic freshness, aromatic greenery, and refined woods."
+          ],
+          [
+            "Noir Cedar",
+            "Bright citrus, spiced cocoa, and smooth woods."
+          ],
+          [
+            "Seaside Cotton",
+            "Sparkling citrus, aquatic greens, and soft, lasting warmth."
+          ],
+          [
+            "Citrus Wish",
+            "Citrus Wish is simple, modern, and effortlessly wearable, balancing vivid fruit with gentle florals and refined woods."
+          ],
+          [
+            "Sunset Cocktail",
+            "Sunset Cocktail moves beautifully from fresh spice to sophisticated florals and warm chypre notes."
+          ],
+          [
+            "Ivory Reverie",
+            "Ivory Reverie is minimalist yet memorable, with a serene balance of rose, dew, and clean musk."
+          ],
+          [
+            "Moonlight Velvet",
+            "Moonlight Velvet is sophisticated, sensual, and beautifully balanced, moving from luminous spice to dark florals and soft woods."
+          ]
+        ],
+        "widths": [
+          1.6,
+          4.95
+        ]
+      },
+      {
+        "kind": "p",
+        "text": "Expansion rule",
+        "style": "Heading 2"
+      },
+      {
+        "kind": "p",
+        "text": "Before activating another scent, confirm the requested scope, package facts, label category, approved copy, stock, price, product handle and selected gallery. Do not reuse six-scent pricing assumptions for the wider library. The fourteen-scent upload package is prepared material; it is not evidence that all fourteen are published.",
+        "style": "Normal"
+      }
+    ]
+  },
+  {
+    "title": "Product gallery architecture",
+    "section": "04  PRODUCT CONTENT",
+    "source": "S05 Production strategy | S08 Current upload order and import QA",
+    "blocks": [
+      {
+        "kind": "p",
+        "text": "Each scent has twelve distinct frames. Keep the production frame identity separate from the Shopify display position. The later upload order puts scent choice information immediately after the main image.",
+        "style": "Normal"
+      },
+      {
+        "kind": "table",
+        "headers": [
+          "Shopify position",
+          "Frame purpose",
+          "Production frame"
+        ],
+        "rows": [
+          [
+            "01",
+            "Main image with no added offer copy",
+            "01"
+          ],
+          [
+            "02",
+            "Exact scent description",
+            "11"
+          ],
+          [
+            "03",
+            "Who it fits and three personality traits",
+            "12"
+          ],
+          [
+            "04",
+            "Product profile and verified facts",
+            "08"
+          ],
+          [
+            "05",
+            "Ingredients and care",
+            "09"
+          ],
+          [
+            "06",
+            "Lifestyle hero",
+            "05"
+          ],
+          [
+            "07",
+            "Product in hand lifestyle",
+            "06"
+          ],
+          [
+            "08",
+            "Editorial lifestyle",
+            "07"
+          ],
+          [
+            "09",
+            "Spray in motion",
+            "02"
+          ],
+          [
+            "10",
+            "Packaging reveal",
+            "03"
+          ],
+          [
+            "11",
+            "Magnetic cap detail",
+            "04"
+          ],
+          [
+            "12",
+            "Closing hero",
+            "10"
+          ]
+        ],
+        "widths": [
+          1.25,
+          3.8,
+          1.5
+        ]
+      },
+      {
+        "kind": "p",
+        "text": "The recorded website import order is 01, 11, 12, 08, 09, 05, 06, 07, 02, 03, 04, 10. The upload-ready folders are already numbered in display order. Follow their manifest; do not upload them in a second re-sorted production order.",
+        "style": "Normal"
+      },
+      {
+        "kind": "p",
+        "text": "Technical handoff",
+        "style": "Heading 2"
+      },
+      {
+        "kind": "p",
+        "text": "Approved source galleries are 2048 × 2048 PNG files with a square master and sRGB workflow. The website import keeps unchanged source PNGs plus 1200 × 1200 JPEG derivatives and 160 × 160 thumbnails. Retain the source and checksum record. Inspect readability on the real mobile gallery and use descriptive alt text.",
+        "style": "Normal"
+      }
+    ]
+  },
+  {
+    "title": "Gallery examples and copy layers",
+    "section": "04  PRODUCT CONTENT",
+    "source": "S05 | S06 | S08",
+    "blocks": [
+      {
+        "kind": "images",
+        "paths": [
+          "output/website/upload-ready/shopify-gallery-order-2026-09-24/mojito-metallique/02-dear-body-mojito-metallique-scent-description.png",
+          "output/website/upload-ready/shopify-gallery-order-2026-09-24/mojito-metallique/04-dear-body-mojito-metallique-product-profile.png"
+        ],
+        "captions": [
+          "Scent description: the approved sentence is the source of truth.",
+          "Product profile: exact package facts make the product easier to inspect."
+        ],
+        "width": 3.17
+      },
+      {
+        "kind": "images",
+        "paths": [
+          "output/website/upload-ready/shopify-gallery-order-2026-09-24/charme-envoutant/11-dear-body-charme-envoutant-magnetic-cap-detail.png",
+          "output/website/upload-ready/shopify-gallery-order-2026-09-24/oud-mirage/10-dear-body-oud-mirage-packaging-reveal.png"
+        ],
+        "captions": [
+          "Construction detail: preserve the real cap and atomizer relationship.",
+          "Packaging reveal: preserve the actual canister components."
+        ],
+        "width": 3.17
+      },
+      {
+        "kind": "p",
+        "text": "These are embedded examples from the existing gallery library. New campaign artwork follows the newer face-free rule. Keep photographic masters separate from text overlays so copy can be corrected without regenerating the product.",
+        "style": "Caption"
+      }
+    ]
+  },
+  {
+    "title": "Copy accuracy and claims",
+    "section": "04  PRODUCT CONTENT",
+    "source": "S05 | S06 | S08 | S15 Historical research",
+    "blocks": [
+      {
+        "kind": "p",
+        "text": "Three different types of product language",
+        "style": "Heading 2"
+      },
+      {
+        "kind": "table",
+        "headers": [
+          "Type",
+          "Authority",
+          "How to use it"
+        ],
+        "rows": [
+          [
+            "Physical fact",
+            "Owner photographs and verified package transcription",
+            "Volume, code, barcode, ingredients, construction and safety wording must be exact."
+          ],
+          [
+            "Scent description",
+            "Owner-approved copy ledger",
+            "Use the exact sentence for description modules. Do not reverse the Mojito and Amber descriptions."
+          ],
+          [
+            "Personality interpretation",
+            "24 September personality review",
+            "Use the “For someone…” sentence and three traits as editorial wearer language. It is not a product-performance claim."
+          ]
+        ],
+        "widths": [
+          1.35,
+          2.0,
+          3.2
+        ]
+      },
+      {
+        "kind": "p",
+        "text": "Copy that requires separate evidence",
+        "style": "Heading 2"
+      },
+      {
+        "kind": "p",
+        "text": "Longevity in hours, projection, oil percentage, hypoallergenic claims, “safe for sensitive skin,” ingredient benefits, manufacturing country, certifications, universal suitability and guaranteed compliments require product-specific approval and evidence. The name Oud, Mojito or Narcissus is not a license to invent a note pyramid.",
+        "style": "Normal"
+      },
+      {
+        "kind": "p",
+        "text": "Ingredients are not fragrance notes",
+        "style": "Heading 2"
+      },
+      {
+        "kind": "p",
+        "text": "Transcribe each product’s ingredient panel separately. Do not copy one scent’s allergen list to another, infer a top-heart-base structure, or turn an ingredient into a benefit claim. Keep the approved full ingredient panel and safety text with the product brief.",
+        "style": "Normal"
+      },
+      {
+        "kind": "p",
+        "text": "Historical material that must not become live copy",
+        "style": "Heading 2"
+      },
+      {
+        "kind": "p",
+        "text": "The early strategy PDF includes suggested longevity language, vouchers, bundle prices, competitor comparisons and estimated market data. Those suggestions do not establish approved product claims or current offers. The later package-fidelity and owner-copy standards control production.",
+        "style": "Normal"
+      },
+      {
+        "kind": "p",
+        "text": "Useful caption example",
+        "style": "Heading 2"
+      },
+      {
+        "kind": "p",
+        "text": "Free shipping on 2+ items + cash on delivery. Meet Mojito Metallique: soft, creamy sweetness with a light fruity glow. Choose your scents and tap Shop Now. #DearBodyPH #AScentJourney #MojitoMetallique",
+        "style": "Normal"
+      }
+    ]
+  },
+  {
+    "title": "The current Facebook campaign",
+    "section": "05  SOCIAL AND VIDEO",
+    "source": "S02 Owner rules | S04 Visual references | S12 Existing social assets",
+    "blocks": [
+      {
+        "kind": "p",
+        "text": "Current scope: six ads total, one for each priority scent, plus a profile image and a cover. The ad system needs a shared brand identity and a distinct scene for every fragrance.",
+        "style": "Normal"
+      },
+      {
+        "kind": "p",
+        "text": "Offer hierarchy",
+        "style": "Heading 2"
+      },
+      {
+        "kind": "p",
+        "text": "FREE SHIPPING ON 2+ ITEMS",
+        "style": "Specimen Display"
+      },
+      {
+        "kind": "p",
+        "text": "CASH ON DELIVERY",
+        "style": "Specimen Body"
+      },
+      {
+        "kind": "p",
+        "text": "SHOP NOW",
+        "style": "Specimen Display"
+      },
+      {
+        "kind": "p",
+        "text": "Make the two-item condition part of the first message. Support it with COD, then the exact scent name and a clear action. Keep the product label uncovered. Do not add a sale deadline, voucher, extra discount or geographic promise without confirming the offer.",
+        "style": "Normal"
+      },
+      {
+        "kind": "p",
+        "text": "Creative construction",
+        "style": "Heading 2"
+      },
+      {
+        "kind": "p",
+        "text": "Use warm, saturated color, tactile photography, tight crops and energetic personal objects. Avoid repetitive plain banner panels and generic softly lit smiling portraits.",
+        "style": "List Bullet"
+      },
+      {
+        "kind": "p",
+        "text": "Show Filipino hands, arms and torso only. Review mirrors, chrome, glass, shadows, screens, prints and background figures for faces or face fragments.",
+        "style": "List Bullet"
+      },
+      {
+        "kind": "p",
+        "text": "Use female talent for the three cream-label scents and male talent for the three black-label scents. The category rule applies to every visible body or hand.",
+        "style": "List Bullet"
+      },
+      {
+        "kind": "p",
+        "text": "Add live type or deterministic typography after the photographic base. Use actual Cenzo Flare Bold and Helvetica Now.",
+        "style": "List Bullet"
+      },
+      {
+        "kind": "p",
+        "text": "Existing output sizes",
+        "style": "Heading 2"
+      },
+      {
+        "kind": "p",
+        "text": "The earlier ad exports are 1080 × 1350 at 4:5. The existing profile export is 1080 × 1080, and the existing cover is 1640 × 720. These are project output sizes; verify the intended platform placement and crops before final publication.",
+        "style": "Normal"
+      },
+      {
+        "kind": "p",
+        "text": "Status: the recorded six-ad exports and existing cover show faces and need revision before reuse under the 25 September direction. Their file dates alone do not make them compliant. The existing profile is a brand-identity reference. This playbook does not publish or launch ads.",
+        "style": "Caption"
+      }
+    ]
+  },
+  {
+    "title": "Six distinct content concepts",
+    "section": "05  SOCIAL AND VIDEO",
+    "source": "S02 current rule | S07 scent worlds | Adapted production concepts",
+    "blocks": [
+      {
+        "kind": "p",
+        "text": "Recommended treatments below adapt the established scent worlds to the current face-free direction. The shared offer stays constant; the gestures, objects, wardrobe and environment create variation.",
+        "style": "Normal"
+      },
+      {
+        "kind": "table",
+        "headers": [
+          "Scent",
+          "Face-free action and visual hook",
+          "What to avoid"
+        ],
+        "rows": [
+          [
+            "Mojito Metallique",
+            "A woman’s hand lifts the bottle from beside yellow headphones and a cobalt dance bag.",
+            "Mirrors, a visible chin, mint or lime props inferred from the name."
+          ],
+          [
+            "Amber Oud Silk",
+            "A woman packs the bottle into a navy canvas bag on a wooden entry console.",
+            "Karaoke revival, oversized bottle, duplicate keys or bags."
+          ],
+          [
+            "Mistened Narcissus",
+            "A seated woman sets the bottle beside lavender skates, then reaches for her bag.",
+            "Glass handling during skating; rink crowds and reflected faces."
+          ],
+          [
+            "Charme Envoûtant",
+            "A male hand and orange sleeve lift the bottle beside a parked convertible’s chrome detail.",
+            "Driving, face reflections in car mirrors, duplicated sunglasses."
+          ],
+          [
+            "Oud Mirage",
+            "A male hand brings the blue bottle out of a bicycle bag at a sunlit park bench.",
+            "Architecture-office story, background walkers or cold brooding light."
+          ],
+          [
+            "Rtulle & Satin",
+            "A man’s cropped hands arrange the aqua bottle beside a tote and painted ceramics.",
+            "Tailoring literalization; perfume placed where it resembles a drink or paint."
+          ]
+        ],
+        "widths": [
+          1.4,
+          3.15,
+          2.0
+        ]
+      },
+      {
+        "kind": "p",
+        "text": "A varied feed",
+        "style": "Heading 2"
+      },
+      {
+        "kind": "p",
+        "text": "Rotate clear product identity, scent-description copy, face-free personal moments, packaging detail, a shipping explanation and an invitation to explore the Scent Finder. Keep recurring motifs recognizable without repeating one pose or composition across six scents.",
+        "style": "Normal"
+      },
+      {
+        "kind": "p",
+        "text": "Recommended test: change one opening action or crop while keeping the offer, scent, audience and destination consistent. Compare attention and completed orders separately. A high view count does not by itself prove purchasing performance.",
+        "style": "Normal"
+      }
+    ]
+  },
+  {
+    "title": "Short video scripts for women",
+    "section": "05  SOCIAL AND VIDEO",
+    "source": "Recommended scripts based on S02 and S06",
+    "blocks": [
+      {
+        "kind": "p",
+        "text": "Use a 15-second vertical edit. Product identity appears immediately. All shots are cropped below the chin, with no faces anywhere. Use licensed music, real cloth or object sounds, and readable captions.",
+        "style": "Normal"
+      },
+      {
+        "kind": "p",
+        "text": "Mojito Metallique",
+        "style": "Heading 2"
+      },
+      {
+        "kind": "table",
+        "headers": [
+          "Time",
+          "Picture",
+          "Spoken or screen message"
+        ],
+        "rows": [
+          [
+            "0–4 sec",
+            "Hand lifts the bottle beside headphones; crop at the torso.",
+            "“Free shipping kapag two items or more!”\nFREE SHIPPING ON 2+ ITEMS"
+          ],
+          [
+            "4–6 sec",
+            "Hold the product steady; make one small prop interaction.",
+            "“May cash on delivery din.”\nCASH ON DELIVERY"
+          ],
+          [
+            "6–11 sec",
+            "Readable label close-up and the exact scent name.",
+            "Soft, creamy sweetness with a light fruity glow."
+          ],
+          [
+            "11–15 sec",
+            "Clean product hold or still life with an uncluttered end card.",
+            "“Choose your scents and tap Shop Now.”\nSHOP NOW"
+          ]
+        ],
+        "widths": [
+          0.8,
+          2.75,
+          3.0
+        ]
+      },
+      {
+        "kind": "p",
+        "text": "Amber Oud Silk",
+        "style": "Heading 2"
+      },
+      {
+        "kind": "table",
+        "headers": [
+          "Time",
+          "Picture",
+          "Spoken or screen message"
+        ],
+        "rows": [
+          [
+            "0–4 sec",
+            "Hand lifts the bottle from the console; navy bag stays in frame.",
+            "“Free shipping kapag two items or more!”\nFREE SHIPPING ON 2+ ITEMS"
+          ],
+          [
+            "4–6 sec",
+            "Hold the product steady; make one small prop interaction.",
+            "“May cash on delivery din.”\nCASH ON DELIVERY"
+          ],
+          [
+            "6–11 sec",
+            "Readable label close-up and the exact scent name.",
+            "Dark spice and smoke with a warm, addictive edge."
+          ],
+          [
+            "11–15 sec",
+            "Clean product hold or still life with an uncluttered end card.",
+            "“Choose your scents and tap Shop Now.”\nSHOP NOW"
+          ]
+        ],
+        "widths": [
+          0.8,
+          2.75,
+          3.0
+        ]
+      },
+      {
+        "kind": "p",
+        "text": "Mistened Narcissus",
+        "style": "Heading 2"
+      },
+      {
+        "kind": "table",
+        "headers": [
+          "Time",
+          "Picture",
+          "Spoken or screen message"
+        ],
+        "rows": [
+          [
+            "0–4 sec",
+            "Bottle rests beside skates; seated hand turns its label to camera.",
+            "“Free shipping kapag two items or more!”\nFREE SHIPPING ON 2+ ITEMS"
+          ],
+          [
+            "4–6 sec",
+            "Hold the product steady; make one small prop interaction.",
+            "“May cash on delivery din.”\nCASH ON DELIVERY"
+          ],
+          [
+            "6–11 sec",
+            "Readable label close-up and the exact scent name.",
+            "Juicy berries softened by a smooth, sweet finish."
+          ],
+          [
+            "11–15 sec",
+            "Clean product hold or still life with an uncluttered end card.",
+            "“Choose your scents and tap Shop Now.”\nSHOP NOW"
+          ]
+        ],
+        "widths": [
+          0.8,
+          2.75,
+          3.0
+        ]
+      },
+      {
+        "kind": "p",
+        "text": "Keep the description as a readable on-screen line when the voiceover would be rushed. Do not squeeze all four messages into one crowded opening frame.",
+        "style": "Caption"
+      }
+    ]
+  },
+  {
+    "title": "Short video scripts for men",
+    "section": "05  SOCIAL AND VIDEO",
+    "source": "Recommended scripts based on S02 and S06",
+    "blocks": [
+      {
+        "kind": "p",
+        "text": "Use male hands and torso crops for these black-label scents. Keep skin, grip and scale natural. Record the label close-up with a steady camera and an unobstructed front panel.",
+        "style": "Normal"
+      },
+      {
+        "kind": "p",
+        "text": "Charme Envoûtant",
+        "style": "Heading 2"
+      },
+      {
+        "kind": "table",
+        "headers": [
+          "Time",
+          "Picture",
+          "Spoken or screen message"
+        ],
+        "rows": [
+          [
+            "0–4 sec",
+            "Male hand lifts the bottle beside a parked car’s chrome; exclude mirrors.",
+            "“Free shipping kapag two items or more!”\nFREE SHIPPING ON 2+ ITEMS"
+          ],
+          [
+            "4–6 sec",
+            "Brief object detail with the product still visible.",
+            "“May cash on delivery din.”\nCASH ON DELIVERY"
+          ],
+          [
+            "6–11 sec",
+            "Label close-up; exact scent name in live type.",
+            "Rich, spiced sweetness that feels deep and indulgent."
+          ],
+          [
+            "11–15 sec",
+            "Static product end card; clear space around the label.",
+            "“Choose your scents and tap Shop Now.”\nSHOP NOW"
+          ]
+        ],
+        "widths": [
+          0.8,
+          2.75,
+          3.0
+        ]
+      },
+      {
+        "kind": "p",
+        "text": "Oud Mirage",
+        "style": "Heading 2"
+      },
+      {
+        "kind": "table",
+        "headers": [
+          "Time",
+          "Picture",
+          "Spoken or screen message"
+        ],
+        "rows": [
+          [
+            "0–4 sec",
+            "Male hand opens a bicycle bag at a bench and reveals the blue bottle.",
+            "“Free shipping kapag two items or more!”\nFREE SHIPPING ON 2+ ITEMS"
+          ],
+          [
+            "4–6 sec",
+            "Brief object detail with the product still visible.",
+            "“May cash on delivery din.”\nCASH ON DELIVERY"
+          ],
+          [
+            "6–11 sec",
+            "Label close-up; exact scent name in live type.",
+            "Dark rose wrapped in smoky, woody depth."
+          ],
+          [
+            "11–15 sec",
+            "Static product end card; clear space around the label.",
+            "“Choose your scents and tap Shop Now.”\nSHOP NOW"
+          ]
+        ],
+        "widths": [
+          0.8,
+          2.75,
+          3.0
+        ]
+      },
+      {
+        "kind": "p",
+        "text": "Rtulle & Satin",
+        "style": "Heading 2"
+      },
+      {
+        "kind": "table",
+        "headers": [
+          "Time",
+          "Picture",
+          "Spoken or screen message"
+        ],
+        "rows": [
+          [
+            "0–4 sec",
+            "Male hand sets the aqua bottle beside ceramics and a canvas tote.",
+            "“Free shipping kapag two items or more!”\nFREE SHIPPING ON 2+ ITEMS"
+          ],
+          [
+            "4–6 sec",
+            "Brief object detail with the product still visible.",
+            "“May cash on delivery din.”\nCASH ON DELIVERY"
+          ],
+          [
+            "6–11 sec",
+            "Label close-up; exact scent name in live type.",
+            "Airy sweetness with a warm, glowing trail."
+          ],
+          [
+            "11–15 sec",
+            "Static product end card; clear space around the label.",
+            "“Choose your scents and tap Shop Now.”\nSHOP NOW"
+          ]
+        ],
+        "widths": [
+          0.8,
+          2.75,
+          3.0
+        ]
+      },
+      {
+        "kind": "p",
+        "text": "For a 30-second version, extend the action and product-detail beats. Do not fill the added time with unsupported performance claims, extra scenes or a visible portrait.",
+        "style": "Caption"
+      }
+    ]
+  },
+  {
+    "title": "The Shopify website system",
+    "section": "06  WEBSITE AND COMMERCE",
+    "source": "S09 Current theme START-HERE and source",
+    "blocks": [
+      {
+        "kind": "p",
+        "text": "The current project website is the Scent Journey theme for dearbody.ph. It is a native Shopify Online Store 2.0 implementation using Liquid, JSON templates, sections, snippets, CSS and vanilla JavaScript. Earlier theme folders are retained design history.",
+        "style": "Normal"
+      },
+      {
+        "kind": "table",
+        "headers": [
+          "Layer",
+          "Purpose"
+        ],
+        "rows": [
+          [
+            "Brand and navigation",
+            "Official identity, search and optional Light or Dark switch."
+          ],
+          [
+            "Homepage",
+            "A product-free MAKE IT PERSONAL. hero; three feature photos; Women and Men campaign gateways."
+          ],
+          [
+            "Collection pages",
+            "Browse the women’s or men’s scents, select items and set order quantities."
+          ],
+          [
+            "Product pages",
+            "Twelve-frame gallery, approved story, native product data and order controls."
+          ],
+          [
+            "Scent Finder",
+            "Five-question discovery flow returning one scent to explore."
+          ],
+          [
+            "Customer information",
+            "Our Story, FAQ, Shipping and Contact; native policy content where available."
+          ],
+          [
+            "Ordering",
+            "Same-page EasySell COD flow with genuine saved-order confirmation."
+          ]
+        ],
+        "widths": [
+          1.45,
+          5.1
+        ]
+      },
+      {
+        "kind": "p",
+        "text": "Two art-directed modes",
+        "style": "Heading 2"
+      },
+      {
+        "kind": "p",
+        "text": "Light and Dark share the catalog and commerce behavior. The dark version is a considered visual direction, not a simple color inversion. The sun or moon switch may be enabled in theme settings and retains the choice while browsing in the same tab.",
+        "style": "Normal"
+      },
+      {
+        "kind": "p",
+        "text": "What should stay native",
+        "style": "Heading 2"
+      },
+      {
+        "kind": "p",
+        "text": "Titles, variants, IDs, stock, selling prices and availability come from Shopify. A theme ZIP cannot create inventory, shipping rules, external app settings or legal policies. The local preview is a review environment and cannot place orders.",
+        "style": "Normal"
+      }
+    ]
+  },
+  {
+    "title": "Website visual examples",
+    "section": "06  WEBSITE AND COMMERCE",
+    "source": "S09 Archived local QA screenshots and theme assets",
+    "blocks": [
+      {
+        "kind": "image",
+        "path": "output/website/scent-journey-theme/qa/screenshots/home-hero/home-light-1440-top.png",
+        "caption": "Recorded Light website layout from the home-hero revision. It illustrates hierarchy and navigation; it is an earlier visual snapshot, not a fresh capture of the live store.",
+        "width": 6.55
+      },
+      {
+        "kind": "images",
+        "paths": [
+          "output/website/scent-journey-theme/qa/screenshots/gallery-controls/behavior-1440-light.png",
+          "output/website/scent-journey-theme/qa/screenshots/gallery-controls/layout-1440-dark.png"
+        ],
+        "captions": [
+          "Product gallery layout in Light.",
+          "Product gallery layout in Dark."
+        ],
+        "width": 2.75
+      },
+      {
+        "kind": "p",
+        "text": "Screenshots preserve their tested revision. Their visible faces and any older controls or copy are historical evidence; use the written current rules for new social work and the current theme source for development. Existing website and gallery images are not automatically replaced by the new Facebook direction.",
+        "style": "Caption"
+      }
+    ]
+  },
+  {
+    "title": "Website pages and interaction rules",
+    "section": "06  WEBSITE AND COMMERCE",
+    "source": "S09 START-HERE | Source templates | Local QA records",
+    "blocks": [
+      {
+        "kind": "p",
+        "text": "Homepage",
+        "style": "Heading 2"
+      },
+      {
+        "kind": "p",
+        "text": "The current documented homepage has no individual-product shopping grid. The opening hero stays product-free and its “Explore the collections” action scrolls to the Women and Men gateways. Three photographic features explain the magnetic cap, collectible bottle display and free shipping on two or more items. Those feature sections have no buttons.",
+        "style": "Normal"
+      },
+      {
+        "kind": "p",
+        "text": "Collections and product pages",
+        "style": "Heading 2"
+      },
+      {
+        "kind": "p",
+        "text": "Women and Men show the actual product selection. On mobile, keep every collection card before the order form. On product pages, maintain a usable gallery, readable product copy and selected quantities. Do not stack twelve full-size images into a long mobile page. Preserve zoom, keyboard controls, reduced-motion behavior and the recorded gallery order.",
+        "style": "Normal"
+      },
+      {
+        "kind": "p",
+        "text": "Banners and typography",
+        "style": "Heading 2"
+      },
+      {
+        "kind": "p",
+        "text": "The recorded unified banner height is clamp(540px, 43vw, 650px) on desktop and 600px on mobile. Hero text remains aligned to shared content gutters, even when photography spans the viewport. Mobile copy overlays the photographs. Category gateways retain their portrait composition. Test each edit across narrow and wide screens.",
+        "style": "Normal"
+      },
+      {
+        "kind": "p",
+        "text": "Native resource mapping",
+        "style": "Heading 2"
+      },
+      {
+        "kind": "table",
+        "headers": [
+          "Page handle",
+          "Template"
+        ],
+        "rows": [
+          [
+            "our-story",
+            "page.our-story"
+          ],
+          [
+            "scent-finder",
+            "page.scent-finder"
+          ],
+          [
+            "faq",
+            "page.faq"
+          ],
+          [
+            "contact",
+            "page.contact"
+          ],
+          [
+            "shipping",
+            "page.shipping"
+          ],
+          [
+            "privacy and terms",
+            "Native policy content or corresponding page template when populated"
+          ]
+        ],
+        "widths": [
+          2.0,
+          4.55
+        ]
+      },
+      {
+        "kind": "p",
+        "text": "The recorded website removed Returns links, the returns-related FAQ content and the Returns template. Route actual return concerns to the owner’s current approved policy; do not invent a policy.",
+        "style": "Normal"
+      }
+    ]
+  },
+  {
+    "title": "Scent Finder and search content",
+    "section": "06  WEBSITE AND COMMERCE",
+    "source": "S09 START-HERE | sj-finder-profile.liquid | MASTER-BRIEF source copy",
+    "blocks": [
+      {
+        "kind": "p",
+        "text": "What the Finder does",
+        "style": "Heading 2"
+      },
+      {
+        "kind": "p",
+        "text": "Five questions cover collection, mood, scent style, occasion and scent feel. Collection filters the six candidates first. The documented scoring then gives scent style 5 points, mood 3, occasion 1 and scent feel 1. Show the highest-scoring scent only; ties retain catalog order.",
+        "style": "Normal"
+      },
+      {
+        "kind": "p",
+        "text": "If every preference is skipped, show one clearly labeled suggestion to explore rather than claiming a personalized match. Sold-out products keep their true availability unless “Available products only” is enabled. An empty eligible collection should produce an honest empty state.",
+        "style": "Normal"
+      },
+      {
+        "kind": "p",
+        "text": "What the Finder does not establish",
+        "style": "Heading 2"
+      },
+      {
+        "kind": "p",
+        "text": "Mood, occasion and intensity fields are editorial discovery suggestions. “Rich and deep” or “soft and airy” describes character, not measured longevity or projection. The Finder’s shortened descriptions are implementation copy; use the exact owner sentence in the formal scent-description module.",
+        "style": "Normal"
+      },
+      {
+        "kind": "p",
+        "text": "Editable product fields",
+        "style": "Heading 2"
+      },
+      {
+        "kind": "table",
+        "headers": [
+          "Namespace custom",
+          "Purpose"
+        ],
+        "rows": [
+          [
+            "scent_finder_enabled",
+            "Explicit false excludes a product."
+          ],
+          [
+            "mood and scent_character",
+            "Override editorial matching traits."
+          ],
+          [
+            "occasion and intensity",
+            "Override discovery suggestions, without implying tested performance."
+          ],
+          [
+            "hero_statement and short_description",
+            "Approved introductions for cards or product pages."
+          ],
+          [
+            "scent_description and personality",
+            "Approved long copy and wearer interpretation."
+          ]
+        ],
+        "widths": [
+          2.5,
+          4.05
+        ]
+      },
+      {
+        "kind": "p",
+        "text": "Search and SEO",
+        "style": "Heading 2"
+      },
+      {
+        "kind": "p",
+        "text": "Use a clear title containing DearBody, the exact scent name and an approved character description. Example: “DearBody Mojito Metallique Perfume | Soft, Creamy & Fruity Fragrance.” Keep product metadata consistent with the actual page, add descriptive image alt text and avoid unsupported “long-lasting” keywords.",
+        "style": "Normal"
+      }
+    ]
+  },
+  {
+    "title": "Prices offers and ordering",
+    "section": "06  WEBSITE AND COMMERCE",
+    "source": "S09 START-HERE | S11 COD update | Recorded 24 September 2026",
+    "blocks": [
+      {
+        "kind": "p",
+        "text": "The following is the recorded commercial configuration, not a fresh stock or pricing check. Before publishing a new offer, verify native Shopify values and the applicable shipping and app settings.",
+        "style": "Normal"
+      },
+      {
+        "kind": "table",
+        "headers": [
+          "Recorded item",
+          "Value or rule"
+        ],
+        "rows": [
+          [
+            "Six active selling prices",
+            "₱799 each"
+          ],
+          [
+            "Owner-approved original reference",
+            "₱1,099 for the six eligible active scents"
+          ],
+          [
+            "Displayed savings",
+            "₱300 or 27.3% OFF; (1099 − 799) ÷ 1099 × 100"
+          ],
+          [
+            "One item in the Philippines",
+            "₱80 shipping; recorded total ₱879 at ₱799"
+          ],
+          [
+            "Two or more items",
+            "Free shipping, including two bottles of the same scent"
+          ],
+          [
+            "Two bottles at recorded prices",
+            "₱1,598 with free shipping"
+          ],
+          [
+            "Three bottles at recorded prices",
+            "₱2,397 with free shipping"
+          ]
+        ],
+        "widths": [
+          2.3,
+          4.25
+        ]
+      },
+      {
+        "kind": "p",
+        "text": "The customer journey",
+        "style": "Heading 2"
+      },
+      {
+        "kind": "p",
+        "text": "Choose Add to order → select scents and quantities → choose Check out → enter delivery details once in the EasySell popup → submit → receive genuine order confirmation after the order is saved. An opened popup is not a placed order.",
+        "style": "Normal"
+      },
+      {
+        "kind": "p",
+        "text": "Keep exact native variant IDs and quantities, merge duplicate variants correctly and validate the prepared cart before opening the app. The product page supports its main scent and an optional second scent. Women’s and men’s selections can share an order.",
+        "style": "Normal"
+      },
+      {
+        "kind": "p",
+        "text": "Pricing details for maintainers",
+        "style": "Heading 2"
+      },
+      {
+        "kind": "p",
+        "text": "The record states that only Mojito had the native ₱1,099 compare-at value; the other five used the owner-approved theme reference. Other currencies, mixed prices and non-priority products retain native compare-at behavior. Do not apply another discount at checkout or revive the earlier 20% or ₱998.75 reference.",
+        "style": "Normal"
+      }
+    ]
+  },
+  {
+    "title": "Delivery customer care and store operations",
+    "section": "06  WEBSITE AND COMMERCE",
+    "source": "S09 Shipping content | S11 COD and app evidence",
+    "blocks": [
+      {
+        "kind": "table",
+        "headers": [
+          "Destination",
+          "Recorded delivery estimate"
+        ],
+        "rows": [
+          [
+            "Luzon",
+            "2–3 days"
+          ],
+          [
+            "Visayas",
+            "3–5 days"
+          ],
+          [
+            "Mindanao",
+            "5–10 days"
+          ]
+        ],
+        "widths": [
+          2.1,
+          4.45
+        ]
+      },
+      {
+        "kind": "p",
+        "text": "Present these as the owner’s recorded estimates, not guaranteed arrival dates. Confirm the current courier and dispatch conditions when answering an individual order inquiry.",
+        "style": "Normal"
+      },
+      {
+        "kind": "p",
+        "text": "Approved factual reply patterns",
+        "style": "Heading 2"
+      },
+      {
+        "kind": "p",
+        "text": "Shipping: “The recorded shipping fee is ₱80 for one item, and orders with two or more items receive free shipping in the Philippines.” Recheck the current offer before using this as a live reply.",
+        "style": "List Bullet"
+      },
+      {
+        "kind": "p",
+        "text": "Choosing a scent: quote the appropriate approved sentence, offer the Scent Finder and explain differences without promising the customer will love a scent.",
+        "style": "List Bullet"
+      },
+      {
+        "kind": "p",
+        "text": "Order status: check the actual order record. Ask for the minimum order-identifying information through the approved support channel; do not paste customer details into a public AI prompt.",
+        "style": "List Bullet"
+      },
+      {
+        "kind": "p",
+        "text": "Performance questions: share approved product information. Do not invent a wear time, oil percentage or skin-safety guarantee.",
+        "style": "List Bullet"
+      },
+      {
+        "kind": "p",
+        "text": "EasySell operating record",
+        "style": "Heading 2"
+      },
+      {
+        "kind": "p",
+        "text": "The 24 September release records the Free plan with 60 orders per month and usage observed at 1 of 60 after testing. Paid SMS and WhatsApp services were deactivated. These are dated settings, not a current usage reading. No paid upgrade or messaging purchase is implied by this playbook.",
+        "style": "Normal"
+      },
+      {
+        "kind": "p",
+        "text": "The genuine same-page COD test was completed, then canceled, voided and archived with three bottles restocked. The subsequent branded confirmation appearance was saved and visually checked without another order. Preserve that distinction when describing what was verified.",
+        "style": "Normal"
+      },
+      {
+        "kind": "p",
+        "text": "Packing imagery",
+        "style": "Heading 2"
+      },
+      {
+        "kind": "p",
+        "text": "Shipping photographs show two closed retail canisters, each individually protected in clear bubble wrap inside a carton. Treat that as the recorded visual standard; warehouse procedures and final packing checks must follow the actual fulfillment process.",
+        "style": "Normal"
+      }
+    ]
+  },
+  {
+    "title": "The creative production workflow",
+    "section": "07  WORKING WITH THE BRAND",
+    "source": "S02 | S05 | Recommended execution sequence",
+    "blocks": [
+      {
+        "kind": "table",
+        "headers": [
+          "Step",
+          "Action",
+          "Required output"
+        ],
+        "rows": [
+          [
+            "1 Intake",
+            "Identify the exact scent, channel, audience, deliverables and latest owner instruction.",
+            "A short brief with clear scope."
+          ],
+          [
+            "2 Evidence",
+            "Read BRAND_GUIDE.md, both owner references, product photos and exact copy.",
+            "Fact sheet and source paths."
+          ],
+          [
+            "3 Creative mapping",
+            "Assign a distinct action, crop, props, palette and correct line casting.",
+            "A purposeful concept and shot list."
+          ],
+          [
+            "4 Photography",
+            "Create the scene with natural anatomy, product scale, light and contact shadows.",
+            "A clean photographic master."
+          ],
+          [
+            "5 Product fidelity",
+            "Check or composite the real product, preserving every identifying detail.",
+            "Approved bottle and packaging integration."
+          ],
+          [
+            "6 Typesetting",
+            "Add copy with actual fonts after the visual is ready.",
+            "Editable type layers and final export."
+          ],
+          [
+            "7 Review",
+            "Inspect identity, claims, faces, crop, readability and technical output.",
+            "QA record with revision notes."
+          ],
+          [
+            "8 Handoff",
+            "Save sources, prompts, final files, copy, alt text and manifest.",
+            "A traceable production package."
+          ]
+        ],
+        "widths": [
+          0.9,
+          3.3,
+          2.35
+        ]
+      },
+      {
+        "kind": "p",
+        "text": "A useful brief template",
+        "style": "Heading 2"
+      },
+      {
+        "kind": "p",
+        "text": "Deliverable and size: [channel and format]. Scent and line: [exact name and label category]. Objective: [one viewer action]. Approved copy: [source and exact text]. Scene: [one action and prop set]. Palette: [brand anchor, scent accent, neutral]. Crop: [face-free framing]. References: [real file paths]. QA owner and deadline: [assigned details].",
+        "style": "Normal"
+      },
+      {
+        "kind": "p",
+        "text": "For generation, explicitly reserve clean space for later typography. Never ask the model to invent a logo, bottle label, ingredient list, headline, barcode or product claim.",
+        "style": "Normal"
+      }
+    ]
+  },
+  {
+    "title": "Quality control before handoff",
+    "section": "07  WORKING WITH THE BRAND",
+    "source": "S02 | S05 | S08 | S11",
+    "blocks": [
+      {
+        "kind": "p",
+        "text": "Creative and product checks",
+        "style": "Heading 2"
+      },
+      {
+        "kind": "p",
+        "text": "The exact scent name and label category are correct; the product has not changed shape, color, liquid level or packaging.",
+        "style": "List Bullet"
+      },
+      {
+        "kind": "p",
+        "text": "Every visible body or hand matches the product line. Current campaign work contains no faces or partial faces anywhere.",
+        "style": "List Bullet"
+      },
+      {
+        "kind": "p",
+        "text": "Hands, grips, shadows, reflections and product scale look natural. No duplicate accessories or malformed objects appear.",
+        "style": "List Bullet"
+      },
+      {
+        "kind": "p",
+        "text": "The scene feels warm, active, playful and different from the other scents. The product is immediately identifiable.",
+        "style": "List Bullet"
+      },
+      {
+        "kind": "p",
+        "text": "All claims come from approved copy or package evidence. Ingredients are transcribed per scent.",
+        "style": "List Bullet"
+      },
+      {
+        "kind": "p",
+        "text": "Real production fonts are loaded. Headline, offer condition, COD and CTA are legible at intended mobile size.",
+        "style": "List Bullet"
+      },
+      {
+        "kind": "p",
+        "text": "Website and ordering checks",
+        "style": "Heading 2"
+      },
+      {
+        "kind": "p",
+        "text": "Confirm native price, availability, variant and exact quantities. Test one item and two or more items, including duplicates of one scent.",
+        "style": "List Bullet"
+      },
+      {
+        "kind": "p",
+        "text": "Check narrow mobile and desktop layouts in both visual modes; inspect overlays, gallery controls, keyboard use and horizontal overflow.",
+        "style": "List Bullet"
+      },
+      {
+        "kind": "p",
+        "text": "Confirm actual order completion separately from opening a popup. Mocked tests, local preview checks and real saved orders are different evidence.",
+        "style": "List Bullet"
+      },
+      {
+        "kind": "p",
+        "text": "Preserve source artwork and font locks. Test the theme package in a draft before release. Keep the rollback theme and app-setting record.",
+        "style": "List Bullet"
+      },
+      {
+        "kind": "p",
+        "text": "Release record",
+        "style": "Heading 2"
+      },
+      {
+        "kind": "p",
+        "text": "Save the version, date, task owner, source files, outputs, exact copy, checks performed, remaining issues and approval state. “Exported,” “reviewed,” “approved,” “uploaded” and “published” are separate statuses. A file named final or a folder with a newer date is not proof of approval.",
+        "style": "Normal"
+      }
+    ]
+  },
+  {
+    "title": "A practical content operating rhythm",
+    "section": "07  WORKING WITH THE BRAND",
+    "source": "Recommended workflow adapted from S15; current campaign scope remains six scents",
+    "blocks": [
+      {
+        "kind": "p",
+        "text": "Use a repeatable rhythm that the team can actually maintain. The schedule below is a working recommendation, not a booked media plan or proof that these activities have happened.",
+        "style": "Normal"
+      },
+      {
+        "kind": "table",
+        "headers": [
+          "Content slot",
+          "Purpose",
+          "Example"
+        ],
+        "rows": [
+          [
+            "Scent story",
+            "Help shoppers choose",
+            "Exact approved sentence with a label-led visual."
+          ],
+          [
+            "Personal moment",
+            "Make the brand feel part of daily life",
+            "Face-free bag, music, park or ceramics scene."
+          ],
+          [
+            "Product detail",
+            "Build confidence",
+            "Real cap, canister construction or readable packaging."
+          ],
+          [
+            "Shopping information",
+            "Reduce uncertainty",
+            "Shipping threshold, COD and how to place an order."
+          ],
+          [
+            "Community or discovery",
+            "Invite participation",
+            "A scent-choice question, Finder walkthrough or permission-cleared customer story."
+          ]
+        ],
+        "widths": [
+          1.35,
+          1.8,
+          3.4
+        ]
+      },
+      {
+        "kind": "p",
+        "text": "Weekly review",
+        "style": "Heading 2"
+      },
+      {
+        "kind": "p",
+        "text": "Review what was posted, what reached people, what drew useful questions and what produced valid orders. Separate creative attention from commercial results. For COD, distinguish placed, confirmed, fulfilled, canceled and returned orders so an attractive order count does not hide delivery losses.",
+        "style": "Normal"
+      },
+      {
+        "kind": "p",
+        "text": "Measurement definitions",
+        "style": "Heading 2"
+      },
+      {
+        "kind": "p",
+        "text": "Track spend, impressions, link clicks, product visits, placed orders, fulfilled orders, revenue, average order value, items per order and the share of orders with two or more items. Use a consistent attribution window and source. Do not claim ROAS, customer acquisition cost or revenue growth without the supporting records.",
+        "style": "Normal"
+      },
+      {
+        "kind": "p",
+        "text": "Creators and permissions",
+        "style": "Heading 2"
+      },
+      {
+        "kind": "p",
+        "text": "Give collaborators the approved scent copy, product facts, line-specific casting rules, face-free requirement and offer. Agree on deliverables, usage rights and disclosures before commercial reuse. A new creator contract, affiliate rate, giveaway or ad spend needs its own business authorization.",
+        "style": "Normal"
+      }
+    ]
+  },
+  {
+    "title": "Historical plans and active decisions",
+    "section": "07  WORKING WITH THE BRAND",
+    "source": "S15 Historical research | S02 | S09 | S11",
+    "blocks": [
+      {
+        "kind": "p",
+        "text": "The early market-research document explains the ambition behind the brand: bold visual identity, accessible confidence, scent-led self-expression and community content. Its numeric plans remain historical assumptions, not results or current spending instructions.",
+        "style": "Normal"
+      },
+      {
+        "kind": "table",
+        "headers": [
+          "Historical planning item",
+          "Recorded figure",
+          "How to treat it"
+        ],
+        "rows": [
+          [
+            "90-day units target",
+            "6,000 units",
+            "A target; no achievement is established here."
+          ],
+          [
+            "90-day revenue target",
+            "About ₱4.7 million",
+            "At ₱799 × 6,000, gross product sales would be ₱4,794,000 before deductions."
+          ],
+          [
+            "Follower target",
+            "20,000",
+            "A target, not a verified audience count."
+          ],
+          [
+            "Monthly marketing budget",
+            "Above ₱100,000",
+            "Historical planning input; reconfirm before spending."
+          ],
+          [
+            "Shoot allocation",
+            "₱30,000–₱50,000",
+            "Historical estimate, not a vendor commitment."
+          ],
+          [
+            "Unit COGS assumption",
+            "₱170",
+            "Internal planning assumption; verify landed cost and all deductions."
+          ]
+        ],
+        "widths": [
+          1.65,
+          1.5,
+          3.4
+        ]
+      },
+      {
+        "kind": "p",
+        "text": "What supersedes the early plan",
+        "style": "Heading 2"
+      },
+      {
+        "kind": "p",
+        "text": "Shopify is now the project’s master channel; the older TikTok Shop and Shopee plan does not prove those stores are launched. The active offer is free shipping on two or more items with COD; old ₱1,499 bundles and ₱50 vouchers are not active authority. The latest campaign is face-free; old portrait scripts are superseded.",
+        "style": "Normal"
+      },
+      {
+        "kind": "p",
+        "text": "Decisions to maintain",
+        "style": "Heading 2"
+      },
+      {
+        "kind": "p",
+        "text": "Assign owners for brand approval, product facts, content, website, customer care and fulfillment. Confirm current prices, stock, operational contact details, final policies, budgets and channel accounts before a release. Keep any personal founder story and unverified company history outside public copy until the owner provides it.",
+        "style": "Normal"
+      },
+      {
+        "kind": "p",
+        "text": "This page contains internal business planning. Share it only with collaborators who need those details; use the public-safe AI handoff on the next page for general creative work.",
+        "style": "Caption"
+      }
+    ]
+  },
+  {
+    "title": "Ready to paste AI handoff",
+    "section": "08  AI AND COLLABORATOR HANDOFF",
+    "source": "Current rules synthesized from S01–S11",
+    "blocks": [
+      {
+        "kind": "p",
+        "text": "Copy the text below into a new AI conversation, then attach the relevant reference images, product photographs and approved copy. A text prompt cannot substitute for visual product evidence. This version omits private budgets, costs, credentials and customer information.",
+        "style": "Normal"
+      },
+      {
+        "kind": "p",
+        "text": "You are working on DearBody Philippines. Use this playbook as the brand context and follow the owner’s latest instructions. The brand position is London-formulated fragrance culture curated for Filipino everyday life: premium but approachable, warm, vibrant, confident and playful. Tagline: A Scent Journey.",
+        "style": "Normal"
+      },
+      {
+        "kind": "p",
+        "text": "Official colors: burgundy #5C0006, red #9A1106, orange #D46601, golden tan #E9A250 and cream #F4E3CB. Use actual Cenzo Flare Bold for display copy and Helvetica Now for support. The recorded website body face is Helvetica Now Display Light. Use official logo assets without redrawing them.",
+        "style": "Normal"
+      },
+      {
+        "kind": "p",
+        "text": "Before any Dear Body image creation or edit, read BRAND_GUIDE.md and inspect both owner references: 2026-09-25-publication-materials-owner-reference.png and 2026-09-25-social-media-look-owner-reference.png. Adapt their playful warm saturated color, tactile photography, tight editorial crops and energetic objects. Do not copy them exactly.",
+        "style": "Normal"
+      },
+      {
+        "kind": "p",
+        "text": "Current Facebook scope: six ads, one per priority scent, plus profile and cover. All campaign lifestyle images and scripts are face-free, including mirrors, backgrounds, screens and printed portraits. Use Filipino hands, arms and torso-only crops. Women’s white or cream labels: Mojito Metallique, Amber Oud Silk, Mistened Narcissus. Men’s black labels: Charme Envoûtant, Oud Mirage, Rtulle & Satin. Match all visible talent to the product line.",
+        "style": "Normal"
+      },
+      {
+        "kind": "p",
+        "text": "Preserve exact packaging, spelling, proportions, cap, label and liquid. Use real product photographs as authority. Use only the approved scent descriptions and verified facts; do not invent notes, ingredients, benefits, performance, testimonials or offers. Typeset new copy after the photograph with real fonts.",
+        "style": "Normal"
+      },
+      {
+        "kind": "p",
+        "text": "Offer hierarchy: FREE SHIPPING ON 2+ ITEMS first, CASH ON DELIVERY second, and SHOP NOW. Do not expand the six-scent campaign to fourteen. Do not modify existing product galleries unless requested. The current website source is output/website/scent-journey-theme/theme. Use native Shopify commerce data; the local preview cannot place orders.",
+        "style": "Normal"
+      },
+      {
+        "kind": "p",
+        "text": "State the scope and source version, flag conflicts with newer owner directions, and return editable sources, final exports, exact copy and a concise QA record. Keep historical assets and plans distinct from current rules. If essential product evidence is absent, request it rather than inventing it. The specific task is: [insert the requested deliverable].",
+        "style": "Normal"
+      }
+    ]
+  },
+  {
+    "title": "The AI fact pack",
+    "section": "08  AI AND COLLABORATOR HANDOFF",
+    "source": "S02 | S03 | S06 | S09 | S10",
+    "blocks": [
+      {
+        "kind": "p",
+        "text": "These compact fields support reliable retrieval in other platforms. Preserve exact scent spelling and distinguish the display name from the source folder and Shopify handle.",
+        "style": "Normal"
+      },
+      {
+        "kind": "table",
+        "headers": [
+          "Field",
+          "Value"
+        ],
+        "rows": [
+          [
+            "Brand",
+            "DearBody Philippines / Dear Body"
+          ],
+          [
+            "Tagline",
+            "A Scent Journey"
+          ],
+          [
+            "Identity source",
+            "Canva DEARBODY PLAYBOOK, DAHL_W_c7U8"
+          ],
+          [
+            "Scent-copy source",
+            "Dear Body Brand Deep Dive, DAHIB2UjgJM"
+          ],
+          [
+            "Priority count",
+            "6"
+          ],
+          [
+            "Campaign assets",
+            "6 ads + 1 profile + 1 cover"
+          ],
+          [
+            "Campaign casting",
+            "Face-free Filipino talent; line-matched hands, arms and torso"
+          ],
+          [
+            "Display face",
+            "Cenzo Flare Bold"
+          ],
+          [
+            "Website body face",
+            "Helvetica Now Display Light, weight 300"
+          ],
+          [
+            "Current theme source",
+            "output/website/scent-journey-theme/theme/"
+          ],
+          [
+            "Storefront",
+            "dearbody.ph"
+          ],
+          [
+            "Order service",
+            "Shopify data + configured EasySell COD popup"
+          ],
+          [
+            "Existing gallery handling",
+            "Preserve unless an edit is explicitly requested"
+          ]
+        ],
+        "widths": [
+          2.0,
+          4.55
+        ]
+      },
+      {
+        "kind": "table",
+        "headers": [
+          "Display name",
+          "Shopify handle"
+        ],
+        "rows": [
+          [
+            "Mojito Metallique",
+            "mojito-metallique"
+          ],
+          [
+            "Amber Oud Silk",
+            "amber-oud-silk"
+          ],
+          [
+            "Mistened Narcissus",
+            "mistened-narcissus"
+          ],
+          [
+            "Charme Envoûtant",
+            "charme-envoutant"
+          ],
+          [
+            "Oud Mirage",
+            "oud-mirage"
+          ],
+          [
+            "Rtulle & Satin",
+            "rtulle-satin"
+          ]
+        ],
+        "widths": [
+          2.85,
+          3.7
+        ]
+      },
+      {
+        "kind": "p",
+        "text": "Do not place passwords, API keys, customer addresses, order tokens or confidential financial data into a public brand prompt. Upload only the materials needed for the task and make the latest owner instructions explicit.",
+        "style": "Normal"
+      }
+    ]
+  },
+  {
+    "title": "Project map and source authority",
+    "section": "08  AI AND COLLABORATOR HANDOFF",
+    "source": "Project-relative locations for portable handoff",
+    "blocks": [
+      {
+        "kind": "table",
+        "headers": [
+          "Source",
+          "Use"
+        ],
+        "rows": [
+          [
+            "S01  BRAND_GUIDE.md",
+            "Brand essence, mission, palette, typography, imagery and current social direction."
+          ],
+          [
+            "S02  AGENTS.md",
+            "25 September owner constraints and campaign scope."
+          ],
+          [
+            "S03  brand.tokens.json and brand.css",
+            "Digital identity values and implementation starting points."
+          ],
+          [
+            "S04  handoff/assets/brand-references/",
+            "Both dated owner references and historical research PDFs."
+          ],
+          [
+            "S05  PRODUCT_LISTING_IMAGE_STRATEGY.md",
+            "Product fidelity, intake, production and gallery standards; read later order revisions too."
+          ],
+          [
+            "S06  output/product-listing/SCENT_DESCRIPTION_SOURCE_LEDGER.md",
+            "Exact approved description for each of the fourteen archived scents."
+          ],
+          [
+            "S07  output/product-listing/<scent>/",
+            "SOURCE-FACTS, gallery manifests, final assets and scent-specific QA."
+          ],
+          [
+            "S08  output/product-listing/WHO_IT_FITS_PERSONALITY_REVIEW_2026-09-24.md",
+            "Current personality copy. Pair with SHOPIFY_GALLERY_ORDER_2026-09-24.md."
+          ],
+          [
+            "S09  output/website/scent-journey-theme/START-HERE.md",
+            "Current documented theme, pages, offer, Finder and asset behavior."
+          ],
+          [
+            "S10  output/website/scent-journey-theme/source-assets/fonts/",
+            "Original font packages and provenance."
+          ],
+          [
+            "S11  output/website/scent-journey-theme/UPDATE-COD-ORDERS.md",
+            "Published release record and same-page order verification."
+          ],
+          [
+            "S12  output/facebook-ads/ and output/facebook-page-kit/",
+            "Existing social exports and sources; older faces and scripts require revision."
+          ],
+          [
+            "S13  output/website/upload-ready/shopify-gallery-order-2026-09-24/",
+            "Fourteen ordered gallery packages with manifests."
+          ],
+          [
+            "S14  output/website/scent-journey-theme/reviewed-product-galleries/",
+            "Six-scent website import and derivative provenance."
+          ],
+          [
+            "S15  handoff/assets/brand-references/dear-body-edp-marketing-research-2026.pdf",
+            "Historical strategy and planning assumptions; not current claim or budget authority."
+          ]
+        ],
+        "widths": [
+          3.5,
+          3.05
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Keeping the playbook current",
+    "section": "08  AI AND COLLABORATOR HANDOFF",
+    "source": "Recommended governance for this master document",
+    "blocks": [
+      {
+        "kind": "p",
+        "text": "Resolve conflicts in this order",
+        "style": "Heading 2"
+      },
+      {
+        "kind": "p",
+        "text": "Use the owner’s latest explicit instruction for the current task first. Then apply current AGENTS.md and BRAND_GUIDE.md, verified product photographs and the approved copy ledger. For implementation details, consult the relevant current release source. Older prompts, research proposals and archived outputs remain historical evidence.",
+        "style": "Normal"
+      },
+      {
+        "kind": "p",
+        "text": "Known differences to preserve",
+        "style": "Heading 2"
+      },
+      {
+        "kind": "p",
+        "text": "The 25 September face-free rule replaces older portrait concepts for the current Facebook campaign and scripts. It does not silently rewrite existing gallery files.",
+        "style": "List Bullet"
+      },
+      {
+        "kind": "p",
+        "text": "The original production frame numbers differ from the later Shopify upload order. Use the current mapping and manifest.",
+        "style": "List Bullet"
+      },
+      {
+        "kind": "p",
+        "text": "The website’s Display Light font selection differs from older Text Regular exports. Locked raster assets retain their original typography.",
+        "style": "List Bullet"
+      },
+      {
+        "kind": "p",
+        "text": "The latest owner personality review supersedes old “For someone drawn to…” source-fact wording. Approved scent-description sentences stay exact.",
+        "style": "List Bullet"
+      },
+      {
+        "kind": "p",
+        "text": "Same-page EasySell COD replaces the older native-checkout redirect flow as the primary recorded ordering journey.",
+        "style": "List Bullet"
+      },
+      {
+        "kind": "p",
+        "text": "The fourteen-scent library is broader than the six-scent campaign.",
+        "style": "List Bullet"
+      },
+      {
+        "kind": "p",
+        "text": "Earlier research includes unapproved performance suggestions and historical budgets. Do not carry them into public copy or spending decisions.",
+        "style": "List Bullet"
+      },
+      {
+        "kind": "p",
+        "text": "Revision process",
+        "style": "Heading 2"
+      },
+      {
+        "kind": "p",
+        "text": "When a rule changes, record the date, owner decision, affected scents, channels and files, and the evidence for the change. Update this Word master, the relevant source document and any AI briefing pack together. Keep the previous version in an archive and state whether existing assets need revision.",
+        "style": "Normal"
+      },
+      {
+        "kind": "p",
+        "text": "Version record",
+        "style": "Heading 2"
+      },
+      {
+        "kind": "table",
+        "headers": [
+          "Version",
+          "Date",
+          "Scope"
+        ],
+        "rows": [
+          [
+            "1.0",
+            "25 September 2026",
+            "First consolidated master playbook covering the documented brand build, identity, product library, content, website, operations and AI handoff."
+          ]
+        ],
+        "widths": [
+          0.8,
+          1.45,
+          4.3
+        ]
+      },
+      {
+        "kind": "p",
+        "text": "The brand is most consistent when the same verified facts, visual references and owner decisions travel with every new task. Use this document as the common starting point and keep its source trail intact.",
+        "style": "Normal"
+      }
+    ]
+  }
+]

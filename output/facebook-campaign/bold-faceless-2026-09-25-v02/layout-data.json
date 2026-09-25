@@ -1,0 +1,90 @@
+{
+  "ads": [
+    {
+      "id": "01",
+      "slug": "mojito-metallique",
+      "name": "Mojito Metallique",
+      "color": "#F0CF30",
+      "side": "right",
+      "kind": "scent"
+    },
+    {
+      "id": "02",
+      "slug": "amber-oud-silk",
+      "name": "Amber Oud Silk",
+      "color": "#F0AB8E",
+      "side": "left",
+      "kind": "scent"
+    },
+    {
+      "id": "03",
+      "slug": "mistened-narcissus",
+      "name": "Mistened Narcissus",
+      "color": "#D0BEEA",
+      "side": "left",
+      "kind": "scent"
+    },
+    {
+      "id": "04",
+      "slug": "charme-envoutant",
+      "name": "Charme Envoûtant",
+      "color": "#EF8333",
+      "side": "left",
+      "kind": "scent"
+    },
+    {
+      "id": "05",
+      "slug": "oud-mirage",
+      "name": "Oud Mirage",
+      "color": "#2583BD",
+      "side": "left",
+      "kind": "scent"
+    },
+    {
+      "id": "06",
+      "slug": "rtulle-and-satin",
+      "name": "Rtulle & Satin",
+      "color": "#51C2C1",
+      "side": "left",
+      "kind": "scent"
+    }
+  ],
+  "features": [
+    {
+      "id": "07",
+      "slug": "magnetic-cap",
+      "name": "Magnetic cap",
+      "title": "MAGNETIC CAP",
+      "support": "A little detail. A lovely finish.",
+      "side": "left",
+      "kind": "feature"
+    },
+    {
+      "id": "08",
+      "slug": "collection",
+      "name": "Collection",
+      "title": "MADE TO COLLECT.<br>MADE TO DISPLAY.",
+      "support": "Build a scent collection for your shelf and routine.",
+      "side": "left",
+      "kind": "feature"
+    },
+    {
+      "id": "09",
+      "slug": "mission-vision",
+      "name": "Mission and vision",
+      "title": "LONDON FRAGRANCE.<br>FILIPINO SPIRIT.",
+      "support": "A scent journey, made personal.",
+      "side": "left",
+      "kind": "feature"
+    },
+    {
+      "id": "10",
+      "slug": "scent-personality",
+      "name": "Scent personality",
+      "title": "FIND WHAT<br>FEELS LIKE YOU.",
+      "support": "Two personalities. Your own scent journey.",
+      "side": "left",
+      "kind": "feature"
+    }
+  ]
+}

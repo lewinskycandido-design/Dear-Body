@@ -1,7 +1,7 @@
 {
   "sections": {
     "main": {
-      "type": "sj-contact",
+      "type": "sj-404",
       "settings": {}
     }
   },

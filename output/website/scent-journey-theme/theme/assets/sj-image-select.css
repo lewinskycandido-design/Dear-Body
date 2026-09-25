@@ -1,0 +1,13 @@
+.sj-scent-picker__label { font-weight: 700; color: var(--color-heading); }
+.sj-scent-picker { border: 1px solid var(--color-border); border-radius: 7px; background: var(--color-page-background); }
+.sj-scent-picker summary { display: flex; justify-content: space-between; align-items: center; gap: 12px; padding: 14px; cursor: pointer; list-style: none; }
+.sj-scent-picker summary::-webkit-details-marker { display: none; }
+.sj-scent-picker__options { max-height: 360px; overflow-y: auto; overscroll-behavior: contain; padding: 6px; border-top: 1px solid var(--color-border); }
+.sj-scent-picker__option { display: flex; align-items: center; gap: 12px; width: 100%; padding: 10px; text-align: left; border: 1px solid transparent; border-radius: 5px; }
+.sj-scent-picker__option img { flex: 0 0 64px; width: 64px; height: 64px; object-fit: contain; border-radius: 4px; background: #fff; }
+.sj-scent-picker__copy { display: grid; gap: 3px; min-width: 0; font-size: 13px; overflow-wrap: anywhere; }
+.sj-scent-picker__copy small { color: var(--color-muted); }
+.sj-scent-picker__option:hover:not(:disabled), .sj-scent-picker__option.is-selected { border-color: var(--order-edge); background: var(--color-surface); }
+.sj-scent-picker :focus-visible { outline: 2px solid var(--order-edge); outline-offset: -2px; }
+.sj-scent-picker { --order-edge: #1746ad; }
+[data-theme="dark"] .sj-scent-picker { --order-edge: #eaaa3d; }

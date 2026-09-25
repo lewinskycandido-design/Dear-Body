@@ -1,0 +1,284 @@
+SCRIPT 04 — Charme Envoûtant
+The sunny stop
+CAMPAIGN · CTA: ORDER NOW
+
+VOICE IDENTITY
+Off-screen female narrator: a Filipina woman around 28 years old, with a warm, clear, conversational mid-range voice and smooth natural resonance. She sounds friendly, confident, curious and lightly playful, like a thoughtful friend helping someone choose a personal fragrance. Speak natural conversational Taglish with fluid Tagalog-English code-switching and a natural Filipina accent. Follow the exact supplied Taglish script; do not translate it into all-English or formal Tagalog. Keep scent names and website button labels unchanged. Keep a subtle smile in the voice, crisp diction, gently varied intonation and relaxed conversational pacing. Emphasize product names and key offer conditions clearly. Preserve the same age, accent, pitch range and vocal texture across every shot. Narration is off-screen; do not introduce a talking person or visible mouth. No shouting, forced whispering, exaggerated accent, celebrity imitation or robotic sales cadence.
+
+VOICE DIRECTION FOR THIS SCRIPT
+Ask the opening buyer question with curiosity, then offer the named scent or brand answer helpfully. Expressive and confident, using a little more energy and decisive phrase endings.
+
+SCENE
+Close waist-and-hand crop of an adult Filipino man beside a parked cherry-red scooter. He wears a burnt-orange overshirt over a cream tee and light trousers. A burgundy strap and small chrome rail provide shape; a red wall fills the background.
+
+SHOT 01 | 00–04 | 4 seconds in edit
+START FRAME: frames/01-start.png
+COPY OVERLAY: overlays/01-copy.png
+DURATION PLAN: Generate 4 seconds, then trim to 4 seconds in the edit.
+
+COMPLETE FLOW PROMPT — SCENE + VOICE TONE + EXACT VOICEOVER
+Animate this supplied start frame as one continuous photorealistic portrait 9:16 perfume-commercial shot. Match the first frame exactly: same Filipino adult hands, clothing, jewelry, set, props, warm saturated sunlight and natural skin texture. Hold the upright bottle in front of the red scooter panel with the exact label facing the camera. Only a small natural hand settle.
+Camera: Restrained smooth movement only; preserve the supplied viewing angle and full product. Do not zoom out or tilt upward.
+Product lock: CHARME ENVOÛTANT; black label; orange-amber liquid. Preserve the label lettering, PARFUM LONDON signature, small 50 ml cylindrical proportions, thick clear base and fitted black cylindrical cap. Keep the cap seated throughout.
+No faces or partial faces, necks, chins, people in reflections, new actors, extra fingers, new props, duplicate bottles, label changes, product morphing or liquid-color changes. No cuts within this generated clip. No added captions, promotional lettering, graphic overlays or watermark.
+
+VOICE IDENTITY
+Off-screen female narrator: a Filipina woman around 28 years old, with a warm, clear, conversational mid-range voice and smooth natural resonance. She sounds friendly, confident, curious and lightly playful, like a thoughtful friend helping someone choose a personal fragrance. Speak natural conversational Taglish with fluid Tagalog-English code-switching and a natural Filipina accent. Follow the exact supplied Taglish script; do not translate it into all-English or formal Tagalog. Keep scent names and website button labels unchanged. Keep a subtle smile in the voice, crisp diction, gently varied intonation and relaxed conversational pacing. Emphasize product names and key offer conditions clearly. Preserve the same age, accent, pitch range and vocal texture across every shot. Narration is off-screen; do not introduce a talking person or visible mouth. No shouting, forced whispering, exaggerated accent, celebrity imitation or robotic sales cadence.
+VOICE TONE FOR THIS SCENT / STORY
+Ask the opening buyer question with curiosity, then offer the named scent or brand answer helpfully. Expressive and confident, using a little more energy and decisive phrase endings.
+AUDIO DIRECTION
+Generate the following off-screen narration in this clip. Begin promptly and complete the spoken line naturally within the first 4 seconds, then leave quiet ambience for the remaining generation. Keep room tone and prop foley low under the voice; no music or other voices. No visible speaker or lip sync. Use the same selected voice preset/reference as the other clips when the selected Flow model supports it. Exact-font text is added later in the editor; do not generate subtitles.
+EXACT VOICEOVER — speak only these words, once:
+“Gusto ng sweet scent na may mas rich na dating?”
+
+MOTION-ONLY ALTERNATIVE — RECORD NARRATION SEPARATELY
+Animate this supplied start frame as one continuous photorealistic portrait 9:16 perfume-commercial shot. Match the first frame exactly: same Filipino adult hands, clothing, jewelry, set, props, warm saturated sunlight and natural skin texture. Hold the upright bottle in front of the red scooter panel with the exact label facing the camera. Only a small natural hand settle.
+Camera: Restrained smooth movement only; preserve the supplied viewing angle and full product. Do not zoom out or tilt upward.
+Product lock: CHARME ENVOÛTANT; black label; orange-amber liquid. Preserve the label lettering, PARFUM LONDON signature, small 50 ml cylindrical proportions, thick clear base and fitted black cylindrical cap. Keep the cap seated throughout.
+No faces or partial faces, necks, chins, people in reflections, new actors, extra fingers, new props, duplicate bottles, label changes, product morphing or liquid-color changes. No cuts within this generated clip. No added captions, promotional lettering, graphic overlays or watermark.
+Audio: subtle scene-appropriate room/outdoor ambience and gentle prop foley only; no generated speech or music. Voiceover and exact brand-font text will be added separately in the edit.
+
+VOICEOVER
+Gusto ng sweet scent na may mas rich na dating?
+
+ON-SCREEN COPY (add overlay in editor)
+SWEET SCENT?
+RICH & SPICED
+
+ORIGINAL SCRIPT ACTION
+Start with the bottle already upright in his hand in front of the red scooter panel. Shipping offer appears on the quiet wall above.
+
+————————————————————————————————————————————————
+
+SHOT 02 | 04–07 | 3 seconds in edit
+START FRAME: frames/02-start.png
+COPY OVERLAY: overlays/02-copy.png
+DURATION PLAN: Generate 4 seconds, then trim to 3 seconds in the edit.
+
+COMPLETE FLOW PROMPT — SCENE + VOICE TONE + EXACT VOICEOVER
+Animate this supplied start frame as one continuous photorealistic portrait 9:16 perfume-commercial shot. Match the first frame exactly: same Filipino adult hands, clothing, jewelry, set, props, warm saturated sunlight and natural skin texture. The free hand adjusts the burgundy strap once, keeping it clear of the bottle label, then relaxes.
+Camera: Restrained smooth movement only; preserve the supplied viewing angle and full product. Do not zoom out or tilt upward.
+Product lock: CHARME ENVOÛTANT; black label; orange-amber liquid. Preserve the label lettering, PARFUM LONDON signature, small 50 ml cylindrical proportions, thick clear base and fitted black cylindrical cap. Keep the cap seated throughout.
+No faces or partial faces, necks, chins, people in reflections, new actors, extra fingers, new props, duplicate bottles, label changes, product morphing or liquid-color changes. No cuts within this generated clip. No added captions, promotional lettering, graphic overlays or watermark.
+
+VOICE IDENTITY
+Off-screen female narrator: a Filipina woman around 28 years old, with a warm, clear, conversational mid-range voice and smooth natural resonance. She sounds friendly, confident, curious and lightly playful, like a thoughtful friend helping someone choose a personal fragrance. Speak natural conversational Taglish with fluid Tagalog-English code-switching and a natural Filipina accent. Follow the exact supplied Taglish script; do not translate it into all-English or formal Tagalog. Keep scent names and website button labels unchanged. Keep a subtle smile in the voice, crisp diction, gently varied intonation and relaxed conversational pacing. Emphasize product names and key offer conditions clearly. Preserve the same age, accent, pitch range and vocal texture across every shot. Narration is off-screen; do not introduce a talking person or visible mouth. No shouting, forced whispering, exaggerated accent, celebrity imitation or robotic sales cadence.
+VOICE TONE FOR THIS SCENT / STORY
+Ask the opening buyer question with curiosity, then offer the named scent or brand answer helpfully. Expressive and confident, using a little more energy and decisive phrase endings.
+AUDIO DIRECTION
+Generate the following off-screen narration in this clip. Begin promptly and complete the spoken line naturally within the first 3 seconds, then leave quiet ambience for the remaining generation. Keep room tone and prop foley low under the voice; no music or other voices. No visible speaker or lip sync. Use the same selected voice preset/reference as the other clips when the selected Flow model supports it. Exact-font text is added later in the editor; do not generate subtitles.
+EXACT VOICEOVER — speak only these words, once:
+“Try ang Charme Envoûtant ng Dear Body.”
+
+MOTION-ONLY ALTERNATIVE — RECORD NARRATION SEPARATELY
+Animate this supplied start frame as one continuous photorealistic portrait 9:16 perfume-commercial shot. Match the first frame exactly: same Filipino adult hands, clothing, jewelry, set, props, warm saturated sunlight and natural skin texture. The free hand adjusts the burgundy strap once, keeping it clear of the bottle label, then relaxes.
+Camera: Restrained smooth movement only; preserve the supplied viewing angle and full product. Do not zoom out or tilt upward.
+Product lock: CHARME ENVOÛTANT; black label; orange-amber liquid. Preserve the label lettering, PARFUM LONDON signature, small 50 ml cylindrical proportions, thick clear base and fitted black cylindrical cap. Keep the cap seated throughout.
+No faces or partial faces, necks, chins, people in reflections, new actors, extra fingers, new props, duplicate bottles, label changes, product morphing or liquid-color changes. No cuts within this generated clip. No added captions, promotional lettering, graphic overlays or watermark.
+Audio: subtle scene-appropriate room/outdoor ambience and gentle prop foley only; no generated speech or music. Voiceover and exact brand-font text will be added separately in the edit.
+
+VOICEOVER
+Try ang Charme Envoûtant ng Dear Body.
+
+ON-SCREEN COPY (add overlay in editor)
+CHARME ENVOÛTANT
+
+ORIGINAL SCRIPT ACTION
+The free hand adjusts the burgundy strap while the bottle remains label-forward.
+
+————————————————————————————————————————————————
+
+SHOT 03 | 07–11 | 4 seconds in edit
+START FRAME: frames/03-start.png
+COPY OVERLAY: overlays/03-copy.png
+DURATION PLAN: Generate 4 seconds, then trim to 4 seconds in the edit.
+
+COMPLETE FLOW PROMPT — SCENE + VOICE TONE + EXACT VOICEOVER
+Animate this supplied start frame as one continuous photorealistic portrait 9:16 perfume-commercial shot. Match the first frame exactly: same Filipino adult hands, clothing, jewelry, set, props, warm saturated sunlight and natural skin texture. Make a controlled lateral camera slide of 3 cm to reveal a little more chrome rail and orange overshirt. Maintain the torso-down crop.
+Camera: Restrained smooth movement only; preserve the supplied viewing angle and full product. Do not zoom out or tilt upward.
+Product lock: CHARME ENVOÛTANT; black label; orange-amber liquid. Preserve the label lettering, PARFUM LONDON signature, small 50 ml cylindrical proportions, thick clear base and fitted black cylindrical cap. Keep the cap seated throughout.
+No faces or partial faces, necks, chins, people in reflections, new actors, extra fingers, new props, duplicate bottles, label changes, product morphing or liquid-color changes. No cuts within this generated clip. No added captions, promotional lettering, graphic overlays or watermark.
+
+VOICE IDENTITY
+Off-screen female narrator: a Filipina woman around 28 years old, with a warm, clear, conversational mid-range voice and smooth natural resonance. She sounds friendly, confident, curious and lightly playful, like a thoughtful friend helping someone choose a personal fragrance. Speak natural conversational Taglish with fluid Tagalog-English code-switching and a natural Filipina accent. Follow the exact supplied Taglish script; do not translate it into all-English or formal Tagalog. Keep scent names and website button labels unchanged. Keep a subtle smile in the voice, crisp diction, gently varied intonation and relaxed conversational pacing. Emphasize product names and key offer conditions clearly. Preserve the same age, accent, pitch range and vocal texture across every shot. Narration is off-screen; do not introduce a talking person or visible mouth. No shouting, forced whispering, exaggerated accent, celebrity imitation or robotic sales cadence.
+VOICE TONE FOR THIS SCENT / STORY
+Ask the opening buyer question with curiosity, then offer the named scent or brand answer helpfully. Expressive and confident, using a little more energy and decisive phrase endings.
+AUDIO DIRECTION
+Generate the following off-screen narration in this clip. Begin promptly and complete the spoken line naturally within the first 4 seconds, then leave quiet ambience for the remaining generation. Keep room tone and prop foley low under the voice; no music or other voices. No visible speaker or lip sync. Use the same selected voice preset/reference as the other clips when the selected Flow model supports it. Exact-font text is added later in the editor; do not generate subtitles.
+EXACT VOICEOVER — speak only these words, once:
+“Rich, spiced sweetness na deep at indulgent ang dating.”
+
+MOTION-ONLY ALTERNATIVE — RECORD NARRATION SEPARATELY
+Animate this supplied start frame as one continuous photorealistic portrait 9:16 perfume-commercial shot. Match the first frame exactly: same Filipino adult hands, clothing, jewelry, set, props, warm saturated sunlight and natural skin texture. Make a controlled lateral camera slide of 3 cm to reveal a little more chrome rail and orange overshirt. Maintain the torso-down crop.
+Camera: Restrained smooth movement only; preserve the supplied viewing angle and full product. Do not zoom out or tilt upward.
+Product lock: CHARME ENVOÛTANT; black label; orange-amber liquid. Preserve the label lettering, PARFUM LONDON signature, small 50 ml cylindrical proportions, thick clear base and fitted black cylindrical cap. Keep the cap seated throughout.
+No faces or partial faces, necks, chins, people in reflections, new actors, extra fingers, new props, duplicate bottles, label changes, product morphing or liquid-color changes. No cuts within this generated clip. No added captions, promotional lettering, graphic overlays or watermark.
+Audio: subtle scene-appropriate room/outdoor ambience and gentle prop foley only; no generated speech or music. Voiceover and exact brand-font text will be added separately in the edit.
+
+VOICEOVER
+Rich, spiced sweetness na deep at indulgent ang dating.
+
+ON-SCREEN COPY (add overlay in editor)
+Rich, spiced sweetness that feels deep and indulgent.
+
+ORIGINAL SCRIPT ACTION
+Move sideways a few centimeters to reveal the chrome rail and orange overshirt. Keep the crop below the chest.
+
+————————————————————————————————————————————————
+
+SHOT 04 | 11–16 | 5 seconds in edit
+START FRAME: frames/04-start.png
+COPY OVERLAY: overlays/04-copy.png
+DURATION PLAN: Generate 6 seconds, then trim to 5 seconds in the edit.
+
+COMPLETE FLOW PROMPT — SCENE + VOICE TONE + EXACT VOICEOVER
+Animate this supplied start frame as one continuous photorealistic portrait 9:16 perfume-commercial shot. Match the first frame exactly: same Filipino adult hands, clothing, jewelry, set, props, warm saturated sunlight and natural skin texture. Ease 3 cm closer to the complete bottle, then stop with CHARME ENVOÛTANT sharp and readable.
+Camera: Restrained smooth movement only; preserve the supplied viewing angle and full product. Do not zoom out or tilt upward.
+Product lock: CHARME ENVOÛTANT; black label; orange-amber liquid. Preserve the label lettering, PARFUM LONDON signature, small 50 ml cylindrical proportions, thick clear base and fitted black cylindrical cap. Keep the cap seated throughout.
+No faces or partial faces, necks, chins, people in reflections, new actors, extra fingers, new props, duplicate bottles, label changes, product morphing or liquid-color changes. No cuts within this generated clip. No added captions, promotional lettering, graphic overlays or watermark.
+
+VOICE IDENTITY
+Off-screen female narrator: a Filipina woman around 28 years old, with a warm, clear, conversational mid-range voice and smooth natural resonance. She sounds friendly, confident, curious and lightly playful, like a thoughtful friend helping someone choose a personal fragrance. Speak natural conversational Taglish with fluid Tagalog-English code-switching and a natural Filipina accent. Follow the exact supplied Taglish script; do not translate it into all-English or formal Tagalog. Keep scent names and website button labels unchanged. Keep a subtle smile in the voice, crisp diction, gently varied intonation and relaxed conversational pacing. Emphasize product names and key offer conditions clearly. Preserve the same age, accent, pitch range and vocal texture across every shot. Narration is off-screen; do not introduce a talking person or visible mouth. No shouting, forced whispering, exaggerated accent, celebrity imitation or robotic sales cadence.
+VOICE TONE FOR THIS SCENT / STORY
+Ask the opening buyer question with curiosity, then offer the named scent or brand answer helpfully. Expressive and confident, using a little more energy and decisive phrase endings.
+AUDIO DIRECTION
+Generate the following off-screen narration in this clip. Begin promptly and complete the spoken line naturally within the first 5 seconds, then leave quiet ambience for the remaining generation. Keep room tone and prop foley low under the voice; no music or other voices. No visible speaker or lip sync. Use the same selected voice preset/reference as the other clips when the selected Flow model supports it. Exact-font text is added later in the editor; do not generate subtitles.
+EXACT VOICEOVER — speak only these words, once:
+“Para sa expressive, passionate, at confident na personality.”
+
+MOTION-ONLY ALTERNATIVE — RECORD NARRATION SEPARATELY
+Animate this supplied start frame as one continuous photorealistic portrait 9:16 perfume-commercial shot. Match the first frame exactly: same Filipino adult hands, clothing, jewelry, set, props, warm saturated sunlight and natural skin texture. Ease 3 cm closer to the complete bottle, then stop with CHARME ENVOÛTANT sharp and readable.
+Camera: Restrained smooth movement only; preserve the supplied viewing angle and full product. Do not zoom out or tilt upward.
+Product lock: CHARME ENVOÛTANT; black label; orange-amber liquid. Preserve the label lettering, PARFUM LONDON signature, small 50 ml cylindrical proportions, thick clear base and fitted black cylindrical cap. Keep the cap seated throughout.
+No faces or partial faces, necks, chins, people in reflections, new actors, extra fingers, new props, duplicate bottles, label changes, product morphing or liquid-color changes. No cuts within this generated clip. No added captions, promotional lettering, graphic overlays or watermark.
+Audio: subtle scene-appropriate room/outdoor ambience and gentle prop foley only; no generated speech or music. Voiceover and exact brand-font text will be added separately in the edit.
+
+VOICEOVER
+Para sa expressive, passionate, at confident na personality.
+
+ON-SCREEN COPY (add overlay in editor)
+EXPRESSIVE · PASSIONATE · CONFIDENT
+
+ORIGINAL SCRIPT ACTION
+Push in to the name, preserving the exact CHARME ENVOÛTANT spelling and accent.
+
+————————————————————————————————————————————————
+
+SHOT 05 | 16–23 | 7 seconds in edit
+START FRAME: frames/05-start.png
+COPY OVERLAY: overlays/05-copy.png
+DURATION PLAN: Generate 8 seconds, then trim to 7 seconds in the edit.
+
+COMPLETE FLOW PROMPT — SCENE + VOICE TONE + EXACT VOICEOVER
+Animate this supplied start frame as one continuous photorealistic portrait 9:16 perfume-commercial shot. Match the first frame exactly: same Filipino adult hands, clothing, jewelry, set, props, warm saturated sunlight and natural skin texture. Hold the black label and orange-amber liquid steady against the cream shirt. Let one subtle reflection move along the side glass.
+Camera: Restrained smooth movement only; preserve the supplied viewing angle and full product. Do not zoom out or tilt upward.
+Product lock: CHARME ENVOÛTANT; black label; orange-amber liquid. Preserve the label lettering, PARFUM LONDON signature, small 50 ml cylindrical proportions, thick clear base and fitted black cylindrical cap. Keep the cap seated throughout.
+No faces or partial faces, necks, chins, people in reflections, new actors, extra fingers, new props, duplicate bottles, label changes, product morphing or liquid-color changes. No cuts within this generated clip. No added captions, promotional lettering, graphic overlays or watermark.
+
+VOICE IDENTITY
+Off-screen female narrator: a Filipina woman around 28 years old, with a warm, clear, conversational mid-range voice and smooth natural resonance. She sounds friendly, confident, curious and lightly playful, like a thoughtful friend helping someone choose a personal fragrance. Speak natural conversational Taglish with fluid Tagalog-English code-switching and a natural Filipina accent. Follow the exact supplied Taglish script; do not translate it into all-English or formal Tagalog. Keep scent names and website button labels unchanged. Keep a subtle smile in the voice, crisp diction, gently varied intonation and relaxed conversational pacing. Emphasize product names and key offer conditions clearly. Preserve the same age, accent, pitch range and vocal texture across every shot. Narration is off-screen; do not introduce a talking person or visible mouth. No shouting, forced whispering, exaggerated accent, celebrity imitation or robotic sales cadence.
+VOICE TONE FOR THIS SCENT / STORY
+Ask the opening buyer question with curiosity, then offer the named scent or brand answer helpfully. Expressive and confident, using a little more energy and decisive phrase endings.
+AUDIO DIRECTION
+Generate the following off-screen narration in this clip. Begin promptly and complete the spoken line naturally within the first 7 seconds, then leave quiet ambience for the remaining generation. Keep room tone and prop foley low under the voice; no music or other voices. No visible speaker or lip sync. Use the same selected voice preset/reference as the other clips when the selected Flow model supports it. Exact-font text is added later in the editor; do not generate subtitles.
+EXACT VOICEOVER — speak only these words, once:
+“May magnetic cap na nagki-click, pantakip sa spray nozzle. Puwedeng i-collect at i-display.”
+
+MOTION-ONLY ALTERNATIVE — RECORD NARRATION SEPARATELY
+Animate this supplied start frame as one continuous photorealistic portrait 9:16 perfume-commercial shot. Match the first frame exactly: same Filipino adult hands, clothing, jewelry, set, props, warm saturated sunlight and natural skin texture. Hold the black label and orange-amber liquid steady against the cream shirt. Let one subtle reflection move along the side glass.
+Camera: Restrained smooth movement only; preserve the supplied viewing angle and full product. Do not zoom out or tilt upward.
+Product lock: CHARME ENVOÛTANT; black label; orange-amber liquid. Preserve the label lettering, PARFUM LONDON signature, small 50 ml cylindrical proportions, thick clear base and fitted black cylindrical cap. Keep the cap seated throughout.
+No faces or partial faces, necks, chins, people in reflections, new actors, extra fingers, new props, duplicate bottles, label changes, product morphing or liquid-color changes. No cuts within this generated clip. No added captions, promotional lettering, graphic overlays or watermark.
+Audio: subtle scene-appropriate room/outdoor ambience and gentle prop foley only; no generated speech or music. Voiceover and exact brand-font text will be added separately in the edit.
+
+VOICEOVER
+May magnetic cap na nagki-click, pantakip sa spray nozzle. Puwedeng i-collect at i-display.
+
+ON-SCREEN COPY (add overlay in editor)
+MAGNETIC CAP
+COLLECT & DISPLAY
+
+ORIGINAL SCRIPT ACTION
+Hold the black label and warm orange-amber liquid against the cream tee. Let one sunlight reflection move on the glass.
+
+————————————————————————————————————————————————
+
+SHOT 06 | 23–27 | 4 seconds in edit
+START FRAME: frames/06-start.png
+COPY OVERLAY: overlays/06-copy.png
+DURATION PLAN: Generate 4 seconds, then trim to 4 seconds in the edit.
+
+COMPLETE FLOW PROMPT — SCENE + VOICE TONE + EXACT VOICEOVER
+Animate this supplied start frame as one continuous photorealistic portrait 9:16 perfume-commercial shot. Match the first frame exactly: same Filipino adult hands, clothing, jewelry, set, props, warm saturated sunlight and natural skin texture. Lower the supported bottle 2 cm while the free hand settles the burgundy strap. The scooter remains parked and stationary.
+Camera: Restrained smooth movement only; preserve the supplied viewing angle and full product. Do not zoom out or tilt upward.
+Product lock: CHARME ENVOÛTANT; black label; orange-amber liquid. Preserve the label lettering, PARFUM LONDON signature, small 50 ml cylindrical proportions, thick clear base and fitted black cylindrical cap. Keep the cap seated throughout.
+No faces or partial faces, necks, chins, people in reflections, new actors, extra fingers, new props, duplicate bottles, label changes, product morphing or liquid-color changes. No cuts within this generated clip. No added captions, promotional lettering, graphic overlays or watermark.
+
+VOICE IDENTITY
+Off-screen female narrator: a Filipina woman around 28 years old, with a warm, clear, conversational mid-range voice and smooth natural resonance. She sounds friendly, confident, curious and lightly playful, like a thoughtful friend helping someone choose a personal fragrance. Speak natural conversational Taglish with fluid Tagalog-English code-switching and a natural Filipina accent. Follow the exact supplied Taglish script; do not translate it into all-English or formal Tagalog. Keep scent names and website button labels unchanged. Keep a subtle smile in the voice, crisp diction, gently varied intonation and relaxed conversational pacing. Emphasize product names and key offer conditions clearly. Preserve the same age, accent, pitch range and vocal texture across every shot. Narration is off-screen; do not introduce a talking person or visible mouth. No shouting, forced whispering, exaggerated accent, celebrity imitation or robotic sales cadence.
+VOICE TONE FOR THIS SCENT / STORY
+Ask the opening buyer question with curiosity, then offer the named scent or brand answer helpfully. Expressive and confident, using a little more energy and decisive phrase endings.
+AUDIO DIRECTION
+Generate the following off-screen narration in this clip. Begin promptly and complete the spoken line naturally within the first 4 seconds, then leave quiet ambience for the remaining generation. Keep room tone and prop foley low under the voice; no music or other voices. No visible speaker or lip sync. Use the same selected voice preset/reference as the other clips when the selected Flow model supports it. Exact-font text is added later in the editor; do not generate subtitles.
+EXACT VOICEOVER — speak only these words, once:
+“Free shipping sa two items or more.”
+
+MOTION-ONLY ALTERNATIVE — RECORD NARRATION SEPARATELY
+Animate this supplied start frame as one continuous photorealistic portrait 9:16 perfume-commercial shot. Match the first frame exactly: same Filipino adult hands, clothing, jewelry, set, props, warm saturated sunlight and natural skin texture. Lower the supported bottle 2 cm while the free hand settles the burgundy strap. The scooter remains parked and stationary.
+Camera: Restrained smooth movement only; preserve the supplied viewing angle and full product. Do not zoom out or tilt upward.
+Product lock: CHARME ENVOÛTANT; black label; orange-amber liquid. Preserve the label lettering, PARFUM LONDON signature, small 50 ml cylindrical proportions, thick clear base and fitted black cylindrical cap. Keep the cap seated throughout.
+No faces or partial faces, necks, chins, people in reflections, new actors, extra fingers, new props, duplicate bottles, label changes, product morphing or liquid-color changes. No cuts within this generated clip. No added captions, promotional lettering, graphic overlays or watermark.
+Audio: subtle scene-appropriate room/outdoor ambience and gentle prop foley only; no generated speech or music. Voiceover and exact brand-font text will be added separately in the edit.
+
+VOICEOVER
+Free shipping sa two items or more.
+
+ON-SCREEN COPY (add overlay in editor)
+FREE SHIPPING
+ON 2+ ITEMS
+
+ORIGINAL SCRIPT ACTION
+Lower the bottle slightly and settle the bag strap; keep the glass body supported and scooter stationary.
+
+————————————————————————————————————————————————
+
+SHOT 07 | 27–34 | 7 seconds in edit
+START FRAME: frames/07-start.png
+COPY OVERLAY: overlays/07-copy.png
+DURATION PLAN: Generate 8 seconds, then trim to 7 seconds in the edit.
+
+COMPLETE FLOW PROMPT — SCENE + VOICE TONE + EXACT VOICEOVER
+Animate this supplied start frame as one continuous photorealistic portrait 9:16 perfume-commercial shot. Match the first frame exactly: same Filipino adult hands, clothing, jewelry, set, props, warm saturated sunlight and natural skin texture. Hold the bottle beside the red scooter panel, with no movement in the final three seconds.
+Camera: Locked composition; final three seconds fully still.
+Product lock: CHARME ENVOÛTANT; black label; orange-amber liquid. Preserve the label lettering, PARFUM LONDON signature, small 50 ml cylindrical proportions, thick clear base and fitted black cylindrical cap. Keep the cap seated throughout.
+No faces or partial faces, necks, chins, people in reflections, new actors, extra fingers, new props, duplicate bottles, label changes, product morphing or liquid-color changes. No cuts within this generated clip. No added captions, promotional lettering, graphic overlays or watermark.
+
+VOICE IDENTITY
+Off-screen female narrator: a Filipina woman around 28 years old, with a warm, clear, conversational mid-range voice and smooth natural resonance. She sounds friendly, confident, curious and lightly playful, like a thoughtful friend helping someone choose a personal fragrance. Speak natural conversational Taglish with fluid Tagalog-English code-switching and a natural Filipina accent. Follow the exact supplied Taglish script; do not translate it into all-English or formal Tagalog. Keep scent names and website button labels unchanged. Keep a subtle smile in the voice, crisp diction, gently varied intonation and relaxed conversational pacing. Emphasize product names and key offer conditions clearly. Preserve the same age, accent, pitch range and vocal texture across every shot. Narration is off-screen; do not introduce a talking person or visible mouth. No shouting, forced whispering, exaggerated accent, celebrity imitation or robotic sales cadence.
+VOICE TONE FOR THIS SCENT / STORY
+Ask the opening buyer question with curiosity, then offer the named scent or brand answer helpfully. Expressive and confident, using a little more energy and decisive phrase endings.
+AUDIO DIRECTION
+Generate the following off-screen narration in this clip. Begin promptly and complete the spoken line naturally within the first 7 seconds, then leave quiet ambience for the remaining generation. Keep room tone and prop foley low under the voice; no music or other voices. No visible speaker or lip sync. Use the same selected voice preset/reference as the other clips when the selected Flow model supports it. Exact-font text is added later in the editor; do not generate subtitles.
+EXACT VOICEOVER — speak only these words, once:
+“May cash on delivery din. Bagay sa vibe mo? Tap Order Now.”
+
+MOTION-ONLY ALTERNATIVE — RECORD NARRATION SEPARATELY
+Animate this supplied start frame as one continuous photorealistic portrait 9:16 perfume-commercial shot. Match the first frame exactly: same Filipino adult hands, clothing, jewelry, set, props, warm saturated sunlight and natural skin texture. Hold the bottle beside the red scooter panel, with no movement in the final three seconds.
+Camera: Locked composition; final three seconds fully still.
+Product lock: CHARME ENVOÛTANT; black label; orange-amber liquid. Preserve the label lettering, PARFUM LONDON signature, small 50 ml cylindrical proportions, thick clear base and fitted black cylindrical cap. Keep the cap seated throughout.
+No faces or partial faces, necks, chins, people in reflections, new actors, extra fingers, new props, duplicate bottles, label changes, product morphing or liquid-color changes. No cuts within this generated clip. No added captions, promotional lettering, graphic overlays or watermark.
+Audio: subtle scene-appropriate room/outdoor ambience and gentle prop foley only; no generated speech or music. Voiceover and exact brand-font text will be added separately in the edit.
+
+VOICEOVER
+May cash on delivery din. Bagay sa vibe mo? Tap Order Now.
+
+ON-SCREEN COPY (add overlay in editor)
+ORDER NOW
+FREE SHIPPING ON 2+ ITEMS
+CASH ON DELIVERY
+
+ORIGINAL SCRIPT ACTION
+Return to the hero crop beside the red panel. End on a steady bottle with the CTA.
+
+————————————————————————————————————————————————
+

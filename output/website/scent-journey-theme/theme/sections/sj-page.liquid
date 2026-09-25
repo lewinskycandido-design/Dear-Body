@@ -18,7 +18,7 @@
   <div class="sj-container">
     {% unless is_shipping_page %}<div class="sj-page-intro"><p class="sj-eyebrow">DEARBODY / CUSTOMER CARE</p><h1>{{ page.title | default: section.settings.title | escape }}</h1></div>{% endunless %}
     <div class="sj-page-content">
-      {% if is_shipping_page %}{% render 'sj-shipping-information' %}{% elsif policy_body != blank %}{{ policy_body }}{% elsif page.content != blank %}{{ page.content }}{% else %}<p>For current {{ page.title | default: section.settings.title | downcase | escape }} information, please contact DearBody Philippines.</p><a class="sj-button sj-button--secondary" href="{{ settings.contact_url | default: '/pages/contact' }}">Contact us</a>{% endif %}
+      {% if is_shipping_page %}{% render 'sj-shipping-information' %}{% elsif policy_body != blank %}{{ policy_body }}{% elsif page.content != blank %}{{ page.content }}{% else %}<p>For current {{ page.title | default: section.settings.title | downcase | escape }} information, please contact DearBody Philippines.</p>{% endif %}
     </div>
   </div>
 </section>

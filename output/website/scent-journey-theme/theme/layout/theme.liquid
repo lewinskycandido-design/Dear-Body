@@ -23,4 +23,6 @@
 <main id="MainContent" tabindex="-1">{{ content_for_layout }}</main>
 {% sections 'footer-group' %}
 {% section 'sj-predictive-search' %}
+{{ 'sj-image-select.css' | asset_url | stylesheet_tag }}
+<script src="{{ 'sj-image-select.js' | asset_url }}" defer></script>
 </body></html>

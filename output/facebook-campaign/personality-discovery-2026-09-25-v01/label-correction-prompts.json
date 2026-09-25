@@ -1,0 +1,25 @@
+{
+  "mode": "built-in imagegen",
+  "edits": [
+    {
+      "slug": "mojito-metallique",
+      "prompt": "Use case: precise-object-edit. Image1 is the target photograph. Image2 is the authoritative exact product reference. Images3and4 are mandatory owner visual-style references, already reflected in the target. Make ONE precise packaging correction only: restore the correct small printed brand signature on the bottom part of the WHITE perfume label — the exact monogram + PARFUM with LONDON beneath, as visible in image2. Keep the large MOJITO METALLIQUE scent lettering exactly correct and unchanged. Reproduce the physical label layout and black ink accurately; do not add text outside the physical label. Preserve every other pixel-level aspect as closely as possible: same scene, crop, hands, anatomy, props, liquid, bottle dimensions and position, glass highlights, warm colors, sun and material textures, no additional object, no new hand, no face or face fragment, no overlays. Output same portrait 4:5 photograph.",
+      "references": [
+        "C:/Users/lhemy/OneDrive/Documents/Dear Body/output/facebook-campaign/personality-discovery-2026-09-25-v01/photos/mojito-metallique.png",
+        "C:/Users/lhemy/OneDrive/Documents/Dear Body/output/website/scent-journey-theme/theme/assets/sj-mojito-metallique-01.jpg",
+        "C:/Users/lhemy/OneDrive/Documents/Dear Body/handoff/assets/brand-references/2026-09-25-publication-materials-owner-reference.png",
+        "C:/Users/lhemy/OneDrive/Documents/Dear Body/handoff/assets/brand-references/2026-09-25-social-media-look-owner-reference.png"
+      ]
+    },
+    {
+      "slug": "mistened-narcissus",
+      "prompt": "Use case: precise-object-edit. Image1 is the target photograph. Image2 is the authoritative exact product reference. Images3and4 are mandatory owner visual-style references, already reflected in the target. Make ONE precise packaging correction only: restore the correct small printed brand signature on the bottom part of the WHITE perfume label — the exact monogram + PARFUM with LONDON beneath, as visible in image2. Keep the large MISTENED NARCISSUS scent lettering exactly correct and unchanged. Reproduce the physical label layout and black ink accurately; do not add text outside the physical label. Also keep the cap solid glossy black on its top and sides, with natural light reflections only, not a tan or metallic cap top. Preserve every other pixel-level aspect as closely as possible: same scene, crop, hands, anatomy, props, liquid, bottle dimensions and position, glass highlights, warm colors, sun and material textures, no additional object, no new hand, no face or face fragment, no overlays. Output same portrait 4:5 photograph.",
+      "references": [
+        "C:/Users/lhemy/OneDrive/Documents/Dear Body/output/facebook-campaign/personality-discovery-2026-09-25-v01/photos/mistened-narcissus.png",
+        "C:/Users/lhemy/OneDrive/Documents/Dear Body/output/website/scent-journey-theme/theme/assets/sj-mistened-narcissus-01.jpg",
+        "C:/Users/lhemy/OneDrive/Documents/Dear Body/handoff/assets/brand-references/2026-09-25-publication-materials-owner-reference.png",
+        "C:/Users/lhemy/OneDrive/Documents/Dear Body/handoff/assets/brand-references/2026-09-25-social-media-look-owner-reference.png"
+      ]
+    }
+  ]
+}

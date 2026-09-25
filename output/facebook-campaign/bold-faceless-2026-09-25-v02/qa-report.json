@@ -1,0 +1,160 @@
+{
+  "date": "2026-09-25",
+  "browserChecks": [
+    {
+      "file": "campaign.html",
+      "width": 1280,
+      "scrollWidth": 1280,
+      "images": 13,
+      "broken": 0,
+      "concepts": 0,
+      "shots": 0,
+      "fonts": [
+        true,
+        true
+      ]
+    },
+    {
+      "file": "content-creation-guide.html",
+      "width": 1280,
+      "scrollWidth": 1280,
+      "images": 10,
+      "broken": 0,
+      "concepts": 10,
+      "shots": 70,
+      "fonts": [
+        true,
+        true
+      ]
+    },
+    {
+      "file": "campaign.html",
+      "width": 390,
+      "scrollWidth": 390,
+      "images": 13,
+      "broken": 0,
+      "concepts": 0,
+      "shots": 0,
+      "fonts": [
+        true,
+        true
+      ]
+    },
+    {
+      "file": "content-creation-guide.html",
+      "width": 390,
+      "scrollWidth": 390,
+      "images": 10,
+      "broken": 0,
+      "concepts": 10,
+      "shots": 70,
+      "fonts": [
+        true,
+        true
+      ]
+    }
+  ],
+  "outputCount": 12,
+  "outputs": [
+    {
+      "file": "final/ads/01-mojito-metallique-1080x1350.png",
+      "width": 1080,
+      "height": 1350,
+      "bytes": 2297353,
+      "sha256": "c3aac9a6eab49e1559ee5a1a51dbd81a8298dbeb78cc96a99e4aecdc2809c594"
+    },
+    {
+      "file": "final/ads/02-amber-oud-silk-1080x1350.png",
+      "width": 1080,
+      "height": 1350,
+      "bytes": 1833443,
+      "sha256": "6f6d6866566f1e9ca5636d29d744412df332a82a099fc3d846ddcdb3833598a8"
+    },
+    {
+      "file": "final/ads/03-mistened-narcissus-1080x1350.png",
+      "width": 1080,
+      "height": 1350,
+      "bytes": 1781781,
+      "sha256": "3eae4585b1517bda652cba9f61dd8107189ed445ce00f5041f99a97f30ff661b"
+    },
+    {
+      "file": "final/ads/04-charme-envoutant-1080x1350.png",
+      "width": 1080,
+      "height": 1350,
+      "bytes": 1846050,
+      "sha256": "9e883630dc8829850c0ccbfa1a61e20d4b359859b24bceba9b408fa22f81f677"
+    },
+    {
+      "file": "final/ads/05-oud-mirage-1080x1350.png",
+      "width": 1080,
+      "height": 1350,
+      "bytes": 1937882,
+      "sha256": "359b8938021c5511eb1990c26acabddbb6c17e7d3c77f5728845d20923727e0e"
+    },
+    {
+      "file": "final/ads/06-rtulle-and-satin-1080x1350.png",
+      "width": 1080,
+      "height": 1350,
+      "bytes": 1999184,
+      "sha256": "0e656d57c4a84467c77b0bdc39c9059288693cdf1ef7d3ca0de341d342cc4599"
+    },
+    {
+      "file": "final/ads/07-magnetic-cap-1080x1350.png",
+      "width": 1080,
+      "height": 1350,
+      "bytes": 1496676,
+      "sha256": "4a8cc9c50165c8f6aa4a9c821cb2dbc1c5bb1d8f5ff672e50cbc9d66b7477378"
+    },
+    {
+      "file": "final/ads/08-collection-1080x1350.png",
+      "width": 1080,
+      "height": 1350,
+      "bytes": 1454340,
+      "sha256": "a7600165cec2b68179b3373fec7056dd7b76f75ad10acf7795ec08d6b8a9ca68"
+    },
+    {
+      "file": "final/ads/09-mission-vision-1080x1350.png",
+      "width": 1080,
+      "height": 1350,
+      "bytes": 1516700,
+      "sha256": "4cebcf00150391024800a2afcb31cdd1531b289145619669610f8241dace4c87"
+    },
+    {
+      "file": "final/ads/10-scent-personality-1080x1350.png",
+      "width": 1080,
+      "height": 1350,
+      "bytes": 1472731,
+      "sha256": "23e5285666d6cc6bb1cfdd89f98ba16a5301eead785bd85358bc1d0fa1d0bb13"
+    },
+    {
+      "file": "final/page/dear-body-facebook-cover-1640x720.png",
+      "width": 1640,
+      "height": 720,
+      "bytes": 1654351,
+      "sha256": "300d324cd777e701b2245220c31fd0f040161721e5a2656e654fd8d2032344aa"
+    },
+    {
+      "file": "final/page/dear-body-facebook-profile-1080.png",
+      "width": 1080,
+      "height": 1080,
+      "bytes": 1681162,
+      "sha256": "74681ed3685893171fcb3cc88d5d34069647ec1124737b7f7f9f711e510839ab"
+    }
+  ],
+  "manualReview": [
+    "All 12 final images visually reviewed",
+    "Six priority scents plus four approved homepage/story angles",
+    "Correct white-label women and black-label men reference mapping",
+    "No visible faces or facial fragments",
+    "Offer: free shipping on 2+ items, then cash on delivery, then Order Now",
+    "Exact Cenzo Flare Bold and Helvetica Now Display fonts loaded for all typography",
+    "Current owner visual references reviewed and persisted in project instructions",
+    "Cover central crop and circular avatar preview reviewed",
+    "Ten complete scripts with 70 timed shots; scripts describe future filming, not delivered videos"
+  ],
+  "limitations": [
+    "No live Facebook placement preview or publishing performed",
+    "Generated product lettering and tactile avatar are visual renditions of supplied artwork; original logo source retained",
+    "Local website/brand files supplied copy; no live inventory, pricing or checkout audit performed"
+  ]
+}

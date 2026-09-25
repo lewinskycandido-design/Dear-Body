@@ -1,0 +1,7 @@
+{"schema":"openai.presentation.layout/v5","unit":"px","slide":{"id":"sl/mqlkop","index":30,"layout":{"id":"ly/i54vuh0b","name":"Title Slide"},"backgroundColor":"rgba(92,0,6,1)","position":{"left":0,"top":0,"width":1280,"height":720}},
+"elements":[
+{"id":"sh/6h4vet8r","kind":"textbox","position":{"left":62,"top":46,"width":1150,"height":110},"text":"Keeping the brand consistent","style":{"fontSize":44,"typeface":"Cenzo Flare","color":"#F4E3CB","bold":true,"alignment":"left"},"geometry":"rect","lineWidth":0},
+{"id":"sh/tkfup8r2","kind":"textbox","position":{"left":62,"top":192,"width":1100,"height":190},"text":"One shared source of truth.\nA clear record of every new decision.","style":{"fontSize":51,"typeface":"Helvetica Now Display","color":"#F4E3CB","alignment":"left"},"geometry":"rect","lineWidth":0},
+{"id":"sh/8j6dg3qx","kind":"textbox","position":{"left":62,"top":450,"width":1130,"height":130},"text":"Keep the playbook, source assets and AI briefs aligned\nwhen the owner changes direction.","style":{"fontSize":32,"typeface":"Helvetica Now Display","color":"#F4E3CB","alignment":"left"},"geometry":"rect","lineWidth":0},
+{"id":"sh/judcje90","kind":"textbox","position":{"left":62,"top":622,"width":1120,"height":55},"text":"A SCENT JOURNEY","style":{"fontSize":32,"typeface":"Cenzo Flare","color":"#F4E3CB","bold":true,"alignment":"left"},"geometry":"rect","lineWidth":0}
+]}

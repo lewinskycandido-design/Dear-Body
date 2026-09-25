@@ -1,0 +1,16 @@
+{{ 'sj-collection-order.css' | asset_url | stylesheet_tag }}
+<script src="{{ 'sj-collection-order.js' | asset_url }}" defer="defer"></script>
+<div id="HomeOrder" class="sj-home-order sj-container" data-sj-collection-order>
+  <div data-sj-order-grid>
+    {% render 'sj-collection-order', home_order: true %}
+  </div>
+  <noscript><p>To order, <a href="{{ routes.all_products_collection_url }}">choose a fragrance from our collection</a> and continue from its product page.</p></noscript>
+</div>
+{% schema %}
+{
+  "name": "Homepage order form",
+  "limit": 1,
+  "settings": [],
+  "presets": [{"name": "Homepage order form"}]
+}
+{% endschema %}

@@ -1,5 +1,13 @@
 # Dear Body Brand Guide
 
+## Current social media direction from the owner
+
+Updated 25 September 2026. Before every Dear Body image-generation task, open both `handoff/assets/brand-references/2026-09-25-publication-materials-owner-reference.png` and `handoff/assets/brand-references/2026-09-25-social-media-look-owner-reference.png`. They are the current visual authority for social content. Interpret their theme and energy without duplicating the compositions.
+
+Use playful, creative, bold saturated color with warm hues dominant; tactile, believable commercial photography; tight product-led editorial crops; and expressive accessories, skin, cotton, denim, glossy color surfaces and chrome. Keep actual scent packaging colors. The current six-priority-scent Facebook campaign and its content scripts use face-free Filipino lifestyle scenes: hands, arms, torso, pockets and bags, with no faces or face fragments anywhere. Use white/cream-label products with women and black-label products with men. Replace the earlier generic smiling-portrait direction for this campaign.
+
+Add real Cenzo Flare Bold and Helvetica Now typography after photography. Lead ads and cover with free shipping on 2+ items, then cash on delivery, and include a clear CTA. The profile image prioritizes the official brand identity at small circular size.
+
 Source: Canva design `DEARBODY PLAYBOOK`, 12 pages, analyzed September 22, 2026.
 
 ## Brand Essence
@@ -179,3 +187,5 @@ When creating anything for Dear Body, start with this checklist:
 4. Are the brand colors, display/body font roles, and logo usage respected?
 5. Is the copy short, confident, and sensory?
 6. Does every lifestyle image feel warm, fun, light, active, and distinct to its scent?
+
+Owner CTA update, 25 September 2026: purchase creatives and narration use ORDER NOW, matching the owner-confirmed website button. Personality-discovery creatives use FIND YOUR SCENT. Preserve the free-shipping-on-2+-items condition and COD.

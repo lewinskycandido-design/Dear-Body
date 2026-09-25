@@ -1,0 +1,7 @@
+{"schema":"openai.presentation.layout/v5","unit":"px","slide":{"id":"sl/n85ww2","index":1,"layout":{"id":"ly/i54vuh0b","name":"Title Slide"},"backgroundColor":"rgba(244,227,203,1)","position":{"left":0,"top":0,"width":1280,"height":720}},
+"elements":[
+{"id":"sh/jqx0r2pw","kind":"textbox","position":{"left":62,"top":46,"width":1150,"height":110},"text":"A Scent Journey","style":{"fontSize":44,"typeface":"Cenzo Flare","color":"#5C0006","bold":true,"alignment":"left"},"geometry":"rect","lineWidth":0},
+{"id":"sh/kr6h07qh","kind":"textbox","position":{"left":62,"top":190,"width":670,"height":180},"text":"London-formulated fragrance culture\ncurated for Filipino everyday life.","style":{"fontSize":41,"typeface":"Helvetica Now Display","color":"#5C0006","alignment":"left"},"geometry":"rect","lineWidth":0},
+{"id":"sh/5sfitc72","kind":"textbox","position":{"left":62,"top":430,"width":650,"height":130},"text":"Premium and approachable.\nWarm, vibrant, confident and playful.","style":{"fontSize":30,"typeface":"Helvetica Now Display","color":"#210B08","alignment":"left"},"geometry":"rect","lineWidth":0},
+{"id":"im/za5kr61g","kind":"image","position":{"left":820,"top":164,"width":400,"height":400},"fit":"contain","alt":"output/website/upload-ready/shopify-gallery-order-2026-09-24/amber-oud-silk/08-dear-body-amber-oud-silk-editorial-lifestyle.png"}
+]}

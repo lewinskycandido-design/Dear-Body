@@ -1,0 +1,8 @@
+{"schema":"openai.presentation.layout/v5","unit":"px","slide":{"id":"sl/n1mqa2","index":26,"layout":{"id":"ly/i54vuh0b","name":"Title Slide"},"backgroundColor":"rgba(92,0,6,1)","position":{"left":0,"top":0,"width":1280,"height":720}},
+"elements":[
+{"id":"sh/qtg7q1gz","kind":"textbox","position":{"left":62,"top":46,"width":1150,"height":110},"text":"The production workflow","style":{"fontSize":44,"typeface":"Cenzo Flare","color":"#F4E3CB","bold":true,"alignment":"left"},"geometry":"rect","lineWidth":0},
+{"id":"sh/dgrqlwfa","kind":"textbox","position":{"left":62,"top":192,"width":1100,"height":95},"text":"Brief and verify the product evidence","style":{"fontSize":36,"typeface":"Helvetica Now Display","color":"#F4E3CB","alignment":"left"},"geometry":"rect","lineWidth":0},
+{"id":"sh/cfi9sry5","kind":"textbox","position":{"left":62,"top":302,"width":1100,"height":95},"text":"Map a distinct scene and create the photograph","style":{"fontSize":36,"typeface":"Helvetica Now Display","color":"#F4E3CB","alignment":"left"},"geometry":"rect","lineWidth":0},
+{"id":"sh/zi98n6xg","kind":"textbox","position":{"left":62,"top":412,"width":1100,"height":95},"text":"Preserve the product and add real typography","style":{"fontSize":36,"typeface":"Helvetica Now Display","color":"#F4E3CB","alignment":"left"},"geometry":"rect","lineWidth":0},
+{"id":"sh/yh0ru1wv","kind":"textbox","position":{"left":62,"top":522,"width":1100,"height":95},"text":"Review the output and hand off the sources","style":{"fontSize":36,"typeface":"Helvetica Now Display","color":"#F4E3CB","alignment":"left"},"geometry":"rect","lineWidth":0}
+]}

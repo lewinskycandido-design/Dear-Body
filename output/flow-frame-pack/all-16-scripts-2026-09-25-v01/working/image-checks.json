@@ -1,0 +1,528 @@
+{
+  "uniqueKeyframes": 58,
+  "numberedFrames": 101,
+  "keyMeta": [
+    {
+      "script": "01",
+      "key": "hero",
+      "file": "01-campaign-mojito-metallique/keyframes/hero.png",
+      "originalWidth": 941,
+      "originalHeight": 1672,
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "script": "02",
+      "key": "hero",
+      "file": "02-campaign-amber-oud-silk/keyframes/hero.png",
+      "originalWidth": 941,
+      "originalHeight": 1672,
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "script": "03",
+      "key": "hero",
+      "file": "03-campaign-mistened-narcissus/keyframes/hero.png",
+      "originalWidth": 941,
+      "originalHeight": 1672,
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "script": "04",
+      "key": "hero",
+      "file": "04-campaign-charme-envoutant/keyframes/hero.png",
+      "originalWidth": 941,
+      "originalHeight": 1672,
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "script": "05",
+      "key": "hero",
+      "file": "05-campaign-oud-mirage/keyframes/hero.png",
+      "originalWidth": 941,
+      "originalHeight": 1672,
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "script": "06",
+      "key": "hero",
+      "file": "06-campaign-rtulle-and-satin/keyframes/hero.png",
+      "originalWidth": 941,
+      "originalHeight": 1672,
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "script": "07",
+      "key": "open",
+      "file": "07-campaign-magnetic-cap/keyframes/open.png",
+      "originalWidth": 941,
+      "originalHeight": 1672,
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "script": "08",
+      "key": "hero",
+      "file": "08-campaign-collection/keyframes/hero.png",
+      "originalWidth": 941,
+      "originalHeight": 1672,
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "script": "09",
+      "key": "hero",
+      "file": "09-campaign-mission-vision/keyframes/hero.png",
+      "originalWidth": 941,
+      "originalHeight": 1672,
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "script": "10",
+      "key": "hero",
+      "file": "10-campaign-scent-personality/keyframes/hero.png",
+      "originalWidth": 941,
+      "originalHeight": 1672,
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "script": "11",
+      "key": "hero",
+      "file": "11-personality-mojito-metallique/keyframes/hero.png",
+      "originalWidth": 941,
+      "originalHeight": 1672,
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "script": "12",
+      "key": "hero",
+      "file": "12-personality-amber-oud-silk/keyframes/hero.png",
+      "originalWidth": 941,
+      "originalHeight": 1672,
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "script": "13",
+      "key": "hero",
+      "file": "13-personality-mistened-narcissus/keyframes/hero.png",
+      "originalWidth": 941,
+      "originalHeight": 1672,
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "script": "14",
+      "key": "hero",
+      "file": "14-personality-charme-envoutant/keyframes/hero.png",
+      "originalWidth": 941,
+      "originalHeight": 1672,
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "script": "15",
+      "key": "hero",
+      "file": "15-personality-oud-mirage/keyframes/hero.png",
+      "originalWidth": 941,
+      "originalHeight": 1672,
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "script": "16",
+      "key": "hero",
+      "file": "16-personality-rtulle-and-satin/keyframes/hero.png",
+      "originalWidth": 941,
+      "originalHeight": 1672,
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "script": "01",
+      "key": "detail",
+      "file": "01-campaign-mojito-metallique/keyframes/detail.png",
+      "originalWidth": 941,
+      "originalHeight": 1672,
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "script": "01",
+      "key": "context",
+      "file": "01-campaign-mojito-metallique/keyframes/context.png",
+      "originalWidth": 941,
+      "originalHeight": 1672,
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "script": "01",
+      "key": "label",
+      "file": "01-campaign-mojito-metallique/keyframes/label.png",
+      "originalWidth": 941,
+      "originalHeight": 1672,
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "script": "01",
+      "key": "pack",
+      "file": "01-campaign-mojito-metallique/keyframes/pack.png",
+      "originalWidth": 941,
+      "originalHeight": 1672,
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "script": "02",
+      "key": "detail",
+      "file": "02-campaign-amber-oud-silk/keyframes/detail.png",
+      "originalWidth": 941,
+      "originalHeight": 1672,
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "script": "02",
+      "key": "context",
+      "file": "02-campaign-amber-oud-silk/keyframes/context.png",
+      "originalWidth": 941,
+      "originalHeight": 1672,
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "script": "02",
+      "key": "label",
+      "file": "02-campaign-amber-oud-silk/keyframes/label.png",
+      "originalWidth": 941,
+      "originalHeight": 1672,
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "script": "02",
+      "key": "pack",
+      "file": "02-campaign-amber-oud-silk/keyframes/pack.png",
+      "originalWidth": 941,
+      "originalHeight": 1672,
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "script": "03",
+      "key": "detail",
+      "file": "03-campaign-mistened-narcissus/keyframes/detail.png",
+      "originalWidth": 941,
+      "originalHeight": 1672,
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "script": "03",
+      "key": "context",
+      "file": "03-campaign-mistened-narcissus/keyframes/context.png",
+      "originalWidth": 941,
+      "originalHeight": 1672,
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "script": "03",
+      "key": "label",
+      "file": "03-campaign-mistened-narcissus/keyframes/label.png",
+      "originalWidth": 941,
+      "originalHeight": 1672,
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "script": "03",
+      "key": "pack",
+      "file": "03-campaign-mistened-narcissus/keyframes/pack.png",
+      "originalWidth": 941,
+      "originalHeight": 1672,
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "script": "04",
+      "key": "detail",
+      "file": "04-campaign-charme-envoutant/keyframes/detail.png",
+      "originalWidth": 941,
+      "originalHeight": 1672,
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "script": "04",
+      "key": "context",
+      "file": "04-campaign-charme-envoutant/keyframes/context.png",
+      "originalWidth": 941,
+      "originalHeight": 1672,
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "script": "04",
+      "key": "label",
+      "file": "04-campaign-charme-envoutant/keyframes/label.png",
+      "originalWidth": 941,
+      "originalHeight": 1672,
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "script": "04",
+      "key": "pack",
+      "file": "04-campaign-charme-envoutant/keyframes/pack.png",
+      "originalWidth": 941,
+      "originalHeight": 1672,
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "script": "05",
+      "key": "detail",
+      "file": "05-campaign-oud-mirage/keyframes/detail.png",
+      "originalWidth": 941,
+      "originalHeight": 1672,
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "script": "05",
+      "key": "context",
+      "file": "05-campaign-oud-mirage/keyframes/context.png",
+      "originalWidth": 941,
+      "originalHeight": 1672,
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "script": "05",
+      "key": "label",
+      "file": "05-campaign-oud-mirage/keyframes/label.png",
+      "originalWidth": 941,
+      "originalHeight": 1672,
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "script": "05",
+      "key": "pack",
+      "file": "05-campaign-oud-mirage/keyframes/pack.png",
+      "originalWidth": 941,
+      "originalHeight": 1672,
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "script": "06",
+      "key": "detail",
+      "file": "06-campaign-rtulle-and-satin/keyframes/detail.png",
+      "originalWidth": 941,
+      "originalHeight": 1672,
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "script": "06",
+      "key": "context",
+      "file": "06-campaign-rtulle-and-satin/keyframes/context.png",
+      "originalWidth": 941,
+      "originalHeight": 1672,
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "script": "06",
+      "key": "label",
+      "file": "06-campaign-rtulle-and-satin/keyframes/label.png",
+      "originalWidth": 941,
+      "originalHeight": 1672,
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "script": "06",
+      "key": "pack",
+      "file": "06-campaign-rtulle-and-satin/keyframes/pack.png",
+      "originalWidth": 941,
+      "originalHeight": 1672,
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "script": "07",
+      "key": "closed",
+      "file": "07-campaign-magnetic-cap/keyframes/closed.png",
+      "originalWidth": 941,
+      "originalHeight": 1672,
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "script": "07",
+      "key": "closed-macro",
+      "file": "07-campaign-magnetic-cap/keyframes/closed-macro.png",
+      "originalWidth": 941,
+      "originalHeight": 1672,
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "script": "08",
+      "key": "canister",
+      "file": "08-campaign-collection/keyframes/canister.png",
+      "originalWidth": 941,
+      "originalHeight": 1672,
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "script": "08",
+      "key": "mojito",
+      "file": "08-campaign-collection/keyframes/mojito.png",
+      "originalWidth": 941,
+      "originalHeight": 1672,
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "script": "08",
+      "key": "amber",
+      "file": "08-campaign-collection/keyframes/amber.png",
+      "originalWidth": 941,
+      "originalHeight": 1672,
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "script": "08",
+      "key": "settled",
+      "file": "08-campaign-collection/keyframes/settled.png",
+      "originalWidth": 941,
+      "originalHeight": 1672,
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "script": "09",
+      "key": "detail",
+      "file": "09-campaign-mission-vision/keyframes/detail.png",
+      "originalWidth": 941,
+      "originalHeight": 1672,
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "script": "09",
+      "key": "amber",
+      "file": "09-campaign-mission-vision/keyframes/amber.png",
+      "originalWidth": 941,
+      "originalHeight": 1672,
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "script": "09",
+      "key": "charme",
+      "file": "09-campaign-mission-vision/keyframes/charme.png",
+      "originalWidth": 941,
+      "originalHeight": 1672,
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "script": "09",
+      "key": "notebook",
+      "file": "09-campaign-mission-vision/keyframes/notebook.png",
+      "originalWidth": 941,
+      "originalHeight": 1672,
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "script": "10",
+      "key": "mojito",
+      "file": "10-campaign-scent-personality/keyframes/mojito.png",
+      "originalWidth": 941,
+      "originalHeight": 1672,
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "script": "10",
+      "key": "oud",
+      "file": "10-campaign-scent-personality/keyframes/oud.png",
+      "originalWidth": 941,
+      "originalHeight": 1672,
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "script": "11",
+      "key": "label",
+      "file": "11-personality-mojito-metallique/keyframes/label.png",
+      "originalWidth": 941,
+      "originalHeight": 1672,
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "script": "12",
+      "key": "label",
+      "file": "12-personality-amber-oud-silk/keyframes/label.png",
+      "originalWidth": 941,
+      "originalHeight": 1672,
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "script": "13",
+      "key": "label",
+      "file": "13-personality-mistened-narcissus/keyframes/label.png",
+      "originalWidth": 941,
+      "originalHeight": 1672,
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "script": "14",
+      "key": "label",
+      "file": "14-personality-charme-envoutant/keyframes/label.png",
+      "originalWidth": 941,
+      "originalHeight": 1672,
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "script": "15",
+      "key": "label",
+      "file": "15-personality-oud-mirage/keyframes/label.png",
+      "originalWidth": 941,
+      "originalHeight": 1672,
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "script": "16",
+      "key": "label",
+      "file": "16-personality-rtulle-and-satin/keyframes/label.png",
+      "originalWidth": 941,
+      "originalHeight": 1672,
+      "width": 1080,
+      "height": 1920
+    }
+  ]
+}

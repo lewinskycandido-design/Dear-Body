@@ -1,0 +1,193 @@
+{
+  "schemaVersion": "presentation-finalization.v1",
+  "finalSha256": "d8602d9c3e279c0b0d33a9b9e196f754b844f6862e476a4e6e02783f6d8f6d6a",
+  "byteCount": 43201576,
+  "packageIntegrity": {
+    "chart_count": 0,
+    "claim_boundary": "Structural package checks only; no slide text, notes, formulas, chart values, or native PowerPoint execution were inspected.",
+    "finding_count": 0,
+    "findings": [],
+    "notes_parts_skipped": 31,
+    "relationship_part_count": 67,
+    "slide_count": 31,
+    "status": "pass",
+    "exitCode": 0,
+    "findingCount": 0,
+    "warnings": []
+  },
+  "presentationLayout": {
+    "finding_count": 0,
+    "findings": [],
+    "font_policy": {
+      "checked_text_script_count": 238,
+      "native_font_rendering_verified": false,
+      "observed_font_families": [
+        "Cenzo Flare",
+        "Helvetica Now Display",
+        "Helvetica Now Text"
+      ],
+      "observed_font_use_counts": {
+        "Cenzo Flare": 62,
+        "Helvetica Now Display": 73,
+        "Helvetica Now Text": 103
+      },
+      "passed": true,
+      "performed": true
+    },
+    "slide_count": 31,
+    "slide_size_in": [
+      13.3333,
+      7.5
+    ],
+    "warning_count": 0,
+    "warnings": [],
+    "exitCode": 0,
+    "findingCount": 0,
+    "fontPolicy": {
+      "checked_text_script_count": 238,
+      "native_font_rendering_verified": false,
+      "observed_font_families": [
+        "Cenzo Flare",
+        "Helvetica Now Display",
+        "Helvetica Now Text"
+      ],
+      "observed_font_use_counts": {
+        "Cenzo Flare": 62,
+        "Helvetica Now Display": 73,
+        "Helvetica Now Text": 103
+      },
+      "passed": true,
+      "performed": true
+    }
+  },
+  "fontSelection": {
+    "basis": "user_request",
+    "approvedFamilies": [
+      "Cenzo Flare",
+      "Helvetica Now Display",
+      "Helvetica Now Text"
+    ],
+    "scriptFonts": {},
+    "referenceSha256": null,
+    "referenceFontsVerifiedInEncodedText": false,
+    "checked_text_script_count": 238,
+    "native_font_rendering_verified": false,
+    "observed_font_families": [
+      "Cenzo Flare",
+      "Helvetica Now Display",
+      "Helvetica Now Text"
+    ],
+    "observed_font_use_counts": {
+      "Cenzo Flare": 62,
+      "Helvetica Now Display": 73,
+      "Helvetica Now Text": 103
+    },
+    "passed": true,
+    "performed": true
+  },
+  "firstPartyImport": {
+    "performed": true,
+    "passed": true,
+    "slideCount": 31,
+    "sha256": "d8602d9c3e279c0b0d33a9b9e196f754b844f6862e476a4e6e02783f6d8f6d6a",
+    "runtimeNodeModules": "C:/Users/lhemy/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules",
+    "nodeExecutable": "C:\\Users\\lhemy\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\node\\bin\\node.exe"
+  },
+  "nativeTableArithmetic": {
+    "performed": true,
+    "checked_column_count": 0,
+    "checks": [],
+    "claim_boundary": "Displayed-value arithmetic with rounding tolerance; not source-data verification.",
+    "eligible_table_count": 0,
+    "finding_count": 0,
+    "findings": [],
+    "native_table_count": 9,
+    "passed": true,
+    "schema_version": "presentation-native-table-arithmetic.v1",
+    "skipped_tables": [
+      {
+        "reason": "no_numeric_amounts",
+        "slide": 3,
+        "table": 1
+      },
+      {
+        "reason": "insufficient_rows",
+        "slide": 5,
+        "table": 1
+      },
+      {
+        "reason": "no_numeric_amounts",
+        "slide": 17,
+        "table": 1
+      },
+      {
+        "reason": "no_numeric_amounts",
+        "slide": 20,
+        "table": 1
+      },
+      {
+        "reason": "no_numeric_amounts",
+        "slide": 21,
+        "table": 1
+      },
+      {
+        "reason": "no_numeric_amounts",
+        "slide": 24,
+        "table": 1
+      },
+      {
+        "reason": "no_numeric_amounts",
+        "slide": 25,
+        "table": 1
+      },
+      {
+        "reason": "no_numeric_amounts",
+        "slide": 26,
+        "table": 1
+      },
+      {
+        "reason": "no_numeric_amounts",
+        "slide": 30,
+        "table": 1
+      }
+    ],
+    "slide_count": 31,
+    "warning_count": 0,
+    "warnings": []
+  },
+  "nativeChartTitles": {
+    "performed": true,
+    "checks": [],
+    "finding_count": 0,
+    "findings": [],
+    "native_chart_count": 0,
+    "native_powerpoint_verified": false,
+    "passed": true,
+    "presentation_sha256": "d8602d9c3e279c0b0d33a9b9e196f754b844f6862e476a4e6e02783f6d8f6d6a",
+    "schema_version": "presentation-native-chart-titles.v1",
+    "slide_count": 31,
+    "source_text_emitted": false,
+    "unresolved_linked_title_count": 0
+  },
+  "sourceDerivedPolicyFlags": [
+    "--expected-slide-size-emu",
+    "12192000,6858000",
+    "--validate-heading-fit",
+    "--cover-role",
+    "none",
+    "--approved-font-family",
+    "Cenzo Flare",
+    "--approved-font-family",
+    "Helvetica Now Display",
+    "--approved-font-family",
+    "Helvetica Now Text"
+  ],
+  "nativeChartValidation": {
+    "detectedOwnerSlides": [],
+    "detectedChartCount": 0,
+    "targetApplication": null,
+    "sourceChartOwnersExplicitlyDeclared": false,
+    "validatorRan": false,
+    "passed": true
+  }
+}

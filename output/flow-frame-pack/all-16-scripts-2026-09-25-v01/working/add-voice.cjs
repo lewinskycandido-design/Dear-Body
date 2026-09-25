@@ -1,0 +1,13 @@
+const fs=require('fs'),path=require('path');
+const root=path.resolve(__dirname,'..'),f=path.join(root,'working/build-pack.cjs');
+let t=fs.readFileSync(f,'utf8');
+t=t.replace('<a href="START-HERE.md">Full instructions & special edits</a>','<a href="VOICE-IDENTITY.html">Voice identity & copyable prompt</a> · <a href="START-HERE.md">Full instructions & special edits</a>');
+t=t.replace("'<p><b>CTA:</b> '+esc(s.cta)+'</p>","'<p><b>CTA:</b> '+esc(s.cta)+'</p>");
+t=t.replace("esc(s.cta)+'</p><div", "esc(s.cta)+'</p><p><b>Voice direction:</b> '+esc(s.voiceDirection)+'</p><div");
+fs.writeFileSync(f,t);
+const v=JSON.parse(fs.readFileSync(path.join(root,'voice-identity.json')));
+const esc=s=>s.replace(/&/g,'&amp;').replace(/</g,'&lt;');
+const fields=['person','tone','personality','language','pace','performance','cta','avoid'];
+fs.writeFileSync(path.join(root,'VOICE-IDENTITY.html'),'<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Dear Body voice identity</title><style>@font-face{font-family:Cenzo;src:url("assets/CenzoFlare-Bold.woff2")}@font-face{font-family:H;src:url("assets/HelveticaNowDisplay-Light.woff2")}body{max-width:900px;margin:40px auto;padding:20px;background:#fff2d9;color:#551d15;font:20px/1.5 H,Arial}h1{font:56px/1 Cenzo}h2{font:28px Cenzo}a{color:#a82b1b}textarea{box-sizing:border-box;width:100%;height:300px;padding:20px;font:17px/1.5 H;background:#fffaf0;border:1px solid #b56636}button{background:#a52b1d;color:#fff3da;padding:12px 20px;border:0;font:20px H;cursor:pointer}dt{font:25px Cenzo;margin-top:22px}dd{margin:5px 0 0}</style></head><body><a href="storyboard.html">← All 16 storyboards</a><h1>The warm<br>creative friend.</h1><p>A consistent voice for Dear Body’s campaign and personality videos.</p><dl>'+fields.map(k=>'<dt>'+k.charAt(0).toUpperCase()+k.slice(1)+'</dt><dd>'+esc(v[k])+'</dd>').join('')+'</dl><h2>Copy the voice identity</h2><textarea id="prompt" readonly>'+esc(v.masterPrompt)+'</textarea><button onclick="const t=document.getElementById(\'prompt\');t.select();navigator.clipboard.writeText(t.value).then(()=>this.textContent=\'Copied\').catch(()=>document.execCommand(\'copy\'))">Copy voice prompt</button><p>Use the same narrator or selected voice throughout the series. Record each full script as one continuous take, then align it to the supplied timings. This file is a casting and performance brief; it does not contain audio.</p><h2>Delivery across the 16 scripts</h2>'+Object.entries(v.scriptDirections).map(([id,d])=>'<p><b>Script '+id+'</b> · '+esc(d)+'</p>').join('')+'</body></html>');
+console.log('Added voice identity to every script and linked the readable voice guide.');
+

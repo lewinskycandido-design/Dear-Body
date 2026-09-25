@@ -1,0 +1,536 @@
+[
+  {
+    "id": "01",
+    "slug": "mojito-metallique",
+    "scent": "Mojito Metallique",
+    "title": "Out the pouch, into the playlist",
+    "objective": "Make the bottle an immediately recognizable part of a colorful getting-ready moment, then prompt a two-item order.",
+    "casting": "One adult Filipino woman. White/cream label women's bottle. Hands, arms and torso only; no heads, faces, partial faces, reflected faces or background people.",
+    "description": "Soft, creamy sweetness with a light fruity glow.",
+    "scene": "Tight waist-level crop of an adult Filipina wearing a golden-yellow ribbed top and dark denim. A red canvas pouch sits across her lap; blue headphones touch the lower-right corner. The entire story happens in her hands. A coral wall and yellow fabric keep the frame warm and graphic.",
+    "styling": "Golden-yellow ribbed cotton, dark blue denim, coral manicure and one amber bangle. Keep shoulders, neck, face and head outside every shot.",
+    "props": "Correct capped Mojito bottle; red canvas crossbody pouch; one blue headphone set. No fruit, cocktail, mint or lime props based on the scent name.",
+    "lighting": "Use direct side daylight and a white bounce near the label. Preserve golden liquid and natural skin. Flag the black cap so it has one controlled highlight.",
+    "camera": "Shoot vertical from waist height, angled slightly downward. Use a normal or short telephoto view rather than a close wide-angle lens. Lock the hero crop with the whole bottle centered; no camera tilt above the chest.",
+    "performance": "Open the pouch, lift the bottle by its body and steady its base, then turn it only enough to show the label. A gentle headphone tap provides playful movement. Do not suspend the real bottle by its cap.",
+    "sound": "A licensed upbeat instrumental, a clean zip sound, cotton rustle and one headphone tap. Keep voiceover forward and clear.",
+    "shots": [
+      [
+        "00–04",
+        "Start with the full bottle upright just above the open red pouch. The left hand steadies its base while the right hand opens the zip; label visible from frame one.",
+        "Locked tight crop, full bottle readable from the first frame.",
+        "Gusto ng sweet scent, pero hindi alam saan magsisimula?",
+        "SWEET SCENT? / START HERE"
+      ],
+      [
+        "04–07",
+        "Cut to the free hand tapping the blue headphone earcup once. Keep the bottle in the upper part of the same crop.",
+        "Detail insert matched to the same hand position; keep a product cue visible.",
+        "Try ang Mojito Metallique ng Dear Body.",
+        "MOJITO METALLIQUE"
+      ],
+      [
+        "07–11",
+        "Slide the red pouch strap diagonally across the denim, creating a quick graphic transition; keep camera pointed at the lap.",
+        "Small controlled movement within the lap/torso frame; no upward tilt.",
+        "Soft at creamy ang sweetness, may light fruity glow.",
+        "Soft, creamy sweetness with a light fruity glow."
+      ],
+      [
+        "11–16",
+        "Return to the full bottle in one hand. Rotate it a few degrees toward the sun, then stop with MOJITO METALLIQUE square to the lens.",
+        "Locked label close-up. Full cap and base remain inside frame.",
+        "Para sa friendly, easygoing, at lighthearted na personality.",
+        "FRIENDLY · EASYGOING · LIGHTHEARTED"
+      ],
+      [
+        "16–23",
+        "Hold a crisp close-up of bottle, coral nails and yellow ribbing. Move the fill card instead of rotating the label away.",
+        "Slow 3–5 cm push or static shot, label in focus, no added ingredients.",
+        "May magnetic cap na nagki-click, pantakip sa spray nozzle. Puwedeng i-collect at i-display.",
+        "MAGNETIC CAP / COLLECT & DISPLAY"
+      ],
+      [
+        "23–27",
+        "Lower the bottle into the pouch while supporting the glass body, leaving the label visible above the open zip until the cut.",
+        "Torso-down or top-down action; cut before the bottle is concealed.",
+        "Free shipping sa two items or more.",
+        "FREE SHIPPING / ON 2+ ITEMS"
+      ],
+      [
+        "27–34",
+        "Return to the cleanest bottle-and-pouch hero. Hold the final composition still for at least three seconds.",
+        "Locked hero still, typography beside the bottle, final three seconds motionless.",
+        "May cash on delivery din. Bagay sa vibe mo? Tap Order Now.",
+        "ORDER NOW / FREE SHIPPING ON 2+ ITEMS / CASH ON DELIVERY"
+      ]
+    ],
+    "caption": "Free shipping on 2+ items. Cash on delivery available.\n\nOut the pouch, into the playlist. Mojito Metallique — Soft, creamy sweetness with a light fruity glow.\n\nChoose your scents, add at least two items and tap Order Now.\n#DearBodyPH #AScentJourney",
+    "short": "Short-edit direction: keep the opening question, the named scent and approved scent description, then one CTA. Keep free shipping on 2+ items and COD readable on screen. Re-time to the recorded narration; do not compress all product details into a rushed 15-second read.",
+    "still": "Photograph the bottle just above the pouch, supported at its body, with yellow ribbing, denim and a single headphone earcup. Reserve upper-right fabric for the offer sticker and the bottom edge for the name and CTA. No face, neck or chin in the crop.",
+    "test": "Compare a pouch-opening first frame with a headphone-tap first frame. Keep the opening question, product, audience and remaining edit fixed.",
+    "continuity": "Match zip opening, headphone position, bangle orientation, bottle fill and coral nails. Keep fingers clear of METALLIQUE.",
+    "actions": [
+      "Start with the full bottle upright just above the open red pouch. The left hand steadies its base while the right hand opens the zip; label visible from frame one.",
+      "Cut to the free hand tapping the blue headphone earcup once. Keep the bottle in the upper part of the same crop.",
+      "Slide the red pouch strap diagonally across the denim, creating a quick graphic transition; keep camera pointed at the lap.",
+      "Return to the full bottle in one hand. Rotate it a few degrees toward the sun, then stop with MOJITO METALLIQUE square to the lens.",
+      "Hold a crisp close-up of bottle, coral nails and yellow ribbing. Move the fill card instead of rotating the label away.",
+      "Lower the bottle into the pouch while supporting the glass body, leaving the label visible above the open zip until the cut.",
+      "Return to the cleanest bottle-and-pouch hero. Hold the final composition still for at least three seconds."
+    ],
+    "hook": "Playlist ready. Little details, ready. Tara.",
+    "close": "Your scent moment, before the next track.",
+    "adStrategy": {
+      "framework": "Buyer question → relevant scent or product answer → specific details → offer → CTA",
+      "buyerQuestion": "Gusto ng sweet scent, pero hindi alam saan magsisimula?",
+      "reasonToConsider": "Soft, creamy sweetness with a light fruity glow. An option for someone drawn to a friendly, easygoing, at lighthearted personality.",
+      "performanceStatus": "Creative hypothesis to test; no ad results yet."
+    }
+  },
+  {
+    "id": "02",
+    "slug": "amber-oud-silk",
+    "scent": "Amber Oud Silk",
+    "title": "Your finishing detail",
+    "objective": "Introduce Amber Oud Silk through a personal getting-ready ritual with an expressive orange and burgundy palette.",
+    "casting": "One adult Filipino woman. White/cream label women's bottle. Hands, arms and torso only; no heads, faces, partial faces, reflected faces or background people.",
+    "description": "Dark spice and smoke with a warm, addictive edge.",
+    "scene": "An overhead view of a glossy tangerine chair seat. A burgundy beauty pouch is open, with a closed cream compact and one coral cosmetic tube inside. A Filipina's peach sleeve enters as her hand lifts the perfume. One cropped iced drink may sit well away from the product.",
+    "styling": "Peach cotton sleeve, natural coral nails and one delicate plain chain ring. Warm orange and burgundy dominate; cream gives the label space.",
+    "props": "Correct capped Amber bottle, burgundy pouch, closed compact, coral hair ribbon, one cosmetic tube. All accessories unbranded and the compact closed to avoid a reflected face.",
+    "lighting": "Strong window or open-shade sunlight with a small bounce into the label. Keep pale-peach liquid light and transparent, not yellow or red.",
+    "camera": "Overhead to 45-degree top-down close-ups. Show hand, sleeve and chair seat only. Keep the product in the same focal plane as the pouch opening; no mirror views.",
+    "performance": "Reach, lift, settle. Use small natural wrist movements and let the ribbon supply secondary movement. Keep the bottle upright and fingers beneath its name.",
+    "sound": "A light licensed groove, soft pouch zip, compact closing sound and fabric movement. Avoid heavy cinematic perfume sound design.",
+    "shots": [
+      [
+        "00–04",
+        "Open on the bottle already held above the orange seat; the burgundy pouch frames it and the shipping offer appears immediately.",
+        "Locked tight crop, full bottle readable from the first frame.",
+        "Naghahanap ng warm scent na may spice at smoke?",
+        "WARM SCENT? / SPICE & SMOKE"
+      ],
+      [
+        "04–07",
+        "The free hand closes the cream compact and slides it into the pouch. Keep the perfume label visible beside it.",
+        "Detail insert matched to the same hand position; keep a product cue visible.",
+        "Try ang Amber Oud Silk ng Dear Body.",
+        "AMBER OUD SILK"
+      ],
+      [
+        "07–11",
+        "Pull the coral ribbon into a small loose curve, then release it so it lands naturally on the chair.",
+        "Small controlled movement within the lap/torso frame; no upward tilt.",
+        "Dark spice at smoke, may warm, addictive edge.",
+        "Dark spice and smoke with a warm, addictive edge."
+      ],
+      [
+        "11–16",
+        "Move closer to the bottle in her hand. Let the cap catch a single bright highlight and hold the name steady.",
+        "Locked label close-up. Full cap and base remain inside frame.",
+        "Para sa bold, warm, at self-assured na personality.",
+        "BOLD · WARM · SELF-ASSURED"
+      ],
+      [
+        "16–23",
+        "Hold the Amber label and pale-peach liquid in focus against burgundy fabric; keep the supporting fingers low.",
+        "Slow 3–5 cm push or static shot, label in focus, no added ingredients.",
+        "May magnetic cap na nagki-click, pantakip sa spray nozzle. Puwedeng i-collect at i-display.",
+        "MAGNETIC CAP / COLLECT & DISPLAY"
+      ],
+      [
+        "23–27",
+        "Slide the bottle beside the pouch, then bring the free hand into frame to collect the ribbon. Do not close a bag on exposed glass.",
+        "Torso-down or top-down action; cut before the bottle is concealed.",
+        "Free shipping sa two items or more.",
+        "FREE SHIPPING / ON 2+ ITEMS"
+      ],
+      [
+        "27–34",
+        "Use the clean bottle-in-hand hero for the ending, with enough orange surface for the CTA.",
+        "Locked hero still, typography beside the bottle, final three seconds motionless.",
+        "May cash on delivery din. Bagay sa vibe mo? Tap Order Now.",
+        "ORDER NOW / FREE SHIPPING ON 2+ ITEMS / CASH ON DELIVERY"
+      ]
+    ],
+    "caption": "Free shipping on 2+ items. Cash on delivery available.\n\nYour finishing detail. Amber Oud Silk — Dark spice and smoke with a warm, addictive edge.\n\nChoose your scents, add at least two items and tap Order Now.\n#DearBodyPH #AScentJourney",
+    "short": "Short-edit direction: keep the opening question, the named scent and approved scent description, then one CTA. Keep free shipping on 2+ items and COD readable on screen. Re-time to the recorded narration; do not compress all product details into a rushed 15-second read.",
+    "still": "Use the overhead bottle-in-hand pose above the orange chair. Keep the compact closed, the ribbon to one side and the product unobstructed. Offer at upper left; no face anywhere.",
+    "test": "Compare a ribbon-drop opening with a pouch-unzip opening. Keep the offer, bottle size and rest of the edit constant.",
+    "continuity": "Keep the pouch lining burgundy, the compact closed and the cosmetic tube in the same position. Check that fingers never hide SILK.",
+    "actions": [
+      "Open on the bottle already held above the orange seat; the burgundy pouch frames it and the shipping offer appears immediately.",
+      "The free hand closes the cream compact and slides it into the pouch. Keep the perfume label visible beside it.",
+      "Pull the coral ribbon into a small loose curve, then release it so it lands naturally on the chair.",
+      "Move closer to the bottle in her hand. Let the cap catch a single bright highlight and hold the name steady.",
+      "Hold the Amber label and pale-peach liquid in focus against burgundy fabric; keep the supporting fingers low.",
+      "Slide the bottle beside the pouch, then bring the free hand into frame to collect the ribbon. Do not close a bag on exposed glass.",
+      "Use the clean bottle-in-hand hero for the ending, with enough orange surface for the CTA."
+    ],
+    "hook": "Outfit ready. Add your finishing detail.",
+    "close": "A little moment before heading out.",
+    "adStrategy": {
+      "framework": "Buyer question → relevant scent or product answer → specific details → offer → CTA",
+      "buyerQuestion": "Naghahanap ng warm scent na may spice at smoke?",
+      "reasonToConsider": "Dark spice and smoke with a warm, addictive edge. An option for someone drawn to a bold, warm, at self-assured personality.",
+      "performanceStatus": "Creative hypothesis to test; no ad results yet."
+    }
+  },
+  {
+    "id": "03",
+    "slug": "mistened-narcissus",
+    "scent": "Mistened Narcissus",
+    "title": "Ready, lace, go",
+    "objective": "Connect Mistened Narcissus with a playful personal-style moment beside the skates, while clearly introducing the scent.",
+    "casting": "One adult Filipino woman. White/cream label women's bottle. Hands, arms and torso only; no heads, faces, partial faces, reflected faces or background people.",
+    "description": "Juicy berries softened by a smooth, sweet finish.",
+    "scene": "A sunny yellow bench with a coral backrest. A Filipina sits in cream trousers and a lilac sleeve; only her lap and hands appear. A coral roller skate rests at the right edge with cream laces. Perfume is a getting-ready detail before activity.",
+    "styling": "Lilac cuff, cream trousers, coral nails and a woven orange wrist strap. Keep all framing below the chest; use no mirrored rink walls.",
+    "props": "Correct capped Mistened bottle, one visible coral skate, yellow bench. No berry or confectionery props added to imply extra notes.",
+    "lighting": "Direct sun angled across the yellow bench with soft white fill on the label. Keep the nearly clear liquid neutral and the lilac sleeve true to color.",
+    "camera": "Top-down lap shot with one label close-up and one lace detail. Set the frame before the performer sits; crop out neck and chin even when she leans forward.",
+    "performance": "Use deliberate lace tightening and gentle hand movement. Hold the perfume safely while seated, then set it down before finishing the lace. No skating while holding glass.",
+    "sound": "Licensed bouncy instrumental, lace pull and one wheel turn recorded while the skate is stationary.",
+    "shots": [
+      [
+        "00–04",
+        "Begin with the bottle steady in the left hand above cream trousers, skate at right, free-shipping copy immediately readable.",
+        "Locked tight crop, full bottle readable from the first frame.",
+        "Hirap pumili ng fruity scent na may sweet finish?",
+        "FRUITY SCENT? / SWEET FINISH"
+      ],
+      [
+        "04–07",
+        "Cut to the right hand gently gathering a lace end; the perfume stays upright at the left side of the frame.",
+        "Detail insert matched to the same hand position; keep a product cue visible.",
+        "Try ang Mistened Narcissus ng Dear Body.",
+        "MISTENED NARCISSUS"
+      ],
+      [
+        "07–11",
+        "Turn one skate wheel with a fingertip, then stop it. Keep the bottle on the bench within the same crop.",
+        "Small controlled movement within the lap/torso frame; no upward tilt.",
+        "Juicy berries na may smooth at sweet na finish.",
+        "Juicy berries softened by a smooth, sweet finish."
+      ],
+      [
+        "11–16",
+        "Lift the bottle from the bench and settle it square to camera. Focus on MISTENED NARCISSUS.",
+        "Locked label close-up. Full cap and base remain inside frame.",
+        "Para sa cheerful, playful, at openhearted na personality.",
+        "CHEERFUL · PLAYFUL · OPENHEARTED"
+      ],
+      [
+        "16–23",
+        "Hold a clean product close-up with lilac cuff and coral nails. Use the approved scent sentence as the only descriptive claim.",
+        "Slow 3–5 cm push or static shot, label in focus, no added ingredients.",
+        "May magnetic cap na nagki-click, pantakip sa spray nozzle. Puwedeng i-collect at i-display.",
+        "MAGNETIC CAP / COLLECT & DISPLAY"
+      ],
+      [
+        "23–27",
+        "Set the capped bottle into its nearby pouch out of the skate's path; finish tightening the lace with both hands.",
+        "Torso-down or top-down action; cut before the bottle is concealed.",
+        "Free shipping sa two items or more.",
+        "FREE SHIPPING / ON 2+ ITEMS"
+      ],
+      [
+        "27–34",
+        "Return to a separate hero take with the bottle in hand and the stationary skate at the edge. Hold the CTA.",
+        "Locked hero still, typography beside the bottle, final three seconds motionless.",
+        "May cash on delivery din. Bagay sa vibe mo? Tap Order Now.",
+        "ORDER NOW / FREE SHIPPING ON 2+ ITEMS / CASH ON DELIVERY"
+      ]
+    ],
+    "caption": "Free shipping on 2+ items. Cash on delivery available.\n\nReady, lace, go. Mistened Narcissus — Juicy berries softened by a smooth, sweet finish.\n\nChoose your scents, add at least two items and tap Order Now.\n#DearBodyPH #AScentJourney",
+    "short": "Short-edit direction: keep the opening question, the named scent and approved scent description, then one CTA. Keep free shipping on 2+ items and COD readable on screen. Re-time to the recorded narration; do not compress all product details into a rushed 15-second read.",
+    "still": "Use the label hold over cream trousers with yellow bench and coral skate. Keep the entire cap and base inside the frame. Place the offer above the bottle in the coral field.",
+    "test": "Compare a first-frame wheel turn with a first-frame lace pull; retain the same bottle hero, shipping condition and final CTA.",
+    "continuity": "Match lace tension, wheel position, wrist strap and cuff. Keep NARCISSUS visible and the skate stationary around the glass.",
+    "actions": [
+      "Begin with the bottle steady in the left hand above cream trousers, skate at right, free-shipping copy immediately readable.",
+      "Cut to the right hand gently gathering a lace end; the perfume stays upright at the left side of the frame.",
+      "Turn one skate wheel with a fingertip, then stop it. Keep the bottle on the bench within the same crop.",
+      "Lift the bottle from the bench and settle it square to camera. Focus on MISTENED NARCISSUS.",
+      "Hold a clean product close-up with lilac cuff and coral nails. Use the approved scent sentence as the only descriptive claim.",
+      "Set the capped bottle into its nearby pouch out of the skate's path; finish tightening the lace with both hands.",
+      "Return to a separate hero take with the bottle in hand and the stationary skate at the edge. Hold the CTA."
+    ],
+    "hook": "Laces ready. Color ready. Your little scent moment.",
+    "close": "Then, make room for a little play.",
+    "adStrategy": {
+      "framework": "Buyer question → relevant scent or product answer → specific details → offer → CTA",
+      "buyerQuestion": "Hirap pumili ng fruity scent na may sweet finish?",
+      "reasonToConsider": "Juicy berries softened by a smooth, sweet finish. An option for someone drawn to a cheerful, playful, at openhearted personality.",
+      "performanceStatus": "Creative hypothesis to test; no ad results yet."
+    }
+  },
+  {
+    "id": "04",
+    "slug": "charme-envoutant",
+    "scent": "Charme Envoûtant",
+    "title": "The sunny stop",
+    "objective": "Introduce Charme Envoûtant in a warm street-style pause using clothing, hand movement and the red scooter as texture.",
+    "casting": "One adult Filipino man. Black label men's bottle. Hands, arms and torso only; no heads, faces, partial faces, reflected faces or background people.",
+    "description": "Rich, spiced sweetness that feels deep and indulgent.",
+    "scene": "Close waist-and-hand crop of an adult Filipino man beside a parked cherry-red scooter. He wears a burnt-orange overshirt over a cream tee and light trousers. A burgundy strap and small chrome rail provide shape; a red wall fills the background.",
+    "styling": "Burnt-orange cotton, cream tee and trousers, natural short nails. Crop below collarbones, never include a chin or mouth.",
+    "props": "Correct capped Charme bottle; parked scooter side panel; burgundy bag strap. Keep the scooter unbranded, still and switched off.",
+    "lighting": "Warm direct sunlight plus bounce to separate the black label from the orange liquid. Control the chrome reflection so no crew or faces appear.",
+    "camera": "Waist-height close-up at a slight downward angle; move only sideways for a short reveal. Avoid tilting up or using a wide mirror-heavy angle.",
+    "performance": "Adjust the strap, pick up the bottle by the glass body, then settle beside the scooter. Hands should look relaxed rather than posed for power or status.",
+    "sound": "Licensed warm rhythmic track, cotton movement and a small strap-buckle sound. No engine start is needed for this stationary scene.",
+    "shots": [
+      [
+        "00–04",
+        "Start with the bottle already upright in his hand in front of the red scooter panel. Shipping offer appears on the quiet wall above.",
+        "Locked tight crop, full bottle readable from the first frame.",
+        "Gusto ng sweet scent na may mas rich na dating?",
+        "SWEET SCENT? / RICH & SPICED"
+      ],
+      [
+        "04–07",
+        "The free hand adjusts the burgundy strap while the bottle remains label-forward.",
+        "Detail insert matched to the same hand position; keep a product cue visible.",
+        "Try ang Charme Envoûtant ng Dear Body.",
+        "CHARME ENVOÛTANT"
+      ],
+      [
+        "07–11",
+        "Move sideways a few centimeters to reveal the chrome rail and orange overshirt. Keep the crop below the chest.",
+        "Small controlled movement within the lap/torso frame; no upward tilt.",
+        "Rich, spiced sweetness na deep at indulgent ang dating.",
+        "Rich, spiced sweetness that feels deep and indulgent."
+      ],
+      [
+        "11–16",
+        "Push in to the name, preserving the exact CHARME ENVOÛTANT spelling and accent.",
+        "Locked label close-up. Full cap and base remain inside frame.",
+        "Para sa expressive, passionate, at confident na personality.",
+        "EXPRESSIVE · PASSIONATE · CONFIDENT"
+      ],
+      [
+        "16–23",
+        "Hold the black label and warm orange-amber liquid against the cream tee. Let one sunlight reflection move on the glass.",
+        "Slow 3–5 cm push or static shot, label in focus, no added ingredients.",
+        "May magnetic cap na nagki-click, pantakip sa spray nozzle. Puwedeng i-collect at i-display.",
+        "MAGNETIC CAP / COLLECT & DISPLAY"
+      ],
+      [
+        "23–27",
+        "Lower the bottle slightly and settle the bag strap; keep the glass body supported and scooter stationary.",
+        "Torso-down or top-down action; cut before the bottle is concealed.",
+        "Free shipping sa two items or more.",
+        "FREE SHIPPING / ON 2+ ITEMS"
+      ],
+      [
+        "27–34",
+        "Return to the hero crop beside the red panel. End on a steady bottle with the CTA.",
+        "Locked hero still, typography beside the bottle, final three seconds motionless.",
+        "May cash on delivery din. Bagay sa vibe mo? Tap Order Now.",
+        "ORDER NOW / FREE SHIPPING ON 2+ ITEMS / CASH ON DELIVERY"
+      ]
+    ],
+    "caption": "Free shipping on 2+ items. Cash on delivery available.\n\nThe sunny stop. Charme Envoûtant — Rich, spiced sweetness that feels deep and indulgent.\n\nChoose your scents, add at least two items and tap Order Now.\n#DearBodyPH #AScentJourney",
+    "short": "Short-edit direction: keep the opening question, the named scent and approved scent description, then one CTA. Keep free shipping on 2+ items and COD readable on screen. Re-time to the recorded narration; do not compress all product details into a rushed 15-second read.",
+    "still": "Photograph the hand holding the full bottle beside the scooter's red body and chrome rail. Offer above left; cream tee and orange sleeve frame the bottle. No face or mirror reflection.",
+    "test": "Compare a strap-adjustment opening with a chrome-and-bottle reveal. Keep every claim and later shot fixed.",
+    "continuity": "Maintain the strap angle, sleeve roll and scooter position. Check the circumflex in ENVOÛTANT and keep fingers below the lettering.",
+    "actions": [
+      "Start with the bottle already upright in his hand in front of the red scooter panel. Shipping offer appears on the quiet wall above.",
+      "The free hand adjusts the burgundy strap while the bottle remains label-forward.",
+      "Move sideways a few centimeters to reveal the chrome rail and orange overshirt. Keep the crop below the chest.",
+      "Push in to the name, preserving the exact CHARME ENVOÛTANT spelling and accent.",
+      "Hold the black label and warm orange-amber liquid against the cream tee. Let one sunlight reflection move on the glass.",
+      "Lower the bottle slightly and settle the bag strap; keep the glass body supported and scooter stationary.",
+      "Return to the hero crop beside the red panel. End on a steady bottle with the CTA."
+    ],
+    "hook": "A sunny stop. A little personal style.",
+    "close": "Make the little details yours.",
+    "adStrategy": {
+      "framework": "Buyer question → relevant scent or product answer → specific details → offer → CTA",
+      "buyerQuestion": "Gusto ng sweet scent na may mas rich na dating?",
+      "reasonToConsider": "Rich, spiced sweetness that feels deep and indulgent. An option for someone drawn to a expressive, passionate, at confident personality.",
+      "performanceStatus": "Creative hypothesis to test; no ad results yet."
+    }
+  },
+  {
+    "id": "05",
+    "slug": "oud-mirage",
+    "scent": "Oud Mirage",
+    "title": "Your courtside chapter",
+    "objective": "Introduce Oud Mirage through a colorful, relaxed courtside still moment with a clear product hold.",
+    "casting": "One adult Filipino man. Black label men's bottle. Hands, arms and torso only; no heads, faces, partial faces, reflected faces or background people.",
+    "description": "Dark rose wrapped in smoky, woody depth.",
+    "scene": "A Filipino man sits beside an orange court wall in a burgundy mesh jersey and matching shorts. Only torso, lap and hands appear. A cobalt bag sits beside him and the cropped edge of a basketball enters the foreground. The fragrance moment takes place before play, without sweat or deodorant claims.",
+    "styling": "Burgundy jersey with cream trim, natural short nails, clean dry hands. No head, neck, face fragments or other players in the frame.",
+    "props": "Correct capped Oud bottle, cobalt canvas bag, basketball at the edge. Keep props stationary during the glass close-up.",
+    "lighting": "Sunlight with a broad soft bounce to retain texture on the black label. Blue liquid remains blue; avoid grading the whole frame cyan.",
+    "camera": "Seated torso-down crop at hand height, tight enough to exclude the jersey neckline. Use a locked shot for the black label and one bag-detail cutaway.",
+    "performance": "Place the ball beside the bench, lift the bottle out of the bag and rotate it gently toward camera. Do not bounce a ball while holding the bottle.",
+    "sound": "Licensed understated groove; record one separate ball bounce and a bag zip. The bounce can start the sequence before the product hold, never imply a fragrance performance benefit.",
+    "shots": [
+      [
+        "00–04",
+        "Open with the blue bottle steady in his hand against the burgundy jersey. Display the shipping offer immediately.",
+        "Locked tight crop, full bottle readable from the first frame.",
+        "Rose ang gusto mo, pero may smoky depth sana?",
+        "ROSE, WITH DEPTH? / SMOKY & WOODY"
+      ],
+      [
+        "04–07",
+        "Cut to the cobalt bag zip opening. Keep the perfume in a steady supported hold at the edge.",
+        "Detail insert matched to the same hand position; keep a product cue visible.",
+        "Try ang Oud Mirage ng Dear Body.",
+        "OUD MIRAGE"
+      ],
+      [
+        "07–11",
+        "Place the basketball into the foreground as a separate controlled take; no rolling ball near the bottle.",
+        "Small controlled movement within the lap/torso frame; no upward tilt.",
+        "Dark rose na balot sa smoky, woody depth.",
+        "Dark rose wrapped in smoky, woody depth."
+      ],
+      [
+        "11–16",
+        "Tighten to the full bottle and exact OUD MIRAGE name, with cap and base intact.",
+        "Locked label close-up. Full cap and base remain inside frame.",
+        "Para sa independent, reflective, at self-assured na personality.",
+        "INDEPENDENT · REFLECTIVE · SELF-ASSURED"
+      ],
+      [
+        "16–23",
+        "Hold the blue liquid and black label in crisp focus against warm orange and burgundy.",
+        "Slow 3–5 cm push or static shot, label in focus, no added ingredients.",
+        "May magnetic cap na nagki-click, pantakip sa spray nozzle. Puwedeng i-collect at i-display.",
+        "MAGNETIC CAP / COLLECT & DISPLAY"
+      ],
+      [
+        "23–27",
+        "Move the bottle toward the open bag without hiding its name, then cut before it leaves the frame.",
+        "Torso-down or top-down action; cut before the bottle is concealed.",
+        "Free shipping sa two items or more.",
+        "FREE SHIPPING / ON 2+ ITEMS"
+      ],
+      [
+        "27–34",
+        "Return to the bottle, bag and jersey hero. Hold the final offer and CTA.",
+        "Locked hero still, typography beside the bottle, final three seconds motionless.",
+        "May cash on delivery din. Bagay sa vibe mo? Tap Order Now.",
+        "ORDER NOW / FREE SHIPPING ON 2+ ITEMS / CASH ON DELIVERY"
+      ]
+    ],
+    "caption": "Free shipping on 2+ items. Cash on delivery available.\n\nYour courtside chapter. Oud Mirage — Dark rose wrapped in smoky, woody depth.\n\nChoose your scents, add at least two items and tap Order Now.\n#DearBodyPH #AScentJourney",
+    "short": "Short-edit direction: keep the opening question, the named scent and approved scent description, then one CTA. Keep free shipping on 2+ items and COD readable on screen. Re-time to the recorded narration; do not compress all product details into a rushed 15-second read.",
+    "still": "Use the supported bottle at center, cobalt bag right and a basketball edge low left. Leave upper-left jersey or wall for the offer. No face or neck; no sweaty appearance.",
+    "test": "Compare a bag-zip opening with a stationary ball-and-bottle opening. Keep the product claim and CTA identical.",
+    "continuity": "Match bag zipper, jersey fold, ball position and bottle fill. Keep the black label readable against the dark jersey.",
+    "actions": [
+      "Open with the blue bottle steady in his hand against the burgundy jersey. Display the shipping offer immediately.",
+      "Cut to the cobalt bag zip opening. Keep the perfume in a steady supported hold at the edge.",
+      "Place the basketball into the foreground as a separate controlled take; no rolling ball near the bottle.",
+      "Tighten to the full bottle and exact OUD MIRAGE name, with cap and base intact.",
+      "Hold the blue liquid and black label in crisp focus against warm orange and burgundy.",
+      "Move the bottle toward the open bag without hiding its name, then cut before it leaves the frame.",
+      "Return to the bottle, bag and jersey hero. Hold the final offer and CTA."
+    ],
+    "hook": "Before the next game, a moment that's yours.",
+    "close": "Your style. Your own chapter.",
+    "adStrategy": {
+      "framework": "Buyer question → relevant scent or product answer → specific details → offer → CTA",
+      "buyerQuestion": "Rose ang gusto mo, pero may smoky depth sana?",
+      "reasonToConsider": "Dark rose wrapped in smoky, woody depth. An option for someone drawn to a independent, reflective, at self-assured personality.",
+      "performanceStatus": "Creative hypothesis to test; no ad results yet."
+    }
+  },
+  {
+    "id": "06",
+    "slug": "rtulle-and-satin",
+    "scent": "Rtulle & Satin",
+    "title": "Bring your creative side",
+    "objective": "Introduce Rtulle & Satin through a casual creative-cafe pause with turquoise accents and warm everyday texture.",
+    "casting": "One adult Filipino man. Black label men's bottle. Hands, arms and torso only; no heads, faces, partial faces, reflected faces or background people.",
+    "description": "Airy sweetness with a warm, glowing trail.",
+    "scene": "Top-down crop of a Filipino man's lap beside a coral table. He wears a cream and orange striped tee with light trousers. A turquoise canvas tote rests on his lap; the perfume is lifted above it. One coral ceramic cup and a clean brush on an ochre saucer sit at the table edge.",
+    "styling": "Cream and orange stripes, light trousers and natural nails; one simple metal bracelet if used consistently. Only hands, forearms and lap.",
+    "props": "Correct capped Rtulle & Satin bottle; turquoise tote; coral cup; one clean brush and ochre saucer. Keep paint, liquid and cup well away from the bottle.",
+    "lighting": "Hard side sunlight with a bounce at the label and controlled glass reflections. Maintain true turquoise liquid, not blue or green.",
+    "camera": "Overhead or high 45-degree close-up; crop above the cup and below the chest. No portrait artwork or reflective screens in the background.",
+    "performance": "Set down the clean brush, lift the bottle by its body and settle it against the tote. Small tactile actions feel natural; do not apply fragrance to artwork or cups.",
+    "sound": "Licensed playful instrumental, tote rustle, ceramic set-down and a light brush tap. Keep the voiceover clear.",
+    "shots": [
+      [
+        "00–04",
+        "Open on the full bottle above the turquoise tote with coral tabletop visible behind it. Add the shipping offer immediately.",
+        "Locked tight crop, full bottle readable from the first frame.",
+        "Naghahanap ng airy sweetness na may warm na dating?",
+        "AIRY SWEETNESS? / A WARM TRAIL"
+      ],
+      [
+        "04–07",
+        "The free hand gently settles the clean brush onto the ochre saucer while the bottle remains upright.",
+        "Detail insert matched to the same hand position; keep a product cue visible.",
+        "Try ang Rtulle & Satin ng Dear Body.",
+        "RTULLE & SATIN"
+      ],
+      [
+        "07–11",
+        "Pull the tote handle into a loose curve, making one graphic turquoise line across the warm frame.",
+        "Small controlled movement within the lap/torso frame; no upward tilt.",
+        "Airy sweetness na may warm, glowing trail.",
+        "Airy sweetness with a warm, glowing trail."
+      ],
+      [
+        "11–16",
+        "Hold the bottle label square to camera: RTULLE & SATIN, preserving the initial R and ampersand.",
+        "Locked label close-up. Full cap and base remain inside frame.",
+        "Para sa gentle, imaginative, at lighthearted na personality.",
+        "GENTLE · IMAGINATIVE · LIGHTHEARTED"
+      ],
+      [
+        "16–23",
+        "Stay on turquoise liquid, striped cotton and natural skin. Show only the approved scent sentence.",
+        "Slow 3–5 cm push or static shot, label in focus, no added ingredients.",
+        "May magnetic cap na nagki-click, pantakip sa spray nozzle. Puwedeng i-collect at i-display.",
+        "MAGNETIC CAP / COLLECT & DISPLAY"
+      ],
+      [
+        "23–27",
+        "Set the capped bottle safely into the tote while supporting the body, then release the handle.",
+        "Torso-down or top-down action; cut before the bottle is concealed.",
+        "Free shipping sa two items or more.",
+        "FREE SHIPPING / ON 2+ ITEMS"
+      ],
+      [
+        "27–34",
+        "Return to the label-forward hero and hold the CTA over the clear lower part of the frame.",
+        "Locked hero still, typography beside the bottle, final three seconds motionless.",
+        "May cash on delivery din. Bagay sa vibe mo? Tap Order Now.",
+        "ORDER NOW / FREE SHIPPING ON 2+ ITEMS / CASH ON DELIVERY"
+      ]
+    ],
+    "caption": "Free shipping on 2+ items. Cash on delivery available.\n\nBring your creative side. Rtulle & Satin — Airy sweetness with a warm, glowing trail.\n\nChoose your scents, add at least two items and tap Order Now.\n#DearBodyPH #AScentJourney",
+    "short": "Short-edit direction: keep the opening question, the named scent and approved scent description, then one CTA. Keep free shipping on 2+ items and COD readable on screen. Re-time to the recorded narration; do not compress all product details into a rushed 15-second read.",
+    "still": "Photograph the bottle supported above the tote with striped fabric and coral tabletop. Keep cup and brush small at the edges. Offer at upper left; no faces or partial faces.",
+    "test": "Compare a clean brush-tap opening with a tote-handle opening while retaining the same script and product hold.",
+    "continuity": "Match tote handles, bracelet, cup position and brush orientation. Check the spelling RTULLE rather than TULLE.",
+    "actions": [
+      "Open on the full bottle above the turquoise tote with coral tabletop visible behind it. Add the shipping offer immediately.",
+      "The free hand gently settles the clean brush onto the ochre saucer while the bottle remains upright.",
+      "Pull the tote handle into a loose curve, making one graphic turquoise line across the warm frame.",
+      "Hold the bottle label square to camera: RTULLE & SATIN, preserving the initial R and ampersand.",
+      "Stay on turquoise liquid, striped cotton and natural skin. Show only the approved scent sentence.",
+      "Set the capped bottle safely into the tote while supporting the body, then release the handle.",
+      "Return to the label-forward hero and hold the CTA over the clear lower part of the frame."
+    ],
+    "hook": "A little color. A little room to create.",
+    "close": "Bring your creative side along.",
+    "adStrategy": {
+      "framework": "Buyer question → relevant scent or product answer → specific details → offer → CTA",
+      "buyerQuestion": "Naghahanap ng airy sweetness na may warm na dating?",
+      "reasonToConsider": "Airy sweetness with a warm, glowing trail. An option for someone drawn to a gentle, imaginative, at lighthearted personality.",
+      "performanceStatus": "Creative hypothesis to test; no ad results yet."
+    }
+  }
+]

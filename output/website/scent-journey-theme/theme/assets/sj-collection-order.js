@@ -30,7 +30,14 @@
       const listen = (node, type, handler) => node?.addEventListener(type, handler, { signal: this.abort.signal });
       listen(root, 'click', event => {
         const add = event.target.closest('[data-sj-collection-add]');
-        if (add && root.contains(add)) this.add(add.value, add);
+        if (add && root.contains(add)) {
+          this.add(add.value, add);
+          const picker = add.closest('[data-sj-scent-picker]');
+          if (picker && this.selected.has(String(add.value))) {
+            picker.open = false;
+            picker.querySelector('summary')?.focus({ preventScroll: true });
+          }
+        }
         const remove = event.target.closest('[data-sj-order-remove]');
         if (remove && root.contains(remove)) this.remove(remove.dataset.sjOrderRemove, remove);
         const step = event.target.closest('[data-sj-order-step]');
@@ -40,6 +47,13 @@
         const id = this.cross.value;
         this.cross.value = '';
         if (id) this.add(id);
+      });
+      listen(root, 'keydown', event => {
+        const picker = event.target.closest('[data-sj-scent-picker]');
+        if (event.key === 'Escape' && picker?.open) {
+          picker.open = false;
+          picker.querySelector('summary')?.focus();
+        }
       });
       listen(this.lines, 'input', event => { if (event.target.matches('[data-sj-order-quantity]')) this.changeQuantity(event.target); });
       listen(this.lines, 'change', event => { if (event.target.matches('[data-sj-order-quantity]')) this.changeQuantity(event.target, true); });
@@ -319,7 +333,12 @@
     controller?.destroy();
     if (root) controllers.delete(root);
   });
-  window.SJCollectionOrder = { initialize, getItems: form => {
+  window.SJCollectionOrder = { initialize, addItem: (form, id) => {
+    const controller = controllers.get(form.closest('[data-sj-collection-order]'));
+    if (!controller) throw new Error('Order form is unavailable. Please reload and try again.');
+    if (!controller.catalog.get(String(id))?.available) throw new Error('This scent is currently unavailable. Please choose another fragrance.');
+    controller.add(id);
+  }, getItems: form => {
     const controller = controllers.get(form.closest('[data-sj-collection-order]'));
     if (!controller) throw new Error('Order form is unavailable.');
     return controller.orderItems();

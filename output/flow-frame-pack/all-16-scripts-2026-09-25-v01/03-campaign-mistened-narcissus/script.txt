@@ -1,0 +1,284 @@
+SCRIPT 03 — Mistened Narcissus
+Ready, lace, go
+CAMPAIGN · CTA: ORDER NOW
+
+VOICE IDENTITY
+Off-screen female narrator: a Filipina woman around 28 years old, with a warm, clear, conversational mid-range voice and smooth natural resonance. She sounds friendly, confident, curious and lightly playful, like a thoughtful friend helping someone choose a personal fragrance. Speak natural conversational Taglish with fluid Tagalog-English code-switching and a natural Filipina accent. Follow the exact supplied Taglish script; do not translate it into all-English or formal Tagalog. Keep scent names and website button labels unchanged. Keep a subtle smile in the voice, crisp diction, gently varied intonation and relaxed conversational pacing. Emphasize product names and key offer conditions clearly. Preserve the same age, accent, pitch range and vocal texture across every shot. Narration is off-screen; do not introduce a talking person or visible mouth. No shouting, forced whispering, exaggerated accent, celebrity imitation or robotic sales cadence.
+
+VOICE DIRECTION FOR THIS SCRIPT
+Ask the opening buyer question with curiosity, then offer the named scent or brand answer helpfully. Cheerful and playful, with a buoyant opening and relaxed phrasing; keep diction clear.
+
+SCENE
+A sunny yellow bench with a coral backrest. A Filipina sits in cream trousers and a lilac sleeve; only her lap and hands appear. A coral roller skate rests at the right edge with cream laces. Perfume is a getting-ready detail before activity.
+
+SHOT 01 | 00–04 | 4 seconds in edit
+START FRAME: frames/01-start.png
+COPY OVERLAY: overlays/01-copy.png
+DURATION PLAN: Generate 4 seconds, then trim to 4 seconds in the edit.
+
+COMPLETE FLOW PROMPT — SCENE + VOICE TONE + EXACT VOICEOVER
+Animate this supplied start frame as one continuous photorealistic portrait 9:16 perfume-commercial shot. Match the first frame exactly: same Filipino adult hands, clothing, jewelry, set, props, warm saturated sunlight and natural skin texture. Hold the bottle steady above the cream trousers. The stationary coral skate stays on the right; the free hand rests by its lace.
+Camera: Restrained smooth movement only; preserve the supplied viewing angle and full product. Do not zoom out or tilt upward.
+Product lock: MISTENED NARCISSUS; white label; nearly clear liquid. Preserve the label lettering, PARFUM LONDON signature, small 50 ml cylindrical proportions, thick clear base and fitted black cylindrical cap. Keep the cap seated throughout.
+No faces or partial faces, necks, chins, people in reflections, new actors, extra fingers, new props, duplicate bottles, label changes, product morphing or liquid-color changes. No cuts within this generated clip. No added captions, promotional lettering, graphic overlays or watermark.
+
+VOICE IDENTITY
+Off-screen female narrator: a Filipina woman around 28 years old, with a warm, clear, conversational mid-range voice and smooth natural resonance. She sounds friendly, confident, curious and lightly playful, like a thoughtful friend helping someone choose a personal fragrance. Speak natural conversational Taglish with fluid Tagalog-English code-switching and a natural Filipina accent. Follow the exact supplied Taglish script; do not translate it into all-English or formal Tagalog. Keep scent names and website button labels unchanged. Keep a subtle smile in the voice, crisp diction, gently varied intonation and relaxed conversational pacing. Emphasize product names and key offer conditions clearly. Preserve the same age, accent, pitch range and vocal texture across every shot. Narration is off-screen; do not introduce a talking person or visible mouth. No shouting, forced whispering, exaggerated accent, celebrity imitation or robotic sales cadence.
+VOICE TONE FOR THIS SCENT / STORY
+Ask the opening buyer question with curiosity, then offer the named scent or brand answer helpfully. Cheerful and playful, with a buoyant opening and relaxed phrasing; keep diction clear.
+AUDIO DIRECTION
+Generate the following off-screen narration in this clip. Begin promptly and complete the spoken line naturally within the first 4 seconds, then leave quiet ambience for the remaining generation. Keep room tone and prop foley low under the voice; no music or other voices. No visible speaker or lip sync. Use the same selected voice preset/reference as the other clips when the selected Flow model supports it. Exact-font text is added later in the editor; do not generate subtitles.
+EXACT VOICEOVER — speak only these words, once:
+“Hirap pumili ng fruity scent na may sweet finish?”
+
+MOTION-ONLY ALTERNATIVE — RECORD NARRATION SEPARATELY
+Animate this supplied start frame as one continuous photorealistic portrait 9:16 perfume-commercial shot. Match the first frame exactly: same Filipino adult hands, clothing, jewelry, set, props, warm saturated sunlight and natural skin texture. Hold the bottle steady above the cream trousers. The stationary coral skate stays on the right; the free hand rests by its lace.
+Camera: Restrained smooth movement only; preserve the supplied viewing angle and full product. Do not zoom out or tilt upward.
+Product lock: MISTENED NARCISSUS; white label; nearly clear liquid. Preserve the label lettering, PARFUM LONDON signature, small 50 ml cylindrical proportions, thick clear base and fitted black cylindrical cap. Keep the cap seated throughout.
+No faces or partial faces, necks, chins, people in reflections, new actors, extra fingers, new props, duplicate bottles, label changes, product morphing or liquid-color changes. No cuts within this generated clip. No added captions, promotional lettering, graphic overlays or watermark.
+Audio: subtle scene-appropriate room/outdoor ambience and gentle prop foley only; no generated speech or music. Voiceover and exact brand-font text will be added separately in the edit.
+
+VOICEOVER
+Hirap pumili ng fruity scent na may sweet finish?
+
+ON-SCREEN COPY (add overlay in editor)
+FRUITY SCENT?
+SWEET FINISH
+
+ORIGINAL SCRIPT ACTION
+Begin with the bottle steady in the left hand above cream trousers, skate at right, free-shipping copy immediately readable.
+
+————————————————————————————————————————————————
+
+SHOT 02 | 04–07 | 3 seconds in edit
+START FRAME: frames/02-start.png
+COPY OVERLAY: overlays/02-copy.png
+DURATION PLAN: Generate 4 seconds, then trim to 3 seconds in the edit.
+
+COMPLETE FLOW PROMPT — SCENE + VOICE TONE + EXACT VOICEOVER
+Animate this supplied start frame as one continuous photorealistic portrait 9:16 perfume-commercial shot. Match the first frame exactly: same Filipino adult hands, clothing, jewelry, set, props, warm saturated sunlight and natural skin texture. The right hand gathers one cream lace end gently and releases the tension. Keep the perfume upright and readable on the left.
+Camera: Restrained smooth movement only; preserve the supplied viewing angle and full product. Do not zoom out or tilt upward.
+Product lock: MISTENED NARCISSUS; white label; nearly clear liquid. Preserve the label lettering, PARFUM LONDON signature, small 50 ml cylindrical proportions, thick clear base and fitted black cylindrical cap. Keep the cap seated throughout.
+No faces or partial faces, necks, chins, people in reflections, new actors, extra fingers, new props, duplicate bottles, label changes, product morphing or liquid-color changes. No cuts within this generated clip. No added captions, promotional lettering, graphic overlays or watermark.
+
+VOICE IDENTITY
+Off-screen female narrator: a Filipina woman around 28 years old, with a warm, clear, conversational mid-range voice and smooth natural resonance. She sounds friendly, confident, curious and lightly playful, like a thoughtful friend helping someone choose a personal fragrance. Speak natural conversational Taglish with fluid Tagalog-English code-switching and a natural Filipina accent. Follow the exact supplied Taglish script; do not translate it into all-English or formal Tagalog. Keep scent names and website button labels unchanged. Keep a subtle smile in the voice, crisp diction, gently varied intonation and relaxed conversational pacing. Emphasize product names and key offer conditions clearly. Preserve the same age, accent, pitch range and vocal texture across every shot. Narration is off-screen; do not introduce a talking person or visible mouth. No shouting, forced whispering, exaggerated accent, celebrity imitation or robotic sales cadence.
+VOICE TONE FOR THIS SCENT / STORY
+Ask the opening buyer question with curiosity, then offer the named scent or brand answer helpfully. Cheerful and playful, with a buoyant opening and relaxed phrasing; keep diction clear.
+AUDIO DIRECTION
+Generate the following off-screen narration in this clip. Begin promptly and complete the spoken line naturally within the first 3 seconds, then leave quiet ambience for the remaining generation. Keep room tone and prop foley low under the voice; no music or other voices. No visible speaker or lip sync. Use the same selected voice preset/reference as the other clips when the selected Flow model supports it. Exact-font text is added later in the editor; do not generate subtitles.
+EXACT VOICEOVER — speak only these words, once:
+“Try ang Mistened Narcissus ng Dear Body.”
+
+MOTION-ONLY ALTERNATIVE — RECORD NARRATION SEPARATELY
+Animate this supplied start frame as one continuous photorealistic portrait 9:16 perfume-commercial shot. Match the first frame exactly: same Filipino adult hands, clothing, jewelry, set, props, warm saturated sunlight and natural skin texture. The right hand gathers one cream lace end gently and releases the tension. Keep the perfume upright and readable on the left.
+Camera: Restrained smooth movement only; preserve the supplied viewing angle and full product. Do not zoom out or tilt upward.
+Product lock: MISTENED NARCISSUS; white label; nearly clear liquid. Preserve the label lettering, PARFUM LONDON signature, small 50 ml cylindrical proportions, thick clear base and fitted black cylindrical cap. Keep the cap seated throughout.
+No faces or partial faces, necks, chins, people in reflections, new actors, extra fingers, new props, duplicate bottles, label changes, product morphing or liquid-color changes. No cuts within this generated clip. No added captions, promotional lettering, graphic overlays or watermark.
+Audio: subtle scene-appropriate room/outdoor ambience and gentle prop foley only; no generated speech or music. Voiceover and exact brand-font text will be added separately in the edit.
+
+VOICEOVER
+Try ang Mistened Narcissus ng Dear Body.
+
+ON-SCREEN COPY (add overlay in editor)
+MISTENED NARCISSUS
+
+ORIGINAL SCRIPT ACTION
+Cut to the right hand gently gathering a lace end; the perfume stays upright at the left side of the frame.
+
+————————————————————————————————————————————————
+
+SHOT 03 | 07–11 | 4 seconds in edit
+START FRAME: frames/03-start.png
+COPY OVERLAY: overlays/03-copy.png
+DURATION PLAN: Generate 4 seconds, then trim to 4 seconds in the edit.
+
+COMPLETE FLOW PROMPT — SCENE + VOICE TONE + EXACT VOICEOVER
+Animate this supplied start frame as one continuous photorealistic portrait 9:16 perfume-commercial shot. Match the first frame exactly: same Filipino adult hands, clothing, jewelry, set, props, warm saturated sunlight and natural skin texture. The free fingertip nudges one skate wheel through a quarter turn, then stops it. The perfume stands securely on the yellow bench away from the wheel.
+Camera: Restrained smooth movement only; preserve the supplied viewing angle and full product. Do not zoom out or tilt upward.
+Product lock: MISTENED NARCISSUS; white label; nearly clear liquid. Preserve the label lettering, PARFUM LONDON signature, small 50 ml cylindrical proportions, thick clear base and fitted black cylindrical cap. Keep the cap seated throughout.
+No faces or partial faces, necks, chins, people in reflections, new actors, extra fingers, new props, duplicate bottles, label changes, product morphing or liquid-color changes. No cuts within this generated clip. No added captions, promotional lettering, graphic overlays or watermark.
+
+VOICE IDENTITY
+Off-screen female narrator: a Filipina woman around 28 years old, with a warm, clear, conversational mid-range voice and smooth natural resonance. She sounds friendly, confident, curious and lightly playful, like a thoughtful friend helping someone choose a personal fragrance. Speak natural conversational Taglish with fluid Tagalog-English code-switching and a natural Filipina accent. Follow the exact supplied Taglish script; do not translate it into all-English or formal Tagalog. Keep scent names and website button labels unchanged. Keep a subtle smile in the voice, crisp diction, gently varied intonation and relaxed conversational pacing. Emphasize product names and key offer conditions clearly. Preserve the same age, accent, pitch range and vocal texture across every shot. Narration is off-screen; do not introduce a talking person or visible mouth. No shouting, forced whispering, exaggerated accent, celebrity imitation or robotic sales cadence.
+VOICE TONE FOR THIS SCENT / STORY
+Ask the opening buyer question with curiosity, then offer the named scent or brand answer helpfully. Cheerful and playful, with a buoyant opening and relaxed phrasing; keep diction clear.
+AUDIO DIRECTION
+Generate the following off-screen narration in this clip. Begin promptly and complete the spoken line naturally within the first 4 seconds, then leave quiet ambience for the remaining generation. Keep room tone and prop foley low under the voice; no music or other voices. No visible speaker or lip sync. Use the same selected voice preset/reference as the other clips when the selected Flow model supports it. Exact-font text is added later in the editor; do not generate subtitles.
+EXACT VOICEOVER — speak only these words, once:
+“Juicy berries na may smooth at sweet na finish.”
+
+MOTION-ONLY ALTERNATIVE — RECORD NARRATION SEPARATELY
+Animate this supplied start frame as one continuous photorealistic portrait 9:16 perfume-commercial shot. Match the first frame exactly: same Filipino adult hands, clothing, jewelry, set, props, warm saturated sunlight and natural skin texture. The free fingertip nudges one skate wheel through a quarter turn, then stops it. The perfume stands securely on the yellow bench away from the wheel.
+Camera: Restrained smooth movement only; preserve the supplied viewing angle and full product. Do not zoom out or tilt upward.
+Product lock: MISTENED NARCISSUS; white label; nearly clear liquid. Preserve the label lettering, PARFUM LONDON signature, small 50 ml cylindrical proportions, thick clear base and fitted black cylindrical cap. Keep the cap seated throughout.
+No faces or partial faces, necks, chins, people in reflections, new actors, extra fingers, new props, duplicate bottles, label changes, product morphing or liquid-color changes. No cuts within this generated clip. No added captions, promotional lettering, graphic overlays or watermark.
+Audio: subtle scene-appropriate room/outdoor ambience and gentle prop foley only; no generated speech or music. Voiceover and exact brand-font text will be added separately in the edit.
+
+VOICEOVER
+Juicy berries na may smooth at sweet na finish.
+
+ON-SCREEN COPY (add overlay in editor)
+Juicy berries softened by a smooth, sweet finish.
+
+ORIGINAL SCRIPT ACTION
+Turn one skate wheel with a fingertip, then stop it. Keep the bottle on the bench within the same crop.
+
+————————————————————————————————————————————————
+
+SHOT 04 | 11–16 | 5 seconds in edit
+START FRAME: frames/04-start.png
+COPY OVERLAY: overlays/04-copy.png
+DURATION PLAN: Generate 6 seconds, then trim to 5 seconds in the edit.
+
+COMPLETE FLOW PROMPT — SCENE + VOICE TONE + EXACT VOICEOVER
+Animate this supplied start frame as one continuous photorealistic portrait 9:16 perfume-commercial shot. Match the first frame exactly: same Filipino adult hands, clothing, jewelry, set, props, warm saturated sunlight and natural skin texture. From the supplied held-bottle position, lift the bottle only 2 cm and settle the MISTENED NARCISSUS name square to camera.
+Camera: Restrained smooth movement only; preserve the supplied viewing angle and full product. Do not zoom out or tilt upward.
+Product lock: MISTENED NARCISSUS; white label; nearly clear liquid. Preserve the label lettering, PARFUM LONDON signature, small 50 ml cylindrical proportions, thick clear base and fitted black cylindrical cap. Keep the cap seated throughout.
+No faces or partial faces, necks, chins, people in reflections, new actors, extra fingers, new props, duplicate bottles, label changes, product morphing or liquid-color changes. No cuts within this generated clip. No added captions, promotional lettering, graphic overlays or watermark.
+
+VOICE IDENTITY
+Off-screen female narrator: a Filipina woman around 28 years old, with a warm, clear, conversational mid-range voice and smooth natural resonance. She sounds friendly, confident, curious and lightly playful, like a thoughtful friend helping someone choose a personal fragrance. Speak natural conversational Taglish with fluid Tagalog-English code-switching and a natural Filipina accent. Follow the exact supplied Taglish script; do not translate it into all-English or formal Tagalog. Keep scent names and website button labels unchanged. Keep a subtle smile in the voice, crisp diction, gently varied intonation and relaxed conversational pacing. Emphasize product names and key offer conditions clearly. Preserve the same age, accent, pitch range and vocal texture across every shot. Narration is off-screen; do not introduce a talking person or visible mouth. No shouting, forced whispering, exaggerated accent, celebrity imitation or robotic sales cadence.
+VOICE TONE FOR THIS SCENT / STORY
+Ask the opening buyer question with curiosity, then offer the named scent or brand answer helpfully. Cheerful and playful, with a buoyant opening and relaxed phrasing; keep diction clear.
+AUDIO DIRECTION
+Generate the following off-screen narration in this clip. Begin promptly and complete the spoken line naturally within the first 5 seconds, then leave quiet ambience for the remaining generation. Keep room tone and prop foley low under the voice; no music or other voices. No visible speaker or lip sync. Use the same selected voice preset/reference as the other clips when the selected Flow model supports it. Exact-font text is added later in the editor; do not generate subtitles.
+EXACT VOICEOVER — speak only these words, once:
+“Para sa cheerful, playful, at openhearted na personality.”
+
+MOTION-ONLY ALTERNATIVE — RECORD NARRATION SEPARATELY
+Animate this supplied start frame as one continuous photorealistic portrait 9:16 perfume-commercial shot. Match the first frame exactly: same Filipino adult hands, clothing, jewelry, set, props, warm saturated sunlight and natural skin texture. From the supplied held-bottle position, lift the bottle only 2 cm and settle the MISTENED NARCISSUS name square to camera.
+Camera: Restrained smooth movement only; preserve the supplied viewing angle and full product. Do not zoom out or tilt upward.
+Product lock: MISTENED NARCISSUS; white label; nearly clear liquid. Preserve the label lettering, PARFUM LONDON signature, small 50 ml cylindrical proportions, thick clear base and fitted black cylindrical cap. Keep the cap seated throughout.
+No faces or partial faces, necks, chins, people in reflections, new actors, extra fingers, new props, duplicate bottles, label changes, product morphing or liquid-color changes. No cuts within this generated clip. No added captions, promotional lettering, graphic overlays or watermark.
+Audio: subtle scene-appropriate room/outdoor ambience and gentle prop foley only; no generated speech or music. Voiceover and exact brand-font text will be added separately in the edit.
+
+VOICEOVER
+Para sa cheerful, playful, at openhearted na personality.
+
+ON-SCREEN COPY (add overlay in editor)
+CHEERFUL · PLAYFUL · OPENHEARTED
+
+ORIGINAL SCRIPT ACTION
+Lift the bottle from the bench and settle it square to camera. Focus on MISTENED NARCISSUS.
+
+————————————————————————————————————————————————
+
+SHOT 05 | 16–23 | 7 seconds in edit
+START FRAME: frames/05-start.png
+COPY OVERLAY: overlays/05-copy.png
+DURATION PLAN: Generate 8 seconds, then trim to 7 seconds in the edit.
+
+COMPLETE FLOW PROMPT — SCENE + VOICE TONE + EXACT VOICEOVER
+Animate this supplied start frame as one continuous photorealistic portrait 9:16 perfume-commercial shot. Match the first frame exactly: same Filipino adult hands, clothing, jewelry, set, props, warm saturated sunlight and natural skin texture. Hold the full bottle in sharp focus, with coral nails and lilac cuff. Make a slow 3 cm camera push without cropping its cap or base.
+Camera: Restrained smooth movement only; preserve the supplied viewing angle and full product. Do not zoom out or tilt upward.
+Product lock: MISTENED NARCISSUS; white label; nearly clear liquid. Preserve the label lettering, PARFUM LONDON signature, small 50 ml cylindrical proportions, thick clear base and fitted black cylindrical cap. Keep the cap seated throughout.
+No faces or partial faces, necks, chins, people in reflections, new actors, extra fingers, new props, duplicate bottles, label changes, product morphing or liquid-color changes. No cuts within this generated clip. No added captions, promotional lettering, graphic overlays or watermark.
+
+VOICE IDENTITY
+Off-screen female narrator: a Filipina woman around 28 years old, with a warm, clear, conversational mid-range voice and smooth natural resonance. She sounds friendly, confident, curious and lightly playful, like a thoughtful friend helping someone choose a personal fragrance. Speak natural conversational Taglish with fluid Tagalog-English code-switching and a natural Filipina accent. Follow the exact supplied Taglish script; do not translate it into all-English or formal Tagalog. Keep scent names and website button labels unchanged. Keep a subtle smile in the voice, crisp diction, gently varied intonation and relaxed conversational pacing. Emphasize product names and key offer conditions clearly. Preserve the same age, accent, pitch range and vocal texture across every shot. Narration is off-screen; do not introduce a talking person or visible mouth. No shouting, forced whispering, exaggerated accent, celebrity imitation or robotic sales cadence.
+VOICE TONE FOR THIS SCENT / STORY
+Ask the opening buyer question with curiosity, then offer the named scent or brand answer helpfully. Cheerful and playful, with a buoyant opening and relaxed phrasing; keep diction clear.
+AUDIO DIRECTION
+Generate the following off-screen narration in this clip. Begin promptly and complete the spoken line naturally within the first 7 seconds, then leave quiet ambience for the remaining generation. Keep room tone and prop foley low under the voice; no music or other voices. No visible speaker or lip sync. Use the same selected voice preset/reference as the other clips when the selected Flow model supports it. Exact-font text is added later in the editor; do not generate subtitles.
+EXACT VOICEOVER — speak only these words, once:
+“May magnetic cap na nagki-click, pantakip sa spray nozzle. Puwedeng i-collect at i-display.”
+
+MOTION-ONLY ALTERNATIVE — RECORD NARRATION SEPARATELY
+Animate this supplied start frame as one continuous photorealistic portrait 9:16 perfume-commercial shot. Match the first frame exactly: same Filipino adult hands, clothing, jewelry, set, props, warm saturated sunlight and natural skin texture. Hold the full bottle in sharp focus, with coral nails and lilac cuff. Make a slow 3 cm camera push without cropping its cap or base.
+Camera: Restrained smooth movement only; preserve the supplied viewing angle and full product. Do not zoom out or tilt upward.
+Product lock: MISTENED NARCISSUS; white label; nearly clear liquid. Preserve the label lettering, PARFUM LONDON signature, small 50 ml cylindrical proportions, thick clear base and fitted black cylindrical cap. Keep the cap seated throughout.
+No faces or partial faces, necks, chins, people in reflections, new actors, extra fingers, new props, duplicate bottles, label changes, product morphing or liquid-color changes. No cuts within this generated clip. No added captions, promotional lettering, graphic overlays or watermark.
+Audio: subtle scene-appropriate room/outdoor ambience and gentle prop foley only; no generated speech or music. Voiceover and exact brand-font text will be added separately in the edit.
+
+VOICEOVER
+May magnetic cap na nagki-click, pantakip sa spray nozzle. Puwedeng i-collect at i-display.
+
+ON-SCREEN COPY (add overlay in editor)
+MAGNETIC CAP
+COLLECT & DISPLAY
+
+ORIGINAL SCRIPT ACTION
+Hold a clean product close-up with lilac cuff and coral nails. Use the approved scent sentence as the only descriptive claim.
+
+————————————————————————————————————————————————
+
+SHOT 06 | 23–27 | 4 seconds in edit
+START FRAME: frames/06-start.png
+COPY OVERLAY: overlays/06-copy.png
+DURATION PLAN: Generate 4 seconds, then trim to 4 seconds in the edit.
+
+COMPLETE FLOW PROMPT — SCENE + VOICE TONE + EXACT VOICEOVER
+Animate this supplied start frame as one continuous photorealistic portrait 9:16 perfume-commercial shot. Match the first frame exactly: same Filipino adult hands, clothing, jewelry, set, props, warm saturated sunlight and natural skin texture. Lower the capped bottle into the visible pouch while supporting the glass body. Pause while the name is still visible above the opening and cut before concealment; keep the skate stationary.
+Camera: Restrained smooth movement only; preserve the supplied viewing angle and full product. Do not zoom out or tilt upward.
+Product lock: MISTENED NARCISSUS; white label; nearly clear liquid. Preserve the label lettering, PARFUM LONDON signature, small 50 ml cylindrical proportions, thick clear base and fitted black cylindrical cap. Keep the cap seated throughout.
+No faces or partial faces, necks, chins, people in reflections, new actors, extra fingers, new props, duplicate bottles, label changes, product morphing or liquid-color changes. No cuts within this generated clip. No added captions, promotional lettering, graphic overlays or watermark.
+
+VOICE IDENTITY
+Off-screen female narrator: a Filipina woman around 28 years old, with a warm, clear, conversational mid-range voice and smooth natural resonance. She sounds friendly, confident, curious and lightly playful, like a thoughtful friend helping someone choose a personal fragrance. Speak natural conversational Taglish with fluid Tagalog-English code-switching and a natural Filipina accent. Follow the exact supplied Taglish script; do not translate it into all-English or formal Tagalog. Keep scent names and website button labels unchanged. Keep a subtle smile in the voice, crisp diction, gently varied intonation and relaxed conversational pacing. Emphasize product names and key offer conditions clearly. Preserve the same age, accent, pitch range and vocal texture across every shot. Narration is off-screen; do not introduce a talking person or visible mouth. No shouting, forced whispering, exaggerated accent, celebrity imitation or robotic sales cadence.
+VOICE TONE FOR THIS SCENT / STORY
+Ask the opening buyer question with curiosity, then offer the named scent or brand answer helpfully. Cheerful and playful, with a buoyant opening and relaxed phrasing; keep diction clear.
+AUDIO DIRECTION
+Generate the following off-screen narration in this clip. Begin promptly and complete the spoken line naturally within the first 4 seconds, then leave quiet ambience for the remaining generation. Keep room tone and prop foley low under the voice; no music or other voices. No visible speaker or lip sync. Use the same selected voice preset/reference as the other clips when the selected Flow model supports it. Exact-font text is added later in the editor; do not generate subtitles.
+EXACT VOICEOVER — speak only these words, once:
+“Free shipping sa two items or more.”
+
+MOTION-ONLY ALTERNATIVE — RECORD NARRATION SEPARATELY
+Animate this supplied start frame as one continuous photorealistic portrait 9:16 perfume-commercial shot. Match the first frame exactly: same Filipino adult hands, clothing, jewelry, set, props, warm saturated sunlight and natural skin texture. Lower the capped bottle into the visible pouch while supporting the glass body. Pause while the name is still visible above the opening and cut before concealment; keep the skate stationary.
+Camera: Restrained smooth movement only; preserve the supplied viewing angle and full product. Do not zoom out or tilt upward.
+Product lock: MISTENED NARCISSUS; white label; nearly clear liquid. Preserve the label lettering, PARFUM LONDON signature, small 50 ml cylindrical proportions, thick clear base and fitted black cylindrical cap. Keep the cap seated throughout.
+No faces or partial faces, necks, chins, people in reflections, new actors, extra fingers, new props, duplicate bottles, label changes, product morphing or liquid-color changes. No cuts within this generated clip. No added captions, promotional lettering, graphic overlays or watermark.
+Audio: subtle scene-appropriate room/outdoor ambience and gentle prop foley only; no generated speech or music. Voiceover and exact brand-font text will be added separately in the edit.
+
+VOICEOVER
+Free shipping sa two items or more.
+
+ON-SCREEN COPY (add overlay in editor)
+FREE SHIPPING
+ON 2+ ITEMS
+
+ORIGINAL SCRIPT ACTION
+Set the capped bottle into its nearby pouch out of the skate's path; finish tightening the lace with both hands.
+
+————————————————————————————————————————————————
+
+SHOT 07 | 27–34 | 7 seconds in edit
+START FRAME: frames/07-start.png
+COPY OVERLAY: overlays/07-copy.png
+DURATION PLAN: Generate 8 seconds, then trim to 7 seconds in the edit.
+
+COMPLETE FLOW PROMPT — SCENE + VOICE TONE + EXACT VOICEOVER
+Animate this supplied start frame as one continuous photorealistic portrait 9:16 perfume-commercial shot. Match the first frame exactly: same Filipino adult hands, clothing, jewelry, set, props, warm saturated sunlight and natural skin texture. Hold the separate bottle-in-hand hero beside the stationary skate. Remain still for the final three seconds.
+Camera: Locked composition; final three seconds fully still.
+Product lock: MISTENED NARCISSUS; white label; nearly clear liquid. Preserve the label lettering, PARFUM LONDON signature, small 50 ml cylindrical proportions, thick clear base and fitted black cylindrical cap. Keep the cap seated throughout.
+No faces or partial faces, necks, chins, people in reflections, new actors, extra fingers, new props, duplicate bottles, label changes, product morphing or liquid-color changes. No cuts within this generated clip. No added captions, promotional lettering, graphic overlays or watermark.
+
+VOICE IDENTITY
+Off-screen female narrator: a Filipina woman around 28 years old, with a warm, clear, conversational mid-range voice and smooth natural resonance. She sounds friendly, confident, curious and lightly playful, like a thoughtful friend helping someone choose a personal fragrance. Speak natural conversational Taglish with fluid Tagalog-English code-switching and a natural Filipina accent. Follow the exact supplied Taglish script; do not translate it into all-English or formal Tagalog. Keep scent names and website button labels unchanged. Keep a subtle smile in the voice, crisp diction, gently varied intonation and relaxed conversational pacing. Emphasize product names and key offer conditions clearly. Preserve the same age, accent, pitch range and vocal texture across every shot. Narration is off-screen; do not introduce a talking person or visible mouth. No shouting, forced whispering, exaggerated accent, celebrity imitation or robotic sales cadence.
+VOICE TONE FOR THIS SCENT / STORY
+Ask the opening buyer question with curiosity, then offer the named scent or brand answer helpfully. Cheerful and playful, with a buoyant opening and relaxed phrasing; keep diction clear.
+AUDIO DIRECTION
+Generate the following off-screen narration in this clip. Begin promptly and complete the spoken line naturally within the first 7 seconds, then leave quiet ambience for the remaining generation. Keep room tone and prop foley low under the voice; no music or other voices. No visible speaker or lip sync. Use the same selected voice preset/reference as the other clips when the selected Flow model supports it. Exact-font text is added later in the editor; do not generate subtitles.
+EXACT VOICEOVER — speak only these words, once:
+“May cash on delivery din. Bagay sa vibe mo? Tap Order Now.”
+
+MOTION-ONLY ALTERNATIVE — RECORD NARRATION SEPARATELY
+Animate this supplied start frame as one continuous photorealistic portrait 9:16 perfume-commercial shot. Match the first frame exactly: same Filipino adult hands, clothing, jewelry, set, props, warm saturated sunlight and natural skin texture. Hold the separate bottle-in-hand hero beside the stationary skate. Remain still for the final three seconds.
+Camera: Locked composition; final three seconds fully still.
+Product lock: MISTENED NARCISSUS; white label; nearly clear liquid. Preserve the label lettering, PARFUM LONDON signature, small 50 ml cylindrical proportions, thick clear base and fitted black cylindrical cap. Keep the cap seated throughout.
+No faces or partial faces, necks, chins, people in reflections, new actors, extra fingers, new props, duplicate bottles, label changes, product morphing or liquid-color changes. No cuts within this generated clip. No added captions, promotional lettering, graphic overlays or watermark.
+Audio: subtle scene-appropriate room/outdoor ambience and gentle prop foley only; no generated speech or music. Voiceover and exact brand-font text will be added separately in the edit.
+
+VOICEOVER
+May cash on delivery din. Bagay sa vibe mo? Tap Order Now.
+
+ON-SCREEN COPY (add overlay in editor)
+ORDER NOW
+FREE SHIPPING ON 2+ ITEMS
+CASH ON DELIVERY
+
+ORIGINAL SCRIPT ACTION
+Return to a separate hero take with the bottle in hand and the stationary skate at the edge. Hold the CTA.
+
+————————————————————————————————————————————————
+

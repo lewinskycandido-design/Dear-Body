@@ -2,7 +2,7 @@
   {% render 'sj-care-banner', kind: 'faq', section_id: section.id, asset: 'sj-faq-banner.jpg', light_image: section.settings.banner_light, dark_image: section.settings.banner_dark, eyebrow: section.settings.eyebrow, heading: section.settings.heading %}
   <div class="sj-container"><div class="sj-faq-list">
     {% for block in section.blocks %}<details {{ block.shopify_attributes }}><summary><span>{{ block.settings.question | escape }}</span>{% render 'sj-icon', name: 'plus', class: 'sj-disclosure-icon' %}</summary><div>{{ block.settings.answer }}</div></details>{% endfor %}
-    <p style="margin-top:35px">Still curious? <a href="{{ settings.contact_url | default: '/pages/contact' }}">Talk to us</a></p>
+    
   </div></div>
 </section>
 {% schema %}

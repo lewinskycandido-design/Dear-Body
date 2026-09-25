@@ -2,8 +2,8 @@
   "date": "2026-09-24",
   "scent_count": 14,
   "frame_count": 168,
-  "changed_count": 108,
-  "preserved_count": 60,
+  "changed_count": 114,
+  "preserved_count": 54,
   "scents": [
     {
       "scent": "alpine-rosemary-mint",
@@ -43,14 +43,18 @@
         },
         {
           "frame": 3,
-          "file": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/alpine-rosemary-mint/generated-v01/final/03-uncapped-reveal.png",
+          "file": "C:\\Users\\lhemy\\OneDrive\\Documents\\Dear Body\\output\\product-listing\\alpine-rosemary-mint\\generated-v01\\final\\03-uncapped-reveal.png",
           "src": "alpine-rosemary-mint/generated-v01/final/03-uncapped-reveal.png",
           "revised": true,
-          "sha256": "de6519a6d69286fc61709d67641d6d02dc0278cf5eab7858d933d513f8b348bf",
-          "reason": "Authentic separate lower packaging base with raised sleeve/rim and foam, upper canister closed flat black top; uncapped three-stage pump and all-black cap; zero faces. Genuine black-on-black embossed db cap-top monogram restored.",
+          "sha256": "c3daa2db6d0a692de0a3fd7dacbf8bad148fbbe12a68f100d14600bf4acaecab",
+          "reason": "Standardized product setup using the approved Sunset Cocktail template: upright glass bottle and centered atomizer, bottle in its short base at left, tall canister at right, cap lying at lower left. Individual scent background, label and colors retained. Native 1254 x 1254 PNG.",
           "initial_reason": "Detached cap top lacked authentic embossed db monogram.",
           "initial_status": "REVISE",
-          "shopify_position": 10
+          "shopify_position": 10,
+          "dimensions": [
+            1254,
+            1254
+          ]
         },
         {
           "frame": 4,
@@ -194,14 +198,18 @@
         },
         {
           "frame": 3,
-          "file": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/amber-oud-silk/generated-v01/final/03-packaging-reveal.png",
+          "file": "C:\\Users\\lhemy\\OneDrive\\Documents\\Dear Body\\output\\product-listing\\amber-oud-silk\\generated-v01\\final\\03-packaging-reveal.png",
           "src": "amber-oud-silk/generated-v01/final/03-packaging-reveal.png",
           "revised": true,
-          "sha256": "a2af0cc05c85078740d3ffd7ef488a6cd226a602c96e468b04f0fc0518881243",
-          "reason": "Authentic separate lower packaging base with raised sleeve/rim and foam, upper canister closed flat black top; uncapped three-stage pump and all-black cap; zero faces.",
+          "sha256": "5a62d57c5a6bf5cc64d97e1f952249f60a0441a8fecce956892d162cff84f9e9",
+          "reason": "Standardized product setup using the approved Sunset Cocktail template: upright glass bottle and centered atomizer, bottle in its short base at left, tall canister at right, cap lying at lower left. Individual scent background, label and colors retained. Native 1254 x 1254 PNG.",
           "initial_reason": "Lower packaging base lacks authentic raised inner sleeve/double rim.",
           "initial_status": "REVISE",
-          "shopify_position": 10
+          "shopify_position": 10,
+          "dimensions": [
+            1254,
+            1254
+          ]
         },
         {
           "frame": 4,
@@ -309,6 +317,7 @@
       "name": "Charme Envoûtant",
       "changed": [
         2,
+        3,
         5,
         8,
         9,
@@ -341,14 +350,18 @@
         },
         {
           "frame": 3,
-          "file": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/charme-envoutant/generated-v01/final/03-packaging-reveal.png",
+          "file": "C:\\Users\\lhemy\\OneDrive\\Documents\\Dear Body\\output\\product-listing\\charme-envoutant\\generated-v01\\final\\03-packaging-reveal.png",
           "src": "charme-envoutant/generated-v01/final/03-packaging-reveal.png",
-          "revised": false,
-          "sha256": "b462e4db2e8e1d1280a11a256808d2e63a45454b8ab9aca1de50eb4d14c67f86",
-          "reason": "Authentic separate lower packaging base with raised sleeve/rim and foam, upper canister closed flat black top; uncapped three-stage pump and all-black cap; zero faces.",
+          "revised": true,
+          "sha256": "fab9b4492662f304b84e4c24d5367e9f36a730aa3ee494a7df552e023a3d25b6",
+          "reason": "Standardized product setup using the approved Sunset Cocktail template: upright glass bottle and centered atomizer, bottle in its short base at left, tall canister at right, cap lying at lower left. Individual scent background, label and colors retained. Native 1254 x 1254 PNG.",
           "initial_reason": "Authentic separate lower packaging base with raised sleeve/rim and foam, upper canister closed flat black top; uncapped three-stage pump and all-black cap; zero faces.",
           "initial_status": "PASS",
-          "shopify_position": 10
+          "shopify_position": 10,
+          "dimensions": [
+            1254,
+            1254
+          ]
         },
         {
           "frame": 4,
@@ -456,6 +469,7 @@
       "name": "Citrus Wish",
       "changed": [
         2,
+        3,
         5,
         6,
         8,
@@ -489,14 +503,18 @@
         },
         {
           "frame": 3,
-          "file": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/citrus-wish/standardized-v01/final/03-packaging-reveal.png",
+          "file": "C:\\Users\\lhemy\\OneDrive\\Documents\\Dear Body\\output\\product-listing\\citrus-wish\\standardized-v01\\final\\03-packaging-reveal.png",
           "src": "citrus-wish/standardized-v01/final/03-packaging-reveal.png",
-          "revised": false,
-          "sha256": "24b04f723613b079d70ce074bda2ba953109a756649ddaba96bc8e33c0b40305",
-          "reason": "Authentic separate lower packaging base with raised sleeve/rim and foam, upper canister closed flat black top; uncapped three-stage pump and all-black cap; zero faces.",
+          "revised": true,
+          "sha256": "11cf2eef8ee1071dd9cb2418e49cd9602f9d2c0c67b4f5348dfe57ccb02376b4",
+          "reason": "Standardized product setup using the approved Sunset Cocktail template: upright glass bottle and centered atomizer, bottle in its short base at left, tall canister at right, cap lying at lower left. Individual scent background, label and colors retained. Native 1254 x 1254 PNG.",
           "initial_reason": "Authentic separate lower packaging base with raised sleeve/rim and foam, upper canister closed flat black top; uncapped three-stage pump and all-black cap; zero faces.",
           "initial_status": "PASS",
-          "shopify_position": 10
+          "shopify_position": 10,
+          "dimensions": [
+            1254,
+            1254
+          ]
         },
         {
           "frame": 4,
@@ -603,6 +621,7 @@
       "scent": "ivory-reverie",
       "name": "Ivory Reverie",
       "changed": [
+        3,
         5,
         8,
         9,
@@ -635,14 +654,18 @@
         },
         {
           "frame": 3,
-          "file": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/ivory-reverie/generated-v01/final/03-packaging-reveal.png",
+          "file": "C:\\Users\\lhemy\\OneDrive\\Documents\\Dear Body\\output\\product-listing\\ivory-reverie\\generated-v01\\final\\03-packaging-reveal.png",
           "src": "ivory-reverie/generated-v01/final/03-packaging-reveal.png",
-          "revised": false,
-          "sha256": "8eef1819f6b790c7fe0779919eeb15324b4658a08c8fae7decbe5563129103cf",
-          "reason": "Elevated uncapped reveal uses the real short base and tall upper canister with solid black top; detached bottle cap only.",
+          "revised": true,
+          "sha256": "8c0f4533067b452af88c8525eb3f3f93af4810816b85bb583c172c210d2aca13",
+          "reason": "Standardized product setup using the approved Sunset Cocktail template: upright glass bottle and centered atomizer, bottle in its short base at left, tall canister at right, cap lying at lower left. Individual scent background, label and colors retained. Native 1254 x 1254 PNG.",
           "initial_reason": "Elevated uncapped reveal uses the real short base and tall upper canister with solid black top; detached bottle cap only.",
           "initial_status": "PASS",
-          "shopify_position": 10
+          "shopify_position": 10,
+          "dimensions": [
+            1254,
+            1254
+          ]
         },
         {
           "frame": 4,
@@ -749,6 +772,7 @@
       "scent": "midnight-elixir",
       "name": "Midnight Elixir",
       "changed": [
+        3,
         8,
         9,
         10,
@@ -780,14 +804,18 @@
         },
         {
           "frame": 3,
-          "file": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/midnight-elixir/generated-v01/final/03-packaging-reveal.png",
+          "file": "C:\\Users\\lhemy\\OneDrive\\Documents\\Dear Body\\output\\product-listing\\midnight-elixir\\generated-v01\\final\\03-packaging-reveal.png",
           "src": "midnight-elixir/generated-v01/final/03-packaging-reveal.png",
-          "revised": false,
-          "sha256": "7eeb8b941fbd709b69b7a5f6aa46a1dd80c63c705b4122a1e24e9184970d49b1",
-          "reason": "Uncapped bottle in the short real base with separate solid-top upper canister and bottle cap; perspective explains foreshortening.",
+          "revised": true,
+          "sha256": "ac6e5285d6debd18182d55579e6c62bdd6c1538c9d91df180dc6bf213b7ef3d2",
+          "reason": "Standardized product setup using the approved Sunset Cocktail template: upright glass bottle and centered atomizer, bottle in its short base at left, tall canister at right, cap lying at lower left. Individual scent background, label and colors retained. Native 1254 x 1254 PNG.",
           "initial_reason": "Uncapped bottle in the short real base with separate solid-top upper canister and bottle cap; perspective explains foreshortening.",
           "initial_status": "PASS",
-          "shopify_position": 10
+          "shopify_position": 10,
+          "dimensions": [
+            1254,
+            1254
+          ]
         },
         {
           "frame": 4,
@@ -896,6 +924,7 @@
       "changed": [
         1,
         2,
+        3,
         5,
         6,
         8,
@@ -929,14 +958,18 @@
         },
         {
           "frame": 3,
-          "file": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/mistened-narcissus/generated-v01/final/03-packaging-reveal.png",
+          "file": "C:\\Users\\lhemy\\OneDrive\\Documents\\Dear Body\\output\\product-listing\\mistened-narcissus\\generated-v01\\final\\03-packaging-reveal.png",
           "src": "mistened-narcissus/generated-v01/final/03-packaging-reveal.png",
-          "revised": false,
-          "sha256": "d0ab491b1bddb44f3aa9f531a655ca53a8b0464926176ad98bc48814f292ff63",
-          "reason": "Elevated uncapped reveal uses real short base and solid-top upper canister; partial base occlusion and camera angle account for foreshortening.",
+          "revised": true,
+          "sha256": "45eceb9ed51c40356d5e309e5f8823c714ef0359f575e797e42292951a8fb9d7",
+          "reason": "Standardized product setup using the approved Sunset Cocktail template: upright glass bottle and centered atomizer, bottle in its short base at left, tall canister at right, cap lying at lower left. Individual scent background, label and colors retained. Native 1254 x 1254 PNG.",
           "initial_reason": "Elevated uncapped reveal uses real short base and solid-top upper canister; partial base occlusion and camera angle account for foreshortening.",
           "initial_status": "PASS",
-          "shopify_position": 10
+          "shopify_position": 10,
+          "dimensions": [
+            1254,
+            1254
+          ]
         },
         {
           "frame": 4,
@@ -1044,6 +1077,7 @@
       "name": "Mojito Metallique",
       "changed": [
         2,
+        3,
         8,
         9,
         10,
@@ -1075,14 +1109,18 @@
         },
         {
           "frame": 3,
-          "file": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/mojito-metallique/generated-v01/final/03-packaging-reveal.png",
+          "file": "C:\\Users\\lhemy\\OneDrive\\Documents\\Dear Body\\output\\product-listing\\mojito-metallique\\generated-v01\\final\\03-packaging-reveal.png",
           "src": "mojito-metallique/generated-v01/final/03-packaging-reveal.png",
-          "revised": false,
-          "sha256": "a781b6fcb1009f3a1a09b4e43c649e06af6684a5adf308fd91f57b5a4a39a39a",
-          "reason": "Uncapped bottle sits in the true lower base beside the tall upper tube with a solid black top; no invented packaging part.",
+          "revised": true,
+          "sha256": "a84698dba03f693debc3460d9d0df178e358333c50296ddfdc62bf46504168ac",
+          "reason": "Standardized product setup using the approved Sunset Cocktail template: upright glass bottle and centered atomizer, bottle in its short base at left, tall canister at right, cap lying at lower left. Individual scent background, label and colors retained. Native 1254 x 1254 PNG.",
           "initial_reason": "Uncapped bottle sits in the true lower base beside the tall upper tube with a solid black top; no invented packaging part.",
           "initial_status": "PASS",
-          "shopify_position": 10
+          "shopify_position": 10,
+          "dimensions": [
+            1254,
+            1254
+          ]
         },
         {
           "frame": 4,
@@ -1224,14 +1262,18 @@
         },
         {
           "frame": 3,
-          "file": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/moonlight-velvet/standardized-v01/final/03-packaging-reveal.png",
+          "file": "C:\\Users\\lhemy\\OneDrive\\Documents\\Dear Body\\output\\product-listing\\moonlight-velvet\\standardized-v01\\final\\03-packaging-reveal.png",
           "src": "moonlight-velvet/standardized-v01/final/03-packaging-reveal.png",
           "revised": true,
-          "sha256": "a3a479efa0157e403c811a89a2b3210bdbc7698b18bfb0ed6b5d0ee71fb2c4d6",
-          "reason": "Uncapped bottle in short base; seamless detached upper shell with attached black top; detached cap explicitly shows authentic embossed db top.",
+          "sha256": "dcd823a091308991afef05e1227b177413efbdb38926c436df94d48d0bfd312a",
+          "reason": "Standardized product setup using the approved Sunset Cocktail template: upright glass bottle and centered atomizer, bottle in its short base at left, tall canister at right, cap lying at lower left. Individual scent background, label and colors retained. Native 1254 x 1254 PNG.",
           "initial_reason": "Detached tall shell incorrectly retained a second lower-base seam and black bottom band.",
           "initial_status": "REVISE",
-          "shopify_position": 10
+          "shopify_position": 10,
+          "dimensions": [
+            1254,
+            1254
+          ]
         },
         {
           "frame": 4,
@@ -1372,14 +1414,18 @@
         },
         {
           "frame": 3,
-          "file": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/noir-cedar/generated-v01/final/03-uncapped-reveal.png",
+          "file": "C:\\Users\\lhemy\\OneDrive\\Documents\\Dear Body\\output\\product-listing\\noir-cedar\\generated-v01\\final\\03-uncapped-reveal.png",
           "src": "noir-cedar/generated-v01/final/03-uncapped-reveal.png",
           "revised": true,
-          "sha256": "67698627c1a72e62a1aaaa016b448e4955055db568b79e6dca9ae78d15887b91",
-          "reason": "Uncapped bottle in supported short base; detached continuous upper shell with attached solid black top and underside hidden; real black bottle cap.",
+          "sha256": "64215a76d9935a685c005b946baf7a5ac29048ed7a34cd83351a0bfdbd432f59",
+          "reason": "Standardized product setup using the approved Sunset Cocktail template: upright glass bottle and centered atomizer, bottle in its short base at left, tall canister at right, cap lying at lower left. Individual scent background, label and colors retained. Native 1254 x 1254 PNG.",
           "initial_reason": "Clearly visible detached cap top omitted the embossed db monogram seen in the raw photo.",
           "initial_status": "REVISE",
-          "shopify_position": 10
+          "shopify_position": 10,
+          "dimensions": [
+            1254,
+            1254
+          ]
         },
         {
           "frame": 4,
@@ -1521,14 +1567,18 @@
         },
         {
           "frame": 3,
-          "file": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/oud-mirage/generated-v01/final/03-packaging-reveal.png",
+          "file": "C:\\Users\\lhemy\\OneDrive\\Documents\\Dear Body\\output\\product-listing\\oud-mirage\\generated-v01\\final\\03-packaging-reveal.png",
           "src": "oud-mirage/generated-v01/final/03-packaging-reveal.png",
           "revised": true,
-          "sha256": "67dd43b650ea04806dd9343ff114d8bf56e219a9a5442e2bf1f5eda776b23557",
-          "reason": "Uncapped bottle in supported short base; detached continuous upper shell with attached solid black top and underside hidden; real black bottle cap.",
+          "sha256": "c572539722c8db23dd016a85e7140020febac4717b730e9e6e7a2fb21f0ec08a",
+          "reason": "Standardized product setup using the approved Sunset Cocktail template: upright glass bottle and centered atomizer, bottle in its short base at left, tall canister at right, cap lying at lower left. Individual scent background, label and colors retained. Native 1254 x 1254 PNG.",
           "initial_reason": "Detached upper shell incorrectly included a lower-base seam and black base band; visible cap top lacked monogram.",
           "initial_status": "REVISE",
-          "shopify_position": 10
+          "shopify_position": 10,
+          "dimensions": [
+            1254,
+            1254
+          ]
         },
         {
           "frame": 4,
@@ -1669,14 +1719,18 @@
         },
         {
           "frame": 3,
-          "file": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/rtulle-and-satin/generated-v01/final/03-packaging-reveal.png",
+          "file": "C:\\Users\\lhemy\\OneDrive\\Documents\\Dear Body\\output\\product-listing\\rtulle-and-satin\\generated-v01\\final\\03-packaging-reveal.png",
           "src": "rtulle-and-satin/generated-v01/final/03-packaging-reveal.png",
           "revised": true,
-          "sha256": "a333eefe902f0ac02b914f9c640cf0c138adae298dd654257bdadc4f52f7511b",
-          "reason": "Uncapped bottle in supported short base; detached continuous upper shell with attached solid black top and underside hidden; real black bottle cap.",
+          "sha256": "0445115adc20a7605acfb1103baed480ed50798346babc80dc4d807d778dd54a",
+          "reason": "Standardized product setup using the approved Sunset Cocktail template: upright glass bottle and centered atomizer, bottle in its short base at left, tall canister at right, cap lying at lower left. Individual scent background, label and colors retained. Native 1254 x 1254 PNG.",
           "initial_reason": "Uncapped bottle was beside a closed canister instead of showing the supported packaging reveal.",
           "initial_status": "REVISE",
-          "shopify_position": 10
+          "shopify_position": 10,
+          "dimensions": [
+            1254,
+            1254
+          ]
         },
         {
           "frame": 4,
@@ -1816,14 +1870,18 @@
         },
         {
           "frame": 3,
-          "file": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/seaside-cotton/generated-v01/final/03-uncapped-reveal.png",
+          "file": "C:\\Users\\lhemy\\OneDrive\\Documents\\Dear Body\\output\\product-listing\\seaside-cotton\\generated-v01\\final\\03-uncapped-reveal.png",
           "src": "seaside-cotton/generated-v01/final/03-uncapped-reveal.png",
           "revised": true,
-          "sha256": "8f45c3fdaaa228aa089dd60e1d5c4341468c5ab907c1084297071c6d3745fa47",
-          "reason": "Regenerated true open base, detached upper sleeve, uncapped atomizer and embossed cap; discarded transparency failure.",
+          "sha256": "5f147ecaadfecf5998fe095d749925b6e3f6e363d21a83391fb4c9829db5b5c1",
+          "reason": "Standardized product setup using the approved Sunset Cocktail template: upright glass bottle and centered atomizer, bottle in its short base at left, tall canister at right, cap lying at lower left. Individual scent background, label and colors retained. Native 1254 x 1254 PNG.",
           "initial_reason": "Closed assembled canister did not show a true packaging reveal.",
           "initial_status": "REVISE",
-          "shopify_position": 10
+          "shopify_position": 10,
+          "dimensions": [
+            1254,
+            1254
+          ]
         },
         {
           "frame": 4,
@@ -1967,14 +2025,18 @@
         },
         {
           "frame": 3,
-          "file": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/sunset-cocktail/standardized-v01/final/03-packaging-reveal.png",
+          "file": "C:\\Users\\lhemy\\OneDrive\\Documents\\Dear Body\\output\\product-listing\\sunset-cocktail\\standardized-v01\\final\\03-packaging-reveal.png",
           "src": "sunset-cocktail/standardized-v01/final/03-packaging-reveal.png",
           "revised": true,
-          "sha256": "e3160aff761ba5acb8fa8b15cdfef0e2d1b85c4e3ed88eec002dea9c71c7d192",
-          "reason": "Regenerated authentic uncapped packaging reveal with embossed cap top.",
+          "sha256": "749056c7095ac2c21d4eeb9ba2b01d15e47de301c2d717327abb4c7432b8fd42",
+          "reason": "Standardized product setup using the approved Sunset Cocktail template: upright glass bottle and centered atomizer, bottle in its short base at left, tall canister at right, cap lying at lower left. Individual scent background, label and colors retained. Native 1254 x 1254 PNG.",
           "initial_reason": "Closed canister did not show separate upper sleeve and lower base.",
           "initial_status": "REVISE",
-          "shopify_position": 10
+          "shopify_position": 10,
+          "dimensions": [
+            1254,
+            1254
+          ]
         },
         {
           "frame": 4,
@@ -2094,5 +2156,6 @@
     4,
     10
   ],
-  "shopify_order_updated": "2026-09-24"
+  "shopify_order_updated": "2026-09-24",
+  "uncapped_revision": "uniform-uncapped-2026-09-24-v3/manifest.json"
 }

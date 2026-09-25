@@ -1,0 +1,16 @@
+@font-face{font-family:Cenzo;src:url('../assets/CenzoFlare-Bold.woff2');font-weight:700}
+@font-face{font-family:HelveticaNow;src:url('../assets/HelveticaNowDisplay-Light.woff2');font-weight:300}
+*{box-sizing:border-box}html,body{padding:0;margin:0}body{font-family:HelveticaNow,Arial,sans-serif;color:#5c0006}
+.cover{position:relative;width:1640px;height:720px;overflow:hidden;background:#f4e3cb}
+.cover-photo{position:absolute;left:0;top:-91px;width:1640px;height:auto}
+.brand{position:absolute;left:686px;top:114px;width:268px}
+.tagline{position:absolute;top:170px;width:100%;text-align:center;font-size:23px;letter-spacing:3px}
+.offer{position:absolute;top:230px;left:510px;width:620px;text-align:center}
+.offer h1{font:700 69px/1.04 Cenzo,sans-serif;margin:0;white-space:nowrap;letter-spacing:-.4px}
+.offer .condition{font:700 45px/1.2 Cenzo,sans-serif;margin-top:11px}
+.cod{position:absolute;top:412px;left:622px;width:396px;height:54px;text-align:center;background:#5c0006;color:#f4e3cb;font-size:29px;line-height:54px;letter-spacing:1px}
+.cta{position:absolute;top:511px;left:671px;width:298px;height:70px;display:flex;align-items:center;justify-content:center;background:#5c0006;color:#f4e3cb;font:700 29px Cenzo,sans-serif;gap:18px}
+.cta svg{width:34px;height:24px}.cta path{fill:none;stroke:currentColor;stroke-width:2.5}
+.accent{position:absolute;bottom:0;width:100%;height:12px;display:flex}.accent i{flex:1}
+.profile{position:relative;width:1080px;height:1080px;overflow:hidden;background:#5c0006}
+.profile img{position:absolute;width:4320px;height:2880px;left:-1620px;top:-900px;max-width:none}

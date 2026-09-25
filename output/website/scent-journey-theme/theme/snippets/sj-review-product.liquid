@@ -1,0 +1,13 @@
+{% if reviewed_product != blank %}
+  {% capture review_prefix %}{% render 'sj-gallery-prefix', product: reviewed_product %}{% endcapture %}
+  {% assign review_prefix = review_prefix | strip %}
+  <a class="sj-sample-reviews__product" href="{{ reviewed_product.url }}">
+    {% if review_prefix != blank %}
+      {% assign review_image = review_prefix | append: '-01.jpg' %}
+      <img src="{{ review_image | asset_url }}" width="120" height="120" alt="{{ reviewed_product.title | escape }} bottle and packaging" loading="lazy">
+    {% elsif reviewed_product.featured_image %}
+      {{ reviewed_product.featured_image | image_url: width: 300 | image_tag: loading: 'lazy', widths: '120, 240, 300', sizes: '96px', alt: reviewed_product.title }}
+    {% endif %}
+    <span><small>Featured fragrance</small><strong>{{ reviewed_product.title | escape }}</strong></span>
+  </a>
+{% endif %}

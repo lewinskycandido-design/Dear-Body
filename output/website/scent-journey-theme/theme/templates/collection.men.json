@@ -6,9 +6,16 @@
         "heading": "MAKE YOUR SCENT\nPART OF YOUR STORY.",
         "description": "From everyday freshness to deeper evening character. Discover a fragrance that moves with you."
       }
+    },
+    "sample_reviews": {
+      "type": "sj-sample-reviews",
+      "settings": {
+        "show_samples": true
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "sample_reviews"
   ]
 }

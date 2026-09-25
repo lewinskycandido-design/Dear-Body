@@ -59,7 +59,7 @@
     const cancelPending = () => { clearTimeout(pending); pending = null; generation++; choices.removeAttribute('aria-busy'); };
     const iconFor = (key, option) => {
       if (!option) return 'compass';
-      if (key === 'collection') return 'hanger';
+      if (key === 'collection') return normalize(option) === 'women' ? 'women' : 'men';
       if (/dark|deep|smoky|evening/i.test(option)) return 'moon';
       if (/soft|airy|relaxed/i.test(option)) return 'cloud';
       if (/bright|warm|spice/i.test(option)) return 'sun';
@@ -85,6 +85,7 @@
         const button = document.createElement('button');
         button.className = 'sj-finder-answer'; button.type = 'button'; button.value = option;
         button.dataset.sjFinderAnswer = question.key;
+        if (question.key === 'collection') button.dataset.collectionChoice = option ? normalize(option) : 'both';
         button.setAttribute('aria-pressed', String(Object.hasOwn(answers, question.key) && answers[question.key] === option));
         const mark = document.createElement('span'); mark.className = 'sj-finder-answer__icon';
         const artwork = section.querySelector(`[data-sj-finder-icon="${iconFor(question.key, option)}"]`);
@@ -116,6 +117,24 @@
         if (description) description.textContent = result.profile.description || '';
         card.querySelector('[data-sj-match-reason]').textContent = result.matches.length ? `Connects with your choices: ${result.matches.join(' · ')}.` : 'Explore its scent story and see what speaks to you.';
         grid.append(card);
+        const buy = document.createElement('button');
+        buy.type = 'button'; buy.className = 'sj-button sj-finder-buy';
+        buy.textContent = original.dataset.variantAvailable === 'true' ? 'Buy now' : 'Sold out';
+        buy.disabled = original.dataset.variantAvailable !== 'true';
+        buy.setAttribute('aria-controls', section.querySelector('[data-sj-order-panel]')?.id || '');
+        const error = document.createElement('p'); error.setAttribute('role', 'alert');
+        buy.addEventListener('click', () => {
+          const order = section.querySelector('[data-sj-finder-order]');
+          error.textContent = '';
+          try {
+            if (!window.SJCollectionOrder?.addItem || !order) throw new Error('The order form is still loading. Please try again.');
+            order.hidden = false;
+            window.SJCollectionOrder.addItem(order.querySelector('[data-sj-order-form]'), original.dataset.variantId);
+            order.scrollIntoView({ block: 'start', behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth' });
+            order.querySelector('[data-sj-order-heading]')?.focus({ preventScroll: true });
+          } catch (issue) { error.textContent = issue.message; }
+        });
+        card.append(buy, error);
       });
       const heading = results.querySelector('h2');
       heading.textContent = hasPreferences && ranked.length ? 'MEET YOUR\nSCENT MATCH.' : 'START YOUR\nDISCOVERY.';
@@ -148,8 +167,19 @@
       if (step > 0) { step--; render(); }
     });
     section.querySelectorAll('[data-sj-finder-reset]').forEach(button => button.addEventListener('click', () => { answers = {}; step = 0; render(); }));
-    experience.hidden = false;
-    render(false);
+    const start = section.querySelector('[data-sj-finder-start]');
+    const welcome = section.querySelector('[data-sj-finder-welcome]');
+    if (start && welcome) {
+      start.disabled = false;
+      start.addEventListener('click', () => {
+        welcome.hidden = true;
+        experience.hidden = false;
+        render();
+      });
+    } else {
+      experience.hidden = false;
+      render(false);
+    }
   });
   document.addEventListener('shopify:section:load', initialize);
   initialize();

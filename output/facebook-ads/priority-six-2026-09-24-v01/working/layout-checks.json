@@ -1,0 +1,632 @@
+[
+  {
+    "scent": "mojito-metallique",
+    "fontsLoaded": [
+      true,
+      true
+    ],
+    "boxes": {
+      ".brand": {
+        "text": "Dear Body",
+        "x": 58,
+        "y": 34,
+        "width": 265,
+        "height": 42.203125,
+        "font": "HelveticaNow, Arial, sans-serif",
+        "scrollWidth": 265,
+        "clientWidth": 265
+      },
+      ".tagline": {
+        "text": "A SCENT JOURNEY",
+        "x": 798.125,
+        "y": 43,
+        "width": 223.875,
+        "height": 26,
+        "font": "HelveticaNow, Arial, sans-serif",
+        "scrollWidth": 224,
+        "clientWidth": 224
+      },
+      ".headline": {
+        "text": "FREE SHIPPING",
+        "x": 58,
+        "y": 91,
+        "width": 601.796875,
+        "height": 97.359375,
+        "font": "Cenzo, sans-serif",
+        "scrollWidth": 602,
+        "clientWidth": 602
+      },
+      ".condition": {
+        "text": "ON 2+ ITEMS",
+        "x": 61,
+        "y": 187,
+        "width": 263.296875,
+        "height": 56.390625,
+        "font": "Cenzo, sans-serif",
+        "scrollWidth": 263,
+        "clientWidth": 263
+      },
+      ".cod": {
+        "text": "CASH ON DELIVERY",
+        "x": 58,
+        "y": 262,
+        "width": 338.453125,
+        "height": 51,
+        "font": "HelveticaNow, Arial, sans-serif",
+        "scrollWidth": 338,
+        "clientWidth": 338
+      },
+      ".photo": {
+        "text": "Mojito Metallique lifestyle photograph featuring an adult Filipino woman",
+        "x": 0,
+        "y": 340,
+        "width": 1080,
+        "height": 810,
+        "font": "HelveticaNow, Arial, sans-serif",
+        "scrollWidth": 1080,
+        "clientWidth": 1080
+      },
+      ".line": {
+        "text": "FOR HER · 50 ML",
+        "x": 59,
+        "y": 1183,
+        "width": 187.703125,
+        "height": 28,
+        "font": "HelveticaNow, Arial, sans-serif",
+        "scrollWidth": 188,
+        "clientWidth": 188
+      },
+      ".name": {
+        "text": "MOJITO\nMETALLIQUE",
+        "x": 57,
+        "y": 1219,
+        "width": 650,
+        "height": 88.5625,
+        "font": "Cenzo, sans-serif",
+        "scrollWidth": 650,
+        "clientWidth": 650
+      },
+      ".cta": {
+        "text": "SHOP NOW",
+        "x": 756,
+        "y": 1223,
+        "width": 266,
+        "height": 78,
+        "font": "Cenzo, sans-serif",
+        "scrollWidth": 266,
+        "clientWidth": 266
+      }
+    },
+    "failedImages": 0,
+    "dimensions": [
+      1080,
+      1350
+    ],
+    "bytes": 1324606
+  },
+  {
+    "scent": "amber-oud-silk",
+    "fontsLoaded": [
+      true,
+      true
+    ],
+    "boxes": {
+      ".brand": {
+        "text": "Dear Body",
+        "x": 58,
+        "y": 34,
+        "width": 265,
+        "height": 42.203125,
+        "font": "HelveticaNow, Arial, sans-serif",
+        "scrollWidth": 265,
+        "clientWidth": 265
+      },
+      ".tagline": {
+        "text": "A SCENT JOURNEY",
+        "x": 798.125,
+        "y": 43,
+        "width": 223.875,
+        "height": 26,
+        "font": "HelveticaNow, Arial, sans-serif",
+        "scrollWidth": 224,
+        "clientWidth": 224
+      },
+      ".headline": {
+        "text": "FREE SHIPPING",
+        "x": 58,
+        "y": 91,
+        "width": 601.796875,
+        "height": 97.359375,
+        "font": "Cenzo, sans-serif",
+        "scrollWidth": 602,
+        "clientWidth": 602
+      },
+      ".condition": {
+        "text": "ON 2+ ITEMS",
+        "x": 61,
+        "y": 187,
+        "width": 263.296875,
+        "height": 56.390625,
+        "font": "Cenzo, sans-serif",
+        "scrollWidth": 263,
+        "clientWidth": 263
+      },
+      ".cod": {
+        "text": "CASH ON DELIVERY",
+        "x": 58,
+        "y": 262,
+        "width": 338.453125,
+        "height": 51,
+        "font": "HelveticaNow, Arial, sans-serif",
+        "scrollWidth": 338,
+        "clientWidth": 338
+      },
+      ".photo": {
+        "text": "Amber Oud Silk lifestyle photograph featuring an adult Filipino woman",
+        "x": 0,
+        "y": 340,
+        "width": 1080,
+        "height": 810,
+        "font": "HelveticaNow, Arial, sans-serif",
+        "scrollWidth": 1080,
+        "clientWidth": 1080
+      },
+      ".line": {
+        "text": "FOR HER · 50 ML",
+        "x": 59,
+        "y": 1183,
+        "width": 187.703125,
+        "height": 28,
+        "font": "HelveticaNow, Arial, sans-serif",
+        "scrollWidth": 188,
+        "clientWidth": 188
+      },
+      ".name": {
+        "text": "AMBER OUD SILK",
+        "x": 57,
+        "y": 1219,
+        "width": 650,
+        "height": 44.28125,
+        "font": "Cenzo, sans-serif",
+        "scrollWidth": 650,
+        "clientWidth": 650
+      },
+      ".cta": {
+        "text": "SHOP NOW",
+        "x": 756,
+        "y": 1223,
+        "width": 266,
+        "height": 78,
+        "font": "Cenzo, sans-serif",
+        "scrollWidth": 266,
+        "clientWidth": 266
+      }
+    },
+    "failedImages": 0,
+    "dimensions": [
+      1080,
+      1350
+    ],
+    "bytes": 1248326
+  },
+  {
+    "scent": "mistened-narcissus",
+    "fontsLoaded": [
+      true,
+      true
+    ],
+    "boxes": {
+      ".brand": {
+        "text": "Dear Body",
+        "x": 58,
+        "y": 34,
+        "width": 265,
+        "height": 42.203125,
+        "font": "HelveticaNow, Arial, sans-serif",
+        "scrollWidth": 265,
+        "clientWidth": 265
+      },
+      ".tagline": {
+        "text": "A SCENT JOURNEY",
+        "x": 798.125,
+        "y": 43,
+        "width": 223.875,
+        "height": 26,
+        "font": "HelveticaNow, Arial, sans-serif",
+        "scrollWidth": 224,
+        "clientWidth": 224
+      },
+      ".headline": {
+        "text": "FREE SHIPPING",
+        "x": 58,
+        "y": 91,
+        "width": 601.796875,
+        "height": 97.359375,
+        "font": "Cenzo, sans-serif",
+        "scrollWidth": 602,
+        "clientWidth": 602
+      },
+      ".condition": {
+        "text": "ON 2+ ITEMS",
+        "x": 61,
+        "y": 187,
+        "width": 263.296875,
+        "height": 56.390625,
+        "font": "Cenzo, sans-serif",
+        "scrollWidth": 263,
+        "clientWidth": 263
+      },
+      ".cod": {
+        "text": "CASH ON DELIVERY",
+        "x": 58,
+        "y": 262,
+        "width": 338.453125,
+        "height": 51,
+        "font": "HelveticaNow, Arial, sans-serif",
+        "scrollWidth": 338,
+        "clientWidth": 338
+      },
+      ".photo": {
+        "text": "Mistened Narcissus lifestyle photograph featuring an adult Filipino woman",
+        "x": 0,
+        "y": 340,
+        "width": 1080,
+        "height": 810,
+        "font": "HelveticaNow, Arial, sans-serif",
+        "scrollWidth": 1080,
+        "clientWidth": 1080
+      },
+      ".line": {
+        "text": "FOR HER · 50 ML",
+        "x": 59,
+        "y": 1183,
+        "width": 187.703125,
+        "height": 28,
+        "font": "HelveticaNow, Arial, sans-serif",
+        "scrollWidth": 188,
+        "clientWidth": 188
+      },
+      ".name": {
+        "text": "MISTENED\nNARCISSUS",
+        "x": 57,
+        "y": 1219,
+        "width": 650,
+        "height": 88.5625,
+        "font": "Cenzo, sans-serif",
+        "scrollWidth": 650,
+        "clientWidth": 650
+      },
+      ".cta": {
+        "text": "SHOP NOW",
+        "x": 756,
+        "y": 1223,
+        "width": 266,
+        "height": 78,
+        "font": "Cenzo, sans-serif",
+        "scrollWidth": 266,
+        "clientWidth": 266
+      }
+    },
+    "failedImages": 0,
+    "dimensions": [
+      1080,
+      1350
+    ],
+    "bytes": 1243394
+  },
+  {
+    "scent": "charme-envoutant",
+    "fontsLoaded": [
+      true,
+      true
+    ],
+    "boxes": {
+      ".brand": {
+        "text": "Dear Body",
+        "x": 58,
+        "y": 34,
+        "width": 265,
+        "height": 42.203125,
+        "font": "HelveticaNow, Arial, sans-serif",
+        "scrollWidth": 265,
+        "clientWidth": 265
+      },
+      ".tagline": {
+        "text": "A SCENT JOURNEY",
+        "x": 798.125,
+        "y": 43,
+        "width": 223.875,
+        "height": 26,
+        "font": "HelveticaNow, Arial, sans-serif",
+        "scrollWidth": 224,
+        "clientWidth": 224
+      },
+      ".headline": {
+        "text": "FREE SHIPPING",
+        "x": 58,
+        "y": 91,
+        "width": 601.796875,
+        "height": 97.359375,
+        "font": "Cenzo, sans-serif",
+        "scrollWidth": 602,
+        "clientWidth": 602
+      },
+      ".condition": {
+        "text": "ON 2+ ITEMS",
+        "x": 61,
+        "y": 187,
+        "width": 263.296875,
+        "height": 56.390625,
+        "font": "Cenzo, sans-serif",
+        "scrollWidth": 263,
+        "clientWidth": 263
+      },
+      ".cod": {
+        "text": "CASH ON DELIVERY",
+        "x": 58,
+        "y": 262,
+        "width": 338.453125,
+        "height": 51,
+        "font": "HelveticaNow, Arial, sans-serif",
+        "scrollWidth": 338,
+        "clientWidth": 338
+      },
+      ".photo": {
+        "text": "Charme Envoûtant lifestyle photograph featuring an adult Filipino man",
+        "x": 0,
+        "y": 340,
+        "width": 1080,
+        "height": 810,
+        "font": "HelveticaNow, Arial, sans-serif",
+        "scrollWidth": 1080,
+        "clientWidth": 1080
+      },
+      ".line": {
+        "text": "FOR HIM · 50 ML",
+        "x": 59,
+        "y": 1183,
+        "width": 183.625,
+        "height": 28,
+        "font": "HelveticaNow, Arial, sans-serif",
+        "scrollWidth": 184,
+        "clientWidth": 184
+      },
+      ".name": {
+        "text": "CHARME\nENVOÛTANT",
+        "x": 57,
+        "y": 1219,
+        "width": 650,
+        "height": 88.5625,
+        "font": "Cenzo, sans-serif",
+        "scrollWidth": 650,
+        "clientWidth": 650
+      },
+      ".cta": {
+        "text": "SHOP NOW",
+        "x": 756,
+        "y": 1223,
+        "width": 266,
+        "height": 78,
+        "font": "Cenzo, sans-serif",
+        "scrollWidth": 266,
+        "clientWidth": 266
+      }
+    },
+    "failedImages": 0,
+    "dimensions": [
+      1080,
+      1350
+    ],
+    "bytes": 1388234
+  },
+  {
+    "scent": "oud-mirage",
+    "fontsLoaded": [
+      true,
+      true
+    ],
+    "boxes": {
+      ".brand": {
+        "text": "Dear Body",
+        "x": 58,
+        "y": 34,
+        "width": 265,
+        "height": 42.203125,
+        "font": "HelveticaNow, Arial, sans-serif",
+        "scrollWidth": 265,
+        "clientWidth": 265
+      },
+      ".tagline": {
+        "text": "A SCENT JOURNEY",
+        "x": 798.125,
+        "y": 43,
+        "width": 223.875,
+        "height": 26,
+        "font": "HelveticaNow, Arial, sans-serif",
+        "scrollWidth": 224,
+        "clientWidth": 224
+      },
+      ".headline": {
+        "text": "FREE SHIPPING",
+        "x": 58,
+        "y": 91,
+        "width": 601.796875,
+        "height": 97.359375,
+        "font": "Cenzo, sans-serif",
+        "scrollWidth": 602,
+        "clientWidth": 602
+      },
+      ".condition": {
+        "text": "ON 2+ ITEMS",
+        "x": 61,
+        "y": 187,
+        "width": 263.296875,
+        "height": 56.390625,
+        "font": "Cenzo, sans-serif",
+        "scrollWidth": 263,
+        "clientWidth": 263
+      },
+      ".cod": {
+        "text": "CASH ON DELIVERY",
+        "x": 58,
+        "y": 262,
+        "width": 338.453125,
+        "height": 51,
+        "font": "HelveticaNow, Arial, sans-serif",
+        "scrollWidth": 338,
+        "clientWidth": 338
+      },
+      ".photo": {
+        "text": "Oud Mirage lifestyle photograph featuring an adult Filipino man",
+        "x": 0,
+        "y": 340,
+        "width": 1080,
+        "height": 810,
+        "font": "HelveticaNow, Arial, sans-serif",
+        "scrollWidth": 1080,
+        "clientWidth": 1080
+      },
+      ".line": {
+        "text": "FOR HIM · 50 ML",
+        "x": 59,
+        "y": 1183,
+        "width": 183.625,
+        "height": 28,
+        "font": "HelveticaNow, Arial, sans-serif",
+        "scrollWidth": 184,
+        "clientWidth": 184
+      },
+      ".name": {
+        "text": "OUD MIRAGE",
+        "x": 57,
+        "y": 1219,
+        "width": 650,
+        "height": 44.28125,
+        "font": "Cenzo, sans-serif",
+        "scrollWidth": 650,
+        "clientWidth": 650
+      },
+      ".cta": {
+        "text": "SHOP NOW",
+        "x": 756,
+        "y": 1223,
+        "width": 266,
+        "height": 78,
+        "font": "Cenzo, sans-serif",
+        "scrollWidth": 266,
+        "clientWidth": 266
+      }
+    },
+    "failedImages": 0,
+    "dimensions": [
+      1080,
+      1350
+    ],
+    "bytes": 1387924
+  },
+  {
+    "scent": "rtulle-and-satin",
+    "fontsLoaded": [
+      true,
+      true
+    ],
+    "boxes": {
+      ".brand": {
+        "text": "Dear Body",
+        "x": 58,
+        "y": 34,
+        "width": 265,
+        "height": 42.203125,
+        "font": "HelveticaNow, Arial, sans-serif",
+        "scrollWidth": 265,
+        "clientWidth": 265
+      },
+      ".tagline": {
+        "text": "A SCENT JOURNEY",
+        "x": 798.125,
+        "y": 43,
+        "width": 223.875,
+        "height": 26,
+        "font": "HelveticaNow, Arial, sans-serif",
+        "scrollWidth": 224,
+        "clientWidth": 224
+      },
+      ".headline": {
+        "text": "FREE SHIPPING",
+        "x": 58,
+        "y": 91,
+        "width": 601.796875,
+        "height": 97.359375,
+        "font": "Cenzo, sans-serif",
+        "scrollWidth": 602,
+        "clientWidth": 602
+      },
+      ".condition": {
+        "text": "ON 2+ ITEMS",
+        "x": 61,
+        "y": 187,
+        "width": 263.296875,
+        "height": 56.390625,
+        "font": "Cenzo, sans-serif",
+        "scrollWidth": 263,
+        "clientWidth": 263
+      },
+      ".cod": {
+        "text": "CASH ON DELIVERY",
+        "x": 58,
+        "y": 262,
+        "width": 338.453125,
+        "height": 51,
+        "font": "HelveticaNow, Arial, sans-serif",
+        "scrollWidth": 338,
+        "clientWidth": 338
+      },
+      ".photo": {
+        "text": "Rtulle & Satin lifestyle photograph featuring an adult Filipino man",
+        "x": 0,
+        "y": 340,
+        "width": 1080,
+        "height": 810,
+        "font": "HelveticaNow, Arial, sans-serif",
+        "scrollWidth": 1080,
+        "clientWidth": 1080
+      },
+      ".line": {
+        "text": "FOR HIM · 50 ML",
+        "x": 59,
+        "y": 1183,
+        "width": 183.625,
+        "height": 28,
+        "font": "HelveticaNow, Arial, sans-serif",
+        "scrollWidth": 184,
+        "clientWidth": 184
+      },
+      ".name": {
+        "text": "RTULLE & SATIN",
+        "x": 57,
+        "y": 1219,
+        "width": 650,
+        "height": 44.28125,
+        "font": "Cenzo, sans-serif",
+        "scrollWidth": 650,
+        "clientWidth": 650
+      },
+      ".cta": {
+        "text": "SHOP NOW",
+        "x": 756,
+        "y": 1223,
+        "width": 266,
+        "height": 78,
+        "font": "Cenzo, sans-serif",
+        "scrollWidth": 266,
+        "clientWidth": 266
+      }
+    },
+    "failedImages": 0,
+    "dimensions": [
+      1080,
+      1350
+    ],
+    "bytes": 1329784
+  }
+]

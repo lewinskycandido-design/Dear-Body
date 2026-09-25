@@ -1,0 +1,39 @@
+{{ 'sj-sample-reviews.css' | asset_url | stylesheet_tag }}
+{% liquid
+  assign review_handles = 'amber-oud-silk,oud-mirage,mojito-metallique' | split: ','
+  if collection.handle == 'womens-perfume'
+    assign review_handles = 'mojito-metallique,amber-oud-silk,mistened-narcissus' | split: ','
+  elsif collection.handle == 'mens-perfume'
+    assign review_handles = 'charme-envoutant,oud-mirage,rtulle-satin' | split: ','
+  endif
+%}
+<section id="SampleReviews-{{ section.id }}" class="sj-sample-reviews sj-container" aria-label="Sample reviews">
+  <p class="sj-eyebrow">A PREVIEW OF YOUR SCENT STORIES</p>
+  <h2>Sample reviews{% if product %} for {{ product.title | escape }}{% endif %}</h2>
+  <p class="sj-sample-reviews__notice">Illustrative examples only — these are not real customer reviews or ratings.</p>
+  <h3 class="sj-review-view-heading">Featured reviews</h3>
+  <div class="sj-sample-reviews__grid">
+    <article>{% unless product %}{% assign reviewed_product = all_products[review_handles[0]] %}{% render 'sj-review-product', reviewed_product: reviewed_product %}{% endunless %}<span class="sj-sample-reviews__badge">SAMPLE REVIEW</span><div class="sj-sample-reviews__rating" aria-label="Sample rating: 5.0 out of 5 stars"><span class="sj-sample-reviews__stars" style="--rating-fill: 100%" aria-hidden="true">★★★★★</span><small>Sample rating · 5.0</small></div><h3>A little everyday ritual</h3><p>“I love making fragrance part of getting ready. The bottle looks lovely on my dressing table, too.”</p><footer>Example customer A · Sample copy</footer></article>
+    <article>{% unless product %}{% assign reviewed_product = all_products[review_handles[1]] %}{% render 'sj-review-product', reviewed_product: reviewed_product %}{% endunless %}<span class="sj-sample-reviews__badge">SAMPLE REVIEW</span><div class="sj-sample-reviews__rating" aria-label="Sample rating: 5.0 out of 5 stars"><span class="sj-sample-reviews__stars" style="--rating-fill: 100%" aria-hidden="true">★★★★★</span><small>Sample rating · 5.0</small></div><h3>A thoughtful little gift</h3><p>“I picked this as a gift. The matching bottle and canister made it feel like a complete little present.”</p><footer>Example customer B · Sample copy</footer></article>
+    <article>{% unless product %}{% assign reviewed_product = all_products[review_handles[2]] %}{% render 'sj-review-product', reviewed_product: reviewed_product %}{% endunless %}<span class="sj-sample-reviews__badge">SAMPLE REVIEW</span><div class="sj-sample-reviews__rating" aria-label="Sample rating: 4.9 out of 5 stars"><span class="sj-sample-reviews__stars" style="--rating-fill: 98.00000000000001%" aria-hidden="true">★★★★★</span><small>Sample rating · 4.9</small></div><h3>Room for another favourite</h3><p>“Choosing two scents lets me switch things up. I like having a different option for different plans.”</p><footer>Example customer C · Sample copy</footer></article>
+  </div>
+  <div class="sj-review-list">
+    <h3 class="sj-review-view-heading">More reviews</h3>
+    <p class="sj-sample-reviews__notice">Standard review view · Sample content</p>
+    {% assign list_titles = 'A place on my shelf|An easy addition to my routine|A lovely presentation' | split: '|' %}
+    {% assign list_copy = 'The bottle is easy to keep with my everyday essentials. I enjoy having it ready when I am getting dressed.|I like taking a moment to choose my fragrance before heading out. This makes a lovely addition to that routine.|The matching canister and bottle caught my eye. I enjoy the colourful presentation.' | split: '|' %}
+    {% assign list_names = 'D,E,F' | split: ',' %}
+    {% assign list_ratings = '4.9,5.0,4.8' | split: ',' %}
+    {% assign list_fills = '98%,100%,96%' | split: ',' %}
+    {% for index in (0..2) %}
+      <article class="sj-review-list__row">
+        <div class="sj-review-list__author"><span class="sj-review-list__avatar" aria-hidden="true">{{ list_names[index] }}</span><strong>Example customer {{ list_names[index] }}</strong><small>Sample review</small></div>
+        <div class="sj-review-list__body">
+          <div class="sj-sample-reviews__rating" aria-label="Sample rating: {{ list_ratings[index] }} out of 5 stars"><span class="sj-sample-reviews__stars" style="--rating-fill: {{ list_fills[index] }}" aria-hidden="true">★★★★★</span><small>{{ list_ratings[index] }} · Sample rating</small></div>
+          <h4>{{ list_titles[index] }}</h4><p>{{ list_copy[index] }}</p>
+        </div>
+        <div class="sj-review-list__product">{% assign reviewed_product = product | default: all_products[review_handles[index]] %}{% render 'sj-review-product', reviewed_product: reviewed_product %}</div>
+      </article>
+    {% endfor %}
+  </div>
+</section>
