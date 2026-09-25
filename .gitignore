@@ -18,6 +18,5 @@
 *.pid
 **/source-assets/canva/page-assets-manifest.json
 
-# Keep the current installable theme; older packaged copies stay local
-*.zip
-!output/website/scent-journey-theme/DearBody-Theme-Update-COD-Orders.zip
+# Oversized archive: its unpacked source files are tracked instead
+/output/flow-frame-pack/Dear-Body-Flow-All-16-Scripts.zip
