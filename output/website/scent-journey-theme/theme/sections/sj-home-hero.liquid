@@ -9,8 +9,7 @@
         <h1 id="HomeHeroTitle-{{ section.id }}">{{ section.settings.heading | escape | newline_to_br }}</h1>
         <p class="sj-home-hero__description">{{ section.settings.description | escape }}</p>
         <div class="sj-home-hero__actions">
-          <a class="sj-button" href="#HomeOrder">Order now</a>
-          <a class="sj-button sj-button--secondary" href="#ShopCollections">{{ section.settings.button_label | escape }}</a>
+          <a class="sj-button" href="{{ routes.all_products_collection_url }}">Shop now</a>
         </div>
       </div>
     </div>

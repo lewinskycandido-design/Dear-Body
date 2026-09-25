@@ -17,6 +17,7 @@
     <article>{% unless product %}{% assign reviewed_product = all_products[review_handles[1]] %}{% render 'sj-review-product', reviewed_product: reviewed_product %}{% endunless %}<span class="sj-sample-reviews__badge">SAMPLE REVIEW</span><div class="sj-sample-reviews__rating" aria-label="Sample rating: 5.0 out of 5 stars"><span class="sj-sample-reviews__stars" style="--rating-fill: 100%" aria-hidden="true">★★★★★</span><small>Sample rating · 5.0</small></div><h3>A thoughtful little gift</h3><p>“I picked this as a gift. The matching bottle and canister made it feel like a complete little present.”</p><footer>Example customer B · Sample copy</footer></article>
     <article>{% unless product %}{% assign reviewed_product = all_products[review_handles[2]] %}{% render 'sj-review-product', reviewed_product: reviewed_product %}{% endunless %}<span class="sj-sample-reviews__badge">SAMPLE REVIEW</span><div class="sj-sample-reviews__rating" aria-label="Sample rating: 4.9 out of 5 stars"><span class="sj-sample-reviews__stars" style="--rating-fill: 98.00000000000001%" aria-hidden="true">★★★★★</span><small>Sample rating · 4.9</small></div><h3>Room for another favourite</h3><p>“Choosing two scents lets me switch things up. I like having a different option for different plans.”</p><footer>Example customer C · Sample copy</footer></article>
   </div>
+  <details class="sj-reviews-more"><summary>View more reviews</summary>
   <div class="sj-review-list">
     <h3 class="sj-review-view-heading">More reviews</h3>
     <p class="sj-sample-reviews__notice">Standard review view · Sample content</p>
@@ -36,4 +37,5 @@
       </article>
     {% endfor %}
   </div>
+  </details>
 </section>

@@ -13,14 +13,33 @@
   </a>
   <div class="sj-product-card__details">
     <h3><a href="{{ product.url }}">{{ product.title | escape }}</a></h3>
+    {% liquid
+      assign card_rating_data = product.metafields.reviews.rating.value
+      assign card_rating = 4.9
+      assign card_rating_label = 'Sample rating'
+      if card_rating_data.rating != blank
+        assign card_rating_scale = card_rating_data.scale_max | default: 5
+        assign card_rating = card_rating_data.rating | times: 5.0 | divided_by: card_rating_scale | at_least: 0 | at_most: 5 | round: 1
+        assign card_rating_label = 'Customer rating'
+      endif
+      assign card_rating_text = card_rating | append: ''
+      unless card_rating_text contains '.'
+        assign card_rating_text = card_rating_text | append: '.0'
+      endunless
+      assign card_rating_fill = card_rating | times: 20
+    %}
+    <div class="sj-product-card__rating" aria-label="{{ card_rating_label }}: {{ card_rating_text }} out of 5 stars">
+      <span class="sj-product-card__stars" style="--rating-fill: {{ card_rating_fill }}%" aria-hidden="true">★★★★★</span>
+      <span>{{ card_rating_text }} <small>· {{ card_rating_label }}</small></span>
+    </div>
     <p class="sj-product-card__price">{% render 'sj-price', product: product %}</p>
     {% if character != blank %}<p class="sj-product-card__character">{% if product.metafields.custom.scent_character.type contains 'list.' %}{{ character | join: ' · ' | escape }}{% else %}{{ character | escape }}{% endif %}</p>{% elsif short_description != blank %}<p class="sj-product-card__character">{{ short_description | escape }}</p>{% endif %}
-    {% if collection_order %}
-      {% assign card_variant = product.selected_or_first_available_variant %}
-      <div class="sj-product-card__order">
-        <button class="sj-button" type="button" data-sj-collection-add value="{{ card_variant.id }}" aria-label="{% if card_variant.available %}Add to order{% else %}Sold out:{% endif %} {{ product.title | escape }}" aria-controls="{{ order_panel_id }}" aria-expanded="false" hidden disabled><span data-sj-order-add-label>{% if card_variant.available %}Add to order{% else %}Sold out{% endif %}</span></button>
-        <a class="sj-button sj-button--secondary" href="{{ product.url }}" data-sj-collection-order-fallback>{% if card_variant.available %}Add to order{% else %}View scent{% endif %}<span class="sj-visually-hidden"> {{ product.title | escape }}</span></a>
-      </div>
-    {% endif %}
+    {% assign card_variant = product.selected_or_first_available_variant %}
+    <form method="post" action="{{ routes.cart_add_url }}" data-sj-product-form class="sj-product-card__order">
+      <input type="hidden" name="id" value="{{ card_variant.id }}">
+      <input type="hidden" name="quantity" value="{{ card_variant.quantity_rule.min | default: 1 }}">
+      <button class="sj-button" type="submit" name="add" {% unless card_variant.available %}disabled{% endunless %}>{% if card_variant.available %}Add to cart{% else %}Sold out{% endif %}<span class="sj-visually-hidden"> {{ product.title | escape }}</span></button>
+      <p role="alert" data-sj-product-error></p>
+    </form>
   </div>
 </article>

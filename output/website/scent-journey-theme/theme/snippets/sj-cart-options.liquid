@@ -1,0 +1,21 @@
+<div class="sj-cart-options">
+  <details data-sj-cart-disclosure="note" class="sj-cart-option">
+    <summary>Special instructions <span aria-hidden="true">+</span></summary>
+    <label class="sj-visually-hidden" for="CartNote-{{ scope }}">Special instructions for your order</label>
+    <textarea id="CartNote-{{ scope }}" name="note" rows="3" maxlength="5000" data-sj-cart-note placeholder="Anything we should know about your order?">{{ cart.note | escape }}</textarea>
+    <p class="sj-cart-option__status" data-sj-note-status role="status" aria-live="polite"></p>
+  </details>
+  <details data-sj-cart-disclosure="discount" class="sj-cart-option">
+    <summary>Discount <span aria-hidden="true">+</span></summary>
+    <div class="sj-cart-discount-input">
+      <label class="sj-visually-hidden" for="CartDiscount-{{ scope }}">Discount code</label>
+      <input id="CartDiscount-{{ scope }}" type="text" autocomplete="off" autocapitalize="characters" data-sj-discount-input placeholder="Discount code">
+      <button class="sj-button" type="button" data-sj-discount-apply>Apply</button>
+    </div>
+    <div class="sj-cart-discount-codes" data-sj-discount-codes>
+      {% for discount in cart.discount_applications %}{% if discount.type == 'discount_code' %}<button type="button" data-sj-discount-remove="{{ discount.title | escape }}" aria-label="Remove discount {{ discount.title | escape }}">{{ discount.title | escape }} <span aria-hidden="true">×</span></button>{% endif %}{% endfor %}
+    </div>
+    <p class="sj-cart-option__status" data-sj-discount-status role="status" aria-live="polite"></p>
+    <noscript><p>Enter your discount code at checkout.</p></noscript>
+  </details>
+</div>

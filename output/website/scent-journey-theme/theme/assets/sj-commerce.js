@@ -4,6 +4,74 @@
   const root = () => window.Shopify?.routes?.root || window.sjRoutes?.root || document.documentElement.dataset.shopRoot || '/';
   const route = path => `${root().replace(/\/?$/, '/')}${path}`;
   let cartBusy = false;
+  let noteDraft;
+  let savedNote;
+  let noteTimer;
+  const noteIsDirty = () => noteDraft !== undefined && noteDraft !== savedNote;
+  const optionMessage = (selector, message) => document.querySelectorAll(selector).forEach(node => { node.textContent = message; });
+  const persistNote = async () => {
+    clearTimeout(noteTimer);
+    if (!noteIsDirty()) return;
+    const value = noteDraft;
+    optionMessage('[data-sj-note-status]', 'Saving…');
+    const cart = await fetch(route('cart/update.js'), { method: 'POST', headers: { 'Content-Type': 'application/json', Accept: 'application/json' }, body: JSON.stringify({ note: value }) }).then(readJSON);
+    if ((cart.note || '') !== value) throw new Error('Your special instructions could not be saved. Please try again.');
+    savedNote = value;
+    optionMessage('[data-sj-note-status]', 'Instructions saved.');
+  };
+  const saveNoteWhenIdle = async () => {
+    if (!noteIsDirty()) return;
+    if (cartBusy) { noteTimer = setTimeout(saveNoteWhenIdle, 300); return; }
+    setCartBusy(true);
+    try { await persistNote(); }
+    catch (error) { optionMessage('[data-sj-note-status]', error.message || 'Could not save your instructions. Please try again.'); }
+    finally { setCartBusy(false); }
+  };
+  const discountCodes = cart => {
+    const codes = Array.isArray(cart.discount_codes) ? cart.discount_codes.filter(code => code.applicable !== false).map(code => code.code) : [];
+    const applications = [...(cart.cart_level_discount_applications || []), ...(cart.items || []).flatMap(item => (item.line_level_discount_allocations || []).map(row => row.discount_application))];
+    for (const application of applications) if (application?.type === 'discount_code') codes.push(application.title);
+    return [...new Set(codes.filter(Boolean).map(code => code.toUpperCase()))];
+  };
+  const renderDiscountCodes = cart => {
+    document.querySelectorAll('[data-sj-discount-codes]').forEach(container => {
+      container.replaceChildren();
+      discountCodes(cart).forEach(code => {
+        const button = document.createElement('button');
+        button.type = 'button'; button.dataset.sjDiscountRemove = code;
+        button.textContent = `${code} ×`; button.setAttribute('aria-label', `Remove discount ${code}`);
+        container.append(button);
+      });
+    });
+  };
+  const updateDiscount = async (trigger, remove = false) => {
+    if (cartBusy) return;
+    const input = trigger.closest('.sj-cart-option')?.querySelector('[data-sj-discount-input]');
+    const code = (remove ? trigger.dataset.sjDiscountRemove : input?.value || '').trim().toUpperCase();
+    if (!code) { optionMessage('[data-sj-discount-status]', 'Enter a discount code.'); input?.focus(); return; }
+    setCartBusy(true);
+    let message = '';
+    try {
+      await persistNote();
+      const current = await fetch(route('cart.js'), { headers: { Accept: 'application/json' }, cache: 'no-store' }).then(readJSON);
+      const codes = discountCodes(current).filter(existing => existing !== code);
+      if (!remove) codes.push(code);
+      const updated = await fetch(route('cart/update.js'), { method: 'POST', headers: { 'Content-Type': 'application/json', Accept: 'application/json' }, body: JSON.stringify({ discount: codes.join(',') }) }).then(readJSON);
+      await refreshCart();
+      renderDiscountCodes(updated);
+      const applied = discountCodes(updated).includes(code);
+      message = remove ? (applied ? 'This discount could not be removed. Please try again.' : 'Discount removed.') : applied ? 'Discount applied.' : 'This code is not valid for the items in your cart. Check the code and its requirements.';
+      if (!remove && applied) document.querySelectorAll('[data-sj-discount-input]').forEach(node => { node.value = ''; });
+    } catch (error) {
+      message = error.message || 'We could not update your discount. Please try again.';
+    } finally {
+      setCartBusy(false);
+      document.querySelectorAll('[data-sj-cart-disclosure="discount"]').forEach(node => { node.open = true; });
+      optionMessage('[data-sj-discount-status]', message);
+      const scope = document.querySelector('#sj-cart-drawer[open]') || document.querySelector('[data-sj-cart-section]');
+      scope?.querySelector('[data-sj-discount-input]')?.focus();
+    }
+  };
   const dialogTriggers = new WeakMap();
   const checkoutStates = new WeakMap();
   const checkoutItems = form => {
@@ -136,6 +204,11 @@
     url.hash = '';
     url.searchParams.set('sections', ids.join(','));
     const focus = saveCartFocus();
+    const optionStates = [drawer, page].filter(Boolean).map(scope => ({
+      drawer: scope === drawer,
+      open: [...scope.querySelectorAll('[data-sj-cart-disclosure][open]')].map(node => node.dataset.sjCartDisclosure),
+      code: scope.querySelector('[data-sj-discount-input]')?.value || ''
+    }));
     const [cartResult, sectionResult] = await Promise.allSettled([
       fetch(route('cart.js'), { headers: { Accept: 'application/json' }, cache: 'no-store' }).then(readJSON),
       // Shopify resource pages return resource JSON instead of sections when Accept is application/json.
@@ -157,10 +230,18 @@
     }
     if (cartResult.status === 'fulfilled') {
       const cart = cartResult.value;
+      renderDiscountCodes(cart);
       document.querySelectorAll('[data-sj-cart-count]').forEach(node => { node.textContent = cart.item_count; });
       document.dispatchEvent(new CustomEvent('sj:cart-updated', { detail: { cart } }));
     }
     initialize();
+    for (const state of optionStates) {
+      const scope = document.querySelector(state.drawer ? '#sj-cart-drawer' : '[data-sj-cart-section]');
+      scope?.querySelectorAll('[data-sj-cart-disclosure]').forEach(node => { node.open = state.open.includes(node.dataset.sjCartDisclosure); });
+      const input = scope?.querySelector('[data-sj-discount-input]');
+      if (input) input.value = state.code;
+    }
+    if (noteDraft !== undefined) document.querySelectorAll('[data-sj-cart-note]').forEach(node => { node.value = noteDraft; });
     restoreCartFocus(focus);
     if (!updated && ids.length) throw new Error('Your bag has changed, but we couldn’t refresh this view. Open the bag page to see the latest details.');
     if (cartResult.status === 'rejected') throw cartResult.reason;
@@ -170,7 +251,7 @@
     cartBusy = busy;
     document.querySelectorAll('[data-sj-cart-form]').forEach(form => {
       form.setAttribute('aria-busy', String(busy));
-      form.querySelectorAll('button, input').forEach(node => {
+      form.querySelectorAll('button, input, textarea').forEach(node => {
         if (busy) { node.dataset.sjPreviousDisabled = String(node.disabled); node.disabled = true; }
         else { node.disabled = node.dataset.sjPreviousDisabled === 'true'; delete node.dataset.sjPreviousDisabled; }
       });
@@ -186,6 +267,7 @@
     cartError('');
     let mutationSucceeded = false;
     try {
+      await persistNote();
       await fetch(route('cart/change.js'), { method: 'POST', headers: { 'Content-Type': 'application/json', Accept: 'application/json' }, body: JSON.stringify({ id: key, quantity }) }).then(readJSON);
       mutationSucceeded = true;
       await refreshCart();
@@ -209,6 +291,7 @@
     if (button) { button.disabled = true; button.textContent = 'Adding…'; }
     let added = false;
     try {
+      await persistNote();
       await fetch(route('cart/add.js'), { method: 'POST', headers: { Accept: 'application/json' }, body: formData }).then(readJSON);
       added = true;
       await refreshCart();
@@ -218,7 +301,8 @@
     } catch (error) {
       if (!added) { try { await refreshCart(); } catch {} }
       const message = added ? 'Added to your bag. Open the bag page to review it and checkout.' : error.name === 'TypeError' ? 'We couldn’t confirm the update. Check your bag before trying again.' : error.message || 'We couldn’t confirm the update. Check your bag before trying again.';
-      if (errorNode) errorNode.textContent = message;
+      if (errorNode?.isConnected) errorNode.textContent = message;
+      else cartError(message);
       announce(message);
       if (added) window.location.assign(route('cart'));
     } finally {
@@ -232,6 +316,11 @@
   document.addEventListener('click', async event => {
     const target = event.target.closest('button, a');
     if (!target || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
+    if (target.matches('[data-sj-discount-apply], [data-sj-discount-remove]')) {
+      event.preventDefault();
+      await updateDiscount(target, target.matches('[data-sj-discount-remove]'));
+      return;
+    }
     if (target.matches('[data-sj-open-cart]')) {
       if (!document.querySelector('#sj-cart-drawer')?.showModal) return;
       event.preventDefault();
@@ -259,9 +348,34 @@
     const input = event.target.closest('[data-sj-cart-quantity]');
     if (input && input.reportValidity()) mutateCart(input.dataset.lineKey, Number(input.value));
   });
+  document.addEventListener('input', event => {
+    if (!event.target.matches('[data-sj-cart-note]')) return;
+    savedNote ??= event.target.defaultValue;
+    noteDraft = event.target.value;
+    document.querySelectorAll('[data-sj-cart-note]').forEach(node => { if (node !== event.target) node.value = noteDraft; });
+    optionMessage('[data-sj-note-status]', 'Unsaved instructions…');
+    clearTimeout(noteTimer);
+    noteTimer = setTimeout(saveNoteWhenIdle, 700);
+  });
+  document.addEventListener('keydown', event => {
+    if (event.key !== 'Enter' || !event.target.matches('[data-sj-discount-input]')) return;
+    event.preventDefault();
+    event.target.closest('.sj-cart-option').querySelector('[data-sj-discount-apply]').click();
+  });
   window.addEventListener('pageshow', () => document.querySelectorAll('[data-sj-checkout-form]').forEach(resetCheckout));
-  document.addEventListener('submit', event => {
+  document.addEventListener('submit', async event => {
     const form = event.target;
+    if (form.matches('[data-sj-cart-form]') && event.submitter?.name === 'checkout' && noteIsDirty()) {
+      event.preventDefault();
+      if (cartBusy) return;
+      setCartBusy(true);
+      let saved = false;
+      try { await persistNote(); saved = true; }
+      catch (error) { cartError(error.message || 'Save your instructions before checking out.'); }
+      finally { setCartBusy(false); }
+      if (saved) form.requestSubmit(event.submitter);
+      return;
+    }
     if (form.matches('[data-sj-checkout-form]')) {
       event.preventDefault();
       startCheckout(form, event.submitter);

@@ -1,0 +1,44 @@
+[
+  {
+    "slug": "mojito-metallique",
+    "original": "C:\\Users\\lhemy\\.codex\\generated_images\\01a0d411-cfa8-7350-8079-d16afdd9c6dd\\exec-51828697-a421-4364-9868-edb41f9ad682.png",
+    "selected": "C:\\Users\\lhemy\\.codex\\generated_images\\01a0d411-cfa8-7350-8079-d16afdd9c6dd\\exec-ea569937-085c-4fa4-a1e5-c3ffa899809a.png",
+    "photo": "photos/mojito-metallique.png",
+    "final": "final/01-mojito-metallique-personality-1080x1350.png"
+  },
+  {
+    "slug": "amber-oud-silk",
+    "original": "C:\\Users\\lhemy\\.codex\\generated_images\\01a0d411-cfa8-7350-8079-d16afdd9c6dd\\exec-39f903a1-3666-4367-a4f1-204037ac0624.png",
+    "selected": "C:\\Users\\lhemy\\.codex\\generated_images\\01a0d411-cfa8-7350-8079-d16afdd9c6dd\\exec-39f903a1-3666-4367-a4f1-204037ac0624.png",
+    "photo": "photos/amber-oud-silk.png",
+    "final": "final/02-amber-oud-silk-personality-1080x1350.png"
+  },
+  {
+    "slug": "mistened-narcissus",
+    "original": "C:\\Users\\lhemy\\.codex\\generated_images\\01a0d411-cfa8-7350-8079-d16afdd9c6dd\\exec-6bb8cee5-629f-4616-adf1-992b2846bca6.png",
+    "selected": "C:\\Users\\lhemy\\.codex\\generated_images\\01a0d411-cfa8-7350-8079-d16afdd9c6dd\\exec-b5112a6f-c0fc-4b5d-9fb9-1022e64ca97d.png",
+    "photo": "photos/mistened-narcissus.png",
+    "final": "final/03-mistened-narcissus-personality-1080x1350.png"
+  },
+  {
+    "slug": "charme-envoutant",
+    "original": "C:\\Users\\lhemy\\.codex\\generated_images\\01a0d411-cfa8-7350-8079-d16afdd9c6dd\\exec-b6ed75ba-6a28-496b-a7e0-690c3f4b7016.png",
+    "selected": "C:\\Users\\lhemy\\.codex\\generated_images\\01a0d411-cfa8-7350-8079-d16afdd9c6dd\\exec-b6ed75ba-6a28-496b-a7e0-690c3f4b7016.png",
+    "photo": "photos/charme-envoutant.png",
+    "final": "final/04-charme-envoutant-personality-1080x1350.png"
+  },
+  {
+    "slug": "oud-mirage",
+    "original": "C:\\Users\\lhemy\\.codex\\generated_images\\01a0d411-cfa8-7350-8079-d16afdd9c6dd\\exec-c202efed-1c36-4a8d-9852-55a9bfa81dd1.png",
+    "selected": "C:\\Users\\lhemy\\.codex\\generated_images\\01a0d411-cfa8-7350-8079-d16afdd9c6dd\\exec-c202efed-1c36-4a8d-9852-55a9bfa81dd1.png",
+    "photo": "photos/oud-mirage.png",
+    "final": "final/05-oud-mirage-personality-1080x1350.png"
+  },
+  {
+    "slug": "rtulle-and-satin",
+    "original": "C:\\Users\\lhemy\\.codex\\generated_images\\01a0d411-cfa8-7350-8079-d16afdd9c6dd\\exec-9c1e4429-68b8-463a-84ae-845df28dd95a.png",
+    "selected": "C:\\Users\\lhemy\\.codex\\generated_images\\01a0d411-cfa8-7350-8079-d16afdd9c6dd\\exec-9c1e4429-68b8-463a-84ae-845df28dd95a.png",
+    "photo": "photos/rtulle-and-satin.png",
+    "final": "final/06-rtulle-and-satin-personality-1080x1350.png"
+  }
+]

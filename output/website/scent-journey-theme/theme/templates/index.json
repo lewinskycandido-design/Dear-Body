@@ -1,9 +1,5 @@
 {
   "sections": {
-    "home_order": {
-      "type": "sj-home-order",
-      "settings": {}
-    },
     "hero": {
       "type": "sj-home-hero",
       "settings": {}
@@ -87,7 +83,6 @@
     "collectible",
     "free_shipping",
     "doorway",
-    "sample_reviews",
-    "home_order"
+    "sample_reviews"
   ]
 }

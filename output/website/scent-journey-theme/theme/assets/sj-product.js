@@ -242,7 +242,7 @@
       }
       this.querySelector('[data-sj-stock]').textContent = available ? 'Available' : 'Sold out';
       this.addButton.disabled = checkoutPending || !available;
-      this.querySelector('[data-sj-add-label]').textContent = checkoutPending ? 'Opening order form…' : available ? 'Check out' : 'Sold out';
+      this.querySelector('[data-sj-add-label]').textContent = checkoutPending ? 'Opening order form…' : available ? 'Add to cart' : 'Sold out';
       if (this.orderOpen) {
         this.orderOpen.disabled = checkoutPending || !available;
         const openLabel = this.orderOpen.querySelector('[data-sj-product-order-open-label]');
@@ -251,7 +251,7 @@
       const stickyButton = this.querySelector('[data-sj-sticky-add]');
       if (stickyButton) {
         stickyButton.disabled = !available;
-        stickyButton.textContent = available ? 'Check out' : 'Sold out';
+        stickyButton.textContent = available ? 'Add to cart' : 'Sold out';
       }
       const express = this.querySelector('[data-sj-express]');
       if (express) express.hidden = !available;

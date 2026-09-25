@@ -26,6 +26,8 @@
   endif
 -%}
 {%- case context -%}
+  {%- when 'cart' -%}
+    <span class="sj-price"><span class="sj-price__current"><span class="sj-visually-hidden">Unit price </span>{{ line_item.final_price | money }}</span>{% if regular_price > line_item.final_price %}<s class="sj-price__regular"><span class="sj-visually-hidden">Regular price </span>{{ regular_price | money }}</s>{% elsif line_item.original_price > line_item.final_price %}<s class="sj-price__regular">{{ line_item.original_price | money }}</s>{% endif %}</span>
   {%- when 'compare' -%}
     {%- if regular_price > selling_price -%}{{ regular_price | money_with_currency }}{%- endif -%}
   {%- when 'savings' -%}

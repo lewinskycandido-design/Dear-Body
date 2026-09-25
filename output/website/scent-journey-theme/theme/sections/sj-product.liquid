@@ -153,10 +153,10 @@
       </div>
       {% render 'sj-rating-summary', product: product %}
       <div class="sj-purchase-offer">{% render 'sj-shipping-offer', variant: 'compact', url: shipping_page_url %}</div>
-      <form method="get" action="{{ routes.cart_url }}/{{ current_variant.id }}:{{ checkout_initial_quantity }}" id="{{ product_form_id }}" data-sj-checkout-form data-sj-checkout-base="{{ routes.cart_url }}">
+      <form method="post" action="{{ routes.cart_add_url }}" id="{{ product_form_id }}" data-sj-product-form>
         <div class="sj-product__variant-field" {% if product.has_only_default_variant %}hidden{% endif %}>
           <label for="ProductVariant-{{ section.id }}">{% if product.options.size == 1 %}{{ product.options.first | escape }}{% else %}Choose your fragrance{% endif %}</label>
-          <select id="ProductVariant-{{ section.id }}" data-sj-variant disabled>
+          <select id="ProductVariant-{{ section.id }}" name="id" data-sj-variant>
             {% for variant in product.variants %}
               {% capture variant_compare %}{% render 'sj-price', product: product, variant: variant, context: 'compare' %}{% endcapture %}
               {% capture variant_savings %}{% render 'sj-price', product: product, variant: variant, context: 'savings' %}{% endcapture %}
@@ -165,77 +165,9 @@
             {% endfor %}
           </select>
         </div>
-        <button class="sj-button sj-product__order-open" type="button" data-sj-product-order-open aria-controls="ProductOrder-{{ section.id }}" aria-expanded="false" hidden {% unless current_variant.available %}disabled{% endunless %}><span data-sj-product-order-open-label>{% if current_variant.available %}Add to order{% else %}Sold out{% endif %}</span></button>
-        <p class="sj-product__order-instructions"><strong>How to order:</strong> Select <strong>Add to order</strong> and choose your quantities. Then select <strong>Check out</strong> to enter your delivery details and place your cash-on-delivery order in the popup.</p>
-        <div id="ProductOrder-{{ section.id }}" class="sj-product__order-panel" data-sj-product-order-panel>
-          <h3 class="sj-product__order-heading" data-sj-product-order-heading tabindex="-1">Your order</h3>
-          <noscript><p class="sj-product__checkout-note">This checkout contains {{ checkout_initial_quantity }} {% if checkout_initial_quantity == 1 %}bottle{% else %}bottles{% endif %} of this scent. Review your order in Shopify checkout.</p></noscript>
-          <div class="sj-product__quantity-field" data-sj-checkout-quantity-field hidden>
-            <label for="OrderQuantity-{{ section.id }}">Quantity</label>
-            <div class="sj-product__quantity-controls">
-              <button type="button" data-sj-quantity-change="-1" data-sj-quantity-for="main" aria-label="Decrease quantity" disabled>{% render 'sj-icon', name: 'minus' %}</button>
-              <input id="OrderQuantity-{{ section.id }}" data-sj-checkout-quantity type="number" inputmode="numeric" min="{{ checkout_initial_quantity }}" step="{{ current_variant.quantity_rule.increment | default: 1 }}" {% if current_variant.quantity_rule.max != blank %}max="{{ current_variant.quantity_rule.max }}"{% endif %} value="{{ checkout_initial_quantity }}" aria-describedby="OrderQuantityRules-{{ section.id }}" required disabled>
-              <button type="button" data-sj-quantity-change="1" data-sj-quantity-for="main" aria-label="Increase quantity" disabled>{% render 'sj-icon', name: 'plus' %}</button>
-            </div>
-            <p class="sj-product__quantity-rules" id="OrderQuantityRules-{{ section.id }}" data-sj-quantity-rules></p>
-          </div>
-        <div class="sj-product__second-scent" data-sj-checkout-second-field hidden>
-          <label for="SecondScent-{{ section.id }}">Add a second scent <span>(optional)</span></label>
-          <p id="SecondScentHelp-{{ section.id }}">Two bottles, free shipping. Choose another scent or another of your favourite.</p>
-          <select id="SecondScent-{{ section.id }}" data-sj-checkout-second aria-describedby="SecondScentHelp-{{ section.id }}" disabled>
-            <option value="">Just this scent</option>
-            {% for scent_handle in second_scent_handles %}
-              {% assign second_product = all_products[scent_handle] %}
-              {% if product.handle == scent_handle %}{% assign second_product = product %}{% endif %}
-              {% if second_product != blank %}
-                {% capture second_prefix %}{% render 'sj-gallery-prefix', product: second_product %}{% endcapture %}
-                {% assign second_prefix = second_prefix | strip %}
-                {% assign second_image = second_product.featured_image | image_url: width: 160 %}
-                {% if second_prefix != blank %}{% assign second_asset = second_prefix | append: '-01-thumb.jpg' %}{% assign second_image = second_asset | asset_url %}{% endif %}
-                {% for second_variant in second_product.variants %}
-                  <option data-image="{{ second_image | escape }}" value="{{ second_variant.id }}" data-available="{{ second_variant.available }}" data-price-cents="{{ second_variant.price }}" data-quantity-min="{{ second_variant.quantity_rule.min | default: 1 }}" data-quantity-step="{{ second_variant.quantity_rule.increment | default: 1 }}" data-quantity-max="{{ second_variant.quantity_rule.max }}" {% unless second_variant.available %}disabled{% endunless %}>{{ second_product.title | escape }}{% unless second_product.has_only_default_variant %} / {{ second_variant.title | escape }}{% endunless %} — {{ second_variant.price | money }}{% unless second_variant.available %} — Sold out{% endunless %}</option>
-                {% endfor %}
-              {% endif %}
-            {% endfor %}
-          </select>
-        </div>
-        <div class="sj-product__quantity-field" data-sj-checkout-second-quantity-field hidden>
-          <label for="SecondOrderQuantity-{{ section.id }}">Second scent quantity</label>
-          <div class="sj-product__quantity-controls">
-            <button type="button" data-sj-quantity-change="-1" data-sj-quantity-for="second" aria-label="Decrease second scent quantity" disabled>{% render 'sj-icon', name: 'minus' %}</button>
-            <input id="SecondOrderQuantity-{{ section.id }}" data-sj-checkout-second-quantity type="number" inputmode="numeric" min="1" step="1" value="1" aria-describedby="SecondOrderQuantityRules-{{ section.id }}" required disabled>
-            <button type="button" data-sj-quantity-change="1" data-sj-quantity-for="second" aria-label="Increase second scent quantity" disabled>{% render 'sj-icon', name: 'plus' %}</button>
-          </div>
-          <p class="sj-product__quantity-rules" id="SecondOrderQuantityRules-{{ section.id }}" data-sj-second-quantity-rules></p>
-        </div>
-        <fieldset class="sj-product__delivery" data-sj-native-delivery>
-          <legend>Delivery address</legend>
-          <input type="hidden" name="checkout[shipping_address][country]" value="Philippines">
-          <p class="sj-product__delivery-country">{% render 'sj-icon', name: 'shipping' %}<span>Shipping to the Philippines</span></p>
-          <div class="sj-product__delivery-fields">
-            <div class="sj-product__delivery-field"><label for="DeliveryFirstName-{{ section.id }}">First name</label><input id="DeliveryFirstName-{{ section.id }}" name="checkout[shipping_address][first_name]" type="text" autocomplete="shipping given-name" required></div>
-            <div class="sj-product__delivery-field"><label for="DeliveryLastName-{{ section.id }}">Last name</label><input id="DeliveryLastName-{{ section.id }}" name="checkout[shipping_address][last_name]" type="text" autocomplete="shipping family-name" required></div>
-            <div class="sj-product__delivery-field sj-product__delivery-field--wide"><label for="DeliveryAddress1-{{ section.id }}">Street address</label><input id="DeliveryAddress1-{{ section.id }}" name="checkout[shipping_address][address1]" type="text" autocomplete="shipping address-line1" required></div>
-            <div class="sj-product__delivery-field sj-product__delivery-field--wide"><label for="DeliveryAddress2-{{ section.id }}">Apartment, unit or building (optional)</label><input id="DeliveryAddress2-{{ section.id }}" name="checkout[shipping_address][address2]" type="text" autocomplete="shipping address-line2"></div>
-            <div class="sj-product__delivery-field"><label for="DeliveryCity-{{ section.id }}">City or municipality</label><input id="DeliveryCity-{{ section.id }}" name="checkout[shipping_address][city]" type="text" autocomplete="shipping address-level2" required></div>
-            <div class="sj-product__delivery-field"><label for="DeliveryProvince-{{ section.id }}">Province</label><input id="DeliveryProvince-{{ section.id }}" name="checkout[shipping_address][province]" type="text" autocomplete="shipping address-level1" required></div>
-            <div class="sj-product__delivery-field"><label for="DeliveryPostalCode-{{ section.id }}">Postal code</label><input id="DeliveryPostalCode-{{ section.id }}" name="checkout[shipping_address][zip]" type="text" autocomplete="shipping postal-code" inputmode="numeric" pattern="[0-9]{4}" maxlength="4" title="Enter a 4-digit postal code" required></div>
-          </div>
-        </fieldset>
-        <div class="sj-product__checkout-summary" data-sj-checkout-summary data-currency="{{ checkout_currency | escape }}" data-single-shipping="8000" aria-live="polite" aria-atomic="true">
-          <dl>
-            <div><dt>Subtotal</dt><dd data-sj-checkout-subtotal>{{ checkout_initial_subtotal | money_with_currency }}</dd></div>
-            <div><dt>Shipping</dt><dd data-sj-checkout-shipping>{% if checkout_initial_shipping == 0 %}Free{% elsif checkout_currency == 'PHP' %}{{ checkout_initial_shipping | money_with_currency }}{% else %}Calculated at checkout{% endif %}</dd></div>
-            <div class="sj-product__checkout-total"><dt>Estimated total</dt><dd data-sj-checkout-total>{% if checkout_initial_shipping == 0 or checkout_currency == 'PHP' %}{{ checkout_initial_subtotal | plus: checkout_initial_shipping | money_with_currency }}{% else %}Confirmed at checkout{% endif %}</dd></div>
-          </dl>
-          <p data-sj-checkout-shipping-message>{% if checkout_initial_shipping == 0 %}Your bottles qualify for free shipping.{% elsif checkout_currency == 'PHP' %}Shipping is ₱80 for one item. Two or more bottles qualify for free shipping.{% else %}Final shipping is confirmed at checkout.{% endif %}</p>
-        </div>
-        <p class="sj-product__checkout-note" id="CheckoutNote-{{ section.id }}" data-sj-checkout-note>Cash on delivery available. Confirm your address, shipping and payment in secure Shopify checkout.</p>
-        <div class="sj-product__buy-row">
-          <button type="submit" class="sj-button sj-product__add" data-sj-add aria-describedby="CheckoutNote-{{ section.id }}" {% unless current_variant.available %}disabled{% endunless %}><span data-sj-add-label>{% if current_variant.available %}Check out{% else %}Sold out{% endif %}</span></button>
-        </div>
-        <p class="sj-product__error" role="alert" data-sj-product-error></p>
-        </div>
+        <div class="sj-product__quantity-field"><label for="CartQuantity-{{ section.id }}">Quantity</label><input id="CartQuantity-{{ section.id }}" name="quantity" type="number" min="{{ checkout_initial_quantity }}" step="{{ current_variant.quantity_rule.increment | default: 1 }}" value="{{ checkout_initial_quantity }}" required><p data-sj-quantity-rules></p></div>
+        <button class="sj-button" type="submit" name="add" data-sj-add {% unless current_variant.available %}disabled{% endunless %}><span data-sj-add-label>{% if current_variant.available %}Add to cart{% else %}Sold out{% endif %}</span></button>
+        <p role="alert" data-sj-product-error></p>
       </form>
       {% if cart.taxes_included %}<p class="sj-product__tax-note">Taxes included.</p>{% endif %}
     </div>

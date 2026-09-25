@@ -1,0 +1,21 @@
+<div class="sj-cart-perfumes">
+  <h3>Add another scent</h3>
+  <details class="sj-scent-picker">
+    <summary>Choose a perfume <span aria-hidden="true">⌄</span></summary>
+    <div class="sj-scent-picker__options">
+      {% for scent in collections.all.products limit: 50 %}
+        {% for variant in scent.variants %}
+          <form action="{{ routes.cart_add_url }}" method="post" data-sj-product-form>
+            <input type="hidden" name="id" value="{{ variant.id }}">
+            <input type="hidden" name="quantity" value="{{ variant.quantity_rule.min | default: 1 }}">
+            <button class="sj-scent-picker__option" type="submit" name="add" {% unless variant.available %}disabled{% endunless %}>
+              {% render 'sj-product-image', product: scent, thumbnail: true, alt: '' %}
+              <span class="sj-scent-picker__copy"><strong>{{ scent.title | escape }}</strong>{% unless scent.has_only_default_variant %}<span>{{ variant.title | escape }}</span>{% endunless %}<span>{{ variant.price | money }}</span><small>{% if variant.available %}Add to cart{% else %}Sold out{% endif %}</small></span>
+            </button>
+            <p role="alert" data-sj-product-error></p>
+          </form>
+        {% endfor %}
+      {% endfor %}
+    </div>
+  </details>
+</div>

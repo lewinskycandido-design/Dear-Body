@@ -117,24 +117,7 @@
         if (description) description.textContent = result.profile.description || '';
         card.querySelector('[data-sj-match-reason]').textContent = result.matches.length ? `Connects with your choices: ${result.matches.join(' · ')}.` : 'Explore its scent story and see what speaks to you.';
         grid.append(card);
-        const buy = document.createElement('button');
-        buy.type = 'button'; buy.className = 'sj-button sj-finder-buy';
-        buy.textContent = original.dataset.variantAvailable === 'true' ? 'Buy now' : 'Sold out';
-        buy.disabled = original.dataset.variantAvailable !== 'true';
-        buy.setAttribute('aria-controls', section.querySelector('[data-sj-order-panel]')?.id || '');
-        const error = document.createElement('p'); error.setAttribute('role', 'alert');
-        buy.addEventListener('click', () => {
-          const order = section.querySelector('[data-sj-finder-order]');
-          error.textContent = '';
-          try {
-            if (!window.SJCollectionOrder?.addItem || !order) throw new Error('The order form is still loading. Please try again.');
-            order.hidden = false;
-            window.SJCollectionOrder.addItem(order.querySelector('[data-sj-order-form]'), original.dataset.variantId);
-            order.scrollIntoView({ block: 'start', behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth' });
-            order.querySelector('[data-sj-order-heading]')?.focus({ preventScroll: true });
-          } catch (issue) { error.textContent = issue.message; }
-        });
-        card.append(buy, error);
+
       });
       const heading = results.querySelector('h2');
       heading.textContent = hasPreferences && ranked.length ? 'MEET YOUR\nSCENT MATCH.' : 'START YOUR\nDISCOVERY.';

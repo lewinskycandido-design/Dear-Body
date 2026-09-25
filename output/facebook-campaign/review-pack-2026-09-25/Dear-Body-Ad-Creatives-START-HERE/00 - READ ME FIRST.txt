@@ -1,0 +1,36 @@
+DEAR BODY — PLANNED AD CREATIVES
+START HERE
+
+HOW TO VIEW THE HTML PREVIEW
+
+1. DOWNLOAD this ZIP to your computer.
+2. EXTRACT THE WHOLE ZIP.
+   Windows: right-click the ZIP > Extract All > Extract.
+   Mac: double-click the ZIP to create the extracted folder.
+3. Open the EXTRACTED folder.
+4. Double-click: 01 - OPEN ADS PREVIEW.html
+   It opens like a normal web page in your browser.
+   If it opens as text, right-click > Open with > Google Chrome or Microsoft Edge.
+
+IMPORTANT: Open the HTML after extracting all files.
+Do not open it directly inside the ZIP or move it away from its folders.
+The folders contain the images and fonts the preview needs.
+No installation, login, or internet connection is needed.
+
+WHAT YOU WILL SEE
+
+- 10 main campaign ads, with scene and script links
+- 6 personality-discovery ads, with captions and scripts
+- Latest redesigned six-scent Facebook cover
+- Facebook profile picture
+- Links to full-size PNG images for download
+
+QUICK IMAGE-ONLY PREVIEW
+
+Open 02 - CAMPAIGN OVERVIEW.png or 03 - PERSONALITY OVERVIEW.png.
+These can be viewed in a normal photo viewer.
+The full-resolution images remain in campaign/final and personality/final.
+The latest cover is in page-assets.
+
+For the clearest HTML review, use a laptop or desktop.
+These are planned creatives; opening this pack does not publish any ads.

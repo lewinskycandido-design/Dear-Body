@@ -1,6 +1,4 @@
 {{ 'sj-finder-cards.css' | asset_url | stylesheet_tag }}
-{{ 'sj-collection-order.css' | asset_url | stylesheet_tag }}
-<script src="{{ 'sj-collection-order.js' | asset_url }}" defer></script>
 {% liquid
   assign finder_collection = section.settings.collection | default: collections.all
   assign configured_count = 0
@@ -46,9 +44,7 @@
     <div class="sj-finder-split__description"><p class="sj-eyebrow">A LITTLE CURIOSITY. A NEW CONNECTION.</p><h1>{{ section.settings.heading | escape | newline_to_br }}</h1><p>{{ section.settings.description | escape }}</p></div>
   </aside>
   </div>
-  <div class="sj-container sj-finder-order" data-sj-finder-order data-sj-collection-order hidden>
-    <div data-sj-order-grid>{% render 'sj-collection-order', home_order: true %}</div>
-  </div>
+
 </section>
 <script src="{{ 'sj-finder.js' | asset_url }}" defer></script>
 {% schema %}

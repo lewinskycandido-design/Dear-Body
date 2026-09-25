@@ -1,0 +1,130 @@
+{
+  "date": "2026-09-25",
+  "outputs": [
+    {
+      "file": "final/01-mojito-metallique-personality-1080x1350.png",
+      "width": 1080,
+      "height": 1350,
+      "sha256": "9df66883ee17bf7807c4d6df0f782a289c90142a71d13376eb8ee795932d6c94"
+    },
+    {
+      "file": "final/02-amber-oud-silk-personality-1080x1350.png",
+      "width": 1080,
+      "height": 1350,
+      "sha256": "a99eb47b21ef35c0edc289d906aec0cc7ae55cc3bbbc65d342ad02c4b78c3e9a"
+    },
+    {
+      "file": "final/03-mistened-narcissus-personality-1080x1350.png",
+      "width": 1080,
+      "height": 1350,
+      "sha256": "b66961151b6c93f07aed223cc4aad7eb4eba8ea3d6f73100a2e08bab15548eee"
+    },
+    {
+      "file": "final/04-charme-envoutant-personality-1080x1350.png",
+      "width": 1080,
+      "height": 1350,
+      "sha256": "28b598e573bfd80b4abb398bc21b8d8c85db2b21de86731ed727a6d47ae7e329"
+    },
+    {
+      "file": "final/05-oud-mirage-personality-1080x1350.png",
+      "width": 1080,
+      "height": 1350,
+      "sha256": "c47652014493cb1f0ca239ba89064c49e7641587c0a885633bd58fd94413645e"
+    },
+    {
+      "file": "final/06-rtulle-and-satin-personality-1080x1350.png",
+      "width": 1080,
+      "height": 1350,
+      "sha256": "b410ea102786ff31be99d5c17c27868e38696b597596b947282378b19aab16e1"
+    }
+  ],
+  "checks": [
+    {
+      "slug": "mojito-metallique",
+      "fonts": [
+        true,
+        true
+      ],
+      "text": "FREE SHIPPING ON 2+ ITEMS\nCASH ON DELIVERY\nTHE EASYGOING\nSPIRIT.\nFRIENDLY\nEASYGOING\nLIGHTHEARTED\n\nEXPLORE THE SCENT PERSONALITIES\n\nMOJITO METALLIQUE\n\nWhich scent fits your personality?\n\nFIND YOUR SCENT\n↗",
+      "brokenImages": 0,
+      "overflow": [],
+      "introBottom": 298.8125,
+      "footerTop": 961.953125
+    },
+    {
+      "slug": "amber-oud-silk",
+      "fonts": [
+        true,
+        true
+      ],
+      "text": "FREE SHIPPING ON 2+ ITEMS\nCASH ON DELIVERY\nBOLD, WITH\nA WARM SIDE.\nBOLD\nWARM\nSELF-ASSURED\n\nEXPLORE THE SCENT PERSONALITIES\n\nAMBER OUD SILK\n\nWhich scent fits your personality?\n\nFIND YOUR SCENT\n↗",
+      "brokenImages": 0,
+      "overflow": [],
+      "introBottom": 325.78125,
+      "footerTop": 961.953125
+    },
+    {
+      "slug": "mistened-narcissus",
+      "fonts": [
+        true,
+        true
+      ],
+      "text": "FREE SHIPPING ON 2+ ITEMS\nCASH ON DELIVERY\nA LITTLE JOY.\nA LOT OF PLAY.\nCHEERFUL\nPLAYFUL\nOPENHEARTED\n\nEXPLORE THE SCENT PERSONALITIES\n\nMISTENED NARCISSUS\n\nWhich scent fits your personality?\n\nFIND YOUR SCENT\n↗",
+      "brokenImages": 0,
+      "overflow": [],
+      "introBottom": 317.34375,
+      "footerTop": 961.953125
+    },
+    {
+      "slug": "charme-envoutant",
+      "fonts": [
+        true,
+        true
+      ],
+      "text": "FREE SHIPPING ON 2+ ITEMS\nCASH ON DELIVERY\nEXPRESSIVE\nBY NATURE.\nEXPRESSIVE\nPASSIONATE\nCONFIDENT\n\nEXPLORE THE SCENT PERSONALITIES\n\nCHARME ENVOÛTANT\n\nWhich scent fits your personality?\n\nFIND YOUR SCENT\n↗",
+      "brokenImages": 0,
+      "overflow": [],
+      "introBottom": 325.78125,
+      "footerTop": 961.953125
+    },
+    {
+      "slug": "oud-mirage",
+      "fonts": [
+        true,
+        true
+      ],
+      "text": "FREE SHIPPING ON 2+ ITEMS\nCASH ON DELIVERY\nYOUR OWN\nPOINT OF VIEW.\nINDEPENDENT\nREFLECTIVE\nSELF-ASSURED\n\nEXPLORE THE SCENT PERSONALITIES\n\nOUD MIRAGE\n\nWhich scent fits your personality?\n\nFIND YOUR SCENT\n↗",
+      "brokenImages": 0,
+      "overflow": [],
+      "introBottom": 317.34375,
+      "footerTop": 961.953125
+    },
+    {
+      "slug": "rtulle-and-satin",
+      "fonts": [
+        true,
+        true
+      ],
+      "text": "FREE SHIPPING ON 2+ ITEMS\nCASH ON DELIVERY\nIMAGINATION,\nWITH WARMTH.\nGENTLE\nIMAGINATIVE\nLIGHTHEARTED\n\nEXPLORE THE SCENT PERSONALITIES\n\nRTULLE & SATIN\n\nWhich scent fits your personality?\n\nFIND YOUR SCENT\n↗",
+      "brokenImages": 0,
+      "overflow": [],
+      "introBottom": 325.78125,
+      "footerTop": 961.953125
+    },
+    {
+      "gallery": true,
+      "width": 1280,
+      "scrollWidth": 1280,
+      "broken": 0
+    },
+    {
+      "gallery": true,
+      "width": 390,
+      "scrollWidth": 390,
+      "broken": 0
+    }
+  ],
+  "cta": "FIND YOUR SCENT",
+  "destination": "/pages/scent-finder",
+  "builtInImagegen": true
+}

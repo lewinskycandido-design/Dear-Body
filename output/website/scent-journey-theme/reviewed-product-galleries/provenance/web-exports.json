@@ -103,11 +103,11 @@
     "frame": 3,
     "position": 10,
     "source": "reviewed-product-galleries/mojito-metallique/final-web/03.jpg",
-    "source_sha256": "cdd50e8b1343651237a4c218d43e8f27d2c50ec5374491cf97ecdf8dc71fce1c",
-    "original_source": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/mojito-metallique/generated-v01/final/03-packaging-reveal.png",
-    "original_sha256": "a781b6fcb1009f3a1a09b4e43c649e06af6684a5adf308fd91f57b5a4a39a39a",
+    "source_sha256": "819e169dfa5b9818c5d6cdfe612901626730ccf0378ee8f3f4d2988e31ac5629",
+    "original_source": "C:/Users/lhemy/OneDrive/Documents/Dear Body/output/product-listing/mojito-metallique/generated-v01/final/03-packaging-reveal.png",
+    "original_sha256": "a84698dba03f693debc3460d9d0df178e358333c50296ddfdc62bf46504168ac",
     "review_scent": "mojito-metallique",
-    "bytes": 386434
+    "bytes": 300165
   },
   {
     "handle": "mojito-metallique",
@@ -235,11 +235,11 @@
     "frame": 3,
     "position": 10,
     "source": "reviewed-product-galleries/amber-oud-silk/final-web/03.jpg",
-    "source_sha256": "29b2487ec63309f3d861fbbecd82f6709e308dc22c6c8d827d4cb13f3bdb509e",
-    "original_source": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/amber-oud-silk/generated-v01/final/03-packaging-reveal.png",
-    "original_sha256": "a2af0cc05c85078740d3ffd7ef488a6cd226a602c96e468b04f0fc0518881243",
+    "source_sha256": "00fd00b3afb2bc7c97eddbe74aec85db6de612339475e804e52b07e5435097e0",
+    "original_source": "C:/Users/lhemy/OneDrive/Documents/Dear Body/output/product-listing/amber-oud-silk/generated-v01/final/03-packaging-reveal.png",
+    "original_sha256": "5a62d57c5a6bf5cc64d97e1f952249f60a0441a8fecce956892d162cff84f9e9",
     "review_scent": "amber-oud-silk",
-    "bytes": 400758
+    "bytes": 305988
   },
   {
     "handle": "amber-oud-silk",
@@ -367,11 +367,11 @@
     "frame": 3,
     "position": 10,
     "source": "reviewed-product-galleries/mistened-narcissus/final-web/03.jpg",
-    "source_sha256": "fab83d8081265b83c2f5671cba784b77fcfcde68dad37bc369f5635c6c9141ac",
-    "original_source": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/mistened-narcissus/generated-v01/final/03-packaging-reveal.png",
-    "original_sha256": "d0ab491b1bddb44f3aa9f531a655ca53a8b0464926176ad98bc48814f292ff63",
+    "source_sha256": "d1ae7bc4b28e72a4e117fff41ac03038f06b4fdfa7e2466bd971ffea1b0ecd22",
+    "original_source": "C:/Users/lhemy/OneDrive/Documents/Dear Body/output/product-listing/mistened-narcissus/generated-v01/final/03-packaging-reveal.png",
+    "original_sha256": "45eceb9ed51c40356d5e309e5f8823c714ef0359f575e797e42292951a8fb9d7",
     "review_scent": "mistened-narcissus",
-    "bytes": 372362
+    "bytes": 294326
   },
   {
     "handle": "mistened-narcissus",
@@ -499,11 +499,11 @@
     "frame": 3,
     "position": 10,
     "source": "reviewed-product-galleries/charme-envoutant/final-web/03.jpg",
-    "source_sha256": "564edf97e29d346a9c2d46988e95643e0438625ba0fc51d766848b1c042f91aa",
-    "original_source": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/charme-envoutant/generated-v01/final/03-packaging-reveal.png",
-    "original_sha256": "b462e4db2e8e1d1280a11a256808d2e63a45454b8ab9aca1de50eb4d14c67f86",
+    "source_sha256": "08be8eb4a13d8d001c54e3babcf1807bad43712c21d3bd09bf20969d2f572222",
+    "original_source": "C:/Users/lhemy/OneDrive/Documents/Dear Body/output/product-listing/charme-envoutant/generated-v01/final/03-packaging-reveal.png",
+    "original_sha256": "fab9b4492662f304b84e4c24d5367e9f36a730aa3ee494a7df552e023a3d25b6",
     "review_scent": "charme-envoutant",
-    "bytes": 394767
+    "bytes": 292133
   },
   {
     "handle": "charme-envoutant",
@@ -631,11 +631,11 @@
     "frame": 3,
     "position": 10,
     "source": "reviewed-product-galleries/oud-mirage/final-web/03.jpg",
-    "source_sha256": "14600faa329c959f323fcc43b242e4c01d468a5fbfc8ee7c22a7461cb3c1b179",
-    "original_source": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/oud-mirage/generated-v01/final/03-packaging-reveal.png",
-    "original_sha256": "67dd43b650ea04806dd9343ff114d8bf56e219a9a5442e2bf1f5eda776b23557",
+    "source_sha256": "cd6373bbc75100d500a6efeff3d7beef2ce65cc5f6c634fb795850d6086e0ab6",
+    "original_source": "C:/Users/lhemy/OneDrive/Documents/Dear Body/output/product-listing/oud-mirage/generated-v01/final/03-packaging-reveal.png",
+    "original_sha256": "c572539722c8db23dd016a85e7140020febac4717b730e9e6e7a2fb21f0ec08a",
     "review_scent": "oud-mirage",
-    "bytes": 428806
+    "bytes": 312072
   },
   {
     "handle": "oud-mirage",
@@ -763,11 +763,11 @@
     "frame": 3,
     "position": 10,
     "source": "reviewed-product-galleries/rtulle-satin/final-web/03.jpg",
-    "source_sha256": "7989278c72fda20766294bb11dc8a0879fc08754843bad34e4f2703da0bd5b29",
-    "original_source": "/Users/wetrade/Documents/ChatGPT/Dear Body/output/product-listing/rtulle-and-satin/generated-v01/final/03-packaging-reveal.png",
-    "original_sha256": "a333eefe902f0ac02b914f9c640cf0c138adae298dd654257bdadc4f52f7511b",
+    "source_sha256": "70566b839649001e8a89112b1d73bf061d161cb5bb79cb7f8770c7c93e0ae90a",
+    "original_source": "C:/Users/lhemy/OneDrive/Documents/Dear Body/output/product-listing/rtulle-and-satin/generated-v01/final/03-packaging-reveal.png",
+    "original_sha256": "0445115adc20a7605acfb1103baed480ed50798346babc80dc4d807d778dd54a",
     "review_scent": "rtulle-and-satin",
-    "bytes": 367903
+    "bytes": 261950
   },
   {
     "handle": "rtulle-satin",

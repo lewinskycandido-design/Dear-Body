@@ -1,0 +1,32 @@
+{
+  "dimensions": [
+    1640,
+    720
+  ],
+  "headline": {
+    "format": "png",
+    "width": 678,
+    "height": 90,
+    "channels": 4,
+    "premultiplied": false,
+    "textAutofitDpi": 72,
+    "hasAlpha": true,
+    "size": 18483
+  },
+  "wordmark": {
+    "format": "png",
+    "width": 254,
+    "height": 53,
+    "channels": 4,
+    "premultiplied": true,
+    "hasAlpha": true,
+    "size": 12441
+  },
+  "scents": 6,
+  "font": "C:/Users/lhemy/OneDrive/Documents/Dear Body/output/website/scent-journey-theme/source-assets/fonts/CenzoFlare-Bold/CenzoFlare-Bold.ttf",
+  "copy": [
+    "DEAR BODY",
+    "A SCENT JOURNEY"
+  ],
+  "method": "Built-in image_gen editing followed by official-font typography composition"
+}

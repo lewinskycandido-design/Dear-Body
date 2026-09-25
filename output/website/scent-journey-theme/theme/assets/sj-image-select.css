@@ -11,3 +11,10 @@
 .sj-scent-picker :focus-visible { outline: 2px solid var(--order-edge); outline-offset: -2px; }
 .sj-scent-picker { --order-edge: #1746ad; }
 [data-theme="dark"] .sj-scent-picker { --order-edge: #eaaa3d; }
+
+.sj-cart-perfumes { margin: 20px 0 28px; }
+.sj-cart-perfumes h3 { margin: 0 0 12px; }
+.sj-cart-perfumes form { margin: 0; }
+.sj-cart-perfumes [data-sj-product-error]:empty { display: none; }
+.sj-cart-perfumes button:disabled { opacity: .5; cursor: not-allowed; }
+.sj-product-card__order { margin-top: 16px; }
